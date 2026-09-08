@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "DFPXV9",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Development of a QGIS based topographic data management system",
+    "description": "The National Land Survey of Finland (NLS) is rebuilding its topographic data management system using open-source components. The plan is to replace the current production system after the first phase of development in 2025.\r\n\r\nThe goals of the renewal are:\r\n- Utilization of new technologies and standards\r\n- Advancement in the transition from producing map data to producing spatial data\r\n- Enhancement of the quality and timeliness of data\r\n- Enhancement of the production through automation and better tools\r\n\r\nIn this talk, I will talk about the status of the development, elaborate the main objectives of the first phase and introduce the published OS components so far. In the first two years of the development the focus was on concurrent data management by 100 operators and on the integration of the stereo mapping tools (proprietary). In addition, we have designed and implemented OS quality assurance tools to ensure the logical consistency of the features concerning the attributes, the geometries, and the topology. These tools also include a topological rule set for topographic data management in PostgreSQL. \r\n\r\nRecently, we\u2019ve added tools for managing the elevations of the features. Going forward, we plan to develop a custom feature search that combines data from multiple databases, layers and can also be adjusted for multiple attributes to search for.  \r\nSome of our mapping requirements also necessitate field mapping, and we\u2019re also working on integrating our system with QField. Our field mapping requirements are quite specific. Our operators need to be able to use large quantities of data while also being offline in the field. \r\n\r\nTo aid development, we\u2019ve published plugins for operators, streamlining digitization workflows. Furthermore, we\u2019ve contributed development tools for QGIS plugin developers. While the OS publications of service and client components for concurrent data management aren\u2019t yet on our roadmap, they remain as our final goal.",
+    "start_datetime": "2024-07-03T09:00:00Z",
+    "end_datetime": "2024-07-03T09:30:00Z",
+    "talk:code": "DFPXV9",
+    "talk:guid": "ea91d39f-03e2-5ecd-a8bc-7e10f22e290e",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "QFieldCloud (246)",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "Y9XNXB",
+        "name": "Olli Rantanen",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/Y9XNXB/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-03T09:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/DFPXV9/",
+      "title": "Development of a QGIS based topographic data management system"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/DFPXV9/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/Y9XNXB/",
+      "title": "Olli Rantanen"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/DFPXV9/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/6gw5xYKiAQYZZLrqUK1u9D",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Development of a QGIS based topographic data management system",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=axcVEyhVW_4",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Development of a QGIS based topographic data management system",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

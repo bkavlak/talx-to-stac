@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "VWZ8A7",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "A streamlined GIS interface for Citizen Science activities: QGIS Light",
+    "description": "Citizen science has become a powerful approach for engaging the public in scientific research, particularly in environmental monitoring [1]. Activities such as tracking air quality, mapping biodiversity, and assessing water quality benefit significantly from citizens going outdoors to collect data. In this regard, geospatial tools are essential for ensuring precise and efficient data collection [2]. Beyond data collection, geospatial tools also enable effective data visualization and exploratory data analysis, allowing users to overlay different datasets, revealing spatial relationships and trends that may not be immediately apparent. This analytical capability empowers citizens to help generate meaningful insights and support evidence-based policies together with researchers and policymakers [3].\r\n\r\nHowever, one of the main challenges in such activities is making spatial analysis functions easily accessible to non-experts. Many GIS software programs offer powerful features that can support citizen science by allowing users to explore real-world datasets and analyze spatial relationships. But, non-technical users with limited exposure to geospatial software often struggle with complex interfaces and the technical nature of these tools. This is especially the case for elders and young students, who may have limited data literacy or experience with data analysis methods. Tasks like accessing and managing datasets, performing spatial analyses, and visualizing results typically require specialized training and guidance due to the steep learning curves of default user interfaces. Case studies have demonstrated that more accessible interfaces can enable previously underserved groups to participate more actively in citizen science activities [4]. Therefore, developing intuitive and simple interfaces for core GIS functions can lower barriers to spatial data exploration and increase participation from such groups in geo-citizen science initiatives.\r\n\r\nTo reduce this barrier, we developed a simplified user interface for QGIS, the most widely used free and open GIS software, tailored to the specific needs of non-technical users with a focus on citizen science. To achieve this, we began by evaluating all QGIS components and features in detail, considering both functionality and complexity. Based on this assessment, non-essential and duplicate components were removed, and complex features were replaced with simpler alternatives. We also simplified data visualization and processing functionalities to hide technical complexities. Advanced feature groups such as SQL, Z/M, TIN, mesh, tile, curve, GPS, GRASS, and PDAL were hidden from the user. The remaining essential components were reorganized to streamline typical workflows and improve access to frequently used features. The processing toolbox and menus were removed, and all necessary items were made available as tool buttons. The number of toolbars was reduced to two - one for core functions and another for editing. Common functions, such as zooming and selecting, were grouped and made available through dropdown tool buttons to create a compact yet efficient interface. Only the overview and layer panels are made visible by default, with others appearing only when needed. The locations of all components are fixed to ensure a consistent user experience, particularly during training for non-technical users. Lastly, additional features were added to enhance the user experience. Plot functions were replaced with DataPlotly, allowing users to easily change plotting options and access plots directly. Common base maps were made available through QuickMapServices, providing a wide variety of base maps that can be added as layers effortlessly.\r\n\r\nTo provide access to the streamlined user interface and allow users to easily switch between interfaces, QGIS Light was developed as a QGIS plug-in. The plug-in utilizes customization options available in QGIS and, when necessary, interacts directly with the user interface framework (Qt) to enable advanced customizations not natively supported by QGIS. Users can easily adjust the applied simplifications by editing a configuration file to disable specific simplifications or enable new ones. The plug-in is available on the QGIS plug-in repository, making it easy to install through the QGIS plug-in manager. The source code is open access under the GPL 3.0 license [5], and the open-source code repository is hosted on GitHub to facilitate collaboration (https://github.com/ITC-CRIB/qgis-light).\r\n\r\nIn this paper, we share our experience in implementing a practical and intuitive user interface for a powerful FOSS GIS application (QGIS) that can be learned and used quickly without prior technical knowledge. We discuss the design process aimed at simplifying the user interface by describing the user stories that guided this effort (e.g., \"As a user, I want to work with a single map at a time\") and explain how these stories were translated into user interface modifications (e.g., disabling multiple map views). Additionally, we share the details of the usability assessment study of a long list of QGIS components and features. During this study, we identified several issues that hindered a better user experience, such as inconsistent terminology, similar tools with different parameter sets, tools with almost identical names performing different tasks, and tools that could be integrated into others. Our findings suggest that critically reviewing existing user interface elements and streamlining them into a more refined and standardized experience could improve usability in QGIS. This approach could also inform simplification efforts in other GIS software. The paper will also present the details of these identified issues. \r\n\r\nIn conclusion, the primary goal of QGIS Light is to provide a simplified entry point for non-technical individuals to engage in spatial data analysis. While non-technical people are often involved in data collection part of citizen science activities through specialized applications, they are typically excluded from data analysis and evaluation, which is usually handled by experts. By offering a simplified GIS interface, we can make spatial analysis more accessible to such people without sacrificing the software's powerful capabilities. This approach can serve as a stepping stone, allowing users to gradually transition to the standard GIS interface and advanced features, fostering GIS community growth besides participation in citizen science activities. In fact, a simple interface might be useful for anybody that requires core data visualization, editing, and analysis functionality, and can facilitate education, capacity development, and even professional activities.",
+    "start_datetime": "2025-07-16T12:00:00Z",
+    "end_datetime": "2025-07-16T12:30:00Z",
+    "talk:code": "VWZ8A7",
+    "talk:guid": "d4ed6201-7df6-5b4e-ae3e-6b7e463c435c",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Academic track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "PA01 (Quarticle)",
+    "talk:room_capacity": 95,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "WD9TGQ",
+        "name": "Serkan Girgin",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/WD9TGQ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-16T12:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/VWZ8A7/",
+      "title": "A streamlined GIS interface for Citizen Science activities: QGIS Light"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/VWZ8A7/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/WD9TGQ/",
+      "title": "Serkan Girgin"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/VWZ8A7/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/VWZ8A7/resources/20250716-FOSS4GE-QGIS-Light-FINAL_BKWTBLu.pdf",
+      "type": "application/pdf",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/rr7pTErKb43SJmPPZdWuah",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | A streamlined GIS interface for Citizen Science activities: QGIS Light",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=eDSr8Ijl3Pk",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | A streamlined GIS interface for Citizen Science activities: QGIS Light",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "8MZ9XH",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "G3W-SUITE: a framework for publishing and managing QGIS projects as WebGIS services",
+    "description": "G3W-SUITE is a modular, client-server application based on QGIS-Server and Django used for managing and publishing interactive QGIS cartographic projects of various kinds in a independent, simple and fast way.\r\nThe suite has an administration component that is used to setup WebGIS services privileges, editing functions and so on.\r\nThe suite is made up of two main components: G3W-ADMIN (based on Django and Python) as the web administration interface and G3W-CLIENT (based on OpenLayer and Vue) as the cartographic client that communicate through a series of API REST.\r\nThe application, released on GitHub with Mozilla Public Licence 2.0, is compatible with QGIS LTR versions and it is based on strong integration with the QGIS API.\r\n\r\nThis presentation will present how the G3W-suite works, what it can do and some practical examples.\r\n\r\nThe talk, accompanied by examples of application of the features, is dedicated to both developers and users of various levels who want to manage their cartographic infrastructure based on QGIS.",
+    "start_datetime": "2024-12-05T17:30:00Z",
+    "end_datetime": "2024-12-05T18:00:00Z",
+    "talk:code": "8MZ9XH",
+    "talk:guid": "4517032d-566b-543b-ba50-12c511db4b5e",
+    "talk:event": "foss4g-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room V",
+    "talk:room_capacity": 80,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "EU9MUC",
+        "name": "Tudor B\u0103r\u0103scu",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/EU9MUC/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-05T17:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/8MZ9XH/",
+      "title": "G3W-SUITE: a framework for publishing and managing QGIS projects as WebGIS services"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/8MZ9XH/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/EU9MUC/",
+      "title": "Tudor B\u0103r\u0103scu"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/8MZ9XH/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/epSjMW97fVPoZ1N198TVMV",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | G3W-SUITE: a framework for publishing and managing QGIS projects as WebGIS services",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=px2KfbeJq_4",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | G3W-SUITE: a framework for publishing and managing QGIS projects as WebGIS services",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

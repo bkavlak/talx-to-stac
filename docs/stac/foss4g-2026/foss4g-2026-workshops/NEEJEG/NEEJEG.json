@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "NEEJEG",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Estimating risk to earthquakes through open-source tools",
+    "description": "This hands-on workshop empowers participants to assess earthquake risk using freely available data and open-source tools. It covers exposure modeling, vulnerability assessment, hazard integration, and loss estimation for practical risk analysis.\n\nPart 1: Understanding Earthquake Risk (30 minutes) \r\n\r\nBrief introduction to the concept of earthquake risk and its components:\r\n- Exposure: How many people and assets are exposed to risks in a certain area.\r\n- Vulnerability: What is the nature of the buildings/infrastructure, and when do they become risky?\r\n- Hazard: What are the risks for a certain area - for example, Japan has lots of risk. \r\n\r\nPart 2: Data Acquisition and Exposure Modeling (60 minutes) \r\n\r\n- Gather census information: Discuss readily available census data sources, how to access them, and how to use them to build an Open Exposure Model (OXM).\r\n- Download open datasets (OSM, GHSL): Guide participants in downloading relevant datasets like OSM building footprints and the Global Human Settlement Layer (GHSL) for population density. \r\n- Build an aggregated exposure model:  Introduce the Global Dynamic Exposure (GDE) concept and demonstrate how to aggregate OSM and GHSL data to create a basic exposure model.  \r\n     \r\n\r\nPart 3: Vulnerability and Hazard (30 minutes) \r\n\r\n- Explore vulnerability functions: Discuss the concept of vulnerability functions relating building type to damage probability.  Present example vulnerability functions and data sources. \r\n- Download latest and interesting hazard information: Introduce sources for earthquake hazard data (e.g., USGS, GSHAP).\r\n\r\nPart 4: Loss and Risk Estimation (30 minutes)\r\n\r\n- Compute loss estimation: Demonstrate how to combine exposure, vulnerability, and hazard data to estimate potential losses (e.g., expected number of damaged buildings, potential fatalities).\r\n- Check results for provided info: Evaluate the computed loss estimations and compare them to existing data or reported losses from past earthquakes.\r\n\r\nOpen discussion about the risk due to natural hazards, potential measures and policies, and practical implications for the local authorities.",
+    "start_datetime": "2026-08-31T05:00:00Z",
+    "end_datetime": "2026-08-31T08:00:00Z",
+    "talk:code": "NEEJEG",
+    "talk:guid": "9b293924-4229-53a2-b906-f99a0e925f4d",
+    "talk:event": "foss4g-2026-workshop",
+    "talk:type": "Workshop",
+    "talk:language": "en",
+    "talk:room": "606",
+    "talk:room_capacity": 24,
+    "talk:duration_minutes": 180,
+    "talk:speakers": [
+      {
+        "code": "NFG8VH",
+        "name": "Doren Calliku",
+        "url": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/NFG8VH/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-08-31T06:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/NEEJEG/",
+      "title": "Estimating risk to earthquakes through open-source tools"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/NEEJEG/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/NFG8VH/",
+      "title": "Doren Calliku"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/NEEJEG/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-workshops"
+}

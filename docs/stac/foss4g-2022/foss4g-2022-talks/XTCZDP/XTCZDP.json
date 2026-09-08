@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "XTCZDP",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Geofolio: Making Environmental Data Understandable and Accessible for Everyone",
+    "description": "Geofolio is a project aiming to make environmental data understandable and accessible for everyone. Geodata is notoriously difficult to use for non-experts. It often gets hidden away in confusing data portals, and at least some GIS expertise is a common prerequisite to find and download data, extract your area of interest and to do some simple analysis. Geofolio lowers these adoption thresholds by letting users draw an area of interest, and then a factsheet with text summaries, maps, and charts is generated automatically from various open access geodatasets. The factsheets contain information on various environmental themes such as topography, land use, hydrology, climate, and agriculture. Users can download the source data, thereby providing an easy step up for further investigation and learning using open source GIS applications such as QGIS.\r\n\r\nGeofolio makes extensive use of open source software for geospatial applications. The front-end and factsheets use the Leaflet mapping library, and the back-end and processing framework depends on GDAL and Shapely. Geodata is stored for analysis and visualization using PostGIS and Cloud-Optimized GeoTIFF files. The actual data processing takes place \"on-the-fly\" using GDAL-enabled AWS Lambda functions.",
+    "start_datetime": "2022-08-24T14:45:00Z",
+    "end_datetime": "2022-08-24T15:15:00Z",
+    "talk:code": "XTCZDP",
+    "talk:guid": "80c4531b-ee47-5084-8f57-e3762ca1eb65",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Open Data",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Modulo 0",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "EEWENV",
+        "name": "Koko Alberti",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/EEWENV/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T15:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/XTCZDP/",
+      "title": "Geofolio: Making Environmental Data Understandable and Accessible for Everyone"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/XTCZDP/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/EEWENV/",
+      "title": "Koko Alberti"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/XTCZDP/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/8adM35LnbcpNShMRFUE8tb",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Geofolio: Making Environmental Data Understandable and Accessible for Everyone",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=otpO3gn3les",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Geofolio: Making Environmental Data Understandable and Accessible for Everyone",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "CY9BMD",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "2D/3D soil consumption tracking in a marble quarry district",
+    "description": "Complex quarry districts like Apuan Alps\u2019 marble quarries require remotely sensed high resolution data for soil consumption monitoring over the years: extractive activities lead to environmental challenges that require accurate environmental controls issued by the Tuscan Regional Environmental Agency (ARPAT). The Regional Environmental Information System office (SIRA) over the last 5 and 10 years has developed methods and techniques suitable for both 2D and 3D soil consumption monitoring by using free aerial and satellite images and Open Source Geo-spatial Software for data processing and data dissemination useful in controls\u2019 planning and management. Aerial images and LiDAR acquisition, satellite data, RPAS acquisitions have been tested in order to evaluate their suitability in deriving both 2D and 3D indicators with proper resolution to address required spatial-temporal constraints, i.e. yearly monitoring of high resolution changes (spatial resolution between 50cm and 1m).\r\nDue to the size of the Area of Interest (AOI) of the Carrara basins, up to 2.5km x 2.5km, stereo satellite and aerial images can be used to obtain precise terrain models by photogrammetric reconstruction useful in 3D soil consumption monitoring, while middle-resolution (10m) multi-spectral satellite images and high-resolution aerial images (50cm-1m) can be used in 2D soil consumption monitoring and quarries\u2019 area regulations by public bodies (natural soil loss, exhausted areas restorations, debris removals and new disposals).\r\nOpen-access Sentinel-2 multi-spectral satellite images with 10m of spatial resolution have been used to assess coverage changes; the results have been subsequently refined by manual interpretation over 5 years (2016-2021). Both semi-automatic methods based on spectral distances and machine learning techniques have been used to identify areas affected by extraction activities in QGIS 3.x environment over Sentinel-2 images. Free OGC Web Map Services (WMS) made available by the Tuscan Regional Information System have been used to assess changes highlighted by semi-automatic methods: aerial high-resolution images between 2010 and 2019 have been evaluated by visual photointerpretation, allowing to extend to 10 years the 2D soil consumption assessment over the whole area.\r\nComparison of highlighted 2D changes to regulated areas like mapped debris disposals and quarries\u2019 property limits have been used to check proper developments of extraction activities and proper environmental debris management.\r\nIn turn, 3D changes have been tracked by comparison of 2009 and 2017 free aerial LiDAR data made available for download by the Tuscan Regional Information System, integrated with two stereo models obtained from 2020 and 2022 Pl\u00e9iades satellite high resolution images (new acquisitions) freely granted by ESA following Project Proposal id 61779 (\u201cQuarry activity monitoring in Apuan Alps\u201d). Stereo satellite B/W images with 50cm of spatial resolution have been processed by using Open Source stereo processing pipelines in Docker virtual environments, obtaining high precision digital surface models (height precision around 1m) after vegetation filtering. 3D changes detected over the years by elevation algebraic comparison, performed in QGIS 3.x environment, highlight quarries characterized by intense extraction activities (extracted marble blocks, characterized by positive quotas differences) and quarry area management (debris disposing and service infrastructure building, characterized by negative quotas differences).\r\nThe combined usage of both 2D and 3D changes\u2019 indicators can be challenging in term of proper representation of soil consumption dynamics over the years: while decision makers need a quick and easy access to both 2D and 3D data, web technologies suitable for a proper representation have been developed in very different contexts, making their integration quite complex. While a \u2018classical\u2019 2D webgis client Openlayers or Leaflet-based can be enough to highlight 2D changes and \u2013 with some limitations \u2013 3D changes as elevation differences, a \u2018true\u2019 3D visualization environment must be set to track ongoing extraction activities aiming to assess both (a) compliance to authorized extraction plans by public bodies and (b) proper debris management in quarry areas. In addition, 3D web viewers are mainly targeted to represents point clouds or CAD drawings, making very difficult the integration of 2D, 2.5D (Terrain Models) and 3D (extracted volumes) data.\r\nA dual 2D/3D webgis client have been developed for proper representation of 2D/3D spatial indicators of ongoing extraction activities in the Carrara marble basin: high resolution images have been served as tiled data, while 2D/3D spatial indicators are served as static and/or tiled vector data. Open-Source libraries have used in data processing, serving and representation inside a map interface.\r\nFor each quarry included in the Carrara basing, both area limitations and authorized areas for extraction activities have been superimposed over the spatial indicator layers, thus allowing users to easily locate areas subjected to intense extraction activities and to evaluate compliance to sustainability plans and environmental management prescriptions issued by public bodies.\r\n2D and 3D indicators are in progress to be used in prioritizing environmental controls\u2019 planning: this novel application would require a proper scoring system based on the degree of compliance to both environmental management prescriptions and performances mainly in the field of quarry and marble slurry waste management.",
+    "start_datetime": "2022-08-24T14:45:00Z",
+    "end_datetime": "2022-08-24T15:15:00Z",
+    "talk:code": "CY9BMD",
+    "talk:guid": "66c7ab5b-b402-5c2a-8705-3eed63dccb9f",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room Hall 3A",
+    "talk:room_capacity": 85,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "DASW87",
+        "name": "Ing. Cinzia Licciardello",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/DASW87/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T15:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/CY9BMD/",
+      "title": "2D/3D soil consumption tracking in a marble quarry district"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/CY9BMD/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/DASW87/",
+      "title": "Ing. Cinzia Licciardello"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/CY9BMD/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

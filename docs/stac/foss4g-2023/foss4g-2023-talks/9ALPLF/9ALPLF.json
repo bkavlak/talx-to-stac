@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "9ALPLF",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "SMASH and the new survey server - state of the art",
+    "description": "SMASH , the digital field mapping application for android and IOS that superseded the well known app geopaparazzi has been around for some years now. The last two years were a positive development storm after a quite calm year and brought many fixes as well as enhancements. Examples are better postgis and geopackage support, but also some hidden gems like geocaching. \r\nThe big news is on the serverside though. A new survey server has been developed in tight cooperation with a local government agency to best create effective surveying workflows and tools for survey teams. To attract a wider developer community to contribute to the project, the django framework was chosen for the server backend.\r\nThis presentation will give an overview of everything happened lately in the SMASH field mapping world.",
+    "start_datetime": "2023-06-28T08:30:00Z",
+    "end_datetime": "2023-06-28T09:00:00Z",
+    "talk:code": "9ALPLF",
+    "talk:guid": "49a7ee9c-a36f-5496-85f7-79032eebee66",
+    "talk:event": "foss4g-2023",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT C / N109 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "87ZRNW",
+        "name": "Andrea Antonello",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/87ZRNW/"
+      },
+      {
+        "code": "CEB9YT",
+        "name": "Silvia Franceschi",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/CEB9YT/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T08:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/9ALPLF/",
+      "title": "SMASH and the new survey server - state of the art"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/9ALPLF/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/87ZRNW/",
+      "title": "Andrea Antonello"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/CEB9YT/",
+      "title": "Silvia Franceschi"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/9ALPLF/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/fk7c37WRhaURbC9nqGn6BT",
+      "type": "text/html",
+      "title": "2023 | SMASH and the new survey server - state of the art - Andrea Antonello",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=840zGPklEkg",
+      "type": "text/html",
+      "title": "2023 | SMASH and the new survey server - state of the art - Andrea Antonello",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

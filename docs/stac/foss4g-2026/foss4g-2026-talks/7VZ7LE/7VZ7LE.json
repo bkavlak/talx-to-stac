@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "7VZ7LE",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "From Map Layers to Knowledge Models: Extending Open GIS",
+    "description": "Open-source GIS tools such as QGIS and PostGIS excel at spatial analysis, but in earthquake-prone regions like Japan, layered maps alone are often insufficient. This talk introduces a practical extension that adds relational modeling to existing workflows, improving transparency and decision support in complex disaster scenarios.\n\nOpen-source geospatial tools such as QGIS, PostGIS, GeoServer, and OpenStreetMap have made spatial analysis accessible to everyone. We can visualize hazards, overlay infrastructure, and perform powerful spatial queries. For many tasks, this is enough.\r\n\r\nBut in disaster-prone regions like Japan, real-world situations are more complex than overlapping polygons.\r\n\r\nWhen earthquakes strike, bridges affect evacuation routes. Power stations affect hospitals. Administrative responsibility affects response speed. These are not just spatial intersections\u2014they are chains of dependency.\r\n\r\nIn several disaster modeling projects, I encountered a recurring problem: spatial layers showed *where* things were, but not clearly *how they depended on each other*. Critical relationships were scattered across reports, spreadsheets, and institutional documents.\r\n\r\nIn this talk, I introduce a practical extension to standard open-source GIS workflows that adds relational modeling alongside geometry. The approach keeps PostGIS as the geometry engine and integrates a lightweight graph layer to represent infrastructure dependencies, responsibility links, and cascading effects.\r\n\r\nThis is not a replacement for GIS. It is an enhancement built entirely on open-source components.\r\n\r\nYou will see:\r\n\r\n- How to link spatial features with dependency structures  \r\n- How hybrid queries combine spatial predicates and relational traversal  \r\n- How this improves explainability in disaster-response scenarios  \r\n- How the approach remains reproducible and open  \r\n\r\nAll examples are based on open datasets from a seismically active region in Japan. Code, schema definitions, and sample datasets will be openly released.\r\n\r\nThis session is aimed at practitioners, developers, and researchers who work with open GIS tools and face complex decision contexts. Whether you are building disaster dashboards, infrastructure models, or urban analytics systems, this approach offers a practical way to make spatial reasoning more transparent and structured.",
+    "start_datetime": "2026-09-02T08:00:00Z",
+    "end_datetime": "2026-09-02T08:30:00Z",
+    "talk:code": "7VZ7LE",
+    "talk:guid": "84b11477-2e20-5077-b7ee-296a2fb56500",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Himawari",
+    "talk:room_capacity": 300,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "KHCJWR",
+        "name": "Koji Annoura",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/KHCJWR/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T08:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/7VZ7LE/",
+      "title": "From Map Layers to Knowledge Models: Extending Open GIS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/7VZ7LE/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/KHCJWR/",
+      "title": "Koji Annoura"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/7VZ7LE/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

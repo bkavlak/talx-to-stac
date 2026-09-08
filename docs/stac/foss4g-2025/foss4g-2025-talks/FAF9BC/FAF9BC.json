@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "FAF9BC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Towards universal building blocks for cloud-native digital-twins",
+    "description": "We present a scalable, interoperable, and extensible FOSS architecture for modern geospatial data ecosystem, based on DGGS. Exemplary, we introduce pydggsapi, a Python server implementing the new OGC DGGS API, that can serve large geospatial datasets from cloud-native Zarr and Parquet data stores indexed by a DGGS.\n\nThe exponential growth of Earth Observation (EO) data challenges our ability to efficiently access, process, and analyze it. Conventional web service standards like WCS and WMS have long provided standardized access, but there are challenges and work-arounds associated with the scale and complexity of global datasets, including coordinate system handling. In parallel, data cubes have become valued abstractions to analyse large-scale geospatial data over space and time. However, data cubes currently can only be implemented meaningfully in projected coordinate reference systems, which limits their extent before introducing too large areal distortions.\r\n\r\nA new paradigm is emerging, built on modern data structures, formats, and APIs. This paper introduces an architecture that integrates these innovations into a universal building block for geospatial data management. The foundation of this approach is the Discrete Global Grid System (DGGS). A DGGS offers a unified spatial reference framework, partitioning the Earth's surface into a hierarchy of cells. Equal-area DGGS like ISEA or HEALPix are particularly valuable for applications in fields like catchment hydrology and land use analysis, as they ensure statistical validity by maintaining consistent cell areas across the globe. The Open Geospatial Consortium (OGC) has formalized this paradigm through its DGGS Abstract Specification and the recently finalized the OGC API - DGGS standard, which specifies a lightweight web service for accessing DGGS-organized data.\r\n\r\nIn parallel, the scientific Python ecosystem has revolutionized data handling with tools like Xarray for labeled multi-dimensional arrays and its XDGGS extension for native DGGS operations. This analytical power is maximized when paired with cloud-native storage formats like Zarr. Inspired by pioneering FOSS projects like pygeoapi, TiTiler, or XPublish, our work seeks to bridge the gap between these powerful analytical backends and standardized, web-friendly access patterns.\r\n\r\nWe present pydggsapi, an open-source Python server built with FastAPI that implements the OGC DGGS API standard. It exposes cloud-optimized Analysis-Ready Data (ARD), such as Zarr archives or Parquet files, where data is indexed by high-resolution DGGS cells. This architecture creates a seamless continuum between two distinct operational scales. On one end, data scientists can perform large-scale modeling by directly accessing the DGGS-indexed Zarr archives in object storage using Xarray. On the other, lightweight web and mobile clients can consume the same underlying data through the standardized, RESTful pydggsapi interface, which is documented via a built-in OpenAPI/Swagger UI.\r\n\r\nWe present a conceptual framework that links data access middleware via OGC API DGGS and direct data access via cloud storage. On initialization, it connects to cloud-storage Zarr archives and extracts DGGS parameters - such as the grid type, indexing scheme, available refinement levels and variables. To optimize performance for clients, we also leverage a concept similar to classic image pyramids or overviews in Cloud-Optimized GeoTIFFs - pre-aggregating data to several DGGS refinement levels. These pyramids are efficiently can be represented using Zarr groups and the Xarray DataTree model, or in Parquet using partitioning. For light-weight interactive visualization, we implement a tiles endpoint serving Mapbox Vector Tiles (MVT) on-the-fly. This enables highly efficient in-browser rendering with WebGL libraries like MapLibre GL JS. Alternatively, DGGS-aware clients can access the DGGS API endpoints directly and request data formats like DGGS-JSON. The architecture is also extensible, featuring a connector for the ClickHouse database to serve fast, on-demand analytical queries on DGGS-indexed tables, as explored in the OGC Testbed-16 report.\r\n\r\nThis overall architecture enables advanced analysis in geomorphology, land cover change, or hydrology, by accessing the full data via extensible compute frameworks like Xarray or even Apache Spark directly from cloud-based object storage. For instance, a researcher studying catchment-scale erosion can query pydggsapi for all land cover and slope data DGGS cells within their basin. The API backend accesses a massive, continental-scale Zarr dataset, and only extracts the required data. Alternatively, the user can execute an Xarray batch job computes the necessary statistics, and returns a comprehensive analysis result. In addition, user can easily coalesce data from other DGGS enabled data sources via simple cell-id based joins. This allows for a much simpler data federation.\r\n\r\nWhile initial benchmarks are promising, the implementation has limitations that guide future work. Xarray\u2019s indexing of dimensions can consume significant memory with very large DGGS archives, when trying to load the full array of all DGGS cell ids. Here we compare the access with Parquet, which always gets scanned on-demand, and explore more direct Zarr-native access patterns and DGGS cell index representations. Also, the strict requirements of the OGC DGGS API, such as subzone ordering, also present implementation challenges for certain DGGS types, highlighting ongoing needs in the FOSS DGGS software landscape.\r\n\r\nThe integration of a FOSS OGC DGGS API implementation with cloud-native Zarr storage represents a significant step toward universal building blocks for Earth Observation. This approach offers a powerful, dual-access pattern that serves both high-performance computing and lightweight clients from a single, consistent data foundation. In addition, joining various data variables from different data providers will be trivial based on the DGGS cell ids. We believe this model also charts a path toward a new generation of value-added, GeoAI-ready data market APIs.",
+    "start_datetime": "2025-11-19T00:30:00Z",
+    "end_datetime": "2025-11-19T00:55:00Z",
+    "talk:code": "FAF9BC",
+    "talk:guid": "48953df9-cfc6-5467-b5b4-3d74e4caf660",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Academic",
+    "talk:type": "Academic Paper",
+    "talk:language": "en",
+    "talk:room": "WG802",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "PQFYHP",
+        "name": "Alexander Kmoch",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/PQFYHP/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-19T00:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/FAF9BC/",
+      "title": "Towards universal building blocks for cloud-native digital-twins"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/FAF9BC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/PQFYHP/",
+      "title": "Alexander Kmoch"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/FAF9BC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=cRjNXQX84eA",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Towards universal building blocks for cloud-native digital-twins",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "9DWW3N",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Dataviz in QGIS and on the web",
+    "description": "#### QGIS and Dataviz\r\n\r\nCreating plots is out of the main scopes of QGIS but thanks to the simple Python API, it is easy enough to create additional scripts and plugins. The DataPlotly plugin has been developed for QGIS(the first release was created in 2017 while nowadays the plugin has been downloaded more than 100,000 times). It's today a well maintained Python plugin with a growing community of developers, users and testers. \r\n\r\nDataPlotly allows creating D3 like plots from spatial data. It is build on top of [Plotly.com](Plotly.com), a JavaScript library which offers an easy API for many languages such as Python, R, Matlab etc.\r\n\r\nThe plots are completely interactive so that plot elements are directly linked with map items; therefore the user is able to query map items from the main plot canvas. Thanks to a crowdfunding campaign, the functionalities of DataPlotly were extended: a complete refactoring of the code, more plots but especially the creation of plots in the layout composer, also for atlas layouts.\r\n\r\nThe plugin is also compatible for QGIS server. Lizmap Web Client is an opensource server application to publish QGIS project on the web without any coding skills needed. It\u2019s using QGIS Server in the backend so users have the same rendering between their QGIS Desktop and the web version of their project.\r\nThanks to the DataPlotLy plugin installed on QGIS Server and to the Lizmap application, it allows users to print PDF with plots from in their web-browser.",
+    "start_datetime": "2022-08-25T13:25:00Z",
+    "end_datetime": "2022-08-25T13:30:00Z",
+    "talk:code": "9DWW3N",
+    "talk:guid": "703d61cf-3fba-5a76-b92c-28101d676187",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Room 4",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "ADPAWA",
+        "name": "Matteo Ghetta",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/ADPAWA/"
+      },
+      {
+        "code": "LXVPF8",
+        "name": "Etienne TRIMAILLE",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/LXVPF8/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T13:27:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/9DWW3N/",
+      "title": "Dataviz in QGIS and on the web"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/9DWW3N/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/ADPAWA/",
+      "title": "Matteo Ghetta"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/LXVPF8/",
+      "title": "Etienne TRIMAILLE"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/9DWW3N/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/iL29VG8kqutp5B2UtSfuNG",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Dataviz in QGIS and on the web",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=LF1C2H4BPQc",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Dataviz in QGIS and on the web",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

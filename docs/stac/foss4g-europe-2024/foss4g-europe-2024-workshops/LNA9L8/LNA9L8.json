@@ -1,0 +1,118 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "LNA9L8",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Opening Pandora's Spectral Box: Pioneering the Awesome Spectral Indices Suite",
+    "description": "In the rapidly evolving field of remote sensing, spectral indices are pivotal for monitoring and deciphering Earth system dynamics, including vegetation dynamics, water bodies ecosystems, and fire regimes. As the range of available spectral indices expands, the need for comprehensive catalogues and computational tools becomes crucial. Enter the [Awesome Spectral Indices (ASI)](https://github.com/awesome-spectral-indices/awesome-spectral-indices) - a novel, machine-readable, and open-source catalogue of spectral indices for Remote Sensing applications . ASI also promotes accessibility and application by integrating with three official Application Programming Interfaces (APIs) tailored for Python, Julia, and Google Earth Engine's JavaScript API. This integration facilitates the computation of a vast number of indices, adaptable to varied user experiences, data availability, and processing needs.\r\n\r\nOur interactive workshop is structured into five engaging segments, each designed to showcase the potential of ASI in various environments:\r\n\r\n1. **Introduction to Awesome Spectral Indices (15 mins)**: This segment unveils the ASI catalogue, highlighting its standardisation, the comprehensive range of spectral indices, and their properties. Participants will also get a demonstration of \u201cEspectro\u201d, a Streamlit web app, for querying spectral indices.\r\n2. **ASI Python Mastery (30 min)**: Dive into \u201c[spyndex](https://github.com/awesome-spectral-indices/spyndex)\u201d, ASI\u2019s Python API. This hands-on session guides attendees through exploring and computing spectral indices for several Python objects such as pandas Data Frames, numpy arrays, and xarray data arrays. Participants will leverage real-world data from STAC, such as Sentinel-2 and Landsat-9, applying parallel computing techniques with dask. This session is versatile, accommodating both Google Colab and personal Python environments.\r\n3. **ASI in Google Earth Engine (20 min)**: Google Earth Engine (GEE) stands as a colossus in remote sensing analysis. Here, we introduce \u201c[spectral](https://github.com/awesome-spectral-indices/spectral)\u201d, a JavaScript module for GEE, offering access to ASI spectral indices. Practical exercises will involve computing indices for images and image collections using GEE\u2019s extensive data catalogue. (GEE account required).\r\n4. **Harnessing ASI in Julia (30 min)**: Julia's focus in high-performance scientific computing makes it ideal for Earth system applications. \u201c[SpectralIndices.jl](https://github.com/awesome-spectral-indices/SpectralIndices.jl)\u201d brings ASI's power to Julia, enabling the computation of indices with remarkable efficiency . Participants will access indices and make computations for Arrays, Data Frames and YAXArrays. Participants should have a Julia environment pre-installed for this session, ideally with the necessary dependencies already downloaded.\r\n5. **Collaborative Outro (25 min)**: The workshop concludes with an interactive discussion, brainstorming enhancements for ASI (from standard improvements to computational methodologies), real-world applications and integration with other software or initiatives. This collective discussion will be gathered into a white paper, aspiring for publication.\r\n\r\nThis workshop invites participants from all skill levels, from beginners to experts, offering a unique opportunity to explore the world of spectral indices and their application in remote sensing. Join us in harnessing the power of open-source software to explore and understand our planet like never before.\n\n\u201cOpening Pandora's Spectral Box: Pioneering the Awesome Spectral Indices Suite\" is an immersive workshop ideal for anyone interested in remote sensing. It showcases the Awesome Spectral Indices (ASI), an innovative, open-source catalogue of spectral indices for Earth observation. Participants will explore ASI's integration with APIs for Python, Julia, and Google Earth Engine, applying these tools in hands-on sessions. The workshop covers practical applications, and offers a discussion for collaborative brainstorming. Perfect for beginners to experts, this workshop is an opportunity for mastering spectral indices in remote sensing.",
+    "start_datetime": "2024-07-02T11:00:00Z",
+    "end_datetime": "2024-07-02T13:00:00Z",
+    "talk:code": "LNA9L8",
+    "talk:guid": "9f6935dc-0373-5511-bf84-9a21309af505",
+    "talk:event": "foss4g-europe-2024-workshops",
+    "talk:type": "workshop 2h",
+    "talk:language": "en",
+    "talk:room": "Room 335",
+    "talk:room_capacity": 15,
+    "talk:duration_minutes": 120,
+    "talk:speakers": [
+      {
+        "code": "GXMXGL",
+        "name": "David Montero Loaiza",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024-workshops/speaker/GXMXGL/"
+      },
+      {
+        "code": "BZVWZ3",
+        "name": "Francesco Martinuzzi",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024-workshops/speaker/BZVWZ3/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-02T12:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024-workshops/talk/LNA9L8/",
+      "title": "Opening Pandora's Spectral Box: Pioneering the Awesome Spectral Indices Suite"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024-workshops/talk/LNA9L8/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024-workshops/speaker/GXMXGL/",
+      "title": "David Montero Loaiza"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024-workshops/speaker/BZVWZ3/",
+      "title": "Francesco Martinuzzi"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/awesome-spectral-indices/awesome-spectral-indices",
+      "title": "Awesome Spectral Indices (ASI)"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/awesome-spectral-indices/spyndex",
+      "title": "spyndex"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/awesome-spectral-indices/spectral",
+      "title": "spectral"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/awesome-spectral-indices/SpectralIndices.jl",
+      "title": "SpectralIndices.jl"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024-workshops/talk/LNA9L8/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-workshops"
+}

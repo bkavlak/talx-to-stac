@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "ZGAMHF",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Web maps with Gleo: from zero to WebGL innards",
+    "description": "Gleo is a nascent javascript WebGL mapping library. It aims to find a niche alongside Leaflet, OpenLayers, MapLibre and Deck.gl. It was first introduced at FOSS4G 2022.\r\n\r\nThis workshop/tutorial will start with the simplest examples of how to embed a Gleo map in a webpage, then go through different available cartographic symbols and data loaders/symbolizers, and end with a deep dive into how the data is stored in WebGL data structures in the GPU.",
+    "start_datetime": "2024-12-02T17:00:00Z",
+    "end_datetime": "2024-12-02T19:00:00Z",
+    "talk:code": "ZGAMHF",
+    "talk:guid": "c0d19283-0209-516a-9a50-f083e40328ad",
+    "talk:event": "foss4g-2024-workshop",
+    "talk:type": "Short Workshop",
+    "talk:language": "en",
+    "talk:room": "Room Ilha de Maraj\u00f3 (E Block)",
+    "talk:room_capacity": 35,
+    "talk:duration_minutes": 120,
+    "talk:speakers": [
+      {
+        "code": "LVHALQ",
+        "name": "Iv\u00e1n S\u00e1nchez Ortega",
+        "url": "https://talks.osgeo.org/foss4g-2024-workshop/speaker/LVHALQ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-02T18:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/talk/ZGAMHF/",
+      "title": "Web maps with Gleo: from zero to WebGL innards"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/talk/ZGAMHF/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/speaker/LVHALQ/",
+      "title": "Iv\u00e1n S\u00e1nchez Ortega"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/talk/ZGAMHF/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-workshops"
+}

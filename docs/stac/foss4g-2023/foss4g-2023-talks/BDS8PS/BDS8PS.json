@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "BDS8PS",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "How UNICEF is leveraging open-source geospatial solutions to drive better results for children",
+    "description": "\u201cWhether it is to know where children are, what access they have to facilities (education, health, transportation), what environment they live in (water, air), where risks exist (hazards, diseases), where events happen or where services and resources are available; most of the operational data used by UNICEF is geospatial\u201d (UNICEF Geospatial Roadmap, 2019). At UNICEF we realize that we need to leverage geospatial information to enhance decision-making and optimize resource allocation and drive effective interventions. Geo-enabling UNICEF\u2019s data, systems and processes aims at transforming data into easily accessible, readily available, and actionable geospatial information that can address key questions, such as: \u201cHow many children have been affected by a flood?\u201d, \u201cWhere children have limited access to schools and limited access to health services?\u201d. This information is critical to support decision-making to ultimately drive better results for children.\r\nUNICEF has recently adopted a hybrid corporate geospatial architecture, which aims at bringing together the advantages of both commercial and open-source GIS world. This presentation aims at discussing how UNICEF is leveraging modern open-source geospatial solutions to address some of the key data-management challenges.\r\nSpecifically, two open-source geospatial projects developed by UNICEF will be showcased and discussed: GeoRepo and GeoSight. GeoRepo is a web-based system that will help us store, manage and share a commonly agreed, versioned, official set of administrative boundaries and other core geospatial datasets. It will help us ensure that geospatial data is used consistently across all internal systems and will also strengthen our interoperability with external systems. GeoSight, on the other hand, is a web geospatial data platform developed by UNICEF to bridge the gap between web mapping systems and the Business Intelligence / data analytical platforms. GeoSight is specifically designed to simplify the process of harmonizing data from multiple data sources. It also allows users to easily create online maps for visualizing multiple indicators at subnational levels (e.g. at the province or district level). Both platforms are built using Django and React and use modern open-source geospatial standards and libraries, such as MapLibre and vector tiles.",
+    "start_datetime": "2023-06-30T07:30:00Z",
+    "end_datetime": "2023-06-30T08:00:00Z",
+    "talk:code": "BDS8PS",
+    "talk:guid": "38f55bf2-c865-55c8-aec8-19ed57f289a4",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Keynote",
+    "talk:language": "en",
+    "talk:room": "Outdoor Stage",
+    "talk:room_capacity": 600,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "E3KVLE",
+        "name": "Jan Burdziej",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/E3KVLE/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-30T07:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/BDS8PS/",
+      "title": "How UNICEF is leveraging open-source geospatial solutions to drive better results for children"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/BDS8PS/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/E3KVLE/",
+      "title": "Jan Burdziej"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/BDS8PS/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

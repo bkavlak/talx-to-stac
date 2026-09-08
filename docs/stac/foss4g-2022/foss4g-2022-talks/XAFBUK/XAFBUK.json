@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "XAFBUK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Streamlining QGIS workflows with PostgreSQL editable views and triggers",
+    "description": "When using QGIS as a user interface for a PostgreSQL- & PostGIS-based registry database, user experience plays a high role. The data schemas of a registry database can hold a complex set of relations and database objects which can be hard to set up within QGIS. This was the case with a waste soil transportation registry that we developed for the City of Tampere, Finland. The main goal of the registry is to optimize soil transportation from construction sites by communicating and making it visible what soil categories are available and needed where and when. The registry enables significant savings in transportation costs as well as substantial reductions in climate emissions.\r\n\r\nWhen the relational data model gets complex, you can deploy different strategies for setting up the workflows within QGIS. One possible solution is to use editable views and triggers for enabling user-friendly workflows in QGIS. This was the case in our soil registry project. The data model, as it was, would have forced the user to create multiple new features to the database tables when he/she just wanted to add a single soil transfer from one construction site to another. This was seen as too tedious when repeated constantly. The solution was to make a database view that the user could edit in QGIS, in addition to deploying database triggers for creating the right database features, with the proper data into the correct database tables.\r\n\r\nThis presentation seeks to show how the strategy was deployed and what challenges we met during the development.",
+    "start_datetime": "2022-08-24T09:30:00Z",
+    "end_datetime": "2022-08-24T10:00:00Z",
+    "talk:code": "XAFBUK",
+    "talk:guid": "68bc99f0-5eba-5bac-93db-0ba31a4fb57b",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Limonaia",
+    "talk:room_capacity": 110,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "ZRRLEF",
+        "name": "Lauri Kajan",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/ZRRLEF/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/XAFBUK/",
+      "title": "Streamlining QGIS workflows with PostgreSQL editable views and triggers"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/XAFBUK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/ZRRLEF/",
+      "title": "Lauri Kajan"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/XAFBUK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/ePmA7QqecL4SyFj6hTRv2G",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Streamlining QGIS workflows with PostgreSQL editable views and triggers",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=y_RxyDQtLBc",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Streamlining QGIS workflows with PostgreSQL editable views and triggers",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

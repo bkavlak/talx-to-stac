@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "89FTBG",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Benchmarking OGC Services: No More Surprises When 20 Students Try to Access Your WMS",
+    "description": "Most OGC services are deployed with only functional testing, leading to failures under real user loads. Our open-source Locust framework generates realistic geospatial requests with random bounding boxes and dynamic coordinates for proper load testing\n\nPicture this, Sicily 2025 : You've carefully set up a WMS service, tested it works perfectly, and then invited 20 students to use it while lecturing about OGC web services. Suddenly, your service crawls to a halt. This scenario highlights a critical gap in how we deploy OGC services - most organizations perform only functional testing, checking if services work but not how they perform under real user loads.\r\nStandard load testing tools like ApacheBench fall short for geospatial services because they are not oriented to deal with  the geographic complexity of OGC protocols. Real users don't request the same map tile repeatedly - they pan across different bounding boxes, zoom through multiple levels, switch layer combinations, and explore various geographic extents. OGC services require specialized testing that can generate random bounding boxes for WMS GetMap requests, create dynamic tile coordinates for WMTS across zoom levels, handle proper CRS and format parameters, and simulate realistic navigation patterns.\r\nWe developed an open-source solution using the Locust framework enhanced with OGC-specific Python code modules. Our approach leverages owslib.wms for proper capabilities parsing and request generation, custom bbox generators that create random geographic extents within service bounds, tile coordinate algorithms for realistic requests, and layer randomization from GetCapabilities responses. The framework includes seed-based reproducible testing for consistent benchmark comparisons and simulates authentic user behavior patterns including concurrent users requesting different geographic areas and dynamic layer combinations during sessions.\r\nThis work addresses a fundamental challenge in the FOSS4G ecosystem where standard load testing misses the geographic complexity that makes OGC services unique. By providing specialized benchmarking tools that understand geospatial request patterns, organizations can systematically validate performance before deployment and avoid discovering critical issues when users start actually exploring their services geographically. The toolkit enables proactive capacity planning and helps prevent those embarrassing moments when carefully planned demonstrations fail under realistic load conditions.",
+    "start_datetime": "2025-11-20T20:30:00Z",
+    "end_datetime": "2025-11-20T20:55:00Z",
+    "talk:code": "89FTBG",
+    "talk:guid": "1d555f55-018f-57c9-aaec-cdb331e6ab60",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Cloud, APIs & Data Infrastructure",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG404",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "GDVTCB",
+        "name": "Jorge S. Mendes de Jesus",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/GDVTCB/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-20T20:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/89FTBG/",
+      "title": "Benchmarking OGC Services: No More Surprises When 20 Students Try to Access Your WMS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/89FTBG/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/GDVTCB/",
+      "title": "Jorge S. Mendes de Jesus"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/89FTBG/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=Iws0OxeJTY0",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Benchmarking OGC Services: No More Surprises When 20 Students Try to Access Your WMS",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

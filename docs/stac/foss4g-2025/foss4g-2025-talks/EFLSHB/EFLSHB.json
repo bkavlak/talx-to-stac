@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "EFLSHB",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "B2B",
+    "description": "Placeholder for B2B Event at FOSS4G 2025\n\nPlaceholder for B2B Event at FOSS4G 2025",
+    "start_datetime": "2025-11-18T01:00:00Z",
+    "end_datetime": "2025-11-18T04:30:00Z",
+    "talk:code": "EFLSHB",
+    "talk:guid": "3c472c09-78dc-5e08-ad2c-2afb1ebd1ebf",
+    "talk:event": "foss4g-2025",
+    "talk:track": "B2B",
+    "talk:type": "B2B",
+    "talk:language": "en",
+    "talk:room": "WG201 Exhibition & Catering",
+    "talk:duration_minutes": 210,
+    "talk:speakers": [
+      {
+        "code": "7RUDUH",
+        "name": "Hamish Campbell",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/7RUDUH/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-18T02:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/EFLSHB/",
+      "title": "B2B"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/EFLSHB/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/7RUDUH/",
+      "title": "Hamish Campbell"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/EFLSHB/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

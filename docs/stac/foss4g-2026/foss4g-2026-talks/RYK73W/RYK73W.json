@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "RYK73W",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "From GeoTIFF to Kriging: A Fully Open-Source Remote Sensing Workflow",
+    "description": "This talk presents a fully open-source workflow for geospatial modeling of satellite-derived chlorophyll-a data using QGIS, GDAL, and R. We demonstrate how large raster datasets can be processed, interpolated with kriging, and visualized with uncertainty, entirely within the OSGeo ecosystem.\n\nSatellite remote sensing provides essential information for environmental monitoring, yet spatial gaps caused by cloud cover often limit continuous analysis. This presentation demonstrates a complete, reproducible geospatial workflow for kriging-based modeling of satellite-derived chlorophyll-a concentrations using only open-source software.\r\n\r\nThe case study focuses on MODIS-derived data from the Gulf of Finland. Large GeoTIFF datasets were processed and resampled using GDAL and QGIS, where bathymetry and coastline distance were also prepared as spatial covariates. Spatial statistical modeling, including variogram fitting and Universal Kriging (Kriging with External Drift), was conducted in R using the \u201cgstat\u201d package.\r\n\r\nBeyond presenting the modeling results, this talk emphasizes practical implementation aspects: coordinate transformations with PROJ, handling large raster data under memory constraints, variogram fitting challenges (WLS vs GLS vs REML), and interpreting kriging variance in cartographic outputs. We also discuss practical issues such as negative predictions in Universal Kriging and how to manage them responsibly in environmental applications.\r\n\r\nThe presentation highlights how researchers and practitioners can build a complete GIS\u2013statistical pipeline without proprietary software. This workflow is suitable not only for marine environmental monitoring but also for broader earth observation applications, education, and reproducible geospatial research.",
+    "start_datetime": "2026-09-01T08:30:00Z",
+    "end_datetime": "2026-09-01T09:00:00Z",
+    "talk:code": "RYK73W",
+    "talk:guid": "af5951dc-f42e-5368-96da-19a7c7091d68",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room5",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "83UU8R",
+        "name": "Junji Yamakawa",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/83UU8R/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T08:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/RYK73W/",
+      "title": "From GeoTIFF to Kriging: A Fully Open-Source Remote Sensing Workflow"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/RYK73W/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/83UU8R/",
+      "title": "Junji Yamakawa"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/RYK73W/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

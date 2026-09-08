@@ -1,0 +1,96 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "RPPKRR",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "Reducing Subsea Cable Risk with PostGIS: A CBRA Workflow for Offshore Wind",
+    "description": "Subsea cable damage accounts for over 80% of insurance claims in offshore wind, making cable burial design a critical and high-risk decision. Despite this, traditional 2-dimensional cable burial risk assessment (CBRA) methods were largely non-spatial, relying on spreadsheets, manual interpolation, and expert judgement. These approaches are difficult to reproduce, error-prone, and inefficient when route changes occur.\r\nThis talk presents a fully geospatial CBRA workflow built using PostGIS, transforming a historically linear and manual process into a scalable, data-driven pipeline. We demonstrate how Automatic Identification System (AIS) vessel data is processed from raw point observations into tracklines and density rasters, and how post-construction rerouting scenarios can be modelled to estimate shifts in marine traffic patterns.\r\nThese spatial outputs are integrated with geological ground models and seabed levels to determine cable burial depth requirements along subsea cable routes. Using core PostGIS capabilities such as spatial indexing (GiST), relational predicates (ST_Intersects) and geometric analysis (e.g. ST_HausdorffDistance), we create a reproducible workflow that supports rapid iteration as new data becomes available.\r\nThe approach reduces duplicated effort, improves consistency, and enables more transparent decision-making in a high-cost engineering context. It has already been applied to multiple offshore wind developments, including the floating offshore wind farm, Green Volt.\r\nThe talk will explore how this workflow extends into 3-dimensional modelling through voxel generation, highlighting opportunities for further integration with netCDF outputs and open geospatial ecosystems. Attendees will gain insight into how PostGIS can be used to modernise risk modelling workflows, where data availability can be variable. \r\nWe conclude by addressing that while the analytical pipeline contains as many open source elements as practicable, the results are currently shared using the Esri JavaScript software development kit (SDK) to support wider stakeholder engagement. Both the benefits and remaining challenges in transitioning fully to open-source solutions will be discussed, with invitation to collaboration on bridging these gaps.",
+    "start_datetime": "2026-06-30T11:30:00Z",
+    "end_datetime": "2026-06-30T12:00:00Z",
+    "talk:code": "RPPKRR",
+    "talk:guid": "5ca1edfc-fb7b-5a6b-a80d-391849034f63",
+    "talk:event": "foss4g-europe-2026",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "AM",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "U73UCM",
+        "name": "Hannah Jukes",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/U73UCM/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-06-30T11:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/RPPKRR/",
+      "title": "Reducing Subsea Cable Risk with PostGIS: A CBRA Workflow for Offshore Wind"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/RPPKRR/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/U73UCM/",
+      "title": "Hannah Jukes"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/RPPKRR/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "reducing-subsea-cable-risk-with-postgis-a-cbra-workflow-for-": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2026/submissions/RPPKRR/resources/FOSS4G_Presentation_LISxAe9.pdf",
+      "type": "application/pdf",
+      "title": "Reducing Subsea Cable Risk with PostGIS: A CBRA Workflow for Offshore Wind",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

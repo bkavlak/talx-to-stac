@@ -1,0 +1,104 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "E8ELHS",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Buses moving on the map - use case of building web mapping portal",
+    "description": "This presentation will be a real story about the process of building webmapping portals with usefull public transport information and the quality of air.\r\nTwo portals will be shown one from Warsaw and one from Cracow (https://gdziejestautobus.pl/mapa/, https://www.mapakrakow.pl/).\r\nThis will be an use case of using opensource software and open data for building the web mapping portal. The challenges will be presented by constructing layers with live positions of public transport vehicles and the state of air quality in Poland.\r\nThe technical details will be presented along with the logistic and an business aspects. Following points will be covered: used development software, user experience challenges, design of project, project organization, effort, cost, legal issues.\r\nThere will be shown the sources of data from open public API services in Poland. The one is the open API with vehicles location data of public transport office in Warsaw. The second is the data coming from public office responsible for environment protection and monitoring.\r\nBoth presented portals shows the live position of public transport vehicles in the capital of Poland. The portal for Cracow will also show the live state of air pollution in the city. The pollution data come from sensors located in Poland collection the quality of air.\r\nBoth portals are the examles of: how to connect opensource Web-GIS tools and open public data to build an interesting web mapping site showing usefull data in the convenient spatial way.",
+    "start_datetime": "2022-08-26T10:40:00Z",
+    "end_datetime": "2022-08-26T10:45:00Z",
+    "talk:code": "E8ELHS",
+    "talk:guid": "e8753560-bc17-5cd8-9b03-f96925883318",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Modulo 0",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "EDYTYW",
+        "name": "Bartlomiej Burkot",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/EDYTYW/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T10:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/E8ELHS/",
+      "title": "Buses moving on the map - use case of building web mapping portal"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/E8ELHS/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/EDYTYW/",
+      "title": "Bartlomiej Burkot"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.mapakrakow.pl/",
+      "title": "www.mapakrakow.pl"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/E8ELHS/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=_1KfCOw6uw4",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Buses moving on the map - use case of building web mapping portal",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

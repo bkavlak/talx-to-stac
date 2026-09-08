@@ -1,0 +1,116 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "JAFWBF",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Setting up a Spatial Data Infrastructure (SDI) with Open Source Software using OSGeoLive",
+    "description": "This workshop provides a practical, overview of key software used within a Spatial Data Infrastructure SDI.\r\n\r\nIn the workshop we will use OSGeoLive and the Open Source software and sample data shipped with it to get to know the components of an SDI.\n\nWe will get our hands dirty using some of the leading applications, and will introduce the other applications on OSGeoLive and when they are used.\r\n\r\nA Spatial Data Infrastructure SDI is a data infrastructure that provides geographic data and metadata, which is accessible for several users and incorporates a variety of tools to accomplish different processes. It helps make data accessible, maintainable and findable throughout your organization. We will start with different types of geographic data and learn about how to store data in a PostgreSQL PostGIS database.\r\n\r\nAs second step, we will have a look at a service based infrastructure and you will learn about OGC services like OGC Web Map Service and OGC Web Feature Service.\r\n\r\nYou will learn how to create these services with software like QGIS Server, MapServer or GeoServer. We will practice with QGIS server. A client is needed to view and analyse data from services. We will learn about Desktop GIS and WebGIS and load Services in QGIS and publish data to the web using OpenLayers, GeoNode and Mapbender.\r\n\r\nWe will learn about metadata and how to make data traceable in a metadata system like GeoNetwork or pycsw. We will practice with pycsw and GeoNode. And you will learn how you can control the access to your data and setup a user management.\r\n\r\nAfter the journey through all the components you will be familiar with the concept and the advantages of a Spatial Data Infrastructure, and will know where to look for deeper insights into the more powerful features of the various tools.\r\n\r\nFind Workshop information and material: https://trac.osgeo.org/osgeolive/wiki/Live_GIS_Workshop_Install\r\n- Workshop Repository https://github.com/astroidex/foss4g-2023-workshop-sdi-with-open-source-using-osgeolive",
+    "start_datetime": "2023-06-26T12:00:00Z",
+    "end_datetime": "2023-06-26T16:00:00Z",
+    "talk:code": "JAFWBF",
+    "talk:guid": "6b9cb5e9-6cee-581d-9add-3c1df6cd4ed5",
+    "talk:event": "foss4g-2023-workshop",
+    "talk:type": "Long Workshop",
+    "talk:language": "en",
+    "talk:room": "UBT D / N112 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "MF7PYA",
+        "name": "Astrid Emde",
+        "url": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/MF7PYA/"
+      },
+      {
+        "code": "BS3TXT",
+        "name": "Angelos Tzotsos",
+        "url": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/BS3TXT/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-26T14:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/JAFWBF/",
+      "title": "Setting up a Spatial Data Infrastructure (SDI) with Open Source Software using OSGeoLive"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/JAFWBF/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/MF7PYA/",
+      "title": "Astrid Emde"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/BS3TXT/",
+      "title": "Angelos Tzotsos"
+    },
+    {
+      "rel": "related",
+      "href": "https://trac.osgeo.org/osgeolive/wiki/Live_GIS_Workshop_Install",
+      "title": "trac.osgeo.org/osgeolive/wiki/Live_GIS_Workshop_Install"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/astroidex/foss4g-2023-workshop-sdi-with-open-source-using-osgeolive",
+      "title": "github.com/astroidex/foss4g-2023-workshop-sdi-with-open-source-using-osgeolive"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/JAFWBF/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "workshop-slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-2023-workshop/submissions/JAFWBF/resources/foss4g-2023-workshop-sdi-with-open-sou_U4m9qXh.pdf",
+      "type": "application/pdf",
+      "title": "Workshop Slides",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-workshops"
+}

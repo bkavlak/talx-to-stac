@@ -1,0 +1,137 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "UMP8UC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "State of MapStore",
+    "description": "MapStore is an open source product developed for creating, saving and sharing in a simple and intuitive way maps, dashboards, charts and geostories directly online in your browser. MapStore is cross-browser and mobile ready, it allows users to: \r\n\r\n- Search and load geospatial content served using widely used protocols (WMS, WFS, WMTS, TMS, CSW, 3D Tiles) and formats (GML, Shapefile, GeoJSON, KML/KMZ etc..)\r\n- Manage maps (create, modify, share, delete, search), charts, dashboard and stories directly online\r\n- Manage users, groups and their permissions over the various resources MapStore can manage\r\n- Edit data online via WFS-T with advanced filtering capabilities\r\n- Deeply customize the look&feel to follow strict corporate guidelines\r\n- Manage different application contexts through an advanced wizard to have customized WebGIS MapStore viewers for different use cases (custom plugins set, map and theme)\r\n\r\nYou can use MapStore as a product to deploy simple geoportals by using the standard functionalities it provides but you can also use MapStore as a framework to develop sophisticated WebGIS portals by reusing and extending its core building blocks.\r\n\r\nMapStore is built on top of React and Redux and its core does not explicitly depend on any mapping engine but it can support both OpenLayers, Leaflet and Cesium; additional mapping engines could be also supported to avoid any tight dependency on a single engine.\r\n\r\nThe presentation will give the audience an extensive overview of the MapStore  functionalities for the creation of mapping portals, covering both previous work as well work for the future releases.  Eventually, a range of MapStore case studies will be presented to demonstrate what our clients (like City of Genova, City of Florence, Halliburton, Austrocontrol and more) and partners are achieving with it.",
+    "start_datetime": "2025-07-18T12:00:00Z",
+    "end_datetime": "2025-07-18T12:30:00Z",
+    "talk:code": "UMP8UC",
+    "talk:guid": "556fc398-61d5-5506-8d4e-8de7ed4fbaa6",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "EL11 (Geosolutions)",
+    "talk:room_capacity": 200,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "XQEABY",
+        "name": "Lorenzo Natali",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/XQEABY/"
+      },
+      {
+        "code": "RXQNFX",
+        "name": "Tobia Di Pisa",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/RXQNFX/"
+      },
+      {
+        "code": "BEYNQB",
+        "name": "Stefano Bovio",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/BEYNQB/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-18T12:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/UMP8UC/",
+      "title": "State of MapStore"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/UMP8UC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/XQEABY/",
+      "title": "Lorenzo Natali"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/RXQNFX/",
+      "title": "Tobia Di Pisa"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/BEYNQB/",
+      "title": "Stefano Bovio"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/UMP8UC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "foss4g-eu-2025-state-of-mapstore": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/UMP8UC/resources/FOSS4G-EU_-_2025_-_State_of_MapStore_fwrWcuk.pdf",
+      "type": "application/pdf",
+      "title": "FOSS4G-EU - 2025 - State of MapStore",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/6UzT2MWUCtTWP4Dfbv6ys6",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | State of MapStore",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=TV7DzS_0dO0",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | State of MapStore",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

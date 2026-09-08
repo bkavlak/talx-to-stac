@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "NJC3MZ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Comparative analysis of route and health care facilities for the emergency patients of Pune and Bengaluru",
+    "description": "Comparative analysis of route and health care facilities for the emergency patients of Pune and Bengaluru\r\n\r\nAdwait Priyadarshan1 and Manish Kumar Mishra2\r\n\r\n1Department of Computer Science & Engineering, IIIT-Bangalore-560100 - Adwait.Priyadarshan@iiitb.ac.in\r\n2Environmental Monitoring and Assessment Division, BARC, Mumbai-400085 - manishkm@barc.gov.in\r\n\r\nKeywords: Emergency care, Route, Accessibility, Bengaluru, Pune  \r\n\r\n\r\nIntroduction\r\nDespite the vast and complex terrain of India, attempts are now made to extend the digital resources developed for a particular region to other parts of the country. Open-source software is now effectively used to assist the decision support system for better connectivity, service delivery, emergency care and disaster management (https://fossunited.org/public-policy). Accordingly, a concept based on comparison of health care infrastructure and patient accessibility has been developed for two mega cities e.g. Pune and Bengaluru of India.  Pune (in Maharashtra) and Bengaluru (in Karnataka) in India are two rapidly urbanizing South-Asian metropolitan cities which have witnessed unprecedented and multifaceted infrastructural growth. Recently, traffic congestion (time lost in intracity travel), air pollution (AQI), educational institutions, and availability of multi-specialty hospitals (health) are leading reasons for opting or relocating to a city of choice. The Ease of Living Index (EOLI) data provided by the Government of India, Bengaluru is ranked #1 (66.70) followed by Pune (66.27). Both cities are ranked #1 and #5 in TomTom\u2019s world congestion index and #1 and #2 respectively in India (https://www.tomtom.com/traffic-index/ranking/). The congestion in the traffic can be attributed to several dynamic as well as static factors. The dynamic factors are office/school rush hours, sudden influx of vehicles from outside, weekends, festivals, vehicle breakdown, road construction or repair etc. The static factors (which change with time but do not alter the traffic flow dynamically) are number of nodes, population density, number of lanes, access (one-way or two way), road width, number of traffic signals, bus-lanes, rail-crossings etc.\r\nProviding rapid response during emergencies is considered an essential part of governance. The decision support system (DSS) ought to decide the patient admission at the nearest available facility that can cater for the emergency. Despite this, several associated uncertainties can affect the outcome of the decision based on limited information about the proximity of the emergency service facilities. A comparative picture delineating the network behavior, spatial saturation and the derivations of equity implications from the modeling for Pune and Bengaluru cities of India is discussed in the paper. Availability of time-distance based service areas for the admission of emergency and critical care patients at the nearest hospitals equipped to attend a specific type of emergency is provided in the text. The traffic bottlenecks (both dynamic and static factors), congestion index, KDE, population and road density have been considered for the coverage calculation. \r\nMethods \r\nAfter repeated verifications from accredited agencies, a total of sixty-two (62) and fifty-five (55) hospitals capable of catering an emergency has been selected from Bengaluru metro and Pune-\r\n\r\n\r\n\r\n\r\n\r\n\r\nPimpri cities of India. These hospitals were designated as centroids for modeling. The road layer which was extracted from Open Street Map (OSM), using QuickOSM plugin consisted of primary, secondary, tertiary, residential etc., types. Many highway types e.g., paths, treks, proposed etc. were programmatically or manually removed. The layer was processed for nodes and networks to enable routing. Free and open-source software QGIS (ver. 3.44, Solothurn) has been used for analysing the data. The population coverage around the hospitals were estimated using the Voronoi polygons and the Global Human Settlement Layer (GHSL) data. The traffic data has been integrated into road networks of both the cities, with demarcations for 1, 2 and 5 km service areas and the time isochrones of 5, 10 and 15 minutes. In either case, they have been converted into convex hulls. The percentage of the covered service area has been calculated along with the overlay population raster and population percentage coverage. TomTom Stat one month traffic data available for August 2024 has been used as source data. For effective spatial data organisation, the data acquired in GeoJSON format has been converted to GeoPackage (GPKG). For generating the analytical dataset, an expansion of GPKG has been done. Within the traffic performance fields, this has enabled to derive a structured CSV, via unpacking the nested JSON strings. The complex time-set data has been transformed through this \u201cflattening\u201d process into individual columns that can be used for providing the Congestion Index- a ratio of baseline speed limit to the actual harmonic speed. Lastly, the geocoded CSV has been merged to the non-traffic road network. This was done through the nearest-neighbour spatial join breaking the traffic centroids to the nearest road geometries for creation of a combined, traffic-sensitive master network.\r\n\r\nDiscussion and conclusion\r\nAs far as the health care accessibility and emergency response is concerned the two cities provide a contrasting urban layout. Unlike the dense-sponge structure of Bengaluru, a tree-like pattern is found for Pune city. The worked-out road length of Bengaluru (16,319 km) is almost 1.5-times more than that of Pune (10,659 km). Also, an extensive network of high road density of Bengaluru (16.3 km/km2) provides the ambulance multiple route options thereby ensuring alternative route flexibility in case of block on roads.  But slow movement is a likely phenomenon due to numerous intersections and street issues with regular turns and stops. Tree-like structural feature of Pune has a lower density of 12.1 km/km2, the city relies on the main arterial road that can facilitate fast movement during regular days. But the underlying sensitivity of blockage of any kind, cutting off from the access network can deeply affect the emergency access. Apart from the road layout, the cities are challenged due to the associated health care inequalities. \r\n\r\nObservations based on the Spatial Coefficient of Variation (CV) use, a relatively higher score of 2.48 for Pune was obtained.  A clustering of hospitals in the central region of Pune has been observed; leaving the peripheral areas scarce in emergency care hospitals. Although Bengaluru provides a robust infrastructure, the high inequality score of 2.28 corroborates the uneven distribution of hospitals with unplanned growth as added limitation. \r\n\r\n\r\nReferences\r\n\r\n1.\thttps://fossunited.org/public-policy\r\n2.\thttps://www.tomtom.com/traffic-index/ranking/",
+    "start_datetime": "2026-09-01T04:00:00Z",
+    "end_datetime": "2026-09-01T04:30:00Z",
+    "talk:code": "NJC3MZ",
+    "talk:guid": "9959a911-2c1c-5c31-a3ad-0238279f3bd6",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos2",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "SZDTHA",
+        "name": "Adwait Priyadarshan",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/SZDTHA/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T04:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/NJC3MZ/",
+      "title": "Comparative analysis of route and health care facilities for the emergency patients of Pune and Bengaluru"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/NJC3MZ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/SZDTHA/",
+      "title": "Adwait Priyadarshan"
+    },
+    {
+      "rel": "related",
+      "href": "https://fossunited.org/public-policy",
+      "title": "fossunited.org/public-policy"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.tomtom.com/traffic-index/ranking/",
+      "title": "www.tomtom.com/traffic-index/ranking"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/NJC3MZ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

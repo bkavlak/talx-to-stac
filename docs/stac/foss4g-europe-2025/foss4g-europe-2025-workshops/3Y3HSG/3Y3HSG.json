@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "3Y3HSG",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8094,
+      43.3416
+    ]
+  },
+  "bbox": [
+    17.8094,
+    43.3416,
+    17.8094,
+    43.3416
+  ],
+  "properties": {
+    "title": "pgRouting Basic Workshop",
+    "description": "[pgRouting](http://www.pgrouting.org/) is an open-source library that provides a variety of graph algorithms tools as an extension of a [PostGIS](http://www.postgis.org/) enabled database on PostgreSQL.\n\nIn this introductory workshop, the basic functionality of [pgRouting](http://www.pgrouting.org/) by providing practical examples using OpenStreetMap road network data from Mostar, Bosnia-Herzegovina. It will cover topics starting from how to prepare the data, make pgRouting queries, work on the overloads of the functions.\r\n\r\nThe workshop will focus on the shortest path search with pgRouting in real road networks near the FOSS4G venue. It will cover the following topics:\r\n\r\n1. Installing pgRouting.\r\n1. Creating a routing topology.\r\n1. Using pgRouting algorithms.\r\n1. Importing OpenStreetMap road network data.\r\n1. Writing advanced queries.\r\n1. Writing a custom PostgreSQL stored procedure in \u2018plpgsql\u2019.\r\n\r\n**Bonus**: If there's enough time and interest we can also apply pgRouting other use cases. eg. FTTH, etc",
+    "start_datetime": "2025-07-15T07:00:00Z",
+    "end_datetime": "2025-07-15T11:00:00Z",
+    "talk:code": "3Y3HSG",
+    "talk:guid": "4e17dcd8-7219-5f3d-ae08-03f7d5405d5b",
+    "talk:event": "foss4g-europe-2025-workshops",
+    "talk:type": "workshop",
+    "talk:language": "en",
+    "talk:room": "PA02",
+    "talk:room_capacity": 86,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "UZLCRT",
+        "name": "Enock Seth Nyamador",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025-workshops/speaker/UZLCRT/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-15T09:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025-workshops/talk/3Y3HSG/",
+      "title": "pgRouting Basic Workshop"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025-workshops/talk/3Y3HSG/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025-workshops/speaker/UZLCRT/",
+      "title": "Enock Seth Nyamador"
+    },
+    {
+      "rel": "related",
+      "href": "http://www.pgrouting.org/",
+      "title": "pgRouting"
+    },
+    {
+      "rel": "related",
+      "href": "http://www.postgis.org/",
+      "title": "PostGIS"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025-workshops/talk/3Y3HSG/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-workshops"
+}

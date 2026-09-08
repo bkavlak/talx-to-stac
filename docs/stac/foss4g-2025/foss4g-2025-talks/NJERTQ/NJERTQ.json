@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "NJERTQ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Building Geospatial AI Applications: From Data to Insights with Open Source Tools Workshop",
+    "description": "Combine deck.gl visualization, data processing, and AI APIs to create intelligent mapping applications. Build a real geospatial AI app from scratch, processing spatial data and generating insights through modern web technologies.\n\nThis hands-on workshop guides developers through building a complete geospatial AI application using modern open source tools. Participants will create a functional application that processes spatial data, generates AI-powered insights, and presents results through interactive visualizations - all running in the browser with no backend required.\r\n\r\n### Technology Stack\r\n\r\n- **Visualization**: deck.gl for high-performance geospatial rendering\r\n- **App development**: Vercel AI SDK \r\n- **AI Integration**: AI APIs for intelligent data analysis\r\n- **Cloud Analysis**: Using MCP to access data and run cloud analysis from CARTO platform\r\n- **Development**: React with TypeScript\r\n\r\n### Workshop Structure\r\n\r\n#### Hour 1:  Foundation\r\n- Project setup with React, TypeScript\r\n- Simple LLM tool integration\r\n\r\n#### Hour 2: AI & data Integration\r\n- Loading and processing geospatial datasets (GeoJSON, CSV)\r\n- Controlling UI via AI\r\n\r\n#### Hour 3: Visualization and Integration\r\n- Creating interactive maps with deck.gl\r\n- Connecting CARTO maps & external tools\r\n- Postprocessing\r\n\r\n### Requirements\r\n\r\n- JavaScript/TypeScript and React experience\r\n- Laptop with Node.js and modern browser\r\n- Anthropic API key\r\n\r\nParticipants will leave with a complete, functional geospatial AI application and reusable code patterns for building similar applications.",
+    "start_datetime": "2025-11-16T20:00:00Z",
+    "end_datetime": "2025-11-16T23:00:00Z",
+    "talk:code": "NJERTQ",
+    "talk:guid": "401fb1b3-12d6-5290-a60e-78c9379aa17c",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Workshop - Beginner Friendly",
+    "talk:type": "Workshop",
+    "talk:language": "en",
+    "talk:room": "WF503",
+    "talk:room_capacity": 30,
+    "talk:duration_minutes": 180,
+    "talk:speakers": [
+      {
+        "code": "QEWFVN",
+        "name": "Felix Palmer",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/QEWFVN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-16T21:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/NJERTQ/",
+      "title": "Building Geospatial AI Applications: From Data to Insights with Open Source Tools Workshop"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/NJERTQ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/QEWFVN/",
+      "title": "Felix Palmer"
+    },
+    {
+      "rel": "related",
+      "href": "https://deck.gl",
+      "title": "deck.gl"
+    },
+    {
+      "rel": "related",
+      "href": "https://a5geo.org",
+      "title": "A5"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/NJERTQ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

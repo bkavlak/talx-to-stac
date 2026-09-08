@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "BKGYKQ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "A5: Rethinking Spatial Indexing",
+    "description": "Meet [A5](https://a5geo.org), a new pentagonal geospatial indexing system with truly equal area cells offering millimeter precision. Discover why pentagons solve fundamental limitations of existing hexagonal systems like H3, and explore real-world applications from urban planning to environmental monitoring.\n\nFor millennia, humans have been fascinated by tiling patterns, but when it comes to partitioning our planet, we've been limited by the assumption that regular polygons are the only option. A5 challenges this assumption and introduces a paradigm shift in spatial indexing through pentagonal cells that offer truly equal areas and superior accuracy.\r\n\r\n### The Problem with Current Systems\r\n\r\nH3, developed by Uber and now the leading spatial indexing system used across industry, has revolutionized geospatial analysis with its hexagonal approach. However, even H3 faces fundamental mathematical limitations that create real-world challenges for spatial analysis.\r\n\r\nThe most significant issue is cell area variation: H3 cells vary by a factor of nearly 2 across the globe, with the largest hexagons being around 2 times larger than the smallest ones. This variation introduces systematic bias in spatial analysis - identical densities appear different depending on location, and statistical comparisons across regions become unreliable.\r\n\r\nAnother limitation is that H3's finest resolution offers cells around 1 square meter. As a result, the cells cannot be used to index positions with high accuracy.\r\n\r\n\r\n### The A5 Solution: Embracing Pentagons\r\n\r\nA5 takes a radically different approach by embracing pentagons from the start - marking the first time pentagons have been used as the primary building block for a Discrete Global Grid System.\r\n\r\nThe system partitions the world into pentagonal cells across 32 different resolution levels, from 12 cells covering the entire world down to cells smaller than 30mm\u00b2. This extraordinary precision is encoded as a 64-bit integer, making A5 computationally efficient while maintaining millimeter-level accuracy - orders of magnitude finer than H3's smallest cells.\r\n\r\n\r\n### Key Advantages Over Alternative Systems\r\n\r\n- **Uniform Cell Sizes**: Unlike H3 and other DGGSs, A5 provides completely equal area cells within each resolution level - 0% error thanks to a novel polyhedral projection based on the Snyder projection. This eliminates bias in spatial analysis and ensures perfect statistical validity across all geographic regions.\r\n\r\n- **Minimal Distortion**: A5's geometric construction based on a dodecahedron - the platonic solid with the lowest vertex curvature - results in minimal distortion when projecting onto the sphere\r\n\r\n- **High Resolution**: With cells as small as 30mm\u00b2 at the finest resolution level, A5 enables applications requiring extreme precision, from precision agriculture to infrastructure monitoring.\r\n\r\n- **No Special Cases**: Every A5 cell is a pentagon, eliminating the complex special case handling required by systems with mixed polygon types.",
+    "start_datetime": "2025-11-20T03:00:00Z",
+    "end_datetime": "2025-11-20T03:25:00Z",
+    "talk:code": "BKGYKQ",
+    "talk:guid": "ad87cefb-b8bf-5a72-b549-13897baa8913",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Tools, Libraries & Visualisation",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG308 TE IRINGA",
+    "talk:room_capacity": 180,
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "QEWFVN",
+        "name": "Felix Palmer",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/QEWFVN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-20T03:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/BKGYKQ/",
+      "title": "A5: Rethinking Spatial Indexing"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/BKGYKQ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/QEWFVN/",
+      "title": "Felix Palmer"
+    },
+    {
+      "rel": "related",
+      "href": "https://a5geo.org",
+      "title": "A5"
+    },
+    {
+      "rel": "related",
+      "href": "https://deck.gl",
+      "title": "deck.gl"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/BKGYKQ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=9fqGvkApiUU",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | A5: Rethinking Spatial Indexing",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

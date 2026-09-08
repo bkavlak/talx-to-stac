@@ -1,0 +1,114 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "9G3YGD",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Data integrity risks when using simple feature",
+    "description": "When you care about data integrity of spatial data you need to know about the limitations/weaknesses of using simple feature datatype in your database. For instance https://land.copernicus.eu/pan-european/corine-land-cover/clc2018 contains 2,377,772 simple features among which we find 852 overlaps and 1420 invalid polygons. For this test I used \u201cESRI FGDB\u201d file and gdal for import to postgis.  We find such minor overlaps and gaps quite often, which might not be visible for the human eye. The problem here is that it covers up for real errors and makes difficult to enforce database integrity constraints for this.  Close parallel lines also seems to cause Topology Exception in many spatial libraries.\r\n\r\nA core problem with simple features is that they don't contain information about the relation they have with neighbor features, so integrity of such relations is hard to constraint. Another problem is mixing of old and new data in the payload from the client. This makes it hard and expensive to create clients, because you will need a full stack of spatial libraries and maybe a complete locked exact snapshot of your database on the client side. Another thing is that a common line may differ from client to client depending on spatial lib, snapTo usage, tolerance values and transport formats.\r\n\r\nIn 2022 many system are depending on live updates also for spatial data.  So it\u2019s big advantage to be able to provide a simple and \u201csecure\u201d API\u2019s with fast server side integrity constraints checks that can be used from a standard web browser. When we have this checks on server side we will secure the equal rules across different clients.\r\n\r\nIs there alternatives that can secure data integrity in a better way? Yes, for instance Postgis Topology. The big difference is that Postgis Topology has more open structure that is realized by using standard database relational features. This lower the complexity of the client and secures data integrity. In the talk \u201cUse Postgis Topology to secure data integrity, simple API and clean up messy simple feature datasets.\u201d we will dive more into the details off Postgis Topology\r\nBuilding an API for clients may be possible using simple features, but it would require expensive computations to ensure topological integrity but to solve problem with mixing of new and old borders parts can not be solved without breaking the polygon up into logical parts. Another thing is attribute handling, like if you place surface partly overlapping with another surface should that have an influence on the attributes on the new surface.\r\n\r\nWe need to focus more on data integrity and the complexity and cost of creating clients when using simple feature, because the demands for spatial data updated in real time from many different clients in a secure and consistent way will increase. This will be main focus in this talk.",
+    "start_datetime": "2022-08-25T08:10:00Z",
+    "end_datetime": "2022-08-25T08:15:00Z",
+    "talk:code": "9G3YGD",
+    "talk:guid": "1f99b3e6-b24d-58b0-8d08-4da396602602",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Room 9",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "QS7Y88",
+        "name": "Lars Opsahl",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/QS7Y88/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T08:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/9G3YGD/",
+      "title": "Data integrity risks when using simple feature"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/9G3YGD/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/QS7Y88/",
+      "title": "Lars Opsahl"
+    },
+    {
+      "rel": "related",
+      "href": "https://land.copernicus.eu/pan-european/corine-land-cover/clc2018",
+      "title": "land.copernicus.eu/pan-european/corine-land-cover/clc2018"
+    },
+    {
+      "rel": "related",
+      "href": "https://gitlab.com/nibioopensource/pgtopo_update_sql",
+      "title": "gitlab.com/nibioopensource/pgtopo_update_sql"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/larsop/resolve-overlap-and-gap",
+      "title": "github.com/larsop/resolve-overlap-and-gap"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/9G3YGD/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=JaKuT1M0XAo",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Data integrity risks when using simple feature",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

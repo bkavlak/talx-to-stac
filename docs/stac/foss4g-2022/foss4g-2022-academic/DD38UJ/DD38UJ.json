@@ -1,0 +1,108 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "DD38UJ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Multi-Sensor Feeder: Automated and Easy-To-Use Animal Monitoring Tool for Citizens",
+    "description": "Environmental changes can have different causes on local level (e.g. soil sealing) as well as on global level (e.g. climate change). To detect these changes and to find patterns in the reasons for them it is necessary to collect broad environmental data, temporally and spatially. Thereto citizens can play an essential role to collect the data (Goodchild, 2007). In particular, we developed a system which enables citizens to monitor the occurrence and distribution of birds and provides the collected data to the public in order that both researchers and citizens can derive conclusions from them. With our automated approach we want to support other citizen science solutions like eBird (Sullivan et al. 2014) where contributors manually report their sightings.\r\n\r\nTherefore, we built a prototypical bird feeder equipped with several sensors and the infrastructure to process the data collected by the feeder.\r\nThe feeder is easy to reproduce at a reasonable price by following an open available manual. This allows anyone to build the feeder on their own, enabling a large distribution at many locations. The feeder automatically detects when a bird is visiting it, takes an image of the bird, determines the species and connects the observation with environmental data like the temperature or light intensity. All the collected data are published on a developed open access platform. Incorporating other surrounding factors like the proximity of the feeder station to the next forest or a large street allows it to pursue various questions regarding the occurrence of birds. One of them might ask, how does the immediate environment affect bird abundance? Or do sealed surfaces have a negative effect compared to a flowering garden?\r\n\r\nThe developed weatherproof bird feeder is attached with multiple sensors. Thereby the standard equipment includes a motion sensor to detect if a bird is currently visiting the feeder, a camera to take images of the birds, a balance to weigh the birds and a sensor to measure the environment's temperature and air pressure. In addition to the standard sensors, further sensors were tested with the prototype, which usefully supplement the monitoring but are not absolutely necessary for the operation of the station. Thus, a microphone is suited to record the voice of the birds or generally the surrounding noises. A brightness sensor can be valuable to draw conclusions whether birds visit the feeder in relation to light conditions, or a sensor to measure the air pollution (e.g. PM10) to investigate if the air quality influences the bird occurrence. Besides, the usual camera can be replaced by an infrared camera to capture animals which visit the feeder at night. Thus, the station is expandable and customizable depending on the individual use cases or research questions. \r\nThe environmental sensor data is continuously logged and sent to the open access platform, whereby the corresponding interval can be set by the user. Once the motion sensor detects a movement, the camera recording starts as well as scale and microphone start to store values. As long as the motion sensor detects movement, camera, microphone and balance are running. After the movement is finished, a light-weighted recognition model is used to check whether a bird is depicted in the images. If this is the case, all data collected during the movement, including the respective environmental data, will be sent as a package to the open access platform. \r\n\r\nIn order to process the data collected by the station, we have developed various methods and software for data storage, analysis and sharing. The data processing is done on a centralized server. Communication with this server is enabled through a RESTful API and a website. On the server created entities of the feeders can  receive environmental data as well as movement packages. When movements are sent, the server analyzes the amount of birds and identifies the species with artificial intelligence. In addition to the storage, the server makes the data available to users in two ways. First, the data is downloadable as raw JSON via the API, which enables others to use it for their own research. Second, the data is presented nicely on our website, to make it easily inspectable for everyone. However, not only via our stations a upload to the server is possible, it is also open for the upload of data gathered by other systems. Further, it is also possible to upload images of birds and receive the represented species. \r\n\r\nThe feeder is designed so that it can be replicated by anyone. The corresponding instructions will be published shortly. The code to run the station and the server is available via GitHub (https://github.com/CountYourBirds).\r\n\r\nMoreover, different options for the validation of the data, especially the species classification, are implemented. One step is the automatic validation by the sensor values or metadata. For instance if a standard camera recognizes a bird but currently it is night (detected by light sensor or time of the day) or the balance detects nothing, the observation is discarded. Further validation can come from actual people. An interface is provided which is used to show people values and especially images recorded with the automatically recognized species. The depicted data can be validated to find corrupt sensors and wipe out mistakes made within the image classification. Additionally, the serverside evaluation of the data is supplemented by a validation of the recognized species. It is checked whether it is possible that the species can occur at that geographic region or at that time of the year. \r\n\r\nAs next steps we want to conduct workshops with citizens and experts, both for putting together the stations as well as evaluating the data and the station itself. In general a strength of our implemented approach is that it is easily adaptable to other use cases, especially to detect other animals. For example with small adaptations to the feeder it could be used to detect or count different mammals like squirrels or for insects like butterflies and bees.",
+    "start_datetime": "2022-08-24T09:00:00Z",
+    "end_datetime": "2022-08-24T09:30:00Z",
+    "talk:code": "DD38UJ",
+    "talk:guid": "4d65beb5-295c-5eac-a2f9-aa7dfc35415f",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room Modulo 3",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "ZT3DBH",
+        "name": "Jan Stenkamp",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/ZT3DBH/"
+      },
+      {
+        "code": "G3TAMX",
+        "name": "Tom Niers",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/G3TAMX/"
+      },
+      {
+        "code": "GR8JMM",
+        "name": "Nick Jakuschona",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/GR8JMM/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T09:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/DD38UJ/",
+      "title": "Multi-Sensor Feeder: Automated and Easy-To-Use Animal Monitoring Tool for Citizens"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/DD38UJ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/ZT3DBH/",
+      "title": "Jan Stenkamp"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/G3TAMX/",
+      "title": "Tom Niers"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/GR8JMM/",
+      "title": "Nick Jakuschona"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/DD38UJ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

@@ -1,0 +1,87 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "YZXSRW",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "Vector tiles with GeoServer",
+    "description": "Learn how to build and serve vector tiles with GeoServer, and how GeoServer can be well suited to mixed serving use cases (raster + vector), dynamic data, as well as handling different views based on the current user security clearance.\n\nGeoServer is well known for its wide support for classic OGC services. But does it handle vector tiles?\r\nYes, it does, but dealing with the assumptions of the XYZ ecosystem requires some simple preparations.\r\nThe set up of the scale dependencies and data sources may also be new to those already used to vector tiles, while it comes more naturally to those having a OGC service background.\r\n\r\nJoin this workshop to learn basics about vector tiles, their usage, the performance factors, how to setup GeoServer for painless usage, and how to use vector tiles with the tools in the XYZ ecosystem.",
+    "start_datetime": "2026-07-03T06:00:00Z",
+    "end_datetime": "2026-07-03T10:00:00Z",
+    "talk:code": "YZXSRW",
+    "talk:guid": "eaf5ade7-4f68-54ca-a5a4-8dfe93bcfba8",
+    "talk:event": "foss4g-europe-2026-workshops",
+    "talk:type": "workshop",
+    "talk:language": "en",
+    "talk:room": "005",
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "RBSH8T",
+        "name": "Andrea Aime",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026-workshops/speaker/RBSH8T/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-07-03T08:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/talk/YZXSRW/",
+      "title": "Vector tiles with GeoServer"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/talk/YZXSRW/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/speaker/RBSH8T/",
+      "title": "Andrea Aime"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/talk/YZXSRW/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-workshops"
+}

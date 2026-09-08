@@ -1,0 +1,136 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "FQBPYC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "VirtuGhan : A Virtual Computation Cube for EO Data",
+    "description": "VirtuGhan is a Virtual Computation Cube designed for efficient on-the-fly tile computation of Earth Observation Data, similar to Google Earth Engine but utilizing open-source tools. It enables on-the-fly calculations on  tiles on satellite images at various zoom levels using Cloud Optimized GeoTIFFs (COGs) & rio-tiler. The project focuses efficient computation rather than storage, allowing direct analysis of images without needing to store the entire dataset. This approach enhances the accessibility and processing of large geospatial datasets. In this talk we will go through the current state of art on COG for the EO datasets , their capabilities , advatages of having on the fly tile computation on various zoom level and advantages of doing calculations on the tile. Read more here : https://github.com/kshitijrajsharma/VirtuGhan/",
+    "start_datetime": "2025-07-16T12:30:00Z",
+    "end_datetime": "2025-07-16T13:00:00Z",
+    "talk:code": "FQBPYC",
+    "talk:guid": "9e9811a7-5c71-51b9-b079-916b64c07572",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "SA02",
+    "talk:room_capacity": 108,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "CKFPW3",
+        "name": "Kshitij Raj Sharma",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/CKFPW3/"
+      },
+      {
+        "code": "LU33EQ",
+        "name": "Upendra Oli",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/LU33EQ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-16T12:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/FQBPYC/",
+      "title": "VirtuGhan : A Virtual Computation Cube for EO Data"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/FQBPYC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/CKFPW3/",
+      "title": "Kshitij Raj Sharma"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/LU33EQ/",
+      "title": "Upendra Oli"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/kshitijrajsharma/VirtuGhan/",
+      "title": "github.com/kshitijrajsharma/VirtuGhan"
+    },
+    {
+      "rel": "related",
+      "href": "https://upendraoli.xyz/?i=1",
+      "title": "upendraoli.xyz"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/FQBPYC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-slides": {
+      "href": "https://www.canva.com/design/DAGtRXwv_Os/UuLJaHw-aEprhoyDWtOQjQ/edit?utm_content=DAGtRXwv_Os&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+      "title": "Presentation Slides",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/hYec2ESuVrprQD9tEhEYya",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | VirtuGhan : A Virtual Computation Cube for EO Data",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=neFBGp8gtcA",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | VirtuGhan : A Virtual Computation Cube for EO Data",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

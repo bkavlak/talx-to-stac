@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "H9KKF9",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "QField participatory mapping integration into Digital Earth Pacific open data cube environments for rapid co-creation of classification models",
+    "description": "This paper highlights the datasets, analytical tools, computational capacity and insights made possible through Digital Earth Pacific (DE Pacific). The paper focuses on the use case of participatory land use land cover model calibration and validation using QField and the Digital Earth Pacific Jupyter Analytics Hub.\n\nIntroduction\r\n\r\nEarth and Ocean observation technologies have advanced rapidly over the past decades, becoming not only more detailed in terms of spectral and temporal coverage but also increasingly accessible for a wide range of users. \r\nYet there have been ongoing barriers to the uptake and adoption of earth observation analytics needed to inform policy makers. Often these barriers have included complex and overly technocratic language and workflows whereby obstructing access and obscuring insights from satellite data. This has resulted in most analysis of satellite data being limited to academic and research oriented groups.\r\nOther options have recently emerged with the potential to support a wider range of users to gain access to insights from earth observations. However, many of these work workflows remain obscured due to technical and emerging cost barriers. Others may rely on specific packages and libraries that sometimes become deprecated overtime, reducing the overall long-term replicability of these workflows for wider users.\r\nRecent advancements in cloud computing infrastructure in the Pacific region have the potential to enable wider access for various users to access standardized and customised replicable workflows  in the long term without cost. \r\nThis paper highlights the datasets, analytical tools, computational capacity and insights made possible through Digital Earth Pacific (DE Pacific). This is a public technology infrastructure which has learned from the models of Digital Earth Africa, and Digital Earth Australia. \r\n\r\nLand cover monitoring:\r\nLand Use Land Cover (LULC) models shed light on the proportions and distributions of different natural and man-made environments across landscapes at given points in time. When multiple land cover model maps are generated for different points in time, the results can be analysed to detect changes in different land use and land cover classes over time. This analysis is commonly applied to the monitoring and management of a wide range of sectors including, but not limited to, forestry, agriculture, urban planning, infrastructure, water management and mining (Topuz and Deniz, 2023). Yet, there have been persisting challenges for machine learning approaches to meet thresholds of accuracy while generating LULC classification models at scale. Some of these challenges have included:\r\nGenerating LULC models that provide an accurate prediction of land use and land cover distribution at the local scale (meeting accuracy assessment thresholds of X) \r\nScaling of LULC models across diverse ecosystems and geographies while continuing to still meet accuracy assessment thresholds. \r\nReconciling between local needs inputs including groundcover observation points and globally standardised LULC classes and models (for reporting purposes).\r\nThere is no one ideal classification of land use and land cover, and it is unlikely that one could ever be developed. There are different perspectives in the classification process, and the process itself tends to be subjective, even when an objective numerical approach is used (USGS, 1976). \r\n\r\n\r\n\r\n\r\nAims\r\nThe aim of this paper is to provide an overview of the Digital Earth Pacific and some of its recent scientific benchmarking. \r\nThis paper focuses on the used case of nationally driven land service for land cover machine learning classification models. This participatory workflow may be of interest to other stakeholders in the Pacific and more widely who are interested in replicating this for other use cases and sectors. In doing so, the paper may shed some light on best practices within the Pacific region for land use land cover model calibration and validation. The paper will also seek to highlight the long-term replicability of these open-source workflows that are not subject to pay walls or commercial platforms. \r\nThe paper is also intended to raise greater awareness of the current datasets, regional products as well as the methods and workflows used in Digital Earth Pacific.\r\n\r\n2. Materials and methods\r\n2.1. Study area(s)\r\nStudy areas included PICTs that have participated in past DE Pacific Land Cover Assessment Skills Transfer (LCAST) workshops: Tonga, Fiji, The Republic of the Marshall Islands (RMI), Palau, Tuvalu and the Cook Islands. \r\n\r\n2.2. Data and processing\r\n2.2.1. Satellite imagery and the Digital Earth Pacific GeoMAD\r\nMen of the analysis ready data products are made possible through the DE Pacific GeoMAD (Leith, forthcoming). \r\n\r\n2.2.2. Participatory field data calibration and validation using QField\r\nQField is an open access and open source mobile application that is connected to quantum geographic information systems (QGIS) software. This mobile app allows for the collection of Geotagged data points, transects, polygons, and other field data features. In this use case, these data sets are crucial for the calibration and validation of machine learning land cover classification models.\r\nThe participatory elements of these workflows are supported through open-source approaches. The country driven surveys involved use of QField to GPS points that provide a range of different values for the different land cover classes. There are six standardized land cover classes as defined by the IPCC in the Chapter 2 of Chapter 2: Generic Methodologies Applicable to Multiple Land-Use Categories. \r\nThrough country-driven workshops and surveys, local participants are able to contribute to a spectral database that allows for the training of machine learning land cover models. There are options to collect more detailed classes, including other land uses and land cover types outside of the standardized six classes. By including Traditional Ecological Knowledge (TEK) there is also greater room for localization and customization of capabilities with greater room for local inputs into capturing more complexity in terms of Land Use and Land Cover (LULC) changes . A longer list of land cover classes can also be aggregated into a simpler list, including for compatibility with the IPCC classes.\r\n\r\n2.2.3. Participatory post-processing \r\nThis process involved collating, cleaning and validating all of the data sets collected through the field surveys. Participants were then able to ingest these datasets into Digital Earth Pacific through a Jupyter Notebooks environment to then run the random forest classification and other classifier models through SciKit-Learn libraries. \r\n\r\nThe results are shared in this paper including:\r\n\r\n1) LULC model results maps and tables\r\n2) Models trained at a national-scale \r\n3) Skills transfer for ongoing replication \r\n\r\nThere are also areas of Intrinsic value and ongoing capacity building in the region. The paper also shows feedback on the results of pre-and post survey and workshop capacity building shared by the workshop and survey participants.",
+    "start_datetime": "2025-11-19T20:00:00Z",
+    "end_datetime": "2025-11-19T20:25:00Z",
+    "talk:code": "H9KKF9",
+    "talk:guid": "ba20d703-5ff0-52b0-9716-7d12ed82dff6",
+    "talk:event": "foss4g-2025",
+    "talk:track": "AI, Data Science & Analytics",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WA220",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "GDHPXP",
+        "name": "Nicholas Metherall - SPC",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/GDHPXP/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-19T20:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/H9KKF9/",
+      "title": "QField participatory mapping integration into Digital Earth Pacific open data cube environments for rapid co-creation of classification models"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/H9KKF9/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/GDHPXP/",
+      "title": "Nicholas Metherall - SPC"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/H9KKF9/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=UxgZ8xCk0io",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | QField participatory mapping integration into Digital Earth Pacific open data cube...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

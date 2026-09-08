@@ -1,0 +1,139 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "UY3SBT",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Lonboard: Fast, interactive geospatial vector data visualization in Python",
+    "description": "Interactive visualization is often a precursor to extracting meaningful insights from data. Lonboard provides 30-40x faster performance for visualizing geospatial vector data than other Python libraries, supporting millions of coordinates.\n\nVisualization, especially interactive visualization, is often the initial step in extracting meaningful insights from data. But it's too hard to quickly and interactively visualize large geospatial vector data in Python.\r\n\r\n[Ipyleaflet](https://ipyleaflet.readthedocs.io/en/latest/) and [Folium](https://python-visualization.github.io/folium/latest/) are great for small datasets, but their performance quickly suffers as data sizes grow into the tens of thousands. [Pydeck](https://deckgl.readthedocs.io/en/latest/) supports slightly larger datasets, but it, too, struggles with data sizes above 100,000 coordinates.\r\n\r\nThis presentation introduces [Lonboard](https://developmentseed.org/lonboard/latest/), a cutting-edge open-source Python library designed to address this challenge by enabling fast, interactive geospatial vector data visualization within Jupyter notebooks.\r\n\r\nLonboard's performance stems from its innovative architecture, built on four key technologies: [deck.gl](https://deck.gl/) for GPU-accelerated rendering, [GeoArrow](https://geoarrow.org/) for efficient in-memory representation, [GeoParquet](https://geoparquet.org/) for optimized data transfer to the browser, and [anywidget](https://anywidget.dev/) for easy Jupyter integration.\r\n\r\nOn a dataset with 3 million points, Ipyleaflet crashed after 3.5 minutes, Pydeck crashed after 2.5 minutes, but Lonboard successfully rendered in 2.5 **seconds**.\r\n\r\nThis talk will give a brief overview of the internal innovations that make Lonboard so fast, then detail how to make the most of Lonboard's high-level APIs for visualizing large data.",
+    "start_datetime": "2025-11-20T20:00:00Z",
+    "end_datetime": "2025-11-20T20:25:00Z",
+    "talk:code": "UY3SBT",
+    "talk:guid": "935e8dbb-24ff-5348-aaf0-09c82a1ad88a",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Tools, Libraries & Visualisation",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG308 TE IRINGA",
+    "talk:room_capacity": 180,
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "LYUBSM",
+        "name": "Kyle Barron",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/LYUBSM/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-20T20:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/UY3SBT/",
+      "title": "Lonboard: Fast, interactive geospatial vector data visualization in Python"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/UY3SBT/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/LYUBSM/",
+      "title": "Kyle Barron"
+    },
+    {
+      "rel": "related",
+      "href": "https://ipyleaflet.readthedocs.io/en/latest/",
+      "title": "Ipyleaflet"
+    },
+    {
+      "rel": "related",
+      "href": "https://python-visualization.github.io/folium/latest/",
+      "title": "Folium"
+    },
+    {
+      "rel": "related",
+      "href": "https://deckgl.readthedocs.io/en/latest/",
+      "title": "Pydeck"
+    },
+    {
+      "rel": "related",
+      "href": "https://developmentseed.org/lonboard/latest/",
+      "title": "Lonboard"
+    },
+    {
+      "rel": "related",
+      "href": "https://deck.gl/",
+      "title": "deck.gl"
+    },
+    {
+      "rel": "related",
+      "href": "https://geoarrow.org/",
+      "title": "GeoArrow"
+    },
+    {
+      "rel": "related",
+      "href": "https://geoparquet.org/",
+      "title": "GeoParquet"
+    },
+    {
+      "rel": "related",
+      "href": "https://anywidget.dev/",
+      "title": "anywidget"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/UY3SBT/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=_Q8sN6ghCg4",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Lonboard: Fast, interactive geospatial vector data visualization in Python",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

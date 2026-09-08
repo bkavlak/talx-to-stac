@@ -1,0 +1,122 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Z7QGGL",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "Enterprise GIS: Building and Maintaining the Database",
+    "description": "Modern Enterprise GIS is nowadays built with FOSS4G softwares. Many organizations are in the middle of transition to build EntrepriseGIS and some organizations are still planning to move from old fashioned closed source software implementations to open source solutions. FOSS4G based Enterprise GIS is commonly built with PostGIS based GIS database, QGIS desktop software, mobile applications (like QField and Mergin Maps) and web applications servers (like QGIS Server, Geoserver). The most crucial and enduring component of an Enterprise GIS solution is the database. This presentation will cover how to design, build and maintain a GIS database for Enterprise usage. The presentation also includes best practices and recommendation of tools for Enterprise GIS database management.\r\n\r\nEnterprise GIS is an organization-wide suite of interoperable GIS software used to manage and process geospatial information. Following the basic principles of enterprise architecture, its structure is based on three distinct layers: the User Interface, the Application Server, and Data Storage. This presentation will focus on how to build a robust and efficient Data Storage layer with PostGIS database.\r\n\r\nThis presentation will cover the following topics:\r\n- GIS database design and modelling with open source solutions\r\n- Best practices for GIS data modelling and versioning of data models\r\n- Organise and manage the Enterprise GIS database in PostgreSQL cluster\r\n- Best practices for access privileges in Enterprise GIS database\r\n- QGIS related data storage to PostGIS\r\n- Manage database connections and credentials in QGIS\r\n\r\nThis presentation is essential for GIS database managers, GIS managers, and all users of Enterprise GIS solutions. Attendees will be equipped with the fundamental knowledge and practical best practices \u2014 including valuable tips-and-tricks \u2014 required to effectively build and maintain a robust Enterprise GIS database.",
+    "start_datetime": "2026-06-30T09:00:00Z",
+    "end_datetime": "2026-06-30T09:30:00Z",
+    "talk:code": "Z7QGGL",
+    "talk:guid": "5487c1e1-9fcb-5d95-8517-11a0b0a01e15",
+    "talk:event": "foss4g-europe-2026",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "A11",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "LXPN8Q",
+        "name": "Pekka Sarkola",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/LXPN8Q/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-06-30T09:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/Z7QGGL/",
+      "title": "Enterprise GIS: Building and Maintaining the Database"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/Z7QGGL/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/LXPN8Q/",
+      "title": "Pekka Sarkola"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.gispo.fi/",
+      "title": "Gispo Suomi Oy"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.gispo.se/",
+      "title": "Gispo Sverige AB"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.osgeo.fi/",
+      "title": "OSGeo Suomi ry"
+    },
+    {
+      "rel": "related",
+      "href": "https://2025.foss4g.fi",
+      "title": "FOSS4G Suomi"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/Z7QGGL/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "building-enterprise-gis-with-foss4g-foss4g-europe-2024": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/KKHBLB/",
+      "title": "Building Enterprise GIS with FOSS4G (FOSS4G Europe 2024)",
+      "roles": [
+        "data"
+      ]
+    },
+    "gispo-foss4ge-2026-enterprise-gis-building-and-maintaining-t": {
+      "href": "https://docs.google.com/presentation/d/1OOb3mDvsYgo6SZkGVyxPtKWils06S35pkFfgHq14POg/edit?usp=sharing",
+      "title": "Gispo: FOSS4GE 2026 - Enterprise GIS: Building and Maintaining the Database - public",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

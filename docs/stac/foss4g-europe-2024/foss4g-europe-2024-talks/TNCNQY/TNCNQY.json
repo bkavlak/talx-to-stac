@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "TNCNQY",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Benefits and pitfalls of emotional and mobility web mapping",
+    "description": "The popularity of participative mapping continuously grows and is becoming an essential tool to involve citizens in urban planning, architectural solutions and transport design. Citizens can quickly and easily review proposals and variants, explore models and visualizations, express their opinions, pin comments, and vote on their favourites (Ribeiro and Ribeiro 2016). Emotional maps and similar mapping tools are frequently used in Czechia, especially for mapping citizens\u2019 attitudes towards both physical and social features of the urban environment. Quantitative assessment of mapping results can help urban planners better understand citizens\u2019 perception and improve the targeting of planned measures (Camara, Camboim, and Bravo 2021). Discussion sometimes arises about the validity of such mapping, complementarity or substitution of traditional questionnaire surveys. The objective of the paper is to discuss benefits and weaknesses of such tools and to compare them with questionnaire surveys.\r\nThe case study is focused on two middle-sized Czech cities, Ostrava (OV) and Hradec Kralove (HK), and selected rural municipalities in their surroundings. Participants are all seniors (age 65+) due to the project aim of understanding seniors\u2019 spatial mobility, accessibility and perception. \r\nThe questionnaire survey was conducted in 2022 by the Research Agency STEM/MARK (n=536, PAPI method 86%, CAWI method 14%). Quota sampling used stratification by age, gender, territory, and urbanization based on census data.\r\nAt the same time, two web map applications were launched - the emotional and mobility maps. We used the platform EmotionalMaps.eu which utilizes a Leaflet library (P\u00e1nek et al. 2021).\r\nIn the map application, respondents indicate their age group and health limitations, and mark one or more locations: attractive locations, repulsive locations, barriers to movement, attractive paths, repulsive paths, and approximate residence location. Each marked target can be further specified by 16 reasons with a multiple-choice option, visiting frequency, schedule, and weather and social constraints (Horak et al. 2022).\r\nIn the mobility map, respondents specify one or more of their favourite locations in the following categories: home, workplace, retail, pharmacy, post office, doctor, supermarket, ATM, worship, services, park, restaurant, visiting family or friends, garden or cottage, or other place. After marking each point, they may specify frequency of attendance and transport mode.\r\nThe main advantages for emotional and mobility web mapping are cost effectiveness, flexibility of use, usually large sample size, attractiveness of design, ease of use for people with computer or mobile skill, ability for accurate positioning of the targets, customized map design (zoom, pan, etc.), larger extent, ability to describe more specific conditions, use of illustrative pictures or icons, interactive help, consistency monitoring, integrity constraints, and selection from specified options. Disadvantages include no validation of the respondent profile, bias of respondents towards more technically skilled and wealthier people, privacy concerns, and duplicate responses (Wikstr\u00f8m 2023).\r\nThe biggest problems were encountered when drawing lines to specify attractive and repulsive paths. We obtained only 32 records from OV and 29 records from HK and evident errors represent 19% and 40%, respectively. \r\nQuota sampling was not applied on the web mapping data, only a basic selection of the relevant age group and residence in HK or OV. The differences of the respondents\u2019 profiles between the three methods of survey show clear bias towards younger and more healthy seniors in the case of web mapping and CAWI. \r\nAny surveys\u2019 raw data contains some inaccuracies, errors, or odd responses from people misunderstanding questions, misusing tools, trial responses, intention to damage data or outputs, or having concerns (e.g., losing privacy). Deviations from planned quota shares in the quota-based survey may result in the removal of some respondents and/or the need to conduct an additional survey (in our case, 40-46% in two villages). The data's temporal consistency is deteriorated by such changes. \r\nThe primary aim of the survey was to discover seniors\u2019 mobility targets. We asked for their dwelling location and up to four of their most important targets, listed in descending order by their perceived importance, written as a free text. To specify the locations of residence and targets we asked for addresses or another useful specification. Respondents identified 23 kinds of important targets in HK and 24 in OV with the following main priorities: shopping (37 and 24%, resp.), doctor (19 and 22%), family (10 and 13%), walking (8 and 6%), and friends (5 and 4%). An additional problem is that 5% of free-text destinations had multiple targets.\r\nThe web mobility mapping requested specification of favourite locations for one or more targets in the 13 categories, the residence and the \u201cother\u201d target (specified by free text). Respondents identified 16 kinds of important targets in HK and 12 in OV with the following priorities: retail (15 and 12%, respectively), supermarket (12 both), pharmacy (12 and 10%), post office (11 and 10%). Such a flat distribution is caused by the respondents\u2019 tendency to mark only one target per category.\r\nThe accuracy of location is variable. While the web mapping application instantly provides coordinates for each location, the targets from questionnaires require geocoding. In our case, geocoding was successful only for 65% of records. Among these, 18% were geocoded by utilizing the complete address, 53% were geocoded by finding the nearest matching destination, 24% were geocoded manually with interpretation, and 5% were geocoded but only to the center of the street\r\nFurther, the spatial distributions of targets were compared. The clustering of both indicated targets and all targets available in OpenStreetMap is confirmed by the M-function in both variants (questionnaire and web mapping). The analysis of distances from a residence to an indicated real target shows more clustering for questionnaire targets around a residence than for those from web mobility mapping. However, the selection of closer destinations in the questionnaire is influenced by the age bias of respondents and by the limited number of requested targets (up to four).\r\nThe study contributes to the discussion on the validity of participative mapping and sheds a light on the importance of carefully preparing such surveys and pre-processing data comprehensively.",
+    "start_datetime": "2024-07-04T09:10:00Z",
+    "end_datetime": "2024-07-04T09:15:00Z",
+    "talk:code": "TNCNQY",
+    "talk:guid": "6116ffe7-b1cc-586c-a29f-a10b92bb81a6",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Academic track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "Omicum",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "QCYMUM",
+        "name": "Nikola Koktav\u00e1",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/QCYMUM/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-04T09:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/TNCNQY/",
+      "title": "Benefits and pitfalls of emotional and mobility web mapping"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/TNCNQY/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/QCYMUM/",
+      "title": "Nikola Koktav\u00e1"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/TNCNQY/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/TNCNQY/resources/prez_foos_ver3_QGVZeMy.pptx",
+      "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "title": "presentation slides",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/88F83DAXNTuTiPj8Dp93cd",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Benefits and pitfalls of emotional and mobility web mapping",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=4d1G0tq8rJU",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Benefits and pitfalls of emotional and mobility web mapping",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

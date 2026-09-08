@@ -1,0 +1,143 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "7QPZVP",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Elasticsearch and Kibana geospatial workshop",
+    "description": "On this workshop we will explore Elasticsearch geospatial search and aggregation capabilities and how to use them from Kibana and a custom development.\n\n[Elasticsearch][1] is a mature and established Open Source document database. It is well known by its performance, it is distributed by design, and easily scalable. Elasticsearch supports geospatial data types providing searching and aggregation capabilities. The engine is designed to offer all its capabilities through a JSON API.\r\n\r\n[Kibana][2] is a different Open Source project that offers a graphical interface to Elasticsearch. With Kibana, anyone can create many different types of visualizations, including geospatial representations that can be combined in complex dashboards. \r\n\r\nOn this workshop we will cover: \r\n\r\n* An overview of the Elastic Stack, with a focus on the geospatial components\r\n* Loading real time data with the [JavaScript SDK][3]\r\n* Regular and geospatial search and analysis with the Elasticsearch JSON [query language][4]. \r\n* Using [Elastic Maps][5] to explore and understand our data\r\n* Searching and rendering Elasticsearch data with a simple web application\r\n\r\nSince the scope of the workshop is broad, there\u2019s potentially interesting content for developers, data analysts, and GIS practitioners. All the materials and source code will be available for attendees for later study and practice.\r\n\r\n[1]: https://www.elastic.co/elasticsearch/\r\n[2]: https://www.elastic.co/kibana/\r\n[3]: https://www.elastic.co/guide/en/elasticsearch/client/javascript-api/current/index.html\r\n[4]: https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl.html\r\n[5]: https://www.elastic.co/maps",
+    "start_datetime": "2022-08-22T07:00:00Z",
+    "end_datetime": "2022-08-22T11:00:00Z",
+    "talk:code": "7QPZVP",
+    "talk:guid": "45eaadc6-90d8-5b5d-b921-4d736d14cf4f",
+    "talk:event": "foss4g-2022-workshops",
+    "talk:type": "Long Workshop",
+    "talk:language": "en",
+    "talk:room": "201",
+    "talk:room_capacity": 73,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "ES9EYE",
+        "name": "Jorge Sanz",
+        "url": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/ES9EYE/"
+      },
+      {
+        "code": "VDJHU9",
+        "name": "Nick Peihl",
+        "url": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/VDJHU9/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-22T09:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/talk/7QPZVP/",
+      "title": "Elasticsearch and Kibana geospatial workshop"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/talk/7QPZVP/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/ES9EYE/",
+      "title": "Jorge Sanz"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/VDJHU9/",
+      "title": "Nick Peihl"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.elastic.co/elasticsearch/",
+      "title": "www.elastic.co/elasticsearch"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.elastic.co/kibana/",
+      "title": "www.elastic.co/kibana"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.elastic.co/guide/en/elasticsearch/client/javascript-api/current/index.html",
+      "title": "www.elastic.co/guide/en/elasticsearch/client/javascript-api/current/index.html"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl.html",
+      "title": "www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl.html"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.elastic.co/maps",
+      "title": "www.elastic.co/maps"
+    },
+    {
+      "rel": "related",
+      "href": "https://links.jorgesanz.net/",
+      "title": "links.jorgesanz.net"
+    },
+    {
+      "rel": "related",
+      "href": "https://wiki.osgeo.org/wiki/Jorge_Sanz",
+      "title": "wiki.osgeo.org/wiki/Jorge_Sanz"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.openstreetmap.org/user/XuRxO",
+      "title": "www.openstreetmap.org/user/XuRxO"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.elastic.co/geospatial",
+      "title": "www.elastic.co/geospatial"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/talk/7QPZVP/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-workshops"
+}

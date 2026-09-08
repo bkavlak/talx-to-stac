@@ -1,0 +1,116 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "CP3N7A",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Towards automation of river water surface detection",
+    "description": "It is well known that climate change impacts are increasingly affecting European territory, often in the shape of extreme natural events. Among those, in recent years, heat waves due to global warming contributed to the acceleration of drying process. Particularly, the Mediterranean areas are expected to face extraordinary hot summer and increasingly frequent drought events, which may clearly affect the population. As a partial confirmation of this forecast, in between 2022 and 2023 Southern Europe was affected by lasting drought conditions, which had several outcomes on the ecosystems. As an example, in Po River (the longest Italian water stream) the worst water scarcity of the past two centuries was recorded (Montanari et al., 2023). Experts agreed on the exceptionality of the phenomenon, stating nevertheless the repeatability of such events in near future (Bonaldo et al., 2022). Willing to face them, local authorities expressed the need of tools for monitoring the impacts of drought on rivers, so to be capable of promptly enacting countermeasures.\r\nIn this context, the authors partnered with Regione Lombardia for building a procedure oriented at the exploitation of Copernicus Sentinel-1 (SAR) and Sentinel-2 (optical) sensor fusion for water surface mapping, applied in the case study of Po River (Conversi et al., 2023), based on supervised classification of combined optical and SAR imagery. The current work will present an evolution of the proposed methodology, which includes a considerable effort towards the full automation of the process, a necessary step for making it user friendly for public administration.  \r\n\r\nThe designed procedure, built in Google Earth Engine, is based on the combination of three images, namely the S-1 VV speckle filtered band (Level 1, GRD) and the spectral indices Sentinel Water Mask and NDWI derived from S-2 (Level 1-C, orthorectified). Input imagery is selected to ensure complete coverage of the area of interest, with mosaicking if necessary images coming from different dates, a reliable assumption considering that the drought is usually a slow phenomenon. The interval of time between images is anyway minimized by the code, depending on data quality and availability. Training polygons are drawn by photointerpretation and then fed to a Random Forest-based supervised classifier, jointly to the three aforementioned images. The outcome of the procedure is constituted by a map of water surface detected over the area of interest, complemented with an estimate of the extent in km2. Results are then validated and correlated with hydrometric records coming from the field, which corroborated the overall performance (Conversi et al., 2023).\r\n\r\nThis paper proposes an advancement in the methodology, aimed at enhancing its usability by non-expert users, so to set the base of the development of a tool that can be exploited by local stakeholders. An efficient automatic extraction of training samples, is achieved by randomly extracting the training set of pixels from a binary mask (water/non-water). \r\nThis water/non-water mask is derived by the combination of three sub-masks resulting from the automatic thresholding of the input imagery (VV, SWM, NDWI), obtained with the Bmax Otsu algorithm (Markert et al., 2020). The water/non water mask includes only the pixels which have the same behavior for all input images and along the reference period.\r\nThe thresholding procedure is automated using the concept of Otsu histogram-based algorithm for image segmentation. This methodology allows to define an optimal threshold value for distinguishing background and foreground objects. The inter-class variance is evaluated and the value that maximizes it is chosen, thus maximizing the separability among pixel classes as well (Otsu, 1979). A modified version of the algorithm, the Bmax Otsu, was exploited, which was originally developed for water detection through Sentinel-1. Otsu algorithm is indeed particularly effective in case of images characterized by a bimodal histogram of pixel values, while Bmax Otsu is more suitable in presence of multiple classes or complex backgrounds (Markert et al., 2020), which is the case for the application presented in this work.  The Bmax Otsu is based on a checkerboard subdivision of the original image, on user-selected parameters. The maximum normalized Between-Class Variance (BCV) is evaluated in each cell of the checkerboard and sub-areas characterized by bimodality are selected for applying the Otsu algorithm, thus leading to the goal threshold value (Markert et al., 2020).\r\nAs mentioned, the outcomes of the Bmax Otsu procedure are exploited for extracting random training samples for the machine learning-based classification algorithm. The best classification performance is obtained with a number of pixels that corresponds to the 0.02% of the region of interest. \r\nThe validation was carried out with respect to another classification of the same area obtained with photo-interpreted training samples (Conversi et al., 2023), showing accuracies of the order of 80-90%. The automated version of the methodology for integrating optical and radar images in mapping river water surface then proved its effectiveness among several date intervals taken as reference. \r\nAlthough the automation of the training sample selection slightly decreases the accuracy of the overall result with respect to the original approach, the gain in terms of usability is invaluable. Indeed, the elimination of the necessity for the user of photointerpreting imagery and drawing polygons to train the classification algorithm represents a relevant step towards the realization of a standalone tool to be used by the public administration in real applications of river drought monitoring.",
+    "start_datetime": "2024-07-04T11:30:00Z",
+    "end_datetime": "2024-07-04T12:00:00Z",
+    "talk:code": "CP3N7A",
+    "talk:guid": "f3edd044-92f2-5f7f-869e-fa6b47ae5532",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Academic track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Omicum",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "HGFNZJ",
+        "name": "Stefano Conversi",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/HGFNZJ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-04T11:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/CP3N7A/",
+      "title": "Towards automation of river water surface detection"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/CP3N7A/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/HGFNZJ/",
+      "title": "Stefano Conversi"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/CP3N7A/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "foss4ge-conversi-ppt": {
+      "href": "https://docs.google.com/presentation/d/1q8xum__VRMLfXCK5QGLAaL3u_5to_ZHU/edit?usp=sharing&ouid=109907057745931786977&rtpof=true&sd=true",
+      "title": "FOSS4GE_Conversi_PPT",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/fgzfkTNyQP7qvhNJgZrktD",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Towards automation of river water surface detection",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=RB20y1X-rfM",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Towards automation of river water surface detection",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

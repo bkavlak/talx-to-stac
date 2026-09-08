@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "R8A7D7",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "\u201cThe relationship between FOSS4G and GIScience: The first 40 years and beyond\u201d",
+    "description": "The launch of GRASS GIS in 1984 marked the beginning of open-source geospatial software. Four years later, in 1988, the National Center for Geographical Information and Analysis (NCGIA) established the foundation for GIScience as a distinct academic discipline. Now, after four decades, this talk explores the dynamic interplay between geographical information theory and geospatial software. Like other fields, scientific and technological advancements in geospatial studies are interdependent yet distinct. This discussion will reflect on past interaction points and consider how the relationship between research and practical applications in the geospatial field may evolve.\r\n\r\nOne of the most significant contributions of GIScience to FOSS4G was the development of point-set topological operators. This work culminated in the dimensionally extended 9-intersection model (DE-9IM), which became the foundation for the Open Geospatial Consortium's (OGC) simple features model. The resulting standardisation of vector GIS was crucial in preventing the spatial data market from being dominated by proprietary solutions. Open-source tools like PostGIS, Python geopandas, and R-sf emerged as viable, competitive alternatives. The OGC geopackage standard has also been widely adopted for information storage and transfer. Leading researchers engaged directly in developing user-driven tools for spatial analysis, such as GeoDa and R packages like spdep and gstat, further driving innovation in vector GIS.\r\n\r\nHowever, not all GIScience research has had the same practical impact. Topics such as geospatial ontologies, spatial database accuracy, cognitive foundations, and spatiotemporal reasoning have primarily remained within academic circles. While they have enriched theoretical knowledge, their practical applications have been limited. Even concepts that could have benefitted FOSS4G \u2014 such as geospatial algebras and abstract spatial data types \u2014 were overlooked by developers. This talk will explore potential reasons for this disconnect.\r\n\r\nConversely, FOSS4G has made significant contributions to GIScience. Tools like GDAL have enabled researchers to tackle critical scientific questions, while QGIS has become an indispensable tool for scientists. The R spatial packages offer a reliable foundation for new research, and a similar robust foundation is likely emerging in Python.\r\n\r\nThat said, the relationship between vector-based FOSS4G and GIScience appears to have reached a plateau, with little significant progress on either side in recent years. In contrast, raster-based GIS is undergoing rapid innovation. The availability of petabytes of open Earth observation (EO) data has spurred a new wave of discovery. Space-borne sensors continue to drive technological breakthroughs, but no comprehensive theory exists for modelling and analysing large-scale EO data. This has resulted in fragmented developments like Pangeo, Open Data Cube, OpenEO, and R-sits. The talk will advocate for stronger collaboration between FOSS4G developers and researchers in big EO data analytics, offering potential paths forward.",
+    "start_datetime": "2024-12-04T12:30:00Z",
+    "end_datetime": "2024-12-04T13:15:00Z",
+    "talk:code": "R8A7D7",
+    "talk:guid": "e93b069c-5101-5244-8001-5d2752188b65",
+    "talk:event": "foss4g-2024",
+    "talk:track": "State of software",
+    "talk:type": "Keynote",
+    "talk:language": "en",
+    "talk:room": "Room Auditorio",
+    "talk:room_capacity": 1000,
+    "talk:duration_minutes": 45,
+    "talk:speakers": [
+      {
+        "code": "3UF8EN",
+        "name": "Gilberto Camara",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/3UF8EN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-04T12:52:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/R8A7D7/",
+      "title": "\u201cThe relationship between FOSS4G and GIScience: The first 40 years and beyond\u201d"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/R8A7D7/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/3UF8EN/",
+      "title": "Gilberto Camara"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/R8A7D7/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "power-point-presentation": {
+      "href": "https://www.dropbox.com/scl/fi/zyehn8cso4gnxjviftmil/Camara_FOSS4G_2024.pptx?rlkey=t7dkqmw2v3pxpuvl4jsv6wq7v&dl=0",
+      "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "title": "Power Point Presentation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/pr1zmhdzCzuoN3WBJNxsTQ",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | The relationship between FOSS4G and GIScience: The first 40 years and beyond",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=gNZV6qknQK8",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | The relationship between FOSS4G and GIScience: The first 40 years and beyond",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

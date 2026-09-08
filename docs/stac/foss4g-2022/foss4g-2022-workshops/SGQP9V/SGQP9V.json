@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "SGQP9V",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Discover the Orfeo ToolBox: open source processing of remote sensing images",
+    "description": "This workshop is dedicated to people who want to discover the OrfeoToolbox. We will go through the installation process, try some application with real data, walk the tutorials and explore the possibilities provided by the toolbox. If you are already familiar with OTB, you are welcome to share your experiences.\n\nOrfeo Toolbox (OTB) is a free and open-source remote sensing software. It is available on multiple platforms, Linux, Windows and MacOs, and was developed primarily by CNES (French Space Agency) and CS Group in the frame of the development of the ORFEO program (French and Italian support program for Pleiades and Cosmo-Skymed).\u00a0\u00a0\r\n\r\nOTB can process large images thanks to its built-in streaming and multithreading mechanisms.  Many formats are supported by the library (at least those supported by GDAL) as CosmoSkyMed, Formosat, Ikonos, Pleiades, QuickBird,\u00a0 Radarsat 2, Sentinel 1, Spot5, Spot 6/7, TerraSarX or WorldView 2.\u00a0\u00a0\r\n\r\nOTB provides a lot of applications to process optical and SAR products: ortho-rectification, calibration, pansharpening, classification, large-scale segmentation and more. They are all accessible from the command line, a Python API or a QGIS plugin. \r\n\r\nThe library also facilitates external contributions thanks to the remote module functionality: users can add new applications without modifying the core of the library. It is used in multiple operational processing chains like Let It Snow (Snow cover detection), iota2 (Large Scale Land Surface Classification), WASP (Multitemp images fusion), S1Tiling (Sentinel-1 calibration and MAJA (Maccs-Atcor Joint Algorithm).\r\n\r\nDuring this workshop, we will cover multiple aspects of the OTB usage. First, we will go through the installation process, and see the various way of using the OTB (command line, QGIS, Python API). Then, we will walk the tutorials available on the website to discover the capabilities provided by the toolbox. To finish, we will see how to create your own applications with the remote module mecanism.",
+    "start_datetime": "2022-08-23T07:00:00Z",
+    "end_datetime": "2022-08-23T11:00:00Z",
+    "talk:code": "SGQP9V",
+    "talk:guid": "75b8e296-5a63-505a-b3b5-a63d7346e823",
+    "talk:event": "foss4g-2022-workshops",
+    "talk:type": "Long Workshop",
+    "talk:language": "en",
+    "talk:room": "210",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "HNBRKL",
+        "name": "JulienOsman",
+        "url": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/HNBRKL/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-23T09:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/talk/SGQP9V/",
+      "title": "Discover the Orfeo ToolBox: open source processing of remote sensing images"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/talk/SGQP9V/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/HNBRKL/",
+      "title": "JulienOsman"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/talk/SGQP9V/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-workshops"
+}

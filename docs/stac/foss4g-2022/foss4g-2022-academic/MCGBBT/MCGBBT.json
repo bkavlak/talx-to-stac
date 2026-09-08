@@ -1,0 +1,93 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "MCGBBT",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "OpenStreetMap Element Vectorisation - A tool for high resolution data insights and its usability in the land-use and land-cover domain",
+    "description": "# Introduction\r\n\r\nOpenStreetMap (OSM) has evolved to one of the most used geographic databases. It is a major knowledge source for many geographic topics addressed by researchers, professionals and the general public. To satisfy these diverse needs and capabilities, the linked communities surrounded the project with an ever growing ecosystem of analyses tools (e.g. OSM Contributors, 2022). The most prominent analysis topic is data quality (Senaratne et al. 2015) where e.g. intrinsic indicators are used to estimate completeness (Br\u00fcckner et al. 2021). Furthermore the community is also interested in insights such as leader-boards or activity reports (e.g. Neis, 2022). In recent years analyses have also more and more shifted towards doing large scale analyses (e.g. Herfort et al. 2021).\r\n\r\nThis diversity of tools can be a challenge for data users who will find themselves in a universe of highly specialised or complex tools using different programming languages, platforms, interfaces, output formats etc. While there have been efforts to provide users with higher level data insight and analyses platforms, these still mostly concentrate on or are limited to certain topics or regions. To our knowledge no tool exists to analyse and combine topic independent aspects of the data at the highest possible resolution: single OSM elements.\r\n\r\nThe presented software (available at https://gitlab.gistools.geog.uni-heidelberg.de/giscience/ideal-vgi/osm-element-vectorisation) sets out to bridge this gap by integrating multiple aspects of the OSM ecosystem into one workflow that allows the quantitative assessment of selected OSM elements or all elements in a defined region. This enables new insights in a formalised and easy to use manner. The result is a vectorisation of single OSM elements (sometimes also called embedding or feature construction). By producing a machine readable result, the tool can be used for manual data investigations as well as for the ever growing field of machine learning where it can be linked to a range of labels.\r\n\r\n# Software\r\n\r\nThe tool is centred around a python package providing a command line interface suitable also for novice users. It draws on other sources where necessary such as POST-requests and Java. Further data processing is done using the R scripting language while all data is stored in a PostGIS enhanced PostgreSQL database and can be exported automatically to .csv-files. The AGPL v3 license as well as the code structure and documentation enable others to also use it as a framework to implement their own analyses logic in combination with the current procedure. A default setup using Docker is provided for fast installation including a minimal example. The tool is fully functional and in use in our current research. Yet, it is under active development towards a web interface and functionality extensions. While the development was made with land-use and land-cover (LULC) information in mind, the tool can be seamlessly applied to any polygonal OSM data such as buildings and also supports linear and point data. The tool is resilient towards missing data and can recover from many common issues like failed connections. The backend remains in a sane state throughout the workflow and error messages enable the user to adapt to any failures and simply rerun the tool that will automatically pick up from the last savepoint. Benchmarks have shown that the tool is capable of processing around 1k elements per hour making it a suitable tool for larger analyses of custom regions or element sets.Out of the endless number of possible data aspects, a set of 32 are currently available for the user to choose. These cover aspects concerning the element itself (e.g. object area, geometric complexity and object age) but also the surrounding data (e.g. the mapping saturation and community activeness) and the editors (e.g. their experience, localness or editing software used).\r\n\r\n# Application\r\n\r\nTo prove its potential, the tool is applied to a set of 1k randomly selected OSM LULC elements. We picked OSM LULC as an example as it has been shown to be valuable for applications such as earth surface monitoring. The results provide a status report on the already available data to the OSM community. It further enables a more informed planning of future activities like organised mapping or data curation efforts and enables data consumers to make informed decisions on data usage by answering the question: What is OSM LULC made of? First, three exemplary hypotheses were tested statistically on a global as well as a continental scale to analyse the triangular relation between elements' size, age and location in terms of population density. In a second step,  k-means clustering was used to identify clusters based on the properties of the OSM objects. Before clustering, the data were standardised and stripped of any geographic information as we were hypothesising that the different clusters might be linked to different geographic regions.\r\n\r\n\r\nThe results showed that larger objects were more frequently encountered in regions with a lower population density due to the 'natural' factor of higher fragmentation in these areas. Yet, the effect was surprisingly small on a global scale. A general mapping order where areas of high population density are mapped before lower population density areas could not be confirmed globally. This may be caused by a complex interaction between several indicators and regional tendencies, that remains to be fully understood. Regional tendencies were shown e.g. for the age of objects with North America and Europe containing older objects than Africa and Asia. The five k-means clusters formed interesting groups worth further investigation. For example the North American lakes or the complex European elements were each detected as distinct clusters by the algorithm.\r\n\r\n\r\n# Outlook\r\n\r\nOur current and future work will investigate the causes of these insights and link them e.g. to data quality to identify OSM elements that need the communities' attention. The presented tool already enables other data users to join us on this path.",
+    "start_datetime": "2022-08-25T12:15:00Z",
+    "end_datetime": "2022-08-25T12:45:00Z",
+    "talk:code": "MCGBBT",
+    "talk:guid": "25be1ae5-77b1-5d1e-8306-7d6e2bfcc99b",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room Modulo 3",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "KEZNBU",
+        "name": "Moritz Schott",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/KEZNBU/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T12:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/MCGBBT/",
+      "title": "OpenStreetMap Element Vectorisation - A tool for high resolution data insights and its usability in the land-use and land-cover domain"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/MCGBBT/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/KEZNBU/",
+      "title": "Moritz Schott"
+    },
+    {
+      "rel": "related",
+      "href": "https://gitlab.gistools.geog.uni-heidelberg.de/giscience/ideal-vgi/osm-element-vectorisation",
+      "title": "gitlab.gistools.geog.uni-heidelberg.de/giscience/ideal-vgi/osm-element-vectorisation"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/MCGBBT/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

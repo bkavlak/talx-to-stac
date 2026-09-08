@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "DGKC7F",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Building Geospatially Aware LLM Agents with Spatial Knowledge Graphs and Discrete Global Grid Systems",
+    "description": "Attendees will build two complementary approaches for enabling geospatial awareness in LLMs: Geo-GraphRAGs for analyzing networks of features and DGGS-based methods for integrating aggregate and statistical data, and how they work together.\n\nLLMs lack intrinsic geospatial awareness and do not maintain structured knowledge of geographic features or their domain-specific relationships. As a result, they cannot reason about how disruptions propagate through interconnected spatial systems\u2014such as transportation networks, health service accessibility, or school catchments\u2014during events like floods, wildfires, or other natural hazards. While LLMs excel at synthesizing text, they lack an internal representation of spatial networks and semantic relationships required for geospatial reasoning.\r\n\r\nIn this hands-on workshop, participants will build a geospatially aware LLM application from the ground up using open-source tools. You will create a Spatial Knowledge Graph (SKG) using Apache Jena to model networks of geographic features and their relationships, and use it to develop a Geo-GraphRAG pipeline that enables LLMs to translate natural-language questions into GeoSPARQL queries\u2014providing transparent, traceable answers grounded in real data.\r\n\r\nYou will also learn how Discrete Global Grid Systems (DGGS)\u2014an emerging Open Geospatial Consortium (OGC) standard\u2014enable integration of aggregate and statistical data across domains by aligning datasets to a common spatial reference. Using open-source DGGS tooling such as DGGAL, participants will build an LLM agent capable of generating both GeoSPARQL queries over feature networks and DGGS API calls using CQL2, and explore how semantic feature networks relate to DGGS zones.\r\n\r\nBy the end of the session, you will understand how graphs and grid systems work together to unlock geospatial reasoning in AI systems.\r\n\r\nThis workshop builds on our FOSS4G North America 2025 session, now extended with DGGS to demonstrate the next generation of GeoAI workflows.",
+    "start_datetime": "2026-08-30T05:00:00Z",
+    "end_datetime": "2026-08-30T08:00:00Z",
+    "talk:code": "DGKC7F",
+    "talk:guid": "462acc9e-69f8-54c6-8cff-63f174ff19e7",
+    "talk:event": "foss4g-2026-workshop",
+    "talk:type": "Workshop",
+    "talk:language": "en",
+    "talk:room": "605",
+    "talk:room_capacity": 45,
+    "talk:duration_minutes": 180,
+    "talk:speakers": [
+      {
+        "code": "RBXJPQ",
+        "name": "Nathan McEachen",
+        "url": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/RBXJPQ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-08-30T06:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/DGKC7F/",
+      "title": "Building Geospatially Aware LLM Agents with Spatial Knowledge Graphs and Discrete Global Grid Systems"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/DGKC7F/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/RBXJPQ/",
+      "title": "Nathan McEachen"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/DGKC7F/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-workshops"
+}

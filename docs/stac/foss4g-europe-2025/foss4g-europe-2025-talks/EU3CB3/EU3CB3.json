@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "EU3CB3",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "Spatial Parameter Analysis of Ground-Mounted Photovoltaic Systems Utilizing Orthophotos and the Segment Anything Model",
+    "description": "Introduction and Research Objective\r\nUnder the Renewable Energy Sources Act (EEG 2023), Germany's installed capacity of solar photovoltaic (PV) systems is projected to increase from 81.7 GW in 2023 to 400 GW by 2040, making them a key pillar of the country's energy transition. This rapid expansion of ground-mounted PV systems necessitates monitoring tools to assess their environmental impact and ensure compliance with regulatory frameworks. One such framework is Section 37 of EEG 2023, which mandates e.g. that solar modules must not cover more than 60% of the total solar park.\r\nHowever, there is currently a lack of precise spatial data on PV installations across Germany, which poses major challenges for those involved in quantitatively assessing the conflicting goals of nature conservation and energy use. This missing data limits the ability to evaluate compliance with regulations and assess the effectiveness of conservation measures implemented alongside renewable energy development.\r\nThe Marktstammdatenregister (MaStR), an open registry managed by the German Federal Network Agency, provides point-based location data for PV systems but lacks essential spatial details, such as 1) proportion of the total area covered by solar modules, 2) distance between module rows and 3) orientation in degrees to which the solar modules are aligned. These spatial parameters are crucial for understanding the ecological and regulatory impacts of PV systems, such as their effects on biodiversity and compliance with ecological guidelines. In this study, we aim to derive information from orthophotos about the listed parameters for all ground-mounted PV systems in Germany. Specifically, we employ the Segment Anything Model (SAM) (Kirillov et-al., 2023), a state-of-the-art zero-shot segmentation model, in combination with digital orthophotos (DOP20) with a ground resolution of 20 cm per pixel. SAM enables precise segmentation of objects or regions in images, allowing us to identify and delineate the components of PV plants with high accuracy.\r\nData and Methodology\r\nFor this study, we utilized an open-access dataset by Manske et al. (2022) available at Zenodo. This dataset contains manually digitized areas of 7,839 ground-mounted PV plants across Germany, serving as a reference to identify and locate corresponding DOP20. The DOP20, featuring red, green, blue (RGB), and near-infrared bands, are made publicly available under Germany\u2019s Second Open Data Act (effective July 2021), offering the necessary spatial resolution for detailed mapping. The temporal resolution is dependent on the federal state and varies between 1 and 3 years.\r\nTo prepare the DOP20 images for use with SAM, we cropped the images intersecting with PV plants into 640x640 pixel image chips with an overlap of 340 pixels. This process resulted in the creation of a dataset comprising over 350,000 image chips, which formed a grid for segmentation. The SAM segmentation process was conducted using only the RGB bands of the orthophotos. After generating segmentation masks, we extracted the pixel values for all available bands and derived spectral indices, including the Normalized Difference Vegetation Index, Photovoltaic Index, and Normalized Impervious Surface Index. The pixel values for each mask were aggregated into median values for each segment. Subsequently, we conducted iterative unsupervised clustering using the DBSCAN algorithm. The clustering process comprised two main steps:\r\n    1. clustering based on spectral indices and NIR bands to filter out vegetation, shadows, and other non-PV objects as outliers. \r\n    2. geometric property clustering, including segment size, rectangularity, orientation, and percent area difference to their oriented bounding box, to remove additional outliers (e.g., irregular shapes overlapping with pathways or transformer stations). \r\nIn the final post-processing step, overlapping segments (due to overlapping images) were merged and, where sufficient rectangularity (\u22650.8) was achieved, rectangular bounding boxes were generated. Only segments classified as PV module rows were retained for further analysis.\r\nOne of the primary challenges in this pipeline was the unsupervised filtering of PV modules, as the DOP20 images were captured under varying seasonal, solar, and viewing angle conditions. Fixed clustering rules were unsuitable due to the diverse spectral properties of PV modules, making unsupervised clustering the only viable approach to classify PV rows.\r\nResults\r\nPreliminary results from this ongoing work demonstrate that it is highly feasible to extract high-quality PV module rows from DOP20 images using SAM. Only about 5% of the results exhibited unsatisfactory segmentation, where module rows and inter-row spaces were not properly separated and grouped into the same segment.\r\nThe details of the PV plants analyzed to date are as follows:\r\n    \u2022 The proportion of the total area covered by solar modules is approximately 65%. However, these installations were constructed before the EEG 2023 regulation came into effect on January 1, 2023, and are thus exempt from the new coverage limit. \r\n    \u2022 The distance between module rows averaged 3 meters, with considerably larger spacing observed in PV sun-tracking systems. \r\n    \u2022 The orientation of solar modules predominantly faced to the south (180\u00b0 azimuth). Approximately 80% of module rows deviated by up to 20\u00b0 east (azimuth -20\u00b0) or 20\u00b0 west (azimuth +20\u00b0). \r\nSince the analysis is still ongoing, additional results will be added in the presentation.\r\nDiscussion and Outlook\r\nThe vector products generated through our pipeline have significant implications for both policy-making and research. Derived plant details will be made freely available under an open licence, enabling further studies on the environmental impacts of PV systems and supporting decision-making by regulatory bodies.\r\nBy applying this segmentation pipeline to newly recorded DOP20 datasets, typically updated every two years across Germany, our approach offers a scalable solution for long-term monitoring of PV system dynamics. This capability is critical given the rapid expansion of PV systems and the potential conflicts between renewable energy development and nature conservation.\r\nOur methodology aligns with the goals of the FOSS4G Europe Academic Track, emphasizing the use of open data, open-source tools, reproducible workflows and therefore ensures full transparency. The complete workflow will be made publicly available under an appropriate open-source license to foster collaboration and innovation within the geospatial and renewable energy communities.",
+    "start_datetime": "2025-07-17T12:00:00Z",
+    "end_datetime": "2025-07-17T12:30:00Z",
+    "talk:code": "EU3CB3",
+    "talk:guid": "420dc987-6a23-5922-a15a-ef4d6265e242",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Academic track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "PA01 (Quarticle)",
+    "talk:room_capacity": 95,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "U3HPFY",
+        "name": "Philipp G\u00e4rtner",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/U3HPFY/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-17T12:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/EU3CB3/",
+      "title": "Spatial Parameter Analysis of Ground-Mounted Photovoltaic Systems Utilizing Orthophotos and the Segment Anything Model"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/EU3CB3/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/U3HPFY/",
+      "title": "Philipp G\u00e4rtner"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/EU3CB3/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/EU3CB3/resources/FOSS4G_Europe_Creating_Dataset_Spatial_P_R2SaAI2.pdf",
+      "type": "application/pdf",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/iegq3oUdXRdK8k2WrL1tot",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Spatial Parameter Analysis of Ground-Mounted Photovoltaic Systems Utilizing ...",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=qoSHZkis79o",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Spatial Parameter Analysis of Ground-Mounted Photovoltaic Systems Utilizing ...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

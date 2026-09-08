@@ -1,0 +1,63 @@
+{
+  "type": "Catalog",
+  "id": "foss4g",
+  "stac_version": "1.1.0",
+  "description": "Talks, workshops and academic papers from FOSS4G conferences.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "./catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "child",
+      "href": "./foss4g-2022/collection.json",
+      "type": "application/json",
+      "title": "FOSS4G 2022 Firenze"
+    },
+    {
+      "rel": "child",
+      "href": "./foss4g-2023/collection.json",
+      "type": "application/json",
+      "title": "FOSS4G 2023 Prizren"
+    },
+    {
+      "rel": "child",
+      "href": "./foss4g-europe-2024/collection.json",
+      "type": "application/json",
+      "title": "FOSS4G Europe 2024 Tartu"
+    },
+    {
+      "rel": "child",
+      "href": "./foss4g-2024/collection.json",
+      "type": "application/json",
+      "title": "FOSS4G 2024 Belem"
+    },
+    {
+      "rel": "child",
+      "href": "./foss4g-europe-2025/collection.json",
+      "type": "application/json",
+      "title": "FOSS4G Europe 2025 Mostar"
+    },
+    {
+      "rel": "child",
+      "href": "./foss4g-2025/collection.json",
+      "type": "application/json",
+      "title": "FOSS4G 2025 Auckland"
+    },
+    {
+      "rel": "child",
+      "href": "./foss4g-europe-2026/collection.json",
+      "type": "application/json",
+      "title": "FOSS4G Europe 2026 Timisoara"
+    },
+    {
+      "rel": "child",
+      "href": "./foss4g-2026/collection.json",
+      "type": "application/json",
+      "title": "FOSS4G 2026 Hiroshima"
+    }
+  ],
+  "title": "FOSS4G conferences"
+}

@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "WGZNTZ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "Vector tiles and GeoServer: dynamic vector tiles server, XYZ services, and base maps",
+    "description": "Mapbox vector tiles have emerged as a popular format for delivering geospatial data, offering dynamic rendering and interactivity for modern web maps. While not an official OGC standard, this open specification has been widely adopted, making it a staple of web cartography. This presentation delves into GeoServer's evolving capabilities to serve Mapbox vector tiles, emphasizing recent enhancements and best practices.\r\n\r\nWe will explore how GeoServer leverages SLD and CSS to define the contents of vector tiles, ensuring tailored and efficient data delivery. New configuration options, such as label point generation, attribute selection and geometry coalescing, will be highlighted as tools to control and optimize tile outputs. Practical advice will also be provided for streamlining vector tile generation, helping users create seamless and scalable workflows.\r\n\r\nThe session will conclude with a look at how vector tiles can serve as an input for generating high-quality base maps in various coordinate reference systems. Using OpenMapTiles styles and Planetiler, we will demonstrate how to produce visually appealing, multi-projection base maps, unlocking the full potential of vector tiles for diverse applications.\r\n\r\nWhether you're building interactive maps or generating custom base maps, this talk will equip you with the knowledge and tools to make the most of GeoServer's vector tile capabilities.",
+    "start_datetime": "2025-07-17T10:00:00Z",
+    "end_datetime": "2025-07-17T10:30:00Z",
+    "talk:code": "WGZNTZ",
+    "talk:guid": "ced0a845-9d9f-5661-9760-24fdbd3b00ff",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "CA01 (TomTom)",
+    "talk:room_capacity": 130,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RBSH8T",
+        "name": "Andrea Aime",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/RBSH8T/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-17T10:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/WGZNTZ/",
+      "title": "Vector tiles and GeoServer: dynamic vector tiles server, XYZ services, and base maps"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/WGZNTZ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/RBSH8T/",
+      "title": "Andrea Aime"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/WGZNTZ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides-as-pdf": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/WGZNTZ/resources/Vector_tiles_and_GeoServer__dynamic_vect_9KQvz8X.pdf",
+      "type": "application/pdf",
+      "title": "Slides as PDF",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "google-drive-slides": {
+      "href": "https://docs.google.com/presentation/d/1QwjSSRS525sXbvNGk0rnw1b__2_6xulwe0OWJ05vQ4o/edit?slide=id.p1#slide=id.p1",
+      "title": "Google Drive slides",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/tEMtpvSDq8E7NYd979JoUZ",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Vector tiles and GeoServer: dynamic vector tiles server, XYZ services, and base maps",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=_ZClr02DdjM",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Vector tiles and GeoServer: dynamic vector tiles server, XYZ services, and base maps",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

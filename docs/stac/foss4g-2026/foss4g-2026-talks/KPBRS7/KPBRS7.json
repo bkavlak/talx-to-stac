@@ -1,0 +1,95 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "KPBRS7",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "SedonaDB: Why Yet Another Geospatial Database Engine?",
+    "description": "SedonaDB is an open-source single-node analytical database engine for GIS. But, with established options like PostGIS and DuckDB, why do we need yet another engine? This talk will provide an overview of the current FOSS4G database landscape and explain why SedonaDB is a name you need to know.\n\nSedonaDB is a powerful open-source, single-node analytical database engine specifically designed for modern GIS workloads. However, with industry titans like PostGIS and the rising popularity of DuckDB-Spatial, you might find yourself asking\u2014or being told by your boss\u2014\"Don't we already have a geospatial database at home?\" Why would we need yet another tool in an already crowded ecosystem?\r\n\r\nAs of this writing, one of the most convincing answers is probably that SedonaDB can handle both raster and vector data without requiring a complex setup like PostGIS. But, honestly, it's hard to give a definitive answer because the technology is advancing so rapidly that today's advantage might disappear tomorrow. For example, SedonaDB was previously the only database among PostGIS and DuckDB to have a native GEOMETRY type. However, since DuckDB v1.5.0, the GEOMETRY type is now native.\r\n\r\nSo, in this talk, rather than focusing on advertising SedonaDB based on current status alone, I will explore the recent progress of open-source databases with geospatial support, such as DuckDB, PostGIS, LanceDB, and SedonaDB.",
+    "start_datetime": "2026-09-01T05:00:00Z",
+    "end_datetime": "2026-09-01T05:30:00Z",
+    "talk:code": "KPBRS7",
+    "talk:guid": "136e1311-4980-5906-99e2-176f019d19c5",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room4",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "JQYQKC",
+        "name": "Hiroaki Yutani",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/JQYQKC/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T05:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/KPBRS7/",
+      "title": "SedonaDB: Why Yet Another Geospatial Database Engine?"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/KPBRS7/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/JQYQKC/",
+      "title": "Hiroaki Yutani"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/KPBRS7/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://yutannihilation.github.io/foss4g-hiroshima-slides/",
+      "title": "Slides",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

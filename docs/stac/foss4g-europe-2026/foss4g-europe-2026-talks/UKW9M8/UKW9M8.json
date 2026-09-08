@@ -1,0 +1,96 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "UKW9M8",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "Storing your Satellite in a DGGS",
+    "description": "Earth observation using remote sensing (or satellite data) comes with its own fair bit of challenges. From managing large amounts of data to dealing with projections, inconsistencies with resolutions and more. \r\n\r\nWhile there's no silver bullet to solve all these problems, we'll look at one possible of modelling your GIS data (not just satellite data) in a Discrete Global Gird System (DGGS). \r\n\r\nIn DGGS, you divide the earth into multiple cells and store the data in each cell. There are few advantages of using this approach \r\n- Single data structure for all your GIS (vector or raster) \r\n   - Rasters are represented as array of Cell ids with each cell having a value \r\n   - Vectors are represented as Points => Cells, Lines => Array of Cells, Polygon => Array of Cells \r\n- A single base frame with multiple layers of data built on top \r\n- Easy visualization and analysis \r\n- Easy storage and retrieval based on Cell IDs \r\n\r\nIt's not all rainbow in the DGGS land, you lose:\r\n- Existing tool set not built around DGGS \r\n- Distortions/Errors going from point data to cells \r\n\r\nBut still it's an interesting way to look at data. We'll use \r\n- DuckDB as our database and query engine \r\n- Sample data from OSM \r\n- Sample data from Sentinel-2",
+    "start_datetime": "2026-07-01T11:30:00Z",
+    "end_datetime": "2026-07-01T12:00:00Z",
+    "talk:code": "UKW9M8",
+    "talk:guid": "8ac9c6f3-7482-5c7a-ac4c-a8905b269b7a",
+    "talk:event": "foss4g-europe-2026",
+    "talk:track": "Remote Sensing",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "A11",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "8MGXWG",
+        "name": "json singh",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/8MGXWG/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-07-01T11:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/UKW9M8/",
+      "title": "Storing your Satellite in a DGGS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/UKW9M8/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/8MGXWG/",
+      "title": "json singh"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/UKW9M8/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "google-slides-will-be-updated-with-jupyter-notebook-after-th": {
+      "href": "https://docs.google.com/presentation/d/1-j0q0vcBkZMWBne0bKLumyzZTGmxJuoWRfawJOVif5k/edit?usp=sharing",
+      "title": "Google Slides (Will be Updated with Jupyter Notebook after the conference)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

@@ -1,0 +1,144 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "RU7PYN",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "State of GRASS GIS",
+    "description": "The new GRASS GIS version 8.2 is a special edition including all new features developed during Google Summer of Code 2021. One of the enhancements is the parallelization of several raster modules by means of OpenMP, an implementation of multithreading to speed up massive data processing. Another exciting new feature is much improved, the Jupyter notebook support. Here, a new python package (grass.jupyter) is available which allows to interactively visualise maps and time series given the integration with [folium](https://github.com/python-visualization/folium). \r\nThe graphical user interface in version 8.0 introduced faster and more streamlined startup without a need for a welcome screen. For even more convenience, version 8.2 adds an experimental single window layout with familiar look-and-feel.\r\nRelated to raster data, a new metadata class called semantic labels can now be added to raster maps. Examples of semantic labels are aerial or satellite spectral bands, dataset names in remote sensing products (ndvi, evi, lst, etc), or any custom names.\r\nAt community level, we have developed a student grant program and, thanks to the move to GitHub, we have welcomed numerous new contributors.",
+    "start_datetime": "2022-08-25T07:00:00Z",
+    "end_datetime": "2022-08-25T07:30:00Z",
+    "talk:code": "RU7PYN",
+    "talk:guid": "7708d218-1e02-5026-8a4e-88c0beceb95e",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Verde",
+    "talk:room_capacity": 230,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "9WMZNX",
+        "name": "Anna Petrasova",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/9WMZNX/"
+      },
+      {
+        "code": "ALRNGU",
+        "name": "Vaclav Petras",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/ALRNGU/"
+      },
+      {
+        "code": "RBWLUU",
+        "name": "Veronica Andreo",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/RBWLUU/"
+      },
+      {
+        "code": "JB8MU3",
+        "name": "Markus Neteler",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/JB8MU3/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T07:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/RU7PYN/",
+      "title": "State of GRASS GIS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/RU7PYN/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/9WMZNX/",
+      "title": "Anna Petrasova"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/ALRNGU/",
+      "title": "Vaclav Petras"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/RBWLUU/",
+      "title": "Veronica Andreo"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/JB8MU3/",
+      "title": "Markus Neteler"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/python-visualization/folium",
+      "title": "folium"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/RU7PYN/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/rt4kD2RJ1LPnFMLZMBfpCK",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | State of GRASS GIS",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=xyGm9uHCdIM",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | State of GRASS GIS",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

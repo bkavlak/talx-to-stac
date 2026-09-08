@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "XF9UH3",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "MapFish Print, the classic printing component, a project update",
+    "description": "MapFish Print is a mature Java-based open source software (BSD-2 license) for printing maps. Opposed to frontend solutions such as inkmap (https://github.com/camptocamp/inkmap), MapFishPrint runs server side and is integrated in several open source GIS frameworks like GeoMapFish ( for creating geoportal applications) or geOrchestra (spatial data infrastructure).\r\nThe classic approach to deploy MapFish Print is using a WAR-file in a Servlet Container (for example Tomcat), while it can also be integrated into cloud environments with prebuilt Docker images. Alternatively, MapFish Print\u2019s core printing library can also be integrated into other projects programmatically.\r\nMapFish Print supports the common data formats and standards (WMS, WFS, WMTS, GeoJSON, etc.) and provides access to rich cartographic features like rotations, grids, north-arrow or legends and multi-page printing. The layout is defined by a JasperReports template and a YAML configuration file.  The template allows users  to define the layout, include elements for maps, legends, grids and alphanumeric tables. Clients request a concrete print-out with a JSON-Request, providing along information like bounding-box, map layers and other data. The final report will be rendered by MapFish Print either as PDF or as a raster image and returned to the client.\r\nWe will present a summary of existing features as well as new (e.g. tiled WMS with buffered tiles for rendering large areas without label conflicts) and planned features of the MapFish Print open source project.",
+    "start_datetime": "2022-08-26T08:10:00Z",
+    "end_datetime": "2022-08-26T08:15:00Z",
+    "talk:code": "XF9UH3",
+    "talk:guid": "74a98586-d860-5397-8c02-9323fa7a8ff7",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Modulo 0",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "BDPNZK",
+        "name": "Andreas Jobst",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/BDPNZK/"
+      },
+      {
+        "code": "VP7KMP",
+        "name": "Andreas Jobst",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/VP7KMP/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T08:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/XF9UH3/",
+      "title": "MapFish Print, the classic printing component, a project update"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/XF9UH3/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/BDPNZK/",
+      "title": "Andreas Jobst"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/VP7KMP/",
+      "title": "Andreas Jobst"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/XF9UH3/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=R6BjSk5A-bs",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | MapFish Print, the classic printing component, a project update",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

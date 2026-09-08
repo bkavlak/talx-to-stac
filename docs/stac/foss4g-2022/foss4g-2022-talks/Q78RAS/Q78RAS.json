@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Q78RAS",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "ETF testing framework: past, present and future",
+    "description": "ETF is an open source testing framework for validating data and APIs in Spatial Data Infrastructures (SDIs). It is used by software solutions and data providers to validate the conformity of geospatial data sets, metadata and APIs.\r\n\r\nFor example, ETF is the underlying framework used by the INSPIRE Reference Validator to validate INSPIRE metadata, datasets and services against the requirements of the INSPIRE Technical Guidelines. ETF is also used extensively in Germany by the Surveying Authorities of the Laender to validate their datasets. This includes Real Estate Cadastral data, Topographic data, Control Points, 3D Building Models, House Coordinates and Building Polygons. In the test environments of the German Laender, a comprehensive series of attributive, relational, geometric, and topological tests are performed on the data, in addition to interacting with APIs and checking for errors in the interface contracts. Other European Union (EU) Member States are also reusing ETF to allow their data providers to test resources against national requirements. Finally, some software tools such as GeoNetwork open source include validation based on the ETF API in their workflow.\r\n\r\nGoals in designing the ETF software were to create test reports that are user-friendly and self-explanatory as well as to be able to validate large amounts of data, which can be several hundred GB in size. In order to cover different validation tasks and present them in a unified report, the architecture is modular and different Test Engines can be used. Currently the following Test Engines are supported: SoapUI for testing web services, BaseX database for testing XML data, Team Engine to validate WFS and OGC Web APIs using the OGC CITE tests, NeoTL Engine for testing WFS, OGC Web APIs and datasets. \r\n\r\nAs a horizontal and reusable tool, which could be extended to satisfy the needs of different communities and domains, ETF is currently considered as a component of the so-called Common Services Platform under the new Digital Europe Programme of the European Commission. Within this context, activities are planned in 2022 to: i) include the ETF in the OSGeo Live v.15, and ii) submit the ETF as an OSGeo Community Project.\r\n\r\nIn this talk, we will introduce the ETF testing framework, the deployment scenarios and address the current and future technical developments.",
+    "start_datetime": "2022-08-26T09:30:00Z",
+    "end_datetime": "2022-08-26T10:00:00Z",
+    "talk:code": "Q78RAS",
+    "talk:guid": "c480b0f0-5e31-5a02-8045-82cf3e256234",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Onice",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "K77BBU",
+        "name": "Jon Herrmann",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/K77BBU/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/Q78RAS/",
+      "title": "ETF testing framework: past, present and future"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/Q78RAS/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/K77BBU/",
+      "title": "Jon Herrmann"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/Q78RAS/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=dcGmfRmK4qs",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | ETF testing framework: past, present and future",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

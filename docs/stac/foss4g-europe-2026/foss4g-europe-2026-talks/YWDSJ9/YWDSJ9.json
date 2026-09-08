@@ -1,0 +1,104 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "YWDSJ9",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "From NDVI to an Open Ecosystem: Five Years of Awesome Spectral Indices",
+    "description": "Five years ago, **Awesome Spectral Indices** (ASI) was launched to address a persistent gap in Earth observation workflows: while hundreds of spectral indices existed in the literature, their definitions were fragmented, inconsistently documented, and rarely designed for direct programmatic use. What began as a curated effort to standardize and consolidate these definitions has since evolved into shared open geospatial infrastructure.\r\n\r\nThe first public release in 2021 included 66 indices structured under a common schema with explicit naming, formulas, application domains, and bibliographic references. A key design decision was the introduction of a cross-sensor band naming standard aligned with widely used satellite platforms such as Landsat, Sentinel, and MODIS. By enabling expressions like \u201c`(N - R) / (N + R)`\u201d to be both human-readable and machine-executable, ASI moved from being a static catalogue to a lightweight and interoperable specification.\r\n\r\nOver the past five years, the project has grown to more than 260 indices (v0.9.0) and expanded beyond a single repository into a multi-language ecosystem. Open-source APIs operationalize the specification in Python (*spyndex*), the Google Earth Engine Code Editor (*spectral*), and Julia (*SpectralIndices.jl*), alongside community-driven implementations such as the R package *rsi*. With over 1k GitHub stars, more than 200k downloads across PyPI and conda-forge, and alignment with the electro-optical STAC extension, ASI now functions as reusable infrastructure embedded in reproducible Earth observation workflows.\r\n\r\nThis talk reflects on five years of technical and community development: the evolution from list to specification, a design that supports scientific completeness and implementation simplicity, and the role of metadata and versioning in ensuring long-term sustainability. It concludes with the next phase of development, including extensions to the band standard, richer metadata, expanded categorization, and API refinements aimed at strengthening interoperability and ensuring that spectral indices remain stable and accessible within the open geospatial ecosystem.",
+    "start_datetime": "2026-07-01T08:30:00Z",
+    "end_datetime": "2026-07-01T09:00:00Z",
+    "talk:code": "YWDSJ9",
+    "talk:guid": "6b11ae5a-3927-5dd6-a961-3fc75c9371bb",
+    "talk:event": "foss4g-europe-2026",
+    "talk:track": "Remote Sensing",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "A13",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "GXMXGL",
+        "name": "David Montero Loaiza",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/GXMXGL/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-07-01T08:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/YWDSJ9/",
+      "title": "From NDVI to an Open Ecosystem: Five Years of Awesome Spectral Indices"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/YWDSJ9/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/GXMXGL/",
+      "title": "David Montero Loaiza"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/YWDSJ9/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides-pdf": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2026/submissions/YWDSJ9/resources/FOSS4GEurope2026_5Y-of-ASI_PV04LUC.pdf",
+      "type": "application/pdf",
+      "title": "Slides PDF",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "presentation-google-slides": {
+      "href": "https://docs.google.com/presentation/d/1RlNpA097AQJmcr8EWjSmt6ZXud0951QfO4xzVQqKBKI/edit?usp=sharing",
+      "title": "Presentation Google Slides",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

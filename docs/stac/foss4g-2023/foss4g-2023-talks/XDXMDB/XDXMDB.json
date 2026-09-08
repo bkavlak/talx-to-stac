@@ -1,0 +1,97 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "XDXMDB",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "3D City Model-based Aid Station Operation Visualization and Management using Cesium.js",
+    "description": "How do you run an aid station in case of a disaster? Scenarios are planned for each city, but there are limitations in applying them to actual aid station operations. In our presentation, we will present a case study on the development and simulation of a aid station management tool using digital twin technology and share various visualization techniques in a 3D city model environment. \r\n\r\nThe study site is Ulju-gun, a county of about 220,000 people in southern South Korea, with two nuclear power plants operating within a few kilometers of each other. Moving people to shelters to protect them in the event of a disaster such as a radioactive leak is very essential and crucial part of disaster management. \r\n\r\nThe aid station management tool presented in this presentation leverages ground-truth 3D modeling data of the shelter buildings that will be operational during a disaster to provide facility placement and editing capabilities. This allows relief tents to be automatically placed or edited based on the scenario. It also provides the ability to monitor the overall changes that may occur at the shelter through a dashboard, including real-time victim status, food, beverage, and medical support, supply status, shelter information, and disaster situation information.\r\n\r\nThe Cesium platform is used to service the data and the Three.js library is used to handle the viewing and placement of 3D model data in glTF format. Other open source implementations include React, Turf.js, Apache ECharts, and GeoServer.\r\n\r\nWe believe that the findings mentioned in this study provide a good example of how 3D city model-based shelter operations and visualization techniques can be applied to disaster preparedness systems to support effective decision-making and resource allocation.",
+    "start_datetime": "2023-06-28T13:15:00Z",
+    "end_datetime": "2023-06-28T13:20:00Z",
+    "talk:code": "XDXMDB",
+    "talk:guid": "005a5c3b-adce-5305-922d-107b388ddc66",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "UBT C / N110 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "Z8DMDB",
+        "name": "Sanghee Shin",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/Z8DMDB/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T13:17:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/XDXMDB/",
+      "title": "3D City Model-based Aid Station Operation Visualization and Management using Cesium.js"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/XDXMDB/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/Z8DMDB/",
+      "title": "Sanghee Shin"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/XDXMDB/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "automatic-shelter-placement": {
+      "href": "https://talks.osgeo.org/media/foss4g-2023/submissions/XDXMDB/resources/shelter_RLaW3Dj.png",
+      "type": "image/png",
+      "title": "Automatic shelter placement",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

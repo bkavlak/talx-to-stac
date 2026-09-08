@@ -1,0 +1,113 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "DXRKGK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Virtually flooded: representing flood model predictions in virtual reality for improved public engagement and understanding of risk",
+    "description": "Improved communication of flood risk via advanced visualisation could lead to increased and wider understanding of flooding, and therefore improved planning decisions and reduced impacts. We demonstrate the representation of modelled flood scenarios within virtual reality, and an open-source Python package for ingesting flood model outputs into Unreal Engine.\n\nFlood inundation is a frequent, widespread, and impactful hazard, with flood risk expected to increase in future because of climate change through increased storminess coupled with rapid growth of urban areas. To manage flood risk efficiently and effectively, communication of risk assessments for multiple scenarios needs to be targeted with the right method for the right audience. However, there is limited information on what works best, why, and for whom. Flood risks may be poorly understood by the public, with flood events taking communities by surprise even if risk assessments have been completed. Further, traditional two-dimensional risk maps are limited by interpretability challenges, especially given the inherent complexity of the data shown (e.g., depth of flooding at a given annual exceedance probability), and differences cartographic decisions taken (e.g., spatial scale and what additional features to show). Three-dimensional visualisations and immersive Virtual Reality (VR) technology have been found to be more intuitive due to their increased realism, with several studies finding that is a useful tool for improved community preparedness.\r\n\r\nOur research is developing advanced automated visualizations of flood risk scenarios using VR, with the aim to improve awareness of flood risk. Our work is building on our open-source flood risk assessment system, Flood Resilience Digital Twin (FReDT), which brings together computational models of flood inundation with other data for hazard assessment, management, and mitigation. A key objective of FReDT is to enable the automation of flood risk assessments, so that multiple scenarios can be assessed rapidly. Here, our focus is on the development of open-source software components which enable dynamic flood model predictions of water levels during a flood event to be ingested into virtual representations of modelled areas in Unreal Engine software from Epic Games. Thus, predictions for different scenarios (from any hydraulic model) are visualised in an immersive way in VR or with 360-degree video representations. \r\n\r\nWe have created a processing pipeline that takes a modelled flood scenario from FReDT (currently, produced using the BG-Flood hydraulic engine) and adds a representation of that flooding into an Unreal Engine virtual environment (level) of the same area. The level landscape must be produced from the same LiDAR terrain dataset as used to generate the flood model, so that the Unreal Engine representation aligns vertically with the flood model. Further development will include workflows to produce an Unreal Engine level purely from environmental data but currently we require this to be created independently.\r\n\r\nOur pipeline takes the flood scenario depth data, consisting of a time-series of geospatial raster layers in NetCDF format, and creates water \u201csources\u201d within Unreal Engine that match the depth over time of the raster. These water sources use Fluid Flux 3.0 for realistic fluid simulations at runtime and is required to represent the dynamics of the flood event, including the interaction of flow with objects in the VR environment. Fluid Flux is a proprietary Unreal Engine plugin from Imaginary Blend that solves the full shallow water equations in real-time at a high spatial resolution.   Water source placement currently decided by developers choosing points within the flood scenario extent and saving these to a geospatial vector file, although in a future version this process will also be automated. \r\nOur processing pipeline begins by using Python with open-source libraries such as XArray and GeoPandas to extract the depths over time for each of the given points and collate these data into a CSV file containing each point. This CSV file allows the second processing stage to occur within Unreal Editor, without requiring libraries to be installed into the Unreal Editor Python environment.\r\n\r\nIn Unreal Editor, a second Python script is called, which reads the CSV and creates water source actors at each given location. Unreal Float Curves are used to represent the depth of the water source over time. These water sources use Fluid Flux 3.0 simulation modifiers  with a custom Blueprint plugin implementation to provide time-series depth modification. These water sources are set to add water to the domain while the immediate surrounding area does not match their water level and remove water where the surrounding area exceeds it. The more sources of water added the more closely the Unreal Engine simulation aligns with the outputs of the flood model scenario. Using Fluid Flux 3.0, simulation states can be pre-run to allow switching between stages of flooding that could be hours apart in real time. This allows us to demonstrate multiple different stages of flooding, from a normal day through to peak inundation.\r\n\r\nDepending on how the simulations are setup, the topography of the VR domain can be substantially more detailed than the source flood model, and domain is likely to be a smaller spatial subset. The higher resolution allows the representation of flows around and between features such as buildings, although it should be noted that currently only the mass of water is included from source flood model simulations, not momentum, meaning that any highly dynamic flow (e.g., hydraulic jumps and super critical flow) is generated internally within Unreal Engine by Fluid Flux 3.0. Usual practice is to run flood model scenarios at around 5-10 m spatial resolution for river reaches of several kilometres, while the VR domain can be around 1 m spatial resolution for domains of approx. 2 x 2 km, depending on available video memory. Our current hardware comprises a NVidia RTX 4090 GPU with 24 Gb memory, of which around 8 Gb is used during simulations.\r\n\r\nA key outcome of our research is the methods and software which build on FReDT to create advanced flood visualizations, using virtual reality (VR) technology. We are currently engaging with communities regarding these visualisations to assess their effectiveness in communicating flood risk, including multiple scenarios of different levels of flood likelihood. The software developed enables users to switch between scenarios from within the VR system, with appropriate flood levels pulled into the system in real time. Ultimately, our aim is to enable users to interact with the environment, for example to make changes which are aimed at flood mitigation (e.g., natural flood solutions such as wetland restoration). These mitigation scenarios will be assessed using FReDT, enabling dynamic updating of the visualisations through automated ingestion of model outputs. More broadly, our work demonstrates how the outputs of advanced numerical models can be used directly within VR to create intuitive visualisations, with widespread potential applications such as in the communication of the potential impacts of climate change.\r\n\r\nGitHub repository: \r\nhttps://github.com/GeospatialResearch/UnrealFloodingScripts",
+    "start_datetime": "2025-11-21T01:30:00Z",
+    "end_datetime": "2025-11-21T01:55:00Z",
+    "talk:code": "DXRKGK",
+    "talk:guid": "181afb80-a7f2-5567-af7b-e417a4fda67c",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Academic",
+    "talk:type": "Academic Paper",
+    "talk:language": "en",
+    "talk:room": "WG802",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "7G79AY",
+        "name": "Matthew Wilson",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/7G79AY/"
+      },
+      {
+        "code": "8FMRTS",
+        "name": "Luke Parkinson",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/8FMRTS/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-21T01:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/DXRKGK/",
+      "title": "Virtually flooded: representing flood model predictions in virtual reality for improved public engagement and understanding of risk"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/DXRKGK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/7G79AY/",
+      "title": "Matthew Wilson"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/8FMRTS/",
+      "title": "Luke Parkinson"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/GeospatialResearch/UnrealFloodingScripts",
+      "title": "github.com/GeospatialResearch/UnrealFloodingScripts"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/DXRKGK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=v8y_qQlL9Dk",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Virtually flooded: representing flood model predictions in virtual reality...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "CC93KV",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "State of Oskari (for developers)",
+    "description": "Oskari is used world wide to provide web based map applications that are built on top of existing spatial data infrastructures. Oskari offers building blocks for creating and customizing your own geoportals and allows embedding maps to other sites that can be controlled with a simple API. In addition to showing data from spatial services, Oskari offers hooks for things like using your own search backend and fetching/presenting statistical data.\r\n\r\nThis presentation will go through the improvements to existing functionalities and new features introduced in Oskari during the last year. The focus will be on functionalities from developer perspective like:\r\n\r\n- Improvements for working with vector features\r\n- API-improvements for embedded maps.\r\n- Rewrite of service capabilities parsing and handling\r\n- Planned developments for better theming support and mobile-device friendliness for the geoportal\r\n\r\nYou can try some of the functionalities Oskari offers out-of-the-box on our sample application: https://demo.oskari.org.\r\n\r\nLink: https://oskari.org",
+    "start_datetime": "2022-08-24T15:15:00Z",
+    "end_datetime": "2022-08-24T15:20:00Z",
+    "talk:code": "CC93KV",
+    "talk:guid": "735a25d9-3519-5bf4-b7d8-b23056dada93",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Room Limonaia",
+    "talk:room_capacity": 110,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "YTH97V",
+        "name": "Sami M\u00e4kinen",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/YTH97V/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T15:17:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/CC93KV/",
+      "title": "State of Oskari (for developers)"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/CC93KV/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/YTH97V/",
+      "title": "Sami M\u00e4kinen"
+    },
+    {
+      "rel": "related",
+      "href": "https://demo.oskari.org",
+      "title": "demo.oskari.org"
+    },
+    {
+      "rel": "related",
+      "href": "https://oskari.org",
+      "title": "oskari.org"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/CC93KV/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/jCJnwAorUixM72c3bX7RwH",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | State of Oskari (for developers)",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=on4D5_nJV_s",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | State of Oskari (for developers)",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

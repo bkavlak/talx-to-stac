@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "JUKEPT",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Scaling down web maps for the final user",
+    "description": "WebGIS publishing platforms like MapStore, are usually very feature-rich, to cover a lot of different  scenarios, from the QGIS-like do-it-all web application, to a simple interactive map for a company website.\r\n\r\nThis comes with an important trade-off: even when removing most of the unneeded functionalities for the simplest use case, the cost of the platform needed to run your maps can be overwhelming.\r\n\r\nThe problem here is that a single platform is not always the best choice for every kind of usage.\r\n\r\nThis talk shows how to use the popular MapStore platform as an application builder, to publish interactive maps that can run on a very light engine, de facto scaling down a quite heavy platform to the needs of performance and simplicity that better suit a lot of general user oriented applications and websites.\r\n\r\nWe will start by creating a map from different data sources, using MapStore, then we will export the map and publish it to our alternative light engine.\r\n\r\nWe will then highlight all the advantages this approach can offer.\r\n\r\nFinally we will give some insights on the technical aspects of this project.",
+    "start_datetime": "2022-08-25T15:45:00Z",
+    "end_datetime": "2022-08-25T15:50:00Z",
+    "talk:code": "JUKEPT",
+    "talk:guid": "0f7953d0-de38-5941-a4fb-775acb7b7b33",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Room Limonaia",
+    "talk:room_capacity": 110,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "TBWG3Z",
+        "name": "Mauro Bartolomeoli",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/TBWG3Z/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T15:47:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/JUKEPT/",
+      "title": "Scaling down web maps for the final user"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/JUKEPT/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/TBWG3Z/",
+      "title": "Mauro Bartolomeoli"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/JUKEPT/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=iqA6TpDTp0A",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Scaling down web maps for the final user",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

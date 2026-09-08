@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "8XW8ZQ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "Mastering Security with GeoServer, GeoFence, and OpenID",
+    "description": "The presentation will provide a comprehensive introduction to GeoServer's own authentication and authorization subsystems. The authentication part will cover the various supported authentication protocols (e.g. basic/digest authentication) and identity providers (such as local config files, databases, LDAP servers, OAuth2/OpenID), covering also cases in which the same source may play both roles (OAuth2, OpenId connect).\r\n\r\nIt will explain how to combine various authentication mechanisms in a single comprehensive authentication tool, as well as provide examples of custom authentication plugins for GeoServer, integrating it in a home-grown security architecture. We\u2019ll then move on to authorization, describing the GeoServer pluggable authorization mechanism, and comparing it with an external proxy-based solution. We will explain the default service and data security system, reviewing its benefits and limitations.\r\n\r\nFinally, we\u2019ll explore the advanced authorization provider, GeoFence. The different levels of integration with GeoServer will be presented, from the simple and seamless direct integration to the more sophisticated external setup. Finally, we\u2019ll explore GeoFence\u2019s powerful authorization rules using:\r\n\r\n- The current user and its roles.\r\n- The OGC services, workspace, layer, and layer group.\r\n- CQL read and write filters.\r\n- Attribute selection.\r\n- Cropping raster and vector data to areas of interest.",
+    "start_datetime": "2025-07-17T15:00:00Z",
+    "end_datetime": "2025-07-17T15:30:00Z",
+    "talk:code": "8XW8ZQ",
+    "talk:guid": "d6bf18a4-ac5e-5ee1-a5ac-7c8512f39a6b",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "CA01 (TomTom)",
+    "talk:room_capacity": 130,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RBSH8T",
+        "name": "Andrea Aime",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/RBSH8T/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-17T15:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/8XW8ZQ/",
+      "title": "Mastering Security with GeoServer, GeoFence, and OpenID"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/8XW8ZQ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/RBSH8T/",
+      "title": "Andrea Aime"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/8XW8ZQ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "pdf-slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/8XW8ZQ/resources/Mastering_Security_with_GeoServer_and_Ge_6HNNVYL.pdf",
+      "type": "application/pdf",
+      "title": "PDF slides",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/8qxsC4jJxCjpdXeNgQWub7",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Mastering Security with GeoServer, GeoFence, and OpenID",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=ZxmHrO_LE90",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Mastering Security with GeoServer, GeoFence, and OpenID",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

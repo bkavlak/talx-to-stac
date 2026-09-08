@@ -1,0 +1,126 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "BXBM8A",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "Structured File Storage vs. Millions of 3D Tiles: Who Wins?",
+    "description": "When handling massive LiDAR datasets on the web, is the traditional gazillion-of-tiles approach still the best choice? Or can structured file storage like **SQLite**, **DuckDB**, and **Parquet** deliver a faster, more scalable format? Solutions for managing massive LiDAR datasets already exist, some even attempt to package **3D Tiles** into databases to reduce fragmentation. However, some of these approaches come with limitations: they are often proprietary or lack flexibility for large-scale datasets.\r\n\r\nFaced with **1.3 trillion LiDAR points** from Croatia\u2019s nationwide airborne LiDAR mapping project, we needed a way to efficiently store, process, and visualise this immense dataset. For web visualisation, Cesium and 3D Tiles offered powerful rendering, but converting raw LiDAR data into millions of tiny files led to a storage and performance nightmare. File fragmentation overwhelmed the filesystem, causing sluggish read/write operations, unreliable backups, and some request overhead when serving tiles online.\r\n\r\nTo overcome these challenges, we explored alternative structured file storage solutions. \r\nSQLite, a compact embedded database, reduced fragmentation while enabling fast spatial queries. DuckDB, an analytical database optimized for large-scale data, delivered high-speed querying and processing power. \r\nParquet, a columnar storage format used in big data, provided strong compression and rapid sequential access, making it a promising alternative to millions of fragmented 3D Tiles.\r\n\r\nIn this presentation, we will share our experience, comparing fragmented 3D Tiles with structured file storage formats. Whether you\u2019re working with 3D Tiles, small raster and vector tiles, or other massive spatial datasets, this session will provide you with insight to a practical alternative of the millions-of-files problem.",
+    "start_datetime": "2025-07-16T15:00:00Z",
+    "end_datetime": "2025-07-16T15:30:00Z",
+    "talk:code": "BXBM8A",
+    "talk:guid": "489177fc-9754-55fc-84f6-9c9c8ed68a65",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "SA01",
+    "talk:room_capacity": 130,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "MVZQAF",
+        "name": "Viktor Mihokovi\u0107",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/MVZQAF/"
+      },
+      {
+        "code": "VPKNCD",
+        "name": "Mario Miler",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/VPKNCD/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-16T15:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/BXBM8A/",
+      "title": "Structured File Storage vs. Millions of 3D Tiles: Who Wins?"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/BXBM8A/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/MVZQAF/",
+      "title": "Viktor Mihokovi\u0107"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/VPKNCD/",
+      "title": "Mario Miler"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/BXBM8A/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://drive.google.com/file/d/1RuEAwX7_VGl63Ses2WkvXpOnJRj88-LA/view?usp=sharing",
+      "title": "presentation",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/ionY6WFxvYybw1BzDsnNmu",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Structured File Storage vs. Millions of 3D Tiles: Who Wins?",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=7OfyMfHtOO4",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Structured File Storage vs. Millions of 3D Tiles: Who Wins?",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

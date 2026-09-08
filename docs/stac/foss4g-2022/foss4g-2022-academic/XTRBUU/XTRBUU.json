@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "XTRBUU",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Development of a collaborative platform for intelligent territorial mapping of the city of Oran",
+    "description": "In developing countries, sustainable development and territorial intelligence are of greater interest to public authorities and citizens. In Algeria, the combination of resources with technological innovation goes in the direction of building a productive territorial intelligence. This translates into a process aiming at developing a systemic approach of the territory in order to analyse its physical, social and economic dimensions in order to exchange the different points of view of the territorial, social and economic actors and to make the policies more coherent. In this contribution, we have focused the research on studies related to decisional computing used by governmental entities, especially in the field of public services. It turned out that the use of collaborative web platforms involving several actors belonging to different spheres (government, economy, social, etc.), constitutes a tool for the development of territorial intelligence thanks to the availability of data which allows a considerable saving of time and cost. Indeed, the construction of a territorial information system makes possible the networking of these actors, to elaborate clear and reliable schemes of urban planning for a liveable environment, which led us to think about the implementation of a web platform for exchanges, collections, production and dissemination of data and social animation to reach equitable consensus. This will allow, among other things, the development of project management through the formalisation of objectives and collaborative work for the planning and optimisation of tasks. Geographical information is a crucial element in most of the daily uses thanks to the intelligent applications put online and exploited by different categories of connected people. Therefore, the interest and necessity of sharing geo-located information for decision support systems is well proven nowadays. In the same context, participatory mapping initiatives through voluntary geographic information (VGI), citizen-generated content or crowdsourcing are now being used as a new instrument for information gathering and two-way exchange between the various entities in the urban environment ranging from ordinary citizens to leading actors. This direct data is a key element in all the decision-making processes leading to the achievement of urban governance modalities. The objective of our work is to provide an interactive solution ensuring the collaboration of actors (decision-makers and citizens) on a webmapping platform for the reporting of needs by citizens in terms of public services such as road defects, public lighting failures and any other existing problems in an urban area. This application could also be used for emergency alerts (road accidents, natural disasters, etc.). As a study area, we chose the city of Oran, located in the west of Algeria, which is the second largest urban metropolis in the country. The realization of the collaborative web mapping platform is based on Free and Open-Source Software for Geospatial (FOSS4G). As a spatial database management system, we used PostgreSQL with its spatial extension PostGIS, which is classified as one of the most powerful open source DBMS. The GIS server used in our application is GeoServer, which guarantees to satisfy a maximum of required webmapping services (WMS, WFS, WMTS, WCS, etc.). The webmapping interface must offer two main components: an interactive citizen space with the web map and a space for decision makers who will be able to consult, verify and validate the data sent in order to proceed with the action. Among the development options for this type of webmapping interface, we are interested in GeoNode, an open source framework based on mature and robust frameworks and software like Django, OpenLayers, PostGIS, GeoServer and pycsw. In our case, GeoNode will allow the integration of a multitude of geospatial functions for manipulating data and responding to any type of request on the web map. The platform, which we have named \"Wilayati\", will offer new participatory methods for monitoring activities in the urban environment. Its functionalities will ensure, on the one hand, the sharing of data on a map based on voluntary contributions from the citizens of Oran and, on the other hand, the visualisation and manipulation of the data by decision-makers in order to give them a support for the management of localised interventions. Different types of data on the urban fabric of the city of Oran were collected from the processing of satellite images as well as datasets on the road network of Oran obtained from OpenStreetMap after improving the intrinsic quality. In parallel, a campaign on social networks will soon be launched, with the aim of better analysing the orientations of the public services most requested by citizens. The application, under development, will provide a new source of data that can be easily exploited in urban governance and will provide a way for citizens to participate in improving their environment through regular updates of the geographical database. Finally, as a perspective, the results, after deployment of the platform, will give an overview of the impact of citizens in participatory mapping highlighting points of interest and urban infrastructures of cities in Algeria.",
+    "start_datetime": "2022-08-25T13:35:00Z",
+    "end_datetime": "2022-08-25T13:40:00Z",
+    "talk:code": "XTRBUU",
+    "talk:guid": "f8e923ba-5baf-5908-8d17-28d28031c5e9",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "Room Hall 3A",
+    "talk:room_capacity": 85,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "NLPEVJ",
+        "name": "Nedjma Hadj Kaddour",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/NLPEVJ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T13:37:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/XTRBUU/",
+      "title": "Development of a collaborative platform for intelligent territorial mapping of the city of Oran"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/XTRBUU/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/NLPEVJ/",
+      "title": "Nedjma Hadj Kaddour"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/XTRBUU/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

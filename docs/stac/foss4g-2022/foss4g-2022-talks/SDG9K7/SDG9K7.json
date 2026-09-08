@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "SDG9K7",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "IOTA2: large scale land cover mapping operational chain",
+    "description": "The use of remote sensing data operating in different observation domains is an undeniable asset for the realization of quality land cover products. \r\nIndeed, satellites allow to cover large areas of interest in a regular way with a durable quality. \r\nSatellite data can be of different but often complementary natures, which makes it possible to broaden the possible fields of application (water management, snow cover, crop yield, urbanization, etc.). \r\nIn addition to these new data, there are recent technological developments (or old but now usable due to the evolution of computing capacities, such as the use of neural networks), and means of service provision and dissemination that allow these applications to be carried out over a longer period of time (long time series that are computed more rapidly) and in a larger space at different scales, sometimes simultaneously (stationary, local, national, continental, global scale).\r\niota2, developed by CESBIO and CNES with the support of CS GROUP, is a response to the growing demand for the creation of an Open Source tool, allowing the production of land cover maps at a national scale that is sufficiently generic to be adapted to the different objectives of users. \r\nIn addition, this project ensures the production of an annual land use map of metropolitan France [REF https://doi.org/10.3390/rs9010095], with a satisfactory level of quality, thus proving its operational capacities.\r\n\r\niota2 integrates several families of supervised algorithms used for the production of land use maps. Supervised algorithms (e.g.,  Random Forests or Support Vector Machine) that process pixels that can be parameterised by the users through a simple configuration file. iota2 also offers the user the option of using a deep learning model.\r\nIn addition to the pixel approaches, contextual approaches are also proposed, with Autocontext [1] and OBIA (Object Based Image Analysis). Autocontext, based on RF, takes into account the context of a pixel in a window around its position. The OBIA approach exploits an input segmentation to classify objects directly.\r\n\r\nIn addition to the supervised classification approaches, iota2 is also able to produce indicator maps (biophysical variables) either by supervised regression or by using user-provided processors, diversifying the possibilities of using iota2.\r\n\r\nOne major interest in iota2 is it's ablility to deal with a huge amount a data, for instance the OSO product (https://theia.cnes.fr/atdistrib/rocket/#/collections/OSO/2327b748-a82c-5933-afb0-087bbfeff4cd) is generated using a stack of all available Sentinel-2 data over the France without any landscape discontinuity due to the Sentinel-2 grid. Another point of interest is its capability to produce a landcover map everywhere a Sentinel-2 data and a groundtruth are available (ie : https://agritrop.cirad.fr/597991/1/Rapport_Intercomparaison_iota2Moringa.pdf). \r\n\r\n1. Derksen, D., Inglada, J., & Michel, J. (2020). Geometry aware evaluation of handcrafted superpixel-based features and convolutional neural networks for land cover mapping using satellite imagery. Remote Sensing, 12(3), 513. http://dx.doi.org/10.3390/rs12030513",
+    "start_datetime": "2022-08-24T15:25:00Z",
+    "end_datetime": "2022-08-24T15:30:00Z",
+    "talk:code": "SDG9K7",
+    "talk:guid": "aa9a8c08-85f9-52b9-a132-9837312759d7",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Modulo 0",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "PHCLJB",
+        "name": "Arthur VINCENT",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/PHCLJB/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T15:27:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/SDG9K7/",
+      "title": "IOTA2: large scale land cover mapping operational chain"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/SDG9K7/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/PHCLJB/",
+      "title": "Arthur VINCENT"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.3390/rs9010095",
+      "title": "doi.org/10.3390/rs9010095"
+    },
+    {
+      "rel": "related",
+      "href": "https://agritrop.cirad.fr/597991/1/Rapport_Intercomparaison_iota2Moringa.pdf",
+      "title": "agritrop.cirad.fr/597991/1/Rapport_Intercomparaison_iota2Moringa.pdf"
+    },
+    {
+      "rel": "related",
+      "href": "http://dx.doi.org/10.3390/rs12030513",
+      "title": "dx.doi.org/10.3390/rs12030513"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/SDG9K7/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/rKuCdb8AkF9msF6tadAnF9",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | IOTA2: large scale land cover mapping operational chain",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=jIjS1bQ1c1M",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | IOTA2: large scale land cover mapping operational chain",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

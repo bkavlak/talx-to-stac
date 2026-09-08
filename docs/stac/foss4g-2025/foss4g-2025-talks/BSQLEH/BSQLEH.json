@@ -1,0 +1,106 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "BSQLEH",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "A Scalable Open-Source System for Impervious Land Mapping Using GRASS and the Python Ecosystem",
+    "description": "This paper introduces a scalable open-source system using GRASS, TorchGeo, Python libraries, and HDF5 to map impervious surfaces from orthophotos and Sentinel-2 imagery. Outputs are vectorized, compared with agricultural and forested lands, and analyzed for environmental impacts like soil sealing to support sustainable land management and restoration.\n\nIntroduction\r\nImpervious surface expansion significantly contributes to environmental degradation. Accurate and efficient mapping of these changes is essential in environmental monitoring and spatial analysis. While many tools exist for land cover classification, few provide a fully open-source, scalable solution capable of continuous Sentinel-2 monitoring, ingesting both orthophotos and multispectral data, performing temporal analysis, and supporting integration with spatial databases.\r\nThis paper presents a scalable system for detecting and monitoring impervious land using orthophotos and Sentinel-2 data. The workflow integrates GRASS for spatial processing, HDF5 for high-performance raster storage, and Python-based machine learning libraries for classification and change detection. Sentinel-2 imagery is pulled automatically from the Planetary Computer after publication and classified with TorchGeo using pre-trained backbones fine-tuned on the EuroSAT dataset. The Sentinel-2 time series flags disturbance areas; when very high resolution aerial imagery becomes available the system triggers semantic segmentation there to produce detailed impervious maps. Predicted outputs are postprocessed, vectorized, and stored in spatial database. Results are further compared with ancillary datasets, including agricultural and forested lands, to inform end users of the environmental implications. The system is designed to support rapid prototyping, reproducibility, and high-resolution monitoring across varying spatial and temporal domains. Performance is evaluated using standard classification metrics, and results demonstrate the applicability of this workflow in operational land change detection contexts.\r\n2 Materials and Methods\r\n2.1 Data Sources and Management\r\nThe system ingests multiple raster inputs: Sentinel\u20112 multispectral bands from the Microsoft Planetary Computer for continuous monitoring; very high resolution orthophotos from the Mapping Authority of the Republic of Slovenia with near infrared, red, and green channels at 50 cm, used where the Sentinel\u20112 time series indicates change; reference impervious layers from earlier periods to generate labeled training data and establish baselines for change detection; and ancillary datasets such as agricultural and forest land boundaries for comprehensive environmental assessments.\r\nOrthophotos are preprocessed in GRASS and exported to HDF5. Image features and labels are stored as chunked arrays to enable efficient parallel processing and patch based classification. After classification, prediction maps are imported into GRASS as a space-time raster dataset. Results of time-series analyses are converted to vector layers, and loaded into a PostgreSQL/PostGIS database for downstream operations and integration.\r\n2.2 Machine Learning Pipeline\r\nMachine learning models for the orthophotos are trained using RAPIDS cuML (GPU-accelerated Random Forest) on the HDF5 tiles to produce detailed impervious maps. Sentinel-2 classification uses TorchGeo models with ResNet backbones that are initialised with Sentinel-2 weights provided by TorchGeo and fine-tuned on the EuroSAT dataset; the operational maps are produced by the fine-tuned models over the study area and follow the same land cover class scheme. Inference is executed using joblib. Evaluation metrics (F1 score, accuracy) guide model selection and validation.\r\n2.3 Temporal Analysis\r\nChange detection is performed by comparing Sentinel-2 based land cover prediction maps across years and by maintaining a Sentinel-2 time series in a GRASS space-time raster dataset. The TorchGeo model, fine-tuned on the EuroSAT dataset, provides land cover classes, and the temporal analysis focuses on transitions into highway, industrial and residential classes from other land cover types as indicators of areas with new impervious surfaces. New Sentinel-2 scenes are downloaded automatically after publication, and GRASS spatio-temporal aggregation and change-detection tools are used to derive spatial differences that identify newly developed impervious areas. When new very high resolution orthophotos are available, the system automatically triggers segmentation only over tiles flagged by the Sentinel-2 disturbance signal.\r\n2.4 Postprocessing and Dissemination\r\nPostclassification filtering reduces noise. Cleaned rasters are vectorized and simplified within GRASS. Final geometries are stored in PostGIS, generalized, enriched with auxiliary land cover data, and disseminated as WFS services, enabling spatial queries, external integration, and comparison with land-use data for assessing impacts on soil and potential for restoration.\r\n3 Results and Discussion\r\nThe system was applied to multi-year orthophoto and Sentinel-2 datasets. Continuous Sentinel-2 monitoring produced timely impervious updates. The HDF5-based chunking significantly reduces I/O bottlenecks when performing machine learning tasks. Targeted segmentation of orthophotos over Sentinel-2 disturbance areas improved efficiency while preserving detail. Change maps accurately identified new impervious areas. Vectorized outputs supported further spatial analysis, visualization, and comparative evaluation against agricultural and forested land-use data. WFS dissemination enabled direct use in client applications. These comparisons underscore the importance of monitoring soil sealing and highlight opportunities for targeted land restoration initiatives.\r\n4 Conclusion\r\nThis study demonstrates a reproducible, open-source pipeline for high-resolution impervious land mapping with continuous Sentinel-2 monitoring. Integration of GRASS, HDF5, RAPIDS cuML and TorchGeo enables efficient classification, temporal analysis, event-driven segmentation of orthophotos, spatial output management, and environmental impact assessment. The architecture is adaptable to diverse data sources and modeling approaches, thus suitable for research, operational applications, and informed land management and restoration practices, with outputs shared through WFS services.",
+    "start_datetime": "2025-11-20T03:00:00Z",
+    "end_datetime": "2025-11-20T03:25:00Z",
+    "talk:code": "BSQLEH",
+    "talk:guid": "524e53cb-8900-5ea1-b180-9039b176b6c9",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Academic",
+    "talk:type": "Academic Paper",
+    "talk:language": "en",
+    "talk:room": "WG404",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "EYZCPK",
+        "name": "Alen Mangafi\u0107",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/EYZCPK/"
+      },
+      {
+        "code": "LVRBRN",
+        "name": "Toma\u017e \u017dagar",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/LVRBRN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-20T03:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/BSQLEH/",
+      "title": "A Scalable Open-Source System for Impervious Land Mapping Using GRASS and the Python Ecosystem"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/BSQLEH/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/EYZCPK/",
+      "title": "Alen Mangafi\u0107"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/LVRBRN/",
+      "title": "Toma\u017e \u017dagar"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/BSQLEH/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-2025/submissions/BSQLEH/resources/Impervious_Land_Mapping_iIJnVDt.pdf",
+      "type": "application/pdf",
+      "title": "presentation",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

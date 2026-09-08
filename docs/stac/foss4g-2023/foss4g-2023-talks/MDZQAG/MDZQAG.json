@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "MDZQAG",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "The Swiss geometadata catalogue: new version (GeoNetwork V4) & first results of a usability study",
+    "description": "At the end of 2022 the Swiss geodata catalogue, geocat.ch, was migrated to GeoNetwork version 4. A more modern user interface as well as a more powerful search based on Elasticsearch makes it easier to search the more than 14000 geometadata contained in geocat.ch.\r\n\r\nThis new version of geocat.ch has been the subject of a usability study focusing on geodata search. Some developments based on the results of this study have been proposed to the GeoNetwork developer community. To discuss these proposals with the other users of GeoNetwork, a GeoNetwork user community should be founded and could be helpful in the further developments of GeoNetwork. In addition, the usability study showed that the search for geodata is very dependent on the quality of the information entered into the catalog.\r\n\r\nThe geometadata in geocat.ch come from different organizations (direct entry or harvesting), have different spatial extents, are multilingual and some have different data models. The harmonized entries of the most important information are essential and form the basis for efficient searches. The Swiss geometadata standard (GM03), which is currently under review with the aim of simplifying and updating the Swiss geometadata model, always based on international standards.",
+    "start_datetime": "2023-06-30T09:30:00Z",
+    "end_datetime": "2023-06-30T10:00:00Z",
+    "talk:code": "MDZQAG",
+    "talk:guid": "57f2a26c-9f0b-5951-8b20-f420e0d9847d",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT C / N109 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "LZACKY",
+        "name": "Rapha\u00eblle Arnaud",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/LZACKY/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-30T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/MDZQAG/",
+      "title": "The Swiss geometadata catalogue: new version (GeoNetwork V4) & first results of a usability study"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/MDZQAG/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/LZACKY/",
+      "title": "Rapha\u00eblle Arnaud"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/MDZQAG/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

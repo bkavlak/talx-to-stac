@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "EHNYXK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Cluster Analysis: a comprehensive and versatile QGIS plugin for pattern recognition in geospatial data",
+    "description": "As geospatial data continuously grows in complexity and size, the application of Machine Learning and Data Mining techniques to geospatial analysis is increasingly more essential to solve real-world problems. Although, in the last two decades, the research in this field produced innovative methodologies, they are usually applied to specific situations and not automatized for general use. Therefore, both generalization and integration of these methods with Geographic Information Systems (GIS) are necessary to support researchers and organizations in data exploration, pattern recognition, and prediction in the various applications of geospatial data. The lack of machine learning tools in GIS is especially clear for what concerns unsupervised learning and clustering. The most used clustering plugins in QGIS [1] contain few functionalities beyond the basic application of a clustering algorithm. \r\n\r\nIn this work we present Cluster Analysis, a Python plugin that we developed for the open-source software QGIS and offers functionalities for the entire clustering process: from (i) pre-processing, to (ii) feature selection and clustering, and finally (iii) cluster evaluation. Our tool provides different improvements from the current solutions available in QGIS, but also in other widespread GIS software. The expanded features provided by the plugin allow the users to deal with some of the most challenging problems of geospatial data, such as high dimensional space, poor quality of data, and large size of data.\r\n\r\nIn particular, the plugin is composed of three main sections:\r\n\r\n- feature cleaning: This part aims to provide some options to reduce the dimensionality of the dataset by removing the attributes that are most likely bad for the clustering process. This is important to achieve better results and faster execution time, avoiding the problems of clustering in high dimensionality. The first filter removes the features that are correlated above a user-defined threshold, since highly correlated features usually provide redundant information and can lead to overweight of some characteristics. The other two filters identify the attributes with constant values for all the data points or with few outliers differentiating from them. These types of features don\u2019t provide any valuable information and can worsen the performance of clustering. To identify quasi-constant features, we use two different parameters introduced in the function NearZeroVar() from the Caret package developed for R [2]: the ratio between the two most frequent values and the number of unique values relative to the number of samples.\r\n\r\n\r\n- clustering: This section is used to perform clustering on the chosen vector layer. First of all, the user needs to select the features to use in the process. It is possible to select the features both manually and automatically. The automatic feature selection is done using an entropy-based algorithm [3] presented in two versions with different computational complexities. The currently available algorithms for clustering are K-Means and Agglomerative Hierarchical, and the users can select the one that best suits their needs. Before performing clustering, the plugin offers the possibility to scale the datasets with standardization or normalization, and to plot two different graphs to facilitate the choice of the number of clusters.\r\n\r\n\r\n- evaluation: In this section we show all the experiments carried out in the current session, with a recap of the settings and performances of the experiments and the possibility to save and load them with text files. To evaluate the quality of the experiments we calculate two indexes and the comparisons among experiments on the same dataset. The indexes are the internal metrics Silhouette coefficient and Davies-Bouldin index. To directly compare the clusters formed by two or more experiments we compute the score [4], which evaluates how many couples of data points are grouped together in all of the experiments or in none of them. Every experiment completed in the current session can be stored in a text file, and the experiments saved in previous sessions can be loaded in the plugin and are shown in the evaluation section along with the other ones.\r\n\r\nOne of the major challenges during development has been allowing most of the functionalities on large datasets as well, both from the point of view of the number of samples and the number of dimensions. To achieve this, we also implemented algorithm options with good time complexities, as in the case of entropy with sampling and K-Means. Moreover, for all the data storage and manipulation done in the system, we use the data structures and functions provided by the libraries pandas and NumPy to guarantee high performance.\r\n\r\nAnother important objective of the research is the accessibility and ease of use of the plugin since the general user of GIS is often lacking a machine learning and computer science background. To guarantee this, the User Interface is simple and self-explanatory, and each section contains a brief guide to explain all the functionalities. Furthermore, some algorithm parameters that cannot be modified via the interface are stored in an external configuration file, and can be modified via this. This is done to avoid confusing the less experienced users.\r\n\r\nAlong with the implementation, the research is integrated with a considerable experimental phase, both during and after the development phase. This phase is essential to highlight both the potential of the plugin and its limitations in real-world scenarios. The great volume of experiments is conducted on data about the city of Milan, describing social-demographics, urban and climatic characteristics and with different granularities (ranging from less than 100 data points to almost 70000, and with a large number of numerical attributes, up to 109). Overall, the experimental phase shows good and adequate flexibility of the plugin, and outlines the possibilities for future developments that can be provided also by the QGIS community, given the open-source nature of the project.\r\n\r\nThe stable version of the plugin is available on the QGIS Python Plugins Repository (https://plugins.qgis.org/plugins/Cluster-Analysis-plugin-main/) while the development version as well as documentation are available on GitHub (https://github.com/folini96/Cluster-Analysis-plugin).",
+    "start_datetime": "2022-08-24T13:15:00Z",
+    "end_datetime": "2022-08-24T13:45:00Z",
+    "talk:code": "EHNYXK",
+    "talk:guid": "c3832470-afe9-5417-8138-7cd35fa77488",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room Modulo 3",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "KWVMET",
+        "name": "Andrea Folini",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/KWVMET/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T13:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/EHNYXK/",
+      "title": "Cluster Analysis: a comprehensive and versatile QGIS plugin for pattern recognition in geospatial data"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/EHNYXK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/KWVMET/",
+      "title": "Andrea Folini"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/EHNYXK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

@@ -1,0 +1,103 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "FPYGGF",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Introduction to GeoNode, the Open Source geospatial CMS",
+    "description": "GeoNode is an open source web platform for the development of interoperable spatial data infrastructure. The software is designed to be easily extended, customized and integrated into existing systems. The workshop will provide an introduction to GeoNode 4 starting with an overview of its basic and advanced functionalities.\n\nGeoNode is an open source web platform for the development of interoperable spatial data infrastructure. The software is designed to be easily extended, customized and integrated into existing systems. \r\n\r\nThe workshop will provide an introduction to GeoNode starting with an overview of its functionalities for managing data, users and documents covering also more advanced concepts like managing layers, editing layer styles, managing maps and geostories and more; advanced information on data management will also be provided in order to ensure performance data dissemination.\r\n\r\nThe workshop will also cover advanced administration and configuration concepts covering the administration panel, management commands, monitoring and analytics and much more.\r\n\r\nIn order to participate no previous knowledge of GeoServer and OGC services is required, but a basic knowledge of GIS concepts and basic data formats (shapefiles, geotiff) is recommended.\r\n\r\nParticipants should provide their own laptop with Ubuntu 22.04 or Docker installed and configured.\r\nWe suggest preparing your PC with our geonode-workshop project (https://github.com/geosolutions-it/geonode-workshop). Just follow the instructions inside the README file. You're invited to build the Docker images before attending the workshop since it requires some bandwidth and time.\r\n\r\nMaterial that will be used during the workshop can be downloaded at the following link: https://tinyurl.com/geonode-worshop-material\r\n\r\nHardware requirements\r\n - Internet connection\r\n - At least 4CPUs\r\n - At least 8GB RAM free\r\n - At least 40GB HD free",
+    "start_datetime": "2023-06-26T12:00:00Z",
+    "end_datetime": "2023-06-26T16:00:00Z",
+    "talk:code": "FPYGGF",
+    "talk:guid": "c16515b6-f904-585a-bcab-e5785791ffc4",
+    "talk:event": "foss4g-2023-workshop",
+    "talk:type": "Long Workshop",
+    "talk:language": "en",
+    "talk:room": "UBT D / N115 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "PYLPBY",
+        "name": "Alessio Fabiani",
+        "url": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/PYLPBY/"
+      },
+      {
+        "code": "QGRAVP",
+        "name": "Giovanni Allegri",
+        "url": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/QGRAVP/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-26T14:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/FPYGGF/",
+      "title": "Introduction to GeoNode, the Open Source geospatial CMS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/FPYGGF/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/PYLPBY/",
+      "title": "Alessio Fabiani"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/QGRAVP/",
+      "title": "Giovanni Allegri"
+    },
+    {
+      "rel": "related",
+      "href": "https://tinyurl.com/geonode-worshop-material",
+      "title": "tinyurl.com/geonode-worshop-material"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/FPYGGF/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-workshops"
+}

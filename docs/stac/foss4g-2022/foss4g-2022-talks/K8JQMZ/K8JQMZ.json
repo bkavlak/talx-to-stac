@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "K8JQMZ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "geotiff.js - efficient GeoTIFF exploration in the browser and server",
+    "description": "geotiff.js is a reusable library to abstract remote (Geo)TIFF files. With it, both rich visualization frontends or statistical or data access services can be implemented, as it is possible to inspect the geospatial metadata and the full spectrum raster values of the original data, instead of only 8-bit RGB(A).\r\n\r\nDue to its file abstractions, it is possible to only read the relevant portions of a file, thus greatly reducing bandwidth and response times. This effect can be further increased when reading Cloud Optimized GeoTIFF (COG) files.\r\n\r\nThe library tries to be as feature complete as possible in terms of file layout, raster cell values, RGB transformation, image data compression and metadata.\r\n\r\nThis talk will detail the features of geotiff.js, as well as its most recent additions. Additionally, it will shed light on the greater ecosystem of geospatial libraries and applications where geotiff.js is embedded or building the foundation of.",
+    "start_datetime": "2022-08-26T13:15:00Z",
+    "end_datetime": "2022-08-26T13:45:00Z",
+    "talk:code": "K8JQMZ",
+    "talk:guid": "bd28997f-90ba-5c37-8573-8a7d4c6a7e8f",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Onice",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "PR8SFJ",
+        "name": "Fabian Schindler-Strauss",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/PR8SFJ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T13:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/K8JQMZ/",
+      "title": "geotiff.js - efficient GeoTIFF exploration in the browser and server"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/K8JQMZ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/PR8SFJ/",
+      "title": "Fabian Schindler-Strauss"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/K8JQMZ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/hb9urNnKE4Qv2jdu4AXrZW",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | geotiff.js - efficient GeoTIFF exploration in the browser and server",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=PF2iY_7QwzE",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | geotiff.js - efficient GeoTIFF exploration in the browser and server",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

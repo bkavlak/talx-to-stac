@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "UDKZY3",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Architecture design and API development for geospatial backend in Large-Scale forest and land monitoring platforms",
+    "description": "Geospatial analytics and Geospatial queries can be a challenge for Geospatial backend it's can be slow and or might clause a problems. This is architecture design use case on forest and land monitoring platform (LANDX) by GISTDA Thailand. how i deal with large geospatial data and big geospatial query.\n\nManaging and processing large-scale spatial data is one of the major challenges in developing Geospatial Analytics API particularly on the geospatial backend, which must handle complex, resource-intensive spatial queries. Large concurrent spatial queries can degrade system performance, causing slow responses or even service outages.\r\nThis session presents a case study of the architecture for the LANDX website, developed by the Geo-Informatics and Space Technology Development Agency (GISTDA). LANDX is a platform for monitoring and analyzing land-related spatial data, including LandTrendr-based change detection, land-use monitoring, disaster monitoring, and forest-change detection. The system also supports analyses to help verify compliance with regulations such as the EU Deforestation Regulation, which require integration of multiple data sources such as crop boundary data, land-use maps, satellite imagery, and other large geospatial datasets.\r\nQuerying across these diverse sources simultaneously creates significant design challenges in terms of performance, resource usage, and system stability.\r\nTo address these challenges, the system stores data in multiple formats according to usage patterns. A key approach we use is storing geometry data as geometry types inside DuckDB files, which enables faster spatial queries, lower resource consumption, and reduced network latency. Large-volume datasets are also stored as Apache Parquet files on S3 Storage, with Hive-style partitioning to reduce the amount of data read per query.\r\nWith this architectural approach and the chosen technology stack, the system reduces query costs, increases flexibility for geospatial data handling, and can efficiently support queries over millions of records.\r\nThis architecture has been deployed in the LANDX project to support land-change monitoring, land-use change detection, disaster monitoring, and compliance checks for environmental supply-chain requirements. The session concludes with benchmark results from load testing that simulates large numbers of concurrent users, demonstrating query latency, resource consumption, and the overall performance characteristics of the LANDX architecture.",
+    "start_datetime": "2026-09-03T02:00:00Z",
+    "end_datetime": "2026-09-03T02:30:00Z",
+    "talk:code": "UDKZY3",
+    "talk:guid": "4897385b-382b-5154-b765-45f08929e098",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Ran1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "Q7MJAW",
+        "name": "Thana Wannasang",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/Q7MJAW/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-03T02:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/UDKZY3/",
+      "title": "Architecture design and API development for geospatial backend in Large-Scale forest and land monitoring platforms"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/UDKZY3/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/Q7MJAW/",
+      "title": "Thana Wannasang"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/UDKZY3/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "U7KESQ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "OGC APIs with GeoServer: implementation, availability, and next steps",
+    "description": "The OGC APIs are a fresh take at doing geo-spatial APIs, based on WEB API concepts and modern formats, including:\r\n\r\n- Small core with basic functionality, extra functionality provided by extensions\r\n- OpenAPI/RESTful based\r\n- JSON first, while still allowing to provide data in other formats\r\n- No mandate to publish schemas for data\r\n- Improved support for data tiles (e.g., vector tiles)\r\n- Specialized APIs in addition to general ones (e.g., DAPA vs OGC API - Processes)\r\n- Full blown services, building blocks, and ease of extensibility\r\n\r\nThis presentation will provide an introduction to various OGC APIs and extensions, such as Features, Styles, Maps and Tiles, STAC and CQL2 filtering. Some of specs are finalized and complete enough that they have a GeoServer supported extensions, while others are provided as community modules. Join us to find out the current state of implementation, our future steps, and how you can participate in it.",
+    "start_datetime": "2025-07-18T13:00:00Z",
+    "end_datetime": "2025-07-18T13:30:00Z",
+    "talk:code": "U7KESQ",
+    "talk:guid": "d3871712-bd6d-5ece-a16e-71f68467b41a",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "EL11 (Geosolutions)",
+    "talk:room_capacity": 200,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RBSH8T",
+        "name": "Andrea Aime",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/RBSH8T/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-18T13:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/U7KESQ/",
+      "title": "OGC APIs with GeoServer: implementation, availability, and next steps"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/U7KESQ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/RBSH8T/",
+      "title": "Andrea Aime"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/U7KESQ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "pdf-slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/U7KESQ/resources/OGC_APIs_with_GeoServer__implementation__vgvKsSj.pdf",
+      "type": "application/pdf",
+      "title": "PDF slides",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/33EQ7GUmWhe7W1itSyTd1o",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | OGC APIs with GeoServer: implementation, availability, and next steps",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=UlcN_Xar7rg",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | OGC APIs with GeoServer: implementation, availability, and next steps",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

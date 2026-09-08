@@ -1,0 +1,94 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "8TD9UT",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "A Contemporary Nolli Map: Using OpenStreetMap Data to Represent Urban Public Spaces",
+    "description": "More than 250 years ago, Giovanni Battista Nolli, an Italian architect, engineer and cartographer, was concerned with how and where space is or is not publicly accessible. In his map 'La nuova topografia di Roma Comasco', he mapped publicly accessible interior and exterior spaces of Rome with an impressively high level of detail as a figure-ground map. Since Nolli\u2019s time, both the character and diversity of public spaces as well as cartographic technology have changed. In my Master thesis, I aim to adapt Nolli's underlying idea for today\u2019s circumstances on the basis of open data, and seek to develop methods for processing volunteered geographical information from OpenStreetMap (OSM) to identify, categorize, and map public spaces based on thematic and geometric information.\r\n\r\nFirst, it has to be clarified what is considered public space and what is not. Given the data available via OSM as well as in terms of feasibility, I focus on the aspect of public accessibility and exclude indoor spaces. Data processing is implemented as a Python script based on existing OSM and geospatial Python packages. The code is available as Open Source on [GitHub](https://github.com/ester-t-s/osm-public-space-mapper). The application of the framework and methods is tested in two case studies in Vienna, Austria. The result can be visualized as 'contemporary Nolli map'.\r\n\r\nIn my talk, I will give insights into the methodology and framework for data analysis I developed as part of my Master thesis",
+    "start_datetime": "2023-06-28T09:00:00Z",
+    "end_datetime": "2023-06-28T09:30:00Z",
+    "talk:code": "8TD9UT",
+    "talk:guid": "b6c478c7-092c-5a43-a70f-1466eb1fc52a",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Open Data",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT C / N110 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "7ANFFW",
+        "name": "Ester Scheck",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/7ANFFW/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T09:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/8TD9UT/",
+      "title": "A Contemporary Nolli Map: Using OpenStreetMap Data to Represent Urban Public Spaces"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/8TD9UT/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/7ANFFW/",
+      "title": "Ester Scheck"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/ester-t-s/osm-public-space-mapper",
+      "title": "GitHub"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/8TD9UT/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

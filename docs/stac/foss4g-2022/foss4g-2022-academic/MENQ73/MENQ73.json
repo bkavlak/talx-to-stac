@@ -1,0 +1,93 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "MENQ73",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Making Sense of the Noise: Integrating Multiple Analyses for Stop and Trip Classification",
+    "description": "### Motivation & Contribution\r\n\r\nMobility researchers using GPS first obtain raw coordinates and timestamps from GPS instead of the variables they're interested in. Conversion is needed to acquire, for example, the time spent out of home, the number of revisited places, or the total time spent on the go. All of these rely on the ability to precisely identify stops and trips and are therefore fundamental when it comes to mobility research.\r\n\r\nThe commonly adopted strategy involves a combination of a distance and a time threshold to identify significant places (Ash- brook and Starner, 2002, Ye et al., 2009). Here, GPS records are grouped together, if they lie within such a pre-defined radius and time. When we planned the technical basis for a mobility intervention study, we tested several existing systems based on this approach. We observed, on the one hand, significant segmentation of the identified stops, due to the relatively large amount of signal noise. On the other hand, we could only identify stops having a duration greater than a pre-defined time threshold, usually five minutes. Hence, the temporal resolution of this analysis was sub-optimal. Reduced this threshold, lead to an increased number of falsely identified stops (false positives) and segmentation. To solve this, we developed a modern stop and trip identification algorithm.\r\n\r\nFor a human annotator, this task is fairly easy: when dwelling on a spot, the GPS records scatter around the true position because of its imperfect signal. Records obtained from a trajectory through an environment are clearly distinguishable - although the imperfect signal diverges from the true position similarly. This observation inspired us to create a new algorithm around the idea of investigating the signal patterns, and therefore the geometric properties of the signal noise.\r\n\r\nWe describe the algorithm's mechanics in detail and discuss its design decisions. Further, we provide benchmark results against established and frequently cited libraries.\r\n\r\n### Approach\r\n\r\nFundamentally, the algorithm is based on a multitude of different, geometric analyses. Each analysis method is applied to a rolling window of subsequent GPS samples. For example, one metric evaluates the ratio between total path length and the bounding box of the set. Another is concerned with the mean angles between the point vectors. Subsequently, all metrics are combined to form a majority-based classification decision for each individual GPS sample. This way, the different methods can compensate for a wrong decision of a minority of the metrics.\r\n\r\nIf available, the acceleration of the device is also taken into account to exclude unambiguous periods of non-movement. Therefore, we created a simple metric that transforms a three-dimensional vector of x, y, and z acceleration into a motion score that expresses the amount of physical movement of the recording device.\r\n\r\nThe labels of individual GPS samples are then used to aggregate stop intervals. In the last step, the resulting stop intervals are filtered. Therefore, each interval is compared against the neighboring ones to decide if a) it should be kept as it is, b) if it should be merged with a close stop-interval to reduce segmentation, or c) if it should be discarded.\r\n\r\n### Validation\r\n\r\nTo test the accuracy of our analysis approach, we benchmarked the system against the built-in methods for stop and trip detection of Moving Pandas (Graser, 2019) and Scikit Mobility (Pap- palardo et al., 2019). These represent a large share of the most commonly used tools for mobility research.\r\n\r\nTo test the classification performance, we created a large dataset containing trajectories from over 126 days of everyday life and captured 692 stops.\r\n\r\nThis reference acts as ground truth for the comparison of different frameworks. We investigate sample-by-sample classification metrics (accuracy, precision, recall/sensitivity, specificity, and F1) and stop/trip interval specific metrics (stop-counts, several metrics to quantify the number of detected stops against the reference, such as % matched reference stops, absolute duration error, missed stop duration, absolute start deviation, absolute end deviation, and position deviation). To ensure a fair comparison of the algorithmic approaches, we did not take the acceleration data into account, as the reference systems do not support filtering stop and trip intervals using this kind of data.\r\n\r\n### Results & Discussion\r\n\r\nOur Stop & Go Classifier outperforms other systems in most metrics: it identifies more stops correctly, the stops it misses are shorter in duration, and the start and end times of the identified stops are almost twice as precise as the closest competitor.\r\n\r\nThe core ideas of the system are a) it uses unfiltered, raw GPS data, b) it analyzes these regarding their geometric properties, and c) it uses multiple scoring mechanisms to create one solid classification.\r\n\r\n### Code Availability\r\n\r\nThe Stop & Go Classifier is free software under a BSD 3-Clause license. The repository includes a reference implementation of the algorithm and small usage examples: https://github.com/RGreinacher/Stop-Go-Classifier",
+    "start_datetime": "2022-08-25T10:00:00Z",
+    "end_datetime": "2022-08-25T10:30:00Z",
+    "talk:code": "MENQ73",
+    "talk:guid": "dd4de209-353d-5615-bf85-53c4aadef39a",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room Modulo 3",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "T7JJZD",
+        "name": "Robert Spang",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/T7JJZD/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T10:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/MENQ73/",
+      "title": "Making Sense of the Noise: Integrating Multiple Analyses for Stop and Trip Classification"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/MENQ73/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/T7JJZD/",
+      "title": "Robert Spang"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/RGreinacher/Stop-Go-Classifier",
+      "title": "github.com/RGreinacher/Stop-Go-Classifier"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/MENQ73/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "YTRQJB",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Unlearning the Tile \u2014 terrain, buildings, and basemaps that are painted, none of it made in advance",
+    "description": "Making a tile when it is asked for is not new: vector tiles get built from a database per\r\nrequest, raster tiles get cut out of Cloud-Optimized GeoTIFFs. But the expensive end stayed\r\nbaked. Terrain, and buildings as 3D Tiles, still arrive as pyramids somebody built in\r\nadvance \u2014 because the arithmetic is heavy, so it gets done ahead of time.\r\n\r\nThis talk is about three services that do that heavy work inside the request instead, on the\r\nmachines that serve a CDN: nothing baked, and no server kept alive.\r\n\r\nRe:Earth Terrain and Re:Earth Buildings already work that way \u2014 global terrain, and the\r\nworld's buildings. Both are usable today: open source, no API key.\r\n\r\nAnd once the drawing happens inside the request too, a map style no longer has to be a list\r\nof rules \u2014 a brush can be picked, and a map painted on paper, at the moment someone asks for\r\nit. The third service goes live during this talk.",
+    "start_datetime": "2026-09-01T08:00:00Z",
+    "end_datetime": "2026-09-01T08:30:00Z",
+    "talk:code": "YTRQJB",
+    "talk:guid": "66245506-ea59-5aa9-8d0c-3421184838fb",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Sponsor Session",
+    "talk:type": "Sponsor talk(Diamond/Platinum)",
+    "talk:language": "en",
+    "talk:room": "Phoenix Hall",
+    "talk:room_capacity": 1150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "CP8VZA",
+        "name": "Hiroki Inoue",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/CP8VZA/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T08:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/YTRQJB/",
+      "title": "Unlearning the Tile \u2014 terrain, buildings, and basemaps that are painted, none of it made in advance"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/YTRQJB/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/CP8VZA/",
+      "title": "Hiroki Inoue"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/YTRQJB/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

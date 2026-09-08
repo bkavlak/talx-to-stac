@@ -1,0 +1,106 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "UP7WDT",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Manage your geospatial data with PostgreSQL/PostGIS",
+    "description": "PostgreSQL is a powerful, open source object-relational database system. It can be extended with PostGIS which allows you to store and handle geospatial data in the database.\r\nThis combination is very powerful and provides many possibilities.\n\nEverything is possible with some magic lines of SQL. This workshop will help you with the first steps.\r\n\r\nMany processes that you did before with you Desktop GIS (f.e. intersection, union, buffer) can be easily done via SQL using PostGIS functions.\r\n\r\nIn the workshop you will get to know the databasemanagement sytem PostgreSQL and the extension PostGIS. There will be an introduction to PostgreSQL and SQL and you will learn SQL basics to create and modify data.\r\n\r\nYou also will get to know the concept of PostGIS and how geodata is stored in the database. You will get an overview about the enormous possibilities of PostGIS. In the workshops hands-ons we will concentrate on 2-dimensional data and we will use OSGeoLive for demonstration.\r\n\r\nYou will learn how to store, import and use geospatial data in the database. With QGIS you will discover how easy it is to bring your data to the database and out of it.\r\n\r\nYou will learn how to analyse and modify your data and learn how to make transformations, intersections, length/distance calculations, buffers, unions and more.",
+    "start_datetime": "2024-07-01T11:00:00Z",
+    "end_datetime": "2024-07-01T15:00:00Z",
+    "talk:code": "UP7WDT",
+    "talk:guid": "fc9f0ce2-ef94-550f-9880-e21e3f8248ac",
+    "talk:event": "foss4g-europe-2024-workshops",
+    "talk:type": "workshop",
+    "talk:language": "en",
+    "talk:room": "Room 327",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "MF7PYA",
+        "name": "Astrid Emde",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024-workshops/speaker/MF7PYA/"
+      },
+      {
+        "code": "DB33VU",
+        "name": "Enock Seth Nyamador",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024-workshops/speaker/DB33VU/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-01T13:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024-workshops/talk/UP7WDT/",
+      "title": "Manage your geospatial data with PostgreSQL/PostGIS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024-workshops/talk/UP7WDT/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024-workshops/speaker/MF7PYA/",
+      "title": "Astrid Emde"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024-workshops/speaker/DB33VU/",
+      "title": "Enock Seth Nyamador"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024-workshops/talk/UP7WDT/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "workshop-document": {
+      "href": "https://github.com/astroidex/foss4g-europe-2024-workshop-manage-your-geospatial-data-with-postgresql-postgis-astrid-emde/blob/main/FOSS4G-Europe-2024-Workshop-Manage-your-Geospatial-data-with-PostgreSQL-PostGIS-Astrid-Emde.pdf",
+      "type": "application/pdf",
+      "title": "Workshop Document",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-workshops"
+}

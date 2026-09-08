@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "JDGNJD",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "EO Open Science Catalogue initiative by ESA",
+    "description": "To enable sustainable and impactful Open Science in the long-term, ESA Earth Observation looks to design and implement a comprehensive Open Science framework, which includes a dedicated set of integrated tools and common practices for effective scientific data management, seeking to support Open Innovation, advance Science and increase community participation. The framework will build on and advance existing Open Science elements and will develop new capabilities to achieve the ambitions and vision set forth in the 2025 Agenda, supporting the European Green Deal. The four main pillars of the initiative are: i) EO Digital Platforms, interoperability and standardisation, ii) Accessible and Reproducible EO Science, iii) Inclusive and collaborative research and iv) Strategic Partnerships. Contributing to the second pillar, ESA is developing an EO Open Science Catalogue tool to enhance the discoverability and use of products, data and knowledge resulting from Scientific Earth Observation exploitation studies. Adhering by design to the \"FAIR\" (findable, accessible, interoperable, reproducible/reusable) principles, the Open Science Catalogue aims to support better knowledge discovery and innovation, and facilitate data and knowledge integration and reuse by the scientific community. \r\n\r\nThe Open Science Catalogue is based upon the [EO Exploitation Platform Common Architecture](https://eo4society.esa.int/2022/01/26/interoperability-sharing-your-application-where-the-data-sit/) (EOEPCA) and shares its basic Open Source components, but extends it with additional functionalities:\r\n - The Static Catalogue is a hosted STAC Catalogue, comprised of static Catalogue, Collection, and Items that represent the Themes, Variables, Projects, and Products\r\n - The Open Science Catalogue Frontend is a Vue.js based client application, that allows the efficient browsing of the Open Science Catalogue\r\n - The Backend API allows users to make submissions to create, update, and delete Themes, Variables, Projects, and Products. These submissions are then handled as GitHub Pull Requests, where they can be further reviewed, discussed, and finally accepted or denied.\r\n\r\nThe Open Science Catalog makes use of various geospatial Open Source technologies such as pycsw, PySTAC, and OpenLayers.\r\n\r\nIn this presentation we will review the EO Open Science Catalogue architecture, technology stack, and how this tool can be used to discover and publish Earth System Science products from ESA activities. We'll also look at future evolutions of the product and how it contributes to the overall ESA EO Open Science Framework.",
+    "start_datetime": "2022-08-25T13:15:00Z",
+    "end_datetime": "2022-08-25T13:45:00Z",
+    "talk:code": "JDGNJD",
+    "talk:guid": "f32e992f-14ae-5e33-aac0-6d8690e2e89b",
+    "talk:event": "foss4g-2022",
+    "talk:track": "A European approach to geospatial open source",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Auditorium",
+    "talk:room_capacity": 1000,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "QFXW89",
+        "name": "Stephan Mei\u00dfl",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/QFXW89/"
+      },
+      {
+        "code": "PR8SFJ",
+        "name": "Fabian Schindler-Strauss",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/PR8SFJ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T13:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/JDGNJD/",
+      "title": "EO Open Science Catalogue initiative by ESA"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/JDGNJD/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/QFXW89/",
+      "title": "Stephan Mei\u00dfl"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/PR8SFJ/",
+      "title": "Fabian Schindler-Strauss"
+    },
+    {
+      "rel": "related",
+      "href": "https://eo4society.esa.int/2022/01/26/interoperability-sharing-your-application-where-the-data-sit/",
+      "title": "EO Exploitation Platform Common Architecture"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/JDGNJD/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/i2dJizqrFfR43gHg8U9dA1",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | EO Open Science Catalogue initiative by ESA",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=23TjS1Q8LYQ",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | EO Open Science Catalogue initiative by ESA",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

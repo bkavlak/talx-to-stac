@@ -1,0 +1,114 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "8JFWXD",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "deck.gl State of the Union 2025: Globe View, React Widgets, and WebGPU Readiness",
+    "description": "Comprehensive update on [deck.gl](https://deck.gl)'s latest developments from a core maintainer. Discover seamless [MapLibre globe integration](https://deck.gl/examples/maplibre), powerful widget system, WebGPU and more. Learn how these advances position deck.gl as the leading open-source framework for high-performance web geospatial visualization.\n\nThis State of the Union talk will showcase how deck.gl continues to evolve as the premier open-source solution for high-performance geospatial visualization on the web. Some highlights:\r\n\r\n### Globe View Integration with MapLibre\r\n\r\nThe most visually striking advancement is seamless integration with MapLibre's globe view. This collaboration between the deck.gl and MapLibre teams represents a major milestone for open-source geospatial visualization.\r\n\r\nThe `GlobeView` has been updated to match MapLibre's camera positioning at equivalent zoom levels, ensuring consistent user experiences. The `MapboxOverlay` component now works effortlessly with maplibre-gl globe maps, eliminating previous integration complexity. This advancement opens new possibilities for global-scale data visualization, from climate modeling to satellite imagery analysis.\r\n\r\n### Powerful UI Widget System\r\n\r\ndeck.gl's widget system provides developers with reusable UI components that integrate seamlessly with the visualization pipeline. Users can simply add widgets to their applications without being forced into any particular framework, while maintaining full compatibility with React applications when needed.\r\n\r\nThe comprehensive widget ecosystem includes ResetViewWidget for navigation controls, ScaleWidget for map scale indication, GeocoderWidget for address search integration, ScreenshotWidget for image export capabilities, LoadingWidget for data loading states, ThemeWidget for consistent styling, InfoWidget for contextual information display, and SplitterWidget for comparative visualizations.",
+    "start_datetime": "2025-11-21T01:30:00Z",
+    "end_datetime": "2025-11-21T01:55:00Z",
+    "talk:code": "8JFWXD",
+    "talk:guid": "17c74544-2693-5f99-b58e-6ce1130fdc0f",
+    "talk:event": "foss4g-2025",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG403",
+    "talk:room_capacity": 386,
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "QEWFVN",
+        "name": "Felix Palmer",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/QEWFVN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-21T01:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/8JFWXD/",
+      "title": "deck.gl State of the Union 2025: Globe View, React Widgets, and WebGPU Readiness"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/8JFWXD/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/QEWFVN/",
+      "title": "Felix Palmer"
+    },
+    {
+      "rel": "related",
+      "href": "https://deck.gl",
+      "title": "deck.gl"
+    },
+    {
+      "rel": "related",
+      "href": "https://deck.gl/examples/maplibre",
+      "title": "MapLibre globe integration"
+    },
+    {
+      "rel": "related",
+      "href": "https://a5geo.org",
+      "title": "A5"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/8JFWXD/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=Mu2eyhCLP1M",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | deck.gl State of the Union 2025: Globe View, React Widgets, and WebGPU Readiness",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "BLRKM9",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "Representing spatiotemporal dynamics of glacial lakes with vector data cubes",
+    "description": "Temporal and spatial monitoring of geomorphic features associated with natural hazards are important for disaster prevention, helping to identify vulnerable areas and anticipate potential risks. Remote sensing data has become a cornerstone for natural hazard monitoring, allowing regular mapping of remote areas and larger regions with reduced time and costs. The unprecedented and continuously growing volume of Earth Observation (EO) data has prompted the use of EO data cubes (EODCs) for efficient storage, management, and analysis (Sudmanns et al., 2023). EODCs are mostly focused on raster and array structures due to the gridded nature of EO data. However, previous work (Abad et al 2022) has shown how raster data cubes are limited by their gridded representation in geomorphic feature detection. \r\nWhile pixel-level analysis is valuable for long time series EO datasets, it often disregards the spatial information (Sudmanns et al., 2020) essential for geomorphic feature analysis, treating pixels in isolation rather than as meaningful objects. Segmenting pixels into objects, or object-based image analysis (OBIA), is an established concept that allows better representation of natural phenomena with diverse characteristics and appearances, such as different types of glacial lakes, landslides, or lava flows (H\u00f6lbling, 2022). Individual geomorphic features are treated as aggregates of pixels and are grouped into objects, providing additional information on topological relations.\r\nAdvances in object detection and image segmentation have opened new opportunities for tracking evolving features over time. Segmented results can be represented as a time series of evolving vectors within EODCs, taking advantage of vector data cube infrastructure. Vector data cubes work well with stationary objects, but the varying extent and shape of geomorphic features pose a challenge for existing data cube structures. Abad et al. (2024) addressed this by introducing summary geometries to define a constant spatial dimension while storing changing geometries as data cube elements, assigning each feature a unique ID based on the centroid of the union and dissolve of all corresponding polygons over time. While effective, this approach only accounted for spatial extent, leaving open how to handle other potential spatiotemporal dynamics, such as merging, splitting, disappearing, or reappearing. The method may face difficulties in such cases where feature grouping may differ according to interpretations. For example, when two nearby glacial lakes expand over time and merge, should they be considered as one lake before they merge? Or if a lake dries out and a new one appears over time, should both lakes have their own unique ID? In the case of several shape-evolving features, whether of the same type (e.g., glacial lakes), or different (e.g., landslides and landslide-dammed lakes), such questions become important when quantifying geomorphological dynamics. In this study we aim to investigate the implementation of grouping algorithms with features experiencing different spatiotemporal dynamics.    \r\nTo investigate different grouping algorithms, we first built a vector data cube with a spatiotemporal polygon dataset of a geomorphic feature. As study area, we selected the glacial lakes at the southern margin of the Vatnaj\u00f6kull ice cap in southeast Iceland, particularly J\u00f6kuls\u00e1rl\u00f3n, Brei\u00f0\u00e1rl\u00f3n, and Fjalls\u00e1rl\u00f3n, due to the lake\u2019s constant evolution. We acquired Landsat 4-8 data from 1985 to 2015 and Sentinel-2 data from 2016 to 2025 from OpenEO and Google Earth Engine. Annual summer composites were created to minimise ice cover and fill gaps caused by frequent cloud cover, proximity to satellite scene edges (Sentinel-2), and stripe errors (Landsat-7), which partly influenced mapping accuracy, though exact lake delineation was not essential for this study. The OBIA classification used spectral indices and k-means segmentation to map annual lake extents. The annual glacial lake polygons were used to build a vector data cube based on the notebook by Abad et al (2024). Different feature grouping methods were investigated, including the spatial overlap or proximity within a threshold over time, the centroid and the bounding box of the union and dissolve operation of all polygons over time, as well as a representative point of a feature set.\r\nAn advantage of the vector data cube over raster representations is the ability to attach attribute information (such as lake area) to individual geometries, making it easier to visualise and query the temporal dynamics. Results highlighted the importance of feature grouping selection, as different approaches can lead to meaningfully different interpretations of lake evolution. Some methods treated lakes that would later merge as a single waterbody from the beginning, producing a smooth, continuous growth curve. Others assigned separate IDs until the moment of merging, resulting in an abrupt jump in area for one lake as it absorbed the other. The latter approach, however, is more logically consistent. For example, small lakes currently forming above Brei\u00f0\u00e1rl\u00f3n are clearly distinct features today, regardless of whether they will eventually merge with the larger lake. Treating them as one lake at their current state would be unreasonable.\r\nHowever, when dealing with larger datasets, we might face difficulties with the number of geometries and scalability. When lakes merge, the other unique ID is still present in the data cube with empty geometries. In a large dataset, handling such lack of data could become an issue as highlighted by Abad et al (2024). The scalability issue requires further exploration in the future. Inconsistent segmentation was another limitation, especially in the 1990s and early 2000s. This prevented reliable detection of disappearing and reappearing lakes, as the algorithm would have assigned new IDs to the same lake over time. Temporally consistent input data is therefore a prerequisite for accurately capturing the full range of geomorphic dynamics.\r\nOur work directly addresses the gap of how to structure and analyse evolving vector features over time within data cubes in open-source geospatial workflows. The methods were built on open-source tools (OpenEO, Python) and data (Sentinel and Landsat) when possible and extends on previous work of the community making our work relevant to the FOSS4G conference.",
+    "start_datetime": "2026-06-30T09:30:00Z",
+    "end_datetime": "2026-06-30T09:35:00Z",
+    "talk:code": "BLRKM9",
+    "talk:guid": "cf5c703c-af15-5dcb-be5f-b4ed88865076",
+    "talk:event": "foss4g-europe-2026",
+    "talk:track": "Academic track",
+    "talk:type": "Academic lightening talk",
+    "talk:language": "en",
+    "talk:room": "A01",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "QLUUTE",
+        "name": "Julia Engblom",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/QLUUTE/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-06-30T09:32:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/BLRKM9/",
+      "title": "Representing spatiotemporal dynamics of glacial lakes with vector data cubes"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/BLRKM9/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/QLUUTE/",
+      "title": "Julia Engblom"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/BLRKM9/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

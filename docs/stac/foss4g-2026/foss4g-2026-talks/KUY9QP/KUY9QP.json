@@ -1,0 +1,104 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "KUY9QP",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "State of GRASS",
+    "description": "GRASS, Geographic Resources Analysis Support System, is a powerful engine for geospatial processing and analysis. This talk delivers the latest GRASS update, covering technical progress, new integration pathways, community developments, and key outcomes from the 2026 community meeting.\n\nWhat is new in GRASS, and where is the project heading? This talk gives a current overview of GRASS as both a powerful geospatial processing engine and an active open-source project, highlighting recent progress in development, integration, and community.\r\n\r\nOn the technical side, the talk will cover major recent advances such as the new Python API, improved NumPy integration, broader JSON outputs for smoother data science workflows, modernized documentation, parallel raster algebra, and a growing ecosystem of addons. It will also look at packaging and interoperability, including conda-forge and the broader push to make GRASS easier to integrate into modern scientific and geospatial workflows.\r\n\r\nOn the project side, the talk will report on the GRASS Community Meeting 2026, held from 11 to 19 July 2026 in San Michele, Italy. These meetings bring contributors together to advance ongoing work, coordinate priorities, and help shape the next phase of GRASS development.\r\n\r\nOverall, this session offers a compact and accessible update for both longtime users and newcomers. It will show where GRASS is improving, what is becoming easier or more powerful, and how the project continues to grow as a platform for serious open-source geospatial work.",
+    "start_datetime": "2026-09-01T08:00:00Z",
+    "end_datetime": "2026-09-01T08:30:00Z",
+    "talk:code": "KUY9QP",
+    "talk:guid": "847d922e-617e-50e6-9d81-d279688fea7b",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room6",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "EYZCPK",
+        "name": "Alen Mangafi\u0107",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/EYZCPK/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T08:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/KUY9QP/",
+      "title": "State of GRASS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/KUY9QP/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/EYZCPK/",
+      "title": "Alen Mangafi\u0107"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/KUY9QP/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-in-pdf": {
+      "href": "https://talks.osgeo.org/media/foss4g-2026/submissions/KUY9QP/resources/State_of_GRASS_FOSS4G_Hiroshima_202_zk9IQKV.pdf",
+      "type": "application/pdf",
+      "title": "Presentation in PDF",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "compressed-pptx": {
+      "href": "https://talks.osgeo.org/media/foss4g-2026/submissions/KUY9QP/resources/State_of_GRASS_FOSS4G_Hiroshima_20_MHaURxP.pptx",
+      "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "title": "Compressed PPTX",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

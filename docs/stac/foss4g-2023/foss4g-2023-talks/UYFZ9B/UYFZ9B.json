@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "UYFZ9B",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "COMTiles: a case study of a cloud optimized tile archive format for deploying planet-scale tilesets in the cloud",
+    "description": "<b>Motivation</b>   \r\n  \r\nThe state-of-the-art container formats for managing map tiles are the Mapbox MBTiles specification and the OGC GeoPackage standard. Since both formats are based on an SQLite database, they are mainly designed for a block-oriented POSIX-conform file system access. This design approach makes these file formats inefficient to use in a cloud native environment, especially in combination with large tilesets. To depoly a MBTiles database in the cloud, the tiles must be extracted and either uploaded individually to an object storage or imported in a cloud database and accessed by an additional dedicated tileserver. The main disadvantages of both options are the complex workflow for the deployment and the expensive hosting costs. The Cloud Optimized GeoTIFF (COG) format already solves the problem for providing large satellite data in the cloud, creating a new category of so-called cloud optimized data formats. Based on the concepts of this type of format, geospatial data can be deployed as a single file on a cheap and scalable cloud object storage like AWS S3 and directly accessed from a browser without the need for a dedicated backend. COMTiles adapt and extend this approach to provide a streamable and read optimized single file archive format for storing raster and vector tilesets at planet-scale in the cloud.\r\n\r\n  \r\n<b>Approach</b>   \r\n  \r\nThe basic concept of the COMTiles format is to create an additional streamable index which stores the offset and size to the actual map tiles in the archive as so-called index entries. In combination with a metadata document, the index can be used to define a request for a specific map tile in the archive stored on a cloud object storage based on HTTP range requests. The metadata are based on the OGC \u201cTwo Dimensional Tile Matrix Set\u201d specification which enables the usage of different tile coordinate systems. To minimize the transferred amount of data and to optimize the decoding performance, a combination of two different approaches for the index layout is used. As lower zoom levels are accessed more frequently and the number of tiles is manageable up to a certain zoom level (0 to 7 for a planet-scale tileset), all index entries are stored in a root pyramid and retrieved at once when the map is initially loaded. To minimize the size, the root pyramid is compressed with a modified version of the RLE V1 encoding of the ORC file format. For lazy loading portions of the index on higher zoom levels index fragments are used. To enable random access to the index without any additional requests, the index entries are bitpacked per fragment with a uniform size. Since the data are only lightweight compressed, the index entries can also be stream decoded and processed before the full fragment is loaded. To further minimize the number of HTTP requests the queries for the index fragments and tiles can be batched as they are both ordered on a space-filling curve like the Hilbert curve.  \r\n  \r\n<b>Results</b>   \r\n\r\nOne advantage that became obvious during the evaluation of COMTiles is the simplified workflow of deploying large tilesets. As only a single file must be uploaded to a cloud storage and no dedicated tile backend to be setup, COMTiles can also be deployed by non-GIS experts in a quick and easy way. During evaluation the main hypothesis could be confirmed that COMTiles can be hosted on a cloud storage with only fraction of the costs compared to the usage of a dedicated tile backend or an individual tile deployment. To determine the actual hosting costs of a planet-scale OSM tileset with 90 gigabytes in size was deployed on a Cloudflare R2 storage and accessed with 35 million tile requests. With the pricing plans of Cloudflare at the time of writing, only a cost of $1.35 per month has been incurred for the specified deployment. In this context the tile batching approach turned out to be an additional effective way of reducing the number of tile requests and therefore the costs. For example, when displaying a map in fullscreen mode the number of requests could be reduced by up to 80% on HD display and up to 90% on a UHD display. In terms of user experience, test users rated the additional latency for the index requests as negligible, especially when an additional CDN was used. Testing COMTiles against PMTiles, another cloud-optimized tile archive solution, was performed using two different map navigation patterns to measure the differences in the number of requests, data size transferred, and decoding performance. COMTiles outperformed PMTiles in a about 63 times faster decoding of portions of the index, reducing the processing time from about hundreds of milliseconds to a few milliseconds in a single user session. COMTiles also fetches about 3 times less data on average from a cloud storage. In addition the random-access design of the COMTiles index leads to one initial roundtrip less to the server, resulting in a faster initial map load. The main advantage of PMTiles is a about 10 times smaller size for a planet-scale index (~91 MB to ~880 MB). However, since cloud storage is cheap, the additional cost of the difference in the index size proved to be negligible.\r\n  \r\n<b>Conclusions</b>   \r\n\r\nIn the evaluation it could be proven that COMTiles can simplify the workflow for deploying large tilesets and significantly reduce the storage costs while preserving almost the same user experience compared to a dedicated tile backend. The author is therefore confident that the concepts of the COMTiles format will play an essential role in the future for managing and deploying map tiles in a cloud native environment.\r\n\r\n\r\n<b>Sources</b>\r\n\r\nThe evaluation steps and further improvements of the existing COMTiles format which form the basis of this paper are available under https://github.com/mactrem/com-tiles-evaluation. The derived improvements will be merged into the main repository under https://github.com/mactrem/com-tiles.",
+    "start_datetime": "2023-06-30T13:15:00Z",
+    "end_datetime": "2023-06-30T13:20:00Z",
+    "talk:code": "UYFZ9B",
+    "talk:guid": "082a2b2b-89dd-5fda-bbc9-924adc91c235",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Academic Track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "UBT E / N209 - Floor 3",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "J38ZLN",
+        "name": "Markus Tremmel",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/J38ZLN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-30T13:17:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/UYFZ9B/",
+      "title": "COMTiles: a case study of a cloud optimized tile archive format for deploying planet-scale tilesets in the cloud"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/UYFZ9B/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/J38ZLN/",
+      "title": "Markus Tremmel"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/mactrem/com-tiles-evaluation",
+      "title": "github.com/mactrem/com-tiles-evaluation"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/mactrem/com-tiles",
+      "title": "github.com/mactrem/com-tiles"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/UYFZ9B/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

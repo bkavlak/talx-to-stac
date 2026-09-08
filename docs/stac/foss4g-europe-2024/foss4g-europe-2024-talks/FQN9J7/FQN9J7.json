@@ -1,0 +1,122 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "FQN9J7",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Paituli STAC - experiences of setting up and using own STAC catalog",
+    "description": "In this presentation we discuss our experiences from setting up Paituli STAC, which contains open Finnish raster datasets. We did not do any software development, but decided to use GeoServer with STAC extension. Own code was only written for populating the PostGIS database with information about ~100 collections and ~250 000 items. Paituli STAC catalog is mainly targeted for data analysis use cases, but can be used also from web applications.\r\n\r\nWe have also prepared public example scripts for using Paituli STAC with Python and R. We will also show the results of some scaling tests of using data from STAC on a supercomputer with Dask and xarray. \r\n\r\nMore information: https://paituli.csc.fi/stac.html",
+    "start_datetime": "2024-07-05T09:20:00Z",
+    "end_datetime": "2024-07-05T09:25:00Z",
+    "talk:code": "FQN9J7",
+    "talk:guid": "003cbc7a-d919-574a-a456-37abb9541cf9",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Open standards and interoperability for geospatial",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "LAStools (327)",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "KRTWTY",
+        "name": "K\u00fclli Ek",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/KRTWTY/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-05T09:22:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/FQN9J7/",
+      "title": "Paituli STAC - experiences of setting up and using own STAC catalog"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/FQN9J7/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/KRTWTY/",
+      "title": "K\u00fclli Ek"
+    },
+    {
+      "rel": "related",
+      "href": "https://paituli.csc.fi/stac.html",
+      "title": "paituli.csc.fi/stac.html"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/FQN9J7/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/FQN9J7/resources/Paituli_STAC_FOSS4G_Europe_2024_MrVFKkp.pdf",
+      "type": "application/pdf",
+      "title": "Slides",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/13X5eBQzrytqPnLpNRYXK3",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Paituli STAC - experiences of setting up and using own STAC catalog",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=BV2-Dk4DFlQ",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Paituli STAC - experiences of setting up and using own STAC catalog",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

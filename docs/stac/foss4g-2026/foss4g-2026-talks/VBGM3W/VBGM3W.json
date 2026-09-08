@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "VBGM3W",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "A Systematic Comparison of RAG Architectures for Geographic POI Question Answering Using OpenStreetMap Data",
+    "description": "Retrieval-Augmented Generation (RAG) has become a widely adopted approach for enhancing Large Language Models (LLMs) with external knowledge. Recent studies such as Spatial-RAG (Yu et al., 2025) and MapQA (Li et al., 2025) have proposed frameworks that integrate spatial data with LLMs for geospatial question answering. However, most existing work focuses on proposing individual frameworks rather than systematically comparing multiple architectural approaches under controlled conditions. Consequently, practitioners lack empirical guidance on which RAG architecture best suits geographic Point of Interest (POI) queries\u2014a common use case in location-based services, urban planning, and tourism applications.\r\n\r\nThis study presents a systematic comparison of six RAG architectures for geographic POI question answering, evaluated under identical conditions to identify which architectural approach best suits spatial queries about real-world POIs. Specifically, we investigate the relative effectiveness of deterministic structured processing, graph-based retrieval, and vector search\u2014and whether these components function as complementary rather than competing strategies.\r\n\r\nWe constructed a POI dataset by extracting 1,047 points of interest from OpenStreetMap (OSM) within the Shibuya station area of Tokyo, Japan. Each POI was enriched with computed spatial metadata including Haversine distance and compass direction (eight cardinal/intercardinal directions) from the Shibuya station reference point (35.658034\u00b0N, 139.701636\u00b0E). To validate generalization across different urban contexts, we additionally collected POIs from three other major Tokyo districts\u2014Shinjuku, Ikebukuro, and Tokyo Station areas\u2014totaling approximately 3,600 POIs. All POI embeddings were generated using the multilingual-e5-base model (768 dimensions) and stored in ChromaDB, an open-source vector database.\r\n\r\nTo address these research questions, we designed and compared six RAG architectures, all sharing the same underlying LLM (Qwen2.5-7B-Instruct, 4-bit quantized) and embedding model: (1) Vector RAG (Baseline), using cosine similarity retrieval with no spatial computation; (2) Structured RAG, introducing four deterministic spatial processing modules\u2014proximity sorting, sensitivity analysis across varying search radii, directional comparison, and category aggregation\u2014triggered by question-type classification and applied in combination rather than as mutually exclusive alternatives, with vector search always contributing as a complementary source; (3) GraphRAG, constructing a knowledge graph with 1,090 nodes and approximately 82,000 edges across seven relationship types for relational context retrieval; (4) Hybrid RAG, combining structured spatial processing with vector retrieval in a fixed pipeline; (5) Adaptive RAG, dynamically selecting between Structured RAG and GraphRAG based on query characteristics; and (6) Agentic RAG, employing a ReAct-style reasoning loop where the LLM autonomously decides which retrieval tools to invoke.\r\n\r\nEvaluation relied on a hierarchical five-level test prompt framework designed to capture the diverse reasoning demands inherent in geospatial queries, with a total of 55 prompts (L1: 10, L2: 15, L3: 10, L4: 10, L5: 10) spanning 12 subcategories: L1 Basic Retrieval (factual POI lookup by name or category), L2 Spatial Reasoning (proximity ranking, density estimation, directional comparison), L3 Constraint Satisfaction (queries combining spatial and categorical filters), L4 Decision Support (location selection and business-oriented recommendations requiring multi-criteria reasoning), and L5 Advanced Reasoning (sensitivity analysis under varying search radii, comparative evaluation, and uncertainty quantification). All systems were evaluated using identical test prompts and a multi-dimensional scoring function comprising: keyword success rate, composite score (0\u2013100), reasoning quality (0\u20135), evidence citation (0\u20135), constraint satisfaction (0\u20135), and uncertainty acknowledgment (0\u20135). All metrics were computed via rule-based automatic evaluation using regular expression and keyword matching\u2014not LLM-as-judge\u2014ensuring deterministic and reproducible scoring.\r\n\r\nIn the architecture comparison, Structured RAG achieved 89.1% overall accuracy, outperforming GraphRAG at 76.7% and Adaptive RAG at 86.1%. Notably, Structured RAG outperformed GraphRAG even on graph-specific test cases designed to favor relational retrieval (86.9% vs. 80.2%), demonstrating that coordinate-based deterministic computation renders explicit graph edge representations largely redundant for spatial relationship reasoning. Performance differences were most pronounced at L2 and L5, where deterministic spatial computation provided precise distance and directional data that graph traversal could not match.\r\n\r\nIn the multi-area generalization evaluation across four Tokyo districts, Hybrid RAG achieved the highest keyword success rate of 96.9%, followed by Adaptive RAG (96.9%), Graph RAG (100.0% keyword but lower composite), and Agentic RAG (89.2%). Multi-dimensional composite scoring revealed a persistent quality gap across all systems: Hybrid RAG scored 67.1/100 in composite quality despite near-perfect keyword accuracy, with the gap widening at L4 (Decision Support) and L5 (Advanced Reasoning), where keyword matching alone failed to capture reasoning quality.\r\n\r\nWe attribute the consistent superiority of Structured RAG over GraphRAG to the inherent computability of spatial relationships: distance and direction between POIs are directly calculable from coordinates, making explicit graph edges redundant for the majority of geographic queries. The quality gap observed in Hybrid RAG\u2014near-perfect keyword success yet composite scores well below that level\u2014indicates that retrieving relevant POIs is necessary but insufficient; generating well-reasoned answers at L4\u2013L5 requires structured context that guides the LLM's reasoning process, not merely correct entity retrieval. This finding empirically demonstrates that single-metric evaluation based on keyword accuracy is insufficient for geospatial QA, underscoring the importance of hierarchical, multi-dimensional evaluation frameworks.\r\n\r\nOur systematic comparison yields three principal findings for the geospatial open-source community: (1) deterministic structured processing using coordinate-based computation consistently outperforms graph-based retrieval for POI-centric spatial queries; (2) structured processing and vector search are complementary\u2014not competing\u2014retrieval strategies, and combining them yields the best results; (3) controlled multi-architecture comparison under identical evaluation conditions is essential for advancing geospatial RAG research. All experiments were conducted using exclusively open-source software (ChromaDB, NetworkX, Hugging Face Transformers) and open data (OpenStreetMap), ensuring full reproducibility. Future work will extend this evaluation framework to larger-scale multilingual POI datasets beyond the Tokyo metropolitan area and investigate adaptive weighting between structured and vector retrieval components.",
+    "start_datetime": "2026-09-03T02:00:00Z",
+    "end_datetime": "2026-09-03T02:30:00Z",
+    "talk:code": "VBGM3W",
+    "talk:guid": "fa328a7b-11a9-5b50-bde2-3df7c8d647ea",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos2",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "YXFTUG",
+        "name": "Noboru Otsuka",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/YXFTUG/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-03T02:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/VBGM3W/",
+      "title": "A Systematic Comparison of RAG Architectures for Geographic POI Question Answering Using OpenStreetMap Data"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/VBGM3W/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/YXFTUG/",
+      "title": "Noboru Otsuka"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/VBGM3W/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

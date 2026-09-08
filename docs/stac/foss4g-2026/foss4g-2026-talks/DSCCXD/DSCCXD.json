@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "DSCCXD",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "From Spatial Database to Public Accessibility Viewer: Open-Source Geospatial Support for Inclusive Mobility Planning in Slovenia",
+    "description": "An open-source geospatial system in Slovenia provides a unified accessibility database and public web viewer for inclusive mobility. It helps municipalities and other decision-makers identify barriers, prioritize interventions, and plan their gradual removal for vulnerable groups.\n\nThis lightning talk presents an open-source geospatial workflow for improving inclusive mobility through an accessibility database and public web viewer in Slovenia. The project\u2019s main goal is to improve quality of life in mobility and accessibility for people with disabilities and older adults, while building a unified data framework for vulnerable groups in urban space.\r\n\r\nThe system covers accessibility conditions for several vulnerable groups: mobility-impaired people, blind and partially sighted people, deaf and hard of hearing people, older adults, and, more recently, people with intellectual disabilities. The public viewer provides open access to this information, but its main role is to support municipalities, public institutions, infrastructure managers, and other decision-makers in identifying barriers, prioritizing interventions, and preparing plans for their removal.\r\n\r\nThe talk will focus on the database and the viewer rather than on general project promotion. It will show how an open-source stack supports the full chain from data capture and maintenance to public visualization and decision support. QGIS and QField are used in data workflows, the database is implemented in PostgreSQL/PostGIS, and the public system is built as a React/Laravel web application with web mapping components such as Leaflet, WMS support, and vector-tile-based optimization for large spatial datasets.",
+    "start_datetime": "2026-09-02T04:30:00Z",
+    "end_datetime": "2026-09-02T04:35:00Z",
+    "talk:code": "DSCCXD",
+    "talk:guid": "70b38595-96ee-5879-8412-2d9820a60a30",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Lightning Talk",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Ran1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "LVRBRN",
+        "name": "Toma\u017e \u017dagar",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/LVRBRN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T04:32:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/DSCCXD/",
+      "title": "From Spatial Database to Public Accessibility Viewer: Open-Source Geospatial Support for Inclusive Mobility Planning in Slovenia"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/DSCCXD/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/LVRBRN/",
+      "title": "Toma\u017e \u017dagar"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/DSCCXD/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

@@ -1,0 +1,76 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "WDUCCK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Morning Break",
+    "description": "This is the time where you can have a 30min break to recharge with Tea, Coffee, Juice, Water and Food\n\nThis is the time where you can have a 30min break to recharge with Tea, Coffee, Juice, Water and Food",
+    "start_datetime": "2025-11-20T21:30:00Z",
+    "end_datetime": "2025-11-20T22:00:00Z",
+    "talk:code": "WDUCCK",
+    "talk:guid": "231125ef-9064-508c-ac78-38d0da5d4f1f",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Break",
+    "talk:type": "Morning Tea",
+    "talk:language": "en",
+    "talk:room": "WG201 Exhibition & Catering",
+    "talk:duration_minutes": 30,
+    "talk:do_not_record": false,
+    "datetime": "2025-11-20T21:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/WDUCCK/",
+      "title": "Morning Break"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/WDUCCK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/WDUCCK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

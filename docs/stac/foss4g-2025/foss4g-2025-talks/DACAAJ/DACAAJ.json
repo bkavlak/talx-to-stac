@@ -1,0 +1,97 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "DACAAJ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Development of Core Technologies for a Metaverse-Based Training Engine in a Scientific Training Environment Platform",
+    "description": "A metaverse-based training engine is developed to enable high-precision 3D simulations for scientific training environments, enhancing decision-making and spatial analysis through realistic geospatial data and interactive tools.\n\nDevelopment of Core Technologies for a Metaverse-Based Training Engine in a Scientific Training Environment Platform\r\nJoohyuk Park, Kwangin Han, Hyeongi Min, Sanghak Kim, Geunha Kim, Chaeyoun Lee\r\nSundosoft Co., Ltd.\r\n\r\n1. Introduction\r\nTraditional 2D geospatial systems present significant limitations in the context of real-time training, simulation, and decision-making. With increasing needs for immersive and spatially rich environments in areas such as disaster response, defense training, and urban planning, metaverse-based platforms leveraging high-resolution 3D data have become essential.\r\n\r\nThis paper introduces a core technology platform developed to support metaverse-based scientific training environments. It integrates multi-source 3D spatial data, interactive modeling tools, and web-based visualization interfaces, creating an advanced simulation engine for scenario planning, operational training, and geospatial analysis.\r\n\r\n2. Objectives\r\nThe primary objectives of this project are:\r\n\r\nTo overcome the limitations of flat 2D mapping by enabling realistic and immersive 3D simulations.\r\n\r\nTo support high-resolution modeling of terrains, buildings, roads, and operational assets.\r\n\r\nTo provide web-based access to a 3D simulation environment for use in policy-making, training, and public services.\r\n\r\nTo integrate spatial data into metaverse engines for enhanced collaboration and planning.\r\n\r\nTo promote public\u2013private\u2013academic collaboration through scalable, shareable data and open APIs.\r\n\r\n3. Data Sources and Processing\r\nA variety of spatial data sources were employed to construct the 3D models, including:\r\n\r\nLiDAR point cloud data: Captured via drone or aerial platforms to model surface elevation and object geometry.\r\n\r\nOrthophotos and aerial imagery: Used for texture generation and spatial referencing.\r\n\r\nVector map data: Used for defining roads, building footprints, and infrastructure.\r\n\r\nCustom field survey data: To fill gaps in public datasets and validate terrain accuracy.\r\n\r\nThese datasets were fused using a hybrid data processing pipeline. The result was a seamless digital terrain model (DTM) and digital surface model (DSM), which served as the foundation for object and unit placement within the metaverse environment.\r\n\r\n4. System Components\r\nThe system comprises five primary components:\r\n\r\n4.1 3D Terrain/Object Editing Module\r\nThis module allows users to generate and modify terrain and object layouts. Features include:\r\n\r\nTopographic surface editing (elevation, slope adjustment)\r\n\r\nRoad/pathway creation using spline tools\r\n\r\nObject positioning and orientation\r\n\r\nExternal model import/export using CSV format\r\n\r\n4.2 Unit and Scenario Modeling\r\nA central feature of the platform is its ability to simulate operational units (e.g., armored vehicles, troops) and define scenario-based behaviors:\r\n\r\nEach unit can be assigned movement paths, states, and display attributes.\r\n\r\nPainting schemes or external features of vehicles can be modified interactively.\r\n\r\nTraining sequences can be saved and replayed for review or evaluation.\r\n\r\n4.3 Web-Based 3D Viewer and API\r\nA web-based 3D viewer was developed using CesiumJS and WebGL technologies. It allows remote users to:\r\n\r\nVisualize terrain and unit deployment in real-time\r\n\r\nInteract with editable 3D objects via browser\r\n\r\nAccess scenario data through RESTful APIs for integration with third-party platforms\r\n\r\n4.4 Metaverse Operational Tool (CSCI)\r\nThe \u201cMetaverse Integrated Operational Tool,\u201d codenamed CSCI, acts as the main interface for simulation control:\r\n\r\nDisplays the operational situation in a real-time 3D environment\r\n\r\nProvides an overview of unit lists, terrain zones, and scripted events\r\n\r\nEnables data exchange with external systems through API gateways\r\n\r\nSupports planning, monitoring, and post-exercise analysis\r\n\r\n4.5 UI/UX Design\r\nThe user interface is designed to balance complexity and usability. Major UI features include:\r\n\r\nTop Toolbar: For simulation playback, camera control, and object visibility\r\n\r\nSide Panels: To manage lists of operational units and active objects\r\n\r\n3D Display Area: Central workspace for real-time spatial interaction\r\n\r\nExternal System UI: Supports access to other spatial or simulation databases\r\n\r\n5. Application Scenarios\r\nThe platform is intended for cross-domain deployment. The following use cases demonstrate its versatility:\r\n\r\nMilitary Training: Realistic simulation of urban combat or tactical missions using real-world terrain and movable units.\r\n\r\nDisaster Preparedness: Planning emergency responses for earthquakes, floods, and wildfires with modeled risk zones and evacuation routes.\r\n\r\nUrban Planning: Simulation of infrastructure expansion, zoning changes, or traffic flow optimization.\r\n\r\nEnvironmental Education: Interactive 3D modules for terrain analysis, land cover study, and climate change impact visualization.\r\n\r\nEach scenario benefits from customizable data layers, editable units, and immersive interaction, enhancing training fidelity and decision-making accuracy.\r\n\r\n6. Results and Evaluation\r\nInitial testing demonstrated that the platform can handle large-area terrain datasets (>50 km\u00b2) and render them interactively within web browsers. The real-time responsiveness and modularity of the simulation engine were validated through internal scenario drills.\r\n\r\nUser feedback from early adopters in the disaster response and defense sectors highlighted:\r\n\r\nImproved situational awareness through 3D visualization\r\n\r\nEnhanced engagement and learning during training exercises\r\n\r\nFlexibility in configuring and deploying custom scenarios\r\n\r\nStrong potential for interoperability with digital twin systems\r\n\r\n7. Discussion and Challenges\r\nWhile the platform demonstrates high performance and flexibility, several challenges remain:\r\n\r\nData Standardization: Integrating heterogeneous spatial datasets from multiple agencies requires harmonization and metadata control.\r\n\r\nReal-Time Scalability: Future deployments will require support for concurrent users and larger datasets, demanding optimization of rendering pipelines and network infrastructure.\r\n\r\nAI Integration: The system would benefit from AI-based decision support, such as automated unit behavior or hazard prediction based on real-time data feeds.\r\n\r\nInteroperability: Continued effort is needed to align with standards like CityGML, 3D Tiles, and OGC WFS/WMS.\r\n\r\n8. Conclusion and Future Work\r\nThis study introduced a scalable, browser-accessible platform that combines high-precision geospatial data with metaverse-based simulation tools. It enables immersive, flexible training and planning across diverse domains.\r\n\r\nFuture plans include:\r\n\r\nExpansion of supported data formats and 3D model libraries\r\n\r\nIntegration with live sensor feeds and AI-powered analytics\r\n\r\nDeployment in public safety agencies and educational institutions\r\n\r\nFull support for VR/AR hardware to enhance immersion\r\n\r\nBy providing an open, extensible framework, this platform contributes to the growing ecosystem of geospatial metaverse applications, supporting smarter, more informed decision-making in both public and private sectors.",
+    "start_datetime": "2025-11-19T20:20:00Z",
+    "end_datetime": "2025-11-19T20:25:00Z",
+    "talk:code": "DACAAJ",
+    "talk:guid": "1a6e3e35-b89c-5fb3-bbbe-9120953865cb",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Lightning talk",
+    "talk:type": "Lightning Talk",
+    "talk:language": "en",
+    "talk:room": "WG403",
+    "talk:room_capacity": 386,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "GUBAHU",
+        "name": "Hyeongi MIN",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/GUBAHU/"
+      }
+    ],
+    "talk:do_not_record": true,
+    "datetime": "2025-11-19T20:22:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/DACAAJ/",
+      "title": "Development of Core Technologies for a Metaverse-Based Training Engine in a Scientific Training Environment Platform"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/DACAAJ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/GUBAHU/",
+      "title": "Hyeongi MIN"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/DACAAJ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "ppt": {
+      "href": "https://talks.osgeo.org/media/foss4g-2025/submissions/DACAAJ/resources/FOSS4G_v0.3_hka0Lpa.pptx",
+      "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "title": "ppt",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

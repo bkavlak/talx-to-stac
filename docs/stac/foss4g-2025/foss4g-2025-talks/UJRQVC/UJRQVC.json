@@ -1,0 +1,104 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "UJRQVC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Let\u2019s solve the problem of object storage",
+    "description": "Object storage gave us scale, durability, and low cost\u2013the foundation of cloud-native geospatial. But what if it\u2019s also our biggest problem? This talk explores why the object model fails multidimensional datasets, and how the Coalesced Chunk Retrieval Protocol could restore seamless user experience at cloud scale.\n\nObject storage transformed data at planetary scale, giving us cheap, durable, elastic storage. But in geospatial, it also turned chunking into everyone\u2019s problem. Misaligned queries waste time, compute, and money, while producers struggle to optimize datasets for all users.\r\n\r\nThis talk reframes our problems with chunking as a limitation of the object model itself. We\u2019ll look at why object storage makes chunking visible, what that means for usability and efficiency, and how the [Coalesced Chunk Retrieval Protocol (CCRP)](https://ccrp.dev) could restore transparent, efficient access \u2014 this time at cloud scale.",
+    "start_datetime": "2025-11-19T21:00:00Z",
+    "end_datetime": "2025-11-19T21:05:00Z",
+    "talk:code": "UJRQVC",
+    "talk:guid": "8e6442b0-479b-58e8-9fd4-7b1e8e7c9c92",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Lightning talk",
+    "talk:type": "Lightning Talk",
+    "talk:language": "en",
+    "talk:room": "WG403",
+    "talk:room_capacity": 386,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "8TAMEN",
+        "name": "Jarrett Keifer",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/8TAMEN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-19T21:02:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/UJRQVC/",
+      "title": "Let\u2019s solve the problem of object storage"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/UJRQVC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/8TAMEN/",
+      "title": "Jarrett Keifer"
+    },
+    {
+      "rel": "related",
+      "href": "https://ccrp.dev",
+      "title": "Coalesced Chunk Retrieval Protocol (CCRP)"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/UJRQVC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=Y81ONcUTYps",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Let\u2019s solve the problem of object storage",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

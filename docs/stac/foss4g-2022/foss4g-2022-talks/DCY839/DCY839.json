@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "DCY839",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Open Back-End for Vector Tile Based Web Apps",
+    "description": "The Mapping Service at the Center for Urban Research at the City University of New York (CUNY) Graduate Center engages with foundations, government agencies, businesses, nonprofits, and academics to use spatial information and analysis to develop research projects. Our most recent set of web maps focus on the decennial redistricting process in the United States. Redistricting is often a complex and complicated process. Delays in publishing data from the 2020 Census due to COVID-19 shortened the time frame for redrawing legislative lines in many states. Given the often rushed nature of redistricting it was crucial to provide fair district advocates, journalists, and lawmakers with accurate maps and data shortly after the proposed districts became publicly available. \r\n\r\nIn previous projects, we relied on proprietary back-end stacks using ArcGIS, Microsoft SQL, and the .NET framework. These products afforded a viable but inflexible solution to our GIS needs. The online mapping platform for ArcGIS is not as elegant as its open source counterparts, Microsoft SQL did not provide a solution for directly serving vector tiles, and each upgrade of Windows, IIS, and Visual Studio presented unique challenges. \r\n\r\nLast year we implemented a new back-end stack to connect our spatial databases to our web sites using FOSS solutions: QGIS, PostGres with PostGIS, Mapbox, and Nodejs. The result is a free, fully customizable solution that is easy to update, maintain, and migrate. We are currently using it in about a dozen applications to serve vector tiles and query demographic and other data. With our new workflow we were able to quickly upload dozens of map proposals, calculate metrics to analyze the potential impacts of each one, and present them on our website within hours of the data being made available to us.",
+    "start_datetime": "2022-08-25T15:45:00Z",
+    "end_datetime": "2022-08-25T16:15:00Z",
+    "talk:code": "DCY839",
+    "talk:guid": "d252b73f-b1fc-5001-a460-46007d772835",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Transition to FOSS4G",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Modulo 0",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "R3EZXX",
+        "name": "Will Field",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/R3EZXX/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T16:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/DCY839/",
+      "title": "Open Back-End for Vector Tile Based Web Apps"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/DCY839/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/R3EZXX/",
+      "title": "Will Field"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/DCY839/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=CAHFusM4UaY",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Open Back-End for Vector Tile Based Web Apps",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

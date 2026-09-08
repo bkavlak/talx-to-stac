@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "R999MX",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Data Dashboards with Provenance using Cloud-Native Geospatial Processing",
+    "description": "Decision-making depends on trust, but how often can you trace a reported figure back to its source? We're solving that with an open-source platform to repeatedly analyse any dataset against any geometry cloud-natively, with an auditable record of every step and full provenance for each value.\n\nWhen a dashboard reports that there are 37,000 hectares of mangroves in a given region, can you trace that number back to its source? Which dataset? Which version? What software was used? Without that chain of evidence, confidence in the figures and the decisions made from them is limited. Provenance for the values used in our dashboard is fundamental to our tool.\r\n\r\nThis talk presents an open-source platform developed by Auspatious for the UNSW Centre for Sustainable Development Reform, built around three tightly integrated components.\r\n1. Cloud Infrastructure orchestrates parallel processing at scale using Argo Workflows on Kubernetes. Every pipeline run is version-controlled and reproducible, processing thousands of geometries and intersecting billions of pixels over decades of data.\r\n\r\n2. The Python Toolkit is the processing engine. Built on the OpenDataCube, Spatio-Temporal Asset Catalog, STAC-GeoParquet, Cloud Optimized GeoTIFFs, Xarray, Dask, and Obstore, it creates and stores metadata, converts data and produces versioned outputs with full provenance at every step. Any dataset and any geometry can be combined, and initial applications include Global Mangrove Watch extents analysed against global Exclusive Economic Zones, but the toolkit is domain-agnostic.\r\n3. Our App ties it together. A web interface for managing datasets (such as GMW mangrove extent or Google-Microsoft open buildings), geometries (geographic boundary regions of interest), products (processed analysis outputs), and pipeline runs. It tracks provenance end-to-end, exposes an API used by the toolkit and workflows, and presents results through interactive dashboards and reports.\r\n\r\nTogether these components deliver reproducibility and a provenance chain at a scale that handles global data processing and using open-source tools. Through cloud-native architecture, we're delivering a dashboard that presents simple information but retains the link through to the source. And in this talk, we'll share what we built, our lessons from running these pipelines in production, and how you can adapt the system for your own environmental monitoring or spatial analysis domain.",
+    "start_datetime": "2026-09-02T04:30:00Z",
+    "end_datetime": "2026-09-02T05:00:00Z",
+    "talk:code": "R999MX",
+    "talk:guid": "b3d10b3a-14ba-5d19-9305-fe6b957c1e48",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Ran2",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "7DNCHN",
+        "name": "Alex Leith",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/7DNCHN/"
+      },
+      {
+        "code": "UVLULP",
+        "name": "William Jones",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/UVLULP/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T04:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/R999MX/",
+      "title": "Data Dashboards with Provenance using Cloud-Native Geospatial Processing"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/R999MX/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/7DNCHN/",
+      "title": "Alex Leith"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/UVLULP/",
+      "title": "William Jones"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/R999MX/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

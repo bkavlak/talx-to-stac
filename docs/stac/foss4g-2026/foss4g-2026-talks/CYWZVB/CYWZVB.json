@@ -1,0 +1,95 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "CYWZVB",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Anatomy of a file",
+    "description": "Raster, vector, point cloud: every geospatial format solves the same core problems, including linearization, chunking, compression, and metadata. Let\u2019s build a format from scratch to see these concerns in practice.\n\nEvery geospatial format exists to solve the same fundamental problem: how do we persist spatial (and sometimes temporal) data so it can be efficiently stored, shared, and queried? These concerns apply to all data types: raster, vector, point cloud, etc. Yet as a community, we often treat formats as islands, each with its own ecosystem, tooling, and mental model.\r\n\r\nIn this talk, we start from data. We have geospatial data and we need to persist it. How do we linearize multidimensional data into bytes? How do we chunk it for partial reads? Are we going to support writing in parallel? What encoding and compression strategies will we use and what tradeoffs do they carry? As we work through these questions, the need for metadata arises\u2014coordinate systems, data types, spatial indices, encoding indicators\u2014because without it, the data is useless. Piece by piece, we build up the anatomy of a file.\r\n\r\nWe then map what we've built to real formats. The same structures appear in each: chunking strategies, index structures, encoding schemes, metadata organization. The specific tradeoffs differ, but the underlying anatomy is consistent across raster, vector, and beyond.\r\n\r\nThis consistency raises a question worth confronting: if formats share this much of their architecture, why does our tooling treat them as fundamentally different things? Perhaps we should be recognizing our ecosystems have built walls around format tradeoffs that the underlying anatomy doesn't justify.",
+    "start_datetime": "2026-09-03T04:00:00Z",
+    "end_datetime": "2026-09-03T04:30:00Z",
+    "talk:code": "CYWZVB",
+    "talk:guid": "3617acd4-c189-5b8b-8788-fb68d0714bba",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room4",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "8TAMEN",
+        "name": "Jarrett Keifer",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/8TAMEN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-03T04:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/CYWZVB/",
+      "title": "Anatomy of a file"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/CYWZVB/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/8TAMEN/",
+      "title": "Jarrett Keifer"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/CYWZVB/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://docs.google.com/presentation/d/1PlBy69ZF_hhcyD6_US14hDdxvM9ZctGA85NquIlflRQ",
+      "title": "Slides",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

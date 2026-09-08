@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "FCXBLT",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Why is popularity the biggest enemy of WMS?",
+    "description": "The Web Map Service (WMS) is the most popular standard of sharing data remotely. It is commonly used as a basemaps, a way of presenting governmental spatial data, and as a data source when creating vector datasets. Creating a WMS requires original data to be read and then rendered. This process can be slow, especially if the source data is heavy and not optimized. This is the case, for example, with Sentinel 1 global satellite data, which is a collection of daily revisions with a total volume of 250 GB per one day. Here we demonstrate an efficient way to share such a very large data set as WMS using Mapserver scaled with Kubernetes. \r\n\r\nMapserver is used as engine of our WMS, because of it speed and ease of automation. In order to optimise the performance of the service and therefore the user experience, it is recommended to store the data in the right format, with the right file structure also being aware of limitations of storage, bucket or disk read speed. GDAL provides a set of options that can be executed in a single command to overwrite the original data with new, cloud optimized. It is usually good practice to store selected zoom levels as a cache, but for time series data that is enriched daily, the cache is not overwritten as new data arrives, but is incremented. \r\n\r\nDespite its popularity and advantages, WMS as a standard of serving data has its limitations. The potentially large disk read time is multiplied by the number of users sending requests. Tests using JMeter (100 users sending 100 GetMap requests in a loop) have shown that on a relatively strong processor (32CPU), the greatly increased traffic acts as a distributed denial-of-service (DDoS) - the server stops responding. \r\n\r\nThis problem is solved using Kubernetes (K8s) which allows metric-based automatic horizontal scaling of containerised applications, in this case \u2013 Mapserver. Prometheus as a K8s cluster monitoring tool allows custom metrics to be defined e.g., number of http requests per time interval. Prometheus makes it possible to distribute the traffic between newly created pods so that all requests can be answered. \r\n\r\nThe aim of the talk is to stimulate discussion, confront the idea with experts and demonstrate good practice in creating a publicly accessible WMS, with a focus on optimising speed under heavy source data conditions, supported by a working example and statistics.",
+    "start_datetime": "2023-06-28T12:15:00Z",
+    "end_datetime": "2023-06-28T12:20:00Z",
+    "talk:code": "FCXBLT",
+    "talk:guid": "75953428-6fc0-596c-be75-5c3955dfbc1f",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "UBT C / N110 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "DS3MXD",
+        "name": "Marcin Niemyjski",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/DS3MXD/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T12:17:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/FCXBLT/",
+      "title": "Why is popularity the biggest enemy of WMS?"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/FCXBLT/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/DS3MXD/",
+      "title": "Marcin Niemyjski"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/FCXBLT/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/rUmuvzjEhLNubw7nPA3YjV",
+      "type": "text/html",
+      "title": "2023 |  Why is popularity the biggest enemy of WMS? - Marcin Niemyjski",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=mi_953_H5zk",
+      "type": "text/html",
+      "title": "2023 |  Why is popularity the biggest enemy of WMS? - Marcin Niemyjski",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

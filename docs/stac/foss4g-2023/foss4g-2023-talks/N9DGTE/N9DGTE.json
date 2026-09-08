@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "N9DGTE",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Measuring Water Level Changes in Reservoir using Jason-3 Altimetry Mission",
+    "description": "This talk will describe the usage of Jason-3 Altimeter data, which records the topographic height of the surface of the earth every ~10 days, to help measure the changes in water level of reservoirs across the globe. The use of NASA Common Metadata Repository (CMR) API to download and subset is described along with navigating the maze of various Jason-3 Level-2 Products depending on the use-case. \r\nThis talk introduces to this open dataset and various other altimetry missions, to allow for multi-mission monitoring of reservoirs of the world. It further uses Free and Open Source Software (CMR Specification, Xarray) to pre-process the data for use.",
+    "start_datetime": "2023-06-28T13:00:00Z",
+    "end_datetime": "2023-06-28T13:05:00Z",
+    "talk:code": "N9DGTE",
+    "talk:guid": "2d8998f8-933b-5ee3-b579-b9d1c8649da7",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "UBT D / N113 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "ERSBES",
+        "name": "Aman Bagrecha",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/ERSBES/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T13:02:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/N9DGTE/",
+      "title": "Measuring Water Level Changes in Reservoir using Jason-3 Altimetry Mission"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/N9DGTE/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/ERSBES/",
+      "title": "Aman Bagrecha"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/N9DGTE/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/99aeqWXzx3xGa9G4hkXuH4",
+      "type": "text/html",
+      "title": "2023 | Measuring Water Level Changes in Reservoir using Jason-3 Altimetry Mission - Aman Bagrecha",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=7ZNFoUW8rdI",
+      "type": "text/html",
+      "title": "2023 | Measuring Water Level Changes in Reservoir using Jason-3 Altimetry Mission - Aman Bagrecha",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

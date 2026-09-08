@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "WBBBA8",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Regional 10-m Mapping of Forest Foliage Height Diversity in Hokkaido, Japan, Using GEDI and Foundation-Model Satellite Embeddings",
+    "description": "Forest vertical structural diversity is a key indicator of ecosystem complexity, habitat heterogeneity, and biodiversity potential. Foliage height diversity (FHD), derived from vertical vegetation profiles, is widely used to quantify this structural heterogeneity. Airborne laser scanning (ALS) provides accurate three-dimensional forest structure information, but its limited spatial coverage and high cost hinder large-scale monitoring. The Global Ecosystem Dynamics Investigation (GEDI) mission has enabled global sampling of forest vertical structure using spaceborne LiDAR. However, its footprint-based sampling produces spatially discontinuous observations. As a result, continuous regional-scale mapping of forest vertical structural diversity remains a major challenge. Previous studies have focused primarily on height-related metrics or canopy cover estimation. Regional-scale mapping of foliage height diversity remains limited, especially in cool-temperate and boreal forest ecosystems like northern Japan, where complex terrain, climate gradients, and forest management regimes interact.\r\nThis study proposes a large-scale framework for estimating forest vertical structural diversity across Hokkaido, Japan, by integrating GEDI-derived FHD with multi-source satellite remote sensing data and machine learning. The novelty of this work lies in two key contributions: (i) integrating a wide range of complementary satellite data sources including multi-frequency SAR, optical imagery, climate variables, land cover products, topography, and nighttime light data, for FHD estimation, and (ii) explicitly interpreting model behavior using Shapley additive explanations (SHAP) to identify physically meaningful drivers of forest vertical structural diversity.\r\nWe used diverse openly available geospatial data. GEDI Level 2B observations acquired in 2023 served as reference data. After quality filtering, GEDI footprints were spatially matched with satellite-derived features, including Sentinel-1 SAR, Sentinel-2 spectral bands, ALOS L-band SAR metrics, a digital elevation model (DEM) from JAXA, TerraClimate climate variables, forest type classes from Copernicus Global Land Service (CGLS), Dynamic World-derived forest probability, and VIIRS nighttime light intensity. These variables were selected to represent complementary aspects of canopy structure, vegetation condition, terrain-driven environmental gradients, climatic constraints, and anthropogenic disturbance. A Light Gradient Boosting Machine (LightGBM) regression model was trained to predict GEDI-derived FHD from the multi-source feature set. Model evaluation was conducted using out-of-fold (OOF) predictions to reduce optimistic bias and to provide a robust estimate of generalization performance. The resulting predictions were used to produce a spatially continuous wall-to-wall map of FHD for the entire region.\r\nThe model achieved an RMSE of 0.360 and an R\u00b2 of 0.306 in predicting GEDI-derived FHD. This indicates that multi-source satellite observations capture part of the spatial variability in forest vertical structural diversity across heterogeneous landscapes.\r\nThe predicted wall-to-wall FHD map reveals spatially coherent patterns across Hokkaido. Higher values appear in mountainous forested regions, while lower values occur in flatter or more human-influenced areas. Extremely high-elevation areas show lower FHD values, likely reflecting harsher climatic conditions and simplified forest structures near the treeline.\r\nThese spatial patterns align with known ecological gradients in forest composition and management intensity. This suggests the model captures meaningful large-scale structural variability rather than random noise. To interpret the model beyond simple prediction, we used SHAP analysis to understand how individual features contribute to predicted FHD values.\r\nSHAP-based global feature importance showed that tree cover probability (from land cover products) was the most influential predictor. This highlights the fundamental role of forest presence and canopy continuity in determining vertical structural diversity. Optical spectral bands from Sentinel-2, particularly visible and red-edge bands, contributed strongly, reflecting how spectral responses vary with canopy density and vegetation condition. SAR backscatter from ALOS L-band and Sentinel-1 also showed high importance, indicating that longer-wavelength radar signals capture canopy structure and woody biomass information relevant to vertical heterogeneity. Topographic variables (DEM) contributed significantly, suggesting that elevation-related environmental gradients influence forest structure through climate and disturbance patterns. Nighttime light intensity and its distance-based metrics showed measurable but secondary contributions, implying that human pressure is associated with reduced vertical structural diversity in more developed areas. SHAP summary plots further revealed nonlinear and asymmetric relationships between key predictors and FHD. Higher tree cover probability and stronger L-band HV backscatter were associated with positive contributions to predicted FHD, while increasing nighttime light intensity tended to reduce it. Elevation showed both positive and negative contributions depending on context, reflecting complex interactions between topography, forest type, and management practices. These results demonstrate that the machine learning model captures ecologically meaningful relationships rather than purely statistical correlations.\r\nThis study's key contribution is demonstrating that foliage height diversity can be estimated at regional scale by combining spaceborne LiDAR data with multi-modal satellite observations. The resulting model can be meaningfully interpreted in ecological terms using SHAP analysis. This interpretability distinguishes our framework from purely predictive approaches and reveals how canopy cover, radar-derived structure, topography, and human influence shape forest vertical structure.\r\nWhile predictive accuracy remains moderate, reflecting the inherent challenge of inferring three-dimensional forest structure from two-dimensional satellite observations, the results show that broad regional patterns of forest vertical structural diversity can be captured consistently.",
+    "start_datetime": "2026-09-03T06:00:00Z",
+    "end_datetime": "2026-09-03T06:30:00Z",
+    "talk:code": "WBBBA8",
+    "talk:guid": "8a23a66f-a062-52f6-a07e-2a8047e8f273",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos1",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "QHD7C8",
+        "name": "Narumasa Tsutsumida",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/QHD7C8/"
+      },
+      {
+        "code": "UM3KQX",
+        "name": "Tetsu Sasaki",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/UM3KQX/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-03T06:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/WBBBA8/",
+      "title": "Regional 10-m Mapping of Forest Foliage Height Diversity in Hokkaido, Japan, Using GEDI and Foundation-Model Satellite Embeddings"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/WBBBA8/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/QHD7C8/",
+      "title": "Narumasa Tsutsumida"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/UM3KQX/",
+      "title": "Tetsu Sasaki"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/WBBBA8/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

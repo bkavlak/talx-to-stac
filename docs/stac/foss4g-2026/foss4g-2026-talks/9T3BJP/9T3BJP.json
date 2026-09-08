@@ -1,0 +1,103 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "9T3BJP",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Fast, interactive, customizable raster data visualization in Python & the browser with deck.gl-raster",
+    "description": "We're creating a new ecosystem for client-side raster data visualization in Python & the browser, enabling interactive WebGL rendering of [COG](https://cogeo.org/) and [Zarr](https://zarr.dev/) data.\r\n\r\nThis talk presents a high-level overview of how this works and how to leverage it in your projects.\n\nVisualizing analytic raster data in the browser still typically depends on backend services that render pre-computed raster tiles (e.g. PNG/JPEG). Aside from being inaccessible \u2014 it requires organizations to host and maintain a service \u2014 it slows down the iteration cycle for visualization. Every visualization change requires a server round trip to fetch new data.\r\n\r\nWith this new WebGL-based raster data visualization stack, changing visualization parameters is instant. We can seamlessly animate over time in Zarr data at 60 frames per second, even while applying custom band math.\r\n\r\nThis browser-based data visualization for COG and Zarr is exposed to Python through Lonboard, the fastest and most capable interactive data visualization tool for Python. This talk will show how to use Lonboard for scalable raster data visualization, and discuss how new tools like [async-geotiff](https://github.com/developmentseed/async-geotiff) enable Python to proxy data to the browser. This allows for seamless, reliable visualization: _any_ COG or Zarr you can access in Python can be visualized. No need to set up a separate tile server.\r\n\r\nThis talk will give a high-level overview of how these libraries work, and how you can use them in your own projects.",
+    "start_datetime": "2026-09-01T06:30:00Z",
+    "end_datetime": "2026-09-01T07:00:00Z",
+    "talk:code": "9T3BJP",
+    "talk:guid": "25be8453-bdf7-5389-9ecc-6d1cceb8696a",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room2",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "LYUBSM",
+        "name": "Kyle Barron",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/LYUBSM/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T06:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/9T3BJP/",
+      "title": "Fast, interactive, customizable raster data visualization in Python & the browser with deck.gl-raster"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/9T3BJP/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/LYUBSM/",
+      "title": "Kyle Barron"
+    },
+    {
+      "rel": "related",
+      "href": "https://cogeo.org/",
+      "title": "COG"
+    },
+    {
+      "rel": "related",
+      "href": "https://zarr.dev/",
+      "title": "Zarr"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/developmentseed/async-geotiff",
+      "title": "async-geotiff"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/9T3BJP/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

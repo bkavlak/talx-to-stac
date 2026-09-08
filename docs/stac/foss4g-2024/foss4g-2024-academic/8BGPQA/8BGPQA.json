@@ -1,0 +1,96 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "8BGPQA",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "From cave buffer zones to protected areas: speleology data management with free and open-source software (FOSS)",
+    "description": "The field of speleology is dependent upon the accurate mapping and analysis of data to gain an understanding of subterranean environments. Free and open-source software (FOSS) has facilitated advancements in spatial data management, offering robust tools for data collection, analysis, and fieldwork. Software solutions such as PostgreSQL with PostGIS, QGIS, GRASS, and QField facilitate efficient geospatial data management and data collection. The accurate location determination of caves is of paramount importance, given their significant ecological, historical, and cultural value. In Brazil, the implementation of rigorous environmental legislation has resulted in the establishment of a 250-meter buffer zone surrounding caves. This regulatory measure is designed to ensure the protection of these vulnerable ecosystems and to regulate activities within their vicinity. The radius may be modified based on the findings of environmental studies, thereby ensuring the preservation of caves while facilitating socio-economic development. This study presents EspeleoVale, a software as a service (SaaS) solution hosted on AWS. It employs open source scripting languages and frameworks, including AngularJS, PostgreSQL with PostGIS, and MapStore2 integrated with Geoserver, to effectively manage and visualize speleological data for a mining company in Brazil. By employing SQL queries and spatial functions, users can visualize cave locations and their restricted areas, thereby facilitating the assessment of project impacts on these geomorphological features. In this study, examples of visualization and spatial analysis are presented for five hypothetical caves and a hypothetical project, returning intersections, differences and merged areas, which are vital for the environmental protection of cavities and for knowing project restrictions. Thus, the integration of an RDBMS for spatial analysis and FOSS tools for data visualization fosters new developments and promotes more efficient speleology data management.",
+    "start_datetime": "2024-12-04T17:30:00Z",
+    "end_datetime": "2024-12-04T18:00:00Z",
+    "talk:code": "8BGPQA",
+    "talk:guid": "1da0dd95-53e2-52bf-a1de-be46f0b575ab",
+    "talk:event": "foss4g-2024-academic-track",
+    "talk:track": "Academic Track",
+    "talk:type": "Oral Presentation 2",
+    "talk:language": "en",
+    "talk:room": "Room I",
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "SS73DU",
+        "name": "Alexandre Assuncao",
+        "url": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/SS73DU/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-04T17:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/talk/8BGPQA/",
+      "title": "From cave buffer zones to protected areas: speleology data management with free and open-source software (FOSS)"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/talk/8BGPQA/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/SS73DU/",
+      "title": "Alexandre Assuncao"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/talk/8BGPQA/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024-academic-track/submissions/8BGPQA/resources/Apresentacao_FOSS4G_Espeleo_Alex_3plcZvj.pdf",
+      "type": "application/pdf",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-academic"
+}

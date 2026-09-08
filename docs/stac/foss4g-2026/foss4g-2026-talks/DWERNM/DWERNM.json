@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "DWERNM",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "State of STAC: From Specification to Infrastructure",
+    "description": "STAC has evolved into core geospatial infrastructure. This talk covers its current state, real-world adoption, key challenges, and how it fits into emerging architectures for scalable discovery and analysis.\n\nThe SpatioTemporal Asset Catalog (STAC) has evolved from a community-driven specification into widely adopted infrastructure for geospatial data. With its recognition as an OGC Community Standard and broad use across government, commercial, and open data platforms, STAC is now a foundational part of modern Earth observation systems.\r\n\r\nThis talk provides a current \u201cState of STAC,\u201d focusing on where the ecosystem stands today in real-world use. We\u2019ll cover the maturity of the core specification and API, patterns that have enabled widespread adoption, and the growing role of extensions in supporting new data types and use cases.\r\n\r\nWe\u2019ll also examine areas where the ecosystem is still evolving, including interoperability with other OGC APIs, managing extension complexity, and scaling catalogs and APIs for increasingly large datasets.\r\n\r\nFinally, we\u2019ll look ahead to how STAC fits into emerging systems. While STAC remains critical for data discovery and interoperability, many workflows are evolving toward layered architectures where STAC feeds downstream indexing and analysis systems.\r\n\r\nThis talk offers a grounded view of STAC as it exists today\u2014what is stable, what is still changing, and what comes next as the ecosystem continues to grow.",
+    "start_datetime": "2026-09-03T05:00:00Z",
+    "end_datetime": "2026-09-03T05:30:00Z",
+    "talk:code": "DWERNM",
+    "talk:guid": "ef5ddb06-75ad-5d25-81f9-c07d7716a333",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room4",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "W8MQ89",
+        "name": "Matthew Hanson",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/W8MQ89/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-03T05:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/DWERNM/",
+      "title": "State of STAC: From Specification to Infrastructure"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/DWERNM/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/W8MQ89/",
+      "title": "Matthew Hanson"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/DWERNM/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

@@ -1,0 +1,152 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "9KCVBK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Providing a libOpenDRIVE-based GDAL driver for conversion of lane-detailed road network datasets commonly used in automotive engineering into GIS tools",
+    "description": "Various applications with the need of highly detailed road network models emerged within the last decade. Apart from traffic simulations in context of urban planning, especially the automotive industry plays an important role in geodata consumption for development, testing and validation of autonomous driving functions. In this domain, human-centred driving simulation applications with their realistic 3D virtual environments pose the highest demands on real-world data and lane-level road network models. It is not uncommon for such road network data to not only be mathematically continuously modelled, but also to contain all the necessary topological links and semantic information from traffic-regulating infrastructure \u2013 such as signs and traffic lights. Schwab and Kolbe [1] give a compact overview of the requirements of such fields of application and describe different domain-specific road data formats, which are commonly used for such tasks. Of these peculiar road description formats, OpenDRIVE [2] evolved as an open industry standard. In 2017 we proposed a driver for conversion of OpenDRIVE\u2019s continuous road geometry elements into standardized GIS geometries according to OGC Simple Features Access [3] via the free and open-source Geospatial Data Abstraction Library (GDAL) [4]. By then, this was the first open source conversion tool from OpenDRIVE into more GIS-friendly encodings. Since then, other OpenDRIVE conversion tools have popped up, such as [5], [6], [7], [8]. But none of those allows such a comfortable integration into common GIS tools like our proposed GDAL extension by, for example, simply dragging and dropping an OpenDRIVE dataset into QGIS. We now present a refurbished version of our OpenDRIVE GDAL driver which is based on the novel C++ library libOpenDRIVE. It integrates well in GDAL\u2019s new CMake building process and offers a more convenient starting point for developers and researchers who want to bring OpenDRIVE data easily into context with other geodata such as with aerial images, OpenStreetMap or cadastral data. Apart from OpenDRIVE, other specialized road network description formats are crucial to the automotive engineering and research domain. Where Road2Simulation [9] and laneLet2 [10] already come along in GIS-friendly encodings, RoadXML and NDS Open Lane Model [11] could also profit from such a GDAL-based conversion approach. By bringing the domains of automotive engineering and GIS closer together we hope to stimulate interdisciplinary knowledge transfer and the creation of an interconnected research community.\r\n\r\n[1] https://doi.org/10.5194/isprs-annals-iv-4-w8-99-2019\r\n[2] https://www.asam.net/standards/detail/opendrive\r\n[3] https://www.ogc.org/standards/sfa\r\n[4] https://elib.dlr.de/110123\r\n[5] https://doi.org/10.5281/ZENODO.7023152\r\n[6] https://doi.org/10.5281/zenodo.7771708\r\n[7] https://doi.org/10.1109/itsc48978.2021.9564885\r\n[8] https://doi.org/10.5281/zenodo.7702312\r\n[9] https://doi.org/10.5281/ZENODO.3375525\r\n[10] https://doi.org/10.1109/itsc.2018.8569929\r\n[11] https://olm.nds-association.org",
+    "start_datetime": "2023-06-30T09:35:00Z",
+    "end_datetime": "2023-06-30T09:40:00Z",
+    "talk:code": "9KCVBK",
+    "talk:guid": "34e124f4-add5-58e9-ad05-209518ffcb35",
+    "talk:event": "foss4g-2023",
+    "talk:track": "State of software",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "UBT C / N111 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "RVDUBZ",
+        "name": "Michael Scholz",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/RVDUBZ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-30T09:37:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/9KCVBK/",
+      "title": "Providing a libOpenDRIVE-based GDAL driver for conversion of lane-detailed road network datasets commonly used in automotive engineering into GIS tools"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/9KCVBK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/RVDUBZ/",
+      "title": "Michael Scholz"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.5194/isprs-annals-iv-4-w8-99-2019",
+      "title": "doi.org/10.5194/isprs-annals-iv-4-w8-99-2019"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.asam.net/standards/detail/opendrive",
+      "title": "www.asam.net/standards/detail/opendrive"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.ogc.org/standards/sfa",
+      "title": "www.ogc.org/standards/sfa"
+    },
+    {
+      "rel": "related",
+      "href": "https://elib.dlr.de/110123",
+      "title": "elib.dlr.de/110123"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.5281/ZENODO.7023152",
+      "title": "doi.org/10.5281/ZENODO.7023152"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.5281/zenodo.7771708",
+      "title": "doi.org/10.5281/zenodo.7771708"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.1109/itsc48978.2021.9564885",
+      "title": "doi.org/10.1109/itsc48978.2021.9564885"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.5281/zenodo.7702312",
+      "title": "doi.org/10.5281/zenodo.7702312"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.5281/ZENODO.3375525",
+      "title": "doi.org/10.5281/ZENODO.3375525"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.1109/itsc.2018.8569929",
+      "title": "doi.org/10.1109/itsc.2018.8569929"
+    },
+    {
+      "rel": "related",
+      "href": "https://olm.nds-association.org",
+      "title": "olm.nds-association.org"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/9KCVBK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-2023/submissions/9KCVBK/resources/2023-06-30_FOSS4G_Scholz_libOpenDRIVE-based_GDA_5sl7kaJ.pdf",
+      "type": "application/pdf",
+      "title": "Presentation slides",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

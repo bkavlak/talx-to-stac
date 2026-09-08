@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "DNPQLN",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Environmental monitoring management of waste from large excavations due to infrastructure buildings",
+    "description": "Large infrastructure building like the Florence Railway Station designed for high-speed rails requires a proper management of the huge quantity of waste originating from excavation activities. Such waste amounts require large areas for disposals, making abandoned areas or exhausted quarries and mines ideal sites for hosting the excavated wastes. A rectangular area of 500x70m delimiting the railway station has been excavated in two steps causing the removal of a 10m-thick soil layer per step: the amount of construction waste, as stated in the approved management project by public authorities involved in environmental management plans, would be used for the environmental restoration of an area of 400x350m located near a former exhausted lignite quarry) located in the proximity of the Santa Barbara village near Cavriglia (Arezzo).\r\nThe Tuscan Regional Environmental Agency (ARPAT) have been involved in monitoring both the terrain transportation and disposals\u2019 operations according to the approved management plan: while the Environmental Evaluation Office (VIA-VAS) was responsible of the waste sampling for further chemical analysis to assess the acceptable waste chemical composition, the Environmental Regional Information System Office (SIRA) was asked to evaluate volume balancing between all the waste management cycle, with included: (a) waste extraction from railway station site building, and (b) waste disposal final destination (exhausted Santa Barbara lignite quarry).\r\nA phase difference terrestrial LiDAR have been used in acquiring the 3D point cloud at the railway site at the following stages: (a) initial stage, before excavation activities\u2019 starting (b) step 1 stage, after the first 10m-thick layer excavation (c) step 2 stage, after completion of excavation works. Various tests have been performed to assess the optimal number of scans allowing to obtain the required precision of the final 3D model, stating from more than 100 scans for the survey for the initial stage to about 50 scans used for (b) and (c) stage surveys. Each survey was referenced by using a local coordinate system materialized during the survey; each target was then referred to the mail local reference system used in the railway station project by the owner\u2019s topographers with a total station.\r\nScan alignment and 3D cleaning (point clouds and meshes) was made using proprietary licensed software, while volume differences evaluation was made in QGIS 3.x environment; as for the scan alignment phases (3D point clouds\u2019 alignment), available open-source platforms have been tested and evaluated. Both scan alignment and 3D cleaning, while manually executed, have been proven to be time-consuming operations even using proprietary-licensed sofware.\r\nAs for Santa Barbara quarry, an initial RTK RPAS was performed before grass and small vegetation removal to evaluate the potential of RPAS over the survey area in speeding survey activities with respect to the terrestrial LiDAR in open areas: the RPAS survey demonstrates that such technology, compared to terrestrial LiDAR surveys in open areas, is much less time consuming in both acquisition and processing time, making it the best choice for surveys in open areas where extreme precision (sub-centimetric) is not required.\r\nDue to work progresses in filling activities at Santa Barbara site, i.e. the partial cleaning of one of the defined file subareas followed by its filling with excavated wastes, the initial stage of waste filling was surveyed in five times, one for each of the defined subareas. Each subarea survey, due to its limited dimensions (120x50m), instrumentation and personnel availability at the time of vegetation cleaning, have been surveyed with the terrestrial LiDAR, while for the final survey over the whole quarry area the RTK RPAS have been used. LiDAR surveys have been processed according to the tested methods in railway station surveys processing; RPAS RTK survey data, too, have been processed with the same proprietary software. Terrestrial LiDAR surveys were referenced in a local coordinate system by using a local coordinate system materialized during the survey; each target was then referred to the mail local reference system used in the quarry filling project by the owner\u2019s topographers. The RPAS models, in geographic coordinates, were then aligned to the terrestrial LiDAR surveys in order to evaluate the global waste volume disposed onsite.\r\nComparison operations between excavated volume at the railway station site and the exhausted lignite site showed good agreement, even by taking into account a standard transformation coefficient between compact soil and excavated waste. Terrestrial LiDAR scan alignment and point clouds/mesh cleaning activities have been very time-consuming, so that usage of automatic processing pipelines testing by mean of open source software is in progress: environmental monitoring of waste management over large areas, if properly managed with (semi) automatic processing, would be less time-consuming stating to actual testing. National projects of large processing infrastructure (\u2018Mirror Copernicus\u2019) would see a leading role taken by our office in building a fully-operational prototype of a pipeline for scan alignment and point cloud/mesh processing to evaluate waste extraction in large building sites.",
+    "start_datetime": "2022-08-24T09:30:00Z",
+    "end_datetime": "2022-08-24T10:00:00Z",
+    "talk:code": "DNPQLN",
+    "talk:guid": "c527e53e-2b4c-5440-857d-12ea5c1aebd9",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room Modulo 3",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "DASW87",
+        "name": "Ing. Cinzia Licciardello",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/DASW87/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/DNPQLN/",
+      "title": "Environmental monitoring management of waste from large excavations due to infrastructure buildings"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/DNPQLN/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/DASW87/",
+      "title": "Ing. Cinzia Licciardello"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/DNPQLN/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

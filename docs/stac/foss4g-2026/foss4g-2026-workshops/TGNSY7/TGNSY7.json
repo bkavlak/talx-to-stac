@@ -1,0 +1,118 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "TGNSY7",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "From Ingestion to Access Control: Building a Production STAC API with eoAPI",
+    "description": "A hands-on workshop covering the full lifecycle of a production STAC API: ingesting Earth observation datasets into eoAPI, securing it with OpenID Connect authentication, apply route-level and row-level access control, and using STAC Browser to see auth policies in action.\n\nThe STAC ecosystem has matured rapidly, but documentation on the full operational lifecycle (getting data in, controlling who can read it, and securing how it gets changed) remains fragmented. Teams building production Earth observation platforms repeatedly solve the same problems from scratch.\r\n\r\nThis hands-on workshop provides a complete, end-to-end walkthrough of building a production-ready STAC API using eoAPI ([`pgSTAC`](https://stac-utils.github.io/pgstac/) + [`stac-fastapi-pgstac`](https://stac-utils.github.io/stac-fastapi-pgstac/)) and securing it with [`stac-auth-proxy`](https://developmentseed.org/stac-auth-proxy), a backend-agnostic reverse proxy purpose-built for STAC.\r\n\r\nStarting from a bare Docker Compose stack running entirely on participants' laptops, we'll ingest real Earth observation datasets and then query the catalog using CQL2 filters and spatial search. From there, we'll progressively layer in authentication using OpenID Connect (OIDC), connecting a local mock identity server to the proxy, locking down write endpoints behind token-scoped access control, and protecting the Transactions Extension so only authorized clients can modify the catalog.\r\n\r\nThe penultimate section tackles row-level authorization: using CQL2 filter injection to build public/private collection support and multi-tenant data isolation, where each user's JWT claims determine what slice of the catalog they can see, all without modifying the underlying API.\r\n\r\nWe close by connecting [STAC Browser](https://github.com/radiantearth/stac-browser) to the secured API, configuring its OAuth2/OIDC settings to authenticate against the mock identity server, and demonstrating how the auth policies built throughout the workshop shape what different users can discover in real time.\r\n\r\nParticipants will leave with a working local stack, reusable configuration patterns, and a clear mental model for applying these techniques in cloud deployments.",
+    "start_datetime": "2026-08-30T01:00:00Z",
+    "end_datetime": "2026-08-30T04:00:00Z",
+    "talk:code": "TGNSY7",
+    "talk:guid": "f1006f56-0d00-515e-afad-ae094779c4b9",
+    "talk:event": "foss4g-2026-workshop",
+    "talk:type": "Workshop",
+    "talk:language": "en",
+    "talk:room": "700",
+    "talk:room_capacity": 63,
+    "talk:duration_minutes": 180,
+    "talk:speakers": [
+      {
+        "code": "SXDV8L",
+        "name": "Pete Gadomski",
+        "url": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/SXDV8L/"
+      },
+      {
+        "code": "7HKBZZ",
+        "name": "Anthony Lukach",
+        "url": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/7HKBZZ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-08-30T02:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/TGNSY7/",
+      "title": "From Ingestion to Access Control: Building a Production STAC API with eoAPI"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/TGNSY7/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/SXDV8L/",
+      "title": "Pete Gadomski"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/7HKBZZ/",
+      "title": "Anthony Lukach"
+    },
+    {
+      "rel": "related",
+      "href": "https://stac-utils.github.io/pgstac/",
+      "title": "`pgSTAC`"
+    },
+    {
+      "rel": "related",
+      "href": "https://stac-utils.github.io/stac-fastapi-pgstac/",
+      "title": "`stac-fastapi-pgstac`"
+    },
+    {
+      "rel": "related",
+      "href": "https://developmentseed.org/stac-auth-proxy",
+      "title": "`stac-auth-proxy`"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/radiantearth/stac-browser",
+      "title": "STAC Browser"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/TGNSY7/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-workshops"
+}

@@ -1,0 +1,141 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "PTPALW",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "GeoShop: Ordering and delivery tool for geospatial data",
+    "description": "Abstract:\r\nIn this presentation, we introduce GeoShop \u2013 an open-source, e-commerce-like application that we use in projects to facilitate the ordering of geospatial data from GIS systems. Using real-world examples, we will demonstrate how this Django-based application can be used to handle both free of fee and chargeable data orders from various geospatial data infrastructures. Additionally, we present Extract, another open-source solution designed to orchestrate data extractions from data providers. Extract is necessary to the correct working of GeoShop.\r\n\r\nDescription:\r\nGeoShop is an e-commerce-like application that enables the ordering of geospatial data from a GIS system. In the present context, it is used with various WebGIS services. However, GeoShop can also be integrated with other applications that do not necessarily include a map viewer.\r\nGeoShop allows the offering and sale of diverse geospatial data packages in various formats, such as vector data, 2D and 3D datasets, plans, maps, and aerial images \u2013 all just a few clicks away and available within minutes. Open data products can be provided free of charge. Furthermore, data can be supplied according to different pricing models.\r\n\r\nWhile GeoShop manages the ordering process, the actual data extraction is handled by Extract, an open-source Java-based solution. Extract listens to the orders placed on GeoShop and executes data extractions using GDAL scripts or other custom extraction processes. The extracted data is then uploaded back to GeoShop, ready for download by the user.\r\nThis architecture enables multiple data providers to connect to the same GeoShop instance while maintaining full control over their data and extraction processes. Each provider can manage their own extraction scripts and infrastructure, ensuring flexibility and security. The ordering process of geospatial data is automated, therefore minimizing the need for manual data handling, except in highly specific cases.\r\n\r\nDuring the development phase, significant resources were invested in optimizing performance and user experience, thanks to the initiative of the Geoinformatics Service of the Canton of Neuch\u00e2tel, Switzerland. They donated the code as an open-source project to Camptocamp SA for further development.",
+    "start_datetime": "2025-07-16T14:00:00Z",
+    "end_datetime": "2025-07-16T14:30:00Z",
+    "talk:code": "PTPALW",
+    "talk:guid": "a64ae7ec-292b-54db-8e5c-8bfbed4cbfd7",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "CA01 (TomTom)",
+    "talk:room_capacity": 130,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "ZKGML9",
+        "name": "Genevi\u00e8ve Hannes",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/ZKGML9/"
+      },
+      {
+        "code": "MWSJFL",
+        "name": "Julian Hafner",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/MWSJFL/"
+      },
+      {
+        "code": "9B8D7Q",
+        "name": "St\u00e9phane Malta e Sousa",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/9B8D7Q/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-16T14:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/PTPALW/",
+      "title": "GeoShop: Ordering and delivery tool for geospatial data"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/PTPALW/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/ZKGML9/",
+      "title": "Genevi\u00e8ve Hannes"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/MWSJFL/",
+      "title": "Julian Hafner"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/9B8D7Q/",
+      "title": "St\u00e9phane Malta e Sousa"
+    },
+    {
+      "rel": "related",
+      "href": "https://sitn.ne.ch",
+      "title": "@SITN"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/PTPALW/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://docs.google.com/presentation/d/1s3EnSxeJ2hzTjzP4imn9DPNpJxKRluHhq7cBbGCcPqw/edit?usp=sharing",
+      "title": "Presentation",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/qvxExmyeBN6wWtgtyw6Vs1",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | GeoShop: Ordering and delivery tool for geospatial data",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=dzCewDuvCEo",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | GeoShop: Ordering and delivery tool for geospatial data",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

@@ -1,0 +1,93 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "NEVSDP",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Participatory Renewable Energy Zoning Using QGIS and Open Data: A Case Study in Urahoro, Hokkaido",
+    "description": "This presentation reports the renewable energy zoning project conducted in Urahoro, Hokkaido. By combining QGIS with various open data sources and utilizing a custom-built participatory mapping system developed with generative AI, we visualized locations valued by residents to achieve an appropriate balance between conservation and renewable energy development.\n\nUrahoro Town, Hokkaido, aims to become a zero-carbon city by 2050 and emphasizes the introduction of renewable energy that coexists with the local community. To advance this goal, the town utilized the Ministry of the Environment's renewable energy zoning project in fiscal year 2025 to formulate its own Renewable Energy Zoning Plan. In developing this plan, the Institute for Sustainable Energy Policies (ISEP) handled map creation, expert meetings, stakeholder interviews, and seminars/workshops for residents.\r\n\r\nIn creating the renewable energy zoning maps, a total of 37 layer maps across 6 categories were produced. By overlaying these, the town established Conservation, Adjustment, and Promotion areas for both solar power (buildings/land) and wind power. Ultimately, they succeeded in creating a zoning map that secures the renewable energy potential necessary to achieve a zero-carbon city while preserving the town's natural environment and culturally significant spots.\r\n\r\nThe maps were created using QGIS. Starting with almost zero GIS experience, the presenter learned how to use the software step-by-step from AI, utilizing spatial operations and field calculations to complete the project. Initially, the presenter did not even know how to set the CRS (Coordinate Reference System) and learned the basics in a short period by persistently asking ChatGPT questions and occasionally referring to explanatory articles on QGIS LAB. Most of the layer maps were created using data publicly available from the Ministry of Land, Infrastructure, Transport and Tourism\u2019s National Land Numerical Information download site.\r\n\r\nA unique feature of Urahoro's zoning is that it visualizes locations that residents personally value or consider important to the community, collected through participatory surveys. While the basic layer information required for zoning consists of quantitative data that allows for objective derivation of site conditions, carefully capturing the memories and meanings those places hold for residents is essential for introducing renewable energy that coexists with the community. Using the AI web app builder Bolt, the presenter built a custom participatory survey system for submitting locations and called on residents to post their important places via government public relations channels and workshops. In the end, 37 people participated, submitting a total of 112 locations, which visualized the places people cherish in Urahoro. (104 public entries can be viewed online at https://urahoro-mapping-card.bolt.host/). The zoning plan requires renewable energy developers to respect these sites valued by the local community when considering locations.\r\n\r\nUrahoro's renewable energy zoning plan is expected to play a vital role in introducing renewable energy that exists in harmony with the region. The administration has stipulated that the zoning maps will be reviewed approximately every three years. To ensure the municipality can add or modify map data itself, the presenter plans to transfer QGIS skills to the staff in charge.\r\n\r\nAs the methodology for renewable energy zoning using open-source GIS and open data has been largely established, there are plans to expand this approach to other interested municipalities in the future.",
+    "start_datetime": "2026-09-03T02:00:00Z",
+    "end_datetime": "2026-09-03T02:30:00Z",
+    "talk:code": "NEVSDP",
+    "talk:guid": "8014bb95-eb2c-571b-b402-70a064b5a479",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Dahlia1",
+    "talk:room_capacity": 140,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "QTZA7L",
+        "name": "Shota Furuya",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/QTZA7L/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-03T02:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/NEVSDP/",
+      "title": "Participatory Renewable Energy Zoning Using QGIS and Open Data: A Case Study in Urahoro, Hokkaido"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/NEVSDP/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/QTZA7L/",
+      "title": "Shota Furuya"
+    },
+    {
+      "rel": "related",
+      "href": "https://urahoro-mapping-card.bolt.host/",
+      "title": "urahoro-mapping-card.bolt.host"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/NEVSDP/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

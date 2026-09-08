@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "BUHEKS",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Faster, simpler access to cloud-based geospatial data with Obstore",
+    "description": "Obstore is the simplest, highest-throughput Python interface to Amazon S3, Google Cloud Storage, Azure Storage. This talk will explain what Obstore is, how it differs from existing Python libraries for cloud data access, and how it's being used to speed up cloud-based geospatial workflows.\n\n[Obstore](https://developmentseed.org/obstore/latest/) is a Python library that abstracts how to access data on commercial cloud storage providers, like Amazon S3, Google Cloud Storage, and Azure Storage. Instead of writing code for each provider and manually creating the abstractions, use Obstore\u2019s singular API for data access.\r\n\r\nWhile at its face Obstore is similar to [fsspec](https://github.com/fsspec/filesystem_spec)\u2014they both provide abstracted interfaces to cloud storage\u2014Obstore presents some core improvements:\r\n\r\n- Minimal API with native synchronous and asynchronous support.  \r\n- Fast with no Python dependencies: obstore wraps the Rust `object_store` library, meaning that your Python environment stays small and you won\u2019t face dependency conflicts.  \r\n- Streaming downloads, uploads, and listings without manual pagination.  \r\n- Full type hinting for easier use in Python IDE environments.  \r\n- Simple access to [NASA Earthdata](https://developmentseed.org/obstore/latest/api/auth/earthdata/) and [Microsoft Planetary Computer](https://developmentseed.org/obstore/latest/api/auth/planetary-computer/) data collections with **automatic credential refreshing** when short-lived tokens expire.\r\n\r\nWhile Obstore is a foundational technology that can be used across many domains, this talk will focus on its use in geospatial-related projects: \r\n\r\n- [Zarr](https://zarr.dev/)\\-Python introduced an [Obstore-based backend](https://zarr.readthedocs.io/en/latest/api/zarr/storage/index.html#zarr.storage.ObjectStore) that can be [3x faster than the default fsspec-based backend](https://github.com/maxrjones/zarr-obstore-performance) when reading Zarr datasets. \r\n- [VirtualiZarr](https://github.com/zarr-developers/VirtualiZarr), a library to present non-cloud-native file formats like netCDF as virtual Zarr datasets, is being rewritten to use Obstore by default. \r\n- [Async-tiff](https://github.com/developmentseed/async-tiff), a fast, asynchronous, Python TIFF, GeoTIFF, and Cloud-Optimized GeoTIFF reader, uses Obstore under the hood to power its data fetching. \r\n- A [new Python GeoParquet library](https://geoarrow.org/geoarrow-rs/python/latest/api/io/geoparquet/) uses Obstore as well.\r\n\r\nThis talk will explain what Obstore is, how it differs from existing Python libraries, and how you might use it in your own projects to speed up your own data access.",
+    "start_datetime": "2025-11-18T22:00:00Z",
+    "end_datetime": "2025-11-18T22:25:00Z",
+    "talk:code": "BUHEKS",
+    "talk:guid": "6404c4bf-9780-5abd-aac4-a8ce2a6be570",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Cloud, APIs & Data Infrastructure",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WA220",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "LYUBSM",
+        "name": "Kyle Barron",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/LYUBSM/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-18T22:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/BUHEKS/",
+      "title": "Faster, simpler access to cloud-based geospatial data with Obstore"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/BUHEKS/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/LYUBSM/",
+      "title": "Kyle Barron"
+    },
+    {
+      "rel": "related",
+      "href": "https://developmentseed.org/obstore/latest/",
+      "title": "Obstore"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/fsspec/filesystem_spec",
+      "title": "fsspec"
+    },
+    {
+      "rel": "related",
+      "href": "https://developmentseed.org/obstore/latest/api/auth/earthdata/",
+      "title": "NASA Earthdata"
+    },
+    {
+      "rel": "related",
+      "href": "https://developmentseed.org/obstore/latest/api/auth/planetary-computer/",
+      "title": "Microsoft Planetary Computer"
+    },
+    {
+      "rel": "related",
+      "href": "https://zarr.dev/",
+      "title": "Zarr"
+    },
+    {
+      "rel": "related",
+      "href": "https://zarr.readthedocs.io/en/latest/api/zarr/storage/index.html#zarr.storage.ObjectStore",
+      "title": "Obstore-based backend"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/maxrjones/zarr-obstore-performance",
+      "title": "3x faster than the default fsspec-based backend"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/zarr-developers/VirtualiZarr",
+      "title": "VirtualiZarr"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/developmentseed/async-tiff",
+      "title": "Async-tiff"
+    },
+    {
+      "rel": "related",
+      "href": "https://geoarrow.org/geoarrow-rs/python/latest/api/io/geoparquet/",
+      "title": "new Python GeoParquet library"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/BUHEKS/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=o3jgrVCI5pk",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Faster, simpler access to cloud-based geospatial data with Obstore",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

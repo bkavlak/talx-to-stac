@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "A3TBBA",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "PgMetadata - A QGIS plugin to store the metadata of PostgreSQL layers inside the database, and use them inside QGIS",
+    "description": "PgMetadata is made for people using QGIS as their main GIS application, and PostgreSQL as their main vector data storage.\r\n\r\nThe layers metadata are stored inside your PostgreSQL database, in a dedicated schema. Classical fields are supported, such as the title, description, categories, themes, links, and the spatial properties of your data.\r\n\r\nPgMetadata is not designed as a catalog application which lets you search among datasets and then download the data. It is designed to ease the use of the metadata inside QGIS, allowing to search for a data and open the corresponding layer, or to view the metadata of the already loaded PostgreSQL layers.\r\n\r\nBy storing the metadata of the vector and raster tables inside the database:\r\n\r\n* QGIS can read the metadata easily by using the layer PostgreSQL connection: a dock panel shows the metadata for the active layer when the plugin detects metadata exists for this QGIS layer.\r\n* QGIS can run SQL queries: you can use the QGIS locator search bar to search for a layer, and load it easily in your project.\r\n\r\nThe administrator in charge of editing the metadata will also benefit from the PostgreSQL storage:\r\n\r\n* PostgreSQL/PostGIS functions are used to automatically update some fields based on the table data (the layer extent, geometry type, feature count, projection, etc.).\r\n* The metadata is saved with your data anytime you backup the database\r\n* You do not need to share XML files across the network or install a new catalog application to manage your metadata and allow the users to get it.\r\n\r\nThe plugin contains some processing algorithms to help the administrator. For example:\r\n\r\n* a script helps to create or update the needed \"pgmetadata\" PostgreSQL schema and tables in your database\r\n* a algorithm creates a QGIS project suitable for the metadata editing. This project uses the power of QGIS to create a rich user interface allowing to edit your metadata easily (forms, relations). Why use another interface when QGIS rocks ?\r\n\r\nMore PgMetadata features will be shown during the presentation:\r\n\r\n* Modification of the template to tune the displayed metadata\r\n* Export a metadata dataset to PDF, HTML or DCAT\r\n* Publish the metadata as a DCAT catalog with Lizmap Web Client module for PgMetadata. It can then be harvested by external applications (Geonetwork, CKAN)\r\n* The data model is very close to the QGIS metadata storage and the DCAT vocabulary for compatibility.\r\n\r\nWe will also show the last features such as the new support of the PostgreSQL rasters",
+    "start_datetime": "2022-08-25T10:00:00Z",
+    "end_datetime": "2022-08-25T10:30:00Z",
+    "talk:code": "A3TBBA",
+    "talk:guid": "c4349849-a4ae-5efc-9a19-2a1a96ed0f0e",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Onice",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "GBGVME",
+        "name": "Etienne Trimaille",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/GBGVME/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T10:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/A3TBBA/",
+      "title": "PgMetadata - A QGIS plugin to store the metadata of PostgreSQL layers inside the database, and use them inside QGIS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/A3TBBA/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/GBGVME/",
+      "title": "Etienne Trimaille"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/A3TBBA/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/tCkQ2kLkp9MdoBEMqmftui",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | PgMetadata - A QGIS plugin to store the metadata of PostgreSQL layers inside the\u2026",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=Q3L6ZBtZd10",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | PgMetadata - A QGIS plugin to store the metadata of PostgreSQL layers inside the\u2026",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

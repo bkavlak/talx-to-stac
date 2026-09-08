@@ -1,0 +1,157 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "TTWS37",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "State of GeoServer Cloud",
+    "description": "GeoServer is a well-established and highly popular all-round map server, but reaches some limitations in scalability to meet high loads and high availability requirements. For this purpose, GeoServer Cloud was implemented as a separate open source project built \"on top\" of GeoServer. \r\nGeoServer Cloud transforms GeoServer into scalable individual components (microservices) for container orchestration environments like Kubernetes. \r\nThis talk will give an introduction of GeoServer Cloud and showcase some of the successful usages in production environments.",
+    "start_datetime": "2025-07-17T12:00:00Z",
+    "end_datetime": "2025-07-17T12:30:00Z",
+    "talk:code": "TTWS37",
+    "talk:guid": "c8bf742e-1187-59e0-9391-9bc969efdb96",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "CA01 (TomTom)",
+    "talk:room_capacity": 130,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "FLAV3G",
+        "name": "Daniel Koch",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/FLAV3G/"
+      },
+      {
+        "code": "USH8MN",
+        "name": "J. Wolfgang Kaltz",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/USH8MN/"
+      },
+      {
+        "code": "UDGTSB",
+        "name": "Alexandre Gacon",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/UDGTSB/"
+      },
+      {
+        "code": "M3AVNB",
+        "name": "Nils B\u00fchner",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/M3AVNB/"
+      },
+      {
+        "code": "GHCZDL",
+        "name": "Dominik Frey",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/GHCZDL/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-17T12:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/TTWS37/",
+      "title": "State of GeoServer Cloud"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/TTWS37/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/FLAV3G/",
+      "title": "Daniel Koch"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/USH8MN/",
+      "title": "J. Wolfgang Kaltz"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/UDGTSB/",
+      "title": "Alexandre Gacon"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/M3AVNB/",
+      "title": "Nils B\u00fchner"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/GHCZDL/",
+      "title": "Dominik Frey"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/TTWS37/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/TTWS37/resources/geoserver-cloud_eCFAj90.pdf",
+      "type": "application/pdf",
+      "title": "Slides",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/rR7s3U5KD62WLrMFcXPUv7",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | State of GeoServer Cloud",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=mgBZR2RCIJ8",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | State of GeoServer Cloud",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

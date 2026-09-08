@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "LEJ89F",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Advanced QGIS Plugin Workflows: Automatic Release, Security, and Modern Multi-language",
+    "description": "Learn to modernize your QGIS plugin workflow.\r\nIn this workshop, you will use GitHub Actions to automate clean packaging, run security checks with Bandit, and automatically upload to the plugin repository. \r\nYou will also implement a new, modern multi-language system using Python and JSON instead of Qt Linguist.\n\nDeveloping a functional QGIS plugin is a great first step, but maintaining, securing, and releasing new versions can become a time-consuming hassle. This workshop will guide you to build an automated workflow for your QGIS plugins.\r\n\r\nIn this session, you will use a prepared plugin or your own one and go through the following steps:\r\n- Automation with GitHub Actions: You will configure a workflow to automatically run Bandit security checks directly before uploading your plugin, packaging plugin file cleanly, and automatically upload the package to the QGIS plugin repository.\r\n- Multi-language (i18n): Forget Qt Linguist! You will learn a new modern way to implement multi-language support directly in Python and JSON.\r\n\r\n(Japanese support available)",
+    "start_datetime": "2026-08-30T01:00:00Z",
+    "end_datetime": "2026-08-30T04:00:00Z",
+    "talk:code": "LEJ89F",
+    "talk:guid": "d480149b-0251-5126-8f6f-e938eda0ee33",
+    "talk:event": "foss4g-2026-workshop",
+    "talk:track": "Sponsor Workshop",
+    "talk:type": "Sponsor workshop",
+    "talk:language": "en",
+    "talk:room": "704",
+    "talk:room_capacity": 90,
+    "talk:duration_minutes": 180,
+    "talk:speakers": [
+      {
+        "code": "WM9MKP",
+        "name": "Raymond Lay",
+        "url": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/WM9MKP/"
+      },
+      {
+        "code": "X3YV7R",
+        "name": "Toshiya Kunou",
+        "url": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/X3YV7R/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-08-30T02:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/LEJ89F/",
+      "title": "Advanced QGIS Plugin Workflows: Automatic Release, Security, and Modern Multi-language"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/LEJ89F/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/WM9MKP/",
+      "title": "Raymond Lay"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/X3YV7R/",
+      "title": "Toshiya Kunou"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/LEJ89F/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-workshops"
+}

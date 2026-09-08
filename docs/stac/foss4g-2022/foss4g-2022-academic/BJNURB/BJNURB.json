@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "BJNURB",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Computing Global Harmonic Parameters for Flood Mapping using TU Wien\u2019s SAR Datacube Software Stack.",
+    "description": "Synthetic Aperture Radar (SAR) backscatter is adept in differentiating standing water, due to its low signal, compared to most non-water surface cover types. However, the temporal transition from non-water to water is critical to identifying floods. Hence objects with permanent or seasonally low backscatter become ambiguous and difficult to classify. TU Wien's flood mapping algorithm utilizes a pixel-wise harmonic model derived from SAR datacube (DC) (Bauer-Marschallinger et al., in review) to account for these patterns. Designed to be applied globally in near real-time, our method applies Bayes inference on SAR data in VV polarization. In this method, the harmonic model generates the non-flooded reference distribution, which we then compare against flooded distribution to delineate floods within incoming Sentinel-1 IW GRDH scenes.\u00a0\r\n\r\n\r\n\r\nIn the harmonic modeling, we estimate each location's expected temporal backscatter variation, explained by a set of Fourier coefficients. Following recommendations in the literature, a seven coefficient formulation was adopted (Schlaffer et al.,2015) and is here on referred to as our harmonic parameters (HPARs). The HPARs include the backscatter mean and three iterations of two sinusoidal coefficients. This model acts as a smoothened proxy for the measurements in the time series, thus allowing for a seasonally varying backscatter reference to be estimated for any given day-of-year\u00a0\r\n\r\n\r\n\r\nHowever, generating the harmonic model at a global scale and with high resolution presents significant logistical and technical challenges. Therefore, harmonic modeling of remotely sensed time series is often performed on specialized infrastructures (Liu et al., 2020), such as Google Earth Engine (GEE) (Gorelick et al., 2017) or other highly customized setups (Zhou et al., 2021), where the pixel-wise analysis of multi-year data requires well-defined I/O, data chunking, and parallelization strategies to generate the HPARs in reasonable time and cost. While harmonic analysis is not new, to our knowledge, production and application at a global scale using dense SAR time series have yet to be implemented, let alone operationally utilized.\r\n\r\n\r\n\r\nTo prepare for global near real-time flood mapping effort, HPARs were systematically computed using a global DC organizing Sentinel-1 IW GRDH datasets. In the DC structure, individual images are stacked, allowing for data abstraction in the spatial and temporal dimensions, making it ideal for time-series analysis. However, for this abstraction to be realized, a rich set of software solutions is needed to implement the 3-dimensional data model.\r\n\r\n\r\n\r\nIn this contribution, we present our SAR DC software stack and its utilization to compute the aforementioned global harmonic parameters. We show a set of portable and loosely coupled Python packages developed by the TU Wien GEO Microwave Remote Sensing (MRS) group capable of forming a global data cube with minimal overhead from individual satellite images. The stack includes, among others, open-source packages for:\r\n\r\n\thigh-level data cube abstraction - yeoda,\r\n\tspatial reference and hierarchical tiling system - Equi7Grid,\r\n\tlower-level data access and I/O \u2013 veranda,\r\n\tspatial file and folder-based naming and handling \u2013 geopathfinder, and\r\n\tproduct tagging and metadata management \u2013 medali.\r\n\r\n\r\n\r\n\r\nThe detailed description of the preprocessing and storage infrastructure used for this global DC is outlined by Wagner et al., 2021. Here, we focus on the software interfaces. Moreover, given the preprocessed datasets, the logical entry point is through yeoda, which abstracts well-structured Earth observation data collections as a DC, making high-level operations such as filtering and data loading possible. This level of abstraction is supported by the other components of the software stack, which addresses the organization and lower-level access to the individual files.\r\n\r\n\r\n\r\nIn a nutshell, the DC is simply a collection of raster datasets in GeoTIFF file format co-registered in the same reference grid. To deploy for large-scale operations, a well-defined grid system is required to deal with high-resolution raster data. A tiling system fulfilling this requirement is the Equi7grid, based on seven equidistant continental projections found to minimize raster image oversampling. Interacting with this tiling system on an abstract level is possible via our in-house developed Equi7Grid package. The tiling system follows a hierarchy of directories to manage the datasets on disk. Moreover, for individual files, a predefined naming convention is applied to indicate spatial, temporal, and ancillary information from product metadata that becomes transparent to yeoda. This setup of customizable file naming schemes is easily managed through the geopathfinder package.\r\n\r\n\r\n\r\nThe actual HPARs processing task was subdivided into multiple High-Performance Computing (HPC) jobs on the Vienna Scientific Cluster (VSC) based on this tiling hierarchy. For the temporal domain modeling to work, data is further split into manageable chunks. Thus only one tile per HPC node was allocated. Hence, yeoda was used to filter the DC down to the tile level, which was further reduced to a two-year period. From there, a three-dimensional array formatted backscatter measurements were generated by veranda from the image stack on disk.\r\n\r\n\r\n\r\nDue to the depth of the DC, further segmentation and parallelization were required at this level. Thus, pixel-based parallelization was done using Numba to handle the core least squares estimation of the measurements versus a day-of-year array derived from image timestamps. Veranda is again used for the output operation to encode and write the HPARs to individual files. Data quality checks, and metadata encoding, done via medali, cap the processing. In this manner, the HPAR product themselves can be abstracted similarly as a DC and simplify subsequent flood mapping computations.\r\n\r\n\r\n\r\nWith the HPAR product, the Sentinel-1 time series is seasonally modeled and condensed to a fraction of the size of the original global DC. While for now, it is exclusively used to allow our flood monitoring workflow to work globally in near-real-time, other potential applications include seasonal water and vegetation analysis. Moreover, with the software stack used to compute and subsequently access, this product can easily be deployed on different platforms with little to no overhead, allowing reproducible DC analysis.",
+    "start_datetime": "2022-08-24T12:15:00Z",
+    "end_datetime": "2022-08-24T12:45:00Z",
+    "talk:code": "BJNURB",
+    "talk:guid": "c1797e26-f20f-5c1b-8056-1c297d210c1c",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room Hall 3A",
+    "talk:room_capacity": 85,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "MGQCK8",
+        "name": "Mark Edwin Tupas",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/MGQCK8/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T12:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/BJNURB/",
+      "title": "Computing Global Harmonic Parameters for Flood Mapping using TU Wien\u2019s SAR Datacube Software Stack."
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/BJNURB/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/MGQCK8/",
+      "title": "Mark Edwin Tupas"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/BJNURB/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

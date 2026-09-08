@@ -1,0 +1,103 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "3GKMF8",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "State of libCartoSym / libCSCQL2 / libDE9IM",
+    "description": "Update on the FOSS libCartoSym, libCSCQL2 and libDE9IM implementing the candidate OGC Cartographic Symbology 2.0 Standard, Common Query Language (CQL2) and Simple Features. http://cartosym.org/ https://github.com/ecere/libCartoSym\n\nThis session will provide an update on the latest developments related to libCartoSym, focusing on:\r\n- The `cs-canif` tool allowing to transcode styles, expressions and geometries, evaluate styles and expressions, and evaluate spatial relations between geometries,\r\n- Completed support for lossless conversion between the CartoSym-CSS and CartoSym-JSON encodings,\r\n- Improved support for transcoding styles from Mapbox GL/MapLibre Styles to the CartoSym conceptual model,\r\n- Improved support for transcoding styles to OGC Styled Layer Descriptor / Symbology Encoding,\r\n- Progress on providing bindings to libCartoSym, libCSCQL2 and libDE9IM to different programming languages (C, C++, Python...),\r\n- A progress update on the candidate OGC Cartographic Symbology 2.0 standard.\r\n\r\nlibCartoSym is a Free and Open-Source Software library implementing the OGC Cartographic Symbology 2.0 (https://docs.ogc.org/DRAFTS/18-067r4.html), Common Query Language (https://www.opengis.net/doc/IS/cql2/1.0) and Simple Features (https://portal.ogc.org/files/?artifact_id=25355) standards.\r\n\r\nlibCartoSym implements both the CartoSym-CSS (https://docs.ogc.org/DRAFTS/18-067r4.html#rc-cscss) and CartoSym-JSON (https://docs.ogc.org/DRAFTS/18-067r4.html#rc-json) encodings defined in the candidate standard.\r\n\r\nlibCartoSym and the `cs-canif` tool can be installed with `pip install cartosym` (https://pypi.org/project/cartosym/), while its dependency libCSCQL2 implementing CQL2 support can be installed with `pip install cscql2` (https://pypi.org/project/cscql2/).\r\n\r\nThe library allows to read and write these CartoSym encodings, as well as import from and export to additional encodings of portrayal rules such as OGC SLD/SE (https://portal.ogc.org/files/?artifact_id=22364 / https://portal.ogc.org/files/?artifact_id=16700) and Mapbox GL Styles (https://docs.mapbox.com/mapbox-gl-js/guides/styles/).\r\nFunctionality to evaluate the symbolizer specified by a style for specific conditions (e.g., feature properties and scale denominator), is also provided for integration within rendering engines.\r\n\r\nThe associated libCSCQL2 implements CQL2, as the CartoSym encodings extend the CQL2 language to define expressions used within rule selectors and symbolizer parameter values.\r\nSupport for performing spatial relation queries based on the Dimensionally Extended-9 Intersection Model (https://en.wikipedia.org/wiki/DE-9IM) is also integrated within a jointly developed libDE9IM open-source library, and support for OGC Simple Features as well as parsing and writing geometries defined in Well-Known Text (WKT) and GeoJSON is also provided by related open-source libraries.\r\n\r\nThese libraries are written in the eC programming language for native performance, with object-oriented bindings for libCartoSym planned for multiple programming languages including C, C++, Python, Java, Rust and JavaScript.\r\n\r\nAcknowledgement\r\nFinancial support provided by GeoConnections, a national collaborative initiative led by Natural Resources Canada. GeoConnections supports the modernization of the Canadian Geospatial Data Infrastructure (CGDI). The CGDI is the collection of geospatial data, standards, policies, applications, and governance that facilitate its access, use, integration, and preservation.",
+    "start_datetime": "2026-09-01T08:00:00Z",
+    "end_datetime": "2026-09-01T08:30:00Z",
+    "talk:code": "3GKMF8",
+    "talk:guid": "77a6f4a8-e080-5932-b2a6-e85794c0662b",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room4",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "KNRWPK",
+        "name": "Jerome St-Louis",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/KNRWPK/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T08:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/3GKMF8/",
+      "title": "State of libCartoSym / libCSCQL2 / libDE9IM"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/3GKMF8/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/KNRWPK/",
+      "title": "Jerome St-Louis"
+    },
+    {
+      "rel": "related",
+      "href": "http://cartosym.org/",
+      "title": "cartosym.org"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/ecere/libCartoSym",
+      "title": "github.com/ecere/libCartoSym"
+    },
+    {
+      "rel": "related",
+      "href": "https://portal.ogc.org/files/?artifact_id=16700",
+      "title": "portal.ogc.org/files"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/3GKMF8/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

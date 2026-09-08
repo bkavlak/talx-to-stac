@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "EDTY9C",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "Implementation of a 2D/3D WebGIS for Electricity Network Management System",
+    "description": "Geospatial data represents a critical tool for decision-making processes. The United Nations has recognized the importance of geospatial data through its global goals. The issue of energy is of particular significance for the development of the global community and the establishment of the smart city concept. Therefore, special attention should be given to managing the processes of electricity production and distribution, with a particular focus on designing, simulating the power distribution network and managing electricity losses during transmission.\r\nThe planning of the distribution network is an essential element of urban planning and must be comprehensively assessed to improve decision-making procedures as demonstrated in the study by Zheng et al. in China in 2012. Villacres et al. stated that in electrical distribution system planning, wire length is a key parameter for calculating voltage loss and related power losses. Thus, an adequate network topology structure is necessary to execute algorithms and obtain data on losses. For visualization and proper analysis, appropriate open-source technologies can be used. La Guardia et al. provide an example of real-time data integration into a 3D geospatial web-based visualization platform developed with open-source technology. Amovi\u0107 et al. propose executing process parallelization algorithms to speed up system performance.\r\nIn 2019, the Republic of Srpska implemented the project \"Development of a Utility Cadastre Model,\" establishing an appropriate framework based on the Utility Network Inspire Directive model. \"Elektrokrajina a.d.\" is a power distribution company supplying half of the consumers in the Republic of Srpska. The aim of this research is to present a study of the system for planning, managing and evaluating the LV/MV power network based on the 2D/3D WebGIS ELMAP system, which acts as a decision-making tool.\r\nThe goal of using these tools is to optimize electricity consumption, identify zones and time periods indicating electricity usage patterns leading to the optimization of scheduling and renewal of certain infrastructure elements, redefining the topology of the power network, identifying zones for new transformer station construction and defining new transformer service areas. To efficiently establish such a system it is necessary to address the integration problem of large amounts of 2D/3D data on one side and semi-structured real-time data on the other. These data for power consuption and losses are obtained through other system components via sensor readings. \r\nELMAP is the central unit of the power distribution information system. It acquires and structure structured, semi-structured, and unstructured data from other components of this information system into the ELMAP model. For these purposes, specific procedures have been developed to structure data extracted from SAP, Stone, Asset Management, and MdM systems, as well as integrate data obtained through geodetic and LiDAR surveying of the power infrastructure. Given the vast amounts of data involved, process parallelization algorithms have been developed. At the PostgreSQL level, serial queries have been implemented, significantly increasing transaction execution speed in the system compared to traditional methods.\r\nExisting geospatial data has been generated through digitization from existing plans or orthophotos. The primary issue with these data is their topological inconsistency. There is no clearly defined geospatial hierarchy of the network in terms of the topological definition of the medium-voltage and low-voltage networks, nor the structuring of power lines, branches, and segments, as well as their connections to transformer stations, poles, and metering points. Since the medium-voltage and low-voltage networks operate at different voltage levels, a dedicated algorithm has been developed to track network topology and voltage changes at transformer stations.\r\nThe position of electricity meters in the low-voltage network is determined based on GPS data from a mobile application. The meter is positioned within or touching a building (OSM Buildings are used). These meter positions have subsequently been used as a control mechanism for future meter readings. For system management, an algorithm for determining meter reading routes was developed. The spatial distribution of meters and the road network topology extracted from OSM served as the basis for developing an optimization algorithm for field meter reading routes. For this purpose, the pgRouting environment was implemented to determine the shortest distance, utilizing the All Pairs Shortest Path and Johnson\u2019s Algorithm for finding the shortest path for reading a group of meters.\r\nThe ELMAP system model was established as an extended package of the Inspire Directive model (Utility Network \u2013 Electricity) to provide an appropriate platform capable of communicating with other system components. The system is designed as a service-oriented three-layer architecture using PostgreSQL with PostGIS extensions as the DBMS, while communication occurs via WFS services and API modules with other system units. The system provides an appropriate administrative and user platform for data management.\r\nTo adequately analyze losses in the existing infrastructure network, data on voltage changes at the transformer service area and power line levels are used, expressed through algorithms that provide parameters such as SAIFI, SAIDI, and peak power, indicating network losses. To spatially identify critical points in the infrastructure regarding network overloads and peak consumption periods system can suggest optimization measures and potential changes to transformer service zones. \r\nFor 3D structuring and analysis, geospatial data sources include DEM data for terrain topography representation, OSM buildings and roads for object and road representation, integrated through the MAPBOX environment via appropriate API services. Additionally, data on poles, transformer stations, transformer positions, and power lines for the medium-voltage network, as well as poles, power lines, and meters for the low-voltage network, are utilized.\r\nFor 3D visualization, the MAPBOX environment was used, where all infrastructure elements were created as assets in GLB format. Given the need for visualizing large amounts of 3D data and models, all elements were structured as 3D Tiles, enabling fast and efficient 3D visualization and analysis of these data.\r\nThe accuracy assessment of the structured network topology was conducted by controlling digitized system elements by comparing to data gained terrestrial measurement and  calculating RMSE parameters.",
+    "start_datetime": "2025-07-16T13:00:00Z",
+    "end_datetime": "2025-07-16T13:30:00Z",
+    "talk:code": "EDTY9C",
+    "talk:guid": "31f77950-8a77-5214-93dc-36783f38f49f",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Academic track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "PA01 (Quarticle)",
+    "talk:room_capacity": 95,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "YJ8CTC",
+        "name": "Mladen Amovi\u0107",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/YJ8CTC/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-16T13:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/EDTY9C/",
+      "title": "Implementation of a 2D/3D WebGIS for Electricity Network Management System"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/EDTY9C/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/YJ8CTC/",
+      "title": "Mladen Amovi\u0107"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/EDTY9C/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "implementation-of-a-2d-3d-webgis-for-electricity-network-man": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/EDTY9C/resources/Implementation_of_a_2D_3D_WebGIS_for_Ele_9ixQrs5.pdf",
+      "type": "application/pdf",
+      "title": "Implementation of a 2D/3D WebGIS for Electricity Network Management System",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/EDTY9C/resources/Implementation_of_a_2D_3D_WebGIS_for_Ele_JVI8SC7.odp",
+      "type": "application/vnd.oasis.opendocument.presentation",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/5EDcvQ45yrsnKWq1pAsX1L",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Implementation of a 2D/3D WebGIS for Electricity Network Management System",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=6FC5uSr4bq4",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Implementation of a 2D/3D WebGIS for Electricity Network Management System",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

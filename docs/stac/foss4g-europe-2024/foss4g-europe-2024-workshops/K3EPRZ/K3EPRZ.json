@@ -1,0 +1,108 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "K3EPRZ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Practical hands-on from data collection in the field using QField/QFieldCloud to a nice looking atlas",
+    "description": "The mobile app QField has become an important tool for data collection in the field due to its user-friendly interface and seamless integration with QGIS.\r\nIn this workshop we will understand the practical usage of QField for structured data collection in the field such as images, measures or characteristics of objects or plants in the field and how to use the data collected for creating a report using the QGIS atlas function.\r\nPractically speaking, in the first part of the workshop we will set up the QGIS project specifying all the necessary characteristics for the data collection.\r\nWe will explain how we usually set up a project to go in the field with a flexible, but quick-to-use data structure for collecting data QField.\r\nWe will then synchronize the data structure in QField via QFieldCloud, and understand how to use it for data collection.\r\n\r\nLastly we will synchronize the QField data back to QGIS and will create an organized atlas linked to a map for publishing or sharing!\n\nQField is the field data collection app for QGIS with over 250,000 active users and well over 850,000 downloads. QFieldCloud is the synchronization platform for QField and QGIS released in early 2023.\r\n\r\nLearn how to:\r\n- set up your project\r\n- transfer it to your device\r\n- bring field data back to the office\r\n\r\nIn this workshop, we will walk through the entire fieldwork process, including setting up your QGIS project, publishing the project via QFieldCloud, collecting data using the QField mobile app, and synchronizing field data back into your main dataset at the office.\r\nQField operates based on QGIS, allowing users to set up maps and forms in QGIS on their workstations and deploy them in the field. QField utilizes QGIS data providers such as OGR, GDAL, PostGIS, and others, supporting most common file formats.\r\nCombining a minimal design with advanced technology, QField enables intuitive display and data editing. The map representation in QField is supported by the QGIS rendering engine, ensuring identical results and providing the full range of styling options available on the desktop. Editing forms in QField respect the QGIS configuration and are optimized for touch interaction.\r\nQFieldCloud significantly simplifies collaboration in the field. We will explore user configuration with different rights, offline and online data collection, as well as the synchronization of field data and QGIS project data.",
+    "start_datetime": "2024-07-02T06:00:00Z",
+    "end_datetime": "2024-07-02T10:00:00Z",
+    "talk:code": "K3EPRZ",
+    "talk:guid": "73fd8560-9c2e-5886-879d-7f1556d989d0",
+    "talk:event": "foss4g-europe-2024-workshops",
+    "talk:type": "workshop",
+    "talk:language": "en",
+    "talk:room": "Room 301",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "NDFGNE",
+        "name": "Matthias KUHN",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024-workshops/speaker/NDFGNE/"
+      },
+      {
+        "code": "MYMVUL",
+        "name": "Ivan Ivanov",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024-workshops/speaker/MYMVUL/"
+      },
+      {
+        "code": "GZDQD8",
+        "name": "Laura Tinarelli",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024-workshops/speaker/GZDQD8/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-02T08:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024-workshops/talk/K3EPRZ/",
+      "title": "Practical hands-on from data collection in the field using QField/QFieldCloud to a nice looking atlas"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024-workshops/talk/K3EPRZ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024-workshops/speaker/NDFGNE/",
+      "title": "Matthias KUHN"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024-workshops/speaker/MYMVUL/",
+      "title": "Ivan Ivanov"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024-workshops/speaker/GZDQD8/",
+      "title": "Laura Tinarelli"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024-workshops/talk/K3EPRZ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-workshops"
+}

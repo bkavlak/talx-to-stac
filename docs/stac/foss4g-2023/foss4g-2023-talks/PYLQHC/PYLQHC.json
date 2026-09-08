@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "PYLQHC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "An interoperable Digital Twin to simulate spatio-temporal photovoltaic power output and grid congestion at neighbourhood and city levels in Luxembourg",
+    "description": "### Background \r\n\r\nCities are home to 72% of the population in Europe and account for 70% of the energy consumption. Being particularly vulnerable to climate change impacts, urban areas play a key role in carbon mitigation and energy transition. It is, therefore, of particular importance to increase renewable energy production for urban areas and cities. \r\n\r\nCities urgently require information about their potential for renewable energy production to target ultra-sustainable policies. Luxembourg has set very ambitious goals with its Plan National Inte\u0301gre\u0301 E\u0301nergie Climat (PNEC). It describes policies and measures to achieve ambitious national targets for reducing greenhouse gas emissions (-55%) as well as pushing renewable energy production (+25%) and energy efficiency (+40-44%) by 2030. \r\n\r\nPublic authorities often lack the expertise in integrated assessment and relevant simulation tools to support scientific evidence-based decisions about energy strategies, enhance interaction with stakeholders and accelerate energy transition. The main outputs of this study are related to the demonstration of the role of interoperable geographical digital twins based on Free and Open-Source software and geospatial software technologies in the simulation, monitoring and management of the current and near future renewable-based energy systems. \r\n\r\n \r\n\r\n### Approach and Concept \r\n\r\nThe scope of the presented work is to demonstrate the role of a 3D geographical urban digital twin in the context of a high penetration and optimised installation of PV and the impact of its power generation on the grid. Free and Open-Source software technologies build the basis of a web platform which implements a geographical digital twin based on open data, open OGC standards to build a fully interoperable Digital Twin. This allows the integration of open 3D CityGML data with simulation algorithms of renewable potentials and the energy grid system all into one technical interoperable architecture. \r\n\r\nThe objective of this study is to simulate the potential for building integrated and building attached solar photovoltaic (PV) electricity generation in use case cities, and later to scale up the results to a nationwide level. The approach taken involves several key steps: \r\n\r\n1. Estimation of electricity consumption of the building stock at local level, in order to understand the demand for electricity and the potential for PV generation. \r\n\r\n2. Simulation of the electricity generation potential of building-integrated and building-attached PV systems, considering factors such as rooftop and facade orientation and shading effects. \r\n\r\n3. Development and analysis of scenarios for different PV technologies, including consideration of techno-economic parameters such as feed-in-tariffs, lifetime of installation, efficiency, and power consumption. \r\n\r\n4. Selection of optimal locations for PV placement across the city, based on a combination of rooftop and facade suitability, electricity demand, and electricity grid nodes. \r\n\r\n5. Implement all steps into an interoperable web-based decision support platform providing advanced simulation and assessment tools using high resolution open building information. \r\n\r\n \r\n\r\n### Results \r\n\r\nGeospatial software technologies and 3D and 4D algorithms are building the core of the platform (based on iGuess\u00ae) to enable the planning of PV electricity generation from the local to the national scale. Global solar irradiation is simulated for each roof-top and fa\u00e7ade at a very high resolution, taking into account 3D shading effects of the surroundings in the urban environment. Scenarios for different PV technologies, feed-in tariffs and cost efficiencies and amounts of PV installations are computed to show impacts of spatio-temporal differing PV generation. This simulates the large increase of PV installations required to accelerate the development of sustainable energy and climate action plans (SECAPs) for all municipalities in Luxembourg and the entire nation.  \r\n\r\nThe developed platform serves multiple beneficiaries, e.g., Municipalities, urban planners etc. to support 3D based realistic urban energy planning. Citizens and energy communities can help shape their city and get access to high resolution information. This platform provides a tool for estimating long- as well as short- and mid-term PV power generation at high resolution across entire neighbourhoods and districts generating time-series data. \r\n\r\nFurthermore, we have implemented tools for the identification of cost-efficient PV placement/integration in buildings on roof-tops and facades to test the different scenarios and allow for interactive selection for optimal PV placement identification across the study area. \r\n\r\n \r\n\r\n### Conclusions \r\n\r\nThis paper presents the importance of geographical digital twins providing the core platform for the current energy transition from fossil fuels to renewables. The advantage of an interoperable geographical urban digital twin, as proposed here, provides the flexibility necessary to simulate and test scenarios for rapid, integrated urban planning under climate change. Based on open-source, open standards and open APIs, open data, simulation and assessment methods and tools can be seamlessly integrated to provide a 3D real world environment to assess and develop energy transition approaches. Different stakeholders, such as citizens, municipalities and businesses can act and be stimulated to enable a faster transition to renewable energy and harvest the full potential of improved urban planning based on geographical Digital Twin technologies.",
+    "start_datetime": "2023-06-29T12:30:00Z",
+    "end_datetime": "2023-06-29T13:00:00Z",
+    "talk:code": "PYLQHC",
+    "talk:guid": "03faf2d1-0131-5d52-925e-bdd9260834da",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Academic Track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT E / N209 - Floor 3",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "HENGUP",
+        "name": "Ulrich Leopold",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/HENGUP/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-29T12:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/PYLQHC/",
+      "title": "An interoperable Digital Twin to simulate spatio-temporal photovoltaic power output and grid congestion at neighbourhood and city levels in Luxembourg"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/PYLQHC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/HENGUP/",
+      "title": "Ulrich Leopold"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/PYLQHC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "9NHRGH",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Tracing the Chaos: Observability for Web Applications",
+    "description": "Learn how to bring real-time observability to your web applications using monitoring tools. We\u2019ll cover how to track errors, performance bottlenecks, and user-impacting issues without drowning in logs.\n\nObservability isn\u2019t just for big tech companies, large IT infrastructure or non spatial projects it\u2019s for all web applications too. In this lightning talk, I\u2019ll show how you can get  immediate insights into the real-world behaviour of your applications by using monitoring tools such as Sentry.  \r\n\r\nThe talk will use real world examples using Sentry which is a source-available platform with a strong open core model. While not fully OSI open source, it offers transparency, self-hosting, and a generous license for individuals and small teams. In this talk Sentry is used as a practical example, the focus is on core principles of observability and monitoring that apply broadly.\r\n\r\nWe\u2019ll start with a quick look at what observability means when working with modern web applications, and why traditional logging alone doesn\u2019t cut it. Then we will show examples of how monitoring integrates into applications, capturing uncaught exceptions, tracking performance issues like slow API calls or render delays, and tying everything back to real user sessions.\r\n\r\nI\u2019ll highlight how observability fits into your development workflow and surfacing issues in real time, grouping similar errors,. You\u2019ll also see how performance monitoring works out of the box and might you might need to  tweak to  get useful information, for example retrieving what is displayed on a spatial map.\r\n\r\nWhether you\u2019re debugging spatial maps not showing, flaky frontends or mysterious server errors, this talk will give you a fast, practical intro to making your apps more observable using open source tools you can start with today.",
+    "start_datetime": "2025-11-20T03:05:00Z",
+    "end_datetime": "2025-11-20T03:10:00Z",
+    "talk:code": "9NHRGH",
+    "talk:guid": "b9e689a1-620a-55ee-b832-3a3d5a0bab66",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Lightning talk",
+    "talk:type": "Lightning Talk",
+    "talk:language": "en",
+    "talk:room": "WG403",
+    "talk:room_capacity": 386,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "LLDHRA",
+        "name": "Jamie Sherriff",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/LLDHRA/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-20T03:07:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/9NHRGH/",
+      "title": "Tracing the Chaos: Observability for Web Applications"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/9NHRGH/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/LLDHRA/",
+      "title": "Jamie Sherriff"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/9NHRGH/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=e7jPOTEblCU",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Tracing the Chaos: Observability for Web Applications",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

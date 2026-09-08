@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "7LNNUU",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Analysis of Free and open Land Cover maps for agricultural land use planning at the local level",
+    "description": "The area of agricultural land for food production is limited and is constantly decreasing both in the world and in Bosnia and Herzegovina. According to the National Action Plan in Bosnia and Herzegovina (B&H), up to 1,600 ha of land are lost annually (NEAP BiH 2003). The prevention of degradation and sustainably controlled land use should be the most important parts of the land protection policy of every country and the local community. In order for this policy to be implemented properly, relevant indicators of the state of land resources are necessary (Predic et al. 2021). According to the Law on Agricultural Land of the Republic of Srpska, municipalities and cities are obliged to prepare a planning document \u201cGroundwork for Agricultural Land Protection, Use and Restructuring (The groundwork)\u201d. The Groundwork is made according to the FAO (Food and Agriculture Organization) model which consists of an inventory of land and climate resources, agro-ecological zoning, and economic-ecological zoning. With GIS modeling of existing data (pedology, digital elevation model, climate data,...) new relevant data were created (bonity, agro-ecological zoning, suitability of cultivation\u2026). It is intended for municipal authorities in decisions making in the process of land use and protection. GIS layer of the current condition of land cover and land use (hereinafter LC/LU) is one of the most important GIS layers for creating Groundwork.  It is necessary to make a precise GIS layer on a large scale in order to obtain relevant data on agricultural land and land use. The most precise method of making LC/LU is manual mapping of LC/LU classes with orthophotos and high-resolution satellite images combined with field verification. The critical point of this method is that it is time consuming.  On the other hand, \"free\" land cover data is available, such as Corine Land Cover (hereinafter CLC), OpenStreetMap,... In this paper, using free open source programs, a comparison of two sets of data representing land cover was performed: manually vectorized data with an orthophoto image of LC/LU and CLC. The aim of this paper is to determine the relevance of CLC data for the needs of land use planning at the level of administrative units in B&H. The study area is the municipality of Lakta\u0161i with an area of 38807 ha for which the LC/LU was created in 2018 at the same time as the CLC for B&H. The first phase of the comparison is the synchronization of LC/LU-CLC classifications. LC/LU classification is The Land Cover Classification System, (FAO LCCS, 2000) which is modifiable for the conditions of B&H. Both the LC/LU and the CLC classifications consist of classes divided into three levels. The main difference between LC/LU and CLC is that the LC/LU classification is primarily intended for the detailed identification of agricultural land. The LC/LU nomenclature is dominated by classes that represent agricultural land both in terms of land cover and in terms of use (18 out of a total of 36 classes). The smallest mapped area in LC/LU depends on the significance of a LC/LU class. For example, for the arable land class, it is 0.5 ha, and for the permanent crops class, it is 0.1 ha. The main reason is the fragmentation of properties in B&H (85% is dominated by less than 0.5 ha plots). Unlike the CLC classification, which discusses artificial surfaces in great detail and has 11 classes in the third level (111 Continuous urban fabric,.., 121 Industrial or commercial units,\u2026,142 Sport and leisure facilities), LC/LU classification has only 2 classes for artificial surfaces: Built up and Built up dominates. In this class, the minimum mapped area is 0.025 ha because it is necessary to accurately separate land areas that are temporarily or permanently lost to agriculture. Regardless of the above differences, it is possible to synchronize LC/LU and CLC classifications through third level classes. In the study area (Lakta\u0161i municipality) LC/LU GIS layer contains 23 out of 36 LC/LU classes (10707 polygons), and  CLC layer 16 out of 44 classes (177 polygons). In the study area, the CLC classification did not recognize 11 classes of LC/LU, of which 8 classes are precisely characterized by agricultural areas (greenhouses, vineyards, nurseries, meadows\u2026). The entire process of comparing and analyzing data was performed using QGIS with the support of the Python programming language. Using QGIS, the union of LC/LU and CLC polygons (14044 polygons) was performed. Using the Python programming language, an error matrix was created and the parameters of the quality of land cover maps were recalculated (Bratic et al., 2020). The obtained results show the accuracy of CLC with respect to LC/LU reference. Although the overall accuracy is 70%, the class-level results are showing that during the creation of CLC layers, a significant part of non-agricultural areas was marked as agricultural classes. For example, 19.4% LC/LU forest class and 42.4% LC/LU class built up, in CLC were mapped as arable dominated class. From the above example, in the studied area, a significalntly larger area of agricultural land was present in relataion to the actual state. After analyzing the results, it was concluded that the CLC in the studied area is not a sufficiently precise GIS basis for agricultural land use planning at the local level. However, it can be a good starting point for making of LC/LU, which would significantly shorten the time of its creating.",
+    "start_datetime": "2022-08-24T13:15:00Z",
+    "end_datetime": "2022-08-24T13:20:00Z",
+    "talk:code": "7LNNUU",
+    "talk:guid": "3ec034c7-b4f6-58ef-9a9d-18730b533f54",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "Room Hall 3A",
+    "talk:room_capacity": 85,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "SM3XMY",
+        "name": "StefanJovanovic",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/SM3XMY/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T13:17:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/7LNNUU/",
+      "title": "Analysis of Free and open Land Cover maps for agricultural land use planning at the local level"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/7LNNUU/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/SM3XMY/",
+      "title": "StefanJovanovic"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/7LNNUU/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

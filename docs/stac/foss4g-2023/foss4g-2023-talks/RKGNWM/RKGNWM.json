@@ -1,0 +1,114 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "RKGNWM",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "How I discovered, tested and fixed a bug in GeoDjango",
+    "description": "Here comes a developer story about **contributing to GeoDjango**.\r\n\r\nAn unfortunate combination of a valid, but unconventional spatial reference on the one hand, and \"smart\" logic for a mixed-geometry dataset: Geometries supposed to be located in Austria ended up in the Near East.\r\n\r\nInvestigation showed that GeoDjango's behaviour for returning the SRID of the dataset was not according to its documentation (see [Django ticket #34302](https://code.djangoproject.com/ticket/34302)). While fixing the issue, additionally, an incorrect type cast from `None` to string was discovered.\r\n\r\nIn this talk **you will also learn**:\r\n1. How to set up the GeoDjango test suite with a PostGIS docker container\r\n2. How the Django code review process looks like",
+    "start_datetime": "2023-06-28T12:35:00Z",
+    "end_datetime": "2023-06-28T12:40:00Z",
+    "talk:code": "RKGNWM",
+    "talk:guid": "4e437e12-a787-5e9c-8961-0110bf0a350c",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "UBT C / N110 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "UX7C3S",
+        "name": "Stefan Brand",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/UX7C3S/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T12:37:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/RKGNWM/",
+      "title": "How I discovered, tested and fixed a bug in GeoDjango"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/RKGNWM/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/UX7C3S/",
+      "title": "Stefan Brand"
+    },
+    {
+      "rel": "related",
+      "href": "https://code.djangoproject.com/ticket/34302",
+      "title": "Django ticket #34302"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/RKGNWM/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/9MpjJunVFNV6qSmcaLnQDA",
+      "type": "text/html",
+      "title": "2023 | How I discovered, tested and fixed a bug in GeoDjango - Stefan Brand",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=2KAz0xTdEWk",
+      "type": "text/html",
+      "title": "2023 | How I discovered, tested and fixed a bug in GeoDjango - Stefan Brand",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

@@ -1,0 +1,191 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "7JCU8E",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "NGV/survey: Offline data collection in 3D",
+    "description": "[NGV/Survey3d](https://github.com/geoblocks/ngv/tree/master/src/apps/survey) is a customizable web application to collect data, in 3D, while offline. This application was commissioned by [Historic Environment Scotland](https://www.historicenvironment.scot/) and developed in partnership with Camptocamp. It is opensource, based on CesiumJS.\r\n\r\nSwitch to offline mode, then:\r\n- navigate the scene;\r\n- see all POIs, filter them;\r\n- add or edit POIs;\r\n- fill in your form;\r\n- load pictures;\r\n- ... and synchronize to your backend when back online.\r\n\r\nThe application can be fully customized with:\r\n- your collection areas;\r\n- your 3d tilesets;\r\n- your imagery;\r\n- your form properties and its rules;\r\n- your backend APIs;\r\n- your authentication system.\r\n\r\nMany tools are available:\r\n- measures;\r\n- coordinates in local projection;\r\n- clipping polygons.",
+    "start_datetime": "2025-07-16T12:00:00Z",
+    "end_datetime": "2025-07-16T12:30:00Z",
+    "talk:code": "7JCU8E",
+    "talk:guid": "2f74e20d-e852-5e90-a381-3d010fb89eb6",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "SA01",
+    "talk:room_capacity": 130,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "YM8JYG",
+        "name": "Guillaume Beraudo",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/YM8JYG/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-16T12:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/7JCU8E/",
+      "title": "NGV/survey: Offline data collection in 3D"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/7JCU8E/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/YM8JYG/",
+      "title": "Guillaume Beraudo"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/geoblocks/ngv/tree/master/src/apps/survey",
+      "title": "NGV/Survey3d"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.historicenvironment.scot/",
+      "title": "Historic Environment Scotland"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/7JCU8E/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "choose-a-site-orientation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/7JCU8E/resources/hes_choose_a_site_and_orientation_eFPIfQi.png",
+      "type": "image/png",
+      "title": "Choose a site / orientation",
+      "roles": [
+        "data"
+      ]
+    },
+    "add-new-3d-poi": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/7JCU8E/resources/hes_pois_add_UbHdTuJ.png",
+      "type": "image/png",
+      "title": "Add new 3D POI",
+      "roles": [
+        "data"
+      ]
+    },
+    "list-existing-3d-pois": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/7JCU8E/resources/hes_pois_listing_7wbKUsg.png",
+      "type": "image/png",
+      "title": "List existing 3D POIs",
+      "roles": [
+        "data"
+      ]
+    },
+    "measure-distance": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/7JCU8E/resources/hes_tools_distance_T1639iv.png",
+      "type": "image/png",
+      "title": "Measure distance",
+      "roles": [
+        "data"
+      ]
+    },
+    "clip-polygon": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/7JCU8E/resources/hes_tools_clipping_l1izuO6.png",
+      "type": "image/png",
+      "title": "Clip polygon",
+      "roles": [
+        "data"
+      ]
+    },
+    "install-on-device": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/7JCU8E/resources/install_a8RKYyV.png",
+      "type": "image/png",
+      "title": "Install on device",
+      "roles": [
+        "data"
+      ]
+    },
+    "go-offline-online": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/7JCU8E/resources/offline_go_ZSJ1XuY.png",
+      "type": "image/png",
+      "title": "Go offline / online",
+      "roles": [
+        "data"
+      ]
+    },
+    "outside": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/7JCU8E/resources/hes_church_outside_LAhGvAU.png",
+      "type": "image/png",
+      "title": "Outside",
+      "roles": [
+        "data"
+      ]
+    },
+    "slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/7JCU8E/resources/FOSS4G_-_NGV_survey3d_talk_0GCvAeN.pdf",
+      "type": "application/pdf",
+      "title": "Slides",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/dAbZTXEBh6VmC9BkZJJrQt",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | NGV/survey: Offline data collection in 3D",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=x4KhemPhIGw",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | NGV/survey: Offline data collection in 3D",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

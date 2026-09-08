@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "MBDB3W",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Revamped INSPIRE Geoportal - Cooking the next generation of spatial data catalogues",
+    "description": "In force since 2007, the INSPIRE Directive has established a European Spatial Data Infrastructure to support European Union (EU) policies relevant to the environment. The INSPIRE Geoportal (https://inspire-geoportal.ec.europa.eu) constitutes its main component, being the central point of access to all datasets published by EU Member States falling under the scope of the Directive. Using the INSPIRE Geoportal, users can search for, access, visualize and download datasets published by more than 7000 data providers from across Europe.\r\nIn line with the open source strategy of the European Commission and the ambition towards a sustainable evolution of the INSPIRE infrastructure based on open source components, since 2021 the INSPIRE Geoportal is has been revamped by using cutting-edge, open source applications and open standards, while redesigning the way in which information and services are offered to users. \r\nThe process comprises deep changes in the Geoportal backend, totally renovating the underlying catalogue application: management interface, powerful harvesting engine, set of metadata, data and service linking tests, search engine, automatic metadata translation capabilities, containerization and deployment in a cloud environment. In addition, a new frontend (user interface) is integrated with the mentioned backend using APIs, making both layers more independent in terms of technological stack and update cycles.  \r\nThe application selected for achieving these goals is GeoNetwork opensource, currently constituting the catalogue choice of around 80% of Member States national geospatial data portals in the EU. Since its inception in 2001, it has been developed with a strong focus on international standards and many new features have been added over the years.\r\nDuring the last year, the GeoCat staff and the INSPIRE team at the European Commission\u2019s Joint Research Centre have closely collaborated in the development of a new powerful and versatile system for delivering the revamped INSPIRE Geoportal, contributing the improvements \u2013 to the maximum possible extent \u2013 to the core of GeoNetwork to maximize their exploitation by the geospatial community. \r\nMore in detail, the system encompasses a high-performance harvesting system based on a microservices, including link validation and reporting functionality. All these pieces have been developed as separate components, which can be scaled independently from other components within a GeoNetwork-based infrastructure. Performance and compliance to the INSPIRE Technical Guidelines formed part of the key requirements of the work. As a result, GeoNetwork capabilities for supporting the INSPIRE Directive will be substantially improved and completed in the toolkit. This, in turn, will also improve the transparency and collaboration between the national authorities and the European level.\r\nAt the end of this transitional phase for the INSPIRE Geoportal, foreseen by mid-2022, the project will deliver tangible benefits. Firstly, by providing EU Member States with an up-to-date and transparent toolkit for managing their geospatial metadata, data and services in compliance to the INSPIRE Directive monitoring and reporting obligations. Secondly, by making a direct valuable contribution to the core of GeoNetwork and to the whole open source geospatial community.",
+    "start_datetime": "2022-08-25T09:30:00Z",
+    "end_datetime": "2022-08-25T10:00:00Z",
+    "talk:code": "MBDB3W",
+    "talk:guid": "e91f0b20-9254-554e-9706-6026716354a4",
+    "talk:event": "foss4g-2022",
+    "talk:track": "A European approach to geospatial open source",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Auditorium",
+    "talk:room_capacity": 1000,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "XWGGBJ",
+        "name": "Jordi Escriu",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/XWGGBJ/"
+      },
+      {
+        "code": "BZBDEX",
+        "name": "Jeroen Ticheler",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/BZBDEX/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/MBDB3W/",
+      "title": "Revamped INSPIRE Geoportal - Cooking the next generation of spatial data catalogues"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/MBDB3W/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/XWGGBJ/",
+      "title": "Jordi Escriu"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/BZBDEX/",
+      "title": "Jeroen Ticheler"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/MBDB3W/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/74u1rsbKTbSxB2iPk49AF2",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Revamped INSPIRE Geoportal - Cooking the next generation of spatial data catalogues",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=0iM6zreo3co",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Revamped INSPIRE Geoportal - Cooking the next generation of spatial data catalogues",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

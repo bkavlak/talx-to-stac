@@ -1,0 +1,108 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "XMAGHX",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Urban Cycling: Intelligent Bicycle Sensors for Road Safety and Sustainability",
+    "description": "## 1. Introduction\r\nUrban transportation is transforming with a focus on sustainability and smart city initiatives. Cycling, a key element of sustainable urban mobility, needs robust infrastructure and reliable data for growth and integration into city planning. Despite advancements in sensor technology and (geo)data analytics, there is a gap in comprehensive collection and use of cycling-specific environmental, safety, and pathway data.\r\n\r\nOne major deterrent for citizens using bicycles are the perceived dangers in traffic. Identifying insecure sections is crucial to improving cycling infrastructure. Safe countermeasures can change negative perceptions and promote cycling as a safe and sustainable mode of transport. Traditionally, only actual crashes are included in official data, informing city planning decisions. However, analysing high-risk occurrences like near-miss incidents, which greatly impact the perceived danger, can provide a more accurate understanding of cycling safety.\r\n\r\nThere already exist a number of projects using different technologies to gather and provide data on bicycle safety and urban mobility, but combining environmental and road safety aspects is unique. Projects examining cyclist safety, particularly dangerously close overtaking manoeuvres, often involve remote data processing with machine learning or human analysis. Using live video or images from bike-mounted smartphones is effective but creates data overhead and privacy concerns. Additionally, microcontroller-based sensing systems can be complex to assemble, requiring technical skills and special equipment.\r\n\r\nThe objective of this work is to address the aforementioned gap by developing an innovative bicycle sensor system that leverages embedded artificial intelligence (AI) to process sensor data on the device. This approach has the potential to reduce data overhead and address privacy concerns while simultaneously providing actionable insights. Our work has the potential to make significant contributions to traffic and transport planning by providing valuable insights into traffic patterns and road safety concerns using extensive spatial datasets gathered by citizens.\r\n\r\n## System Design\r\nAt the core of our system is a microcontroller unit (MCU) of the senseBox family. The senseBox is a versatile, open hardware electronics kit specifically designed for citizen science projects and educational initiatives, with an emphasis on environmental monitoring and data collection.\r\n\r\nThe following environmental sensors are used:\r\n- Temperature & rel. Humidity (HDC1080)\r\n- Particulate Matter (SPS30)\r\n- Acceleration (MPU6050)\r\n- Time-of-Flight (ToF) ranging (VL53L8CX)\r\n\r\nMoreover, battery management, Bluetooth Low Energy (BLE), and OLED-Display modules are included for connectivity and user feedback. All parts fit into a custom designed, 3D printed enclosure which is attached to the seat post of a bicycle.\r\n\r\nThe device is communicating with an open source smartphone app using BLE which receives sensor data and combines them with geolocation data. Datasets are recorded and saved on the smartphone, but can also be uploaded to openSenseMap as open data during the ride. Users can control levels of privacy (e.g. by setting privacy zones) to foster digital sovereignty. \r\n\r\n## 2.1. Machine Learning on the Bike\r\nWe are introducing two approaches to utilise machine learning capabilities using Tensorflow Lite on the sensor device: overtaking detection and road surface / quality classification. By processing the data directly on the device instead of sending it to larger servers, bandwidth and energy consumption is kept minimal.\r\nIn the low resolution depth images recorded by the 8x8 multizone ranging ToF sensor, overtaking vehicles can be detected using shallow neural networks. This has already been described and implemented as a standalone solution in (Scharf et al., 2024), but for integrating it into the mobile sensor system some considerations for available processing capacities, suitable inference times and necessary accuracies will be addressed as part of this work. \r\nTo classify the road surface and its quality, the acceleration sensor will be used. While raw acceleration values can identify the roughness of a road, surface classifications and quality estimations can reveal deviations from intended surfaces to actual surfaces. Using acceleration values and geolocation data, we will explore training a machine learning model using OpenStreetMap Surface information as ground truth data.\r\n\r\n## 3. Workshops\r\nEngaging citizens in data collection, problem identification, and the construction of sensor stations empowers them and fosters the generation of new ideas. Our solution is a solder-free, easy-to-assemble mobile sensor device. We conduct a workshop in S\u00e3o Paulo, Brazil, where 20 participants build and mount their own mobile sensor device on bicycles. Afterwards, they collect environmental and bicycle-specific sensor data. Follow-up workshops in M\u00fcnster, Germany will allow the comparison of the contrasting bicycle infrastructures in these cities, as well as the general urban environment differences, and will provide valuable data and insights into participants' perceptions.\r\nThis collaborative effort enhances participants' understanding of scientific methods and urban mobility challenges while ensuring that the collected data reflects cyclists' authentic experiences. By involving citizens as active contributors, we aim to bridge the gap between scientific research and community needs, fostering a more inclusive and participatory approach to urban mobility solutions.\r\nAfter the workshops we conduct user studies with the workshop participants on the following topics:\r\nUsability: Through surveys at the end of each session and interviews, participants provide feedback on assembling, mounting and connecting the bicycle sensor device. \r\nTrust in Data: Participants review the data of their recorded dangerous takeovers and road surface types and compare its accuracy with their own perceptions.\r\n\r\n## 4. Conclusion and Future Work\r\nThis comprehensive evaluation aims to provide a thorough understanding of both the user experience and the technical performance of the system, ultimately guiding the data-driven foundation for improvements in urban mobility solutions. Insights gained from this work will inform future iterations of the project, ensuring the system collects high-quality data and meets the needs of cyclists, thereby effectively enhancing urban mobility and road safety not only for cyclists but for all users of the urban mobility system. Future works will include the development of an open source bike-related data analysis platform as a recommender system for bike infrastructure measures in cities.",
+    "start_datetime": "2024-12-04T20:45:00Z",
+    "end_datetime": "2024-12-04T21:15:00Z",
+    "talk:code": "XMAGHX",
+    "talk:guid": "00e1e00d-9469-584a-b244-a4cf08453b3c",
+    "talk:event": "foss4g-2024-academic-track",
+    "talk:track": "Academic Track",
+    "talk:type": "Oral Presentation 3",
+    "talk:language": "en",
+    "talk:room": "Room I",
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "CU8MFT",
+        "name": "Felix Erdmann",
+        "url": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/CU8MFT/"
+      },
+      {
+        "code": "SQLNU9",
+        "name": "Luis Fernando Villa\u00e7a Meyer",
+        "url": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/SQLNU9/"
+      },
+      {
+        "code": "TNLWFT",
+        "name": "Beatriz Gon\u00e7alves",
+        "url": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/TNLWFT/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-04T21:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/talk/XMAGHX/",
+      "title": "Urban Cycling: Intelligent Bicycle Sensors for Road Safety and Sustainability"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/talk/XMAGHX/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/CU8MFT/",
+      "title": "Felix Erdmann"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/SQLNU9/",
+      "title": "Luis Fernando Villa\u00e7a Meyer"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/TNLWFT/",
+      "title": "Beatriz Gon\u00e7alves"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/talk/XMAGHX/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-academic"
+}

@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "B7WFKK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "SkinnyWMS Meteorological Web Map Service",
+    "description": "The European Centre for Medium-Range Weather Forecasts (ECMWF) is an intergovernmental organisation that produces global numerical weather predictions and other data for its Member and Cooperating States and the broader community. It hosts one of the largest meteorological data archives in the world. ECMWF supports the open data community by providing data through its Public Datasets program and Open Charts. Additionally, the Centre has a long history of and extensive expertise in developing and providing software to process and visualize meteorological data.\r\n\r\nIn concert with these efforts, we developed SkinnyWMS \u2013 a lightweight Web Map Service for meteorological data. SkinnyWMS is currently used in the Copernicus Climate Data Store (CDS) and Germany\u2019s Meteorological Service (DWD) Geoportal. It provides out-of-the-box interactive visualisation for a large set of meteorological parameters. It offers built-in support for data stored in GRIB (WMO standard) and NetCDF (OGC standard) formats, which are commonly used in meteorology, climatology, and oceanography.\r\n\r\nSkinnyWMS is written in Python and is based on ECMWF\u2019s existing free and open source software ecCodes and Magics. It is free and open source software available under the Apache License 2.0. SkinnyWMS\u2019 code is hosted on GitHub and it's available as an Anaconda package, from PyPi and as a Docker image from Docker Hub.",
+    "start_datetime": "2022-08-24T09:00:00Z",
+    "end_datetime": "2022-08-24T09:30:00Z",
+    "talk:code": "B7WFKK",
+    "talk:guid": "70505e5e-8da9-5166-b2d3-b4bdd39a96cf",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room 4",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "WLSWU3",
+        "name": "Eduard Rosert",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/WLSWU3/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T09:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/B7WFKK/",
+      "title": "SkinnyWMS Meteorological Web Map Service"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/B7WFKK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/WLSWU3/",
+      "title": "Eduard Rosert"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/B7WFKK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/a5qqstjqUKiA69S55bjmrX",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | SkinnyWMS Meteorological Web Map Service",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=zhyM-fH7dV8",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | SkinnyWMS Meteorological Web Map Service",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

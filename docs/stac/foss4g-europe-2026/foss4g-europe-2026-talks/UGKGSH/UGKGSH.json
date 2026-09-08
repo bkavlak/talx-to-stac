@@ -1,0 +1,97 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "UGKGSH",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "Towards a modular and open API for interoperable energy WebGIS platforms",
+    "description": "The integration of WebGIS platforms into energy planning processes and territorial governance has become a widely recognized approach at the international level, owing to the ability of these tools to support complex analyses and strategic decision\u2011making in the fields of sustainable development. In this context, spatial analyses are increasingly required to assess renewable energy potentials, evaluate land\u2011use and environmental constraints, support multi\u2011energy system modelling and inform strategic decision\u2011making. By enhancing data sharing, accessibility and active engagement of multiple stakeholders, WebGIS platforms significantly broaden the opportunities for collaborative planning. The distinctive features of these tools - namely spatial and temporal analytical capabilities, management of large volumes of heterogeneous data and interactive visualization - make them particularly well suited to supporting complex and multidisciplinary decision\u2011making processes, such as those characterizing the governance of the decarbonization process across different administrative levels. \r\n\r\nOver the past decade, RSE has developed and maintained a broad ecosystem of WebGIS tools and processing services to support energy planning processes in Italy [1]. This ecosystem includes several thematic atlases dedicated to renewable energy resources, as well as an integrated national energy atlas to assess energy sources integration in the territory and a centralized geospatial database collecting datasets at multiple spatial and temporal resolutions. These platforms have been designed following open data principles and are freely accessible online, primarily relying on free and open-source software geospatial components and standards. Access to data is currently provided through web-based visualization interfaces, standard OGC services, and, where possible, data downloads in common GIS formats. \r\n\r\nWhile this approach has proven effective in supporting data dissemination and exploratory spatial analysis, it increasingly shows limitations in responding to evolving user needs. In particular, public administrations, researchers and technical users are progressively moving beyond map-centric usage patterns, requiring more flexible, programmatic and automated access to geospatial energy-related data. Users often need to integrate datasets from multiple sources into custom workflows, advanced modelling environments, dashboards or decision-support systems.  \r\n\r\nFrom a technical perspective, the current architecture is characterized by a strong emphasis on visualization and bulk data access, which limits the effective reuse of open geospatial data in more advanced and automated contexts. While users can explore datasets through WebGIS interfaces and, in some cases, download them, more targeted operations, such as obtaining the value of a dataset at a specific location, computing an aggregate over an area of interest (AOI) or extracting a time series, are not directly supported as machine-accessible services. At the same time, data extraction is currently implemented through multiple heterogeneous portals and ad hoc services, each with its own interaction model. Users may be required to browse large catalogs, generate scripts for local execution or submit requests that are processed asynchronously through separate systems. As a result, even simple analytical needs often require downloading entire datasets and performing local processing, which disrupts automated and reproducible workflows, while fragmentation across ad-hoc data extraction services leads to inconsistent user experiences, duplicated logic and greater access complexity. Thus, traditional WebGIS interfaces and view-oriented services alone are no longer sufficient. \r\n\r\nOvercoming these limitations requires a rethinking of the existing infrastructure, shifting from a model centered on visualization and bulk downloads to one based on programmatic, query\u2011driven access [2]. \r\n\r\nThis contribution presents the conceptual design and early implementation of a centralized and modular REST API intended to act as a unified access layer across the entire RSE geospatial data ecosystem. The API is designed to decouple data access and analytical capabilities from specific user interfaces, enabling consistent and programmatic interaction with geospatial datasets and services. \r\n\r\nThe proposed API addresses the previously detailed limitations by introducing a unified, query-driven access layer that complements existing WebGIS interfaces. Users can issue parameterized requests to retrieve only the specific information they need, including point-based queries, nearest-feature searches, spatial aggregations, time series extraction and filtered data subsets. These requests can be executed both interactively and programmatically, enabling direct integration into automated workflows, modelling pipelines and external applications. \r\n\r\nIn addition, the API extends the capabilities of WebGIS clients beyond standard OGC-based interactions. While WMS and GetFeatureInfo remain available for visualization and basic inspection, the API enables richer server-side operations triggered by user interactions, returning structured results suitable for advanced visualizations such as charts, indicators and dynamic summaries. \r\n\r\nA further key aspect is the integration of existing domain-specific tools and processing services. Currently exposed as standalone web applications or custom WebGIS components, these tools are preserved and made accessible through the API as part of a consistent access model. In this configuration, the API acts as an orchestration layer, routing requests to the appropriate internal service, harmonizing inputs and outputs and enforcing common policies for authentication, authorization, and usage control. \r\n\r\nOverall, the API would establish a single, consistent entry point for querying, extracting and processing geospatial data, shifting the ecosystem to a more flexible, query-driven model. This transition would significantly improve the accessibility, usability, and interoperability of open geospatial data, enabling more efficient, reproducible and scalable applications across a wide range of use cases. Moreover, by serving as a unified access layer, the API acts as an encapsulation boundary: it hides internal changes to data structures, storage systems, or processing workflows behind a stable interface, so client applications can remain unaffected as the system evolves. \r\n\r\nWithin the FOSS4G context, the proposed architecture demonstrates how mature open-source geospatial components can be enhanced with modern API-driven paradigms to support more dynamic and interoperable data ecosystems. In the specific case of the RSE tool ecosystem, this approach enables the incremental evolution of existing infrastructures, preserving consolidated tools while improving data accessibility, coherence and interoperability both among datasets and with external information systems. Overall, it represents a practical and transferable example of how open geospatial platforms can increase the value and usability of information assets without requiring disruptive redesigns.",
+    "start_datetime": "2026-06-30T09:40:00Z",
+    "end_datetime": "2026-06-30T09:45:00Z",
+    "talk:code": "UGKGSH",
+    "talk:guid": "fbfbe73a-a720-5001-b8c6-40436c72ec85",
+    "talk:event": "foss4g-europe-2026",
+    "talk:track": "Academic track",
+    "talk:type": "Academic lightening talk",
+    "talk:language": "en",
+    "talk:room": "A01",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "PCNKN9",
+        "name": "Matteo Gobbi Frattini",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/PCNKN9/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-06-30T09:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/UGKGSH/",
+      "title": "Towards a modular and open API for interoperable energy WebGIS platforms"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/UGKGSH/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/PCNKN9/",
+      "title": "Matteo Gobbi Frattini"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/UGKGSH/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2026/submissions/UGKGSH/resources/Presentation_sCvNY1Q.pdf",
+      "type": "application/pdf",
+      "title": "Slides",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

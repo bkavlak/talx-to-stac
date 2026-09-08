@@ -1,0 +1,104 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "RGNTLX",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "Under the hood: the technology powering Mergin Maps",
+    "description": "Building a mobile GIS that works offline, syncs reliably, and handles large datasets is not an easy task. At Mergin Maps, we have spent the last year re-engineering our core architecture to make the platform faster and more adapted for large-scale deployments. This talk breaks down exactly what has been upgraded and how to utilize the new features.\r\nWe will start with the Mobile Application, where we completed a major migration to Qt6 and overhauled our build system using VCPKG, making it work efficiently cross-platform. By building the new foundation, we have introduced features like Photo Sketching, which required deep integration with the QGIS rendering engine to allow vector overlays on raster images. We also implemented a new smart sync logic that triggers uploads based on user activity (like foregrounding the app) rather than just timers, saving battery and reducing conflicts. In addition, we have added QGIS authentication database support for protected layers and better integration.\r\nOn the Server side, we tackled the biggest bottleneck for large teams: concurrent synchronization. We completely rewrote the sync protocol to handle simultaneous requests and batch large uploads, significantly reducing timeouts during peak field hours. We will also show how we built the new Public Web Maps feature, which renders QGIS projects as lightweight vector tiles for instant browser access.\r\nFinally, we will cover the developer tools: full compatibility with the upcoming QGIS, expanded Python client methods for managing workspaces programmatically, and a native History Viewer for tracking feature-level changes directly in QGIS.",
+    "start_datetime": "2026-07-01T07:00:00Z",
+    "end_datetime": "2026-07-01T07:30:00Z",
+    "talk:code": "RGNTLX",
+    "talk:guid": "e3f7191a-57ab-5207-b071-65a610760214",
+    "talk:event": "foss4g-europe-2026",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "AM",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "89UQLP",
+        "name": "Gabriel Bolbotin\u0103",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/89UQLP/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-07-01T07:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/RGNTLX/",
+      "title": "Under the hood: the technology powering Mergin Maps"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/RGNTLX/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/89UQLP/",
+      "title": "Gabriel Bolbotin\u0103"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/RGNTLX/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "pdf-presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2026/submissions/RGNTLX/resources/Mergin_Maps_-_Under_the_Hood_kKPx0JQ.pdf",
+      "type": "application/pdf",
+      "title": "PDF presentation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "link-to-the-presentation": {
+      "href": "https://docs.google.com/presentation/d/1Ga2uQmObnJJXnQFrz9I8H5wcFUECppjAeHgp_Cs8ij4/edit?usp=sharing",
+      "title": "Link to the presentation",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "K7KV9Y",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "MapConductor: An Interoperability Layer for Mobile Map SDKs",
+    "description": "This talk presents MapConductor, a neutral open-source layer designed to improve interoperability among mobile map SDKs. Rather than replacing existing providers, it bridges ecosystems, supports shared conceptual models, and promotes flexible integration across diverse geospatial platforms.\n\nMobile map development relies on powerful SDKs such as Google Maps, Mapbox, HERE, ArcGIS, and MapLibre. Each of these SDKs provides unique strengths, architectural philosophies, and cloud integrations.\r\n\r\nHowever, differences in API design, camera systems, rendering models, and platform implementations make cross-SDK knowledge transfer difficult. Developers often need to rethink concepts when switching providers or supporting multiple SDKs.\r\n\r\nThis talk introduces MapConductor, an open-source interoperability layer that provides a unified declarative API across multiple mobile map SDKs.\r\n\r\nRather than replacing existing SDKs, MapConductor is designed to work alongside them \u2014 preserving their strengths while providing a shared conceptual model for markers, overlays, camera control, and geospatial operations.\r\n\r\nInspired by Kubernetes\u2019 orchestration model, MapConductor aims to enable flexibility and knowledge portability across map SDK ecosystems.\r\n\r\nWe will present architectural design decisions, technical challenges, performance considerations, and lessons learned from building a cross-SDK abstraction in real-world mobile applications.",
+    "start_datetime": "2026-09-02T04:30:00Z",
+    "end_datetime": "2026-09-02T05:00:00Z",
+    "talk:code": "K7KV9Y",
+    "talk:guid": "cf44f599-6c56-56e0-8e64-ac80ec763892",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room3",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "CQYY9D",
+        "name": "Masashi Katsumata",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/CQYY9D/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T04:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/K7KV9Y/",
+      "title": "MapConductor: An Interoperability Layer for Mobile Map SDKs"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/K7KV9Y/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/CQYY9D/",
+      "title": "Masashi Katsumata"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/K7KV9Y/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "SB7PQE",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "State of GDAL",
+    "description": "We will give a status report on the GDAL software, focusing on recent developments and achievements in the 3.4 and 3.5 GDAL versions released during the last year, but also on the general health of the project. In particular, we will present new drivers such as the one handing Zarr datasets (format for the storage of chunked, compressed, N-dimensional arrays) or the Spatio-Temporal Asset Catalog Items driver to create virtual mosaics from STAC items, and potential future additions such as a new JPEG-2000 based driver using the Grok library, a driver for the SAP Hana database or driver for columnar storage format  such as Apache Parquet and Arrow. The topic of coordinate epochs in geospatial datasets and how we\u2019ve addressed it in various formats (GeoTIFF, GeoPackage, FlatGeobuf) will also be mentioned. As well as other improvements such as the JPEG-XL codec for the GeoTIFF format, or support for 64-bit integer data types in rasters. We will present the new CMake build system, the roadmap for its implementation, and its advantages for users and developers.",
+    "start_datetime": "2022-08-26T09:30:00Z",
+    "end_datetime": "2022-08-26T10:00:00Z",
+    "talk:code": "SB7PQE",
+    "talk:guid": "cdcd18fc-0a08-5899-b86d-881052a5f33f",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Auditorium",
+    "talk:room_capacity": 1000,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RSWKM3",
+        "name": "Even Rouault",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/RSWKM3/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/SB7PQE/",
+      "title": "State of GDAL"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/SB7PQE/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/RSWKM3/",
+      "title": "Even Rouault"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/SB7PQE/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/e2DJziExRXVvvgmLiEAXom",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | State of GDAL",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=qW3-GowceI4",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | State of GDAL",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

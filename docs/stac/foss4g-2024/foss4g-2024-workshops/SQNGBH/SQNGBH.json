@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "SQNGBH",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "XYZ Cloud MAPPing 101",
+    "description": "Configure and deploy geospatial datasets, API, and mapping interfaces to the cloud for free (as in Beer).\r\n\r\nThis workshop will guide participants through the configuration of an XYZ host as an interface for spatial data hosted in a PostGIS database.\r\n\r\nThe database can be hosted as a free cloud service via neon.tech.\r\n\r\nThe XYZ application can be run as a local[host] express application or deployed as a cloud function via Vercel.\r\n\r\nEvery participant should be able to create a cloud service and be able to digitize and modify vector geometries and their properties stored in a PostGIS database.",
+    "start_datetime": "2024-12-02T12:00:00Z",
+    "end_datetime": "2024-12-02T16:00:00Z",
+    "talk:code": "SQNGBH",
+    "talk:guid": "1dadff5a-6d39-54b7-a3dd-d4b14ebc8445",
+    "talk:event": "foss4g-2024-workshop",
+    "talk:type": "Workshop",
+    "talk:language": "en",
+    "talk:room": "Room Mangal das Gar\u00e7as (C Block)",
+    "talk:room_capacity": 35,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "ULTVZF",
+        "name": "Dennis Bauszus",
+        "url": "https://talks.osgeo.org/foss4g-2024-workshop/speaker/ULTVZF/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-02T14:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/talk/SQNGBH/",
+      "title": "XYZ Cloud MAPPing 101"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/talk/SQNGBH/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/speaker/ULTVZF/",
+      "title": "Dennis Bauszus"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/talk/SQNGBH/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-workshops"
+}

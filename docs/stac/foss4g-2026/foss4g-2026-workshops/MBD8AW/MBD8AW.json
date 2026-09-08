@@ -1,0 +1,77 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "MBD8AW",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Registration Desk",
+    "description": "Registration Desk\r\n\r\nPlease collect your badge and any pre-ordered merchandise from the registration desk at the conference venue.\n\nRegistration Desk\r\n\r\nPlease collect your badge and any pre-ordered merchandise from the registration desk at the conference venue.\r\n\r\nLocation:\r\n- Workshop Day 1 (8/30): ***RCC Bunka Center Room 609\r\n- Workshop Day 2 (8/31): ***RCC Bunka Center 7th lobby\r\n\r\nOpening Hours:\r\n- Workshop days: 9:00\u201317:00\r\n\r\n\r\n\r\n\r\nRegistration / Check-in\r\n\r\nPlease present the QR code included in the confirmation email you received when registering for the Conference at the registration desk.",
+    "start_datetime": "2026-08-30T00:00:00Z",
+    "end_datetime": "2026-08-30T04:00:00Z",
+    "talk:code": "MBD8AW",
+    "talk:guid": "0bf2548b-031d-5005-bd12-98f7b569dcd0",
+    "talk:event": "foss4g-2026-workshop",
+    "talk:track": "Pickup Area",
+    "talk:type": "Registration",
+    "talk:language": "en",
+    "talk:room": "609",
+    "talk:room_capacity": 45,
+    "talk:duration_minutes": 240,
+    "talk:do_not_record": false,
+    "datetime": "2026-08-30T02:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/MBD8AW/",
+      "title": "Registration Desk"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/MBD8AW/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/MBD8AW/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-workshops"
+}

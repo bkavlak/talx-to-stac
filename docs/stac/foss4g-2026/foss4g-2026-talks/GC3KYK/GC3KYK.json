@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "GC3KYK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Detecting Quarry Pond Remnants on a Japanese Island Heritage Site Using Sentinel-2 Imagery and Open-Source Remote Sensing Tools",
+    "description": "This study applies Sentinel-2 satellite imagery and open-source Python tools\r\nto detect and map quarry pond remnants on Kitagi Island, a designated heritage\r\nsite in Japan's Seto Inland Sea, revealing spatial distributions consistent\r\nwith the island's historical quarrying records.\n\nKitagi Island (Kitagi-shima), located in Kasaoka City, Okayama Prefecture,\r\nJapan, has been a center of granite quarrying since the early 17th century.\r\nAt its peak in 1957, the island hosted 127 active quarry sites (called \"dojo\")\r\nwith a population of up to 12,000 people. As the quarrying industry declined,\r\nthe abandoned sites filled with rainwater and groundwater, forming isolated\r\nponds enclosed by steep granite walls. In 2019, the island's stone culture was\r\ndesignated as part of Japan's national heritage under the \"Stone Islands of\r\nSetouchi\" program. Despite their heritage significance, no systematic spatial\r\ninventory of these quarry pond remnants has been published.\r\n\r\nThis study applies Sentinel-2 L2A satellite imagery\u2014retrieved via the\r\nMicrosoft Planetary Computer STAC API\u2014to detect and map water bodies on\r\nKitagi Island using NDWI (Normalized Difference Water Index) and MNDWI\r\n(Modified NDWI). To improve detection of small water bodies subject to\r\nspectral mixing at 10 m resolution, we used a composite union condition\r\n(NDWI > \u22120.2 OR MNDWI > \u22120.1) combined with an NDVI-based vegetation mask.\r\nWe compared spring imagery (March 2025, 0.0% cloud cover) and summer imagery\r\n(August 2025, 0.7% cloud cover) to characterize seasonal detection differences.\r\n\r\nSpring imagery detected 113 intra-island water polygons (\u2265100 m\u00b2) with a\r\nmaximum area of 1.28 ha. Summer imagery detected 145 polygons, with spatial\r\nconcentrations in the northern, southeastern, central, and western parts of\r\nthe island\u2014a distribution consistent with historical records of quarry\r\nlocations. The NDVI vegetation mask contributed minimally to exclusion\r\n(9 pixels), suggesting that quarry ponds and vegetation zones do not\r\nsubstantially overlap in this granite-dominated landscape.\r\n\r\nResults are exported as GeoJSON and GeoTIFF for use as base data in future\r\nfieldwork and heritage documentation. The analysis pipeline uses exclusively\r\nopen-source Python libraries: rasterio, numpy, shapely, pystac-client,\r\nplanetary-computer, and folium.\r\n\r\nThis poster presents the methodology, detection results, and their\r\ncorrespondence with the island's quarrying history, and discusses the\r\npotential for extending the approach to other quarried islands in the\r\nSeto Inland Sea.",
+    "start_datetime": "2026-09-02T04:30:00Z",
+    "end_datetime": "2026-09-02T05:00:00Z",
+    "talk:code": "GC3KYK",
+    "talk:guid": "b41c81a2-f269-5a35-b5b3-d7dd692c3e32",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Himawari",
+    "talk:room_capacity": 300,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "YXFTUG",
+        "name": "Noboru Otsuka",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/YXFTUG/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T04:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/GC3KYK/",
+      "title": "Detecting Quarry Pond Remnants on a Japanese Island Heritage Site Using Sentinel-2 Imagery and Open-Source Remote Sensing Tools"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/GC3KYK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/YXFTUG/",
+      "title": "Noboru Otsuka"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/GC3KYK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "BSY973",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Geospatial and Apache Arrow: accelerating geospatial data exchange and compute",
+    "description": "The Apache Arrow (https://arrow.apache.org/) project specifies a standardized language-independent columnar memory format. It enables shared computational libraries, zero-copy shared memory, streaming messaging and interprocess communication without serialization overhead, etc. Nowadays, Apache Arrow is supported by many programming languages. \r\n\r\nGeospatial data often comes in tabular format, with one (or multiple) column with feature geometries and additional columns with feature attributes. This is a perfect match for Apache Arrow. Defining a standard and efficient way to store geospatial data in the Arrow memory layout (https://github.com/geopandas/geo-arrow-spec/) can help interoperability between different tools and enables us to tap into the full Apache Arrow ecosystem:\r\n\r\n- Efficient, columnar data formats. Apache Arrow contains an implementation of the Apache Parquet file format, and thus gives us access to GeoParquet (https://github.com/opengeospatial/geoparquet) and functionalities to interact with this format in partitioned and/or cloud datasets.\r\n- The Apache Arrow project includes several mechanisms for fast data exchange (the IPC message format and Arrow Flight for transferring data between processes and machines; the C Data Interface for zero-copy sharing of data between independent runtimes running in the same process). Those mechanisms can make it easier to efficiently share data between GIS tools such as GDAL and QGIS and bindings in Python, R, Rust, with web-based applications, etc.\r\n- Several projects in the Apache Arrow community are working on high-performance query engines for computing on in-memory and bigger-than-memory data. Being able to store geospatial data in Arrow will make it possible to extend those engines with spatial queries.",
+    "start_datetime": "2022-08-25T08:00:00Z",
+    "end_datetime": "2022-08-25T08:05:00Z",
+    "talk:code": "BSY973",
+    "talk:guid": "b8a53d49-d9f3-52ca-9660-540fda3a6e8a",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Room 4",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "FNXDSE",
+        "name": "Joris van den Bossche",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/FNXDSE/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T08:02:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/BSY973/",
+      "title": "Geospatial and Apache Arrow: accelerating geospatial data exchange and compute"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/BSY973/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/FNXDSE/",
+      "title": "Joris van den Bossche"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/BSY973/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/4gam2HnATkNAhjQGV1fMET",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Geospatial and Apache Arrow: accelerating geospatial data exchange and compute",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=_EVXcP24baI",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Geospatial and Apache Arrow: accelerating geospatial data exchange and compute",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

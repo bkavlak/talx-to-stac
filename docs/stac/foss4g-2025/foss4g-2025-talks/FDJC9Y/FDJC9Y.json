@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "FDJC9Y",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "GeoFM with OpenDataCube - From arrays to embeddings",
+    "description": "Groups have wrangled sufficient number of GPU's to scan through a lot of satellite data to create a good set of weights. This talk scans through a few GeoFM's (Geospatial Foundation Models) and how to put data through them while loading it via OpenDataCube.\n\nThis talk presents technical implementation and intercomparison of various geospatial foundation models using TerraTorch , the twist is loading satellite data collections via OpenDataCube tooling rather than built in sample datasets. A bit of pre-processing is necessary to make the foundation models comply with the dynamics of the data as-is from cloud native sources, however they stand up quite well and are generalizable for problems they are trained for. In addition, they can also generate embeddings which can be thought of as dimension reduced versions of source arrays that can then be used to fine tune and perform additional tasks the initial foundation model was not trained for.\r\n\r\nThis approach is used for demonstrating application of multiple foundation models - Prithvi v2.0, Clay and DOFA for burn scar mapping (Segmentation) and water quality inference (Regression) tasks.",
+    "start_datetime": "2025-11-19T03:00:00Z",
+    "end_datetime": "2025-11-19T03:25:00Z",
+    "talk:code": "FDJC9Y",
+    "talk:guid": "075b2721-1577-593c-86f8-63576161ebb3",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Use Cases and Applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WA220",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "7HVAP3",
+        "name": "Tisham Dhar",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/7HVAP3/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-19T03:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/FDJC9Y/",
+      "title": "GeoFM with OpenDataCube - From arrays to embeddings"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/FDJC9Y/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/7HVAP3/",
+      "title": "Tisham Dhar"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/FDJC9Y/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=W2SEgKF0DMg",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | GeoFM with OpenDataCube - From arrays to embeddings",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

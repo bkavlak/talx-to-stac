@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "KJAEP8",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "OSM planet data to vector tiles in a few hours: OpenMapTiles & Planetiler",
+    "description": "Converting OpenStreetMap planet data into vector tiles has been a complex and costly process, but now, thanks to the Planetiler project, it has become possible to do on a single powerful machine in just a few hours \u2013 over two orders of magnitude speed up!\r\n\r\nOpenMapTiles is a mature customizable tile generation framework and layer specification that can be tailored to specific tile generation needs. It has existed for many years, and allowed users to generate their own layers, optimizing for size or completeness. Over the years it moved to PostGIS-based ST_AsMVT approach, and made numerous small improvements. The biggest downside of OMT was the extensive hardware requirements.\r\n\r\nRecently Mike Barry rewrote core functionality of the OMT stack as a single monolithic app, making it possible to generate entire planet data in just a few hours on a single machine. Now the OMT community is actively adapting this new approach, researching if Rust would be even better approach, and experimenting how to make the process customizable and support real-time updates.",
+    "start_datetime": "2022-08-26T10:00:00Z",
+    "end_datetime": "2022-08-26T10:30:00Z",
+    "talk:code": "KJAEP8",
+    "talk:guid": "421afbe4-6131-5257-94fa-0248560d5a72",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room 4",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "VXXFNW",
+        "name": "Yuri Astrakhan",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/VXXFNW/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T10:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/KJAEP8/",
+      "title": "OSM planet data to vector tiles in a few hours: OpenMapTiles & Planetiler"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/KJAEP8/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/VXXFNW/",
+      "title": "Yuri Astrakhan"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/KJAEP8/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=1Qx8i4XR_7I",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | OSM planet data to vector tiles in a few hours: OpenMapTiles & Planetiler",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

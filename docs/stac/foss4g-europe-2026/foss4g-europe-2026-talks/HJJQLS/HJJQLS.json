@@ -1,0 +1,101 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "HJJQLS",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "Systematic Land Regulation Tool (SLRT) - Digitalization that goes beyond borders",
+    "description": "Cadastral data collection and land allocation is a key requirement in the world system of today.\r\nIn Laos, a complete dataset of the country remains missing and is continuously being updated. There is a central database (LaoLandReg) which is gradually being supplemented with paper forms. Land rights are scanned analogously with fingerprints and signatures and painstakingly entered into LaoLandReg.\r\n\r\nThis presentation will outline the project that has been ongoing for the last year in collaboration with the Laotian Ministry of Land Management, commissioned by KfW, to fully digitize cadastral management. The goal was to make the entire process more efficient, transparent, and future-proof.\r\n\r\n**Current Status:**\r\n\r\nCurrently, copies of the central LaoLandReg database are distributed to the individual provinces and used offline on local computers. State personnel use GPS devices to record the corner points of buildings and land parcels on-site. Attribute data, fingerprints, and signatures of neighbors are also collected. This information is then manually entered into the local database and, after several months, transmitted to the central system \u2013 a time-consuming and error-prone process.\r\n\r\n**The Solution:** Don't despair \u2013 ask Open-Source GIS! Using QGIS, QFieldCloud, and QField, in particular, we automated and optimized this complex workflow. Intelligent workflows, data linking, and flexible layouts make the entire process now significantly more efficient and transparent.\r\n\r\n**Special Feature:** \r\nThanks to this project, the new feature of [COGO - Coordinate Geometry](https://github.com/opengisch/QField/pull/6923) found its way to QField. COGO is a framework that allows you to define a precise location of any spatial feature, making use of mathematical functions and measurements.",
+    "start_datetime": "2026-07-01T09:00:00Z",
+    "end_datetime": "2026-07-01T09:30:00Z",
+    "talk:code": "HJJQLS",
+    "talk:guid": "50a9bd37-2855-5611-a8b5-aa47c7e77edc",
+    "talk:event": "foss4g-europe-2026",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "AM",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "MMXWUV",
+        "name": "Berit Mohr",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/MMXWUV/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-07-01T09:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/HJJQLS/",
+      "title": "Systematic Land Regulation Tool (SLRT) - Digitalization that goes beyond borders"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/HJJQLS/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/MMXWUV/",
+      "title": "Berit Mohr"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/opengisch/QField/pull/6923",
+      "title": "COGO - Coordinate Geometry"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/HJJQLS/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "link-to-slides": {
+      "href": "https://docs.google.com/presentation/d/1gBR3eSQ6T9D5LgIpbEUAnKg8M5mMXN2xZJuOmN2TWRQ/edit?usp=sharing",
+      "title": "LInk to Slides",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

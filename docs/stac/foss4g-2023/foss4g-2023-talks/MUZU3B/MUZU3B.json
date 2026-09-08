@@ -1,0 +1,114 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "MUZU3B",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Mapping COVID-19 epidemic data using FOSS.",
+    "description": "The recognition of spatial and temporal patterns in pandemic distribution plays a pivotal role in guiding policy approaches to its management, containment and elimination.\r\nTo provide information about spatial and temporal patterns of a phenomenon four steps are required: the collection of data, the organization and management of data, data representation as tables, charts and maps, and finally their analysis with geo-statistical tools (Trias-Llim\u00f3s et al 2020).\r\nThe collection of pandemic data poses a challenge: on the one hand, the highest spatial and temporal resolution is required to make the detection of patterns more effective (Carballada et al. 2021), allowing the application of containment tools as local as possible, on the other hand it presents major privacy problems.\r\nFor these reasons public COVID-19 datasets and maps are usually available at low spatial and temporal resolutions (Franch-Pardo et al. 2020), because averaging over time and space automatically provides a layer of anonymization by data aggregation.\r\nIn this research project, a database has been built and is continuously updated for the COVID-19 pandemic in the Trentino region, in the eastern Italian alps, near the border between Italy and Austria.\r\nThe Province of Trento, with a population of about 542,000 inhabitants, represents the primary corridor for transporting people and products between Italy, Austria and Germany. The area has also an intense tourist development, in particular for winter sports, with the presence of ski slopes, ski lifts and hotels.\r\nThese two features have been an important role in the diffusion of COVID-19 in the region because the movement of people, both through the main communication routes and the movement of tourists in the lateral valleys, has been the main driver in the virus spread. Therefore, the availability of a reliable database collecting COVID-19 cases, is fundamental to map the pandemic evolution (Mollalo et al. 2020).\r\nAt the same time the status of autonomous region of the Provincia Autonoma di Trento, allows greater discretion in the organization of health data, their scientific use and their dissemination. In this context the local government and the University of Trento, in particular its the Geo-cartographic Center (GeCo), have signed an Agreement for sharing COVID-19 data and their analysis (Gabellieri et al. 2021).\r\nThe resulting dataset collects the official number of the infected, clinically recovered, deceased people, and their age group. The dataset contains daily data at the municipal level, starting from the beginning of the COVID-19 epidemic in March 2020 until the whole 2022.\r\nData anonymization has been carried out by aggregating data on a weekly basis and by hiding data with small numbers, with the threshold set to 5.\r\nThe sole use of official data created by public agencies tasked with managing public health, specifically the local Health Authority (Agenzia Provinciale per i Servizi Sanitari, APSS), ensures the validity of their production process and strict observance of patient data confidentiality. rules\r\nA database management system and a WebGIS has been created using Free and Open Source Software.\r\nThe back end of the system runs a database management system (DBMS), which manages the data, including the spatial components, and a web server, which provides access to the users.\r\nThe DBMS runs on MySQL, a relational database management system (RDBMS) available as Free Software under the GNU General Public License. MySQL provides the capability of storing and processing geographic data, following the OpenGIS data model. A custom procedure has been created to update the dataset, with the capability to import data from suitably formatted spreadsheets. A roll back option is provided in case of failure of the import procedure. Data base management and update functionalities are available only to authenticated WebGIS administrators and accessible through a dedicated web page.\r\nThe main goals in the design and development of the WebGIS have been the ease of use and clarity of data presentation, both on large screens and on mobile devices. This approach maximizes the user performance while exploring the data, by splitting the processing tasks and load between  server and clients.\r\nThe system is comprised of a back end, running on a server, and a front end running in the user\u2019s web browser.\r\nCartographic data include background maps from the OpenStreetMap (OSM) project and a map of the municipalities boundaries for the Province of Trento, which serves as a spatial basis for the dataset. Tabular data are linked to the respective geographic components using the unique municipal code field as key. OSM maps are available with the Open Database License, while the municipalities boundaries have been provided by the Provincia Autonoma di Trento under a CC0 1.0 Universal (CC0 1.0) Public Domain Dedication license.\r\nA virtual machine that houses both software and data powers the system on the server side.\r\nThe client side uses the Open Source Leaflet Javascript language libraries, available under BSD 2-Clause License, with custom scripts, which create the user interface and render geographic data into maps. This approach ensures flexibility and  responsiveness on on desktop and mobile devices.\r\nThe exchange of the data between the server and the client is performed using geojson tables, created on the fly according to the user\u2019s request. In a similar way, the data temporal variation graph is created by the js library, which automatically reads the dates and times of the analyses, extracts the relevant data from the database and display the graph.\r\nAs long as they fit within the database structure, the system automatically uses all of the accessible data. To protect the privacy of the patients, WebGIS users cannot access the source data even though maps and graphs can be downloaded as pictures.\r\nThe WebGIS is available at http://covid19mappa-trentino.geco.unitn.it/geosmart/index.php\r\nGeo-statistical analysis aimed at the detection of spatial and temporal patters is underway.",
+    "start_datetime": "2023-06-28T13:10:00Z",
+    "end_datetime": "2023-06-28T13:15:00Z",
+    "talk:code": "MUZU3B",
+    "talk:guid": "c45b9107-84ad-59e2-bb9a-e31dee4ec2d3",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Academic Track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "UBT E / N209 - Floor 3",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "RR9F3U",
+        "name": "Paolo Zatelli",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/RR9F3U/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T13:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/MUZU3B/",
+      "title": "Mapping COVID-19 epidemic data using FOSS."
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/MUZU3B/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/RR9F3U/",
+      "title": "Paolo Zatelli"
+    },
+    {
+      "rel": "related",
+      "href": "http://covid19mappa-trentino.geco.unitn.it/geosmart/index.php",
+      "title": "covid19mappa-trentino.geco.unitn.it/geosmart/index.php"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/MUZU3B/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/uFkAE3U4PQhod71nSxmoiF",
+      "type": "text/html",
+      "title": "2023 | Mapping COVID-19 epidemic data using FOSS - Paolo Zatelli",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=AnmRd5881Is",
+      "type": "text/html",
+      "title": "2023 | Mapping COVID-19 epidemic data using FOSS - Paolo Zatelli",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

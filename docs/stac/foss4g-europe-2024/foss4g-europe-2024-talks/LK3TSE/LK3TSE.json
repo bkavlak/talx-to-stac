@@ -1,0 +1,132 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "LK3TSE",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Climate Risk Overview of Coastal Hotspots",
+    "description": "As part of the company\u2019s goal to make coastlines more resilient and work on nature based solutions, we created a tool which gives an overview of flood vulnerable areas and protected areas.\r\nUsing mostly open geodata and open source frontend libraries, the GIS and Data lab team at Van Oord worked on getting  together and analysing key parameters such as population, low-lying land and expected sea level rise to anticipate the hazard of flooding for global coastlines and societies. \r\nThe climate risk overview tool is open to use at:  https://climaterisk.data.vanoord.com\r\nThe tool is meant to encourage collaboration and discussion between different organizations on climate solutions for coastal hotspots and offer different views of areas near the coast based on selected criteria and applied filters.\r\nWe\u2019d like to talk about the process and some interesting GIS problems we came across during this project:\r\nSeveral iterations to break up the world\u2019s coastlines into equal polygon areas of 10 km2 were tried. With this as a base layer to make aggregated calculations of people exposed to flooding, it became tricky to capture the Small Island Developing States with the medium resolution data available. How did this get solved?\r\nAnother aspect we had to think about was how to load the results of over 60,000 points in a web map application, without a full-fledged backend, which performs well with respect to user experience \u2013 the user should be able to see instant results while applying various filters on the layer attributes. \r\nOur stack \u2013 Vue, Quasar, dc, PostGIS, Postgrest, Python",
+    "start_datetime": "2024-07-04T11:30:00Z",
+    "end_datetime": "2024-07-04T12:00:00Z",
+    "talk:code": "LK3TSE",
+    "talk:guid": "26322372-a240-590b-80a6-f4bfda39ce6c",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "QFieldCloud (246)",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "AWGXQE",
+        "name": "Zehra Jawaid",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/AWGXQE/"
+      },
+      {
+        "code": "W8FN8U",
+        "name": "G\u00f6rkem",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/W8FN8U/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-04T11:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/LK3TSE/",
+      "title": "Climate Risk Overview of Coastal Hotspots"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/LK3TSE/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/AWGXQE/",
+      "title": "Zehra Jawaid"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/W8FN8U/",
+      "title": "G\u00f6rkem"
+    },
+    {
+      "rel": "related",
+      "href": "https://climaterisk.data.vanoord.com",
+      "title": "climaterisk.data.vanoord.com"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/LK3TSE/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-zj": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/LK3TSE/resources/cro_foss4g_2024_newest_ojFA1d4.pdf",
+      "type": "application/pdf",
+      "title": "presentation_zj",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/eb5XnkE1VGFk9KMsB6tpSf",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Climate Risk Overview of Coastal Hotspots",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=xJBkBoBfKfI",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Climate Risk Overview of Coastal Hotspots",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

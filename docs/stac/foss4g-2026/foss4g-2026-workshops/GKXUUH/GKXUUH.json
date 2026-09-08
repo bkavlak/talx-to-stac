@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "GKXUUH",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Boundless Demand, Bounded Earth: A 3D Look at Cities and Resources",
+    "description": "An interactive workshop delivering 3D, place-based stories on biodiversity loss, climate pressures, finite resources, and urban growth. Participants build reusable maps and narratives with open-source tools, emphasizing transparent workflows, open data, and energy\u2013urban\u2013ecological interdependencies across depth, height, and time.\n\nThis workshop provides a hands-on, end-to-end workflow for telling place-based stories at the Anthropocene scale, linking biodiversity loss, climate pressures, finite resources, and rapid urban growth through three-dimensional storytelling. Participants will move data from open-source GIS into immersive environments, then render, animate, and publish compelling narratives that reveal how energy demand interacts with planetary boundaries.\r\n\r\nSession flow\r\n\r\nFoundation: Begin in QGIS to curate multi-layer datasets (biodiversity indicators, land use, population density, energy demand proxies, climate hazards) and build a scalable 3D base using open data. Layers are aligned to ensure consistency across platforms.\r\nVisualization (CesiumJS): Export geospatial assets as 3D tiles and globe-ready datasets. Demonstrate interactive, web-native visualization that preserves depth, height, and temporal change for audiences beyond GIS specialists.\r\nReal-time rendering (Blender): Import GIS assets to craft photorealistic landscapes, animated sequences, and cinematic micro-narratives. Leverage Blender\u2019s animation toolset to illustrate thresholds, tipping points, and resource flux with material, lighting, and atmosphere that convey urgency.\r\nInteractive worlds (Unreal Engine): Assemble a responsive, VR-ready or desktop experience that lets users explore urban cores, coastal interfaces, and subsurface contexts. Implement guiding narratives, data-driven gauges, and decision points that make planetary limits tangible in a dense urban setting.\r\nScripting and automation: The last three tools enable Python scripting to streamline pipelines\u2014data ingest and conversion in Python, asset manipulation in Blender, and workflow orchestration in Unreal Engine. Explore lightweight APIs to push data from QGIS to Blender and Unreal, then to CesiumJS for web deployment.",
+    "start_datetime": "2026-08-31T05:00:00Z",
+    "end_datetime": "2026-08-31T08:00:00Z",
+    "talk:code": "GKXUUH",
+    "talk:guid": "88e13d9d-fcbf-58b3-a7d4-b79412099ceb",
+    "talk:event": "foss4g-2026-workshop",
+    "talk:type": "Workshop",
+    "talk:language": "en",
+    "talk:room": "700",
+    "talk:room_capacity": 63,
+    "talk:duration_minutes": 180,
+    "talk:speakers": [
+      {
+        "code": "BAM8HQ",
+        "name": "bonny p mcclain",
+        "url": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/BAM8HQ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-08-31T06:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/GKXUUH/",
+      "title": "Boundless Demand, Bounded Earth: A 3D Look at Cities and Resources"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/GKXUUH/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/BAM8HQ/",
+      "title": "bonny p mcclain"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/GKXUUH/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-workshops"
+}

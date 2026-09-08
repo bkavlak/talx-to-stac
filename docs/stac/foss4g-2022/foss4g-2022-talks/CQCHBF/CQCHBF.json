@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "CQCHBF",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Publishing INSPIRE datasets in GeoServer made easy with Smart Data Loader and Features Templating",
+    "description": "GeoServer is a well-established multiplatform, open-source geospatial server providing a variety of OGC services, including WMS (view services), WFS and WCS (download services) as well as WPS (spatial data processing services). Among the open-source GIS web servers, GeoServer is well known for the ease of setup, the web console helping the administrator to configure data and services, the variety of OGC services available out of the box, as well as the rich set of data sources that it can connect to (open source, such as PostGIS as well as proprietaries, such as ArcSDE, Oracle or ECW rasters). GeoServer also provides several OGC APIs, including the OGC API - Features which recently attracted the interest of the INSPIRE community.\r\n\r\nAs far as the INSPIRE scenario is concerned GeoServer has extensive support for implementing view and download services thanks to its core capabilities but also to a number of free and open-source extensions; undoubtedly the most well-known (and dreaded) extension is App-Schema which can be used to publish complex data models (with nested properties and multiple-cardinality relationships) and implement sophisticated download services for vector data. Based on the feedback of App-Schema users collected over the years, a new generation of open-source mapping extensions have been implemented in GeoServer: Smart Data Loader and Features Templating, these extensions are built on top of App-Schema and ease the mapping of the data models by allowing us to act directly on the domain model and target output schema using a what you see is what you get approach.\r\n\r\nThis presentation will introduce the new GeoServer Smart Data Loader and Features Templating extensions, covering in detail ongoing and planned work on GeoServer. We will also provide an overview about how those extensions are serving as a foundation for new approaches to publishing complex data: publishing data models directly from MongoDB, embracing the NoSQL nature of it, and supporting new output formats like JSON-LD which allows us to embed well-known semantics in our data. Eventually, real-world use-cases from the organizations that have selected GeoServer and GeoSolutions to support their use cases will be introduced to provide the attendees with references and lessons learned that could put them on the right path when adopting GeoServer.",
+    "start_datetime": "2022-08-25T12:45:00Z",
+    "end_datetime": "2022-08-25T13:15:00Z",
+    "talk:code": "CQCHBF",
+    "talk:guid": "026fd6d8-4a51-5556-9bfd-a30a89b3e807",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room 9",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "CXTHFZ",
+        "name": "Nuno Oliveira",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/CXTHFZ/"
+      },
+      {
+        "code": "Y3VFFW",
+        "name": "Marco Volpini",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/Y3VFFW/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T13:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/CQCHBF/",
+      "title": "Publishing INSPIRE datasets in GeoServer made easy with Smart Data Loader and Features Templating"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/CQCHBF/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/CXTHFZ/",
+      "title": "Nuno Oliveira"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/Y3VFFW/",
+      "title": "Marco Volpini"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/CQCHBF/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=bdIOkX121SU",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Publishing INSPIRE datasets in GeoServer made easy with Smart Data Loader and\u2026",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

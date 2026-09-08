@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "VKNVJG",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "ZOO-Project: news about the Open Source Generic Processing Engine",
+    "description": "The ZOO-Project is an open-source processing platform released under the MIT/X11 Licence. It provides the polyglot ZOO-Kernel, a server implementation of the Web Processing Service (WPS) (1.0.0 and 2.0.0), and the OGC API - Processes standards published by the OGC. It contains ZOO-Services, a minimal set of ready-to-use services that can be used as a base to create more useful services. It provides the ZOO-API, initially only available from the JavaScript service implementation, which exposes ZOO-Kernel variables and functions to the language used to implement the service. It contains the ZOO-Client, a JavaScript API that can be used from a client application to interact with a WPS server.",
+    "start_datetime": "2024-12-05T18:00:00Z",
+    "end_datetime": "2024-12-05T18:30:00Z",
+    "talk:code": "VKNVJG",
+    "talk:guid": "8c88ea4d-f8e2-5510-951b-68af6f897c35",
+    "talk:event": "foss4g-2024",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room V",
+    "talk:room_capacity": 80,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "NHLV93",
+        "name": "G\u00e9rald Fenoy",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/NHLV93/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-05T18:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/VKNVJG/",
+      "title": "ZOO-Project: news about the Open Source Generic Processing Engine"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/VKNVJG/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/NHLV93/",
+      "title": "G\u00e9rald Fenoy"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/VKNVJG/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/cDAshqTcPaVwaEM5C1xf5A",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | ZOO-Project: news about the Open Source Generic Processing Engine",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=0Wtz3T0NC80",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | ZOO-Project: news about the Open Source Generic Processing Engine",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

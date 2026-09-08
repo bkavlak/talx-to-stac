@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "PR7HNK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "GDAL new command line interface: introduction and advanced topics",
+    "description": "GDAL 3.11 introduced a new command line interface (CLI), simply called \"gdal\", supplementing the traditional well-known GDAL utilities (gdal_translate, ogr2ogr, etc.), to provide users with a more uniform, predictable and user-friendly experience.\r\nThis workshop will give the opportunity to participants to get a hands-one experience to discover the capabilities of the new CLI through a series of exercices, including how to leverage them from Python.\n\nTarget audience: Suitable for those new to GDAL, as well as those already experienced with the traditional utilities and wishing to get to speed with the new CLI. Some familiarity with geospatial raster and vector data and coordinate systems is assumed but not strictly required. Participants should not be afraid of command line use! Some SQL and Python knowledge will be useful for advanced exercices. \r\n\r\nWe will start by exploring the general principles of the CLI and apply them to the various algorithms it offers:\r\n- exploring the contents and metadata of raster and vector datasets,\r\n- performing file format transformations,\r\n- subsetting, resampling, reprojection\r\n- mosaicing and tiling raster datasets\r\n- merging and partitioning vector datasets\r\n- pixel operations\r\n- DEM analysis (contour, hillshading, coloring, gridding, void filling)\r\n- building virtual rasters and mosaics\r\n- querying vector layers\r\n- multidimensional dataset management\r\n- Virtual System Interface (VSI) commands to list, copy, delete files\r\n\r\nWe will also cover more advanced topics, such as basic processing pipelines, replyable pipelines (.gdalg.json files), nested pipelines, tee operator, and explore how to use the new capabilities from Python.",
+    "start_datetime": "2026-07-03T11:00:00Z",
+    "end_datetime": "2026-07-03T15:00:00Z",
+    "talk:code": "PR7HNK",
+    "talk:guid": "bf26aa35-d449-5eab-99b8-fc11f283a861",
+    "talk:event": "foss4g-europe-2026-workshops",
+    "talk:type": "workshop",
+    "talk:language": "en",
+    "talk:room": "059",
+    "talk:room_capacity": 30,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "RSWKM3",
+        "name": "Even Rouault",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026-workshops/speaker/RSWKM3/"
+      },
+      {
+        "code": "L7JZRE",
+        "name": "Seth Girvin",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026-workshops/speaker/L7JZRE/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-07-03T13:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/talk/PR7HNK/",
+      "title": "GDAL new command line interface: introduction and advanced topics"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/talk/PR7HNK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/speaker/RSWKM3/",
+      "title": "Even Rouault"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/speaker/L7JZRE/",
+      "title": "Seth Girvin"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/talk/PR7HNK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-workshops"
+}

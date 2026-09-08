@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "DTJSU3",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Surveying amenities for OSM at scale",
+    "description": "OpenStreetMap editing transitions to mobile devices. There are few editing apps, and the best ones are thematical. This year I've published \"Every Door\": an app specifically designed to collect hundreds of shops and amenities. I've made it with the experience of mapping in OSM, making a Telegram bot of a similar purpose, and studying geospatial UX design. I've surveyed half a thousand amenities with the bot, and even more \u2014\u00a0with this new app.\r\n\r\nIn this talk we'll briefly touch on the app itself and the OSM tagging model. The main attraction would be map UX design: why you should remove the most interactivity from your maps. These are hard to use even on desktop, and a small screen provides an even bigger challenge. Can we get rid of them altogether? Let's see how working with maps can be made efficient, and how the ideas behind this app can make geodata collection apps better.",
+    "start_datetime": "2022-08-25T07:30:00Z",
+    "end_datetime": "2022-08-25T08:00:00Z",
+    "talk:code": "DTJSU3",
+    "talk:guid": "de40c4ab-cc91-531a-ad4c-f28f0ff44c2b",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Limonaia",
+    "talk:room_capacity": 110,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "VCRXZS",
+        "name": "Ilya Zverev",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/VCRXZS/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T07:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/DTJSU3/",
+      "title": "Surveying amenities for OSM at scale"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/DTJSU3/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/VCRXZS/",
+      "title": "Ilya Zverev"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/DTJSU3/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/s3ywda2y1ca9EcMpgbJAsd",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Surveying amenities for OSM at scale",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=GR5hgZDNBIw",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Surveying amenities for OSM at scale",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "UUF3NZ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Serverless Watershed Extraction: Benchmarking Zarr vs COG for Large-Scale Flow Direction Data",
+    "description": "Watershed delineation is essential for flood hazard mapping to minimize disaster impacts. Traditional approaches require time-consuming DEM preparation and preprocessing. This presentation introduces a serverless function that extracts watersheds from nationwide flow direction data hosted on cloud storage, comparing performance between COG and Zarr formats.\n\n### Background\r\nWatershed delineation is essential for flood hazard mapping and disaster risk assessment. Traditional workflows require downloading large DEM datasets, performing preprocessing, and running computationally intensive algorithms\u2014a process taking hours or days. This creates barriers for rapid assessment and limits accessibility for practitioners without specialized GIS infrastructure.\r\n\r\n### Approach\r\nThis presentation introduces a serverless watershed extraction system using AWS Lambda. Users click a point on a web map, triggering upstream cell tracing on cloud-hosted J-FlwDir (Japan's nationwide flow direction dataset). The system generates GeoTIFF and transparent PNG outputs, returning presigned S3 URLs within seconds.\r\n\r\n### Performance Comparison\r\nThis presentation compares COG and Zarr performance using real-world test cases on AWS Lambda. Initial benchmarks on large basins (millions of cells) demonstrate both formats process watersheds interactively, with measurements of total time and phase breakdown (extraction, GeoTIFF generation, PNG rendering, S3 uploads). Analysis identifies bottlenecks and discusses optimization opportunities such as chunk size configuration.",
+    "start_datetime": "2026-09-03T05:30:00Z",
+    "end_datetime": "2026-09-03T06:00:00Z",
+    "talk:code": "UUF3NZ",
+    "talk:guid": "18e45561-2b30-5647-8b7d-502411724110",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "FE8CVT",
+        "name": "Shinsuke Nakamori",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/FE8CVT/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-03T05:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/UUF3NZ/",
+      "title": "Serverless Watershed Extraction: Benchmarking Zarr vs COG for Large-Scale Flow Direction Data"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/UUF3NZ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/FE8CVT/",
+      "title": "Shinsuke Nakamori"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/UUF3NZ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "G8K8VT",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "State of the MapLibre Tile Format",
+    "description": "The MapLibre Tile Format is a new open, community-governed successor designed to overcome compression, interoperability, and extensibility limits of old.\r\n\r\nThis talk explains its design principles, and ongoing development, including compression, and tooling, while outlining the roadmap and opportunities for solving the hard problems we all face.\n\nThe MapLibre community is currently in the midst of developing the MapLibre Tile Format, a modern, open, and fully community-governed successor to the ubiquitous Mapbox Vector Tile (MVT) format. While MVT has served the mapping ecosystem well for over a decade, it also carries historical constraints that limit interoperability, formal specification quality, extensibility, and independence from proprietary platforms. As MapLibre continues to grow as the central open-source foundation for web-based map rendering, it has become increasingly clear that a future-proof, openly specified, and collaboratively designed tile format is essential.\r\n\r\nThis talk will offer a look into why we initiated this engineering effort and what gaps the new format aims to close. I will explain the core design principles behind the specification\u2014clarity, strictness where needed, optionality where useful, and full transparency throughout the process. Attendees will gain a technical understanding of how the format works, including its data model, feature encoding strategy, metadata approach, and compatibility considerations for existing infrastructure.\r\n\r\nBeyond the current specification draft, I will outline the major areas still under active development. These include discussions about schema evolution, advanced geometry representations, compression strategies, and interoperability with raster, elevation, 3D  and non-geographic datasets. I will also provide insight into the collaborative workflow between maintainers, researchers, vendors, and the wider open-source community, highlighting where contributions and feedback are particularly welcome.\r\n\r\nFinally, the talk will cover how the rollout is progressing in practice. This includes early tooling support, reference implementations, testing frameworks, and real-world trials by organizations exploring migration paths away from MVT. The session will present an honest, up-to-date snapshot of the project\u2019s status and a forward-looking roadmap for the next stages of development, helping the community understand both what is ready today and what is still on the horizon.",
+    "start_datetime": "2026-09-01T05:30:00Z",
+    "end_datetime": "2026-09-01T06:00:00Z",
+    "talk:code": "G8K8VT",
+    "talk:guid": "e4a9707f-863f-5933-a33b-c3073156b420",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Ran2",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "VXXFNW",
+        "name": "Yuri Astrakhan",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/VXXFNW/"
+      },
+      {
+        "code": "LB7BHQ",
+        "name": "Frank Elsinga",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/LB7BHQ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T05:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/G8K8VT/",
+      "title": "State of the MapLibre Tile Format"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/G8K8VT/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/VXXFNW/",
+      "title": "Yuri Astrakhan"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/LB7BHQ/",
+      "title": "Frank Elsinga"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/G8K8VT/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

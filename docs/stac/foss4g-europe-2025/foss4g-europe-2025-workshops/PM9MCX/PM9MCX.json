@@ -1,0 +1,93 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "PM9MCX",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8094,
+      43.3416
+    ]
+  },
+  "bbox": [
+    17.8094,
+    43.3416,
+    17.8094,
+    43.3416
+  ],
+  "properties": {
+    "title": "Building REST API over your PostGIS database",
+    "description": "Ever wonder what it'll be like to \"just\" get APIs for your **PostGIS** database? \r\nThis workshop is for people:\r\n- Have spatial data in PostGIS\r\n- Want to store their spatial data in PostGIS\r\n- Want REST APIs over their data\r\n\r\n**Summary**:\r\nMost applications out there are just versions of **\"CRUD on Data\"** and spatial data is no different. While there are certainly a lot of things you can do with `spatial data`, the CRUD part remains the same.\r\nThe workshop will be divided in two parts:\r\n- Working with spatial data in PostGIS \r\n- Building APIs over PostGIS using PostgREST\r\n\r\n\r\n**Part 1:Working with PostGIS**\r\nIf you are well versed with PostGIS you can skip this section.\r\n- Introduction to postgres and the extension PostGIS \r\n- Installation of PostGIS  \r\n   - Normal installation \r\n   - Installation using Docker \r\n   - Other ways: Demo test server connected using Dbeaver, pgAdmin etc \r\n- Storing PostGIS \r\n- Reading from PostGIS \r\n    - Connecting to QGIS\r\n    - Visualizing in the tool (Dbeaver & pgAdmin)  \r\n-  Updating the PostGIS data \r\n    - Standard SQL commands \r\n    - Useful functions like ST_Area  as generated columns \r\n- Deleting the data \r\n\r\n~~ Break ~~ \r\n\r\n**Part 2: Working with PostgREST**  \r\n- Introduction to PostgREST\r\n- Installing PostgRest  \r\n   - Docker \r\n   - Demo server \r\n- Understanding PostgREST APIs \r\n- Basic Configuration \r\n- More granular control over data \r\n\r\n**Outro** \r\n- Where to go from here? \r\n- Q&A",
+    "start_datetime": "2025-07-14T07:00:00Z",
+    "end_datetime": "2025-07-14T11:00:00Z",
+    "talk:code": "PM9MCX",
+    "talk:guid": "2a5be4cc-0bc7-54a4-90f9-664e858e37b5",
+    "talk:event": "foss4g-europe-2025-workshops",
+    "talk:type": "workshop",
+    "talk:language": "en",
+    "talk:room": "PA01",
+    "talk:room_capacity": 95,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "8MGXWG",
+        "name": "json singh",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025-workshops/speaker/8MGXWG/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-14T09:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025-workshops/talk/PM9MCX/",
+      "title": "Building REST API over your PostGIS database"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025-workshops/talk/PM9MCX/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025-workshops/speaker/8MGXWG/",
+      "title": "json singh"
+    },
+    {
+      "rel": "related",
+      "href": "https://jsonsingh.com/work",
+      "title": "jsonsingh.com/work"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025-workshops/talk/PM9MCX/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-workshops"
+}

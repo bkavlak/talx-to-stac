@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "SZ7AKX",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Rethinking Feature Data Services: A Composable Architecture for Geospatial APIs",
+    "description": "Learn to overcome geospatial scaling bottlenecks by moving from monolithic designs to a composable architecture. We introduce Meros, an open-source feature data service, demonstrating how decoupling APIs\u2014like OGC API - Features\u2014from databases creates highly flexible, resilient, and easily deployable services.\n\nAs geospatial applications increasingly move into cloud environments, the traditional monolithic approach to serving feature data is starting to show its limitations. Teams often encounter familiar challenges such as scaling bottlenecks, infrastructure lock-in, and increasing friction when integrating geospatial services with modern distributed databases and cloud platforms.\r\n\r\nThis talk explores a practical approach to rethinking how feature data services can be designed and operated. By adopting a composable architecture, we decouple the API layer from the underlying database storage, allowing each component to evolve and scale independently. This architectural shift enables geospatial APIs\u2014such as OGC API - Features\u2014to become significantly more flexible, deployable as lightweight services, and adaptable to a variety of modern data stores.\r\n\r\nTo demonstrate this approach, we introduce **Meros**, an open-source feature data service developed by our team. Meros implements a modular architecture that separates the API layer, feature service logic, and database adapters. This allows the system to seamlessly integrate with different databases while remaining simple to deploy and operate.\r\n\r\nIn this session, we will share the journey of designing and building Meros from the ground up. We will explore the key architectural decisions behind the system, discuss the operational benefits of a decoupled design, and present practical considerations for deploying and scaling its components. By the end of the talk, developers and architects will walk away with a practical case study\u2014giving them a tangible starting point to build their own resilient, adaptable feature data services.",
+    "start_datetime": "2026-09-03T05:30:00Z",
+    "end_datetime": "2026-09-03T06:00:00Z",
+    "talk:code": "SZ7AKX",
+    "talk:guid": "43a45d94-d67d-508d-851c-b9b9483bba72",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room5",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "P7BRUZ",
+        "name": "Siriya Saenkhom-or",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/P7BRUZ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-03T05:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/SZ7AKX/",
+      "title": "Rethinking Feature Data Services: A Composable Architecture for Geospatial APIs"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/SZ7AKX/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/P7BRUZ/",
+      "title": "Siriya Saenkhom-or"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/SZ7AKX/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

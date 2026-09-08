@@ -1,0 +1,108 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "PG3N79",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Development of a Wildfire Fireline Visualization Pilot System and Its Enhancement Plan Using Open-Source GIS Technologies",
+    "description": "This study introduces a three-dimensional GIS-based wildfire fireline visualization system developed using open-source GIS technologies. The ultimate goal is to further develop the system into a real-time wildfire monitoring platform that can support rapid and effective responses to large-scale wildfires in the future.\n\nIn recent years, the impacts of climate change have led to a continuous increase in the scale, speed, and simultaneous occurrence of wildfires. As a result, there is a growing need to establish response systems capable of rapidly and accurately identifying the extent of wildfire damage, as well as the rate and direction of fire spread. In particular, technologies that quantitatively generate and utilize wildfire fireline information from the initial ignition stage through the spread phase play a critical role throughout the entire field response process, including resource allocation, evacuation planning, and the development of firefighting strategies.\r\n\r\nTo address this need, a pilot system capable of real-time visualization of wildfire firelines and hotspots has been developed as one of the foundational technologies for wildfire response systems. First, three-dimensional building and terrain data were generated using mago 3DTiler and mago 3DTerrainer and visualized in a web environment based on CesiumJS. In addition, a spatial data management environment based on GeoServer and PostgreSQL was established to collect and manage various datasets required for wildfire monitoring. Within this 3D GIS visualization environment, wildfire fireline and hotspot data in GeoJSON format were displayed, and additional functions were implemented to facilitate easy inspection and analysis of the data.\r\n\r\nThe ultimate goal of the wildfire fireline visualization pilot system is to collect fire hotspot and fireline data obtained from various observation platforms in an integrated manner, visualize them in real time, and provide diverse visualization functions that support decision-making in wildfire response. Currently, collaborating research institutions are also developing a fireline extraction algorithm based on an integrated three-tier observation framework combining ground-based, aerial, and satellite observation resources. The results of this algorithm will be visualized through the system.\r\n\r\nThrough further advancement of this pilot system, it is expected to serve as a foundational technology that supports the integrated utilization of wildfire observation data and enhances real-time situational awareness in wildfire monitoring and response.",
+    "start_datetime": "2026-09-02T08:30:00Z",
+    "end_datetime": "2026-09-02T09:00:00Z",
+    "talk:code": "PG3N79",
+    "talk:guid": "572ce5c8-e5ac-5807-9d44-d619cfa10b63",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room4",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "NE88QM",
+        "name": "Juhyeon Gim",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/NE88QM/"
+      },
+      {
+        "code": "XM93WQ",
+        "name": "YOUNGWOOK YIM",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/XM93WQ/"
+      },
+      {
+        "code": "DSJR7B",
+        "name": "dawoon Kim",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/DSJR7B/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T08:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/PG3N79/",
+      "title": "Development of a Wildfire Fireline Visualization Pilot System and Its Enhancement Plan Using Open-Source GIS Technologies"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/PG3N79/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/NE88QM/",
+      "title": "Juhyeon Gim"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/XM93WQ/",
+      "title": "YOUNGWOOK YIM"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/DSJR7B/",
+      "title": "dawoon Kim"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/PG3N79/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

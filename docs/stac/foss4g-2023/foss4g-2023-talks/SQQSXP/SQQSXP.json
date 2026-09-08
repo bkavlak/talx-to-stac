@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "SQQSXP",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Earth-Search: A STAC API of Open datasets on AWS",
+    "description": "Earth-Search is a publicly available SpatioTemporal Asset Catalog (STAC) API providing an index for some of the public datasets available through the AWS Registry of Open Data (RODA) and has been shown to be a valuable resource for accessing the Sentinel-2 archive as Cloud-Optimized GeoTIFFs. A new version of Earth-Search is an update and enhancement of the Sentinel-2 metadata as well as new Collections of data available on AWS, including Landsat Collection 2, NAIP, and Sentinel-1.\r\n\r\nThis talk will include a summary of the STAC catalog, what STAC extensions are used and how the data is best accessed based on file formats. We will also dive into the datasets that are available through the API and will present the architecture for indexing including a discussion of data latency. We will provide resources and tutorials for how to get started with public geospatial datasets on AWS.",
+    "start_datetime": "2023-06-28T10:00:00Z",
+    "end_datetime": "2023-06-28T10:30:00Z",
+    "talk:code": "SQQSXP",
+    "talk:guid": "3ee62295-6052-5db3-b9c0-e6036035db69",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Open Data",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Lumbardhi",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "W8MQ89",
+        "name": "Matthew Hanson",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/W8MQ89/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T10:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/SQQSXP/",
+      "title": "Earth-Search: A STAC API of Open datasets on AWS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/SQQSXP/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/W8MQ89/",
+      "title": "Matthew Hanson"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/SQQSXP/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/8REPGMqnXicmDfaGngqTGd",
+      "type": "text/html",
+      "title": "2023 | Earth-Search: A STAC API of Open datasets on AWS  - Matthew Hanson",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=iTpus3GtIqA",
+      "type": "text/html",
+      "title": "2023 | Earth-Search: A STAC API of Open datasets on AWS  - Matthew Hanson",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

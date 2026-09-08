@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "SZA7P8",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Beyond Shapefile: A Taxonomy of Modern Geospatial Data Formats",
+    "description": "The geospatial ecosystem has evolved, introducing formats optimized for rendering, cloud-native access, and large-scale analytics. This talk provides a structured overview of formats including MVT, MLT, 3D Tiles, PMTiles, FlatGeobuf, and GeoParquet, explaining their core concepts, trade-offs, and how to combine them in modern geospatial workflows.\n\nShapefile has long been the industry standard, but the geospatial ecosystem has evolved rapidly. A new generation of data formats has emerged, each optimized for specific workloads such as visualization, cloud-native distribution, or large-scale analytics.\r\n\r\nThis talk provides a structured introduction to the modern geospatial format landscape. We cover rendering-optimized formats like MVT, MLT, and 3D Tiles, cloud-native containers such as PMTiles, and analytics-oriented formats including FlatGeobuf, GeoParquet, and GeoArrow. For each format family we explain the core concepts, design trade-offs, and typical use cases.\r\n\r\nWe also show how these formats complement each other and can be combined in real-world workflows \u2014 from data processing pipelines to interactive web map applications.\r\n\r\nWhether you are building maps, processing large datasets, or designing cloud-native geospatial systems, this talk gives you a clear mental model of the modern format landscape and practical guidance for choosing the right tool for the job.",
+    "start_datetime": "2026-09-01T04:30:00Z",
+    "end_datetime": "2026-09-01T05:00:00Z",
+    "talk:code": "SZA7P8",
+    "talk:guid": "9ab38bad-153f-585b-b795-7c0b64888793",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room3",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "J38ZLN",
+        "name": "Markus Tremmel",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/J38ZLN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T04:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/SZA7P8/",
+      "title": "Beyond Shapefile: A Taxonomy of Modern Geospatial Data Formats"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/SZA7P8/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/J38ZLN/",
+      "title": "Markus Tremmel"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/SZA7P8/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

@@ -1,0 +1,54 @@
+{
+  "type": "Collection",
+  "id": "foss4g-2026",
+  "stac_version": "1.1.0",
+  "description": "FOSS4G 2026 Hiroshima: 370 talks, 59 workshops.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "child",
+      "href": "./foss4g-2026-talks/collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "child",
+      "href": "./foss4g-2026-workshops/collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    }
+  ],
+  "title": "FOSS4G 2026 Hiroshima",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          132.4553,
+          34.3853,
+          132.4553,
+          34.3853
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2026-08-30T00:00:00Z",
+          "2026-09-03T08:30:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

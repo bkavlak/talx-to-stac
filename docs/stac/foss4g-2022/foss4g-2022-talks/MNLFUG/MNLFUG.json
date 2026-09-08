@@ -1,0 +1,149 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "MNLFUG",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Cloud-Native Geospatial with JavaScript",
+    "description": "The amount of Earth Observation data we have available nowadays is exceeding the capabilities for data processing. Therefore, a lot of data is now made available in the cloud. To make digesting the data easier and more-lightweight, it is getting more and more popular to store the data in so-called \u201ccloud-native\u201d file formats while data processing is also moving towards the data, i.e., into the cloud. This way you only need to retrieve the actual subset of the data you are actually interested in instead of the full data set, which can be in the magnitude of gigabytes or even larger. This technology of cloud-native file formats is usually best used with Browsers, which is the users\u2019 main interface to the internet and the cloud. There the main language is JavaScript. Therefore, this talk will give a high-level introduction about the relevant cloud-native file formats and show whether and how you can make use of these files in client-side JavaScript:\r\n\r\n- COG: Cloud-Optimized GeoTiff ( https://www.cogeo.org )\r\n- COPC: Cloud-Optimized Point Clouds ( https://copc.io )\r\n- Flatgeobuff ( https://flatgeobuf.org )\r\n- GeoParquet ( https://github.com/opengeospatial/geoparquet )\r\n- STAC: SpatioTemporal Asset Catalog ( https://stacspec.org )\r\n- Zarr ( https://zarr.readthedocs.io )\r\n\r\nThis talk will dig into the available open-source libraries and, if JavaScript implementations are available, show their functionality based on examples. If multiple options are available, a high-level comparison will show the main differences in functionality. For COGs for example, we\u2019ll compare the capabilities of the popular mapping libraries Leaflet, OpenLayers and MapLibre GL.",
+    "start_datetime": "2022-08-24T09:30:00Z",
+    "end_datetime": "2022-08-24T10:00:00Z",
+    "talk:code": "MNLFUG",
+    "talk:guid": "8aa5fbf0-fc6c-5e6d-baca-1b0fb555709e",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Onice",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "SGXLDH",
+        "name": "Daniel J. Dufour",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/SGXLDH/"
+      },
+      {
+        "code": "KMAKM7",
+        "name": "Matthias Mohr",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/KMAKM7/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/MNLFUG/",
+      "title": "Cloud-Native Geospatial with JavaScript"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/MNLFUG/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/SGXLDH/",
+      "title": "Daniel J. Dufour"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/KMAKM7/",
+      "title": "Matthias Mohr"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.cogeo.org",
+      "title": "www.cogeo.org"
+    },
+    {
+      "rel": "related",
+      "href": "https://copc.io",
+      "title": "copc.io"
+    },
+    {
+      "rel": "related",
+      "href": "https://flatgeobuf.org",
+      "title": "flatgeobuf.org"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/opengeospatial/geoparquet",
+      "title": "github.com/opengeospatial/geoparquet"
+    },
+    {
+      "rel": "related",
+      "href": "https://stacspec.org",
+      "title": "stacspec.org"
+    },
+    {
+      "rel": "related",
+      "href": "https://zarr.readthedocs.io",
+      "title": "zarr.readthedocs.io"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/MNLFUG/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/mLRpmaRnsWzGTbjkaW3aYo",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Cloud-Native Geospatial with JavaScript",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=TRzpLhsA5mM",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Cloud-Native Geospatial with JavaScript",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

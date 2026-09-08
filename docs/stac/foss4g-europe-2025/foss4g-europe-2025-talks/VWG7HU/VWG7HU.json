@@ -1,0 +1,127 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "VWG7HU",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "The Role of Open Source Data in Disaster Preparedness and Response: A Case Study on Flood Impact in Local Communities",
+    "description": "Flood is one of the most devastating natural hazards, imposing enormous social, economic, and infrastructural impacts on nations worldwide. Major flood events disrupt communities by damaging critical infrastructure, displacing large populations, and causing extensive financial losses. These disasters not only strain emergency response systems but also hinder long-term development, emphasizing the urgent need for reliable, timely, and detailed spatial data to guide both immediate action and future mitigation planning. Flood disasters often expose critical gaps in the availability of timely and accurate geospatial data. \r\n\r\nThis study investigates the role of open source data in enhancing disaster preparedness and response, with a particular focus on community-mapped data, using Jakande housing estate, 1st gate Platinum Wy Lekki Penninsula II Lekki 106104, presently located in the Eti-Osa Local government of Lagos State as a case study. By harnessing the power of volunteered geographic information contributed by local residents, the research addresses critical data gaps in under-mapped regions (Goodchild, 2007; Haworth & Bruce, 2015). Community mapping initiatives not only provide timely, real\u2010time updates during flood events but also incorporate localized insights that traditional mapping methods may overlook. This participatory approach enriches the spatial dataset, offering details on flood extents, infrastructure damage, and population displacement. In integrating these community-driven datasets with advanced geospatial tools, the study demonstrates a significant improvement in situational awareness, ultimately supporting more informed and effective decision-making during emergency response efforts.\r\n\r\nThe methodology comprises a multi-tiered approach. Initially, high-resolution satellite imagery of the case study area was acquired over a six-year period, enabling a temporal analysis of land cover changes and pre- and post-flood conditions. This remote sensing phase provided an extensive visual record that served as a baseline for further spatial analysis. A review of existing OpenStreetMap (OSM) data revealed that the targeted area was largely unmapped\u2014a gap that hindered the region\u2019s disaster response capacity (Herfort et al., 2021). In response, a dedicated mapping task was initiated using the Humanitarian OpenStreetMap Team (HOT) Tasking Manager to invite contributions from volunteer mappers, thereby creating an up-to-date geographic dataset. Furthermore, the presented methodology offers insights into how to verify OSM data and contribute to the improvement of its accuracy and thoroughness.\r\n\r\nTo augment the remote mapping effort, on-ground data collection was undertaken using Open Data Kit (ODK). Field surveys focused on gathering real-time information on the condition of local infrastructure and documenting patterns of population displacement due to flooding. The data collection process incorporated stringent quality checks by cross-referencing field findings with local community insights, ensuring both accuracy and contextual relevance. This integrated approach highlights the synergy between remote sensing, open-sourced mapping, and community-based data acquisition\u2014a combination increasingly recognized as critical for effective disaster management.\r\n\r\nSubsequent spatial analysis was performed using QGIS, First, a multi-temporal change detection algorithm was applied by comparing classified satellite imagery from pre- and post-flood periods. This method, which utilized indices such as the Normalized Difference Vegetation Index (NDVI), allowed us to assess changes in land cover dynamics over time. Overlay analysis was then performed by intersecting the delineated flood extent polygons with mapped infrastructure layers\u2014including residential, commercial, and roads\u2014to pinpoint areas where vulnerable structures were concentrated. Additionally, spatial queries, including buffer and proximity analysis, were executed to delineate high-risk zones where flood extents and population clusters overlapped which allowed for a comprehensive assessment of flood-induced damage, identification of vulnerable infrastructure, and quantification of displacement metrics and to provide a clearer picture of the flood\u2019s spatial extent. The spatial analysis outputs were visualized as detailed maps that conveyed spatial patterns and risk zones to emergency responders and policymakers.\r\n\r\nThe spatial analysis revealed that the flood inundated a vast portion of the study area, with a significant concentration of affected housing and critical infrastructure. Detailed overlay analysis showed that more than 40% of the mapped residential zones were located in high-risk flood areas. In addition, clusters of commercial and public service facilities\u2014such as police stations\u2014were clearly delineated within these zones, many of which had not been previously mapped in OpenStreetMap. This data gap highlighted the urgent need for community-driven mapping, which was addressed through a dedicated task via the Humanitarian OpenStreetMap Team. These findings provide crucial guidance for targeted emergency response and infrastructure reinforcement (Rajabifard et al., 2004). However, the study faced limitations, including variability in data resolution and gaps in real-time field verification. Notably, attempts to obtain Sentinel-2 satellite imagery from NASA for the study area were unsuccessful, limiting the spectral analysis capabilities. Future research should focus on integrating higher resolution satellite imagery and advanced predictive modeling to further refine flood impact assessments and enhance the overall effectiveness of disaster management strategies.\r\n\r\n\r\nThe research underscorse the transformative role of open source geodata in disaster response. By integrating satellite imagery with OSM-derived mapping, the study not only fills important data gaps but also enables rapid situational awareness during and after flood events  (Grippa et al., 2022). The participatory mapping approach\u2014combining remote sensing with field-collected data\u2014proved to be an effective model for generating reliable spatial information in data-scarce environments. This framework demonstrates that the use of free and open-source geospatial tools can enhance both immediate response and long-term resilience planning in communities affected by natural hazards. The results of the study provide practical insights into the integration of diverse data sources for improved emergency management and suggest that such methodologies can be readily adapted to address various types of natural hazards. Future work should focus on refining these methods and exploring additional data fusion techniques to further enhance the effectiveness of disaster management strategies.",
+    "start_datetime": "2025-07-18T10:15:00Z",
+    "end_datetime": "2025-07-18T10:20:00Z",
+    "talk:code": "VWG7HU",
+    "talk:guid": "98dc30c7-448e-524b-905b-08b060f86c23",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Academic track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "PA01 (Quarticle)",
+    "talk:room_capacity": 95,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "ZBFPKS",
+        "name": "Gresa Neziri",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/ZBFPKS/"
+      },
+      {
+        "code": "XUCWGD",
+        "name": "Adeola Anthonia OYETUNDE",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/XUCWGD/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-18T10:17:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/VWG7HU/",
+      "title": "The Role of Open Source Data in Disaster Preparedness and Response: A Case Study on Flood Impact in Local Communities"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/VWG7HU/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/ZBFPKS/",
+      "title": "Gresa Neziri"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/XUCWGD/",
+      "title": "Adeola Anthonia OYETUNDE"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/VWG7HU/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presantation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/VWG7HU/resources/ROLE_OF_OPENSOURCE_DATA_M0e7fhE.pdf",
+      "type": "application/pdf",
+      "title": "Presantation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/aFZTjoM2Pcva1vX7tyv7Y4",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | The Role of Open Source Data in Disaster Preparedness and Response: A Case Study ...",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=8b2Rw9SfTI4",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | The Role of Open Source Data in Disaster Preparedness and Response: A Case Study ...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

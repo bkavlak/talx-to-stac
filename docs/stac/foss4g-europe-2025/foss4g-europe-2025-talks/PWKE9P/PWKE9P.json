@@ -1,0 +1,172 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "PWKE9P",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "From Challenges to Achievements: The Collaborative Path of the German GeoNode User Group",
+    "description": "The German GeoNode User Group is an inclusive community that welcomes participants from over ten research institutions and multiple companies, all united by a shared interest in GeoNode, a web-based platform for developing geospatial information systems. Our group operates on a flexible basis, allowing members to contribute to discussions and projects in accordance with their current work capacities and level of involvement with GeoNode [1].\r\n\r\nWe maintain regular communication through our GitHub repository, which serves as the central hub for collaboration, code sharing, and project coordination. This is complemented by a dedicated Slack channel that facilitates direct and efficient interactions among members. Our meetings, held four times a year with at least one in-person gathering during the German FOSSGIS conference, provide opportunities to discuss individual challenges, share updates from the GeoNode upstream community, and exchange news about our respective GeoNode instances.\r\n\r\nA significant challenge we've addressed is the exchange of GeoNode features that haven't been integrated into the upstream project and sharing them among our individual forks. This led to the development of the geonode-blueprint-docker [2], an opinionated setup designed to simplify GeoNode installations and configurations, making it more accessible for our diverse community [3].\r\n\r\nOur collaborative efforts have resulted in several notable projects:\r\n- Th\u00fcnen Atlas: An interactive platform providing maps and data on topics such as land use, forestry, and marine ecosystems [4]\r\n- Data Package Contrib Module: A GeoNode importer handler designed to upload non-spatial data as data packages, enhancing the platform's versatility [5]\r\n- GeoNode-K8s: A Kubernetes Helm chart facilitating the deployment of GeoNode in cloud-native environments, promoting scalability and ease of management. [6]\r\n\r\nOur GitHub repository serves also as a hub for these open-source GeoNode extensions and ecosystem tools, such as geonodectl, a command-line interface tool for interacting with GeoNode's REST API v2.\r\n\r\nBeyond our internal projects, we actively engage with the upstream GeoNode community by providing feedback on feature development and contributing both bug reports and new features to the core GeoNode platform. Notably, one of our members serves on the GeoNode Project Steering Committee, further strengthening our connection with the broader GeoNode community.\r\n\r\nThrough this presentation, we aim to showcase our community's achievements and extend an invitation to new members to join our collaborative efforts. By sharing our experiences, we hope to inspire others to participate in and benefit from our collective endeavors.\r\n\r\n[1] https://geonode.org - GeoNode Official Website: GeoNode is an open-source platform that facilitates the creation, sharing, and collaborative use of geospatial data.\r\n[2] https://github.com/GeoNodeUserGroup-DE/geonode-blueprint-docker - GeoNode-Blueprint-Docker: This is a Docker blueprint for setting up a GeoNode installation, simplifying the deployment process for users.\r\n[3] https://github.com/GeoNodeUserGroup-DE/ - German GeoNode User Group GitHub Repository: The central hub for the German GeoNode User Group's projects and collaborations, hosting various tools and extensions related to GeoNode.\r\n[4] https://atlas.thuenen.de - Th\u00fcnen Atlas: An interactive platform providing maps and data on topics such as land use, forestry, and marine ecosystems.\r\n[5] https://github.com/GeoNodeUserGroup-DE/contrib_datapackage - Contrib DataPackage: A GeoNode importer handler designed to upload non-spatial data as data packages, enhancing the platform's versatility.\r\n[6] https://github.com/GeoNodeUserGroup-DE/geonode-k8s - GeoNode-K8s: A Kubernetes Helm chart facilitating the deployment of GeoNode in cloud-native environments, promoting scalability and ease of management.",
+    "start_datetime": "2025-07-17T09:30:00Z",
+    "end_datetime": "2025-07-17T10:00:00Z",
+    "talk:code": "PWKE9P",
+    "talk:guid": "3fff6081-b8bd-5fc7-b0fb-8356637f1753",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Open community",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "SA02",
+    "talk:room_capacity": 108,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "VN39PS",
+        "name": "Marcel Wallschl\u00e4ger",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/VN39PS/"
+      },
+      {
+        "code": "RBYPCQ",
+        "name": "Igo Silva de Almeida",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/RBYPCQ/"
+      },
+      {
+        "code": "N3J3JG",
+        "name": "Henning Bredel",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/N3J3JG/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-17T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/PWKE9P/",
+      "title": "From Challenges to Achievements: The Collaborative Path of the German GeoNode User Group"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/PWKE9P/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/VN39PS/",
+      "title": "Marcel Wallschl\u00e4ger"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/RBYPCQ/",
+      "title": "Igo Silva de Almeida"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/N3J3JG/",
+      "title": "Henning Bredel"
+    },
+    {
+      "rel": "related",
+      "href": "https://geonode.org",
+      "title": "geonode.org"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/GeoNodeUserGroup-DE/geonode-blueprint-docker",
+      "title": "github.com/GeoNodeUserGroup-DE/geonode-blueprint-docker"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/GeoNodeUserGroup-DE/",
+      "title": "github.com/GeoNodeUserGroup-DE"
+    },
+    {
+      "rel": "related",
+      "href": "https://atlas.thuenen.de",
+      "title": "atlas.thuenen.de"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/GeoNodeUserGroup-DE/contrib_datapackage",
+      "title": "github.com/GeoNodeUserGroup-DE/contrib_datapackage"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/GeoNodeUserGroup-DE/geonode-k8s",
+      "title": "github.com/GeoNodeUserGroup-DE/geonode-k8s"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.linkedin.com/in/igo-silva-de-almeida-638367b0/",
+      "title": "**Get in Touch**"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/PWKE9P/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides-geonode-usergroup-2025-foss4g-europe": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/PWKE9P/resources/GeoNode_Usergroup_2025_FOSS4G_Europe_7S30zef.pdf",
+      "type": "application/pdf",
+      "title": "Slides_GeoNode_Usergroup_2025_FOSS4G_Europe",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/a24vVk1Uuq7ayWQaZMMCCX",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | From Challenges to Achievements: The Collaborative Path of the German GeoNode ...",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=1m4jOXgYnks",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | From Challenges to Achievements: The Collaborative Path of the German GeoNode ...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

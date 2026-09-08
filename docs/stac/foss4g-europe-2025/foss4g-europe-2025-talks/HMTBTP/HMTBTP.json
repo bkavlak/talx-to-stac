@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "HMTBTP",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "NaLaMap: An open-source framework to use Large Language Models in WebGIS",
+    "description": "Maps have long been essential tools in both public and private sectors. However, until recently, Geographic Information Systems (GIS) and map creation were largely confined to a small community of highly trained experts. \r\n\r\nMainstream adoption has been stifled by several entry barriers: \r\n\r\n* the need for specialized domain knowledge in GIS concepts, data, and methodologies,\r\n* the technological complexity inherent in data management, integration, and processing,\r\n* complex user interfaces that expose too many options (tools and data) &\r\n* prohibitive software licensing costs, especially for public institutions in developing countries. \r\n\r\nThese challenges have often necessitated hiring specialized staff, thereby limiting the proliferation of geospatial technologies among small to medium enterprises and public agencies, despite the critical role geoinformation plays in addressing key 21st-century challenges such as climate change adaptation. \r\n\r\nRecent advancements in Generative Artificial Intelligence, especially the emergence of Large Language Models and Agent-Based Systems promise to lower these barriers significantly. In response, we have initiated the open-source project NaLaMap (Natural Language Mapping). \r\n\r\nNaLaMap is designed to democratize access to geospatial information by offering users the possibility to control key parts of the map creation process with natural language commands, including:\r\n\r\n   - data research, \r\n   - geospatial processing,\r\n   - geocoding \r\n   - layer styling &\r\n   - data integration via OGC compliant protocols (WMS/WFS/WMTS)\r\n\r\nThe framework is built upon widely adopted open-source technologies such as Python (Geopandas, Shapely, Fiona), ReactJS, LangChain, Graphagent, and Leaflet. Its core UI-components include a user-friendly chatbot, an interactive map interface, and a data library based on open-data portals. \r\n\r\nNaLaMaps chatbot automatically geocodes user requests and intelligently searches for tools, datasets, and unstructured information, enabling users to generate maps with written text commands and evaluate data suitability for specific data-related questions. This makes it an intuitive tool for your map audience and people who might be overwhelmed by using traditional GIS tools. In addition it can also speed up your map creation process and allows you to play arround with cool features such as intelligent (automated) layer styling. \r\n\r\nNaLaMap allows adding custom backends, which enables developers to put it on top of their existing geospatial infrastructures. Furthermore, the system offers the possibility to adapt and extend the GIS-toolbox offered to the agent as well as the prompts that control its behavior and tool usage. \r\n\r\nOut talk and open-source software framework is intended for GIS users and developers alike who would try to make their first steps with LLMs and GIS without having to create a complete WebGIS framework from scratch. The purpose of NaLaMap is to increase the reach of geodata products from established teams and projects. In doing so, it has the potential to empower decision-makers across multiple sectors\u2014from urban planning and environmental monitoring to crisis response. \r\n\r\nWith our talk we would like to invite the FOSS4G community to join us in pioneering a more accessible, efficient, and inclusive future for geospatial intelligence.",
+    "start_datetime": "2025-07-17T14:30:00Z",
+    "end_datetime": "2025-07-17T15:00:00Z",
+    "talk:code": "HMTBTP",
+    "talk:guid": "4c27b09c-db5b-586d-9693-67a235e3d061",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "SA02",
+    "talk:room_capacity": 108,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "MKULVD",
+        "name": "Johannes Schielein",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/MKULVD/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-17T14:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/HMTBTP/",
+      "title": "NaLaMap: An open-source framework to use Large Language Models in WebGIS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/HMTBTP/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/MKULVD/",
+      "title": "Johannes Schielein"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/HMTBTP/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "nalamap-mostar-pdf": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/HMTBTP/resources/NaLaMap_-_Mostar_PMn0UFd.pdf",
+      "type": "application/pdf",
+      "title": "NaLaMap - Mostar - PDF",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/c4jtAiWdjJ7YSQBqPj1dze",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | NaLaMap: An open-source framework to use Large Language Models in WebGIS",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=yduPQkOouF8",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | NaLaMap: An open-source framework to use Large Language Models in WebGIS",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

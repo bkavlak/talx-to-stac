@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "JM8S7N",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "JUNN\u202f\u2013 a french DigitalTwin initiative",
+    "description": "IGN (French National Map Agency) and its partners are launching the JUNN\u202fproject : A dynamic 3D digital replica of the territory with online services to interact with (visualization, immersive navigation, simulation). A tool that aims to federate data, technologies, communities and existing initiatives to collectively gain efficiency for the ecological transition.\u200b \r\n\r\nThis digital twin of France and its territories is a tool-based approach, supported by a consortium of public and private players, enabling the development of a common Open-Source architecture built in support of identified business usescases. \r\n\r\nObjectives are multiples:  \r\n* Reducing the cost of local initiatives and facilitate their replication in other areas, \r\n* Establishing a framework for interoperability and interface between different projects \r\n* Setting up a science platform to facilitate the development of technological advances from R&D, \r\n* Building an ecosystem of services and business applications with high added value \r\n\r\nThe project will include 3D data production with 3D mesh data and CityGML LOD 2.2 data. The 3D meshes will be generated using the Wasure software (https://github.com/lcaraffa/sparkling-wasure), which was developed based on research conducted by the Lastig research laboratory. This software will be further refined during the project, in collaboration with INRIA and GeometryFactory. \r\n\r\nSome of the CityGML data will also be produced by the IGN. Initial tests using the Open-Source Roofer software (https://github.com/3DBAG/roofer) have yielded promising results (https://batiment3d.ign.fr/) regarding what the Digital Twin data might look like. \r\n\r\nThis platform is intended to serve as a hub for scientific research, where it will be possible to connect simulators that have access to the platform\u2019s extensive dataset. This will be the case, for example, with the ICI project (https://x-ngilet.gitlabpages.inria.fr/html_covici/index.html), which offers models of epidemic spread and whose access to the data will improve predictions \r\n\r\nFor visualization, we will use the open-source rendering engine iTowns (https://www.itowns-project.org/), to which IGN is a major contributor. Already high-performing, the close collaboration between the Digital Twin team and the iTowns development team will ensure that this tool is fully compatible with what we will be offering. \r\n\r\nWe are proposing this presentation to give the OSGeo community an overview of the project. This presentation will introduce the various open-source software components we will be using, some of which we will be enhancing (Wasure, iTowns, Rok4, Roofer, etc.).",
+    "start_datetime": "2026-07-01T08:30:00Z",
+    "end_datetime": "2026-07-01T09:00:00Z",
+    "talk:code": "JM8S7N",
+    "talk:guid": "9567fb06-aa8b-508f-9331-a65e01a011e6",
+    "talk:event": "foss4g-europe-2026",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "A12",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "MTM7T9",
+        "name": "lavenant",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/MTM7T9/"
+      },
+      {
+        "code": "WPYJEK",
+        "name": "R\u00e9mi Ferrier",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/WPYJEK/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-07-01T08:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/JM8S7N/",
+      "title": "JUNN\u202f\u2013 a french DigitalTwin initiative"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/JM8S7N/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/MTM7T9/",
+      "title": "lavenant"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/WPYJEK/",
+      "title": "R\u00e9mi Ferrier"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/JM8S7N/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2026/submissions/JM8S7N/resources/FOSS4G2026_-_IGN_-_JUNN_y4joVBr.pdf",
+      "type": "application/pdf",
+      "title": "presentation",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

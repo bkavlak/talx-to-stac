@@ -1,0 +1,134 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "DVZYFC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Algorithm Talk: How to Re-project a Raster at Warp Speed",
+    "description": "We will discuss the algorithms inside [geowarp](https://github.com/danieljdufour/geowarp), a high-performance and very low-level JavaScript library for reprojection, resampling and cropping of data from GeoTIFFs and other rasters.  This talk will be at the abstract algorithmic level and is suitable for everyone.  Here are some of the various algorithms that we will discuss:\r\n- [proj-turbo](https://github.com/danieljdufour/proj-turbo): fit an unknown reprojection function to a simple affine transformation \r\n- [fast-min](https://github.com/danieljdufour/fast-min)/[fast-max](https://github.com/danieljdufour/fast-max): calculating the range of your raster data leveraging the theoretical limits of the data types\r\n- near-vectorize: automatically determining the optimal resampling algorithm based on relative pixel size\r\n- [dufour-peyton-intersection](https://github.com/GeoTIFF/dufour-peyton-intersection): calculate the pixels of an arbitrary raster inside an arbitrary polygon\r\n- various resampling techniques including nearest, bilinear, vectorization, and box-based statistical methods",
+    "start_datetime": "2023-06-28T11:30:00Z",
+    "end_datetime": "2023-06-28T12:00:00Z",
+    "talk:code": "DVZYFC",
+    "talk:guid": "7bd02267-a87e-5f51-a120-acfc315f47b3",
+    "talk:event": "foss4g-2023",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT D / N113 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "SGXLDH",
+        "name": "Daniel J. Dufour",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/SGXLDH/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T11:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/DVZYFC/",
+      "title": "Algorithm Talk: How to Re-project a Raster at Warp Speed"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/DVZYFC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/SGXLDH/",
+      "title": "Daniel J. Dufour"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/danieljdufour/geowarp",
+      "title": "geowarp"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/danieljdufour/proj-turbo",
+      "title": "proj-turbo"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/danieljdufour/fast-min",
+      "title": "fast-min"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/danieljdufour/fast-max",
+      "title": "fast-max"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/GeoTIFF/dufour-peyton-intersection",
+      "title": "dufour-peyton-intersection"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/DVZYFC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/t3hfnkkX37UUqLYMDdwEh6",
+      "type": "text/html",
+      "title": "2023 | Algorithm Talk: How to Re-project a Raster at Warp Speed - Daniel J  Dufour",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=jd2Unk13IiU",
+      "type": "text/html",
+      "title": "2023 | Algorithm Talk: How to Re-project a Raster at Warp Speed - Daniel J  Dufour",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

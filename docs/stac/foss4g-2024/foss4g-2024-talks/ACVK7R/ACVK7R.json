@@ -1,0 +1,97 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "ACVK7R",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Open Forest Observatory: Open-source drone-based forest mapping tools and data for ecologists",
+    "description": "Forest ecology research often requires detailed forest inventory data at the individual tree level, but such data are time-consuming and costly to collect using traditional ground-based manual survey methods. Recent advances in uncrewed aerial vehicles (UAVs, or drones), image processing, and deep learning are enabling a new era of forest research in which individual trees can be mapped, measured, and taxonomically identified across broad areas without extensive ground surveys. The Open Forest Observatory (OFO; openforestobservatory.org) is a new multi-institution organization that makes cutting-edge forest mapping tools and data accessible to ecologists and practitioners without extensive specialized computing background. Open-source OFO tools simplify and automate tasks including: (a) processing drone imagery into 3D canopy models and stitched imagery mosaics, (b) performing individual tree detection, geospatial crown delineation, and height measurement from drone-derived canopy height models, and (c) obtaining taxonomic classification of detected trees from raw drone images (including multiple views of each tree) using deep learning and 3D geometric reasoning. The OFO also hosts an extensive public database of raw and processed drone imagery from western U.S. forests (> 35 km2) across broad gradients in forest structure, species composition, and disturbance history, and > 100 field-based individual tree maps used for developing and validating the drone-based mapping tools. The growing database is available to host community-contributed datasets from forests globally. In relatively challenging (dense and structurally complex mixed-conifer forest conditions, current OFO overstory tree detection algorithms achieve precision and recall of 70-90%, and current tree height estimation achieves R2 of 0.95. In a challenging cross-site task, preliminary tree species classification using OFO multi-view computer vision tools achieved 76% accuracy across five species, compared with 54% accuracy of a baseline using a single top-down view from a stitched imagery mosaic. All tools and data are free for use by anyone to address ecology questions or build on the tools, and the OFO welcomes collaborations and contributions to data and code. Some current development priorities include (a) expanding multi-view mapping tools to support tree detection using computer vision, (b) optimizing tree detection and species classification algorithms across broad gradients of forest structure and species composition, and (c) developing cloud-native workflows for automated cataloging and processing of contributed drone-based and field-based forest data.",
+    "start_datetime": "2024-12-04T20:45:00Z",
+    "end_datetime": "2024-12-04T21:15:00Z",
+    "talk:code": "ACVK7R",
+    "talk:guid": "340f1164-84f2-5eb8-914f-37f63ddb9fb9",
+    "talk:event": "foss4g-2024",
+    "talk:track": "Open Data",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room IV",
+    "talk:room_capacity": 100,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "989VZB",
+        "name": "Derek Young",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/989VZB/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-04T21:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/ACVK7R/",
+      "title": "Open Forest Observatory: Open-source drone-based forest mapping tools and data for ecologists"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/ACVK7R/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/989VZB/",
+      "title": "Derek Young"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/ACVK7R/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024/submissions/ACVK7R/resources/foss4g-ofo_public_compressed-1_8HVedgI.pdf",
+      "type": "application/pdf",
+      "title": "Presentation slides",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

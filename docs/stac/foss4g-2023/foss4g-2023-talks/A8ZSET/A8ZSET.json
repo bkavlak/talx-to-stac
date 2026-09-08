@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "A8ZSET",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Earthquakes and OpenStreetMap",
+    "description": "The substantial reduction of disaster risk and life losses, a major goal of the Sendai Framework by the United Nations Office for Disaster Risk Reduction (UNISDR), requires a clear understanding of the dynamics of the built environment and how it affects, in case of natural disasters, the life of communities, represented by local governments and individuals. The framework states that communities participating in risk assessments should increase their understanding of efficient risk mitigation measures. \r\n\r\nEarthquakes are threatening many regions in the world with constantly increasing risk due to rapid urbanization and industrialization. Earthquakes do not kill people, buildings do. Thus, the main threat of earthquakes comes from building damage and collapse. To improve resilience and preparedness, we need to estimate the risk, the possible damage of buildings and the related human and financial losses. This requires not only the position, size and class of buildings, but also the reconstruction value and the number of people inside the building at any time. For this, exposure models are used that translate the physical earthquake hazard to building damage, human and financial losses. Exposure models usually describe the built environment of administrative regions as groups (aggregates) of different building classes and their frequency.\r\n\r\nWe present our open, dynamic, and global approach to describe, model, and classify every building on Earth with the greatest level of detail. Our model is based on the building data from OpenStreetMap and engineering information from open exposure models, combining these two sources to a building-by-building description of the exposed assets. We retain the aggregated descriptions where the building coverage in OpenStreetMap is incomplete and describe every building separately where building data is available. Due to the near-real-time computations of our model, it directly profits from the growth of OpenStreetMap and with about 5 million buildings added each month (or approx. 2 per second), the areas of incomplete coverage are constantly shrinking, making way for our building-specific exposure model.\r\n\r\nHere, we introduce shortly the earthquake phenomenon, how it affects the built environment, why a high level of detail is necessary for useful assessments of the impact and the consequences of earthquakes, how OpenStreetMap and other open data helps us to achieve this goal and how communities can benefit for the model for their own risk assessments.",
+    "start_datetime": "2023-06-30T11:30:00Z",
+    "end_datetime": "2023-06-30T12:00:00Z",
+    "talk:code": "A8ZSET",
+    "talk:guid": "c4fcbef1-7422-56e6-8607-47857a8c4c6c",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Open Data",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT C / N110 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "XMNDD9",
+        "name": "Danijel Schorlemmer",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/XMNDD9/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-30T11:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/A8ZSET/",
+      "title": "Earthquakes and OpenStreetMap"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/A8ZSET/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/XMNDD9/",
+      "title": "Danijel Schorlemmer"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/A8ZSET/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/uj7ZhbXuiJSoH2N2Q6nKWM",
+      "type": "text/html",
+      "title": "2023 | Earthquakes and OpenStreetMap - Danijel Schorlemmer",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=3q3RIpKjQfk",
+      "type": "text/html",
+      "title": "2023 | Earthquakes and OpenStreetMap - Danijel Schorlemmer",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

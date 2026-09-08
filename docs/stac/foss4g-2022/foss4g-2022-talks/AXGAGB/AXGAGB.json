@@ -1,0 +1,96 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "AXGAGB",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "YouTube as Remote Sensing",
+    "description": "No elevation data exists of Molokini Crater, an island off the coast of Maui that gets 300,000 visitors annually. To make my own, I created a photogrammetric model using a ten year old YouTube video fed into an open source photogrammetry package. I exported the resulting mesh as a point cloud and filtered it using opensource LiDAR program CloudCompare and exported it as a raster. I then georeferenced the raster and scaled the model vertically with QGIS. The National Geodetic Survey reports that my model, down sampled to 1m resolution and made with OSS, is the most comprehensive survey of Molokini Crater in existence, and it was done in less than a day with a zero dollar budget. Photogrammetry is how Google Maps produces it's 3D function and it's an old technique but a proliferation of tourist and drone videos could open up new avenues for creating maps of small extents. This process is easily automated and it's only a matter of time before photogrammetry software is capable of integrating images from different times of day which massively increases the amount of usable media for modeling. This could be the beginning of internet-archived archaeology where environments captured as video can be reconstructed and viewed in a new way.",
+    "start_datetime": "2022-08-26T09:30:00Z",
+    "end_datetime": "2022-08-26T10:00:00Z",
+    "talk:code": "AXGAGB",
+    "talk:guid": "9955a263-6d72-56b3-9609-02cd253a615d",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "General online",
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "BZJE9H",
+        "name": "Andrew Middleton",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/BZJE9H/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/AXGAGB/",
+      "title": "YouTube as Remote Sensing"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/AXGAGB/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/BZJE9H/",
+      "title": "Andrew Middleton"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/AXGAGB/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "orthographic-view-of-molokini-crater-island-model": {
+      "href": "https://talks.osgeo.org/media/foss4g-2022/submissions/AXGAGB/resources/1_045BV1UkELPwLCaFIsQXPg_z9sVcA1.jpeg",
+      "type": "image/jpeg",
+      "title": "Orthographic view of Molokini Crater Island model.",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

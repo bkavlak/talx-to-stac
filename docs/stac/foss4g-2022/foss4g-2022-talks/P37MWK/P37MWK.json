@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "P37MWK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Building a scalable tiling service using Amazon API Gateway",
+    "description": "Recent advancements in both raster and vector tile generation mean that TileJSON services can now serve tiles from on-the-fly sources as well as pre-built caches. Currently, Addresscloud uses CloudFront backed by S3 buckets to serve tile caches for its customer-facing applications. Whilst this configuration worked well for pre-built tile caches, it does not readily support on-the-fly generation and is limited by CloudFront's requirement for cookies or signed URLs for private tilesets. In this presentation we will look at the use of Amazon's API Gateway to provide a scalable interface for multiple TileJSON sources. This approach benefits from providing on-the-fly generation tile in a serverless manner and supporting multiple authorization configurations. The presentation will demonstrate the integration of API Gateway with three tile sources: (1) a Lambda function using rio-tiler for on-the-fly generation of raster tiles from a Cloud Optimised GeoTiff. (2) a Lambda function using Amazon Aurora's HTTP API for MVT generation from PostGIS. (3) a proxy interface to a pre-built cache of tile objects stored in an S3 bucket. The presentation will include publication of source code under an open license, which will be available to the community as a reference architecture. This presentation is of interest to anyone developing tiling services in the cloud.",
+    "start_datetime": "2022-08-25T10:45:00Z",
+    "end_datetime": "2022-08-25T10:50:00Z",
+    "talk:code": "P37MWK",
+    "talk:guid": "4cb0b267-978e-5d26-b2a0-a7b181477c04",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Modulo 0",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "CH8HDY",
+        "name": "Tomas Holderness",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/CH8HDY/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T10:47:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/P37MWK/",
+      "title": "Building a scalable tiling service using Amazon API Gateway"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/P37MWK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/CH8HDY/",
+      "title": "Tomas Holderness"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/P37MWK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/pCbk7TsuFQC9vhmgGjeyQb",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Building a scalable tiling service using Amazon API Gateway",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=4eAm9CzmXTM",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Building a scalable tiling service using Amazon API Gateway",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

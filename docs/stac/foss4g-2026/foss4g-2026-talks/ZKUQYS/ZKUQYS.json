@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "ZKUQYS",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Geoconnex: Standardizing Water Data in the United States through a Unified Graph Database",
+    "description": "Geoconnex links hydrologic data across many government agencies in the United States as a knowledge graph, published in accordance with W3C Spatial Data on the Web best practices. This session will provide an overview of Geoconnex and how to access its data using either SPARQL, OGC API Features, or GeoParquet.\n\nThe United States, like many other countries, has many water data providers at both the federal and local levels. These agencies have diverse APIs with a variety of access patterns, making it difficult for researchers to synthesize insights across agencies. Geoconnex, a software initiative funded by the United States Geological Survey, aims to solve this data access challenge by linking hydrologic features into a knowledge graph. Instead of needing to access dozens of specific agency APIs, a user can quickly find all monitoring locations and datasets associated with a river by running a graph database query or accessing the Geoconnex Explorer web UI. This talk will go over how Geoconnex leverages standards like RDF and OGC API Features, how the graph is created via the Geoconnex crawler and data pipeline, and the various ways you can access data from the graph including SPARQL, OGC API Features, or GeoParquet. Attendees will learn a variety of W3C Spatial Data on the Web best practices that are broadly applicable to other geospatial data integration tasks.",
+    "start_datetime": "2026-09-03T06:00:00Z",
+    "end_datetime": "2026-09-03T06:30:00Z",
+    "talk:code": "ZKUQYS",
+    "talk:guid": "2d996348-d27d-5664-919f-e9bb5bbfbdab",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "A8VTL7",
+        "name": "Benjamin Webb",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/A8VTL7/"
+      },
+      {
+        "code": "U3KYYC",
+        "name": "Colton Loftus",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/U3KYYC/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-03T06:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/ZKUQYS/",
+      "title": "Geoconnex: Standardizing Water Data in the United States through a Unified Graph Database"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/ZKUQYS/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/A8VTL7/",
+      "title": "Benjamin Webb"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/U3KYYC/",
+      "title": "Colton Loftus"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/ZKUQYS/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

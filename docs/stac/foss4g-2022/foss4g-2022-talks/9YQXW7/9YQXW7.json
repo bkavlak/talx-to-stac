@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "9YQXW7",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Baremaps studio: dynamic vector tiles map rendering",
+    "description": "Baremaps is a blazing fast vector tile server which makes your life easier regarding the publication of OSM data: import, generation and cloud storage.\r\nBut Baremaps also shines and differentiates from solutions like pg_tileserv in the way you can customize your tileset and merge custom datasets.\r\nBased on this advantage, we turn Baremaps out to be a vector tiles studio api, allowing the user to easily customize the content of the vector tiles.\r\nWe adopted the OGC api specification for tileset, layers and styles. Baremaps offers various entry points to manage the datasets and serve them as vector tiles. As an exemple, you can dynamically import different kinds of data sources (geojson, SHP, database) to the server which will expose them as datasets, then you can use any kind of dataset within the same tileset. You can also bring value to your data by doing aggregations (spatial, attribute, hexbin) or computation. It leverages the power of postgis functions and vector tiles specification into one solution. You can attach a style for your dataset and baremaps will serve both Mapbox style file and Vector tiles stream to render the map the way you expect. \r\nTo illustrate this concept, we will showcase a studio UI which literally provides a tool to quickly create valuable maps and publish them to the web.\r\n\r\nBaremaps Studio is the solution to handle dynamic rendering and styling of your vector datas.",
+    "start_datetime": "2022-08-25T10:40:00Z",
+    "end_datetime": "2022-08-25T10:45:00Z",
+    "talk:code": "9YQXW7",
+    "talk:guid": "4fe67256-af58-567c-b5b2-c272308dce3a",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Modulo 0",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "9JWZHX",
+        "name": "Florent Gravin",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/9JWZHX/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T10:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/9YQXW7/",
+      "title": "Baremaps studio: dynamic vector tiles map rendering"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/9YQXW7/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/9JWZHX/",
+      "title": "Florent Gravin"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/9YQXW7/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=Ueu5C-6w1rk",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Baremaps studio: dynamic vector tiles map rendering",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

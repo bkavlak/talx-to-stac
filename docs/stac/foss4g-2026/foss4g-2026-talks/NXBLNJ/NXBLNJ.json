@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "NXBLNJ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Eliminating Temporal Misalignment in SAR Flood Detection with a ConvLSTM-Siamese Approach Using Sentinel-1 Time Series",
+    "description": "Floods are becoming more frequent and severe worldwide due to climate change. These disasters cause significant human and economic losses, making the development of rapid and highly accurate flood mapping technologies essential for clearly identifying damage conditions and supporting subsequent rescue activities.\r\n\r\nRemote sensing with openly available Synthetic Aperture Radar (SAR) plays an essential role in disaster monitoring. As an active sensor that transmits its own microwave signals, SAR can acquire observations regardless of weather or time of day, enabling reliable monitoring even in extreme conditions.\r\n\r\nHowever, conventional SAR-based flood detection methods face several challenges. Threshold-based approaches applied to a single SAR image struggle to distinguish permanent water bodies from newly inundated areas. To address this, methods that compare pre-flood and flood-time images have been developed. Yet openly available data such as Sentinel-1 have satellite revisit cycles that create temporal gaps of several days to weeks between compared images. During this interval, seasonal vegetation changes and speckle noise differences are frequently misidentified as flood-induced changes, leading to increased false positives. To address these false positives caused by temporal misalignment, this study proposes a flood detection method that synchronizes the temporal axes of the compared images.\r\n\r\nIn our experiment, we used the openly available \"UrbanSARFloods\" dataset. This dataset was created for global-scale flood detection and covers 18 flood events from five continents, including flood and non-flood label data. Each image chip has a spatial resolution of 10 m and a size of 512 \u00d7 512 pixels, and data from a selected 628 area of interest were used in this study.\r\n\r\nWe used Sentinel-1 Ground Range Detected (GRD) data as our primary flood detection source. Sentinel-1 GRD is a multi-looked SAR product projected to ground range using an Earth ellipsoid model. In Interferometric Wide (IW) mode, it provides roughly 10-meter resolution with dual-polarization (VV and VH) across a 250 km swath. Sentinel-1 acquires observations regardless of weather or time of day, with a 6\u201312 day revisit cycle. We collected SAR time series from Google Earth Engine (GEE), covering one year prior to each flood event up to 40 images per location. These data include two polarization modes: VV and VH. To ensure consistency, only data acquired from the same orbit (ascending or descending) as the flood-time observation were used.\r\n\r\nGRD data contain inherent speckle noise that requires filtering. To improve data quality, we reduced speckle noise using a median filter (3 \u00d7 3) and performed normalization using Min\u2013Max scaling. For datasets with missing time-series images, we interpolated missing data using three-dimensional spline interpolation.\r\n\r\nThe revisit gap can cause temporal misalignment between compared images. To obtain an image representing non-flood conditions, we simulated imagery from past SAR GRD sequences at the timing of the flood observation. A three-layer ConvLSTM model captured spatio-temporal dependencies and generated predicted \"non-flood\" SAR images. The model used a hybrid Mean Absolute Error (MAE)-Structural Similarity (SSIM) loss function to preserve edge details and suppress speckle noise. This function prioritizes structural and statistical similarity over standard MSE.\r\n\r\nWe created multiple image chip pairs by using six consecutive time steps as one set and sliding the window forward by one time step. Each image chip pair consists of five continuous input images and one subsequent image as reference. The model training was performed by minimizing the error between the predicted image generated from the five input images and the reference image. A dedicated ConvLSTM model was built for each location to learn its unique surface characteristics. After training, we input the five most recent image chips into the model to generate a predicted image for the next time step.\r\n\r\nFinally, we performed flood detection using a Siamese Network to compare the simulated images with the observed images acquired during flooding. This CNN-based model uses an encoder\u2013decoder architecture with skip connections, extracting high-dimensional features while preserving spatial boundary information. After computing pixel-wise differences between the feature maps, we applied a sigmoid function to produce a flood probability map. The final flooded areas were detected through thresholding (0.5).\r\n\r\nQuantitative evaluation using a pre-split test dataset consisting of 30 samples demonstrated considerable performance improvements. The proposed method achieved an F1 score of 0.605 (Precision: 0.556, Recall: 0.661), representing a 42% improvement over the conventional pre-/post-flood comparison method, which achieved only 0.427 (Precision: 0.328, Recall: 0.610). This improvement was primarily attributed to the substantial reduction in false positives caused by temporal misalignment.\r\n\r\nThe precision improvement from 0.328 to 0.556 indicates that the proposed temporal synchronization approach effectively suppresses misdetections caused by seasonal vegetation changes and speckle noise variations. Meanwhile, the recall score of 0.661 demonstrates the method's capability to detect actual flood events without sacrificing sensitivity.\r\n\r\nQualitative evaluation further confirmed the effectiveness of the proposed approach. Visual inspection revealed that the method successfully suppresses speckle-like noise patterns that frequently lead to false positives in conventional methods. The approach accurately detected both large-scale inundated areas, such as flooded river plains and urban zones, as well as small, isolated flooded regions that are typically difficult to identify. The generated flood probability maps showed clear spatial boundaries between flooded and non-flooded areas, enabling more reliable damage assessment.\r\n\r\nWhile we demonstrated the usefulness of the flood detection method, several challenges were identified. In regions with complex topography, frequent misdetections occurred due to terrain-induced radar shadow, geometric distortions (layover), and changes in vegetation's dielectric properties. In urban areas, flood detection often misses actual flooding because double-bounce scattering reduces the backscatter intensity differences between images. Future work will consider incorporating Digital Elevation Model (DEM) data and coherence data, which quantify the phase correlation of microwave signals between two temporal images, to account for physical terrain constraints and further suppress misdetections in urban areas, enabling more effective flood detection.\r\n\r\nIn conclusion, this study proposed a flood detection method that eliminates temporal lag between compared datasets and demonstrated improved performance in detecting flood-induced changes. By enabling near-real-time flood detection under extreme weather conditions, this method is expected to strengthen societal response capabilities to flood disasters.",
+    "start_datetime": "2026-09-03T04:30:00Z",
+    "end_datetime": "2026-09-03T05:00:00Z",
+    "talk:code": "NXBLNJ",
+    "talk:guid": "e88e6372-ef34-5611-a079-ea994886b5f3",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos2",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "88JR7P",
+        "name": "\u4e2d\u5d8b\u9054\u4e5f",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/88JR7P/"
+      },
+      {
+        "code": "QHD7C8",
+        "name": "Narumasa Tsutsumida",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/QHD7C8/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-03T04:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/NXBLNJ/",
+      "title": "Eliminating Temporal Misalignment in SAR Flood Detection with a ConvLSTM-Siamese Approach Using Sentinel-1 Time Series"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/NXBLNJ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/88JR7P/",
+      "title": "\u4e2d\u5d8b\u9054\u4e5f"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/QHD7C8/",
+      "title": "Narumasa Tsutsumida"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/NXBLNJ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

@@ -1,0 +1,97 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "SJEX8J",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "Linking Climate Downscaling and UAV Observations: An Open Workflow for Snow Modeling in Alpine Terrain",
+    "description": "Snowpack plays a fundamental role in alpine and periglacial environments, acting as a key regulator of surface and subsurface processes. Beyond its well-known hydrological importance as a seasonal water reservoir, snow exerts a strong control on ground thermal regimes by functioning as an insulating layer that decouples near-surface ground temperatures from atmospheric forcing. This insulation effect influences permafrost occurrence, stability, and degradation, particularly in marginal periglacial environments such as those found in the Southern Carpathians. At the same time, snow cover modulates biological activity by controlling soil temperature, moisture availability, and the duration of the growing season, thereby shaping alpine ecosystem dynamics. Accurately characterizing snowpack properties, such as depth, density, and persistence is therefore essential for understanding coupled cryospheric, hydrological, and ecological processes in mountain regions.\r\nHowever, capturing snow variability in complex terrain remains challenging due to strong spatial heterogeneity driven by topography, wind redistribution, and micro-scale surface conditions. These challenges are further exacerbated in regions such as the Romanian Carpathians, where the availability of in situ meteorological observations is limited, particularly at high elevations and in remote alpine environments. The lack of dense and continuous meteorological measurements constrains the direct characterization of snow\u2013climate interactions and limits the applicability of traditional observation-based approaches. While climate reanalysis products provide continuous large-scale atmospheric forcing, their coarse spatial resolution limits their direct use in mountainous environments. Conversely, field observations and high-resolution surveys, such as UAV-based measurements, provide detailed local information but are spatially limited and episodic. Bridging these scales requires reproducible workflows that integrate climate data, physically based modeling, and high-resolution observations within a coherent geospatial framework.\r\nThis contribution presents an open geospatial workflow for climate-driven snow modeling in alpine terrain, linking climate downscaling, physically based snowpack simulation, and UAV-based observations. The workflow integrates freely available hourly climate reanalysis data from the Copernicus Climate Data Store (ERA5), including both single-level and pressure-level variables, with topography-aware downscaling using the open-source TopoPyScale tool. Implemented in a reproducible environment using Python and Ubuntu via Windows Subsystem for Linux (WSL), the workflow transforms coarse-resolution atmospheric forcing (~31 km) into terrain-informed local-scale inputs by incorporating high-resolution digital elevation models (DEMs) and its derived morphometric parameters such as elevation, slope, aspect, and sky-view factor, as well as horizon-based radiation corrections.\r\nThe downscaled climate forcing is subsequently used to drive snowpack simulations using the SURFEX\u2013Crocus model developed by M\u00e9t\u00e9o-France. While the model is distributed under an open-source license with controlled access, it can be readily obtained for research purposes. Within this workflow, SURFEX\u2013Crocus is employed to simulate detailed snowpack evolution at both point-based locations and clustered terrain representations. The model provides a comprehensive set of snowpack variables, including snow depth, snow water equivalent (SWE), snow temperature profiles, density, stratigraphy, hardness, and snow microstructural properties such as grain size and shape. These outputs enable a process-based representation of snow accumulation, metamorphism, and melt, offering insights into both seasonal dynamics and interannual variability.\r\nTo demonstrate the integration of model outputs with observational data, UAV-derived snow depth is used as a high-resolution reference dataset. Repeated UAV surveys conducted over an alpine site in the Retezat Mountains (Southern Carpathians) across four winter seasons are processed using open-source photogrammetric tools, such as OpenDroneMap, to generate digital surface models (DSMs) under snow-covered and snow-free conditions. Snow depth is then derived through a DEM of Difference (DoD) approach. The resulting high-resolution snow depth maps are spatially aggregated to match the resolution of the model outputs, enabling direct comparison between simulated and observed snow conditions for selected time periods.\r\nThis study emphasizes the design of a transferable and reproducible workflow that enables the comparison of climate-driven snow simulations with user-collected high-resolution observations. The integration highlights how physically based models capture broad-scale snow dynamics, while UAV data reveal fine-scale variability associated with terrain-driven redistribution processes that remain unresolved at the model scale.\r\nThe presented workflow relies primarily on open data and open geospatial tools, including ERA5 reanalysis, TopoPyScale, Python-based processing libraries (GDAL, rasterio, xarray, pandas, numpy, netcdf4), and open photogrammetric solutions. By combining these components within a coherent processing chain, the approach demonstrates how complex cryospheric analyses can be conducted in a reproducible and adaptable manner. The proposed framework provides a practical pathway for integrating climate reanalysis, terrain-aware downscaling, snow modeling, and UAV observations in alpine environments. It can be readily adapted to other mountain regions and applications, supporting improved understanding of snowpack dynamics and their implications for hydrology, permafrost, and ecosystem processes under changing climatic conditions.",
+    "start_datetime": "2026-06-30T12:30:00Z",
+    "end_datetime": "2026-06-30T13:00:00Z",
+    "talk:code": "SJEX8J",
+    "talk:guid": "ca3e8040-5b05-5c1e-97fc-adf9a2620ba3",
+    "talk:event": "foss4g-europe-2026",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "A13",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "VZWDTL",
+        "name": "Andrei Ioni\u021b\u0103",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/VZWDTL/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-06-30T12:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/SJEX8J/",
+      "title": "Linking Climate Downscaling and UAV Observations: An Open Workflow for Snow Modeling in Alpine Terrain"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/SJEX8J/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/VZWDTL/",
+      "title": "Andrei Ioni\u021b\u0103"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/SJEX8J/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-ionita-et-al": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2026/submissions/SJEX8J/resources/Linking_Climate_Downscaling__lmwjdhY.pdf",
+      "type": "application/pdf",
+      "title": "Presentation - Ionita et al.",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

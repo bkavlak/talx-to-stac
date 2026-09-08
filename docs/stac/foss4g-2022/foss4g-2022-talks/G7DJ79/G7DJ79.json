@@ -1,0 +1,129 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "G7DJ79",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "MapStore, a year in review",
+    "description": "**MapStore** is an open source product developed for creating, saving and sharing in a simple and intuitive way maps, dashboards, charts and geostories directly online in your browser. MapStore is cross-browser and mobile ready, it allows users to: \r\n\r\n- *Search* and load geospatial content served using widely used protocols (WMS, WFS, WMTS, TMS, CSW) and formats (GML, Shapefile, GeoJSON, KML/KMZ etc..)\r\n- *Manage maps* (create, modify, share, delete, search), charts, dashboard and stories directly online\r\n- *Manage users*, groups and their permissions over the various resources MapStore can manage\r\n- *Edit data online* via WFS-T with advanced filtering capabilities\r\n- *Deeply customize the look&feel* to follow strict corporate guidelines\r\n- *Manage different application contexts* through an advanced wizard to have customized WebGIS MapStore viewers for different use cases (custom plugins set, map and theme)\r\n\r\n\r\nYou can use **MapStore** as a product to deploy simple geoportals by using the standard functionalities it provides but you can also use MapStore as a framework to develop sophisticated WebGIS portals by reusing and extending its core building blocks.\r\n\r\n\r\n**MapStore** is built on top of React and Redux and its core does not explicitly depend on any mapping engine but it can support both OpenLayers, Leaflet and Cesium; additional mapping engines could be also supported (MapBox GL is in the working) to avoid any tight dependency on a single engine.\r\n\r\nThe presentation will give the audience an extensive overview of the MapStore  functionalities for the creation of mapping portals, covering both previous work as well work for the future releases.  Eventually, a range of MapStore case studies will be presented to demonstrate what our clients (like City of Genova, City of Florence, Halliburton, Austrocontrol and more) and partners are achieving with it.",
+    "start_datetime": "2022-08-24T13:15:00Z",
+    "end_datetime": "2022-08-24T13:45:00Z",
+    "talk:code": "G7DJ79",
+    "talk:guid": "b563cc21-4252-5328-9b37-790081ab9e46",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Verde",
+    "talk:room_capacity": 230,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "XQEABY",
+        "name": "Lorenzo Natali",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/XQEABY/"
+      },
+      {
+        "code": "UL8RZG",
+        "name": "Emanuele Geri",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/UL8RZG/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T13:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/G7DJ79/",
+      "title": "MapStore, a year in review"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/G7DJ79/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/XQEABY/",
+      "title": "Lorenzo Natali"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/UL8RZG/",
+      "title": "Emanuele Geri"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.geosolutionsgroup.com/",
+      "title": "GeoSolutions"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/geosolutions-it/MapStore2",
+      "title": "MapStore"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/G7DJ79/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/2THDGFX8i4x7ZtRu8gZYcc",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | MapStore, a year in review",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=zICoWLALzQ4",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | MapStore, a year in review",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

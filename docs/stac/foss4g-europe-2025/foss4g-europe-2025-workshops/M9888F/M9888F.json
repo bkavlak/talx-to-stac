@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "M9888F",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8094,
+      43.3416
+    ]
+  },
+  "bbox": [
+    17.8094,
+    43.3416,
+    17.8094,
+    43.3416
+  ],
+  "properties": {
+    "title": "Tile serving with MapLibre/Martin/Planetiler - base and overlays",
+    "description": "Create a tile server with the base map and some custom data.  Build a web site with both the base map and custom data using MapLibre GL+Martin+PG+Planetiler+osm2pgsql+...\n\nIn this workshop we will generate base map tiles from OSM data using Planetiler, set up Martin tile server, set up nginx to serve our sample web site that will use MapLibre GL JS to show the map. Additionally (time permitting), we will add a PostgreSQL server, and will use osm2pgsql to import extra data from the same OSM dump, and do on-the-fly tile generation from PG.",
+    "start_datetime": "2025-07-14T12:00:00Z",
+    "end_datetime": "2025-07-14T16:00:00Z",
+    "talk:code": "M9888F",
+    "talk:guid": "b8241335-780d-5de7-8b40-e9f901754afd",
+    "talk:event": "foss4g-europe-2025-workshops",
+    "talk:type": "workshop",
+    "talk:language": "en",
+    "talk:room": "PL14",
+    "talk:room_capacity": 53,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "VXXFNW",
+        "name": "Yuri Astrakhan",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025-workshops/speaker/VXXFNW/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-14T14:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025-workshops/talk/M9888F/",
+      "title": "Tile serving with MapLibre/Martin/Planetiler - base and overlays"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025-workshops/talk/M9888F/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025-workshops/speaker/VXXFNW/",
+      "title": "Yuri Astrakhan"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025-workshops/talk/M9888F/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-workshops"
+}

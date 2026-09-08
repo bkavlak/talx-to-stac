@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "WKMWXY",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Designing a Scalable Open-Source Workflow for Water Network Field Validation: Lessons from Costa Rica",
+    "description": "How can open-source GIS support large-scale and collaborative validation of urban water networks? This talk presents a scalable workflow built with QGIS, Giswater, PostGIS and QFieldCloud, enabling structured field data collection, multi-organization collaboration and high-quality datasets for hydraulic modelling in a national water utility.\n\nThis presentation describes the evolution of the enterprise GIS workflow at AyA (Instituto Costarricense de Acueductos y Alcantarillados, Costa Rica) to support large-scale validation and surveying of urban water distribution networks using a fully open-source stack.\r\n\r\nThe initial system focused on inspection visits and partial network review. However, it did not support full asset surveying when required, lacked isolation from the production database, and was not designed for simultaneous collaboration between multiple external organizations. As the need grew to update and validate large portions of the network, a more robust and scalable approach became necessary.\r\n\r\nThe new workflow is based on QGIS, Giswater, PostgreSQL / PostGIS, and QField with on-premise QFieldCloud. A dedicated campaign schema was introduced to separate field operations from production data, ensuring stability and controlled validation before integration.\r\n\r\nField campaigns and work packages are generated through custom tools in the Giswater QGIS plugin. Each package defines a geographic area and is assigned to a specific organization and field team. This design allows several external contractors to work in parallel while ensuring data isolation and preventing visibility between organizations.\r\n\r\nUsing QFieldCloud, projects are directly connected to the central PostgreSQL database via pgservice. Field teams update pipes, valves, pumps, tanks and other network assets in real time, comparing existing GIS data with actual field conditions and creating new assets where necessary. Changes become immediately available for validation in QGIS Desktop, reducing synchronization issues and improving transparency.\r\n\r\nThe workflow is currently designed to support large-scale surveying in Costa Rica, with ongoing work in parts of San Jos\u00e9 and full coverage planned for other cities. At present, two external organizations are actively working alongside AyA, involving around 20 concurrent users between field and office roles.\r\n\r\nKey technical design choices to support operational needs include:\r\n- Image management via WebDAV, automatically mounted on the server. A relational intermediate table allows unlimited images per asset, ensuring structured multimedia documentation.\r\n- Implementation of a PostgreSQL session role mechanism, enabling the database current_user to reflect the authenticated QField user. This allows precise change tracking, user-based filtered views, and improved accountability.\r\n- Custom PostgreSQL functions supporting topological control directly from QGIS, including detection of duplicate or orphan nodes and bulk pipe splitting using pre-existing nodes.\r\n\r\nOnce campaigns are completed, edits are reviewed and validated before controlled integration into production. The resulting datasets significantly improve network quality and enable reliable hydraulic modelling with Giswater, supporting strategic decision-making and long-term water management.\r\n\r\nAlthough presented through the AyA case, the architecture and design principles are transferable to other utilities managing distributed infrastructure assets. The session will highlight reusable patterns and lessons learned to help organizations design collaborative, database-driven field workflows using open-source technologies.",
+    "start_datetime": "2026-09-02T04:30:00Z",
+    "end_datetime": "2026-09-02T05:00:00Z",
+    "talk:code": "WKMWXY",
+    "talk:guid": "fb03ef69-914f-5d9f-9903-0c99f11dfdf7",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Dahlia2",
+    "talk:room_capacity": 140,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "R9GLMA",
+        "name": "Albert Bofill",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/R9GLMA/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T04:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/WKMWXY/",
+      "title": "Designing a Scalable Open-Source Workflow for Water Network Field Validation: Lessons from Costa Rica"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/WKMWXY/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/R9GLMA/",
+      "title": "Albert Bofill"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/WKMWXY/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

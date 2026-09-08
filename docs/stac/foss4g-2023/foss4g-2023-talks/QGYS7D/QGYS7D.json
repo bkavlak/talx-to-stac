@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "QGYS7D",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "G3W-SUITE as a tool for the preparation of web cartographic management systems",
+    "description": "The Lazio Region Authority (Italy) has been using for several years a system based on the G3W-SUITE and QGIS application which has allowed it, not only to publish public web services, but to prepare web cartographic management systems dedicated to internal staff for the management of territorial aspects of own competence:\r\n * management of damages caused by wildlife and related reimbursement procedures\r\n * environmental impact assessment practices\r\n * wolf genetics\r\n * signaling the presence of wild boar in urban areas\r\n * nests and strandings of sea turtles\r\n * road accidents with wildlife\r\n\r\nThe close integration between the suite and QGIS has allowed to create web cartographic management systems characterized by:\r\n * numerous geometry editing features\r\n * customization of the structure of the editing and attribute consultation forms\r\n * simplification of attributes compilation thanks to the ability to inherit from QGIS: editing widgets, \r\n * mandatory and uniqueness constraints, default values, conditional forms and drill down cascade based on expressions\r\n * possibility of defining geographical constraints in visualization and editing in order to divide the \r\nterritory based on areas of competence associated with individual users\r\n * possibility to differentiate the information content accessible on the basis of different users and roles\r\n * descriptive analysis of the data through integration with the graphs created with the DataPlotly plugin\r\n\r\nThanks to the contribution and funding from the Lazio Region dedicated to the development and integration with the QGIS functions related to data editing, G3W-SUITE is configured as a valid tool for the preparation of advanced geographic data management systems on the web.\r\n\r\nAs an example, we report a series of use cases:\r\n * Environmental Protection Agency of the Piemonte Region: post-event damage and usability census, management and cartographic representation of post-earthquake inspection requests\r\n * Gran Paradiso National Park: park route signage management\r\n * Piemonte Region: preparation of Civil Protection Plans\r\n * Environmental Protection Agency of the Lombardy Region: Hydrological Information System",
+    "start_datetime": "2023-06-29T13:00:00Z",
+    "end_datetime": "2023-06-29T13:30:00Z",
+    "talk:code": "QGYS7D",
+    "talk:guid": "2a9ef295-9f80-5047-a47e-ff1d271bed2a",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT C / N109 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "D88UCN",
+        "name": "Walter Lorenzetti",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/D88UCN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-29T13:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/QGYS7D/",
+      "title": "G3W-SUITE as a tool for the preparation of web cartographic management systems"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/QGYS7D/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/D88UCN/",
+      "title": "Walter Lorenzetti"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/QGYS7D/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "EFDYKK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Building the Bloomberg for Climate Data with FOSS",
+    "description": "I am the Founder and CTO of Blue Sky Analytics, a Climate-Tech Startup using satellite-derived climate intelligence to power financial decisions. We provide datasets through API spanning flood, drought, wildfire, heat risk for monitoring, measuring and mitigating climate risk which can be leveraged for various use-cases.\r\n\r\nIn 2 years, we have analyzed TBs of data, delivered 5 datasets & built platforms for data visualisation and distribution from scratch using FOSS technology. This has been a rocket-ship of a journey, chasing our mission of building a \u2018Bloomberg for environmental data\u2019.\r\n\r\nHowever, the not-so-secret sauce to achieving these milestones has been FOSS. We are often asked how we procure raw geospatial data and how much we spend on it. Thanks to the abundance of open data, our data acquisition cost has been 0. Due to the generous open data policy of amazing organisations like NASA & ESA, we have been able to build a business collecting TBs of data daily & crunching them into useful insights.\r\n\r\nThis helped us scale our vision to build a global environmental data stack for tracking climate change in real-time. Moreover, before this data can be applied to climate mitigation, it needs to be analysed. This is true for any big data and today, less than 1% of global data is analysed. \r\n\r\nGiven that satellite data is the most significant source of tracking climate variables, it became imperative to tap this source. We discovered that the path to providing environmental datasets was by building a powerful geospatial data refinery along with [SpaceTime\u2122](https://spacetime.blueskyhq.in/)  and our [dev portal](http://developer.blueskyhq.in).\r\n\r\nThere was limited infrastructure available to support the delivery of geospatial datasets so we built it, leveraging open-source tools like Postgres, QGis, GDAL, k8s etc.\r\n\r\nWhile we have proprietary layers to our models, as a team of young developers, data scientists and designers, many self-taught, our cultural ethos stands firmly with FOSS and we plan to be a leading contributor to FOSS for climate action. The most significant step for us in that direction has been providing annual, country-wise data on biomass emissions to the Al Gore-led [Climate TRACE](https://www.climatetrace.org/) inventory that can be used by the public via CC-BY-4.0 framework.\r\n\r\nAs our business expands, we aim to open-source tools & innovations we have internally developed while building our infrastructure and have started that journey with the [Raster Playground.](http://play.blueskyhq.in)\r\n\r\nClimate change is the most pressing challenge of our times, throwing at us various questions that need to be answered. This is not possible without data. Data helps us understand the problem and quantify the risk to various assets. \r\n\r\nOpen source tools and data have made it possible for 20-year-old data scientists to access sophisticated satellite data to understand the changing planet and answer these questions. BSA is a testament to the fact that fighting climate change is not possible without FOSS.",
+    "start_datetime": "2022-08-26T08:00:00Z",
+    "end_datetime": "2022-08-26T08:05:00Z",
+    "talk:code": "EFDYKK",
+    "talk:guid": "c326237c-e01f-5f33-987f-26f4a4a47c13",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Room 4",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "ENELAD",
+        "name": "Kshitij Purwar",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/ENELAD/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T08:02:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/EFDYKK/",
+      "title": "Building the Bloomberg for Climate Data with FOSS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/EFDYKK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/ENELAD/",
+      "title": "Kshitij Purwar"
+    },
+    {
+      "rel": "related",
+      "href": "https://spacetime.blueskyhq.in/",
+      "title": "SpaceTime\u2122"
+    },
+    {
+      "rel": "related",
+      "href": "http://developer.blueskyhq.in",
+      "title": "dev portal"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.climatetrace.org/",
+      "title": "Climate TRACE"
+    },
+    {
+      "rel": "related",
+      "href": "http://play.blueskyhq.in",
+      "title": "Raster Playground."
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/EFDYKK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=LxguCG1plVc",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Building the Bloomberg for Climate Data with FOSS",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

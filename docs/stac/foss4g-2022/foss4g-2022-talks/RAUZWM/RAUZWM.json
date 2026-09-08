@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "RAUZWM",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "OpenMapTiles 3.14 - vector tiles from OpenStreetMap & Natural Earth Data",
+    "description": "OpenMapTiles is an open-source set of tools for processing OpenStreetMap data into zoomable and web-compatible vector tiles to use as high-detailed basemaps. These vector tiles are ready to use in MapLibre, Mapbox GL, Leaflet, OpenLayers, QGIS as well as in mobile applications.\r\nDockerized OpenMapTiles tools and OpenMapTiles schema are being continuously upgraded by the community (simplification, performance, robustness). The presentation will be demonstrating the latest changes in OpenMapTiles. The last release of OpenMapTiles greatly enhanced cartography and map styling possibilities, especially for roads such as adding new tags (expressway, access, toll). But also adding concurrent route labels or motorway junctions. Improvements were also done in the countryside by adding important tracks and paths (displaying from zoom 12), cliffs, aretes, and ridges. Another enhancement is the possibility to show mountain heights in customary units (feet in the US). OpenMapTiles is also used for generating vector tiles from government open-data secured by Swisstopo.",
+    "start_datetime": "2022-08-26T09:30:00Z",
+    "end_datetime": "2022-08-26T10:00:00Z",
+    "talk:code": "RAUZWM",
+    "talk:guid": "ad02eeee-8dc7-535c-a057-e489d51ef79e",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room 4",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "SPQSVL",
+        "name": "Tom\u00e1\u0161 Pohanka",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/SPQSVL/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/RAUZWM/",
+      "title": "OpenMapTiles 3.14 - vector tiles from OpenStreetMap & Natural Earth Data"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/RAUZWM/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/SPQSVL/",
+      "title": "Tom\u00e1\u0161 Pohanka"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/RAUZWM/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=QZO7nUT4_sE",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | OpenMapTiles 3.14 - vector tiles from OpenStreetMap & Natural Earth Data",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

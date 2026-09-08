@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "VKAKGR",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Linking provider catchment and SaTScan risk clusters for evidence-based public health nursing in Japan",
+    "description": "Background\r\nPublic health nursing uses routinely collected data to characterize population needs, plan targeted outreach, and coordinate prevention activities with clinical providers. Two operational questions are central to these tasks: where health risks are geographically concentrated and where residents actually access preventive services. Spatial cluster detection and provider catchment analysis address these questions from different perspectives, but they are often reported separately, limiting their interpretability for local planning.\r\n\r\nObjective\r\nTo describe and apply a geospatial workflow that combines provider catchment analysis and spatial scan statistics using preventive checkup data, and to report catchment patterns and chome level clustering of elevated HbA1c within a shared geographic framework relevant to public health nursing practice.\r\n\r\nMethods\r\nWe analyzed 3,200 records from Japan\u2019s Specific Health Checkups program for adults aged 40\u201374 years in a single local government area in Japan. The study protocol was approved by the institutional ethics review board of the author\u2019s university (approval number 2024 053). Analyses were conducted at two spatial scales. Service use patterns were summarized across seven residential elementary school districts. Spatial clustering was assessed at the chome level, using Japanese neighborhood scale address units and polygon boundary data.\r\nThe clustering outcome was elevated glycated hemoglobin, defined as HbA1c \u2265 5.6%, treated as an indicator of increased diabetes risk. Spatial processing, polygon handling, and centroid derivation were performed in QGIS. Statistical tabulation and testing were performed in R. Spatial scan statistics were computed using SaTScan.\r\nGeographic boundary data for elementary school districts and chome units were obtained from e Stat, the Portal Site of Official Statistics of Japan. Population denominators for residents aged 40\u201374 years were also obtained from e Stat. No individual locations were mapped or reported. Spatial outputs were based on aggregated chome level tables linked to polygon centroids.\r\nProvider catchment patterns were quantified using an origin destination contingency table crossing residential elementary school district, with seven origins, and provider location category, with nine destinations: seven in area districts, out of area providers, and group screening. The association between residence and provider location was evaluated using Pearson\u2019s chi square test, and adjusted standardized residuals were examined to characterize origin destination pairs used more or less often than expected under independence. District specific proportions of within district use, out of area use, and group screening were summarized.\r\nFor spatial clustering, SaTScan input files were prepared by linking chome level case counts, population denominators for residents aged 40\u201374 years, and chome centroid coordinates. A Poisson spatial scan statistic was applied to identify circular windows with elevated risk relative to the population denominator. Cluster reporting included population, observed and expected case counts, observed to expected ratios, relative risk, and statistical significance based on Monte Carlo testing.\r\n\r\nResults\r\nProvider catchment analysis indicated strong geographic structuring of preventive checkup utilization. Residential district and provider location category were strongly associated (Pearson\u2019s \u03c7\u00b2 = 2864.8, df = 48, p < 0.01). Adjusted standardized residuals were positive for all seven within district origin destination cells, indicating higher than expected utilization of providers located within the same district across all residential districts. However, the magnitude of within district utilization differed substantially by district. Within district use ranged from 6.8% to 72.5%, out of area use ranged from 11.2% to 37.3%, and group screening ranged from 3.8% to 7.1%, demonstrating heterogeneous catchment patterns within the study area.\r\nSpatial scan analysis identified one statistically significant spatial concentration of elevated HbA1c. The most likely high risk cluster comprised 40 chome units and had a population of 9,577 adults aged 40\u201374 years. This cluster included 400 observed cases and 315.80 expected cases, corresponding to an observed to expected ratio of 1.27 and a relative risk of 1.37 (p < 0.01). Two additional areas had relative risks greater than 1 but were not statistically significant. The second cluster comprised 10 chome units, with a population of 4,986 adults, 209 observed cases, 164.41 expected cases, an observed to expected ratio of 1.27, and a relative risk of 1.32 (p > 0.05). The third cluster comprised three chome units, with a population of 177 adults, 13 observed cases, 5.84 expected cases, an observed to expected ratio of 2.23, and a relative risk of 2.24 (p > 0.05).\r\n\r\nConclusions\r\nProvider catchment analysis and spatial scan statistics provide complementary geographic evidence relevant to public health nursing practice. Catchment heterogeneity indicates that patterns of preventive service utilization differ by residential district, including substantial variation in out of area utilization, while spatial scan statistics identify chome level areas where elevated HbA1c is concentrated beyond random variation. Presenting these results within a single geospatial workflow supports interpretation of local risk concentration together with district level service use patterns relevant to planning outreach, communication strategies, and provider collaboration.\r\nA limitation is that the Poisson scan used census based population denominators for residents aged 40\u201374 years rather than chome specific counts of checkup participants. Spatial variation in checkup participation may therefore influence cluster detection and interpretation. The use of open source software provides a practical pathway to strengthen evidence informed public health nursing activities through transparent, reproducible, and adaptable geospatial analyses.",
+    "start_datetime": "2026-09-01T04:30:00Z",
+    "end_datetime": "2026-09-01T05:00:00Z",
+    "talk:code": "VKAKGR",
+    "talk:guid": "59300194-aae0-5177-a861-9ce2b40573e9",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos2",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "97XW39",
+        "name": "Ryo Horiike",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/97XW39/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T04:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/VKAKGR/",
+      "title": "Linking provider catchment and SaTScan risk clusters for evidence-based public health nursing in Japan"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/VKAKGR/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/97XW39/",
+      "title": "Ryo Horiike"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/VKAKGR/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

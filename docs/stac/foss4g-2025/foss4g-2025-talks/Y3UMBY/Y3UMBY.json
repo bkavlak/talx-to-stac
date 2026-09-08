@@ -1,0 +1,105 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Y3UMBY",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Implementing Interactive Indoor Maps with MapLibre and IMDF",
+    "description": "Learn to render interactive indoor maps with MapLibre and IMDF. This session guides you through the complete workflow, from data processing to creating a map with dynamic features like searching for open stores and locating amenities within large facilities.\n\nWhile outdoor maps are ubiquitous, navigating large and complex indoor venues like shopping malls and airports remains a significant challenge for users. Traditional solutions, often static image-based maps provided by facility operators, lack the flexibility required for modern applications. These image maps are difficult to update and do not support crucial features like interactive search or real-time data integration, as the locational information is not structured as usable data.\r\n\r\nThis presentation tackles these challenges head-on. We will demonstrate how to build a powerful, data-driven indoor mapping solution using open-source tools.\r\n\r\nFirst, we will introduce the Indoor Mapping Data Format (IMDF), an international standard by Apple, and explain how to model a venue's floors, units, and points of interest.\r\n\r\nNext, we will walk through the technical implementation of parsing this IMDF data and rendering it as an interactive, multi-layered indoor map with MapLibre.\r\n\r\nFinally, going beyond simple map display, we will detail the implementation of a practical search feature. Attendees will learn how to leverage the structured IMDF data to allow users to find specific points of interest, such as stores that are currently open or the nearest available restroom, transforming the map from a static image into a dynamic and genuinely useful tool.\r\n\r\nKey Takeaways for the Audience:\r\n\r\n- A solid understanding of the Indoor Mapping Data Format (IMDF) structure and how to apply it to a real-world venue.\r\n- A step-by-step guide to processing IMDF data and rendering it as a multi-level indoor map using MapLibre.\r\n-Actionable techniques for implementing interactive features such as floor selection and displaying store or amenity information in a sheet when tapping annotations on the indoor map.",
+    "start_datetime": "2025-11-19T02:30:00Z",
+    "end_datetime": "2025-11-19T02:55:00Z",
+    "talk:code": "Y3UMBY",
+    "talk:guid": "a256531f-3061-5b86-ab6a-32e790781720",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Use Cases and Applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WA220",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "XEHQSZ",
+        "name": "Haruki Inoue",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/XEHQSZ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-19T02:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/Y3UMBY/",
+      "title": "Implementing Interactive Indoor Maps with MapLibre and IMDF"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/Y3UMBY/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/XEHQSZ/",
+      "title": "Haruki Inoue"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/Y3UMBY/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "speaker-deck": {
+      "href": "https://speakerdeck.com/kyotonagoya/implementing-interactive-indoor-maps-with-maplibre-and-imdf",
+      "title": "Speaker Deck",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=aS945tPsNc4",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Implementing Interactive Indoor Maps with MapLibre and IMDF",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

@@ -1,0 +1,112 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "GSBMGK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "osmlanduseR: An R package for the analysis of landuse data contributed to OpenStreetMap",
+    "description": "Over the past 30 years, Argentina has experienced changes in its agricultural and urban development model that have drastically altered land use practices and patterns. (Palmisano, 2018; Pintos and Narodowski, 2012)\r\n\r\nThese changes have been associated with flooding in several regions (Pal et al., 2021; Pattison and Lane, 2012). In particular, the Lujan River basin has historically experienced extreme events.\r\n\r\nIn the global scale, prevails the expansion of capitalism by a process of accumulation by dispossession,  characterized by land privatization, expulsion of farmers, conversion or suppression of rights to the commons (Harvey, 2004).\r\n\r\nThe analysis of these changes in landuse requires information typically obtained from remote sensing, that is validated and complemented with sampling programs. The development of an updated landuse map is a basic tool to study territorial phenomena such as flooding events or land use change. Such a methodology would allow the information to be compared with previously collected data at different scales and time periods.\r\n\r\nBut geographic information, its format, or processing tools do not generally allow for its reuse or improvement, and are not necessarily openly/freely available. This type of data can be considered a digital commons and can be the subject of mercantilization processes. In fact, publicly produced information and processing tools should be publicly available to enforce knowledge construction. (Arsanjani, 2015; Duf\u00e9al and Noucher 2017).\r\n\r\nOpenStreetMap is the main framework for volunteered geographic information, and because it constitutes a standardized database, it also allows to be a preferred repository for contributions originating from research programs of universities and public organizations.. Recently has been registered as a public good by an agency affiliated to the United Nations (https://blog.openstreetmap.org/2024/02/05/osm-named-as-a-digital-public-good-by-un-affiliated-agency/)\r\n\r\nData contributed to OSM has already been used to create and validate land use and land cover maps in various regions (Arsanjani et al., 2013; Shultz et al., 2017).\r\n\r\nIn Argentina,  the local community of OSM users has added a significant amount of geographic information that could be used for land use analysis, which could be further expanded, especially in non-urban areas.\r\nSince 2016, land use data in the middle basin of the Lujan river have been added to OSM as part of projects conducted by the National University of Lujan. Land use was visually assessed using satellite imagery and representative polygons were added with appropriate tags. Geometries were added preferably as multipolygons. Boundaries were drawn to avoid sharing nodes with the road and rail network.\r\n\r\nThe aim of this work is to present the development of an R package for the analysis of landuse data contributed to OSM. Subsequently, the goal is to increase the contribution of publicly generated information and its analysis tools in an open access format, such as those provided by OSM and R (R Core Team, 2023).\r\n\r\nThe package can be installed from its github repository https://github.com/aduhour/osmlanduseR.\r\n\r\nThe package is in an early stage of development and the features included are aimed at 1) download a set of land use related data from OSM using the overpass API. 2) Remove overlaps and measure polygon area. 3) Classify polygons by mapping OSM tags to user-defined classes that can be assimilated to Corine Land Cover classes or the FAO Land Cover Classification System (Schultz et al., 2017; Volante 2009) 4) Create a land use classification map.\r\n\r\n\r\nReferences\r\n\r\nArsanjani, A. J.; Helbich, M.; Bakillah, M.; Hagenauer, J. & Zipf, A. 2013.Toward mapping land-use patterns from volunteered geographic information. International Journal of Geographical Information Science.\r\n\r\nArsanjani, J. J.; Zipf, 2015. A.; Mooney, P. & Helbich, M. (Eds.) OpenStreetMap in GIScience\r\nSpringer. \r\n\r\nDuf\u00e9al, M. and Noucher, M. 2017. Des TIC au TOC. Contribuer \u00e0 OpenStreetMap: entre commun num\u00e9rique et utopie cartographique. Communs urbains et \u00e9quipements num\u00e9riques, 31 \r\n\r\nHarvey, D., 2004. The \u2018new\u2019 imperialism: Accumulation by dispossession. Socialist Register 40,\r\n63\u201387\r\n\r\nPal, S., Dominguez, F., Bollatti, P., Oncley, S. P., Yang, Y., Alvarez, J., and Garcia, C. M. (2021). Investigating the effects of land use change on subsurface, surface, and atmospheric branches of the hydrologic cycle fin central argentina. Water Resources Research, 57(11)\r\n\r\nPalmisano, T., 2018. Tierras de alguien. Teseo. URL: https://www.teseopress.com/tierrasdealguien.\r\n\r\nPattison, I. and Lane, S. N. (2012). The link between land-use management and fluvial flood risk: a chaotic conception? Progress in Physical Geography, 36(1):72\u201392.\r\n\r\nPintos, P. and Narodowski, P. (Eds.), 2012. La privatop\u00eda sacr\u00edlega. Efectos del urbanismo privado en humedales de la cuenca baja del r\u00edo Luj\u00e1n. 1era ed., Imago Mundi.\r\n\r\nR Core Team. 2023 R: A Language and Environment for Statistical Computing. R Foundation for  Statistical Computing, Vienna, Austria. <https://www.R-project.org/>.\r\n\r\nSchultz, M.; Vossa, J.; Auera, M.; Carterb, S. and Zipf, A. 2017. Open land cover from OpenStreetMap and remote sensing. International Journal of Applied Earth Observationd and Geoinformation.\r\n\r\nVolante, J. N. 2009. Monitoreo de la Cobertura y el Uso del Suelo a partir de sensores remotos. Instituto Nacional de Tecnolog\u00eda Agropecuaria, Instituto Nacional de Tecnolog\u00eda Agropecuaria.",
+    "start_datetime": "2024-12-05T15:15:00Z",
+    "end_datetime": "2024-12-05T15:45:00Z",
+    "talk:code": "GSBMGK",
+    "talk:guid": "fe4d899a-5518-51b5-a6f7-5a7ef102f429",
+    "talk:event": "foss4g-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room V",
+    "talk:room_capacity": 80,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "EKFAGV",
+        "name": "Andr\u00e9s Esteban Duhour",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/EKFAGV/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-05T15:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/GSBMGK/",
+      "title": "osmlanduseR: An R package for the analysis of landuse data contributed to OpenStreetMap"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/GSBMGK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/EKFAGV/",
+      "title": "Andr\u00e9s Esteban Duhour"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/aduhour/osmlanduseR",
+      "title": "github.com/aduhour/osmlanduseR"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.teseopress.com/tierrasdealguien",
+      "title": "www.teseopress.com/tierrasdealguien"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.R-project.org/",
+      "title": "www.R-project.org"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/GSBMGK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024/submissions/GSBMGK/resources/osmlanduseR-foss4g_bVYSEKE.pdf",
+      "type": "application/pdf",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

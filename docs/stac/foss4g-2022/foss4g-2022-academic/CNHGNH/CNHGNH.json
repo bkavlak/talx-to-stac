@@ -1,0 +1,93 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "CNHGNH",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Geo Collector Bot: A Telegram-based open toolkit to support field data collection",
+    "description": "The collection of georeferenced information on the field has become an established and popular practice allowing professionals, volunteers and citizens to contribute to mapping objects or reporting events. Field data collection is essential to a variety of domains [1] including many scientific and humanistic disciplines, humanitarian and rescues operations, locations reviews and professional engineering surveys, to mention a few. \r\n\r\nThe spread of mobile devices that can record location coordinates, media and features while on the go (and share them through the web) is primarily accountable for such diffusion. As a result, a number of mobile apps and software frameworks (both proprietary as well as free and open-source) have been developed and released to perform data collection on the field. Most of these frameworks allow developers or data collection promoters to customize collection forms according to the characteristics of each collection task and manage both users and records through web dashboards or database management systems. From the user perspective, mobile client apps are available to access selectively the collection forms and contribute to the data collection on the field using mainly smartphones or tables. Focusing on general-purpose data collection software frameworks, some of the most popular free and open-source solutions are the Open Data Kit (ODK, https://opendatakit.org), the KoBoToolbox (https://www.kobotoolbox.org) and Epicollect (https://five.epicollect.net). Other relevant examples of free and open-source frameworks implementing a more technical approach to field data collection are e.g. QField (https://docs.qfield.org), Geopaparazzi and SMASH (https://www.geopaparazzi.org). Proprietary or pay-per-use solutions developed by major GIS firms are also available on the market but they were not considered in the benchmark analysis carried out in this work.\r\n\r\nThe outlined free and open-source software frameworks provide client and server modules and both web and mobile apps to support the full development of field data collection projects [2]. From the developer (or data collection promoter) perspective, the adoption of such frameworks is facilitated by the availability of open APIs, interfaces and dashboards to generate, deploy and manage collection forms, users and records.  Nevertheless, limitations connected to the final user experience are common to most of them. On one hand, mobile client apps are not always available or optimized for all mobile OS, therefore preventing their use on the field by a significant number of potential contributors [3]. This is the case e.g. of the ODK on iOS devices. On the other hand, each of these frameworks requires the installation of a specific mobile app on the user's device. This operation may not represent a significant obstacle to the contribution to specific data collection projects by very active or committed users. However, it might inhibit the contribution of occasional users who may not be willing to install additional software on their device for sporadic mapping of objects or event reporting [4].\r\n\r\nIn view of the above, this work presents the Geo Collector Bot, an alternative free and open-source software toolkit to empower field data collection projects avoiding the development and/or the installation of a specific mobile app on contributors' devices. The Geo Collector Bot is a configurable Telegram-based chatbot enabling the dispatching of data collection forms that can be activated and filled through Telegram chats. It consists of a backend application written in Typescript and running on Node.js. As the supporting mobile client, the Telegram app is exploited thus enabling a large number of users to contribute, even sporadically, to data collection projects (potentially every Telegram user; 550 million monthly active users as of July 2021). The Geo Collector Bot is released under MIT License and source code, documentation and a demo are available on GitLab (https://gitlab.com/geolab.como/geocollectorbot).\r\n\r\nThe Geo Collector Bot works as a standard Telegram Bot. To collect the data, the Bot asks a series of questions to the user including location coordinates, media, textual annotations, multiple-choice checkboxes, etc. and persists the answers to a spatial database. The questions flow can be customized by editing a JSON configuration file. Local deployments of the system are facilitated by the provision of a Docker container (https://hub.docker.com/r/geolabpolimi/geo-collector-bot). \r\n\r\nThe Geo Collector Bot has been developed in the framework of the  INSUBRI.PARKS project (https://insubriparksturismo.eu), funded by the Interreg Co-operation Programme 2014-2020. This project aims at increasing the tourism attractiveness of the Insubria region (between Northern Italy and Southern Switzerland) through the provision of infrastructure as well as integrated marketing and management strategies for the Insubria natural parks. The Bot represents a component of the virtual infrastructure supporting the project. It was originally designed to allow both parks visitors and managers to easily collect and share geolocated records on parks status and feedback on points of interest. However, the ultimate goal of the presented work is to provide an open and general-purpose data collection software framework suitable for multi-purpose applications.\r\n\r\nThe current version of the Geo Collector Bot still does not provide dedicated backend supporting modules for both collection tasks and records management. To that end, the development of a web control dashboard is planned and it will be included in the stack of the Geo Collector Bot Docker container as an auxiliary component. The Bot has been tested using a PostgreSQL-PostGIS database. Additional configuration options to plug other spatial database systems is planned as well in the future development of this work.",
+    "start_datetime": "2022-08-24T12:45:00Z",
+    "end_datetime": "2022-08-24T13:15:00Z",
+    "talk:code": "CNHGNH",
+    "talk:guid": "e5912c21-a4c9-5c68-9157-617508c914e0",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room Hall 3A",
+    "talk:room_capacity": 85,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "P3WBAC",
+        "name": "Daniele Oxoli",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/P3WBAC/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T13:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/CNHGNH/",
+      "title": "Geo Collector Bot: A Telegram-based open toolkit to support field data collection"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/CNHGNH/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/P3WBAC/",
+      "title": "Daniele Oxoli"
+    },
+    {
+      "rel": "related",
+      "href": "https://opendatakit.org",
+      "title": "opendatakit.org"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/CNHGNH/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

@@ -1,0 +1,97 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "SAADFE",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "An Open-Source AI-Powered Geospatial Metadata Editor for Schema-Agnostic Generation, Migration, and Content Harmonisation",
+    "description": "Metadata are a foundational component of any data infrastructure, as they enable dataset discovery, evaluation, and reuse. Metadata creation and maintenance, however, is typically a costly, inconsistent, and largely manual process.  In the European context, this bottleneck is visible in major data sharing initiatives such as the INSPIRE Directive and the Common European Data Spaces, where high-quality, interoperable metadata are a legal requirement as well as a precondition for data market participation.\r\nTwo main challenges affect the creation and maintenance of geospatial metadata. The first is schema heterogeneity, since existing schemas (including ISO 19115, DCAT, GeoDCAT-AP, Dublin Core, INSPIRE profiles) show partially overlapping semantics but incompatible serialisations. Migration between schemas is typically performed through hand-crafted transformations encoding explicit field-to-field mappings: brittle, schema-specific artefacts requiring specialist maintenance. The second challenge is content inconsistency: even within a single schema, records produced by different operators (including within the same organisation) may exhibit inconsistent terminology, structure, and level of detail in free-text fields \u2013 which undermines   catalogue-level discoverability.\r\nGenerative Artificial Intelligence (GenAI) and Large Language Models (LLMs) in particular offer   promising capabilities to address these challenges. AI-assisted metadata management (acquisition, cleaning, verification and maintenance) has been already explored in literature [1], but to our knowledge not in the case of geospatial datasets. Existing work includes for example AI support for digitizing libraries, classifying research resources, and create website content. Whatever the purpose, research has focused on how to instruct LLMs to produce structured outputs for high-quality metadata [2] or to address the limitations of metadata schemas, particularly free-text attributes whose definitions are often self-referential or provide insufficient contextual meaning for GenAI to process [3].\r\nThis work extends such literature by proposing an open-source, AI-powered geospatial metadata editor. The core design principle is schema agnosticism: output schemas are defined as declarative configuration files, and any new schema can be registered without modifying the application code. Field extraction and generation are driven by attribute type classification, independently of field names or schema-specific logic, with GeoDCAT-AP 3.0.0 as the current default.\r\nThe tool recognises three different types of metadata attributes and tackles them differently. Type A attributes, such as title, keywords, and description, are characterised by a free-text nature and as such, they are suitable for automatic generation using LLMs and prompts with contextual information. Type B are technical attributes such as spatial resolution, bounding box, file extension, etc. that can be automatically extracted from the dataset by standard functions. Finally, Type C are organisational attributes, such as publisher, contact point and licensing: these can be usually reused across several records within the same organisation.\r\nInput handling is multimodal. For extraction of Type B attributes, the tool accepts native geospatial datasets processed via GDAL/OGR, or the URL to the OGC service serving the dataset. As a third option, useful for large datasets, the textual output of the gdalinfo or ogrinfo inspection utilities can be provided directly. Type A attributes are generated using accompanying documentation on the relevant dataset, such as technical reports and scientific publications, which are indexed as corpus content. The generation phase implements Retrieval-Augmented Generation (RAG): semantically oriented queries are issued against the vector corpus for each free-text attribute, results are ranked by relevance, and a context passage is assembled to inform generation. The LLM component is any OpenAI-compatible inference endpoint, supporting both cloud-hosted and fully local deployments.\r\nThe tool supports three modes of operation through a unified processing pipeline, with differences arising solely from the inputs provided. In the creation mode,  the user supplies a geospatial dataset and supporting documentation. Technical (Type B) attributes are populated deterministically from the dataset; publisher\u2019s information (Type C attributes) is parsed from the structured publisher document provided as input. Finally, by querying the assembled corpus and including the Type B and C metadata attributes, the LLM generates free-text fields (Type A) such as title, description, keywords, and provenance. A shared, versioned prompt template encodes conventions \u2013 expected content sections, field order, and level of specificity \u2013 applied consistently across all generated metadata records. This template functions as a content harmonisation instrument: metadata produced by different operators for different datasets converge on a common descriptive structure, improving catalogue-level discoverability without requiring ad-hoc normalisation. The use of a template and of different prompting techniques to reduce model hallucination and improve harmonisation across datasets has been investigated in an article currently under review [4].\r\nIn the schema migration mode,  the user additionally supplies an existing metadata record in any supported structured format. The legacy record is parsed into field candidates and indexed in the retrieval corpus. During generation, the LLM receives the legacy metadata as contextual input; the mapping from source schema to target schema fields emerges from the model semantic knowledge of both standards rather than from explicit transformation rules, generalising to schema pairs for which no hand-crafted converter exists.\r\nFinally, in the enrichment mode,  the user supplies a partial record or publisher documentation declaring organisational fields such as publisher, license, and contact point; these are incorporated at the extraction time, while remaining free-text fields are generated and harmonised through the prompt template.\r\nIn all three modes, the LLM is invoked only during the generation phase and only upon explicit user action, preserving a human-in-the-loop validation step before the export.\r\nSource code was submitted for intellectual property and security screening for release under the open-source European Union Public License (EUPL) according to the organisation policy. Schema definitions and prompt templates are expressed as human-readable declarative files, versioned and customisable without modifying application code. \r\nThe empirical evaluation in [4] is currently bounded by the institutional homogeneity of JRC-produced metadata; future research will address this limitation by incorporating records from Member State authorities engaged in the INSPIRE GeoDCAT-AP Pilot [5], enabling a more representative assessment of the tool's harmonisation capacity across heterogeneous producer communities.",
+    "start_datetime": "2026-06-29T12:00:00Z",
+    "end_datetime": "2026-06-29T12:30:00Z",
+    "talk:code": "SAADFE",
+    "talk:guid": "964244dd-1d55-519e-9fda-7212f6a4e0c8",
+    "talk:event": "foss4g-europe-2026",
+    "talk:track": "Academic track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "A01",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "E3T3XF",
+        "name": "Margherita Di Leo",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/E3T3XF/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-06-29T12:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/SAADFE/",
+      "title": "An Open-Source AI-Powered Geospatial Metadata Editor for Schema-Agnostic Generation, Migration, and Content Harmonisation"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/SAADFE/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/E3T3XF/",
+      "title": "Margherita Di Leo"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/SAADFE/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2026/submissions/SAADFE/resources/AI_metadata_z1XVSw8.pdf",
+      "type": "application/pdf",
+      "title": "Slides",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

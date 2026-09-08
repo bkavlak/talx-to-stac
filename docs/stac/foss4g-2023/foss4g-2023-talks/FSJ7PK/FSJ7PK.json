@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "FSJ7PK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Comparison of GeoServer configuration deployment options",
+    "description": "The goal of this presentation is to give an overview of the different options available for deploying a GeoServer configuration to different environments. In addition to the common data_dir folder deployment option, we will explore the possibilities offered by existing extensions and by the REST API, including different client libraries around it. We will also discuss the advantages that can be brought by Terraform for this use case.",
+    "start_datetime": "2023-06-29T12:30:00Z",
+    "end_datetime": "2023-06-29T13:00:00Z",
+    "talk:code": "FSJ7PK",
+    "talk:guid": "d2c80d19-5f7a-50ae-a8bf-5dd7594a65f2",
+    "talk:event": "foss4g-2023",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Lumbardhi",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "UDGTSB",
+        "name": "Alexandre Gacon",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/UDGTSB/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-29T12:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/FSJ7PK/",
+      "title": "Comparison of GeoServer configuration deployment options"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/FSJ7PK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/UDGTSB/",
+      "title": "Alexandre Gacon"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/FSJ7PK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/oyMyqWmBzsQiY2iKd4n429",
+      "type": "text/html",
+      "title": "2023 | Comparison of GeoServer configuration deployment options - Alexandre Gacon",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=48DoyuoJ-SY",
+      "type": "text/html",
+      "title": "2023 | Comparison of GeoServer configuration deployment options - Alexandre Gacon",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

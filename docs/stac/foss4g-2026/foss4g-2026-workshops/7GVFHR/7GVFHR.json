@@ -1,0 +1,133 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "7GVFHR",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Introduction to GeoNode",
+    "description": "GeoNode is an open source web platform for the development of interoperable spatial data infrastructures.\r\nThe workshop will provide an introduction to GeoNode starting with an overview of its functionalities for managing, data, users and documents covering also more advanced concepts.\n\nThe workshop will provide an introduction to GeoNode starting with an overview of its functionalities for managing data, users and documents covering also more advanced concepts like managing layers, editing layer styles, managing maps, dashboards and geostories and more; advanced information on data management will also be provided in order to ensure performance data dissemination.\r\n\r\nThe workshop will also cover advanced administration and configuration concepts covering, the administration panel, management commands and much more.\r\n\r\nIn order to participate no previous knowledge of GeoServer and OGC services is required, but a basic knowledge of GIS concepts and basic data formats (shapefiles, geotiff) is recommended.\r\n\r\n**Prerequisites**\r\n\r\nA link to a web demo instance will be provided during the workshop so you can follow along with most of the exercises (note: this excludes admin-only features).\r\n\r\nIf you prefer to follow along hands-on by installing GeoNode, the [geonode-project](https://github.com/Geonode/geonode-project) provides a Docker Compose setup. The [Quick Docker Start](https://github.com/GeoNode/geonode-project/blob/master/README.md#quick-docker-start) README describes how to set up the application. The Docker setup will take minutes to download dependencies, so **we highly recommend preparing beforehand** (internet connection required).\r\n\r\nA dedicated UI handles most interactions, though basic knowledge of Python is helpful. Workshop materials are available here:\r\n\r\n* **GeoNode documentation:** [v5.1.x Docs](https://docs.geonode.org/en/5.1.x/)\r\n\r\n**Requirements for local setup** \r\n\r\nTools:\r\n\r\n* **Git:** [Installation Guides](https://github.com/git-guides/install-git)\r\n* **Docker Desktop:** [Windows Installation](https://docs.docker.com/desktop/setup/install/windows-install/) (or [Docker Engine](https://docs.docker.com/engine/install/) as alternative)\r\n\r\nFor Windows we recommend installing GeoNode inside [WSL](https://learn.microsoft.com/en-us/windows/wsl/install)\r\n\r\nHardware at least:\r\n\r\n* 4 CPUs\r\n* 8GB free RAM\r\n* 40GB free storage",
+    "start_datetime": "2026-08-30T01:00:00Z",
+    "end_datetime": "2026-08-30T04:00:00Z",
+    "talk:code": "7GVFHR",
+    "talk:guid": "a9f64362-8589-5157-a3f8-6de445c411b2",
+    "talk:event": "foss4g-2026-workshop",
+    "talk:type": "Workshop",
+    "talk:language": "en",
+    "talk:room": "613",
+    "talk:room_capacity": 45,
+    "talk:duration_minutes": 180,
+    "talk:speakers": [
+      {
+        "code": "BEYNQB",
+        "name": "Stefano Bovio",
+        "url": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/BEYNQB/"
+      },
+      {
+        "code": "N8YNZB",
+        "name": "Mattia Giupponi",
+        "url": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/N8YNZB/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-08-30T02:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/7GVFHR/",
+      "title": "Introduction to GeoNode"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/7GVFHR/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/BEYNQB/",
+      "title": "Stefano Bovio"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/N8YNZB/",
+      "title": "Mattia Giupponi"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/Geonode/geonode-project",
+      "title": "geonode-project"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/GeoNode/geonode-project/blob/master/README.md#quick-docker-start",
+      "title": "Quick Docker Start"
+    },
+    {
+      "rel": "related",
+      "href": "https://docs.geonode.org/en/5.1.x/",
+      "title": "v5.1.x Docs"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/git-guides/install-git",
+      "title": "Installation Guides"
+    },
+    {
+      "rel": "related",
+      "href": "https://docs.docker.com/desktop/setup/install/windows-install/",
+      "title": "Windows Installation"
+    },
+    {
+      "rel": "related",
+      "href": "https://docs.docker.com/engine/install/",
+      "title": "Docker Engine"
+    },
+    {
+      "rel": "related",
+      "href": "https://learn.microsoft.com/en-us/windows/wsl/install",
+      "title": "WSL"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/7GVFHR/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-workshops"
+}

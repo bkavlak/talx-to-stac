@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "DZZCTY",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "OTB integration in operational processing chains",
+    "description": "The Orfeo ToolBox is used as development framework for satellite image processing over large dataset in several operational projects. Indeed, its image processing functionalities (multithreading, streaming, ram configuration) allow to process big images quite fast. The operational processing chains use OTB from the Python API and C++ API.  \r\n\r\nAmong the optical chain processing using OTB, we can list: MAJA, WASP, BIOPHY and IOTA2. MAJA (Maccs-Atcor Joint Algorithm) is an atmospheric correction and cloud screening software, based on multi temporal and multi-spectral processing. This chain uses L1C products to generate high quality L2A surface reflectance time series for Landsat8, Venus, and Sentinel 2 missions, it is mainly used by THEIA distribution center. The core algorithms of Maja are based on the Orfeo Toolbox. To process a product, the chain uses aerosol contents, cloud and shadow detection and various atmospheric effects to estimate accurate surface reflectance values. The main problem of the L2A products is the presence of clouds in time series which is why WASP was created. Indeed WASP (Weighted Average Synthesis Processor) delivers L3 products which provide monthly syntheses of cloud-free reflectance for Sentinel2 and Venus L2A products distributed by THEIA. This processor mainly includes a directional correction to normalize data and a weighted average of surface reflectance. Two other operational chains which uses OTB are BIOPHY - the goal of this processing chain is to create L2A products containing biophysical variables (FAPAR, FCOVER, LAI) related to the presence of vegetation in the image over a year \u2013 and IOTA2 - a soil occupation processor over a year of Sentinel1 and Sentinel2 data, the algorithms use the classification toolbox provided by OTB to process large areas, to determine the areas covered by buildings. \r\n\r\nOrfeoToolBox is also used for radar processing chain, like diapOTB or S1Tiling. S1TIling is a generic processing chain for Sentinel-1 time series developed with open-source software. Its main goal is to produce time series of Analysis ready data S1 images for large areas. The algorithms are using the SAR processing toolbox from OTB to take profit of its in-memory pipelining capabilities. DiapOTB is a differential SAR interferometry processing. It uses two SAR images of the same portion of the Earth\u2019s surface taken at different time as input and aims to analyze potential events (earthquake, destruction \u2026) by highlighting differences between SAR images. \r\n\r\nTo conclude, OTB is the central framework for a large scale of operational chains in remote sensing. Its genericity permits to cover a lot of use cases in one single tool. Note that it is also distributed in other projects like WorldCereal, SNAP, AI4GEO as toolbox or RUS as training and formation aim.",
+    "start_datetime": "2022-08-25T10:00:00Z",
+    "end_datetime": "2022-08-25T10:30:00Z",
+    "talk:code": "DZZCTY",
+    "talk:guid": "c115f7c7-c6eb-521b-b3c7-436f1bee322e",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Verde",
+    "talk:room_capacity": 230,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "HNBRKL",
+        "name": "JulienOsman",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/HNBRKL/"
+      },
+      {
+        "code": "TGVVUX",
+        "name": "Julie Brossard",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/TGVVUX/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T10:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/DZZCTY/",
+      "title": "OTB integration in operational processing chains"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/DZZCTY/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/HNBRKL/",
+      "title": "JulienOsman"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/TGVVUX/",
+      "title": "Julie Brossard"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/DZZCTY/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/kj9Wie1sTfemVrzQnfTbm6",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | OTB integration in operational processing chains",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=ZGxzJOWXDds",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | OTB integration in operational processing chains",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

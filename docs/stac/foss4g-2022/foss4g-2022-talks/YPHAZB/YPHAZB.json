@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "YPHAZB",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Analysis Ready (Meta)Data",
+    "description": "The term Analysis Ready Data started as a way to describe a Landsat product that would efficiently allow time-series based analysis by providing a consistent, grid and pixel-aligned product corrected to surface-based measurements. Since then it has come to mean a wide range of things, but without a clear set of standards on how to characterize ARD there is little to no interoperability among datasets that call themselves ARD.\r\n\r\nThe Analysis Ready Metadata initiative uses the SpatioTemporal Asset Catalog (STAC) spec as the vehicle for describing well-characterized data. This goes beyond the basic geospatial and temporal characteristics captured in the core STAC spec and into detail about the processing level of the data, corrections that have been applied, as well as spatial and measurement uncertainties.  Having well-characterized data through it\u2019s STAC metadata enables discovery of usable data, automated processing using interoperable workflows, and tracking of data provenance of derived products.\r\n\r\nThe CEOS ARD (previously CARD4L) specifications require certain metadata and processing to be done for it to be compliant and can use this STAC metadata to automatically assess the potential for a dataset to be compliant with the needed requirements. This talk will cover elements of STAC, ARD, and the CARD4L family product specifications.",
+    "start_datetime": "2022-08-25T13:35:00Z",
+    "end_datetime": "2022-08-25T13:40:00Z",
+    "talk:code": "YPHAZB",
+    "talk:guid": "4b6e42e1-5ba7-5b4f-961b-192833a07f89",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Open Data",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Modulo 0",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "W8MQ89",
+        "name": "Matthew Hanson",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/W8MQ89/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T13:37:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/YPHAZB/",
+      "title": "Analysis Ready (Meta)Data"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/YPHAZB/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/W8MQ89/",
+      "title": "Matthew Hanson"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/YPHAZB/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=VrhGbBw8kwU",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Analysis Ready (Meta)Data",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

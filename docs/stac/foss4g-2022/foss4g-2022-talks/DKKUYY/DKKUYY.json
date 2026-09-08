@@ -1,0 +1,104 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "DKKUYY",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Micronutrient Action Policy Support (MAPS) - A decision support tool for investigating the scale and geographic distribution of micronutrient availability in sub-Saharan Africa",
+    "description": "Micronutrient deficiencies (MNDs), so-called \u2018hidden-hunger\u2019, can have serious ramifications for the health of individuals affected and the economy of the country in which they live. MNDs are a global problem but disproportionately affect populations in low-income countries. Work to alleviate these deficiencies aligns with the UN\u2019s Sustainable Development Goals (SDG), especially SDG2 \u2013 access to adequate safe and nutritious food. Data which can support the understanding of the scale and location of these deficiencies can be fragmented in their availability and accessibility, creating a barrier to their use in planning interventions by stakeholders in the very nations where the impacts of MNDs are most severe.   \r\n\r\nThe Micronutrient Action Policy Support (MAPS) tool is a web-hosted open access platform providing a unique enabling environment for the wider agriculture-nutrition community and beyond which allows users to view and explore MND risks at various spatial and temporal scales. The tool can provide users with dietary micronutrient supply estimates of all nations in sub Saharan Africa using national-scale and subnational-scale data. Preprocessing steps to clean these data in R language are made available through the open github repository, so that any user can replicate the data used in the tool.  \r\n\r\nPriorities for the data and functionality have been co-designed with key users from project proposal stage. Stakeholder feedback is used in continued iteration as richer content, supporting material, and functionality is planned, developed and released. \r\n\r\nThe platform is built on open-source technologies utilising Postgres and PostGIS to store, combine and interrogate a range of heterogeneous datasets to calculate micronutrient supply estimates, node.js for data APIs and web map services using Geoserver.  Further data processing is conducted using R, with the front-end interface utilising Angular, leaflet.js and chart.js.  Metadata is managed and served via Geonetwork.  The code for the platform, as well as data processing scripts, methods and processes are all open source at https://github.com/micronutrientsupport. \r\n\r\nThis talk will provide an overview of the platform along with the datasets and open-source technologies that underpin its functionality, and the UX approaches taken to ensure that this tool meets the currently unmet needs of priority users.  \r\n\r\n(https://micronutrient.support)",
+    "start_datetime": "2022-08-26T08:10:00Z",
+    "end_datetime": "2022-08-26T08:15:00Z",
+    "talk:code": "DKKUYY",
+    "talk:guid": "d29b3449-bb45-5154-bcdf-e8d8e768644f",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Room Limonaia",
+    "talk:room_capacity": 110,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "SNKHMN",
+        "name": "Andrew Bean",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/SNKHMN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T08:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/DKKUYY/",
+      "title": "Micronutrient Action Policy Support (MAPS) - A decision support tool for investigating the scale and geographic distribution of micronutrient availability in sub-Saharan Africa"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/DKKUYY/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/SNKHMN/",
+      "title": "Andrew Bean"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/micronutrientsupport",
+      "title": "github.com/micronutrientsupport"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/DKKUYY/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=qtPeNC2lUIY",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Micronutrient Action Policy Support (MAPS) - A decision support tool for\u2026",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

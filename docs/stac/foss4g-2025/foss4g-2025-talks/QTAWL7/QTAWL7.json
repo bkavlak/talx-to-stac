@@ -1,0 +1,169 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "QTAWL7",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Modelling Climate Risks Using NASA Earthdata Cloud & Python APIs Workshop",
+    "description": "This workshop is built around guided computational analyses of two particular climate risk scenarios\u2014wildfires & floods. The goal is to support independent geospatial explorations using publicly available data products from [NASA Earthdata Cloud](https://www.earthdata.nasa.gov/) and FOSS with Pythonic APIs on a cloud computing environment.\n\nPredicting and managing environmental risks of various climate-related disasters\u2014e.g., wildfires, drought, and floods\u2014is challenging and critical worldwide. Part of the difficulty is that historical norms (e.g., from last century) for the frequency of such extreme climate events are no longer sufficient to infer the frequency of future disasters. These natural risks are intrinsically linked to the dynamic distributions\u2014varying both temporally and spatially\u2014of surface water, precipitation, vegetation, and land use. These distributions can be modelled for forecasting and analysis (enabling quantification of these environmental risks) using hundreds of petabytes of relevant Earth science data available through [NASA's Earthdata Cloud](https://www.earthdata.nasa.gov/). With the dramatic growth in the availability of such data, today's earth scientists benefit from a strong understanding of open science practices and of cloud-based data intensive computing that enable reproducibly analyzing and assessing changing risk profiles.\r\n\r\nThis workshop provides hands-on examples of using cloud-based infrastructure and data products from [NASA Earthdata Cloud](https://www.earthdata.nasa.gov/) for the analysis of environmental risk scenarios. This involves constructing quantitative estimates of changes in hydrological water mass balance over various defined geographical regions of interest and time windows. The goal is to build enough familiarity with generic cloud-based Jupyer/Python workflows and with remote-sensing data to enable adapting and remixing examples for other region-specific contexts. The workshop's design reinforces best practices of data-proximate computing and of reproducibility (as supported by NASA's [Open Science](https://science.nasa.gov/open-science-overview) and [Transform to Open Science (TOPS)](https://nasa.github.io/Transform-to-Open-Science/) initiatives).\r\n\r\nParticipants are expected be familiar with raster data and common geospatial data conventions. Ideally, they are comfortable using a shell or a command-line interface to interact with data & programs. They should also be comfortable using common scientific Python libraries (e.g., NumPy, Pandas) and related Python data structures (e.g., tuples, dicts, lists, NumPy arrays, Pandas dataframes). There is a brief overview of Xarray, Hvplot, & Geoviews; prior exposure to those Python libraries is useful but not mandatory. Prior experience using Jupyter notebooks and writing short snippets of Python code is helpful.\r\n\r\n**Approximate schedule**:\r\n\r\n+ *minute 0-19*: Introduction & Setup (logging in, configuring NASA Earthdata credentials)\r\n+ *minute 20-29*: Reminders about GIS prerequisites: coordinate systems, data formats (if required)\r\n+ *minute 30-49*: Overview of PyData tools for geographic data: [Rasterio](https://rasterio.readthedocs.io/en/stable/index.html) & [Xarray](https://docs.xarray.dev/en/stable/index.html) (if required)\r\n+ *minute 50-59*: Break\r\n+ *minute 60-79*: Overview of PyData visualisation tools: [Hvplot](https://hvplot.holoviz.org/) & [Geoviews](https://geoviews.org/) (if required)\r\n+ *minute 80-99*: Using NASA Earthdata Products (DIST, DWSx)\r\n+ *minute 100-109*: Using PyStac for retrieving data\r\n+ *minute 110-119*: Break\r\n+ *minute 120-144*: Case study: wildfires\r\n+ *minute 145-169*: Case study: flooding\r\n+ *minute 170-179*: Wrap-up\r\n\r\nThe workshop starts by getting participants logged into the cloud infrastructure and verifying their NASA Earthdata Cloud credentials. This is followed by a quick, non-comprehensive overview of GIS prerequisites and Python approaches to manipulating and visualizing geospatial data. The schedule above will be adapted to suit the audience needs (i.e., by increasing or decreading time allocated in each section as appropriate).\r\n\r\nThe hands-on case studies rely on the [OPERA (Observational Products for End-Users from Remote Sensing Analysis)](https://podaac.jpl.nasa.gov/OPERA) suite of data products; in particular, they use two particular categories of data products: [DSWx (Dynamic Surface Water Extent)](https://d2pn8kiwq2w21t.cloudfront.net/documents/ProductSpec_DSWX_URS309746.pdf) and [DIST (Land Surface Disturbance)](https://lpdaac.usgs.gov/documents/1766/OPERA_DIST_HLS_Product_Specification_V1.pdf). The workflows presented extend notebook examples drawn from the extensive [OPERA Applications repository](https://github.com/OPERA-Cal-Val/OPERA_Applications).\r\n\r\nThis workshop\u2014co-developed by [MetaDocencia](https://www.metadocencia.org) & [2i2c](https://2i2c.org)\u2014is part of NASA's [Open Science](https://science.nasa.gov/open-science-overview) and [Transform to Open Science (TOPS)](https://nasa.github.io/Transform-to-Open-Science/) initiatives. An important goal is to reinforce principles of reproducibility and open science-based workflows (as exemplified in TOPS OpenCore, the introductory suite of open science curricula including Open Science 101).",
+    "start_datetime": "2025-11-17T20:00:00Z",
+    "end_datetime": "2025-11-17T23:00:00Z",
+    "talk:code": "QTAWL7",
+    "talk:guid": "b781d102-41e3-5470-8452-bb72cbb4a010",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Workshop - Beginner Friendly",
+    "talk:type": "Workshop",
+    "talk:language": "en",
+    "talk:room": "WF702",
+    "talk:room_capacity": 30,
+    "talk:duration_minutes": 180,
+    "talk:speakers": [
+      {
+        "code": "XMX8PY",
+        "name": "Dhavide Aruliah",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/XMX8PY/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-17T21:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/QTAWL7/",
+      "title": "Modelling Climate Risks Using NASA Earthdata Cloud & Python APIs Workshop"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/QTAWL7/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/XMX8PY/",
+      "title": "Dhavide Aruliah"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.earthdata.nasa.gov/",
+      "title": "NASA Earthdata Cloud"
+    },
+    {
+      "rel": "related",
+      "href": "https://science.nasa.gov/open-science-overview",
+      "title": "Open Science"
+    },
+    {
+      "rel": "related",
+      "href": "https://nasa.github.io/Transform-to-Open-Science/",
+      "title": "Transform to Open Science (TOPS)"
+    },
+    {
+      "rel": "related",
+      "href": "https://rasterio.readthedocs.io/en/stable/index.html",
+      "title": "Rasterio"
+    },
+    {
+      "rel": "related",
+      "href": "https://docs.xarray.dev/en/stable/index.html",
+      "title": "Xarray"
+    },
+    {
+      "rel": "related",
+      "href": "https://hvplot.holoviz.org/",
+      "title": "Hvplot"
+    },
+    {
+      "rel": "related",
+      "href": "https://geoviews.org/",
+      "title": "Geoviews"
+    },
+    {
+      "rel": "related",
+      "href": "https://podaac.jpl.nasa.gov/OPERA",
+      "title": "OPERA (Observational Products for End-Users from Remote Sensing Analysis)"
+    },
+    {
+      "rel": "related",
+      "href": "https://d2pn8kiwq2w21t.cloudfront.net/documents/ProductSpec_DSWX_URS309746.pdf",
+      "title": "DSWx (Dynamic Surface Water Extent)"
+    },
+    {
+      "rel": "related",
+      "href": "https://lpdaac.usgs.gov/documents/1766/OPERA_DIST_HLS_Product_Specification_V1.pdf",
+      "title": "DIST (Land Surface Disturbance)"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/OPERA-Cal-Val/OPERA_Applications",
+      "title": "OPERA Applications repository"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.metadocencia.org",
+      "title": "MetaDocencia"
+    },
+    {
+      "rel": "related",
+      "href": "https://2i2c.org",
+      "title": "2i2c"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.youtube.com/watch?v=CW8hTe21LPg",
+      "title": "www.youtube.com/watch"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.youtube.com/watch?v=LjQlmee58hg",
+      "title": "www.youtube.com/watch"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.youtube.com/watch?v=uZFQsv4WO8M",
+      "title": "www.youtube.com/watch"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/QTAWL7/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

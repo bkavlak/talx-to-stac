@@ -1,0 +1,132 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "LZHCDP",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Enhancing Geospatial Data Processing with Python: A Case Study using IBGE data",
+    "description": "In today's fast-paced, data-driven environment, organizations that use geospatial data for analysis are challenged by managing complex datasets and frequent updates. Geospatial data provides valuable context and information, enhancing applications in various domains such as logistics, urban planning, environmental monitoring, and marketing.\r\nTraditionally, many organizations have relied on no-code geospatial software with click-based interfaces. Due to their accessibility and user-friendly interface, these tools allow team members to visualize and manipulate geospatial data without the need for programming knowledge. However, as data starts to become more complex, these tools often present scalability limitations, restricting the full potential of geospatial data applications.\r\nThis paper explores the benefits of transitioning to a hybrid approach by integrating Python and open-source geospatial libraries into the data processing phase of geospatial analysis. By presenting the possible advantages gained and providing a hands-on example of Python use in geospatial data, the aim of this paper is to demonstrate how Python can play a pivotal role in overcoming the limitations of no-code solutions.\r\nPython can enhance the data extraction phase, enabling integration with various data sources and APIs and connecting to external databases and web services. This capability supports consistent data exchange and real-time data integration. This phase can also be automated, summarizing all steps into a script that can be applied to every new dataset.\r\nThe processed data can be visualized using various libraries in a Python environment or used as input for traditional geospatial software. The hybrid approach leverages the user-friendly visualization tools of no-code software while enabling more sophisticated data processing capabilities.\r\nThe output data can also be used as input for developing custom algorithms, including the integration of machine learning models and artificial intelligence. This step enables a wide range of applications, such as urban feature prediction, classification or segmentation of remote sensing data, and clustering of spatial data.\r\nAdopting a hybrid approach significantly enhances an organization's analytical capabilities. These advanced analyses provide deeper insights into spatial patterns and trends that manual methods alone may not reveal.\r\nThe hands-on example, based on census data from the Brazilian Institute of Geography and Statistics (IBGE), demonstrates geospatial data processing with Python and the GeoPandas library, both open-source solutions. This example will include the use of Python in geospatial data processing through the following steps: data extraction, data processing, and customized algorithm application.\r\nIn conclusion, integrating Python into these workflows enhances flexibility and analytical capabilities, allowing organizations to innovate in their solutions and create new opportunities for products and services. Coding elevates data-driven decision-making and enables more sophisticated and scalable analyses, particularly when dealing with large and complex datasets. This case study serves as an inspiring example for organizations and researchers aiming to maximize the potential of their geospatial data, highlighting the significant benefits of combining traditional geospatial software with powerful open-source tools.\r\n\r\nThis work received financial support from the State of S\u00e3o Paulo Research Foundation (FAPESP) (grant 2023/15663-7, 2024/05553-2, 2024/05727-0, 2024/05481-1).",
+    "start_datetime": "2024-12-05T20:00:00Z",
+    "end_datetime": "2024-12-05T20:30:00Z",
+    "talk:code": "LZHCDP",
+    "talk:guid": "e44642f9-d922-5b9c-a335-6dbdb4bd7aa7",
+    "talk:event": "foss4g-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room V",
+    "talk:room_capacity": 80,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "DMGQBR",
+        "name": "Ana Beatriz de Figueiredo Oliveira",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/DMGQBR/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-05T20:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/LZHCDP/",
+      "title": "Enhancing Geospatial Data Processing with Python: A Case Study using IBGE data"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/LZHCDP/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/DMGQBR/",
+      "title": "Ana Beatriz de Figueiredo Oliveira"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/LZHCDP/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024/submissions/LZHCDP/resources/Enhancing_Geospatial_Data_Processing_with_Pytho_AFZXG2c.pdf",
+      "type": "application/pdf",
+      "title": "Slides",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "text": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024/submissions/LZHCDP/resources/Text_-_Enhancing_Geospatial_Data_Processing_wit_lvPCd1I.pdf",
+      "type": "application/pdf",
+      "title": "Text",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "code": {
+      "href": "https://github.com/anabeatrizfig/foss4g2024",
+      "title": "Code",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/w7TxDZQ221j6MYCZrQGwoH",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | Enhancing Geospatial Data Processing with Python: A Case Study using IBGE data",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=fAHUOHx4s24",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | Enhancing Geospatial Data Processing with Python: A Case Study using IBGE data",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

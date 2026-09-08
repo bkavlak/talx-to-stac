@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "3MCN3C",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Examination of Metro Stations Equal Accessibility for All using Open Data Kit (ODK) Applications: A Case Study of Noida City in India",
+    "description": "Nowadays, the need is felt to create a sustainable and inclusive urban environment accessible to all, which requires a people-centered urban planning approach. Along with alleviating environmental problems and minimizing traffic congestion, the public transit system serves as a means of providing equal access (Rossetti, et al., 2020). This paper attempts to re-evaluate the isochrones prepared to access public transport stops particularly transit nodes across Noida city using a GIS-based approach and Open Data Kit (ODK) approach. The isochrones predict the time to reach any area from a transport node like a transit station based on the shortest path model, however, not all roads and streets offer equal access to all (Lei & Church, 2010). In this study, macro-built-environment attributes responsible to increase pedestrian distance length and time to reach metro stations were identified using a GIS-based approach by integrating land-use and transportation data. However, the micro-built environment attributes like pedestrian behaviour, preference of travel modes, and purpose and frequency of transit trips made by the transit users were gathered by conducting metro station user surveys using the ODK app linked with its ODK aggregate server. The ongoing transport and urban planning methods hardly give any importance to the understanding origin and destination to reach important places with more ease and mobility (Bhatt & Minal, 2022). Urban researchers have not investigated any studies to evaluate equal accessibility to effectively and smoothly use public transit services by easily accessing transit stations (Yang, et al., 2019). The objective of this study is to map the pedestrian permeability and impermeability by categorizing roads and streets around identified transit nodes as public, private, and non-accessible by all. The prime function of accessibility is to link people with activities through linkages (Lei & Church, 2010). In this study, the travel modes particularly considered were on foot, non-motorized (cycle and rickshaw), shared e-rickshaw, bus service, and dropped off by two-wheeler and four-wheeler. A stratified random sampling technique was adopted to calculate the sample size of 12 existing elevated metro stations in Noida on the Blue transit line of DMRC. A self-administered questionnaire was used to conduct metro station surveys using ODK mobile app at identified 12 metro stations in Noida starting from Noida Sector 15 until the last Noida Electronic city (NEC) station. A sample size of 1% of the average transit ridership data, collected from DMRC for each station was taken to achieve a 95% confidence level. However, some stations like the Golf course and stations following Noida city center operational since the year 2019 have low ridership below 5000 persons per day. For these stations, 2% sample size of the average ridership data was considered to achieve a similar confidence level. Following this step, the existing land use encircling individual metro stations within a radius of 800 meters was demarcated from Noida Master Plan (NMP) 2031. Based on static master plan land-use distribution, the stations were categorized as residential, non-residential, mixed-use and transport hubs. The questionnaire contained 31 items which included various aspects including the usual purpose of metro trips made, employment status, availability of the driving license, household size, current city living in, number of cars available in the household, car availability during the transit trip made, building topology of the transit user, and number of floors. Most importantly, the preferred travel mode to reach the nearest metro station, frequency of trips made in a week, metro travel pattern changed in past six months, particularly due to COVID-19 restrictions, and the reason to opt for transit services. Other allied questions were distance and time to reach the metro station using different travel modes. The survey results were downloaded for the ODK aggregate server and converted to an excel sheet from CSV file format for its data analysis. In QGIS, a buffer distance of 800 meters in both directions was marked along the blue line transit corridor with its 12 metro stations in Noida. Initially, typically common walkable pedestrian routes terminating at individual metro stations were identified with their trip origin location in the nearby sector. Based on the farthest location found in all the directions encircling the metro station, walkable sheds were developed for all the 12 metro stations in Noida. However, as the stations are quite close in between 1 to 2 kilometers, the walkable sheds overlap for some consecutive metro stations. Thereafter, using Garmin Etrex 10, all the common routes, most commonly followed by e-rickshaws as an alternative to walking were traced. The photographs of the barriers found that typically increase the walking distance and time to reach the metro stations were clicked. Thereafter, using My Maps an app by Google, the Garmin tracked routes were fed along with photos imported through the Google Photos app. In the case of Noida, there exist both planned and unplanned barriers to equal accessibility for all. While, the gated communities, large super-blocks, and many Government housing societies are planned barriers that impede accessibility for all within TOD station areas. The presence of urban villages with organic street layouts and narrow incomplete streets are hardly accessible and force potential transit riders to shift away from walking or rely on e-rickshaws as short to medium-distance travel modes. Finally, the study proposes a TOD index based on the Space syntax model and distance measurement to categorize roads within the TOD area as public roads, private roads - accessible by only a few residents, non-suitable streets - not fit for use.",
+    "start_datetime": "2022-08-24T10:00:00Z",
+    "end_datetime": "2022-08-24T10:05:00Z",
+    "talk:code": "3MCN3C",
+    "talk:guid": "31d068be-9f9a-5822-ba7f-3f33f57ae075",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "Room Hall 3A",
+    "talk:room_capacity": 85,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "3GHKQD",
+        "name": "Sahil Singh Kapoor",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/3GHKQD/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T10:02:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/3MCN3C/",
+      "title": "Examination of Metro Stations Equal Accessibility for All using Open Data Kit (ODK) Applications: A Case Study of Noida City in India"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/3MCN3C/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/3GHKQD/",
+      "title": "Sahil Singh Kapoor"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/3MCN3C/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

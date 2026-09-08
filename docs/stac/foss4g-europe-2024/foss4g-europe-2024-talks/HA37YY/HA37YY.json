@@ -1,0 +1,126 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "HA37YY",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Planning for rainy days: optimizing school calendars with precipitation data and QGIS",
+    "description": "According to the study \u201cRainy days and learning outcomes: Evidence from Sub-Saharan Africa\u201d (Bekkouche, Houngbedji, Koussihouede, 2022) learning outcomes in Sub-Saharan Africa are negatively affected by rainy days mainly through the mechanism of teacher abstention. School calendars are largely shared within and across countries without taking local climatic conditions into account. This effectively means that the total number of school days in an academic year may differ according to different districts or other administrative levels.. \r\n\r\nThe objective of this collaboration between IIEP and Gispo was to design a process that would enable any policy-maker in the world to look for patterns in periods of heavier precipitation in their country and to propose updated school calendars accordingly. We used precipitation data gathered by the Global Precipitation Measurement (GPM) international satellite mission and distributed by Google Earth Engine. The QGIS Processing framework was used to write algorithms for processing the raster data and to look for periods which were uninterrupted by heavy rainfall.\r\n\r\nIn this talk we will present results of the algorithms and go over the background and implementation of the process in more detail. We will also present a use case for using the algorithm in practice.",
+    "start_datetime": "2024-07-03T13:00:00Z",
+    "end_datetime": "2024-07-03T13:30:00Z",
+    "talk:code": "HA37YY",
+    "talk:guid": "7b6b2f83-f204-535e-9a72-7d970c1c9dc6",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "FOSS4G in education and research",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "GEOCAT (301)",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "TMWVSV",
+        "name": "Meri Malmari",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/TMWVSV/"
+      },
+      {
+        "code": "BUBQJF",
+        "name": "Juho Ervasti",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/BUBQJF/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-03T13:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/HA37YY/",
+      "title": "Planning for rainy days: optimizing school calendars with precipitation data and QGIS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/HA37YY/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/TMWVSV/",
+      "title": "Meri Malmari"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/BUBQJF/",
+      "title": "Juho Ervasti"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/HA37YY/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-pdf": {
+      "href": "https://drive.google.com/file/d/1GpuBqcDzh9-fCzJ73tvUU_7r4w0bTIhU/view?usp=sharing",
+      "title": "Presentation (pdf)",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/1YhQRoMzKbxiXWo9i4JPSC",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Planning for rainy days: optimizing school calendars with precipitation data and QGIS",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=bYK6B2QlidQ",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Planning for rainy days: optimizing school calendars with precipitation data and QGIS",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

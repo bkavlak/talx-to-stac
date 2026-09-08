@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "7JYZJH",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "DestinE DataLake Lab: A Guide to Utilizing Destination Earth Data Lake Services",
+    "description": "The Destination Earth Data Lake Lab (DestinE-DataLake-Lab) is a comprehensive GitHub repository designed to facilitate users' interaction with the Destination Earth Data Lake (DEDL) services. Developed by EUMETSAT and partners, this repository offers a collection of Jupyter Notebook examples and Python tools that demonstrate how to effectively utilize various DEDL services, including Harmonized Data Access (HDA), STACK, and HOOK.\r\n\r\nHarmonized Data Access (HDA)\r\n\r\nThe HDA service provides users with streamlined access to a diverse range of datasets within the DEDL ecosystem. Within the repository, the HDA directory contains Jupyter Notebook examples that guide users through the process of discovering available services, listing and searching for STAC collections, and retrieving specific data items. These examples are instrumental in helping users understand how to interact with the HDA API, manage authentication, and perform data queries efficiently.\r\n\r\nSTACK Service\r\n\r\nThe STACK service is designed to facilitate near-data processing by leveraging DASK, a flexible parallel computing library in Python. In the STACK directory of the repository, users will find Jupyter Notebook examples that illustrate how to set up and utilize DASK for processing large datasets distributed across different cloud locations. These examples demonstrate the deployment of DASK clusters, execution of parallel computations, and optimization of data processing workflows, enabling users to perform complex analyses efficiently.\r\n\r\nHOOK Service\r\n\r\nThe HOOK service offers Function-as-a-Service (FaaS) capabilities, allowing users to define and execute workflows within the DEDL environment. The HOOK directory in the repository provides Jupyter Notebook examples that guide users through the process of creating, deploying, and managing workflows using the HOOK service. These tutorials cover various aspects, including defining functions, setting up triggers, and monitoring workflow execution, thereby enabling users to automate data processing tasks effectively.\r\n\r\nGetting Started\r\n\r\nTo begin utilizing the resources provided in the DestinE-DataLake-Lab repository, users are encouraged to clone the repository into their local environment or access it through the DEDL-provided JupyterHub - STACK Service. The repository includes a requirements.txt file that lists the necessary Python dependencies. Users should create a virtual environment, install the required packages, and select the appropriate kernel when running the provided notebooks. Detailed instructions for setting up the environment and installing dependencies are available in the repository's README file.\r\n\r\nAdditional Resources\r\n\r\nFor further information and comprehensive documentation on DEDL services, users can refer to the DestinE Data Lake documentation. This resource provides in-depth guides, API references, and additional tutorials to assist users in maximizing their utilization of DEDL services. Moreover, the DestinE Data Portfolio and Data Lake Edge services offer valuable insights into the available datasets and services within the DEDL ecosystem.\r\n\r\nSummary\r\n\r\nIn summary, the DestinE-DataLake-Lab repository serves as a valuable resource for users aiming to effectively engage with the Destination Earth Data Lake services. By providing practical examples and comprehensive guides, it empowers users to harness the full potential of DEDL's offerings, facilitating efficient data access, processing, and workflow management within the Destination Earth initiative.",
+    "start_datetime": "2025-07-17T15:10:00Z",
+    "end_datetime": "2025-07-17T15:15:00Z",
+    "talk:code": "7JYZJH",
+    "talk:guid": "debd3272-74fa-5dee-b1b5-b97819492b9d",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "FOSS4G in education and research",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "SA02",
+    "talk:room_capacity": 108,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "98K373",
+        "name": "Patryk Grzybowski",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/98K373/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-17T15:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/7JYZJH/",
+      "title": "DestinE DataLake Lab: A Guide to Utilizing Destination Earth Data Lake Services"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/7JYZJH/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/98K373/",
+      "title": "Patryk Grzybowski"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/7JYZJH/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "dedl-destinelab": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/7JYZJH/resources/DEDL_Destinelab_PG_FOSS4G_sDYylcD.pptx",
+      "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "title": "DEDL_destinelab",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/3efhEHSec7nenWhRu2fUrr",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | DestinE DataLake Lab: A Guide to Utilizing Destination Earth Data Lake Services",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=Ho_TYvbC99k",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | DestinE DataLake Lab: A Guide to Utilizing Destination Earth Data Lake Services",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

@@ -1,0 +1,114 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "YZYVZA",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Developing a real-time quality checker for the operators on QGIS",
+    "description": "The National Land Survey (NLS) of Finland decided in the fall of 2020 to develop a national topographic data production system based on open source technologies and especially on QGIS client. Since then, many significant steps have been taken to implement the MVP of the application for the operators of the NLS at the start of 2025. \r\n\r\nThe latest significant expansion of our product has been the development of a comprehensive and user-friendly way to handle data quality management for the operators. Our aim was to develop it in a way that changes for the quality rules could be easily made and maintained and that would be as informative as possible. The basic idea behind quality management is clear: our customers want high-quality data, and we want the operators to have clear and easy-to-understand checks for their workflow that do not limit their productivity. For this, we have developed a tool, simply named Quality management tool. \r\n\r\nThe reason we couldn't use the basic QGIS tools was that they were not easily modifiable or extensive enough for our use cases and quality demands for our data. We have been able to use some of them, such as geometry checks, but for the most part, the quality tools had to be manually selected and configured, which would take the operator's time. \r\n\r\nThe key concept of quality management is that the operator gets real time feedback about the quality, so the errors can be fixed as part of the basic workflow and there is no need for separate phases for quality control. Additionally, we would not limit the user from saving their work to their local database, regardless of the errors they may have, so that the workflow would not be interrupted. \r\n\r\nAt this moment we have published the graphical user interface for visualizing the quality check results (can be found here: https://github.com/nlsfi/quality-result-gui) but on this talk I would show how it can work on a larger scale. For this purpose, I would present the tool with use case videos. I would also like to talk about the architecture of the tool and how we are going to develop the tool even further. I hope that some listeners can apply this tool for their workflows and benefit from this example.",
+    "start_datetime": "2023-06-29T13:00:00Z",
+    "end_datetime": "2023-06-29T13:30:00Z",
+    "talk:code": "YZYVZA",
+    "talk:guid": "5bc1fe71-03b1-5c93-92ec-4e538b8d1e95",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT D / N112 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "Y9XNXB",
+        "name": "Olli Rantanen",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/Y9XNXB/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-29T13:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/YZYVZA/",
+      "title": "Developing a real-time quality checker for the operators on QGIS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/YZYVZA/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/Y9XNXB/",
+      "title": "Olli Rantanen"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/nlsfi/quality-result-gui",
+      "title": "github.com/nlsfi/quality-result-gui"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/YZYVZA/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/w9bhoHL5pmL63tWbkiq2Xx",
+      "type": "text/html",
+      "title": "2023 | Developing a real-time quality checker for the operators on QGIS - Olli Rantanen",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=I8Ppps8VK3Y",
+      "type": "text/html",
+      "title": "2023 | Developing a real-time quality checker for the operators on QGIS - Olli Rantanen",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

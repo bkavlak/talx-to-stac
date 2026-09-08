@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "YKYL9N",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "The Role of 3D City Model Data as an Open Digital Commons: A Case Study of Openness in Japan's Digital Twin \"Project PLATEAU\u201d",
+    "description": "This paper aims to clarify the state of development of highly accurate and open 3D city model data and its usage methods, which started in Japan in 2020, from two aspects: quantitative geospatial analysis using publicly available data, and qualitative evaluation analysis of 40 use cases using the data.\r\n\r\nAs a background to this study, digital twins, which are virtual replicas of the physical urban built environment (Shahat et al., 2021), are gaining global attention with the development of geospatial information technology to understand current conditions and plan future scenarios in cities (Lei et al., 2022). This trend can be applied in areas related to a wide range of urban issues, such as urban development, disaster prevention, and environmental and energy simulation, and has the potential to be used for urban planning through an intuitive approach via various GIS tools. On the other hand, the geospatial information required by the digital twin also needs to be accompanied by three-dimensional shape information and many attribute information of building units. Data development and related research using CityGML (Kolbe et al., 2021), a representative standard specification, has mostly been carried out in European and US cities, and there have been few efforts in Asia (https://github.com/OloOcki/awesome-citygml).\r\n\r\nIn Japan, urban planning has mainly been carried out using analogue methods such as paper maps and window services. However, as citizens' lifestyles and socio-economic systems are drastically changing due to the high interest in smart cities and the spread of COVID-19 infection, urban policies such as disaster prevention and urban development using digital technology are becoming increasingly important. The digital transformation of urban policies such as disaster prevention and urban development using digital technology has become an urgent issue. \u201cProject PLATEAU (https://www.mlit.go.jp/plateau/)\u201d is a project initiated in 2020 under the leadership of the Ministry of Land, Infrastructure, Transport and Tourism (MLIT) to develop a high-precision 1:2500-level 3D city model CityGML format in a unified manner and convert it into open data format via CKAN's data portal (CityGML, 3D Tiles, GeoJSON, MVT, ESRI Shapefile), to develop an open-source data viewer and to explore use cases.\r\n\r\nThis study details the history of the \"Project PLATEAU\" initiative and discusses the relationship between openness and urban data commons. Many of the data specifications, converters and online viewers are closely related to FOSS4G. Next, data for 126 cities in Japan (about 19,000 square kilometers) developed as open data over a three-year period are regionally aggregated and then quantitatively compared with OSM building data in Japan. Trends such as coverage rates between cities and micro-regional analysis within Tokyo are then attempted. To analyze a large amount of data, this part was carried out using data converted to FlatGeobuf format.\r\n\r\nSome of the results of the data preparation analysis are as follows: The basic analysis of the cities covered by PLATEAU showed that the total number of buildings in LOD1 was about 15.7 million, with a population coverage of about 38.4%. These cities have shown an increasing trend in population over the last five years (an average of about +10,000 for the 126 cities). By comparison, the total number of OSM buildings in the country is about 12.7 million, generally widely distributed across the country's 1903 administrative districts (about 38,000 square kilometers). Therefore, only the cities maintained by PLATEAU provide data with a higher level of detail than OSM. However, the detailed LOD2 building data with roof shape is limited to about 480,000 buildings (about 300 square kilometers in 97 cities nationwide), which are high-rise buildings and landmarks in large cities.\r\n\r\nTo identify more micro trends, we compared the accuracy of the building data for central Tokyo, which has the largest number of units in both datasets, in 2020, the year the PLATEAU data was created. The number of units in each building dataset is OSM (726,685 units) and PLATEAU (1,768,868 units). When PLATEAU is used as the base data, the coverage of OSM is about 40%. On the other hand, of the 3190 city blocks in central Tokyo, 502 (about 15.7%) were identified as having more OSM buildings than PLATEAU. As a factor contributing to this discrepancy, a historical analysis of the timestamps and versions of the building data (about 80,000 units) that exist only in OSM revealed that most of them were created more than two years before the PLATEAU data and have never been updated. Therefore, the PLATEAU data should be updated to keep the data fresh, even in areas where OSM data are already widely distributed, if only data older than 2020 are maintained.\r\n\r\nFor example, open 3D urban model data for cities of various sizes have been released in Japan, and they are highly accurate and complementary to OSM data. In addition, these data have begun to be used in administrative practice, and a total of 44 applications in new areas such as citizen participation and entertainment (especially services using XR) have been identified. The evaluation of the exploitation methods is explained in the paper, but the cases related to smart cities and disaster prevention are particularly striking. The issues to be addressed in these efforts are the nationalization of the scope of maintenance, the organic merging with open data as represented by OSM, and the further GIS education in the field of urban planning. Finally, as data contributing to the reproducibility of this study, the data sources used in the analysis are themselves open data and thus readily available. Therefore, we plan to provide a download list of each data source and GIS data summarizing the tabulation results as open data on Github.",
+    "start_datetime": "2023-06-29T12:00:00Z",
+    "end_datetime": "2023-06-29T12:30:00Z",
+    "talk:code": "YKYL9N",
+    "talk:guid": "4ad0af30-91b5-58c2-86b6-2526f667c0eb",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Academic Track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT E / N209 - Floor 3",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RDUYKQ",
+        "name": "Toshikazu Seto",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/RDUYKQ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-29T12:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/YKYL9N/",
+      "title": "The Role of 3D City Model Data as an Open Digital Commons: A Case Study of Openness in Japan's Digital Twin \"Project PLATEAU\u201d"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/YKYL9N/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/RDUYKQ/",
+      "title": "Toshikazu Seto"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/YKYL9N/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

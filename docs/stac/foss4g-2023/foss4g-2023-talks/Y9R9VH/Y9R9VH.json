@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Y9R9VH",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Monitoring Inland water bodies",
+    "description": "This talk describes the creation of a water quantification dataset for the entire world. Tracking changes of water-bodies over time helps in timely action to combat drought and floods. The tools used to build this dataset are all free and open source (postgis, gdal, geopandas, scipy) and are built on top of data from OpenStreetMap.\r\nThe dataset is updated everyday with new measurements of lake water extent across the globe. The solution to detect and track water bodies involved fetching satellite data using STAC API, pre-processing it to remove cloud cover and invalid pixels, identifying water bodies using band ratio, converting to vector and applying post-processing filters to avoid false-positive detection to finally serve it through an API. This solution has allowed us to track and quantify changes in a lake's water extent over time with high accuracy.",
+    "start_datetime": "2023-06-30T08:30:00Z",
+    "end_datetime": "2023-06-30T09:00:00Z",
+    "talk:code": "Y9R9VH",
+    "talk:guid": "31192264-f85f-59aa-8af9-386976b36ec6",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT C / N109 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "ERSBES",
+        "name": "Aman Bagrecha",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/ERSBES/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-30T08:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/Y9R9VH/",
+      "title": "Monitoring Inland water bodies"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/Y9R9VH/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/ERSBES/",
+      "title": "Aman Bagrecha"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/Y9R9VH/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/of5zvSm7hsA4Vb92cHBKFd",
+      "type": "text/html",
+      "title": "2023 | Monitoring Inland water bodies - Aman Bagrecha",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=Z3aoN3JM-uA",
+      "type": "text/html",
+      "title": "2023 | Monitoring Inland water bodies - Aman Bagrecha",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

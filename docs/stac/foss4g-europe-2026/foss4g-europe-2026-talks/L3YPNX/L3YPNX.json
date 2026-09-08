@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "L3YPNX",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "Operating Maritime AIS at Enterprise Scale with GeoServer",
+    "description": "The volume of data to be processed and published continues to grow rapidly, particularly in domains such as maritime monitoring, where continuous streams of AIS data must be ingested, processed, and visualized. At the same time, the infrastructure, technologies, and methodologies required to manage these data streams are steadily advancing and maturing. GeoServer, an open-source web service for publishing geospatial data, supports industry standards for vector, raster, and map delivery, and is widely used by organizations to disseminate geospatial information at scale.\r\n\r\nIn this work, we integrated GeoServer with established big data technologies, including Apache Kafka and Databricks, deploying the solution on Microsoft Azure. The resulting architecture is designed to support demanding maritime use cases, enabling near real-time visualization of incoming AIS data while also supporting large-scale batch processing and analysis of historical datasets.\r\n\r\nThis presentation describes the system architecture and the key challenges addressed by GeoSolutions in publishing high-volume, high-velocity data through GeoServer\u2019s OGC services (WMS, WFS, and WPS). Particular attention is given to achieving an effective balance between data ingestion throughput and visualization performance. The solution integrates with a streaming processing platform responsible for ingesting, transforming, and storing data in an Azure Data Lake, allowing GeoServer to efficiently query the most recent features while enforcing complex authorization policies. To meet these requirements, several custom GeoServer extensions were developed, addressing advanced authorization scenarios, specialized styling needs for maritime data, and seamless integration with big data platforms.",
+    "start_datetime": "2026-06-29T12:00:00Z",
+    "end_datetime": "2026-06-29T12:30:00Z",
+    "talk:code": "L3YPNX",
+    "talk:guid": "4609e132-9c99-5664-b4f0-1ffc4ec1a1df",
+    "talk:event": "foss4g-europe-2026",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "AM",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RBSH8T",
+        "name": "Andrea Aime",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/RBSH8T/"
+      },
+      {
+        "code": "CXTHFZ",
+        "name": "Nuno Oliveira",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/CXTHFZ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-06-29T12:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/L3YPNX/",
+      "title": "Operating Maritime AIS at Enterprise Scale with GeoServer"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/L3YPNX/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/RBSH8T/",
+      "title": "Andrea Aime"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/CXTHFZ/",
+      "title": "Nuno Oliveira"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/L3YPNX/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "operating-maritime-ais-at-enterprise-scale-with-geoserver": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2026/submissions/L3YPNX/resources/Maritime_AIS_data_-_2026_woccpfy.pdf",
+      "type": "application/pdf",
+      "title": "Operating Maritime AIS at Enterprise Scale with GeoServer",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

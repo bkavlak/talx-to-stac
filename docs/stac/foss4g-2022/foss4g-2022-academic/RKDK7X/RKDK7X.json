@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "RKDK7X",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Building a digital twin of the Italian coasts",
+    "description": "The \u201cDestination Earth\u201d initiative of the European Union encompasses the creation of Digital Twin Earths (DTEs), high-precision digital models of the Earth integrating various aspects of the Earth\u2019s system to monitor and simulate natural phenomena and related human activities, being able to explore the past, understand the present, and build predictive models of the future. There are multiple elements that a Digital Twin Earth needs, such as strong computation capabilities, connectivity, cloud computing, Artificial Intelligence (AI), models that are able to describe physical phenomena, scientific collaboration, high volumes of good quality data (big data), and interoperability. \r\nA full-scope Digital Twin Earth is a huge task that may require years to be built, and Destination Earth uses an incremental approach, where multiple smaller parts are put together to create a single, complete model by having smaller Digital Twins with the so-called digital twin precursors. This work presents an initial approach to address the big data, interoperability, cloud computing, and scientific collaboration elements of the DTE, by developing a modular web platform for integrating georeferenced open-source data using the mediator-wrapper architecture to retrieve and query data from online sources. The scope of the project is to create this platform for the Italian Coast, with the goal of being able to understand the interaction between the land and the sea, the human impact, and other factors that may affect the coasts employing data analysis.\r\nSince ancient times, coasts have played a fundamental part in human civilization, being a critical element for development, economy, transportation, and tourism. In addition, coasts host an important portion of global biodiversity and richness, which is endangered by global warming and pollution. Thus creating a digital twin of the coast is an important task, in order to understand physical phenomena happening on the land and on the sea, as well as the interaction between those two elements, and the role of human activity on it. Although this work is focused on the Italian Coast, its modularity allows the pilot to be extensible and reproducible for any coast in the world.\r\nAs the idea is to address big data of good quality and interoperability, by quality data we mean authoritative, reliable, and validated data, and interoperability refers to data that can be easily used and integrated on any platform. Good quality data is found all over the internet, but the biggest and most reliable homogeneous open data source for the European continent is Copernicus. Copernicus provides six services that focus on Land, Ocean, Atmosphere, Climate Change, Security, and Disaster Management. Two services are of great importance for studying the physical phenomena of coasts: the Copernicus Land Monitoring Service (CLMS: https://land.copernicus.eu/), and the Copernicus Marine Environment Monitoring Service (CMEMS: https://marine.copernicus.eu/). The WorldPop population counts dataset (https://www.worldpop.org/), which is also open data made available by The University of Southampton, is used for understanding human impact. The CMEMS provides data on physical and biogeochemical variables for the sea while CLMS provides data on land cover and land use. Data ranges as far as 1987 to the present, its spatial resolution varies from 0.042\u00b0 (approx. 3.5km at the latitude of Italy) for biogeochemical variables to 10 meters for land cover and is offered as monthly, daily, and hourly averages. Worldpop population counts are available yearly from 2000 to 2020 and have a spatial resolution of 3 arcseconds, which correspond to approximately 70 meters at the latitude of Italy. \r\nInteroperability is achieved by standards. All data that is georeferenced and that is available online should follow certain guidelines and standards, which are managed by the Open Geospatial Consortium (OGC) and ISO (International Organization for Standardization). But mere standards do not completely solve the problem of interoperability because the way in which each data source presents its data is different, meaning that to achieve full integration an additional step is necessary. In the developed platform, this problem is addressed using a mediator-wrapper architecture, where a mediator receives generic requests and calls the specific wrapper, which is in charge of communicating with the specific data source and retrieving the data, to pass it again to the mediator which translates it back to generate a generic response. In this way, additional data sources can be integrated by building new wrappers. Data visualization is managed by the open-source web mapping library OpenLayers, which can correctly display any type of georeferenced data that follows OGC standards.\r\nOther platforms exist that use online data sources to display data and to build knowledge around it. E.g., CMEMS has its own platform (https://myocean.marine.copernicus.eu/data) for visualizing all its datasets and allows users to build plots and to extract subsets of the data at different times and elevations; CLMS also allows users to see the datasets and retrieve parts of them within their website (Corine Land Cover example: https://land.copernicus.eu/pan-european/corine-land-cover/clc2018); other more complex platforms consume multiple data sources and build AI models around them such as the ARIES (Artificial Intelligence for Environment & Sustainability) platform (https://seea.un.org/content/aries-for-seea) that is focused on ecosystem accounting. The main difference between those platforms and the digital twin of the Italian coast in development is the focus on a single type of location, which makes models more specific and available data more accurate and localized. It is also possible to perform basic statistical analysis and to observe relations between layers, being able to visualize results as plots, tables, and histograms, as well as being able to download the produced data. Another novelty is the addition of demographic data to add the human factor to the analysis.\r\nAs this is a work in progress (available online on https://dte-italycoast.herokuapp.com/), more features are planned, such as capabilities to share projects and analysis, adding more data sources, AI models, and more sophisticated analysis than the current basic statistical analysis.",
+    "start_datetime": "2022-08-25T12:15:00Z",
+    "end_datetime": "2022-08-25T12:45:00Z",
+    "talk:code": "RKDK7X",
+    "talk:guid": "a9c9318e-50ef-5588-b44b-2793fe1b3443",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Academic online",
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "HFK38L",
+        "name": "Juan Pablo Duque Ordo\u00f1ez",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/HFK38L/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T12:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/RKDK7X/",
+      "title": "Building a digital twin of the Italian coasts"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/RKDK7X/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/HFK38L/",
+      "title": "Juan Pablo Duque Ordo\u00f1ez"
+    },
+    {
+      "rel": "related",
+      "href": "https://land.copernicus.eu/",
+      "title": "land.copernicus.eu"
+    },
+    {
+      "rel": "related",
+      "href": "https://marine.copernicus.eu/",
+      "title": "marine.copernicus.eu"
+    },
+    {
+      "rel": "related",
+      "href": "https://land.copernicus.eu/pan-european/corine-land-cover/clc2018",
+      "title": "land.copernicus.eu/pan-european/corine-land-cover/clc2018"
+    },
+    {
+      "rel": "related",
+      "href": "https://dte-italycoast.herokuapp.com/",
+      "title": "dte-italycoast.herokuapp.com"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/RKDK7X/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

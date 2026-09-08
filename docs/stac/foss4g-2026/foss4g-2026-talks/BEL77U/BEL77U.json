@@ -1,0 +1,94 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "BEL77U",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "A case use of FOSS4G to promote the Mining Industry: The P3M Platform of the Geological Survey of Brazil.",
+    "description": "The Mineral Research and Production Support Platform (P3M) was conceived and is being implemented by a team of specialists from the Geological Survey of Brazil (SGB). with the support and participation of public and private entities directly or indirectly related to the Brazilian mineral industry, such as: Secretariat of Geology, Mining and Mineral Transformation (SGM) of the Ministry of Mines and Energy (MME); National Mining Agency (ANM); Agency for the Development and Innovation of the Brazilian Mineral Sector (ADIMB); Brazilian Association of Mineral Research and Mining Companies (ABPM); National Association of Aggregate Producers for Construction (ANEPAC); Brazilian Institute of Geography and Statistics (IBGE), and Brazilian Mining Institute (IBRAM).\r\n\r\nThe core development of P3M is being carried out by the UFLA (Federal University of Lavras) Agency for Innovation in Geotechnologies and Intelligent Systems (Zetta). Launched in late 2022, the Platform's main objective is to increase the attractiveness of investments and promote the sustainable development of the mineral industry, through the integration of data on mineral potential, infrastructure, costs, legislation, protected areas, and socioeconomic indicators of Brazil.\r\n\r\nIt has a crucial role in planning mineral research and production, generating qualified knowledge that is essential to support strategic decisions in both the public and private sectors. For industries and investors in the mining sector, the data available on the Platform contribute to supporting development plans and the exploitation of mineral deposits. Government entities also benefit primarily from information for monitoring the competitiveness of mineral research and production, thereby promoting greater attractiveness of investments for national development.\r\n\r\nIn short, P3M provides information free of charge through two main environments: (i) a map and data viewer that integrates geoscientific, economic, environmental and legal information, mining rights, among others, from various national and governmental entities; and (ii) a dashboard system with statistical data presentation, with filters by territorial unit (e.g., region, state, or municipality) and commodity.\r\n\r\nOne of the main differentiators of the P3M platform, among the various software products of SGB, is its complete conception and development using FOSS4G. The main objective of this work is to present the solution architecture used in the development, focusing primarily on the use of FOSS4G projects. In early February of this year, version 2.4.4 was released, with several improvements in terms of user experience and performance.\r\n\r\nThe platform deployment is entirely container-based, provisioned in a Kubernetes environment using Helm Chart, and data storage relies on PostgreSQL 14 databases with PostGIS 3.4. In general terms, the P3M Platform can be subdivided into three main components: (i) map and dashboard visualization system, (ii) data pipeline orchestration, and (iii) spatial data infrastructure.\r\n\r\nThe map and dashboard applications are deployed in two container images: the first, a backend project with Django + Rest framework, brings a system of REST APIs to define the content controls for the maps and dashboards. The application also has an administrative interface so that content managers can modify the application's behavior and the list of available layers and groups. The front-end component is a TypeScript application that relies on libraries such as OpenLayers to render the layer tree, delivered by the backend, and the dashboard data.\r\n\r\nThe data pipeline orchestration environment was deployed from a custom Apache Airflow container image, supplemented with libraries such as GDAL, GeoPandas, and Apache Arrow/Parquet.\r\n\r\nFor P3M, some data pipelines were developed to collect data of mining processes and financial compensation \u2013 available from the National Mining Agency (ANM). This data, originally delivered in spreadsheets and File Geodatabases, is sanitized, enriched, and transformed using GDAL, and finally saved in proprietary PostgreSQL/PostGIS tables of active mines, commodity associations, and mining process statuses. Currently, these pipelines run on Mondays, Wednesdays, and Fridays and are crucial for maintaining the dashboards and authorial layers.\r\n\r\nThe provision of maps and metadata on P3M strictly follows the use of OGC Open Web Services standards, such as WMS, WMTS, and WFS, and the platform consumes maps and metadata from a GeoNode installation owned by the SGB, in order to fulfill the role of Spatial Data Infrastructure.\r\n\r\nThe SGB\u2019s GeoNode was deployed to a production environment in late 2025, initially to support this platform. Prior to this GeoNode, P3M had a dedicated GeoServer instance in its own workspace to serve the maps. After going into production, all layers and configurations were moved to this GeoNode. Currently, about 320 vector and raster layers from various Brazilian government data sources are cataloged and registered. Initially, this data was organized and cleaned to create a database that was placed as a datastore in GeoNode's GeoServer.\r\n\r\nThe option of hosting duplicate data instead of consuming OGC services from other institutions was chosen due to the need to have this data available on the platform, even if the source provider is unavailable, in addition to the geological service having a robust IT infrastructure. The P3M authorial layers are also hosted on GeoNode, but directly from the exposure of the spatial tables to the GeoNode Geoserver. Some of these tables, such as mineral resource data and systematic mapping, are also fed from pipelines in Airflow.\r\n\r\nFinally, the P3M Platform, since its conception, has always been guided by the use of free and open-source libraries and frameworks to ensure transparency and interoperability. Alongside major FOSS4G projects, P3M stands out among the select group of data and service providers applied to Geology and Mining sectors by adopting frameworks that are free from restrictive licensing and bundled sales practices. The application is publicly available at https://p3mgeo.sgb.gov.br/.",
+    "start_datetime": "2026-09-02T07:00:00Z",
+    "end_datetime": "2026-09-02T07:30:00Z",
+    "talk:code": "BEL77U",
+    "talk:guid": "94a23750-7e09-53b1-a3f9-154f9c56b509",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos1",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "BZLYD8",
+        "name": "Carlos Eduardo Mota",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/BZLYD8/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T07:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/BEL77U/",
+      "title": "A case use of FOSS4G to promote the Mining Industry: The P3M Platform of the Geological Survey of Brazil."
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/BEL77U/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/BZLYD8/",
+      "title": "Carlos Eduardo Mota"
+    },
+    {
+      "rel": "related",
+      "href": "https://p3mgeo.sgb.gov.br/",
+      "title": "p3mgeo.sgb.gov.br"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/BEL77U/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

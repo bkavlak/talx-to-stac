@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "RREDPC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Mastering Security with GeoServer and GeoFence",
+    "description": "The presentation will provide a comprehensive introduction to GeoServer's own authentication and authorization subsystems. \r\nThe authentication part will cover the various supported authentication protocols (e.g. basic/digest authentication, CAS, OAuth2) and identity providers (such as local config files, database tables and LDAP servers). \r\nIt will explain how to combine various authentication mechanisms in a single comprehensive authentication tool, as well as providing examples of custom authentication plugins for GeoServer, integrating it in a home-grown security architecture.\r\n\r\nWe\u2019ll then move on to authorization, describing the GeoServer pluggable authorization mechanism, and comparing it with proxy based solution. We will explain the default service and data security system, reviewing its benefits and limitations.\r\n\r\nFinally we\u2019ll explore the advanced authorization provider, GeoFence. The different levels of integration with GeoServer will be presented, from the simple and seamless direct integration to the more sophisticated external setup. Finally we\u2019ll explore GeoFence\u2019s complex authorization rules using:\r\n- The current user and its roles.\r\n- The OGC services, workspaces, layers, layer groups.\r\n- CQL read and write filters.\r\n- Attribute selection.\r\n- Cropping raster and vector data to areas of interest.",
+    "start_datetime": "2022-08-24T12:45:00Z",
+    "end_datetime": "2022-08-24T13:15:00Z",
+    "talk:code": "RREDPC",
+    "talk:guid": "0a11a544-609a-500d-97c5-fcacc0148b80",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Modulo 0",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RBSH8T",
+        "name": "Andrea Aime",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/RBSH8T/"
+      },
+      {
+        "code": "CXTHFZ",
+        "name": "Nuno Oliveira",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/CXTHFZ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T13:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/RREDPC/",
+      "title": "Mastering Security with GeoServer and GeoFence"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/RREDPC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/RBSH8T/",
+      "title": "Andrea Aime"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/CXTHFZ/",
+      "title": "Nuno Oliveira"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/RREDPC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/gUZLyVQMZM2R8JMAXbnXwE",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Mastering Security with GeoServer and GeoFence",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=QJ33WUbxHmg",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Mastering Security with GeoServer and GeoFence",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

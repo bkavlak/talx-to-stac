@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "8ZUPMV",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Exploring Cloud Native Geospatial Data Formats: Hands-on with Vectors",
+    "description": "Dig into geospatial vector formats\u2014including GeoJSON, WKT/WKB, and cloud-native GeoParquet\u2014using Python to see in detail how vector features are stored in each format and to understand what cloud-native means for vector data.\n\nCloud-native geospatial is all the rage these days, and for good reason. As data sizes grow, layer counts increase, and analytical methods become more complex, the traditional download-to-the-desktop approach is often becoming untenable. It's no surprise then that users are turning to cloud-based tools to scale their analyses. But as we transition away from opening whole files to now grabbing ranges of bytes off remote servers it seems all the more important to understand exactly how cloud-native data formats actually store data and what tools are doing to access it.\r\n\r\nThis workshop aims to dig into how cloud-native geospatial data formats are enabling new operational paradigms, with a particular focus on (Geo)Parquet. Participants do not need an existing familiarity: we'll work together to develop a understanding of the concepts behind Parquet, starting with GeoJSON, roughly as follows:\r\n\r\n* GeoJSON: what is it, what does it represent, and how it is not cloud-native\r\n* Well-Known Text/Binary (WKT/WKB): how these vector formats work and why they are important in (Geo)Parquet\r\n* (Geo)Parquet: how does parquet store data, how geo maps into that paradigm, and what it takes to read some subset of data from a parquet table\r\n\r\nThe content of this workshop aims to be not only theoretical but practical: a strong goal is to be as hands-on with these formats in Python. We'll eschew common tools, opting to take a more manual approach. An educationally-focused Parquet library will provide a view into the process of reading Parquet files, their metadata, and techniques used to performantly run queries. Throughout, we'll be building up working understanding of what common higher-level tooling does under the hood and abstracts away from users.",
+    "start_datetime": "2026-08-31T05:00:00Z",
+    "end_datetime": "2026-08-31T08:00:00Z",
+    "talk:code": "8ZUPMV",
+    "talk:guid": "a06ba48a-86b7-5762-8973-8ac5095bf6cd",
+    "talk:event": "foss4g-2026-workshop",
+    "talk:type": "Workshop",
+    "talk:language": "en",
+    "talk:room": "601",
+    "talk:room_capacity": 81,
+    "talk:duration_minutes": 180,
+    "talk:speakers": [
+      {
+        "code": "8TAMEN",
+        "name": "Jarrett Keifer",
+        "url": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/8TAMEN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-08-31T06:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/8ZUPMV/",
+      "title": "Exploring Cloud Native Geospatial Data Formats: Hands-on with Vectors"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/8ZUPMV/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/8TAMEN/",
+      "title": "Jarrett Keifer"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/8ZUPMV/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-workshops"
+}

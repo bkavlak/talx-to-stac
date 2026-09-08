@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "3R7JKS",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Developing a FOSS4G based Walkable Living Area Planning Support Module to Assists the Korean 15-minute City",
+    "description": "The concept of 15-minute cities, which aims to provide residents with access to amenities and services within a 15-minute walk, has gained popularity in recent years [1]. In Korea, there have been discussions about supporting the planning of walkable neighborhoods based on Chrono-Urbanism, a concept that is the basis of the 15-minute city concept that residents can receive services necessary for their daily lives in the same place where they live. Planning support based on Chrono-Urbanism measures the walkability of services for various age groups based on the distance to reach physical activity centers such as walking and bicycling from small living area units, and places necessary living infrastructure (urban amenities). The bottom-up planning approach that reflects the needs and living conditions of citizens, such as walking routines, can generate planning issues that reflect the needs of citizens through iterative alternative generation and evaluation in support of planning decisions by learning the surrounding environmental conditions using AI techniques.\r\nHowever, to implement this concept, it is necessary to develop tools based on free and open source technologies for spatial planning. Previous studies have developed open source-based tools using Open Street Map (OSM) or open data of each city and used them effectively for urban planning [2,3]. In this study, we aim to develop a tool that supports the measurement of walkability and the distribution of urban amenities considering age groups as well as walkability, bicycle accessibility, and public transportation accessibility by utilizing free and open source software (FOSS4G) tools for spatial information.\r\nFirst, we design walkability, including pedestrian walkability, bicycle accessibility, and transit accessibility, based on each home-based or residence-based trip.\r\nTo measure the walkability of a city, we need to consider pedestrian-friendly urban infrastructure elements such as sidewalks and crosswalks. When designing for measurement, design a walking network that provides information on the physical characteristics of the road network and a database that contains the distribution of residents by gender and age. By analyzing data based on the pedestrian network for different age groups, it is possible to determine the level of walkability in different urban space conditions. Similarly, the same data can be used to measure bicycle accessibility, taking into account bike lanes, bike parking facilities, and other factors. Access to public transportation can be measured using data from transportation agencies, including information about the frequency and routes of public transportation.\r\n\r\nSecond, we design a tool to measure accessibility to urban amenities based on Python spatial information and distribute the location of urban amenities according to accessibility.\r\nWe develop a tool that integrates data such as walkability, bicycle accessibility, and public transportation accessibility to determine the best locations for urban amenities. A network-based method of minimizing travel costs will be used to determine the locations [4]. The tool will be developed using QGIS and the Python programming language. The tool is designed by considering various parameters such as resident and traveling population, distance from existing amenities, and urban environment in various living areas. \r\nThird, the tool is used to evaluate local 15-minute cities.\r\nThe implemented tool is designed to be used and evaluated by officials, planners, and researchers working on 15-minute cities. The tool can be used to identify areas that need more urban amenities and to deploy existing amenities in ways that enhance walkability. The tool can also be used to determine the feasibility of locating new facilities such as parks, community centers, and other public spaces. In addition, the tool is designed to be customizable to meet the environmental needs of different cities.\r\nThe development of a FOSS4G-based urban amenity distribution tool based on walkability measures can provide the following benefits. First, it provides an age- and facility-related data-driven approach to the placement of urban amenities, ensuring that amenities are located in areas that are easily accessible to citizens. Second, it provides a spatial structure that can promote the use of sustainable transportation modes such as walking, biking, and public transit. Third, it can encourage more inclusive urban development by ensuring that amenities are distributed in a more equitable manner. \r\nIn conclusion, the development of a FOSS4G-based urban amenity distribution tool can play an important role in the realization of the concept of walkable livability, a 15-minute city concept in South Korea. This tool can measure and distribute urban amenities based on walkability, bicycle accessibility, and public transportation accessibility, providing a way to create healthier, more equitable living areas. Implementing the tool to generate a range of alternatives will allow planners to learn from the alternatives about desirable walkable urban amenity alternatives. For urban planners and practitioners, open-source tools make it easy to take data-driven action and learn and innovate from what others have done. Transparency in the planning process allows citizens to understand the planning process and engage with planners, as well as be part of the planning process.",
+    "start_datetime": "2023-06-28T13:25:00Z",
+    "end_datetime": "2023-06-28T13:30:00Z",
+    "talk:code": "3R7JKS",
+    "talk:guid": "529c9ca1-2a1a-5795-b97c-e667a969a243",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Academic Track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "UBT E / N209 - Floor 3",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "WSH3UQ",
+        "name": "Junyoung CHOI",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/WSH3UQ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T13:27:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/3R7JKS/",
+      "title": "Developing a FOSS4G based Walkable Living Area Planning Support Module to Assists the Korean 15-minute City"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/3R7JKS/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/WSH3UQ/",
+      "title": "Junyoung CHOI"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/3R7JKS/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

@@ -1,0 +1,93 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "ELBYL7",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Crowdsourced acoustic open data analysis with FOSS4G tools",
+    "description": "## Introduction\r\n\r\nNoiseCapture is an Android application developed by the Gustave Eiffel University \r\nand the CNRS as part of a participatory approach to environmental noise mapping. \r\nThe application is open-source and all its data are free.\r\n\r\nThe study presented here is a first analysis of the first three years of data \r\ncollection, through the prism of noise sources. The analysis only focused on the \r\nlabels filled in by the users and not on the sound spectrum of the measurement, \r\nwhich will be studied later.\r\n\r\nThe aim was to determine whether known dynamics in environmental acoustics could\r\nbe recovered using collaborative data.\r\n\r\nThis preparatory work having to be consolidated and extended thereafter, and with \r\nthe will to include this study within the framework of the Open Science, an \r\nattention was brought on the reproducibility aspect of the analysis. \r\nThis one was entirely realized with free software and literate programming techniques.\r\n\r\nThe context of the study, the tools and techniques used and the first results \r\nobtained will be presented as well as the benefits of using literate programming \r\nin this type of preparatory work.\r\n\r\n## Data\r\nAn article presenting this dataset was published in 2021 (Picaut et al. 2021). \r\nIt details the structure of the database and the data, the profile of the \r\ncontributors and the contributions but does not analyze the content of the data. \r\nThis is what this article proposes to begin.\r\n\r\nThe data used in this study correspond to contributions made between August 29, 2017 \r\nand August 28, 2020. During this period, nearly 70,000 unique contributors allowed \r\nthe collection of more than 260,000 tracks for a total of about 60 million seconds \r\nof measurement. A trace is a collected recording, it contains the sound spectrum \r\n(1 second, third octave) recorded by the phone coupled with its GPS positioning \r\n(1 second). This information can be enriched by the contributor with labels. \r\nThere are 18 labels and the user can select one or more of them for each of the \r\ntraces made. They are detailed in (Picaut et al. 2021). \r\nThe preliminary work presented here focuses on the analysis of the proportion of \r\ncertain labels in the global sample at certain temporalities.\r\n\r\nIn addition to data from the collaborative collection, some additional data were \r\nused to limit the study area. We chose to limit the geographical scope of this \r\npreliminary study to metropolitan France because this area contains the largest \r\nnumber of recordings. \r\nThe climate and sound dynamics are known and documented there.\r\n\r\nTo facilitate the reproducibility of spatial filtering, it was decided to use \r\nopen data sets from recognized sources: the Natural Earth database \r\n(Patterson and Kelso 2021)  and the Admin Express database from the \r\nNational Institute of Geographic and Forest Information (Institut G\u00e9ographique National 2021).\r\n\r\n## The study\r\n### Tools\r\n#### PostGIS\r\nThe data are provided as a dump from a PostGreSQL/PostGIS database (Ramsey and Blasby 2001).\r\nSeveral scripts perform much of the attribute and spatial filtering. \r\nThese filterings are saved in a materialized view whose data will be analyzed \r\nwith the R language.\r\n\r\n#### R\r\nThe R language (R Core Team 2021)\r\nis a programming language for data processing and statistics with many libraries \r\ndedicated to geospatial data. \r\nRmarkdown allows to mix code and text in markdown for the dynamic production of \r\ngraphs, tables and documents. \r\nIt is one of the recommended means for literate programming.\r\n\r\n#### Git\r\nGit is a Distributed Version Control System (DVCS) (Chacon and Straub 2014). \r\nIt enables collaborative and decentralized work. \r\nThe choice of Git was natural as different collaborators are present on several\r\nsites (Nantes, Lyon, Paris) and Git is already used within the UMRAE laboratory.\r\n\r\n### Implementation\r\nThe data are provided in the form of a PostGreSQL/PostGIS dump. \r\nA server has been set up and the data loaded. \r\nA materialized view was created in order to provide a stable access to the data \r\ncorresponding to the defined criteria. \r\nThese criteria are both attributive (filtering of certain tags, minimum and maximum \r\ndurations, etc.) and spatial (located in France, reduced trace area, etc.). \r\nA Rmarkdown document establishes the connection with the view and then performs \r\nthe operations allowing to analyze the data.\r\n\r\nA document mixing narrative, figures and code allowed the resumption and \r\ncontinuation of the analyses shown here. \r\n\r\n## Results\r\nThe study concerns tracks bearing a tag, registered in metropolitan France. \r\nIt focuses on the proportion of a certain tag in relation to all the tags for a \r\ngiven period (time of day, season, etc.). \r\nIn the sample studied, it is possible to note a prevalence of the tags *roads*, \r\n*chatting*, *animals* and *wind*. The tags *air_traffic* and *works* are also well represented.\r\n\r\nA first axis of analysis concerns the time distribution of the tags. \r\nAnimal noises (tag *animals*) are more frequent in the morning and especially \r\none hour before sunrise. \r\nThis is a common dynamic for bird song. \r\nWe also observed peaks in human activity, especially commuting.\r\n\r\nThe next temporal axis was the seasonality, especially those of animal noises, \r\nwith a more intense activity in European spring and summer. \r\nThis phenomenon could also be observed in the recordings.\r\nWe also noticed that music was less present in autumn than in other seasons and \r\nthat it is mostly present at late hours.\r\n\r\n## Conclusion\r\nThe first results are encouraging because road dynamics related to commuting or \r\nanimal activity can be observed.\r\nThe main question was to determine if these known dynamics in environmental acoustics \r\ncan be observed in a crowdsourced dataset.\r\nThe first elements seem to answer positively to this question.\r\n\r\nSome questions still need to be explored, notably those concerning the \r\nrepresentativeness of samples that are sometimes weak for certain time periods.\r\n\r\nThe systematic use of open source software, the provision of documented code files \r\nand a document mixing narrative, figures and code have allowed the resumption and\r\ncontinuation of the analyses shown here. \r\nThis work in progress will complete the final article.",
+    "start_datetime": "2022-08-24T14:45:00Z",
+    "end_datetime": "2022-08-24T15:15:00Z",
+    "talk:code": "ELBYL7",
+    "talk:guid": "6c64fd99-64a8-5189-99ac-bf57897b2ff9",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room Modulo 3",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "JS3JBJ",
+        "name": "Nicolas Roelandt",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/JS3JBJ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T15:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/ELBYL7/",
+      "title": "Crowdsourced acoustic open data analysis with FOSS4G tools"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/ELBYL7/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/JS3JBJ/",
+      "title": "Nicolas Roelandt"
+    },
+    {
+      "rel": "related",
+      "href": "https://ame.univ-gustave-eiffel.fr/",
+      "title": "Gustave Eiffel University"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/ELBYL7/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

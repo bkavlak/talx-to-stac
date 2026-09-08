@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "DAURNY",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "An open-source GeoAI workflow for mapping historic agricultural terraces",
+    "description": "Historic agricultural terraces are often poorly documented, especially where woodland obscures morphology. This paper presents an open source GeoAI workflow for semi automatic terrace mapping from LiDAR DEMs. By combining terrain, solar irradiance, soil erodibility and accessibility predictors, the extended Random Forest model improved detection, supporting heritage documentation and assessment.\n\nThis study develops and tests an open source GeoAI workflow for mapping historic agricultural terraces in complex upland landscapes. The main problem addressed is that terraces are culturally and environmentally important, but their spatial distribution is often poorly documented, especially where abandonment and woodland expansion have hidden terrace morphology from optical imagery and rapid field survey.\r\nThe workflow is tested in the northern Apennines of Italy, within the Tuscan Emilian Apennines UNESCO Man and the Biosphere Reserve. This area preserves extensive evidence of medieval and post medieval terrace farming, woodland management, rural routes and agroforestry systems. Many terraces are now abandoned and covered by woodland, making the area well suited for assessing whether high resolution LiDAR elevation data and machine learning can improve terrace detection.\r\nThe method is implemented in Python and relies entirely on free and open source tools. A 0.5 m LiDAR digital elevation model was resampled to 1 m and used to derive terrain predictors such as slope, plan curvature, profile curvature, roughness, topographic position index, topographic convexity index and geomorphons. These variables describe the local morphology of terraces, including flattened surfaces, risers, slope breaks and repeated microtopographic discontinuities. The study also adds broader landscape predictors: potential solar irradiance, soil erodibility and least cost corridor density. These variables act as proxies for exposure, slope management, soil instability and accessibility, reflecting the idea that terraces are not simply landforms, but human built agricultural features shaped by land use choices. Two Random Forest models are compared. Model A is a benchmark model based only on topographic and geomorphological predictors. Model B extends this set by adding irradiance, soil erodibility and accessibility. The results show that Model B performs better across all main metrics. It reaches an overall accuracy of 0.965, precision of 0.914, recall of 0.615, F1 score of 0.735 and ROC AUC of 0.983. Model A performs less well across the same indicators. Model B also reduces relative overprediction and omission error, producing a cleaner and more reliable terrace map.\r\nThe main contribution of the study is methodological. It shows that terrace mapping improves when local terrain morphology is combined with variables representing the wider agricultural logic of terrace construction. This matters because terraces were built in relation to cultivation potential, access, exposure and erosion control, not only slope geometry. The study also demonstrates the value of LiDAR based GeoAI for detecting features beneath woodland canopy, where optical imagery alone is insufficient. Beyond heritage documentation, the workflow has environmental relevance. More accurate terrace maps can support erosion modelling, improve estimates of conservation practices in RUSLE based approaches, and guide soil sampling for assessing soil organic carbon stocks. Overall, the study provides a reproducible and scalable workflow for linking historic landscape documentation with land degradation assessment and climate adaptation research.",
+    "start_datetime": "2026-09-01T06:30:00Z",
+    "end_datetime": "2026-09-01T07:00:00Z",
+    "talk:code": "DAURNY",
+    "talk:guid": "e4e2f869-4698-5708-aba5-b0a9d5aade2a",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos2",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "D7TPHP",
+        "name": "Filippo Brandolini",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/D7TPHP/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T06:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/DAURNY/",
+      "title": "An open-source GeoAI workflow for mapping historic agricultural terraces"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/DAURNY/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/D7TPHP/",
+      "title": "Filippo Brandolini"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/DAURNY/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

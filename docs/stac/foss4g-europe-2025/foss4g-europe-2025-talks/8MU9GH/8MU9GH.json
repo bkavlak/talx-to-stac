@@ -1,0 +1,97 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "8MU9GH",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "TEMPORAL ANALYSIS OF MULTISPECTRAL SATELLITE DATA FOR THE PURPOSE OF URBANIZATION MONITORING",
+    "description": "Monitoring the urbanization process and early detection of illegal construction should enable meaningful urban planning and the protection of natural and cultural features of the community. Remote sensing methods can greatly assist in these activities today. There is a major problem of illegal construction in the Republic of Croatia. In 2023 alone, according to a report by the State Inspectorate of the Republic of Croatia, a total of 4,774 inspections were carried out on the territory of the Republic of Croatia, and 1,089 inspection procedures were initiated due to violations of construction regulations. Based on them, 791 decisions were made on the removal of illegal buildings (State Inspectorate of the Republic of Croatia, 2024). Illegal construction undermines the quality of life of individuals and communities because it generally involves disregard for urban planning rules, damages the environment, reduces green areas, increases the risk of urban heat islands, and burdens municipal infrastructure.\r\n\r\nThis research uses the differences in spectral indices calculated using satellite images from different time periods. The assumption is that the use of the obtained differences in spectral indices from different time periods, in integration with open data in the form of digital orthophoto images and known data on illegal construction, could enable greater expediency of services in sanctioning premature and illegal construction or other environmental devastation.\r\n\r\nThe aim of this analysis is to examine and determine the possibilities of applying remote sensing methods in the early detection of areas under construction or other types of devastation. The assessment of the quality and usability of the results will primarily focus on the thematic accuracy and reliability of the detection of areas under construction through the use of high and medium spatial resolution images for the evaluation of the results. This research uses images from the Sentinel-2 and PlanetScope satellite systems. The idea was to examine the possibility of using a system that provides free imagery and has problematic spatial resolution for monitoring illegal construction, and a better spatial resolution system that is commercial. The impact of the spatial resolution of the high-resolution satellite imagery of the PlanetScope satellite system (spatial resolution 3 m) and the medium-resolution satellite imagery of the Sentinel-2 satellite system (spatial resolutions 10 m and 20 m) on the accuracy of the obtained results was also analyzed.\r\n\r\nTen spectral indices were calculated using images from the Sentinel-2 and PlanetScope satellite systems for two reference dates (2017 and 2021). The indices were selected by researching relevant literature. One of the results of this research is to highlight the indices that gave the best results for the purpose of detecting illegal construction. The city of Solin (near Split), Croatia, with its wider surroundings, was selected for the research area.\r\n\r\nOn cadastral plots with a known change in development (it is known that an illegal building was built there), the results obtained for the calculated differences in spectral indices were evaluated through visual analysis. Visual analysis means that the spectral index results are displayed over a digital orthophoto image with a spatial resolution of 0.5 m. Although previous research suggests that the BAEI and NDTI spectral indices should be suitable for separating built-up areas, satisfactory results were not obtained in this study. The same thing happened using the difference of the spectral indices NDBI and DBSI. Both spectral indices did not show good results in cases where smaller buildings were built on mixed-use land, so there is no significant difference in the spectral response for the two observed dates. The BRBA and NBAI spectral indices difference images stood out from the others because in some cases, changes in the structure of gravel and similar materials were successfully detected, and according to previous research, such detection represents the biggest challenge. It is worth highlighting the results obtained using the NBI spectral index, because in the figure, the differences in the spectral index of changes in development stand out best in relation to the environment. The best results were achieved with the difference of NDVI spectral indices calculated using the spectral channels of the Sentinel-2 and PlanetScope satellite systems. According to the achieved results, it is evident that for this type of research, the spatial resolution of the used spectral channels (3 m PlanetScope and 10 m Sentinel-2) did not have a major impact on the accuracy of detection.\r\n\r\nAfter the described analysis, the model was verified in another area, as a blind test. The verification model was conducted with five spectral indices (NDVI, NDVI (calculated with PlanetScope channels), NBI, BRBA and NBAI) which gave the best results. The blind test area was conducted in the Podstrana municipality (also near Split), Croatia. One urban and one rural location within the settlement were selected. From the obtained results, it can be concluded that the detection success of the verification model corresponds to the accuracy of the development model for detecting changes in built-up area, where the analysis with spectral indices NDVI, NDVI (calculated with PlanetScope channels) and NBI showed the best results.\r\n\r\nThe purpose of this method of detecting illegal construction has proven to be very practical in rural areas where the resulting images of differences were compared with official data on existing illegally constructed structures. From the obtained results, it can be concluded that for areas with a Mediterranean climate, the use of the difference method of spectral indices NBI, NDVI and NDVI (calculated by PlanetScope channels) gives very good results that can be of great use for the initial control of illegal construction.",
+    "start_datetime": "2025-07-17T13:10:00Z",
+    "end_datetime": "2025-07-17T13:15:00Z",
+    "talk:code": "8MU9GH",
+    "talk:guid": "3d4d163e-b78e-5f66-9872-9bf0d8e95fba",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Academic track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "PA01 (Quarticle)",
+    "talk:room_capacity": 95,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "VAEKJB",
+        "name": "Andrija Krtali\u0107",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/VAEKJB/"
+      }
+    ],
+    "talk:do_not_record": true,
+    "datetime": "2025-07-17T13:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/8MU9GH/",
+      "title": "TEMPORAL ANALYSIS OF MULTISPECTRAL SATELLITE DATA FOR THE PURPOSE OF URBANIZATION MONITORING"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/8MU9GH/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/VAEKJB/",
+      "title": "Andrija Krtali\u0107"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/8MU9GH/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/8MU9GH/resources/Temporal_Analysis_of_Multispectral_Satel_FKBVzvP.pdf",
+      "type": "application/pdf",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

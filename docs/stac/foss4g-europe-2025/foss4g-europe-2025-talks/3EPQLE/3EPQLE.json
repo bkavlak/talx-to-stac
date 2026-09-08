@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "3EPQLE",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "Integration of HD Maps and Point Clouds: An Efficient 3D Reconstruction Framework for Autonomous Driving Applications",
+    "description": "Autonomous driving approaches require simulation environments that accurately converge real-world conditions. We can utilize 3D reconstruction methodologies to achieve this. In this paper, we propose a lightweight 3D reconstruction methodology by using the Geospatial Data Abstraction Library (GDAL) and existing HD maps in the OpenDRIVE data format. By leveraging these datasets, we aim to improve the efficiency and accessibility of 3D scene reconstruction for autonomous driving applications. Additionally, we aim to provide a low-cost solution to address the annotation bottleneck in point-wise labeling for the computer vision domain with the constructed 3D models.Scene understanding is crucial for autonomous driving, and most approaches rely on online sensor measurements to extract meaningful information from self-driving cars' surroundings. Visual sensors like cameras and Light Detection and Ranging (LiDAR) are used a lot in autonomous driving for perception tasks. These observations, along with measurements from Inertial Measurement Units (IMU) and Global Navigation Satellite Systems (GNSS), can help us understand scenes better. However, the community realized that environmental factors such as weather conditions and illumination can easily affect those measurements. Then high-precision geospatial data became a lifesaver for automated driving. Last decade, the automotive domain has had tremendous interest in high-definition (HD) maps. HD maps are essential and complementary to achieving accurate navigation and localization for autonomous driving. The performance of current perception sensors is limited by their surroundings. This can make it hard for self-driving cars to figure out where they are, especially when they are near the edges of their surroundings, which can make the experience of driving unsafe. Problematic situations include GNSS receivers being affected by multipath effects, LiDAR systems not being able to scan beyond a certain range, and camera image processing algorithms not being able to get clear images that can be used. On the other hand, visual sensors (camera and LiDAR) need pre-annotated and trained datasets to predict and detect objects that are visible in the scene. In contrast to those conditions, HD maps can provide static lane-level information, which allows for an informative baseline about the surroundings in any case.The most common HD map formats include Navigation Data Format (NDS), OpenDRIVE, and Lanelet2. However, differences in road geometry definitions and data structures make cross-format compatibility difficult. Each format has distinct ways of storing and structuring road elements, creating obstacles for seamless data integration across platforms. OpenDRIVE, an industry-standard format developed by the Association for Standardization of Automation and Measuring Systems (ASAM), provides a structured way to describe road networks in lane-level detail.In this work, we will investigate OpenDRIVE's ability to create 3D shapes and explore realistic convergence strategies for autonomous driving simulations. Using the GDAL XODR driver\u2014available since 2024\u2014we will generate 3D geometries as OGC Simple Features for selected road areas. This driver allows the creation of Triangular Irregular Networks (TIN) from driving surfaces and 3D road infrastructure elements, which we will use to generate synthetic point clouds. By leveraging these synthetic point clouds, we can systematically evaluate how well vector-based models approximate real-world environments. This enables a direct comparison between vector-based 3D modeling and real-world LiDAR data/point clouds.Point clouds have been widely used for scene understanding in autonomous driving, as they provide 3D coordinates and intensity values for the environment. However, large-scale 3D modeling is computationally expensive and requires efficient data processing techniques. Annotating these datasets manually is also time-consuming and labor-intensive, making semantic information extraction difficult. The lack of automation in labeling further exacerbates these challenges, slowing down the development of advanced perception models. Addressing these limitations is essential to improving HD map applications and integrating them into broader geospatial workflows.We will use the Iterative Closest Point (ICP) algorithm to make sure that synthetic and real-world data are more closely aligned. This will reduce errors and allow for accurate shape reconstruction. The ability to refine and align synthetic models with real-world measurements is crucial for ensuring high-fidelity simulations. Additionally, we will use Nearest Neighbor Search and Density-Based Spatial Clustering of Applications with Noise (DBSCAN) to identify corresponding points and fill missing HD map elements. By intelligently reconstructing missing data, we can enhance the completeness of HD maps and make them more reliable for self-driving applications. This will enhance data completeness and improve overall map reliability for self-driving applications.By integrating these methodologies, we aim to bridge the gap between vector-based HD maps and real-world point cloud data. This will enable a more seamless fusion of geospatial information across different domains, improving both data usability and accuracy. Our method aims to make a 3D reconstruction pipeline that is more accurate and faster. This will make it easier to simulate self-driving cars and help validate and improve HD maps. Ultimately, by enhancing the accuracy and efficiency of 3D modeling techniques, our approach contributes to safer and more effective autonomous driving systems.",
+    "start_datetime": "2025-07-17T09:30:00Z",
+    "end_datetime": "2025-07-17T10:00:00Z",
+    "talk:code": "3EPQLE",
+    "talk:guid": "919e6b7f-8006-5ffa-a058-1767a194dd79",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Academic track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "PA01 (Quarticle)",
+    "talk:room_capacity": 95,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "GEYWGB",
+        "name": "G\u00fclsen Bardak",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/GEYWGB/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-17T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/3EPQLE/",
+      "title": "Integration of HD Maps and Point Clouds: An Efficient 3D Reconstruction Framework for Autonomous Driving Applications"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/3EPQLE/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/GEYWGB/",
+      "title": "G\u00fclsen Bardak"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/3EPQLE/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/3EPQLE/resources/FOSS4G_2025_fOedLU3.pdf",
+      "type": "application/pdf",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/fZWkgcwBfQXoPRE71erSYG",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Integration of HD Maps and Point Clouds: An Efficient 3D Reconstruction ...",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=87o6jxBXqeM",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Integration of HD Maps and Point Clouds: An Efficient 3D Reconstruction ...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

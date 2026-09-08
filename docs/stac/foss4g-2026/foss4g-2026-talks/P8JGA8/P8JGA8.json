@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "P8JGA8",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Bridging LLM and GIS via Model Context Protocol for Conversational Flood Data Analysis",
+    "description": "This study proposes a Conversational GIS system that integrates LLM with MCP, allowing non-technical users to access and analyze geospatial data through natural language, supporting flood risk analysis and lowering technical barriers for GIS interaction.\n\nCurrently, geographic information systems (GIS) are commonly developed and provided through Application Programming Interfaces (APIs). This approach allows different systems to access and exchange spatial data in a flexible way. However, using APIs usually requires knowledge of programming, API requests, and an understanding of spatial data structures and geospatial analysis processes. As a result, accessing and using GIS data is still difficult for general users, data analysts, or policy makers who do not have a background in software development.\r\n\r\nThis study proposes an approach to integrate Large Language Models (LLMs) with GIS using the Model Context Protocol (MCP) architecture to create a conversational interface for accessing, searching, and analyzing geospatial data. The goal is to change the traditional way of interacting with GIS from direct API calls to communication through natural language.\r\n\r\nThe proposed system architecture consists of three main layers.\r\n1.     Conversational Layer \u2013 This layer uses an LLM to receive and interpret user questions written in natural language and understand the context of geospatial-related queries.\r\n2.     MCP Integration Layer \u2013 This layer acts as an intermediary that manages context and converts user questions into commands that can call geospatial tools or services. It uses the MCP communication structure to connect the LLM with external services in a systematic way.\r\n3.     Geospatial Processing Layer \u2013 This layer includes APIs and geospatial processing modules for spatial data retrieval, spatial statistics calculation, analysis, and flood risk assessment.\r\n\r\nIn this study, several geospatial datasets related to flood analysis are integrated into the system. These datasets include Digital Elevation Model (DEM) data for terrain analysis, rainfall data, soil data, and historical flood data for flood risk assessment and identifying potential flood areas. In addition, population and household data are used to evaluate the potential impact on communities and infrastructure. Other supporting spatial datasets such as administrative boundaries, road networks, schools, and hospitals are also included to provide contextual analysis of flood-prone areas.\r\n\r\nWith this architecture, users can ask questions using natural language, such as identifying flood-risk areas, retrieving population or infrastructure information, specifying geographic coordinates, or obtaining statistical data for a specific area. The system interprets the question, analyzes its context, and converts it into appropriate geospatial processing tasks. The results are then returned as structured data such as GeoJSON or statistical information, which can be further used in GIS systems or map visualization platforms.\r\n\r\nThe proposed approach reduces the complexity of accessing geospatial data and lowers the technical barriers for users. It also improves interaction with GIS analysis systems through natural language. Furthermore, this work demonstrates the potential of integrating artificial intelligence with geospatial infrastructure to support the concept of Conversational GIS, which transforms traditional API-based geospatial services into interactive systems that allow users to communicate with spatial data more naturally. This approach may represent an important direction for future geospatial platforms.",
+    "start_datetime": "2026-09-02T05:30:00Z",
+    "end_datetime": "2026-09-02T06:00:00Z",
+    "talk:code": "P8JGA8",
+    "talk:guid": "a9837bb8-5c95-5871-8494-3ef21bc903f3",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room6",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "GV7YKQ",
+        "name": "Narathorn Noophum",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/GV7YKQ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T05:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/P8JGA8/",
+      "title": "Bridging LLM and GIS via Model Context Protocol for Conversational Flood Data Analysis"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/P8JGA8/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/GV7YKQ/",
+      "title": "Narathorn Noophum"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/P8JGA8/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

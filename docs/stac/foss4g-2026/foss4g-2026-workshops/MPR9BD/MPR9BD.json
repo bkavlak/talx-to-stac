@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "MPR9BD",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Exploring Cloud Native Geospatial Data Formats: Hands-on with Rasters",
+    "description": "Dig into three cloud-native raster formats\u2014COGs, Zarr, and Kerchunk\u2014and learn how data access works under the hood with hands-on Python exercises, no image libraries required!\n\nEver wonder what GDAL is doing under the hood when you read a Cloud-optimized GeoTIFF (COG) off a remote server? Have you been wondering what this Zarr thing is all about and how it works? Then there's the whole Kerchunk/VirtualiZarr indexing to get cloud-native access for non-cloud-native data formats, what's that about?\r\n\r\nCloud-native geospatial is all the rage these days, and for good reason. As data sizes grow, layer counts increase, and analytical methods become more complex, the traditional download-to-the-desktop approach is often untenable. It's no surprise then that users are turning to cloud-native tools to scale out their analyses. But as we transition away from opening whole files to now grabbing ranges of bytes off remote servers it seems all the more important to understand exactly how cloud native data formats actually store data and what tools are doing to access it.\r\n\r\nThis workshop aims to dig into how cloud-native geospatial data formats are enabling new operational paradigms, with a focus on raster formats. We'll start by surveying the current cloud-native geospatial landscape to understand the importance of cloud native and how it is being used, including the core tenants of cloud-native, common formats, and how things like SpatioTemporal Asset Catalogs (STAC) and STAC-based tooling integrate to provide more efficient access paradigms.\r\n\r\nThen we'll get hands-on to build up an understanding of how these formats work at a deep level. We'll extract a tile from a COG by hand, then try the same with Zarr data to see how those formats compare. Lastly, we'll look at Kerchunk/VirtualiZarr and see how these allow optimized data access for non-cloud-native formats.",
+    "start_datetime": "2026-08-30T01:00:00Z",
+    "end_datetime": "2026-08-30T04:00:00Z",
+    "talk:code": "MPR9BD",
+    "talk:guid": "0dfac987-a526-57f8-ba09-da66a073cd44",
+    "talk:event": "foss4g-2026-workshop",
+    "talk:type": "Workshop",
+    "talk:language": "en",
+    "talk:room": "601",
+    "talk:room_capacity": 81,
+    "talk:duration_minutes": 180,
+    "talk:speakers": [
+      {
+        "code": "8TAMEN",
+        "name": "Jarrett Keifer",
+        "url": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/8TAMEN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-08-30T02:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/MPR9BD/",
+      "title": "Exploring Cloud Native Geospatial Data Formats: Hands-on with Rasters"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/MPR9BD/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/8TAMEN/",
+      "title": "Jarrett Keifer"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/MPR9BD/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-workshops"
+}

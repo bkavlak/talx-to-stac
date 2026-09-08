@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "S9ENL7",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Participatory mapping field survey and computer lab: QField integration into machine learning landcover classification within Digital Earth Pacific. Workshop",
+    "description": "The workshop will include a) field survey component where participants will be able to walk around Auckland to collect data points in QField for QGIS and b) a computer lab component where participants will use Digital Earth Pacific Python Notebooks to generate a land cover map.\n\nFOSS4G abstracts:\r\nWorkshop abstract:\r\nParticipatory mapping field survey and computer lab: QField integration into machine learning landcover classification within Digital Earth Pacific.\r\n\r\n3-hour workshop\r\nThe objective of the workshop is to share a workflow to allow for field data, calibration, and validation of a land cover classification model output. \r\n\r\nLand cover classification:\r\nLand cover classification forms serves numerous functions including land cover accounting, monitoring land use changes, biodiversity and conservation monitoring, measurements of urban and agricultural expansion as well as forest inventories and national greenhouse gas inventories.  \r\n\r\nThis workshop will include two main components:\r\n1.\ta field survey component where participants will be able to walk around Auckland to collect data points in QField for QGIS. \r\n2.\ta computer lab component where participants will use Digital Earth Pacific Python Notebooks to generate a land cover map based on the data collected in their respective surveys.\r\nThese participatory mapping workflows enable users from a range of disciplinary backgrounds to contribute to land cover mapping outputs. These outputs may be used for a range of applications including land cover classification. \r\nThe learning outcomes of this workshop will include the following: \r\n1.\tParticipants will learn how to collect field data using QField \r\n2.\tParticipants will also be able to ingest this data into Digital Earth Pacific and through a Jupyter Notebook Environment\r\n3.\tParticipants will be able to build on introductory levels of Python programming knowledge. \r\nWithin QField and Python, participants will be making use of the following tools and libraries:\r\n\u2003\r\n\r\nQField workflows to be covered:\r\nPoint data collection\tCollection of points for different land cover classes\r\nTransects \tTransects \r\nPolygons\tCollecting polygon areas of interest\r\nAccuracy assessments\tEnsuring data collected is within set thresholds of horizontal accuracy\r\n\r\nPython libraries to be covered:\r\nPandas / Geopandas\tVector data analysis and plotting\r\nodc-geo\tWeb map plotting\r\nRasterio\tRaster data analysis and plotting\r\nodc.stac\tLoading satellite data through Digital Earth Pacific Spatiotemporal Asset Catalogues.",
+    "start_datetime": "2025-11-18T00:30:00Z",
+    "end_datetime": "2025-11-18T03:30:00Z",
+    "talk:code": "S9ENL7",
+    "talk:guid": "bac5de11-3fca-5019-be74-ae608a6f3d8b",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Workshop - Beginner Friendly",
+    "talk:type": "Workshop",
+    "talk:language": "en",
+    "talk:room": "WF610",
+    "talk:room_capacity": 30,
+    "talk:duration_minutes": 180,
+    "talk:speakers": [
+      {
+        "code": "GDHPXP",
+        "name": "Nicholas Metherall - SPC",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/GDHPXP/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-18T02:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/S9ENL7/",
+      "title": "Participatory mapping field survey and computer lab: QField integration into machine learning landcover classification within Digital Earth Pacific. Workshop"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/S9ENL7/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/GDHPXP/",
+      "title": "Nicholas Metherall - SPC"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/S9ENL7/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

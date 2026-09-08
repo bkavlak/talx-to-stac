@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "3UCFFC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "UAVIMALS: the \"open\" remote sensing system for surface archaeological investigations.",
+    "description": "Today, there is a growing use of airborne sensors in archaeology, especially to investigate the surface of vast territories quickly and accurately. Airborne laser scanning technologies from small remotely piloted aircraft are rapidly turning towards more and more performing solutions for the investigation of archaeological traces hidden by vegetation or soil deposits substantial. The proposed contribution aims to fit into this field of archaeological research by presenting \"UAVIMALS\" (Unmanned Aerial Vehicle Integrated with Micro Airborne Laser Scanner), a new system of aerial remote sensing of \"shadow marks\u201d (Masini \u2013 Lasaponara 2017; p. 32) designed for surface archaeological investigations, the result of an Early Carrer Grant funded by the National Geographic Society. The system, consisting of a custom drone based on an open architecture and software for vehicle control and data processing, integrates a solid-state laser sensor, commonly designed to avoid obstacles, but here exploited to process a DTM (Digital Terrain Model) accurate of small surfaces with a significant reduction in acquisition time and cost. The ambition of the UAVIMALS project was not to create an airborne LIDAR at low cost and less performing than those already on the market, but rather to create an instrument of easy transportability, less expensive and equally precise. We believe the solution represents a breakthrough in research into airborne laser scanner technologies.\r\nThe acquisition of three-dimensional images at very high morphometric resolution, has proved to be a fundamental practice for the study of various contexts of our planet, but in the archaeological field, in particular, drone remote sensing is an extremely important practice for the investigation of ancient structures, sometimes still unexplored, not otherwise searchable by other means, such as excavation and reconnaissance activities, due to uncomfortable geomorphological conditions, places of difficult access and traces invisible to the human eye at short distances and in particular climatic conditions (\u0160tular- Eichert- Lozi\u0107 2021). Nevertheless, most of the instruments currently on the market still have prohibitive costs for archaeological research, as well as unfavourable dimensions to meet transport needs in inaccessible places in the absence of transport. The realization of the system presented has tried to overcome these critical issues by working on the hardware solution best suited to the needs of an investigation of aerial archaeology, by using a type of lidar sensor never used for remote sensing by drone. The instrument, with its low cost and dimensions, was born as a system for autonomous driving on road vehicles (https://leddarsensor.com/solutions/m16-multi-segment-sensor-module/) and was customized on a self-built drone to obtain a prototype of the 'very light' class. Following the experimentation in two different archaeological contexts, the work continued with the resolution of the second criticality, that is the creation of a software useful for the control of the medium in phase of flight but also able to monitor the acquired data finalizing a first graphical elaboration. Currently, in fact, it is possible to work the clouds of lidar data points only through dedicated software (Cloude Compare; 3D Zephyr; QGIS etc.) that not being connected with the drone, do not allow a real-time visualization of what is seen by the sensor and prevent a preliminary first monitoring of any archaeological presence hidden in the overflight area. The DEM, meshes and clouds of points obtained from the sensor can then be loaded into geospatial software such as QGIS, allowing spatial, territorial, and geomorphological analysis of the data acquired using specific tools. If for other contexts of application such activity may be superfluous, in the archaeological field, a system like the one thought can represent a concrete possibility of widening of the archaeological investigations that in such a way would be speeded up by a tool of observation as well as facilitated by a cost widely accessible to the funds given to the research university. The system, moreover, would allow to speed up also the preliminary archaeological operations preliminary to the realization of any public work, through an immediate verification of the possible archaeological presence in the areas affected by the operations, thus avoiding costly design changes in the process. The proposed contribution, therefore, would present not only the hardware and software solution developed, but also the preliminary results obtained from its application in the archaeological context of Leopoli - Cencelle, a medieval city, about 60 km north of Rome, where critical issues such as the extent of the site, the presence of large elevation changes and dense vegetation have always complicated the excavation activities on the hill, still leaving much of the unexplored city. In this context, in fact, remote sensing by drone, has proved to be an effective method for the investigation of ancient structures with a different degree of archaeological visibility in which the evidence is not yet completely above ground and are obliterated by high and medium stem vegetation.  The examination, although the result of an experimental activity, not only made it possible to identify anomalies relating to structures not yet intercepted by the excavation operations but also encouraged the planning of future investigation campaigns, allowing a more conscious planning of the areas of interest.",
+    "start_datetime": "2023-06-29T13:00:00Z",
+    "end_datetime": "2023-06-29T13:05:00Z",
+    "talk:code": "3UCFFC",
+    "talk:guid": "e597fbc7-96cc-5ab1-b6a3-59077cf045fd",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Academic Track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "UBT E / N209 - Floor 3",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "AYHDVH",
+        "name": "Federica Vacatello",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/AYHDVH/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-29T13:02:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/3UCFFC/",
+      "title": "UAVIMALS: the \"open\" remote sensing system for surface archaeological investigations."
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/3UCFFC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/AYHDVH/",
+      "title": "Federica Vacatello"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/3UCFFC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

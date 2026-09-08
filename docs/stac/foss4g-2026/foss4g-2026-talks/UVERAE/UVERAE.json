@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "UVERAE",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "What Could Possibly Go Wrong? A Practical Security Review of Popular Open-Source GIS Libraries",
+    "description": "This talk shares results from a security review of widely used open\u2011source GIS libraries using a lightweight SAST and SBOM methodology. Attendees will learn how common patterns create risk and how simple, repeatable practices can strengthen the security and resilience of geospatial tools.\n\nAs geospatial tools continue to power disaster response, environmental resilience, urban planning, and civic decision making, the software we rely on becomes part of our critical infrastructure. Yet many of the open-source GIS libraries we use every day\u2014whether in desktop workflows, cloud pipelines, or web maps\u2014were never designed with modern cybersecurity expectations in mind. This talk shares the results of a focused security review of several widely used open-source GIS libraries, using a lightweight methodology adapted from the Center for Internet Security's RABET-V program (https://rabetv.org) and built around industry-standard Static Application Security Testing (SAST) and Software Bills of Materials (SBOM) analysis tools.\r\n\r\nThis work takes a collaborative, community-friendly approach by scanning a curated subset of libraries for common software supply chain issues, dependency risks, and code-level patterns that could expose geospatial systems to unintended vulnerabilities. All of the findings were handled under responsible disclosure principles, with maintainers notified privately and no exploitable details shared publicly.\r\n\r\nThis session is designed for both programmers and non-programmers. For developers, you\u2019ll walk away with concrete examples of how memory unsafe parsing, dependency chains, build configurations, and API patterns can introduce security risk\u2014and what you can do in your own projects to reduce it. For GIS practitioners, analysts, and decision makers, the talk will aim to demystify cybersecurity concepts and show how everyday choices in tools, data sources, and deployment environments affect the trustworthiness of the maps and analyses you build and depend on.\r\n\r\nThe ultimate goals of this talk are not to raise alarm but, rather, to raise awareness of cybersecurity considerations when building and using geospatial tooling; to show how simple, repeatable scanning practices can strengthen the health of the geospatial open-source ecosystem; and to suggest how our community can come together to build safer, more resilient tools for the work ahead.",
+    "start_datetime": "2026-09-02T02:00:00Z",
+    "end_datetime": "2026-09-02T02:30:00Z",
+    "talk:code": "UVERAE",
+    "talk:guid": "008e68df-eb3e-5a8a-89bd-d2bc420f7e1e",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Ran1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "G3FGLK",
+        "name": "Jared Marcotte",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/G3FGLK/"
+      },
+      {
+        "code": "BUJVEW",
+        "name": "Robert Cheetham",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/BUJVEW/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T02:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/UVERAE/",
+      "title": "What Could Possibly Go Wrong? A Practical Security Review of Popular Open-Source GIS Libraries"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/UVERAE/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/G3FGLK/",
+      "title": "Jared Marcotte"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/BUJVEW/",
+      "title": "Robert Cheetham"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/UVERAE/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

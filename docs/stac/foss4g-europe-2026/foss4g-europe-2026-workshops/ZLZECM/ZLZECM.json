@@ -1,0 +1,108 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "ZLZECM",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "EOPF Zarr Explorer Workshop: Web Visualization Techniques and Resources for the GeoZarr Specification",
+    "description": "Presented under the efforts of the EOPF Sentinel Zarr Explorer project, participants will learn how to leverage a modern, cloud-native tech stack to interact with multidimensional data on object storage. We will go through the various tools that support the development of visualizations of the GeoZarr format. Using Copernicus Sentinel data, we will look into building maps and dashboards using eodash, OpenLayers, and TiTiler. Write interactive narratives and stories using EOxStorytelling, and visualize maps in notebooks using Jupyter EOxElements.\n\nAs Earth Observation data grows in scale and complexity, the shift toward cloud-native, multidimensional data formats is accelerating. The GeoZarr specification aims to standardize this for geospatial workflows, but web-based visualization remains a challenge. This workshop, brought to you by the EOPF Sentinel Zarr Explorer project, provides a hands-on guide to solving this challenge.\r\n\r\nParticipants will learn how to build interactive web mapping applications using the suite of open-source tools that have been made fit for usage with GeoZarr formatted data in the project. We will start by directly accessing and rendering GeoZarr data stored on S3 buckets using eox-map (built on OpenLayers). From there, we will demonstrate how to wrap these visualizations into compelling narratives using eox-storytelling.\r\n\r\nWe will then expand the ecosystem by showing how to consume server-side rendered Geozarr using TiTiler, and integrating these feeds into eodash to create a STAC based EO dashboard. Finally, for the data scientists in the room, we will showcase how to bring the EOxElements visualizations directly into Python workflows using Jupyter EOxElements. By the end of this session, attendees will have a working template to visualize and present modern cloud-optimized EO data.",
+    "start_datetime": "2026-07-03T06:00:00Z",
+    "end_datetime": "2026-07-03T10:00:00Z",
+    "talk:code": "ZLZECM",
+    "talk:guid": "f1b4512f-9758-584d-bec4-8f9cde2e6c86",
+    "talk:event": "foss4g-europe-2026-workshops",
+    "talk:type": "workshop",
+    "talk:language": "en",
+    "talk:room": "059",
+    "talk:room_capacity": 30,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "AYL9EH",
+        "name": "Ahmed Behairi",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026-workshops/speaker/AYL9EH/"
+      },
+      {
+        "code": "PSWYNG",
+        "name": "Lo\u00efc Houpert",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026-workshops/speaker/PSWYNG/"
+      },
+      {
+        "code": "XVZBYM",
+        "name": "mussab.abdalla",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026-workshops/speaker/XVZBYM/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-07-03T08:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/talk/ZLZECM/",
+      "title": "EOPF Zarr Explorer Workshop: Web Visualization Techniques and Resources for the GeoZarr Specification"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/talk/ZLZECM/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/speaker/AYL9EH/",
+      "title": "Ahmed Behairi"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/speaker/PSWYNG/",
+      "title": "Lo\u00efc Houpert"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/speaker/XVZBYM/",
+      "title": "mussab.abdalla"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/talk/ZLZECM/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-workshops"
+}

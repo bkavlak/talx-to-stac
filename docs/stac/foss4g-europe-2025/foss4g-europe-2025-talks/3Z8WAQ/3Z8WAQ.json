@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "3Z8WAQ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "FLUENT: prediction of pipe leaks using IA, LEYP and log regression. Data pipeline using PostgreSQL",
+    "description": "Pipe leaks are a significant concern for water companies responsible for managing water infrastructures. In this context, anticipating these events is crucial not only for conserving water but also for ensuring that the infrastructure remains in optimal condition.\r\n\r\nThe FLUENT project presents a unique opportunity for water companies to study the probability of pipe leaks using artificial intelligence (AI), Linear Extended Yule Process (LEYP) , and logistic regression (LR) enabling them to predict and proactively address potential issues. The main goal of the project is to develop a predictive system for pipe leaks using advanced AI algorithms. To achieve this, four water companies, serving between 20,000 and 100,000 consumers, contributed their data to train the AI model. These companies also collaborated to establish common definitions of key concepts and to share valuable knowledge on how to tackle the challenges associated with leak detection and prevention. \r\n\r\nThe collected data was stored in a PostgreSQL database, and was processed using PL/pgSQL and PostGIS functions, allowing for efficient data manipulation and preparation before being used by the AI algorithms outside the database. This collaborative approach not only aims to improve the accuracy of leak predictions but also seeks to provide practical solutions to enhance infrastructure management and promote more sustainable water usage practices. By leveraging AI in this way, the project strives to advance the capabilities of water companies in addressing one of the most pressing challenges in water distribution networks today.",
+    "start_datetime": "2025-07-17T14:00:00Z",
+    "end_datetime": "2025-07-17T14:30:00Z",
+    "talk:code": "3Z8WAQ",
+    "talk:guid": "c2c8a323-ad4a-59c5-813b-706d4264afd6",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "SA02",
+    "talk:room_capacity": 108,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "YHYA9Z",
+        "name": "Maria Guzm\u00e1n",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/YHYA9Z/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-17T14:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/3Z8WAQ/",
+      "title": "FLUENT: prediction of pipe leaks using IA, LEYP and log regression. Data pipeline using PostgreSQL"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/3Z8WAQ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/YHYA9Z/",
+      "title": "Maria Guzm\u00e1n"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/3Z8WAQ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/3Z8WAQ/resources/presentacio_fluent_U3GY20W.pptx",
+      "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "title": "presentation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/aUM4BKcX94nACZhSG5wWw4",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | FLUENT: prediction of pipe leaks using IA, LEYP and log regression. Data ...",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=_qLUiMycuy0",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | FLUENT: prediction of pipe leaks using IA, LEYP and log regression. Data ...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

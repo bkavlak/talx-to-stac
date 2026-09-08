@@ -1,0 +1,104 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "YK3V9E",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "pyotb: a pythonic extension of Orfeo ToolBox",
+    "description": "Orfeo ToolBox (OTB) is an open-source project for state-of-the-art remote sensing, made for large-scale image processing. It is written in C++ and a Python interface is available. However, the use of plain OTB in Python requires a lot of code; more than what a Python user is used to!\r\n\r\npyotb aims at making the use of Orfeo ToolBox easy in Python. In this talk, discover:\r\n- how to run any application of OTB in just one line of code\r\n- how to build complex processing chains containing several applications in an intuitive way.\r\n- how to interact easily with NumPy and Tensorflow.\r\n- some pythonic features made for user convenience.\r\n- some functions written to mimic the behavior of some well-known NumPy functions: `pyotb.where`, `pyotb.clip`, `pyotb.all`, `pyotb.any`... and counting!\r\n\r\nOTB has an amazing pool of applications and can run on all types of computers: from resource limited laptops to high performance clusters. With pyotb, unleash the power of OTB in Python! \r\n\r\nWe will make you love the way you can use OTB in Python. You can find more info on the project on the pyotb repository: https://gitlab.orfeo-toolbox.org/nicolasnn/pyotb",
+    "start_datetime": "2022-08-25T15:45:00Z",
+    "end_datetime": "2022-08-25T15:50:00Z",
+    "talk:code": "YK3V9E",
+    "talk:guid": "f3875325-bbc8-51e8-a2c7-e244f551790b",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Room 4",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "LRVBFX",
+        "name": "Nicolas Nar\u00e7on",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/LRVBFX/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T15:47:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/YK3V9E/",
+      "title": "pyotb: a pythonic extension of Orfeo ToolBox"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/YK3V9E/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/LRVBFX/",
+      "title": "Nicolas Nar\u00e7on"
+    },
+    {
+      "rel": "related",
+      "href": "https://gitlab.orfeo-toolbox.org/nicolasnn/pyotb",
+      "title": "gitlab.orfeo-toolbox.org/nicolasnn/pyotb"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/YK3V9E/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=y0xmkMpMM2c",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | pyotb: a pythonic extension of Orfeo ToolBox",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

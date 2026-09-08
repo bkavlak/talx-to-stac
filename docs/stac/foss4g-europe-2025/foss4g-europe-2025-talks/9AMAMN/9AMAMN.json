@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "9AMAMN",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "The challenges of reproducibility for research based on geodata web services",
+    "description": "Digitalization and collaborative approach drives Open Science, the modern way of conducting research. In fact, Open Science can be defined as \u201ca collaborative culture enabled by technology that empowers the open sharing of data, information, and knowledge within the scientific community and the wider public to accelerate scientific research and understanding\u201d. Its three major objectives are: (a) increase the accessibility to the scientific body of knowledge, (b) increase the efficiency of the processes to share research outputs and findings, and (c) improve the evaluation of the science impact considering new metrics. Due to technological advances of the last decades, modern research is, today, mainly data-driven therefore Open Research Data (ORD), which refers to \"the data underpinning scientific research results that has no restrictions on its access, enabling anyone to access it.\" [1], is extremely important. \r\nWith means to openly share data, the intent is to accelerate and boost new findings and innovations, minimizing data duplications and enabling interdisciplinary and wider collaborative research. To be effectively used by other researchers, ORD need to follow the specific principles of Findability, Accessibility, Interoperability, and Reuse (FAIR) [2] which led to the creation of data repositories that permits to register, store, find and access data following interoperable metadata standards. Available repositories offer services which generally adhere to ORD best practices by offering open data access, associating a license to data, making them persistent, providing unique citable identifiers (DOI), adopting repository standards, and providing a defined data policy. Nevertheless, in most of those repositories it is only possible to deposit static files, preferably archived using standard open formats and metadata. \r\n\r\nHowever, to fully exploit ORD with modern applications, using for example AI techniques, big data requires specialized services that offer a systematic and regular delivery of Analysis Ready Data (ARD) and filtering capabilities [3]. Sharing ARD perfectly fit with the European vision of establishing Data Spaces as an interoperable digital place to facilitate data exchange and usage in a secured and controlled environment among different disciplines with the goal of boosting innovation, economic growth and digital transformation [4]. This concept goes beyond the simple technical data sharing issues and encompasses the need of offering a space to share data that is compliant with privacy and security regulation.\r\n\r\nIn the geospatial context, operational data sharing has been implemented by means of Spatial Data Infrastructures (SDIs). They have been implemented based on sharing principles which led to the adoption of interoperable geoservices by which today thousands of geospatial layers are offered to millions of applications worldwide adopting interoperable geostandards that are mainly from the Open Geospatial Consortium (OGC). The technological growth in the last decades led to the explosive increment of time-varying data which dynamically change to represent phenomena that grows, persists and decline, or that constantly vary due to data curation processes that periodically insert, update, or delete information related to data and metadata. \r\n\r\nTherefore, based on the current trends, the ability to link Open Science concepts with interoperability and time-varying data management is paramount. In particular, the capability of obtaining results consistent with a prior study using the same materials, procedures, and conditions of analyses is very important since it increases scientific transparency, fosters a better understanding of the study, produces an increased impact of the research and ultimately reinforces the credibility of science. In the Open Science paradigm this is indicated as Reproducible Research, and it can be guaranteed only if the same source code, dataset, and configuration used in the study is persistently available. For geospatial data, while the presented OGC standards enable an almost FAIR [5] and modern data sharing, they do not adequately support the reproducibility concept as pursued in Open Science. In other words, they do not offer any guarantee that the geodata accessed in a given instant in a geoservice can be persistently accessed, immutably, in the future.\r\n\r\nThe needs and practices of time-varying data updates is supported by real case examples related to common operations that update data or metadata of the different geospatial data types, for example, specifically: environmental and climate data for sensor observations, cadastral and OSM data for vector datasets and satellite derived land cover, crop maps and observations of water for raster series. From a technical perspective, the capacity of accessing data as they were in a specific previous state is strictly linked to the capacity of supporting data versioning. Feature found in specific tools and approaches that largely differs from data formats and storage (databases, files and Log-Structured Tables) bur rarely support geospatial data.\r\n\r\nWhile a defined approach to support system-time exists in SQL and LSTs [7] it is not yet currently adopted on commonly used storage solutions like those offered by the OSGeo\u2019s projects [8] and/or are easy to integrate in them without new software development. \r\nWe conclude that OGC Geospatial web services that are currently used in Spatial Data Infrastructures do not meet the reproducibility requirement set by Open Science since they do not guarantee the immutable access to a dataset in its status at a specific time of consumption. \r\nTo support this capability, we propose that geospatial data management infrastructures manage datasets versioning and expose these features to users trough standard Web services. Since versions number may evolve extremely fast and are not meaningful to the user, the system time, which identifies the instant for which archived information had specific values, should be used, in conjunction with web service URL, as a unique identifier of the dataset. Finally, together with the support of versioning we propose to support the git-like metadata on user and motivation on data transactions: this would greatly support reproducibility and Open Science. In fact, it would not only allow us to retrieve temporal versions of the dataset, but it would also permit us to perform data lineage analysis to fully understand the historical changes and better comprehend the dataset (including data provenance and ownership) with the effect of fostering the transparency and, ultimately, the credibility of science.",
+    "start_datetime": "2025-07-16T14:00:00Z",
+    "end_datetime": "2025-07-16T14:30:00Z",
+    "talk:code": "9AMAMN",
+    "talk:guid": "a1494f37-cc6a-5a7f-84a0-01e6a6a0a5c5",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Academic track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "PA01 (Quarticle)",
+    "talk:room_capacity": 95,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "LPFDM8",
+        "name": "Massimiliano Cannata",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/LPFDM8/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-16T14:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/9AMAMN/",
+      "title": "The challenges of reproducibility for research based on geodata web services"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/9AMAMN/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/LPFDM8/",
+      "title": "Massimiliano Cannata"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/9AMAMN/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/9AMAMN/resources/reproducibity_istsos4_final_QdFtaMg.pdf",
+      "type": "application/pdf",
+      "title": "Slides",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/1wtzfn9kxsHpP4HTGXJeiX",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | The challenges of reproducibility for research based on geodata web services",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=JKWK5pZJhjs",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | The challenges of reproducibility for research based on geodata web services",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

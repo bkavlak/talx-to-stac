@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "87ZRJH",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Shared Landscapes, Shared Futures: Visual Landscape Evolution Modelling for Community Stewardship",
+    "description": "Understanding how landscapes evolve across decades to millennia is fundamental for environmental planning, hazard mitigation, infrastructure management, and heritage protection. Many environmental processes affecting land stability operate at timescales far exceeding typical planning horizons. Hillslope diffusion, fluvial incision, sediment transport, and gradual terrain adjustment continuously reshape catchments and river networks, influencing erosion risk, water quality, and the preservation of archaeological and culturally significant features. However, contemporary geospatial workflows are largely observational. Geographic Information Systems (GIS) and remote sensing platforms excel at representing present conditions and monitoring short-term change, yet provide limited capacity to evaluate how landscapes may respond to long-term environmental or human disturbances. Consequently, planners and land managers must often make decisions without accessible tools for understanding long-term terrain response.\r\n\r\nNumerical landscape evolution models (LEMs) offer a framework for investigating long-term terrain change. A LEM is a computational model that represents a landscape as a digital surface and simulates how its elevation evolves over time according to governing physical relationships between topography and environmental forcing. Rather than analysing a single snapshot of terrain, the model iteratively updates the land surface across many time steps, allowing users to explore how landscapes may respond to natural variability or human intervention. Unlike conventional spatial analysis, which evaluates patterns at a fixed moment, LEMs simulate dynamic landscape behaviour and enable both reconstruction of past terrain conditions and exploration of potential future environmental states. For geomorphologists, they function as a virtual laboratory for examining Earth-surface change over timescales that cannot be directly observed. \r\n\r\nDespite their scientific maturity, LEMs remain largely absent from operational geospatial practice, and it is still unclear how they can be effectively applied in real-world decision-making contexts. To investigate this issue, we conducted a comprehensive systematic review of landscape evolution modelling studies focused on anthropogenic landforms. The review identifies a restricted scope of application. Existing implementations are concentrated predominantly within mining-related environments, particularly post-extraction rehabilitation landscapes, with comparatively little use in other human-modified terrains. While many studies simulate overall landscape evolution, they seldom examine the evolution of specific localized features within those landscapes that are directly relevant to management or planning. Furthermore, stakeholder or community participation is largely absent; modelling activities are typically undertaken as research-driven academic exercises rather than collaborative decision-support tools.\r\n\r\nFollowing the review, we suggest that the principal barrier preventing broader adoption of landscape evolution models is not scientific validity but geospatial usability. Existing modelling frameworks provide physically robust process simulation, yet they remain inaccessible to most practitioners outside geomorphology and scientific computing. Configuration typically requires scripting knowledge, parameter editing through code, and specialised understanding of numerical modelling workflows. Consequently planners, heritage practitioners, and community stakeholders cannot meaningfully interact with models even when the questions addressed are directly relevant to land management. The challenge, therefore, lies not in modelling capability but in translating simulation into a form usable within everyday geospatial practice.\r\n\r\nBuilding on this observation, we propose an approach centred on intuitive landscape evolution modelling. Rather than positioning numerical simulation as a specialised scientific activity, the study extends landscape evolution modelling into an accessible interactive environment that communities can freely use and explore. The modelling backend is implemented using Landlab, an open source Python library that provides modular components for representing Earth surface processes, including hydrological routing, fluvial incision, sediment transport, and hillslope diffusion. This modelling engine is connected to a graphical user interface (GUI) developed using Qt for Python, allowing model configuration and execution to occur through direct visual interaction rather than scripting. Through the interface, users can define the area to be simulated, specify simulation duration and timestep structure, and choose which geomorphic processes to include, all without modifying code. In this way, process-based geomorphic modelling is translated into a form that can be understood and used without scientific computing expertise.\r\n\r\nSimulation outputs are presented through interactive two dimensional and three dimensional terrain visualisations, elevation change maps, and comparisons between initial and simulated topography. Rather than producing static results, the system allows landscape change to be observed progressively across extended timescales. Users can explore how environmental conditions influence gradual terrain development and examine how different assumptions alter long term outcomes. By visualising processes that normally occur over centuries to millennia, the model supports interpretation of environmental dynamics that cannot be directly observed within human lifetimes and encourages discussion about potential future landscape states.\r\n\r\nFor participatory application, the framework is applied to Indigenous landscapes in Aotearoa New Zealand, where relationships with ancestral land emphasise continuity across generations. The project seeks to undertake community engagement workshops with M\u0101ori communities in which participants interact directly with simulations and collectively examine possible environmental futures. Participants explore alternative scenarios and discuss the implications of gradual environmental change for culturally significant landscape features. Through this collaborative process, modelling becomes a shared interpretive activity that supports dialogue and understanding rather than a purely technical analysis conducted by researchers alone.\r\n\r\nThis engagement reveals an additional dimension often absent from numerical geomorphology. The study highlights the importance of geoethics within landscape evolution modelling by incorporating Indigenous knowledge and stewardship perspectives into model interpretation. The simulations function as a medium for communication between scientific understanding and community knowledge, supporting culturally grounded responses to environmental change. By combining accessible modelling, transparent workflows, and participatory engagement, the work demonstrates how predictive environmental modelling can move beyond academic research and contribute to collaborative environmental stewardship and long term landscape care.\r\n\r\nFinally, the study emphasises methodological transparency through an explicitly open and reproducible workflow. The system is implemented entirely using freely available open-source geospatial software, and the modelling code, configuration files, and demonstration datasets will be publicly released under an open-source licence. This allows independent verification of results, replication of simulations, and adaptation of the framework to different environmental and planning contexts. By removing dependence on proprietary platforms, the approach lowers practical barriers for practitioners and communities while supporting reproducible research standards. In doing so, the work positions landscape evolution modelling as a transparent and transferable analytical tool rather than a closed, specialist research product.",
+    "start_datetime": "2026-09-02T06:30:00Z",
+    "end_datetime": "2026-09-02T07:00:00Z",
+    "talk:code": "87ZRJH",
+    "talk:guid": "c43d4e9a-5556-5ab1-a30a-f060288984d6",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos2",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "UDMRUT",
+        "name": "Vinuri Piyathilake",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/UDMRUT/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T06:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/87ZRJH/",
+      "title": "Shared Landscapes, Shared Futures: Visual Landscape Evolution Modelling for Community Stewardship"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/87ZRJH/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/UDMRUT/",
+      "title": "Vinuri Piyathilake"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/87ZRJH/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

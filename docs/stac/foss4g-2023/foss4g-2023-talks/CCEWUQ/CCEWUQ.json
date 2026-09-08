@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "CCEWUQ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Mobile mapping solutions for the update and management of traffic signs in a road cadastre free open-source GIS architecture",
+    "description": "Digitization and update of road network databases represents a crucial topic for a good management of  critical infrastructures by public administrations. Similarly to other European countries such as Cyprus (Christou et al., 2021), since 2001, Italian road-owning agencies have been required by the Ministry of Infrastructure and Trasport to build and maintain a road cadastre, i.e., a mapping inventory of their road networks. Such architecture should include georeferenced information about streets as well as all ancillary elements regulated by road regulations, ranging from safety and protection assets to traffic signs. In particular, due to the high frequency of new signals installation and substitution, traffic signs require a well-structured, flexible and efficient workflow for collecting and manipulating georeferenced data.\r\n\r\nIn agreement with the official national requirements, in 2019 the Province of Piacenza adopted and implemented a digital cadastre with GIS and WebGIS functionalities built on top of free and open-source software like PostgreSQL as Database Management System and QGIS for the manipulation of geodata. Such software infrastructure ensures flexibility of usage as well as the possibility to expand its functionalities with other easy-to-use open-source applications in an architecture  (Gonzalez Alba et al., 2019, Gharbi & Haddadi, 2020). In this framework, this work illustrates a case study of a flexible and low-cost mapping methodology for documenting the current state of traffic signs. Indeed, mobile applications are able to substitute the old procedure that consisted in the documentation of element installation on paper support, implying the risk of transcript errors as well of loss or deterioration of the original survey document.\r\n\r\nBefore defining the required steps of mobile mapping,  understanding how traffic signs are modelled inside the adopted DB model was crucial. Such elements are indeed implemented through a one-to-many relationship between an entity representing the sign holder (parent table) and another one for the signs themselves (child table). In this way, it is possible to collect and manage individually information about each sign (main ones and supplementary ones as well) always linked to their support pole.\r\n\r\nTogether with the road cadastre responsible, an analysis was conducted to understand the specific needs for the application and the type of users involved in the in-situ survey process. This phase resulted in the choice of two possible open-source solutions to be tested and compared in terms of compatibility and usability by users with different technical background, integration with the actual infrastructure and possibility of customisation: Qfield because of its native compatibility with QGIS libraries and ODK Collect thanks to its simplified graphic user interface (GUI) that resembles commonly used data collection forms without a visible GIS GUI.\r\n\r\nFor the entire workflow, differences in the two applications were evaluated.  For instance, having a direct inheritance of the original QGIS attribute table for Qfield, while in the case of ODK Collect the definition of each attribute of the form is required. Peculiarities in implementing 1-n relationships and widget formats have been identified too, aiming to understand the reproducibility of both procedures. Once the form design was finalised for both the applications, a guided field survey was conducted in order to train new users and to test the usability of the mobile mapping solutions. For this purpose, a series of test sites was chosen, identifying roads to be surveyed with different features or conditions. A diverse sample of test users was involved in the data collection activity, ranging from people with no previous experience in geospatial technologies to GIS technicians.\r\n\r\nFinally, the data collected with both applications were reviewed in QGIS environment in a validation phase aimed at identifying differences between the dataset, their completeness, their position accuracy and their coherence with a ground truth represented by photos of corresponding traffic signs taken on field with mobile devices. First, the validation consisted in checking if the mapped elements were located within buffers (of 5, 25 and 50 meters) calculated along the surveyed streets and then evaluating the coherence between the street code inserted in the element field and the one of the roads in whose buffer such sign is included. Hence, a similar approach was  adopted for comparing the value of municipality associated to the single sign field to the administrative boundaries within which it falls. A semantic validation on the traffic sign type documented with the mobile mapping was conducted by comparing values with what was depicted in photos taken on field. The entire validation routine process was automatized as much as possible with Python scripts using the PyQGIS library. All the validation scripts together with sample dataset will be included in a Github repository in order to make them openly reusable and adaptable to other specific project needs. An analysis on the synchronization process of the collected data on the original main database was evaluated too, marking different approaches involving plugins or automatic scripts.\r\n\r\nIn order to evaluate user experiences with the different mobile applications, a LimeSurvey feedback form was provided to users who tested the tools on field. Such form was designed to collect insights on different steps of the workflow \u2013 form design, data collection and post-processing -, tracking and evaluating possible differences between users with different background and no previous knowledge of geospatial concepts. This resulted in highlighting potentials and issues linked to the adoption of Qfield or ODK Collect for traffic signs mapping.\r\n\r\nThis work aims at presenting a case study for the adoption of a mobile mapping solution in the field of public administration, understanding potentials and limitations of these possible approaches, also in terms of introducing new users to FOSS4G applications. Because of this, the transparency of the entire workflow is being documented on a dedicated Github repository with informative guides, a QGIS demo project, ODK format definition files and all codes adopted for validation and synchronization purposes.",
+    "start_datetime": "2023-06-30T13:10:00Z",
+    "end_datetime": "2023-06-30T13:15:00Z",
+    "talk:code": "CCEWUQ",
+    "talk:guid": "e8b17661-42d1-5f1c-8580-30d5c1ebc3f6",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Academic Track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "UBT E / N209 - Floor 3",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "CFAZ9L",
+        "name": "Federica Gaspari",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/CFAZ9L/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-30T13:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/CCEWUQ/",
+      "title": "Mobile mapping solutions for the update and management of traffic signs in a road cadastre free open-source GIS architecture"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/CCEWUQ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/CFAZ9L/",
+      "title": "Federica Gaspari"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/CCEWUQ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

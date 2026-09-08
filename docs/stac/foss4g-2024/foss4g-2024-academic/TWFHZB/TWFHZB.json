@@ -1,0 +1,101 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "TWFHZB",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Deep Pavements Framework: Combining Ai Tools And Collaborative Terrestrial Imagery For Pathway Mapping",
+    "description": "1. Introduction & Related Work\r\nPedestrian mobility is crucial in urban environments, and its promotion can contribute to the achievement of many UN SDGs (Adriazola-Steil et al., 2021). Mapping, which enables public scrutiny and long-term optimized planning, is indispensable in this context. \r\nWith the widespread availability of a large set of Open Street-Level Imagery, such as Mapillary, there is now a significant opportunity that presents significant challenges for data extraction (Ma et al., 2019). The richness of detail in these urban landscape representations can help us better understand the peculiarities of urban environments.  The scope of this project is to make use of them for the study of pathways, focusing in particular on the verification of their existence, their categorization (road, sidewalk, or general footpath), and the identification of their surface material. Since pedestrian crossings are part of the car and pedestrian network, and road characteristics (such as material and width) significantly impact pedestrian safety, it is worth noting that the study of roads is also fundamental to pedestrian infrastructure (Mesfin & Denbi, 2022). However, the central aspect remains sidewalks, often the most ubiquitous type of pedestrian thoroughfare (Kim, 2019), a valuable space for sociability (Osman, 2016), whose \"health\" is symptomatic of how pedestrian-friendly the city is (Mesfin & Denbi, 2022).  \r\nDespite the importance of knowledge about them for understanding the urban environment, pavements are often poorly mapped (Vestena et al., 2023). Even fewer works delve into the problem of pathway surface identification: Zhou et al. (2023) used conventional Convolutional Neural Networks (CNN) to identify pavement classes limited to asphalt, gravel, and cement; Zhang et al. (2022) used a similar approach to identify asphalt-only damage such as \"potholes\" and \"patches\"; only Mesquita et al. (2022) and Hosseini et al. (2022) made pixel-level identification, albeit the first one was limited to only \"paved\" and \"unpaved\" categorization, while the second one notwithstanding having a more wholesome approach has its categorization focused on a New-York centered classes and only classifies sidewalks. There is still a gap in approaches considering standardized surface types and generalized path detection.\r\n2. The Framework\r\n\tWe propose the Deep Pavements Framework to address these issues. It is a modular project, with each part contributing to the solution of the different challenges. The first module is the Surface-patches Dataset, labeled following the OpenStreetMap surface=* tags standard, supporting the categories of \"asphalt\", \"cobblestone\", \"compacted\", \"concrete plates\", \"concrete\", \"grass\", \"gravel\", \"ground\", \"paving stones\", and \"sett\" currently, The second module is the Runner, to process the data for a given region. The third is the Sample-picker, which generates random samples for dataset generation. There is also the Sample-labeler to label samples interactively and a central module to guide the potential user into the project's usage. Each module relies upon a different set of dependencies, thus reducing runtime issues. It is important to highlight the primary usage of containerizing engines, i.e., Docker.\r\nBeyond modularity, Deep Pavements has as core design principles: 1) complete openness, meaning that all its dependencies must have a broadly permissive license that enables even for commercial usage; 2) the ease of reproducibility by a straightforward setup with an as such and well-documented, command line interface (CLI); 3) evolvability, the State-of-The-Art (SOTA) algorithms are constantly changing, then at each new release of runner/sample-picker images a new set of tools can be employed while keeping the same CLI; nevertheless the user would still be able to use a previous release; 4) Standard-anchored with classes that had been agreed upon by the broad crowd-sourced knowledge base constituted by OSM community (Rahmig & Kludge, 2013; Mooney & Minghini, 2017). \r\nThe implementation of the main modules (Runner/Sample Picker) uses open-vocabulary AI algorithms to perform the data extraction, following this workflow: 1) Grounding Dino (Liu et al., 2023) based on a free-input, detects the bounding box of the detections; 2) Segment Anything (Kirillov et al., 2023) transforms it into a mask;  3) 3 different versions of the CLIP algorithm (Radford et al., 2021) tests if the detection is not a hallucination; 4) If confirmed, a specialized version of CLIP is used for finally check the surface material using the cheaply clipped biggest rectangle in the detection, assuring the usage of the patch whose texture got less hindered by the effects of perspective (Lederman & Klatzky, 1995) being no-data pixels, free, which is another potential source for classification jeopardy (Kang et al., 2019). \r\nThe workflow results from experiments for the presented design mainly point out the need for hallucination testing. This procedure acts as a shield for one of the main drawbacks of open vocabulary algorithms (Ben-Kish et al., 2024). The use of this particular type of algorithm was essential due to its flexibility (Wang et al., 2024) and the potential for better semantic understanding of the scene due to its embedded language model (Eichstaedt et al., 2021). There is also the possibility of allowing the user to opt out of some or all of OSM standardized classes, which can be helpful in some scenarios with regional uniqueness.  \r\n3. Final Remarks\r\nDeep Pavements is an innovative and comprehensive toolset under continuous development with all modules maintained at Github, with the central module available at  <https://github.com/kauevestena/deep_pavements_project>. The framework enables creating pavement data that is seamlessly plugable into OSM.\r\n \tAs future challenges, we plan to filter lousy quality images that can happen on the primary data source (Ma et al., 2019) to detect other visually-identifiable pavement traits such as its decay, standardizing with OSM tags such as smoothness=*; to integrate photogrammetric tools for obtaining additional modeling of pavements, having as main interest in measuring pavement width, one of the most relevant info for accessibility assessment (Kim et al., 2011).",
+    "start_datetime": "2024-12-04T18:00:00Z",
+    "end_datetime": "2024-12-04T18:30:00Z",
+    "talk:code": "TWFHZB",
+    "talk:guid": "251d7298-1382-5e45-9af8-a98b23489d98",
+    "talk:event": "foss4g-2024-academic-track",
+    "talk:track": "Academic Track",
+    "talk:type": "Oral Presentation 5",
+    "talk:language": "en",
+    "talk:room": "Room III",
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "LA3NZT",
+        "name": "Kau\u00ea de Moraes Vestena",
+        "url": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/LA3NZT/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-04T18:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/talk/TWFHZB/",
+      "title": "Deep Pavements Framework: Combining Ai Tools And Collaborative Terrestrial Imagery For Pathway Mapping"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/talk/TWFHZB/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/LA3NZT/",
+      "title": "Kau\u00ea de Moraes Vestena"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/kauevestena/deep_pavements_project",
+      "title": "github.com/kauevestena/deep_pavements_project"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/talk/TWFHZB/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-pdf": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024-academic-track/submissions/TWFHZB/resources/FOSS4G_2024_kvestena_2_gr01lDl.pdf",
+      "type": "application/pdf",
+      "title": "Presentation (PDF)",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-academic"
+}

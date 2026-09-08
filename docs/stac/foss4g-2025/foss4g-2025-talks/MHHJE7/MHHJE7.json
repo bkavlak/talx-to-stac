@@ -1,0 +1,96 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "MHHJE7",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Exploring Cloud-Native Geospatial Formats: Hands-on with Vector Data Workshop",
+    "description": "Dig into geospatial vector formats\u2014including GeoJSON, WKT/WKB, and cloud-native GeoParquet\u2014using Python to see in detail how vector features are stored in each format and to understand what cloud-native means for vector data.\n\nCloud-native geospatial is all the rage these days, and for good reason. As file sizes grow, layer counts increase, and analytical methods become more complex, the traditional download-to-the-desktop approach is quickly becoming untenable for many applications. It's no surprise then that users are turning to cloud-based tools to scale out their analyses, or that traditional tooling is adopting new ways of finding and accessing data from cloud-based sources. But as we transition away from opening whole files to now grabbing ranges of bytes off remote servers it seems all the more important to understand exactly how cloud-native data formats actually store data and what tools are doing to access it.\r\n\r\nThis workshop aims to dig into how cloud-native geospatial data formats are enabling new operational paradigms, with a particular focus on vector data formats. Unlike its raster workshop counterpart, this workshop will be a bit more experimental. Vector data formats tend towards greater complexity than raster formats, so exactly how deep we get into which topics will be dependent on the audience\u2019s interests and the time available. Broad themes to explore might include:\r\n\r\n* GeoJSON: what is it, what does it represent, and how it is not cloud-native\r\n* Well-Known Text/Binary (WKT/WKB): how these vector formats work and why they are important in GeoParquet\r\n* GeoParquet: how does parquet store data, how geo maps into that paradigm, and what it takes to read some subset of data from a parquet file\r\n* Other cloud-native formats like FlatGeobuf, PMTiles, etc.\r\n* Practical considerations when using these formats\r\n\r\nThe content of this workshop aims to not only be theoretical: a strong goal is to be as hands-on with these formats as possible by working with them in Python without any specific geospatial format libraries. We\u2019ll look at interacting with object storage directly, to pull down files and fragments and inspect them, to build up working understanding of what common higher-level tooling does under the hood and abstracts away from users.\r\n\r\n#### Prerequisites\r\n\r\nThis workshop expects some familiarity with geospatial programming in Python and a basic understanding of the vector data model and its utility. Most of the notebook code is already provided, so any gaps in understanding don't necessarily prohibit completing the exercises. That said, some knowledge of the geospatial vector formats and tooling is quite helpful.",
+    "start_datetime": "2025-11-17T20:00:00Z",
+    "end_datetime": "2025-11-17T23:00:00Z",
+    "talk:code": "MHHJE7",
+    "talk:guid": "21da1da1-7a83-5fd2-9edd-10d82042f5e0",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Workshop - Advanced Level",
+    "talk:type": "Workshop",
+    "talk:language": "en",
+    "talk:room": "WF503",
+    "talk:room_capacity": 30,
+    "talk:duration_minutes": 180,
+    "talk:speakers": [
+      {
+        "code": "8TAMEN",
+        "name": "Jarrett Keifer",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/8TAMEN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-17T21:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/MHHJE7/",
+      "title": "Exploring Cloud-Native Geospatial Formats: Hands-on with Vector Data Workshop"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/MHHJE7/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/8TAMEN/",
+      "title": "Jarrett Keifer"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/MHHJE7/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "workshop-repository": {
+      "href": "https://github.com/jkeifer/cng-vector-formats",
+      "title": "Workshop repository",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

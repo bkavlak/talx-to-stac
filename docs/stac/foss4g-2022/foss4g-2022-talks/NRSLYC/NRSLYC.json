@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "NRSLYC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Building a Geocoder on top of PostGIS - a Field Report",
+    "description": "It seems to be conventional wisdom that a search engine for geodata is best implemented with a text search engine like OpenSearch or Solr. Most of available open-source geocoders follow that wisdom. Nominatim is the odd one out. OpenStreetMap's main geocoder was originally developed 12 years ago as a proof of concept that a geocoder can be efficiently implemented on top of a PostgreSQL/PostGIS database. Since then it has grown into mature project. And so have the PostgreSQL database and the OpenStreetMap project.\r\n\r\nIn this talk, I will share some of the experiences of working with PostGIS on a growing OpenStreetMap dataset. The talk starts with a quick overview about what the Nominatim database looks like under the hood. It then goes on to present some of the lessons we have learned over the last 10 years on managing a PostGIS database with more than 270 million searchable places. We talk about features that improved performance and about some that are best avoided. The talk concludes with some general observation about implementing search on top of an SQL database.",
+    "start_datetime": "2022-08-25T07:30:00Z",
+    "end_datetime": "2022-08-25T08:00:00Z",
+    "talk:code": "NRSLYC",
+    "talk:guid": "e3f94e7c-8821-59cf-858f-09415c3fa68e",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room 9",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "7YWKUD",
+        "name": "Sarah Hoffmann",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/7YWKUD/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T07:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/NRSLYC/",
+      "title": "Building a Geocoder on top of PostGIS - a Field Report"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/NRSLYC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/7YWKUD/",
+      "title": "Sarah Hoffmann"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/NRSLYC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/cpXjp7DMCriskmbky3iinJ",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Building a Geocoder on top of PostGIS - a Field Report",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=3uZe7QD1qzk",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Building a Geocoder on top of PostGIS - a Field Report",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

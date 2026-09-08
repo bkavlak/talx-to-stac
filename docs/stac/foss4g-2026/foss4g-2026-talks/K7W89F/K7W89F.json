@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "K7W89F",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Mapping Nearshore Cladophora in Lake Ontario: An Automated Open-Source Sentinel-2 Workflow and Experimental Index Derivation",
+    "description": "1-Introduction and Study Area\r\nCladophora is a filamentous green alga native to the North American Great Lakes. Its excessive proliferation not only causes foul odors and impairs public beach recreation but also triggers severe ecological issues, including avian botulism outbreaks. Since the 1990s, the filtering effect of invasive species such as dreissenid mussels has significantly increased water clarity, allowing sunlight to penetrate to greater depths. This has led to massive Cladophora blooms even under relatively low nutrient concentrations. The study area of this research focuses on the nearshore waters along the southern shore of Lake Ontario (the United States side). To achieve precise calibration of remote sensing observations, the spatial scope of the study is strictly defined as two independent 6 km \u00d7 6 km square regions, centered respectively around two key hydrological and biological monitoring stations established by the United States Geological Survey (USGS): the OIR station (Irondequoit, near Rochester) and the OOL station (Olcott).\r\nThese two core USGS stations provide substantial, highly valuable ground-truth data for this study. These comprehensive datasets encompass multi-depth water flow velocities, water turbidity, and various critical chemical constituents in the water column (such as nutrient concentrations). More importantly, the stations provide net weight data of Cladophora samples collected in situ across different depth gradients. These multi-dimensional, high-precision ground truth indicators not only serve as an irreplaceable validation foundation for evaluating and calibrating various spectral remote sensing indices within our open-source computational architecture, but also enable us to deeply investigate the complex mechanisms underlying the relationships between micro-environmental physicochemical variables and nearshore benthic algal outbreaks.\r\n\r\n2-Evaluation of Traditional Indices and Experimental Derivation of a Novel Index\r\nIn the preliminary remote sensing analysis phase, we developed a Python-based workflow to extract Sentinel-2 image bands and automatically calculated various traditional spectral indices, including NDVI, FAI, NDAVI, and SABI. Statistical analysis of multi-temporal imagery (from May to August 2023) revealed that the mean and median values of these indices were frequently negative or extremely low, accompanied by disproportionately large standard deviations. For instance, across multiple summer observation dates, the median values for NDVI and FAI consistently hovered near zero (ranging from -0.012 to 0.025). At the same time, NDAVI and SABI exhibited even deeper negative medians (often between -0.05 and -0.09). Furthermore, the high standard deviations\u2014frequently exceeding 0.25 for NDVI and 0.50 for SABI\u2014demonstrated massive signal noise. This statistical analysis demonstrates that vegetation indices based on the Near-Infrared (NIR) band exhibit severe absorption failures in aquatic environments, rendering them inadequate for precise mapping of submerged benthic Cladophora.\r\nTo address this optical challenge and identify the optimal spectral response, we designed a controlled physical experiment. A 3m \u00d7 3m water tank was used, with an incandescent light source simulating solar irradiance. A receiver simulated the satellite sensor to capture reflectance from a green surrogate representing benthic algae. Strikingly, the experimental results revealed that the strongest reflectance signals emerged in the Blue and Short-Wave Infrared (SWIR) bands, significantly diverging from the band selections of traditional vegetation indices. Based on these empirical findings, we are currently conducting rigorous mathematical derivations utilizing the Blue and SWIR bands to formulate a novel, water-penetrating spectral index specifically optimized for Cladophora detection.\r\n\r\n3-Automated Open-Source Cloud-Masking Algorithm to Bypass API Limitations \r\nTo achieve high-frequency monitoring of Cladophora, we aimed to build a fully open-source, automated data acquisition architecture. However, querying the Copernicus Data Space API inevitably encounters strict request frequency limits and download volume quotas. Furthermore, the official API only provides the average cloud cover percentage at the full-scene level. For our small 6 km \u00d7 6 km Region of Interest (ROI), this macroscopic cloud assessment is highly inaccurate. A scene with a low average cloud percentage might still have dense clouds completely obscuring our study area, leading to massive invalid downloads and wasted bandwidth. Additionally, a single remote sensing image rarely covers the target area perfectly without clouds, necessitating the seamless mosaicking of multiple images and stricter screening for high-quality data.\r\nTo overcome this core bottleneck, we designed and implemented a regional cloud-masking algorithm based on image Quicklooks (previews) within our workflow. Since Quicklook files are extremely small and consume negligible download bandwidth, the program automatically prioritizes retrieving them. Given that Quicklooks do not inherently contain geographic coordinates, the algorithm first extracts the boundary coordinates of the scene's footprint polygon from the metadata. Subsequently, it correlates and standardizes the ROI's geographic coordinates against this footprint boundary. Based on this geometric translation, the system can precisely reverse-engineer the specific pixel rectangle corresponding to the study area on the unreferenced Quicklook image. Ultimately, the algorithm computes the proportion of white pixels exclusively within this localized bounding box to accurately assess the true cloud cover rate within the ROI. Only when the ROI's cloud cover meets strict clear-sky thresholds does the system automatically trigger the API to download the heavy, high-resolution original imagery. This algorithm successfully achieves precise \"on-demand downloading,\" effectively circumventing API bandwidth restrictions while dramatically improving the efficiency of acquiring the cloud-free data required for subsequent image mosaicking.\r\n\r\n4- Conclusion and Future Works \r\nThis study successfully established a highly efficient, Python-based open-source remote sensing download architecture that practically circumvents API limitations. It also highlighted the severe shortcomings of traditional vegetation indices through both satellite data statistics and controlled physical experiments. Future research will focus on advancing two primary tasks: \r\nFirst, further refining the Quicklook-based cloud-masking algorithm to automate the acquisition of extensive multi-temporal imagery for seamless spatial mosaicking. To ensure complete reproducibility, this process will be integrated into an end-to-end Python pipeline, with the full source code made freely available on GitHub.\r\nSecond, finalizing the mathematical formulation of our novel Blue-SWIR spectral index based on the water tank experiment, and deploying it within our open-source pipeline to precisely map the spatial distribution and evolutionary dynamics of Cladophora during peak summer blooms.\r\n\r\n\r\nReferences: \r\n[1] Howell, E. T. (2018). A decadal-scale perspective on the occurrence of Cladophora on the north shore of Lake Ontario. Environmental Monitoring and Assessment. \r\n[2] Wright, N., et al. (2024). CloudS2Mask: A novel deep learning approach for improved cloud and cloud shadow masking in Sentinel-2 imagery. Remote Sensing of Environment, 306, 114122. \r\n[3] Copernicus Data Space Ecosystem. (2024). Quotas and Limitations Documentation.",
+    "start_datetime": "2026-09-03T05:00:00Z",
+    "end_datetime": "2026-09-03T05:30:00Z",
+    "talk:code": "K7W89F",
+    "talk:guid": "905ec959-ceda-5d72-8fa0-7d73c1c49efd",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos1",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "VJDWZG",
+        "name": "TonyLiu",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/VJDWZG/"
+      },
+      {
+        "code": "NZK8GD",
+        "name": "Shichao Wang",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/NZK8GD/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-03T05:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/K7W89F/",
+      "title": "Mapping Nearshore Cladophora in Lake Ontario: An Automated Open-Source Sentinel-2 Workflow and Experimental Index Derivation"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/K7W89F/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/VJDWZG/",
+      "title": "TonyLiu"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/NZK8GD/",
+      "title": "Shichao Wang"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/K7W89F/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

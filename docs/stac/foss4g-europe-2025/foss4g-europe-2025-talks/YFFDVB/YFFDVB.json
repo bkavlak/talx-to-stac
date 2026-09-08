@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "YFFDVB",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "Certified GeoServer: status of OGC service and format compliance",
+    "description": "This presentation chronicles the evolution of GeoServer\u2019s compliance with OGC standards, detailing both past challenges and recent achievements. GeoServer has long been committed to open standards, historically running CITE tests to validate its OGC services. However, due a build server vandalism event, daily checks for CITE compliance got lost.\r\n\r\nThe GeoServer PSC eventually sponsored a new way for running automated tests, which succeeded, but eventually failed to achieve completion of making the test pass again, and to reinstate checks as a daily, operational activity.\r\n\r\nA turning point came during the 2024 OGC API Features sprint, which served as the catalyst for reinstating CITE test automation, for OGC API Features itself, along with a couple of other services that did not require further work. \r\n\r\nRecognizing the importance of standards compliance for users and the broader geospatial community, the GeoServer team began adding more more services to the effort, performing a combination of fixes in the GeoTools and GeoServer projects, as well as a productive collaboration with OGC to fix some issues in the CITE tests themselves.\r\n\r\nBy leveraging GitHub Actions, the project now continuously validates compliance across a broad spectrum of supported services\u2014including WMS, WMTS, WFS, WCS, and OGC API Features\u2014and widely used data formats such as GeoTIFF, GeoPackage, and KML. These tests are now a key part of the pull request workflow, ensuring that new changes maintain or improve compliance.\r\n\r\nFinally, the presentation outlines the roadmap for achieving re-certification, which includes formal validation with OGC over a well known server, which might also help GeoServer become a new reference implementation as well. By re-establishing certification, GeoServer aims to reinforce its reputation as a reliable, standards-compliant platform for geospatial data and visualization services.",
+    "start_datetime": "2025-07-18T09:00:00Z",
+    "end_datetime": "2025-07-18T09:30:00Z",
+    "talk:code": "YFFDVB",
+    "talk:guid": "3282b757-26b8-55e0-9acd-f0c6cf8db9c7",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "EL11 (Geosolutions)",
+    "talk:room_capacity": 200,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RBSH8T",
+        "name": "Andrea Aime",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/RBSH8T/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-18T09:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/YFFDVB/",
+      "title": "Certified GeoServer: status of OGC service and format compliance"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/YFFDVB/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/RBSH8T/",
+      "title": "Andrea Aime"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/YFFDVB/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "pdf-slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/YFFDVB/resources/Certified_GeoServer__status_of_OGC_servi_eM8OJlj.pdf",
+      "type": "application/pdf",
+      "title": "PDF slides",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/1YfMvZWRhX4GSgdHsmURUz",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Certified GeoServer: status of OGC service and format compliance",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=2MvbLx7mUnA",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Certified GeoServer: status of OGC service and format compliance",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

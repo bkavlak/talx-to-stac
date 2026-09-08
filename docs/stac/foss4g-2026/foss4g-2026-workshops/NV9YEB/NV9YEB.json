@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "NV9YEB",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "pgRouting basic workshop",
+    "description": "pgRouting is an open-source extension for the PostgreSQL database and PostGIS extension that adds geospatial routing and network analysis capabilities.\r\n\r\nIn this workshop we will learn how create graphs and analyze for pedestrian and vehicles, and use them for routing them with the `pgr_dijkstra` function.\n\nIntroduction\r\n- Basic\r\n- Acknowledgments\r\n- Software and Data Overview\r\n\r\nBasic workshop\r\n\r\n- Prepare Data\r\n  - Prepare the database\r\n  - Get the Workshop Data\r\n  - Upload data to the database\r\n- Graphs\r\n  - The graph requirements\r\n  - Configuration from osm2pgrouting\r\n  - `pgr_extractVertices`\r\n  - `pgr_connectedComponents`\r\n  - Preparing the graphs\r\n  - `pgr_dijkstraCostMatrix`\r\n- Pedestrian Routing\r\n  - `pgr_dijkstra`\r\n  - `pgr_dijkstraCost`\r\n- Vehicle Routing\r\n  - Routing for vehicles\r\n  - Cost manipulations\r\n- SQL function\r\n  - The function requirements\r\n  - Additional information handling\r\n  - Geometry handling\r\n- Routing using points\r\n  - Requirements for routing lat,lon points",
+    "start_datetime": "2026-08-31T05:00:00Z",
+    "end_datetime": "2026-08-31T08:00:00Z",
+    "talk:code": "NV9YEB",
+    "talk:guid": "95b60e00-55d6-508d-9208-fb6c48484c8b",
+    "talk:event": "foss4g-2026-workshop",
+    "talk:type": "Workshop",
+    "talk:language": "en",
+    "talk:room": "605",
+    "talk:room_capacity": 45,
+    "talk:duration_minutes": 180,
+    "talk:speakers": [
+      {
+        "code": "DUUVVD",
+        "name": "Vicky Vergara",
+        "url": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/DUUVVD/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-08-31T06:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/NV9YEB/",
+      "title": "pgRouting basic workshop"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/NV9YEB/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/DUUVVD/",
+      "title": "Vicky Vergara"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/NV9YEB/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-workshops"
+}

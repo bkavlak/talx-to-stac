@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "J8PKC7",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "Spatial Yield processing and analysis in Bayer Crop Science's global field trials with GeoServer  and PostgreSQL with PostGIS",
+    "description": "In the era of precision agriculture, the ability to effectively manage and analyze spatial data is crucial for ensuring sustainable farming practices and optimizing crop yields.\r\nThis presentation will delve into the innovative use of Open Source technologies, specifically PostgreSQL with PostGIS and GeoServer, within the Spatial Yield Program in Bayer Crop Science's global field trials.\r\n\r\nThe primary objective of this project was to establish a robust data pipeline that facilitates the rapid delivery of critical information to end-users. This data is essential for assessing the quality and performance of various corn and soybean varieties, enabling agronomists and farmers to make informed decisions based on real-time insights. \r\nBy leveraging PostgreSQL and PostGIS, we harnessed the power of spatial databases \r\nto efficiently store, manage, and query large datasets exceeding 1TB of high-precision data collected by planters and combines. Meanwhile, GeoServer enabled seamless integration and visualization of this data through web services, serving up to 75 million requests per day internally. \r\n\r\nOne of the significant technical challenges we faced was the need to ensure that the data delivery process was not only swift but also reliable, allowing users to access and analyze data without delay.Our solution involved the development of a streamlined pipeline that automates data processing and integrates multiple data sources, ensuring that users receive timely updates on crop performance metrics.\r\n\r\nThis presentation will highlight the methodologies including AWS services, Apache Kafka and K8S crons employed in the project, the challenges encountered, and the solutions implemented. \r\nWe will also discuss the impact of our work on the decision-making processes within the agricultural sector and how Open Source technologies can empower organizations to harness the full potential of spatial data. \r\nThe primary objective of the program is to assist growers in identifying the best products for their farms by rigorously testing products across diverse environments to determine the most effective solutions tailored to each specific context, as well as the management practices that yield optimal results.",
+    "start_datetime": "2025-07-18T14:30:00Z",
+    "end_datetime": "2025-07-18T15:00:00Z",
+    "talk:code": "J8PKC7",
+    "talk:guid": "057ddf7c-ceed-5829-a378-9bdd7bcea0d3",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "SA02",
+    "talk:room_capacity": 108,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "9ADEKU",
+        "name": "Bartosz Brzezi\u0144ski",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/9ADEKU/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-18T14:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/J8PKC7/",
+      "title": "Spatial Yield processing and analysis in Bayer Crop Science's global field trials with GeoServer  and PostgreSQL with PostGIS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/J8PKC7/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/9ADEKU/",
+      "title": "Bartosz Brzezi\u0144ski"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/J8PKC7/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/6uk9K2NRNH573iYoAGvUJb",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Spatial Yield processing and analysis in Bayer Crop Science's global field ...",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=dFAA-5yR0KQ",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Spatial Yield processing and analysis in Bayer Crop Science's global field ...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

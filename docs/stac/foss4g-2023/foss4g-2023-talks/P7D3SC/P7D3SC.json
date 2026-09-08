@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "P7D3SC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "A Comparative Study of Methods for Drive Time Estimation on Big Geospatial Data: A Case Study in the U.S.",
+    "description": "Travel time estimation is used for daily travel planning and in many research fields such as geography, urban planning, transportation engineering, business management, operational research, economics, healthcare, and more (Hu et al., 2020). In public health and medical service accessibility studies it is often critical to know the travel time between patient locations and health services, clinics, or hospitals (Weiss et al., 2020). In support of a study aiming to characterize the quantity and quality of pediatric hospital capacity in the U.S., we needed to calculate the driving time between U.S. ZIP code population centroids (n=35,352) and pediatric hospitals, (n=928) a total of over 32 million calculations. There currently exist numerous methods available for calculating travel time including (1) Web service APIs provided by big tech companies such as Google, Microsoft, and Esri, (2) Geographic Information System (GIS) desktop software such as ArcGIS, QGIS, PostGIS, etc, and (3) Open source packages based on program languages such as OpenStreetMap NetworkX (OSMnx) (Boeing, 2017) and Open Source Routing Machine (OSRM) (Huber & Rust, 2016). Each of these methods has its own advantages and disadvantages, and the choice of which method to use depends on the specific requirements of the project. For our project, we needed a low-cost, accurate solution with the ability to efficiently perform millions of calculations. Currently, no comparative analysis study evaluates or quantifies the existing methods for performing travel time calculations at the national level, and there is no benchmark or guidance available for selecting the most appropriate method.\r\n\r\nTo address this gap in knowledge and choose the best drive time estimator for our project we created a sample of 10,000 ZIP/Hospital pairs covering 49 of the 50 U.S. states with variable drive times ranging from a few minutes to over 4 hours. With this sample, we calculated the drive time using the Google Map API, Bing Map API, Esri Routing Web Service, ArcGIS Pro Desktop, OSRM, and OSmnx and performed a comparative analysis of the results.\r\n\r\nFor the Google, Bing, and Esri web services we used the Python requests package to submit requests and parse the results. Within ArcGIS Pro, we manually used the Route functions to calculate routes on a road network provided by Esri and stored locally. For OSMnx we utilized Python to perform the street network analysis using input data from OpenStreetMap. For OSRM we utilized C++ through the web API. OSRM provides a demo server to enable testing the routing without loading the road network data locally, and we used this for calculating drive times for our 10,000 samples. For generating visualizations we used Networkx and Igrah to display the shortest path of the drive time routing result, and graphs of our comparative analysis.\r\n\r\nWhen comparing drive time estimations using these 6 technologies we found: (1) There are very little differences among Google, Bing, OSRM, ESRI web service, and ArcGIS Pro when the route drive time is less than roughly 50 minutes (2) For travel time estimations of routes greater than 50 minutes the Google and Esri methods were extremely close. The OSRM estimates produced travel times about 10% longer than other methods, and Bing\u2019s estimates were about 10% lower than Google and ESRI. (3) Overall, OSmnx estimates travel times lower than any other method because it estimates the shortest distance using the maximum velocity. In general, the different methods employ different strategies for considering traffic conditions. When long-distance travel is estimated the use of highways is required, and each method employs specific parameters to account for traffic and resulting travel speed. Because of the complexity of modeling traffic conditions, it is difficult to say which method provides the most accurate and realistic driving times without empirical data being collected. Regarding cost, the OSmnx and OSRM are both open-source, while the other methods have a cost for API usage (Google, Esri, Bing) and desktop software (ArcGIS Pro). For processing efficiency, Google, Esri and Bing were all efficient, each able to process the dataset in roughly one hour. We found the processing power of OSMnx was limited in the size of the road network it could handle, so we had to divide the ZIP/Hospital pairs into subsets by state, and calculate them separately, which was a laborious process. We found OSRM to be the most efficient, able to handle 10,000 requests in less than a minute. We ran OSRM in a high-performance cluster computing environment. This process included one hour of setup to download the OpenStreetMap data for the entire U.S. onto the cluster. Then we used Python requests to calculate the drive times and parse the result for analysis. The total processing time for the 32 million calculations ended up being 12 minutes.\r\n\r\nUsing OSRM provided us with a low-cost, accurate, efficient solution to calculating drive times between 32M origin/destination pairs. We feel our study provides valuable guidance on calculating drive time in the United States, offering a benchmark comparison model between 6 different methods. We encourage others to utilize the code produced for this project; all of it is in the process of being published on GitHub as open-source. Our analysis was just for the U.S., and performing similar analyses in other countries will provide more insight into how useful the different methods are globally. In summary, this comparative study allowed us to produce drive times in the most efficient manner in order to support the larger objective of characterizing the quantity and quality of pediatric hospital capacity in the U.S.",
+    "start_datetime": "2023-06-28T13:20:00Z",
+    "end_datetime": "2023-06-28T13:25:00Z",
+    "talk:code": "P7D3SC",
+    "talk:guid": "a53ca586-393d-5a97-bb83-1f56b8079f58",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Academic Track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "UBT E / N209 - Floor 3",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "9C8HQM",
+        "name": "Xiaokang Fu",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/9C8HQM/"
+      },
+      {
+        "code": "KJ9GPG",
+        "name": "Devika Kakkar",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/KJ9GPG/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T13:22:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/P7D3SC/",
+      "title": "A Comparative Study of Methods for Drive Time Estimation on Big Geospatial Data: A Case Study in the U.S."
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/P7D3SC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/9C8HQM/",
+      "title": "Xiaokang Fu"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/KJ9GPG/",
+      "title": "Devika Kakkar"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/P7D3SC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

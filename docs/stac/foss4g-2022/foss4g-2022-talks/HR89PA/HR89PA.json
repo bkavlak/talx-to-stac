@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "HR89PA",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Calculating school catchment areas - an open source solution",
+    "description": "In many countries, access to schooling is one of the key measures of performance of the education system. It is not always known how long learners walk to school, even if the buffer distance is set by policy. GISPO teamed up with the UNESCO International Institute of Educational Planning (IIEP) to study the problem.\r\n\r\n\r\nThe result is a new QGIS plugin (\u201cCatchment\u201d) which allows easily calculating catchment areas based on travel time (isochrones), for all schools across a whole territory. The plugin uses the open source Graphhopper routing server and OpenStreetMap data across the globe. This allows us to easily find out how many people live e.g. 15, 30 or 60 minutes away from education in different parts of a country. \r\n\r\nFurther, the development of the plugin triggered a campaign of local OpenStreetMap mapping in Madagascar, which was one of the first countries to pilot the plugin. Having more roads mapped on OpenStreetMap has an impact far beyond educational planning.\r\n\r\nNaturally, the same plugin may also be used for calculating all kinds of service catchment areas in QGIS; it was also employed to e.g. calculate access to rail transit across Helsinki metropolitan region.",
+    "start_datetime": "2022-08-25T10:45:00Z",
+    "end_datetime": "2022-08-25T10:50:00Z",
+    "talk:code": "HR89PA",
+    "talk:guid": "408d5333-ded0-588c-9894-57dd038318a3",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Room 9",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "PNUW3A",
+        "name": "Riku Oja",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/PNUW3A/"
+      },
+      {
+        "code": "JYHEPG",
+        "name": "Amelie A. Gagnon",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/JYHEPG/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T10:47:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/HR89PA/",
+      "title": "Calculating school catchment areas - an open source solution"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/HR89PA/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/PNUW3A/",
+      "title": "Riku Oja"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/JYHEPG/",
+      "title": "Amelie A. Gagnon"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/HR89PA/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/4ViBxmrw1nM3TBQ6ApD9EU",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Calculating school catchment areas - an open source solution",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=3HZXYijoWTw",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Calculating school catchment areas - an open source solution",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

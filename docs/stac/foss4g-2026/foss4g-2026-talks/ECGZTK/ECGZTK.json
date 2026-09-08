@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "ECGZTK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Inside the Engine of \u201cKnoWaterleak\u201d: Real-Time Search and On-Demand Vector Tiles for Large Pipeline Data",
+    "description": "From our production \u201cKnoWaterLeak\u201d leakage-risk service, we show real-time, on-demand vector tiles for large pipeline datasets. We cover in-database MVT generation, safe DSL-to-JSON translation, routing between tile and aggregation endpoints, and data-model choices that keep latency low and database load predictable.\n\nThis talk shares a production case study from \u201cKnoWaterLeak,\u201d a multi-tenant water pipeline leakage-risk assessment service. Tenants manage hundreds of thousands of pipe segments, and users expect smooth map navigation with on-the-fly filtering by asset attributes and risk overlays. Since tile content varies with both query conditions and permissions, pre-generating static tiles is not practical.\r\n\r\nWe present an architectural pattern we use in production to deliver dynamic vector tiles with low latency and predictable database load. The core idea is to treat the database as the rendering engine: we generate Mapbox Vector Tiles (MVT) inside PostGIS using tile bounds and ST_AsMVT. The application layer acts as a gateway that validates and translates request parameters into database-function inputs for the tile endpoint, and routes requests to separate non-tile endpoints when users need aggregated results (for example, total pipeline length). This keeps MVT encoding and heavy spatial computation in the database, while the application focuses on safe parameter handling and efficient streaming of responses.\r\n\r\nA key challenge is enabling expressive, user-defined filters without exposing the system to SQL injection or unbounded query complexity. We introduce a small DSL for filter expressions, validate it with a strict whitelist, and convert it into a structured JSON parameter. With a tile-serving layer that can map HTTP query parameters to PostgreSQL function calls (Martin in our deployment), we avoid dynamic SQL in the application: the database-side tile function interprets the JSON and applies optimized query paths such as early returns, zoom-threshold checks, and EXISTS-based joins.\r\n\r\nWe also highlight data-model and preprocessing choices that are essential for performance at scale. Concrete examples include designing a single table that co-locates domain attributes, geometry, and zoom-level visibility thresholds; precomputing expensive metrics such as intersection lengths between pipe segments (LineString) and risk zones (Polygon) for aggregation and visualization; and building composite (and, where appropriate, partial) indexes tailored to common filter combinations to minimize joins and keep query plans predictable.\r\n\r\nGrounded in lessons from this production deployment, we present a set of reusable patterns for PostGIS-driven vector tile delivery. The talk covers key trade-offs\u2014precompute vs. on-demand computation, safe and maintainable dynamic filtering, and database function design for stable performance\u2014so attendees can learn from the design decisions behind a real-world, PostGIS-driven tile pipeline.",
+    "start_datetime": "2026-09-03T04:30:00Z",
+    "end_datetime": "2026-09-03T05:00:00Z",
+    "talk:code": "ECGZTK",
+    "talk:guid": "4f72e8f5-4649-5b39-8afc-511b3a9ca5cb",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Ran2",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "FXXXJQ",
+        "name": "Kenji Takase",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/FXXXJQ/"
+      },
+      {
+        "code": "CW9QQT",
+        "name": "Eugene Kim",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/CW9QQT/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-03T04:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/ECGZTK/",
+      "title": "Inside the Engine of \u201cKnoWaterleak\u201d: Real-Time Search and On-Demand Vector Tiles for Large Pipeline Data"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/ECGZTK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/FXXXJQ/",
+      "title": "Kenji Takase"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/CW9QQT/",
+      "title": "Eugene Kim"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/ECGZTK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "3Z3TQY",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "How to deal with a massive geographic database when surrounded by datascientists ?",
+    "description": "The Scientific and Technical Center for Building (CSTB) built the first French database of buildings and houses to address climate change challenge, helping knowledge and decision making for massive retrofit.  \r\nThe pipeline factory intersects massive datasets (21 Millions buildings, >400 descriptors) and keeps adding new predictions and external datasets all the time. It allows to run analyses and predictions for all the climate change related indicators, such as housing price and energetic performance relation, heat wave impact, solar potential, etc.. \r\nWhile the first versions where a direct image of the classical datascientist\u2019s approach -ie a massive dataframe driven by massive yaml config files and cryptic meta-templated scripts\u2013 ease of use and access performance soon became a limiting factor.  This is a major concern since this dataset will be one long term foundation of derived information systems. \r\nBetween brute force approach based on scaling resources up, and the old fashioned \u00ab\u00a0data diet\u00a0\u00bb normalization and optimization process, the truth is not easy to find.  \r\nAbusing from cartoonish humor, this talk will try to explore the benefits of normalizing back hugely redundant geographic datasets and making public interfaces (public SQL model, API\u2019s, vector tiles, OGC API\u2019s) so that both end users can analyze efficiently this dataset, and the data manager team can rely on more stability using those good old\u2019 database constraints.",
+    "start_datetime": "2022-08-26T12:15:00Z",
+    "end_datetime": "2022-08-26T12:45:00Z",
+    "talk:code": "3Z3TQY",
+    "talk:guid": "9c8b0ddc-4d78-56a6-ae46-cfd818aca59e",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Limonaia",
+    "talk:room_capacity": 110,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "ECTMEC",
+        "name": "R\u00e9gis Haubourg",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/ECTMEC/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T12:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/3Z3TQY/",
+      "title": "How to deal with a massive geographic database when surrounded by datascientists ?"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/3Z3TQY/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/ECTMEC/",
+      "title": "R\u00e9gis Haubourg"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/3Z3TQY/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=K5KOZIuS7eg",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | How to deal with a massive geographic database when surrounded by datascientists ?",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

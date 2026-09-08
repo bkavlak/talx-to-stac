@@ -1,0 +1,114 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "ZGYKXH",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Geo-Spatial meets Linked Data: open source solutions for semantic spatial data exchange",
+    "description": "The Ontology discipline made its way into the Computer Science domain in the\r\n1990s, filling a gap in the architecture aspect of a still infant engineering\r\ndomain. Its most visible impact happened around the industry consortium Object\r\nManagement Group (OMG), leading first to the Unified Modelling Language (UML)\r\nand later to the Model Driven Architecture (MDA). MDA became the base\r\ninfrastructure of data architectures and exchange mechanisms specified by\r\ninstitutions such as the Open Geo-spatial Consortium (OGC) or the European\r\nCommission (through the INPIRE directive).\r\n\r\nHowever, a parallel path has been treaded by the World Wide Web Consortium\r\n(W3C). First with the specification of the Resource Description Framework (RDF),\r\na new paradigm for data encoding leveraged on the WWW, and later with the Web\r\nOntology Language (OWL), a pragmatic approach to ontology encoding, building on\r\nRDF. This infrastructure developed by the W3C became known as the Semantic Web,\r\nand also as Linked Data, for the innovative paradigm through which it connects\r\ndisparate data sources and data domains.\r\n\r\nThe OGC would eventually approach the semantic web, specifying GeoSPARQL in\r\n2013, an ontology and query language for linked geo-spatial data. However,\r\ntechnologies supporting this new standard were slow in materialising.\r\n\r\nMore recently, the specification by the OGC of a new set of data standards based\r\non the OpenAPI technology set out a clear path for the convergence of\r\ngeo-spatial data with the Semantic Web. New software is emerging, opening\r\nan entirely new world to geo-spatial data provision, a clear step forwards in\r\npractically, usability and semantics.\r\n\r\nThis address starts by reviewing the core concepts of the Semantic Web and\r\nthen reviews state-of-the-art software for the management, publication\r\nand exploration of linked geo-spatial data. This addressed is targeted at SDI\r\nprofessionals and data scientists wishing to upgrade the semantics of the data\r\nthey create and use.",
+    "start_datetime": "2023-06-28T09:30:00Z",
+    "end_datetime": "2023-06-28T10:00:00Z",
+    "talk:code": "ZGYKXH",
+    "talk:guid": "790f6a49-63e9-59b3-b16b-52b3df34bfc3",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Open Data",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT D / N112 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "UF7J7G",
+        "name": "Lu\u00eds M. de Sousa",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/UF7J7G/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/ZGYKXH/",
+      "title": "Geo-Spatial meets Linked Data: open source solutions for semantic spatial data exchange"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/ZGYKXH/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/UF7J7G/",
+      "title": "Lu\u00eds M. de Sousa"
+    },
+    {
+      "rel": "related",
+      "href": "https://ldesousa.codeberg.page/",
+      "title": "ldesousa.codeberg.page"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/ZGYKXH/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/rtfnEzXixStv3aMceNYZoz",
+      "type": "text/html",
+      "title": "2023 | Geo-Spatial meets Linked Data: open source solutions for semantic spatial data exchange",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=hkBPErGqwNo",
+      "type": "text/html",
+      "title": "2023 | Geo-Spatial meets Linked Data: open source solutions for semantic spatial data exchange",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

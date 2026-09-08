@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "J3J9D8",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Maintaining a national Aerial Image Registry with QGIS",
+    "description": "The National Land Survey (NLS) of Finland maintains a registry of aerial imagery in Finland containing metadata of imagery since 1932. As part of the NLS' strategy of moving towards FOSS software, a novel registry management tool is being developed as a QGIS plugin. This talk describes the process of designing and implementing the new registry management software and explores the suitability of QGIS as a platform for creating highly customised spatial data management tools. While the registry management tool is developed for QGIS, the registry is migrated from Oracle to a PostGIS database, following a redesign of the data model.\r\n\r\nIn 2020, the NLS announced it aims to build its technological environment based on open source technologies. As a result, there is an ongoing effort of re-designing and implementing various existing processes and systems using open-source technologies. One such system is the national Aerial Image Registry. The registry is managed by a group of NLS employees and metadata is used in various workflows for publishing new data products from captured images and planning new aerial imaging missions.\r\n\r\nThe current registry management software is a technically dated solution based on Visual Basic 6 and an Oracle database. Key features of the new registry management tool include the ability to query the image registry and show the search results on map, editing and archiving existing data in the registry, importing new data to the registry, creating data extracts to PDF maps and spatial formats, and validating plans for aerial imaging missions. QGIS provides an user-friendly platform that is already familiar to many GIS experts that can be easily extended with plugins that provide custom functionality and features.\r\n\r\nThe NLS has prior experience of designing and developing tailored QGIS plugins to support their unique workflows, including plugins for maintaining the topographic database of Finland and the national point cloud registry. These projects have been well received by users and developers alike, and the positive feedback has encouraged the NLS to continue developing tailored QGIS plugins for its specific needs.",
+    "start_datetime": "2022-08-26T13:15:00Z",
+    "end_datetime": "2022-08-26T13:45:00Z",
+    "talk:code": "J3J9D8",
+    "talk:guid": "182245b6-ee94-53bc-b502-9c853048e64c",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room 4",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "MWWV9Q",
+        "name": "Mikael Vaaltola",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/MWWV9Q/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T13:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/J3J9D8/",
+      "title": "Maintaining a national Aerial Image Registry with QGIS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/J3J9D8/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/MWWV9Q/",
+      "title": "Mikael Vaaltola"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/J3J9D8/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/4NZ4wrQNkQSV5YiLJ15J8x",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Maintaining a national Aerial Image Registry with QGIS",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=eix4KwjI99Q",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Maintaining a national Aerial Image Registry with QGIS",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

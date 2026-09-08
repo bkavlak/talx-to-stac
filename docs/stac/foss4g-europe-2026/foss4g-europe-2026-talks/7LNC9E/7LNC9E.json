@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "7LNC9E",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "MapFile Preview: A Browser-Based Tool for Editing and Testing MapServer Mapfiles",
+    "description": "Like WMS and WFS, MapServer mapfiles are an essential component for publishing geospatial data via Open Geospatial Consortium (OGC) services. However, the standard workflow for managing these files can be a confusing experience, where analysts often find themselves toggling between text editors and server environments. MapFile Preview is an evolving, browser-based development environment designed to simplify this process, bringing the creation, management, and testing of MapServer configuration files into a single, intuitive interface.\r\nIn this abstract, we present the current progress of this tool, which aims to transform MapServer administration from a high-touch technical chore into a visual, validated, and efficient process. Currently a work in progress, the application bridges the gap between raw code and live services through several core, modules:\r\n\u2022\tIntegrated Workspace Management: The tool provides a centralized UI for navigating workspace directories. Analysts can open existing files via a system of aliases, which replaces the need to manage long, complex file paths during the preview process. The \"Quick New\" and guided form features allow for the rapid generation of starter templates.\r\n\u2022\tReal-Time Validation and Formatting: To avoid publishing an invalid Mapfile after submission, the application uses a local MapServer binary to perform instant syntax validation. This identifies errors or warnings before a file is ever published to a production environment. Furthermore, an automated formatting engine \"pretty-prints\" the code, enforcing consistent indentation that simplifies peer review and long-term maintenance.\r\n\u2022\tService Previewing: The platform comes with specialized modules for WMS and WFS service testing. GIS Analysts can visualize map layers, legends, and capabilities within the application. The WFS preview includes a layer picker, enabling users to isolate specific data layers to verify that geometry and attribute tables are rendering as intended. Another tool, \u201cCGI Smoke Test,\u201d helps determine whether an issue comes from network connectivity or from the mapfile configuration.\r\n\u2022\tAuto Metadata and AI Assistance: Understanding the complexity of OGC standards and the potential for manual entry errors, the \"Auto Metadata\" tool of the application generates metadata blocks for WMS, WFS, and WCS services automatically. To further support the user, the \"Mapfile Teacher\" tool integrates the Gemini AI model with a conversational interface for technical guidance. This AI model uses the official MapServer documentation, so the tool can offer a context-specific LLM for troubleshooting complex logic or learning new syntax.\r\nAs an ongoing development project, MapFile Preview can be a tool for a more accessible GIS administration. By combining mapfile editing, validation, and preview within a single environment, Mapfile Preview reduces time spent identifying syntax errors and supports the faster and finer publication of spatial data services.",
+    "start_datetime": "2026-06-29T12:30:00Z",
+    "end_datetime": "2026-06-29T13:00:00Z",
+    "talk:code": "7LNC9E",
+    "talk:guid": "f16fa532-5fb9-56ed-a354-51d0e95d651c",
+    "talk:event": "foss4g-europe-2026",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "A12",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "UADM7P",
+        "name": "Stathis Petridis",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/UADM7P/"
+      },
+      {
+        "code": "YBA9TB",
+        "name": "Dimosthenis Paradeisis",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/YBA9TB/"
+      },
+      {
+        "code": "XKNPAF",
+        "name": "Andreas Gkaravelis",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/XKNPAF/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-06-29T12:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/7LNC9E/",
+      "title": "MapFile Preview: A Browser-Based Tool for Editing and Testing MapServer Mapfiles"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/7LNC9E/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/UADM7P/",
+      "title": "Stathis Petridis"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/YBA9TB/",
+      "title": "Dimosthenis Paradeisis"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/XKNPAF/",
+      "title": "Andreas Gkaravelis"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/7LNC9E/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "mapfile-preview-presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2026/submissions/7LNC9E/resources/MapFile_Preview-presentatio_wUztPQZ.pptx",
+      "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "title": "Mapfile Preview Presentation",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

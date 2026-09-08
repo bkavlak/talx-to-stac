@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "WLBRPR",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Introduction to Point Tiler: A tool for converting large-scale point cloud data into 3D Tiles and its implementation methods",
+    "description": "point-tiler is a Rust CLI that converts massive LAS/LAZ point clouds into modern 3D Tiles (v1.1) via a glTF/GLB-centric workflow. This session covers city-scale reliability: LAZ-first I/O, coordinate/axis handling, external sorting beyond RAM, and practical compression choices.\n\nIn theory, converting point cloud data to 3D Tiles is a \"simple\" task. You choose a tool, select your LAS files, and run it. However, in practice, pipelines often grind to a halt due to subtle yet troublesome issues. Examples include Coordinate Reference Systems (CRS) or axis definitions that don't match the data, workflows that assume uncompressed LAS despite LAZ being the industry standard, and city-scale point cloud data that far exceeds available memory. Furthermore, conversion often takes several hours, and it is not uncommon for the resulting file count and size to be massive. A casual \"just try re-running it\" approach becomes a costly habit.\r\n\r\nIn this session, I will provide a deep, implementation-level explanation using \"point-tiler\"\u2014a Rust-based CLI tool I developed and released to bring ease of automation to large-scale data conversion. We will examine the entire pipeline in detail: streaming reads of massive amounts of LAS/LAZ files, parallel decoding of LAZ, coordinate handling, spatial sorting for efficient tiling, and GLB-centric output compliant with the latest 3D Tiles 1.1 workflow.\r\n\r\nWe will also delve into how tile hierarchies are actually constructed. What processing is required to accurately calculate bounding volumes? How should we vary the target values for tile extent and density? We will explore how \"conversion speed,\" \"output size,\" and \"visual aesthetics\" interact with one another.\r\n\r\nI will also explain \"scaling beyond memory limits.\" In point-tiler, we adhere to user-defined memory limits and employ external sorting\u2014a technique where sorted runs are offloaded to temporary storage and then merged\u2014allowing for the processing of large datasets without manual partitioning. I will explain the factors that truly impact execution time in large-scale processing (disk I/O, memory bandwidth, temporary disk throughput), how to plan and manage temporary storage, and why simple parallelization can be counterproductive (I/O contention, allocator overhead, and cache impact).\r\n\r\nFinally, I will compare this approach with common alternatives. I will also discuss output optimization, weighing compatibility against file size. Specifically, we will look at when KHR_mesh_quantization is effective, the value of introducing EXT_meshopt_compression, and the role of gzip in delivery via CDN.\r\n\r\nParticipants will gain concrete patterns for building reliable, large-scale data conversion tools, including I/O optimization, setting memory limits, estimating temporary storage size, selecting safe default values, and avoiding the pitfalls of parallel processing.",
+    "start_datetime": "2026-09-02T07:00:00Z",
+    "end_datetime": "2026-09-02T07:30:00Z",
+    "talk:code": "WLBRPR",
+    "talk:guid": "2ceb935e-28e6-5d60-aaf5-31ab12ea6d97",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Himawari",
+    "talk:room_capacity": 300,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "PUVHRQ",
+        "name": "Satoru Nishio",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/PUVHRQ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T07:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/WLBRPR/",
+      "title": "Introduction to Point Tiler: A tool for converting large-scale point cloud data into 3D Tiles and its implementation methods"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/WLBRPR/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/PUVHRQ/",
+      "title": "Satoru Nishio"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/WLBRPR/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "3KKXCG",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "XYZ Cloud MAPPing 101",
+    "description": "Configure and deploy geospatial datasets, hosts, and mapping interfaces to the cloud for free (as in Beer).\n\nWe provide a selection of public datasets to use and show how to load CSV, and or GEOJSON to the Postgis extended database service bit.io.\r\n\r\nWe explain how data interfaces can be run on the local host in an Express application framework.\r\n\r\nWe show how the host can be deployed as a cloud function through the Vercel node.js runtime.\r\n\r\nEvery participant will have their own Openlayers interface to visualise, query, and modify spatial datasets.\r\n\r\nAccess to any dataset can either be public or private according to the nature of the data.\r\n\r\n**Requirements for the Attendees**\r\n\r\n* Some basic understanding of the JSON format.\r\n* Node.js 18+ installed.\r\n* Git.\r\n* An IDE or text editor such as Visual Studio Code.\r\n* This workshop requires internet connection.",
+    "start_datetime": "2023-06-27T14:00:00Z",
+    "end_datetime": "2023-06-27T16:00:00Z",
+    "talk:code": "3KKXCG",
+    "talk:guid": "4f3606b8-2fd6-51bb-9944-d88d17c23417",
+    "talk:event": "foss4g-2023-workshop",
+    "talk:type": "Short Workshop",
+    "talk:language": "en",
+    "talk:room": "UBT C / N109 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 120,
+    "talk:speakers": [
+      {
+        "code": "ULTVZF",
+        "name": "Dennis Bauszus",
+        "url": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/ULTVZF/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-27T15:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/3KKXCG/",
+      "title": "XYZ Cloud MAPPing 101"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/3KKXCG/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/ULTVZF/",
+      "title": "Dennis Bauszus"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/3KKXCG/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-workshops"
+}

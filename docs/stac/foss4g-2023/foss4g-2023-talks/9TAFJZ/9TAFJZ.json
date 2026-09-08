@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "9TAFJZ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Standardized Data Management with STAC",
+    "description": "STAC is a well-known and acknowledged spatiotemporal metadata standard within the community. There are many applications with open-source data; however, there are few adoptions by premium satellite imagery providers. At UP42, we adopted STAC as the core metadata system within our applications and provided STAC API for users to manage their data easily. The ongoing adoption challenges with multiple data providers taught many takeaways that we would like to share with the community.\r\n\r\n- UP42: a short introduction \r\n- Data management challenges at UP42\r\n- Solution with STAC & cloud-native asset format\r\n- STAC implementation: lessons learned \r\n- Current state and way forward",
+    "start_datetime": "2023-06-28T09:00:00Z",
+    "end_datetime": "2023-06-28T09:30:00Z",
+    "talk:code": "9TAFJZ",
+    "talk:guid": "f9ad9b27-891d-5fb4-a725-ea8f9e117a66",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Lumbardhi",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "YGD9WA",
+        "name": "Batuhan Kavlak",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/YGD9WA/"
+      },
+      {
+        "code": "HPJGWC",
+        "name": "Sam Eglington",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/HPJGWC/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T09:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/9TAFJZ/",
+      "title": "Standardized Data Management with STAC"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/9TAFJZ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/YGD9WA/",
+      "title": "Batuhan Kavlak"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/HPJGWC/",
+      "title": "Sam Eglington"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/9TAFJZ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/3bVRQEfwQAgKoqX1uiwGYJ",
+      "type": "text/html",
+      "title": "2023 |  Standardized Data Management with STAC -Batuhan Kavlak & Sam Eglington",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=WVE5VZzoOqM",
+      "type": "text/html",
+      "title": "2023 |  Standardized Data Management with STAC -Batuhan Kavlak & Sam Eglington",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

@@ -1,0 +1,126 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "7S9CLN",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Terra Draw - cross-platform drawing library for all map applications Workshop",
+    "description": "Terra Draw is a drawing library for cross-platform mapping libraries such as Maplibre, Leaflet, OpenLayers, Mapbox, Google Maps, ArcGIS. It brings advanced drawing features for all web map applications with a unified API. This workshop introduces you how you can develop drawing feature with Terra Draw in your application.\n\n[Terra Draw](https://github.com/JamesLMilner/terra-draw) is developed and maintained by James Milner. The speaker is a author of maplibre-gl-terradraw that is Tarra Draw plugin for maplibre-gl-js. This workshop's proposed agenda includes two parts - presentation and hands-on:\r\n\r\nFirstly, introduction of Terra Draw will be delivered in order to let you understand what Terra Draw can bring to your map application.\r\n\r\nThe next part will be hands-on exercise. As an example of use of Terra Draw, the workshop will show you how you can integrate drawing feature with Maplibre GL JS. The agenda of exercise will be:\r\n\r\n- Installation and setup basic functionality of raw Terra Draw\r\n- Advanced functinalities of Terra Draw (layer stying, events, adding data, etc)\r\n- Quick introduction and tutorial of maplibre-gl-terradraw plugin\r\n\r\nEach participant is expected to bring a laptop computer installed in [NodeJS v22 LTS](https://nodejs.org) and [VSCode](https://code.visualstudio.com/) to exercise Terra Draw in own computer with provided sample codes.\r\nThe workshop will use Maplibre as an example, however participants can choose any mapping libraries such as Leaflet, OpenLayers if they prefer using it.\r\n\r\nIf time is allowed, the exercise will show you how you can integrate Terra Draw with different map libraries other than Maplibre. Terra Draw has a unified API, so it will be pretty easier for you to adapt it once you will be familiar.",
+    "start_datetime": "2025-11-17T20:00:00Z",
+    "end_datetime": "2025-11-17T23:00:00Z",
+    "talk:code": "7S9CLN",
+    "talk:guid": "1591c7be-f804-5845-8ba2-a26922dfa155",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Workshop - Intermediate Level",
+    "talk:type": "Workshop",
+    "talk:language": "en",
+    "talk:room": "WF613",
+    "talk:room_capacity": 30,
+    "talk:duration_minutes": 180,
+    "talk:speakers": [
+      {
+        "code": "QN9QGN",
+        "name": "Jin Igarashi",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/QN9QGN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-17T21:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/7S9CLN/",
+      "title": "Terra Draw - cross-platform drawing library for all map applications Workshop"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/7S9CLN/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/QN9QGN/",
+      "title": "Jin Igarashi"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/JamesLMilner/terra-draw",
+      "title": "Terra Draw"
+    },
+    {
+      "rel": "related",
+      "href": "https://nodejs.org",
+      "title": "NodeJS v22 LTS"
+    },
+    {
+      "rel": "related",
+      "href": "https://code.visualstudio.com/",
+      "title": "VSCode"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/7S9CLN/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "introduction": {
+      "href": "https://talks.osgeo.org/media/foss4g-2025/submissions/7S9CLN/resources/workshop_introduction_1YiaNuT.pdf",
+      "type": "application/pdf",
+      "title": "Introduction",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "terradraw-workshop-material": {
+      "href": "https://workshops.terradraw.water-gis.com/",
+      "title": "TerraDraw workshop material",
+      "roles": [
+        "data"
+      ]
+    },
+    "workshop-example-codes-and-template": {
+      "href": "https://github.com/watergis/terradraw-workshop-template",
+      "title": "Workshop example codes and template",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

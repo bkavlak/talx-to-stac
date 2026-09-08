@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Y8DPZC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Use of Open-Source Software in Census Cartography Production - IBGE's Case",
+    "description": "To showcase the application of free and open-source software (FOSS) in the census cartography works produced within the scope of the Brazilian Institute of Geography and Statistics (IBGE). \r\n\r\nCurrently linked to the Ministry of Planning and Budget, IBGE is a federal public administration entity. Since its foundation in 1936, it has become the main provider of data and information in the country, meeting the needs of various segments of civil society as well as federal, state, and municipal government entities. Its institutional mission is \"to portray Brazil by providing the information required to the understanding of its reality and the exercise of citizenship\". To achieve this, it identifies and analyzes the territory, counts the population, shows economic evolution through people\u2019s work and production, while also revealing how they live. \r\n\r\nTo support this purpose, IBGE maintains the Territorial Base (TB), a spatial information system supporting the operations of collection, processing, analysis, tabulation, charts, cartograms, and publications of its surveys and censuses. It is also used for evaluations of population estimates by identifying, monitoring, and representing the evolution of the territory, mainly through the development of its census sector network. \r\n\r\nThe TB consists of a graphical base of georeferenced information representing territorial structures, census tracts (called sectors) and other elements. These structures can be legal, such as the political-administrative division; analytical, linked to territorial patterns or specific population groups; or operational, intended to guarantee access to and coverage of census units. \r\n\r\nAmong the territorial structures that comprise the TB, the census sector underpins the operational organization of censuses and some sample surveys. It is a territorial interview collection unit whose size and number of households and establishments allow the census taker to complete their activities within a specified timeframe. Moreover, it is the basic unit for disseminating census information, allowing public access to statistical results at the smallest spatial range. \r\n \r\nIn mid-2014, IBGE was moving from a data update model based on a complete review conducted just before a census operation to a continuous update model, which was more complex and required more agile tools and systems for operators. At that time, however, the software used by the TB was commercial, with the update and customization processes for the entity's specific objectives being slow and difficult, as they were tied to contracts with the supplier. This represented a considerable, often prohibitive, expense for public coffers.  \r\n\r\nConcurrently, a staff of analysts had formed within IBGE, coming from civil service exams held in previous years for specialized technical jobs. These servers had two synergistic qualities: methodological knowledge of the activities performed by the institution, and some had technical capabilities in systems development. \r\n\r\nGiven the scenario, it became feasible to explore an internal alternative for TB update activities. Such a system should meet these technological premises: \r\n\r\nBe based on a free platform without licensing costs, preferably with an open-source codebase to avoid future dependencies; \r\n\r\nOperate with low computational and network requirements to meet the diverse realities of users; \r\n\r\nBe fully customizable to adapt to the needs of the TB and IBGE. \r\n\r\nGiven such requirements and considering the technical knowledge and stage of evolution of geoprocessing tools at the time, the system was defined as an external plugin for QGIS (using pyQGIS API) with a graphical interface modeled in Qt framework (using pyQt API). \r\n\r\nThe Geographic Information System for the Territorial Base (SIGBT), therefore, is the technological solution that emerged in 2014. Its conception, implementation, and homologation stages were always characterized by constant collaborative development, where TB technicians and related areas of IBGE could participate and contribute in several ways, from signaling problems to suggesting improvements and even writing the code itself. The development of SIGBT was designed modularly, to meet the methodological and conceptual priorities defined by IBGE. \r\n\r\nIts code was primarily written in Python, and the handled data is managed by an SQLite database (with SpatiaLite extension), made available to internal users for download and offline editing from a versioned Git repository. \r\n\r\nAmong the main procedures performed by SIGBT are the graphical operations on census sectors (divisions, aggregations, adjustments, and ensuring comparability between previous sector grids) and intra-sector layers (localities, roads, blocks, and block faces). It also ensures the topological and methodological consistency of the edits made. Additionally, the production of maps used in census operations is carried out on SIGBT. \r\n\r\nSince the advent of SIGBT, three major data update cycles aimed at census operations have been conducted using the system: the 2015 Population Count (which was eventually canceled), the 2016 Census of Agriculture, and the 2022 Demographic Census (which prompted two update cycles due to two postponements). \r\n\r\nCurrently, SIGBT is in use at the IBGE Coordination of Territorial Structures, in all 27 State Superintendencies, and in most of its over 560 agencies. It comprises about 50 specific functions that automate processes, facilitate edits, and enable the continuous updating of the TB. The system also integrates information from other databases from different areas that interact with the TB, enabling integrated editing and visualization of all data, thus facilitating the construction of territorial occupation indicators at the national level. \r\n\r\nLooking towards the future of SIGBT, the development of new modules for public access is being considered. It is projected that these modules will leverage QGIS navigation resources to offer citizens easier and quicker access to geographic data published by IBGE. \r\n\r\n  \r\n\r\nFinal Considerations \r\n\r\nThe explanation above showcases, through IBGE's experience with SIGBT, the feasibility of using a free software architecture for complex geographical projects with a wide range of geographic applications.  \r\n\r\nFrom a budgetary perspective, the superiority of free software was also verified, as SIGBT has contributed estimated savings that would exceed six figures since its creation, solely from software licensing that is no longer used. \r\n\r\nThe SIGBT initiative, therefore, presents itself as a successful example of a system based on free and open-source software, developed by public administration, showing that the use of this type of structure is not only viable but desirable.",
+    "start_datetime": "2024-12-06T17:00:00Z",
+    "end_datetime": "2024-12-06T17:30:00Z",
+    "talk:code": "Y8DPZC",
+    "talk:guid": "adf532c4-b16b-58a5-b3f7-2eba0b019094",
+    "talk:event": "foss4g-2024",
+    "talk:track": "Transition to FOSS4G",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room III",
+    "talk:room_capacity": 400,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "SZN8MC",
+        "name": "Fabiano Saraiva",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/SZN8MC/"
+      },
+      {
+        "code": "KJQE8T",
+        "name": "Ivan Lonel",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/KJQE8T/"
+      },
+      {
+        "code": "HYHDGR",
+        "name": "Lucas Halberstadt da Rosa",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/HYHDGR/"
+      },
+      {
+        "code": "VXZNZE",
+        "name": "Carlos Eduardo Cagna",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/VXZNZE/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-06T17:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/Y8DPZC/",
+      "title": "Use of Open-Source Software in Census Cartography Production - IBGE's Case"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/Y8DPZC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/SZN8MC/",
+      "title": "Fabiano Saraiva"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/KJQE8T/",
+      "title": "Ivan Lonel"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/HYHDGR/",
+      "title": "Lucas Halberstadt da Rosa"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/VXZNZE/",
+      "title": "Carlos Eduardo Cagna"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/Y8DPZC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

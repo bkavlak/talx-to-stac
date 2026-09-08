@@ -1,0 +1,127 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "NHBPHL",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Vector Tiles: Spatial Selection with PyQGIS",
+    "description": "As transmission operator (Austrian Power Grid) we need up to date information on parcels and land use during building projects. The Austrian data provider in this field (Federal Office of Metrology and Surveying - kataster.bev.gv.at) provides an open data vector tile cache with this information on a daily basis. The vector tile format is good for visualisation, but for the export of distinct multiple parcel-geometries, there is no out-of-box solution in QGIS so far. \r\n\r\nWe present a methodology of downloading data from vector tiles based on a defined spatial selection with PyQGIS. Based on a geometry (e.g., a power line) we are able to select the parcels of interest. One challenge is the fragmented provision of data by vector tiles. Using GeoPandas we combine the tiles into distinct geometries which can be postprocessed. \r\n\r\nThe result are precise parcels including attribute data and metadata. The challenge is to reduce the amount of data in the spatial selection process to find the parcels of interest.",
+    "start_datetime": "2024-07-05T11:30:00Z",
+    "end_datetime": "2024-07-05T12:00:00Z",
+    "talk:code": "NHBPHL",
+    "talk:guid": "1ce9818e-6458-5615-b0a9-367103112564",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "LAStools (327)",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "UHLKUL",
+        "name": "Helene Steiner",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/UHLKUL/"
+      },
+      {
+        "code": "SMMQ88",
+        "name": "Lukas Nebel",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/SMMQ88/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-05T11:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/NHBPHL/",
+      "title": "Vector Tiles: Spatial Selection with PyQGIS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/NHBPHL/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/UHLKUL/",
+      "title": "Helene Steiner"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/SMMQ88/",
+      "title": "Lukas Nebel"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/NHBPHL/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-vtc-selection": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/NHBPHL/resources/FOSS4GE_VTC_11m2XQ4.pdf",
+      "type": "application/pdf",
+      "title": "Presentation_VTC_selection",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/u2JBYnC5kjxBa4MLe6vmy2",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Vector Tiles: Spatial Selection with PyQGIS",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=mgsmDk99rlo",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Vector Tiles: Spatial Selection with PyQGIS",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

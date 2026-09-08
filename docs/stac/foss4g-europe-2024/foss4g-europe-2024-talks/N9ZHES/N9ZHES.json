@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "N9ZHES",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "State of deegree: A mature server-side software for spatial data infrastructures",
+    "description": "The OSGeo project deegree is open source software for spatial data infrastructures (SDI) and the geospatial web which mainly focuses on the server-side. It implements standards of the Open Geospatial Consortium (OGC) and the ISO Technical Committee 211. The project provides 9 official Reference Implementations of OGC Standards such as GML, WFS, WMS, and OGC API - Features.\r\n\r\nThis talk will give an overview of the latest stable release of deegree. It will highlight the recent developments of version 3.6 which provides support of Java 17 and Tomcat 10. Also, the deegree implementation of the OGC API - Features standard will be presented and how it can be used with existing deegree configuration.\r\n\r\nFinally, the future directions of the project will be highlighted and what developments are currently planned.",
+    "start_datetime": "2024-07-05T08:00:00Z",
+    "end_datetime": "2024-07-05T08:30:00Z",
+    "talk:code": "N9ZHES",
+    "talk:guid": "c58c75af-4469-5757-8e84-12d55a7ecb04",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "LAStools (327)",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "VTAYXV",
+        "name": "Dirk Stenger",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/VTAYXV/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-05T08:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/N9ZHES/",
+      "title": "State of deegree: A mature server-side software for spatial data infrastructures"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/N9ZHES/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/VTAYXV/",
+      "title": "Dirk Stenger"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/N9ZHES/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "foss4g-europe-2024-deegree-dirkstenger": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/N9ZHES/resources/FOSS4G_Europe_2024_deegree_DirkStenger_JryCODE.pdf",
+      "type": "application/pdf",
+      "title": "FOSS4G_Europe_2024_deegree_DirkStenger",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/q6DggmktHgsk4oNb4m2yZE",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | State of deegree: A mature server-side software for spatial data infrastructures",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=Mdgr2LgvlDQ",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | State of deegree: A mature server-side software for spatial data infrastructures",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

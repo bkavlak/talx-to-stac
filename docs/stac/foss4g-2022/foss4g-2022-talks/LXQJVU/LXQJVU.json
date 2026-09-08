@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "LXQJVU",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Tips for parallelization in GRASS GIS in the context of land change modeling",
+    "description": "Although GRASS GIS has been used for big data processing for a while now, you may think that some esoteric knowledge is needed to take full advantage of its computational power. The purpose of this talk is to demonstrate simple ways to parallelize your computations in GRASS GIS, that are applicable whether you are working on your laptop or HPC. I will give an overview of the state of parallelization of individual tools, show benchmarks, and introduce you to other GRASS GIS parallelization tricks. I will use examples relevant to land change modeling and share our experience with simulating urban growth at 30m pixel across the contiguous United States (16 billion cells) using FUTURES simulation implemented in r.futures addon. This talk is for all levels of expertise, although basic Python or GRASS GIS knowledge will be advantageous. \r\n\r\nGRASS GIS is a well established, all-in-one geospatial number cruncher with Python interface, command line, and GUI, with new major version 8.0 released in spring 2022.\r\n\r\nFUTURES is an open source urban growth model specifically designed to capture the spatial structure of development. It can accommodate the input of a variety of datasets with different spatial extents and can be coupled to other models. FUTURES is implemented in r.futures GRASS GIS addon.",
+    "start_datetime": "2022-08-25T12:15:00Z",
+    "end_datetime": "2022-08-25T12:45:00Z",
+    "talk:code": "LXQJVU",
+    "talk:guid": "1979669a-86c8-5ed7-9c43-1644f9861ad9",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room 9",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "9WMZNX",
+        "name": "Anna Petrasova",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/9WMZNX/"
+      },
+      {
+        "code": "ALRNGU",
+        "name": "Vaclav Petras",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/ALRNGU/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T12:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/LXQJVU/",
+      "title": "Tips for parallelization in GRASS GIS in the context of land change modeling"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/LXQJVU/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/9WMZNX/",
+      "title": "Anna Petrasova"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/ALRNGU/",
+      "title": "Vaclav Petras"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/LXQJVU/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/dBsqKHg13ecedcUZu8uhFZ",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Tips for parallelization in GRASS GIS in the context of land change modeling",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=ZPB2dUIUjeY",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Tips for parallelization in GRASS GIS in the context of land change modeling",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

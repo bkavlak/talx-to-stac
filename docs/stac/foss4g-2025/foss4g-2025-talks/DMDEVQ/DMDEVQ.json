@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "DMDEVQ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Fast and Free: High-performance WebGL geospatial visualisation using Lonboard and Jupyter Notebooks",
+    "description": "Lonboard transforms geospatial analysis by eliminating the need for costly tiling and database preprocessing. This WebGL-based visualisation library delivers superior performance in Jupyter Notebooks, reducing costs while enabling real-time interaction with large vector datasets. Open source demonstration with reproducible examples from Urban Intelligence's climate modelling work.\n\nClimate modelling generates massive raster datasets that analysts must explore to identify critical patterns like flood risk zones, temperature anomalies, and adaptation pathways. However, meaningful analysis requires overlaying large vector datasets, such as roads, infrastructure points, and building footprints, to understand the real-world impacts. Geospatial analysts traditionally face a costly bottleneck: these vector datasets must be tiled and stored in databases before meaningful visualisation can occur. This preprocessing step incurs significant computational and storage costs while creating friction in exploratory workflows.\r\n\r\nThis presentation demonstrates how Lonboard, a high-performance WebGL-based vector visualisation library, eliminates this barrier entirely, reducing workflow costs to zero while delivering superior rendering performance for the critical vector overlays. Through demonstrations using Urban Intelligence's climate analysis workflows, we'll showcase how analysts can visualise massive vector datasets directly in Jupyter Notebooks without preprocessing. Lonboard's WebGL rendering achieves speeds orders of magnitude faster than traditional packages like ipyleaflet by leveraging cutting-edge technologies, such as GeoArrow and GeoParquet, in conjunction with GPU-based map rendering.\r\n\r\nKey benefits include elimination of costly vector preprocessing steps, instant visualisation feedback for rapid exploration, seamless Jupyter integration, and superior performance with large vector datasets essential for large datasets. The presentation features fully reproducible notebooks showcasing production-ready implementation practices.\r\n\r\nThis approach represents a fundamental shift from expensive, preprocessing-heavy workflows to cost-effective, exploration-first methodologies that accelerate workflows. By leveraging open-source tools, organisations achieve better analytical outcomes while reducing infrastructure costs and complexity.",
+    "start_datetime": "2025-11-20T21:00:00Z",
+    "end_datetime": "2025-11-20T21:25:00Z",
+    "talk:code": "DMDEVQ",
+    "talk:guid": "25b00378-3031-51f1-89ba-3d362b7e4d01",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Tools, Libraries & Visualisation",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG126",
+    "talk:room_capacity": 140,
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "QW3ZRA",
+        "name": "Sam Archie",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/QW3ZRA/"
+      }
+    ],
+    "talk:do_not_record": true,
+    "datetime": "2025-11-20T21:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/DMDEVQ/",
+      "title": "Fast and Free: High-performance WebGL geospatial visualisation using Lonboard and Jupyter Notebooks"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/DMDEVQ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/QW3ZRA/",
+      "title": "Sam Archie"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/DMDEVQ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

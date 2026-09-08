@@ -1,0 +1,121 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "FJYFLZ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "maplibre-gl-terradraw - new drawing plugin for maplibre-gl-js",
+    "description": "This talk introduces a new drawing plugin for MapLibre: maplibre-gl-terradraw as an alternative of historical mapbox-gl-draw. maplibre-gl-terradraw has specifically been developed for Maplbire with a simple API to bring Terra Draw to your Maplibre with a single line of code.\n\nThis talk introduces a new drawing plugin for MapLibre: maplibre-gl-terradraw.\r\n\r\nPreviously, both Mapbox and MapLibre have relied on an older plugin, mapbox-gl-draw, to provide drawing functionality in maplibre-gl-js. However, mapbox-gl-draw is no longer actively maintained, making it increasingly difficult to use with MapLibre.\r\n\r\nAs an alternative, Terra Draw maintained by James Milner, offers advanced drawing features for multiple mapping libraries, including Mapbox, MapLibre, OpenLayers, Leaflet, Google Maps, and ArcGIS, all within a unified user interface. Compared to mapbox-gl-draw, Terra Draw is significantly easier to use. However, integrating its full functionality into MapLibre still requires extensive configuration. I developed maplibre-gl-terradraw, a new plugin that enables a pre-configured drawing feature with a single line of code.\r\n\r\nWith maplibre-gl-terradraw, users can easily add drawing controls with just a line of code.\r\n\r\nThis immediately grants access to all drawing modes (point, line, polygon, rectangle, circle, etc) powered by Terra Draw. The plugin comes pre-configured with icons and additional functionalities, such as:\r\n\r\n- Selecting and deleting features\r\n- Downloading drawn features\r\n- Customizing Terra Draw options and styles, as described in the documentation\r\n\r\nFurthermore, the measure control allows users to:\r\n\r\n- Measure the distance of a line or the area of a polygon\r\n- Query elevation data from raster DEM sources (MapLibre Terrain, TerrainRGB, and Terrarium)\r\n\r\nIn this talk, I will demonstrate the core functionalities of maplibre-gl-terradraw and show how easily you can integrate drawing features into your MapLibre applications.\r\n\r\nReferences: \r\n\r\nmain project: \r\n- maplibre-gl-terradraw: MIT License. https://github.com/watergis/maplibre-gl-terradraw\r\n\r\ndependencies of the main project:\r\n- Terra Draw: MIT License. https://github.com/JamesLMilner/terra-draw\r\n- maplibre-gl-js: https://github.com/maplibre/maplibre-gl-js",
+    "start_datetime": "2025-11-19T03:00:00Z",
+    "end_datetime": "2025-11-19T03:25:00Z",
+    "talk:code": "FJYFLZ",
+    "talk:guid": "fc4f82be-55dd-5127-947a-3ddec8960e0b",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Tools, Libraries & Visualisation",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG404",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "QN9QGN",
+        "name": "Jin Igarashi",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/QN9QGN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-19T03:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/FJYFLZ/",
+      "title": "maplibre-gl-terradraw - new drawing plugin for maplibre-gl-js"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/FJYFLZ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/QN9QGN/",
+      "title": "Jin Igarashi"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/watergis/maplibre-gl-terradraw",
+      "title": "github.com/watergis/maplibre-gl-terradraw"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/JamesLMilner/terra-draw",
+      "title": "github.com/JamesLMilner/terra-draw"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/maplibre/maplibre-gl-js",
+      "title": "github.com/maplibre/maplibre-gl-js"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/FJYFLZ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-2025/submissions/FJYFLZ/resources/20251119_maplibre-gl-terradraw_-_new_drawing_pl_AskCXS0.pdf",
+      "type": "application/pdf",
+      "title": "slides",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=1qaCJF6sf0M",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | maplibre-gl-terradraw - new drawing plugin for maplibre-gl-js",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

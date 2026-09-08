@@ -1,0 +1,96 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "B8UFHS",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "Supporting Mobility and Infrastructure Decisions in Flanders with MapStore",
+    "description": "MapStore is a powerful open-source framework for building, managing and sharing web-based maps, dashboards and geostories directly in the browser. It supports a wide range of geospatial data and highly customizable viewer applications.\r\n\r\nIn this talk, GeoSquare Belgium presents a real-world implementation of MapStore for the Department of Mobility and Public Works (DMOW) of the Flemish Government. What started as a proof of concept, has quickly evolved into a fully operational open-source WebGIS platform supporting data-driven mobility policy in Flanders.\r\n\r\nThe platform integrates MapStore, GeoServer, GeoNetwork and PostgreSQL to power a geoportal that hosts multiple thematic applications. These applications combine interactive maps, dashboards and geostories to support internal decision-making while simultaneously publishing selected data and insights to citizens through public web services and embedded web applications.\r\n\r\nTo illustrate the capabilities and flexibility of the platform, several use cases will be highlighted, such as supporting the deployment of intelligent traffic lights using data editing capabilities, view and navigate images on the map using the custom developed photoviewer extension, and exploring time-enabled raster current data in ports. \r\n\r\nWe will also briefly touch on community contributions like OpenID integration, dynamic filtering, and translation updates.\r\n\r\nJoin us to discover how MapStore\u2019s flexible design enables organizations like DMOW to deliver both ready-to-use and customized user-friendly geospatial solutions.",
+    "start_datetime": "2026-07-01T12:00:00Z",
+    "end_datetime": "2026-07-01T12:30:00Z",
+    "talk:code": "B8UFHS",
+    "talk:guid": "23bd3f0e-5885-50c0-8e39-7aed4aa76967",
+    "talk:event": "foss4g-europe-2026",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "A13",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "KYNQML",
+        "name": "Yanko Godaert",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/KYNQML/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-07-01T12:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/B8UFHS/",
+      "title": "Supporting Mobility and Infrastructure Decisions in Flanders with MapStore"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/B8UFHS/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/KYNQML/",
+      "title": "Yanko Godaert"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/B8UFHS/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "mapstore-dmow-foss4ge2026-pptx": {
+      "href": "https://geosquare-my.sharepoint.com/:p:/g/personal/yanko_godaert_geosquare_be/IQBOx3ZIqVC9TbWTZia9aaZ-AefHPp2S5cbhjW2Td77P8T4",
+      "title": "mapstore_dmow_foss4ge2026.pptx",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

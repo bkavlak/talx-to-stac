@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "G8NLJY",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Open Source GIS for Placemaking Education: A Gamified Framework for Community-Driven Urban Learning",
+    "description": "This study presents a gamified educational framework for teaching urbanism using open-source tools. Combining MLIT PLATEAU (GIS data), Blender (3D modeling), and Godot (simulation), it enables youth to engage in participatory placemaking while learning spatial thinking and urban design through an accessible, interactive digital workflow.\n\nThis study introduces an innovative educational framework that integrates open-source tools, geospatial data, and gamification to enhance the teaching of urban planning and placemaking. It is specifically designed to provide young learners (particularly in schools, youth workshops, and community-based learning environments) with accessible, engaging, and interactive experiences that foster spatial awareness, critical thinking, and civic participation. At the core of this framework lies a reproducible pipeline built upon three key open-source technologies: MLIT PLATEAU (open GIS-based 3D city models), Blender (a 3D modeling and animation suite), and Godot (a lightweight, scriptable game engine). Together, these tools form a complete workflow for visualizing, simulating, and manipulating urban space through an open and participatory lens.\r\n\r\nThe methodology begins with the use of MLIT PLATEAU, Japan\u2019s national-scale open 3D geospatial dataset, which offers highly detailed, standardized models of buildings, land use, infrastructure, and terrain for dozens of cities across the country. These datasets are downloaded in CityGML or OBJ formats and imported into Blender using specialized plugins or preprocessing tools. Within Blender, the imported GIS data is converted into structured, editable 3D models that students can navigate, analyze, and reconfigure. For example, students can model new public spaces, add greenery, modify building forms, or simulate small-scale tactical interventions. Blender's node-based material system and animation capabilities also allow learners to visualize temporal changes (e.g., seasonal effects, traffic flows, construction stages), adding dynamic and narrative dimensions to their urban design proposals.\r\n\r\nBlender also plays a central role as a translation layer between GIS and game engines. After modeling and scene setup, assets are exported (typically in glTF, FBX, or OBJ formats) and imported into Godot, where the interactive and gamified layer of the project is developed. In Godot, students can script interactions using GDScript (a Python-like language), design basic user interfaces (UI), and simulate real-world phenomena such as walkability, visibility, accessibility, or user behavior. Example applications include:\r\n- creating a first-person walkthrough of a redesigned neighborhood;\r\n- developing a resource-management game to balance green space and development;\r\n- building a collaborative multiplayer simulation for participatory urban decision-making.\r\n\r\nThe integration of real-time simulation through Godot allows learners to test design hypotheses, observe user reactions, or iterate urban scenarios based on feedback\u2014all within an immersive, game-like environment. Importantly, this approach does not require high-end hardware or costly licenses, making it ideal for public schools, NGOs, or municipalities with limited digital infrastructure. The entire pipeline (GIS data (PLATEAU), 3D modeling (Blender), and simulation (Godot)) is fully open-source, ensuring transparency, reproducibility, and adaptability to local contexts worldwide.\r\n\r\nPedagogically, the framework introduces a novel mapping between Levels of Detail (LOD) (a concept borrowed from GIS and 3D modeling) and stages of learning progression. For instance, LOD1 models are used for early-stage orientation and spatial comprehension; LOD2/3 data facilitates site-specific design challenges; and custom-built LOD4 scenarios simulate detailed human-scale interventions. This layered approach supports differentiated instruction and curriculum design, enabling instructors to tailor activities to students\u2019 cognitive levels and technical skills.\r\n\r\nThe framework is situated within a broader discourse of open-source urbanism, tactical urbanism, and participatory design. It challenges traditional, expert-driven planning paradigms by promoting tools that empower communities and students to engage directly with spatial planning through iterative, visual, and interactive means. It also contributes to the field of geospatial education, offering a replicable methodology for integrating spatial literacy, creative modeling, and digital civic engagement into urban curricula. Ultimately, this study argues that a gamified, open-source approach to urban learning not only makes complex planning tools accessible but also nurtures the next generation of urban thinkers capable of co-creating inclusive and resilient urban futures.",
+    "start_datetime": "2025-11-20T20:00:00Z",
+    "end_datetime": "2025-11-20T20:25:00Z",
+    "talk:code": "G8NLJY",
+    "talk:guid": "3f04f72a-f9c4-526d-9a22-909f5d572e6d",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Community, Collaboration & Impact",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG126",
+    "talk:room_capacity": 140,
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "GUVYJ7",
+        "name": "L\u00e9o Martial",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/GUVYJ7/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-20T20:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/G8NLJY/",
+      "title": "Open Source GIS for Placemaking Education: A Gamified Framework for Community-Driven Urban Learning"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/G8NLJY/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/GUVYJ7/",
+      "title": "L\u00e9o Martial"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/G8NLJY/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=ORa5vJl1Q8g",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Open Source GIS for Placemaking Education: A Gamified Framework",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

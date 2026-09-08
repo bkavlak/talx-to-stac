@@ -1,0 +1,121 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "QY73JW",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "DSGTools Geospatial Data Quality Assurance Toolbox: An Automated Workflow Suite for Quality Assurance",
+    "description": "Since 2013, the Brazilian Army Geographic Service has been committed to migrating its geospatial production into Free and Open Source Software (FOSS). DSGTools, a QGIS plugin released in 2015, is a result of this effort. Currently in version 4.14.0, DSGTools\u2019 features have been used to produce massive amounts of spatial data and have been consolidated as the Brazilian Army\u2019s official geospatial production suite.\r\n\r\nDSGTools offers features such as database creation according to the Brazilian cartographic legislation, layer loading with resolved domains and easy WMS service access from BDGEx, the Brazilian Army Geographic Service SDI. In addition, DSGTools offers a wide range of extraction tools such as the right angle digitalization tool, the free hand digitalization tool, the generic selection tool, the raster selection tool, the feature inspection tool, the DSGTools Processing Algorithm Provider and the Geospatial Data Quality Assurance Toolbox (QA Toolbox), which is one of the standout features of DSGTools.\r\n\r\nThe QA Toolbox runs processes called workflows, which consists of a series of interconnected sequential tasks based on QGIS models executed in a predefined sequence. For each step in this sequence, the QA Toolbox executes a geospatial data processing task, ranging from data cleaning and identification of data inconsistencies.\r\n\r\nMoreover, the primary objective of the QA Toolbox is to automate the identification and correction of geospatial data issues introduced during the data extraction process. The execution of a workflow is carried out sequentially, stopping only in specific cases, depending on the configuration chosen by the user. A workflow can have its execution halted when spatial inconsistencies called flags are produced after a model is executed. If a flag is raised during the execution of a workflow, the process halts immediately, prompting users to address the identified issue before proceeding. The QA Toolbox also prevents users from forcing the execution of followup tasks without fixing the flags raised in the current step. By forcing the users to correct the errors pointed out before continuing the process,  the propagation of unhandled inconsistencies is prevented.\r\n\r\nThe DSGTools Geospatial Data Quality Assurance Toolbox usage can reduce the required time and effort invested on geospatial data production. Users can also create complex workflows that operate independently. The use of a predefined sequence of models ensures that each step in the data processing is performed consistently, following standardized procedures like the Brazilian Standards of Geospatial Data Production set by the National Infrastructure of Spatial Data (INDE). This consistency is crucial for maintaining high-quality geospatial datasets, especially in large-scale projects. The flagging mechanism is a key component of the Brazilian Army Geographic Service\u2019s production line, ensuring that errors are promptly addressed and preventing the accumulation of issues that could compromise the overall quality of the dataset.\r\n\r\nAdditionally, the execution status of the DSGTools Geospatial Data Quality Assurance Toolbox can be saved within the user\u2019s project, allowing the QA process to be carried out over multiple days. Since DSGTools workflows are built using QGIS models, they harness the full power of the QGIS processing toolbox and various plugins, including the 159 processes available in the DSGTools Processing Algorithm Provider.\r\n\r\nIn this talk, we will showcase all the DSGTools Geospatial Data Quality Assurance Toolbox features and highlight its usage in real-world use cases of geospatial data production. DSGTools is available at the QGIS Plugin Repository, and its code is hosted on GitHub at https://github.com/dsgoficial/DsgTools.",
+    "start_datetime": "2024-12-05T20:00:00Z",
+    "end_datetime": "2024-12-05T20:30:00Z",
+    "talk:code": "QY73JW",
+    "talk:guid": "53860d06-657f-57af-a167-959c677246ea",
+    "talk:event": "foss4g-2024",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room III",
+    "talk:room_capacity": 400,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "TDPHD3",
+        "name": "Philipe Borba",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/TDPHD3/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-05T20:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/QY73JW/",
+      "title": "DSGTools Geospatial Data Quality Assurance Toolbox: An Automated Workflow Suite for Quality Assurance"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/QY73JW/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/TDPHD3/",
+      "title": "Philipe Borba"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/dsgoficial/DsgTools",
+      "title": "github.com/dsgoficial/DsgTools"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/QY73JW/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides-and-videos": {
+      "href": "https://drive.google.com/drive/folders/1mKWORugOuuYAyN0Frmz_FB9HCXTys3-0?usp=sharing",
+      "title": "Slides and Videos",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/wMfHD7ShWnqzYHJMCtBBQZ",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | DSGTools Geospatial Data Quality Assurance Toolbox",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=JzrTN3ZfhOE",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | DSGTools Geospatial Data Quality Assurance Toolbox",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

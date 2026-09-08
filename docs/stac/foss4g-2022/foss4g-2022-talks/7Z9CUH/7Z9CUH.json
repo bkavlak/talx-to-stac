@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "7Z9CUH",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Sharing EO data with farmers and herders in the West African Sahel: Lessons from the GARBAL program",
+    "description": "Farmers and herders in the West African Sahel are critically vulnerable to climate shocks and need access to climate information to secure their livelihoods. Herders use data on pasture and water availability to move their livestock and farmers need weather predictions to plan their planting. While satellite imagery has made much of this information readily accessible to the spatial community, few channels exist to transmit this information to herding communities. As a result, climate data has become more powerful than ever before, yet mostly inaccessible to those who depend on this information for their livelihoods.\r\n\r\nThis talk goes over the lessons of a programme that seeks to bridge this gap. GARBAL is a call center that uses Copernicus Earth Observation imagery and field data to provide farmers & herders with information on pasture, water and markets in Mali, Niger and Burkina Faso. GARBAL was first developed in 2015 and this talk will provide lessons from several years of practice.\r\n\r\nThe GARBAL interface is built on mapserver and uses automated scripts to download and treat imagery from Sentinel 2 and Meteosat which then display information on pasture conditions and water availability. Field data is routed through a network of local data collectors who provide weekly updates on livestock conditions and market prices. In addition to an interactive map, the interface provides user-friendly textual outputs that summarize all the layers for any area of interest on the map, which allows call center agents to quickly provide data to callers. \r\n\r\nThe talk will share lessons from the technical and programmatic aspects of the project. The technical side will go over the architecture of the data treatment, demo the interface, talk about successes and failures and show how you can play with the data yourself. The programmatic side focuses more on how the user needs evolved over the years, techniques for translating GIS data into information useful to farmers and herders, operating in areas of active conflict and how EO data fits into existing centuries-old traditional data collection systems in the Sahel.",
+    "start_datetime": "2022-08-25T10:40:00Z",
+    "end_datetime": "2022-08-25T10:45:00Z",
+    "talk:code": "7Z9CUH",
+    "talk:guid": "4ba66c9b-5ffa-587b-842d-60e3bc70d7ca",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Room 9",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "WNXGSQ",
+        "name": "Alex Orenstein",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/WNXGSQ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T10:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/7Z9CUH/",
+      "title": "Sharing EO data with farmers and herders in the West African Sahel: Lessons from the GARBAL program"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/7Z9CUH/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/WNXGSQ/",
+      "title": "Alex Orenstein"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/7Z9CUH/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=gW_i3HTXn0E",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Sharing EO data with farmers and herders in the West African Sahel: Lessons from the\u2026",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

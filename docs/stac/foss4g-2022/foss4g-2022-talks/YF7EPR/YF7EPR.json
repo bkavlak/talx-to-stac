@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "YF7EPR",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Helping to Land a Mars Rover using FOSS4G Tools",
+    "description": "Since landing on Mars in February of 2021, the Mars 2020 Perseverance Rover has been exploring Jezero crater to investigate an ancient delta looking for the evidence of past microbial life and to better understand the geologic history of the region.  In support of Terrain Relative Navigation (TRN), which enables the Mars 2020 spacecraft while landing to autonomously avoid hazards (e.g., rock fields, crater rims), the USGS Astrogeology Science Center generated two precision mosaics: 1) the Lander Vision System (LVS) map generated from three Context Camera (CTX) orthorectified images that was used onboard the spacecraft and was the \u201ctruth\u201d dataset that TRN used to orient itself relative to the surface during Entry, Decent, and Landing; and 2) a High Resolution Imaging Science Experiment (HiRISE) orthomosaic which was used as the basemap onto which surface hazards were mapped. The hazard map was also onboard the spacecraft and used by TRN to help identify the final, hazard-free landing location. \r\n\r\nThis talk will present the workflow used by the USGS Astrogeology Science Center to generate these critical data products including the use of FOSS4G tools like GDAL. Other open-source packages used will also be shared.",
+    "start_datetime": "2022-08-26T12:15:00Z",
+    "end_datetime": "2022-08-26T12:45:00Z",
+    "talk:code": "YF7EPR",
+    "talk:guid": "7d21e753-d078-5ebe-9aeb-5a1f7b5f2907",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Onice",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "VAQTMA",
+        "name": "Trent Hare",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/VAQTMA/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T12:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/YF7EPR/",
+      "title": "Helping to Land a Mars Rover using FOSS4G Tools"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/YF7EPR/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/VAQTMA/",
+      "title": "Trent Hare"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/YF7EPR/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/j2Nn9sV3NdbPaQGReHnL56",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Helping to Land a Mars Rover using FOSS4G Tools",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=Yop0xCVoygg",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Helping to Land a Mars Rover using FOSS4G Tools",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

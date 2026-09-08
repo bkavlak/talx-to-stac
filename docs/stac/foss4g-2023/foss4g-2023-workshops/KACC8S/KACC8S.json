@@ -1,0 +1,133 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "KACC8S",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Exploring the FuseTS Toolbox: Fusing and Analyzing Multi-Source EO Time Series Data",
+    "description": "Discover the open source FuseTS toolbox, developed within the AI4FOOD project (ESA), and its capabilities for fusing optical and SAR data and time series analytics. Learn how you use the open source python implementation and take your data analysis to the next level.\n\nIn this workshop, we will be exploring the open source FuseTS toolbox, developed within the AI4FOOD project (ESA). The FuseTS toolbox provides capabilities for (1) fusing optical and SAR data and (2) time series analytics. FuseTS provides a open source python implementation and a set of openEO processes to execute processing in a cloud environment. \r\n\r\nDuring the workshop, we will be looking at different use cases and how they can be supported by the FuseTS toolbox. We will introduce participants to the python and openEO implementations of FuseTS. We will provide hands-on examples to help users get familiar with the different features and functions of the toolbox, and we will also discuss real-world case studies to demonstrate how the toolbox can be applied in various domains.\r\n\r\nBy the end of the workshop, users will have a solid understanding of how to use the FuseTS toolbox and how it can help them make better sense of multi-source time series data.\r\n\r\nThe following topics will be covered in the workshop:\r\n- Introduction to the FuseTS toolbox and its capabilities\r\n- Fusing and analyzing multi-source time series data\r\n- Real-world case studies of FuseTS toolbox usage\r\n- Hands-on exercises to practice using the toolbox\r\n- Q&A session to address any questions or concerns\r\n\r\nWe look forward to exploring the FuseTS toolbox with you and helping you take your data analysis to the next level.\r\n\r\nReferences: \r\n- https://open-eo.github.io/FuseTS/\r\n- https://eo4society.esa.int/projects/ai4food/\r\n\r\n##### Requirements for the Attendees\r\n\r\n- Install Docker (https://docs.docker.com/get-docker/)\r\n  - docker image at: https://hub.docker.com/repository/docker/sentinelhub/foss4g-2023-fusets/tags?page=1&ordering=last_updated\r\n- Start a docker container (`docker run --shm-size=8.00gb -p 8888:8888 sentinelhub/foss4g-2023-fusets:latest`)\r\n- Click on the Jupyter server link and start :)\r\n\r\n##### Workshop Materials\r\n\r\nYou can find the workshop materials here: https://github.com/Open-EO/FuseTS/blob/main/notebooks/FOSS4G/foss4g_tutorial.ipynb",
+    "start_datetime": "2023-06-26T12:00:00Z",
+    "end_datetime": "2023-06-26T14:00:00Z",
+    "talk:code": "KACC8S",
+    "talk:guid": "bd6046cc-a095-574c-9b36-fd3771d294a6",
+    "talk:event": "foss4g-2023-workshop",
+    "talk:type": "Short Workshop",
+    "talk:language": "en",
+    "talk:room": "UBT D / N113 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 120,
+    "talk:speakers": [
+      {
+        "code": "YLFAVG",
+        "name": "Matic Lubej",
+        "url": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/YLFAVG/"
+      },
+      {
+        "code": "WGDCLV",
+        "name": "Pratichhya Sharma",
+        "url": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/WGDCLV/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-26T13:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/KACC8S/",
+      "title": "Exploring the FuseTS Toolbox: Fusing and Analyzing Multi-Source EO Time Series Data"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/KACC8S/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/YLFAVG/",
+      "title": "Matic Lubej"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/WGDCLV/",
+      "title": "Pratichhya Sharma"
+    },
+    {
+      "rel": "related",
+      "href": "https://open-eo.github.io/FuseTS/",
+      "title": "open-eo.github.io/FuseTS"
+    },
+    {
+      "rel": "related",
+      "href": "https://eo4society.esa.int/projects/ai4food/",
+      "title": "eo4society.esa.int/projects/ai4food"
+    },
+    {
+      "rel": "related",
+      "href": "https://hub.docker.com/repository/docker/sentinelhub/foss4g-2023-fusets/tags?page=1&ordering=last_updated",
+      "title": "hub.docker.com/repository/docker/sentinelhub/foss4g-2023-fusets/tags"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/Open-EO/FuseTS/blob/main/notebooks/FOSS4G/foss4g_tutorial.ipynb",
+      "title": "github.com/Open-EO/FuseTS/blob/main/notebooks/FOSS4G/foss4g_tutorial.ipynb"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/KACC8S/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "instructions-for-users": {
+      "href": "https://talks.osgeo.org/media/foss4g-2023-workshop/submissions/KACC8S/resources/instructions_EatzSG0.txt",
+      "title": "Instructions for users",
+      "roles": [
+        "data"
+      ]
+    },
+    "workshop-slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-2023-workshop/submissions/KACC8S/resources/foss4g_2023_fusets_slides_rvnDznZ.pptx",
+      "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "title": "Workshop slides",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-workshops"
+}

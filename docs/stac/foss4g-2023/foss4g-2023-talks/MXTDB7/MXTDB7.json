@@ -1,0 +1,97 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "MXTDB7",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Application of FOSS4G for improving the environmental impact assessment process - a noise case",
+    "description": "Because environmental impact assessment(EIA) process is a combination of detailed fields that require a lot of expertise (e.g., noise, air pollution, odor, water pollution, ecological environment, living environment, etc.), despite its long history, the process is still complex and slow, and it is not easy to break away from the document/drawing-centered work process. Since the nature of the environment involves many geographic/spatial context, if it can be assisted with a spatio-temporal system, it can be expected to show very high efficiency compared to the current process.\r\n\r\nTo verify the feasibility of such a system, we adopted a FOSS4G-based approach and developed a pilot system in this study. Specifically, we used GeoServer and Postgresql/PostGIS for handling and providing data spatially, and Cesium for 3D geospatial based visualization. We focused on the design and implementation of APIs to assemble the sub-processes of EIA, as well as the visualization and UI of the pilot system. \r\n\r\nThis system demonstrates how the noise propagate during and after the construction in an interactive way. We expect the system will increase the non-expert stakeholder's understanding of noise propagation visually. \r\n\r\nThrough this presentation, we will discuss our findings implemented in a EIA process centered on the noise, from the first step of applying for approval from the civil/construction operator to the last step of deriving the final evaluation opinion by the noise expert in charge, and provide clues to the future of Digital EIA. \r\n\r\nIn the future, we believe that the expansion to other EIA media and the smooth implementation of current legal and administrative tasks will make it a system that can be used in the field.",
+    "start_datetime": "2023-06-28T13:15:00Z",
+    "end_datetime": "2023-06-28T13:20:00Z",
+    "talk:code": "MXTDB7",
+    "talk:guid": "055314dc-81bd-5777-8aaf-71413cc6168a",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "UBT D / N113 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "Z8DMDB",
+        "name": "Sanghee Shin",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/Z8DMDB/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T13:17:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/MXTDB7/",
+      "title": "Application of FOSS4G for improving the environmental impact assessment process - a noise case"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/MXTDB7/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/Z8DMDB/",
+      "title": "Sanghee Shin"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/MXTDB7/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "result-of-noise-propagation-simulation": {
+      "href": "https://talks.osgeo.org/media/foss4g-2023/submissions/MXTDB7/resources/noise_SiarmId.png",
+      "type": "image/png",
+      "title": "Result of noise propagation simulation",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

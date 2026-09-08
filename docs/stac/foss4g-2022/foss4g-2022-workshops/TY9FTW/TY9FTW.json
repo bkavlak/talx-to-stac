@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "TY9FTW",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "sfnetworks: Tidy Geospatial Networks in R",
+    "description": "sfnetworks is an R package that provides a tidy interface to analyze geospatial networks. In this workshop, we will introduce the package and present the most important functions using increasingly complex examples, ranging from a toy graph to a complete city network.\n\nGeospatial networks are graphs embedded in geographical space. That means that both the nodes and edges in the graph can be represented as geographic features: the nodes most commonly as points and the edges as linestrings. The sfnetworks package creates a bridge between two popular R packages: tidygraph for standard graph analysis, and sf for spatial data science. By combining and extending the forces of these two packages, sfnetworks provides a powerful interface for processing, analyzing and visualizing geospatial networks.\r\n\r\nIn the first part of the workshop, we will introduce the core data structure and the most important pre-processing steps to convert raw geospatial data into network format. Then, we will present a series of functions to perform graph and spatial operations, starting from simple routines (e.g. shortest paths or spatial filters) with toy graph data and gradually move to more advanced operations (e.g. contractions, isochrones and graph measures) on complex city networks derived from Open Street Map. Finally, we will show some real-world applications of sfnetworks, pointing the interested participants to additional materials.\r\n\r\nFor each part of the workshop, we will prepare hands-on exercises for the attendees, but also encourage them to apply the package to their own use-cases.",
+    "start_datetime": "2022-08-22T12:00:00Z",
+    "end_datetime": "2022-08-22T14:00:00Z",
+    "talk:code": "TY9FTW",
+    "talk:guid": "7c66392d-a82f-59c9-9fef-6c3dd66929ed",
+    "talk:event": "foss4g-2022-workshops",
+    "talk:type": "Short Workshop",
+    "talk:language": "en",
+    "talk:room": "212",
+    "talk:room_capacity": 25,
+    "talk:duration_minutes": 120,
+    "talk:speakers": [
+      {
+        "code": "LWPSM8",
+        "name": "Lucas van der Meer",
+        "url": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/LWPSM8/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-22T13:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/talk/TY9FTW/",
+      "title": "sfnetworks: Tidy Geospatial Networks in R"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/talk/TY9FTW/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/LWPSM8/",
+      "title": "Lucas van der Meer"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/talk/TY9FTW/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-workshops"
+}

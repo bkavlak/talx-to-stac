@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "R8DEEX",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Building National-Scale WebGIS Using Open Source Geospatial Pipelines",
+    "description": "National-scale geospatial analysis using conventional geospatial RDBMS often faces trade-offs between spatial resolution and computational cost. It makes extracting insights from geospatial big data time-consuming or expensive. This proposal demonstrates two national-scale WebGIS applications built with open source pipelines to mitigate them.\n\n# Overview\r\nThis proposal introduces two representative Japanese national-scale WebGIS applications using open source geospatial pipelines.\r\n1. Land use spatial aggregation\r\n2. Railway network reconstruction using map-matching\r\n\r\nThe pipelines shift heavy computation from runtime queries and uniquely partition raw open data into spatial index cells, enabling national-scale geospatial access and visualization on lightweight serverless infrastructure. The goal is to provide scalable geospatial data access through precomputed spatial lookup.\r\n\r\n# Architecture\r\nThe WebGIS applications consist of a backend for parallel and distributed processing of geospatial data, a frontend, and APIs that deliver the preprocessed data to the frontend.\r\nThe backend implements multiple pipelines using open source libraries, including Python, PySpark and Apache Sedona for geospatial distributed processing, H3 and A5 for geospatial indexing, and NetworkX for graph analysis. Raw geospatial data is indexed, aggregated, mapped to graph structures, and transformed into datasets optimized for seamless access.\r\nThe frontend uses open source JavaScript visualization libraries including React and deck.gl that dynamically load, render, and visualize the precomputed spatial datasets.\r\nBy accessing indexed data through APIs from the frontend, this architecture enables seamless national-scale visualization without client-side spatial processing and efficient serverless deployment.\r\n\r\n# Land Use Aggregation\r\nThe land use WebGIS pipelines address aggregating millions of land use polygons using H3 and A5 geospatial indexing systems. The following hybrid approach leverages these indices.\r\n1. Land use polygons are covered by H3 cells.\r\n2. The corresponding A5 resolution that matches the H3 cell area is calculated.\r\n3. Each H3 hexagon cell is transformed into A5 pentagons using seven points: one centroid point and six boundary points.\r\n4. The land use is re-aggregated for each A5 cell.\r\n5. The aggregated land use is stored in a key\u2013value store, where the key corresponds to the A5 cell and the value corresponds to the aggregated land use attributes.\r\n\r\nThis key-value indexing strategy not only transforms complex spatial joins into simple lookups, enabling seamless visualization of nationwide land use distributions without server-side spatial processing, but also ensures area-based analytical accuracy.\r\n\r\n# Railway Map Matching\r\nThe railway WebGIS pipelines perform graph-based map matching to reconstruct the railway network from stations and railway line segments in two different datasets. The adjacency graph is constructed where stations are represented as nodes and railway line segments as edges. Instead of distance-based adjacency, STRtree-based spatial search extracts adjacency candidates, and geometries in the same H3 cell are defined as adjacent. A shortest-path algorithm is applied to this graph to determine the sequence of track segments from the starting station to the terminal station for each line. Using graph-based spatial search and H3 indexing for adjacency can reduce computational complexity and accuracy loss caused by coordinate-distance approaches.\r\n\r\n# Conclusion\r\nThis proposal demonstrates how geospatial pipelines transform raw geospatial data into indexed formats, how the indexed spatial datasets are accessed via APIs on serverless infrastructure, and how the national WebGIS visualizes them seamlessly. These pipelines are built with open source technologies.",
+    "start_datetime": "2026-09-03T06:00:00Z",
+    "end_datetime": "2026-09-03T06:30:00Z",
+    "talk:code": "R8DEEX",
+    "talk:guid": "37762708-e8ac-51d5-9e71-0ed5e6e23628",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room4",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "EY3WSN",
+        "name": "Takashi Nojima",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/EY3WSN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-03T06:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/R8DEEX/",
+      "title": "Building National-Scale WebGIS Using Open Source Geospatial Pipelines"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/R8DEEX/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/EY3WSN/",
+      "title": "Takashi Nojima"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.linkedin.com/in/takashi-nojima-76279028a/",
+      "title": "www.linkedin.com/in/takashi-nojima-76279028a"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/R8DEEX/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "japanese-land-use-spatial-aggregation-webgis": {
+      "href": "https://staging.dkxue2vi38bfa.amplifyapp.com/",
+      "title": "Japanese Land Use Spatial Aggregation WebGIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "japanese-railway-network-reconstruction-using-map-matching-w": {
+      "href": "https://staging.dcviimnv22q9i.amplifyapp.com/",
+      "title": "Japanese Railway Network Reconstruction Using Map-matching WebGIS",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

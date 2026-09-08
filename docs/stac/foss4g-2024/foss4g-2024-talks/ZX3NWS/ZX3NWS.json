@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "ZX3NWS",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Humanitarian data collection in browser-based Postgres",
+    "description": "In a humanitarian context, data collection can be divided into two main categories: proactive collection of data that may be useful for disaster response and recovery; reactive collection that is required to assess the situation on the ground during an event.\r\n\r\nThe Humanitarian OpenStreetMap Team has supported both types of mapping through the Tasking Manager platform. Going forward we will also be able to collect drone imagery collaboratively and add collected field-data to complement and match to the remote data, with the Drone TM and Field Mapping TM (FMTM) respectively.\r\n\r\nThere are often major hurdles for field-based data collection:\r\n1.  \tHow to effectively collaborate with multiple data collectors at the same time.\r\n2.  \tHow to work when there is poor connectivity in an area.\r\n\r\nWeb applications may be an acceptable choice to solve the first issue, but typically perform poorly when subjected to the second.\r\n\r\nWith a new paradigm in web development, local-first applications, this may no longer be an issue.\r\n\r\nWe can develop web-based applications that allow for both:\r\n-          Real-time update for users undertaking collaborative data collection campaigns.\r\n-          Fully offline data collection capability, with syncing and conflict resolution once connectivity is restored.\r\n\r\nThese capabilities have been achieved through some major landmarks over time:\r\n-          Addition of WASM to the browser in 2017.\r\n-          Implementation of databases in the web-browser (SQLite, Postgres), using WASM.\r\n-          Introduction of smart data reconciliation mechanisms such as CRDTs.\r\n-          Continual improved access to mobile phones globally, particularly in the introduction of high-performance smart phones.\r\n\r\nThis talk explores our journey implementing a local-first field mapping flow, with an example and demo to demonstrate its efficacy.",
+    "start_datetime": "2024-12-06T20:00:00Z",
+    "end_datetime": "2024-12-06T20:30:00Z",
+    "talk:code": "ZX3NWS",
+    "talk:guid": "04d6da24-0c32-5027-9837-c7fbe4c94bb9",
+    "talk:event": "foss4g-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room III",
+    "talk:room_capacity": 400,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "UGBQDN",
+        "name": "Ivan Buendi\u0301a Gayton",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/UGBQDN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-06T20:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/ZX3NWS/",
+      "title": "Humanitarian data collection in browser-based Postgres"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/ZX3NWS/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/UGBQDN/",
+      "title": "Ivan Buendi\u0301a Gayton"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/ZX3NWS/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/jJyYitvsDdSkneG1aMTnXE",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | Humanitarian data collection in browser-based Postgres",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=t1Ip4a2UIBQ",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | Humanitarian data collection in browser-based Postgres",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

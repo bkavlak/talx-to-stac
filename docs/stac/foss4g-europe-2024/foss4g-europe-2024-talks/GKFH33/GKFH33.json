@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "GKFH33",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Building the modern GIS Web Stack",
+    "description": "Using the technologies:\r\n\r\n- Database - Postgres + postgis\r\n- Backend - Python + fastAPI\r\n- Frontend - React + maplibre\r\n- Deployment - Docker\r\n\r\nWe will delve into the cutting-edge landscape of Geospatial Information Systems (GIS) through the lens of a modern custom web stack. The backbone of our system lies in the backend, where Python's fastAPI takes center stage, providing a seamless and efficient foundation for handling geospatial data. From routing to authentication, fastAPI ensures optimal performance.\r\n\r\nOn the frontend, we embrace the power of React, creating a dynamic and interactive user interface. Maplibre, an open-source mapping library, is our choice for rendering stunning maps, delivering a captivating user experience. The combination of React and Maplibre transforms data into meaningful visualizations, making complex geospatial information easily accessible which can be further extended to native mobile apps seamlessly as well.\r\n\r\nThe heart of our GIS web stack is the robust database system, featuring PostgreSQL and its spatial extension, PostGIS. This powerful combination allows for efficient storage, retrieval, and analysis of geospatial data, unleashing the full potential of location-based insights. We will explore the rich ecosystem surrounding PostgreSQL and PostGIS, with extensions like mobilityDB, and uber h3 showcasing the versatility and extensibility they bring to the table.\r\n\r\nOur entire GIS web stack is encapsulated in Docker containers to ensure seamless deployment and scalability. This containerization facilitates deployment on any cloud platform, providing flexibility and ease of management. We will guide you through the Dockerization process, empowering you to deploy your custom GIS solution effortlessly in the cloud.",
+    "start_datetime": "2024-07-04T14:30:00Z",
+    "end_datetime": "2024-07-04T15:00:00Z",
+    "talk:code": "GKFH33",
+    "talk:guid": "67b0b8fd-06aa-5c02-bc8d-7423176d1d82",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "GEOCAT (301)",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "8MGXWG",
+        "name": "json singh",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/8MGXWG/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-04T14:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/GKFH33/",
+      "title": "Building the modern GIS Web Stack"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/GKFH33/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/8MGXWG/",
+      "title": "json singh"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/GKFH33/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/GKFH33/resources/FOSS4G_EU_2024_-_Building_the_modern_GIS_lEEozyp.pdf",
+      "type": "application/pdf",
+      "title": "Slides",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/27LcdN2wkAVoZz5rHSQWiV",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Building the modern GIS Web Stack",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=Q6GNo1Cgi84",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Building the modern GIS Web Stack",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

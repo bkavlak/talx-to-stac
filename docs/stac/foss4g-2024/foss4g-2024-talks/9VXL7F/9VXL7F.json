@@ -1,0 +1,96 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "9VXL7F",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "DigiAgriApp, second year update",
+    "description": "**DigiAgriApp** is an free and open-source client-server application designed to manage a wide variety of data. This data can be collected either manually or directly from sensors. \r\nThe application is composed  of various open-source components such as PostgreSQL/PostGIS and  Django for the back-end, Flutter for the front-end, and a plugin for QGIS to manage geometries. \r\nOver the past year, since its first presentation in Kosovo, DigiAgriApp has undergone many improvements and gained new features. Users can now save data from measurements and observations made in the field. Moreover, a new component has been added to manage production data, particularly data collected by sorting machine, allowing the possibility to perform some simple analysis. Other improvements on the  client-side include the possibility of assigning different aspects (such as death, an observation or measurement) to one or more plants. The QGIS plugin allows to manage the geographical components of the database, primarily fields, subfields, rows and plants. The latest innovation is the integration of artificial intelligence, thanks to a new project funded by the Fondazione Valorizzazione della Ricerca Trentina. Specifically machine vision algorithms have been incorporated to analyze images and provide extrapolated values. The first application of the model is able to recognize the presence of Scaphoideus Titanus, a vector responsible for spreading the Flavescence dor\u00e9e disease, which poses a potential threat to vineyards, on a pheromone photochromic trap.\r\nDuring our presentation we will showcase the first adoption of the application within FEM covering about 15 hectares and more than 20000 plants to demonstrate the application\u2019s functionalities.",
+    "start_datetime": "2024-12-04T20:15:00Z",
+    "end_datetime": "2024-12-04T20:45:00Z",
+    "talk:code": "9VXL7F",
+    "talk:guid": "6bcbf1c4-61a7-51c4-8e3b-8455aabf7cce",
+    "talk:event": "foss4g-2024",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room IV",
+    "talk:room_capacity": 100,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "SQ7UJS",
+        "name": "Luca Delucchi",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/SQ7UJS/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-04T20:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/9VXL7F/",
+      "title": "DigiAgriApp, second year update"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/9VXL7F/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/SQ7UJS/",
+      "title": "Luca Delucchi"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/9VXL7F/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://digiagriapp.gitlab.io/digiagriapp-presentations/2024_digiagriapp_foss4g.html",
+      "title": "Presentation",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

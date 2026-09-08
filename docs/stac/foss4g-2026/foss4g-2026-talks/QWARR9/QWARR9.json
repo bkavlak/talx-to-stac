@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "QWARR9",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Feasibility to detect rapid change and disappearance of seagrass: Lessons from nearly 80 years of vegetation change in the Ako, Seto Inland Sea, Japan",
+    "description": "Seagrasses are flowering plants (Angiosperms) that have secondarily colonised marine environments, analogous to the evolutionary return of whales to the sea. Seagrass ecosystems provide essential functions and ecosystem services to coastal areas by introducing structural complexity through plant tissue in intertidal zones. These services include habitats for small intertidal organisms, nursery and feeding grounds for fishery species such as squid spawning aggregations, shoreline protection through sediment stabilization, and water purification. \r\n\r\nRecently, seagrasses have been gaining broad attention as a major component of blue carbon. In Japan in particular\u2014where the world's first voluntary blue carbon credits targeting seagrass beds and macroalgal beds were issued\u2014private-sector restoration activities have been increasing (Yamakita, 2025; Kuwae et al., 2026). Yet many seagrass beds worldwide are in decline or unknown status (Waycott et al., 2009; McKenzie et al., 2020). Adaptive management of these ecosystems requires the ability to detect both long-term trends (Yamakita et al., 2011) and abrupt collapses across spatial and temporal scales relevant to policy and local management.\r\n\r\nContinuous monitoring of seagrass faces practical limitations. High-resolution commercial imagery and intensive field surveys provide high accuracy, but they tend to be prohibitively expensive, particularly when long-term time-series data or extensive coastal areas are involved (Duffy et al., 2025). On the other hand, combining historical aerial photographs and recently available low-cost or free satellite data with open-source software (OSS) has the potential to enable accessible monitoring by local citizens, experts from other fields, or even countries and organizations with limited budgets. However, this approach remains limited to case studies and has not yet been utilized as an integrated monitoring method.\r\n\r\nThis study analyses the Ako tidal flat in the Seto Inland Sea, Japan, where nearly all Zostera marina disappeared within a single year in 2025. Using aerial photographs from the 1940s onward, high-resolution satellite imagery, GRUS images (2.5\u20135 m), and monthly Sentinel\u20112 composites (10 m), we reconstructed approximately 80 years of seagrass distribution. YOLO-based segmentation using deep learning achieved high accuracy (overall accuracy \u2265 0.9) across these datasets; although species could not be discriminated, the models captured the major temporal dynamics in vegetation area. \r\n\r\n The long-term mean seagrass area was 6.8 ha, but values fluctuated widely, from 3.5 ha in 1974 to 41.3 ha in 1989 except 0.2 ha in 2025.  The highest total area was recorded in 1989 (41.3 ha), followed by 1999 (14.0 ha) and 1966 (13.6 ha), indicating that vegetation was most extensively distributed around the 1990s. In contrast, detections in 1974 and 2019 showed considerably smaller values, with the total area declining to 3.5 ha in 1974, 4.5 ha in 2019, and reaching a minimum of 0.2 ha in 2025. \r\n\r\nSentinel\u20112 composites from 2019 to 2026 revealed clear seasonality, with vegetation increasing in early summer and declining from autumn. In 2025, however, the area decreased sharply after summer and remained anomalously low throughout the winter of 2025\u20132026. \r\nA distinct seasonal pattern was observed, with peaks occurring annually from May to July (monthly averages for the entire period: June: 16.0 ha, July: 17.6 ha), followed by a repeated pattern of rapid decline from late summer through autumn. However, observations for August and September were limited in many years due to cloud cover. \r\n\r\n  Field surveys confirmed the absence of living Z. marina shoots, while Zostera japonica persisted locally, indicating that the 2025 event was not a normal fluctuation in this area but a rapid ecosystem shift involving loss of the dominant canopy-forming species, most plausibly driven by regionally elevated summer water temperatures. \r\n\r\nThe findings also have implications for seagrass Essential Ocean Variables (EOVs) and the State of Nature (SoN) metrics used in TNFD-aligned nature-related disclosures. Unlike forests, seagrass meadows require finer temporal resolution because both pronounced seasonality and abrupt collapse strongly influence area-based indicators. Therefore, in addition to previously noted issues such as species-level classification accuracy, we recommend that (1) baselines be defined over the longest available record and justified ecologically, (2) seasonal standardization be applied before inter-annual comparisons, and (3) years with extreme area anomalies be flagged rather than used as reference points.\r\n\r\nThis study demonstrated that, by integrating historical aerial photographs, high-resolution satellite imagery, and satellite constellations using open-source analytical methods, it is possible to reconstruct both long-term and seasonal variations in seagrass vegetation with high accuracy, and to detect sudden ecosystem collapse. Both long-term and seasonal variations were significant, and while the recent disappearance of eelgrass fell within the range of these variations, it was qualitatively different; the event was likely influenced by elevated sea surface temperatures across a broad region, rather than by site-specific factors alone. For reporting frameworks such as TNFD and EOVs, using seagrass area as an indicator requires not only verification using sparse high-resolution images and annual field surveys but also the establishment of an appropriate time scale with high-frequency observations and standardized seasons.",
+    "start_datetime": "2026-09-03T05:30:00Z",
+    "end_datetime": "2026-09-03T06:00:00Z",
+    "talk:code": "QWARR9",
+    "talk:guid": "0eaf0d90-758c-5d7f-9446-dd7eb824482c",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos1",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "GVSAXY",
+        "name": "Takehisa Yamakita",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/GVSAXY/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-03T05:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/QWARR9/",
+      "title": "Feasibility to detect rapid change and disappearance of seagrass: Lessons from nearly 80 years of vegetation change in the Ako, Seto Inland Sea, Japan"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/QWARR9/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/GVSAXY/",
+      "title": "Takehisa Yamakita"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/QWARR9/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

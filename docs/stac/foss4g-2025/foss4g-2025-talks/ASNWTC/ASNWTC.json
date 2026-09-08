@@ -1,0 +1,108 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "ASNWTC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "State of STAPI: A community tasking standard",
+    "description": "Explore STAPI, a specification for a Sensor Tasking API. We\u2019ll highlight recent developments, showcase the open-source projects being developed in the ecosystem, and share the community's vision of increased interoperability driving the next generation of geospatial workflows.\n\nCommunity standards, created through collaborative grassroots efforts before being widely adopted, play a crucial role in geospatial interoperability as exemplified by specifications like SpatioTemporal Asset Catalog (STAC) and Cloud-Optimized GeoTIFFs (COGs). Efforts like these not only enable seamless data interoperability but also form the backbone of robust, scalable systems that support critical geospatial operations.\r\n\r\nThe Sensor Tasking API (STAPI) is an emerging community standard aiming to standardize sensor tasking and spatiotemporal data ordering through a unified API and an ecosystem of tooling. Five community sprints have been held across the US and Europe, most recently this past April in Lisbon, where the spec reached the major milestone of a version 0.1.0 release. Featuring collaboration amongst government groups, commercial satellite operators, data integrators, and other community members, these iterative and collaborative sprints have worked and continue working toward developing a robust API specification and tooling. A sixth sprint is in the works and expected to take place in Europe in the first half of 2026.\r\n\r\nThis talk will showcase the concrete achievements of the STAPI community, demonstrating how a collaborative approach can lead to a tangible and impactful standard for accessing future geospatial data. We will delve into the specification, highlighting its key features and recent developments, including the upcoming version 0.2.0 release. We will also look at the open-source ecosystem growing out of this effort, including projects like stapi-fastapi, stapi-pydantic, and pystapi-client that are empowering the community to create their own STAPI-compliant services and tooling, and several practical implementations from commercial providers.",
+    "start_datetime": "2025-11-19T22:00:00Z",
+    "end_datetime": "2025-11-19T22:25:00Z",
+    "talk:code": "ASNWTC",
+    "talk:guid": "e84e1d60-3a8e-586d-8a5f-154e1f9b565f",
+    "talk:event": "foss4g-2025",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG802",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "W8MQ89",
+        "name": "Matthew Hanson",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/W8MQ89/"
+      },
+      {
+        "code": "8TAMEN",
+        "name": "Jarrett Keifer",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/8TAMEN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-19T22:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/ASNWTC/",
+      "title": "State of STAPI: A community tasking standard"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/ASNWTC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/W8MQ89/",
+      "title": "Matthew Hanson"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/8TAMEN/",
+      "title": "Jarrett Keifer"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/ASNWTC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=C18FRsOpQPk",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | State of STAPI: A community tasking standard",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

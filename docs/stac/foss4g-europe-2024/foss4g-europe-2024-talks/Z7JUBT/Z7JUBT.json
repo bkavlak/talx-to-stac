@@ -1,0 +1,126 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Z7JUBT",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Architecture of OGC Services Deployment on Kubernetes Cluster based on CREODIAS Cloud Computing Platform",
+    "description": "The Copernicus Data Space Ecosystem provides open access to the petabyte-scale EO data repository and to a wide range of tools and services, limited to some predefined quoatas. For users who would like to develop commercial services or for those who would like to have larger quotas/unlimited access to services the offer of CREODIAS platform is the solution. In this study an example of such a (pre)commercial service will be presented which publishes Copernicus Sentinel-1 and Sentinel-2 products (and selected assets) in the form of a WMS (Web Map Service) and WCS (Web Coverage Service). The architecture of the services based on the Kubernetes cluster allows horizontal scaling of a service along with a number of users requests. The WMS/WCS services to be presented combine data discovery, access, (pre)-processing, publishing (rendering) and dissemination capabilities available within a single RESTful (Representational state transfer) query. This gives a user great flexibility in terms of on-the-fly data extraction across a specific AOI (Area Of Interest), mosaicing, reprojection, simple band processing (cloud masking, normalized difference vegetation), rendering. The performance of the Copernicus Data Space Ecosystem and CREODIAS platform combined with the efficient software (Postgres 16 with PostGIS extension, MapServer with GDAL backend) allows to achieve WMS/WCS service response time below 1 second on average. This in turn, gives a potential for massive parallelization of the computations given the horizontal scaling of the Kubernetes cluster. The work demonstrates the capabilities of European data processed using open software deployed on European cloud-based Ecosystem in form of CDSE.",
+    "start_datetime": "2024-07-04T11:30:00Z",
+    "end_datetime": "2024-07-04T12:00:00Z",
+    "talk:code": "Z7JUBT",
+    "talk:guid": "2333a493-6aa8-5087-96f8-91ac8a0a2cf1",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Destination Earth (Van46 ring)",
+    "talk:room_capacity": 400,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "DS3MXD",
+        "name": "Marcin Niemyjski",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/DS3MXD/"
+      },
+      {
+        "code": "Y7LYAN",
+        "name": "Micha\u0142 Bojko",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/Y7LYAN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-04T11:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/Z7JUBT/",
+      "title": "Architecture of OGC Services Deployment on Kubernetes Cluster based on CREODIAS Cloud Computing Platform"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/Z7JUBT/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/DS3MXD/",
+      "title": "Marcin Niemyjski"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/Y7LYAN/",
+      "title": "Micha\u0142 Bojko"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/Z7JUBT/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-pdf": {
+      "href": "https://drive.google.com/file/d/1dqWjwAqzaHaUW3PYj2vLeojvPjAqVLA_/view?usp=sharing",
+      "title": "presentation pdf",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/19aQbfNEwX9mo4p6ogn6SE",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Architecture of OGC Services Deployment on Kubernetes Cluster based on CREODIAS ...",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=SnPJRj09FkI",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Architecture of OGC Services Deployment on Kubernetes Cluster based on CREODIAS ...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

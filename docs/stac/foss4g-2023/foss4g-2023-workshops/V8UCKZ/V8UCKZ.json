@@ -1,0 +1,128 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "V8UCKZ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Web mapping with Elasticsearch",
+    "description": "A short workshop on how to render different types of search and aggregated data layers on a web map backed by Elasticsearch.\n\nElasticsearch query API is powerful but can be challenging for newcomers. Retrieving data from Elasticsearch involves interacting with the Domain Specific Language (DSL) API to build queries concerning time, spatial, and other filters and aggregation definitions.\r\n\r\nThe Kibana Presentation team developed the Maps Application to get the most out of Elasticsearch geospatial features for different data scenarios, showing aggregated and individual features. The team works closely with the Elasticsearch Analytics & Geo colleagues  to ensure the best performance and robustness, aiming for Kibana as the best-in-class user interface.\r\n\r\nThis workshop will go through different layer types offered in Kibana Maps and translate their data definition to a custom javascript application with the Maplibre framework so attendees can learn how to create web mapping applications backed by Elasticsearch.\r\n\r\nWe expect attendees to have some familiarity with web mapping development (HTML, JavaScript) and a basic understanding of how Elasticsearch works. Previous experience with Kibana is optional.\r\n\r\nResources:\r\n\r\n* https://www.elastic.co/elastic-stack/\r\n* https://www.elastic.co/elasticsearch/\r\n* https://www.elastic.co/kibana/\r\n* https://www.elastic.co/geospatial\r\n* https://www.elastic.co/maps\r\n* https://maplibre.org/",
+    "start_datetime": "2023-06-27T12:00:00Z",
+    "end_datetime": "2023-06-27T14:00:00Z",
+    "talk:code": "V8UCKZ",
+    "talk:guid": "f954a123-0559-5cab-8652-70e7dc29b520",
+    "talk:event": "foss4g-2023-workshop",
+    "talk:type": "Short Workshop",
+    "talk:language": "en",
+    "talk:room": "UBT C / N109 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 120,
+    "talk:speakers": [
+      {
+        "code": "ES9EYE",
+        "name": "Jorge Sanz",
+        "url": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/ES9EYE/"
+      },
+      {
+        "code": "QFZEXU",
+        "name": "Craig Taverner",
+        "url": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/QFZEXU/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-27T13:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/V8UCKZ/",
+      "title": "Web mapping with Elasticsearch"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/V8UCKZ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/ES9EYE/",
+      "title": "Jorge Sanz"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/QFZEXU/",
+      "title": "Craig Taverner"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.elastic.co/elastic-stack/",
+      "title": "www.elastic.co/elastic-stack"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.elastic.co/elasticsearch/",
+      "title": "www.elastic.co/elasticsearch"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.elastic.co/kibana/",
+      "title": "www.elastic.co/kibana"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.elastic.co/geospatial",
+      "title": "www.elastic.co/geospatial"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.elastic.co/maps",
+      "title": "www.elastic.co/maps"
+    },
+    {
+      "rel": "related",
+      "href": "https://maplibre.org/",
+      "title": "maplibre.org"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/V8UCKZ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-workshops"
+}

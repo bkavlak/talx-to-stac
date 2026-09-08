@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "VAARDX",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Maintaining topological consistency of simple features with QGIS tools & PostGIS SQL rules",
+    "description": "This talk presents use of QGIS tools in topological editing of multiple simple features together and shows a SQL-based approach to checking the data in a PostGIS database to conform with given topological rules between multiple tables.\r\n\r\nWhen using simple features in a PostGIS database, topological relations are not handled with the data model, data is duplicated on shared segments and thus may contain differences on segments which should be shared and equal between all features on that egde, and in QGIS each modification must also consider the topological vertices and possibly make changes to other features as well.\r\n\r\nQGIS has built-in tools to handle some topological editing cases, this talk shows use cases for those and shows additional plugins available for making for example topological reshapes for shared segments, as if the segment was an edge in a topological data model.\r\n\r\nThis talk also discusses SQL-based methods for checking the topological consistency. Simple checks shown include the built-in PostGIS functions like intersects or contains. More advanced cases show use of relate-checks for allowing certain types of intersections, or distance-based exists checks for requiring either connected or clearly separate features for topographic data modeling. These kind of SQL checks also allow maintaining complex topological relation checks based on attributes of the features, and for example a shoreline-lake relation can be checked fully inside state boundaries, and gaps are allowed on those parts of lakes outside of state boundaries.",
+    "start_datetime": "2024-07-03T08:30:00Z",
+    "end_datetime": "2024-07-03T09:00:00Z",
+    "talk:code": "VAARDX",
+    "talk:guid": "4127d491-b7a2-5da3-9429-7037846c236f",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "QFieldCloud (246)",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "P9PE8N",
+        "name": "Antero Komi",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/P9PE8N/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-03T08:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/VAARDX/",
+      "title": "Maintaining topological consistency of simple features with QGIS tools & PostGIS SQL rules"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/VAARDX/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/P9PE8N/",
+      "title": "Antero Komi"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/VAARDX/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/VAARDX/resources/topology-presentation_123tfRS.pdf",
+      "type": "application/pdf",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/inmTKqaRqqehZmXTW9bqTi",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Maintaining topological consistency of simple features with QGIS tools & PostGIS ...",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=RwIBEi68sd0",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Maintaining topological consistency of simple features with QGIS tools & PostGIS ...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

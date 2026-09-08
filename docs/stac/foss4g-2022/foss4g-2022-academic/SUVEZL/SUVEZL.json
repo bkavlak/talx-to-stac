@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "SUVEZL",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "From QGIS to Python: comparison of free and open tools for statistical analysis of cultural heritage and data representation",
+    "description": "Thankfully to the European Commission initiatives such as INSPIRE (2007) and other governmental policies, spatial data are available publicly on different national, regional and municipality geoportals for further use. When it comes to the cultural heritage and Italian context, based on the decree of the Ministry of Culture (MiBACT, 2008), different activities concerning heritage has been assigned to the ICCD (i.e., Central Institute for Catalogue and Documentation) such as research and technical-scientific collection of the documentation and coordination of cataloguing of cultural heritage and its digitalization. These regulations allowed the public entities to share substantial information about geographical and spatial data with a wider audience. Specifically in the region of Lombardy, data about cultural heritage are catalogued in SIRBeC (i.e., Regional information System for Cultural Heritage) that has been promoted since 1992 and continues collecting, managing, and publishing a vast amount of information. Vector shapefiles are freely available for download on the Geoportale Lombardia. The scope of the research was collecting information about cultural heritage in Lombardy that is freely accessible online. Data downloaded are point and polygon features files of the position of the cultural heritage. Furtherly, the methodology developed deals with the use of QGIS, as the open and free software together with the Python console integrated into the software and finally using the online software of the integrated development environment (IDE) named Replit that is free, open, collaborative and in-browser Python coding application.\r\nThe methodology is based exclusively on free and open sources, starting from the collection of data to their processing. Each vector file is enriched with the metadata in the attribute table but the methodology is providing a combination of software to obtain other data (e.g., coordination, area, etc.) and statistical analysis (e.g., ratio, percentage, position, distribution, etc.), which are the initial part of each elaborated cultural heritage project. Additionally, the methodology is discussing different approaches to reach the desired result and compares their differences. Firstly, the Python console in QGIS was examined, and metadata were extracted from the vector file to the .csv file to be used in Replit. The online codding application gave a higher degree of flexibility while coding, and it was possible to implement data extracted in a .csv file into a coding panel, using them to produce different statistical analyses. Furtherly, the methodology discusses the use of the plugin of QGIS called DataPlotly and data differences, from the representation to the utility level.\r\nResults through the Python Console in QGIS allowed the extraction of necessary data for further analysis, deleting the ones which are not needed. The good side of this approach is that metadata of the shapefile stay untacked, and the Python is simply extracting selected data in a new external file. There have been selected four categories of interest: Name, Category, Typology and Municipality of the cultural heritage. The area of interest was a northern part of Milan, in the province of Monza e Brianza which has a dense and diverse category of cultural heritage. Using the python code, these four categories are temporarily printed and saved in the console panel. Since there is no information about coordinates inside the metadata, there are two approaches that are tested to obtain them. The first one used was the QGIS integrated option \"Add geometry attributes\", which created the new shapefile enriched with the information about longitudinal and latitudinal coordinates. The second approach was extracting the coordinates through the Python console with the f.geometry() function. Information about the four categories selected and coordinates are printed temporarily in the console, and the user can control the order of the columns and delimited type, following the saving and extracting the .txt file. \r\nThe second part of the analysis also discusses two methods that were tested for the creation of statistical analysis of extracted data and their representation, firstly in the QGIS plugin DataPlotly and then using Replit. Presenting statistical analysis in the form of different charts is available directly through the plugin. Nevertheless, when it comes to the great amount of data the plugin resulted not be very efficient for the representation nor easy to manage the view. Another constrain is that there is no option for exporting graphs in a .pdf file. On the other side, creating the charts through the Python packages such as matplotlib or pandas shows a better degree of control over a graph. The advantage is that there is a possibility of exporting it in many different files, such as a .pdf or .svg file. Additionally, through the Python in-browser application, there is a higher degree of control and change of the visual representation of charts. \r\nIn conclusion, the process of extracting the coordinates from the previously georeferenced shapefiles can be useful when it comes to the georeferentiation of other collected material, such as dense point clouds created by photogrammetric techniques and other photographic material collected in-situ. In the past years, a lot of students, researchers, and professionals were not able to continue their work because of the inaccessibility to the site and unavailability to perform the field survey which is necessary when it comes to the investigation of cultural heritage. The process of using and combining open and free software, including both those which are used off and online, can provide to a certain degree some information that is not visible in attributes so that the study can be continued, and research can be conducted also in a remote. The methodology, processes and tools used are simple, yet they are creating clear guidelines of the potentiality and importance of freely shared data and stresses again the power of geographic information tools in urban and architectural analyses.",
+    "start_datetime": "2022-08-25T10:45:00Z",
+    "end_datetime": "2022-08-25T10:50:00Z",
+    "talk:code": "SUVEZL",
+    "talk:guid": "cadc0c54-b12a-510f-84e5-f2a0bf6f27d3",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "Room Hall 3A",
+    "talk:room_capacity": 85,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "CXWHF8",
+        "name": "Dina Jovanovic",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/CXWHF8/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T10:47:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/SUVEZL/",
+      "title": "From QGIS to Python: comparison of free and open tools for statistical analysis of cultural heritage and data representation"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/SUVEZL/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/CXWHF8/",
+      "title": "Dina Jovanovic"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/SUVEZL/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

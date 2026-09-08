@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "JVFVCS",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Where Is Everyone?: The Global Impact of COVID on Road Traffic",
+    "description": "This presentation examines the global impact of COVID-19 on traffic across 40 cities in Europe, South East Asia, Australia, and North America. I analyzed monthly rush hour traffic from 2019 to 2021 with  GeoPandas, leafmap, and  HERE's Traffic Analytics data. In addition, I correlated traffic volume with COVID positivity, mortality,  and vaccination rates to examine how these factors influence the resumption of pre-pandemic traffic patterns.\r\n\r\nBecause of the volume of the traffic data (billions of records), desktop GIS software, including spatially enabled databases, could not reliably process it on a desktop computer. Online solutions, such as Google Colab, would have been a costly alternative given the amount of data. However, GeoPandas and Jupyter notebook on notebook computer was able to process the traffic data and enhance the spatial road data and support joining the result to the road network for visualization. The method for processing the data will be discussed in detail. In summary, open source tools give researcher unprecedented abilities to process large amounts of data.",
+    "start_datetime": "2022-08-26T08:05:00Z",
+    "end_datetime": "2022-08-26T08:10:00Z",
+    "talk:code": "JVFVCS",
+    "talk:guid": "819defba-b5c8-5d30-a898-25fef5ca9abb",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Room 4",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "QWKXHC",
+        "name": "Sophia Parafina",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/QWKXHC/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T08:07:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/JVFVCS/",
+      "title": "Where Is Everyone?: The Global Impact of COVID on Road Traffic"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/JVFVCS/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/QWKXHC/",
+      "title": "Sophia Parafina"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/JVFVCS/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=UXK4GTHWEXU",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Where Is Everyone?: The Global Impact of COVID on Road Traffic",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

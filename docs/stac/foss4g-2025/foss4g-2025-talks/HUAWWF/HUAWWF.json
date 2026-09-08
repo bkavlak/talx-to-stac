@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "HUAWWF",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "State of UN Smart Maps Group",
+    "description": "UN Smart Maps Group is testing new technologies for future geospatial operations. This presentation showcase the latest advancements in the UNVT POD (Portable on Demand) and FOIL4G (Free and Open Information Library for Geospatial), integrating Tippecanoe, MapLibre GL JS, go-pmtiles, and Martin with Generative AI and classic UNIX utilities.\n\nThe UN Smart Maps Group advances geospatial innovation within the UN Open GIS Initiative as Domain Working Group 7. The group tests emerging technologies including Generative AI, Distributed Web, and IoT devices for future geospatial operations. This presentation showcases recent developments in UNVT POD and FOIL4G projects, demonstrating how FOSS4G tools integrate with cutting-edge technologies to democratize geospatial information access.\r\n\r\nThe group operates on three fundamental pillars: Openness, Collaboration, and Innovation. The organization embraces a philosophy of open by default, leveraging open-source technologies, open practices, and open communities to democratize access to geospatial information. Central to this approach is the recognition that AI has become an integral collaborator in the work, with the understanding that we must be prepared to welcome sufficiently advanced AI as collaborators in the near future.\r\n\r\nThe UN Vector Tile Toolkit Portable on Demand (UNVT POD) represents a paradigm shift in geospatial infrastructure deployment. Built on Raspberry Pi technology and utilizing FOSS4G tools including Tippecanoe for vector tile generation, MapLibre GL JS for visualization, and Martin for tile serving, UNVT POD creates map servers that operate independently of traditional internet infrastructure. Key capabilities include edge computing that enables high-speed response in remote areas, offline-first design that maintains functionality without network connectivity, solar power compatibility that supports sustainable operation in energy-limited environments, and community management systems that can be operated and maintained by local personnel without specialized technical knowledge. \r\n\r\nThe Free and Open Information Library for Geospatial (FOIL4G) integrates Generative AI capabilities with traditional UNIX tools and FOSS4G technologies to create an intelligent geospatial information processing system. \r\n\r\nThe group's exploration of Distributed Web (DWeb) technologies, particularly IPFS (InterPlanetary File System), addresses critical challenges in geospatial data sharing and preservation. This approach enables decentralized data storage and distribution, enhanced resilience against network disruptions, reduced bandwidth requirements for large geospatial datasets, and improved data sovereignty for local communities.\r\n\r\nThe technical solutions are built on cloud-native principles while maintaining the ability to operate in completely disconnected environments. The architecture emphasizes microservices design with modular components that can be deployed independently, API-first approach ensuring interoperability with existing systems, and GitOps methodology for transparent and collaborative development processes.\r\n\r\nThis presentation will demonstrate live deployments of technologies and invite the FOSS4G community to engage with initiatives. The combination of proven open-source tools with emerging technologies like AI and DWeb creates unprecedented opportunities for democratizing geospatial information access and empowering communities worldwide. The UN Smart Maps Group's work exemplifies how international organizations can leverage community-driven innovation to address global challenges while maintaining the open principles that make geospatial technology accessible to all.",
+    "start_datetime": "2025-11-19T01:00:00Z",
+    "end_datetime": "2025-11-19T01:25:00Z",
+    "talk:code": "HUAWWF",
+    "talk:guid": "8a9170d9-0dc9-5205-8896-8e965311b915",
+    "talk:event": "foss4g-2025",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG126",
+    "talk:room_capacity": 140,
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "WFYVSX",
+        "name": "Hidenori Fujimura",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/WFYVSX/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-19T01:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/HUAWWF/",
+      "title": "State of UN Smart Maps Group"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/HUAWWF/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/WFYVSX/",
+      "title": "Hidenori Fujimura"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/HUAWWF/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

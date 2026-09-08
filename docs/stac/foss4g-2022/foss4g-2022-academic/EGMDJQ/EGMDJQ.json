@@ -1,0 +1,93 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "EGMDJQ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Geospatial data exchange using binary data serialization approaches",
+    "description": "Data-driven innovation, as outlined by Granell et al. (2022), has seen recent advances in technology driven by the continuous influx of data, miniaturization and massive deployment of sensing technology, data-driven algorithms, and the Internet of Things (IoT). Data-driven innovation is considered key in several policy efforts, including the recently published European strategy for data, where the European Commission acknowledged Europe\u2019s huge potential in the data economy by leveraging on available data produced by all actors (including public sector, private sector, academia and citizens). Technologies currently used for the management, exchange and transmission of data, including geospatial data, must be evaluated in terms of their suitability to efficiently adapt to streams of larger data and datasets. As more users access data services through mobile devices and service providers are faced with the challenges of making larger volumes of data available, we must consider how to optimise the exchange of data between these clients and servers (services). For many years JSON, GeoJSON, CSV and XML have been considered as the 'de facto' standard for data serialisation formats. These formats, which enjoy near ubiquitous software tool support, are commonly used for the storage and sharing of large amounts of data in an interoperable way. Most Application Programming Interfaces (APIs) available today facilitate data sharing and exchange, for a myriad of different types of applications and services, using these exchange formats (Vaccari et al., 2020). However, there are many limitations to approaches based on JSON and XML when the volume of data is likely to be large. Potentially the most serious of these limitations is related to reduced computational performance, when exchanging or managing large volumes of data where there are high computational costs associated with (de)serializing and processing these data. \r\n\r\nAgainst this background, binary data serialization approaches allowing for the interoperable exchange of large volumes of data have been used extensively within scientific communities such as meteorology and astronomy for decades. In recent years, popular distributors of geospatial data have also begun making use of binary data formats. Examples are OpenStreetMap (OSM) data (e.g. the OSM Planet and OSM Full History Planet files, providing access to the whole OSM database and its history) as well as the popular ESRI Shapefile format's main file (.shp), which also contains geometry data and is stored as a binary data file. \r\n\r\nIn this paper we describe the methodology, implementation and analysis of a set of experiments to analyse the use of binary data serialization as an alternative to data exchange in XML or JSON data formats for several commonly encountered GIS workflows. Binary data serialization allows for the storage and exchange of large amounts of data in an interoperable fashion (Vanura and Kriz, 2018). While anecdotal evidence indicates binary serialization approaches are more efficient in terms of computation costs, processing times, etc., there are additional overheads to consider with these approaches including special software tools, additional configuration, schema definitions, etc. (Viotti and Kinderkhedia, 2022). Additionally, there have been few, if any, investigations of binary data serialization approaches specifically for geographical data. Our set of experiments investigates the advantages and disadvantages of binary data serialization for three common GIS workflow scenarios: (1) geolocation point data from an OGC SensorThings API; (2) geolocation point data from a very large static GeoPackage dataset representing the conflation of address data from the National Land Survey of Finland and OpenStreetMap; and (3) geographic polygon datasets containing land cover polygons (currently ongoing work). We consider comparisons of JSON and GeoJSON with two very popular binary data formats (Proos and Carlsson, 2020), namely Google Protocol Buffers and Apache Avro. Protocol Buffers (Protobuf) is an open source project developed by Google providing a platform neutral mechanism for serializing structured data. Apache Avro, another very popular schema-based binary data serialization technique, is also a language-neutral approach which was originally developed for serializing data within Apache Hadoop. Both Protobuf and Avro have wide support in many popular languages such as C++, C#, Java and Python. The full paper will provide detailed descriptions of the implementations of our experiments. However, here we provide a summary of some of the key results and highlights of our analysis. \r\nAs binary data formats such as Protobuf and Avro are not self-describing schemata and schema definitions are required for each dataset or data stream, these definitions are required for the serialization and deserialization of the binary data files. Any changes in the underlying data models of the dataset or data stream will require a change in the schema definitions. \r\nFor all of our experiments the serialized binary data files were at least 20% smaller on average than the original non-binary data files. Processing times for binary serialization of data from API sources were approximately 3.7 times faster on average than serialization to JSON or GeoJSON formats. Processing times for binary serialization of the datasets were, on average, at least 10% faster than serialization to JSON or GeoJSON formats. \r\nIt is difficult to point to a clearly defined set of results which indicate that binary data formats are an overwhelmingly better choice for data exchange than XML, JSON or GeoJSON. While binary data formats enjoy very good expert developer level support in major programming language implementations, this is dwarfed by the near universal levels of support for XML, JSON and GeoJSON in almost all major programming languages. \r\n\r\nThere are a number of potential avenues for future, including automated semantic interoperability for binary data serialization using linked geodata, opportunities for more integrated software tool support for binary data processing and further computational experimentation on different types of datasets and services which could benefit from binary data serialization. \r\n\r\nThe software implementation is carried out using Python 3 on Ubuntu Linux. All software code is made publicly available via the GitHub repository https://github.com/petermooney/jrc_binarydata. Detailed instructions on how to reproduce and replicate all of the experimental analysis are provided within the repository.",
+    "start_datetime": "2022-08-25T12:45:00Z",
+    "end_datetime": "2022-08-25T13:15:00Z",
+    "talk:code": "EGMDJQ",
+    "talk:guid": "6c1700c3-b3c7-5a6b-992e-f6423863424f",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room Modulo 3",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "3HWNNC",
+        "name": "Peter Mooney",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/3HWNNC/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T13:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/EGMDJQ/",
+      "title": "Geospatial data exchange using binary data serialization approaches"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/EGMDJQ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/3HWNNC/",
+      "title": "Peter Mooney"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/petermooney/jrc_binarydata",
+      "title": "github.com/petermooney/jrc_binarydata"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/EGMDJQ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

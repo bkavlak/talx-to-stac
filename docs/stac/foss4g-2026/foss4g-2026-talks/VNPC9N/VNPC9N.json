@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "VNPC9N",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "The state of MapLibre: ecosystem update",
+    "description": "Learn of all that is new in MapLibre - changes to the web map renderer, the native, the Martin tile server, and numerous other changes including the short intro into MLT - new tile format.\n\nOver the past year, the MapLibre ecosystem has taken major steps forward, introducing innovations that modernize open-source mapping from the tile format all the way to client SDKs and servers.\r\n\r\nAt the center of this evolution is MapLibre Tile (MLT) \u2014 a next-generation successor to the traditional MVT format. Designed for today\u2019s graphics pipelines and large-scale geospatial workloads, MLT delivers significantly smaller tiles, faster decoding, and a foundation for future capabilities such as improved 3D support and more efficient GPU workflows. With a column-oriented layout and lightweight encodings, it improves compression and performance, enabling maps that load faster and scale better. Support for MLT is already landing across the MapLibre ecosystem, making experimentation and adoption practical today.\r\n\r\nBeyond the tile format, both MapLibre GL JS and MapLibre Native continue to advance. Recent improvements include better performance with large GeoJSON datasets, enhanced font and international text rendering, smoother symbol placement, and ongoing rendering backend work that prepares the stack for the next generation of graphics APIs. These updates benefit web, mobile, and embedded applications alike.\r\n\r\nOn the server side, Martin, the open-source tile server, has matured into a production-ready solution capable of serving vector and raster tiles from multiple backends. With continued performance improvements and support for modern tile formats, it strengthens the end-to-end open mapping pipeline.\r\n\r\nThis talk will explore how vector tiles are being reborn within the MapLibre ecosystem \u2014 smaller, faster, and more capable \u2014 and showcase the latest progress across web, native, and server components that are shaping the future of open mapping.",
+    "start_datetime": "2026-09-01T04:00:00Z",
+    "end_datetime": "2026-09-01T04:30:00Z",
+    "talk:code": "VNPC9N",
+    "talk:guid": "d6a33384-1126-58e9-beed-bad4737e0780",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Ran2",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "VXXFNW",
+        "name": "Yuri Astrakhan",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/VXXFNW/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T04:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/VNPC9N/",
+      "title": "The state of MapLibre: ecosystem update"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/VNPC9N/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/VXXFNW/",
+      "title": "Yuri Astrakhan"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/VNPC9N/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

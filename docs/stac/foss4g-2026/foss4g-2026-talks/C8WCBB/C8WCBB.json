@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "C8WCBB",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "The state of GeoPlegma",
+    "description": "This session provides an overview of the GeoPlegma project, how it evolved the past year and what is in store for the next.\n\nGeoPlegma is an ambitious project to provide a unified development platform for DGGS software. Written in Rust, it exposes an API to interrogate Discrete Global Grid Reference Systems (DGGRS) and create data structures based on DGSS. Besides a native DGGS implementation, GeoPlegma is also a bridge to other implementations, including:\r\n- DGGRID\r\n- DGGAL\r\n- H3\r\n\r\nUltimately, GeoPlegma intends to be the bedrock on which a new generation of GIS software may be build, in a geodesic paradigm, dispensing the trade-offs of traditional cartography with map projections at large scales.",
+    "start_datetime": "2026-09-01T05:00:00Z",
+    "end_datetime": "2026-09-01T05:30:00Z",
+    "talk:code": "C8WCBB",
+    "talk:guid": "d3a6546d-1aef-5b02-9fe4-68e11dd768cb",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Ran2",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "UF7J7G",
+        "name": "Lu\u00eds M. de Sousa",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/UF7J7G/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T05:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/C8WCBB/",
+      "title": "The state of GeoPlegma"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/C8WCBB/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/UF7J7G/",
+      "title": "Lu\u00eds M. de Sousa"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/C8WCBB/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

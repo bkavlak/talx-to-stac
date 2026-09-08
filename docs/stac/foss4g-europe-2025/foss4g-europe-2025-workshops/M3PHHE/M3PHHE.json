@@ -1,0 +1,118 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "M3PHHE",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8094,
+      43.3416
+    ]
+  },
+  "bbox": [
+    17.8094,
+    43.3416,
+    17.8094,
+    43.3416
+  ],
+  "properties": {
+    "title": "ESA EarthCODE 101",
+    "description": "The ESA EarthCODE platform (https://earthcode.esa.int/) is revolutionizing Earth System Science with Open Science principles. \r\n\r\nThe platform is a dynamic Collaborative Open Development Environment created to transform Earth System Science by embedding FAIR and Open Science Principles into the scientific development process. By providing tools, expertise, and opportunities, EarthCODE enables science teams to seamlessly adopt open science practices as part of their workflows. With seamless access to commercial platform services and a wealth of community resources and tools, EarthCODE empowers scientists to collaborate, innovate, and adhere to open research practices, driving the next wave of discovery in Earth Science. \r\n\r\nSummary: \r\nThis hands-on workshop is designed to introduce participants to EarthCODE's capabilities, guiding them from searching, finding, and accessing EO datasets and workflows to publishing reproducible experiments that can be shared with the wider scientific community. This workshop will equip you with the tools and knowledge to leverage EarthCODE for your own projects and contribute to the future of open science. \r\n\r\nDuring this 4-hour workshop, participants will, in a hands-on fashion, learn about: \r\n\r\n- Introduction to EarthCODE and the future of FAIR and Open Science in Earth Observation \r\n- Gain understanding in Finding, Accessing, Interoperability, and Reusability of data and workflows on EarthCODE \r\n- Creating reproducible experiments using EarthCODE\u2019s platforms - with a hands-on example with Euro Data Cube and Pangeo \r\n- Publishing data and experiments to EarthCODE \r\n\r\nAt the end of the workshop, we will take time for discussion and feedback on how to make EarthCODE better for the community.  \r\n\r\nWorkshop Overview: \r\n1. Introduction to EarthCODE and the Future of FAIR and Open Science in Earth Observation \r\n\r\nThe workshop begins with an introduction to the EarthCODE platform and its role in promoting FAIR principles within the EO community. This section will address the challenges of working with EO data at scale and how EarthCODE provides a robust infrastructure for data discovery, processing, and sharing. Participants will gain insight into the importance of reproducibility in EO research and the ways open science practices are shaping the future of the field. \r\n\r\nTopics covered: \r\n\r\n- Overview of EarthCODE\u2019s mission and architecture \r\n- Overview of EarthCODE platforms (at present including Euro Data Cube, DeepESDL and Copernicus/OpenEO) \r\n- The importance of FAIR principles in EO data \r\n- Challenges in EO data management and reproducibility \r\n\r\n\r\n2. Finding, Accessing, Interoperability, and Re-Use of Data and Reproducible Workflows on EarthCODE \r\n\r\nThis section goes through navigating the EarthCODE Science Catalog. Participants will be guided through methods for efficiently finding and accessing a diverse range of EO research datasets and workflows. The session will highlight the practical application of STAC/OGC metadata standards. \r\n\r\nHands-on activities: \r\n- Finding and accessing datasets on EarthCODE Science Catalog \r\n- Understanding STAC/OGC API Records metadata standards \r\n- Re-running experiments and adapting pre-existing workflows to new datasets and research objectives using EarthCODE's cross-platform capabilities \r\n\r\n3. Creating FAIR Data and Workflows Using EarthCODE\u2019s Platforms \u2013 Hands-On with EDC and Pangeo \r\n\r\nEarthCODE\u2019s key strengths are its cross-platform capabilities and integration with platforms such as Euro Data Cube (EDC) and Pangeo. This session will focus on creating and publishing an experiment on EarthCODE, including workflow and data, from start to finish. Participants will work with real-world datasets, apply processing workflows, and learn how to share their results. \r\n\r\nWe will introduce the Pangeo ecosystem (http://pangeo.io/) and EDC (https://eurodatacube.com/), demonstrating the core concepts of open, reproducible, and scalable Earth science. Participants will explore hands-on tasks, including: \r\n\r\n- Accessing data using Pangeo on EDC \r\n- Loading and analysing data with Xarray \r\n- Visualizing data with HvPlot \r\n- Understanding how to scale analysis with Dask \r\n\r\nExample datasets will include Copernicus Sentinel satellite data, as well as products from the Atmosphere Monitoring and Climate Change Services. All Python packages used during the training are open-source to ensure accessibility and reusability for all participants. \r\n\r\nHands-on activities: \r\n- Setting up an EDC Pangeo environment \r\n- Introduction to Pangeo \r\n- Using Pangeo for scalable data processing \r\n\r\n4. Publishing Data and Experiments to EarthCODE \r\n\r\nThis section will follow-up on the developed workflows/data from the last session, participants will learn how to publish their experiments and datasets to EarthCODE, making them available for other researchers. We will cover best practices and guidelines for FAIR and Open-Science and common tools to help you generate metadata. \r\n\r\nHands-on activities: \r\n\r\n- Preparing an experiment for publication to EarthCODE and data formats \r\n- FAIR and Open-Science Guidelines for EarthCODE \r\n- Using stactools and validation tools to create metadata \r\n- Publishing datasets and workflows to EarthCODE\u2019s repository\r\n\r\n5. Discussion and Feedback: Making EarthCODE Better for the Community \r\n\r\nThe final session is an open discussion where participants can share feedback about EarthCODE , including improvements and new features. This is an opportunity to help shape the future of EarthCODE.",
+    "start_datetime": "2025-07-15T12:00:00Z",
+    "end_datetime": "2025-07-15T16:00:00Z",
+    "talk:code": "M3PHHE",
+    "talk:guid": "6af8a65c-95e6-582c-a5f4-e1065f7adc4b",
+    "talk:event": "foss4g-europe-2025-workshops",
+    "talk:type": "workshop",
+    "talk:language": "en",
+    "talk:room": "PL13",
+    "talk:room_capacity": 45,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "QFXW89",
+        "name": "Stephan Mei\u00dfl",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025-workshops/speaker/QFXW89/"
+      },
+      {
+        "code": "7XNWBN",
+        "name": "Anca Anghelea",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025-workshops/speaker/7XNWBN/"
+      },
+      {
+        "code": "BL3YAG",
+        "name": "Deyan Samardzhiev",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025-workshops/speaker/BL3YAG/"
+      },
+      {
+        "code": "L9W7UM",
+        "name": "Anne Fouilloux",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025-workshops/speaker/L9W7UM/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-15T14:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025-workshops/talk/M3PHHE/",
+      "title": "ESA EarthCODE 101"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025-workshops/talk/M3PHHE/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025-workshops/speaker/QFXW89/",
+      "title": "Stephan Mei\u00dfl"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025-workshops/speaker/7XNWBN/",
+      "title": "Anca Anghelea"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025-workshops/speaker/BL3YAG/",
+      "title": "Deyan Samardzhiev"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025-workshops/speaker/L9W7UM/",
+      "title": "Anne Fouilloux"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025-workshops/talk/M3PHHE/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-workshops"
+}

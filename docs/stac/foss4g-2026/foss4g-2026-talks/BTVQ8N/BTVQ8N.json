@@ -1,0 +1,106 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "BTVQ8N",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "GeoServer 3 complete - final update",
+    "description": "GeoServer 3 completes a long-planned modernization effort updating core dependencies while preserving backwards compatibility. This talk revisits the transition, outlines how it was organized and delivered, shares lessons learned and future directions.\n\nGeoServer 3 marks the completion of a long-planned modernization effort aimed at keeping the project aligned with the current Java ecosystem, while preserving the stability and backwards compatibility that users rely on. Now that GeoServer 3 has been available for a few months, this session provides a final update on the work and its outcomes.\r\n\r\nWe\u2019ll revisit the initial drivers behind the transition, starting from the upgrade of core dependencies, how that cascaded to more updates, resulting in a coordinated effort across multiple projects. From there, we\u2019ll outline the main phases of the work: how the upgrade was organized, funded, managed new needs, and ultimately delivered.\r\n\r\nThe talk focuses on the process and its results: what it took to modernize a mature codebase while maintaining a high degree of compatibility, the challenges encountered along the way, and how they were addressed. We\u2019ll also share early feedback from adoption and what users can expect when moving to GeoServer 3.\r\n\r\nJoin us for a practical retrospective on the transition to GeoServer 3, and a discussion of how the project continues to evolve while staying true to its core principles.",
+    "start_datetime": "2026-09-01T05:00:00Z",
+    "end_datetime": "2026-09-01T05:30:00Z",
+    "talk:code": "BTVQ8N",
+    "talk:guid": "4bed6321-f655-5a0d-82ec-66f07d184a7d",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RBSH8T",
+        "name": "Andrea Aime",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/RBSH8T/"
+      },
+      {
+        "code": "BQBVFC",
+        "name": "Jody Garnett",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/BQBVFC/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T05:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/BTVQ8N/",
+      "title": "GeoServer 3 complete - final update"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/BTVQ8N/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/RBSH8T/",
+      "title": "Andrea Aime"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/BQBVFC/",
+      "title": "Jody Garnett"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/BTVQ8N/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "geoserver-3-complete-final-update": {
+      "href": "https://talks.osgeo.org/media/foss4g-2026/submissions/BTVQ8N/resources/GeoServer_3_Complete_3qyfIfB.pdf",
+      "type": "application/pdf",
+      "title": "GeoServer 3 complete - final update",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "EZVHQQ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "GeoArrow on Web; Can We Live Without GeoJSON?",
+    "description": "GeoArrow is a binary data format for geospatial data. It is designed for efficient data exchange, so is suitable for such usages as WebGIS. This talk will give the overview and the current status, including the limitation, of FOSS4G ecosystem around it, including DuckDB, Deck.gl, and MapLibre.\n\nWe all love binary data. In the world of WebGIS, binary vector tile quickly became the de-facto standard. However, when it comes to non-tiled data, the king of text data format, GeoJSON, still rules. GeoJSON is nice and handy, but not very suitable for big data. To unleash the potential of FOSS4G ecosystem, we need an efficient binary data format. GeoArrow, a specification based on Apache Arrow data format, is the most promising candidate for this.\r\n\r\nThe Apache Arrow ecosystem is already very rich. Apache Arrow officially provides libraries and tools for various programming languages. Many FOSS tools support reading and writing in the format. Thanks to the infrastructure, GeoArrow works very smoothly in many use cases.\r\n\r\nHowever, web-related technologies provide relatively less support for GeoArrow. At least, we haven't reached to the point where we can replace GeoJSON with GeoArrow freely. This talk reviews the current status of FOSS4G software related to GeoArrow.",
+    "start_datetime": "2025-11-20T22:00:00Z",
+    "end_datetime": "2025-11-20T22:25:00Z",
+    "talk:code": "EZVHQQ",
+    "talk:guid": "da953c49-9f37-5af5-8b23-fd249092c5ec",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Tools, Libraries & Visualisation",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG403",
+    "talk:room_capacity": 386,
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "JQYQKC",
+        "name": "Hiroaki Yutani",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/JQYQKC/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-20T22:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/EZVHQQ/",
+      "title": "GeoArrow on Web; Can We Live Without GeoJSON?"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/EZVHQQ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/JQYQKC/",
+      "title": "Hiroaki Yutani"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/EZVHQQ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=VgRGfdV2iXE",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | GeoArrow on Web; Can We Live Without GeoJSON?",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

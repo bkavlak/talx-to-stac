@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "JR3EUK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "From Chaos to Confidence: Practical DataOps with COG Optimization and Great Expectations for National-Scale Agriculture.",
+    "description": "We share GISTDA\u2019s Dragonfly project lessons on national-scale agricultural monitoring. We optimize COG performance to reduce TTFB and ensure data reliability using Great Expectations automated quality gates. Attendees gain actionable DataOps insights for building resilient, high-performance cloud-native ecosystems from real-world operational experience.\n\nOperationalizing satellite imagery for national-scale agricultural monitoring within the GISTDA Dragonfly project taught us two critical lessons: first, \"standard\" Cloud Optimized GeoTIFF (COG) configurations often fail under the pressure of low-latency production requirements, and second, speed is useless if the data is incorrect. This paper shares our practical journey in building a raster delivery pipeline that prioritizes both extreme performance and data reliability.\r\n\r\nThe first part of our story focuses on overcoming performance bottlenecks encountered in the field. We discuss how sub-optimal COG parameters\u2014such as misaligned internal tiling or inefficient compression\u2014directly degraded the user experience. By implementing advanced tuning techniques, including strict byte-alignment and optimized ZSTD compression, we achieved reduction in Time to First Byte (TTFB), enabling seamless data access via OGC Environmental Data Retrieval (EDR) APIs.\r\n\r\nThe second part addresses our most challenging hurdle: \"silent failures.\" From inconsistent spatial resolutions to corrupted metadata, these issues often bypassed traditional checks. To solve this, we integrated Great Expectations (GX) as a mission-critical automated quality gate. We share our experience in designing geospatial-specific \"Expectations\" to ensure that every 10m pixel and internal structure adheres to rigorous production standards before being served to end-users.\r\n\r\nAttendees will gain actionable DataOps insights derived from real-world operational experience, moving beyond basic data conversion to building a resilient, high-performance cloud-native ecosystem.\r\n\r\nKey Takeaways for Attendees:\r\n- Deep Understanding: Grasp the critical impact of byte-alignment and internal tiling on cloud storage I/O performance.\r\n- Data Reliability: Learn how to design and enforce \"Geospatial Data Contracts\" to eliminate silent failures.\r\n- DataOps Roadmap: A strategic guide for transitioning from manual data processing to automated, continuous cloud-native delivery.",
+    "start_datetime": "2026-09-03T02:00:00Z",
+    "end_datetime": "2026-09-03T02:30:00Z",
+    "talk:code": "JR3EUK",
+    "talk:guid": "88e291ff-d96a-58a5-81a0-85186267525e",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room5",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "BFRMJ8",
+        "name": "PEERANAT PRASONGSUK",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/BFRMJ8/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-03T02:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/JR3EUK/",
+      "title": "From Chaos to Confidence: Practical DataOps with COG Optimization and Great Expectations for National-Scale Agriculture."
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/JR3EUK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/BFRMJ8/",
+      "title": "PEERANAT PRASONGSUK"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/JR3EUK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

@@ -1,0 +1,127 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "CD9QVE",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Publishing INSPIRE and other rich data models in GeoServer made easy with Smart Data Loader and Features Templating",
+    "description": "This presentation will cover the support GeoServer provides to publish rich data models (complex features with nested properties and multiple-cardinality relationships), through OGC services and OGC API - Features, focusing on the recent Smart Data Loader and Features Templating extensions, covering in detail ongoing and planned work on GeoServer. \r\n\r\nAs far as the INSPIRE scenario is concerned, GeoServer has extensive support for implementing view and download services thanks to its core capabilities but also to a number of free and open-source extensions; undoubtedly the most well-known (and dreaded) extension is App-Schema, which can be used to publish complex data models and implement sophisticated download services for vector data.\r\n\r\nWe will also provide an overview of how those extensions are serving as a foundation for new approaches to publishing rich data models: publishing them directly from MongoDB, embracing the NoSQL nature of it, and supporting new output formats like JSON-LD which allows us to embed well-known semantics in our data. \r\n\r\nReal-world use cases from the organizations that have selected GeoServer and GeoSolutions to support their use cases will be introduced to provide the attendees with references and lessons learned that could put them on the right path when adopting GeoServer.",
+    "start_datetime": "2024-07-05T11:30:00Z",
+    "end_datetime": "2024-07-05T12:00:00Z",
+    "talk:code": "CD9QVE",
+    "talk:guid": "e7371ce1-e441-5184-90b5-533e8e3e971b",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Open standards and interoperability for geospatial",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Destination Earth (Van46 ring)",
+    "talk:room_capacity": 400,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RBSH8T",
+        "name": "Andrea Aime",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/RBSH8T/"
+      },
+      {
+        "code": "CXTHFZ",
+        "name": "Nuno Oliveira",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/CXTHFZ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-05T11:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/CD9QVE/",
+      "title": "Publishing INSPIRE and other rich data models in GeoServer made easy with Smart Data Loader and Features Templating"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/CD9QVE/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/RBSH8T/",
+      "title": "Andrea Aime"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/CXTHFZ/",
+      "title": "Nuno Oliveira"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/CD9QVE/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "publishing-inspire-and-other-rich-data-models-in-geoserver-m": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/CD9QVE/resources/INSPIRE_datasets_in_GeoServer_made_easy__sklNeCn.pdf",
+      "type": "application/pdf",
+      "title": "Publishing INSPIRE and other rich data models in GeoServer made easy with Smart Data Loader and Features Templating",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/px6DXE5sBKjNBKSNtK2Zpw",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Publishing INSPIRE and other rich data models in GeoServer made easy with Smart ...",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=044Pi5F9D5c",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Publishing INSPIRE and other rich data models in GeoServer made easy with Smart ...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

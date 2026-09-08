@@ -1,0 +1,101 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "33YRC7",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "DuckLake: A scalable data lakehouse for web mapping?",
+    "description": "PostgreSQL and PostGIS remain the default choice for geospatial data management. Their strict ACID compliance and extensive spatial capabilities cover most standard use cases. However, scaling a dynamic, multi-tenant WebGIS platform, where users continuously upload custom datasets, reveals the scalability boundaries of traditional relational architectures.\r\n\r\nDuring the development of the WebGIS platform, [GOAT](https://github.com/plan4better/goat), we encountered these constraints directly. Initially, all spatial data was stored in a monolithic PostgreSQL database. To prevent the system catalogs from overloading due to creating thousands of user-specific tables, we consolidated datasets into multi-tenant tables grouped by geometry type. This stabilized the table count, but as platform adoption increased, individual tables rapidly exceeded 50GB. The resulting volume of data and indexes degraded query performance and complicated maintenance.\r\n\r\nAttempting to resolve this computationally, we implemented Citus to shard and distribute the data. While this approach provided vertical scaling, managing a distributed PostgreSQL cluster introduced significant operational complexity. Furthermore, the application logic required extensive refactoring to accurately route queries using distribution columns. When we evaluated horizontal scaling through read replicas, the infrastructure cost of duplicating a multi-terabyte database proved prohibitive for a small team. Even with a strong preference for the PostGIS ecosystem, we were maintaining a fragile system that was slow to back up and difficult to sustainably host.\r\n\r\nA common structural response to this challenge is separating storage from compute via a lakehouse architecture. We evaluated managed solutions like BigQuery and Databricks, which offer expanding spatial support. Yet, for an open-source project, these platforms present distinct disadvantages: high costs, vendor lock-in, and an inability to be self-hosted, bypassing data sovereignty requirements for certain clients. Focusing on open-source frameworks, Apache Iceberg stood out as a mature, production-ready standard. However, we ultimately opted to test a novel framework still in its early stages: DuckLake. \r\n\r\nDuckLake provides a strict separation of concerns. It manages metadata within a lightweight relational database while storing the actual data in highly compressed Parquet files. Built around DuckDB, it allows direct access to DuckDB's native spatial functions, including vector tile generation.\r\n\r\nWe integrated DuckLake despite its beta status, primarily to test DuckDB's minimal storage requirements, strong analytical capabilities, and open-source foundation. The infrastructural shift was measurable. Transitioning large-scale system layers\u2014such as nationwide street networks\u2014and user data from PostGIS to Parquet reduced our total storage footprint by at least 90%. This was achieved through a combination of Parquet's columnar compression and the elimination of traditional database indexes, which previously accounted for a massive portion of our storage.\r\n\r\nCurrently, our data is stored on scalable volumes and backed up to S3-compatible object storage. Analytical compute has been decoupled and is managed by Windmill, orchestrating background Python jobs to execute DuckDB queries on demand. While a minor subset of highly specific queries show slight performance regressions compared to PostGIS, the vast majority execute significantly faster. This shift is particularly noticeable during large-scale spatial analytics, as columnar storage outperforms row-based continuous reading when scanning and aggregating massive datasets.  \r\n\r\nBecause Parquet files are highly compressed and immutable, they cannot be edited in place. To support data mutations, DuckLake writes edits to separate delta files, which are dynamically merged during query execution. Furthermore, DuckLake can save small edits directly to PostgreSQL using inlining. The underlying metadata layer, responsible for tracking these file shifts, is managed by PostgreSQL. Since PostgreSQL is optimized for rapid transactions, this hybrid approach allows us to retain the metadata management of a relational database while utilizing the storage efficiency of Parquet for massive spatial datasets. Additionally, DuckLake provides built-in support for versioning and time travel, maintaining a history of data mutations.\r\n\r\nWhile analytical workloads benefited from this architecture, we encountered distinct challenges regarding the high-frequency queries required by web mapping. Although Parquet files can be optimized through sorting and partitioning, they are not naturally designed for the low-latency, point-lookup access patterns required by vector tile or feature services. Notably, standard Parquet implementations do not inherently support spatial indexes, meaning spatial queries often trigger full file scans rather than targeted reads.\r\nSpecifically, generating dynamic vector tiles requires evaluating and filtering entire Parquet files for every incoming user request, creating a severe performance bottleneck on larger datasets. Additionally, maintaining continuous access to the PostgreSQL metadata layer via DuckDB frequently exhausted database connection limits, which introduced noticeable latency during initial query execution.\r\n\r\nTo mitigate these issues, we introduced connection pooling using PgBouncer and caching strategies via Redis. However, these solutions only masked the underlying problem for large datasets. Ultimately, we adopted a hybrid vector tile architecture to bypass these limitations: we rely on static vector tiles generated by Tippecanoe for base layers, reserving DuckDB's dynamic, on-the-fly vector tile generation strictly for volatile, filtered, or actively edited datasets.\r\n\r\nDuring the development of GOAT, testing DuckLake demonstrated both its current utility and its limitations. While the framework is still in its early stages and requires architectural workarounds\u2014like our hybrid vector tile setup\u2014to handle low-latency web mapping, it functions as a practical complement to PostgreSQL and PostGIS for heavy analytical workloads. The upcoming native support for GeoParquet is expected to address several of the current performance bottlenecks by introducing geometry as a native Parquet type, which should improve execution times for spatial bounding box and intersection queries. For analytics-heavy platforms managing multi-tenant data, the combination of DuckLake and DuckDB offers an alternative approach to scaling spatial infrastructure while maintaining manageable server costs.",
+    "start_datetime": "2026-06-30T07:30:00Z",
+    "end_datetime": "2026-06-30T08:00:00Z",
+    "talk:code": "33YRC7",
+    "talk:guid": "999e8ee0-03e2-59af-9890-27fcada682ab",
+    "talk:event": "foss4g-europe-2026",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "A11",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "TE8YTF",
+        "name": "Majk Shkurti",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/TE8YTF/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-06-30T07:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/33YRC7/",
+      "title": "DuckLake: A scalable data lakehouse for web mapping?"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/33YRC7/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/TE8YTF/",
+      "title": "Majk Shkurti"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/plan4better/goat",
+      "title": "GOAT"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/33YRC7/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "ducklake-a-scalable-data-lakehouse-for-web-mapping": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2026/submissions/33YRC7/resources/2026-06-30_Ducklake_as_Data__zlDyOVK.pdf",
+      "type": "application/pdf",
+      "title": "DuckLake: A scalable data lakehouse for web mapping?",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

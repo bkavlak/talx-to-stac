@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "RTTEQX",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Using WRF-UCM as Boundary Forcing for Microscale Models in Data-Scarce Urban Environments",
+    "description": "Urban microclimate modelling has become an important tool for analysing urban heat island effects, thermal comfort, and the environmental performance of urban design interventions. High-resolution microscale models allow researchers to investigate the interaction between urban morphology, surface materials, vegetation, and atmospheric processes at the scale of individual streets or neighbourhoods. Among these models, ENVI-met is widely used for simulating urban microclimate conditions due to its ability to resolve airflow, radiation exchange, heat transfer, and vegetation\u2013atmosphere interactions within complex urban environments.\r\nDespite their advanced capabilities, microscale models require detailed meteorological forcing data as input. These forcing datasets typically include time series of air temperature, wind speed and direction, relative humidity, and radiation parameters, which are usually obtained from nearby surface meteorological observations. In practice, however, such observational datasets are often unavailable, incomplete, or insufficiently representative of the simulated urban area. This limitation is particularly pronounced in smaller cities, complex terrain environments, or rapidly developing urban regions where meteorological monitoring networks are sparse. As a result, the lack of reliable forcing data often represents a key barrier to the application of microscale urban climate models for real case-study scenarios.\r\nAt the same time, mesoscale numerical weather prediction models provide continuous spatial and temporal coverage of atmospheric variables and represent a valuable alternative source of meteorological data. The Weather Research and Forecasting (WRF) model (Skamarock et al. 2019), especially when coupled with an Urban Canopy Model (UCM) (Tewari et al. 2007), enables the simulation of urban surface\u2013atmosphere interactions at spatial resolutions ranging from several kilometres down to hundreds of metres. Mesoscale models incorporate land-use characteristics, surface energy balance processes, and regional atmospheric dynamics, allowing them to simulate realistic meteorological conditions across large spatial domains. While such models cannot explicitly resolve street-level urban geometry, they capture the broader atmospheric conditions and synoptic influences that drive local microclimate variability.\r\nThis study presents a methodology for generating meteorological forcing data for microscale urban climate simulations using outputs from an open-source mesoscale numerical weather prediction model. The proposed approach integrates ERA5 reanalysis datasets and WRF coupled with an Urban Canopy Model (WRF-UCM) to provide boundary forcing for simulations performed in the ENVI-met microscale modelling environment. The objective of the study is to demonstrate that mesoscale model outputs can effectively substitute for local meteorological observations in situations where surface measurement data are unavailable or insufficient.\r\nThe methodology follows a multi-scale modelling framework linking mesoscale and microscale atmospheric simulations. In the first stage, WRF-UCM simulations are performed for the broader study region using a system of nested domains to achieve progressively higher spatial resolution over the target urban area (Ko\u0161ice city, Slovakia). The mesoscale model configuration includes appropriate land-use classifications, urban parameterizations, and atmospheric boundary conditions to simulate key meteorological variables such as air temperature, wind speed and direction, humidity, and radiation fluxes.\r\nIn the second stage, selected meteorological variables from the WRF-UCM output are processed and transformed into forcing datasets compatible with ENVI-met boundary conditions. These datasets provide time-series information for near-surface atmospheric parameters required to initialize and drive microscale simulations. The generated forcing data are subsequently used as input for ENVI-met simulations representing detailed urban morphologies at the neighbourhood scale. Within this environment, the microscale model resolves local airflow patterns, radiation exchange between urban surfaces, vegetation interactions, and turbulent heat transfer processes.\r\nA key advantage of the proposed approach lies in its ability to provide physically consistent meteorological forcing derived from a dynamically simulated atmospheric environment rather than relying solely on point measurements from meteorological stations. Mesoscale model outputs capture the influence of large-scale atmospheric circulation patterns, regional weather systems, and surrounding terrain features, all of which significantly influence urban microclimate conditions. Consequently, the generated forcing datasets reflect broader environmental influences that may not be represented in boundary conditions by isolated observational measurements.\r\nThe methodology has been tested for several case studies focusing on urban environments where meteorological observations are limited or unavailable (Fedor and Hofierka 2022). Simulation results demonstrate that forcing data derived from WRF-UCM outputs can reproduce realistic temporal variability in key meteorological parameters required for microscale modelling. Comparisons with available observational datasets indicate that ENVI-met simulations driven by WRF-UCM forcing achieve satisfactory agreement with measured temperature and wind conditions, supporting the reliability of the proposed method.\r\nThese results suggest that mesoscale model outputs can serve as a viable alternative source of meteorological forcing for microscale urban climate simulations. The approach enables the application of high-resolution urban climate modelling tools in data-scarce environments while maintaining physically consistent boundary conditions. Additionally, the integration of mesoscale forcing improves the representation of regional atmospheric influences, including the effects of surrounding topography and synoptic weather patterns.\r\nThe presented framework contributes to the development of multi-scale urban climate modelling strategies that bridge the gap between regional atmospheric dynamics and local urban microclimates. By combining mesoscale numerical weather prediction models with detailed microscale simulations, the approach supports more comprehensive assessments of urban climate processes across spatial scales.\r\nThis research builds upon previous studies by the authors investigating numerical modelling approaches for urban climate analysis and the integration of mesoscale and microscale modelling techniques. The proposed methodology demonstrates the potential for expanding the applicability of microscale urban climate models to regions where conventional observational data are limited, while maintaining reliable simulation accuracy. In this context, the mesoscale model WRF-UCM, which is an open-source modelling system, provides a transparent and flexible framework for simulating urban atmospheric processes and enables reproducible coupling with microscale models.\r\nReferences\r\nFedor, T.; Hofierka, J. 2022: Comparison of urban heat island diurnal cycles under various atmospheric conditions using WRF-UCM. Atmosphere, 13(12), 2057. DOI: https://doi.org/10.3390/atmos13122057\r\nFedor, T.; Hofierka, J. 2025: Estimating heat stress in the urban centre of Ko\u0161ice using ENVI-met and high-resolution surface data. Geographia Cassoviensis 19(2), pp. 81-94. DOI: https://doi.org/10.3390/atmos13122057\r\nHuttner, S.; Bruse, M.; Dostal, P. 2008: Using ENVI-met to simulate the impact of global warming on the microclimate in central European cities. 5th Japanese-German Meeting on Urban Climatology, October 2008, pp. 307-312. Available online: https://envi-met.net/documents/papers/Huttner_etal_2008.pdf (Accessed 4. March 2026).\r\nSkamarock, W.C.; Klemp, J.B.; Dudhia, J. et al. 2019: A Description of the Advanced Research WRF Model Version 4. Technical Report NCAR/TN-556+STR. Available online:  https://www.ecampmany.com/docs/cheatsheets/WRF.pdf (Accessed 4. March 2026).\r\nTewari, M.; Chen, F.; Kusaka, H.; Miao, S. 2007: Coupled WRF/Unified Noah/Urban-Canopy Modeling System. Available online: https://ral.ucar.edu/sites/default/files/public/product-tool/WRF-LSM-Urban.pdf (Accessed  4. March 2026).",
+    "start_datetime": "2026-09-01T05:00:00Z",
+    "end_datetime": "2026-09-01T05:30:00Z",
+    "talk:code": "RTTEQX",
+    "talk:guid": "3c5e4ea4-11de-5de6-b33a-e69cad573ac5",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos2",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "HEE7YA",
+        "name": "Jaroslav Hofierka",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/HEE7YA/"
+      },
+      {
+        "code": "TUWFP9",
+        "name": "Tom\u00e1\u0161 Fedor",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/TUWFP9/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T05:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/RTTEQX/",
+      "title": "Using WRF-UCM as Boundary Forcing for Microscale Models in Data-Scarce Urban Environments"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/RTTEQX/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/HEE7YA/",
+      "title": "Jaroslav Hofierka"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/TUWFP9/",
+      "title": "Tom\u00e1\u0161 Fedor"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.3390/atmos13122057",
+      "title": "doi.org/10.3390/atmos13122057"
+    },
+    {
+      "rel": "related",
+      "href": "https://envi-met.net/documents/papers/Huttner_etal_2008.pdf",
+      "title": "envi-met.net/documents/papers/Huttner_etal_2008.pdf"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.ecampmany.com/docs/cheatsheets/WRF.pdf",
+      "title": "www.ecampmany.com/docs/cheatsheets/WRF.pdf"
+    },
+    {
+      "rel": "related",
+      "href": "https://ral.ucar.edu/sites/default/files/public/product-tool/WRF-LSM-Urban.pdf",
+      "title": "ral.ucar.edu/sites/default/files/public/product-tool/WRF-LSM-Urban.pdf"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/RTTEQX/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

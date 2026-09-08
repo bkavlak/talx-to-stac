@@ -1,0 +1,150 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "SP7KK3",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "The template for a Semantic SensorThings API with the GloSIS use case",
+    "description": "Motivation\r\n----------\r\n\r\n\r\nSpatial Data Infrastructures (SDI) developed for the exchange of environmental\r\nhas heretofore been greatly shaped by the standards issued by the Open\r\nGeospatial Consortium (OGC). Based on the Simple Object Access Protocol (SOAP),\r\nservices like WMS, WFS, WCS, CSW became digital staples for researchers and\r\nadministrative bodies alike. \r\n\r\nIn 2017 the Spatial Data on the Web Working Group (SDWWG) questioned the overall\r\napproach of the OGC, based on the ageing SOAP technology\r\n[@SDWWG2017]. The main issues identified by the SDWWG can be summarised as:\r\n\r\n- Spatial resources are not identified with URIs.\r\n- Modern API frameworks, e.g. OpenAPI, are not being used.\r\n- Spatial data are still shared in silos, without links to other resources.\r\n- Content indexing by search engines is not facilitated.\r\n- Catalogue services only provide access to metadata, not the data.\r\n- Data difficult to understand by non-domain-experts.\r\n\r\nTo address these issues the SDWWG proposed a five point strategy inspired on the\r\nFive Star Scheme [@BernersLee2006]:\r\n\r\n- **Linkable**: use stable and discoverable global identifiers.\r\n- **Parseable**: use standardised data meta-models such as CSV, XML, RDF, or JSON.\r\n- **Understandable**: use well-known, well-documented, vocabularies/schemas.\r\n- **Linked**: link to other resources whenever possible.\r\n- **Usable**: label data resources with a licence.\r\n\r\nThe work of the SDWWG triggered a transformational shift at the OGC towards\r\nspecifications based on the OpenAPI. But while convenience of use has been the\r\nfocus, semantics has been largely unheeded. A Linked Data agenda has not\r\nbeen pursued.\r\n\r\nHowever, the OpenAPI opens the door to an informal coupling of OGC services with\r\nthe Semantic Web, considering the possibility of adopting JSON-LD as\r\nsyntax to OGC API responses. The introduction of a semantic layer to digital\r\nenvironmental data shared through state-of-the-art OGC APIs is becoming a\r\nreality, with great benefits to researchers using or sharing data.\r\n\r\nThis communication lays down a simple SDI set up to serve semantic environmental\r\ndata through a SensorThings API created with the `glrc` software.  A use case is\r\npresented with soil data services compliant with the GloSIS web ontology.\r\n\r\nSensorThings API\r\n----------------\r\n\r\nSensorThings API is an OGC standard specifying a unified framework to\r\ninterconnect Internet of Things resources over the Web [@liang2016ogc].\r\nSensorThings API aims to address both the semantic, as well as syntactic,\r\ninteroperability. It follows ReST principles [@fielding2002principled],\r\npromotes data encoding with JSON, the OASIS OData protocol\r\n[@chappell2011introducing] and URL conventions. \r\n\r\nThe SensorThings API is underpinned on a domain model aligned with the ISO/OGC\r\nstandard Observations & Measurements (O&M) [@Cox2011], targeted at the\r\ninterchange of observation data of natural phenomena. O&M puts forth the\r\nconcept of `Observation` has an action performed on a `Feature of Interest`\r\nwith the goal of measuring a certain `Property` through a specific `Procedure`.\r\nSensorThings API mirrors these concepts with `Observation`, `Thing`,\r\n`ObservedProperty` and `Sensor`. This character makes of SensorThings API a\r\nvehicle for the interoperability of heterogeneous sources of environmental\r\ndata.\r\n\r\n\r\n`glrc`\r\n------\r\n\r\n`grlc` (pronounced \"garlic\") is a lightweight server that translates SPARQL\r\nqueries into Linked Data web APIs [@merono2016grlc] compliant with the OpenAPI\r\nspecification. Its purpose is to enable universal access to Linked\r\nData sources through modern web-based mechanisms, dispensing the use of the\r\nSPARQL query language. While losing the flexibility and federative capacities\r\nof SPARQL, web APIs present developers with an approachable interface that can\r\nbe used for the automatic generation of source code.\r\n\r\n\r\nA `glrc` API is constructed from a SPARQL query to which a meta-data section is\r\nprepended. This section is declared with a simplified YAML syntax, within a\r\nSPARQL comment block, so the query remains valid SPARQL. The meta-data provide\r\nbasic information for the API set up and most importantly, the SPARQL end-point\r\non which to apply the query. The listing below shows an example. \r\n\r\n```\r\n#+ endpoint: http://dbpedia.org/sparql\r\n\r\nPREFIX dbo: <http://dbpedia.org/ontology/>\r\nPREFIX dbr: <http://dbpedia.org/resource/>\r\nPREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>\r\nPREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>\r\n\r\nSELECT ?band_label { \r\n    ?band rdf:type dbo:Band ;\r\n          dbo:genre dbr:Hard_Rock ;\r\n          rdfs:label ?band_label .\r\n} ORDER BY ?band_label\r\n```\r\n\r\nA special SPARQL variable formulation is used to map into API parameters. By\r\nadding an underscore (`_`) between the question mark and the variable name,\r\n`glrc` is instructed to create a new API parameter. A prefix separated again\r\nwith an underscore informs `glrc` of the parameter type. The `?band_label`\r\nvariable can be expanded to `?_band_label_iri` to create a\r\nnew API parameter of the type IRI.\r\n\r\n\r\nUse case: GloSIS\r\n----------------\r\n\r\nThe Global Soil Partnership (GSP) is a network of stakeholders in the soil\r\ndomain established by members of the United Nations Food and Agriculture\r\nOrganisation (FAO). Its broad goals are to raise awareness to the importance of\r\nsoils and to promote good practices in land management towards a sustainable\r\nagriculture. \r\n\r\nAcknowledging difficulties in exchanging harmonised soil data as an important\r\nobstacle to its goals, the GSP launched in 2019 an international consultancy to\r\nassess the state-of-the-art and propose a path towards a Global Soil Information\r\nSystem (GloSIS) based on a unified exchange. A domain model resulted, based\r\non the ISO 28258 standard for soil quality [@SchleidtReznik2020], augmented with\r\ncode-lists compiled from the FAO Guidelines for Soil Description [@Jahn2006].\r\nThis domain model was then transformed to a Web Ontology, relying on the Sensor,\r\nObservation, Sample, and Actuator ontology (SOSA) [@Janowicz2019], and other\r\nSemantic Web standards such as GeoSPARQL, QUTD and SKOS. The GloSIS web ontology\r\nhas been successfully demonstrated as a vehicle to exchange soil information as\r\nLinked Data [@GloSIS]. \r\n\r\nA prototype API for the GloSIS ontology, formulated in compliance with the\r\nSensorThings API specification, will be presented in this communication. It\r\ndemonstrates how the same set of SPARQL queries can be used to query through a\r\nReST API any end-point available over the internet, sharing linked soil data in\r\naccordance with the GloSIS ontology. Thus providing a clear step towards the\r\nfederated and harmonised system envisioned by the GSP.",
+    "start_datetime": "2024-07-03T09:10:00Z",
+    "end_datetime": "2024-07-03T09:15:00Z",
+    "talk:code": "SP7KK3",
+    "talk:guid": "97d611d4-2967-58b2-a2d2-b1dbb9ed6e3c",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Academic track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "Omicum",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "UF7J7G",
+        "name": "Lu\u00eds M. de Sousa",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/UF7J7G/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-03T09:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/SP7KK3/",
+      "title": "The template for a Semantic SensorThings API with the GloSIS use case"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/SP7KK3/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/UF7J7G/",
+      "title": "Lu\u00eds M. de Sousa"
+    },
+    {
+      "rel": "related",
+      "href": "http://dbpedia.org/sparql",
+      "title": "dbpedia.org/sparql"
+    },
+    {
+      "rel": "related",
+      "href": "http://dbpedia.org/ontology/",
+      "title": "dbpedia.org/ontology"
+    },
+    {
+      "rel": "related",
+      "href": "http://dbpedia.org/resource/",
+      "title": "dbpedia.org/resource"
+    },
+    {
+      "rel": "related",
+      "href": "http://www.w3.org/2000/01/rdf-schema#",
+      "title": "www.w3.org/2000/01/rdf-schema"
+    },
+    {
+      "rel": "related",
+      "href": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "title": "www.w3.org/1999/02/22-rdf-syntax-ns"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/SP7KK3/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "pdf-slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/SP7KK3/resources/foss4g2024-sta_967XMs0.pdf",
+      "type": "application/pdf",
+      "title": "PDF Slides",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "pdf-slides-03-07-2024": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/SP7KK3/resources/foss4g2024-sta_OEk9vwz.pdf",
+      "type": "application/pdf",
+      "title": "PDF Slides 03-07-2024",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/wcBZFeMCiSqWtCXamwkkCY",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | The template for a Semantic SensorThings API with the GloSIS use case",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=xdUUa1HAlMo",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | The template for a Semantic SensorThings API with the GloSIS use case",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

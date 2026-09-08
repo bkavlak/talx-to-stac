@@ -1,0 +1,123 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Z3ASEE",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "OGC CITE Runner: a Pythonic convenience runner for OGC compliance testing",
+    "description": "ogc-cite-runner is a software to help automate OGC CITE compliance testing for geospatial web applications. It can be used either as a GitHub action or standalone. Learn more about it at https://osgeo.github.io/ogc-cite-runner/\n\nThe Open Geospatial Consortium API family of standards (OGC API) are being developed to make it easy for anyone to provide geospatial data to the web, and are the next generation of geospatial web API standards designed with resource-oriented architecture, RESTful principles and OpenAPI. In addition, the OGC has the CITE compliance program, which aims at providing test suites that can be used to verify if web applications implement the standards correctly.\r\n\r\nOfficial CITE testing is done using OGC infrastructure and is subject to a review process which can be time consuming for implementations seeking compliance certification. The official CITE test suites and test runner (OGC TeamEngine) are made available by the OGC so that implementations are able to test their compliance beforehand. This process is however not very straightforward to automate.\r\n\r\nThe ogc-cite-runner software aims at reducing the friction of running the mentioned official CITE test suites with the OGC TeamEngine test runner. It is a lightweight Python CLI application which can be used directly as a GitHub action or as a standalone tool, thus making it easy to include in Continuous Integration systems. This means that implementations become able to test their CITE compliance as part of their normal development workflow and gain near instant feedback on their compliance status.\r\n\r\nAt its core, ogc-cite-runner implements a thin layer of  automation over OGC TeamEngine, asking it to run CITE test suites. It then processes the output results into a number of output formats, including a Markdown report which is embedded directly in the GitHub actions workflow log.\r\n\r\nThis presentation will provide an overview of ogc-cite-runner, demonstrating how it can be run both as a GitHub action and in standalone in order to test OGC CITE compliance of geospatial web applications.\r\n\r\nhttps://osgeo.github.io/ogc-cite-runner/",
+    "start_datetime": "2025-11-20T20:00:00Z",
+    "end_datetime": "2025-11-20T20:25:00Z",
+    "talk:code": "Z3ASEE",
+    "talk:guid": "d6882388-30c9-5d28-a1c7-9ab5af4c03f5",
+    "talk:event": "foss4g-2025",
+    "talk:track": "AI, Data Science & Analytics",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WA220",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "H8LVLX",
+        "name": "Tom Kralidis",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/H8LVLX/"
+      },
+      {
+        "code": "ZHUBE3",
+        "name": "Ricardo Garcia Silva",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/ZHUBE3/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-20T20:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/Z3ASEE/",
+      "title": "OGC CITE Runner: a Pythonic convenience runner for OGC compliance testing"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/Z3ASEE/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/H8LVLX/",
+      "title": "Tom Kralidis"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/ZHUBE3/",
+      "title": "Ricardo Garcia Silva"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/Z3ASEE/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "ogc-cite-runner-a-pythonic-convenience-runner-for-ogc-compli": {
+      "href": "https://talks.osgeo.org/media/foss4g-2025/submissions/Z3ASEE/resources/ogc-cite-runner-foss4g-2025-11-21_RjBqMcp.pdf",
+      "type": "application/pdf",
+      "title": "OGC CITE Runner: a Pythonic convenience runner for OGC compliance testing",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "ogc-cite-runner-website": {
+      "href": "https://osgeo.github.io/ogc-cite-runner/",
+      "title": "ogc-cite-runner website",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=2ThHGqKqJ5I",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | OGC CITE Runner: a Pythonic convenience runner for OGC compliance testing",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

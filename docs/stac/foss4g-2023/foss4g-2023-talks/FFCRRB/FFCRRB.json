@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "FFCRRB",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Methods and challenges in time-series analysis of vegetation in the geospatial domain",
+    "description": "The increasing availability and ease of access of global, historical and high-frequency remote sensing data has offered unprecedented possibilities for monitoring and analysis of environmental variables. Recent studies in the field of ecosystem resilience relied on indicators derived from time-series analysis, such as the temporal autocorrelation and the variance of a system signal (Dakos et al., 2015). The aforementioned availability of global, temporally and spatially dense time-series of indicators of biomass and greenness of vegetation, such as the normalized difference vegetation index (NDVI) among others, has boosted ecosystem resilience scientific applications to forests as well. The ecological definition of resilience corresponds with the capacity of a system to absorb and recover from a disturbance. When dealing with ecosystems increasingly affected by natural and anthropogenic pressures such as forests, monitoring their health is particularly relevant. \r\n\r\nForest ecosystems play a crucial part in the global carbon cycle and in any climate change mitigation strategy, despite being increasingly affected by natural and anthropogenic pressures. While anthropogenic action on forests is mainly represented by stand replacement, natural perturbations include wind throws and fires, as well as extended insects and disease outbreaks, such as the recent outbreak affecting Central Europe. These natural disturbances are strictly interconnected with the change in climate. A forest ecosystem with decreased resilience will be more susceptible to external drivers and their change and likely to shift into an alternative system configuration by crossing a tipping point.\r\n\r\nHowever, remote sensing data quantifying vegetation and forests properties inherently carry information related to the climate as well. If not accounted for, these confounding factors, such as short-term climate fluctuations, may hide the actual vegetation anomalies focus of a study and the importance of other drivers in vegetation itself. In addition, the comparison of the same vegetation property between different geographical areas naturally affected by different climates is hindered. \r\n\r\nIn order to explore the relationships of a set of environmental metrics with an indicator of the resilience of forests and their relative predictive importances, a machine learning (ML) model is implemented. In this paper, we aim to present the general workflow and the challenges encountered in processing and analyzing the time-series of vegetation, climate and the other environmental variables data. Rather than focusing on the scientific outcomes of the implemented model, the focus of this paper will be on a workflow implemented to analyze the aforementioned time-series and on the methods and tools implemented to account for the climate effects on vegetation. Deseasonalization, detrending, growing season identification and removal of climatic confounding effects will be targeted by the presented tools and methods, being aware of the variety and heterogeneity of methodologies existing in the field of time-series analysis. \r\n\r\nAll data leveraged for this study are open. The long-term kNDVI is retrieved by processing the full time-series of daily MODIS Terra and Aqua Surface Reflectance at 500m from 2003 to 2021. The kNDVI is a nonlinear generalization of the NDVI that shows stronger correlations than NDVI and NIRv with forest key parameters. kNDVI is also more resistant to saturation, bias, and complex phenological cycles, and it is more robust to noise and more stable across spatial and temporal scales (Camps-Valls et al., 2021). Hourly ERA5-Land data with the same timespan at 10km are used to retrieve the set of climatic and environmental predictors including temperature, precipitation, etc. Most data are computed as 8 days averages or sums in order to retrieve resilience metrics from high temporal resolution time-series.\r\n\r\nThe data processing takes place mainly within Google Earth Engine (GEE) and the Joint Research Centre (JRC) Big Data Analytics Platform (BDAP). Google Earth Engine is a cloud-based geospatial analysis platform providing a multi-petabyte catalog of satellite imagery and geospatial datasets coupled with large analysis capabilities (Gorelick et al., 2017). The JRC Big Data Analytics Platform is a petabyte-scale storage system coupled with a processing cluster. It includes open-source interactive data analysis tools, a remote data science desktop and distributed computing with specialized hardware for machine learning and deep learning tasks (Soille et al., 2018). GEE is mainly used to pre-process MODIS data. The ERA5 pre-processing and the core time-series analysis are performed within the JEODPP, where main tools include R, Climate Data Operator (CDO) and netCDF Operators (NCO). The whole machine learning model is instead trained and run in R. The different platforms and tools implemented in the study highlight as well the heterogeneity of data involved, data availability and data formats, ranging from TIFF, netCDF and R objects. \r\n\r\nThe final aim of this paper is to present one of the many workflows that can be implemented when dealing with time-series of vegetation-related data in the geospatial domain, where climate plays a crucial role as a confounding effect. The importance of the availability of open data and open source tools and platforms in making this big data analysis possible is also strongly highlighted.",
+    "start_datetime": "2023-06-28T12:30:00Z",
+    "end_datetime": "2023-06-28T13:00:00Z",
+    "talk:code": "FFCRRB",
+    "talk:guid": "4593e6a4-6dc6-5590-bcf9-6205f66ef513",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Academic Track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT E / N209 - Floor 3",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "TKQVPH",
+        "name": "Agata Elia",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/TKQVPH/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T12:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/FFCRRB/",
+      "title": "Methods and challenges in time-series analysis of vegetation in the geospatial domain"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/FFCRRB/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/TKQVPH/",
+      "title": "Agata Elia"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/FFCRRB/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

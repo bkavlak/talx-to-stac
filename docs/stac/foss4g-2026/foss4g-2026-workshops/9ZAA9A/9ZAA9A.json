@@ -1,0 +1,96 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "9ZAA9A",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Hands-on CDSE: From Copernicus Browser to Evalscripts and APIs",
+    "description": "A hands-on tour of the Copernicus Data Space Ecosystem \u2014 from browsing satellite imagery and land monitoring data to writing custom evalscripts with AI coding assistants and querying the archive programmatically. All on free, open European infrastructure.\n\nThe Copernicus Data Space Ecosystem (CDSE) gives free access to Europe's entire Earth observation archive \u2014 Sentinel satellites, Copernicus Contributing Missions, and a growing catalogue of derived products like land cover, soil moisture, surface temperature, and snow properties.\r\n\r\nThis workshop takes participants from first contact to working code in three hours.\r\n\r\nWe start in the Copernicus Browser \u2014 exploring satellite imagery and derived products interactively. Once oriented, we look at what's available: over 100 analysis-ready collections \u2014 most of them global.\r\n\r\nThen we get to the core: evalscripts \u2014 custom JavaScript-like functions that run server-side on CDSE's infrastructure, executing per-pixel across entire satellite scenes. We explain the format, write one by hand, and run it in the browser.\r\n\r\nWe bring in AI coding assistants. For example, a cumulative temperature threshold that tells farmers when to plant \u2014 typed into an AI as a plain-language description, returned as a working evalscript. No remote sensing background needed. Participants try the same: describe a measurement, generate an evalscript, debug and iterate until it works on real data.\r\n\r\nFinally, we demonstrate programmatic access using sentinelhub-py. The same evalscripts, now running at scale from a Python notebook.\r\n\r\nParticipants leave with working evalscripts, a CDSE account, and a clear path from browser to programmatic access. All tools used in the workshop remain available on CDSE's free tier.",
+    "start_datetime": "2026-08-30T05:00:00Z",
+    "end_datetime": "2026-08-30T08:00:00Z",
+    "talk:code": "9ZAA9A",
+    "talk:guid": "af74c0c4-9a73-5e78-a736-92e72655ee3b",
+    "talk:event": "foss4g-2026-workshop",
+    "talk:type": "Workshop",
+    "talk:language": "en",
+    "talk:room": "603",
+    "talk:room_capacity": 30,
+    "talk:duration_minutes": 180,
+    "talk:speakers": [
+      {
+        "code": "AQWKPS",
+        "name": "Klemen Lovenjak",
+        "url": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/AQWKPS/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-08-30T06:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/9ZAA9A/",
+      "title": "Hands-on CDSE: From Copernicus Browser to Evalscripts and APIs"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/9ZAA9A/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/AQWKPS/",
+      "title": "Klemen Lovenjak"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/9ZAA9A/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "workshop-slides": {
+      "href": "https://github.com/lovenjak/hands-on-cdse/blob/1a7cc6a84d4113338e179d1fc5de97d37b1cc527/hands-on-cdse.pdf",
+      "type": "application/pdf",
+      "title": "Workshop slides",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-workshops"
+}

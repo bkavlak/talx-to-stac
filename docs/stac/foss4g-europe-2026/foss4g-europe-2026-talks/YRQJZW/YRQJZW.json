@@ -1,0 +1,105 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "YRQJZW",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "How many coordinate systems are in a web map?",
+    "description": "A default web map takes data in latitude-longitude and displays it in spherical Mercator, which makes two different coordinate systems. But the internal workings of a mapping library require handling even more coordinate systems internally.\r\n\r\nThis talk is a deep technical view into how some web map libraries (Leaflet, MapLibre, OpenLayers, Gleo) handle coordinate systems internally, and how their different strategies affect performance in specific scenarios.",
+    "start_datetime": "2026-07-01T07:30:00Z",
+    "end_datetime": "2026-07-01T08:00:00Z",
+    "talk:code": "YRQJZW",
+    "talk:guid": "785082d7-58a1-566a-ba4f-eb6722afb19e",
+    "talk:event": "foss4g-europe-2026",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Aula Magna",
+    "talk:room_capacity": 500,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "LVHALQ",
+        "name": "Iv\u00e1n S\u00e1nchez Ortega",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/LVHALQ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-07-01T07:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/YRQJZW/",
+      "title": "How many coordinate systems are in a web map?"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/YRQJZW/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/LVHALQ/",
+      "title": "Iv\u00e1n S\u00e1nchez Ortega"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/YRQJZW/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides-libreoffice": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2026/submissions/YRQJZW/resources/ivansanchez-how-many-coordin_UWcm2Xb.odp",
+      "type": "application/vnd.oasis.opendocument.presentation",
+      "title": "Slides (libreoffice)",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "slides-pdf": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2026/submissions/YRQJZW/resources/ivansanchez-how-many-coordin_a5UGeac.pdf",
+      "type": "application/pdf",
+      "title": "Slides (PDF)",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

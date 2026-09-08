@@ -1,0 +1,139 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "CL9XDK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Development of maplibre applications in sveltekit",
+    "description": "Recently, [sveltekit](https://kit.svelte.dev/) is becoming a more popular framework for developing web application. It has been released as v1.0.0 last December. However, there are still not many use cases of developing maplibre applications in sveltekit compared to other frameworks like react. The author is involved in developing maplibre application with sveltekit in United Nations Development Programme ([geohub](https://github.com/UNDP-Data/geohub)), and also developing sveltekit based Web-GIS applications for water asset management at Eastern African countries ([watergis](https://github.com/watergis)). Hence, several useful maplibre boilerplate and components were developed in sveltekit during those projects' work. [watergis/sveltekit-maplibre-boilerplate](https://github.com/watergis/sveltekit-maplibre-boilerplate) is a template which can start developing maplibre application in sveltekit with minimuum source code.  Furthermore, [watergis/svelte-maplibre-components](https://github.com/watergis/svelte-maplibre-components) consists of various useful maplibre components to add more functionality easily to your web application (all components are documented [here](https://svelte-maplibre.water-gis.com/)). For instance, this component library provides you features of exporting maps, adding legends, styling maps, sharing maps, measuring distance and integrating with Valhalla api, etc. In this talk, these maplibre boilerplate and components will be briefly introduced.",
+    "start_datetime": "2023-06-28T13:05:00Z",
+    "end_datetime": "2023-06-28T13:10:00Z",
+    "talk:code": "CL9XDK",
+    "talk:guid": "b2a041be-7a21-5345-9868-275f720a69e5",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "UBT D / N113 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "QN9QGN",
+        "name": "Jin Igarashi",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/QN9QGN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T13:07:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/CL9XDK/",
+      "title": "Development of maplibre applications in sveltekit"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/CL9XDK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/QN9QGN/",
+      "title": "Jin Igarashi"
+    },
+    {
+      "rel": "related",
+      "href": "https://kit.svelte.dev/",
+      "title": "sveltekit"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/UNDP-Data/geohub",
+      "title": "geohub"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/watergis",
+      "title": "watergis"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/watergis/sveltekit-maplibre-boilerplate",
+      "title": "watergis/sveltekit-maplibre-boilerplate"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/watergis/svelte-maplibre-components",
+      "title": "watergis/svelte-maplibre-components"
+    },
+    {
+      "rel": "related",
+      "href": "https://svelte-maplibre.water-gis.com/",
+      "title": "here"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/CL9XDK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/ndUtTSwscdJ26ytpNmBqwA",
+      "type": "text/html",
+      "title": "2023 | Development of maplibre applications in sveltekit  - Jin Igarashi",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=gWyA0I3SipA",
+      "type": "text/html",
+      "title": "2023 | Development of maplibre applications in sveltekit  - Jin Igarashi",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

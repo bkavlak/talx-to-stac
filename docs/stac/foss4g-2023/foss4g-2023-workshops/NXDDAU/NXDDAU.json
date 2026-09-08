@@ -1,0 +1,128 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "NXDDAU",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "How to use openrouteservice in your GIS workflows: The case of disaster management",
+    "description": "The workshop focuses on using the software openrouteservice to facilitate network and routing analysis for disaster management. Participants will learn about the software's key features, apply them in a practical disaster management use case, and gain knowledge on automating workflows and best practices for disaster response scenarios.\n\nNatural disasters have serious consequences that require well-informed decision-making and clear communication in complex situations. In addition to **addressing logistics concerns** related to supplying affected populations, it is important to consider the **catchment areas** of key facilities and their potential impairment in making response decisions. These same considerations also apply to preventative measures, such as **identifying vulnerable infrastructure** in the event of a catastrophe. Openrouteservice offers an open source software solution that provides a user-friendly interface for network and routing analysis, making it a valuable tool for addressing these challenges.\r\nThe workshop will commence with an overview of openrouteservice and its key features. Which will be applied in practical disaster management use cases. Participants will also learn how to automate and **scale their workflows** using R/Python notebooks.\r\nThe workshop will conclude with a **discussion of best practices** for using openrouteservice in disaster response. Participants will gain a comprehensive understanding of how to use openrouteservice and will be able to apply this knowledge to their own use cases. This workshop is appropriate for both novice and experienced GIS software users and offers a valuable learning opportunity **for anyone interested in routing analysis** or working in emergency management and disaster response planning.\r\n\r\n**Agenda**\r\n1. Introduction to openrouteservice\r\n2. Singular analysis in QGIS via plugin ORS Tools\r\n3. Scaling up the workflow with python/R\r\n4. Set it up your own local instance via docker\r\n\r\n**Resources**\r\n\r\n* Website https://openrouteservice.org/\r\n* Webclient https://maps.openrouteservice.org/#/\r\n* Documentation https://giscience.github.io/openrouteservice/\r\n* QGIS plugin https://github.com/GIScience/orstools-qgis-plugin\r\n* Python/R/JS clients \r\n - https://github.com/GIScience/openrouteservice-py \r\n - https://github.com/GIScience/openrouteservice-r\r\n - https://github.com/GIScience/openrouteservice-js\r\n\r\n**Requirements for the Attendees**  \r\n\r\n* Attendee\u2019s previous knowledge: Desktop GIS  \r\n* Equipment: Laptop, QGIS installed, (Docker)",
+    "start_datetime": "2023-06-27T07:00:00Z",
+    "end_datetime": "2023-06-27T11:00:00Z",
+    "talk:code": "NXDDAU",
+    "talk:guid": "b54ee351-78db-50aa-b95a-c932b0b9b951",
+    "talk:event": "foss4g-2023-workshop",
+    "talk:type": "Long Workshop",
+    "talk:language": "en",
+    "talk:room": "UBT B / N 014 - First Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "9SK7YL",
+        "name": "Marcel Reinmuth",
+        "url": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/9SK7YL/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-27T09:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/NXDDAU/",
+      "title": "How to use openrouteservice in your GIS workflows: The case of disaster management"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/NXDDAU/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/9SK7YL/",
+      "title": "Marcel Reinmuth"
+    },
+    {
+      "rel": "related",
+      "href": "https://openrouteservice.org/",
+      "title": "openrouteservice.org"
+    },
+    {
+      "rel": "related",
+      "href": "https://maps.openrouteservice.org/#/",
+      "title": "maps.openrouteservice.org"
+    },
+    {
+      "rel": "related",
+      "href": "https://giscience.github.io/openrouteservice/",
+      "title": "giscience.github.io/openrouteservice"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/GIScience/orstools-qgis-plugin",
+      "title": "github.com/GIScience/orstools-qgis-plugin"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/GIScience/openrouteservice-py",
+      "title": "github.com/GIScience/openrouteservice-py"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/GIScience/openrouteservice-r",
+      "title": "github.com/GIScience/openrouteservice-r"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/GIScience/openrouteservice-js",
+      "title": "github.com/GIScience/openrouteservice-js"
+    },
+    {
+      "rel": "related",
+      "href": "https://heigit.org/",
+      "title": "heigit.org"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/NXDDAU/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-workshops"
+}

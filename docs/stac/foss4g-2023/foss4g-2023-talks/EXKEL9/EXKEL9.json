@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "EXKEL9",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "MapStore real world case study: the hybrid infrastructure of the City of Genova",
+    "description": "Born in 2016 thanks to the funding of the National Operational Program for Metropolitan Cities (PON METRO 2014-2020) the current Spatial Data Infrastructure (SDI) of the city of Genova is a hybrid infrastructure, where open source components and technologies are merged together with proprietary ones (such as the Oracle Database) in a well designed platform with respect of all national guidelines (promoted by AgID - Agenzia per l\u2019Italia Digitale) and international standards. \r\nTo support the Geoportal initiative, the city of Genova has collaborated with GeoSolutions as a company closely involved in the most important Open Source projects worldwide in the geospatial field with the aim to provide the necessary support for all the SDI stack in terms of  deployment, development but also the staff training to make it autonomous as much as possible in the maintenance of the overall system.\r\nThe city of Genova Geoportal as well as the wider Geospatial Infrastructure are both reachable online.\r\nA simple and at the same time robust WebGIS based on the Open Source MapStore software is provided with the inclusion of both advanced GSI functionalities and also most common geospatial tools like:\r\n\r\n- Geospatial data search via OCG Web Services and Nominatim\r\n- 2D and 3D visualization of geospatial data using a map agnostic engine supporting OpenLayers, Leaflet and Cesium for the 3D\r\n- Editing and Styling of geospatial layers\r\n- Download functions of geospatial data working on top of OGC services \r\n- And many more\r\n\r\nThe aim is to provide ready-to-use tools for all users (both citizens and employed analysts worked in the PA) by leveraging the maturity of the Open Source Software as well as the simplicity of integration with the pre-existing COTS software in order to maximize the reuse of the existing infrastructure and minimize the need for customizations and a possible use of commercial support even for educational purposes.\r\nMany cross-cutting projects usually gravitate around the SDI in the Public Administration and its own Geoportal. To date, more than 300 geospatial layers are available in the Geoportal which allows them to be viewed and consulted within preconfigured MapStore maps, dashboards and geostories and/or used through geospatial services (such as WMS, WMTS, WFS, WCS and CSW) developed according to international standards (OGC - Open Geospatial Consortium) and exposed through GeoServer and GeoNetwork with also a fine grained security tier represented by GeoFence to manage authorizations on geospatial data.",
+    "start_datetime": "2023-06-30T09:00:00Z",
+    "end_datetime": "2023-06-30T09:30:00Z",
+    "talk:code": "EXKEL9",
+    "talk:guid": "4d9d1462-048c-5a73-b7df-9f9e68602e42",
+    "talk:event": "foss4g-2023",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Drini",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "BEYNQB",
+        "name": "Stefano Bovio",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/BEYNQB/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-30T09:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/EXKEL9/",
+      "title": "MapStore real world case study: the hybrid infrastructure of the City of Genova"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/EXKEL9/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/BEYNQB/",
+      "title": "Stefano Bovio"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/EXKEL9/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/pz4wVZNHWJccFJq8EBPtja",
+      "type": "text/html",
+      "title": "2023 | MapStore real world case study: the hybrid infrastructure of the City of Genova",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=wtx6r1zEGUE",
+      "type": "text/html",
+      "title": "2023 | MapStore real world case study: the hybrid infrastructure of the City of Genova",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

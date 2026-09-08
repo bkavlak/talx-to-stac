@@ -1,0 +1,94 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "9MCN3A",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Speeding up earthwork volume calculation using the point elevation method",
+    "description": "In earth volume calculation using the spot level method, computational speed was improved by adopting image-based rasterization for the inside/outside determination of the calculation area.\n\nThe spot level method, a grid-based earth volume calculation technique, has a lower computational cost compared to methods such as TIN-based division and the prismoidal method, and has been adopted in our in-house CesiumJS-based web application for earthwork progress management. However, even when using the spot level method, which is known for its relatively low computational cost, computation time can increase significantly when the calculation target area is vast or when large-scale point cloud data is involved, posing operational challenges. In this presentation, we introduce a technique for reducing computational load while maintaining accuracy, targeting the inside/outside determination of grid points, which has been identified as a bottleneck in spot level method calculations. Specifically, we present results and discussion on the impact on computation time and calculated cut/fill volumes in the spot level method when the ray casting-based inside/outside determination is replaced with a rasterization-based approach using a vertically projected image. In addition, since further speed improvements were achieved by parallelizing the computation on a per-grid basis, we also report on the implementation of the aforementioned rasterization-based determination in our in-house application, as well as the performance gains achieved through parallelization.",
+    "start_datetime": "2026-09-02T04:10:00Z",
+    "end_datetime": "2026-09-02T04:15:00Z",
+    "talk:code": "9MCN3A",
+    "talk:guid": "8004d0fc-3d68-524a-a365-3efe5abe43c6",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Lightning Talk",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Ran1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "BD9E3F",
+        "name": "Kashiwagi-EB",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/BD9E3F/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T04:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/9MCN3A/",
+      "title": "Speeding up earthwork volume calculation using the point elevation method"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/9MCN3A/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/BD9E3F/",
+      "title": "Kashiwagi-EB"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.earthbrain.com/",
+      "title": "www.earthbrain.com"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/9MCN3A/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

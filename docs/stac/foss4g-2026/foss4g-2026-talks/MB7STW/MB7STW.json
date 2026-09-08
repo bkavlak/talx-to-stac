@@ -1,0 +1,103 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "MB7STW",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Modernizing Earth Observation Access: The GEODES Shift to Open Source and Cloud-Optimized Architectures",
+    "description": "This presentation covers our experience with the migration of **GEODES** (the Earth observation catalog of the French space agency, CNES) from proprietary systems to an Open Source, cloud-optimized architecture, highlighting the strategic 'how' and 'why' behind the shift.\n\nThe French space agency (**CNES**) has developed **GEODES**, an innovative Earth Observation catalogue that leverages open-source technologies in order to simplify access to geospatial data and offer advanced services to end-users.\r\n\r\nGEODES offers a wide range of open EO data and advanced products originating from CNES missions and from ESA'S collaborative ground segment initiative, as well as fully integrated processing chains providing on-demand products generation. As a free service dedicated to the global community, including researchers, developers, policymakers and enthusiasts alike, GEODES covers various non-EO-specific activities.\r\n\r\nThe GEODES portal (geodes-portal.cnes.fr) has launched in November 2024, providing access to a wide range of EO data and advanced products from satellites such as Sentinel, Landsat, Venus and SPOT. At the time, GEODES was built from a mix of open-source technologies and proprietary solutions developed at CNES.\r\n\r\nHowever, as data volumes grew and user needs evolved, GEODES's legacy infrastructure has started to become a bottleneck for rapid feature delivery. Users increasingly required better **scalability** and **interoperability** to interconnect with third-party platforms, and more transparent, well-documented interfaces. Furthermore, new, highly requested datasets, such as the very high resolution Pl\u00e9iades products, as well as new services and **cloud optimized data formats** expected by the community have driven us to re-evaluate the GEODES architecture.\r\n\r\nThis is why starting in 2026 we have completely overhauled the GEODES architecture. This revamp focuses on two core pillars: **Open Source software** and **Cloud-Optimized solutions**. By moving away from proprietary silos, we have aligned the platform with modern geospatial standards improving performances and interoperability with other geomatic platforms.\r\n\r\nIn this presentation, we will discuss why and how we successfully transitioned GEODES from a monolithic, on-premises model to a highly scalable, cloud-ready, and open-source architecture.We will then detail the new architecture built on a foundation of open-source software and OGC Standards, including:\r\n\r\n- **OpenSearch** as the indexed catalog (https://github.com/opensearch-project)\r\n- **STAC Fast API** for metadata standardization and data access (https://github.com/stac-utils/stac-fastapi)\r\n- **OGC processes** for On-demand Processing (https://github.com/opengeospatial/ogcapi-processes)\r\n- **GeoServer** and **Titiler** for data display and visualization (https://github.com/geoserver/geoserver and https://github.com/developmentseed/titiler)\r\n- **Keycloak** for secure authentication and granular access control (https://github.com/keycloak/keycloak)\r\n- **Kong Gateway** for API management (https://github.com/Kong/kong)\r\n\r\nFinally, we will provide a live demo of the updated GEODES ecosystem, showcasing the new tools and services available to researchers, developers, and the general public.",
+    "start_datetime": "2026-09-03T05:00:00Z",
+    "end_datetime": "2026-09-03T05:30:00Z",
+    "talk:code": "MB7STW",
+    "talk:guid": "c980b606-f7f5-515d-94f0-bb714d2396f1",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Dahlia2",
+    "talk:room_capacity": 140,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "YAUGKJ",
+        "name": "Hugo Fournier",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/YAUGKJ/"
+      },
+      {
+        "code": "JMYTDY",
+        "name": "Benjamin HUSSON",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/JMYTDY/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-03T05:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/MB7STW/",
+      "title": "Modernizing Earth Observation Access: The GEODES Shift to Open Source and Cloud-Optimized Architectures"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/MB7STW/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/YAUGKJ/",
+      "title": "Hugo Fournier"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/JMYTDY/",
+      "title": "Benjamin HUSSON"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/developmentseed/titiler",
+      "title": "github.com/developmentseed/titiler"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/MB7STW/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

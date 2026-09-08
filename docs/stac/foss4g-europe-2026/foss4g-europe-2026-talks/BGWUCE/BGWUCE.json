@@ -1,0 +1,97 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "BGWUCE",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "Habitat Change Mapping Using Historical Aerial Imagery and Deep Learning",
+    "description": "*Introduction*\r\nEuropean landscapes have experienced drastic and accelerating changes in recent decades, particularly since World War II. Understanding landscape change from a historical perspective is essential in assessing the impact of previous land management choices on current-day landscapes, habitats and biodiversity. While conservation policies typically consider current situations, the lack of historical context might lead to shifting baselines to fit a deteriorating trend. \r\nThe Habitat Map of Switzerland is a high-resolution thematic product mapping the different Swiss habitats [1]. The classification is based on TypoCH, a Swiss-specific hierarchical habitat typology, which can be translated into the pan-European EUNIS classification system. TypoCH contains land cover classes on the first level and becomes increasingly more detailed, with plant communities and species on the lower levels [2]. Recently declassified Swiss-wide imagery from 1946 with 1m spatial resolution, in conjunction with regularly updated aerial imagery since the 1980s, offers an unprecedented opportunity to map landscape and habitat change in the past century. In the perspective of multi-temporal classification, a proof-of-concept study was performed on selected study areas in Switzerland, using grayscale 1946 aerial imagery, and object-oriented analysis and classification [3]. \r\nThe gap bridged by this project is creating consistent multi-temporal mapping for Switzerland, with potential to apply the methodology in other countries with similar historical data. The inherent inconsistencies in historical aerial image quality, the limited spectral information (grayscale) and habitat heterogeneity and complexity are the most challenging. Consistent mapping is important for robust change detection and comparison between time steps. Therefore, a flexible habitat typology and scalable method should be determined.\r\nThis study aims to map habitat status and explore habitat change in Switzerland over 5 times steps (1946 \u2013 present) using deep learning image segmentation methods. Given the varying quality and spectral resolution of imagery over time, the first aim of this project is to determine which habitats can be consistently mapped from 1946 to the present. This will be done in a data-driven approach, developing a hierarchical, modular and flexible open-source deep learning methodology to check habitat mapping feasibility. The further aims are to develop a method to consistently classify habitats across this time-series, detect landscape change, and relate results to the current biodiversity status. \r\n\r\n*Methodology*\r\nTo determine which habitats can be mapped from grayscale imagery, a data-driven approach will be used, starting from current-day aerial imagery and Habitat Map of Switzerland, integrated into a preliminary architecture based on a hierarchical U-Net structure. The current-day aerial imagery will be degraded to simulate historical aerial imagery, using state-of-the-art algorithms to add noise, scratches, distortions and blurring [4]. The Habitat Map of Switzerland will be used as training, validation and test data. \r\nThe first level of the U-Net architecture will segment the first level of the habitat typology, which mainly corresponds to land-cover classes. The current Habitat Map of Switzerland includes habitats up to the third level of the TypoCH typology. The U-Net will be trained to first separate the TypoCH classes, which correspond to the first level of the TypoCH typology. For each class, a new U-Net will be trained to separate the groups within the class, which correspond to the second level of the TypoCH typology. Then, for each group, new U-Nets will be trained to separate types within each group, which correspond to the third level of the TypoCH typology.\r\nThis approach will inform about habitats which are more difficult to map, as well as habitats which might be easily confused with other habitats. This in turn will inform on class-specific or group-specific variables which would need to be added to address uncertainty and the limited spectral information. In conjunction with a previous ecological priority review, adjacent data will be researched for habitats which are more difficult to map but are of high ecological importance in terms of long-term landscape change. Potential auxiliary sources include digitized data [5] or even automated feature extraction from topographical maps (Siegfried maps).\r\nThe data for the model was chosen using a stratified random sampling technique. The extent of Switzerland was gridded into 512x512px tiles. The choice of the tiles was stratified in a first phase using the 12 biogeographical regions of Switzerland. Upon preliminary results, additional stratification on habitat composition, certain habitat coverage percentage or elevation might be considered. 5% of tiles of each biogeographical region were randomly selected, resulting in 7356 tile-mask pairs. Per region, the tile-mask pairs were separated into 70% for training, 20% for validation and 10% for testing. \r\nThe lack of validation data for historical imagery is one of the biggest challenges of the project. Therefore, in the first step, the model will be trained and tested on current aerial imagery converted to grayscale and degraded with artifacts common to historical imagery. This way, the feasibility of mapping the wide range of TypoCH habitats will be tested with robust validation based on the current Habitat Map of Switzerland. In further steps, the model will be strategically applied on historical imagery and potentially active learning and/or zero-shot segmentation algorithms will be used to generate historical training data, aided by time-series comparisons.  \r\n\r\n*Expected results, implications and conclusions*\r\nThe first part of the project will show which habitats can be mapped from historical imagery, providing a methodology which can be transferred in other areas with historical data availability. Then the method will be scaled Swiss-wide on multiple time steps, showing types and rates of habitat change and link the results to management practice and the current biodiversity status. The results will have broad implications on future conservation measures, land management policies, and restoration actions. Given the amount of data available for Switzerland, training a geofoundation model specialized on historical grayscale imagery and object change detection would be an idea to be explored as a future part of this project using the knowledge and data obtained from preliminary model testing.",
+    "start_datetime": "2026-06-29T12:40:00Z",
+    "end_datetime": "2026-06-29T12:45:00Z",
+    "talk:code": "BGWUCE",
+    "talk:guid": "da5ccfc7-5932-5f2a-a1e5-27811b90ba39",
+    "talk:event": "foss4g-europe-2026",
+    "talk:track": "Academic track",
+    "talk:type": "Academic lightening talk",
+    "talk:language": "en",
+    "talk:room": "A01",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "3E8B9B",
+        "name": "Francesca Dr\u0103gu\u021b",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/3E8B9B/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-06-29T12:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/BGWUCE/",
+      "title": "Habitat Change Mapping Using Historical Aerial Imagery and Deep Learning"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/BGWUCE/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/3E8B9B/",
+      "title": "Francesca Dr\u0103gu\u021b"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/BGWUCE/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2026/submissions/BGWUCE/resources/FOSS4G_presen_ZyEK3oh_Q6OT50z.pdf",
+      "type": "application/pdf",
+      "title": "presentation",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

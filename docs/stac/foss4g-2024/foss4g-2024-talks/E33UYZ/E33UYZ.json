@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "E33UYZ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Script for database: SQL or Python",
+    "description": "The purpose of this work is to show the benefits and difficulties of using scripts, whether in Python or SQL.\r\nThe work is the result of the author's experience in developing sophisticated Python scripts to build a thematic model for the heat spot data from the \u201cBD Queimada program\u201d of Brazil's National Institute for Space Research.\r\nThe thematic model consists of generating tables in the database (Postgres) that represent the themes with the heat spot data. The themes are represented by area of interest, such as Conservation Units, Indigenous Lands, Settlements, Biomes, ...\r\nThe aim of the work was to import the heat spot data and generate aggregated tables with themes in an automated way, making it easy to add new themes.\r\nAfter the script went into production, it was necessary to add another theme, and although I made an effort in the script to make it easy to add a new theme, things didn't work out the way I wanted them to.\r\nBy writing the script in SQL, and putting it into production, the author can observe the details of when we should use Python or SQL to automate the thematic model with hotspots.\r\nThe script is being used to help monitor forest fires in the main areas of operation of The National Center to Prevent and Combat Forest fires.",
+    "start_datetime": "2024-12-06T14:15:00Z",
+    "end_datetime": "2024-12-06T15:00:00Z",
+    "talk:code": "E33UYZ",
+    "talk:guid": "a99b1272-2230-5ac0-a634-70d7549e487b",
+    "talk:event": "foss4g-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Keynote",
+    "talk:language": "en",
+    "talk:room": "Room Auditorio",
+    "talk:room_capacity": 1000,
+    "talk:duration_minutes": 45,
+    "talk:speakers": [
+      {
+        "code": "VXCMHB",
+        "name": "Luiz Motta",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/VXCMHB/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-06T14:37:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/E33UYZ/",
+      "title": "Script for database: SQL or Python"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/E33UYZ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/VXCMHB/",
+      "title": "Luiz Motta"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/E33UYZ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024/submissions/E33UYZ/resources/lmotta_foss4g_2024_jDw7DHm.pdf",
+      "type": "application/pdf",
+      "title": "Presentation Slides",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/5hZ7oLQS3y2qxTgdzNegKT",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | Script for database: SQL or Python",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=k38aT7er1XU",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | Script for database: SQL or Python",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

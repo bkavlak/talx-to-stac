@@ -1,0 +1,116 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "7U9XSJ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "How to set up a QGIS plugin project and development environment in minutes",
+    "description": "Creating a new QGIS plugin and setting up a working development environment from scratch can be daunting, especially for beginners or occasional developers. In this talk, I present a templating tool that simplifies and streamlines the plugin development process. The tool is based on Cookiecutter, a well-known command-line utility that generates projects from templates. The template (https://github.com/GispoCoding/cookiecutter-qgis-plugin) we at Gispo developed:\r\n - is highly customizable and follows the best practices for QGIS plugin development\r\n - includes features such as testing, documentation, internationalization, packaging, continuous integration and development environment creation\r\n - allows anyone to quickly start a new plugin project in minutes with minimal effort and consistent structure\r\n\r\nI demonstrate how to use the tool, how to modify the template options, and how to publish the plugin to the QGIS plugin repository. I also share some tips and tricks for developing and maintaining QGIS plugins. This talk targets anyone who is interested in creating or improving QGIS plugins, regardless of their experience or expertise.",
+    "start_datetime": "2024-07-05T11:30:00Z",
+    "end_datetime": "2024-07-05T12:00:00Z",
+    "talk:code": "7U9XSJ",
+    "talk:guid": "2ed5b09c-3599-5f3a-a2f8-0b2ab8f72c79",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Omicum",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "ZRRLEF",
+        "name": "Lauri Kajan",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/ZRRLEF/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-05T11:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/7U9XSJ/",
+      "title": "How to set up a QGIS plugin project and development environment in minutes"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/7U9XSJ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/ZRRLEF/",
+      "title": "Lauri Kajan"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/7U9XSJ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://docs.google.com/presentation/d/e/2PACX-1vRy-zgg_XA_BJzrSG4hm0JV8EScSH5VpshVDVRm53TlAxe2u1722HsZh1Scb7jGx7OGSSN1EriJ6J-q/pub?start=false&loop=false&delayms=3000",
+      "title": "Slides",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/eJUzrZYEvBeLakCWiDVxcW",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | How to set up a QGIS plugin project and development environment in minutes",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=latUItXmck4",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | How to set up a QGIS plugin project and development environment in minutes",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

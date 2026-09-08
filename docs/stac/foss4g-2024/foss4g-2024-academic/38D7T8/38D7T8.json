@@ -1,0 +1,111 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "38D7T8",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Bridging the Gap: GPSSample \u2013 An Innovative Tool for Enumeration and Sampling in Health Surveys",
+    "description": "Abstract: \r\nGlobal Gap: Updated population estimates and total households (HHs) per area, typically obtained through a census, are used to construct unbiased sampling frames necessary for accurate estimates in health surveys. These population and HH estimates are used to select a smaller representative sample of enumeration areas (EAs) to visit for a public health study. Several methods exist to select which HHs to visit at the EA level including systematic sampling (every nth HH), geographically sampling structures using satellite imagery, segmenting an area, and mapping and listing all HHs in the selected EA.  Accurate estimates are essential for public health programming and response; however, forty-two countries have not conducted a census for over a decade (United Nations Statistics Division 2024). Instead, programs often generate an accurate sampling frame by enumerating HHs within selected EAs obtaining answers to eligibility criteria, drawing a sample from this enumerated list, and navigating back to selected HHs. This requires considerable resources. To date, no free mobile-based application exists to streamline these processes.\r\nSolution: The GPSSample application is a user-friendly sampling solution to select HHs within EAs. The study administrator makes a configuration in GPSSample creating the eligibility screening questions and specifying the number or percent of HHs to return to in each EA. An example screening question for an immunization coverage survey question is: \u201cAre there any children living in this HH between six and fifty-nine months old?\u201d.  In GPSSample, teams can rapidly enumerate HHs in an EA and collect answers to these screening questions. Teams send encrypted data to a supervisor via new local-only mobile hotspot QR codes. Next, the supervisor presses a button, easily generating a simple random sample from the sampling frame of enumerated HHs. The selected HH list is sent to teams. Using GPSSample, teams navigate back to selected HHs to conduct surveys. GPSSample integrates seamlessly with survey applications, including ODK Collect and Kobo Toolbox, opening the second app\u2019s designated form.  Users send unique HH ids and cluster data from GPSSample to the specified HH survey form. Upon saving the HH survey, teams are returned to the GPSSample app to mark the status of the HH.  Teams use a map and a list view of selected HHs for monitoring field work. Supervisors can view EA and study level summary statistics in GPSSample to monitor field work.\r\nFurthermore, the GPSSample app can be used in surveys lacking any advanced information on population or areas of concern. It is not necessary for a country to have conducted a census. Supervisors can draw an area within GPSSample onsite, segment the area, and assign to field teams to rapidly enumerate locations before sampling them for the assessment or survey. This novel capacity in GPSSample highlights the flexibility and potential for use in outbreak investigations and emergency responses where HHs may be damaged or destroyed. Additionally, food outbreak investigations conducted at market stalls or stores may not be collated in a central list. While designed in the public health context, GPSSample is useful for other disciplines. \r\n\r\nGPSSample is a free Android 8+ application available in six languages: English, French, Spanish, Portuguese, Russian, and Bahasa. It is designed for field practitioners with limited mobile networks or Wi-Fi. The app was developed using the Kotlin open-source language and it uses the open-source SQLite database. User guides, GPSSample Decoder application decrypting data, demonstration videos, and Quarto analyses are available through the GPSSample GitHub site.\r\nUse Cases and Road Map: Development lessons learned will be presented from two public health GPSSample application pilots in India and Kenya. We aim to engage the FOSS4G development community to enhance GPSSample\u2019s geospatial functionalities and learn best practices on maintaining and updating open-source code.  GPSSample currently uses Mapbox. Ideally in a future version, users will also be able to select OpenStreetMap for the base map and the app will include navigation using offline turn-by-turn instructions. \r\n\r\nReferences\r\nUnited Nations Statistics Division, 2024: 2020 World Population and Housing Census Programme. Available at: https://unstats.un.org/unsd/demographic-social/census/censusdates/. Accessed 6/24/2024, 2024.",
+    "start_datetime": "2024-12-04T19:45:00Z",
+    "end_datetime": "2024-12-04T20:15:00Z",
+    "talk:code": "38D7T8",
+    "talk:guid": "192dd0ad-2187-53af-9163-cdd01bf3b6db",
+    "talk:event": "foss4g-2024-academic-track",
+    "talk:track": "Academic Track",
+    "talk:type": "Oral Presentation 3",
+    "talk:language": "en",
+    "talk:room": "Room IV",
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "MCCWJJ",
+        "name": "Amber Dismer",
+        "url": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/MCCWJJ/"
+      },
+      {
+        "code": "FZLLPL",
+        "name": "Joel Adegoke",
+        "url": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/FZLLPL/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-04T20:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/talk/38D7T8/",
+      "title": "Bridging the Gap: GPSSample \u2013 An Innovative Tool for Enumeration and Sampling in Health Surveys"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/talk/38D7T8/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/MCCWJJ/",
+      "title": "Amber Dismer"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/FZLLPL/",
+      "title": "Joel Adegoke"
+    },
+    {
+      "rel": "related",
+      "href": "https://unstats.un.org/unsd/demographic-social/census/censusdates/",
+      "title": "unstats.un.org/unsd/demographic-social/census/censusdates"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/talk/38D7T8/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-ppt": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024-academic-track/submissions/38D7T8/resources/GPSSample_FOSS4G_4Dec2024_TvO81v9.pdf",
+      "type": "application/pdf",
+      "title": "Presentation - PPT",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-academic"
+}

@@ -1,0 +1,96 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "3YCWGQ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "The relationship between rural credit and deforestation",
+    "description": "Tropical forests host half of Earth\u2019s biodiversity (Dirzo & Raven, 2003), 62% of global terrestrial vertebrate species (Pillay et al., 2022), and play a crucial role as a carbon sink (Mitchard, 2018). Despite their importance, every year, 3 to 4 million hectares of primary tropical forests are lost, mainly in Brazil, Indonesia, and the Democratic Republic of Congo (DRC) (Hansen et al., 2013; Seymour, 2022), contributing to 22% of total greenhouse gas (GHG) emissions worldwide along with agriculture, forestry and other land use (AFOLU) (IPCC, 2023).\r\n\r\nPreventing deforestation requires understanding its root causes, particularly the capital availability to the farm sector. In many tropical countries, rural credit is available as loans at subsidized interest rates to improve agricultural production or support agricultural costs (Servo, 2019). However, these loans may be leading to more deforestation. Some studies have analyzed this issue on a municipal scale, but few peer-reviewed studies have linked rural credit to individual property-scale deforestation. Recently, the NGO Greenpeace (Greenpeace, 2024) and the Climate Policy Initiative (Mour\u00e3o et al., 2024) published two studies showing the relationship between rural credit and deforestation. Understanding this relationship can improve public policies to prevent deforestation from happening even before it starts.\r\n\r\nMethods\r\nIn this study, I used open data and FOSS4G to quantify the amount of Rural Credit released to rural properties that committed Deforestation. The datasets came from different open data sources. The Central Bank of Brazil provides data on rural credit on the SICOR System. The National Institute of Space Research (INPE) provides data on deforestation in the Terrabrasilis system. The Brazilian Forest Service provided data for each property's Rural Environmental Registry (CAR), providing their boundaries. The Brazilian Institute of Geography and Statistics (IBGE) provides data for administrative boundaries (state and municipality).\r\n\r\nUsing the Terra library in CRAN-R,. I processed the data sets from three states that contributed the most to deforestation: Rond\u00f4nia, Mato Grosso, and Par\u00e1. I used a Spatialite database and QGIS Geographic Information System to check the results. The novelty here is that by using R scripts, it was possible to rebuild the relational database from SICOR in a geospatial environment, providing a reproducible environment. All steps are described below.\r\n\r\nFirst, using R, all the data needed for the analysis was downloaded from their source and loaded into the R environment. The second step, still using R, was to recreate the SICOR, CAR, and PRODES Deforestation tables and populate them into a Spatialite (SQLite) database. This step provides a valuable tool for monitoring by both environmental agencies and the banks that provide loans for rural credit.\r\n\r\nThe next step was to intersect the deforestation data with the CAR property boundaries, calculating the amount of deforestation on each property using PRODES data between 2008 and 2023. Next, the total number of loans between 2013 and 2023 was identified for each property. All these steps were processed using the Terra library in R.\r\n\r\nResults\r\nIn 1992, the Brazilian Parliament enacted Law 4,829, creating subsidies for rural credit, known as Safra Plan. The interest rates of the Safra Plan have always been significantly lower than those practiced in the market. In March 2019, for example, while the average interest rate on loans for non-rural purposes stood at 31.6% per year, rural credit was observed at 10.8% p.y. on market rates, and even lower with controlled rates observing an average rate of 6.1% p.y.(Servo, 2019) .\r\n\r\nThe results show that from 2013 to 2023, more than BRL 17 billion was loaned to properties with some deforestation in these three states (RO, PA, MT). Counting deforestation from August 2008 to July 2023, 8197 km\u00b2 is the total amount of clearing in properties that received rural credit in those same three states, representing 8.5% of all deforestation for the period.",
+    "start_datetime": "2024-12-04T17:00:00Z",
+    "end_datetime": "2024-12-04T17:30:00Z",
+    "talk:code": "3YCWGQ",
+    "talk:guid": "b94b5c4c-66e9-5506-a379-3d0775e5a300",
+    "talk:event": "foss4g-2024-academic-track",
+    "talk:track": "Academic Track",
+    "talk:type": "Oral Presentation 2",
+    "talk:language": "en",
+    "talk:room": "Room I",
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "B738KV",
+        "name": "George Porto Ferreira",
+        "url": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/B738KV/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-04T17:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/talk/3YCWGQ/",
+      "title": "The relationship between rural credit and deforestation"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/talk/3YCWGQ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/B738KV/",
+      "title": "George Porto Ferreira"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/talk/3YCWGQ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024-academic-track/submissions/3YCWGQ/resources/RuralCreditFOSS4G_gqhynWw.pptx",
+      "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-academic"
+}

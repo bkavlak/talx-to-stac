@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "9KSQVT",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "I Love a Sunburnt Country: Address Data Standardisation and Enrichment in an Austrailan Context",
+    "description": "We put together the most popular opensource GIS dataset in Australia: the Geocoded National Address File -- the most downloaded dataset from `data.gov.au`. This talk will share the journey and discuss some of the challenges to maintain various insightful GIS datasets everyday.\n\nDifferent regions, cultures and countries all have different approaches to the problem of \"Addressing\". This talk will cover how a private Australian government owned organisation produces a decades old nationalised Australian address file that is extremely broadly used and highly regarded. This main address file is provided for free as \"G-NAF\" the Geocoded National Address File from `data.gov.au` and reputedly accounts for a very large proportion of downloads from that government resource.\r\n\r\nJust using open sources, that is what information is available from administrative/governmental bodies and what can observed from the streets and skies, large datasets of insights can be added to the address database. In the decades during which this address set has been maintained and technology has evolved, we have and continue to constantly work to provide this enrichment. Streets, borders and zoning are low hanging fruit these days. Insights such as buildings, trees, swimming pools and solar panels are well established as being available, though constantly improving in quality. In particular we're proud of the work we do providing the best information for emergency services, a surprisingly difficult challenge in some significant edge-cases. Today's most interesting new additions are around land use, aboriginal lands, as well as addressing risk and sustainability around our famous floods and fires.\r\n\r\nThis fast-paced talk will cover some of the most interesting challenges to constantly producing all this information from a senior software engineer inside the company. Not leastly discussing OSGeo's tools that are fundamentally important to us and for which we're extremely grateful. We will briefly touch on some cool uses we have for these tools and will discuss some of the challenges we encountered in doing this work.",
+    "start_datetime": "2025-11-19T01:00:00Z",
+    "end_datetime": "2025-11-19T01:25:00Z",
+    "talk:code": "9KSQVT",
+    "talk:guid": "a8e0e5fd-664f-5bc1-a2a6-47838199bb41",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Use Cases and Applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WA220",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "KQPXQB",
+        "name": "Elena Williams",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/KQPXQB/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-19T01:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/9KSQVT/",
+      "title": "I Love a Sunburnt Country: Address Data Standardisation and Enrichment in an Austrailan Context"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/9KSQVT/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/KQPXQB/",
+      "title": "Elena Williams"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/9KSQVT/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=dmY7hqB6kbM",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | I Love a Sunburnt Country: Address Data Standardisation and Enrichment",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

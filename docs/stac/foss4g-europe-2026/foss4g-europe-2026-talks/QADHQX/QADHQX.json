@@ -1,0 +1,96 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "QADHQX",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "Evaluating the application of FAO-WaPOR data to support Colombia\u2019s National Water Study on water consumption in the agricultural sector",
+    "description": "Agriculture accounts for approximately 70% of global freshwater withdrawals and remains highly sensitive to climate variability. Therefore, timely estimates of agricultural water use are crucial for effective basin planning, water-stress diagnostics, and informed climate adaptation strategies.\r\n\r\nIn Colombia, the National Water Study (Estudio Nacional del Agua, ENA) is the official instrument for quantifying water demand across sectors. It relies on an FAO-56 soil\u2013water balance approach that requires extensive input data and numerous intermediate calculations  (IDEAM 2023). Because this method is so operationally demanding, the ENA is published only once every four years and suffers from a significant reporting lag. For instance, the ENA 2022 report relies on data from 2020. Consequently, these estimates are often outdated by the time of publication, and lack the capacity to capture intra-annual variability driven by phenomena such as El Ni\u00f1o and La Ni\u00f1a.\r\n\r\nThis research therefore investigates whether freely available satellite data can support the ENA reporting, enabling more continuous and timely monitoring. The study evaluates FAO's WaPOR (Water Productivity through Open access to Remotely sensed-derived data) through an open-source, reproducible framework of publicly available notebooks. It combines WaPOR's monthly actual evapotranspiration and interception (AETI) and precipitation products with ENA's agro-climatic crop mask to restrict the analysis to agricultural areas and perform pixel-level calculations of water consumption. \r\n\r\nThe resulting blue water volumes and irrigation water withdrawals were aggregated at the sub-basin level and compared with official ENA estimates for 2020. Apart from the country-level analysis, the methodology was applied to a specific zoom-in area located within the Magdalena province. This area is characterized by a high dominance of banana and oil palm (Cruz 2020), which allowed a specific comparison between WaPOR-derived evapotranspiration values and the expected agricultural patterns. This selection was based on two main criteria: first, the area exhibits a relatively homogeneous surface according to the FAO-WaPOR (L3-AETI-M - spatial resolution of 30m) layer which facilitates the spatial analysis and interpretation of results; however, it should be noted that the Level 2 (L2-AETI-M  - spatial resolution of 100m) product will be used for the analysis, consistent with the methodology applied across the entire national territory. Second, crop mask data from IDEAM reveal that the region contains a significant proportion of two key permanent crops: oil palm and banana \r\n\r\nThe results show a strong spatial agreement (R\u00b2 = 0.83), indicating consistent identification of priority basins, although WaPOR estimates are approximately 66% of ENA values, with similar patterns for irrigation withdrawals. This systematic offset is consistent with the conceptual difference between the two approaches: ENA estimates potential crop water demand under optimal conditions using FAO-56 crop coefficients, while WaPOR captures actual evapotranspiration under real field constraints. This difference becomes evident when analysing seasonal behaviour: in the Caribbean and Magdalena basins, which concentrate the largest agricultural areas, spatial agreement is notably high during the dry season but drops significantly with the onset of the first rainy season. \r\n\r\nThe detailed analyses for the Magdalena area shows that WaPOR-derived evapotranspiration values are slightly lower than ENA estimates for both banana and oil palm, consistent with the national findings. The seasonal structure of this disagreement reveals that January is the only month where the relationship inverts, with WaPOR marginally exceeding ENA, a pattern consistent with dry-season dynamics in which low atmospheric humidity allows WaPOR's energy balance approach to capture relatively high actual ET. From February onwards, ENA overtakes WaPOR, and the gap widens progressively through the wet season transition, reaching its annual peak in May \u2014 precisely when the first rainy season is established \u2014 and a secondary peak in October, coinciding with the second rainfall peak over the region. This seasonally structured bias confirms that the difference between the two approaches is not a random but a response to Colombia's climate variability.\r\n\r\nThe developed framework produces spatial outputs and results  using freely available tools and data sources such as the WaPOR data which  is provided in near-real-time layers of actual evapotranspiration, biomass production, and water productivity at resolutions from 30 m to 300 m globally. The potential of these products for agricultural water monitoring is not new \u2014 WaPOR has already been applied in other contexts, such as the assessment of irrigation performance at a sugarcane estate in Mozambique (Chukalla et al. 2022) but its application at a national scale in Colombia for water demand reporting remains largely unexplored. This study aims to contribute to that evidence base in Latin America, and to motivate further exploration of WaPOR's potential in other regions where timely, low-cost alternatives to conventional water accounting methods are needed. By openly sharing the methodological framework through accessible notebooks, this research actively promotes reproducibility and collaborative science, which are core tenets of the FOSS4G community. It empowers local water authorities, researchers, and policymakers in data-scarce regions to independently verify, adapt, and scale the approach to their specific hydroclimatic contexts. Furthermore, integrating these Python-based workflows with QGIS demonstrates how open-source ecosystems can bridge the gap between complex satellite data and operational water management, ultimately democratizing access to critical climate adaptation tools.",
+    "start_datetime": "2026-06-30T11:30:00Z",
+    "end_datetime": "2026-06-30T12:00:00Z",
+    "talk:code": "QADHQX",
+    "talk:guid": "7b5ca4e8-4a23-5345-9153-dc824c75aca1",
+    "talk:event": "foss4g-europe-2026",
+    "talk:track": "Academic track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "A01",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "KNSX8P",
+        "name": "Laura Agudelo",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/KNSX8P/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-06-30T11:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/QADHQX/",
+      "title": "Evaluating the application of FAO-WaPOR data to support Colombia\u2019s National Water Study on water consumption in the agricultural sector"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/QADHQX/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/KNSX8P/",
+      "title": "Laura Agudelo"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/QADHQX/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://canva.link/j3mr3xngz6tjj2g",
+      "title": "Presentation",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

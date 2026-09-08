@@ -1,0 +1,129 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "ZZGNXV",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Human-in-the-loop Machine Learning with Realtime Model Predictions using GroundWork and Raster Vision",
+    "description": "Acquiring and labeling geospatial data for training machine learning models is a time-consuming and expensive process. It is made even more difficult by the lack of specialized open-source tools for dealing with the idiosyncrasies of geospatial data. At Azavea, we have encountered both of these problems before. In this talk, we will present a solution that incorporates our geospatial annotation platform, GroundWork (https://groundwork.azavea.com), with our open-source deep learning framework, Raster Vision (https://rastervision.io), to provide a human-in-the-loop active learning workflow. This workflow allows labelers to immediately see the effect of their created labels on the model\u2019s performance, thus speeding up the labeling-training-labeling cycle and making the connection between the AI and human GIS data labelers easy and seamless. \r\n\r\nThis talk will extend the hands-on experience introduced in last year\u2019s \u201cHuman-in-the-loop Machine Learning with GroundWork and STAC'' FOSS4G workshop. We will present an enhanced active-learning workflow that allows labelers to train a model and see predictions on-the-fly as they create labels in GroundWork. The model-training and predictions will be handled by Raster Vision. This workflow will give the labelers a clear view of the model\u2019s current strength and weaknesses at all times, and thus allow them to direct their labeling efforts more efficiently. Newly created labels will propagate back to the AI model in real time, and an asynchronous job will continue to refine the model and predictions. This loop is backed by the open-source Raster Foundry (https://rasterfoundry.azavea.com) and Franklin (https://azavea.github.io/franklin) APIs, and is compliant with the STAC (https://stacspec.org) and OGC Features (https://www.ogc.org/standards/ogcapi-features) open standards.",
+    "start_datetime": "2022-08-24T09:30:00Z",
+    "end_datetime": "2022-08-24T10:00:00Z",
+    "talk:code": "ZZGNXV",
+    "talk:guid": "f8e0ce60-12bb-53bd-baa8-3c4b14a18121",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room 4",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "U397XP",
+        "name": "Aaron Su",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/U397XP/"
+      },
+      {
+        "code": "BMJNQH",
+        "name": "Adeel Hassan",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/BMJNQH/"
+      },
+      {
+        "code": "NYXNFB",
+        "name": "Simon Kassel",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/NYXNFB/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/ZZGNXV/",
+      "title": "Human-in-the-loop Machine Learning with Realtime Model Predictions using GroundWork and Raster Vision"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/ZZGNXV/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/U397XP/",
+      "title": "Aaron Su"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/BMJNQH/",
+      "title": "Adeel Hassan"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/NYXNFB/",
+      "title": "Simon Kassel"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/ZZGNXV/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/7BXS5TCfRJjCUZU5BiavdA",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Human-in-the-loop Machine Learning with Realtime Model Predictions using GroundWork\u2026",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=bqUdeaJQNiE",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Human-in-the-loop Machine Learning with Realtime Model Predictions using GroundWork\u2026",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

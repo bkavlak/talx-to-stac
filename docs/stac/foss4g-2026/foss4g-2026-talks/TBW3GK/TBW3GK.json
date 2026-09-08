@@ -1,0 +1,94 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "TBW3GK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Comparing uncertainty quantification methods for Random Forest-based digital soil mapping",
+    "description": "Machine learning is widely used to derive spatial data for environmental decision-making, including in digital soil mapping (DSM), where mapped products support carbon accounting, land management, crop modelling, food security, and policy reporting. In DSM, soil organic carbon (SOC) has become a key target variable because many climate- and land-related decisions now depend on spatially explicit estimates of SOC stocks and change. Recent advances in machine learning-based spatial modelling have accelerated SOC mapping, while growing standardisation efforts have improved the consistency of data collection and analysis workflows.\r\n\r\nPredictions from machine learning-based environmental models are inherently uncertain, both due to incomplete knowledge of the processes controlling the target variable (epistemic uncertainty) and irreducible variability in the system itself (aleatoric uncertainty). Predictions should therefore always be accompanied by their uncertainty estimates to support decision-making and avoid overconfidence in model outputs. Previous studies show that interpretation and decision-making depend not only on the reported uncertainty values, but also on the type of uncertainty reported and how it is communicated. This makes uncertainty quantification especially valuable in open-source applications, as it improves the reliability and explainability of shared models and datasets.\r\n\r\nUncertainty quantification in DSM has received increasing attention in recent years, although most studies either report a single uncertainty measure or compare uncertainty performance across different modelling algorithms. In SOC modelling, uncertainty is most commonly expressed through prediction intervals, often derived from Quantile Regression Forest (QRF) or related ensemble-based approaches, with 90% prediction intervals widely adopted following the GlobalSoilMap framework (Arrouays et al., 2014). \r\n\r\nHowever, much less attention has been paid to comparing different uncertainty quantification methods within a single model family, such as Random Forest. In applied workflows, the modelling algorithm is often chosen before uncertainty becomes a methodological consideration, usually on the basis of predictive performance. Therefore, uncertainty quantification often needs to be added to an existing workflow rather than drive model choice. This creates a need for systematic comparison of uncertainty quantification methods within a shared model framework, allowing different uncertainty representations to be evaluated under otherwise identical modelling conditions, with attention not only to implementation but also to the sources of uncertainty represented and the quality of the resulting estimates.\r\n\r\nWe address this need by systematically comparing uncertainty quantification approaches applicable to Random Forest-type models, which remain among the most widely used methods in DSM due to their robustness and compatibility with open-source geospatial workflows. We examine how different approaches influence the spatial pattern of estimated uncertainty, identify the main drivers of these differences, and assess the quality and interpretability of the resulting uncertainty estimates. More broadly, we aim to provide a structured comparison of uncertainty quantification methods that can be integrated into Random Forest-based soil modelling workflows, highlighting their practical differences and implications for use.\r\n\r\nWe apply the comparison to a baseline Random Forest (RF) model for national-scale SOC prediction in Estonia, largely developed by Kmoch et al. (2021) and Choi et al. (2025), and organise the tested methods into two broad groups reflecting primarily model-related versus data-related sources of uncertainty.\r\n\r\nThe first group includes RF-based interval methods. Under Quantile Regression Forest (QRF), we consider (a) conventional 90% prediction intervals expressed through interval width, (b) quantile formulations emphasising the tails of the predictive distribution, and (c) formulations emphasising the central region containing most predictions. We also incorporate conformal prediction into the RF pipeline to generate prediction intervals with user-specified confidence levels, including (d) split conformal prediction with a simple scoring function (Singh et al., 2024), (e) conformalized quantile regression, which produces wider intervals for more difficult predictions (Romano et al., 2019), and (f) class-conditional conformal prediction based on land-use or related covariate classes. In addition, we assess model sensitivity through (g) hyperparameter resampling. \r\n\r\nThese RF-based interval methods describe uncertainty given the available model and training data, but not whether the available data themselves are representative of the prediction domain or free from substantial error. This limitation is especially relevant in DSM, where sample coverage is often sparse or uneven, and where both predictors and observations contain uncertainty. We therefore distinguish a second group of approaches targeting data uncertainty, particularly uncertainty related to representativeness and extrapolation. This group includes the Area of Applicability (AoA) framework of Meyer and Pebesma (2021), from which we consider both (h) the binary AoA mask and the (i) continuous dissimilarity index (DI) as possible uncertainty expressions. We additionally explore related out-of-distribution detection approaches as complementary indicators of covariate-space dissimilarity.\r\n\r\nWe compare the resulting uncertainty representations through a joint evaluation framework combining interval quality diagnostics and spatial pattern analysis. For RF-based interval methods, this includes empirical coverage of nominal prediction intervals, average interval width, and conditional coverage, allowing under- and over-confidence to be distinguished. For dissimilarity-based approaches, we assess whether areas flagged as dissimilar, outside the AoA, or otherwise weakly supported by the training data are associated with larger residuals and poorer interval calibration. In addition, we examine spatial autocorrelation and clustering of high-uncertainty regions for each method, and compare these with known features of the sampling design and environmental covariates.\r\n\r\nPreliminary results show that the choice of uncertainty quantification method can lead to substantially different uncertainty patterns even when applied to the same RF model. Although dissimilarity-based approaches sometimes highlight the same areas as interval-based methods, and high dissimilarity index values often coincide with wider intervals and poorer interval calibration, this relationship is not consistent across all soil types and land cover classes. These findings indicate that method choice influences the uncertainty that is ultimately communicated and interpreted, and that combining multiple quantification methods provides a stronger basis for interpreting model outputs and supporting decision-making. Furthermore, disagreement between methods may itself serve as an additional uncertainty diagnostic.\r\n\r\nTo support reproducibility and reuse, the full Python workflow and code for the uncertainty quantification and comparison framework will be made openly available after the publication of related work.\r\n\r\n\r\nCitations:\r\n\r\nArrouays, D., McBratney, A.B., Minasny, B., Hempel, J.W., Heuvelink, G.B.M., MacMillan, R.A., Hartemink, A.E., Lagacherie, P. & McKenzie, N.J. (2014). The GlobalSoilMap project specifications. GlobalSoilMap: Basis of the global spatial soil information system.\r\nChoi, J., Kmoch, A., & Uuemaa, E. (2025). Optimisation of sampling design for multivariate soil mapping with machine learning. In Proceedings of the 2025 conference on Big Data from Space (BiDS\u201925). Publications Office of the European Union. https://doi.org/10.2760/2119408\r\nKmoch, A., Kanal, A., Astover, A., Kull, A., Virro, H., Helm, A., P\u00e4rtel, M., Ostonen, I. & Uuemaa, E. (2021). EstSoil-EH: a high-resolution eco-hydrological modelling parameters dataset for Estonia. Earth System Science Data, 13(1), 83-97.\r\nMeyer, H., & Pebesma, E. (2021). Predicting into unknown space? Estimating the area of applicability of spatial prediction models. Methods in Ecology and Evolution, 12(9), 1620-1633.\r\nRomano, Y., Patterson, E., & Candes, E. (2019). Conformalized quantile regression. Advances in Neural Information Processing Systems, 32.\r\nSingh, G., Moncrieff, G., Venter, Z., Cawse-Nicholson, K., Slingsby, J., & Robinson, T. B. (2024). Uncertainty quantification for probabilistic machine learning in earth observation using conformal prediction. Scientific Reports, 14(1), 16166.",
+    "start_datetime": "2026-09-03T02:00:00Z",
+    "end_datetime": "2026-09-03T02:30:00Z",
+    "talk:code": "TBW3GK",
+    "talk:guid": "3f31cf26-4164-505b-b3a0-9cc0d07be984",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos1",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "HCSYMV",
+        "name": "Liina Hints",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/HCSYMV/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-03T02:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/TBW3GK/",
+      "title": "Comparing uncertainty quantification methods for Random Forest-based digital soil mapping"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/TBW3GK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/HCSYMV/",
+      "title": "Liina Hints"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.2760/2119408",
+      "title": "doi.org/10.2760/2119408"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/TBW3GK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

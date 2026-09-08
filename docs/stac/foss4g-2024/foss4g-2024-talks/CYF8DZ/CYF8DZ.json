@@ -1,0 +1,116 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "CYF8DZ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Speckle: your geospatial & 3d data hub",
+    "description": "As geospatial data users and developers, we often encounter industry standards for data formats, posing challenges for collaborative projects with sectors like Architecture, Engineering, and Construction, which have diverse data formats and conventions.\r\n\r\nProfessionals in these fields often struggle with transferring data between QGIS, Rhino, Revit, Grasshopper, and other platforms and web services. Speckle, an open source platform simplifies data and model exchange between urban design, architecture, and engineering software, fostering collaboration and automation; it enables this to all happen as a result of a single click! In this presentation, we will share simple workflows using Speckle  to unlock the power of your GIS data.\r\n\r\nSpeckle's open nature serves multiple purposes:\r\n\r\n- GIS Users: Focus on your tasks and avoid technical data misalignments. Align data location-wise and interoperably, and collaborate in real-time via an interactive web interface with a 3D viewer.\r\n\r\n- Developers: Extract real-time data insights, automate workflows and data checks, and build custom apps and integrations using Speckle's infrastructure (3D viewer, SDKs, data access, and authentication).\r\n- Managers: Gain full control of your data with location- and provider-agnostic server setups, custom data access and permissions, time efficiency gains, change tracking, and dashboards.\r\n\r\nSpeckle's flexible schema facilitates easy conversion to and from other native formats and enables  data querying. A recent update includes integration with the OGC API standard, making Speckle data accessible to any client using the OGC API without extra plugins or scripts. This means that a master plan drawn by an architect in AutoCAD can be instantly mapped as a WFS layer via Speckle.\r\n\r\nJoin us this December at FOSS4G to learn more! For those interested in exploring further, please visit our GitHub repository.",
+    "start_datetime": "2024-12-06T13:00:00Z",
+    "end_datetime": "2024-12-06T13:30:00Z",
+    "talk:code": "CYF8DZ",
+    "talk:guid": "66033da1-5cfc-5fad-9718-eeba019f12fb",
+    "talk:event": "foss4g-2024",
+    "talk:track": "Open Data",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room V",
+    "talk:room_capacity": 80,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "AFKYLF",
+        "name": "Kateryna Konieva",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/AFKYLF/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-06T13:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/CYF8DZ/",
+      "title": "Speckle: your geospatial & 3d data hub"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/CYF8DZ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/AFKYLF/",
+      "title": "Kateryna Konieva"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/CYF8DZ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-slides": {
+      "href": "https://docs.google.com/presentation/d/1bgn29lOZwVPtaRLDtC_0UR6YsGTfPezD1BuoRnU2LXA/edit?usp=sharing",
+      "title": "Presentation Slides",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/bAsZg95DACrMYrbfYqoDJA",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | Speckle: your geospatial & 3d data hub",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=OGX7NMTU50U",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | Speckle: your geospatial & 3d data hub",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

@@ -1,0 +1,108 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "YSAHS9",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Opening Session",
+    "description": "Opening session with institutional greetings.",
+    "start_datetime": "2022-08-24T07:00:00Z",
+    "end_datetime": "2022-08-24T08:00:00Z",
+    "talk:code": "YSAHS9",
+    "talk:guid": "6c977a0e-ee07-545f-b00c-f3fca291ad16",
+    "talk:event": "foss4g-2022",
+    "talk:type": "Full session",
+    "talk:language": "en",
+    "talk:room": "Auditorium",
+    "talk:room_capacity": 1000,
+    "talk:duration_minutes": 60,
+    "talk:speakers": [
+      {
+        "code": "SQ7UJS",
+        "name": "Luca Delucchi",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/SQ7UJS/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T07:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/YSAHS9/",
+      "title": "Opening Session"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/YSAHS9/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/SQ7UJS/",
+      "title": "Luca Delucchi"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/YSAHS9/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/hP9FyoTbDEsVRGQWFzfrMy",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Opening Session",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=vXxnQLM1k6M",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Opening Session",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "RGSUDP",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Tiling big piles of raster data using open source software and MapTiler Engine",
+    "description": "When publishing (raster and vector) data in the form of a web mapping application, the first step is always to prepare a cache of the data. Currently, tiled images seem to be the industry standard - and the internal format of the tiles is either PBF (for vector data) or PNG/JPEG/WebP or similar raster data formats supported by current web browsers and desktop mapping applications (e.g. QGIS). \r\n\r\nMost of the tools out there are going to store the raster tiles in a file-system structure, using directories for the Z and X tile coordinates and file names for the Y coordinate. This is limiting for practical purposes as on some filesystems you can exceed the maximum number of files easily. While for the vector data, the OpenMapTiles project seems to be well established, along with Tippecanoe and Planetiler,  for the raster data tiles, the field of tiling possibilities is wide open.\r\n\r\nThe tiling process can be very demanding on hardware resources and time-consuming. Having the possibility to parallel process the data or even use a cluster of machines for faster tiling could be crucial for some applications.\r\n\r\nIn this talk, we will give an overview of the current possibilities for tiling, focused (but not exclusively) on the raster data tiles. Gdal2tiles, QGIS tile generating tools,  mapproxy-seed, mapcache_seed, and others. Each of the tools has its place in the geospatial data provider ecosystem, and so does MapTiler-Engine. With MapTiler-Engine, users can process large amounts of geospatial data and store them in various output tile formats. It supports many input data formats and adds modifications such as output color, resolution, and more. It also supports different tile matrix sets. MapTiler-Engine has a graphical user interface for easy usage, but it also has a command line interface, so you can make it part of a larger toolchain.",
+    "start_datetime": "2023-06-28T10:00:00Z",
+    "end_datetime": "2023-06-28T10:30:00Z",
+    "talk:code": "RGSUDP",
+    "talk:guid": "1ceb4202-0a4e-550d-8ede-fc09f909ab16",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT C / N109 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "3PVUSR",
+        "name": "Jachym",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/3PVUSR/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T10:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/RGSUDP/",
+      "title": "Tiling big piles of raster data using open source software and MapTiler Engine"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/RGSUDP/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/3PVUSR/",
+      "title": "Jachym"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/RGSUDP/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/aV6jxbbfA3yYq5TW55h8Pm",
+      "type": "text/html",
+      "title": "2023 | Tiling big piles of raster data using open source software and MapTiler Engine - Jachym",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=1hiPoTFn1CA",
+      "type": "text/html",
+      "title": "2023 | Tiling big piles of raster data using open source software and MapTiler Engine - Jachym",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

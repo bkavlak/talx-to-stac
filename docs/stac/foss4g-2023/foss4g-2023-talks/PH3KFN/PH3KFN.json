@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "PH3KFN",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Digital Earth Observation infrastructures and initiatives: a review framework based on open principles",
+    "description": "In recent years, the democratisation of access to Earth Observation (EO) data, in parallel to the increased volume and variety of such data, have led to the paradigm shift towards \u201cbringing the user to the data\u201d [4]. This is exemplified by the European Copernicus Programme, which on a daily basis makes available terabytes of high quality, openly-licensed EO data suitable for a wide range of research and commercial applications. The computational power required to work with these large amounts of data, as well as a renewed interest for Artificial Intelligence models, and the need for large storage volumes were met with a rise of cloud-based digital infrastructures and services. These infrastructures provide environments that can be readily instantiated and equipped with the necessary data and processing tools all accessible in one place, in a highly automated and scalable manner to support users in analysing EO data in the cloud. Several such infrastructures as well as other initiatives (the latter also including services and components offering specific capabilities) have been developed, either as a byproduct of single companies leveraging enormous hyperscale computing powers (such as Google Earth Engine, Microsoft Planetary Computer and Earth on AWS) or as projects funded and operated by international communities that are primarily driven by specific policy objectives. Examples are projects publicly funded by the European Commission and the European Space Agency, such as the Data and Information Access Services (DIAS) platforms, and the Thematic and Regional Exploitation Platforms.\r\nThe current landscape of digital infrastructures and initiatives for accessing and processing EO data is fragmented, with varying levels of user onboarding and uptake success, see e.g. [3]. Within this context, we offer a user-centric framework used to review 50+ existing digital infrastructures and initiatives for EO. Our work is expected to extend the scope and outlook of similar smaller reviews [1], where 7 digital infrastructures are qualitatively compared according to a set of ten criteria, mainly of a technical nature. The proposed review framework is conceptualised from a user-driven perspective by mapping user needs to current infrastructure and service offers, ultimately aiming at identifying overlaps and gaps in the existing ecosystem. The framework is organised around 5 pillars corresponding to common problem areas: 1) sustainability of the service, 2) redundancy of service, 3) user onboarding, 4) price and 5) user needs. Within each problem area, we further identified a number of good practices for user-centric developments of infrastructure and services. The good practices are derive from the authors\u2019 longstanding experience in using digital EO infrastructures and are framed around several aspects related to open principles, both from the technical and the organisation side.\r\nThe first pillar is the sustainability of the infrastructure/initiative after the initial funding phase. Good practices include: fostering the creation of a community of users/developers that ensures preservation/evolution of the infrastructures/tools; releasing software under open source licenses, which encourages the reuse and growth of products considered to be useful by the community; adopting open standards and releasing specifications in the public domain, facilitating interoperability and reuse.\r\nThe second pillar is the fragmentation between infrastructures/initiatives causing redundancy of services. Relevant good practices involve the use of open source licensing models in favour of collaboration and reuse, the adoption of common open standards and Application Programming Interfaces (APIs), the federation of resources and federated authentication. \r\nThe third pillar consists of the steep learning curve often needed to start using digital infrastructures/initiatives; related good practices include, in addition to well-written and openly available documentation (including resources such as step-by-step videos and tutorials), the availability of sandboxing solutions that allow users to experiment with the infrastructure/initiative to understand if the offer matches the needs. \r\nThe fourth pillar is the price of using infrastructures, which is not always transparent and/or clearly describing the services offered. The related good practice consists in the provision of a full and transparent list of services and related costs. \r\nThe fifth and last pillar is the top-down design and implementation of the infrastructure/initiative, with limited consideration of user\u2019s needs. Good practices include co-design approaches, where users are actively involved in all phases and their feedback used to adjust the developed prototype [2], the establishment of helpdesks, forums, mailing lists and channels fostering community growth around the project, and the adoption of open source development and open governance.\r\nThe results of applying this review framework to 50+ digital EO infrastructures and initiatives shed light on a first set of limitations (from a user-driven perspective) common to many platforms. The most important include: discoverability of available datasets; steep learning curve to start using their services; difficulty to understand what the offered services are and whether they fit user needs; not fully transparent pricing; no reusability of software components; poor interoperability; vendor lock-in; no facilitation for code sharing/reuse; lack of guarantee of long-term sustainability of the infrastructure; internal policies hampering publication of commercial added-value code/algorithms. At the same time, the review identified some promising digital EO infrastructures and initiatives that already adopt most of the aforementioned good practices. These include, among others, the OpenEO API initiative, which aims to facilitate interoperability between cloud computing EO platforms, and the infrastructure of the Open Earth Monitor project, which adopts an open source, open data and open governance model by default.\r\nThis review, which is currently being applied to a growing number of infrastructures and initiatives, is expected to help the user community identify overlaps, gaps and synergies as well as to inform the providers of infrastructures and initiatives on how to improve existing services and steer the development of future ones.",
+    "start_datetime": "2023-06-30T12:00:00Z",
+    "end_datetime": "2023-06-30T12:30:00Z",
+    "talk:code": "PH3KFN",
+    "talk:guid": "44d6592c-bd65-5eaf-a0ca-d9a0ce6eac87",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Academic Track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT E / N209 - Floor 3",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "ETULNP",
+        "name": "Margherita Di Leo",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/ETULNP/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-30T12:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/PH3KFN/",
+      "title": "Digital Earth Observation infrastructures and initiatives: a review framework based on open principles"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/PH3KFN/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/ETULNP/",
+      "title": "Margherita Di Leo"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/PH3KFN/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "PCA9TC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "MapStore, a year in review",
+    "description": "MapStore is an open source product developed for creating, saving and sharing in a simple and intuitive way maps, dashboards, charts and geostories directly online in your browser. MapStore is cross-browser and mobile ready, it allows users to: \r\n\r\n- Search and load geospatial content served using widely used protocols (WMS, WFS, WMTS, TMS, CSW) and formats (GML, Shapefile, GeoJSON, KML/KMZ etc..)\r\n- Manage maps (create, modify, share, delete, search), charts, dashboard and stories directly online\r\n- Manage users, groups and their permissions over the various resources MapStore can manage\r\n- Edit data online via WFS-T with advanced filtering capabilities\r\n- Deeply customize the look&feel to follow strict corporate guidelines\r\n- Manage different application contexts through an advanced wizard to have customized WebGIS MapStore viewers for different use cases (custom plugins set, map and theme)\r\n\r\nYou can use MapStore as a product to deploy simple geoportals by using the standard functionalities it provides but you can also use MapStore as a framework to develop sophisticated WebGIS portals by reusing and extending its core building blocks.\r\n\r\nMapStore is built on top of React and Redux and its core does not explicitly depend on any mapping engine but it can support both OpenLayers, Leaflet and Cesium; additional mapping engines could be also supported (for example MapLibre GL) to avoid any tight dependency on a single engine.\r\n\r\nThe presentation will give the audience an extensive overview of the MapStore  functionalities for the creation of mapping portals, covering both previous work as well work for the future releases.  Eventually, a range of MapStore case studies will be presented to demonstrate what our clients (like City of Genova, City of Florence, Halliburton, Austrocontrol and more) and partners are achieving with it.",
+    "start_datetime": "2023-06-28T09:30:00Z",
+    "end_datetime": "2023-06-28T10:00:00Z",
+    "talk:code": "PCA9TC",
+    "talk:guid": "f636a3f4-7108-5d1b-8ce7-bb5e769b225f",
+    "talk:event": "foss4g-2023",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Mirusha",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "BEYNQB",
+        "name": "Stefano Bovio",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/BEYNQB/"
+      },
+      {
+        "code": "8VWD7Y",
+        "name": "Matteo Velludini",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/8VWD7Y/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/PCA9TC/",
+      "title": "MapStore, a year in review"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/PCA9TC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/BEYNQB/",
+      "title": "Stefano Bovio"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/8VWD7Y/",
+      "title": "Matteo Velludini"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/PCA9TC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/eV1vu6urYc7DP6LiJNhSfJ",
+      "type": "text/html",
+      "title": "2023 | MapStore, a year in review - Stefano Bovio",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=yrm7iOMNOJw",
+      "type": "text/html",
+      "title": "2023 | MapStore, a year in review - Stefano Bovio",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

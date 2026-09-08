@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "VP8HKH",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Three years in two months - lessons learned in re-building a 120kloc GIS system from scratch as a 10x engineer.",
+    "description": "This is a personal account of a two-month sprint to attempt to rebuild our corporate GIS system in the Brazilian Federal Police using modern tools, solo. I will touch on tools, efficiency, burnout, and the golden pot at the end of the rainbow.\n\nThis is a personal account of a two-month sprint to attempt to rebuild our corporate GIS system in the Brazilian Federal Police using modern tools, solo. I will touch on tools, efficiency, burnout, and the golden pot at the end of the rainbow.\r\n\r\nFor context, this is a March 2026 snapshot of a reality that is changing blazingly fast. Some of it may not make sense in August/September, when FOSS4G Hiroshima takes place. Therefore, I have selected topics that I see as more likely to be long term lessons than point-in-time hacks.\r\n\r\nThe problem:\r\n\r\n - A geonode fork for which we aspired to hire an italian company to maintain.\r\n - The inability to find a viable legal path in Brazil to do it.\r\n - An essential piece of infrastructure with large development overhead.\r\n - An overwhelmed team unable to submit improvements to upstream.\r\n\r\nA new type of solution just became possible, since current dev tools are nothing short of sorcery.\r\n\r\nGeneral principles:\r\n\r\n  - Saying what you mean\r\n  - Extracting domain knowledge from the P.O.\r\n  - Extracting general knowledge from the A.I.\r\n  - Guidelines, Guardrails and Railroading - do's and don'ts\r\n  - Testing with \"eyes\"\r\n  - Finally hitting \"play\" (setting up a dev loop)\r\n  - Human workload management\r\n\r\nAs a result, a viable replacement for our current system was prototyped with most of the core features working. There are gaps, but also ther are features we have not been able to implement for years (quotas, observability, multi-tenancy, sophisticated audit logging, ISO-19115/MGB compliance, low latency dev cycle for UI, automated testing for frontend AND backend, API keys ...).\r\n\r\nThe current prototype is a single repository with under 80 thousand lines of functional code aiming to replace a 120 thousand lines codebase. There is already a full feature (1.5kloc) waiting for refactoring before submitting to pycsw upstream, with more upstream contributions to other projects coming. Whether the switch itself will prove to be viable is still up in the air... but you will get the chance to know in FOSS4G Hiroshima!\r\n\r\n**This abstract is entirely human-written using a simple text editor. No review, no prior or posterior opinion or any input from I.A., not even auto-correct**",
+    "start_datetime": "2026-09-01T04:00:00Z",
+    "end_datetime": "2026-09-01T04:30:00Z",
+    "talk:code": "VP8HKH",
+    "talk:guid": "bab2c4c1-9635-541b-b208-882a5689a287",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room4",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "HKTHWA",
+        "name": "Daniel Ara\u00fajo Miranda",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/HKTHWA/"
+      },
+      {
+        "code": "BZLYD8",
+        "name": "Carlos Eduardo Mota",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/BZLYD8/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T04:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/VP8HKH/",
+      "title": "Three years in two months - lessons learned in re-building a 120kloc GIS system from scratch as a 10x engineer."
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/VP8HKH/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/HKTHWA/",
+      "title": "Daniel Ara\u00fajo Miranda"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/BZLYD8/",
+      "title": "Carlos Eduardo Mota"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/VP8HKH/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

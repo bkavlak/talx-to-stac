@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "9NZY8N",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "G3W-SUITE: an OS framework dedicated to the publication and management of QGIS projects as WebGis services",
+    "description": "G3W-SUITE is a modular, client-server application (based on QGIS-Server) for managing and publishing interactive QGIS cartographic projects of various kinds in a totally independent, simple and fast way.\r\nThe suite is made up of two main components: G3W-ADMIN (developed through Python, using Django ) as the web administration interface and G3W-CLIENT as the cartographic client., developed using a modular approach and is based on a \u201creactive programming\u201d paradigm using Vue.Js, Javascript framework and OpenLayer3.\r\nThis components communicate through a series of API REST.\r\nThe application is compatible with QGIS 3.22 LTR and it is based on strong integration with the QGIS API.\r\nIt is released on GitHub with Mozilla Public Licence 2.0\r\nMany graphic/functional aspects of the WebGis publication derive directly from QGIS projects as, first of all, the general and OGC services capabilities.\r\nThe suite automatically inherits aspects related to the project (themes, 1: N relations, simple and atlas print layout, filter on legend based on map content, layer display order and activation status ...) and related to individual layers (activation scale, interrogability, published attribute fields, join attributes, attribute form, editing widgets ...) .\r\nOf particular interest is the strong integration with the QGIS DataPlotly plugin.\r\nQGIS projects can be published as WebGis services via direct upload (no plugins needed) on the Administration component.\r\nThe granular system of permissions and the subdivision into roles of users (individuals or groups) allows the management of services to be delegated to second and third level administrative users.\r\nIt is also possible to define consultation permissions on individual WebGis services and editing permissions on individual layers with different editing powers per user.\r\nFinally, it is possible to define geographic and alphanumeric constraints (both in consultation and in editing) differentiated by individuals or groups of users. Alphanumeric constraints can be based on SQL language or QGIS expressions.\r\nIt is also possible to define for each layer aspects relating to the preparation of predefined searches, caches and downloads in various formats.\r\nA particularly advanced function is related to online editing and to the possibility of easily creating web cartographic management systems by defining the various aspects at the level of the QGIS project.\r\nThis function (operating directly on the data through the QGIS API) allows multi-user editing thanks to a feature-lock system.\r\nEditing works both at the geometric level (with intra- and inter-layer snap), and at the attributes level (editing form and the widgets included) also connected by joins or 1:N relationships.\r\nThe call will allow to illustrate the innovations of the current and future versions.\r\nThese include the implementation of editing functions, user-based filters linked to the visibility of layers and attributes, the possibility of using QGIS projects based on embedded base projects and the integration of the vectorial and raster Temporal Controller of QGIS.\r\nOnline geographic analysis possible thanks to the integration of Processing algorithms through dedicated APIs.",
+    "start_datetime": "2022-08-26T12:45:00Z",
+    "end_datetime": "2022-08-26T13:15:00Z",
+    "talk:code": "9NZY8N",
+    "talk:guid": "470b87e9-4529-5895-b83c-d47da0082651",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Auditorium",
+    "talk:room_capacity": 1000,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "FCDGJD",
+        "name": "Walter Lorenzetti",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/FCDGJD/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T13:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/9NZY8N/",
+      "title": "G3W-SUITE: an OS framework dedicated to the publication and management of QGIS projects as WebGis services"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/9NZY8N/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/FCDGJD/",
+      "title": "Walter Lorenzetti"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/9NZY8N/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/46HtziXeXg7BDCGRsFqqeZ",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | G3W-SUITE: an OS framework dedicated to the publication and management of QGIS\u2026",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=kHmQrvb_0Co",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | G3W-SUITE: an OS framework dedicated to the publication and management of QGIS\u2026",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

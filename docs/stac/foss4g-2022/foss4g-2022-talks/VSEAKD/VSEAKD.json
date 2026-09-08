@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "VSEAKD",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Speeding up the RapiD map editor with WebGL and PixiJS",
+    "description": "RapiD is an advanced Open Source map editor for OpenStreetMap built by the MapWithAI team at Meta.  RapiD makes it simple to work with openly licensed geodata and AI-detected road, building, and landform features.  \r\n\r\nFor years the RapiD editor was based on a SVG rendering engine built with D3.js.  As our users map the world in increasing levels of detail, and as more open data sources become available, our rendering tech has struggled to keep up with the massive amounts of data that we\u2019re asking it to display in a browser-based JavaScript application.\r\n\r\nOur team recently converted this legacy rendering engine to instead use WebGL technology by leveraging the popular Open Source PixiJS game engine.  The conversion from SVG to WebGL yielded a considerable performance boost, and the new WebGL-based renderer is up to the task of working with massive world-scale datasets and handling the increasing data density of OpenStreetMap.\r\n\r\nIn this talk we share our progress on bringing new datasets into RapiD, tell the story of how we built a modern map editor on top of an Open Source game engine, and share our roadmap for the future of mapping.",
+    "start_datetime": "2022-08-25T12:45:00Z",
+    "end_datetime": "2022-08-25T13:15:00Z",
+    "talk:code": "VSEAKD",
+    "talk:guid": "5e072ac6-8d47-5da0-824b-8c6cd73bbab3",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Modulo 0",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "QJ7H77",
+        "name": "Bryan Housel",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/QJ7H77/"
+      },
+      {
+        "code": "SSEWEG",
+        "name": "Benjamin Clark",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/SSEWEG/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T13:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/VSEAKD/",
+      "title": "Speeding up the RapiD map editor with WebGL and PixiJS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/VSEAKD/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/QJ7H77/",
+      "title": "Bryan Housel"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/SSEWEG/",
+      "title": "Benjamin Clark"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/VSEAKD/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=zgTCS4kgzJ8",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Speeding up the RapiD map editor with WebGL and PixiJS",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

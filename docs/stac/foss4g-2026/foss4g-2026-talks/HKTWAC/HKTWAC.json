@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "HKTWAC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Developing Rendering Effect Extensions as a GIS Beginner",
+    "description": "This talk presents the implementation of Object-Selective Post Effects (Outline/Bloom) in a GIS-oriented rendering system. It explains how selective effects were achieved through object identification, mask generation, and render pass composition, while addressing GIS-specific constraints such as rendering order and mesh structures.\n\nThis session introduces the implementation of **Object-Selective Post Effects that apply Outline and Bloom to dynamically generated and managed objects** in a 3D map rendering system, from a graphics engineer\u2019s perspective.\r\n\r\nWhile implementing selective effects, several commonly used techniques in conventional rendering pipelines could not be directly applied. For example:\r\n\r\n- **Override materials** apply to the entire scene and therefore cannot selectively render specific objects. In addition, they break when meshes rely on custom vertex attributes.\r\n- Unlike screen-space post effects, **Object-Selective Post Effects depend on the rendering order and occlusion relationships within the 3D scene**, which introduces design constraints on where effect passes can be inserted and how rendering layers should be structured.\r\n\r\nThe session walks through the development process, starting with understanding the existing rendering pipeline, identifying potential extension points, and designing an implementation strategy.\r\n\r\nThe talk also discusses how the final solution balances **visual quality, compatibility with the existing rendering architecture, and runtime performance**.\r\n\r\nAlthough the system is built in a GIS context, the main focus of this session is on practical insights into implementing selective rendering effects and making design decisions in constrained graphics environments.",
+    "start_datetime": "2026-09-02T06:30:00Z",
+    "end_datetime": "2026-09-02T07:00:00Z",
+    "talk:code": "HKTWAC",
+    "talk:guid": "74def8e9-6ad8-5a15-8867-2c7c27c18eec",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "PQN9SK",
+        "name": "So Sakabe",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/PQN9SK/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T06:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/HKTWAC/",
+      "title": "Developing Rendering Effect Extensions as a GIS Beginner"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/HKTWAC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/PQN9SK/",
+      "title": "So Sakabe"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/HKTWAC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

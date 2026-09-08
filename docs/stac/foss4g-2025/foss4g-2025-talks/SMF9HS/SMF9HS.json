@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "SMF9HS",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Vector tiles and GeoServer: dynamic vector tiles server, XYZ services, and base maps",
+    "description": "Did you know that GeoServer can both produce and consume vector tiles? Join to find out how.\n\nMapbox vector tiles have emerged as a popular format for delivering geospatial data, offering dynamic rendering and interactivity for modern web maps. While not an official OGC standard, this open specification has been widely adopted, making it a staple of web cartography. This presentation delves into GeoServer's evolving capabilities to serve Mapbox vector tiles, emphasizing recent enhancements and best practices.\r\n\r\nWe will explore how GeoServer leverages SLD and CSS to define the contents of vector tiles, ensuring tailored and efficient data delivery. New configuration options, such as label point generation, attribute selection and geometry coalescing, will be highlighted as tools to control and optimize tile outputs. Practical advice will also be provided for streamlining vector tile generation, helping users create seamless and scalable workflows.\r\n\r\nThe session will conclude with a look at how vector tiles can serve as an input for generating high-quality base maps in various coordinate reference systems. Using OpenMapTiles styles and Planetiler, we will demonstrate how to produce visually appealing, multi-projection base maps, unlocking the full potential of vector tiles for diverse applications.\r\n\r\nWhether you're building interactive maps or generating custom base maps, this talk will equip you with the knowledge and tools to make the most of GeoServer's vector tile capabilities.",
+    "start_datetime": "2025-11-21T00:30:00Z",
+    "end_datetime": "2025-11-21T00:55:00Z",
+    "talk:code": "SMF9HS",
+    "talk:guid": "385824cf-c46d-5c9c-9914-fe5619365a8f",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Cloud, APIs & Data Infrastructure",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG308 TE IRINGA",
+    "talk:room_capacity": 180,
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "BQBVFC",
+        "name": "Jody Garnett",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/BQBVFC/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-21T00:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/SMF9HS/",
+      "title": "Vector tiles and GeoServer: dynamic vector tiles server, XYZ services, and base maps"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/SMF9HS/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/BQBVFC/",
+      "title": "Jody Garnett"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/SMF9HS/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=kKrvI10evKo",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Vector tiles and GeoServer: dynamic vector tiles server, XYZ services, and base maps",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

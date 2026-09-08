@@ -1,0 +1,134 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "GPWMC7",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Exploring the World\u2019s Open Data Portals - Discovery, Visualisation and Analysis of Open Data with TerriaJS",
+    "description": "TerriaJS is an open-source framework for web-based geospatial catalogue explorers. \r\n\r\nIt uses Cesium and Leaflet to visualise 2D and 3D geospatial data, and it supports over 50 different Web APIs, file formats and open data portals.\r\n\r\nIt is almost entirely JavaScript in the browser, meaning it can even be deployed as a static website, making it simple and cheap to host.\r\n\r\nTerriaJS is used across the globe to create next-generation Digital Twin Platforms for open geospatial data discovery, visualisation and sharing - it is used to drive\r\n\r\n- [National Map](https://nationalmap.gov.au/) (Australian Gov)\r\n- [Digital Earth Australia Map](https://maps.dea.ga.gov.au/)\r\n- [Digital Earth Africa Map](https://maps.digitalearth.africa/)\r\n- [Pacific Map](https://map.pacificdata.org/)\r\n- [NSW Spatial Digital Twin](https://nsw.digitaltwin.terria.io/) (Australian State Gov)\r\n- and many others\r\n\r\nSupported formats/protocols include:\r\n\r\n- Imagery services like WMS/WMTS and ArcGis Imagery/Map Service\r\n- Feature/vector services like WFS, ArcGis Feature Service, Mapbox vector tiles, GeoJSON, Shapefile, KMZ, GPX, GeoRSS\r\n- 3D sources like Cesium 3d-tiles, GLTF and CZML\r\n- Tabular/sensor data: CSV, SDMX, GTFS, SOS, Socrata and Opendatasoft\r\n- Open Data portals: CKAN, CSW, Socrata, Opendatasoft, Magda, THREDDS, WMS/WFS Servers, ArcGis Portal and SDMX\r\n- Geoprocessing with WPS\r\n- With plans to support new and upcoming services like OGC APIs and STAC in the future.\r\n\r\nIn this talk, I will show how TerriaJS can connect to Open Data Portals to\r\n\r\n- Discover open datasets\r\n- Visualise datasets in 2D and 3D\r\n- Perform aggregation/analysis on datasets\r\n- Create/share maps with the world!\r\n\r\n[https://terria.io/](https://terria.io/)\r\n\r\n[https://github.com/TerriaJS/terriajs](https://github.com/TerriaJS/terriajs)",
+    "start_datetime": "2022-08-26T10:30:00Z",
+    "end_datetime": "2022-08-26T11:00:00Z",
+    "talk:code": "GPWMC7",
+    "talk:guid": "56f160df-52a2-5774-a2b7-0c8406867c2c",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Open Data",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room 4",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "HRZKTV",
+        "name": "Nick Forbes-Smith",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/HRZKTV/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T10:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/GPWMC7/",
+      "title": "Exploring the World\u2019s Open Data Portals - Discovery, Visualisation and Analysis of Open Data with TerriaJS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/GPWMC7/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/HRZKTV/",
+      "title": "Nick Forbes-Smith"
+    },
+    {
+      "rel": "related",
+      "href": "https://nationalmap.gov.au/",
+      "title": "National Map"
+    },
+    {
+      "rel": "related",
+      "href": "https://maps.dea.ga.gov.au/",
+      "title": "Digital Earth Australia Map"
+    },
+    {
+      "rel": "related",
+      "href": "https://maps.digitalearth.africa/",
+      "title": "Digital Earth Africa Map"
+    },
+    {
+      "rel": "related",
+      "href": "https://map.pacificdata.org/",
+      "title": "Pacific Map"
+    },
+    {
+      "rel": "related",
+      "href": "https://nsw.digitaltwin.terria.io/",
+      "title": "NSW Spatial Digital Twin"
+    },
+    {
+      "rel": "related",
+      "href": "https://terria.io/",
+      "title": "https://terria.io/"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/TerriaJS/terriajs",
+      "title": "https://github.com/TerriaJS/terriajs"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/GPWMC7/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=3K1dRDgfyio",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Exploring the World\u2019s Open Data Portals - Discovery, Visualisation and Analysis of\u2026",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

@@ -1,0 +1,112 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "TN7MAS",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Scaling up OpenStreetMap data validation in the open",
+    "description": "Every day, almost 2.5 million edits are made in OpenStreetMap. To maintain the high quality and reliability of OSM data, keeping track of changes is crucial. In 2024, a new OSM data pipeline was built for [OSMCha](https://osmcha.org/), one of the main OpenStreetMap data validation tools. This pipeline is fully open-source, and it allows us to visualize and run data quality checks on each edit made on OSM. Besides the set of open-source tools and the Kubernetes deploy infrastructure, the resulting data is available for free under the AWS Open Data program. We\u2019ll share how this new pipeline streamlines data integrity and enables developers to build downstream cloud-native applications to monitor the changes happening in OpenStreetMap. We will also demo Gradient, a web application that displays OSM edits using this new real-time OSM pipeline.",
+    "start_datetime": "2024-12-05T19:30:00Z",
+    "end_datetime": "2024-12-05T20:00:00Z",
+    "talk:code": "TN7MAS",
+    "talk:guid": "99ae7b5d-abfe-5d62-808f-694bf800cb0c",
+    "talk:event": "foss4g-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room V",
+    "talk:room_capacity": 80,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "9FWXRN",
+        "name": "Vitor George",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/9FWXRN/"
+      },
+      {
+        "code": "SVPSDY",
+        "name": "Wille Marcel",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/SVPSDY/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-05T19:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/TN7MAS/",
+      "title": "Scaling up OpenStreetMap data validation in the open"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/TN7MAS/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/9FWXRN/",
+      "title": "Vitor George"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/SVPSDY/",
+      "title": "Wille Marcel"
+    },
+    {
+      "rel": "related",
+      "href": "https://osmcha.org/",
+      "title": "OSMCha"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/TN7MAS/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024/submissions/TN7MAS/resources/Scaling_up_OSM_validation_in_the_open_Z9I2bXB.pdf",
+      "type": "application/pdf",
+      "title": "Presentation Slides",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

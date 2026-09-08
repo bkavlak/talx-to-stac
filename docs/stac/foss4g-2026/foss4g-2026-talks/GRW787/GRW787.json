@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "GRW787",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Hillshading for Real-time Lighting",
+    "description": "MapLibre GL\u2019s efficient \"inline-shading\" is ideal for standard maps. However, our Navara system\u2019s dynamic day-night cycle, featuring constant light motion, exceeded standard coupled architectures. This necessitated a more flexible pipeline, leading us to implement a decoupled terrain normal generation approach for real-time, high-performance rendering.\n\nThe motivation for this technical restructuring came from a core feature in our Navara system:\r\nthe need for seamless, real-time day-night transitions.\r\n\r\nIn this session, we will share the journey of moving away from traditional \"inline-shading\"\r\n(where pixel colors are computed in a single pass) to a deferred approach.\r\n\r\nThe core of the talk covers:\r\n\r\n- GPU-based Normal Generation:  How we adapted the Navara engine to extract high-precision surface normals from raw DEM data on the fly.\r\n- Unified Scene Integration: How these persistent normals serve a dual purpose\u2014not only powering dynamic hillshading but also providing the geometric foundation for G-buffer pipelines and improving the precision of vector draping (polygons/polylines) on rugged terrain.",
+    "start_datetime": "2026-09-01T05:30:00Z",
+    "end_datetime": "2026-09-01T06:00:00Z",
+    "talk:code": "GRW787",
+    "talk:guid": "6683f227-32ca-56cc-8021-b6d29c085744",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room2",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "QR8XPR",
+        "name": "hao",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/QR8XPR/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T05:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/GRW787/",
+      "title": "Hillshading for Real-time Lighting"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/GRW787/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/QR8XPR/",
+      "title": "hao"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/GRW787/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

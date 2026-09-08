@@ -1,0 +1,122 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "NEHXDU",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Cartographic generalization with Open Source",
+    "description": "Generalization is a crucial topic in the map production process, describing the derivation of a map of a smaller scale from another one. It combines maintaining essential features and removing less important ones to offer a readable map. Often, this complex topic is reduced to a selection of attributes, creating label geometries, and simplifying line and area geometries.\r\n\r\nThe presentation shares the knowledge of the cartographer's toolkit by introducing the whole set of available generalization operators and showing less-known approaches for creating better maps. The entire collection of operators consists of simplification, smoothing, aggregation, amalgamation, collapse, merging, refinement, exaggeration, enhancement, and displacement, which can be implemented by algorithms.\r\n\r\nThe goal is to go behind the standards of creating centroids for labelling and using a Douglas-Peucker Algorithm for line simplification. A showcase of polygon simplification and creating label geometries are shown, demonstrating how to implement the operators using PostGIS with OpenStreetMap data. Several existing and working solutions for simplifying geometries and labels are presented to showcase possibilities.",
+    "start_datetime": "2023-06-28T11:30:00Z",
+    "end_datetime": "2023-06-28T12:00:00Z",
+    "talk:code": "NEHXDU",
+    "talk:guid": "e5305239-7794-5150-ab92-da39368a4767",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT C / N111 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "MTJ3WC",
+        "name": "Mathias Gr\u00f6be",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/MTJ3WC/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T11:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/NEHXDU/",
+      "title": "Cartographic generalization with Open Source"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/NEHXDU/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/MTJ3WC/",
+      "title": "Mathias Gr\u00f6be"
+    },
+    {
+      "rel": "related",
+      "href": "https://wheregroup.com/",
+      "title": "WhereGroup"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/NEHXDU/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-2023/submissions/NEHXDU/resources/gen2_crzMMDv.pdf",
+      "type": "application/pdf",
+      "title": "Slides",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/r6BwmnajvV8k9bzGqzWaqP",
+      "type": "text/html",
+      "title": "2023 | Cartographic generalization with Open Source - Mathias Gr\u00f6be",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=PNsyV9tX5RU",
+      "type": "text/html",
+      "title": "2023 | Cartographic generalization with Open Source - Mathias Gr\u00f6be",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

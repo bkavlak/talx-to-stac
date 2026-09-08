@@ -1,0 +1,143 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Z88HKS",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "The Pacific Data Hub, a federated data platform",
+    "description": "A deep dive into the open-source based tech stack behind the Pacific Data Hub.\n\nThe **Pacific Data Hub** platform is the one-stop-shop for anyone who seeks data about the Pacific region across multiple domains including population statistics, fisheries science, climate change adaptation, disaster risk reduction, public health, food security and human rights. \r\nIt was designed as a set of highly-specialised, open-source based data management systems covering the different types of data (array-oriented scientific data, geospatial datasets, statistical data cubes, and documents) overarched by a catalog of metadata forming a **federated data platform**. The catalog also references data from national governements, regional organizations, and global partners.\r\n\r\nThe datasets are indexed in the CKAN-based catalog via harvesters or entry forms. The metadata is then re-disseminated by CKAN with a centralised schema and taxonomy via Data Catalog Vocabulary (DCAT). Whenever it is possible, the catalog provides links to the data either as direct download link or OGC standards APIs.\r\nThe federated data platforms includes:\r\n- [**Geonode**](https://geonode.org/) for Geospatial datasets (DEMs, bathymetry, administrative boundaries, risk assessment output models, ...)\r\n- THREDDS and [**TDS**](https://www.unidata.ucar.edu/software/tds/) for scientific data arrays (sea surface height, temperature, wave, current, tides, salinity, ...)\r\n- [**.Stat Suite**](https://sis-cc.gitlab.io/dotstatsuite-documentation/) for statistical indicators (SDGs, population, economy, trade, ...)\r\n\r\nThose platforms are completed by dashboards, tools and visualisation apps connected to the data via APIs to provide insights to inform better policy development and decision-making including:\r\n- the [Pacific Maritime Boundaries Dashboard](https://pacificdata.org/dashboard/maritime-boundaries) is the regional tool for sharing information about the Pacific island maritime boundaries and zones. Based on Drupal pages, it provides map views of EEZs and other maritime zones and links to their associated treaties.\r\n- the [Blue Pacific 2050 Dashboard](https://blue-pacific-2050.pacificdata.org/) is a NextJS dashboard that display charts of key development indicators pulling data from a SDMX APIs.\r\n- [PacificMap](https://map.pacificdata.org/) is a generic map viewer that can connect to the CKAN catalog to display the __Geonode__-hosted GIS datasets but also the .Stat statistical indicators as chloropeth maps.\r\n- the [Pacific Ocean Portal](https://oceanportal2.spc.int/) provides access to historical and forecast ocean conditions as well as in-situ observations provided by __TDS__.\r\n\r\nThis presentation is about giving details on the standards, technologies and tools deployed within the platform, describing the API-based interconnections and the data workflows involved. It will also provide an overview of the challenges encountered when maintaining a platform with reliable and timely data coming from a wide diversity of providers.",
+    "start_datetime": "2025-11-21T01:30:00Z",
+    "end_datetime": "2025-11-21T01:55:00Z",
+    "talk:code": "Z88HKS",
+    "talk:guid": "5847cd07-6a64-5897-a6fa-76deb6cb0941",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Cloud, APIs & Data Infrastructure",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG404",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "XMVYJX",
+        "name": "Thomas Tilak",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/XMVYJX/"
+      },
+      {
+        "code": "JKKHBU",
+        "name": "Stanislas Ozier",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/JKKHBU/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-21T01:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/Z88HKS/",
+      "title": "The Pacific Data Hub, a federated data platform"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/Z88HKS/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/XMVYJX/",
+      "title": "Thomas Tilak"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/JKKHBU/",
+      "title": "Stanislas Ozier"
+    },
+    {
+      "rel": "related",
+      "href": "https://geonode.org/",
+      "title": "**Geonode**"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.unidata.ucar.edu/software/tds/",
+      "title": "**TDS**"
+    },
+    {
+      "rel": "related",
+      "href": "https://sis-cc.gitlab.io/dotstatsuite-documentation/",
+      "title": "**.Stat Suite**"
+    },
+    {
+      "rel": "related",
+      "href": "https://pacificdata.org/dashboard/maritime-boundaries",
+      "title": "Pacific Maritime Boundaries Dashboard"
+    },
+    {
+      "rel": "related",
+      "href": "https://blue-pacific-2050.pacificdata.org/",
+      "title": "Blue Pacific 2050 Dashboard"
+    },
+    {
+      "rel": "related",
+      "href": "https://map.pacificdata.org/",
+      "title": "PacificMap"
+    },
+    {
+      "rel": "related",
+      "href": "https://oceanportal2.spc.int/",
+      "title": "Pacific Ocean Portal"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/Z88HKS/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=wWvAEP1rCQ0",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | The Pacific Data Hub, a federated data platform",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

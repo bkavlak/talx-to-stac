@@ -1,0 +1,139 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "CWTFW7",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Mergin Maps: an open source platform based on QGIS for data collection and collaboration",
+    "description": "Mergin Maps simplifies field data collection, offering an open-source platform built on the power and familiarity of QGIS. Capture, share, and publish your geospatial data seamlessly with intuitive mobile apps and robust web tools.\r\n\r\nMergin Maps (MM) has the following components:\r\n- Desktop: QGIS to set up and design your field survey\r\n- QGIS MM plugin: to upload/download your data to/from your cloud service (Mergin Maps server)\r\n- Mergin Maps mobile: an app based on QGIS with synchronisation tool allowing you to open your QGIS project and edit/capture data in the field\r\n- Mergin Maps server: a service allowing you to store and synchronise the data between QGIS and mobile app.\r\n\r\nThere are other tools and APIs available to handle the data transfer programmatically. For full list, see:\r\nhttps://github.com/MerginMaps",
+    "start_datetime": "2024-07-03T12:00:00Z",
+    "end_datetime": "2024-07-03T12:30:00Z",
+    "talk:code": "CWTFW7",
+    "talk:guid": "6f8c362d-21f0-5521-b6e0-aa6b459bda8c",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "QFieldCloud (246)",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "Y9AUJZ",
+        "name": "Saber Razmjooei",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/Y9AUJZ/"
+      },
+      {
+        "code": "RXWDMR",
+        "name": "Peter Petrik",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/RXWDMR/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-03T12:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/CWTFW7/",
+      "title": "Mergin Maps: an open source platform based on QGIS for data collection and collaboration"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/CWTFW7/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/Y9AUJZ/",
+      "title": "Saber Razmjooei"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/RXWDMR/",
+      "title": "Peter Petrik"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/MerginMaps",
+      "title": "github.com/MerginMaps"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/CWTFW7/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-pdf": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/CWTFW7/resources/FOSS4G_Tartu__An_open_source_platform_ba_c64C3Ec.pdf",
+      "type": "application/pdf",
+      "title": "Presentation PDF",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "presentation-gdocs": {
+      "href": "https://docs.google.com/presentation/d/1xEy2G4volTUijn5b0oUP3e152QE8iR7eBG_ZlNRYHZI/edit?usp=sharing",
+      "title": "Presentation GDocs",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/rFQHKUGPueNhQSnm2Sszmb",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Mergin Maps: an open source platform based on QGIS for data collection and ...",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=mBueJNgSyvI",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Mergin Maps: an open source platform based on QGIS for data collection and ...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

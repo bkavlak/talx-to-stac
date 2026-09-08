@@ -1,0 +1,148 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "VZPPLC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "CITY TRANSPORT ANALYZER: A POWERFUL QGIS PLUGIN FOR PUBLIC TRANSPORT ACCESSIBILITY AND INTERMODALITY ANALYSIS",
+    "description": "Mobility is one of the main factors affecting urban environmental performances. Car dependency is still widespread worldwide and integrated planning approaches are needed to exploit the potential of active and shared mobility solutions, making them an effective alternative to the use of private vehicles. The analysis and optimization of public transportation (PT) services have so become increasingly important in the planning and management of urban infrastructure. This work aims to develop and implement a QGIS plug-in for analyzing urban PT networks, assessing the accessibility and intermodality dimensions, relying on General Transit Feed Specification (GTFS) data as source of information.\r\n\r\nGTFS is a standardized format for PT schedules and geographic information. It defines a common format for transit agencies to share their data, making it possible for developers to create applications that provide accurate and up-to-date information about services. This standard was chosen because it is one of the most popular and widely used, especially when the data are used for static type analysis. The information extracted mainly concerns PT stops, routes and nodes preparatory to route construction and connection. All data belonging to the geospatial standard, in order to be usable by GIS software, must be extracted, interpreted and converted to a GIS layer. Specifically, all information regarding stops and routes was extracted to obtain a vector layer for each type of data. Going deeper, one of the most important layers concerns that of the PT routes, as it shows the entire urban network, obtained by converting the data within a graph data structure using NetworkX, a library for the creation, management and manipulation of complex networks, including graphs. This graph was created following a personal interpretation with the aim of facilitating the achievement of our purpose. to facilitate the achievement of our purpose, it was decided to model the edges of the graph in such a way that an edge is only used by one PT route. If two public vehicles use the same edge, there will be two different overlapping edges. It is also important to emphasise that each edge in the graph shows the type of means of transport using it (underground, train, bus, ...), the average travel time of that edge, and the length of the edge itself. The creation of the graph is fundamental to carry out two types of analysis.\r\n\r\nThe accessibility analysis is conducted to determine which areas are reachable within the specified time frames via all the possible combinations of PT lines. Starting from any point in the city, it provides service areas combining PT and walking within a given time interval defined by the user up to a maximum of 60 minutes. The outputs are both lines, all the edges of the network that can be travelled, and polygons, convex hulls built on them. This analysis, already available only within proprietary software ArcGIS, is extremely useful to provide very detailed information about the potential of each PT stop and its surrounding urban area. The second analysis concerns PT interoperability and introduces some elements of novelty. It is intended to assess intermodality beyond the PT nodes (hubs), exploring which paths in the street network have the higher probability of being taken to change from one line/mode to another. The evaluation is purely physical and only considers network distance. Its results are expected to be integrated with complementary dimensions as proximity to Point of Interests, street comfort and safety for a holistic planning approach. Starting from any PT stop, a circular catchment area is drawn using a user-defined distance and the PT stops within it are selected. Among them, those with at least one PT line in common with the departure stop are discarded, the remainder being selected. This is done assuming that PT is generally faster than walking and so, when the PT alternative is available, walking is less attractive. It is then shown how the starting stop is connected to the other stops via the most direct pedestrian path. Finally, once drawn all the pedestrian paths, the number of times that each street segment is used is also calculated, providing a classification according to their potential use for modal change. The pedestrian graph is obtained through OSMnx, a library for retrieving, processing, and visualizing road network data from OpenStreetMap.\r\n\r\nThe plugin was tested on two different case studies, Milan and Rio de Janeiro, producing significant results highlighting the created plug-in\u2019s utility and application in the context of GTFS data-driven studies of urban public transportation networks. The outcomes of both analyses were consistent, demonstrating the plugin\u2019s applicability in comprehending the dynamics of metropolitan public transit networks. Overall, the plug-in stands out as an important tool that can analyse GTFS data and use it to create a network of a city\u2019s PT. The built plug-in provides a flexible and easy-to-use tool for studying urban PT networks, which constitutes a significant addition to the geospatial community. The plug-in offers a thorough overview of service coverage, accessibility, and connectivity within various metropolitan contexts by utilizing GTFS data. Subsequent examinations offer a powerful tool for analysing specific areas of a city, showing interconnections between stops and possible routes that can be travelled. The studies are therefore very useful as they quantitatively analyse a context, considering the context itself, assessing the accessibility and interoperability of an urban area.\r\n\r\nThe ultimate goal is to contribute to a deeper understanding of urban public transportation networks and urban areas through a practical and intuitive tool that can be used by those involved in the analysis and management of city infrastructure. Work is also underway to extend these analyses to other city contexts, thus not limiting them to public transportation alone. For example, by showing the distribution of Points of Interest within the city, highlighting how they are interconnected. This must, however, be done while trying to maintain a reasonable runtime, as it can still be a problem for very complex and detailed networks.",
+    "start_datetime": "2024-07-04T09:15:00Z",
+    "end_datetime": "2024-07-04T09:20:00Z",
+    "talk:code": "VZPPLC",
+    "talk:guid": "38a0e317-331f-5e60-ac3f-e7278709ab18",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Academic track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "Omicum",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "LFSGTR",
+        "name": "Gianmarco Naro",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/LFSGTR/"
+      },
+      {
+        "code": "GXGFAX",
+        "name": "Carlo Andrea Biraghi",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/GXGFAX/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-04T09:17:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/VZPPLC/",
+      "title": "CITY TRANSPORT ANALYZER: A POWERFUL QGIS PLUGIN FOR PUBLIC TRANSPORT ACCESSIBILITY AND INTERMODALITY ANALYSIS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/VZPPLC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/LFSGTR/",
+      "title": "Gianmarco Naro"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/GXGFAX/",
+      "title": "Carlo Andrea Biraghi"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/VZPPLC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "full-paper": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/VZPPLC/resources/Paper_intermodality_08_Iv7Hb3q.doc",
+      "type": "application/msword",
+      "title": "Full paper",
+      "roles": [
+        "data"
+      ]
+    },
+    "data-repository": {
+      "href": "https://drive.google.com/drive/u/0/folders/1FByVJAZESCvveJLq53dJsMiXoV3AMpcE",
+      "title": "Data repository",
+      "roles": [
+        "data"
+      ]
+    },
+    "plugin-code": {
+      "href": "https://github.com/gianmarconaro/city-transport-analyzer",
+      "title": "Plugin code",
+      "roles": [
+        "data"
+      ]
+    },
+    "presentation-video": {
+      "href": "https://drive.google.com/file/d/1eBYiBB0UaeJ8IZEP16L5pwnglI7s8A_q",
+      "title": "presentation video",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/cPPoLsQAkDWvgMEDg4NqFz",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | CITY TRANSPORT ANALYZER: A POWERFUL QGIS PLUGIN FOR PUBLIC TRANSPORT ...",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=crTNX_dMW2Q",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | CITY TRANSPORT ANALYZER: A POWERFUL QGIS PLUGIN FOR PUBLIC TRANSPORT ...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

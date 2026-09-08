@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "CWGULA",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "State of Lizmap - Past / Present / Futur",
+    "description": "Lizmap is an opensource server application to publish QGIS project on the web without any coding skills needed.\r\nIt's using QGIS Server in the backend so users have the same rendering between their QGIS Desktop and the web version of their project.\r\n\r\nQGIS Server and Lizmap are reading QGIS project to publish layers with their legend, forms, print layout, layer relationships... Some additional Lizmap configuration can be added to have dataviz capabilities, decide or not to publish the attribute table or to configure the feature filter form. No coding skills are required, all the configuration is done using QGIS Desktop user interface.\r\nThe QGIS project is adapted for web browsers and have a responsive UI. Lizmap include some Access Control List at different levels such as project, layer or even features.\r\n\r\nThe goal of this presentation is to show the state of this opensource project hosted on GitHub and to explain the roadmap.",
+    "start_datetime": "2022-08-26T07:00:00Z",
+    "end_datetime": "2022-08-26T07:30:00Z",
+    "talk:code": "CWGULA",
+    "talk:guid": "10051d97-2d9a-5184-9b05-dcdc22dae2a4",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Onice",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "AZETG9",
+        "name": "Boisteault Nicolas",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/AZETG9/"
+      },
+      {
+        "code": "LXVPF8",
+        "name": "Etienne TRIMAILLE",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/LXVPF8/"
+      },
+      {
+        "code": "SYBCSZ",
+        "name": "Ren\u00e9-Luc Dhont",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/SYBCSZ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T07:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/CWGULA/",
+      "title": "State of Lizmap - Past / Present / Futur"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/CWGULA/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/AZETG9/",
+      "title": "Boisteault Nicolas"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/LXVPF8/",
+      "title": "Etienne TRIMAILLE"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/SYBCSZ/",
+      "title": "Ren\u00e9-Luc Dhont"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/CWGULA/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=XxwYAMfzt3Y",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | State of Lizmap - Past / Present / Futur",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "8D8RU9",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "State of the MapLibre Tile Format",
+    "description": "The MapLibre community is currently in the midst of developing the MapLibre Tile Format, a modern, open, and fully community-governed successor to the ubiquitus MVT format. While MVT has served the mapping ecosystem well for over a decade, it also carries historical constraints that limit interoperability, formal specification quality, extensibility, and independence from proprietary platforms. As MapLibre continues to grow as the central open-source foundation for web-based map rendering, it has become increasingly clear that a future-proof, openly specified, and collaboratively designed tile format is essential.\r\n\r\nThis talk will offer a look into\r\n- why we initiated this engineering effort and\r\n- what gaps the new format aims to close.\r\nI will explain the core design principles behind the specification- how properties, geometries and IDs work, how we do optional values and such.\r\nAttendees will gain a technical understanding of how the format works, including its data model, feature encoding strategy, metadata approach, and how this is compatibse to existing infrastructure.\r\n\r\nBeyond the current specification draft, I will outline the major areas still under active development. These include\r\n- discussions about schema evolution,\r\n- advanced geometry representations,\r\n- compression strategies,\r\n- and interoperability with raster, elevation, 3D  and non-geographic datasets.\r\n\r\nI will also provide insight into the collaborative workflow between maintainers, researchers, vendors, and the wider open-source community, highlighting how this is primarily based on the contributions and feedback from untold amounts of volunteers.\r\n\r\nFinally, the talk will cover how the rollout is progressing in practice. This includes\r\n- early tooling support,\r\n- reference implementations,\r\n- testing frameworks, and\r\n- real-world trials by organizations exploring migration paths away from MVT.\r\n\r\nThe session will present an honest, up-to-date snapshot of the project\u2019s status and a forward-looking roadmap for the next stages of development, helping the community understand both what is ready today and what is still on the horizon.",
+    "start_datetime": "2026-07-01T07:00:00Z",
+    "end_datetime": "2026-07-01T07:30:00Z",
+    "talk:code": "8D8RU9",
+    "talk:guid": "5367da65-533d-5424-ae37-2ac552b35887",
+    "talk:event": "foss4g-europe-2026",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Aula Magna",
+    "talk:room_capacity": 500,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "BLGQDB",
+        "name": "Frank Elsinga",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/BLGQDB/"
+      },
+      {
+        "code": "VXXFNW",
+        "name": "Yuri Astrakhan",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/VXXFNW/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-07-01T07:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/8D8RU9/",
+      "title": "State of the MapLibre Tile Format"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/8D8RU9/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/BLGQDB/",
+      "title": "Frank Elsinga"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/VXXFNW/",
+      "title": "Yuri Astrakhan"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/8D8RU9/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

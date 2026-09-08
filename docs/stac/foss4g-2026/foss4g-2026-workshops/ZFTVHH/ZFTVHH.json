@@ -1,0 +1,93 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "ZFTVHH",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "The meta-problem in geospatial data",
+    "description": "We will make an attempt to understand geospatial data forever!\n\nIt's easy to get lost in the ocean of geospatial data. We have multiple file formats, metadata specifications, new ideas of claiming they are more efficient than others, cults of supporters, or waves of dislikes. A gazillion data providers from different countries, software that does different stuff with them, and much confusion among the people.\r\n\r\nWhenever I dig into a subject when I have a problem, I find many details that make me realize the play here is different. Lately, I've been dealing with metadata from multiple imagery providers that dump a wide range of vector and raster data formats (TIFF, NITF, SHP, KML, GML ...) alongside common metadata formats like XML and JSON. As diversity increases, you encounter more problems with tasks that are supposed to be easy, like opening a file with Python or just displaying it in QGIS. When you transfer data from system to system, download, transform, and upload, you realize your assumptions about GDAL are not very true.\r\n\r\nWe will dig in together and handle various datasets using GDAL, Python (on Docker), and QGIS on your local machine. We will only try to perform very simple tasks, like visualizing them and maybe reading them. Tweaking a couple of things, we'll see how these tools break or why they don't break. On the parallel side, we'll discuss specifications like STAC and internalize their necessity as we progress.\r\n\r\nThe idea of the workshop is to get confused. At any level you are, you are welcome to get confused here, and I'd encourage you to do so.\r\n\r\nPS: I'm not an expert on anything\r\n\r\nPlease see: https://codeberg.org/bkavlak/foss4g-2026-hiroshima-meta-problem-workshop",
+    "start_datetime": "2026-08-31T01:00:00Z",
+    "end_datetime": "2026-08-31T04:00:00Z",
+    "talk:code": "ZFTVHH",
+    "talk:guid": "6b02ff63-d75e-5bd8-b7a1-bac5b4901aff",
+    "talk:event": "foss4g-2026-workshop",
+    "talk:type": "Workshop",
+    "talk:language": "en",
+    "talk:room": "603",
+    "talk:room_capacity": 30,
+    "talk:duration_minutes": 180,
+    "talk:speakers": [
+      {
+        "code": "YGD9WA",
+        "name": "Batuhan Kavlak",
+        "url": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/YGD9WA/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-08-31T02:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/ZFTVHH/",
+      "title": "The meta-problem in geospatial data"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/ZFTVHH/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/YGD9WA/",
+      "title": "Batuhan Kavlak"
+    },
+    {
+      "rel": "related",
+      "href": "https://codeberg.org/bkavlak/foss4g-2026-hiroshima-meta-problem-workshop",
+      "title": "codeberg.org/bkavlak/foss4g-2026-hiroshima-meta-problem-workshop"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/ZFTVHH/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-workshops"
+}

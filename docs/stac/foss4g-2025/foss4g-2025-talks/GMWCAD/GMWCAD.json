@@ -1,0 +1,163 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "GMWCAD",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Introduction to libCartoSym, libCQL2 and libDE9IM",
+    "description": "An introduction and overview of the capabilities provided by the Free and Open Source Software libCartoSym and related dependency libraries (libCQL2, libDE9IM...) implementing the candidate [OGC Cartographic Symbology 2.0 Standard](https://github.com/opengeospatial/cartographic-symbology). http://cartosym.org/ https://github.com/ecere/libCartoSym\n\nlibCartoSym is a Free and Open-Source Software library implementing [OGC Cartographic Symbology 2.0](https://github.com/opengeospatial/cartographic-symbology)\r\n\r\n_libCartoSym_ aims to be an implementation of the [CartoSym-CSS](https://docs.ogc.org/DRAFTS/18-067r4.html#rc-cscss) and\r\n[CartoSym-JSON](https://docs.ogc.org/DRAFTS/18-067r4.html#rc-json) encodings defined in the candidate\r\n[OGC Cartographic Symbology - Part 1: Core Model and Encodings Standard version 2.0](https://docs.ogc.org/DRAFTS/18-067r4.html) Standard.\r\n\r\nThe library allows to read and write these CartoSym encodings, as well as import from and export to additional encodings of portrayal rules such as OGC [SLD](https://portal.ogc.org/files/?artifact_id=22364)/[SE](https://portal.ogc.org/files/?artifact_id=16700) and [Mapbox GL Styles](https://docs.mapbox.com/mapbox-gl-js/guides/styles/).\r\n\r\nSince the CartoSym encodings extend the [OGC Common Query Language (CQL2)](https://www.opengis.net/doc/IS/cql2/1.0), the library also relies on a related open-source libCQL2 library providing support for\r\nparsing and writing CQL2-Text and CQL2-JSON expressions, as well as run-time evaluation of CQL2 expressions. Support for performing spatial relation queries based on the\r\n[Dimensionally Extended-9 Intersection Model](https://en.wikipedia.org/wiki/DE-9IM) is also\r\nintegrated within a jointly developed _libDE9IM_ open-source library, and support for OGC Simple Features as well as parsing and writing geometries defined in\r\n[Well-Known Text (WKT)](http://portal.opengeospatial.org/files/?artifact_id=25355) and [GeoJSON](https://tools.ietf.org/rfc/rfc7946.txt) is also provided by related open-source libraries.\r\n\r\nWhile these libraries are written in the [eC programming language](https://ec-lang.org), object-oriented bindings for _libCartoSym_ automatically generated using Ecere's [binding generating tool (bgen)](https://github.com/ecere/bgen) will also be made available for the C, C++ and Python programming languages, with additional support planned for Java and Rust.\r\n\r\n_Acknowledgement_\r\nFinancial support provided by GeoConnections, a national collaborative initiative led by Natural Resources Canada. GeoConnections supports the modernization of the Canadian Geospatial Data Infrastructure (CGDI). The CGDI is the collection of geospatial data, standards, policies, applications, and governance that facilitate its access, use, integration, and preservation.",
+    "start_datetime": "2025-11-21T00:30:00Z",
+    "end_datetime": "2025-11-21T00:55:00Z",
+    "talk:code": "GMWCAD",
+    "talk:guid": "b4068ee5-8dba-5912-80d4-3ee8291c3a84",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Tools, Libraries & Visualisation",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG802",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "KNRWPK",
+        "name": "Jerome St-Louis",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/KNRWPK/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-21T00:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/GMWCAD/",
+      "title": "Introduction to libCartoSym, libCQL2 and libDE9IM"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/GMWCAD/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/KNRWPK/",
+      "title": "Jerome St-Louis"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/opengeospatial/cartographic-symbology",
+      "title": "OGC Cartographic Symbology 2.0 Standard"
+    },
+    {
+      "rel": "related",
+      "href": "http://cartosym.org/",
+      "title": "cartosym.org"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/ecere/libCartoSym",
+      "title": "github.com/ecere/libCartoSym"
+    },
+    {
+      "rel": "related",
+      "href": "https://docs.ogc.org/DRAFTS/18-067r4.html#rc-cscss",
+      "title": "CartoSym-CSS"
+    },
+    {
+      "rel": "related",
+      "href": "https://portal.ogc.org/files/?artifact_id=22364",
+      "title": "SLD"
+    },
+    {
+      "rel": "related",
+      "href": "https://portal.ogc.org/files/?artifact_id=16700",
+      "title": "SE"
+    },
+    {
+      "rel": "related",
+      "href": "https://docs.mapbox.com/mapbox-gl-js/guides/styles/",
+      "title": "Mapbox GL Styles"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.opengis.net/doc/IS/cql2/1.0",
+      "title": "OGC Common Query Language (CQL2)"
+    },
+    {
+      "rel": "related",
+      "href": "https://en.wikipedia.org/wiki/DE-9IM",
+      "title": "Dimensionally Extended-9 Intersection Model"
+    },
+    {
+      "rel": "related",
+      "href": "http://portal.opengeospatial.org/files/?artifact_id=25355",
+      "title": "Well-Known Text (WKT)"
+    },
+    {
+      "rel": "related",
+      "href": "https://tools.ietf.org/rfc/rfc7946.txt",
+      "title": "GeoJSON"
+    },
+    {
+      "rel": "related",
+      "href": "https://ec-lang.org",
+      "title": "eC programming language"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/ecere/bgen",
+      "title": "binding generating tool (bgen)"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/GMWCAD/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=-9tVFPsa1IA",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Introduction to libCartoSym, libCQL2 and libDE9IM",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

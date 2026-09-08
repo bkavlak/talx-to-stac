@@ -1,0 +1,95 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "RM8DQR",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Reusable Geospatial Application Design for the Global South with MapLibre, STAC, and TiTiler",
+    "description": "This talk presents a reusable geospatial platform architecture for operational use in the Global South, and explains how ArkEdge Space Inc. uses MapLibre GL JS, STAC, and TiTiler to build adaptable applications across domains, using an agricultural project with the Paraguayan Space Agency as a case study.\n\nThis talk is based on an agricultural application co-developed by ArkEdge Space Inc. and the Paraguayan Space Agency for public-sector use in Paraguay. While the project responds to a specific operational context, we approached it not as a one-off product but as part of a reusable geospatial platform.\r\nThe session focuses on practical engineering decisions around web mapping and geospatial data architecture, especially our use of MapLibre GL JS for interactive map experiences, STAC for organizing and searching geospatial assets, and TiTiler for dynamically serving raster data as map tiles, previews, and analysis-ready outputs.\r\nUsing this project as a case study, I will explain how we structured data and services for multi-source integration, how we designed reusable application capabilities across projects, and how open geospatial components helped us build systems that are extensible, practical for field use, and accessible to non-expert users.\r\nRather than presenting the application from a business perspective, this talk concentrates on implementation lessons that can be applied beyond a single project. The session is intended for developers and practitioners interested in web mapping, spatial data platforms, and the real-world use of open geospatial technologies in the Global South and other operational contexts.",
+    "start_datetime": "2026-09-03T04:00:00Z",
+    "end_datetime": "2026-09-03T04:30:00Z",
+    "talk:code": "RM8DQR",
+    "talk:guid": "253a6209-e20e-518e-a830-347d58e6816d",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room3",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "78ESU7",
+        "name": "Kota Yuhara",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/78ESU7/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-03T04:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/RM8DQR/",
+      "title": "Reusable Geospatial Application Design for the Global South with MapLibre, STAC, and TiTiler"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/RM8DQR/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/78ESU7/",
+      "title": "Kota Yuhara"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/RM8DQR/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "related-background-talk-empowering-everyone-with-satellite-d": {
+      "href": "https://speakerdeck.com/meltingrabbit/foss4g-auckland-2025-empowering-everyone-with-satellite-data-agile-development-powered-by-foss4g-meltingrabbit",
+      "title": "Related background talk: Empowering Everyone with Satellite Data \u2013 Agile Development Powered by FOSS4G",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

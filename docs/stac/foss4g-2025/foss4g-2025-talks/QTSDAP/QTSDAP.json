@@ -1,0 +1,123 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "QTSDAP",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Research on the Display of Ultra-Large Point Cloud Data Using a 3DWebGIS Distributed Rendering System",
+    "description": "We introduce a method for displaying global point cloud data using the open-source, scalable display system ChOWDER, which distributes rendering of 3DWebGIS across multiple web browsers. We discuss current challenges, such as rendering artifacts arising from the conversion of Earth-scale data.\n\nIntroduction\r\n\r\nRecently, many software applications have transitioned to cloud-based platforms, with web browsers serving as the primary user interface. In the field of geographic information, 3DWebGIS applications have also gained widespread adoption in both commercial and open-source software, thanks to the ease of 3D rendering on browsers using WebGL. However, web browsers have limitations on the heap memory available to user programs, which can cause instability or crashes when rendering large-scale 3D data that consumes a significant amount of memory. The scalable display system we propose, ChOWDER, enables the distributed rendering of 3DWebGIS across multiple displays (web browsers) by utilizing iTowns [1], an open-source 3D WebGIS as middleware. This mechanism breaks through the heap memory limit of web browsers, offering the advantage of ultra-high-resolution display. The method for distributing and rendering a massive amount of 3DTiles-format building polygon data across a tiled display composed of nine 4K displays using ChOWDER, along with its actual memory consumption distribution performance, was reported at FOSS4G ASIA 2024 [2]. In this presentation, we introduce a method for converting cloud data captured by the weather satellite over the Pacific Ocean into approximately 500 million 3DTiles-format 3D point cloud data and then distributing and rendering this data at ultra-high resolution across multiple displays (browsers) using ChOWDER. Additionally, we discuss the current challenges that arise from unnatural artifacts in rendering for earth-sized point clouds and propose solutions for this approach.\r\n\r\nProposed method\r\n\r\nJapan's weather satellite HIMAWARI uses multiple optical sensors to capture images of half of the globe, centered on the Asia-Oceania region, at 10-minute intervals. The grid data, which has undergone precise geometric correction, is publicly available from the Solar Radiation Consortium [3]. The publicly available grid data includes not only raw data but also calculated data such as cloud top height and cloud thickness, derived from the raw data. Using these, we define voxels within each grid, with the cloud top height as the maximum height and the height obtained by subtracting the cloud thickness from the cloud top height as the minimum height, by randomly generating multiple points within these voxels, we represent the 2D observation data as 3D cloud shapes in point cloud data. This converter program was developed as an open-source program distributed on GitHub [4]. The generated point cloud data is converted to a binary LAS format using txt2las in LAStools [5] and then converted to 3DTiles using py3dtiles [6]. In this study, satellite-captured data at 00:00 UTC on October 10, 2019, were used. The generated 3DTiles data has an 8-level octree structure, with a total data size of approximately 6.1 GB. This data is of a size that can be visualized using standard 3DWebGIS such as CesiumJS. However, when displaying the entire area on a browser in a standard desktop environment, i.e., a display with a maximum resolution of approximately 4K, the point cloud is displayed with coarse granularity. To observe the detailed structure of the clouds, it is necessary to zoom in, making it impossible to view the entire area and observe details simultaneously. However, by using ChOWDER, it is possible to distribute the rendering of a 3DWebGIS across multiple displays (browsers), enabling ultra-high-resolution display that cannot be achieved on a single display. An example of the display is shown in Figure 1 (https://github.com/SIPupstreamDesign/ChOWDER/blob/master/IMG_2998.jpg).\r\n\r\nChallenges and Discussion\r\n\r\nWhen visualizing this data, triangular artifacts are observed, as shown in Figure 2 (https://github.com/SIPupstreamDesign/ChOWDER/blob/master/IMG_2995.jpg). This is due to the following reasons. The primary reason is that the coordinate system of the generated point cloud is a Cartesian coordinate system with the Earth's center as the origin. Since the point cloud covers nearly half of the Earth's surface, converting it into 3DTiles in a single batch results in bounding voxels that encompass approximately half of the Earth's surface. When this is divided into an Octree structure, the voxels are split along orthogonal coordinate axes. This results in triangular-shaped intersections between the split voxels and the Earth's surface at certain locations.\r\nAdditionally, in 3DWebGIS, there is a phenomenon where tiles corresponding to the zoom level to be displayed do not render for some reason. A similar issue occurs with 3DTiles data, and in this case, it manifests as triangular-shaped areas. Typically, 3DTiles are generated for relatively limited areas, and the geographical coordinate system is used, so the bounding voxels follow the shape of the Earth's surface. Even if rendering artifacts occur, they do not appear. Based on the above considerations, when converting Earth-scale data, such as the cloud data in this study, to 3DTiles, it is expected that applying the method of pre-dividing the data into multiple regions using the geographical coordinate system and performing 3DTiles conversion for each region can suppress the occurrence of unnatural artifacts.\r\n\r\nFuture work\r\n\r\nWe will verify whether the method proposed in the previous section, which involves pre-dividing the area during 3DTiles generation, can suppress the occurrence of unnatural artifacts. Additionally, while we currently estimate the 3D structure of clouds based on 2D observation data, the next-generation weather satellite is expected to provide 3D observation data from an infrared sounder, enabling a scientifically accurate, high-resolution display of 3D structures.\r\n\r\nReferences\r\n\r\n[1] iTowns, providing 3D geospatial data management and visualization software: https://github.com/iTowns\r\n[2] KAWANABE, T., et al. On the Performance of Distributed Rendering System for 3DWebGIS Application on Ultra-High-Resolution Display. International Journal of Geoinformatics, 2025, 21.1: 15-25.\r\n[3] HIMAWARI 8/9 gridded full-disk (FD)data Version 02 (V20190123) release note: https://www.cr.chiba-u.jp/databases/GEO/H8_9/FD/index_en_V20190123.html\r\n[4] Point cloud converter program: https://github.com/SIPupstreamDesign/ChOWDER/blob/master/server/parser/amaterass_convert_test.js\r\n[5] LAStools: https://lastools.github.io/\r\n[6] py3dtiles: https://py3dtiles.org/",
+    "start_datetime": "2025-11-19T22:00:00Z",
+    "end_datetime": "2025-11-19T22:25:00Z",
+    "talk:code": "QTSDAP",
+    "talk:guid": "34ba7835-10e3-50b4-864d-a0dbc49536f7",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Academic",
+    "talk:type": "Academic Paper",
+    "talk:language": "en",
+    "talk:room": "WG404",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "8VV8EN",
+        "name": "Tomohiro KAWANABE",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/8VV8EN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-19T22:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/QTSDAP/",
+      "title": "Research on the Display of Ultra-Large Point Cloud Data Using a 3DWebGIS Distributed Rendering System"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/QTSDAP/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/8VV8EN/",
+      "title": "Tomohiro KAWANABE"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/iTowns",
+      "title": "github.com/iTowns"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.cr.chiba-u.jp/databases/GEO/H8_9/FD/index_en_V20190123.html",
+      "title": "www.cr.chiba-u.jp/databases/GEO/H8_9/FD/index_en_V20190123.html"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/SIPupstreamDesign/ChOWDER/blob/master/server/parser/amaterass_convert_test.js",
+      "title": "github.com/SIPupstreamDesign/ChOWDER/blob/master/server/parser/amaterass_convert_test.js"
+    },
+    {
+      "rel": "related",
+      "href": "https://lastools.github.io/",
+      "title": "lastools.github.io"
+    },
+    {
+      "rel": "related",
+      "href": "https://py3dtiles.org/",
+      "title": "py3dtiles.org"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/QTSDAP/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=eKtZIB-SxrM",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Research on the Display of Ultra-Large Point Cloud Data Using a 3DWebGIS",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

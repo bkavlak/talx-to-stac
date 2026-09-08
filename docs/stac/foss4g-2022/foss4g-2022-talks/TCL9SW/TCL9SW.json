@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "TCL9SW",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Implementation of INSPIRE in Lithuania: experience with the transition to FOSS4G",
+    "description": "Since entering into force in May 2007, the Directive 2007/2/EC of the European Parliament and of the Council establishing Infrastructure for Spatial Information in Europe (INSPIRE directive) has been playing very important role in building spatial information infrastructures \u2013 both pan-European and at national level. Technical specifications and guidelines describe the key components of data content and of implementation of web services. However, each country decides individually how technically it will implement these requirements, what architecture and software it will choose to use. The roadmap of directive implementation has reached the last milestone in 21/10/2020 \u2013 all spatial data sets had to be provided to the INSPIRE geoportal ((https://inspire-geoportal.ec.europa.eu/). Now is the best time to share the experience how Lithuania started INSPIRE implementation path using commercial software but successfully ended with using only FOSS4G.\r\n\r\nImplementation of INSPIRE directive in Lithuania is centralized and state enterprise GIS-Centras is responsible for technical work. INSPIRE directive was implemented in 2 stages. The first stage started back in 2012 and it was dedicated to cover data sets from Annex I and Annex II (only orthophoto imagery). Back then the INSPIRE directive implementation was a new and little-known technical challenge. The decision to call a tender and use the commercial software for which there were not many viable alternatives at the time seemed quite logical. \r\n\r\nThe second stage of INSPIRE directive implementation started in 2018 and ended up in 2021. This stage was dedicated to cover data sets from Annex III and part of Annex II. Instead of just calling a tender to implement the requirements with commercial software we already had we decided to implement everything by ourselves and change the commercial software to FOSS4G. At the end of the project, we have not only prepared and published all the datasets and services, but also had a team of in-house specialists who were able to work with the FOSS4G. Even the results from the first stage was quickly changed to FOSS4G in order to unify the implementation architecture.\r\n\r\nWe have set three goals for the transition from commercial software to FOSS4G:\r\n1. Create a system that we can administer and develop ourselves;\r\n2. Create infrastructure that is cost-effective in the long run;\r\n3. Automate the workflow as much as possible.\r\n\r\nIn this presentation we will share our experience of transition from commercial software to FOSS4G both from technological and company/team perspectives. We will present the technological architecture we use to implement INSPIRE requirements. It consist of PostGIS, Geoserver, QGIS, Hale studio, GDAL and Geonetwork. Finally we will explain what we have learn as a company and GIS specialists during the transition process.",
+    "start_datetime": "2022-08-24T13:15:00Z",
+    "end_datetime": "2022-08-24T13:45:00Z",
+    "talk:code": "TCL9SW",
+    "talk:guid": "849d1b76-fc5e-54d2-819c-f74bb6950875",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Transition to FOSS4G",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room 9",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "WJXMV7",
+        "name": "Andrius Balciunas",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/WJXMV7/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T13:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/TCL9SW/",
+      "title": "Implementation of INSPIRE in Lithuania: experience with the transition to FOSS4G"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/TCL9SW/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/WJXMV7/",
+      "title": "Andrius Balciunas"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/TCL9SW/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/7TUg6CD8jaVAXgz7Rw9MZe",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Implementation of INSPIRE in Lithuania: experience with the transition to FOSS4G",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=QjNHeGQi0Ag",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Implementation of INSPIRE in Lithuania: experience with the transition to FOSS4G",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

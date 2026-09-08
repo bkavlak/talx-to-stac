@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "QX3ARG",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Developing a \u2018live\u2019 map of spatial access to health services in Aotearoa New Zealand",
+    "description": "To develop a real-time model that incorporates current road conditions to estimate spatial access to health services daily, at the address level.\n\nTitle: \r\nDeveloping a \u2018live\u2019 map of spatial access to health services in Aotearoa New Zealand\r\nMitchell Pincham1 , Marcus Blake2, Sam Quinsey2 & Jesse Whitehead*1\r\n\r\n1 Te Ngira: Institute for Population Research, University of Waikato, New Zealand \r\n2 Centre of Australian Research into Accessibility, Deakin Rural Health, Deakin University, Australia\r\n\r\nPresenting author *Corresponding author: jesse.whitehead@waikato.ac.nz\r\n\r\nAims: \r\nTo develop a real-time model that incorporates current road conditions to estimate spatial access to health services daily, at the address level.\r\n\r\nMethods: \r\nNational Highway road-closure data was collected from the New Zealand Transport Agency Application Programming Interface. Data about local road closures was scraped from local council websites. A road network from Open Street Maps was modified by removing any closed highways or local roads. The distance from each address in the Manawataki Health Region, through this new road network, to the nearest Hospital was calculated. The program was automated to run each day in January, using current road conditions for that day to estimate hospital accessibility.\r\n\r\nResults: \r\nDaily estimates of hospital accessibility were successfully automated, with variations in spatial accessibility over time noted. However, the importance of data quality for the accuracy of this model is paramount. Reporting structures and formats meant that data obtained from some local councils was found to be imprecise or unreliable at times.\r\nConclusions: This approach shows potential for quickly estimating access to health services under changing road conditions, such as during and after extreme weather events. NZTA and local councils should be encouraged to work together to improve the reporting of road closures.",
+    "start_datetime": "2025-11-18T22:00:00Z",
+    "end_datetime": "2025-11-18T22:25:00Z",
+    "talk:code": "QX3ARG",
+    "talk:guid": "a47f377a-8bb4-53fd-beb6-dc25a520486a",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Academic",
+    "talk:type": "Academic Paper",
+    "talk:language": "en",
+    "talk:room": "WG126",
+    "talk:room_capacity": 140,
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "QQSVVP",
+        "name": "Jesse Whitehead",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/QQSVVP/"
+      },
+      {
+        "code": "UGDZUS",
+        "name": "Mitchell Pincham",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/UGDZUS/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-18T22:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/QX3ARG/",
+      "title": "Developing a \u2018live\u2019 map of spatial access to health services in Aotearoa New Zealand"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/QX3ARG/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/QQSVVP/",
+      "title": "Jesse Whitehead"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/UGDZUS/",
+      "title": "Mitchell Pincham"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/QX3ARG/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

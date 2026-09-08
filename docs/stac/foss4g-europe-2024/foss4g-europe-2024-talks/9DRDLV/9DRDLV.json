@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "9DRDLV",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Open Source vs. Open Core for the Protomaps Project",
+    "description": "Since 2023, the Protomaps project has transitioned from an \"Open Core\" project to a fully open source one, centered around the PMTiles open data format. I'll go over the success stories of open sourcing, including grant funding and growth in features and contributions from across the OpenStreetMap ecosystem.\r\n\r\nI will showcase just a few of the dozens of production applications using Protomaps, and specifically highlight the tradeoffs in deployment methods and cloud vendors, such as static S3-like hosting vs. using a serverless runtime like Lambda or Cloudflare Workers. A new focus for 2024 has been public sector use, and I'll outline some specific challenges related to localization.",
+    "start_datetime": "2024-07-03T09:00:00Z",
+    "end_datetime": "2024-07-03T09:30:00Z",
+    "talk:code": "9DRDLV",
+    "talk:guid": "43d56eac-179c-5842-b0e6-4d8d86ce6f61",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "LAStools (327)",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RUXECV",
+        "name": "Brandon Liu",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/RUXECV/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-03T09:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/9DRDLV/",
+      "title": "Open Source vs. Open Core for the Protomaps Project"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/9DRDLV/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/RUXECV/",
+      "title": "Brandon Liu"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/9DRDLV/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-3": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/9DRDLV/resources/FOSS4G_EU_2024_3_0Y7FRLz.pdf",
+      "type": "application/pdf",
+      "title": "presentation 3",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/pzT243QhNz9BcUDALrxdtu",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Open Source vs. Open Core for the Protomaps Project",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=tdi24crBppo",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Open Source vs. Open Core for the Protomaps Project",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

@@ -1,0 +1,129 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "TDMRZC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Supercharging deck.gl layers with extensions",
+    "description": "deck.gl is a popular open source data visualization library that uses the power of WebGL to render huge amounts of data performantly in the browser. A collection of versatile layers allows the user to create many different types of visualizations, with excellent support for geospatial data in particular.\r\n\r\nThe core layers can be extended by the means of deck.gl extensions to create interactive experiences which are not possible in other data visualization frameworks.\r\n\r\nThis [talk](https://docs.google.com/presentation/d/1YMfMeB38mhhYXNJ5OH55r5OsieZrbugR91BcEouSm2E/edit?usp=sharing) will give an overview of deck.gl, including some of the core layers and will then focus on three of the latest extensions:\r\n\r\n  - The CollisionFilterExtension avoids collisions between features on screen. This can be used to selectively show large cities in preference to small ones on a map when they would otherwise overlap or laying out labels.\r\n  - The MaskExtension implements realtime masking of data by an arbitrary spatial boundary. An example use case is clipping a set of roads and places of interest to the boundary of a city.\r\n  - The TerrainExtension offsets the 3D component of features by referencing a separate 3D layer. For example, a set of pins on a map can be placed at the correct height relative to a 3D terrain layer.",
+    "start_datetime": "2023-06-29T08:30:00Z",
+    "end_datetime": "2023-06-29T09:00:00Z",
+    "talk:code": "TDMRZC",
+    "talk:guid": "1b493d76-9149-577b-9ceb-83c9b8395ee1",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT D / N113 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "TRXAEX",
+        "name": "Felix Palmer",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/TRXAEX/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-29T08:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/TDMRZC/",
+      "title": "Supercharging deck.gl layers with extensions"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/TDMRZC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/TRXAEX/",
+      "title": "Felix Palmer"
+    },
+    {
+      "rel": "related",
+      "href": "https://docs.google.com/presentation/d/1YMfMeB38mhhYXNJ5OH55r5OsieZrbugR91BcEouSm2E/edit?usp=sharing",
+      "title": "talk"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.procedural.eu/",
+      "title": "Procedural GL"
+    },
+    {
+      "rel": "related",
+      "href": "https://deck.gl/",
+      "title": "deck.gl"
+    },
+    {
+      "rel": "related",
+      "href": "https://carto.com/",
+      "title": "CARTO"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/TDMRZC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/9Vspq4jLURs6cXffVPSsbn",
+      "type": "text/html",
+      "title": "2023 | Supercharging deck.gl layers with extensions - Felix Palmer",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=kfYXrlMJwiw",
+      "type": "text/html",
+      "title": "2023 | Supercharging deck.gl layers with extensions - Felix Palmer",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

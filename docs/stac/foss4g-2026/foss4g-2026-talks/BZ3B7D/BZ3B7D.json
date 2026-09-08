@@ -1,0 +1,96 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "BZ3B7D",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "GeoGirafe: a community-driven WebGIS built plugin by plugin",
+    "description": "GeoGirafe is a framework-free WebGIS built on standard WebComponents. This talk presents its feature set, plugin-based architecture, community governance model, and the funding structure that keeps the project independent and sustainable.\n\nGeoGirafe is a WebGIS application designed from the ground up to be owned and shaped by its user community. Rather than relying on heavyweight frameworks or vendor ecosystems, GeoGirafe embraces a lean, modular architecture keeping the barrier to contribution low and long-term maintainability high.\r\n\r\n## Features\r\n\r\nVersion 1.0, released in late 2025, ships with a comprehensive feature set:\r\n\r\n* WMS, WMTS, WFS, Vector Tiles and COG support\r\n* Advanced drawing and measurement tools\r\n* Full-text search across features, thematics and layers\r\n* Cross-section view with LiDAR profile\r\n* Sharing tools (iframes and permalinks)\r\n* 3D views, drawings and shadow simulation\r\n* Layer WFS filtering\r\n\r\nGeoGirafe works as a standalone application or can be extended with an optional backend, unlocking:\r\n\r\n* OpenID Connect authentication\r\n* Themes, layers and column-level permissions\r\n* Secured printing service\r\n\r\nThree major features are underway for 2026:\r\n\r\n* Editing via OGC API Features (backed by QGIS Server or pygeoapi)\r\n* Advanced filtering (multi-criterion and spatial predicates)\r\n* Panoramic road-level photo viewer\r\n\r\n## Key Objectives\r\n\r\n* **Community Governance**: Roadmap and technical decisions are driven by the community, not by any single organization. This collective ownership model keeps the project aligned with real-world needs.\r\n* **Sustainability**: Every architectural choice is made with the long term in mind. By avoiding monolithic framework dependencies, GeoGirafe stays adaptable as the web evolves \u2014 without accumulating technical debt or locking contributors into a specific toolchain.\r\n* **Modularity & Extensibility**: A plugin-based architecture enables teams to develop custom features independently, without forking or destabilizing the core. This makes contributions straightforward and custom developments genuinely sustainable.\r\n* **Open Collaboration**: Documentation is community-maintained, and first-level support runs through a Discord server. Three companies have joined the ecosystem and offer professional-grade support for organizations that need it.",
+    "start_datetime": "2026-09-02T05:30:00Z",
+    "end_datetime": "2026-09-02T06:00:00Z",
+    "talk:code": "BZ3B7D",
+    "talk:guid": "76479aee-a08b-59dd-a0a5-51bde306e02d",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Ran2",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "9B8D7Q",
+        "name": "St\u00e9phane Malta e Sousa",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/9B8D7Q/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T05:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/BZ3B7D/",
+      "title": "GeoGirafe: a community-driven WebGIS built plugin by plugin"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/BZ3B7D/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/9B8D7Q/",
+      "title": "St\u00e9phane Malta e Sousa"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/BZ3B7D/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://gitlab.com/geogirafe/presentations/-/raw/main/FOSS4G%202026/Geogirafe20260902.pptx?ref_type=heads",
+      "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "title": "Slides",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

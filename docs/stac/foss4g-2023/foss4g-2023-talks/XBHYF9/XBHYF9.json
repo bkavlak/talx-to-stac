@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "XBHYF9",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "An overview of Cloud-Native Geospatial",
+    "description": "\u201cCloud-Native Geospatial\u201d is a new paradigm for performing efficient data access and compute the cloud in an interoperable way in order to achieve scalable and repeatable analysis of geospatial data. The last few years have seen major developments in open standards and open software that make this possible, supporting full end to end interoperable workflows on remote sensing data, starting from data discovery to publishing of derived products.\r\n\r\nThis talk will provide an overview of what Cloud-Native geospatial is and why it is important for building scalable architectures. It will cover the current state of the Spatio Temporal Asset Catalog (STAC) specifications, and the landscape of cloud-optimized file formats, for raster, vector, and point-cloud data formats (COG, GeoZarr, GeoParquet, COPC).",
+    "start_datetime": "2023-06-28T14:30:00Z",
+    "end_datetime": "2023-06-28T15:00:00Z",
+    "talk:code": "XBHYF9",
+    "talk:guid": "7e812771-96d7-5088-bb85-7eb11ffa6747",
+    "talk:event": "foss4g-2023",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Lumbardhi",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "W8MQ89",
+        "name": "Matthew Hanson",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/W8MQ89/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T14:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/XBHYF9/",
+      "title": "An overview of Cloud-Native Geospatial"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/XBHYF9/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/W8MQ89/",
+      "title": "Matthew Hanson"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/XBHYF9/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/rHjWR8ptCjxKdjFwWNL31s",
+      "type": "text/html",
+      "title": "2023 | An overview of Cloud-Native Geospatial - Matthew Hanson",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=g7iMO1KmyJE",
+      "type": "text/html",
+      "title": "2023 | An overview of Cloud-Native Geospatial - Matthew Hanson",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

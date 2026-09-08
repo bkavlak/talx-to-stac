@@ -1,0 +1,97 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "MTBKC7",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "istSOS4Things: a reproducible, auditable, and governable sensor data infrastructures",
+    "description": "The two papers by Cannata et al. (2023) and Collombin et al. (2024) address a central paradox in open geospatial research: while geospatial web services (e.g. OGC-based services) foster data sharing in line with Open Science and FAIR principles, they simultaneously challenge reproducibility. This core issue concerns particularly dynamic geospatial data. Unlike static datasets stored in repositories with persistent identifiers (e.g. DOIs), data accessed through web services are continuously updated, corrected, or reprocessed. As a result, the exact dataset used in a study may no longer be retrievable in its original state, making it difficult or impossible to reproduce results. This issue is particularly critical for time-varying datasets such as environmental monitoring, sensor observations, or cadastral data. Even when workflows and computational environments are reproducible, reproducibility ultimately fails if the underlying data cannot be accessed in the same version used in the original analysis. Both works highlight that current geospatial infrastructures lack key mechanisms such as data versioning, persistent identification, and temporal querying capabilities (\u201csystem-time\u201d). Without these, web services cannot guarantee access to historical data states. Addressing this limitation requires moving beyond interoperability toward infrastructures that explicitly manage data evolution over time, enabling retrieval of past states and supporting transparent and verifiable research. \r\n\r\nIn this context, istSOS4Things (https://github.com/istSOS/istSOS4) is introduced as a SensorThings API compliant solution that tackles these challenges by integrating mechanisms for temporal versioning, traceability, and controlled access directly into the data service layer. Rather than acting as a simple interface to mutable data, the system is designed as a version-aware and policy-enabled service, capable of preserving and exposing the evolution of geospatial data streams. A core element of this approach is the implementation of system-time versioning at the database level, where each observation is associated with temporal attributes capturing both its validity and its transaction history. This enables reconstruction of the dataset as it existed at a specific point in time, effectively introducing a \u201ctime-travel\u201d capability. Users can therefore query not only the current state of the data, but also past states, addressing the reproducibility gap identified in the literature. \r\n\r\nFrom an architectural perspective, istSOS4Things adopts a container-based, microservice-oriented design, where each component is deployed as an independent service and orchestrated through Docker. The core of the system is a PostgreSQL database extended with PostGIS. On top of the database, the API layer is implemented using SQLAlchemy ORM with asyncpg as query engine and FastAPI for routing logic, and served through Uvicorn as an ASGI server. To support performance and scalability, the architecture integrates Redis as an in-memory data store, used for caching request to query conversion workload. This combination of FOSS ensures high performance, asynchronous request handling, and scalability of the SensorThings API endpoints. \r\n\r\nIn istSOS4Things, the \u201ctime-travel\u201d capability is exposed through an extension of the SensorThings API query model that introduces explicit temporal navigation parameters. In particular, an as_of parameter allows retrieving the state of the data at a specific timestamp, while a from_to parameter enables exploration of how data evolved over a defined time interval. These parameters extend standard OData-based filtering mechanisms and bring system-versioned data concepts, commonly found in temporal databases, into web-based geospatial services. \r\n\r\nA key innovation is the introduction of a commit-based versioning model. Each modification to the dataset is recorded as a Commit entity, representing a discrete change event that groups one or more operations. Each commit is associated with metadata such as timestamp, description, and context, and is linked to a User entity, capturing the identity of the actor responsible for the change. This explicit association enables tracking of who performed what modification and when, introducing accountability and traceability into the data lifecycle. Observations are therefore not only versioned in time, but also logically grouped into commits, forming a structured history of changes. This allows navigation across dataset evolution both by timestamp (system-time) and by discrete change events. In practice, this enables reconstruction of the dataset at a given point or commit, inspection of differences between versions, and understanding of the sequence of transformations applied to the data. The combination of temporal versioning and commit-based tracking provides a comprehensive provenance model that goes beyond simple versioning. \r\n\r\nImportantly, the combination of service endpoint, query definition, and temporal reference (e.g. via as_of) effectively defines a persistent and reproducible view of the dataset, supporting reproducible data citation without requiring static dataset snapshots. Building on this, the system supports reproducible data access through fully specified queries. By combining spatial, temporal, and thematic filters with temporal parameters, users can re-execute the same query over a well-defined data state. This shifts reproducibility from static data publication toward reproducible data access patterns, where both the query and the temporal context define the dataset. \r\n\r\nAnother key aspect is the integration of fine-grained access control and policy enforcement mechanisms directly at the data layer. Access to data is regulated through a Role-Based Access Control (RBAC) model implemented using PostgreSQL roles combined with Row-Level Security (RLS) policies. This enables permissions to be enforced not only at the table level, but also at the level of individual records, allowing selective visibility and editing of observations based on the querying user (e.g. restricting updates to specific sensor networks). \r\n\r\nOverall, this work promotes a shift in how reproducibility is approached in geospatial research. Rather than relying on static data publication, it embraces the dynamic nature of data and provides mechanisms to reconstruct past states, document their evolution, and control access over time. By combining temporal versioning, commit-based change tracking, extended query capabilities, provenance metadata, and policy-based access control, istSOS4Things transforms geospatial web services into reproducible, auditable, and governable data infrastructures, directly addressing the limitations identified in prior research.",
+    "start_datetime": "2026-06-29T11:30:00Z",
+    "end_datetime": "2026-06-29T12:00:00Z",
+    "talk:code": "MTBKC7",
+    "talk:guid": "15c1c189-8b5f-539c-8389-9d99969cd1c8",
+    "talk:event": "foss4g-europe-2026",
+    "talk:track": "Academic track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "A01",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "LPFDM8",
+        "name": "Massimiliano Cannata",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/LPFDM8/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-06-29T11:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/MTBKC7/",
+      "title": "istSOS4Things: a reproducible, auditable, and governable sensor data infrastructures"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/MTBKC7/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/LPFDM8/",
+      "title": "Massimiliano Cannata"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/MTBKC7/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "istsos4things-foss4g-eu": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2026/submissions/MTBKC7/resources/foss4g-EU_j8J5Gmo_istSOS_744Fzm9.pdf",
+      "type": "application/pdf",
+      "title": "istSOS4Things_foss4g_EU",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

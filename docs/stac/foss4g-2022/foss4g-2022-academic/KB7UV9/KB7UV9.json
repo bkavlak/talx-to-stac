@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "KB7UV9",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Tackling the challenges of software provision",
+    "description": "1. Introduction\r\n\r\nFor most end-users, the term \u2018software\u2019 is equivalent with executing a given application to obtain a desired result. Moreover, the highest importance is usually attributed to the software being free to use. Besides intuitive use, a key requirement for success and wider acceptance of a software application is easy access, which is often facilitated though open-source projects. While users naturally only care about stability and functionality of the software, software developers often see their task completed once the application reaches a certain degree of maturity and its source code is made available. However, in addition to ease of use and targeted software development, a third component in the life cycle of software design [Vogt 2019] is the software provision. The importance of adequate software dissemination entails a wide range of aspects, which are often undervalued but are crucial to best meet end-user expectations and to achieve the highest application acceptance. \r\nIn this manuscript, we outline a perspective on approaches to appropriately address issues of software provision aimed at promoting software in an efficient way. We illustrate the motivation and features of various aspects of software provision on the recently published software GWB [Vogt et al., 2022] [1] and its implementation on the FAO cloud computing platform SEPAL [2]. \r\n\r\n\r\n2. Software provision\r\n\r\nThis section summarises reflections on various aspects when disseminating a software application.\r\n \r\n* Source code: The provision of the source code is often perceived as a final product delivery. However, most end-users cannot make any use of the source code because they do not understand the programming language, do not know how to compile it or how to properly link required dependencies. The large number of Linux distributions provides an additional challenge due to varying inter-dependencies of distribution-specific compiled libraries and packaging policies. Packaging - the conversion of source code into a functional executable binary - is a science on its own and is beyond the skills of a typical end-user.  \r\n\r\n* Target platform: Maximum outreach is achieved through a software setup that will work on as many platforms and operating systems (OS) as possible. \r\n\r\n* Software packaging: The scope of packaging is to bundle the entire application into a single archive, including or linking OS-specific dependencies, pre- and post-installation instructions, and the integration into the OS via menu entries. Examples are rpm and deb-packages (Linux), dmg-packages (macOS), and exe/msi-packages (MS-Windows). Packaging allows for efficient system-wide software management: installation, upgrades, and removal of the application and provides application access to all OS users. However, it also requires administrator rights, which are not available on many secured or closed IT environments, such as in government agencies, where users may fully access a limited OS-space only, i.e., their $HOME directory. Yet, this situation can be addressed by setting up the software and all required components in a self-contained single directory, which is then compressed into a self-extracting installer. Any user can then download such a standalone installer, extract it and have full access to the application without administrator rights. A similar result can be achieved with a Docker container [3].\r\n\r\n* Documentation: Documentation is crucial for software adoption, including a user manual, product sheets with application examples, and guided instructions in workshop material. The manual should also be completed by a user community to help end-users answer the questions they will raise while using the software. Developers of the tools should be actively involved in tackling these questions [Srba et al., 2016].\r\n\r\n\r\n3. Application\r\n\r\nThe GuidosToolbox Workbench (GWB) [Vogt et al., 2022] provides various generic image analysis modules as command line scripts on 64-bit Linux systems.  In this section we use GWB to exemplify how we addressed the software provision points mentioned before.\r\n* Source code: in addition to the distribution-independent compiled executables we provide the plain text source code for all modules in a dedicated subdirectory of the application.\r\n* Software packaging: all modules are launched via customised Bash scripts and setup in the IDL programming language [4]. Because IDL provides its own set of highly efficient processing libraries, all scripts and required libraries can be stored in a single, distribution-independent application directory. Combined with customised packaging setup-files, this archive is then converted into distribution-specific packages for common Linux distributions. In addition, we provide a generic standalone installer using the makeself [5] archiving tool. The standalone installer can be used on any Linux distribution for either, system-wide installation, or installation in user space on restricted systems, i.e., under $HOME. All installer packages include two sample images and module-specific usage descriptions, aimed at generating sample output illustrating the features of each module.\r\n* Target platform:  With its focus as a server-application, GWB is setup for the Linux OS, which can also be used on a regular desktop PC. The installation on cloud computing platforms, including an interface to upload/download personal data, greatly enlarges the outreach into the user community and allows usage of the software from any device having a Web browser and Internet access. A Jupyter [Kluyver, T., 2016] based application was developed within the SEPAL platform [2]. This application uses widgets and interactive displays to help the end-user provide personal data to the software. This application is developed in Python using the sepal-ui [8] framework, embedding a fully independent set of requirements. As the application is run using the voila dashboarding tool [QuantStack, 2019], the end-user is never confronted with the CLI, vastly improving the scope of potential end-user to non-IT experts.\r\n* Documentation: the project homepage [1] provides a brief overview and installation instructions. Highly detailed usage instructions are available on SEPAL for the command-line use [6] and the interactive Jupyter dashboard [7].\r\n\r\n\r\n4. Conclusion\r\n\r\nSoftware provision is an often overlooked yet critical component in software design. It comprises various aspects, which when addressed appropriately, can make a great impact in the promotion, outreach and acceptance of a software application.",
+    "start_datetime": "2022-08-25T09:30:00Z",
+    "end_datetime": "2022-08-25T10:00:00Z",
+    "talk:code": "KB7UV9",
+    "talk:guid": "d2497a69-e663-5dc6-a26d-c1e793edb04f",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room Modulo 3",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "XEFPUZ",
+        "name": "Peter Vogt",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/XEFPUZ/"
+      },
+      {
+        "code": "3ZUFMM",
+        "name": "pierrick rambaud",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/3ZUFMM/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/KB7UV9/",
+      "title": "Tackling the challenges of software provision"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/KB7UV9/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/XEFPUZ/",
+      "title": "Peter Vogt"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/3ZUFMM/",
+      "title": "pierrick rambaud"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/KB7UV9/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

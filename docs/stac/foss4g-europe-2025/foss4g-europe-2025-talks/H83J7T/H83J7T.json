@@ -1,0 +1,157 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "H83J7T",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "Integrating WaPLUGIN in QGIS for Downscaling WaPOR Data: Enhancing Water Resource Management",
+    "description": "The FAO\u2019s WaPOR database provides open-access data on evapotranspiration, biomass production, and water productivity, supporting sustainable water management in agriculture. However, its spatial resolution varies across levels: Level 3 data (20 m) is available only for selected irrigation schemes, while Level 1 (300 m) and Level 2 (100 m) cover broader regions but lack the detail needed for localized analysis. This limitation makes it challenging to assess water use at the field scale, particularly in areas where high-resolution data is not available.\r\nIn this presentation, we would like to demonstrate how QGIS can facilitate the downscaling of WaPOR data using machine learning techniques with high-resolution auxiliary datasets. By enhancing the spatial resolution of WaPOR data estimates, this approach provides a more detailed and accurate representation of water use across diverse landscapes. This capability is crucial for gaining a better overview of agricultural water consumption and improving irrigation management in regions beyond the predefined Level 3 coverage.\r\nWe also present our roadmap for integrating this downscaling methodology into WAPlugin, making it a user-friendly and reproducible tool within QGIS. By combining open-source GIS and data-driven techniques, this initiative strengthens the accessibility and usability of WaPOR data for researchers, water managers, and policymakers. Attendees will gain insights into the technical workflow, practical applications, and future development of WAPlugin\u2019s new features.",
+    "start_datetime": "2025-07-18T09:30:00Z",
+    "end_datetime": "2025-07-18T10:00:00Z",
+    "talk:code": "H83J7T",
+    "talk:guid": "2003a9c5-037b-5d1b-8e59-8bc9a7c745ba",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "SA02",
+    "talk:room_capacity": 108,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "EZ7BJK",
+        "name": "Hans van der Kwast",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/EZ7BJK/"
+      },
+      {
+        "code": "KFKEEV",
+        "name": "WAPlugin Team",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/KFKEEV/"
+      },
+      {
+        "code": "SKVWNE",
+        "name": "Akshay Dhonthi",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/SKVWNE/"
+      },
+      {
+        "code": "QPGSHF",
+        "name": "Fabian Humberto Fonseca Aponte",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/QPGSHF/"
+      },
+      {
+        "code": "WSQZSM",
+        "name": "Tebbouche",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/WSQZSM/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-18T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/H83J7T/",
+      "title": "Integrating WaPLUGIN in QGIS for Downscaling WaPOR Data: Enhancing Water Resource Management"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/H83J7T/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/EZ7BJK/",
+      "title": "Hans van der Kwast"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/KFKEEV/",
+      "title": "WAPlugin Team"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/SKVWNE/",
+      "title": "Akshay Dhonthi"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/QPGSHF/",
+      "title": "Fabian Humberto Fonseca Aponte"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/WSQZSM/",
+      "title": "Tebbouche"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/H83J7T/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/H83J7T/resources/FOSS4GE_2025_PRESENTATION_WAPLUGIN_b9IkUrF.pptx",
+      "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/917wuWuSrEQUUaWr23Z2t1",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Integrating WaPLUGIN in QGIS for Downscaling WaPOR Data: Enhancing Water ...",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=B1yjragHqF0",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Integrating WaPLUGIN in QGIS for Downscaling WaPOR Data: Enhancing Water ...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

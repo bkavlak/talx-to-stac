@@ -1,0 +1,97 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "UY9NQK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "Integrating Participatory Water Monitoring and Edge AI Sensing through istSOS4: A Lake Lugano Case Study",
+    "description": "Water-quality monitoring increasingly relies on heterogeneous sensing systems that combine in situ probes, automated acquisition pipelines, interoperable web services, and data-driven analysis. Open geospatial standards such as the OGC SensorThings API [1] were developed to enable interoperable management of observations and metadata from heterogeneous sensor systems, while platforms such as istSOS4 [2] show how these principles can be implemented in open-source environmental monitoring infrastructures. At the same time, recent literature highlights the growing relevance of citizen science and IoT-based participatory sensing for water-quality monitoring [3], both to expand observation capacity and to strengthen communication and public engagement around environmental data. In parallel, machine-learning approaches for algal bloom detection and prediction [4] increasingly combine physicochemical measurements with image-based or remotely sensed observations, indicating the potential of AI-enabled optical monitoring for aquatic environments. However, the integration of open sensor standards, participatory monitoring, and future AI-derived optical observations within a single geospatial framework remains limited. This contribution addresses that gap through the following research question: how can an open geospatial infrastructure based on istSOS4 support multimodal and participatory water monitoring today, while also providing a coherent integration path for future edge AI-derived optical observations? \r\n\r\nThe work is developed within the Interreg WINCA4TI project, Water Interactions with Nature, Climate and Agriculture for Ticino, which aims to analyse and describe the interactions between water, economy, environment, and agriculture in the Ticino basin. Within this broader framework, SUPSI promotes participatory environmental monitoring initiatives on Lake Lugano, combining scientific observation, local collaboration, and territorial awareness. The monitoring activity described in this paper is part of this effort. Through a collaboration based on citizen science principles, a local nautical club hosts and helps maintain our sensor infrastructure, while receiving in return water-quality information and analytics through dedicated dashboards \r\n\r\nThe current deployment on Lake Lugano consists of a multisensor platform combining conventional aquatic measurements with an optical experimental subsystem. At present, the system acquires fluorimetric measurements and dissolved oxygen observations, together with image data collected by an in-house developed three-camera optical device. These sensing components coexist within the same monitoring initiative, but they do not yet operate within a fully unified observation model. The geospatial backbone of the proposed framework is istSOS4, which implements the OGC SensorThings API and provides a machine-readable, discoverable, and reusable way to organize and expose environmental observations, metadata, and temporal series. Additionally, within this project, the current API is planned to be extended to support the STAplus standard, in order to better address citizen science requirements related to data attribution, storage, and handling. Within this architecture, conventional sensors such as fluorimeters and dissolved oxygen probes naturally fit the SensorThings observation model. The more challenging issue concerns the optical subsystem, whose outputs differ substantially from scalar probe measurements. \r\n\r\nThe methodological choice proposed in this paper is therefore to distinguish between raw optical acquisition and published environmental observations. Raw imagery is not ingested directly into istSOS4; image acquisition, storage, and processing instead remain outside the observation service. Building on this distinction, the paper proposes that the optical subsystem should evolve into an edge AI sensor. In this envisioned configuration, images would be processed locally through dedicated computer-vision pipelines running close to the sensor. These models would transform raw visual input into higher-level variables that can be represented as time-stamped observations, such as algal classification, estimated algal concentration, bloom-related indicators, anomaly flags, and associated confidence scores. Once formalized as observations with explicit timestamps, observed properties, and provenance, these outputs could be published through istSOS4 alongside the measurements acquired by conventional probes. \r\n\r\nThe current results of the work are both practical and methodological. First, the project has produced an operational multisensor deployment on Lake Lugano that already collects conventional water-quality measurements together with optical data from the three-camera system. Second, the project has led to the definition of an integration framework in which istSOS4 supports current probe-based observations and is designed to accommodate AI-derived optical indicators. \r\n\r\nThis contribution is relevant to the FOSS4G Europe Scientific Track because it addresses a concrete environmental-monitoring problem through a geospatial and standards-based approach; it highlights the role of free and open source geospatial software as an enabling infrastructure connecting sensors, metadata, interoperability, and downstream analytics; and it brings together themes like GeoAI, remote sensing for water resources management, participatory monitoring, and open geospatial infrastructures for environmental observation. The originality of the work lies in defining how AI-derived optical indicators, rather than raw imagery, can be integrated into an istSOS4-based observation framework alongside conventional water-quality measurements within a participatory monitoring setting. The framework shows how a standards-based open-source infrastructure can support current sensor observations while remaining extensible toward future AI-enabled optical sensing. \r\n\r\nReproducibility is a key aspect of the framework, which uses istSOS4 and the SensorThings API to support explicit sensor descriptions, consistent observation structures, timestamps, and traceable data access. By separating acquisition, storage, inference, feature extraction, and publication, the architecture clarifies provenance and supports reusable environmental observations. Grounded in the Lake Lugano deployment within WINCA4TI / Interreg and supported by local stakeholders, the work proposes a generalizable framework in which istSOS4 acts as the interoperable layer for conventional and future AI-derived environmental observations. \r\n\r\n \r\n\r\n(1) Open Geospatial Consortium, OGC SensorThings API Standard, 2025. \r\n\r\n(2) M. Cannata, M. Antonovic, M. E. Molinari, and M. Pozzoni, \u201cistSOS, a new sensor observation management system: software architecture and a real-case application for flood protection,\u201d ISPRS Archives, 2013. \r\n\r\n(3) S. Blanco Ram\u00edrez, I. van Meerveld, and J. Seibert, \u201cCitizen science approaches for water quality measurements,\u201d Science of the Total Environment, 2023. \r\n\r\n(4) J. Park, K. Patel, and W. H. Lee, \u201cRecent advances in algal bloom detection and prediction technology using machine learning,\u201d Science of the Total Environment, 2024.",
+    "start_datetime": "2026-06-30T12:00:00Z",
+    "end_datetime": "2026-06-30T12:30:00Z",
+    "talk:code": "UY9NQK",
+    "talk:guid": "cde87c00-b43c-5742-9ab6-7672b84cef0f",
+    "talk:event": "foss4g-europe-2026",
+    "talk:track": "Academic track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "A01",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "7EUFEJ",
+        "name": "alessandro centazzo",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/7EUFEJ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-06-30T12:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/UY9NQK/",
+      "title": "Integrating Participatory Water Monitoring and Edge AI Sensing through istSOS4: A Lake Lugano Case Study"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/UY9NQK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/7EUFEJ/",
+      "title": "alessandro centazzo"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/UY9NQK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2026/submissions/UY9NQK/resources/FOSS4G2026_1rngXO6_xFxjPuz.pdf",
+      "type": "application/pdf",
+      "title": "slides",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

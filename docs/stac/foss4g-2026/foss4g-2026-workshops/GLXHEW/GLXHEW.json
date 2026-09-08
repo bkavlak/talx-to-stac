@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "GLXHEW",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Extending a Photorealistic Map Engine: Hands-on with Navara",
+    "description": "Navara is a map engine designed to enable diverse visual expressions with a focus on photorealism, while maintaining a highly extensible architecture.\r\nStarting from basic visualizing, participants will explore how to enhance map experiences using built-in plugins for photorealistic effects, and extend the engine through custom layers and plugins.\n\nNavara is a map engine that aims to combine photorealistic visualization with extensibility. Built on top of a Three.js-based rendering engine, it allows developers to go beyond conventional map rendering by integrating 3D meshes, post-processing effects, and other advanced visual techniques directly into geospatial applications. In addition, Navara provides mechanisms such as geospatial computation APIs, custom layers, and plugins, enabling users to extend the engine according to their needs.\r\n\r\nThe Beta release of Navara, which will be used in this workshop, is also released as open source, making it accessible for further experimentation and contribution within the FOSS4G community.\r\n\r\nIn this hands-on workshop, participants will build a working application while learning the core concepts and extension points of Navara. The session begins with visualizing raster tiles and 3D Tiles to understand the fundamentals of data representation. Participants will then apply built-in plugins to render photorealistic atmospheric and cloud effects, exploring how visual enhancements can be layered onto geospatial data.\r\n\r\nNext, the workshop covers feature styling, allowing participants to control how geospatial data is presented. This is followed by implementing custom layers, where Three.js-based objects and effects are integrated directly into the map. Finally, participants will develop a simple plugin, experiencing how Navara can be extended as a platform.\r\n\r\nBy the end of the session, participants will have a working application, along with reusable code patterns and a foundational understanding of how to extend Navara for their own use cases.",
+    "start_datetime": "2026-08-31T01:00:00Z",
+    "end_datetime": "2026-08-31T04:00:00Z",
+    "talk:code": "GLXHEW",
+    "talk:guid": "00d7e65b-e2de-584c-b765-a3c83d993b7f",
+    "talk:event": "foss4g-2026-workshop",
+    "talk:type": "Workshop",
+    "talk:language": "en",
+    "talk:room": "610",
+    "talk:room_capacity": 54,
+    "talk:duration_minutes": 180,
+    "talk:speakers": [
+      {
+        "code": "PZ8CMJ",
+        "name": "Keiya Sasaki",
+        "url": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/PZ8CMJ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-08-31T02:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/GLXHEW/",
+      "title": "Extending a Photorealistic Map Engine: Hands-on with Navara"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/GLXHEW/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/PZ8CMJ/",
+      "title": "Keiya Sasaki"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/GLXHEW/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-workshops"
+}

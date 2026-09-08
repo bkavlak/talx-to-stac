@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "CRKRSF",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "The Open Data Cube is Dead, Long Live the Open Data Cube",
+    "description": "The Open Data Cube is a big, complicated tool that does a lot of things, and it's a little old. It's been replaced with a small complicated tool, which does less things more simply, which is great. This is a talk about that.\n\nFor years, the Open Data Cube has been the go-to framework for managing massive collections of satellite imagery. But with changing cloud-native practices, new open standards, and better APIs, there\u2019s a simpler way forward.\r\n\r\nIn this talk, Alex Leith, Executive Director at Auspatious, explains how the heavy Postgres-driven ODC tool is being replaced by flexible, open STAC APIs and elegant Python tools like pystac-client and odc-stac.\r\n\r\nThe result? A leaner, easier way to discover and analyze EO data, with just a few lines of code. Long live the Open Data Cube.",
+    "start_datetime": "2025-11-19T20:30:00Z",
+    "end_datetime": "2025-11-19T20:35:00Z",
+    "talk:code": "CRKRSF",
+    "talk:guid": "d248a162-c9cf-5a5b-aaf5-3d0149a8e640",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Lightning talk",
+    "talk:type": "Lightning Talk",
+    "talk:language": "en",
+    "talk:room": "WG403",
+    "talk:room_capacity": 386,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "7DNCHN",
+        "name": "Alex Leith",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/7DNCHN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-19T20:32:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/CRKRSF/",
+      "title": "The Open Data Cube is Dead, Long Live the Open Data Cube"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/CRKRSF/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/7DNCHN/",
+      "title": "Alex Leith"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/CRKRSF/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=9-f4Ja29K_Q",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | The Open Data Cube is Dead, Long Live the Open Data Cube",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

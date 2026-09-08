@@ -1,0 +1,122 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "98W8XR",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "Spatial data Management in PostGIS",
+    "description": "Got some vector data? Want to know how to manage it in PostGIS? We'll go over few tips and tricks from getting started to scaling the storage, showcasing \"PostGIS is all you need\" \r\n- Basics of PostGIS - point, lines and polygons \r\n- Indexing in PostGIS - GIST & BTree  \r\n- Uber h3 indexing \r\n- Tiles from vector data \r\n- Here comes the temporal dimension - TimescaleDB\r\n- Building insights at database level \r\n- Compress your data \r\n- Deploying strategies: managed vs self-hosted | single node vs cluster \r\n- Next steps for highly available database with least cost \r\n- Shall we consider MongoDB?",
+    "start_datetime": "2025-07-18T14:00:00Z",
+    "end_datetime": "2025-07-18T14:30:00Z",
+    "talk:code": "98W8XR",
+    "talk:guid": "d9f54c62-0c49-5eda-88f2-6bda87d3d449",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "SA02",
+    "talk:room_capacity": 108,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "8MGXWG",
+        "name": "json singh",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/8MGXWG/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-18T14:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/98W8XR/",
+      "title": "Spatial data Management in PostGIS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/98W8XR/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/8MGXWG/",
+      "title": "json singh"
+    },
+    {
+      "rel": "related",
+      "href": "https://jsonsingh.com/work",
+      "title": "jsonsingh.com/work"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/98W8XR/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "spatial-data-management-in-postgis": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/98W8XR/resources/Spatial_data_Management_in_PostGIS_ZoJPu24.pdf",
+      "type": "application/pdf",
+      "title": "Spatial Data Management in postGIS",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/hnq9VBbTR5K2GDCP4bTE5U",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Spatial data Management in PostGIS",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=iYV6W56NXfk",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Spatial data Management in PostGIS",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

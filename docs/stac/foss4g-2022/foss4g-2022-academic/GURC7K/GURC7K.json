@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "GURC7K",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Experiment on producing disparity map from aerial stereo-images using openCV and deep learning",
+    "description": "Manual digitization of 3D information from aerial stereo images has been one of the major tasks in national mapping agencies. However, it is labor-intensive. There is an enormous need in developing an automatic method for extracting 3D information from stereo images. Recent advancement in hardware and software provides the possibility of realizing full automation in stereo-image tasks. Stereo-image tasks require a large capability of computational power. The emergence of the GPU gave great support to such technique development. With recent advances in AI, machines are gaining the ability to learn, improve, and execute repetitive tasks precisely, especially with deep learning techniques: the capacity of combining and adjusting millions or even billions of parameters from a neural network. Therefore, it becomes possible to automize many complex tasks.\r\nOpenCV was built in 2008. It is an open-source library that includes several hundreds of computer vision algorithms. OpenCV supports functions of epipolar geometry estimation and constraint as well as depth calculation from stereoimage. Before 2016, many researchers have employed OpenCV (Open Source Computer Vision Library) for depth estimation from stereoimage. In recent years, using deep learning methods for obtaining depth maps from stereoimage has been highlighted. In deep learning applications, left and right images usually need to be rectified before they can be fed to the network. GC-Net, HRS Net, MVSNet, PMS Net, and PLUMENet are examples of convolutional neural networks (CNNs) that can be used for this purpose. GC-Net was introduced in 2017 by Kendall et al. [1], PMSNet in 2018 by Chang et al. [2], MVSNet in 2018 by Yao et al. [3], and HRS Net in 2019 by Yang et al. [4], PLUMENet in 2021 by Wang et al.. Disparity images are typically used as labels, but some networks work with unsupervised learning, meaning no labels are used for training them. Some experiment was based on open-source datasets, such as KITTI stereo and Middlebury stereo being good examples. Ready remote sensing stereo image datasets still seem to be quite scarce, but at least some can be found, for example, stereo image dataset of Vaihingen: Aerial Stereo Dense Matching Benchmark introduced in 2021 [5].\r\nOur experiment was focused on obtaining disparity maps i) from aerial stereo images with known orientation parameters using openCV; ii) from rectified aerial stereo images with deep neural networks: GC-Net, MVSNet, and PSM net. The results based on OpenCV and neural networks were compared and evaluated. \r\nTwo datasets were used in the experiment. One dataset was the aerial stereo images with known orientation parameters from National Land Survey of Finland. The aerial images were acquired in 2020, using the UltraCam Eagle Mark3 (Vexcel, Austria), with a forward overlap of 80% and a side overlap of 30% between flight stripes. The flight height was 7657.9 m. The image has a spatial resolution of 30 cm. Another set was from the ISPRS Aerial Stereo Dense Matching Benchmark 2021[5]: the Vaihingen dataset. The Vaihingen dataset from the ISPRS 3D reconstruction benchmark provides a good registration of oriented images and LiDAR point clouds. The dataset is composed of 20 images with a depth of 11 bits and a ground sample distance (GSD) of 8 cm. The reference depth maps were produced by Lidar point clouds for evaluation.\r\nIn the experiment of using the OpenCV library, known orientation parameters were used for image rectification. ORB (Oriented FAST and rotated BRIEF) features were used to find image matching points. ORB is open source, which is an efficient alternative to SIFT or SURF.  The algorithm uses FAST in pyramids to detect stable keypoints, selects the strongest features using FAST or Harris response, finds their orientation using first-order moments and computes the descriptors using BRIEF (where the coordinates of random point pairs (or k-tuples) are rotated according to the measured orientation).\r\nIn the experiment of using deep learning methods, GC-Net, MVSNet, and PSM net, were tested. GC-Net is an end-to-end deep stereo regression architecture [1]. It estimates per-pixel disparity from a single rectified image pair by employing a cost volume to reason the geometry and utilizing a deep convolutional network formulation for reasoning the semantics. MVSNet is an end-to-end deep learning architecture for depth map inference from multi-view images [3]. It computes one depth map at each time by extracting deep visual image features, building the 3D cost volume upon the reference camera frustum, and applying 3D convolutions to regularize and regress the initial depth map to generate the final output. PSMNet is a pyramid stereo matching network consisting of two main modules: spatial pyramid pooling and 3D CNN [2]. It exploits global context information in stereo matching. PSMNet extends pixel-level features to region-level features with different scales of receptive fields by pyramid pooling module. The cost volume was formed by combining global and local feature clues. A stacked hourglass 3D CNN was designed to repeatedly process the context information for estimating cost volume in a top-down/bottom-up manner to improve the utilization of global context information. \r\nThe results from two datasets with three networks and OpenCV were presented. The experiments exhibited that selecting proper loss function and learning rate is important in using neural networks. It affects the performances and results of different networks. The results were evaluated by comparing with the reference depth maps. The advantages and disadvantages of using networks and OpenCV library were analyzed and discussed.",
+    "start_datetime": "2022-08-24T15:20:00Z",
+    "end_datetime": "2022-08-24T15:25:00Z",
+    "talk:code": "GURC7K",
+    "talk:guid": "786398dc-3ce3-5144-a05e-a6eb235d6065",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "Room Hall 3A",
+    "talk:room_capacity": 85,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "KR3AAM",
+        "name": "Lingli Zhu",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/KR3AAM/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T15:22:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/GURC7K/",
+      "title": "Experiment on producing disparity map from aerial stereo-images using openCV and deep learning"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/GURC7K/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/KR3AAM/",
+      "title": "Lingli Zhu"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/GURC7K/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "GQLRGC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Can FOSS4G be utilized to support the post-mortem assessment process of large-scale chemical spills?",
+    "description": "We present our research on a system prototype that combines a digital twin-based web service using Cesiumjs and 3D Tiles with atmospheric diffusion models to predict the diffusion of chemicals in the atmosphere to support post-mortem assessments of chemical spills.\n\nWhen toxic substances that are lethal to humans are accidentally released, for example, in a large-scale chemical plant that leaks gaseous toxic substances into the atmosphere, or in a car accident that causes liquid toxic substances to leak from a vehicle carrying toxic substances and seep into the soil or flow into a river, it is very difficult to assess the damage caused by the accident.\r\n\r\nThis is because these large-scale incidents occur so infrequently that there is very little data available for engineering and mathematical analysis, it is difficult to re-create the incident for experiments, and it is difficult to identify the victims in the vicinity of the incident.\r\n\r\nThe idea behind the study was that, aside from soil and water contamination, which requires long-term monitoring of both people and the environment, it may be possible to assess short-term damage caused by toxic gases leaking into the air in an environment like South Korea, where the number of mobile phone subscribers is high relative to the total population.\r\n\r\nIf you have an atmospheric diffusion model backed by computing power, accurate information about the incident (type of leak, amount of leak, duration, location, etc.), weather information about the location at the time of the incident, and terrain and building model data that can be used as background data for the atmospheric diffusion model, you can obtain a three-dimensional grid with predictions of the spread of the leaked substance over time.\r\nAnd then you can add the prediction result data on the moving paths of the expected victims in the vicinity of the incident over time provided by the mobile service provider and the physical information of the expected victims (gender, age, weight, etc.) to create a model that can calculate the expected damage to each expected victim.\r\nFurthermore, if the results of the spread prediction and the estimated damage to the expected victims can be made available to decision makers involved in damage assessment on a digital twin basis, it can support the damage assessment process for chemical spills.\r\n\r\nIn this talk, we will present a prototype of a system that can support damage assessment tasks by combining the results of atmospheric diffusion model-based spread predictions, location information of expected victims, and estimated damages assessed based on these predictions with digital twin-based web services, which we are working on in our fourth year of research.",
+    "start_datetime": "2025-11-21T00:30:00Z",
+    "end_datetime": "2025-11-21T00:55:00Z",
+    "talk:code": "GQLRGC",
+    "talk:guid": "f9cc11ee-fd82-5fdb-9ea4-48cc95fef62e",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Use Cases and Applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WA220",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "A9P77Y",
+        "name": "Hak joon Kim",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/A9P77Y/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-21T00:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/GQLRGC/",
+      "title": "Can FOSS4G be utilized to support the post-mortem assessment process of large-scale chemical spills?"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/GQLRGC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/A9P77Y/",
+      "title": "Hak joon Kim"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/GQLRGC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

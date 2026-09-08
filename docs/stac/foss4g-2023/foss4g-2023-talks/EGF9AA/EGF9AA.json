@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "EGF9AA",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Runtime environment for the validation of the Copernicus Ground Motion Service",
+    "description": "The Copernicus Ground Motion Service (EGMS) is a European Union (EU) initiative under the Copernicus program, which aims to provide near-real-time information about ground deformation caused by natural or man-made hazards. The service uses a variety of data sources, including satellite radar imagery, to monitor and analyze ground motion in areas prone to landslides, sinkholes, earthquakes, and other hazards. Given the sensitive nature of the service, EGMS product validation is a key activity in assuring the user community (especially the decision makers) of the quality of the ground motion and deformation information provided.\r\n\r\n\r\nThe main goals of the EGMS validation system are as follows: to provide a reproducible environment on top of modern cloud infrastructures (with a particular focus on the European geo clouds), to enable the development of scientific tools that validate EGMS characteristics, to facilitate the reproducibility of the validation tasks, and to account for key performance indicators (which will allow shareholders to monitor the quality of the primary EGMS product).\r\n\r\nTo achieve the first goal of providing a reproducible environment, we have focused on providing Terraform modules that facilitate the deployment of our software stack on any supported cloud platform. The software stack is built on top of the Kubernetes container orchestration system, which runs on top of a managed cloud environment. Kubernetes provides uniform services regardless of the underlying cloud platform.\r\n\r\nFor the goals of developing the validation tools and the execution of those tools we decided on using an unified approach based on the JupyterHub solution. JupyterHub is used for providing an unified development environment based on R and Python EO software tools (based on modified Pangeo Docker images). Also Jupyter is used for executing the validation tools outside of JupyterHub by leveraging an internal python service that uses papermill to execute the notebook and then \u201cnbconvert\u201d to generate a html webpage containing the required visualizations and documentation in human readable form.\r\n\r\nThe validation system is complemented by an bespoke web dashboard aimed for providing reports and information related to the status of the various key performance indicators.\r\n\r\nOverall the whole validation system was developed by solely using FOSS4G components: GeoPandas, RasterIO, GeoNode, GeoServer and JupyterHub.",
+    "start_datetime": "2023-06-29T13:00:00Z",
+    "end_datetime": "2023-06-29T13:30:00Z",
+    "talk:code": "EGF9AA",
+    "talk:guid": "7e4482af-29bb-58ce-a497-ddeb42a7aeaf",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT F / N212 - Floor 3",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "WVERQR",
+        "name": "Vasile Cr\u0103ciunescu",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/WVERQR/"
+      },
+      {
+        "code": "YMF9CR",
+        "name": "Marian Neagul",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/YMF9CR/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-29T13:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/EGF9AA/",
+      "title": "Runtime environment for the validation of the Copernicus Ground Motion Service"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/EGF9AA/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/WVERQR/",
+      "title": "Vasile Cr\u0103ciunescu"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/YMF9CR/",
+      "title": "Marian Neagul"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/EGF9AA/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/oAY9QPboT7NirLLEh5UeAz",
+      "type": "text/html",
+      "title": "2023 | Runtime environment for the validation of the Copernicus Ground Motion Service",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=xD-p16laKHA",
+      "type": "text/html",
+      "title": "2023 | Runtime environment for the validation of the Copernicus Ground Motion Service",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

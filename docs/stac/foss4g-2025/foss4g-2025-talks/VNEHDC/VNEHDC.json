@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "VNEHDC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Rebuilding TerriaMap UI: A Minimalist Approach Without Forking TerriaJS",
+    "description": "TerriaMap is just a wrapper around TerriaJS core. This talk will demonstrate how to strip away the default UI without touching the core and add two custom controls: switching between 2D/3D view modes and toggling base maps.\n\nTerriaMap wraps the powerful TerriaJS engine, but it comes with a pre-built UI that may not suit every project. In this talk, I\u2019ll show how you can completely remove the standard UI in TerriaMap and build a simple custom interface, without touching TerriaJS core code or maintaining a fork.\r\n\r\nI\u2019ll walk through how to hook into UserInterface.tsx, connect to the Terria instance, and wire up two minimalist controls: switching between 2D/3D view modes and toggling base maps. The talk will feature a few before-and-after screenshots, as well as a link to a public repository with the full implementation for anyone interested in diving deeper.",
+    "start_datetime": "2025-11-20T03:20:00Z",
+    "end_datetime": "2025-11-20T03:25:00Z",
+    "talk:code": "VNEHDC",
+    "talk:guid": "105b327a-4fe7-54cb-a536-8817f7ee043b",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Lightning talk",
+    "talk:type": "Lightning Talk",
+    "talk:language": "en",
+    "talk:room": "WG403",
+    "talk:room_capacity": 386,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "B8RZHT",
+        "name": "Yuri Vyatkin",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/B8RZHT/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-20T03:22:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/VNEHDC/",
+      "title": "Rebuilding TerriaMap UI: A Minimalist Approach Without Forking TerriaJS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/VNEHDC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/B8RZHT/",
+      "title": "Yuri Vyatkin"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/VNEHDC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=_LlDLXMESHc",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Rebuilding TerriaMap UI: A Minimalist Approach Without Forking TerriaJS",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

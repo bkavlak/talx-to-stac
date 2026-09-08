@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "VDJEEH",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Transit Access to Essential Services in the face of Climate Change",
+    "description": "Climate change\u2019s impact on public transportation tends to focus on improving transit infrastructure to reduce stoppages. While this is important, it does not take into account the effect it has on communities, often already underserved, that rely on the transit system. As part of The Opportunity Project\u2019s Building Climate Change Resilience Through Public Transit sprint, our team at Data Clinic set out to develop an open source, user-friendly, and scalable tool to communicate intersectional risks faced by transit infrastructure and community access at the local level. This solution was inspired by both the event, and user research with key stakeholders in transit agencies, academia, and community organizations.\r\nIn this presentation, we will demonstrate TREC: Transit Resiliency for Essential Commuting, and expose key decisions that resulted in a geospatial solution designed for wide audiences, and geographic and data scalability. TREC\u2019s transit stop-level insights can become crucial tools for transit planners and community organizations to prioritize and advocate for infrastructure improvements that take community effects into account.\r\nFocused initially on two locations- one small (Hampton Roads, Virginia) and one large (New York City) transit system, each station is treated as a destination providing access to essential services during localized climate change events. In this MVP, we employ flooding as our climate scenario, the event most cited as recurring and disruptive by our stakeholders. \r\nUsing OpenStreetMap to calculate walksheds around each station obtained from GTFS data, we categorize importance in accessing essential services such as hospitals and jobs around a transit stop. Layered onto this, we bin current flood risk for each station using the prevalence of buildings with moderate- to extreme high-risk of flooding according to open data, and provide polygons representing projected flood risk in 2050.\r\nWhile we built the TREC UI to maximize accessibility of this contextualized data to multiple stakeholders, we also seek to optimize usability of the repo to allow tech-mature transit planners to adopt the tool internally and incorporate their proprietary fine-grained data. Further, we are committed to expanding the functionality of TREC according to user feedback. \r\nThe threat of climate change disrupting daily life on a recurring basis, beyond large-scale disasters, continues to grow. With the help of this tool, we hope to democratize relevant data, inspire the open publication of localized geospatial data related to climate change, and enable human-centered decisionmaking through a multidimensional lens.",
+    "start_datetime": "2023-06-29T12:00:00Z",
+    "end_datetime": "2023-06-29T12:30:00Z",
+    "talk:code": "VDJEEH",
+    "talk:guid": "4d239052-eb61-5ed9-a6e1-54217b7789a1",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT D / N115 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "WVCDTJ",
+        "name": "Kaushik Mohan",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/WVCDTJ/"
+      },
+      {
+        "code": "L8U3HH",
+        "name": "Erin Stein",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/L8U3HH/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-29T12:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/VDJEEH/",
+      "title": "Transit Access to Essential Services in the face of Climate Change"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/VDJEEH/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/WVCDTJ/",
+      "title": "Kaushik Mohan"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/L8U3HH/",
+      "title": "Erin Stein"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/VDJEEH/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/n5Ke5LpmxbrFhHuF1LgWPk",
+      "type": "text/html",
+      "title": "2023 | Transit Access to Essential Services in the face of Climate Change",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=94hOXybzBno",
+      "type": "text/html",
+      "title": "2023 | Transit Access to Essential Services in the face of Climate Change",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

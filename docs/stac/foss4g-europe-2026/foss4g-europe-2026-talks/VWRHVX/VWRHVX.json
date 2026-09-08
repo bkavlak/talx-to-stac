@@ -1,0 +1,132 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "VWRHVX",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "Optimizing resource usage of interoperable geospatial processing infrastructures with Kubernetes",
+    "description": "The remote execution of processing workflows is a common task in many spatial data infrastructures and projects. To increase interoperability, the OGC (Open Geospatial Consortium) published the [API Processes standard in 2021](https://ogcapi.ogc.org/processes/). Its RESTful design and use of JavaScript Object Notation (JSON) encoding make it suitable for cloud environments. [Pygeoapi](https://pygeoapi.io/) is an open-source implementation of this standard.\r\n\r\nIn pygeoapi, several plugins are available and a manager component must be implemented to manage  process jobs. A common feature of the built-in managers is that the processing jobs are executed directly within the pygeoapi Python environment. Hence, a job with high resource demands influences the resource requirements and usage of the pygeoapi instance itself. Recognizing the limitations of pygeoapi\u2019s built-in job managers regarding isolation and resource handling, we developed the [pygeoapi-K8s-manager](https://github.com/52North/pygeoapi_k8s-manager).\r\n\r\nResource sharing and non-existent job isolation are some of the disadvantages of this architecture. Due to the resource-intensive nature and need for scheduled execution of certain processes within our projects, we had to run a \u201cheavy\u201d pygeoapi deployment in our cluster.  We also needed to execute processes in diverse runtime environments outside of Python, e.g., using the CUDA Fortran model execution.\r\n\r\n We decided to decouple the management and execution layers to address these demands. Having already deployed a pygeoapi instance  in our K8s cluster, it made sense to take advantage of the cluster's processing capabilities. Our team used K8s-CronJobs for process scheduling and K8s-Jobs for execution. The Kubernetes API server handled the process management and pygeoapi provided an interface. The resulting, generic \u201cpygeoapi-k8s-manager\u201d was developed based on [EOX IT Services GmbH\u2019s](https://eox.at) [\u201cpygeoapi-kubernetes-papermill\u201c](https://github.com/eoxhub-workspaces/pygeoapi-kubernetes-papermill).\r\n\r\nBy decoupling management and execution, we were able to define complex process requirements such as using GPUs via Job properties. An autoscaler installed in the cluster applies these properties. This  enables on-demand provision of the requested resources.\r\n\r\nOur team implemented two processes: a HelloWorld-K8s process and a process to run generic images. The first process demonstrates how to run a preconfigured image. The generic process enables image configuration via the pygeoapi configuration file.\r\n\r\nWe will present the current pygeoapi-K8s-manager implementation, future development plans and illustrate its application through exemplary use cases, such as data ingestion, flood modelling and ship voyage optimization workflows. Listeners will gain practical insights into how Kubernetes and OGC API Processes can improve your geospatial data processing workflows, e.g., by reducing resource requirements. The talk will cover sustainable resource management and explain the operation of pygeoapi in a cloud-native environment. We aim to encourage wider adoption, feedback, and contributions to these ongoing developments through this conference.",
+    "start_datetime": "2026-07-01T12:30:00Z",
+    "end_datetime": "2026-07-01T13:00:00Z",
+    "talk:code": "VWRHVX",
+    "talk:guid": "9dfe48d0-32f9-5ec9-bb57-4ee2226e6c64",
+    "talk:event": "foss4g-europe-2026",
+    "talk:track": "Open standards and interoperability for geospatial",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Aula Magna",
+    "talk:room_capacity": 500,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "XEUGV8",
+        "name": "Eike Hinderk J\u00fcrrens",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/XEUGV8/"
+      },
+      {
+        "code": "9SNWNM",
+        "name": "Martin Pontius",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/9SNWNM/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-07-01T12:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/VWRHVX/",
+      "title": "Optimizing resource usage of interoperable geospatial processing infrastructures with Kubernetes"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/VWRHVX/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/XEUGV8/",
+      "title": "Eike Hinderk J\u00fcrrens"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/9SNWNM/",
+      "title": "Martin Pontius"
+    },
+    {
+      "rel": "related",
+      "href": "https://ogcapi.ogc.org/processes/",
+      "title": "API Processes standard in 2021"
+    },
+    {
+      "rel": "related",
+      "href": "https://pygeoapi.io/",
+      "title": "Pygeoapi"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/52North/pygeoapi_k8s-manager",
+      "title": "pygeoapi-K8s-manager"
+    },
+    {
+      "rel": "related",
+      "href": "https://eox.at",
+      "title": "EOX IT Services GmbH\u2019s"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/eoxhub-workspaces/pygeoapi-kubernetes-papermill",
+      "title": "\u201cpygeoapi-kubernetes-papermill\u201c"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/VWRHVX/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2026/submissions/VWRHVX/resources/2026-06-30_12-30_FOSS4G-EU_p_XnhQq0C.pdf",
+      "type": "application/pdf",
+      "title": "slides",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

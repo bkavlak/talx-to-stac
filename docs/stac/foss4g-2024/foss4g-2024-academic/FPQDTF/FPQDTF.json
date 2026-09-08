@@ -1,0 +1,112 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "FPQDTF",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Integrating, Processing and Presenting Big Geodata with Earth Observation Datacubes in an Interdisciplinary Research Context",
+    "description": "Application-oriented research projects often involve diverse consortium members, from universities to research institutions, to authorities, to domain end users. This requires the integration of very heterogeneous data sources, the facilitation of their combined processing, and the presentation of the results in adequate ways. The challenge here is not only the technical realisation itself, but maybe even more to design solutions catering to this wide user group, balancing feature-richness with easy usability. Data is abundant, and processing plentiful, but it all needs to go the last mile to the final user.\r\n\r\nOne such research project is \u201cAgriSens DEMMIN 4.0\u201d, which is advancing remote sensing for the digitalisation in agricultural crop production. Thus, the user group includes programmers, domain scientists, as well as farmers. Until now, agriculture is not yet widely taking advantage of EO products. Therefore, the project not only addresses the creation of novel remote-sensing-based application techniques and their implementation, but puts an equally distinct emphasis on the development of an accompanying data integration and visualisation system. In this work, we describe how our architecture \u2013 consisting of several pieces of free and open source geo software \u2013 closes the gap between data providers and information consumers as it facilitates necessary analysis steps and combines these with adequate presentation to decision makers.\r\n\r\nIn our IT architecture, we utilise one central datacube to conquer this problem, which acts as a cloud-based geospatial data holding and computation platform. It gathers a multitude of data, ranging from optical and radar raster imagery through weather data to in-situ field measurements, and pre-processes it into an interoperable, analysis-ready state. These resources can then be accessed through APIs for external usage, or computations can be carried out directly on the datacube and the results immediately visualised with tools hosted on the same server.\r\n\r\nThe whole system is located at the Leibniz Supercomputing Centre of the Bavarian Academy of Sciences and Humanities (LRZ). Apart from utilising the computing resources available there, this also opens up synergies with already-existing projects: We can make use of the enormous amount of EO data that is already available within the LRZ\u2019s \u201cData Science Storage\u201d and the DLR\u2019s \u201cterrabyte\u201d platform. These storages are directly mounted into our server so that the datacube can access petabytes of imagery without having to duplicate it again, saving costs and emissions.\r\n\r\nAt the core of our infrastructure is an instance of the \u201cOpen Data Cube\u201d (ODC) software package. Metadata is ingested into its PostgreSQL database and can be retrieved via the built-in web-based data discovery application \u201cODC Explorer\u201d or via an API endpoint of the emergent STAC standard (which in turn can be accessed via the \u201cSTAC Browser\u201d web application or any other compatible software). All raster data is provided in the Cloud-Optimised GeoTIFF (COG) format, allowing efficient access even from remote machines.\r\n\r\nOur main interface for scientific computation is Jupyter Hub, enabling collaborative work across institutions. For each user, a dedicated Jupyter Lab instance is spawned in its own Docker container that can access all the data of the previously mentioned storages and has a certain amount of computing resources allocated to it. Users can write their code in Python or R, arguably the most popular programming languages in the EO community, which offer straightforward packages for connecting to an ODC, namely \u201cdatacube\u201d and \u201codcR\u201d. This way, scientists receive the typical professional online analysis environment in which they can work closely to the data and use all the powers of these programming languages and their EO-friendly ecosystem.\r\n\r\nAnother option to work with the data is via openEO, the new standardised way to interact with big EO data cloud processing backends. We incorporate this standard by utilising the \u201copenEO Spring Driver\u201d, an adapter to translate user-submitted openEO process graphs into analysis code that can be run using ODC. For compatibility with legacy software, it is also possible to request rendered images of pre-configured analysis algorithms via WMS, which are being served by an instance of the powerful \u201cdatacube-ows\u201d package.\r\n\r\nThe final goal, however, is to connect farmers and other end users to these results, who cannot or do not want to deal with complex interfaces. Therefore, these highly technical tools are not sufficient, but need to be accompanied by easy-to-use graphical interfaces. Drawing on the possibilities of modern web technologies, we realise these through purpose-built web apps. Arranged around an OpenLayers-powered map component, data products are streamed in COG format from the datacube and displayed along with the needed additional tooling for interpretation. For example, in this fashion we realised a demonstrator showcasing the results of a water balance model for irrigated potato fields.\r\n\r\nAnother outlet of the project is the \u201cFieldMApp\u201d, a mobile application designed to be used by farmers both in the field as well as in the office to digitise and monitor areas of lower yield within crop fields. For evaluating plant vitality, a vegetation-index-based raster product is calculated on the datacube using the latest Sentinel-2 imagery and long-term crop-specific averages. Due to the tablet application being programmed with the platform-agnostic Flutter framework, but its standard mapping component not yet supporting COGs, it was necessary to resort to WMS for serving the raster data. As mentioned above, this is comfortably possible by configuring \u201cdatacube-ows\u201d on top of ODC.\r\n\r\nOverall, the challenge of interoperating various data supplies, processing chains and custom-tailored interfaces \u2013 as typically encountered in interdisciplinary research projects \u2013 requires complex solutions, but can be achieved quite well by utilising a datacube approach with free and open source geo software building blocks. Our integrated system successfully demonstrates such a use case for the domain of remote sensing in agriculture.",
+    "start_datetime": "2024-12-04T17:00:00Z",
+    "end_datetime": "2024-12-04T17:30:00Z",
+    "talk:code": "FPQDTF",
+    "talk:guid": "5442c296-0e36-5193-9bf8-a7b56dd43162",
+    "talk:event": "foss4g-2024-academic-track",
+    "talk:track": "Academic Track",
+    "talk:type": "Oral Presentation 5",
+    "talk:language": "en",
+    "talk:room": "Room III",
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "PRDP8V",
+        "name": "Christoph Friedrich",
+        "url": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/PRDP8V/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-04T17:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/talk/FPQDTF/",
+      "title": "Integrating, Processing and Presenting Big Geodata with Earth Observation Datacubes in an Interdisciplinary Research Context"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/talk/FPQDTF/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/PRDP8V/",
+      "title": "Christoph Friedrich"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/talk/FPQDTF/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "the-original-presentation-i-used-in-pdf-format-with-some-ima": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024-academic-track/submissions/FPQDTF/resources/FOSS4G_Presentation_nuug0N5.pdf",
+      "type": "application/pdf",
+      "title": "The original presentation I used, in PDF format, with some images overlaying text, but correct slide numbers as in the video",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "the-presentation-split-so-that-everything-is-readable-slide-": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024-academic-track/submissions/FPQDTF/resources/FOSS4G_Presentation_PDF-readable_4fV4ACx.pdf",
+      "type": "application/pdf",
+      "title": "The presentation split so that everything is readable (slide numbers inconsistent with the original)",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "the-presentation-split-so-that-every-animation-step-is-its-o": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024-academic-track/submissions/FPQDTF/resources/FOSS4G_Presentation_animation_st_cbMYKpM.pdf",
+      "type": "application/pdf",
+      "title": "The presentation split so that EVERY animation step is its own slide",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-academic"
+}

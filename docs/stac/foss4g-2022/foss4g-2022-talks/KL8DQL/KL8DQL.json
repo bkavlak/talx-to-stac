@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "KL8DQL",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "The Potent Mix of Computer Vision, Graph Theory, Satellite Imagery, Vehicles, and Roads",
+    "description": "We discuss the \"Diet Hadrade\" codebases, which provides an open-source, lightweight mechanism for leveraging remote sensing imagery and machine learning techniques to aid in humanitarian assistance and disaster response (HADR) in austere environments. \r\n\r\nIn a disaster scenario (be it an earthquake or an invasion) where communications are unreliable, overhead imagery often provides the first glimpse into what is happening on the ground. The rapid identification of both vehicles and road networks directly from overhead imagery allows a host of problems to be tackled, such as congestion mitigation, optimized logistics, evacuation routing, etc.  Such challenges often arise in the aftermath of natural disasters, but are also present in crises like the current invasion of Ukraine where roads are choked with civilians fleeing the fighting.\r\n\r\nAutomobiles provide an attactive proxy for human popuplation due to their mobile nature and the necessity of population movement in many disaster scenarios.  In this project, we deploy the YOLTv5 computer vision object detection codebase to rapidly identify and geolocate vehicles over large areas. Vehicle detections yield significantly greater utility when combined with road network data. We use the CRESI computer vision framework to extract up-to-date road networks with travel time estimates, thus permitting optimized routing. The CRESI codebase is able to extract roads using only overhead imagery, so flooded areas or obstructed roadways will sever the CRESI road graph; this is crucial for post-disaster scenarios where existing road maps may be out of date and the route suggested by cloud navigation services may be impassable or hazardous.\r\n\r\nDiet Hadrade provides a number of graph theory analytics that combine the CRESI road graph with YOLTv5 locations of vehicles. We combine the car detections with the road network to infer how congested certain areas are. Congestion information is important for everyday life, but also crucially important in disaster response scenarios when roads may become impassable due to both natural phenomena as well as traffic.  \r\n\r\nWe leverage the detailed road graph and vehicle location information to illustrate a number of scenarios, such as: bulk evacutation, optimal aid disbursement locations, critical intersections, and detection and automated avoidance of dangerous locales.  These capabilities are presented in an interactive dashboard that computes optimal routes on the fly based on user inputs.",
+    "start_datetime": "2022-08-26T08:00:00Z",
+    "end_datetime": "2022-08-26T08:30:00Z",
+    "talk:code": "KL8DQL",
+    "talk:guid": "b2abe48a-b42f-5ba3-b005-0e74f6c64211",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "General online",
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "BBMTUR",
+        "name": "Adam Van Etten",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/BBMTUR/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T08:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/KL8DQL/",
+      "title": "The Potent Mix of Computer Vision, Graph Theory, Satellite Imagery, Vehicles, and Roads"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/KL8DQL/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/BBMTUR/",
+      "title": "Adam Van Etten"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/KL8DQL/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

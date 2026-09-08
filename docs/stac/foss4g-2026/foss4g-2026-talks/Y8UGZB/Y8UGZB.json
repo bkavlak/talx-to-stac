@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Y8UGZB",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Spatiotemporal Analysis of OpenStreetMap Editing Activities in Japan Using the OSMCha",
+    "description": "OpenStreetMap (OSM) is a prominent platform for Volunteered Geographic Information (VGI), wherein a diverse array of geographic data, including road networks, buildings, land use, and points of interest (POI), are updated daily by the community. However, owing to the collaborative nature of data generation by numerous contributors, ensuring the quality of edits and ongoing monitoring has emerged as a significant challenge in recent years (Choe et al., 2023). The OpenStreetMap Changeset Analyzer (OSMCha) serves as a quality assurance tool for monitoring OSM changesets and automatically flags suspicious edits based on a catalogue of detection rules covering geometric and tag plausibility, edit scale, contributor behavioural patterns, and edits to specific feature types. Nonetheless, few studies have systematically collected OSMCha data via its API for large-scale, country-wide spatiotemporal analysis.\r\n\r\nIn this study, we developed a series of Python scripts to systematically collect changeset data from the OSMCha API, amassing 740,038 changesets spanning four years from 2022 to 2025 for the Japanese context. Given API constraints, such as limits on the number of records retrievable per request and potential timeouts, we implemented monthly batch processing and GeoJSON storage, a checkpoint function to allow resumption from interruptions, and a validation logic that alerts when the acquisition rate falls below 90% of the expected total, thereby ensuring the stable collection of large-scale data. The collected data were consolidated into a FlatGeobuf database in which 60 reason_id-to-name mappings\u2014classified into four categories (geometry/tag plausibility, edit scale, contributor attributes/behaviour, and feature-specific rules)\u2014were embedded as attributes. By spatially joining the centroid of each changeset with Japanese administrative-area polygons (with 98.8\u201399.2% coverage), we appended prefecture names and municipal codes. The developed scripts and the resulting dataset\u2014comprising 339,114 detection occurrences across the four years\u2014will be released as open-source on GitHub and Zenodo, supporting reuse for similar analyses in other countries and regions.\r\n\r\nOur analysis corroborated a significant upward trend in OpenStreetMap (OSM) editing activities in Japan. The annual number of changesets increased by 63.3%, from 144,625 in 2022 to 236,203 in 2025. Concurrently, the number of unique contributors expanded by 72.5%, from 3,660 to 6,315. Conversely, the rate of edits identified as suspicious (is_suspect rate) decreased by 11.9 percentage points from 40.7% to 28.8%, suggesting an overall enhancement in the community's data quality. An examination of editing software revealed that while iD remained predominant, accounting for 63.1% of edits, mobile-oriented editors such as StreetComplete experienced a 4.5-fold increase over four years, with changesets rising from 5,709 to 25,576 in the same period. EveryDoor exhibited a 10.6-fold growth in the same period (from 539 to 5,692), indicating increasing adoption of field-survey-style editing. Regarding data sources, survey-based edits consistently demonstrated lower suspect rates (15.4% over the four years, declining to 10.6% in 2025) than non-survey-based edits (38.2% in aggregate, 33.4% in 2025), demonstrating clear quantitative advantages in data quality. AI-assisted edits (RapiD/mapwithai) also showed a marked improvement in suspect rates, declining from 64.0% in 2022 to 16.0% in 2025, although their annual volume remained modest at approximately 1,700\u20131,800 changesets\u2014in line with the cautious adoption pattern surrounding AI-assisted mapping (Andorful et al., 2026). PLATEAU-derived edits, leveraging Japan's national 3D city-model dataset, also grew 4.3-fold over the same period (Seto et al., 2023).\r\n\r\nA longitudinal analysis spanning four years identified a significant alteration in the detection rules of OSMCha around 2024. Detection reasons associated with geometry and tag plausibility, such as \"Invalid tag modification\" (reason_id=42) and \"Motorway/trunk geometry modified\" (reason_id=91), were recorded close to or over 10,000 times annually in 2022 and 2023, but these instances nearly vanished post-2024. Concurrently, there was a notable increase in detections based on user attributes, including \"User has multiple blocks\" (reason_id=83) and \"suspect_word\" (reason_id=1), indicating a shift in the algorithm's emphasis from geometry and tag plausibility assessments to monitoring contributor behavioural patterns. The frequency of review requests escalated from 3,151 in 2022 to 8,600 in 2025, reflecting an increase in peer-review activities within the community. In terms of user retention, 84.7% of the 14,978 contributors were active for only one year, with only 2.9% (433 contributors) maintaining activity throughout the entire four-year period.\r\n\r\nSpatial analysis employed kernel density estimation (KDE) to visualise the geographical concentration of editing activities, utilising the centroid coordinates of all changesets. Significant concentrations were identified in three major metropolitan areas\u2014Tokyo, Osaka, and Nagoya\u2014replicating, at the within-country prefecture scale, the cross-national spatial bias pattern reported by Quattrone et al. (2015), whereby power users concentrate in urban centres while occasional contributors distribute their edits more uniformly. The January 2024 Noto Peninsula earthquake further triggered a marked increase in crisis mapping activities within Ishikawa Prefecture, resulting in a nationwide doubling of changesets to 30,228 for that month, with participation from 1,536 unique users in Japan. This phenomenon underscores the spatial and temporal responsiveness of VGI during disaster events. Furthermore, substantial regional disparities were observed in the suspect rate by prefecture: over half of the edits were flagged in Iwate (59.3%) and Kumamoto (55.4%) prefectures, whereas the rates were considerably lower in Kyoto (20.3%) and Oita (20.6%) prefectures.\r\n\r\nThis study makes a significant contribution by developing a method for large-scale data extraction from the OSMCha API and presenting a comprehensive spatiotemporal analytical framework encompassing 740,038 changesets over four years for the entirety of Japan. The scripts and nationwide dataset developed in this study will be released as open-source on Zenodo, thereby providing a reproducible workflow that can be utilised for similar studies in regions beyond Japan. Looking forward, we intend to pursue qualitative analysis of harmful-flagged cases, international comparative analyses using OSMCha (with Benelux as an initial target), and panel-data analysis tracking the activity trajectories of individual contributors, with the objective of accumulating knowledge that contributes to the sustainable enhancement of data quality in VGI communities.",
+    "start_datetime": "2026-09-02T05:00:00Z",
+    "end_datetime": "2026-09-02T05:30:00Z",
+    "talk:code": "Y8UGZB",
+    "talk:guid": "5c5990a8-3538-5146-8211-03a6e97aca4c",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos2",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RDUYKQ",
+        "name": "Toshikazu Seto",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/RDUYKQ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T05:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/Y8UGZB/",
+      "title": "Spatiotemporal Analysis of OpenStreetMap Editing Activities in Japan Using the OSMCha"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/Y8UGZB/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/RDUYKQ/",
+      "title": "Toshikazu Seto"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/Y8UGZB/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

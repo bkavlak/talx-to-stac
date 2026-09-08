@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "YSG7XQ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Automatic assessment of lake health status using an open source approach: Lugano lake case study",
+    "description": "Lakes are a fundamental resource with a number of environmental benefits and with a not negligible influence on the local economy and on the quality of life. They work as a storage of water when floods or droughts occur, in the first case, they are useful to laminate the excessed flux of water, in the second as water supply during shortages. In addition, they influence the filling of groundwater and they play a role in the preservation of the general habitat biodiversity. From an economical point of view, they are an attraction for tourism, residential living as well as a source of recreation and of work for fishers.\r\nUnfortunately, climate changes together with human activities are more and more threatening such resources modifying the known dynamics and affecting the general health status of lakes (Fenocchi et al. 2018; Free et al. 2021; Lepori et al. 2018).\r\nIn this context, the INTERREG project SIMILE (System for the Integrated Monitoring of Insubric Lakes and their Ecosystems), born from the collaboration between Italy and Switzerland, aim at developing an information system using an open source approach and based on innovative technologies to help decision maker in the management and evaluation of the status of the transboundary and sub-alpines lakes such as Lake Maggiore, Lugano and Como. The SIMILE project wants to intensify the monitoring of these lakes by creating an open real-time monitoring system and by integrating data coming from different sources in order to create the possibility to fully exploit the potential with the heterogeneity of the available information and better studying the resource.\r\nThe work presented in this paper is focused on the achievements reached by the research carried out on lake Lugano in the context of the SIMILE project after two years of work. In particular, the presented research is oriented on the automatic generation of some indicators that are usually calculated to evaluate the lake status through the use of open standard, software and hardware.\r\nLake Lugano is a transboundary lake divided in two main watersheds, North and South, respectively with an area of 27.5 Km2 and 21.4 Km2 and a maximum depth of 288 and 89 m. It is a eutrophic lake which has a critical health status in particular during the 70s, but thanks to new regulations and to the mitigation actions studied by the Swiss administration it is recovering. One of the fixed targets is to reach 150 gC/y which corresponds to a mesotrophic status. This value gives information about the metabolism activity of the lake and can be calculated using different approaches. At this moment, on lake Lugano, to get such information monthly campaign according to the Nielsen method (Nielsen, 1952). This approach is the one recognized by the administration and it is conducted by specialist limnologists. However, it has some issues that can be synthetized in three points: 1) it needs the use of radioactive components; 2) it is quite expensive in terms of man hour and the engagement of an external laboratory to analyze such kind of special samples; 3) since it has a monthly temporal resolution it needs mathematical model to interpolate data between the different campaigns.\r\nAccording to this overview, the proposed paper wants to investigate a fully open web solution in order to calculate indicators that can help in understanding the health status of the lake and try to solve the individuated limits that are currently affecting the water monitoring. Such an open platform uses open standards as the Sensor Observation Service (SOS) of the Open Geospatial Consortium (OGC) to integrate different sources of data and to offer the possibility to gather the information in a standardized way. Thanks to this achievement, it was possible to develop.  The scope is to standardize the calculations and provide a solution where indicators can be calculated automatically saving also time since the traditional process. Potentially such an approach could calculate in real-time the indicators thanks to the use of the LISTEN/NOTIFY feature which exists in PostgreSQL, the database technology on which the platform is based. Finally, in this paper is presented the preliminary results  of the development of a new algorithm to calculate the lake metabolism which can, if validated, offer a new approach that can solve the individual issue of the current one. Basically, the developed open monitoring system implemented and deployed on the lake offers real-time data\r\nThe platform is composed of dockerized and specialized services in order to offer a suite that is easily replicable, scalable and upgradeable.\r\nIn conclusion, an overview of the results reached during these years of project is presented. Such a solution increases the replicability of the system since it is fully open and guarantees the openness of data, source code, standards and also the hardware part. Such technologies help in developing an automatic system that can calculate indicators to help decision makers in managing the water resource and scientists to better study the new unknown dynamic and facing the new challenges to which lakes are exposed.",
+    "start_datetime": "2022-08-25T13:30:00Z",
+    "end_datetime": "2022-08-25T13:35:00Z",
+    "talk:code": "YSG7XQ",
+    "talk:guid": "ff62852f-745b-5dfb-a743-0773a097d700",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "Room Hall 3A",
+    "talk:room_capacity": 85,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "SMMFEV",
+        "name": "Daniele Strigaro",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/SMMFEV/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T13:32:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/YSG7XQ/",
+      "title": "Automatic assessment of lake health status using an open source approach: Lugano lake case study"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/YSG7XQ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/SMMFEV/",
+      "title": "Daniele Strigaro"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/YSG7XQ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

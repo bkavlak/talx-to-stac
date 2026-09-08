@@ -1,0 +1,139 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "K3SNQM",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "More correct maps/data with Postgis Topology rather then Simple Feature ?",
+    "description": "In Norway we now get more up-to-date maps for land resource map (AR5), because the domain experts on agriculture in the municipalities in Norway have got access to a easy to use client. This system includes a simple web browser client and a database built on Postgis Topology. \r\n\r\nIn this talk we will focus on, what is it with Postgis Topology that makes it easier to build user friendly and secure tools for updating of land resource maps like AR5. We will also say a couple of words about advantages related to traceability and data security, when using Postgis Topology.\r\n\r\nIn another project, where we do a lot ST_Intersection and ST_Diff on many big Simple Feature layers that covers all of Norway, we have been struggling with Topology exceptions, wrong results  and performance for years. Last two years we also tested JTS OverlayNG, but we still had problems. This year we are switching to Postgis Topology and tests so far are very promising. We also take a glance on this project here in this talk. \r\n\r\nA Postgis Topology database modell has normalised the data related to borders and surfaces as opposed to Simple Feature where this is not the case. Simple Feature database modell may be compared to not using foreign keys between students and classes in a database model, but just using a standard spreadsheet model where each student name are duplicated in each class they attend.\r\n\r\nURL\u2019s that relate this talk\r\n\r\nhttps://gitlab.com/nibioopensource/pgtopo_update_gui\r\nhttps://gitlab.com/nibioopensource/pgtopo_update_rest\r\nhttps://gitlab.com/nibioopensource/pgtopo_update_sql\r\nhttps://gitlab.com/nibioopensource/resolve-overlap-and-gap",
+    "start_datetime": "2023-06-29T12:30:00Z",
+    "end_datetime": "2023-06-29T13:00:00Z",
+    "talk:code": "K3SNQM",
+    "talk:guid": "ac892e90-0981-5f01-8707-6fbae36a2d89",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT C / N110 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "QS7Y88",
+        "name": "Lars Opsahl",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/QS7Y88/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-29T12:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/K3SNQM/",
+      "title": "More correct maps/data with Postgis Topology rather then Simple Feature ?"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/K3SNQM/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/QS7Y88/",
+      "title": "Lars Opsahl"
+    },
+    {
+      "rel": "related",
+      "href": "https://gitlab.com/nibioopensource/pgtopo_update_gui",
+      "title": "gitlab.com/nibioopensource/pgtopo_update_gui"
+    },
+    {
+      "rel": "related",
+      "href": "https://gitlab.com/nibioopensource/pgtopo_update_rest",
+      "title": "gitlab.com/nibioopensource/pgtopo_update_rest"
+    },
+    {
+      "rel": "related",
+      "href": "https://gitlab.com/nibioopensource/pgtopo_update_sql",
+      "title": "gitlab.com/nibioopensource/pgtopo_update_sql"
+    },
+    {
+      "rel": "related",
+      "href": "https://gitlab.com/nibioopensource/resolve-overlap-and-gap",
+      "title": "gitlab.com/nibioopensource/resolve-overlap-and-gap"
+    },
+    {
+      "rel": "related",
+      "href": "https://gitlab.com/nibioopensource",
+      "title": "gitlab.com/nibioopensource"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/larsop",
+      "title": "github.com/larsop"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/K3SNQM/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/93kDB31BBaNk5aZmLYbZ5L",
+      "type": "text/html",
+      "title": "2023 | More correct maps/data with Postgis Topology rather then Simple Feature - Lars Opsahl",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=4mMss3FuG2A",
+      "type": "text/html",
+      "title": "2023 | More correct maps/data with Postgis Topology rather then Simple Feature - Lars Opsahl",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

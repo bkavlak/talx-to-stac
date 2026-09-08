@@ -1,0 +1,108 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "7CLACJ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Getting started with R and R-spatial",
+    "description": "R is an open-source language and a major player in the field of data science.\r\nThe R spatial ecosystem is very rich and provides tried and tested tools for working with spatial vector or raster data.\r\nThis workshop will introduce R and its package for handling spatial data.\n\nThis workshop is aimed at beginners.\r\nThe first part will focus on data frames (table-like objects) and how to handle tabular data in R.\r\nWe will start with the basics of the R language and the grammar of a family of additional R packages called tidyverse.\r\n\r\nThe second part of the workshop will concentrate on the spatial analysis of vector and raster data.\r\nIt will start by showing how to create maps with the tmap package.\r\n\r\nThen, several workflows related to spatial vector data will be discussed: how to read spatial vectors, perform common spatial operations (spatial filtering, intersections, spatial joining, and geometry operations - buffers, centroids), how to reproject vector data, and how to export it.\r\nNext, we explain an ecosystem of packages related to raster data handling and provide a few examples of spatial raster operations.\r\n\r\nFinally, pointers to additional materials will ensure that participants know where to get help and how to take confident next steps after the workshop.\r\n\r\nMaterials will be available here: https://bakaniko.github.io/foss4g2022-getting-started-rspatial/",
+    "start_datetime": "2022-08-22T07:00:00Z",
+    "end_datetime": "2022-08-22T11:00:00Z",
+    "talk:code": "7CLACJ",
+    "talk:guid": "2be4ad5e-532f-54ca-abcb-71cc84aee1bc",
+    "talk:event": "foss4g-2022-workshops",
+    "talk:type": "Long Workshop",
+    "talk:language": "en",
+    "talk:room": "212",
+    "talk:room_capacity": 25,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "SAV3ZK",
+        "name": "Jakub Nowosad",
+        "url": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/SAV3ZK/"
+      },
+      {
+        "code": "JS3JBJ",
+        "name": "Nicolas Roelandt",
+        "url": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/JS3JBJ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-22T09:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/talk/7CLACJ/",
+      "title": "Getting started with R and R-spatial"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/talk/7CLACJ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/SAV3ZK/",
+      "title": "Jakub Nowosad"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/JS3JBJ/",
+      "title": "Nicolas Roelandt"
+    },
+    {
+      "rel": "related",
+      "href": "https://bakaniko.github.io/foss4g2022-getting-started-rspatial/",
+      "title": "bakaniko.github.io/foss4g2022-getting-started-rspatial"
+    },
+    {
+      "rel": "related",
+      "href": "https://ame.univ-gustave-eiffel.fr/",
+      "title": "Gustave Eiffel University"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/talk/7CLACJ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-workshops"
+}

@@ -1,0 +1,114 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "CH9FK9",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Getting Sentinel Data within seconds",
+    "description": "Explore how to quickly access and analyze Sentinel satellite data using STAC APIs and the Microsoft Planetary Computer. In this talk, we\u2019ll demonstrate how Python makes it easy to fetch imagery and calculate vegetation indices in just minutes.\n\nSatellite imagery is more accessible than ever\u2014but getting the data you need quickly and efficiently can still be a challenge. In this talk, we\u2019ll explore how STAC (SpatioTemporal Asset Catalog) and the Microsoft Planetary Computer simplify the process of accessing and analyzing Sentinel imagery at scale.\r\n\r\nYou\u2019ll learn how to use Python and modern geospatial libraries like `pystac-client`, `odc-stac`, and `xarray` to query, filter, and load Sentinel-2 and Sentinel-1 imagery\u2014no downloading or unzipping required. We\u2019ll demonstrate how to filter scenes by date, cloud cover, and region of interest, and then quickly calculate vegetation indices such as NDVI, EVI, and RVI for environmental or agricultural analysis.\r\n\r\nWe\u2019ll cover:\r\n\r\nWhat STAC is and why it matters\r\n\r\nHow the Microsoft Planetary Computer provides cloud-hosted, analysis-ready data\r\n\r\nHow to build fast, scriptable analysis pipelines using Python\r\n\r\nBy the end of this session, attendees will understand how to go from a geographic query to insightful raster analysis in just a few lines of code\u2014making remote sensing workflows faster, reproducible, and scalable.\r\n\r\nPerfect for data scientists, remote sensing professionals, and developers looking to cut through the complexity of traditional satellite data access.",
+    "start_datetime": "2025-11-20T02:30:00Z",
+    "end_datetime": "2025-11-20T02:55:00Z",
+    "talk:code": "CH9FK9",
+    "talk:guid": "51cbabdf-31d1-55b6-ae7f-321066245d75",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Cloud, APIs & Data Infrastructure",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG308 TE IRINGA",
+    "talk:room_capacity": 180,
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "J7Z7F8",
+        "name": "krishna lodha",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/J7Z7F8/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-20T02:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/CH9FK9/",
+      "title": "Getting Sentinel Data within seconds"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/CH9FK9/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/J7Z7F8/",
+      "title": "krishna lodha"
+    },
+    {
+      "rel": "related",
+      "href": "https://rottengrapes.tech/",
+      "title": "Rotten Grapes Private Limited"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.youtube.com/@krishnaglodha",
+      "title": "YouTube tutorials"
+    },
+    {
+      "rel": "related",
+      "href": "https://medium.com/rotten-grapes",
+      "title": "technical blogs"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/CH9FK9/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=9miyk6AgYsw",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Getting Sentinel Data within seconds",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "KDXRHY",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Use of FOSS4G Technologies in the Management of Railway Infrastructure Data",
+    "description": "Railways has always been looked at as the best public transport option since its invention. Even a single freight railway trip along with all the surrounding railway environment produces huge amount of data like the routing data, train schedules, on-board sensor data, wayside field unit data, etc. Such data are normally temporally and spatially referenced. This data helps in correct routing of trains, maintaining and monitoring the condition of the infrastructure, to expand the existing infrastructure and many more purposes. The use of free and open source geospatial software is greatly helping us with the management and processing of these datasets. With digitalization and rise of Internet of Things (IoT) that is based on a sensor ecosystem, we are looking at data that is generated at very high rate and is crucial for analysis both in short and long terms. The background digital infrastructure that handles such data should be state-of-the-art, fault-tolerant, scalable and easy-to-operate. This talk explains how we use FOSS4G technologies to build our digital infrastructure platform.\r\nWe at Institute of Transportation Systems (TS) of the German Aerospace Center (DLR) started with this idea in mind and developed an infrastructure platform called Transportation Infrastructure Data Platform (TRIDAP). It is provisionally operational and is being further developed .  DLR-TS conducts research into technologies for the intermodal, connected and automated transport of the future on road and rail. Research into new systems in rail and road transport domain requires digital twins. The digital twin structure helps to draw a holistic picture of the infrastructure of road and rail in connection with the vehicles, people and goods moving within the infrastructure. This is realized using distributed system architectures and artificial-intelligence methods. The TRIDAP platform is developed using various FOSS4G technologies. This platform is capable of making the data available to researchers within the DLR as well as project partners and other stakeholders over a long period of time for analysis and visualization. The platform development is a part of the DLR-funded cross-domain project called \u201cDigitaler Atlas 2.0\u201d. \r\nThe datasets handled in TRIDAP vary to a great degree in terms of their size, nature and format (numerical sensor measurements, images from visual sensors, streams of data from a single geo-location and many such other variations). TRIDAP has storage feature of these types of structured datasets in a PostGIS database or the non-structured data in file-folders. A mammoth data model is developed to accommodate different datasets in databases, along with a possibility to track changes. Also, provision is made to store non-structured data in a hierarchy of storage space using a NetApp base. TRIDAP supports the analysis and sharing of georeferenced as well as non-georeferenced datasets. For condition monitoring applications, information on changes in the railway infrastructure and management activities (such as repair and improvement of existing infrastructure) carried out in the past, is also stored in the platform. In order to make these datasets Findable, Accessible, Interoperable and Reusable (FAIR), the system stores sufficient metadata as well as supports the publication of datasets through the use of open-source software GeoServer and GeoNetwork. Most of the data are georeferenced and are stored in a common space and time reference frame \u2013 World Geodetic System / WGS84 and Coordinated Universal Time (UTC). \r\nThe platform contains instances of various big data open-source software, such as Apache Kafka, Apache Flink, Apache Spark, to process and analyze the data through the development of stream and batch processing applications. To carry out fusion of measurement and weather datasets, we are currently developing a python-based tool to download data from Deutscher Wetterdienst (DWD) for a user-defined region and time period directly into the data processing application. Weather data from other internal and external sources are planned to be integrated in the future. In order to provide a high-quality service to the researchers at DLR-TS as well as our project partners, it is inevitable to ensure high availability and optimal performance of the platform. To achieve this, we are integrating all components of TRIDAP into a monitoring framework that uses a monitoring tool called Prometheus and a visualization tool called Grafana. TRIDAP also has a python-based tool in development to validate the data being stored in the system. For this purpose, we define a set of validation rules together with the team of researchers / data owners / data generators. The validation tool deals with dynamic live data received from railway locomotives and wagons in the field and infrastructure data stored in databases. When validation errors are identified, the team of data owners and generators are immediately informed, in order to take further actions.\r\nThe geo-datasets stored in TRIDAP are shared with stakeholders in standardized data formats through the use of GeoServers. GeoNetwork is being used to setup a geodata catalog that enables easy search and access to datasets stored in the platform. The GeoNetwork uses metadata standards such as Dublin Core and ISO/TS 19139 to document metadata. It is also planned to connect GeoNetwork with the research data repository (FDR) of the DLR to obtain a persistent ID (PID) for the datasets on-demand. Certain datasets stored in the platform are confidential and have restricted access. This is currently being implemented through the definition of multiple users, roles and data security rules in the GeoServer as well as in the data storage layers.",
+    "start_datetime": "2024-07-05T08:30:00Z",
+    "end_datetime": "2024-07-05T09:00:00Z",
+    "talk:code": "KDXRHY",
+    "talk:guid": "24cfac6f-b67f-590f-a08a-276701c66056",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "GEOCAT (301)",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "LESGHJ",
+        "name": "Akhil Jayant Patil",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/LESGHJ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-05T08:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/KDXRHY/",
+      "title": "Use of FOSS4G Technologies in the Management of Railway Infrastructure Data"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/KDXRHY/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/LESGHJ/",
+      "title": "Akhil Jayant Patil"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/KDXRHY/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/KDXRHY/resources/Use_of_FOSS4G_Technologies_in_the_Manag_6gJhBHT.pptx",
+      "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "title": "presentation slides",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/3kYPXNkxwR6CQeiDXk2KMx",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Use of FOSS4G Technologies in the Management of Railway Infrastructure Data",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=nv8jbedc8Yc",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Use of FOSS4G Technologies in the Management of Railway Infrastructure Data",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

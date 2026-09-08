@@ -1,0 +1,129 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "XS3JNT",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Implementation and evaluation of geography education using QGIS for Japanese high school students",
+    "description": "In recent years, demand for geography education using GIS has been growing among junior and senior high school teachers. Since 2022, the compulsory geography curriculum in Japanese senior high schools has emphasized the use of GIS in classrooms. QGIS has attracted attention because it is freely available and enables advanced spatial visualization and analysis. However, the implementation of QGIS in education for junior and senior high school students remains limited compared with GIS education in universities. In this study, we conducted educational events for high school students to examine three aspects: students\u2019 ability to operate QGIS, their understanding of spatial data concepts and processing, and their interpretation of geographical features across multiple layers.\r\nThe exercises were conducted as part of one-day or half-day educational programs introducing various GIS applications. The events were held eight times between 2018 and 2025. Although the teaching topics varied slightly across events, each QGIS-based exercise was consistently implemented using the same instructional content. At the beginning of the events, we delivered a 20\u201330 minute lecture introducing fundamental GIS concepts. The exercises, which lasted 60\u201375 minutes, required each student to operate QGIS individually. During the exercises, we focused on teaching basic GIS operations and spatial thinking by processing data related to the Kyodo River alluvial fan in Yamanashi Prefecture, Central Japan.\r\nThe QGIS-based exercise component consisted of five steps. In the first step, the students imported a 5-m resolution DEM (Digital Elevation Model) into QGIS. At the beginning of the session, the educator briefly explained basic PC terminology and the topographic characteristics of an alluvial fan. In the second step, the students attempted to identify the Kyodo River alluvial fan using the default DEM display, in which elevation values were represented from black to white. In the third step, they edited the DEM color settings based on cell values to enhance the visualization of the alluvial fan. In the fourth step, they created a slope map, a hillshade map, a 5-m contour map, and a 3D visualization to interpret the apex, middle, and toe areas of the alluvial fan. In the fifth step, they added land-use data to QGIS to examine the relationship between topography and land-use distribution by overlaying multiple layers. Finally, students attempted to complete two assignments to assess students\u2019 learning outcomes: (A) whether they understood GIS operational procedures, and (B) whether they could interpret the geographical relationship between the alluvial fan and its land use. Assignment A was to answer \u201cHow should the raster dataset be styled in QGIS to display the rivers more clearly? Please include the following terms in your answer: elevation values, color allocation, hillshade, and layer overlay.\u201d Assignment B was to answer \u201cExplain the geographic characteristics by analyzing the relationship between orchards and man-made structures such as buildings and roads.\u201d \r\nAt the end of the exercises, we asked the students to submit their assignment answers and complete a questionnaire. The survey was conducted only after obtaining the students\u2019 consent to participate. The questionnaire consisted of two items: (a) simplicity of the exercise and (b) moments of difficulty or stumbling during the exercise. Item a was evaluated using a five-point Likert scale, where 1 indicated \u201ccomplex\u201d and 5 indicated \u201csimple.\u201d Item b consisted of seven options: \u201cdifficulty in following the instructor\u2019s GIS operations,\u201d \u201cunderstanding computer terminology,\u201d \u201ccommunicating with educators when asking questions,\u201d \u201cimporting and saving GIS data,\u201d \u201ctyping on the keyboard,\u201d \u201cother,\u201d and \u201cnone.\u201d Students were allowed to select one or more options.\r\nWe collected responses from 167 students for Assignment A and from 150 students for Assignment B. To assess students' understanding of GIS processing and the features of DEM data, Assignment A was scored based on whether their responses included the four terms: \u201celevation values,\u201d \u201ccolor allocation,\u201d \u201chillshade,\u201d and \u201clayer overlay.\u201d The results show that approximately 80% to 95% of the students answered correctly, regardless of grade level. On the other hand, the overall correctness rate for Assignment B was 47.3%, which varied by students' grades. Over 75% of 11th- and 12th-grade students submitted correct answers, compared to 30%\u201340% of 7th- to 10th-grade students. To examine whether the distribution of correct and incorrect responses differed among grade levels, a chi-square test of independence was conducted for Assignment B. The result indicated a significant association between students\u2019 grade level and achievement levels (\u03c7\u00b2 = 21.78, df = 5, p < 0.001). The following types of incorrect responses were observed: descriptions that focused solely on agricultural areas or building areas, and misinterpretations of the GIS maps or the characteristics of an alluvial fan. Another criterion for Assignment B was whether they could identify elevation or slope values from the GIS data; however, only three senior high school students included elevation or slope values in their responses. Most participants expressed general representations such as \u201cthis area is a steep slope,\u201d \u201cgentle slope,\u201d \u201chigh elevation,\u201d or \u201clow elevation.\u201d \r\nIn the questionnaire survey, 181 students responded to Item a and 142 to Item b. The perceived simplicity of the exercise was distributed as follows: 35 students (19.3%) selected \u201ccomplex,\u201d 75 (41.4%) \u201crelatively complex,\u201d 34 (18.8%) \u201cneither,\u201d 26 (14.4%) \u201crelatively simple,\u201d and 11 (6.1%) \u201csimple.\u201d For Item b, no single difficulty was reported by more than 50% of respondents. The most frequently selected option was \u201cfollowing the instructor\u2019s GIS operations,\u201d selected by 46 students (32.4%). Approximately 20% of respondents selected \u201cunderstanding computer terminology\u201d and \u201cnone.\u201d\r\nThe results indicate that geography education using QGIS is feasible for junior and senior high school students. While most students understood basic GIS operations and spatial data concepts, many, particularly younger students, struggled to interpret their maps from a spatial thinking perspective. These findings highlight the importance of strengthening existing map-reading education in schools. In addition, adopting self-directed learning approaches that allow students to practice GIS operations step by step may be more effective for some students than simultaneous lecture-based instruction.",
+    "start_datetime": "2026-09-02T07:30:00Z",
+    "end_datetime": "2026-09-02T08:00:00Z",
+    "talk:code": "XS3JNT",
+    "talk:guid": "4adcd3ac-f22c-5889-971c-82ee8bb90e7b",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos2",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "KJWXMJ",
+        "name": "Hiroyuki Yamauchi",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/KJWXMJ/"
+      },
+      {
+        "code": "GHF8UL",
+        "name": "Takashi Oguchi",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/GHF8UL/"
+      },
+      {
+        "code": "U9CUPS",
+        "name": "Takuro Ogura",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/U9CUPS/"
+      },
+      {
+        "code": "HSM7UH",
+        "name": "Kotaro Iizuka",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/HSM7UH/"
+      },
+      {
+        "code": "GZF8UD",
+        "name": "Yuriko Yazawa",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/GZF8UD/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T07:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/XS3JNT/",
+      "title": "Implementation and evaluation of geography education using QGIS for Japanese high school students"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/XS3JNT/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/KJWXMJ/",
+      "title": "Hiroyuki Yamauchi"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/GHF8UL/",
+      "title": "Takashi Oguchi"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/U9CUPS/",
+      "title": "Takuro Ogura"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/HSM7UH/",
+      "title": "Kotaro Iizuka"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/GZF8UD/",
+      "title": "Yuriko Yazawa"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/XS3JNT/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

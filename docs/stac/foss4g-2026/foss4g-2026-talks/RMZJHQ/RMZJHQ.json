@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "RMZJHQ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "GeoReports Web Application",
+    "description": "GeoReports is a java servlet web application that provides a powerful tool for creating a geographically rich PDF Report containing a series of predefined pages relating to a location of interest.\n\nAn administrator pre-defines one or more GeoReports config files (XML), each defining how a single PDF Report will be constructed.\r\n\r\nA single GeoReports config file contains all the logic required to produce a PDF Report on almost any subject matter.\r\n\r\nExamples of subject matter suitable for a GeoReports config file:\r\n* Property Report\r\n* Hazards Report\r\n* LIM (New Zealand Land Information Memorandum)\r\n\r\nEach page can contain combinations of maps and/or data derived from local data sources or via web services.\r\n\r\nOne or more Templates (QGIS QPT Layout Temlates) referenced by the config file define the page layouts required throughout the PDF Report.\r\n\r\nThird party PDF documents can be inserted at any point either as defined pages, page ranges or an entire PDF document.",
+    "start_datetime": "2026-09-01T05:40:00Z",
+    "end_datetime": "2026-09-01T05:45:00Z",
+    "talk:code": "RMZJHQ",
+    "talk:guid": "f51c7680-d9c4-5a2b-9676-4b543195a41a",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Lightning Talk",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Ran1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "E8PZ37",
+        "name": "Simon Nitz",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/E8PZ37/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T05:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/RMZJHQ/",
+      "title": "GeoReports Web Application"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/RMZJHQ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/E8PZ37/",
+      "title": "Simon Nitz"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/RMZJHQ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

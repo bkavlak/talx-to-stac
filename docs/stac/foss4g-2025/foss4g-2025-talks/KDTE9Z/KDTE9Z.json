@@ -1,0 +1,108 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "KDTE9Z",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Identifying Forest Invasive Species in Fiji and Tonga Using Machine Learning",
+    "description": "Deforestation and forest degradation in the Pacific is an ongoing threat to biodiversity, ecological connectivity and livelihoods. These processes have catalysed rapid expansion of invasive flora constituting severe land degradation. Using Digital Earth Pacific, we are better able to monitor the sprawling expansion of these invasive species.\n\nIntroduction \r\n\r\nIn the Pacific, the spread of invasive species has been a result of direct anthropogenic impacts of land use modifications as well as indirect anthropogenic impacts of natural occurrences like tropical cyclones. Such disturbances have accelerated the spread of invasive species, particularly over degraded and exposed landscapes, by clearing the land and changing it. \r\n\r\nData were collected via GPS surveys in the field to identify confirmed invasive species sites, which were then processed with time-series satellite data over Digital Earth Pacific. Phenological characteristics and seasonal trends in plant vegetation were used to train the models to detect and track invasive species over an extent of time. The results demonstrate the feasibility of region-wide, large-scale monitoring of invasive plant species. The methods are a valuable tool to interpret spatial invasion patterns since 2017 until the present moment, contributing to more accurate ecosystem management and informing policy responses to land degradation and biodiversity loss across PICTs. \r\n\r\nTwo of the key objectives of the project are to assess two high-priority invasive species: Spathodea campanulata (also referred to as African tulip tree) and Cordia alliodora (also referred to as Cordia, Salmwood, or Spanish Elm). They are targeted since they are extensively found and ecologically affecting native forests in both countries. Other invasive plant species, such as Leucaena leucocephala, Merremia peltata (Cook's Glory), Hevea brasiliensis (Para Rubber tree), and Acacia mangium (Black Wattle), have been identified as secondary problems in several Pacific Island Countries and Territories (PICTs). Their invasion is a daunting task due to the intensity and speed of invasion. This study proves the use of Earth observation technology and machine learning for mapping and monitoring the invasive tree species distribution across the Pacific. \r\n\r\nMethodology \r\n\r\nField surveys were conducted using QField, an open-source mobile GIS that is integrated with QGIS, to collect georeferenced data on invasive species in Fiji and Tonga. \r\n\r\nCollecting the data was done through filling out custom forms to input date, species, landcover category, and location with line-of-sight mapping or locked GPS points, using high-accuracy devices (e.g. TDC 650), with accuracy ranging from 3\u202fm to sub-metre.  \r\n\r\nTo complement model training, data on non-native species and other vegetations were also obtained to be utilized as machine learning (ML) classification training data. Upon deployment in the field, the data were compiled into a geodatabase, cleaned, validated, and overlaid on Sentinel-2 satellite Geo-Median composites (10 m resolution, 2024). These vector training points were loaded into the Digital Earth Pacific platform and used to sample Sentinel-2 image spectral and vegetation index values including NDVI, EVI, SWIR, chlorophyll index, and other band ratios. The data were then used to train a Random Forest machine learning model that was initially tested against small parcels and continuously improved. \r\n\r\nPhenological data (e.g., blooming period) from local witnesses informed seasonal satellite image filtering to optimize classification accuracy. STAC architecture enabled multi-sensor data integration and simplified access to spectral features. Validation for accuracy was conducted in collaboration with indigenous forestry and botany experts. Their input improved model reliability and contextual validity. Further ground-truthing was used to validate results and collect more data, further calibrating model projections. Once acceptable accuracy had been achieved, the workflows were reconciled into Python notebooks and disseminated to Forestry Ministries for further use and replication. \r\n\r\n \r\n\r\nPreliminary Results  \r\n\r\nThe attempts at classifying invasive species in Tonga and Fiji used machine learning (ML) models that were trained from ground-collected data and Sentinel-2 satellite images. Preliminary classifications in the Toloa Forest of Tonga overestimated the amount of Cordia salmwood due to unbalanced training data and the lack of seasonal filtering. Improvements in the third iteration enhanced the detection of Cordia, particularly at forest edges. Atele Forest model using the Toloa-trained classification identified African Tulip spread without ground points, verifying the prediction capability of the model. \r\n\r\nIn Fiji, there were some forests that had widespread invasive species. Wainibuka Forest had a 43% African Tulip cover, aided by cyclone seed dispersal. Nadarivatu and Korotari Forests had widespread Cordia Alliodora invasions from previous plantations, with Korotari also having 40% African Tulip. Lololo and Bua Forests, both owned by Fiji Pine Limited, had widespread Acacia mangium invasions in Bua with 77% Acacia cover, hindering pine regeneration Capacity building was a main component in place to offer sustainability.  \r\n\r\nThere were two workshops held in Tonga with the Ministry of Agriculture, Food, and Forests. The initial one trained officers in QGIS and QField for data collection. The second workshop demonstrated ML principles through ground-truth points and Sentinel-2 images, and hands-on Python sessions. Participants collected additional Cordia and African Tulip data to improve model accuracy.  \r\n\r\nIn Fiji, a compressed one-week workshop in Nadi engaged 15 individuals from forestry, agriculture, and land management. Training was conducted on QGIS, QField, and ML processes using Sentinel-2 data. Booklets were provided to participants with guided activities so that they could replicate invasive mapping in their local area.  \r\n\r\nOverall, these efforts strengthened national capacity to detect, monitor, and manage invasive plant species using advanced geospatial technologies and participatory learning approaches.",
+    "start_datetime": "2025-11-19T23:00:00Z",
+    "end_datetime": "2025-11-19T23:25:00Z",
+    "talk:code": "KDTE9Z",
+    "talk:guid": "8ac2b838-8043-5b5b-a6bf-aa635dec8b64",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Academic",
+    "talk:type": "Academic Paper",
+    "talk:language": "en",
+    "talk:room": "WA220",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "GDHPXP",
+        "name": "Nicholas Metherall - SPC",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/GDHPXP/"
+      },
+      {
+        "code": "A9VAA9",
+        "name": "Elenoa Biukoto",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/A9VAA9/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-19T23:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/KDTE9Z/",
+      "title": "Identifying Forest Invasive Species in Fiji and Tonga Using Machine Learning"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/KDTE9Z/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/GDHPXP/",
+      "title": "Nicholas Metherall - SPC"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/A9VAA9/",
+      "title": "Elenoa Biukoto"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/KDTE9Z/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=b_ikZUAboKM",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Identifying Forest Invasive Species in Fiji and Tonga Using Machine Learning",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

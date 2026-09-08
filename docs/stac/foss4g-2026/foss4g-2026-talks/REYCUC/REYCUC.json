@@ -1,0 +1,106 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "REYCUC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Serving earth observation data with GeoServer: addressing real world requirements",
+    "description": "This presentation demonstrates how GeoServer enables efficient management, discovery, and visualization of large Earth observation datasets. Through real-world examples, it covers indexing (STAC/OpenSearch), Cloud Optimized GeoTIFFs, mosaicking and filtering, data extraction (WCS/WPS), time-based animations, and band algebra, highlighting GeoServer\u2019s latest capabilities in satellite imagery workflows.\n\nNever before has such a vast and diverse collection of satellite imagery been available to both organizations and the general public. With missions such as Landsat 8 and Sentinel, the rapid growth of CubeSats, and the open availability of global datasets through programs like the European Copernicus initiative\u2014alongside data captured by drones\u2014we are now experiencing an unprecedented influx of Earth observation data.\r\n\r\nEffectively managing, discovering, and visualizing this volume of imagery presents significant challenges. This presentation explores how GeoServer addresses these challenges through real-world use cases, including:\r\n\r\n- Indexing and discovery of imagery using OpenSearch for EO and STAC protocols\r\n- Efficient and cost-effective management of large datasets with Cloud Optimized GeoTIFFs (COGs)\r\n- Visualization of image mosaics and creation of composites with flexible filtering and stacking strategies (e.g., most recent, least cloudy, or custom ordering)\r\n- Extraction of imagery at varying scales using WCS and WPS protocols\r\n- Generation and visualization of time-based animations over selected periods\r\n- Execution of band algebra operations using Jiffle\r\n\r\nJoin this session for an overview of the latest GeoServer capabilities in the Earth Observation domain.",
+    "start_datetime": "2026-09-01T08:30:00Z",
+    "end_datetime": "2026-09-01T09:00:00Z",
+    "talk:code": "REYCUC",
+    "talk:guid": "ab300690-7983-522e-aa13-1a1eb3a8c246",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Ran2",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RBSH8T",
+        "name": "Andrea Aime",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/RBSH8T/"
+      },
+      {
+        "code": "NMVVQN",
+        "name": "Simone Giannecchini",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/NMVVQN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T08:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/REYCUC/",
+      "title": "Serving earth observation data with GeoServer: addressing real world requirements"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/REYCUC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/RBSH8T/",
+      "title": "Andrea Aime"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/NMVVQN/",
+      "title": "Simone Giannecchini"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/REYCUC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "serving-earth-data-with-geoserver-addressing-real-world-requ": {
+      "href": "https://talks.osgeo.org/media/foss4g-2026/submissions/REYCUC/resources/Serving_earth_observation_data_with_BwF5DhZ.pdf",
+      "type": "application/pdf",
+      "title": "Serving earth  data with GeoServer: addressing real world requirements",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

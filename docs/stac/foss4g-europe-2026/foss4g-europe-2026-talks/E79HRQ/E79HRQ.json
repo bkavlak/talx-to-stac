@@ -1,0 +1,96 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "E79HRQ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "QGIS for Digital Twins",
+    "description": "Digital Twins are becoming a standard requirement for urban planning and infrastructure, but the software landscape is still dominated by expensive, proprietary systems. Over the last few years, with support from a community crowdfunding campaign, we have been working to make QGIS a viable  alternative for building Open Source Digital Twins.\r\nThis talk will walk through the specific hurdle we faced and the solutions we implemented to get QGIS 3D ready for production work. We will move beyond visualisation to show how QGIS now handles the heavy lifting required for real-world projects.\r\n\r\nWe will cover:\r\n - Handling Massive Data: We rewrote parts of the rendering engine to support instanced rendering and dynamic chunking. This means you can now load millions of 3D objects, like city-wide tree datasets or street furniture, and navigate through massive point clouds without the software lagging or crashing.\r\n - Making 3D Useful, Not Just Pretty: A Digital Twin is useless if you can't query it. We bridged the gap between the 2D and 3D views, adding tools to identify, select, and inspect feature attributes directly in the 3D window.\r\n - Interoperability: We added native support for 3D Tiles and ESRI Scene Layers (I3S), so users can stream in heavy 3D mesh data from existing sources without needing complex conversion workflows.\r\nWe will also demonstrate significant enhancements to the cross-section tool, improving its usability for analysing complex 3D datasets. Join us to see how these updates have turned QGIS into a serious tool for 3D data management.",
+    "start_datetime": "2026-07-01T09:00:00Z",
+    "end_datetime": "2026-07-01T09:30:00Z",
+    "talk:code": "E79HRQ",
+    "talk:guid": "f5f0b8ce-6b09-5ea6-b0ac-d33744124137",
+    "talk:event": "foss4g-europe-2026",
+    "talk:track": "Transition to FOSS4G",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "A12",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "Y9AUJZ",
+        "name": "Saber Razmjooei",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/Y9AUJZ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-07-01T09:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/E79HRQ/",
+      "title": "QGIS for Digital Twins"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/E79HRQ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/Y9AUJZ/",
+      "title": "Saber Razmjooei"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/E79HRQ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://docs.google.com/presentation/d/1RPq5Hd2lQoAkN1nJypNTbcQiMlGnnx3xIRR2-RzOdNw/edit?usp=sharing",
+      "title": "Presentation",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "S9JBNY",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Beautiful Thematic Maps in Leaflet with Automatic Data Classification",
+    "description": "With the web being a platform that provides lots of features and a high degree of customizability for creating web maps, web-based thematic maps still require expertise to visualize geospatial data in a way that highlights spatial differences in an exact and cartographically comprehensive way. While most thematic maps show data with seven or less classes, as determined by (Linfang and Liqiu, 2014), the maker of a thematic map must choose a class count and classify quantitative data to properly convey their message through the map. Data classification methods all have advantages and disadvantages for specific spatial data types, therefore choosing the most optimal method is of great importance to minimize information loss (Osaragi, 2002). Choosing an optimal class count massively helps the map user to quickly comprehend thematic data and discover relevant spatial differences. With a plethora of visual variables, summarized by (Roth, 2017), there are many ways to distinguish classes of features in geovisualization. For styling features, mapping libraries provide tools to make use of only a few visual variables natively. A thematic map requires a specific symbology tailored to the given data, which distinguishes classes by altering one or more of these visual variables for their symbols. While its symbology needs to be legible and visually separated from the background map, it also needs to be created in a way that does not overload the map visually. \r\n\r\nThe popular open source web mapping framework Leaflet lacks a straightforward approach to create thematic maps with all basic principles that they should adhere to (data classification, automatic symbology and legend generation). In the paper, features and shortcomings of Leaflet in the context of thematic mapping are examined in detail. First, Leaflet lacks any kind of native data classification process that would be needed to create discrete classes of data for thematic maps. Therefore, using GIS software beforehand to classify and style the dataset properly (to get class boundaries and exact colours) is inevitable. Second, for symbology, although it makes use of modern web standards like HTML5 and CSS3 to style vector map features (Agafonkin, 2023), it still lacks styling solutions that are common in traditional thematic cartography (e.g., hatch fill patterns), as discussed in (Gede, 2022). As a thematic map requires some kind of explanation of visualized data, the presence of a descriptive, well-formed legend with exact symbols for all data classes is non-trivial either. Although various tutorials and workarounds are available, those only solve part of the principles. The examples provided by the official website of Leaflet are hard-coded and static, meaning that they will have to be recreated for each specific thematic map, making them unsuitable for implementation in a dynamic data visualization. Moreover, these workarounds are complex to accomplish, especially for those who are not familiar with programming to an extent to be able to code visually pleasing thematic maps on websites. \r\n\r\nAs a solution, this paper introduces a highly customizable, open source plugin for Leaflet, developed by the author, which extends Leaflet\u2019s GeoJSON class and combines all processes required for creating a thematic map in a single step. By combining all the necessary processes, this easy-to-use extension is a solution that wraps the individual processes of quantitative data classification, symbology and creation of an appealing legend. The extension puts an emphasis on providing numerous options for a highly customizable visualization. It supports well-known data classification methods, custom and Brewer colour ramps as defined by (Brewer et al., 2003), symbol colour-, size- and hatch fill pattern-based distinctions, HTML legend row templating, legend class order, data manipulation options, and many other features. For maps with graduated symbol sizes, it generates widths between user-adjustable min-max sizes. For point features, the symbol shape can also be changed to predefined SVG shape symbols. Data manipulation options include normalization by a secondary attribute field in dataset, rounding generated class boundary values and visually modifying them by applying division or multiplication (to easily change unit of displayed value). In case the input GeoJSON dataset has features without data for the set attribute field (null/nodata), these features are handled to optionally form a separate class with a neutrally styled symbol. Should the map maker wish to ignore these nodata features, they can be ignored, therefore not showing up on the map as a distinguished class. As it is an extension of a native L.geoJSON layer, multiple instances of L.dataClassification layers can also still be used within a single Leaflet map object. This allows for more complex thematic maps with multiple layers or different kinds of data with a different symbology type at the same time (e.g., a combination of a choropleth background map, with graduated symbol sized points as a second layer in the foreground). Since a legend is automatically generated and displayed for each instance, they are linked to the respective data layer, therefore it inherits all methods that are called on the layer (e.g., if the map maker uses remove() to programmatically remove the layer for some reason, the related legend also reflects these changes). Even though the legend is created with a clear and concise style by default, legend styling can easily be customized with the provided options and CSS definitions. \r\n\r\nAs one of the goals, the plugin facilitates the easy creation of clean thematic maps using exclusively open source software and libraries, with the hope of increasing the availability, accessibility and popularity of such thematic mapping on the web. The extension is still under development, and is available on GitHub (with examples), at https://github.com/balladaniel/leaflet-dataclassification .",
+    "start_datetime": "2024-07-03T09:15:00Z",
+    "end_datetime": "2024-07-03T09:20:00Z",
+    "talk:code": "S9JBNY",
+    "talk:guid": "f3744623-40e2-54d9-9e3c-dd10a77c7919",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Academic track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "Omicum",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "HFLJUB",
+        "name": "D\u00e1niel Balla",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/HFLJUB/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-03T09:17:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/S9JBNY/",
+      "title": "Beautiful Thematic Maps in Leaflet with Automatic Data Classification"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/S9JBNY/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/HFLJUB/",
+      "title": "D\u00e1niel Balla"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/S9JBNY/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-slides-in-pptx-format": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/S9JBNY/resources/presentation_danielballa_matyasgede_lea_7JpkE5h.pptx",
+      "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "title": "Presentation slides, in .pptx format",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "plugin-repository-on-github": {
+      "href": "https://github.com/balladaniel/leaflet-dataclassification",
+      "title": "Plugin repository on GitHub",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/3WcyFyXwtKPmMBuXcVfoaJ",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Beautiful Thematic Maps in Leaflet with Automatic Data Classification",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=UMARRfcdkOM",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Beautiful Thematic Maps in Leaflet with Automatic Data Classification",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

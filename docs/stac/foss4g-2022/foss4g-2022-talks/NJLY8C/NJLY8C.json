@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "NJLY8C",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Building Germany\u2019s drone corridors with hale\u00bbstudio",
+    "description": "The applications of safe drone mobility are vast and diverse, such as pipeline inspection and large-scale crop monitoring. However, this innovation comes with safety and security risks. Drones have caused 91 disruptions to German air traffic in 2021 alone - in part, because not all no-fly zones are formally defined. \r\n\r\nTo solve this, the mFUND fAIRport project was started in 2020. In this project, wetransform, Deutsche Flugsicherung and Fraunhofer work together to create a comprehensive high-precision geodatabase for no-fly zones. This is achieved by merging existing datasets and with new information created through re-use of INSPIRE data, through crowdsourcing and through AI-based object detection from orthoimages.\r\n\r\nThe re-use of INSPIRE protected sites allows us to create cross-border data sets with no-fly zones. For the necessary transformation and the merging of the individual data sets, we used the open source ETL tool hale\u00bbstudio. We encode the merged data sets in a wide range of formats, such as ED-269 JSON, GML and GeoPackage, and deliver them via various standardised APIs.\r\n\r\nIn this talk, we will introduce the use case, and the created data sets. We will also explain hale\u00bbstudio\u2019s declarative mapping and model transformation workflow, to show how it can improve the quality and usefulness of data to help solve problems at scale.",
+    "start_datetime": "2022-08-25T07:00:00Z",
+    "end_datetime": "2022-08-25T07:30:00Z",
+    "talk:code": "NJLY8C",
+    "talk:guid": "bf6fb366-5a97-5728-881c-3687f24f256d",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "General online",
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "U9VSWX",
+        "name": "Claudia Schulte",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/U9VSWX/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T07:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/NJLY8C/",
+      "title": "Building Germany\u2019s drone corridors with hale\u00bbstudio"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/NJLY8C/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/U9VSWX/",
+      "title": "Claudia Schulte"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/NJLY8C/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

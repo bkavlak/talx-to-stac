@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "ZPFBDA",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Impact of Geolocation Data on Usability in Augmented Reality: A Comparative User Test",
+    "description": "In 2017, the Media Engineering Institute (MEI) and the Institute of Territorial Engineering (INSIT) developed a proof-of-concept location-based augmented reality (AR) application that enabled the visualization of geospatial data on biodiversity. A test with ten-year-old pupils confirmed the relevance of using this technology to support educational field trips. However, it also revealed usability challenges that needed to be addressed in a subsequent iteration. More precisely, three main issues were outlined: The system should allow non-expert users to create AR experiences using open geospatial data [2]; Users should be able to publish observations in AR rather than being restricted to a passive viewing role; The instability of the points of interest (POIs) causes usability problems such as a prolonged interaction time with the screen. \r\nIn an attempt to address the first two of these challenges, we have designed and developed a cartographic authoring tool for the creation of location-based AR experience powered by open web frameworks (A-frame, leaflet.js, vue.js, hapi.js\u2026) by leveraging a user-centered methodology [1]. We also developed a minimalist library for the creation of WebXR location-based POIs in A-frame. The resulting application allows anyone without technological know-how to create AR learning experiences by importing/exporting open geospatial data and customizing the appearance of POIs by attaching medias (3D files, pictures, sound\u2026) to them. These can be location-triggered (visible/audible) according to different conditions based on distance thresholds set by the user. The environments can be shared publicly so that anyone may contribute, or set to visible but non-editable for visualization privileges only. The application also features geolocation tracing and in-app event logging for analysis. \r\n\r\nThe third challenge disclosed by the proof-of-concept application was imputed to the inaccurate geolocation data available, as evidenced by previous studies [3\u20135]. Indeed, geolocated POIs are anchored in the AR interface by computing the geographical coordinates they are anchored to related to the user\u2019s esteemed position. On mobile devices, GNSS accuracy typically lies between 1 m and 30 m. Due to its impact on anchoring, this lack of accuracy can have deleterious effects on usability. We wondered whether using more accurate data would lead to a better usability score. We thus designed a comparative user test (n = 54) to evaluate the application used in combination with two different geolocation data types: While half of the participants used the BiodivAR application in combination with data provided by the devices\u2019 embedded GNSS as a control group, an experimental group used the application combined with Ardusimple RTK kits. During the test, in-app events and geolocated traces were recorded by the application. 47 participants also agreed to wear an eye-tracking device that captured their gaze direction in order to measure for how long they interacted with the screen versus nature. Directly after the test, participants answered an online survey containing a demographic questionnaire, an open question, and three different usability questionnaires:\r\nSystem Usability Scale (SUS), for a generic evaluation of the system.\r\nUser Experience Questionnaire (UEQ), for a comprehensive measure of user experience in terms of attractiveness, efficiency, reliability, stimulation, and novelty.\r\nHandheld Augmented Reality Usability Scale (HARUS), a mobile AR-specific questionnaire.\r\n\r\nThe in-app events and geolocated traces also allowed us to compute variables such as the total distance traveled, the time spent visualizing medias, or how long users have been using the interactive 2D map for navigation while in AR mode. Some of these results are still undergoing thorough analysis so that the role of each of these independent variables (interaction time, total distance, amount of POIs visited, etc.) on user-reported usability can be investigated by means of multiple linear regression. For example, encoding eye-tracking data to measure interaction with screen versus nature is particularly challenging and time-consuming. Thanks to this process, we expect to be able to further observe the impact of geolocation data on usability. will allow us to compare how much time users interacted with the screen versus nature within each group. Finally, thanks to unstructured feedback gathered through open questions, we shall be able to further improve the BiodivAR application before it is tested on the field, in the context of an educative field trip with pupils. \r\n\r\n\r\nThe collected data allowed us to get an overall evaluation of the system as well as more specific observations on the impact of the different geolocation data. While we expected the RTK group to give a better usability score, the exact opposite happened. We initially noticed that the using the RTK kit caused the CPU to crash more often than usual, because it required an additional NTRIP client application to run in the background. We therefore assumed that these crashes pejorated the usability. But when looking at the events logged, the RTK group actually suffered less crashes than the control group. It is by observing the geolocated traces\u2019 shapes that we noticed the RTK group\u2019s were star-shaped, revealing numerous outlying points in the data. The GNSS control group\u2019s traces did not feature such outliers, which we found out was due to an embedded filter. It turns out this filter cannot be applied when using RTK positioning systems, because they also obliterate measurement times, which are typically required by professionals. Using our system in combination with RTK kits made the initial positioning of the augmented objects more accurate, but it also brought a new source of jittering, which we presume resulted in the lower reported usability score. \r\n\r\nFrom the results of our comparative test, we draw the following conclusions: While we have failed to better the usability of our location-based AR system by combining it with RTK data, our test has however demonstrated a significant negative impact of varying geolocation data source on usability. This reinforced our intention to keep researching hardware and software solutions for efficient improvement of geolocation data.",
+    "start_datetime": "2023-06-30T13:20:00Z",
+    "end_datetime": "2023-06-30T13:25:00Z",
+    "talk:code": "ZPFBDA",
+    "talk:guid": "10c5ca73-bf7e-5f27-8559-0d6641c39da0",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Academic Track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "UBT E / N209 - Floor 3",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "QCYVQ3",
+        "name": "Julien Mercier",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/QCYVQ3/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-30T13:22:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/ZPFBDA/",
+      "title": "Impact of Geolocation Data on Usability in Augmented Reality: A Comparative User Test"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/ZPFBDA/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/QCYVQ3/",
+      "title": "Julien Mercier"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/ZPFBDA/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/uTGxJFTUagnxtnwGdABRbg",
+      "type": "text/html",
+      "title": "2023 | Impact of Geolocation Data on Usability in Augmented Reality: A Comparative User Test",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=mxw1kqYIHgE",
+      "type": "text/html",
+      "title": "2023 | Impact of Geolocation Data on Usability in Augmented Reality: A Comparative User Test",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

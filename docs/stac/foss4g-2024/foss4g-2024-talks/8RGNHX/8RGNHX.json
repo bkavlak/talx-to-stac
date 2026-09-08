@@ -1,0 +1,114 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "8RGNHX",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Adding GeoParquet to a Spatial Data Infrastructure: What, Why and How",
+    "description": "GeoParquet (https://geoparquet.org/) is a cloud-native format created to address the geospatial interoperability issues between data warehouses. It is based on the widely supported columnar storage Apache Parquet (https://parquet.apache.org/), extending it to add support for geometry data types (e.g.: points, lines and polygons). Although a relatively recent format, it already has a good ecosystem of tools, and it took Standardisation very seriously by joining the path to become an OGC Standard (https://github.com/opengeospatial/geoparquet).\r\n\r\nThe eMOTIONAL Cities project (https://emotionalcities-h2020.eu/) aims to understand how the natural and built environment can shape the feelings and emotions of those who experience it. At its core, lies a Spatial Data Infrastructure (SDI), which combines a variety of datasets from the Urban Health domain (https://emotional.byteroad.net/). These datasets should be available to urban planners, neuroscientists and other stakeholders, for analysis, creating data products and eventually making decisions based upon them. To support an efficient analysis, especially of the larger datasets, we have decided to offer GeoParquet as an alternate encoding. In this talk we share our experience, converting and publishing the +90 datasets of the eMOTIONAL Cities SDI using a stack of FOSS/OSGeo software (GDAL, gpq, pygeoapi).\r\n\r\nWe will show that there is already a set of (FOSS) tools in place (e.g.: readers, writers, validators) to support this task and to encourage others to add a Standards-based cloud-native format to their SDIs.",
+    "start_datetime": "2024-12-04T20:15:00Z",
+    "end_datetime": "2024-12-04T20:45:00Z",
+    "talk:code": "8RGNHX",
+    "talk:guid": "17767258-03f8-5afa-93a0-c9ee2bf76c52",
+    "talk:event": "foss4g-2024",
+    "talk:track": "Open Standard",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room V",
+    "talk:room_capacity": 80,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RU9BR9",
+        "name": "Antonio Cerciello",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/RU9BR9/"
+      },
+      {
+        "code": "FNYKAD",
+        "name": "Joana Simoes",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/FNYKAD/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-04T20:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/8RGNHX/",
+      "title": "Adding GeoParquet to a Spatial Data Infrastructure: What, Why and How"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/8RGNHX/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/RU9BR9/",
+      "title": "Antonio Cerciello"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/FNYKAD/",
+      "title": "Joana Simoes"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/8RGNHX/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slide-deck-pdf": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024/submissions/8RGNHX/resources/Adding_GeoParquet_1dYuor9.pdf",
+      "type": "application/pdf",
+      "title": "slide deck (pdf)",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "slide-deck": {
+      "href": "https://docs.google.com/presentation/d/1_UwY3doohlF5AKOZ_9gonYx75VoBb8QYH-d7PJ9OVUc/edit?usp=sharing",
+      "title": "Slide deck",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

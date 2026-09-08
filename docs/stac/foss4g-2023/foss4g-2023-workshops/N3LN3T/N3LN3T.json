@@ -1,0 +1,106 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "N3LN3T",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Manage your geospatial data with PostgreSQL/PostGIS",
+    "description": "PostgreSQL is a powerful, open source object-relational database system. It can be extended with PostGIS which allows you to store and handle geospatial data in the database.\r\nThis combination is very powerful and allows you many possibilities.\n\nEverything is possible with some magic lines of SQL. This workshop will help you with the first steps.\r\n\r\nMany processes that you did before with you Desktop GIS (f.e. intersection, union, buffer) can be easily done via SQL using PostGIS functions.\r\n\r\nIn the workshop you will get to know the databasemanagement sytem PostgreSQL and the extension PostGIS. There will be an introduction to PostgreSQL and SQL and you will learn SQL basics to create and modify data.\r\n\r\nYou also will get to know the concept of PostGIS and how geodata is stored in the database. You will get an overview about the enormous possibilities of PostGIS. In the workshops hands-ons we will concentrate on 2-dimensional data and we will use OSGeoLive for demonstration.\r\n\r\nYou will learn how to store, import and use geospatial data in the database. With QGIS you will discover how easy it is to bring your data to the database and out of it.\r\n\r\nYou will learn how to analyse and modify your data and learn how to make transformations, intersections, length/distance calculations, buffers, unions and more.\r\n\r\nEverything is possible with some magic lines of SQL.\r\n\r\nFind Workshop information and material:\r\n- https://trac.osgeo.org/osgeolive/wiki/Live_GIS_Workshop_Install\r\n- Workshop program https://github.com/astroidex/foss4g-2023-workshop-manage-your-geospatial-data-with-postgresql-postgis-astrid-emde/blob/main/foss4g-2023-workshop-manage-your-geospatial-data-with-postgresql-postgis-astrid-emde.md\r\n\r\nWorkshop will use OSGeoLive Version 16.0.",
+    "start_datetime": "2023-06-26T07:00:00Z",
+    "end_datetime": "2023-06-26T11:00:00Z",
+    "talk:code": "N3LN3T",
+    "talk:guid": "5428add1-1d4e-585d-ac05-6b16af94e021",
+    "talk:event": "foss4g-2023-workshop",
+    "talk:type": "Long Workshop",
+    "talk:language": "en",
+    "talk:room": "Drini",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "MF7PYA",
+        "name": "Astrid Emde",
+        "url": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/MF7PYA/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-26T09:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/N3LN3T/",
+      "title": "Manage your geospatial data with PostgreSQL/PostGIS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/N3LN3T/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/MF7PYA/",
+      "title": "Astrid Emde"
+    },
+    {
+      "rel": "related",
+      "href": "https://trac.osgeo.org/osgeolive/wiki/Live_GIS_Workshop_Install",
+      "title": "trac.osgeo.org/osgeolive/wiki/Live_GIS_Workshop_Install"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/astroidex/foss4g-2023-workshop-manage-your-geospatial-data-with-postgresql-postgis-astrid-emde/blob/main/foss4g-2023-workshop-manage-your-geospatial-data-with-postgresql-postgis-astrid-emde.md",
+      "title": "github.com/astroidex/foss4g-2023-workshop-manage-your-geospatial-data-with-postgresql-postgis-astrid-emde/blob/main/foss4g-2023-workshop-manage-your-geospatial-data-with-postgresql-postgis-astrid-emde.md"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/N3LN3T/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "workshop-slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-2023-workshop/submissions/N3LN3T/resources/foss4g-2023-workshop-manage-your-geosp_VQ9QLWI.pdf",
+      "type": "application/pdf",
+      "title": "Workshop Slides",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-workshops"
+}

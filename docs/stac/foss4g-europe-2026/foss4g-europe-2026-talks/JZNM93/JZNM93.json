@@ -1,0 +1,150 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "JZNM93",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "Discrete global grid systems for spatio-temporal aggregation and visualisation",
+    "description": "**This introductory talk aims at giving a conceptual overview and application examples for using Discrete Global Grid Systems in daily GIS analysis and visualisation tasks.**\r\n\r\nNear-real-time data, time series data and other spatio-temporal event data are often subject to the need for cartographic visualisation sooner or later, regardless of their intended purpose of analysis. If a web visualisation is planned, data preparation is a challenging task, as a prototypical quick-and-dirty web presentation in the browser quickly reaches its performance limits with large amounts of data. Depending on the application, the raw data volumes can be huge. The provision of raw data via OGC web services also scales poorly with increasing data volumes.\r\n\r\nThis is where aggregation or generalisation of the data becomes necessary. Self-defined grids, official or national grid systems and discrete global grid systems (DGGS) are very well suited for this. Some variants such as the INSPIRE-based [geographical grid for Germany](https://gdz.bkg.bund.de/index.php/default/inspire/sonstige-inspire-themen/geographische-gitter-fur-deutschland-in-lambert-projektion-geogitter-inspire.html), [Uber's hexagonal grid system H3](https://h3geo.org/) and [Google's hierarchical grid system S2](http://s2geometry.io/) will be briefly compared in the presentation.\r\n\r\nAlthough web mapping frameworks such as OpenLayers already offer practical methods such as [HexBin](https://viglino.github.io/ol-ext/doc/doc-pages/ol.source.HexBin.html) for creating a hexagon grid for a spatial aggregation of source data, all source data must first be transferred to the client's browser, which \u2014 experience has shown \u2014 quickly leads to performance problems. \r\n\r\nTwo project examples are giving a glimpse on more effective approaches for efficiently aggregating time series data in the hexagonal grid system H3:\r\n\r\n- Via post-processing at database level using the PostgreSQL extension [h3-pg](https://github.com/postgis/h3-pg) and\r\n- in real time during streaming data processing with Apache Flink by using the [H3 implementation in Java](https://github.com/uber/h3-java).\r\n\r\nThe ultimate goal in both cases is always a high-performance provision of the aggregated result data via OGC web interfaces such as WMS/WFS or API \u2013 Maps/API \u2013 Features. In this way, results are easily exchangeable and can be used flexibly in analysis tools of various players.\r\n\r\nFinally, [DGGAL](https://dggal.org/) and [Vgrid](https://vgrid.gishub.vn/) with bindings for Python and QGIS will be recommended as handy open-source tools. We may also take a look at the DGGS working group of the OGC and the OGC standard [API \u2013 DGGS](https://www.ogc.org/de/standards/dggs/).\r\n\r\nThe talk aims to present an approach to grid aggregation that is as generic as possible, so that the transferability of this practical methodology to numerous other statistical use cases is conveyed. In particular, traffic data, movement data and sensor data can be elegantly visualised with little effort and prepared for further analysis applications.",
+    "start_datetime": "2026-06-30T09:30:00Z",
+    "end_datetime": "2026-06-30T10:00:00Z",
+    "talk:code": "JZNM93",
+    "talk:guid": "45c6f127-abb5-53e9-ad1d-aad21b63cc31",
+    "talk:event": "foss4g-europe-2026",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "AM",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RVDUBZ",
+        "name": "Michael Scholz",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/RVDUBZ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-06-30T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/JZNM93/",
+      "title": "Discrete global grid systems for spatio-temporal aggregation and visualisation"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/JZNM93/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/RVDUBZ/",
+      "title": "Michael Scholz"
+    },
+    {
+      "rel": "related",
+      "href": "https://gdz.bkg.bund.de/index.php/default/inspire/sonstige-inspire-themen/geographische-gitter-fur-deutschland-in-lambert-projektion-geogitter-inspire.html",
+      "title": "geographical grid for Germany"
+    },
+    {
+      "rel": "related",
+      "href": "https://h3geo.org/",
+      "title": "Uber's hexagonal grid system H3"
+    },
+    {
+      "rel": "related",
+      "href": "http://s2geometry.io/",
+      "title": "Google's hierarchical grid system S2"
+    },
+    {
+      "rel": "related",
+      "href": "https://viglino.github.io/ol-ext/doc/doc-pages/ol.source.HexBin.html",
+      "title": "HexBin"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/postgis/h3-pg",
+      "title": "h3-pg"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/uber/h3-java",
+      "title": "H3 implementation in Java"
+    },
+    {
+      "rel": "related",
+      "href": "https://dggal.org/",
+      "title": "DGGAL"
+    },
+    {
+      "rel": "related",
+      "href": "https://vgrid.gishub.vn/",
+      "title": "Vgrid"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.ogc.org/de/standards/dggs/",
+      "title": "API \u2013 DGGS"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/JZNM93/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "pdf-slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2026/submissions/JZNM93/resources/2026-06-30_FOSS4GE_Scholz_DG_qCH7s2Y.pdf",
+      "type": "application/pdf",
+      "title": "PDF slides",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "examplary-aggregation-in-project-experience-atlas": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2026/submissions/JZNM93/resources/travel_experience_BCqYZkB.png",
+      "type": "image/png",
+      "title": "Examplary aggregation in project Experience Atlas",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

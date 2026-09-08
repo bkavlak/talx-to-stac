@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "EA7TMX",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "G3W-SUITE and QGIS integration: state of the art, latest developments and future prospects",
+    "description": "G3W-SUITE is a modular, client-server application (based on QGIS-Server) for managing and publishing interactive QGIS cartographic projects of various kinds in a totally independent, simple and fast way.\r\n\r\nAccessing administration, consultation of projects, editing functions and use of different modules are based on a hierarchic system of user profiling, open to editing and modulation.\r\n\r\nThe suite is made up of two main components: G3W-ADMIN (based on Django and Python) as the web administration interface and G3W-CLIENT (based on OpenLayer and Vue) as the cartographic client that communicate through a series of API REST.\r\n\r\nThe application, released on GitHub with Mozilla Public Licence 2.0, is compatible with QGIS LTR versions and it is based on strong integration with the QGIS API.\r\n\r\nThis presentation will provide a brief history of the application and insights into key project developments over the past year.\r\n\r\nThe developments affected both the administration and management component of the exposed WebGis services, both the aspects of interaction with web maps and their contents, as well as the aspects and functions related to online editing through integration with the QGIS API.\r\n\r\nA specific development, specifically covered in another submission, concerns the integration with the QGIS Processing API in order to migrate the analysis models, created in QGIS via the ModelDesigner, to a web environment.\r\n\r\nThe talk, accompanied by examples of application of the features, is dedicated to both developers and users of various levels who want to manage their cartographic infrastructure based on QGIS.",
+    "start_datetime": "2024-07-04T09:00:00Z",
+    "end_datetime": "2024-07-04T09:30:00Z",
+    "talk:code": "EA7TMX",
+    "talk:guid": "ff1cab83-51d2-5311-b050-798158b7cccc",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "GEOCAT (301)",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "D88UCN",
+        "name": "Walter Lorenzetti",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/D88UCN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-04T09:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/EA7TMX/",
+      "title": "G3W-SUITE and QGIS integration: state of the art, latest developments and future prospects"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/EA7TMX/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/D88UCN/",
+      "title": "Walter Lorenzetti"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/EA7TMX/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/EA7TMX/resources/g3w-suite_state_of_art_VwHbqQq.pdf",
+      "type": "application/pdf",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/1Xuw6W9MuohhMRN2hudotf",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | G3W-SUITE and QGIS integration: state of the art, latest developments and future ...",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=idgSrsXhMbo",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | G3W-SUITE and QGIS integration: state of the art, latest developments and future ...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

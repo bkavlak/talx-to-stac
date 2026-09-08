@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "8SQQB8",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Pedaling towards Progress: An Analysis of Capital Bikeshare Trips in Washington D.C. using Open-Source Geospatial Tools",
+    "description": "In this presentation, we showcase a unique approach to analyzing Capital Bikeshare trips in Washington D.C. using Open-Source Geospatial (FOSS4G) tools and technologies. Our project involved loading trip data into a PostGIS database, utilizing the Valhalla routing engine and OpenStreetMap data to find the optimal routes between each pair of stations, and then constructing a topogeometry table to represent these routes. Using this topogeometry table, we are able to estimate the number of Capital Bikeshare trips that occur on each road in Washington D.C.\r\n\r\nThe use of FOSS4G tools and technologies allowed us to perform this analysis in a cost-effective and efficient manner, while also providing high-quality results. The results of our analysis have important implications for urban planning and mobility research, as they can be used to understand the patterns and impacts of bike-share usage in cities.\r\n\r\nOur presentation will provide an overview of the methodology used in our project, as well as a discussion of the results and their implications. We will also share our experiences using FOSS4G tools and technologies and provide insights on how these tools can be used in similar projects. This presentation is of interest to geospatial professionals, urban planners, and anyone interested in using FOSS4G tools for data analysis and mobility research.",
+    "start_datetime": "2023-06-28T14:30:00Z",
+    "end_datetime": "2023-06-28T15:00:00Z",
+    "talk:code": "8SQQB8",
+    "talk:guid": "eefa195b-da0f-5aa3-a130-777eebecb642",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT C / N110 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "VLDU9J",
+        "name": "Max Lindsay",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/VLDU9J/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T14:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/8SQQB8/",
+      "title": "Pedaling towards Progress: An Analysis of Capital Bikeshare Trips in Washington D.C. using Open-Source Geospatial Tools"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/8SQQB8/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/VLDU9J/",
+      "title": "Max Lindsay"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/8SQQB8/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

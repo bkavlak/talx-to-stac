@@ -1,0 +1,97 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "LAY3QC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Development of tool for validity of decision support algorithm for environment impact assessment (EIA) Based on open source",
+    "description": "The open source based environmental impact assessment(EIA) decision support verification tool(verification tool) is a web-based tool for verifying the EIA algorithm based on the EIA review decision support algorithm using data for each Environmental Impact.\r\nThis verification tool was developed using open source projects such as PostGIS, GeoServer, and Openlayers. However, the flowchart library used a commercial software called GoJS.\r\nThis verification tool is intended to verify the adequacy of the implementation of the EIA algorithm developed by experts in each Environmental Impact.\r\nIt is possible to support comprehensive decision-making, including opinion gathering, by operating the review decision-making algorithm based on data by Environmental Impact and environmental impact analysis results.\r\nThe spatial analysis required to verify the algorithm was developed using OpenGXT of the OGC WPS service. It includes a way to visualize the result processed through this spatial analysis function.\r\n\r\nThis paper is based on the findings of the research project \u201cDevelopment of integrated decision support model for environmental impact assessment project,\u201d(2023-003(R)) which was conducted by the Korea Environment Institute (KEI) and funded by research and development project (Project No. 2020002990003) of the Environmental Industry & Technology Institute (KEITI) and the Ministry of Environment (MOE).",
+    "start_datetime": "2023-06-29T14:30:00Z",
+    "end_datetime": "2023-06-29T15:00:00Z",
+    "talk:code": "LAY3QC",
+    "talk:guid": "bfbcd11a-fd24-5f3e-9535-c4601c583706",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT D / N115 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "8R73FN",
+        "name": "jinwoo park",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/8R73FN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-29T14:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/LAY3QC/",
+      "title": "Development of tool for validity of decision support algorithm for environment impact assessment (EIA) Based on open source"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/LAY3QC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/8R73FN/",
+      "title": "jinwoo park"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/LAY3QC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "20230629-foss4g-frizren-development-of-tool-for-validity-of-": {
+      "href": "https://talks.osgeo.org/media/foss4g-2023/submissions/LAY3QC/resources/20230629_Foss4g_Frizren_jinwoopark_UHWT2ZU.pdf",
+      "type": "application/pdf",
+      "title": "20230629_Foss4g Frizren_Development of tool for validity of decision support algorithm for environment impact assessment (EIA) Based on open source_jinwoopark.pdf",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

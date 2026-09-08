@@ -1,0 +1,113 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "LHCTKU",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "1% AEP Current and Future Climate Flood Maps for Aotearoa New Zealand",
+    "description": "Flooding is one of the costliest hazards facing Aotearoa. We present a methodology for creating nationally consistent flood-maps for a range of current and future climate scenarios developed by the Endeavour M\u0101 te haumaru \u014d te wai: flood resilience Aotearoa. The maps are shared in an open-data repository.\n\nIntroduction\r\nFlood inundation modelling and the resultant flood maps are essential for understanding, planning for, and responding to flood events. Flooding is one of the most costly and impactful hazards facing Aotearoa, and the frequency and severity of flooding is projected to rise under a warmer future climate. \r\n\r\nHistorically in Aotearoa, flood hazard products have been produced at the local and regional levels using locally defined methodologies leaving Aotearoa without nationally consistent flood map products available for nation-wide hazard, risk and future climate analyses. This is the aim of the Endeavour project M\u0101 te haumaru \u014d te wai: flood resilience Aotearoa. \r\n\r\nM\u0101 te haumaru \u014d te wai aims to adhere to the principles of open science and access. Our methodology uses open-source software where possible, while also contributing directly to the development of two open-source software projects: BG_Flood and GeoFabrics. Additionally, where possible we use open data sources as inputs into the modelling methodology. Finally, the current and future climate scenario flood maps are published in an open-access data repository. \r\n\r\nWe present the automated cascaded modelling methodology used to produce nationally consistent fluvial and pluvial flood inundation maps by integrating climate science, rainfall statistics, hydrology, hydrodynamics and geospatial data for 256 flood domains across Aotearoa New Zealand. We apply this methodology to produce four current and future climate scenarios at a 1% Annual Exceedance Probability (AEP) for current, 1\u00b0, 2\u00b0 and 3\u00b0C warmer than current conditions and present a summary of these results. \r\n\r\nMethod\r\nWe created a cascaded modelling methodology to produce nationally consistent flood maps (Figure 1) consisting of five major stages: flood domain definition, topography and roughness generation, storm generation, hydrology modelling, and hydrodynamic modelling. The workflow was fully automated using Cylc [1], an open-source workflow engine, to control the progress between different stages. This allowed the workflow to be run across all flood domains for the current and future climate scenarios in an automated fashion.  \r\n\r\nOur modelling methodology begins with the definition of floodplains and associated catchments (Figure A.1.) where we perform our coupled hydrology (Figure A.4.) and hydrodynamic (Figure A.5.) modelling. For each catchment, a design rainfall event is created in the storm generation stage (Figure A.3) which forms another key input to both the hydrology and hydrodynamic modelling stages. The topography and roughness stage (Figure A.2) produces hydrologically conditioned Digital Elevation Models (DEMs) and hydraulic roughness layers across Aotearoa New Zealand which form third key input to the hydrodynamic modelling stage. A flood inundation map showing the maximal flood depths across the current climate scenario is shown for an example domain, the West Coast Fox River (Figure B). \r\n\r\nThe catchments and associated floodplains are defined from a set of basic manual outlines, a NZ wide river network, and nationwide population and building information. The manual outlines roughly indicate each floodplain in the country act to ensure appropriate groupings of nearby river courses. The floodplains are defined using a process to propagate up from the river mouth(s) (or downstream reach for inland catchments) to define relatively flat populated areas with available LiDAR where higher detail hydrodynamic modelling is undertaken. During this stage, river injection points are defined at the intersection between the flood plains and the river network; they are used to couple the hydrology model used in the upper catchment with the hydrodynamic model used over the floodplain in the lower catchment. \r\n\r\nWe use the Aotearoa-specific High Intensity Rainfall Design System (HIRDS) [2] to generate our rainfall events. HIRDS is an open tool (https://hirds.niwa.co.nz/) for generating rainfall estimates for a specified AEP and duration at any location across New Zealand where the rainfall estimates are derived from historic rainfall observations as well as other climatic and topographical information.  \r\n\r\nAll hydrology modelling in our workflow is performed using the Aotearoa New Zealand TopNet model [3]. We hydrologically model rainfall events with durations between 6 and 72hrs to experimentally determine a realistic worst case storm duration for each catchment. In each catchment, the selected worst-case duration 1% AEP rainfall event was used to force the coupled hydrology and hydrodynamic model.  \r\n\r\nHydrodynamic modelling was performed using BG_Flood [4] an open-source software (OSS) GPU-enabled adaptive resolution shallow-water solver that supports rain-on-grid. BG_Flood was actively developed as part of this project. The TopNet river flows from the upper catchment are injected into the hydrodynamic model around the edge of the floodplain. The rainfall event over the floodplain is also included directly to the hydrodynamic model as rain-on-grid. The NZ tide model, with open access through an online tool (https://tides.niwa.co.nz/), was used to provide tidal forcings (mean high water spring tide) around the coast.  \r\n\r\nThe hydrodynamic modelling also requires a hydrologically conditioned DEM and hydraulic roughness. These were produced using the OSS Python package GeoFabrics [5], which was also developed for this project. GeoFabrics is a Dask enabled Python tool for creating hydro DEMs and hydraulic roughness from LiDAR point clouds, other elevation, natural feature and infrastructure information. This was included within the workflow so that the topography and roughness information could be updated as LiDAR coverage increased across New Zealand from 20% at the project inception to 80% today. \r\n\r\nResults\r\nWe developed our workflow with a focus on iterative improvement. As such, we performed our first nationwide run concluding June 2024. These results were limited to 1% AEP at current climate and an 8m resolution. These were reviewed to identify key areas of improvement. Specifically, we identified: more realistic storm durations, inclusion of inland floodplains, inclusion of lakes and 150 missing culverts, the opening of more than 100 river mouths, and modelling to a resolution of 4m. \r\n\r\nWe have completed our second nationwide run to a resolution of 4m concluding June 2025 across four scenarios: 1% AEP at current, 1\u00b0, 2\u00b0, and 3\u00b0C warmer future climate. In our presentation we will cover several catchments in detail and share summary results comparing the current and future climate scenarios.  We will also share the open-data repository where the flood inundation maps across each catchment and scenario can be accessed. Finally, we will highlight how these products can be used to access impact through risk modelling in future studies.  \r\n\r\n\r\n\r\nReferences\r\n[1] Oliver et al., (2018). Cylc: A Workflow Engine for Cycling Systems. Journal of Open Source Software, 3(27), 737, https://doi.org/10.21105/joss.00737  \r\n\r\n[2] Carey-Smith, T., et al., (2018) High Intensity Rainfall Design System Version 4, NIWA Client Report 2018022CH prepared for Envirolink, retrieved from https://niwa.co.nz/climate-and-weather/hirdsv4-usage \r\n\r\n[3] Bandaragoda, C., et al.,\u202f(2004).\u202fApplication of TOPNET in the distributed model intercomparison project.\u202fJournal of Hydrology.\u202fhttps://doi.org/10.1016/j.jhydrol.2004.03.038  \r\n\r\n[4] Bosserelle, C., et al., (2022), BG-Flood: A GPU adaptive, open-source, general inundation hazard model; Australiasian Coasts and Ports 2021. https://github.com/CyprienBosserelle/BG_Flood. \r\n\r\n[5] Pearson, R et al., 2023, Geofabrics 1.0.0: An Open-Source Python Package for Automatic Hydrological Conditioning of Digital Elevation Models for Flood Modelling. Environmental Modelling and Software. http://dx.doi.org/10.2139/ssrn.4463610",
+    "start_datetime": "2025-11-19T00:30:00Z",
+    "end_datetime": "2025-11-19T00:55:00Z",
+    "talk:code": "LHCTKU",
+    "talk:guid": "2d9f6650-816f-5430-814f-0c7fe5a22985",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Use Cases and Applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WA220",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "8LSKKZ",
+        "name": "Rose Pearson",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/8LSKKZ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-19T00:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/LHCTKU/",
+      "title": "1% AEP Current and Future Climate Flood Maps for Aotearoa New Zealand"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/LHCTKU/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/8LSKKZ/",
+      "title": "Rose Pearson"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.21105/joss.00737",
+      "title": "doi.org/10.21105/joss.00737"
+    },
+    {
+      "rel": "related",
+      "href": "https://niwa.co.nz/climate-and-weather/hirdsv4-usage",
+      "title": "niwa.co.nz/climate-and-weather/hirdsv4-usage"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.1016/j.jhydrol.2004.03.038",
+      "title": "doi.org/10.1016/j.jhydrol.2004.03.038"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/CyprienBosserelle/BG_Flood",
+      "title": "github.com/CyprienBosserelle/BG_Flood"
+    },
+    {
+      "rel": "related",
+      "href": "http://dx.doi.org/10.2139/ssrn.4463610",
+      "title": "dx.doi.org/10.2139/ssrn.4463610"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/LHCTKU/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

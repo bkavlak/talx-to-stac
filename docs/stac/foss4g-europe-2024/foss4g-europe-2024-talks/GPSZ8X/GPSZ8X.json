@@ -1,0 +1,126 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "GPSZ8X",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Digital Twins: Metropolitan Cooperation Platform and Underground Network",
+    "description": "Digital twins and 3D are becoming increasingly important for planning, data diffusion and decision-making. Several projects are currently underway at Camptocamp, in collaboration with Virtual City Systems and Cesium. We will present two very different use cases: developments around Rennes M\u00e9tropole and the underground network for the SUEZ project.\r\n\r\nRennes M\u00e9tropole \r\n\r\nIn a context of digital transition and the increasing availability of urban data, Rennes M\u00e9tropole wishes to better equip its decisions and public policies on the basis of data and cooperation. Ultimately, the goal is to promote cooperation and the contribution of the different actors and \"enlighten\" public decisions and policies, in particular the democratic, ecological and energy transition projects. Issues of transparency, public service efficiency and cost control are also sought.\r\n\r\nThe platform is developed partly on VC Map which is an Open-Source JavaScript framework and API for building dynamic and interactive maps on the web. It can display 2D data, oblique imagery and massive 3D data including terrain data, vector data, mesh models, and point clouds making it easy for users to explore and interact with the data in an integrated and high-performance map application. VC Map is built upon open, proven, and reliable GIS and web technologies such as OpenLayers and Cesium for the visualization of 2D and 3D geo-data.\r\n\r\nA particular effort was made on the design in order to offer users, mainly citizens, a pleasant user experience that allows an exploration of the development projects of the metropole in 2D and 3D. We will present the cooperation platform through three use cases of interest for Rennes Metropole : simulation of the photovoltaic production potential, linear transport systems and exposure to electromagnetic waves.\r\n\r\nSUEZ\r\n\r\nAs part of its work in the field of water management, SUEZ has a number of requirements for 3D data visualization, particularly for underground data. The project focuses on two main areas: the visualizer and data preparation.\r\n\r\nThe visualizer is designed to be integrated into an application developed by SUEZ. It is based on Cesium, to which specific functionalities have been added. One of the major challenges was to integrate two types of navigation into the same application: \r\n* Constrained navigation. Possibility of positioning oneself in an underground pipe and moving through it without passing through the walls, with video game-style controls\r\n* Free navigation. More traditional 3D controls with floor transparency\r\n\r\nThe other aspect of the project is data preparation. A processing chain was set up to construct the pipe tubes, whose data was initially in 2D. Other objects in IFC format, such as pumping stations, were merged and added to the model, while allowing them to be queried via Cesium. Finally, a textured 3D mesh was used to realistically reproduce the interior of the pipes. The challenge was to ensure consistency between these heterogeneous data sources provided by SUEZ.",
+    "start_datetime": "2024-07-04T08:00:00Z",
+    "end_datetime": "2024-07-04T08:30:00Z",
+    "talk:code": "GPSZ8X",
+    "talk:guid": "7e922daf-9d6b-59dc-9504-3fe5e5bd760e",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "QFieldCloud (246)",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "ATJDWY",
+        "name": "Yves Bolognini",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/ATJDWY/"
+      },
+      {
+        "code": "7LGZZN",
+        "name": "Ben Kuster",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/7LGZZN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-04T08:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/GPSZ8X/",
+      "title": "Digital Twins: Metropolitan Cooperation Platform and Underground Network"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/GPSZ8X/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/ATJDWY/",
+      "title": "Yves Bolognini"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/7LGZZN/",
+      "title": "Ben Kuster"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/GPSZ8X/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://docs.google.com/presentation/d/1ihWXjAJYFEfWyT21_gPXUrSL8KlDHGEPhdakuf2Asos/edit?usp=sharing",
+      "title": "Presentation",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/bDnHTtA8JUnWjZ4nKaWcSA",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Digital Twins: Metropolitan Cooperation Platform and Underground Network",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=AeBtiz1-7Y8",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Digital Twins: Metropolitan Cooperation Platform and Underground Network",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

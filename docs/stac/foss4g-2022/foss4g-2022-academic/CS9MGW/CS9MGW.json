@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "CS9MGW",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "The STAGA-Dataset: Stop and Trip Annotated GPS and Accelerometer Data of Everyday Life",
+    "description": "## Motivation & Contribution\r\n\r\nPart of the development of an analysis pipeline for mobility studies using GPS data is benchmarking its performance on both the raw data accuracy and the analysis pipeline itself. When we started to develop our algorithm for stop and trip classification, it became clear that we needed a precisely annotated dataset containing accurate stop and trip labels as a ground truth. Apart from validating our development, we wanted to have a reference point for comparing our analysis methods with existing libraries.\r\n\r\nFor the study, we planned to equip participants with a smartphone to collect movement data in form of GPS and acceleration data for several days in a row. To prolong battery time, we chose a lower sample frequency. Our special focus was to create ground truth for stop and trip detection algorithms, hence the annotation focused on this.\r\n\r\nThrough this manuscript, we contribute a comprehensive dataset providing accurate start and end timestamps for stops over 126 days. The STAGA dataset is an unprocessed table of GPS coordinates, annotated with a timestamp, altitude, GPS accuracy, and class label (\"stop\" or \"trip\"). Each sample labeled as a \"stop\" further contains the GPS coordinates of the location it's attributed to. The acceleration data is provided as a separate file, but covers the same time frame and contains a triple (x, y, z) of acceleration sensor readings for each given timestamp, sampled at 1 Hz. The STAGA~dataset is provided publicly and free to use. We further provide the iOS app used to create the diary data for simple stop/trip annotation while on the go. All this is made available under CC BY 4.0.\r\n\r\n\r\n## Method\r\n\r\n#### Diary\r\n\r\nTo create the dataset, we first tried a traditional diary approach: four researchers were taking notes, writing down addresses and times whenever they stopped. While this provided some first samples, it was a tedious and error-prone process, since taking notes is impractical in everyday life. Furthermore, it required looking up the coordinates belonging to each noted address, which works for clearly defined, urban spaces but can become problematic otherwise, e.g. in a park or a rural, outdoor environment as addresses aren't precise enough here. Because of that, we developed a simple iOS app that helped us annotate our movements. The app contains a map to validate the identified position, one button to start or end a stop, and a list overview of previously recorded stops. It captures the GPS position whenever a new stop is started and stores the current time as the start timestamp. When the button is pressed again, the stop is completed and the current time is stored as the end timestamp. Trips are derived from the intervals between two stops. Even more, the app allows exporting the captured annotations as a CSV file which can be directly used for benchmarking purposes. This way, we were able to create a GPS dataset containing precise stop/trip annotations, together with a reference position of the actual stop location. The diary was recorded using an Apple iPhone XR.\r\n\r\n#### Data Collection\r\n\r\nThe device we used for the recordings was a ZTE Blade A5 (2019). It was configured to record GPS samples at a minimum accuracy of 25m, so if the device was unable to obtain a position reading within this radius, the data point was omitted. We sampled data with a frequency of 0.1 Hz and used both network and GPS as sources for determining the position (the smartphone supports A-GPS and GLONASS). It runs Android 9 and is equipped with a 2.600 mAh battery; during the recording of the dataset, the battery was always charged before the phone shut down.\r\n\r\nWhile the dataset contains mostly everyday life, it also holds small periods of vacation, travel, and hiking. Most trips were carried out by bike. However, the dataset contains long periods of walking, car traffic, and train rides as well. While the data was recorded in two different European countries (mostly urban environments), everything was rotated and projected into the North Atlantic for privacy protection. In the same vein, all timestamps have been shifted to start on January first in the year 2000. However, none of these changes should affect the performance of stop and trip detection algorithms, as the relative temporal and spatial accumulation of GPS records are not changed.\r\n\r\n\r\n## Dataset Statistics\r\n\r\nThe dataset contains 122,808~GPS and 7,813,740~accelerometer records. The recording time spans over 126.65~days. \r\nThe diary contains 692~stops and 691~trips.\r\nThe average (mean) duration of a stop is $240.8min$; the average trip duration is $22.7min$.\r\nOn average, a stop contains $114.0$ GPS samples; a trip contains $63.5$ GPS samples (mean).\r\n\r\n\r\n## Discussion & Use-Cases\r\n\r\nThis dataset enables researchers to validate the performance of their algorithms that are used to predict stops and trips from GPS data. It provides a ground truth through careful annotations over a long period. In particular, the development of algorithms for stop and trip classification should profit from this dataset as it enables accuracy tests in the temporal and spatial domain. Due to free access, researchers can use it in various projects, enabling them to make data-driven decisions in the development of mobility research frameworks.\r\n\r\n\r\n## Data-Availability\r\n\r\nThe described dataset, containing GPS & acceleration records and stop/trip annotations, are publicly available at the Open Science Framework under a CC-By Attribution 4.0 International license: https://osf.io/34sft/\r\n\r\nThe annotation companion app we used to annotate the dataset is free software under a BSD 3-Clause license: https://github.com/RGreinacher/GPS-Diary",
+    "start_datetime": "2022-08-24T13:30:00Z",
+    "end_datetime": "2022-08-24T13:35:00Z",
+    "talk:code": "CS9MGW",
+    "talk:guid": "4524485b-1e44-5ef0-a9bb-82baf36e0c8b",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "Room Hall 3A",
+    "talk:room_capacity": 85,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "T7JJZD",
+        "name": "Robert Spang",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/T7JJZD/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T13:32:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/CS9MGW/",
+      "title": "The STAGA-Dataset: Stop and Trip Annotated GPS and Accelerometer Data of Everyday Life"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/CS9MGW/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/T7JJZD/",
+      "title": "Robert Spang"
+    },
+    {
+      "rel": "related",
+      "href": "https://osf.io/34sft/",
+      "title": "osf.io/34sft"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/RGreinacher/GPS-Diary",
+      "title": "github.com/RGreinacher/GPS-Diary"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/CS9MGW/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

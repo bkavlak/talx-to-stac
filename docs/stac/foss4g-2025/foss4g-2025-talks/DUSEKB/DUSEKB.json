@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "DUSEKB",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Developing a user-oriented data cube for biodiversity and carbon dynamics assessment in Estonia with remote sensing data",
+    "description": "This presentation covers the development of a national data cube for Estonia, integrating remote sensing data and using open-source tools. It provides analysis-ready data for biodiversity and carbon research, overcoming technical hurdles. User-friendly tools and cloud computing enhance data access, empowering informed decision-making for sustainable development.\n\nIntroduction\r\nAddressing global environmental challenges like land use and climate change requires timely, accurate information. Earth Observation (EO) data, from satellites and UAVs, is essential for monitoring these dynamics. Thanks to open data policies and advancements in software and cloud computing, EO data enhances environmental management and policy assessment, contributing to sustainable development. However, there are technical challenges, including data storage and analysis, and the need for computational architectures that handle large datasets.\r\nTraditional data cubes often lack the readiness needed for advanced AI and machine learning techniques, which require structured, rich datasets. User-friendly platforms with intuitive access and customizable tools are crucial for researchers and policymakers.\r\nOur project aims to create a comprehensive data cube for Estonia, utilizing remote sensing and geospatial data and open-source tools to advance biodiversity and carbon dynamics research. The fusion of LiDAR, radar, and passive remote sensing offers untapped potential for modeling, and multi-temporal datasets can predict vegetation and environmental variables effectively.\r\n\r\nData and Methods\r\nWe incorporated data from Sentinel-1, Sentinel-2, Landsat, and high-resolution airborne LiDAR. We used Google Earth Engine and Python for data pre-processing. Additionally, digital elevation models and the Estonian soil map were used to prepare the data cube layers. The study area was divided into manageable tiles using a spatial grid, creating 10m resolution Cloud Optimized GeoTIFFs (COGs) to facilitate efficient processing and downloading.\r\n\r\nLiDAR data allowed us to calculate biodiversity-relevant indices, including ecosystem height, cover, and structural complexity. These were processed with tools like PDAL and laspy for precise classification and filtering.\r\n\r\nThe data cube runs on a high-performance cloud platform, using S3 storage for COGs and libraries such as rasterio to gather metadata. This metadata is integrated into a STAC-compatible web service, enabling seamless access through platforms like QGIS and Python for efficient querying and processing.\r\n\r\nData Cube Access\r\nOur data cube portal (https://geokuup.ee/estonia) , developed with the Phoenix framework, utilizes MapLibre for data visualization. This setup supports quick visualizations and queries, organizing datasets into collections for user convenience. Users can create custom collections, tailoring data sets to specific research needs, which enhances the system\u2019s flexibility.\r\n\r\nBy adopting best practices in geospatial data management, we leveraged open-source tools like GeoServer and pygeoapi, along with the Pangeo ecosystem, to streamline processing. The Phoenix framework offers a robust and efficient solution for managing concurrent users, ensuring stability and performance.\r\n\r\nOutcomes and Future Work\r\nThe data cube provides high-resolution spatial data for academic and governmental purposes, with a strong focus on biodiversity and carbon research. It offers a scalable solution that can be extended to other research domains by incorporating additional data layers.\r\nFuture work will focus on processing data into multiple resolutions and expanding the range of datasets and workflows to enhance data retrieval and analysis. This will further support informed decision-making and sustainable development initiatives, empowering researchers and policymakers with timely environmental information.",
+    "start_datetime": "2025-11-20T00:30:00Z",
+    "end_datetime": "2025-11-20T00:55:00Z",
+    "talk:code": "DUSEKB",
+    "talk:guid": "885811a3-1b8f-5d58-a6a9-e070849f9bf6",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Use Cases and Applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG126",
+    "talk:room_capacity": 140,
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "PQFYHP",
+        "name": "Alexander Kmoch",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/PQFYHP/"
+      },
+      {
+        "code": "NZESJL",
+        "name": "Evelyn Uuemaa",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/NZESJL/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-20T00:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/DUSEKB/",
+      "title": "Developing a user-oriented data cube for biodiversity and carbon dynamics assessment in Estonia with remote sensing data"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/DUSEKB/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/PQFYHP/",
+      "title": "Alexander Kmoch"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/NZESJL/",
+      "title": "Evelyn Uuemaa"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/DUSEKB/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=fanEDcIadnQ",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Developing a user-oriented data cube for biodiversity and carbon dynamics assessment",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

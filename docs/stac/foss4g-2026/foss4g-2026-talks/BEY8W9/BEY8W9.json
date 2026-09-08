@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "BEY8W9",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "MUSUBOU-AR: An Open-Source Geospatial AR Framework for Integrating Public GIS Data, Field Authoring, and Disaster Walking Tours",
+    "description": "Conventional hazard maps, public GIS layers, and disaster education materials remain essential resources for community disaster risk reduction. However, they do not always support in-situ spatial understanding during field-based learning and training. In many disaster walking tours, participants can read hazard maps and view web GIS layers, yet still struggle to connect those representations with the terrain, streetscape, and built environment around them. This gap is especially evident for children, first-time visitors, and residents who are not accustomed to translating two-dimensional hazard information into situated judgment. To address this problem, we developed MUSUBOU-AR, an open-source geospatial augmented reality framework for disaster walking tours, community disaster risk communication, and place-based disaster learning. Rather than treating AR only as an immersive visualization layer, the framework is designed as a reusable geospatial system that connects public GIS resources, local scenario authoring, on-site AR interpretation, and post-activity review.\r\nMUSUBOU-AR is a mobile application that switches between a conventional map mode and an AR mode. In AR mode, virtual hazards are displayed relative to the user\u2019s current position so that disaster scenarios can be experienced where risks may emerge. The system supports multiple disaster types, including flood inundation, fire, landslide, building collapse, block-wall collapse, and liquefaction. Hazards can also be configured as time-varying events, enabling organizers to express dynamic scenarios such as expanding floodwater or spreading urban fire during field-based training. This design supports a transition from passive map reading to situated risk interpretation.\r\nExisting studies in disaster education and geospatial learning have explored practical drills, ICT-based learning materials, game-based activities, and AR-supported virtual disaster experiences. In contrast, our contribution is not centered on AR experience alone. We position MUSUBOU-AR as an open geospatial framework that integrates publicly available GIS layers, reusable route and scenario authoring, field logging, and optional LiDAR-enhanced visualization within a single deployable workflow.\r\nA core contribution of the framework is its interoperability with open geospatial data. In map mode, MUSUBOU-AR supports the standard XYZ tile scheme used in Japanese public map distribution, making it possible to overlay publicly available GIS layers, including Geospatial Information Authority of Japan tiles and hazard-related layers distributed through the national hazard map portal. Project-specific or locally prepared datasets can also be incorporated through standard GIS workflows by generating custom XYZ tiles with QGIS and plugins such as QTiles and deploying them on a web server for use in the application. The framework also integrates Apple Watch-based trajectory and activity logging, synchronizes positional and biometric records into a unified GPX-based dataset, and supports open-source web review through GPXreaderWeb. In addition, LiDAR-enhanced rendering on supported iPhone Pro and iPad Pro devices improves spatial recognition and allows floodwater to be rendered at a specified height above the recognized ground surface while preserving backward compatibility for non-LiDAR devices.\r\nAnother key contribution is the authoring workflow. Although public GIS and open data make disaster-related information widely available, preparing field-ready AR content remains a practical bottleneck. To reduce that barrier, we developed a web-based authoring environment for MUSUBOU-AR datasets by customizing the open-source Re:Earth platform. This tool allows users to create, edit, and export the core data required by the application, including points, routes, and GIS layers. The contribution is therefore not limited to the application itself; it also includes a reusable workflow for transforming public geospatial resources and local field knowledge into deployable AR scenarios.\r\nWe position MUSUBOU-AR not merely as an educational app but as an open geospatial workflow for field deployment. The framework has already been deployed in multiple community- and school-based activities in Japan, including disaster walking tours, local awareness events, and place-based disaster learning programs. In this paper, we draw on these deployments and present a joint disaster walking tour conducted in the Hiro area of Kure City, Hiroshima Prefecture, as a representative validation case. In that case, route design and hazard placement were based on publicly available flood and landslide hazard maps, local field inspection, and additional local disaster-related map information.\r\nThis case is used as field validation, not as the primary contribution of the paper. Before the activity, university students studied topography, hazard maps, and three-dimensional terrain representations of the area. During the field session, they walked with elementary school pupils and used MUSUBOU-AR to explain local hazards in situ. Pre- and post-activity questionnaires administered to the university students were analyzed using multilevel models. The results showed a significant overall shift toward higher response levels after the activity, with an odds ratio of 21.7 for moving to a higher response category in the cumulative logit mixed model. Particularly relevant from a geospatial perspective, significant gains were observed in noticing environmental danger signs, understanding hazard maps and disaster-related signs, identifying dangerous and relatively safe places on maps, and planning evacuation routes while using maps. Open-ended responses further indicated that participants frequently identified roadside ditches or waterways and narrow roads as hazardous places, mainly in relation to flood or inundation risk.\r\nThis study has limitations. The field validation involved a relatively small sample and did not include a control group, so causal claims about educational effectiveness should be made cautiously. Nevertheless, the main contribution of this work lies in presenting an openly reusable geospatial AR framework that combines interoperability with public GIS and open data, a web-based authoring workflow for routes, points, and tiled layers, mobile AR hazard visualization with optional LiDAR enhancement, and GPX-based field logging with open-source web review. The source code of MUSUBOU-AR is publicly available in a GitHub repository, supporting reuse and reproducibility. We therefore position MUSUBOU-AR as a practical contribution to the FOSS4G community, demonstrating how open geospatial data, open-source software, and field-deployable AR can be combined for disaster risk communication.",
+    "start_datetime": "2026-09-01T05:30:00Z",
+    "end_datetime": "2026-09-01T06:00:00Z",
+    "talk:code": "BEY8W9",
+    "talk:guid": "a49ed356-e14e-5417-9a5b-dd37104f7e37",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos2",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RVFJSB",
+        "name": "Daisuke Yoshida",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/RVFJSB/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T05:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/BEY8W9/",
+      "title": "MUSUBOU-AR: An Open-Source Geospatial AR Framework for Integrating Public GIS Data, Field Authoring, and Disaster Walking Tours"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/BEY8W9/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/RVFJSB/",
+      "title": "Daisuke Yoshida"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/BEY8W9/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

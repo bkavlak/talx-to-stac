@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "GFYMJ7",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Improving Water Data Access with Cloud Native Geospatial Formats",
+    "description": "Cloud Native Geospatial formats like FlatGeobuf and GeoParquet allow applications to access geospatial data directly from an object store with no API server maintenance. This session will explain how the Geoconnex project has leveraged such formats to improve the user experience of analyzing hydrological information across the United States.\n\nMany organizations want to share their data in a web accessible way, but do not have sufficient time to maintain APIs. Additionally, generating subsets of data for web access can easily become out of sync. Cloud native geospatial formats like FlatGeobuf and GeoParquet help to solve this by allowing for data access via http range requests and skipping the need for databases or server maintenance. We will discuss the tradeoffs between FlatGeobuf vs GeoParquet and how the Geoconnex project, funded by the US Geological Survey, has used FlatGeobuf for storing data pertaining to all hydrologic catchments and mainstem rivers in the entire United States. This has allowed the project to use the same exact file for both internal microservices and frontend applications. We will show how these formats have helped to reduce the workload of maintaining hydrological dataset and improved the user experience for researchers.",
+    "start_datetime": "2026-09-02T04:50:00Z",
+    "end_datetime": "2026-09-02T04:55:00Z",
+    "talk:code": "GFYMJ7",
+    "talk:guid": "679abfc7-7b95-597e-8ef6-33ebd917c7ef",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Lightning Talk",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Ran1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "U3KYYC",
+        "name": "Colton Loftus",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/U3KYYC/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T04:52:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/GFYMJ7/",
+      "title": "Improving Water Data Access with Cloud Native Geospatial Formats"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/GFYMJ7/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/U3KYYC/",
+      "title": "Colton Loftus"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/GFYMJ7/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

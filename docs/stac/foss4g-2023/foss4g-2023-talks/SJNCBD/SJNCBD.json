@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "SJNCBD",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Improving QGIS plugin developer experience",
+    "description": "At the National Land Survey of Finland (NLS) we are developing multiple QGIS plugins, and we needed a way to share the common code and break the components to smaller independent plugins while still providing a good developer experience. \r\n\r\n \r\n\r\nOne of the main issues when sharing library code between different QGIS plugins is the runtime environment uncertainty. Since Python import machinery is not easily configurable to support multiple versions of dependencies (like nested node_modules in nodejs-world), the runtime is limited by default to a single version of a library, and later access to the same module is cached. This limits the version available to all plugins in a single QGIS session to the code that is first run, which makes sharing code difficult, especially when breaking API changes are necessary to the dependency library code. \r\n\r\n \r\n\r\nAt NLS we developed tooling to work around these limitations, which improves the developer experience and allows sharing of common QGIS plugin code easily via standard Python libraries. Tool provides a streamlined developer workflow and necessities like typing and IDE helpers, and a way to package a plugin that depends on other standard Python libraries. \r\n\r\n \r\n\r\nDevelopment environment for a QGIS plugin can be initialized simply by using a virtual environment, installing the dependencies and launching QGIS with the plugin and its dependencies fully setup. This works with bootstrap code passed on the command line, which will provide QGIS access to the virtual environment, setups the plugin from the environment with access to any library dependencies. Tool also provides a debugger session and could also provide for example hot reload signals for the plugin when code is changed. This provides a quicker and easier feedback cycle for the developer and simplifies the workflows when developing QGIS plugins. \r\n\r\n \r\n\r\nRuntime dependencies are reorganized at build-time to be imported for a sub-package of the plugin, so only the exact packaged version of a dependency is used at runtime. This works by rewriting external library dependency import statements in the source code. Tool also generates the metadata.txt file in a way that is compatible with standard Python packaging tools, for example setuptools. This allows easily sharing the same code both as Python library and as a QGIS plugin.",
+    "start_datetime": "2023-06-29T12:30:00Z",
+    "end_datetime": "2023-06-29T13:00:00Z",
+    "talk:code": "SJNCBD",
+    "talk:guid": "ffdf3c72-22db-5a3c-9ff1-7290727774de",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT D / N112 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "P9PE8N",
+        "name": "Antero Komi",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/P9PE8N/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-29T12:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/SJNCBD/",
+      "title": "Improving QGIS plugin developer experience"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/SJNCBD/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/P9PE8N/",
+      "title": "Antero Komi"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/SJNCBD/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-2023/submissions/SJNCBD/resources/presentation-foss4g_qysDYgf.pdf",
+      "type": "application/pdf",
+      "title": "Presentation slides",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=PuB7Zyi71rw",
+      "type": "text/html",
+      "title": "2023 | Improving QGIS plugin developer experience - Antero Komi",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/tYUaCruHaEyeuL8WbncEJ1",
+      "type": "text/html",
+      "title": "2023 | Improving QGIS plugin developer experience - Antero Komi",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

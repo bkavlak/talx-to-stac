@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "3DECQE",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Visualising Future Climate Projections with Open-Source Python (From CMIP6 Data to Interactive Web Maps)",
+    "description": "Accessing and visualising climate data can be challenging due to high volume of available datasets and the significant memory requirements that come with processing them. This workshop guides participants accessing CMIP6 climate model data, processing it with Python, computing different climatic indicators and develop interactive web maps using MapLibre GL.\n\nThis hands-on workshop would walk participants through a complete open-source Python workflow for exploring and communicating future climate projections using CMIP6 data. The first half of the workshop will cover assessing CMIP6 data directly from Google Cloud\u2019s public storage using the Pangeo intake catalog. Participants will learn to work with NetCDF and Zarr formats using xarray, subset data to a region of interest, and compute climate indicators including days above heat thresholds and rainfall anomalies.\r\nIn the second half of the workshop, the focus will be on visualisation, i.e. creating publication-quality static maps with Cartopy and Matplotlib, converting processed data to GeoJSON, and building a simple interactive climate explorer web map using MapLibre GL. All exercises will run in Jupyter notebooks. Basic Python familiarity is assumed, but no climate science background is required for this workshop, only a passion to learn how the rainfall patterns would look like in the next 50 years.",
+    "start_datetime": "2026-08-30T01:00:00Z",
+    "end_datetime": "2026-08-30T04:00:00Z",
+    "talk:code": "3DECQE",
+    "talk:guid": "3e306e0e-4574-5a51-b9b6-0649be62bc87",
+    "talk:event": "foss4g-2026-workshop",
+    "talk:type": "Workshop",
+    "talk:language": "en",
+    "talk:room": "605",
+    "talk:room_capacity": 45,
+    "talk:duration_minutes": 180,
+    "talk:speakers": [
+      {
+        "code": "XGDJNU",
+        "name": "Maryam Montazerolghaem",
+        "url": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/XGDJNU/"
+      },
+      {
+        "code": "TNLJLC",
+        "name": "Saba Zehra",
+        "url": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/TNLJLC/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-08-30T02:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/3DECQE/",
+      "title": "Visualising Future Climate Projections with Open-Source Python (From CMIP6 Data to Interactive Web Maps)"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/3DECQE/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/XGDJNU/",
+      "title": "Maryam Montazerolghaem"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/TNLJLC/",
+      "title": "Saba Zehra"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/3DECQE/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-workshops"
+}

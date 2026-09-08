@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "TZV7GQ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Advanced PostGIS: Beyond the basics.",
+    "description": "Going beyond all the common functions that most folks use PostGIS for. Delving into advanced use cases and using PostGIS in production workloads.\n\nPostGIS, sitting on top of Postgresql, is by most metrics, the most popular spatial database. Many videos are online about how to install and use PostGIS....many are from prior FOSS4G conferences and do a good job in getting you to understand the basics. Most of them, however, only scratch the surface when it comes to the power that can be wielded with PostGIS.\r\n\r\nThis workshop seeks to explore a wide array of functions that may not be used on a regular basis or are outside the scope of common spatial queries.. These include, but are not limited to:\r\n- Linear Referencing\r\n- Clustering\r\n- Using rasters\r\n- Vector Tiles\r\n\r\nThere will also be an emphasis on using PostGIS in production, so there will be some usage of other software products (for example: Martin Vector tile server or pg_featureserv or pg_tileserv ). Consideration will also be given to the ecosystem around PostGIS (For example: ogr_fdw)",
+    "start_datetime": "2023-06-26T12:00:00Z",
+    "end_datetime": "2023-06-26T16:00:00Z",
+    "talk:code": "TZV7GQ",
+    "talk:guid": "614fac2e-98db-5082-a899-ad08da300d39",
+    "talk:event": "foss4g-2023-workshop",
+    "talk:type": "Long Workshop",
+    "talk:language": "en",
+    "talk:room": "Drini",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "KEAEFN",
+        "name": "Rhys Stewart",
+        "url": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/KEAEFN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-26T14:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/TZV7GQ/",
+      "title": "Advanced PostGIS: Beyond the basics."
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/TZV7GQ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/KEAEFN/",
+      "title": "Rhys Stewart"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/TZV7GQ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-workshops"
+}

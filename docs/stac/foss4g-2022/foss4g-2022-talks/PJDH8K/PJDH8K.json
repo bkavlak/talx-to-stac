@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "PJDH8K",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Building Footprint Extraction in Vector Format Using pytorch_segmentation_models_trainer, QGIS Plugin DeepLearningTools and The Brazilian Army Geographic Service Building Dataset",
+    "description": "Building footprint extraction is a popular and booming research field. Annually, several research papers are published showing deep learning semantic segmentation-based methods to perform this kind of automated feature extraction. Unfortunately, many of those papers do not have open-source implementations for public usage, making it difficult for other researchers to access those implementations.\r\n\r\nHaving that in mind, we present DeepLearningTools and pytorch_segmentation_models_trainer. Both are openly available implementations of deep learning-based semantic segmentation. This way, we seek to strengthen the scientific community sharing our implementations.\r\n\r\nDeepLearningTools is a QGIS plugin that enables building and visualizing masks from vector data. Moreover, it allows the usage of inference web services published by pytorch_segmentation_models_trainer, creating a more feasible way for QGIS users to train Deep Learning Models.\r\n\r\npytorch_segmentation_models_trainer (pytorch-smt) is a Python framework built with PyTorch, PyTorch-Lightning, Hydra, segmentation_models.pytorch, rasterio, and shapely. This implementation enables using YAML files to perform segmentation mask building, model training, and inference. In particular, it ships pre-trained models for building footprint extraction and post-processing implementations to obtain clean geometries. In addition, one can deploy an inference service built using FastAPI and use it in either web-based applications or a QGIS plugin like DeepLearningTools.\r\n\r\nResNet-101 U-Net Frame Field, ResNet-101 DeepLabV3+ Frame Field, HRNet W48 OCR Frame Field, Modified PolyMapper (ModPolyMapper), and PolygonRNN are some of the models available in pytorch-smt. These models were trained using the Brazilian Army Geographic Service Building Dataset (BAGS Dataset), a newly available dataset built using aerial imagery from the Brazilian States of Rio Grande do Sul and Santa Catarina. Pytorch-smt also enables training object detection and instance segmentation tasks using concise training configuration.\r\n\r\nThis way, considering the aforementioned, this talk presents the usage overview of both technologies and some demonstrations. Using metrics like precision, recall, and F1, we assess the results achieved by the implementations developed as a product of our research, showing that they have the potential to produce vector data more efficiently than manual acquisition methods.\r\n\r\nDeepLearningTools is available at the QGIS plugin repository, while pytorch_segmentation_models_trainer is available at Python Package Manager (pip). The Brazilian Army Geographic Service develops both solutions, making their codes available at https://github.com/phborba/DeepLearningTools and https://github.com/phborba/pytorch_segmentation_models_trainer.",
+    "start_datetime": "2022-08-26T12:15:00Z",
+    "end_datetime": "2022-08-26T12:45:00Z",
+    "talk:code": "PJDH8K",
+    "talk:guid": "7ef7f5ab-12e1-5b9e-9a19-c01ef60dccc6",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room 4",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "TDPHD3",
+        "name": "Philipe Borba",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/TDPHD3/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T12:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/PJDH8K/",
+      "title": "Building Footprint Extraction in Vector Format Using pytorch_segmentation_models_trainer, QGIS Plugin DeepLearningTools and The Brazilian Army Geographic Service Building Dataset"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/PJDH8K/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/TDPHD3/",
+      "title": "Philipe Borba"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/phborba/DeepLearningTools",
+      "title": "github.com/phborba/DeepLearningTools"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/phborba/pytorch_segmentation_models_trainer",
+      "title": "github.com/phborba/pytorch_segmentation_models_trainer"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/PJDH8K/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=IBwbMXV4shU",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Building Footprint Extraction in Vector Format Using\u2026",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

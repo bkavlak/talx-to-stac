@@ -1,0 +1,102 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "SSCMFH",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "PROJ is not only about projections",
+    "description": "The PROJ library (https://proj.org) is widely used in GIS and surveying software. Most of the people know it because of its ability to preform projections (v.g. Transverse Mercator or Spilhaus).\r\n\r\nHowever PROJ is able to do more things in addition to projections. This talk will go through some of these features, like datum transformations, CRS catalogs (like EPSG, ESRI, IGNF, ...), grid files, geodetic computation, projection distortion factors, transformation pipelines, etc.\r\n\r\nThe presentation will use the page https://jjimenezshaw.github.io/wasm-proj/ to show some of these features.",
+    "start_datetime": "2026-06-30T07:30:00Z",
+    "end_datetime": "2026-06-30T08:00:00Z",
+    "talk:code": "SSCMFH",
+    "talk:guid": "92dac988-58f3-548f-a41f-cb9ed90841f2",
+    "talk:event": "foss4g-europe-2026",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "AM",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "P9YTT3",
+        "name": "Javier Jimenez Shaw",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/P9YTT3/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-06-30T07:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/SSCMFH/",
+      "title": "PROJ is not only about projections"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/SSCMFH/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/P9YTT3/",
+      "title": "Javier Jimenez Shaw"
+    },
+    {
+      "rel": "related",
+      "href": "https://jjimenezshaw.github.io/wasm-proj/",
+      "title": "jjimenezshaw.github.io/wasm-proj"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/SSCMFH/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides-pdf": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2026/submissions/SSCMFH/resources/PROJ-is-not-only-about-proje_wHvh0h8.pdf",
+      "type": "application/pdf",
+      "title": "Slides pdf",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

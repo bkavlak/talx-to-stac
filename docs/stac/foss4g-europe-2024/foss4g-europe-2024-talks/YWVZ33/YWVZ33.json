@@ -1,0 +1,142 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "YWVZ33",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "A standardised approach for serving environmental monitoring data compliant with OGC APIs",
+    "description": "Environmental monitoring is fundamental for addressing climate change. Environmental data, in particular air quality and meteorological parameters, are widely used for risk assessment, urban planning, and other studies regarding urban and rural environments. Finding open and good quality environmental data is a complex task, even though environmental and meteorological monitoring are considered some of INSPIRE's high value datasets. For this reason, having robust, open, and standardised services that can offer spatial data is of critical importance. \r\n\r\nA good example of open, high-quality, environmental and meteorological data is one of the Regional Agencies for Environmental Protection, ARPA Lombardia. This agency maintains the air quality and meteorological monitoring station networks of the region and serves a high volume of sensor observations. The Lombardy region is located in northern Italy and is considered its financial and industrial muscle. Due to its topology, during the colder months of the year, the pollution levels of the region increase, in particular the concentrations of particulate matter (PM10 and PM2.5), as portrayed in [1]. For this reason, having a well-established monitoring network is critical. The ARPA Lombardia monitoring network generates huge volumes of data, which is served through its catalogue and a set of services. It is possible to download air quality and meteorological observations, as well as the information of the monitoring stations. These data have been extensively used in research, in particular, in the study of air quality in the region [2][3]. \r\n\r\nARPA Lombardia environmental monitoring data is served through the API (Application Programming Interface) of the Lombardy region, Open Data Lombardia. Although this service is highly functional, thoroughly documented and works correctly, we identified some limitations that could pose problems for researchers, especially in the field of geospatial information. This service has geospatial capabilities, such as the possibility to download data in GEOJSON format, however, it is not compliant with other open standards such as WFS, WMS, or OGC APIs, posing a problem of interoperability with other geoportals and catalogues that do follow these standards. Additionally, column names of the meteorological and air quality observations and meteorological stations datasets are not homogenised, making them not fully interoperable. Finally, the ARPA Lombardia services and data fields are only available in Italian, which also poses interoperability concerns. \r\n\r\nHighlighting the societal, environmental, and economic importance of this kind of information, in this work we present and document the implementation of a web API compliant with OGC API specifications for exposing the air quality and meteorological information from ARPA Lombardia. The data provided by ARPA Lombardia is shared under the licence CC0 1.0 Universal, meaning it is public domain.\r\n\r\nThe developed API serves environmental monitoring data (both air quality and meteorological) in compliance with a set of OGC APIs. This API is capable of exposing data in different standardised formats, filtering by multiple fields and locations, and performing server-side processing of the observations. OGC APIs are modern standards for geospatial information. Although they are still in the adoption phase, many reference implementations are being developed, and governmental institutions are starting to adopt such standards [4][5]. They differ from widespread, older OGC standards such as WMS or WFS as they are based in JSON and OpenAPI, while older standards are based in XML. By implementing new OGC API applications we contribute to the spread of these standards in academic environments and their overall development. \r\n\r\nIn particular, we developed a web service compliant with OGC API - Features for exposing the stations\u2019 information and locations as vector data, OGC API - Environmental Data Retrieval (EDR) for serving observations from environmental and meteorological stations, and OGC API - Processes to allow researchers to perform server-side processing to the underlying data, such as data cleansing, interpolations (e.g., conversion to a coverage format, obtaining data at an arbitrary point, etc.), and data aggregation (e.g., by day/month/year, by station). The API also complies with OpenAPI standards, HTTP content negotiation, and homogenised column names in English, to improve the usability of ARPA data by foreign researchers.\r\n\r\nThis work is not intended to replace ARPA Lombardia API, but to provide an alternative for accessing the data and extend even further the possibilities of researchers with additional processing capabilities. Additionally, to further improve the ecosystem of OGC API implementations available and push forward those open standards in academic literature. The full paper will provide a system architectural description and the particular technologies used to develop the application, a comparison with ARPA Lombardia's current API, and a case study portraying the API capabilities for research. This work is of interest to the FOSS4G community and European regional agencies as it is an implementation of a promising open standard for environmental monitoring and sensor networks, as it is the OGC API - EDR, and as an example of the infrastructure and the capabilities that services for environmental monitoring should have.\r\n\r\n\r\nReferences:\r\n\r\n[1] Maranzano, P. (2022). Air Quality in Lombardy, Italy: An Overview of the Environmental Monitoring System of ARPA Lombardia. Earth 2022, Vol. 3, Pages 172-203, 3(1), 172\u2013203. https://doi.org/10.3390/EARTH3010013 \r\n\r\n[2] Gianquintieri, L., Oxoli, D., Caiani, E. G., & Brovelli, M. A. (2024). Implementation of a GEOAI model to assess the impact of agricultural land on the spatial distribution of PM2.5 concentration. Chemosphere, 352, 141438. https://doi.org/10.1016/J.CHEMOSPHERE.2024.141438 \r\n\r\n[3] Cedeno Jimenez, J. R., Pugliese Viloria, A. de J., & Brovelli, M. A. (2023). Estimating Daily NO2 Ground Level Concentrations Using Sentinel-5P and Ground Sensor Meteorological Measurements. ISPRS International Journal of Geo-Information, 12(3). https://doi.org/10.3390/IJGI12030107\r\n\r\n[4] MSC GeoMet - GeoMet-OGC-API - Home. (n.d.). Retrieved February 23, 2024, from https://api.weather.gc.ca/ \r\n\r\n[5] API for downloading geographic objects (API-Features) of the National Geographic Institute. (n.d.). Retrieved February 23, 2024, from https://api-features.ign.es/",
+    "start_datetime": "2024-07-03T09:00:00Z",
+    "end_datetime": "2024-07-03T09:05:00Z",
+    "talk:code": "YWVZ33",
+    "talk:guid": "845f773a-9860-50da-949f-6f1b74ebb676",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Academic track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "Omicum",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "HFK38L",
+        "name": "Juan Pablo Duque Ordo\u00f1ez",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/HFK38L/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-03T09:02:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/YWVZ33/",
+      "title": "A standardised approach for serving environmental monitoring data compliant with OGC APIs"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/YWVZ33/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/HFK38L/",
+      "title": "Juan Pablo Duque Ordo\u00f1ez"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.3390/EARTH3010013",
+      "title": "doi.org/10.3390/EARTH3010013"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.1016/J.CHEMOSPHERE.2024.141438",
+      "title": "doi.org/10.1016/J.CHEMOSPHERE.2024.141438"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.3390/IJGI12030107",
+      "title": "doi.org/10.3390/IJGI12030107"
+    },
+    {
+      "rel": "related",
+      "href": "https://api.weather.gc.ca/",
+      "title": "api.weather.gc.ca"
+    },
+    {
+      "rel": "related",
+      "href": "https://api-features.ign.es/",
+      "title": "api-features.ign.es"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/YWVZ33/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "rose-api-presentation-slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/YWVZ33/resources/ROSE-API_Presentation_NZ6Ym4G.pdf",
+      "type": "application/pdf",
+      "title": "ROSE-API presentation slides",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/bnTBbZCGckdNqhgeNFVCYR",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | A standardised approach for serving environmental monitoring data compliant with ...",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=U0bGVqjzgjs",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | A standardised approach for serving environmental monitoring data compliant with ...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

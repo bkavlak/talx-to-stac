@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "FTMPSP",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Correlation between the greening rate of a city and local climate zones using free and open source data and tools (case study: city of Tirana)",
+    "description": "Albania is one of the most vulnerable countries in terms of the trend of climate change in the Western Balkans. Changing weather patterns have already been observed over the last 15 years with increasing temperatures, decreasing precipitation, and more frequent extreme events like floods and droughts. Among the most affected cities is Tirana, where a time series analysis was done using FOSS data and tools. Our aim was to provide accurate map representations of local climate zones (LCZs) to track the changes of the last decade based on an open online platform running on Google Earth Engine. This is called LCZ generator and aims to use free data sources from the Copernicus Hub (Demuzere et al. 2021). The satellite data based analysis was done by using 5-15 training areas for each LCZ types. It provided a 100 by 100 m ground resolution supervised classification for the entire municipality of Tirana. The analysis shows that the quick urbanization process resulted in a decreasing proportion of green areas, and unpaved surfaces in the municipality of Tirana, which consequently increased the vulnerability of the city to extreme weather events.\r\nA large-scale map was also compiled using a free and open source Geographic Information System (QGIS), which seems to be the most effective in identifying the varying urban climate zones on the city planning level, since it shows the city's structures and even highlights the role of a building or small park (Cenameri, 2021).",
+    "start_datetime": "2023-06-30T10:00:00Z",
+    "end_datetime": "2023-06-30T10:30:00Z",
+    "talk:code": "FTMPSP",
+    "talk:guid": "d8281e50-8fff-53d3-9db5-1bc08f890346",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT C / N109 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "KNCATS",
+        "name": "Anja Cenameri",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/KNCATS/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-30T10:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/FTMPSP/",
+      "title": "Correlation between the greening rate of a city and local climate zones using free and open source data and tools (case study: city of Tirana)"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/FTMPSP/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/KNCATS/",
+      "title": "Anja Cenameri"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/FTMPSP/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

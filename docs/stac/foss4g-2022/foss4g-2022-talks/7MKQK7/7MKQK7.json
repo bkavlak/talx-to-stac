@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "7MKQK7",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "The benefits of COG (Cloud Optimized GeoTIFF) outside the cloud",
+    "description": "This is a technical feedback about why the COG (Cloud Optimized GeoTIFF) format is valuable outside the cloud and can speed up productivity in many ways.\r\n\r\nDuring first months, remote work and COVID, IT department was overbooked and has to face to many issue such bandwidth limitation. Images display was suffer in GIS client. Of course, webservice was always available but user has to control on band order or radiometry settings. WCS is supposed to be the solution. Unfortunately, it offered degraded performance.\r\n\r\nCOG is supposed to be serve from HTTP server or S3. But we\u2019ve simply test from a network drive / mount point and it offer great performance. Depending internet connection, it could be as fast as it is in local ! \r\nCOG advantage must be consider outside of the cloud as remote work tends to develop more and more. It could avoid to deploy heavy webservice infrastructure for only raster visualization. \r\n\r\nFrom other side, benchmark between publish some other format compare to COG in GeoServer. From Regional Data Infrastructure, it\u2019s streamline storage data between raster format as input file for webservices and opendata raw downloading services as open archives.\r\n\r\nFinally, I will give some feedback and tips and tricks to find best parameters to convert orthophotography, DEM or DSM, etc. to COG.",
+    "start_datetime": "2022-08-25T09:30:00Z",
+    "end_datetime": "2022-08-25T10:00:00Z",
+    "talk:code": "7MKQK7",
+    "talk:guid": "85ce5bf3-5e27-52d8-aa3d-aea8f57c9f87",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room 4",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "7UZCDB",
+        "name": "Nicolas Rochard",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/7UZCDB/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/7MKQK7/",
+      "title": "The benefits of COG (Cloud Optimized GeoTIFF) outside the cloud"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/7MKQK7/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/7UZCDB/",
+      "title": "Nicolas Rochard"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/7MKQK7/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/iLvwMMCpBst1k1WRh4Jhip",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | The benefits of COG (Cloud Optimized GeoTIFF) outside the cloud",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=jz7bh5w-9sA",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | The benefits of COG (Cloud Optimized GeoTIFF) outside the cloud",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

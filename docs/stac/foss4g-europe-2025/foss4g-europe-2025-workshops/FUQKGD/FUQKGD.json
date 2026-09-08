@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "FUQKGD",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8094,
+      43.3416
+    ]
+  },
+  "bbox": [
+    17.8094,
+    43.3416,
+    17.8094,
+    43.3416
+  ],
+  "properties": {
+    "title": "Point-Cloud Acrobatics: From Raw LiDAR to Stunning 3D Visuals",
+    "description": "Dive into the fascinating world of LiDAR data as we transform raw point clouds into striking 3D visualizations using a suite of open-source tools. This workshop begins by exploring the ASPRS standard, helping you understand essential concepts like point classifications, return numbers, and other fundamental attributes that define LiDAR data. You\u2019ll learn how to correctly interpret these attributes, assess data quality, and leverage them for more insightful analysis.\r\n\r\nMoving beyond the basics, we\u2019ll dig into powerful open-source workflows with PDAL, GRASS, WhiteboxTools for data reading, manipulation and  spatial processing, and with tools like QGIS, Potree and pybabylonjs for dynamic 3D rendering. We\u2019ll also introduce TileDB as a robust storage option to manage point-clouds as massive dataframes. Along the way, we\u2019ll tackle real-world tasks like gridding, interpolation, vectorization, and classification, highlighting  effective approaches to manage and visualize large-scale point clouds in a reproducible manner.\r\n\r\nBy integrating Python scripts with these specialized tools, you\u2019ll discover how to automate complex processing chains and generate stunning outputs that bring your LiDAR data to life. While basic Python knowledge is helpful, it\u2019s not mandatory \u2014 anyone eager to learn new techniques can follow along. By the end of this hands-on workshop, you\u2019ll not only grasp the core concepts behind LiDAR data but also have the practical skills to handle and present it in exciting, visually compelling ways.\n\nThe workshop will cover LiDAR data standards and attributes, data import, advanced processing, and visualization workflows. Led by experts with extensive experience in LiDAR data, including its application in large-scale production tasks, the session will explore various open-source tools, each offering unique advantages for these workflows. The diversity of tools and techniques is a standout feature of this workshop, providing flexibility and tailored solutions for different projects.",
+    "start_datetime": "2025-07-15T12:00:00Z",
+    "end_datetime": "2025-07-15T16:00:00Z",
+    "talk:code": "FUQKGD",
+    "talk:guid": "b7c3e907-d7e5-50d7-9f44-bf5272c4d15d",
+    "talk:event": "foss4g-europe-2025-workshops",
+    "talk:type": "workshop",
+    "talk:language": "en",
+    "talk:room": "PA01",
+    "talk:room_capacity": 95,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "EYZCPK",
+        "name": "Alen Mangafi\u0107",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025-workshops/speaker/EYZCPK/"
+      },
+      {
+        "code": "LVRBRN",
+        "name": "Toma\u017e \u017dagar",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025-workshops/speaker/LVRBRN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-15T14:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025-workshops/talk/FUQKGD/",
+      "title": "Point-Cloud Acrobatics: From Raw LiDAR to Stunning 3D Visuals"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025-workshops/talk/FUQKGD/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025-workshops/speaker/EYZCPK/",
+      "title": "Alen Mangafi\u0107"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025-workshops/speaker/LVRBRN/",
+      "title": "Toma\u017e \u017dagar"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025-workshops/talk/FUQKGD/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-workshops"
+}

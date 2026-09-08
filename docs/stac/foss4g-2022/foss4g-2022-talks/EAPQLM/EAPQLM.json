@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "EAPQLM",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "\"Earth in Colour\" with EarthDaily Analytics",
+    "description": "EarthDaily Analytics is building a powerful new constellation that will collect scientific-grade, 5 meter resolution imagery of the planet in a unique combination of 22 spectral bands using 3 different camera types, covering a broad spectral range from visible to thermal wavelengths.  The mission will be launched in 2023 and will allow us to see the Earth\u2019s global land mass each day in a wholly new way with more spectral bands, higher revisit, and at a higher resolution than ever before.  It will allow us to monitor, detect changes, alert, and predict what is happening anywhere on the planet to help with some of world\u2019s most pressing challenges in agriculture, Environmental, Social and Governance (ESG), and disaster prevention and recovery. \r\n\r\nThis mission has been made possible by a near-perfect convergence of three major technology breakthroughs in the last 10 years: 1) lower cost satellite launch and manufacturing, 2) advancements in computer vision and machine learning to support automation of petabyte scale processing, and 3) cloud compute power and storage necessary to drive the processing and calibration of trillions of pixels each day. Together these three emerging technologies are key to driving next generation geospatial insights, but to bring them together requires a software solution capable of handing the complexity of raw satellite with automation driven by machine learning, and cloud-based Big Geo Data pipelines for cost-effective scale and latency.  \r\n\r\nAt EarthDaily Analytics, our software solution has been made possible by leveraging many open source software packages to form the backbone for our satellite processing, calibration and quality services called the EarthPipeline.  Together with open source packages and custom machine learning and computer vision approaches, we are working on delivering true scientific satellite image products that can be applied directly to algorithms without the need for very costly (and dreaded) end user data normalization and correction procedures.  This talk will focus on how EarthDaily Analytics uses open source packages and machine learning to create normalized scientific quality data, and will also provide some example applications of how the data can be used.",
+    "start_datetime": "2022-08-24T12:15:00Z",
+    "end_datetime": "2022-08-24T12:45:00Z",
+    "talk:code": "EAPQLM",
+    "talk:guid": "33035d01-5347-5a9e-a629-9008c78b2f5c",
+    "talk:event": "foss4g-2022",
+    "talk:track": "AI4EO Challenges & Opportunities",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Auditorium",
+    "talk:room_capacity": 1000,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "7AZEFY",
+        "name": "Chris Rampersad",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/7AZEFY/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T12:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/EAPQLM/",
+      "title": "\"Earth in Colour\" with EarthDaily Analytics"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/EAPQLM/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/7AZEFY/",
+      "title": "Chris Rampersad"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/EAPQLM/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/mLYJeWc8SFMkAFfzbMguvQ",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | \"Earth in Colour\" with EarthDaily Analytics",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=9ChmHjPTtsw",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | \"Earth in Colour\" with EarthDaily Analytics",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

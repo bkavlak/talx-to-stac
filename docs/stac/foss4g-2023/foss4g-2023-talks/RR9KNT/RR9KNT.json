@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "RR9KNT",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "eoAPI - The Earth Observation API",
+    "description": "eoAPI is an open source project which aim to create a full Earth Observation API, combining STAC metadata API (stac-fastapi), a Raster dynamic tile service (TiTiler) and a Vector Tiles service (TiPg). \r\n\r\nUsing eoAPI AWS CDK template you're almost two command lines away of setting your own Earth Observation services.",
+    "start_datetime": "2023-06-28T11:35:00Z",
+    "end_datetime": "2023-06-28T11:40:00Z",
+    "talk:code": "RR9KNT",
+    "talk:guid": "0491c979-18bd-5dde-b603-12863049008c",
+    "talk:event": "foss4g-2023",
+    "talk:track": "State of software",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "UBT C / N110 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "ACL8NN",
+        "name": "Vincent Sarago",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/ACL8NN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T11:37:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/RR9KNT/",
+      "title": "eoAPI - The Earth Observation API"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/RR9KNT/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/ACL8NN/",
+      "title": "Vincent Sarago"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/RR9KNT/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/2VDwgBqiuTvdVEN2QqtCCy",
+      "type": "text/html",
+      "title": "2023 |  eoAPI - The Earth Observation API - Vincent Sarago",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=k4nilNnppQU",
+      "type": "text/html",
+      "title": "2023 |  eoAPI - The Earth Observation API - Vincent Sarago",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

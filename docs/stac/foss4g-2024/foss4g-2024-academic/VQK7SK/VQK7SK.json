@@ -1,0 +1,96 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "VQK7SK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Systematic Technology Review of OGC Standards and OSGeo Projects",
+    "description": "OGC Standards and OSGeo Projects have been widely applied to different kinds of geospatial data and extended for the implementation of geospatial data science environments. However, there\u2019s no review comprehensively summarising and discussing the progress of these open source technologies for publishing geospatial databases on the Web. The proposed Systematic Technology Review is a stylized version of the Systematic Literature Review, covering the documentation of OGC Standards and OSGeo Projects. The search strategy consisted of screening OGC and OSGeo websites for the latest version of OGC Standards' implementation (or community) specification and OSGeo Projects' developers manual. This review considered the technologies published until June 2024. A total of 80 OGC Standards and 52 OSGeo Projects were identified. To recognize the main topics of each technology in detail, the documentation was analysed by Latent Dirichlet Allocation - LDA using the Scikit-learn package in Python. Grid-search was used to find the optimal hyperparameters for the number of components and the decay of the learning rate. With the maximum number of iterations set to 100, the best model was obtained with 8 components and 0.1 learning decay. Then, the most probable topic was predicted for each documentation. The network of similarities arising from LDA was exported to Gephi for visualisation, where ForceAtlas2 layout algorithm was used to create a weighted undirected graph, keeping only edges with weight greater than 0.33. The latest developments in terms of the OGC Standards for data encoding took place in the GeoPackage standard. For accessing, processing or visualising data, the trend was the development of OGC API related standards. However, GML is the most implemented OGC Standard for data encoding in OSGeo Projects, along with Web Services like WMS, WFS, WCS and WPS for accessing, processing and visualising the data. Community Standards represented less than 10% of the OGC Standards, while Community Projects represented more than 50% of the OSGeo Projects. The adoption of these technologies were evaluated based on the number of Github forks and stars, as well as Docker pulls. With more than 100 million pulls, PostGIS is the most downloaded OSGeo Project, followed by GeoNetwork and Open Data Cube, with more than 5 million pulls each. But many of the analysed technologies lacked an official Docker image. In terms of Github forks and stars, the most shared and favoured OSGeo project is OpenLayers, followed by QGIS and GDAL. The Latent Dirichlet Allocation analyses found eight topics underlying the OGC Standards and OSGeo Projects. The keywords of the top four topics were conformance, layer, tile and response. Based on the analysis of the Implementation Standard and Community Standard documentations, the most similar OGC Standards were OGC API - Tiles and Two Dimensional Tile Matrix Set. On the other hand, based on the analysis of developer manuals, the most similar OSGeo Projects were GDAL and MDAL. The strongest relationship of an OGC Standard and an OSGeo Project occurred between WPS and ZOO-project, followed by WPS and PyWPS. Overall, the OSGeo Project most closely related to the entire set of OGC Standards was rasdaman, followed by MapServer and deegree. Notably, a large group of standards and projects showed scarce connections, mainly those that are domain specific, like PubSub, LAS and PipelineML among the OGC Standards and like Giswater and MobilityDB among the OSGeo Community Projects, or those that are the basis of the other technologies, like Simple Features, WKT and Coordinate Transformation standards and like PROJ and PostGIS projects. The presented Systematic Technology Review can promote the evolution of the current OGC Standards and OSGeo Projects, as well as the development of new technologies. It can also support developers of new solutions in the geospatial community. Specifically, this review is the basis for the proposal of a new library for the integrated access of INPE\u2019s environmental databases. An important limitation of this systematic review is that it was not possible to find any PDF documentation for almost 20% of the existing technologies, which were excluded from the analysis.",
+    "start_datetime": "2024-12-04T17:30:00Z",
+    "end_datetime": "2024-12-04T18:00:00Z",
+    "talk:code": "VQK7SK",
+    "talk:guid": "08a88cfe-e57b-5bcf-b953-37b497f9862f",
+    "talk:event": "foss4g-2024-academic-track",
+    "talk:track": "Academic Track",
+    "talk:type": "Oral Presentation 1",
+    "talk:language": "en",
+    "talk:room": "Room V",
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "XTCD39",
+        "name": "Luiz Fernando Satolo",
+        "url": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/XTCD39/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-04T17:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/talk/VQK7SK/",
+      "title": "Systematic Technology Review of OGC Standards and OSGeo Projects"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/talk/VQK7SK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/XTCD39/",
+      "title": "Luiz Fernando Satolo"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/talk/VQK7SK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024-academic-track/submissions/VQK7SK/resources/LuizSatolo_FOSS4G_presentation_v_C0bHGCE.pdf",
+      "type": "application/pdf",
+      "title": "Presentation_slides",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-academic"
+}

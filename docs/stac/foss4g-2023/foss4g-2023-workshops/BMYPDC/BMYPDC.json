@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "BMYPDC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Scripting with pyQGIS for beginners",
+    "description": "Scripting is the power tool for any GIS user. It gives users the possibility to solve particular problems or automate long tasks. This workshop introduces pyQGIS to new users.\n\nThe workshop aims to give a first introduction to scripting in QGIS using its python scripting language pyQGIS. \r\nThe workshop will introduce the main python objects used to represent geometric and geographic objects, being it vector or raster.\r\nThe main topics covered by the workshop are:\r\n\r\n* main pyQGIS objects: geometries, layers, project\r\n* working with geometries: creation, operations, visualization\r\n* vector layers: reading and writing features with attributes. Memory layers and persistence on disk\r\n* a word about: simple introduction to projections and filters\r\n* raster layers: read and write rasters, analyzing raster data\r\n* developing a simple raster-vector analysis script\r\n* creation of simple printing layouts\r\n\r\nParticipants are required to have basic python and QGIS knowledge.",
+    "start_datetime": "2023-06-27T07:00:00Z",
+    "end_datetime": "2023-06-27T11:00:00Z",
+    "talk:code": "BMYPDC",
+    "talk:guid": "704585f5-f668-5517-9a9a-10a0afeca95f",
+    "talk:event": "foss4g-2023-workshop",
+    "talk:type": "Long Workshop",
+    "talk:language": "en",
+    "talk:room": "Mirusha",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "87ZRNW",
+        "name": "Andrea Antonello",
+        "url": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/87ZRNW/"
+      },
+      {
+        "code": "SQ7UJS",
+        "name": "Luca Delucchi",
+        "url": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/SQ7UJS/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-27T09:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/BMYPDC/",
+      "title": "Scripting with pyQGIS for beginners"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/BMYPDC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/87ZRNW/",
+      "title": "Andrea Antonello"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/SQ7UJS/",
+      "title": "Luca Delucchi"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/BMYPDC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-workshops"
+}

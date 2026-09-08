@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "P97F9C",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Look ma, no hands: Automating Open-Source Geospatial Infrastructure with AWS CDK (IaC)",
+    "description": "Learn how Abley\u2019s mapping stack leverages Amazon Web Services (AWS) and the AWS Cloud Development Kit (CDK) to automate, standardize, and scale geospatial infrastructure. Discover how our reusable CDK library enables rapid, environment-driven deployment of high-performance mapping services that power the Abley  SafeSystem  and geospatial APIs.\n\nModern geospatial applications demand robust, scalable, and repeatable infrastructure. At Abley, we\u2019ve developed a mapping stack\u2014built on open-source components like PostGIS, GeoServer, and MapLibre\u2014deployed using a fully automated Amazon Web Services (AWS) infrastructure-as-code (IaC) pipeline. Central to our approach is a reusable AWS Cloud Development Kit (CDK) library that encapsulates best practices for naming, tagging, and resource retention, ensuring consistency and compliance across all environments.\r\nThis talk will showcase how our infrastructure-as-code (Iac) strategy accelerates the deployment of Abley\u2019s SafeSystem suite, a set of road safety applications and APIs. By centralizing infrastructure logic in a shared CDK library, we enable rapid provisioning, environment-specific configuration, and seamless integration with continuous integration and continuous deployment (CI/CD) pipelines. Our architecture supports high-availability and cost-effective geospatial services.\r\nAttendees will gain practical insights into:\r\n\u2022\tStructuring a reusable CDK library for shared infrastructure code and multiple CDK applications.\r\n\u2022\tUsing the AWS CDK to enforce organizational standards and automate resource management.\r\n\u2022\tLeveraging environment-driven configuration for safe, flexible deployments.\r\n\u2022\tIntegrating open-source geospatial tools with modern cloud infrastructure.\r\nWhether you\u2019re building public mapping services or internal analytics, this session will provide actionable patterns for deploying and managing geospatial infrastructure at scale with AWS and the CDK.",
+    "start_datetime": "2025-11-21T00:30:00Z",
+    "end_datetime": "2025-11-21T00:55:00Z",
+    "talk:code": "P97F9C",
+    "talk:guid": "755d5c70-b9f5-5b3a-bdb1-b2a979ec00c2",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Cloud, APIs & Data Infrastructure",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG404",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "F3EY93",
+        "name": "Subodh Dangwal",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/F3EY93/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-21T00:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/P97F9C/",
+      "title": "Look ma, no hands: Automating Open-Source Geospatial Infrastructure with AWS CDK (IaC)"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/P97F9C/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/F3EY93/",
+      "title": "Subodh Dangwal"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/P97F9C/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=eJDuWbbY3A4",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Look ma, no hands: Automating Open-Source Geospatial Infrastructure with AWS CDK (IaC)",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

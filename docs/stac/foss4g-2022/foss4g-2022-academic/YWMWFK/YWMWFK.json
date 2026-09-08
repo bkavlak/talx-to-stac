@@ -1,0 +1,103 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "YWMWFK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Deployment of AI-enhanced services in climate resilience information systems",
+    "description": "Producing and providing useful information for climate services requires vast volumes of data to come together that further requires technical standards. Beside ordinary base processes for climate data processing like polygon subsetting, there is the special case of extreme climate events and their impacts, where scientific methods for appropriate assessments, detection or even attribution are facing high complexity for the data processing workflows. Therefore the production of climate information services requires optimal science based technical systems, named in this paper climate resilience information systems (CRIS).  CRIS like the Climate Data Store (CDS) of the Copernicus Climate Change Service (C3S) are connected to distribute data archives, storing huge amounts of raw data themselves and containing processing services to transform the raw data into usable enhanced information about climate related topics. Ideally this climate information can be requested on demand and is then produced by the CRIS on request by the user. This kind of CRIS can be enhanced when scientific workflows for general climate assessment or even extreme events detection are optimized as information production service, accordingly deployed to be usable by extreme events experts to facilitate their work through a frontend. Deployment into federated data processing systems like CDS requires that scientific methods and their algorithms be wrapped up as technical services following standards of application programming interfaces (API) and, as good practice, even FAIR principles. FAIR principles means to be Findable within federated data distribution architectures, including public catalogs of well documented scientific analytical processes. Remote storage and computation resources should be operationally Accessible to all, including low bandwidth regions and closing digital gaps to \u2018Leave No One Behind\u2019. Aggreeing on standards for Data inputs, outputs, and processing API are the necessary conditions to ensure the system is Interoperable. Finally they should be built from Reusable building blocks that can be realized by modular architectures with swappable components, data provenance systems and rich metadata.\r\nGeneral building blocks for climate resilience information systems\r\nA particular focus will be the \"roocs\" (Remote Operations on Climate Simulations) project, a set of tools and services to provide \"data-aware\" processing of ESGF (Earth System Grid Federation) and other standards-compliant climate datasets from modelling initiatives such as CMIP6 and CORDEX. One example is \u2018Rook\u2019 an implementation of the OGC Web Processing service (WPS) standard, that enables remote operations, such as spatio-temporal subsetting, on climate model data. It exposes all the operations available in the \u2018daops\u2019 library based on Xarray. Finch is a WPS-based service for remote climate index calculations, also used for the analytics of ClimateData.ca, that dynamically wraps Xclim, a Python-based high-performance distributed climate index library. Finch automatically builds catalogues of available climate indicators, fetches data using \u201clazy\u201d-loading, and manages asynchronous requests with Gunicorn and Dask. Raven-WPS provides parallel web access to a dynamically-configurable \u2018RAVEN\u2019 hydrological modelling framework with numerous pre-configured hydrological models (GR4J-CN, HBV-EC, HMETS, MOHYSE) and terrain-based analyses. Coupling GeoServer-housed terrain datasets with climate datasets, RAVEN can perform analyses such as hydrological forecasting without requirements of local access to data, installation of binaries, or local computation.\r\n\r\nThe EO Exploitation Platform Common Architecture (EOEPCA) describes an app-to-the-data paradigm where users select, deploy and run application workflows on remote platforms where the data resides. Following OGC Best Practices for EO Application Packages, Weaver executes workflows that chain together various applications and WPS inputs/outputs. It can also deploy near-to-data applications using Common Workflow Language (CWL) application definitions. Weaver was developed especially with climate services use cases in mind.\r\n\r\nCase of AI for extreme events investigations\r\nHere we present challenges and preliminary prototypes for services which are based on OGC API standards for processing (https://ogcapi.ogc.org/processes/) and implementation of Artificial Intelligence (AI) solutions. We will presenting blueprints on how AI-based scientific workflows can be ingested into climate resilience information systems to enhance climate services related to extreme weather and impact events. The importance of API standards will be pointed out to ensure reliable data processing in federated spatial data infrastructures. Examples will be taken from the EU Horizon2020 Climate Intelligence (CLINT; https://climateintelligence.eu/) project, where extreme events components could optionally be deployed in C3S. Within this project, appropriate technical services will be developed as building blocks ready to deploy into digital data infrastructures like C3S but also European Science Cloud, or the DIAS. This deployment flexibility results out of the standard compliance and FAIR principles. In particular, a service employing state-of-the-art deep learning based inpainting technology to reconstruct missing climate information of global temperature patterns will be developed. This OGC-standard based web processing service (WPS) will be used as a prototype and extended in the future to other climate variables. Developments focus on heatwaves and warm nights, extreme droughts, tropical cyclones and compound and concurrent events, including their impacts, whilst the concepts are targeting generalized opportunities to transfer any kind of scientific workflow to a technical service underpinning scientific climate service. The blueprints take into account how to chain the data processing from data search and fetch, event index definition and detection as well as identifying the drivers responsible for the intensity of the extreme event to construct storylines.",
+    "start_datetime": "2022-08-26T10:00:00Z",
+    "end_datetime": "2022-08-26T10:30:00Z",
+    "talk:code": "YWMWFK",
+    "talk:guid": "8a27fbd3-b625-553f-b50e-e9e31f461116",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room Modulo 3",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "NVJBUG",
+        "name": "Nils Hempelmann",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/NVJBUG/"
+      },
+      {
+        "code": "QP3ZWR",
+        "name": "Carsten Ehbrecht",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/QP3ZWR/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T10:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/YWMWFK/",
+      "title": "Deployment of AI-enhanced services in climate resilience information systems"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/YWMWFK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/NVJBUG/",
+      "title": "Nils Hempelmann"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/QP3ZWR/",
+      "title": "Carsten Ehbrecht"
+    },
+    {
+      "rel": "related",
+      "href": "https://climateintelligence.eu/",
+      "title": "climateintelligence.eu"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/YWMWFK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

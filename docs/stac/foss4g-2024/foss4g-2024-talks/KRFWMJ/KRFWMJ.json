@@ -1,0 +1,116 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "KRFWMJ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Unifying Standards for Water Data Exchange: Leveraging OGC API - EDR and pygeoapi",
+    "description": "The effective management and utilization of water data are critical for both community engagement and scientific analysis. To address the challenges associated with disparate data formats and standards, this presentation explores the use of unifying standards such as WaterML2.0 and OGC API Environmental Data Retrieval (EDR). These standards offer a cohesive approach to data exchange and interoperability, bridging gaps between diverse use cases and technical requirements.\r\n\r\nWater data is highly diverse\u2014spanning vector geospatial features, time series, raster data, and combinations thereof. The Internet of Water (IoW) Coalition advocates for data equity and interoperability, emphasizing the adoption of standardized formats and web services to drive both data science and equitable decision making. Using pygeoapi as a testbed, this session will focus on two primary use cases: community engagement through web applications and modeling & analysis for water resource management.\r\n\r\nUse Case 1: Web App Development for Community Engagement and Education\r\nFor public-facing applications, ease of use and accessibility are paramount. Here, JSON-based formats like GeoJSON and CoverageJSON are evaluated for their effectiveness in representing water data. The session will demonstrate how CoverageJSON provides a streamlined approach to handling time series and geospatial data, aligning with web development needs and enhancing user engagement through interactive, map-oriented interfaces.\r\n\r\nUse Case 2: Scientific Analysis for Water Resource Management\r\nScientific platforms require comprehensive data exchange and metadata standards to support robust analysis. WaterML2.0, with its detailed metadata and extensive schema, is well-suited for this purpose. However, its XML serialization poses challenges for modern software development workflows and analytical tools. We discuss potential solutions, including a proposed JSON serialization of WaterML2.0 and its integration with OGC API - EDR for data queries and access. \r\n\r\nWe will address the trade-offs between these standards, considering factors such as data complexity, metadata requirements, and web compatibility. Recommendations will be made for future development, including enhancements to existing standards and the creation of best practice specifications for effective water data exchange.",
+    "start_datetime": "2024-12-05T18:00:00Z",
+    "end_datetime": "2024-12-05T18:30:00Z",
+    "talk:code": "KRFWMJ",
+    "talk:guid": "5f3abca1-32e0-5e0e-8632-d37d7449592c",
+    "talk:event": "foss4g-2024",
+    "talk:track": "Open Standard",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room III",
+    "talk:room_capacity": 400,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "A8VTL7",
+        "name": "Benjamin Webb",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/A8VTL7/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-05T18:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/KRFWMJ/",
+      "title": "Unifying Standards for Water Data Exchange: Leveraging OGC API - EDR and pygeoapi"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/KRFWMJ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/A8VTL7/",
+      "title": "Benjamin Webb"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/KRFWMJ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://docs.google.com/presentation/d/1u8tpFVdTlJ688yRGYWys6kwf6VAgLkZ_/edit?usp=sharing&ouid=107658450322171966529&rtpof=true&sd=true",
+      "title": "Presentation",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/gai7TQDGPn4Yi3gfLDvR9M",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | Unifying Standards for Water Data Exchange: Leveraging OGC API - EDR and pygeoapi",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=Lq3iMLIa5dg",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | Unifying Standards for Water Data Exchange: Leveraging OGC API - EDR and pygeoapi",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

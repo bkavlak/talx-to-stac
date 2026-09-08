@@ -1,0 +1,135 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "JSMTZW",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Mapping Soil Erosion Classes using Remote Sensing Data and Ensemble Models",
+    "description": "Soil loss by water erosion is projected to increase by 13 \u2013 22.5% in the European Union (EU) and United Kingdom (UK) by 2050, leading to loss of cultivable land and soil structure degradation. Accurate mapping of soil erosion is crucial for identifying vulnerable areas and implementing sustainable land management practices. In this study, we introduce machine learning (ML) models to map soil erosion, leveraging their capabilities in categorical mapping. Unlike previous applications that primarily mapped the absence or presence of a soil erosion class, we propose an ensemble strategy using three ML ensemble models (CatBoost, LightGBM, XGBoost) with remote sensing data to map four classes of soil erosion (i.e No Gully/badland, Gully, Badland, Land-slides). The proposed model effectively captures spatiotemporal variations over Europe in the period of 2000 \u2013 2022, with particular precision in mapping Land-slides. The proposed method advances soil erosion mapping across different spatial and temporal scales particularly in the EU, contributing to the development of targeted conservation strategies and sustainable land management practices.",
+    "start_datetime": "2024-07-03T13:00:00Z",
+    "end_datetime": "2024-07-03T13:30:00Z",
+    "talk:code": "JSMTZW",
+    "talk:guid": "14691669-9fca-57bf-bbaa-e4ccf9978499",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Academic track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Omicum",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "CJMSE8",
+        "name": "Ayomide Oraegbu",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/CJMSE8/"
+      },
+      {
+        "code": "EYERQH",
+        "name": "Emmanuel Jolaiya",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/EYERQH/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-03T13:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/JSMTZW/",
+      "title": "Mapping Soil Erosion Classes using Remote Sensing Data and Ensemble Models"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/JSMTZW/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/CJMSE8/",
+      "title": "Ayomide Oraegbu"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/EYERQH/",
+      "title": "Emmanuel Jolaiya"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/JSMTZW/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-slide": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/JSMTZW/resources/Academic_Track__Mapping_Soil_Erosion_Cla_wUqTLXf.pdf",
+      "type": "application/pdf",
+      "title": "Presentation Slide",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "paper": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/JSMTZW/resources/isprs-archives-XLVIII-4-W12-2024-135-202_M3Uk900.pdf",
+      "type": "application/pdf",
+      "title": "Paper",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/uRhDyEAkuSopyje5w8cwZr",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Mapping Soil Erosion Classes using Remote Sensing Data and Ensemble Models",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=WH9O6qQUlDs",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Mapping Soil Erosion Classes using Remote Sensing Data and Ensemble Models",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

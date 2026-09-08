@@ -1,0 +1,116 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "JRTHPX",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "PDF Map Generation as Headless Chrome Service",
+    "description": "#### Summary\r\nIn the context of a project for Swisstopo, the Federal Office of Topography of Switzerland, we analyzed the current technological landscape for generating PDF files for print from vector tile-based maps in online map services. One of our main goals was to identify potential technology stacks supporting full backend rendering, full frontend rendering, or hybrid approaches. While testing various options, we developed a universal print backend based on Headless Chrome, Puppeteer and Node, which corresponds to a full backend rendering approach and ultimately became our main focus. We will present our findings about the various options we have identified and elaborate in more detail on the developed print backend by presenting technical details as well as test results regarding performance, stability and quality.\r\n\r\n#### Description\r\nThe demand for generating PDF files (e.g., for print) from online map services remains strong. Given the opportunities offered by vector tile-based maps and their resulting widespread adoption, particularly Mapbox Vector Tiles, providing this functionality in the context of web applications presents technical challenges that reveal shortcomings of existing solutions (e.g., mapfish print) and call for new approaches.\\\r\nBy analyzing and testing well-established technologies, we identified several issues leading to unsatisfactory map renderings and PDF outputs. Some flaws are subtle, such as text cut-offs at tile seams, while others result in entirely unusable outputs, such as difficulties handling transparent layers.\r\nTo address these shortcomings, we developed an alternative approach by delegating both map rendering and PDF generation to a Headless Chrome instance controlled by Puppeteer, running inside a dedicated Node.js Docker container. This solution offers significant flexibility in choosing the rendering engine (e.g., MapLibre GL JS or OpenLayers) and defining the print frame (a simple HTML page with a map canvas for displaying raw maps is sufficient but can be extended with custom elements as required). \\\r\nFurthermore, by explicitly adding GPU support to the container, which is not available by default, we achieved good performance in map rendering and PDF generation while ensuring the same rendering quality as in the online map display.\r\n\r\n\r\n#### Key Points\r\n\r\nThe primary factors motivating our choice of this setup included:\r\n- Identical map display as online with MapLibre GL (WYSIWYG \u2013 What You See Is What You Get)\r\n- Stability of the server even under heavy load\r\n- Scalability on AWS server\r\n- Maximum flexibility for layout design, defined directly in HTML\r\n\r\nOptimizations crucial for performance:\r\n- GPU support\r\n- Caching\r\n\r\nComparative analysis of:\r\n- Conventional services (MapFish Print)\r\n- TileServer GL\r\n- Frontend-based solutions (InkMap)",
+    "start_datetime": "2025-07-18T12:30:00Z",
+    "end_datetime": "2025-07-18T13:00:00Z",
+    "talk:code": "JRTHPX",
+    "talk:guid": "4ecc9eda-a513-5d59-b485-ad05cb06f170",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "SA02",
+    "talk:room_capacity": 108,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "GHCZDL",
+        "name": "Dominik Frey",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/GHCZDL/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-18T12:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/JRTHPX/",
+      "title": "PDF Map Generation as Headless Chrome Service"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/JRTHPX/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/GHCZDL/",
+      "title": "Dominik Frey"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/JRTHPX/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "pdf-map-generation-as-headless-chrome-service": {
+      "href": "https://docs.google.com/presentation/d/1MI_OPxg-h2gIhSo_tMIo_zf0WWNPapB1N000IK7fpS8/edit?usp=drive_link",
+      "title": "PDF Map Generation as Headless Chrome Service",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/1iMKJfkQuHCBwX4bzxSxQ8",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | PDF Map Generation as Headless Chrome Service",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=LddZKEsEyh4",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | PDF Map Generation as Headless Chrome Service",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

@@ -1,0 +1,96 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "DLPURY",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Integrating STAC with QGIS",
+    "description": "The ever-increasing volume of geospatial data presents challenges in discovery, access, and utilization. The Spatio-Temporal Asset Catalog (STAC) standard offers a standardized approach to describing and accessing spatiotemporal assets. This talk explores the integration of STAC with QGIS.\r\nWe describe the benefits of STAC integration, including improved data discoverability through user-friendly search functionalities, streamlined access to remote data sources, and potential for automation in data download and processing workflows within QGIS.\r\nThe talk outlines the technical approach for integrating STAC, which involve developing a new servevice provider within core QGIS. We discuss potential challenges, such as ensuring compatibility with various STAC implementations and data providers.\r\nFinally, the talk highlights the potential impact of STAC integration. By leveraging the STAC ecosystem, QGIS users can benefit from a wider range of geospatial data resources, enhancing their ability to conduct spatial analysis and create insightful maps.",
+    "start_datetime": "2024-12-04T17:00:00Z",
+    "end_datetime": "2024-12-04T17:30:00Z",
+    "talk:code": "DLPURY",
+    "talk:guid": "1b516397-291c-5a42-915b-e2e6f26fe628",
+    "talk:event": "foss4g-2024",
+    "talk:track": "Open Standard",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room IV",
+    "talk:room_capacity": 100,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "Y9AUJZ",
+        "name": "Saber Razmjooei",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/Y9AUJZ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-04T17:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/DLPURY/",
+      "title": "Integrating STAC with QGIS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/DLPURY/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/Y9AUJZ/",
+      "title": "Saber Razmjooei"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/DLPURY/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://docs.google.com/presentation/d/1UosiB2pAEguogrjoM4p7lyDkpqsvW3VdaL67QvJ0lhY/edit?usp=sharing",
+      "title": "Presentation",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "TSQK8Z",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "TiTiler: Not just a tile server",
+    "description": "During the last 2 years we've been working on TiTiler (https://developmentseed.org/titiler/), a dynamic raster tile server. Built on top GDAL/Rasterio, TiTiler is written in python and use FastAPI (https://fastapi.tiangolo.com) framework. TiTiler is an application that let you create raster tiles dynamically from raster datasets (e.g Cloud Optimized GeoTIFF) but also from Spatial Temporal Asset Catalog (STAC) or Mosaic (using MosaicJSON). It is also a set of python modules which can be used independently to create custom services.\r\n\r\nDuring this talk we'll explain the concept of dynamic tiling, what is TiTiler (and the libraries powering it), how it works and more important how users can customize and built their own dynamic tile server.\r\n\r\nWe will also present project like TiTiler-PgSTAC (https://github.com/stac-utils/titiler-pgstac) which enables the creation of Mosaic tiles dynamically from a Spatial Temporal Asset Catalog (STAC) database, or eoAPI (https://github.com/developmentseed/eoAPI) which is a full Earth Observation data service combining STAC database, STAC-FastAPI and a TiTiler in one easily deployable project.",
+    "start_datetime": "2022-08-25T07:00:00Z",
+    "end_datetime": "2022-08-25T07:30:00Z",
+    "talk:code": "TSQK8Z",
+    "talk:guid": "01554a85-09d5-5a7c-b65e-59e781a7e244",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Modulo 0",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "ACL8NN",
+        "name": "Vincent Sarago",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/ACL8NN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T07:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/TSQK8Z/",
+      "title": "TiTiler: Not just a tile server"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/TSQK8Z/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/ACL8NN/",
+      "title": "Vincent Sarago"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/TSQK8Z/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=yBWOxwylHZ8",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | TiTiler: Not just a tile server",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

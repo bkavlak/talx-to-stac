@@ -1,0 +1,106 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "BXYXV3",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Open Source and Open Standard Offline Mobile Data Collection with KoboToolbox",
+    "description": "Review of the current state-of-art of open source, offline capable, mobile geospatial data collection using the KoboToolbox toolset, based on Open Data Kit standards.\n\nKoboToolbox (Kobo) is an open source, non-profit project based in the USA from the Harvard Humanitarian Initiative, dedicated to making data collection accessible to everyone, everywhere. We are one of the leading global open source tools for collecting, managing, and visualizing data. Our primary sectors include supporting humanitarian aid, environmental protection, human rights, public health, and social development, by providing real data to drive positive change.\r\n\r\nKoboToolbox is used across the globe for mobile data collection in some of the world's most remote locations, handling over 20 million form submissions per month. KoboToolbox is entirely open source and is freely available to anyone who wishes to run or customize it. Kobo also provides a free hosting service to non-profit organisations on its public servers, as well as offering dedicated private servers to humanitarian institutions, such United Nations, Red Cross, Save the Children, which helps subsidize our free services.\r\n\r\nKoboToolbox provides both a native Android app - KoboCollect - and a browser-based client - Enketo. All data collection in KoboToolbox can be performed entirely offline, with form definitions and new submissions permanently stored on the device until the user is back in coverage. In addition to a rich set of basic form controls, such as text, selections, photos, QR codes, etc, KoboToolbox also supports acquiring geospatial data in the form of points, paths, and polygons, and includes geo-centric functions like area and distance calculations as well as on-device geofencing. The KoboCollect app supports an extensive range of mapping options, including the ability to preload and display offline MapBox map tiles, and making selections from a map. All form elements can be further embellished with skip logic and validation checking to support custom workflows. Longitudinal studies can be undertaken by referencing previously acquired datasets whilst in the field, again, in an entirely offline manner.\r\n\r\nKoboToolbox is deployed globally and permits extensive internationalization with over 60 languages supported. All data collected can be visualized through rich dashboards - including geospatially - and is fully accessible to other integration platforms via KoboToolbox\u2019s extensive API and export interfaces.",
+    "start_datetime": "2025-11-20T02:30:00Z",
+    "end_datetime": "2025-11-20T02:55:00Z",
+    "talk:code": "BXYXV3",
+    "talk:guid": "c60f1dab-fc62-5836-90e8-17ef2ac9e38c",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Desktop GIS & Data Collection",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG802",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "HNSDTE",
+        "name": "Dr. Gareth S. Bestor",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/HNSDTE/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-20T02:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/BXYXV3/",
+      "title": "Open Source and Open Standard Offline Mobile Data Collection with KoboToolbox"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/BXYXV3/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/HNSDTE/",
+      "title": "Dr. Gareth S. Bestor"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/BXYXV3/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-slide-deck": {
+      "href": "https://talks.osgeo.org/media/foss4g-2025/submissions/BXYXV3/resources/FOSS4G_final_smaller_0W0m3Mp.pptx",
+      "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "title": "Presentation slide deck",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=fbTnEAp99Zw",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Open Source and Open Standard Offline Mobile Data Collection with KoboToolbox",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

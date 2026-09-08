@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "KUPAWC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "eo-tides: Open-source tide modelling tools for large-scale satellite Earth observation analysis",
+    "description": "`eo-tides` provides powerful open-source tools for combining satellite Earth observation data with tide modelling. These tools can be applied to petabytes of freely available satellite data, providing a suite of flexible tools for efficient monitoring and mapping of coastal and ocean environments \u2013 from regional, continental, to global scale.\n\nFreely available Earth observation (EO) satellite data is a powerful resource for mapping and monitoring dynamic coastal environments over time and across large areas. However, the influence of ocean tides means satellite data is often acquired at vastly different tidal stages. This can make it difficult to distinguish true patterns of coastal change from short-term tidal variability, leading to inaccurate or misleading insights into coastal processes. To address this challenge, there is a pressing need for scalable open source tools that can account for tidal variability and make tides an explicit part of coastal EO analysis.\r\n\r\nThe new Geoscience Australia `eo-tides` package (https://github.com/GeoscienceAustralia/eo-tides) offers powerful open-source tools for integrating satellite EO data with ocean tide modelling. It provides a flexible Python toolkit for attributing modelled tide heights to satellite data time series, based on each satellite image's spatial extent and acquisition time. eo-tides builds on advanced tide prediction capability from the open-source `pyTMD` library, combining this with spatial analysis tools from the Open Data Cube (ODC)'s `odc-geo`. This enables efficient, parallelised modelling using over 50 supported tidal models, with outputs returned in standardised pandas and xarray formats for further analysis.\r\n\r\n`eo-tides` can be applied to petabytes of freely available satellite data accessed via the cloud using ODC\u2019s `odc-stac` or `datacube` packages (e.g. using Digital Earth Australia or Microsoft\u2019s Planetary Computer). Additional functionality supports validation with external tide gauge data and the assessment of potential satellite-tide biases - critical considerations for ensuring the reliability and accuracy of coastal EO workflows. These open-source tools support the efficient, scalable and robust analysis of coastal EO data for any time period or location globally.",
+    "start_datetime": "2025-11-19T21:00:00Z",
+    "end_datetime": "2025-11-19T21:25:00Z",
+    "talk:code": "KUPAWC",
+    "talk:guid": "46df71af-9bd7-5a67-9920-2acfd255f86e",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Tools, Libraries & Visualisation",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG126",
+    "talk:room_capacity": 140,
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "NYGGGH",
+        "name": "Robbi Bishop-Taylor",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/NYGGGH/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-19T21:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/KUPAWC/",
+      "title": "eo-tides: Open-source tide modelling tools for large-scale satellite Earth observation analysis"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/KUPAWC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/NYGGGH/",
+      "title": "Robbi Bishop-Taylor"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/KUPAWC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

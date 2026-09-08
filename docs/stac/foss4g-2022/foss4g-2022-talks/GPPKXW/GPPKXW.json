@@ -1,0 +1,129 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "GPPKXW",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "pygeofilter: geospatial filtering made easy",
+    "description": "## Abstract\r\n\r\n[pygeofilter](https://github.com/geopython/pygeofilter/) is a library to support the integration of geospatial filters. It is split into frontend language parsers (CQL 1 + 2 text/JSON, JFE, FES) , a common Abstract Syntax Tree (AST) representation and several backends (database systems) where the parsed filters can be integrated into queries.\r\n\r\n## Parsers\r\n\r\nCurrently pygeofilter supports CQL 1, CQL 2 in both text and JSON encoding, OGC filter encoding specification (FES) and JSON filter expressions (JFE) as input languages. Additionally pygeofilter provides utilities to help create parsers for new filter languages.\r\nThe filters are parsed to an AST representation, which is a common denominator across all filter capabilities including logical and arithmetic operators, geospatial comparisons, temporal filters and property lookups. An AST can also be easily created via the API, if necessary.\r\n\r\n## Backends\r\n\r\npygeofilter provides several backends and helpers to roll your own. Built-in backends are for Django, SQLAlchemy, raw SQL, (Geo)Pandas dataframes, and native Python lists of dicts or objects.\r\n\r\n## Usage\r\n\r\npygeofilter is used in several applications, such as [PyCSW](https://pycsw.org/), [EOxServer](https://github.com/EOxServer/eoxserver/) and [ogc-api-fast-features](https://github.com/microsoft/ogc-api-fast-features/)",
+    "start_datetime": "2022-08-25T08:00:00Z",
+    "end_datetime": "2022-08-25T08:30:00Z",
+    "talk:code": "GPPKXW",
+    "talk:guid": "f91e5b01-8a0b-5a26-bd31-07a08e9e6938",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Onice",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "PR8SFJ",
+        "name": "Fabian Schindler-Strauss",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/PR8SFJ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T08:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/GPPKXW/",
+      "title": "pygeofilter: geospatial filtering made easy"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/GPPKXW/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/PR8SFJ/",
+      "title": "Fabian Schindler-Strauss"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/geopython/pygeofilter/",
+      "title": "pygeofilter"
+    },
+    {
+      "rel": "related",
+      "href": "https://pycsw.org/",
+      "title": "PyCSW"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/EOxServer/eoxserver/",
+      "title": "EOxServer"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/microsoft/ogc-api-fast-features/",
+      "title": "ogc-api-fast-features"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/GPPKXW/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/fLYAwqRLn7poJWZgxrjqXh",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | pygeofilter: geospatial filtering made easy",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=P3A79obkHes",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | pygeofilter: geospatial filtering made easy",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

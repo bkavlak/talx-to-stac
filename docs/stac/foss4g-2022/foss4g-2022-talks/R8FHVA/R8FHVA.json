@@ -1,0 +1,114 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "R8FHVA",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Use of open source tools to estimate global GHG emissions.",
+    "description": "Hey everyone, my name is Saheel Ahmed. I work as a senior data scientist at Blue Sky Analytics. We are a climate tech startup primarily focused on creating environmental datasets for better monitoring and climate risk assessment for various stakeholders across the globe. To achieve this, we are leveraging the potential of geospatial analytics by creating a catalogue of comprehensive and accurate climate data to drive sustainable decision-making. And all this is only possible because of the open-source tools & knowledge made publicly by the good folks organising the event.\r\n\r\nGreenhouse gas (GHG) emissions from biomass burning (which includes the combustion of forests, savannas, and croplands) play an important role in regional air quality, global climate change, and human health. In the year 2021, all the continents except Antarctica witnessed major wildfires. These enormous blazes some the size of a small country aren\u2019t just destroying native forests and vulnerable animal species. They\u2019re also releasing billions of tons of greenhouse gases into the atmosphere, potentially accelerating global warming and leading to even more fires. Accurate assessment of biomass burning emissions is paramount to understanding and modelling global climate change.\r\n\r\nBy combining open-source tools with geospatial data, we present a global dataset that estimates the total GHG emissions due to biomass burning globally. We achieved this by linking satellite-based fire observations, aerosol optical depth (AOD), and vegetation type (based on land cover classification) to directly estimate how much carbon dioxide (CO2), methane (CH4), and nitrous oxide (N2O) were emitted from each fire. We conducted further analysis of estimated emissions by comparing our estimates with existing datasets from NASA's global fire emissions database and ESA's Copernicus global fire assimilation system. Overall, our estimates agree well against both of these sources with an R2 score of 0.91, 0.71, and MAE score of 9, 14 MtCO2e/yr against GFEDv4.1s and GFASv1.2 respectively across 245 nations between 2015-2020. The dataset includes country-level estimates of gross GHG emissions across different vegetation types such as forest, cropland, shrubland, and grassland for the last 5 years.\r\n\r\nThe dataset is currently a work in progress as we aim to add more features such as covering other landcover types, ground truth alternatives. The dataset and its documentation are available at https://github.com/blueskyanalytics/get-started. The dataset is also our contribution to the global coalition Climate Trace (https://www.climatetrace.org/), an independent group for monitoring & publishing GHG emissions across different sectors.",
+    "start_datetime": "2022-08-26T07:30:00Z",
+    "end_datetime": "2022-08-26T08:00:00Z",
+    "talk:code": "R8FHVA",
+    "talk:guid": "90a84f59-e02e-541f-adf3-fa33223caf47",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Open Data",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room 4",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "EDQM3B",
+        "name": "Saheel Ahmed",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/EDQM3B/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T07:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/R8FHVA/",
+      "title": "Use of open source tools to estimate global GHG emissions."
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/R8FHVA/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/EDQM3B/",
+      "title": "Saheel Ahmed"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/blueskyanalytics/get-started",
+      "title": "github.com/blueskyanalytics/get-started"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/R8FHVA/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/gqtw7sBe89pULN7TVpfzag",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Use of open source tools to estimate global GHG emissions.",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=CYBFjpvhDMc",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Use of open source tools to estimate global GHG emissions.",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

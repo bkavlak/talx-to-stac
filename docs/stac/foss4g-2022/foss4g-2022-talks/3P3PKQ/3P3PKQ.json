@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "3P3PKQ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Free and Open source GIS architecture for low cost inventory mapping of urban water supply network",
+    "description": "In the planning and expansion of water supply schemes, there needs to be detailed mapping and documentation of existing pipeline network and their assets. However this is usually not the case, especially where the construction of these pipelines predates advances in mapping, geoinformation and database where they in prior existed as drawing and engineering plans. In order to migrate to a fully documented inventory, digitalisation and management of a water supply network database to estimate demand and supplies to plan expansion and population growth, there needs to be an inventory of existing scheme. Historically, mapping has been done with expensive mapping and survey equipment that can pose a challenge for small organisation\u2019s budget, making it difficult to have a complete mapping inventory of its network. \r\nThis article presents a geographical information system\u2013based free and opensource software architecture for the mapping and inventory of urban water supply network. This architecture is especially useful where budget is tight and decision relating to meeting the water and sanitation-related Sustainable Development goals needs to be made. The architecture consists of data management, data collection, data analysis and project host environment tools and software. \r\nPostGresSQL with PostGIS was used for design and management of water supply network GIS database, basing the creation and design of features and attributes on prior knowledge of what exists on water supply networks. Features created are transmission and distribution pipelines, hydrants, valves, chambers, junctions, leaks, encroachments, pumps, pump stations, reservoirs, bulk flowmeter, treatment stations with attributes across that include diameter, pipeline material, operational status, condition, encroachment, photo; sizes, capacity, models, manufacturer etc. The PostGIS database was connected to a QGIS project environment where custom forms to were designed to capture attributes created in PostGIS. The QGIS project was linked to an android based mobile app data collection software called Qfield, hosting custom forms designed in QGIS to capture the content of the water supply features, location and attributes. Using the form on Qfield, the water supply network is mapped and attributes captured and once data capture has been carried out using Qfield software, data from field capture is synchronised to QGIS project and following edits to the data captured, it is updated to the PostGresSQL PostGIS database. QGIS software acting as the project host environment also functions as the software for mapping, visualising and analysis of data hosted and managed \r\nThe architecture presented is an opportunity for any organisation seeking a free and open source GIS option in capturing and documenting and managing their water supply network data. As one of the weaknesses, is that data captured using Qfield has the inherent horizontal and vertical accuracy acquired from android devices which is less accuracy than that from a survey equipment. However, Qfield has the option of connecting to GNSS equipment by blue tooth, inheriting the sub cm horizontal and vertical accuracy it offers and thus improving locational and elevation information and still offering a higher accuracy free open source option.",
+    "start_datetime": "2022-08-25T13:20:00Z",
+    "end_datetime": "2022-08-25T13:25:00Z",
+    "talk:code": "3P3PKQ",
+    "talk:guid": "f41e57e7-a0c4-5b26-b08f-06eb77674f4c",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "General online",
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "A9QEZF",
+        "name": "Anthonia Ijeoma Onyeahialam",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/A9QEZF/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T13:22:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/3P3PKQ/",
+      "title": "Free and Open source GIS architecture for low cost inventory mapping of urban water supply network"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/3P3PKQ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/A9QEZF/",
+      "title": "Anthonia Ijeoma Onyeahialam"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/3P3PKQ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

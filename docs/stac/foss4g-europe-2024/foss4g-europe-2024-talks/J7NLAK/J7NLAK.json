@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "J7NLAK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Vector Mosaicking with GeoServer",
+    "description": "The vector mosaic datastore is a new feature in GeoServer that allows indexing many smaller vector stores (e.g., shapefiles, FlatGeoBuf, Geoparquet) and serving them as a single, seamless data source. This has the advantage of cost savings when dealing with very large amounts of data in the cloud, as blob storage bills at a fraction of an equivalent database. It is also faster for specific use cases, e.g, when extracting a single file from a large collection and rendering it fully (e.g. tractor tracks in a precision farming application).\r\n\r\nAttend this presentation to learn more about vector mosaic setup, tuning, migration from large relations databases, and real world experiences.",
+    "start_datetime": "2024-07-03T08:00:00Z",
+    "end_datetime": "2024-07-03T08:30:00Z",
+    "talk:code": "J7NLAK",
+    "talk:guid": "f871ffb6-b177-59d9-b683-36367457ebef",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "LAStools (327)",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RBSH8T",
+        "name": "Andrea Aime",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/RBSH8T/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-03T08:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/J7NLAK/",
+      "title": "Vector Mosaicking with GeoServer"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/J7NLAK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/RBSH8T/",
+      "title": "Andrea Aime"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/J7NLAK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "vector-mosaicking-with-geoserver-pdf": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/J7NLAK/resources/Vector_mosaicking_with_GeoServer_J9FzDMY.pdf",
+      "type": "application/pdf",
+      "title": "Vector mosaicking with GeoServer.pdf",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/i98EzQ7uVVEixTktLP8MfL",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Vector Mosaicking with GeoServer",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=30TzXL9fM8M",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Vector Mosaicking with GeoServer",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

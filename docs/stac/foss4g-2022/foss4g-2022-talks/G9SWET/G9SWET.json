@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "G9SWET",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Are you lost? Get pgRouting to find your way",
+    "description": "pgRouting not only allows to get routes for any kind of transportation, from 0 wheels to 18 wheeler. \r\nA road is closed? Calculate how can traffic be diverted.\r\nDon't get a result? Check if your graph is connected.\r\nNeed to deliver to several clients? Traveling Salesperson problem helps to determine the route.\r\nFind out what is planned for version 4.0 that is a work in progress.\r\nLearn about the spin off for vehicle routing problems.\r\npgRouting extends the PostGIS / PostgreSQL geospatial database to provide geospatial routing functionality.\r\nAdvantages of the database routing approach are:\r\n* Data and attributes can be modified by many clients, like QGIS through JDBC, ODBC, or directly using Pl/pgSQL. The clients can either be PCs or mobile devices.\r\n* Data changes can be reflected instantaneously through the routing engine. \r\n* The \u201ccost\u201d parameter can be dynamically calculated through SQL and its value can come from multiple fields or tables.",
+    "start_datetime": "2022-08-26T07:00:00Z",
+    "end_datetime": "2022-08-26T07:30:00Z",
+    "talk:code": "G9SWET",
+    "talk:guid": "b9c5a59f-c5bf-57e6-9c60-e08eab7b6b0c",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Verde",
+    "talk:room_capacity": 230,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "DUUVVD",
+        "name": "Vicky Vergara",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/DUUVVD/"
+      },
+      {
+        "code": "TLPKBD",
+        "name": "Ashish Kumar",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/TLPKBD/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T07:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/G9SWET/",
+      "title": "Are you lost? Get pgRouting to find your way"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/G9SWET/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/DUUVVD/",
+      "title": "Vicky Vergara"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/TLPKBD/",
+      "title": "Ashish Kumar"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/G9SWET/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/64UfayZFxe2YuBc8s9vcRK",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Are you lost? Get pgRouting to find your way",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=9vjNhfpo3Cw",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Are you lost? Get pgRouting to find your way",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

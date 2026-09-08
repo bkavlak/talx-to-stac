@@ -1,0 +1,108 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "SZ83SS",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Mapping Fiber Without Operator Data: Evidence-Based Connectivity Indicators",
+    "description": "Accurate fiber maps often rely on proprietary operator data. This talk presents an evidence-based methodology to assess fiber presence and connectability using [Overturemaps](https://overturemaps.org/), network measurements from a Brazilian city with [SIMET](https://simet.nic.br/), and routing constraints\u2014explicitly accounting for uncertainty.\n\nFiber optic infrastructure is critical for digital inclusion, yet detailed and reliable maps are rarely available to public authorities. Existing coverage maps often rely on proprietary operator disclosures or make strong assumptions that are difficult to verify. This creates challenges for transparent planning, prioritization, and accountability.\r\n\r\nThis talk presents an alternative approach to mapping fiber infrastructure that deliberately avoids operator data and coverage claims. Instead, it focuses on what can be observed and reasonably inferred. The proposed methodology combines Open Source Data from [Overturemaps](https://overturemaps.org/) and network measurement information to construct evidence-based indicators of fiber presence, proximity, and potential connectability.\r\n\r\nA key input to this work is network measurement data collected through [SIMET](https://simet.nic.br/), an Internet performance measurement platform developed and operated by [CEPTRO.br](https://medicoes.nic.br)/[NIC.br](https://nic.br). [SIMET](https://simet.nic.br/) has been running continuously for several years and collects large-scale, geolocated measurements directly from end-user devices across Brazil. Unlike operator-reported datasets, these measurements reflect observed network behavior at the edge, providing an independent and empirically grounded view of connectivity conditions. In this project, [SIMET](https://simet.nic.br/) data is used to identify candidate fiber endpoints. \r\n\r\nRather than attempting to reconstruct operator networks, the workflow models fiber infrastructure as a graph of observable segments and plausible routes. Connectivity is assessed in terms of routing difficulty, redundancy, and proximity to candidate locations, while uncertainty is treated as a first-class output rather than a residual error. The result is not a definitive coverage map, but a set of indicators that support comparative analysis and decision-making.\r\n\r\nThe presentation introduces the conceptual framework, discusses the data sources and processing steps, and demonstrates the approach using pilot results from selected urban areas. Particular attention is paid to limitations, ethical considerations, and the risks of over-interpretation when mapping critical infrastructure.\r\n\r\nBy focusing on transparent methods and reproducible workflows, this work aims to support public-sector planning, research, and civil society initiatives that require actionable insight without relying on proprietary data. The talk concludes with open questions and directions for collaboration within the FOSS4G community.",
+    "start_datetime": "2026-09-02T05:30:00Z",
+    "end_datetime": "2026-09-02T06:00:00Z",
+    "talk:code": "SZ83SS",
+    "talk:guid": "7e896636-1725-56bd-8c4e-e58b7bb76be3",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room5",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "YSK8E7",
+        "name": "CRISTIANE HONORA MILLAN",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/YSK8E7/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T05:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/SZ83SS/",
+      "title": "Mapping Fiber Without Operator Data: Evidence-Based Connectivity Indicators"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/SZ83SS/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/YSK8E7/",
+      "title": "CRISTIANE HONORA MILLAN"
+    },
+    {
+      "rel": "related",
+      "href": "https://overturemaps.org/",
+      "title": "Overturemaps"
+    },
+    {
+      "rel": "related",
+      "href": "https://simet.nic.br/",
+      "title": "SIMET"
+    },
+    {
+      "rel": "related",
+      "href": "https://medicoes.nic.br",
+      "title": "CEPTRO.br"
+    },
+    {
+      "rel": "related",
+      "href": "https://nic.br",
+      "title": "NIC.br"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/SZ83SS/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

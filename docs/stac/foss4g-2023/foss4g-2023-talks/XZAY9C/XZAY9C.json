@@ -1,0 +1,134 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "XZAY9C",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Running OGC API - Features as Smart Contract",
+    "description": "Motivation\r\n\r\nNew, evolving technologies allow to host data and program code (smart contracts) on distributed blockchains. Beside other aspects, like validating geospatial data and their transactions, this technology might also be interesting for building distributed services for the \u2018classical\u2019 spatial data infrastructures.   \r\n\r\nPrototype\r\n\r\nDuring the last months a prototype was developed to test the capabilities of smart contracts to distribute spatial data using the OGC API \u2013 Features specification and gain some experiences in its design, typical workflows, limitations etc.\r\nThe prototype is designed as smart contract on the \u2018Internet Computer (IC)\u2019 blockchain (see https://internetcomputer.org/). This allows to store program code and the spatial data in one container on the blockchain and execute it on demand.\r\nTo simplify the test, a fixed workflow is implemented. \r\n\r\n1)\tData providers upload a spatial dataset (currently glider GNSS tracks in the IGC format) on a simple webpage running within the container\r\n\r\n2)\tThe spatial data is persisted on the IC blockchain \r\n\r\n3)\tUsers access the data via OGC API \u2013 Features with their browser (html representation) or with their GIS\r\n\r\nPresentation\r\n\r\nIn the presentation, I would like to share some experiences on developing geospatial interfaces in a blockchain environment and show the current state of the prototype. Especially the coding with the programming language \u2018Motoko\u2019, the exposed interfaces, and the distribution on the blockchain with its costs will be addressed. \r\nI would further like to discuss use cases of the approach, e.g. a simplified data distribution for smaller data providers, and the potential extensions on this approach, like introducing a user management, adding metadata or integrating dynamic data sources. \r\n\r\nLinks\r\n- Entrypoint (OGC API Features): https://mtlom-hiaaa-aaaah-abtkq-cai.raw.ic0.app/\r\n- Github page (mainly Motoko code): https://github.com/janschu/igc_tools \r\n\r\nRelated:\r\n- Internetcomputer (IC): https://internetcomputer.org/\r\n- IGC - International Gliding Commission \u2013 GNSS Flight Recorders Spec: https://www.fai.org/sites/default/files/igc_fr_specification_2020-11-25_with_al6.pdf \r\n- OGC API \u2013 Features: https://ogcapi.ogc.org/features/",
+    "start_datetime": "2023-06-30T08:30:00Z",
+    "end_datetime": "2023-06-30T09:00:00Z",
+    "talk:code": "XZAY9C",
+    "talk:guid": "d1dd0e5d-959e-522e-8825-1a3c0d82b114",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Open source geospatial \u2018Made in Europe\u2019",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Mirusha",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "XQ8MWG",
+        "name": "Jan Schulze Althoff",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/XQ8MWG/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-30T08:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/XZAY9C/",
+      "title": "Running OGC API - Features as Smart Contract"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/XZAY9C/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/XQ8MWG/",
+      "title": "Jan Schulze Althoff"
+    },
+    {
+      "rel": "related",
+      "href": "https://internetcomputer.org/",
+      "title": "internetcomputer.org"
+    },
+    {
+      "rel": "related",
+      "href": "https://mtlom-hiaaa-aaaah-abtkq-cai.raw.ic0.app/",
+      "title": "mtlom-hiaaa-aaaah-abtkq-cai.raw.ic0.app"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/janschu/igc_tools",
+      "title": "github.com/janschu/igc_tools"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.fai.org/sites/default/files/igc_fr_specification_2020-11-25_with_al6.pdf",
+      "title": "www.fai.org/sites/default/files/igc_fr_specification_2020-11-25_with_al6.pdf"
+    },
+    {
+      "rel": "related",
+      "href": "https://ogcapi.ogc.org/features/",
+      "title": "ogcapi.ogc.org/features"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/XZAY9C/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/hG7isjPKmBNWhCojK7iEEZ",
+      "type": "text/html",
+      "title": "2023 | Running OGC API - Features as Smart Contract - Jan Schulze Althoff",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=y8lftSo7jFQ",
+      "type": "text/html",
+      "title": "2023 | Running OGC API - Features as Smart Contract - Jan Schulze Althoff",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

@@ -1,0 +1,108 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "SKWYSQ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "A5 Technical Deep Dive: The Mathematics of Pentagonal Perfection",
+    "description": "Journey through the mathematical elegance of  [A5](https://a5geo.org)'s pentagonal spatial indexing system. Discover how dodecahedral geometry, vertex curvature minimization, and equilateral pentagon tiling create superior spatial accuracy. A highly visual exploration of the geometric principles that make  [A5](https://a5geo.org) equal area cells possible.\n\n### Overview\r\nMathematics and geometry have always been humanity's tools for understanding and organizing space. This presentation takes you on a visual journey through the mathematical foundations of A5, revealing how geometric principles dating back to ancient Greece combine with modern computational techniques to create a new spatial indexing system.\r\n\r\n### The Mathematical Quest: Why Break From Regular Polygons?\r\n\r\nA fundamental question drives A5's innovation: why restrict ourselves to regular polygons when projecting onto a sphere warps all shapes anyway? Traditional DGGS approaches use regular polygons (triangles in HTM, squares in S2, hexagons in H3) on platonic solids, but projection distorts these shapes significantly.\r\n\r\nA5 recognizes that since projection destroys regularity regardless, we should optimize for the final spherical result rather than the initial planar form. This insight led to embracing irregular equilateral pentagons that, while not regular on the plane, achieve superior properties when projected onto the sphere.\r\n\r\n### The Five Platonic Solids: Building Blocks of Space\r\n\r\nTo understand A5, we must first explore the five Platonic solids - the only three-dimensional shapes where all faces are identical regular polygons. These geometric forms, known since antiquity, provide the foundation for all Discrete Global Grid Systems (DGGSs).\r\n\r\nEach platonic solid offers different characteristics:\r\n- **Tetrahedron** (4 triangular faces): Highest vertex curvature\r\n- **Cube** (6 square faces): High vertex curvature\r\n- **Octahedron** (8 triangular faces): Moderate vertex curvature\r\n- **Icosahedron** (20 triangular faces): Low vertex curvature\r\n- **Dodecahedron** (12 pentagonal faces): Lowest vertex curvature\r\n\r\nThe key insight is that vertex curvature directly relates to distortion when projecting onto a sphere. The dodecahedron, with its twelve pentagonal faces, has the lowest vertex curvature of all platonic solids, making it the most \"sphere-like\" geometric form.\r\n\r\n### Hilbert Curves: Elegant Spatial Indexing\r\n\r\nA critical feature in A5 is how cells are spatially indexed using Hilbert-like curves - space-filling curves that map one-dimensional integer sequences to two-dimensional spatial arrangements. This elegant mathematical solution ensures that cells with similar locations have similar cell IDs, leading to several desirable properties:\r\n\r\n- **Spatial Locality**: Nearby cells in space have nearby IDs in the integer sequence, enabling efficient spatial queries and neighbor finding operations.\r\n- **Hierarchical Consistency**: Parent cells are guaranteed to overlap with their children, though they don't cover them exactly. This overlap ensures spatial coherence across resolution levels.\r\n- **Efficient Traversal**: The curve's path through the pentagon hierarchy creates natural ordering for spatial operations and range queries.\r\n\r\n### Efficient Encoding: What can fit into 64 bits?\r\n\r\nThe mathematical journey culminates in A5's elegant encoding system. Each cell is represented as a 64-bit integer, enabling:\r\n\r\n- **Hierarchical Addressing**: Parent-child relationships encoded in bit patterns\r\n- **Computational Efficiency**: Fast spatial operations using integer arithmetic\r\n- **Millimeter Precision**: Extraordinary accuracy at the finest resolution",
+    "start_datetime": "2025-11-19T00:30:00Z",
+    "end_datetime": "2025-11-19T00:55:00Z",
+    "talk:code": "SKWYSQ",
+    "talk:guid": "cab2b350-0892-57ca-b544-1eddc190cfde",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Tools, Libraries & Visualisation",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG404",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "QEWFVN",
+        "name": "Felix Palmer",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/QEWFVN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-19T00:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/SKWYSQ/",
+      "title": "A5 Technical Deep Dive: The Mathematics of Pentagonal Perfection"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/SKWYSQ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/QEWFVN/",
+      "title": "Felix Palmer"
+    },
+    {
+      "rel": "related",
+      "href": "https://a5geo.org",
+      "title": "A5"
+    },
+    {
+      "rel": "related",
+      "href": "https://deck.gl",
+      "title": "deck.gl"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/SKWYSQ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=43Q2vlnMJzY",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | A5 Technical Deep Dive: The Mathematics of Pentagonal Perfection",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

@@ -1,0 +1,103 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "QACV83",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Morphological Spatial Pattern Analysis: Open Source Release",
+    "description": "In this section, we describe the main routines of the MSPA code with reference to the morphological image analysis operations they rely on with links to their implementation in the open source Morphological Image Analysis Library (MIAL) recently released on GitHub at github.com/ec-jrc/jeolib-miallib by the first author. All morphological image analysis operators at the basis of MSAP are described in [Soille, 2004]. We briefly present the main MSPA foreground classes with reference to source code of the main morphological function used to compute them: core, boundaries, islets, connectors, and branches. The actual pseudo-code will be added in the final version of this paper and will include details on the computation of all MSPA feature classes including those of connected components of background pixels. The underlying code in the C programming language is available on GitHub at github.com/ec-jrc/jeolib-miallib/blob/master/core/c/mspa.c\r\n\r\n# Performance\r\nThe performance of the algorithm is evaluated on images of increasing size as well as for on-the-fly computation for interactive analysis and visualisation. We demonstrate experimentally that the complexity of the proposed implementation is linear. That is, the computational time increases linearly with the number of pixels. We also show that the algorithm can handle images up to 2^64 pixels. For example, a Global MSPA map of forest cover in equal area projection and with a pixel resolution of 100 meter (400,748 x 147,306 pixels) was processed on the JRC Big Data Analytics Platform [Soille et al. 2018] in 12 hours. Processing large images is very much needed to mitigate dependencies with regards to the image definition domain because pixel classes may depend on the observation domain.\r\n\r\nAs for the on-the-fly computation for interactive analysis and exploratory visualisation based on Jupyter notebooks [De Marchi and Soille, 2019], we show that the proposed implementation is fast enough for integration in JupyterLab with on-the-fly computation in an area corresponding to the mapview area and at resolution matching its zoom level. A Voila dashboard is in preparation and will be available for demonstration at the conference.\r\n\r\n# Conclusion\r\nMorphological spatial pattern analysis has gained traction since its inception in 2008. For many years, we maintain a dedicated MSPA website with extensive documentation, various GIS extensions and a user-friendly provision of MSPA within the desktop application GTB and the server application GWB. The present open release of MSPA will further expand the potential user-community. We are in the process of making MSPA directly available in the pyjeo python package [Kempeneers et al., 2019], so that data scientists using python for their analysis will directly benefit from the MSPA open source release. Since MSPA is available through a library compiled in C, it can be easily integrated in other data science environments. We therefore expect the release of the MSPA code under an open source license to further boost its use for the analysis of geospatial patterns and indeed any other types of spatial patterns occurring in other scientific domains.\r\n\r\n\r\n# References\r\n- Soille, P., Vogt, P. \"Morphological segmentation of binary patterns\" (2009) Pattern Recognition Letters, doi: 10.1016/j.patrec.2008.10.015\r\n- Soille, P. et al. 2018. \"A versatile data-intensive computing platform for information retrieval from big geospatial data\" Future Generat. Comput. Syst. doi: 10.1016/j.future.2017.11.007\r\n- Ossola, A. et al. \"Yards increase forest connectivity in urban landscapes\" Landscape Ecol 10.1007/s10980-019-00923-7\r\n- Julien Carlier et al. \"Using open-source software and digital imagery to efficiently and objectively quantify cover density of an invasive alien plant species\" Journal of Environmental Management doi: 10.1016/j.jenvman.2020.110519\r\n- Victor Rincon et al. \"Proposal of new Natura 2000 network boundaries in Spain based on the value of importance for biodiversity and connectivity analysis for its improvement\" Ecological Indicators doi: 10.1016/j.ecolind.2021.108024\r\n- Giuseppe Modica et al. \"Implementation of multispecies ecological networks at the regional scale: analysis and multi-temporal assessment\" Journal of Environmental Management, Volume 289, 2021, doi: 10.1016/j.jenvman.2021.112494\r\n- Vogt, P. and Riitters, K. \"GuidosToolbox: Universal digital image object analysis (2017) European Journal of Remote Sensing\" doi: 10.1080/22797254.2017.1330650\r\n- Peter Vogt et al. \"GuidosToolbox Workbench: spatial analysis of raster maps for ecological applications\" (2022) Ecography. doi: 10.1111/ecog.05864\r\n- Soille, P. \"Morphological Image Analysis: Principles and Applications\" (2004). Springer, doi: 10.1007/978-3-662-05088-0\r\n- D. De Marchi and P. Soille, \"Advances in interactive processing and visualisation with JupyterLab on the JRC big data platform (JEODPP)\", in Proc. of BiDS'19, 2019. doi: 10.5281/zenodo.3239239\r\n- Kempeneers, P. et al. \"pyjeo: A Python Package for the Analysis of Geospatial Data\" ISPRS Int. J. Geo-Inf. 2019. doi: 10.3390/ijgi8100461",
+    "start_datetime": "2022-08-25T08:20:00Z",
+    "end_datetime": "2022-08-25T08:25:00Z",
+    "talk:code": "QACV83",
+    "talk:guid": "7bb7679d-94a9-53b0-8cb2-cc9855e47e6a",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "Room Hall 3A",
+    "talk:room_capacity": 85,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "T9GRSZ",
+        "name": "soille",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/T9GRSZ/"
+      },
+      {
+        "code": "XEFPUZ",
+        "name": "Peter Vogt",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/XEFPUZ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T08:22:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/QACV83/",
+      "title": "Morphological Spatial Pattern Analysis: Open Source Release"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/QACV83/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/T9GRSZ/",
+      "title": "soille"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/XEFPUZ/",
+      "title": "Peter Vogt"
+    },
+    {
+      "rel": "related",
+      "href": "https://jeodpp.jrc.ec.europa.eu/",
+      "title": "jeodpp.jrc.ec.europa.eu"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/QACV83/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

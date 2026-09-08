@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "GPN87Y",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "How much \u201c15-minutes\u201d is your city? Using open data to measure walking proximity",
+    "description": "The challenges posed to the current urban mobility model by pollution-related and urbanisation issues have resulted in significantly increasing the importance of urban resilience. Mobility management, pandemics\u2019 spreading, equal access to services and climate crisis are just some of the crucial issues that falls within the definition of urban resilience.\r\nOne very promising solution aiming to solve many of these issues has been presented in 2016 by Professor Carlos Moreno under the name of \u201c15-minutes city\u201d. The paradigm is based on the idea that every citizen should be able to reach the essential services (supermarkets, shops, parks, etc) walking not more than 15 minutes from their home. The model is being tested in some metropolitan cities around the world (e.g. Paris).\r\nHowever, reorganizing the city so that it presents a 15-minutes structure is not an easy task. It requires large resources and a careful planning based on data, to make sure that the project undertaken will actually have a positive effect on the urban mobility and no asset is wasted on useless projects.\r\nThe Business Innovation team of Dedagroup Public Services used Open Street Map data to develop an index to detect the local level of proximity within the city, showing both the areas that already conform to the 15 minutes model and the ones that do not, where taking action would improve the quality of life of the citizens living there.\r\nThe presentation will be focused on this proximity index, describing the assumptions behind its definition, such as the choice of city services to be considered essential, the nature of the road network used to compute walking distances and the area tiling chosen for the task.\r\nThe index will be then showcased on the city of Florence, together with an analysis of the city from a proximity point of view and a what if scenario: how would the index change if the municipality (and other relevant stakeholders) decided to make interventions on low proximity areas?\r\nThe case of Ferrara will be also presented to show that the proximity index can be the basis for further analyses: coupling the index with resident population count can help to spot the areas that are both under-served and highly populated, that are the ones where more people would benefit from improvements.",
+    "start_datetime": "2022-08-26T10:30:00Z",
+    "end_datetime": "2022-08-26T10:35:00Z",
+    "talk:code": "GPN87Y",
+    "talk:guid": "b08d9061-2728-5ca9-a17f-3bcb3ee012f6",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Modulo 0",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "ZYHEHV",
+        "name": "Piergiorgio Cipriano",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/ZYHEHV/"
+      },
+      {
+        "code": "Z87GNU",
+        "name": "Beatrice Olivari",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/Z87GNU/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T10:32:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/GPN87Y/",
+      "title": "How much \u201c15-minutes\u201d is your city? Using open data to measure walking proximity"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/GPN87Y/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/ZYHEHV/",
+      "title": "Piergiorgio Cipriano"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/Z87GNU/",
+      "title": "Beatrice Olivari"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/GPN87Y/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=zB9icWxUaK4",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | How much \u201c15-minutes\u201d is your city? Using open data to measure walking proximity",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

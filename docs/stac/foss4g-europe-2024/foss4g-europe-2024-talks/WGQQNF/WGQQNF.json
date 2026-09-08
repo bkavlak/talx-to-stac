@@ -1,0 +1,131 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "WGQQNF",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Random Geodata Generator",
+    "description": "For developing geospatial applications often some sample data of a specific region is needed. This lightning talks presents a web application that allows to create random vector data of a required extent. The data can be exported as GeoJSON or Shapefile and runs completely in the browser without any connection to a backend. The application itself is created with Vue.js and OpenLayers. The source code and the website are freely available.",
+    "start_datetime": "2024-07-04T12:05:00Z",
+    "end_datetime": "2024-07-04T12:10:00Z",
+    "talk:code": "WGQQNF",
+    "talk:guid": "ad02e6a8-f92e-55de-8a5f-77471d1b07e0",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "QFieldCloud (246)",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "8M8VHY",
+        "name": "Jakob Miksch",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/8M8VHY/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-04T12:07:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/WGQQNF/",
+      "title": "Random Geodata Generator"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/WGQQNF/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/8M8VHY/",
+      "title": "Jakob Miksch"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/WGQQNF/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/WGQQNF/resources/2024-06-04_random_geodata_GoXJMdx.pdf",
+      "type": "application/pdf",
+      "title": "slides",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "source-code": {
+      "href": "https://github.com/JakobMiksch/random-geodata",
+      "title": "source code",
+      "roles": [
+        "data"
+      ]
+    },
+    "demo": {
+      "href": "https://jakobmiksch.github.io/random-geodata/",
+      "title": "demo",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/aJaKGCYCHBzSaf7BbvNJvP",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Random Geodata Generator",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=0yea_sPrGFg",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Random Geodata Generator",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

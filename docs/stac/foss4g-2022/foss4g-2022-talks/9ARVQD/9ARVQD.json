@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "9ARVQD",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "State of OSM in QGIS",
+    "description": "QGIS is one of the most used Open-Source GIS Software. It is possible to display, edit, analyse, process different kind of data such as vector, raster, mesh, point clouds etc.\r\n\r\nQGIS has some native functionalities to work with OSM data. Either with raster layer as a basemap, or with vector, QGIS can deal with OSM data. Depending on the amount of data to work with, the need to \"refresh\" the data (from the main OSM database), the extent of the coverage, different plugins or technologies are possible.\r\n\r\nThis presentation will try to give an overview how it's possible to use OpenStreetMap data within QGIS according to different situations (Geocoding, TMS/WMS, Overpass-API, Docker, PostgreSQL\u2026).\r\nThe presentation will show how you can contribute to QuickOSM to add some default \u00ab\u00a0map preset\u00a0\u00bb to QuickOSM core on GitHub. This feature in QuickOSM allows users to have a set of vector layer with styles in QGIS which are ready to be used, with a symbology.",
+    "start_datetime": "2022-08-25T07:00:00Z",
+    "end_datetime": "2022-08-25T07:30:00Z",
+    "talk:code": "9ARVQD",
+    "talk:guid": "d438d323-aaea-53c3-bff3-7f8c76a701c0",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Limonaia",
+    "talk:room_capacity": 110,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "LXVPF8",
+        "name": "Etienne TRIMAILLE",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/LXVPF8/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T07:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/9ARVQD/",
+      "title": "State of OSM in QGIS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/9ARVQD/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/LXVPF8/",
+      "title": "Etienne TRIMAILLE"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/9ARVQD/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/bc5r4WJtiCEXyLi3DwxQVZ",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | State of OSM in QGIS",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=pcVVloGDGPs",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | State of OSM in QGIS",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "AYWHPP",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Bridging the Gap: Practical Spatial Partitioning of GeoParquet in an Evolving Ecosystem",
+    "description": "Released 1.5 years ago, GeoParquet 1.1's features had evolving ecosystem support in late 2025. We built a custom spatial indexing pipeline using Dagster and GeoPandas while waiting for native tools to fully mature.\n\n**Ecosystem Gaps**\r\nIn late 2025, while GeoParquet 1.1 had been available for over a year, practical library support for its spatial partitioning and metadata was still catching up. As a data engineer managing large point datasets on S3, we needed a way to leverage these features while the community's toolset was in development.\r\n\r\n**Architecture: Decoupling Metadata and Data**\r\nTo avoid inefficient full-table scans and redundant downloads, we implemented a practical indexing strategy:\r\n* Manual Indexing: We built a secondary GeoParquet \"Catalog\" containing polygon boundaries and partition keys to act as a spatial index.\r\n* Orchestration: Using Dagster, we managed the dependency between this catalog and the primary data processing, ensuring consistent partitioning.\r\n* Efficient Filtering: Using GeoPandas, we queried the catalog first, fetching only the necessary data fragments from S3.\r\n\r\n**Reflections on a Shifting Landscape**\r\nSince the project\u2019s inception, the ecosystem has moved quickly. Tools like DuckLake and various query engines are increasingly adding native support for these spatial operations, potentially turning our \"manual bridges\" into legacy code. \r\n\r\nThis talk reflects on the engineering mindset required during the gap between a new standard and its adoption. Sometimes we build our own wheels, and sometimes we are happy to see them replaced by the community.\r\n\r\n**Key Takeaways**\r\n1. Designing custom spatial indexing with GeoParquet\r\n2. Practical patterns for Dagster and GeoPandas in geospatial data pipelines",
+    "start_datetime": "2026-09-02T04:00:00Z",
+    "end_datetime": "2026-09-02T04:30:00Z",
+    "talk:code": "AYWHPP",
+    "talk:guid": "5f923780-4023-513f-9570-e74f890aa8bd",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room5",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "W7JXY8",
+        "name": "Mitsuha Miyake",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/W7JXY8/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T04:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/AYWHPP/",
+      "title": "Bridging the Gap: Practical Spatial Partitioning of GeoParquet in an Evolving Ecosystem"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/AYWHPP/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/W7JXY8/",
+      "title": "Mitsuha Miyake"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/AYWHPP/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

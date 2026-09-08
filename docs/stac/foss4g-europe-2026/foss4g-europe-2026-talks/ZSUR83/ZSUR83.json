@@ -1,0 +1,96 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "ZSUR83",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "GIS Based 1D/2D Flood Modelling with IBERGIS: A Replicable Workflow for Urban Climate Resilience",
+    "description": "The IBERGIS platform integrates the 1D/2D hydrodynamic model of IBER and the SWMM urban drainage model into a single GIS environment inside QGIS, enabling an efficient workflow for urban flood analysis. Using a coupled 1D/2D approach, both the drainage network and the surface runoff are modelled, with depths, velocity, water elevation and extents obtained as outputs, which can be visualised directly from the GIS interface. This integration enables rapid interpretation of critical areas and automated post-processing without external tools. These results demonstrate how GIS-based flood modelling can support urban planning and climate adaptation decisions. The applied case of Manresa provides a replicable workflow for municipalities seeking to enhance urban resilience through spatially integrated hydraulic modelling.",
+    "start_datetime": "2026-06-30T12:00:00Z",
+    "end_datetime": "2026-06-30T12:30:00Z",
+    "talk:code": "ZSUR83",
+    "talk:guid": "5b23fd7d-9f8e-5203-8e1f-16c91afacf61",
+    "talk:event": "foss4g-europe-2026",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "A13",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "7ENGBJ",
+        "name": "David Cano",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/7ENGBJ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-06-30T12:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/ZSUR83/",
+      "title": "GIS Based 1D/2D Flood Modelling with IBERGIS: A Replicable Workflow for Urban Climate Resilience"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/ZSUR83/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/7ENGBJ/",
+      "title": "David Cano"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/ZSUR83/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2026/submissions/ZSUR83/resources/ibergis_FY2HKu6.pdf",
+      "type": "application/pdf",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

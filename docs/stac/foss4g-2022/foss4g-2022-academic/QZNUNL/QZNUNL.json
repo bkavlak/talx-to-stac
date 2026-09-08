@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "QZNUNL",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "RINX: A Solution for Information Extraction from Big Raster Datasets",
+    "description": "Processing Earth observation data modeled in a time-series of raster format is critical to solving some of the most complex problems in geospatial science ranging from climate change to public health. Researchers are increasingly working with these large raster datasets that are often terabytes in size. At this scale, traditional GIS methods may fail to handle this processing and new approaches are needed to analyze these datasets. The objective of this work is to develop methods to interactively analyze big raster datasets with the goal of most efficiently extracting vector data over specific time periods from any set of raster data.  \r\n\r\nIn this paper, we describe RINX (Raster INformation eXtraction) which is an end-to-end solution for automatic extraction of information from large rasters datasets. RINX heavily utilizes open source geospatial techniques for information extraction. It also complements the traditional approaches with state-of-the-art high-performance computing techniques. This paper will discuss details of achieving this big temporal data extraction including methods used, code developed, processing time statistics, project conclusions, and next steps.\r\n\r\nThe input for RINX is a set of rasters from which the information has to be extracted and a set of data point locations for which the information needs to be extracted. The output for RINX is a structured representation of extracted information from the raster datasets for each data point in CSV text format. The loading and pre-processing of the input datasets to RINX is accomplished using a combination of Bash and SQL scripting techniques for automation. This pre-processed input is then fed into the open source spatial database PostGIS to extract the required information by using multiple spatial techniques. Finally, the extracted output is post-processed for deduplication  and  standardization of extracted information for research use. RINX is designed in a way that makes it easy to deploy and scale on any local, cloud, or  cluster computing platform.\r\n\r\nRINX was created to aid the study of environmental conditions and how they affect the health of people over their lifespans. This involves calculating exposures such as air pollution, humidity, precipitation, temperature, and other exposures at cohort member address locations over time. For initial work with one cohort, daily precipitation, temperature, and humidity estimates were needed for 4,796 cohort address locations for a 19 year time period, 1999 \u2013 2017.\r\n\r\nThe 800-meter resolution PRISM Spatial Climate Dataset for the Conterminous United States was used as the input for this data extraction. PRISM refers to Parameter-elevation Relationships on Independent Slopes Model, created by the PRISM Climate Group, Oregon State University. The PRISM dataset is published in .BIL raster format, with one raster representing one climate variable per day for the time period 1981 - 2020. The total size of the dataset is around 8 TB with over 100,000 rasters of size 85 MB each. \r\n\r\nFor work on the initial cohort, RINX enabled the extraction of 7 key climate variables: precipitation, temperature (maximum, minimum, mean), dew point temperature (mean), and vapor pressure deficit (minimum, maximum) for 19 years of data from 48,500 800-meter resolution rasters for 4,796 data points. This resulted in a total of 10.3 Million \u201cpatient-day\u201d calculations creating a total of 72.1M observations. Additionally, absolute and relative humidity were calculated using the existing mean temperature and dewpoint variables. RINX provided a unified solution of 9 climate variables for all persons/days for the entire dataset. It was deployed and scaled on multiple servers on a high-performance computing cluster. Our initial results reveal that it is extremely fast and efficient in processing large raster datasets. It took 1 day to load and 4 days to process and extract 7 climate variables from 48,500 rasters for the 72.1M observations at 4,796 locations. RINX enabled the researchers to analyze this big climate dataset at a fine-grained address level with high efficiency and speed. Once the scripts were written, tested, and fine tuned, processing time was reduced from months to days compared to traditional methods, resulting in substantial time savings.\r\n\r\nWe are currently testing RINX on a much larger dataset of 100,000 input point locations for a time period of 1981 - 2020, spanning the full range of the PRISM 800m data. This climate data is only available for purchase, however the PRISM Climate Group has made a version of this data available for free at a resolution of 4 kilometers. To make our solution entirely repeatable with open source software, code, and data, we will use RINX to extract point location data from the freely available 4km PRISM data. Results from these analyses will be presented as part of this paper. \r\n\r\nOur solution is based on open source technology, using PostGIS that can be deployed on local or  cluster computing environments. It provides an efficient way to solve geospatial big data problems, particularly those involving large temporal raster datasets where point location data extraction is desired. Big data is changing the ways data is managed and analyzed. The next generation GIS tools can help researchers process big data at scale. RINX is an end-to-end data extraction and processing solution for large raster datasets. RINX is open-source and will be shared on Github. It can be easily deployed and scaled on any local, cloud, or cluster computing environment. We used RINX for processing on a large number of PRISM climate datasets, however our solution could be applied to any temporal raster data such as NDVI, night lights, and more.",
+    "start_datetime": "2022-08-26T07:00:00Z",
+    "end_datetime": "2022-08-26T07:30:00Z",
+    "talk:code": "QZNUNL",
+    "talk:guid": "516e8b1b-a82b-571a-8c7b-3677d3d8425f",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room Hall 3A",
+    "talk:room_capacity": 85,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "DHLWQQ",
+        "name": "Devika Jain",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/DHLWQQ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T07:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/QZNUNL/",
+      "title": "RINX: A Solution for Information Extraction from Big Raster Datasets"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/QZNUNL/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/DHLWQQ/",
+      "title": "Devika Jain"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/QZNUNL/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

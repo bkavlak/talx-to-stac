@@ -1,0 +1,164 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "PT7S3F",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Mapping Historical \"Street View\" Images of New York City: Visualizing Geotagged Archival Photos",
+    "description": "Street-level photographs of New York City from the early 1900s show how people used to live, from their clothes and vehicles to their stores and advertisements. Several open source projects have mapped archival \u201cstreet view\u201d images of New York, relying on various collections of photos with locations. These interactives, primarily built with Mapbox GL JS, are instructive when visualizing a newly-digitized archive, in this case a set of over 60,000 photos from the construction of the NYC subway between 1900 and 1950 with approximate coordinates.\r\n\r\n1. [\u201cStreet View, Then & Now: New York City's Fifth Avenue\u201d](http://publicdomain.nypl.org/fifth-avenue) compares 1911 wide-angle photographs from the New York Public Library to 2015 Google Street View imagery. A mini-map shows each photo\u2019s location and field of view, and a visitor to the site can \u201cgo south\u201d, \u201cgo north\u201d, or \u201ccross the street\u201d using the arrow keys. The project came out of the [NYC Space/Time Directory](http://spacetime.nypl.org), an initiative to communicate the history of the city using historical maps, geodata, and open source tools. Code: https://github.com/nypl-publicdomain/fifth-avenue.\r\n\r\n2. [\u201c1940s.NYC\u201d](https://1940s.nyc) places digitized photos of most buildings in the five boroughs of New York City, collected from 1939 to 1941 by the Tax Department with help from the Works Progress Administration, on a map. Zooming in loads georeferenced scans of historical maps, and clicking on a marker opens a panel displaying the historical photos. [\u201c80s.NYC\u201d](http://80s.nyc) remixed the site, using more recent images from the Department of Finance. Code: https://github.com/jboolean/1940s.nyc, https://github.com/bdon/80s.nyc.\r\n\r\n3. [\u201cA Stroll Down Flatbush Avenue circa 1914\u201d](https://stroll-down-flatbush.chriswhong.com) strings together 65 photographs, captured approximately every 50 feet, from the [New-York Historical Society\u2019s \u201cSubway construction photograph collection, 1900-1950.\u201d](https://digitalcollections.nyhistory.org/islandora/object/nyhs%3Asubway) Geometries for the photos, which are often set at nearby intersections, were manually modified, and a mini-map showing those points is navigable with the up and down keys. Code: https://github.com/chriswhong/stroll-down-flatbush.\r\n\r\nThe entire subway construction photograph collection contains nearly 100 times as many photos as shown along Flatbush Avenue with associated latitudes and longitudes across New York City. What are the best practices for mapping these geotagged archival photos, with imprecise and duplicate locations, as well as rich text metadata like titles, topics, dates, and descriptions?",
+    "start_datetime": "2022-08-26T10:45:00Z",
+    "end_datetime": "2022-08-26T10:50:00Z",
+    "talk:code": "PT7S3F",
+    "talk:guid": "7950b4b3-862d-5acc-9b90-472dce3baa7d",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Modulo 0",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "AQTCDK",
+        "name": "Yoni Nachmany",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/AQTCDK/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T10:47:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/PT7S3F/",
+      "title": "Mapping Historical \"Street View\" Images of New York City: Visualizing Geotagged Archival Photos"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/PT7S3F/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/AQTCDK/",
+      "title": "Yoni Nachmany"
+    },
+    {
+      "rel": "related",
+      "href": "http://publicdomain.nypl.org/fifth-avenue",
+      "title": "\u201cStreet View, Then & Now: New York City's Fifth Avenue\u201d"
+    },
+    {
+      "rel": "related",
+      "href": "http://spacetime.nypl.org",
+      "title": "NYC Space/Time Directory"
+    },
+    {
+      "rel": "related",
+      "href": "https://1940s.nyc",
+      "title": "\u201c1940s.NYC\u201d"
+    },
+    {
+      "rel": "related",
+      "href": "http://80s.nyc",
+      "title": "\u201c80s.NYC\u201d"
+    },
+    {
+      "rel": "related",
+      "href": "https://stroll-down-flatbush.chriswhong.com",
+      "title": "\u201cA Stroll Down Flatbush Avenue circa 1914\u201d"
+    },
+    {
+      "rel": "related",
+      "href": "https://digitalcollections.nyhistory.org/islandora/object/nyhs%3Asubway",
+      "title": "New-York Historical Society\u2019s \u201cSubway construction photograph collection, 1900-1950.\u201d"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/nypl-publicdomain/fifth-avenue",
+      "title": "github.com/nypl-publicdomain/fifth-avenue"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/jboolean/1940s.nyc",
+      "title": "github.com/jboolean/1940s.nyc"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/bdon/80s.nyc",
+      "title": "github.com/bdon/80s.nyc"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/chriswhong/stroll-down-flatbush",
+      "title": "github.com/chriswhong/stroll-down-flatbush"
+    },
+    {
+      "rel": "related",
+      "href": "https://twitter.com/yoninachmany",
+      "title": "twitter.com/yoninachmany"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/PT7S3F/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/fEjrFNfaqoDvvd6k7ymNw4",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Mapping Historical \"Street View\" Images of New York City: Visualizing Geotagged\u2026",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=xU32trYobSY",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Mapping Historical \"Street View\" Images of New York City: Visualizing Geotagged\u2026",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

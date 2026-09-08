@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "FLNJZX",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Traffic speed modelling to improve travel time estimation in openrouteservice",
+    "description": "Time dependent traffic speed information on a street level is important for routing services to estimate accurate arrival times and to recommend routes which avoid traffic congestion. Still, most open-source routing machines that use OpenStreetMap (OSM) as the primary data source rely on static driving speeds for different highway types, since comprehensive traffic speed data is not openly available. In this talk, we will present a method to model traffic speed by hour of day for the street network of ten different cities worldwide and its integration in route planning using the open-source routing engine openrouteservice.\r\n\r\nCurrent datasets on traffic speed are either not openly available (e.g. Google traffic layer may be viewed but not downloaded), have very limited spatial coverage or do not follow a consistent data format (e.g. data published by municipalities). In addition, these datasets are often not based on the OSM street network, which means it would require extensive map matching procedures to transfer the traffic speed information to the OSM features. The most promising data set is currently provided by Uber Movement containing hourly traffic speed data along OSM street segments in 51 cities worldwide from 2015 until 2020. Still, this data only covers roads for which enough Uber user data is available. \r\n\r\nIn recent years, several studies have proposed methods and evaluated different data sources for traffic speed modelling. Most of them model traffic speed using machine learning methods and different indicators such as OSM tags (e.g. highway=*), points-of-interest (Camargo et al., 2020), centrality indicators (Zhao et al., 2017) or social media data (Pandhare & Shah, 2017). All of these indicators proved to be suitable for modelling traffic flow, but none of these studies has evaluated the effect of the modelled traffic speed on route planning and arrival time estimation.\r\n\r\nIn this study, we modelled traffic speed by hour of day on a street level for 10 cities worldwide based on OSM tags, an adapted betweenness centrality indicator and Twitter data. Uber traffic speed data was used as reference data to train and evaluate a gradient boosting regression model with different combinations of features. The simplest baseline model only used the OSM tags highway=* and maxspeed=* for prediction. The additional adapted betweenness centrality indicator was calculated to identify highly frequented street segments in each city by simulating several thousands of car trips in each city. In order to consider the geographic context, the original centrality indicator calculation was adapted to consider the spatial configuration of the city by including population distribution and relevant POIs during the calculation. Finally, Twitter data was used to account for the spatio-temporal distribution of human activity within the city. Using only the timestamp and geolocation of the tweets, the number of tweets in the vicinity of a street segment aggregated by the time of day was used as an indicator. The quality of the different models was evaluated with the help of the coefficient of determination (R2), the root mean square error (RMSE) and the mean absolute error (MAE). In all cities, the Twitter indicators improved the model, although this effect was only visible for certain road types. The Twitter indicators improved the accuracy especially for construction sites and motorways. For medium sized roads such as residential streets, the prediction did not improve. The centrality indicator improved the model as well but to a lesser extent. Best results were achieved in Berlin with an RMSE of 6.58 and R2 of 0.82. \r\n\r\nTo use the modelled traffic speed data in route planning, an experimental traffic integration was implemented in openrouteservice using which traffic speed data can be passed to openrouteservice as a CSV file. Each row contains the traffic speed at a certain hour of the day and for a certain OSM street segment specified by its OSM way id along with a start and end node. The data is structured the same way as the Uber Movement data making it possible to either integrate the raw Uber data or the modelled traffic speed. The effect of using external traffic speed data on the travel time estimation was evaluated by calculating multiple random car trips within different cities and at different times of the day and comparing it to the estimated travel time of the Google Routing API as well as the original openrouteservice implementation. In addition, the raw as well as the modelled traffic data were compared. The comparison between travel times in Google and openrouteservice showed regional differences in the accuracy of estimated travel times. These differences could be partly alleviated by incorporating raw or modeled traffic speed information. \r\n\r\nFuture research on traffic speed modelling using open data includes further development of the models and their transferability to other cities for which no Uber data is available. In this regard, the potential of deep learning approaches should be evaluated. Since Twitter has stopped providing their API for free, data from other social media platforms needs to be integrated. The potential for this is high though, since only the timestamp and geolocation of each tweet are used making the general approach easily transferable. \r\n\r\nThe methods, results and software generated within this study are relevant to the FOSS4G community - in particular to the FOSS4G academic track - since it combines scientific analysis in the form of traffic speed modelling with open-source software development by integrating the results in openrouteservice. The source code for the prototypical traffic integration is available on GitHub (https://github.com/GIScience/openrouteservice). The source code of the traffic speed model will be published along with the paper.",
+    "start_datetime": "2023-06-28T12:00:00Z",
+    "end_datetime": "2023-06-28T12:30:00Z",
+    "talk:code": "FLNJZX",
+    "talk:guid": "a2a94163-af97-5b24-8e07-daaae75dd624",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Academic Track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT E / N209 - Floor 3",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RHQFBT",
+        "name": "Christina Ludwig",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/RHQFBT/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T12:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/FLNJZX/",
+      "title": "Traffic speed modelling to improve travel time estimation in openrouteservice"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/FLNJZX/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/RHQFBT/",
+      "title": "Christina Ludwig"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/FLNJZX/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/58gSsEf3TpTMuAtFkyJGtN",
+      "type": "text/html",
+      "title": "2023 | Traffic speed modelling to improve travel time estimation in openrouteservice",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=opjORLNM9Wk",
+      "type": "text/html",
+      "title": "2023 | Traffic speed modelling to improve travel time estimation in openrouteservice",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

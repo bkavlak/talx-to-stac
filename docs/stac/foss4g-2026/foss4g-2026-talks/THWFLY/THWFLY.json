@@ -1,0 +1,104 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "THWFLY",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Z7 Explorer \u2014 Why IGEO7 May Succeed H3 as the Standard Hexagonal DGGS",
+    "description": "We present Z7 Explorer, a web application that computes IGEO7/Z7 grid indexes entirely client-side using a pure JavaScript port of DGGAL's  ISEA projection engine. We demonstrate why IGEO7 \u2014 an equal-area, pole-seamless hexagonal DGGS \u2014 addresses fundamental limitations of H3 and conventional coordinate systems.\n\nHexagonal grids have gained traction as a spatial indexing primitive across industry. H3, developed by Uber for ride pricing optimization, is now widely adopted in logistics, telecommunications, and platforms such as Snowflake, BigQuery, DuckDB, and CARTO. Yet H3 carries fundamental trade-offs. Its gnomonic projection is not equal-area: the area ratio between the largest and smallest hexagon at the same resolution grows from 1.2\u00d7 at res 0 to nearly 2\u00d7 at res 5 and above [1], with cell sizes varying by up to \u00b150% across the globe [4] \u2014 the distortion worsens with increasing resolution, precisely where spatial consistency matters most. Its 64-bit index spends 19 bits on metadata, leaving only 45 bits for spatial addressing, while Z7 implements a full 64-bit index pushing its maximum resolution to 20 and 6cm\u00b2, which is 1,500\u00d7 finer than H3 at max resolution of 15.                                                                                                                              \r\n\r\nThe coordinate systems underpinning most geospatial workflows introduce further artifacts. WGS84 (EPSG:4326) suffers from polar compression and a discontinuity at the \u00b1180\u00b0 antimeridian that splits geometries spanning the Pacific. Web Mercator (EPSG:3857) inflates areas dramatically at high latitudes, excludes the poles beyond \u00b185.06\u00b0, and inherits the same antimeridian seam.\r\n                                                                                                                                                  \r\nIGEO7 sidesteps all of these problems [4]. The ISEA projection [2] maps the globe onto an icosahedron, guaranteeing equal-area cells at every resolution with no polar singularity and no antimeridian discontinuity. The Z7 indexing scheme devotes all 64 bits to spatial hierarchy \u2014 a 4-bit base cell plus 20 three-bit direction digits \u2014 encoding resolution implicitly with no wasted bits.          \r\n\r\nDespite these advantages, IGEO7 adoption has been limited by tooling: computing Z7 indexes requires the full ISEA forward projection, historically available only through native C libraries (DGGAL [3], DGGRID). To lower this barrier, we ported DGGAL's ISEA projection engine and aperture-7 quantization to pure JavaScript, enabling Z7 lookups entirely in the browser. \r\n\r\nZ7 Explorer is the resulting open-source web application (Vue 3, D3.js). It provides interactive coordinate-to-Z7 lookup, resolution navigation (0\u201320), a 64-bit index visualizer, cell ID search, and vector-tiled basemap rendering \u2014 all computed client-side in a Web Worker with 100% accuracy against DGGAL reference data. By making IGEO7 accessible to a broader public, we intend to give developers and researchers a practical entry point into an equal-area DGGS that addresses H3's core limitations.\r\n\r\nLive demo: https://z7.terraops.org\r\n\r\n[1] Uber, \"Tables of Cell Statistics Across Resolutions,\" H3 Docs. https://h3geo.org/docs/core-library/restable/                                \r\n[2] Snyder, \"An Equal-Area Map Projection for Polyhedral Globes,\" Cartographica, 29(1), 1992.\r\n[3] Ecere, \"DGGAL \u2014 Discrete Global Grid Abstraction Library.\" https://github.com/ecere/dggal                                                          \r\n[4] Kmoch et al., \"IGEO7: A new hierarchically indexed hexagonal equal-area DGGS,\" AGILE GIScience Ser., 6, 32, 2025.",
+    "start_datetime": "2026-09-01T06:30:00Z",
+    "end_datetime": "2026-09-01T06:35:00Z",
+    "talk:code": "THWFLY",
+    "talk:guid": "7e4d0ca2-74b2-56cc-a962-5496f3483331",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Lightning Talk",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Ran1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "GDVTCB",
+        "name": "Jorge S. Mendes de Jesus",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/GDVTCB/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T06:32:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/THWFLY/",
+      "title": "Z7 Explorer \u2014 Why IGEO7 May Succeed H3 as the Standard Hexagonal DGGS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/THWFLY/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/GDVTCB/",
+      "title": "Jorge S. Mendes de Jesus"
+    },
+    {
+      "rel": "related",
+      "href": "https://z7.terraops.org",
+      "title": "z7.terraops.org"
+    },
+    {
+      "rel": "related",
+      "href": "https://h3geo.org/docs/core-library/restable/",
+      "title": "h3geo.org/docs/core-library/restable"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/ecere/dggal",
+      "title": "github.com/ecere/dggal"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/THWFLY/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

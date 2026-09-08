@@ -1,0 +1,96 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "RRJEBF",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Current status and challenges of FOSS4G's Japanese localization",
+    "description": "FOSS4G software often has an international user base.Therefore, many FOSS4G software programs include internationalization features when they are created. These internationalization features are used to localize the software for various languages. This presentation will discuss the history, current status, and challenges of Japanese localization.\n\nFOSS4G software often has an international user base. Therefore, many FOSS4G software programs include internationalization features during development. These features are used to localize the software into various languages. In Japan, information on FOSS4G software with extensive localization is widely available, but the availability of Japanese documentation for software that hasn't been localized is limited.\r\n\r\nQGIS has a high rate of Japanese translation in its documentation, making it widely used in Japan, and numerous Japanese explanatory books have been published. However, Japanese resources for other FOSS4G software are very scarce.\r\n\r\nIn the past, when using Japanese in computer software, there were multiple Japanese character encoding systems, and complex methods for handling them existed. Furthermore, various problems arose when dealing with such Japanese codes during localization and document creation processes.\r\n\r\nWith the advent of Unicode, a standard environment for handling Japanese on computers was established, and standard methods for software Japanese localization have also been established.\r\n\r\nThis presentation will cover the history, current status, and challenges of localizing FOSS4G software and documentation into Japanese.",
+    "start_datetime": "2026-09-02T07:00:00Z",
+    "end_datetime": "2026-09-02T07:30:00Z",
+    "talk:code": "RRJEBF",
+    "talk:guid": "521e2432-964c-5381-bf32-da152e68f016",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room6",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "SNYWCY",
+        "name": "Yoichi Kayama",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/SNYWCY/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T07:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/RRJEBF/",
+      "title": "Current status and challenges of FOSS4G's Japanese localization"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/RRJEBF/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/SNYWCY/",
+      "title": "Yoichi Kayama"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/RRJEBF/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slide": {
+      "href": "https://talks.osgeo.org/media/foss4g-2026/submissions/RRJEBF/resources/FOSS4G2026presen_en_YqJHttU.pdf",
+      "type": "application/pdf",
+      "title": "slide",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

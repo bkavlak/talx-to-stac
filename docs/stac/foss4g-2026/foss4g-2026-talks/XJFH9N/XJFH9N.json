@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "XJFH9N",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "OGC/ISO standards for CRS: a look back and a look ahead",
+    "description": "First, an history of CRS at OGC: how WKT and abstract model evolved in parallel, what GML can do, why it nevertheless became legacy encoding. Then a look ahead: how OGC handles JSON encoding in future standards, implications for a CRS JSON, and revision of ISO 19111 abstract model.\n\nOur capability to exchange geospatial data depends critically on our capability to describe Coordinate Reference Systems (CRS) in a way which is both implementation-neutral and sufficiently detailed for setting up the mathematical formulas to use. The earliest attempt by OGC was a Well Known Text (WKT) format defined 27 years ago, which came with ambiguities that are still passed to new data formats even today. Clarifications were attempted in 2001, then 2015 with WKT 2, but couldn\u2019t remove all sources of confusion.\r\n\r\nIn parallel with the WKT encoding, a richer conceptual model was defined using the Unified Modelling Language (UML). Because the WKT and the conceptual model started from different roots, they do not match even if they overlap. WKT 2 tried to conciliate the two worlds, but was constrained by compatibility and brevity goals, resulting in remaining mismatches that still confuse users.\r\n\r\nWhile the conceptual model allows the definition of three- and four-dimensional CRS, including CRS attached to vehicle, drone, pipeline or satellite in space, unequal software support and ambiguities in popular data formats are still impediments to the interoperability of data that are associated to other CRSs than the common two-dimensional geographic and projected CRSs.\r\n\r\nThe first part in this talk will look back to the history of CRS at OGC: how WKT and the abstract model evolved in parallel, the principles behind the Geography Markup Language (GML), what GML can do that WKT cannot do, why GML nevertheless became a legacy encoding standard, the OGC Testbed that explored how these standards can be used in space with the NASA Double Asteroid Redirection Test (DART) as an experiment, and how that Testbed has show the void left by the absence of replacement for GML.\r\n\r\nThe second part of this talk will look ahead: first, the popularity of JSON encoding has created a demand for guidance in order to reduce the heterogeneity observed between OGC standards. It resulted in OGC\u2019s \u201cUML to JSON Encoding Rules\u201d best practice paper. Together with the \u201cJSON schema implementation of metadata fundamentals\u201d (ISO 19115-4), they provide a way to define a CRS JSON encoding which can replace GML and be consistent with the JSON encoding of related OGC/ISO standards. A public CRS JSON draft will be presented, keeping in mind that there is no final decision by OGC members yet about whether to accept this draft. Then, an implementation on top of GeoAPI interfaces will be demonstrated. The same implementation is executable with the PROJ library (through PROJ-JNI), Apache SIS, GeoTools and PROJ4J, which brings CRS JSON support to those four libraries when used from the Java language.\r\n\r\nA second look ahead is about modifications of the conceptual model for addressing the needs of national agencies who produce CRS definitions, and for incorporating some proposals from the Testbed about CRS in space. The concepts that may be revised include datum ensembles, datum epochs, a simplification attempt of the way that \u201cderived datum\u201d are defined, and more.",
+    "start_datetime": "2026-09-01T07:30:00Z",
+    "end_datetime": "2026-09-01T08:00:00Z",
+    "talk:code": "XJFH9N",
+    "talk:guid": "3da60f93-923c-578f-8b40-e8d4cec218d3",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room3",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "9MEVKZ",
+        "name": "Martin Desruisseaux",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/9MEVKZ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T07:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/XJFH9N/",
+      "title": "OGC/ISO standards for CRS: a look back and a look ahead"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/XJFH9N/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/9MEVKZ/",
+      "title": "Martin Desruisseaux"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/XJFH9N/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

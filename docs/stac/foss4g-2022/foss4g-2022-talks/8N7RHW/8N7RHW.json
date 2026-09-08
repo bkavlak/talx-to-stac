@@ -1,0 +1,169 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "8N7RHW",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "What\u2019s new in geospatial Elasticsearch",
+    "description": "[Elasticsearch] is a well-known and mature NoSQL database providing search and analytics services for big datasets. The \u201celasticity\u201d of its name comes from the distributed design and easy scalability capabilities that have made it an industry leader for more than ten years. In this talk we will present two exciting new features that have been added recently to the product related with the geospatial topic: vector tiles support and line and hexagon aggregations.\r\n\r\nVector tiles have become an industry standard to encode large amounts of data to be displayed in the browser by web mapping libraries like MapLibre or OpenLayers. Elasticsearch analytics & geo team has added a [new API endpoint] that renders search and aggregation queries as zipped [protobuffers], allowing developers to retrieve right from the datastore assets that are ready to be sent to the user's browser without much further processing. This will speed up the rendering of large datasets by avoiding transferring JSON assets from Elasticsearch to application middleware.\r\n\r\nElasticsearch geospatial aggregation capabilities have been extended recently by two new methods, one is to allow combining related points into a new [line geometry] (think of a vehicle track) and the other is to aggregate geometries into an [hexagon grid]. The new geo-line aggregation will be very useful for asset tracking use cases where the second enables Elasticsearch to perform powerful analytics combined with the extensive support for metric aggregations.\r\n\r\nIn this talk we will present this project, going through the different use cases with some examples and demonstrations using both Kibana [Elastic Maps] and a simple ad-hoc web project that leverages this new feature.\r\n\r\n[Elasticsearch]: https://www.elastic.co/elasticsearch/\r\n[protobuffers]: https://developers.google.com/protocol-buffers\r\n[line geometry]: https://www.elastic.co/guide/en/elasticsearch/reference/current/search-aggregations-metrics-geo-line.html\r\n[hexagon grid]: https://www.elastic.co/guide/en/elasticsearch/reference/8.1/search-aggregations-bucket-geohexgrid-aggregation.html\r\n[new API endpoint]: https://www.elastic.co/guide/en/elasticsearch/reference/current/search-vector-tile-api.html\r\n[Elastic Maps]: https://www.elastic.co/maps",
+    "start_datetime": "2022-08-25T08:05:00Z",
+    "end_datetime": "2022-08-25T08:10:00Z",
+    "talk:code": "8N7RHW",
+    "talk:guid": "a0ea23fb-a0ec-50b0-99fe-fe8310f04161",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Room 4",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "ES9EYE",
+        "name": "Jorge Sanz",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/ES9EYE/"
+      },
+      {
+        "code": "VDJHU9",
+        "name": "Nick Peihl",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/VDJHU9/"
+      },
+      {
+        "code": "QFZEXU",
+        "name": "Craig Taverner",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/QFZEXU/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T08:07:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/8N7RHW/",
+      "title": "What\u2019s new in geospatial Elasticsearch"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/8N7RHW/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/ES9EYE/",
+      "title": "Jorge Sanz"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/VDJHU9/",
+      "title": "Nick Peihl"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/QFZEXU/",
+      "title": "Craig Taverner"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.elastic.co/elasticsearch/",
+      "title": "www.elastic.co/elasticsearch"
+    },
+    {
+      "rel": "related",
+      "href": "https://developers.google.com/protocol-buffers",
+      "title": "developers.google.com/protocol-buffers"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.elastic.co/guide/en/elasticsearch/reference/current/search-aggregations-metrics-geo-line.html",
+      "title": "www.elastic.co/guide/en/elasticsearch/reference/current/search-aggregations-metrics-geo-line.html"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.elastic.co/guide/en/elasticsearch/reference/8.1/search-aggregations-bucket-geohexgrid-aggregation.html",
+      "title": "www.elastic.co/guide/en/elasticsearch/reference/8.1/search-aggregations-bucket-geohexgrid-aggregation.html"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.elastic.co/guide/en/elasticsearch/reference/current/search-vector-tile-api.html",
+      "title": "www.elastic.co/guide/en/elasticsearch/reference/current/search-vector-tile-api.html"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.elastic.co/maps",
+      "title": "www.elastic.co/maps"
+    },
+    {
+      "rel": "related",
+      "href": "https://links.jorgesanz.net/",
+      "title": "links.jorgesanz.net"
+    },
+    {
+      "rel": "related",
+      "href": "https://wiki.osgeo.org/wiki/Jorge_Sanz",
+      "title": "wiki.osgeo.org/wiki/Jorge_Sanz"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.openstreetmap.org/user/XuRxO",
+      "title": "www.openstreetmap.org/user/XuRxO"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.elastic.co/geospatial",
+      "title": "www.elastic.co/geospatial"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/8N7RHW/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=rw5Hyzk0J1g",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | What\u2019s new in geospatial Elasticsearch",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

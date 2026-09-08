@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "88WPNL",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "DigiAgriApp: development of a free and open source app for digital agriculture",
+    "description": "**DigiAgriApp** is a multilingual, open-source platform for precision agriculture, supporting field monitoring down to individual plants. In 2025, there are several new innovations at the software level, but especially for the new public servers.\n\n**DigiAgriApp** is a free and open-source client-server application built on PostgreSQL/PostGIS, Django (backend), and Flutter (frontend), with an integrated QGIS plugin. The development was started and carried out by the Digital Agriculture Unit of the Fondazione Edmund Mach with the support of a small number of companies. Over the past year, the platform has consolidated its architecture and expanded its features to better support precision agriculture.\r\n\r\nIts primary focus is the monitoring of agricultural fields and its sub-elements: subfields, rows, until individual plants. A major advancement was the integration of the Pest Patrol module, which leverages computer vision algorithms to automatically analyze images from chromotropic traps and identify insect vectors such as Scaphoideus titanus and Orientus ishidae. This sets the stage for a robust decision support system for pest and disease management.\r\n\r\nIn addition to ongoing development work, significant efforts were made toward multilingual support\u2014DigiAgriApp is now fully available in four languages\u2014and in project outreach, seeking collaborators and institutions interested in adopting or contributing to the platform.\r\n\r\nA major milestone in 2025 has been the launch of two public instances of the DigiAgriApp server, both released with the support of the Fondazione Edmund Mach. One instance, in Italian (https://digiagriapp.fmach.it), is tailored to viticulture and fruit production. The second, in English (https://digiagriapp-en.fmach.it), offers broader crop support and allows the addition of new species. These public instances are limited in functionality, as they currently do not provide access to remote sensing or weather station data.",
+    "start_datetime": "2025-11-19T20:00:00Z",
+    "end_datetime": "2025-11-19T20:25:00Z",
+    "talk:code": "88WPNL",
+    "talk:guid": "700e19bc-9d27-59d4-aecb-e2ed5d1151ce",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Use Cases and Applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG404",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "SQ7UJS",
+        "name": "Luca Delucchi",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/SQ7UJS/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-19T20:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/88WPNL/",
+      "title": "DigiAgriApp: development of a free and open source app for digital agriculture"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/88WPNL/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/SQ7UJS/",
+      "title": "Luca Delucchi"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/88WPNL/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=XzSQqui_Wlc",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | DigiAgriApp: development of a free and open source app for digital agriculture",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

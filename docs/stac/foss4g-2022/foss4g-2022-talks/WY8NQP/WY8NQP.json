@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "WY8NQP",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Building a data analytics library in Python",
+    "description": "The Data Operations Systems and Analytics team at NYC DOT\u2019s primary mission is to support the data analysis and data product needs relating to transportation safety for the Agency. The team\u2019s work producing safety analysis for projects and programs typically involves merging data from a variety of sources with collision data, asset data, and/or program data. The bulk of the analysis is performed in PostgreSQL databases all with a geospatial component. The work necessitates ingesting input data from other databases, csv/excel files, and various geospatial data formats. It is critical that the analysis be documented and repeatable. \r\n\r\nMoving data around, getting external data into the database, transforming it, geocoding it etc., previously occupied the bulk of the team\u2019s time before, reducing capacity for the actual analysis. Additionally the volume of one-off and exploratory analyses resulted in a cluttered database environment with multiple versions of datasets with unclear lineage and state of completeness. \r\nModeled on the infrastructure as code idea, we began building a python library that would allow us to preserve the entire analysis workflow from data ingestion to analysis and to output generation in a single python file or Jupyter notebook.  The library began as a way to reduce the friction and standardize the process of ingesting external data into the various database environments utilized. It has since grown into the primary method to facilitate reproducible data analysis processes that includes the data ingestion, transformation, analysis, and output generation.\r\n\r\nThe library includes basic database connections, and facilitates quick and easy import and export from flat files, geospatial data files, and other databases. It provides both inferred and defined schemas, to allow both quick exploration and more thoroughly defined data pipeline processes.  The library includes standardization of column naming, comments, and permissions. There are built in database cleaning processes, geocoding processes, and we have started building simple geospatial data display functions for exploratory analysis. The code is heavily reliant on numpy, pandas, GDAL/ogr2ogr, pyodbc, psycopg2, shapely, and basic sql and python. The library is not an ORM, but occupies a similar role, but geared towards analytic workflows.\r\n\r\nThe talk will discuss how the library has evolved over time, the functionality and use cases in the team\u2019s daily workflows as well as where we would like to extend the functionality and open it up for contributions.  While the library is not currently open source, we are actively working on creating an open version and migrating to Python 3.x. This library has greatly improved the speed and simplicity of conducting exploratory analysis and enhanced the quality and completeness of the documentation of our more substantial data analytics and research.\r\nThe library should be of interest and utility for anyone working with data without the support of a dedicated data engineering team to facilitate the collection of multiple datasets from a variety of formats, as well as anyone looking to standardize their data analysis workflows from beginning to end.",
+    "start_datetime": "2022-08-25T15:50:00Z",
+    "end_datetime": "2022-08-25T15:55:00Z",
+    "talk:code": "WY8NQP",
+    "talk:guid": "5a40216f-afd1-500b-929c-8e8d9ceb5028",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Room 4",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "S9CLC8",
+        "name": "seth hosteter",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/S9CLC8/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T15:52:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/WY8NQP/",
+      "title": "Building a data analytics library in Python"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/WY8NQP/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/S9CLC8/",
+      "title": "seth hosteter"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/WY8NQP/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=kXjI7IbhoWY",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Building a data analytics library in Python",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

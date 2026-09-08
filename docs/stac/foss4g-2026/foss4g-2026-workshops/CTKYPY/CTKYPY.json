@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "CTKYPY",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Point-Cloud Acrobatics: From Raw LiDAR to Stunning 3D Visuals",
+    "description": "A hands-on introduction to open-source LiDAR workflows, from raw point clouds to terrain products, feature extraction, classification, and 3D visualization with open-source tools.\n\nThe workshop begins with the ASPRS standard, introducing essential concepts such as point classifications, return numbers, and other fundamental attributes that define LiDAR data. Participants will learn how to interpret these attributes correctly, assess data quality, and use them for more informed analysis.\r\n\r\nMoving beyond the basics, the workshop explores open-source workflows with PDAL, GRASS, and WhiteboxTools for data reading, manipulation, and spatial processing, together with CloudCompare, QGIS and pybabylonjs for dynamic 3D visualization. TileDB will also be presented as a robust storage option for managing point clouds as large dataframes. Along the way, participants will work through practical tasks such as gridding, interpolation, vectorization, and classification, highlighting reproducible approaches for handling and visualizing large-scale point clouds.\r\n\r\nBy integrating Python scripts with these specialized tools, participants will see how complex processing chains can be automated and turned into compelling visual outputs. Basic Python knowledge is helpful but not required, and sample code will be provided. By the end of the workshop, participants will understand the core concepts behind LiDAR data and gain practical skills for processing and presenting it in effective and visually engaging ways.",
+    "start_datetime": "2026-08-31T01:00:00Z",
+    "end_datetime": "2026-08-31T04:00:00Z",
+    "talk:code": "CTKYPY",
+    "talk:guid": "9039d179-929c-5624-a6bc-ecae4fe5aa79",
+    "talk:event": "foss4g-2026-workshop",
+    "talk:type": "Workshop",
+    "talk:language": "en",
+    "talk:room": "613",
+    "talk:room_capacity": 45,
+    "talk:duration_minutes": 180,
+    "talk:speakers": [
+      {
+        "code": "EYZCPK",
+        "name": "Alen Mangafi\u0107",
+        "url": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/EYZCPK/"
+      },
+      {
+        "code": "LVRBRN",
+        "name": "Toma\u017e \u017dagar",
+        "url": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/LVRBRN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-08-31T02:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/CTKYPY/",
+      "title": "Point-Cloud Acrobatics: From Raw LiDAR to Stunning 3D Visuals"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/CTKYPY/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/EYZCPK/",
+      "title": "Alen Mangafi\u0107"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/LVRBRN/",
+      "title": "Toma\u017e \u017dagar"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/CTKYPY/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-workshops"
+}

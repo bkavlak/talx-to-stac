@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "QM7P9W",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Caring for a Living Park: An Open-Source Geospatial System Inspired by Field Experience (Cerro Kavaju, Paraguay)",
+    "description": "A real-world case from Paraguay showing how a combination of open-source geospatial tools supports biodiversity monitoring, trail management, wildlife tracking, and conservation. The system integrates field data, fire alerts, deforestation monitoring (GLAD), and lightweight drone data into a single, scalable workflow for protected area management.\n\nProtected areas often lack integrated tools to manage biodiversity, tourism, and environmental monitoring in a unified way. As a result, data remains fragmented, decision-making is limited, and conservation efforts are less effective.\r\n\r\nThis presentation introduces a real-world implementation of an integrated system based on a combination of open-source geospatial tools, designed to support the full management of a protected area, using Cerro Kavaju (Paraguay) as a case study.\r\n\r\nThe project originated from personal field experience in Cerro Kavaju, initially through rock climbing and later through biodiversity research. This direct engagement led to the creation of Tekolab, an initiative focused on the conservation and sustainable management of the area.\r\n\r\nThe system integrates multiple components into a single workflow: web mapping for public engagement, trail planning and management, georeferenced biodiversity data (flora inventories), wildlife monitoring through camera traps, and recreational management including rock climbing routes.\r\n\r\nIn addition, environmental monitoring is incorporated through the integration of fire alerts and deforestation alerts (e.g., GLAD), complemented by lightweight drone data and field observations to provide a multi-scale understanding of ecosystem dynamics.\r\n\r\nThe system is built entirely with open-source technologies, including PostGIS, GeoServer, MapStore, GeoNode, ODK, and Apache Superset, forming a modular and scalable geospatial infrastructure.\r\n\r\nThis talk focuses on lessons learned from implementing an integrated system in a real conservation context, including challenges in data integration, field data collection, and system adoption.\r\n\r\nThe project demonstrates how a combination of open-source geospatial tools can go beyond visualization to support the full lifecycle of protected area management, offering a cost-effective and replicable model for similar initiatives in Latin America and other regions.",
+    "start_datetime": "2026-09-03T06:00:00Z",
+    "end_datetime": "2026-09-03T06:30:00Z",
+    "talk:code": "QM7P9W",
+    "talk:guid": "89a2afb3-3598-56ed-a9d4-5082b367aed1",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Ran1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "9FPMRZ",
+        "name": "Atahualpa Ayala G\u00f3mez",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/9FPMRZ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-03T06:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/QM7P9W/",
+      "title": "Caring for a Living Park: An Open-Source Geospatial System Inspired by Field Experience (Cerro Kavaju, Paraguay)"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/QM7P9W/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/9FPMRZ/",
+      "title": "Atahualpa Ayala G\u00f3mez"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/QM7P9W/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

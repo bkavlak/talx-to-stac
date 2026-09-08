@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "STWUHW",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Scalable Raster Analytics with STAC, xarray & Dask",
+    "description": "A hands-on workshop on cloud-native raster analytics using open standards and scalable Python tools. Discover data with STAC, stream Cloud-Optimized GeoTIFFs, model data cubes with xarray, and perform parallel geospatial analysis using Dask.\n\nModern satellite archives are massive, multi-temporal, and increasingly hosted in cloud environments. Traditional file-based GIS workflows struggle when working with large raster collections, global time series, or multi-band imagery.\r\n\r\nThis hands-on workshop introduces a practical, open-source workflow for scalable raster analytics using STAC, Cloud-Optimized GeoTIFF (COG), xarray, rioxarray, and Dask.\r\n\r\nParticipants will:\r\n- Discover satellite imagery from public STAC catalogs\r\n- Stream raster data directly from the cloud without downloading entire scenes\r\n- Structure multi-temporal imagery into a labeled data cube\r\n- Perform scalable computations using chunked, parallel processing\r\n- Generate derived products such as vegetation indices and temporal summaries\r\n\r\nWorkshop materials, including content, notes, and code examples, are available at:\r\nhttps://amanchry.github.io/scalable-raster-analytics/",
+    "start_datetime": "2026-08-30T05:00:00Z",
+    "end_datetime": "2026-08-30T08:00:00Z",
+    "talk:code": "STWUHW",
+    "talk:guid": "b8d8176f-977e-5300-ba0a-f2bfdc5105b9",
+    "talk:event": "foss4g-2026-workshop",
+    "talk:type": "Workshop",
+    "talk:language": "en",
+    "talk:room": "601",
+    "talk:room_capacity": 81,
+    "talk:duration_minutes": 180,
+    "talk:speakers": [
+      {
+        "code": "T3AMTL",
+        "name": "Aman Chaudhary",
+        "url": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/T3AMTL/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-08-30T06:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/STWUHW/",
+      "title": "Scalable Raster Analytics with STAC, xarray & Dask"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/STWUHW/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/T3AMTL/",
+      "title": "Aman Chaudhary"
+    },
+    {
+      "rel": "related",
+      "href": "https://amanchry.github.io/scalable-raster-analytics/",
+      "title": "amanchry.github.io/scalable-raster-analytics"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.amanchaudhary.com/",
+      "title": "www.amanchaudhary.com"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/STWUHW/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-workshops"
+}

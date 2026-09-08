@@ -1,0 +1,149 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "JWKDAF",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Locality-Sensitive Hashing with the Hilbert Curve for fast reverse geocoding",
+    "description": "3geonames.org is a free api for fast reverse geocoding, using a new technique of locality-preserving hashing of 2d/3d spatial points to 1d integers via a combination of Hilbert curve and bit interlacing. This talk expands on the use-case and the performance/accuracy advantages of this technique. (The talk slides will be available at: https://3geonames.org/prizren.html )\n\nhttps://api.3geonames.org/\r\nFast Reverse Geocoder Lite - A simple but fast reverse geocoding API up to city/neighborhood granularity level.\r\n\r\nConvert a geographic coordinate (latitude and longitude) into city, neighborhood name, wikipedia, wikidata, geocode, elevation, timezone, country, region and OSM tags.\r\n\r\nGenerate a truly random location anywhere on Earth; or in a particular country. Get locality results in either XML or JSON.\r\n\r\nThis reverse geocoding API is ideal for applications which process location data (for example mobile GPS data) and need to correlate this quickly with real place names. \r\nIt takes as input a Latitude, Longitude pair, and outputs either XML (default) or JSON text with the name of the nearest city/neighborhood and other regional information based on both Geonames.org and OpenStreetMap.org regional/city/neighborhood polygons.\r\n\r\n\r\nSend a reverse geocoding request as per API spec: <url>/latitude,longitude\r\ne.g., \r\n\t\thttps://api.3geonames.org/51.4647,0.0079 (XML output - Default)\r\nor\r\n\t\thttps://api.3geonames.org/51.4647,0.0079.json (JSON output)\r\n\r\nOther API Functions\r\n\r\nPick a random location at or near land: http://api.3geonames.org/randomland\r\n\r\nPick a random location anywhere: http://api.3geonames.org/random - (Note: Since the earth is mostly Ocean, most returned results will have no placename reverse geocoding responses, only latitude,longitude, geocode, geonumber and threegeonames)\r\n\r\nPick a random location in a give country (eg., Germany - DE): http://api.3geonames.org/randomland.DE (XML Default)- http://api.3geonames.org/randomland.DE.json (JSON)",
+    "start_datetime": "2023-06-29T11:30:00Z",
+    "end_datetime": "2023-06-29T12:00:00Z",
+    "talk:code": "JWKDAF",
+    "talk:guid": "57b0e4c6-b594-58f2-8943-522c1137f272",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT D / N112 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "SDV3VJ",
+        "name": "Ervin Ruci",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/SDV3VJ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-29T11:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/JWKDAF/",
+      "title": "Locality-Sensitive Hashing with the Hilbert Curve for fast reverse geocoding"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/JWKDAF/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/SDV3VJ/",
+      "title": "Ervin Ruci"
+    },
+    {
+      "rel": "related",
+      "href": "https://3geonames.org/prizren.html",
+      "title": "3geonames.org/prizren.html"
+    },
+    {
+      "rel": "related",
+      "href": "https://api.3geonames.org/",
+      "title": "api.3geonames.org"
+    },
+    {
+      "rel": "related",
+      "href": "https://api.3geonames.org/51.4647,0.0079",
+      "title": "api.3geonames.org/51.4647,0.0079"
+    },
+    {
+      "rel": "related",
+      "href": "https://api.3geonames.org/51.4647,0.0079.json",
+      "title": "api.3geonames.org/51.4647,0.0079.json"
+    },
+    {
+      "rel": "related",
+      "href": "http://api.3geonames.org/randomland",
+      "title": "api.3geonames.org/randomland"
+    },
+    {
+      "rel": "related",
+      "href": "http://api.3geonames.org/random",
+      "title": "api.3geonames.org/random"
+    },
+    {
+      "rel": "related",
+      "href": "http://api.3geonames.org/randomland.DE",
+      "title": "api.3geonames.org/randomland.DE"
+    },
+    {
+      "rel": "related",
+      "href": "http://api.3geonames.org/randomland.DE.json",
+      "title": "api.3geonames.org/randomland.DE.json"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/JWKDAF/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/2G3CBDZaHCRiTU8GMaPzKc",
+      "type": "text/html",
+      "title": "2023 | Locality-Sensitive Hashing with the Hilbert Curve for fast reverse geocoding - Ervin Ruci",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=ZqFUqZ5pWsk",
+      "type": "text/html",
+      "title": "2023 | Locality-Sensitive Hashing with the Hilbert Curve for fast reverse geocoding - Ervin Ruci",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

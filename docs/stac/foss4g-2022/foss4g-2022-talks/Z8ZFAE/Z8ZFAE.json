@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Z8ZFAE",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "swissgeol.ch - Geology in 3D: new features",
+    "description": "Geological data usually suffer from very low visibility because they are specialized data that are only accessible to a few people and can only be visualized and processed using special software. The swissgeol.ch portal, newly launched by swisstopo (Swiss Federal Office of Topography), aims to change this by making the data accessible on the Internet in a low-threshold and simple way using 3D visualization based and promoted with open-source technology and code.\r\nswissgeol.ch is a web application for the visualization and analysis of geological sub-surface data.  It has been publicly available at https://viewer.swissgeol.ch since 2020, and the open source code is can be downloaded at https://github.com/swissgeol/ngm.\r\nIn addition to the geo-portal of the Swiss Confederation (https://map.geo.admin.ch) which focusses on 2D spatial data, swissgeol.ch extents its functionality to 3D data above, on and below the surface. For this, it relies on 3D visualization on the web, which is based on CesiumJS and offers numerous expert tools.\r\nCesiumJS is the most widespread open source 3D globe library and is used worldwide in many different applications. It not only visualizes large-scale global data, but also very detailed data at the local scale, such as buildings in the 3D view of map.geo.admin.ch.\r\nWith the development of swissgeol.ch, an underground navigation option was developed in CesiumJS for the first time, which allows the visualization of 3D objects below the terrain. In addition to navigating underground, it is also possible to see through the earth's surface using transparency settings, as well as to slice the 3D-scene vertically.\r\nWith the use of 3D tiles and precise terrain (2m precision), the data is delivered in an optimized format for the web. At the same time, the download of original data of entire layers or individual objects in the layer is offered.\r\nAfter the positive echo of last year\u2019s talk, we are going to present this year selected features and data in greater detail and introduce recent developments: A new user experience and a specific user space for projects, as well as new data and formats, e.g. using the new voxel Cesium Next Tiles specs.",
+    "start_datetime": "2022-08-26T07:30:00Z",
+    "end_datetime": "2022-08-26T08:00:00Z",
+    "talk:code": "Z8ZFAE",
+    "talk:guid": "1ab4c506-e4d2-541a-ac5f-a4328c64f9b6",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Limonaia",
+    "talk:room_capacity": 110,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "MD9CSC",
+        "name": "Emmanuel Belo",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/MD9CSC/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T07:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/Z8ZFAE/",
+      "title": "swissgeol.ch - Geology in 3D: new features"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/Z8ZFAE/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/MD9CSC/",
+      "title": "Emmanuel Belo"
+    },
+    {
+      "rel": "related",
+      "href": "https://viewer.swissgeol.ch",
+      "title": "viewer.swissgeol.ch"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/swissgeol/ngm",
+      "title": "github.com/swissgeol/ngm"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/Z8ZFAE/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=gxZv2A0Yft8",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | swissgeol.ch - Geology in 3D: new features",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

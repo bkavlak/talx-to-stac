@@ -1,0 +1,93 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "HXMXN7",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "State of PDAL",
+    "description": "PDAL is Point Data Abstraction Library. It is a C/C++ open source library and applications for translating and processing point cloud data. This is an update on the status of the library and new and updated features and capabilities over the last 2 years.\n\nPDAL is Point Data Abstraction Library. It is a C/C++ open source library and applications for translating and processing point cloud data. It is not limited to LiDAR data, although the focus and impetus for many of the tools in the library have their origins in LiDAR. PDAL allows you to compose operations on point clouds into pipelines of stages. These pipelines can be written in a declarative JSON syntax or constructed using the available API. This talk will focus on the current state of the PDAL Pointcloud processing library and related projects such as COPC and Entwine, for pointcloud processing. Coverage of the most common filters, readers and writers along with some general introduction on the library, coverage of processing models, language bindings and command line based batch processing. First part will be covering new features for current users. Some discussion of installation method including Docker, binaries from package repositories, and Conda packaging. For more info see https://pdal.io",
+    "start_datetime": "2026-09-01T08:00:00Z",
+    "end_datetime": "2026-09-01T08:30:00Z",
+    "talk:code": "HXMXN7",
+    "talk:guid": "0cc5c32a-b5a8-58a6-9703-f3a1ce4d0c4a",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Ran1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "JLBAQT",
+        "name": "Michael Smith",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/JLBAQT/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T08:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/HXMXN7/",
+      "title": "State of PDAL"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/HXMXN7/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/JLBAQT/",
+      "title": "Michael Smith"
+    },
+    {
+      "rel": "related",
+      "href": "https://pdal.io",
+      "title": "pdal.io"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/HXMXN7/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

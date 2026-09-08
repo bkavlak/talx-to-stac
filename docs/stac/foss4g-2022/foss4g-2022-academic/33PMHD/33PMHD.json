@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "33PMHD",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Who speaks for the forest? Participatory mapping and contested land cover classification in Central Bali, Indonesia",
+    "description": "Overview:\r\n \r\nThis presentation will discuss the ongoing effort to map, in unprecedented detail, a forested area in Central Bali, Indonesia, the use and ownership of which is currently a contested question. The presentation will outline the historical and political reasons for the contested nature of the land area under investigation, and then discuss participatory field mapping methods and a collaborative analysis pipeline developed to represent via formal GIS methodologies the land and its use with the needs of different and differing stakeholders in mind.\r\n \r\nBackground:\r\n \r\nOur research approach is informed by current approaches to community mapping in general [Cochrane2020] and specific to emerging economies, with a particular focus on the conditions in Indonesia [Sulistyawan2018]. In particular, we are studying an area is Central Bali in the vicinity of the Taman Wisata Alam (TWA) Buyan -Tamblingan comprising 1,491 hectare of forest area including Alas Merta Jati [Suryawan2021], part of the Batukaru nature reserve which is estimated to contain sufficient springs to meet Bali\u2019s water needs [Zen, 2019] (Fig. 1). The Alas Merta Jati is contested as it is currently claimed as ancestral lands  (or \u201ccustomary forest\u201d) by the Tamblingan people and at the same time claimed as a state forest by the Indonesian government. While both entities claim to want to protect the forest along fashionable \u201csustainable\u201d principles [Strauss2015], each entity interprets the responsibilities and benefits of sustainable actions in different ways. Subjecting the area to GIS compliant analysis approaches is one way by which differences and commonalities across stakeholders can become tractable.\r\n \r\nCollaboration framework :\r\n \r\nOur work is coordinated and overseen by a local NGO, the WISNU foundation (https://www.wisnu.or.id/) with which we have a memorandum of understanding outlining work methods, data collection and data ownership as well as ownership of intellectual property, creating formal boundary conditions for an equitable long-term outcome of the project. Moreover, our research team includes GIS professionals from the Indonesia National Research and Innovation Agency with expertise in remote sensing of tropical forests.\r\n \r\nData sources and field work:\r\n \r\nOur data collection relies on a combination of high-resolution satellite imagery from PlanetScope (PS) provided by Planet Labs (integration of Sentinel-2 data is in progress as well) and field level data collection through inhabitants of the area. PS with a resolution of 3.7 m/pixel containing four channels:  Blue (455 - 515 nm), Green (500 - 590 nm), Red (590 - 670 nm), and Near-Infrared (780 - 860 nm) [Raza et al. 2020]. Our first step follows standard practices. We study the composite\u2019s PS satellite data in comparison with Google Earth (GE) images to identify a first round of land cover features. However, we then also check questionable areas with local informants who collect short video recordings of the actual situation on the ground (Fig. 2) and upload these verification datasets to a shared server. Moreover, our system is set up to support low-tech input data collected with old-fashioned paper and pencil. A handwritten set of longitude, latitude and identified land cover class is sent (via email) to the evaluation team where custom python scripts convert the information to an entry into a vector data set suitable for classification purposes.\r\n \r\nComplex land cover classes:\r\n \r\nThe single most significant issue we encounter in this project is the fact that local knowledge and local interests are not represented in GIS maps nor in the land cover categories that routinely constitute formal categories in GIS representation. The existing GIS knowledge production pipeline, with its reliance on visual evidence, is not sufficient to address these needs.\r\n \r\nFor example, how might one monitor and detect the outcome of efforts of the \"jaga teleng\" (traditional forest guards) as opposed to modern forest regrowth approaches? Even some quotidian and concrete \u201cuse\u201d classes in the study area are resistant to visual-only inspection. Coffee plant farms typically grow together with and often under clove tree gardens and cannot be distinguished even with high-resolution (3.0m/pixel) satellite imagery without additional field level data collection. In general, the land use conditions in Bali are characterized by a variety of mixed uses and mixed conditions, with untouched areas mingling with secondary forests and overgrown light use agricultural areas creating a complex assemblage of \u201cquasi-natural\u201d conditions. And the tropical conditions on the island ensure that an agricultural area that has been harvested or abandoned, regrows to a semi-wild area in months. While this project contains many elements, the image interpretation and metadata creation that can be ingested into a GIS framework to represent some of the convention challenging categories listed above, is by far the most challenging aspect of the effort.\r\n \r\nA GIS analysis framework for experimentation and collaboration:\r\n \r\nIn order to support the challenging data interpretation work and enable a collaborative testing environment, we have developed a cloud-based GIS environment (COCKTAIL) that combines elements of established QGIS, GDAL, OTB and SAGA environments such that we can create processing pipelines across these various widely used GIS systems and run this software cocktail remotely in the cloud. This allows our research partners to work in their respective time zones and explore different approaches to the data analysis and classification approaches within a shared analysis framework. Importantly, our pipeline records the large collection of local setting and internal evaluation parameters to a file such that each member can easily recreate the output of the other team member experiments. Results are transferred to a shared remote server such that results can easily be visually inspected together during remote meetings.\r\n \r\nAt the time of this writing, Cocktail is used in our research group to combine satellite imagery with texture maps, to create change maps (from the start of the datasets to this year) and to perform land cover classification (Fig. 3). Cocktail includes Support Vector Machine, Random Forest and Neural Network classifiers, the suitability of which we are now analyzing in an iterative manner, collecting more data as the need arises (see resources).",
+    "start_datetime": "2022-08-24T15:30:00Z",
+    "end_datetime": "2022-08-24T15:35:00Z",
+    "talk:code": "33PMHD",
+    "talk:guid": "d01d4102-5c81-5483-a00e-7a4e5ff69463",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "Room Hall 3A",
+    "talk:room_capacity": 85,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "MP98AQ",
+        "name": "marc b\u00f6hlen",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/MP98AQ/"
+      },
+      {
+        "code": "SXSFVN",
+        "name": "Rajif Iryadi",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/SXSFVN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T15:32:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/33PMHD/",
+      "title": "Who speaks for the forest? Participatory mapping and contested land cover classification in Central Bali, Indonesia"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/33PMHD/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/MP98AQ/",
+      "title": "marc b\u00f6hlen"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/SXSFVN/",
+      "title": "Rajif Iryadi"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/33PMHD/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

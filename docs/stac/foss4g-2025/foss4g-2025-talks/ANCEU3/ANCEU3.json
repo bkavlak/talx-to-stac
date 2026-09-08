@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "ANCEU3",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "GeoServer 3 Status Report",
+    "description": "This presentation is an in-depth status update on GeoServer 3, an overhaul of the popular open-source server for spatial data and web services. Supported by a community-driven crowdfunding effort, GeoServer 3 modernizes the platform\u2019s foundation to ensure it meets the growing demands of the geospatial community.\n\nWe\u2019ll first analyze the GeoServer 2.x status quo, and the effect of cascading changes that a \u201csimple\u201d Spring upgrade caused, turning the activity into a cross project overhaul, and how the large effort required got socialized and eventually brought to implementation via in-kind volunteering and a crowdfunding campaign driven by Camp2Camp, GeoCat and GeoSolutions.\r\n\r\nWe will explore the planned milestones in the transition to GeoServer 3. These include critical refactorings, such as replacing aging libraries, adopting modern Java frameworks, and integrating support for the latest versions of GeoTools and GeoWebCache. Key technical advancements include the evolution and integration of ImageN for improved raster data processing, the migration from Wicket 7 to Wicket 10 for a modernized and more secure web user interface, and the adoption of Jakarta EE and Spring 6 to support enhanced security, scalability, and long-term compatibility with modern Java ecosystems.\r\n\r\nJoin us to investigate progress, reflect on the lessons learned, and get inspired by what\u2019s possible with GeoServer 3\u2014a project that continues to empower geospatial professionals and organizations worldwide.",
+    "start_datetime": "2025-11-19T23:00:00Z",
+    "end_datetime": "2025-11-19T23:25:00Z",
+    "talk:code": "ANCEU3",
+    "talk:guid": "e677ae3a-e10e-582c-b7e0-8ab56dc089a3",
+    "talk:event": "foss4g-2025",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG308 TE IRINGA",
+    "talk:room_capacity": 180,
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "BQBVFC",
+        "name": "Jody Garnett",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/BQBVFC/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-19T23:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/ANCEU3/",
+      "title": "GeoServer 3 Status Report"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/ANCEU3/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/BQBVFC/",
+      "title": "Jody Garnett"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/ANCEU3/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=B2fLQZ2Z-fg",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | GeoServer 3 Status Report",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

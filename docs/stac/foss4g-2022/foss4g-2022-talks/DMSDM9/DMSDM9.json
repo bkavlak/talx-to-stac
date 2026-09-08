@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "DMSDM9",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Curated Major Map Features Library",
+    "description": "A team of experienced mappers and language experts at Meta has reviewed a dataset of major map features from OpenStreetMap(OSM), and used the curated results on one of their validation processes to check for quality issues of the Daylight and OSM maps. The dataset of the curated results is considered as a reference library of major map features with their key information. During the validation process, this library is used to compare against Daylight and OSM data to look for suspicious changes on features included in the library.  With such reference library, the Meta Basemap Team is able to keep a stable quality on major map features in an efficient manner. To ensure the data in this library is up-to-date and comprehensive, systematic approaches to continuously improve the library are also developed.  In our talk, we will share more details about this curated library and processes, and how we maintain the freshness of the library.",
+    "start_datetime": "2022-08-26T13:20:00Z",
+    "end_datetime": "2022-08-26T13:25:00Z",
+    "talk:code": "DMSDM9",
+    "talk:guid": "aefb0a29-7b64-5d70-90bb-09e25d68f0a0",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Open Data",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Modulo 0",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "DX3TVY",
+        "name": "Yunzhi Lin",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/DX3TVY/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T13:22:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/DMSDM9/",
+      "title": "Curated Major Map Features Library"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/DMSDM9/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/DX3TVY/",
+      "title": "Yunzhi Lin"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/DMSDM9/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=ITBYknOUpkc",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Curated Major Map Features Library",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

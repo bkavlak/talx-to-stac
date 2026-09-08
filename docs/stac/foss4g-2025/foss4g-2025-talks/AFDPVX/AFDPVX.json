@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "AFDPVX",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "State of JICA Quick Mapping Project (QMP)",
+    "description": "Japan International Cooperation Agency (JICA) is implementing a co-creation, innovation and circulation initiative for updating its development cooperation by adding geospatial data on OpenStreetMap. This presentation will introduce the use of open source tools developed for OpenStreetMap to create maps useful for activities in JICA.\n\nThe Japan International Cooperation Agency (JICA) Quick Mapping Project (QMP) represents a initiative that transforms development cooperation through OpenStreetMap utilization. JICA is developing a new map procurement service model that delivers essential mapping solutions within 2 weeks to 2 months. This co-creation, innovation and circulation initiative renews how development agencies access geospatial information for urgent project needs.\r\n\r\nQMP's new approach treats mapping as a service rather than a lengthy project. This paradigm shift enables JICA to rapidly respond to urgent development needs by leveraging OpenStreetMap's collaborative platform and open-source tools specifically developed for OpenStreetMap data handling. The 2-week to 2-month delivery timeframe makes geospatial information accessible for time-sensitive development interventions, disaster response, and infrastructure planning.\r\n\r\nCentral to QMP's mission is the systematic enhancement of OpenStreetMap with development-relevant geospatial data. This approach involves strategic data addition through identifying gaps in OpenStreetMap and systematically filling them with development-focused information. Community participation ensures that all contributions work within OpenStreetMap's collaborative framework and align with community standards. Sustainability efforts focus on building local capacity to maintain and update contributed data over time.\r\n\r\nQMP utilizes a comprehensive suite of open-source tools specifically designed for OpenStreetMap data manipulation and visualization. Visualization and distribution utilize Tippecanoe for generating vector tiles from OpenStreetMap data, PMTiles for efficient serverless map tile distribution, MapLibre GL JS for creating interactive web maps from OSM data, Martin for serving vector tiles and providing robust map APIs, and MapLibre GL JS for lightweight map interfaces. \r\n\r\nThis presentation will demonstrate live workflows using the complete open-source toolchain, showcase real-world mapping outputs, and invite community collaboration on tool development and methodology refinement. QMP represents a model for leveraging OpenStreetMap in development cooperation, and the presentation seeks community input on technical innovations and partnership opportunities. QMP demonstrates that thoughtful integration of OpenStreetMap with development practice can create transformative outcomes for both the global mapping community and development effectiveness, proving that open data and open tools can drive meaningful social impact at scale.",
+    "start_datetime": "2025-11-19T01:30:00Z",
+    "end_datetime": "2025-11-19T01:55:00Z",
+    "talk:code": "AFDPVX",
+    "talk:guid": "16247219-5dfb-5f04-9d60-e3ef36759d7d",
+    "talk:event": "foss4g-2025",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG126",
+    "talk:room_capacity": 140,
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "WFYVSX",
+        "name": "Hidenori Fujimura",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/WFYVSX/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-19T01:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/AFDPVX/",
+      "title": "State of JICA Quick Mapping Project (QMP)"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/AFDPVX/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/WFYVSX/",
+      "title": "Hidenori Fujimura"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/AFDPVX/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

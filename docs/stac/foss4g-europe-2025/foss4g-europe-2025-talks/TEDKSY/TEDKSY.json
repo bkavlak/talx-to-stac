@@ -1,0 +1,122 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "TEDKSY",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "Exploratory analysis of beta diversity across altitude gradients in an Alpine region (Trentino) using FOSS4G and a historical floristic archive",
+    "description": "INTRODUCTION\r\nBiodiversity is a crucial yet complex concept in ecological research. Beta diversity, representing species turnover across spatial gradients, plays a key role in understanding ecosystem functioning and conservation planning. Studies suggest that environmental factors such as altitude, latitude, and geographical distance drive beta diversity patterns. However, large-scale analyses may not directly inform local conservation efforts. Therefore, fine-scale assessments within specific administrative regions are essential for effective biodiversity management and protected area planning. In FORCING project (Geri et al.2016), the Edmund Mach Foundation and the University of Trento recovered a huge database of vegetation surveys, build in the 1970s to represent the \"Schmid's vegetation belts\" in the forests of Province of Trento a region of about 6.212 km\u00b2 in the northeastern Italian Alps with a huge flora and fauna biodiversity (Tattoni et al. 2021). The surveys and the cartographic materials were digitized and organized in a geographic geodatabase with QGIS and postGIS. The sampling design of this archive lends itself perfectly to being analyzed from a beta diversity perspective, permitting to compare several environmental gradients in terms of species turnover and species richness. The archive was created using FOSS4G and is permanently available and stored in a web-GIS hosted on servers maintained by Fondazione Edmund Mach and is accessible at http://meteogis.fmach.it/forcing/ (unfortunately due to a technical problem related to an ongoing general software update the access maybe unavailable until the end of 2025).\r\nThe aim of this paper is to test the use of FOSS4G software (Ciolli et al. 2017) and the FORCING geodatabase (Geri et al.2016) to perform an exploratory analysis of the floristic species turnover in a relative small area, and to try to underline some patterns and driving forces. \r\n\r\nMETHODS\r\nThe data coming from the original sampling project were managed and prepared using Qgis software, using the Spatialite format geographic database and georeferenced in the WGS84 UTM 32N coordinate reference system (srid: 32632). 517 linear transects and a total of 190761 species records were analysed (Geri et al. 2016). The statistical analysis were performed with R software. In each linear transect, considered a single ecological community, the beta diversity using site as simple point were calculated evaluating in this way the degree of species turnover across the environmental gradient that is created along the transect (Tuomisto, 2010). The basic statistical properties extracted for each transect were put in relation with the beta diversity index and with the corresponding values of species richness, producing graphs that shows the various relations trend. The significance of the linear relations were tested using the Pearson correlation coefficient. Each belt was compared in terms of species composition using the S\u00f8rensen\u2019s coefficient of similarity. The behavior of the beta diversity and species richness were deepened in terms of variance partitioning. It was tested the variance explained by the four variables: mean altitude, mean slope, range of altitude and range of slope against beta diversity and species richness. The analysis should stress the role of the variable in single or in multiple way to drive the species turnover. The variance partitioning analysis were processed using the Vegan library of the R statistical software (R Core Team, 2024), and in particular the module \u201cvarpart\u201d. This function partitions the variation of response data table with respect to two, three, or four explanatory tables, using redundancy analysis ordination (RDA). To simplify the results interpretation  the variance partitioning in combinations of group of three variables was applied. Both terrain altitude and slope data and both vegetation beta diversity and species richness data were transformed with a log transformation in order to obtain a normal distribution of data. QGIS was used also for data exploration and representation.\r\n\r\nRESULTS\r\nPearson indices show that all the variables are significative except the slope variance for both beta diversity and species richness and the mean altitude only for species richness. Generally both species richness and beta diversity grow increasing altitudinal range, slope range and slope mean while variance doesn\u2019t show a definite trend considering in particular way the species richness. Sorensen statistic shows how the similarity decreases with increasing the altitude separation from the lower level, and highlights the pairwise comparison between altitude adjacent belts. The latter statistic shows how the similarity presents a different behavior with the increase of altitude, rising very fast in the first step (between 0 and 600 meters) then leveled off and finally decrease in correspondence to the last two steps, between 1500 meters to 2100 meters. The variable that explain much more variance is the altitude variance for both beta diversity and species richness. Regarding beta diversity the greater joined effect is due to the combination of altitude range and slope mean while altitude range, slope mean and slope range presents an higher joined effect for three variables. \r\n\r\nDISCUSSIONS AND CONCLUSIONS\r\nThe results confirm that the transects characterized by a wider range of slope and elevations show a higher rate of beta diversity. This is reasonable, since the more are the different environments the transects cross, the more pronounced should be beta diversity. This is also confirmed by the linear relation of the single variables highlighted both as graphical trend and by the pearson tests and moreover, by the fact that the variance is explained as a joint action of variables. \r\nFinally this work confirmed that FOSS4G software is perfectly suitable to be used to perform spatial statistical analysis to study beta diversity both from the point of view of numerical statistic and from the point of view of geostatistics (Ciolli et al. 2017) showcasing the power and versatility of these tools.\r\nFurther future developments and analysis will include the comparison of beta diversity of the present vegetation with other historical floristic archives sampling (Lelli et al 2023), statistical analysis of the data using different set of statistical and geostatistical techniques and finally to include remote sensed data.",
+    "start_datetime": "2025-07-16T09:00:00Z",
+    "end_datetime": "2025-07-16T09:30:00Z",
+    "talk:code": "TEDKSY",
+    "talk:guid": "234ca19f-f786-59ad-b189-05bcb28e38ed",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Academic track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "PA01 (Quarticle)",
+    "talk:room_capacity": 95,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "GHQYZE",
+        "name": "Marco Ciolli",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/GHQYZE/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-16T09:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/TEDKSY/",
+      "title": "Exploratory analysis of beta diversity across altitude gradients in an Alpine region (Trentino) using FOSS4G and a historical floristic archive"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/TEDKSY/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/GHQYZE/",
+      "title": "Marco Ciolli"
+    },
+    {
+      "rel": "related",
+      "href": "http://meteogis.fmach.it/forcing/",
+      "title": "meteogis.fmach.it/forcing"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/TEDKSY/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "exploratory-analysis-of-beta-diversity-foss4ge-mostar-ciolli": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/TEDKSY/resources/Exploratory_analysis_of_beta_diversity_F_jM4JULb.pdf",
+      "type": "application/pdf",
+      "title": "Exploratory analysis of beta diversity_FOSS4GE_Mostar_Ciolli",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/qd7VsCeFRqeuDJMY3nKSjx",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Exploratory analysis of beta diversity across altitude gradients in an Alpine ...",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=zjHT36apqyw",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Exploratory analysis of beta diversity across altitude gradients in an Alpine ...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

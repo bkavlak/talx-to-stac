@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "J8FDC3",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "A QGIS plugin for local weather sensor data",
+    "description": "Ground-based weather sensor networks are essential in monitoring local weather patterns and climate. Integration of such data into GIS environments is critical to supporting manifold applications including urban planning, public health studies, and weather forecasting.\r\nThese networks use scattered geolocalized sensors to measure multiple atmospheric variables (e.g. air temperature, wind speed, precipitations). Often, data is distributed online by network managers which can be either local/national authorities, private companies, or volunteers. Due to the diversity of data providers, both formats and access patterns of meteorological sensor data are heterogeneous and the preprocessing tasks (e.g. temporal aggregations, spatial filtering) are generally time-consuming.\r\nGiven the above and to increase end-users exploitation of such sensor data, we present the development of an experimental QGIS plugin facilitating access and preprocessing of openly available data from ground-based sensor networks and enabling their direct use in QGIS. The plugin is designed to implement REST APIs connections and HTTP requests to download data. A user interface allows for selecting time intervals and types of observation to be downloaded. Once data is retrieved, the plugin provides options for filtering, outliers removal, time aggregation with summary statistics as well as observation mapping into a standard GIS layer. These functionalities are only partially available in similar existing QGIS plugins. The plugin leverages FOSS Python libraries for data handling including Pandas. The Dask parallel computing library is also exploited to speed up I/O operations on raw data.\r\nThe current version of the plugin is developed to retrieve and process weather sensor data provided by the Environmental Protection Agency of Lombardy Region (ARPA Lombardia), Northern Italy. The data retrieval is based on the Sodapy Python library, a Python client for the Socrata Open Data API. The plugin's work-in-progress source code is available at (https://github.com/gisgeolab/ARPA_Weather_plugin) released under MIT license. The plugin is being developed within the LCZ-ODC project (agreement n. 2022-30-HH.0) funded by Italian Space Agency (ASI), which aims to identify Local Climate Zones within the Metropolitan City of Milan.\r\nOngoing work includes the extension of the plugin functionalities to incorporate additional data providers, starting from other Italian regional ARPAs. The goal of this project is to provide a reproducible framework to access and handle weather data into QGIS, thus extending the capability of the software to support a wider range of practitioners and applications.",
+    "start_datetime": "2023-06-28T12:40:00Z",
+    "end_datetime": "2023-06-28T12:45:00Z",
+    "talk:code": "J8FDC3",
+    "talk:guid": "1a5473d2-676f-5385-893c-112dcba1e545",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "UBT C / N110 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "SRTKCD",
+        "name": "Emanuele Capizzi",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/SRTKCD/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T12:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/J8FDC3/",
+      "title": "A QGIS plugin for local weather sensor data"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/J8FDC3/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/SRTKCD/",
+      "title": "Emanuele Capizzi"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/J8FDC3/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/dLTjQT2gZByNVTD3jsEbNS",
+      "type": "text/html",
+      "title": "2023 | A QGIS plugin for local weather sensor data - Emanuele Capizzi",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=Kj9KGhWJT1c",
+      "type": "text/html",
+      "title": "2023 | A QGIS plugin for local weather sensor data - Emanuele Capizzi",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

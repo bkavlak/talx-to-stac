@@ -1,0 +1,114 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "XP3YS3",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "State of MovingPandas: analyze all those tracks (not just GPS)",
+    "description": "This talk presents the current state of [MovingPandas](http://movingpandas.org) and related movement data analysis tools. MovingPandas has been growing steadily since its first publication in 2018 (with more than 24 contributors to date). Building on GeoPandas and GeoViews, MovingPandas provides movement data analysis tools that support efficient exploratory data analysis through interactive (visual) analysis. Early functionality and demos were focused on dealing with GPS tracking data (including vehicle and animal tracks). This talk presents recent developments towards supporting other track data, including examples from sports tracking (movement in real space, extracted from video footage) and eye or mouse tracking (movement in virtual space). Among many other details, this includes support for local coordinate systems, integration of context beyond geographic base maps, as well as trajectory generalization, segmentation, and distance measures. Finally, we revisit the origins of MovingPandas: the QGIS plugin Trajectools; and review the steps necessary to bring MovingPandas' trajectory analysis tools to QGIS.",
+    "start_datetime": "2022-08-24T12:45:00Z",
+    "end_datetime": "2022-08-24T13:15:00Z",
+    "talk:code": "XP3YS3",
+    "talk:guid": "55f565b0-302e-5920-8afd-45c7405c004b",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Limonaia",
+    "talk:room_capacity": 110,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "MNY9NX",
+        "name": "Anita Graser",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/MNY9NX/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T13:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/XP3YS3/",
+      "title": "State of MovingPandas: analyze all those tracks (not just GPS)"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/XP3YS3/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/MNY9NX/",
+      "title": "Anita Graser"
+    },
+    {
+      "rel": "related",
+      "href": "http://movingpandas.org",
+      "title": "MovingPandas"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/XP3YS3/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/3PN9mLNRYLQjpWX48cJ7PN",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | State of MovingPandas: analyze all those tracks (not just GPS)",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=9OH3tc53hJk",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | State of MovingPandas: analyze all those tracks (not just GPS)",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

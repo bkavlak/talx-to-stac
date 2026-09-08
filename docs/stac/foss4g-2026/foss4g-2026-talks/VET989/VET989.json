@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "VET989",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Testing PLATEAU Pipelines in Re:Earth Flow When Topology Doesn't Survive",
+    "description": "Testing a CityGML-tileset conversion pipeline using topologies does not work: tile writers can add or remove vertices and even change geometry types. We show how statistical + raster-based testing in Re:Earth flow catches bugs in its engine development.\n\n## Background\r\n\r\nRe:Earth Flow is an open-source geospatial workflow engine designed to replace proprietary tools like FME. One of its use cases is converting Japan's PLATEAU CityGML datasets into various tile formats including Cesium 3D Tiles and Mapbox Vector Tiles.\r\n\r\n## Problem\r\n\r\nEnd-to-end testing is desired to ensure the correctness of final outputs after all post-processing operations. However, classical geometry-based test cannot work when topology changes. For example, MVT writers can crop geometries or potentially change geometry types, causing false-positives in classical geometry-based test.\r\n\r\n## Solution\r\n\r\nWe started from implementing classical geometrical comparison algorithms such as symmetric difference for polygons and Hausdorff distances. However, classical geometry-based tests cannot survive topology changes. For example, MVT writers can crop geometries or change geometry types entirely, causing false positives in any structure-based test.\r\n\r\n## Implementation\r\n\r\nMVT tiles are converted to grayscale PNG using a geometry decoder and an antialiased rasterizer. Canvas size and error threshold can be adjusted to control tolerance: sub-pixel geometric differences are naturally absorbed by the canvas resolution, and pixel differences below 0.5 are ignored to filter out antialiasing noise. The testing framework separates conversion and comparison into two stages: the first produces human-inspectable intermediates, and the second compares them against truth files. When a test breaks, you can open the PNG and see exactly what changed.\r\n\r\n## Conclusion\r\n\r\nRasterization is the robust approach for visualization-focused tests. As a next step, we plan to introduce a rasterization pipeline for 3D tiles, possibly with LLVMpipe for headless rendering.",
+    "start_datetime": "2026-09-01T05:45:00Z",
+    "end_datetime": "2026-09-01T05:50:00Z",
+    "talk:code": "VET989",
+    "talk:guid": "2c8ee023-5465-57a7-947d-6a48b2660e84",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Lightning Talk",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Ran1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "9EABUK",
+        "name": "Taosheng Qiu",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/9EABUK/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T05:47:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/VET989/",
+      "title": "Testing PLATEAU Pipelines in Re:Earth Flow When Topology Doesn't Survive"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/VET989/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/9EABUK/",
+      "title": "Taosheng Qiu"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/VET989/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

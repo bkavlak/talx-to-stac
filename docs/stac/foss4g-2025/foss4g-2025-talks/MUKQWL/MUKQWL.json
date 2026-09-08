@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "MUKQWL",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Introduction to QField plugin authoring Workshop",
+    "description": "For a little over a year now, QGIS' best field companion QField has gained a plugin framework that allows users to expand the capabilities of QField through QML and Javascript. This workshop introduces the framework and goes through practical examples aimed at empowering the participants into writing their own plugins.\n\nThe workshop will introduce participants to QField\u2019s plugin framework and its two main plugin types: app-wide plugins and project-scoped plugins. We will look into the decision-making around settling on Javascript/QML as the scripting language and look at its strengths.\r\n\r\nWe will then go through several practical plugin building examples that will cover:\r\nIntegration with online REST API endpoints;\r\nGeoreferenced visual map canvas overlays in QML language\r\nFeature creation and iteration via plugin\r\nCustomization of QField user interface\r\n\r\nThe workshop will also provide participants with resources to further increase their knowledge beyond the workshop session itself.",
+    "start_datetime": "2025-11-17T20:00:00Z",
+    "end_datetime": "2025-11-17T23:00:00Z",
+    "talk:code": "MUKQWL",
+    "talk:guid": "ecd84c64-b3d8-566f-a6b5-744e89fac7f1",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Workshop - Beginner Friendly",
+    "talk:type": "Workshop",
+    "talk:language": "en",
+    "talk:room": "WF511",
+    "talk:room_capacity": 30,
+    "talk:duration_minutes": 180,
+    "talk:speakers": [
+      {
+        "code": "PESSWX",
+        "name": "Berit Mohr",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/PESSWX/"
+      },
+      {
+        "code": "UVNRZV",
+        "name": "Mathieu Pellerin",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/UVNRZV/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-17T21:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/MUKQWL/",
+      "title": "Introduction to QField plugin authoring Workshop"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/MUKQWL/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/PESSWX/",
+      "title": "Berit Mohr"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/UVNRZV/",
+      "title": "Mathieu Pellerin"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/MUKQWL/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

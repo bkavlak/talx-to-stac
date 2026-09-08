@@ -1,0 +1,105 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "ZYFPZU",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Quickstart to GeoServer development using a pre-built Docker environment",
+    "description": "Learn how to use a containerized development environment for contributing to the GeoServer ecosystem (GeoServer, GeoTools, and GeoWebCache) with minimal setup.  Connect from your favourite IDE (e.g. VS Code) to a pre-built Java/Maven/Git environment.\n\nOpen source can be easy!  This workshop will get you up and running in 30 minutes, and will provide you with all the development tools that you'll need to compile and release GeoServer and its documentation.  It includes a focus on both source code and documentation/tutorials, so it's ideal for developers as well as non-developers: anyone who has wanted to contribute to this iconic FOSS project.\r\n\r\nSuggestion: maybe you want to translate the new GeoServer 3 GUI into your home language?\r\n\r\nWe'll follow the process documented on the https://geoguru.africa/ website (also https://github.com/geoguru-africa/DevDocker).",
+    "start_datetime": "2026-08-31T01:00:00Z",
+    "end_datetime": "2026-08-31T04:00:00Z",
+    "talk:code": "ZYFPZU",
+    "talk:guid": "2dc5a0fd-6031-5fd7-8e31-7eb051f88b71",
+    "talk:event": "foss4g-2026-workshop",
+    "talk:type": "Workshop",
+    "talk:language": "en",
+    "talk:room": "604",
+    "talk:room_capacity": 30,
+    "talk:duration_minutes": 180,
+    "talk:speakers": [
+      {
+        "code": "VS8SKR",
+        "name": "Peter Smythe",
+        "url": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/VS8SKR/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-08-31T02:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/ZYFPZU/",
+      "title": "Quickstart to GeoServer development using a pre-built Docker environment"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/ZYFPZU/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/VS8SKR/",
+      "title": "Peter Smythe"
+    },
+    {
+      "rel": "related",
+      "href": "https://geoguru.africa/",
+      "title": "geoguru.africa"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/geoguru-africa/DevDocker",
+      "title": "github.com/geoguru-africa/DevDocker"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/ZYFPZU/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "geoserver-source-code": {
+      "href": "https://github.com/geoserver/geoserver",
+      "title": "GeoServer source code",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-workshops"
+}

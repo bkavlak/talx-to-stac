@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "F9EF9Q",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "Creation of a GIS plugin for processing geographic data in radiecology",
+    "description": "SYMBIOSE is a platform mainly used to simulate the transfer of radionuclides in the environment and assess the associated human and biota dose calculation. One of its noticeable assets is its ability Its interest is notably being able to act and calculate on the site-specific geographical characteristicsof a site: land use, population. A plugin (Preprocessor) was created under QGis, it is characterized by:\r\n- The possibility to create and/or import a grid of geographical entities on which the calculations will be performed;\r\n- Land use modeling carried out using geographic databases or satellite scenes (with breeding places);\r\n- Modeling of the hydrographic network (DEM, triangulation \u2026);\r\n- A transformation of the processed files into SYMBIOSE-ready xml files to export the geographical entities and the different characteristics of the site (discharge points, municipalities concerned\u2026), which constitute the site-specific landscape.\r\n\r\nEach step can be performed independently for others applications (and not specially in the context of SYMBIOSE).\r\n\r\nGIS Plugin created by Oslandia Society.",
+    "start_datetime": "2025-07-18T09:00:00Z",
+    "end_datetime": "2025-07-18T09:30:00Z",
+    "talk:code": "F9EF9Q",
+    "talk:guid": "0685ca73-b1cf-56d7-b342-e98da55139bc",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Open Data",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "SA02",
+    "talk:room_capacity": 108,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "BRDV9J",
+        "name": "Jean-Michel METIVIER",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/BRDV9J/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-18T09:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/F9EF9Q/",
+      "title": "Creation of a GIS plugin for processing geographic data in radiecology"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/F9EF9Q/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/BRDV9J/",
+      "title": "Jean-Michel METIVIER"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/F9EF9Q/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "asnr-jmm": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/F9EF9Q/resources/FOSS4G_Mostar_ASNR_JMM_DUSVxaz.pdf",
+      "type": "application/pdf",
+      "title": "ASNR JMM",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/i9iscVS4MshNVh8ug6UQmX",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Creation of a GIS plugin for processing geographic data in radiecology",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=xXEsDcxQezQ",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Creation of a GIS plugin for processing geographic data in radiecology",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

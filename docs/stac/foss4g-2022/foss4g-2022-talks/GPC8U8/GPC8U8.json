@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "GPC8U8",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "LERC, an innovative compression algorithm for raster data",
+    "description": "Although in use for about 10 years in various Esri products and services, the LERC (Limited Error Raster Compression) raster compression algorithm has only just recently made its way into the free and open-source GIS scene by its inclusion in GDAL (3.3).\r\n\r\nLERC can perform both lossless and lossy raster data compression. To achieve its impressive compression ratios and speed LERC employs two major basic tricks:\r\n- The raster is processed and compressed in small two-dimensional blocks, taking advantage of spatial autocorrelation (neighboring values usually being more alike than others).\r\n- The raster values are quantized (absolute values are replaced by differences between neighbors) and bitstuffed to minimize the number of bits required to store them, this is especially useful for high bit depth data.\r\n\r\nFor lossy compression LERC will follow a user-configurable maximum error threshold (the \"limited error\" in its name). Want to compress your DEM and allow up to one centimeter of error? No problemo!\r\n\r\nLERC is patented by Esri but thanks to the choice of the permissive Apache License it is freely usable by anyone.\r\n\r\nThe talk will try explain the algorithm on a basic level, understandable by non-experts, and show its performance with some examples.",
+    "start_datetime": "2022-08-24T14:15:00Z",
+    "end_datetime": "2022-08-24T14:45:00Z",
+    "talk:code": "GPC8U8",
+    "talk:guid": "f3132417-b64c-558b-9cc7-760b587757eb",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Limonaia",
+    "talk:room_capacity": 110,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "FCBUEL",
+        "name": "Johannes Kr\u00f6ger",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/FCBUEL/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T14:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/GPC8U8/",
+      "title": "LERC, an innovative compression algorithm for raster data"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/GPC8U8/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/FCBUEL/",
+      "title": "Johannes Kr\u00f6ger"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/GPC8U8/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides-pdf": {
+      "href": "https://talks.osgeo.org/media/foss4g-2022/submissions/GPC8U8/resources/Johannes_Kr%C3%B6ger_WhereGroup_-_LERC_an_innovative_iC0omTX.pdf",
+      "type": "application/pdf",
+      "title": "Slides (PDF)",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "slides-powerpoint": {
+      "href": "https://talks.osgeo.org/media/foss4g-2022/submissions/GPC8U8/resources/Johannes_Kr%C3%B6ger_WhereGroup_-_LERC_an_innovativ_EhP7cyV.pptx",
+      "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "title": "Slides (Powerpoint)",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/5E5cb6qydamviMwHn5C3kQ",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | LERC, an innovative compression algorithm for raster data",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=p3RWzdeJcOc",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | LERC, an innovative compression algorithm for raster data",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

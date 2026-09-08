@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "NDGHHA",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Predicting Greenhouse Damage from Heavy Snowfall in South Korea Using FOSS4G",
+    "description": "We are developing a system to mitigate the risks posed by heavy snowfall.\r\nTo achieve this, we are using remote sensing data from South Korea's radar sensor.\r\nOur backend comprises GDAL, PostGIS and GeoServer.\r\nThe front end uses OpenLayers.\r\nThis system will enable us to predict damage to greenhouses\n\n.",
+    "start_datetime": "2025-11-19T03:20:00Z",
+    "end_datetime": "2025-11-19T03:25:00Z",
+    "talk:code": "NDGHHA",
+    "talk:guid": "ab48decb-7306-51e6-99a6-96fd5aabccc7",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Lightning talk",
+    "talk:type": "Lightning Talk",
+    "talk:language": "en",
+    "talk:room": "WG403",
+    "talk:room_capacity": 386,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "JXGQXJ",
+        "name": "Soonyeon Kim",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/JXGQXJ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-19T03:22:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/NDGHHA/",
+      "title": "Predicting Greenhouse Damage from Heavy Snowfall in South Korea Using FOSS4G"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/NDGHHA/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/JXGQXJ/",
+      "title": "Soonyeon Kim"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/NDGHHA/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=xveJvyKT0xU",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Predicting Greenhouse Damage from Heavy Snowfall in South Korea Using FOSS4G",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

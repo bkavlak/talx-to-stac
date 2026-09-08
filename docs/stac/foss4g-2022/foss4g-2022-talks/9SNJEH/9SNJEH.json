@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "9SNJEH",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Rockfall Quantitative Risk Assessment at a medium-large scale based on FOSS4G tools. An example of applications in the North-Western Alps",
+    "description": "Rockfall risk analysis and mitigation activities are key points in land management in mountain areas and along coastal cliffs, aimed at the protection of population, structures, infrastructures and involved economic activities such as viability, industry and tourism. \r\nRockfall is a complex landslide phenomenon, widespread over large areas and characterised by high variability. As a function of the amount of available data to describe such variability, the risk analysis can be carried out at different levels of detail, i.e. at different reference scales, each one characterised by specific objectives, procedures, and input data (Fell et al, 2008).\r\nAt the detailed scale (> 1: 5000), in order to design risk mitigation works, it is necessary to analyse localized rockfall phenomena through specific methodologies requiring a careful identification of danger scenarios, a statistical description of the parameters, and sophisticated probabilistic calculation tools.\r\nAt the medium-large scale (1: 5000 - 1: 25000), on the contrary, due to the difficulty in finding detailed information over larger slope portions, it is possible to analyse widespread instability sources based on simplified mechanical considerations and several spatial approximations. Such large scale analyses can be used as a management tool for territorial planning and can be easily implemented in GIS software.\r\nThis work presents a medium-large scale Rockfall Quantitative Risk Assessment procedure fully developed within the QGIS environment. The procedure is based on the IMIRILAND methodology (Castelli and Scavia, 2008), which allows to obtain risk maps through integrated and consequential phases and simple raster calculations. The main steps of IMIRILAND methodology are:\r\n\u2022\thazard analysis, aimed at defining, for a given rockfall scenario, the potentially involved area, the intensity of the damaging phenomenon and the temporal probability of occurrence;\r\n\u2022\tidentification of the elements at risk and definition of their value and their exposure with reference to  physical, social, environmental and economic considerations;\r\n\u2022\tanalysis of the vulnerability of the elements at risk, i.e. the degree of loss of the element as a consequence of the impact with the falling block;\r\n\u2022\tcalculation of the risk, combining the hazard with value, exposure and vulnerability of the elements at risk.\r\nThe IMIRILAND QRA procedure was applied to the mountain site of Sorba Valley (VC), North-Western Alps. The site involves an area of about 10 km2 with altitudes ranging from 750 m up to 2035 m a.s.l. The site is prone to rockfall events, which historically involved some hamlets and some sections of the valley main road. However, very little information on such events is available, and no indication can be obtained in terms of rockfall recurrence and involved volumes. Due to this, it was not possible to take into account temporal aspects and relative (spatial) risk maps were produced in this work.\r\nAll the analysis was carried out using open data available as web services and datasets from the Regione Piemonte GeoPortal:\r\n\u2022\tDTM with 5 m x 5 m raster resolution \u2013 GeoPortale Piemonte;\r\n\u2022\tOrthophoto AGEA 2018 \u2013 GeoPortale Piemonte;\r\n\u2022\tPiemonte Land Cover BDTRE (Base Dati Territoriale di Riferimento degli Enti) \u2013 GeoPortale Piemonte;\r\n\u2022\tvehicular mobility TGM (Traffico Giornaliero Medio) \u2013 GeoPortale Piemonte.\r\nThree rockfall design scenarios were identified regarding homogeneous rockfall source areas associated with different design block volumes. Each scenario included more than 3600 source points, extracted through the analysis of the DTM (slope and aspect) and the observation of the orthophoto for the identification of rocky outcrop zones. For each scenario, a quick estimation of a time-independent hazard was performed using the QGIS QPROTO plugin (Castelli et al, 2021). The plugin is based on the Cone Method (Jaboyedoff and Labiouse, 2011) and runs a visibility analysis through the r.viewshed GRASS GIS module, combined with simplified topographic, geomorphological and mechanical considerations. The result of the analysis is a series of raster maps with the distribution of computed values of velocity, energy, and relative spatial hazard. \r\nThe following step of the IMIRILAND procedure is the analysis of the damage, based on the collection of information on the exposed elements. To this aim:\r\n\u2022\tthe elements at risk were classified according to various Land Cover categories from BDTRE, associated with relative hierarchical values. Physical and social values were taken into account for each element. Physical value is mainly linked with the type of element and with the reconstruction costs while social value is linked to the presence of persons and the social utility of the asset;\r\n\u2022\tthe physical exposure of the elements at risk was defined for each hazard scenario with reference to the computed runout area. The social exposure was defined taking into account the time spent by people inside buildings or on the roads. \r\n\u2022\tthe physical vulnerability of the elements at risk was defined on the basis of the intensity of the phenomenon in terms of rockfall energy and the type of element. The social vulnerability is the same as the physical one inside buildings and is 100% outside buildings. \r\nPhysical and social damage maps were then obtained for each hazard scenario through the product of the value, the exposure and the vulnerability of the elements located in the involved area. Due to the lack of information on the temporal probability of occurrence of the scenarios, damage maps correspond to relative, time-independent, risk maps. \r\nThe results show that the highest risk is concentrated in the inhabited areas and some portions of the valley road, according to the few historical information available on the site. \r\nThe QPROTO plugin is available at the GIT repository of FAUNALIA (gitlab.com/faunalia/QPROTO) and can be easily used by professionals, public administrators, managers of roads, railways or infrastructures for land planning purposes or for preliminary analyses aimed at defining the most critical zone of a wide area, where resources and more in-depth analyses can be focused for mitigation purposes.",
+    "start_datetime": "2022-08-25T15:45:00Z",
+    "end_datetime": "2022-08-25T16:15:00Z",
+    "talk:code": "9SNJEH",
+    "talk:guid": "c4327df1-d8a6-557e-9a9a-72425c947cf5",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Onice",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "V9X98A",
+        "name": "Marta Castelli",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/V9X98A/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T16:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/9SNJEH/",
+      "title": "Rockfall Quantitative Risk Assessment at a medium-large scale based on FOSS4G tools. An example of applications in the North-Western Alps"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/9SNJEH/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/V9X98A/",
+      "title": "Marta Castelli"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/9SNJEH/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/6PYAPV8oUc3H45sYwh2wS5",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Rockfall Quantitative Risk Assessment at a medium-large scale based on FOSS4G tools.\u2026",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=OZQUpPVy740",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Rockfall Quantitative Risk Assessment at a medium-large scale based on FOSS4G tools.\u2026",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

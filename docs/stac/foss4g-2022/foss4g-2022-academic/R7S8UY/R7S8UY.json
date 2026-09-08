@@ -1,0 +1,103 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "R7S8UY",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Serving Geospatial Data using Modern and Legacy Standards: a Case Study from the Urban Health Domain",
+    "description": "Urban planning and design play an important role in amplifying or diminishing built environmental threats to health promotion and disease prevention (Keedwell 2017; Hackman, et al. 2019). However, there is still a lack of good evidence and objective measures on how environmental aspects impact individual behavior. The eMOTIONAL Cities project (eMOTIONAL Cities - Mapping the cities through the senses of those who make them 2021) sets out to understand how the natural and built environment can shape the feelings and emotions of those who experience it. It does so with a cross-disciplinary approach which includes urban planners, doctors, psychologists, neuroscientists and engineers. \r\nAt the core of this research project, lies a Spatial Data Infrastructure (SDI) which assembles disparate datasets that characterise the emotional landscape and built environment, in different cities across Europe and the US. The SDI is a key tool, not only to make the research data available within the project consortium, but also to allow cross-fertilisation with other ongoing projects from the Urban Health Cluster and later on, to reach a wider public audience.\r\n\r\nThe notion of SDIs emerged more than 20 years ago and has been constantly evolving, in response to both technological and organisational developments. Traditionally, SDIs adopt the OGC W*s service interfaces (e.g.: WMS, WFS, WCS), which are based on SOAP, the Simple Object Access Protocol. However, in recent times, we have seen the rise of new architectural approaches, which can be characterised by their data-centrism (Simoes and Cerciello 2021). Web-based APIs have numerous advantages, which speak for their efficiency and simplicity. They provide a simple approach to data processing and management functionalities, offer different encodings of the payload (e.g.: JSON, HTML, JSON-LD), can easily be integrated into different tools, and can facilitate the discovery of data through mainstream search engines such as Google and Bing (Kotsev et al. 2020). These APIs often follow a RESTful architecture, which simplifies its usage, while minimising the bandwidth usage. Moreover, the OpenAPI specification (OpenAPI Initiative 2011) allows to document APIs in a vendor-independent, portable and open manner, which provides an interactive testing client within the API documentation.\r\nOGC has embraced this new approach in its new family of standards called OGC APIs (OGC 2020a). Although still under active development, it already produced several approved standards: the \u2018OGC API - Features\u2019\u2019 (OGC 2022b, the \u2018OGC API - EDR\u2019 (OGC 2022c), the \u2018OGC API Common\u2019 (OGC 2022d) and the \u2018OGC API - Processes\u2019 (OGC 2022e) which provide standardised APIs for ensuring modern access to spatial data and processes using those data.\r\nThere are many similarities in the process of designing and implementing open source and open standards. OSGeo encourages the use of open standards, like those from OGC and there is even a Memorandum of Understanding between the two organisations (OSGeo 2012). In practice, many long-standing OSGeo projects implement OGC standards and they often contribute to the standards development (e.g.: GDAL, Geoserver, QGIS, OpenLayers, Leaflet). However, in the majority of cases they still implement the legacy W*s standards, rather than the new OGC APIs.\r\n\r\nIn the eMOTIONAL Cities project we have set out to create an SDI based on OGC APIs, but realised that we needed to support some legacy standards, because an OGC API equivalent was not widely supported yet. This has led us to create two stacks: one OGC APIs (e.g.: modern) and another one using W*s services (e.g.: legacy). Both stacks rely on FOSS/OSGeo software, and whenever relevant we have contributed to some of those projects. The modern stack includes Elasticsearch and Kibana (Elastic), which add extra capabilities in terms of searching, analytics and visualisation.\r\nFor the sake of reproducibility, all software components were virtualized into docker (Wikipedia 2022) containers and they are orchestrated using docker-compose. The results are published in the eMOTIONAL Cities public github repository (eMOTIONAL Cities H2020 Project 2021).\r\n\r\nDespite its numerous advantages, we still see a lack of adoption of the OGC APIs within most SDIs. In part this could be due to the standards not being well known, but it could also be due to a lack of knowledge about which implementations are available out there, specially as FOSS. In this paper we would like to share our modern SDI architecture, and the reasons for choosing pygeoapi (Kralidis 2019) for publishing data as OGC API Features, Vector Tiles and Records. Although the standards we selected target the Urban Health use case, we believe they are generic enough to be useful for sharing data in other contexts (e.g.: climate change, cross-border datasets).\r\nWe are confident about a transition to OGC APIs, but we are also conscious that this may take time, and for a period of time many solutions will have to offer both modern and legacy standards. \r\n\r\nPlease find the complete list of references on this page: https://github.com/emotional-cities/foss4g_ref/blob/master/references.md",
+    "start_datetime": "2022-08-25T07:00:00Z",
+    "end_datetime": "2022-08-25T07:30:00Z",
+    "talk:code": "R7S8UY",
+    "talk:guid": "e2a037bb-2b0a-5b5f-9060-4e5a10ad57cc",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room Hall 3A",
+    "talk:room_capacity": 85,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RU9BR9",
+        "name": "Antonio Cerciello",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/RU9BR9/"
+      },
+      {
+        "code": "FNYKAD",
+        "name": "Joana Simoes",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/FNYKAD/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T07:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/R7S8UY/",
+      "title": "Serving Geospatial Data using Modern and Legacy Standards: a Case Study from the Urban Health Domain"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/R7S8UY/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/RU9BR9/",
+      "title": "Antonio Cerciello"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/FNYKAD/",
+      "title": "Joana Simoes"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/emotional-cities/foss4g_ref/blob/master/references.md",
+      "title": "github.com/emotional-cities/foss4g_ref/blob/master/references.md"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/R7S8UY/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

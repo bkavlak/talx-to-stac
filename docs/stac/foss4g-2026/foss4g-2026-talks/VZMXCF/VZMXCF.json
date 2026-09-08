@@ -1,0 +1,104 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "VZMXCF",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Extending GeoNode as a Foundation for Research Data Management Infrastructures in Agricultural Research",
+    "description": "The increasing volume and heterogeneity of digital research data have intensified the need for integrated research data management (RDM) infrastructures that support the full lifecycle of data stewardship across scientific domains. In agricultural and environmental sciences, datasets commonly combine geospatial information, experimental measurements, tabular records, and model outputs, demanding systems that align with the FAIR principles\u2014ensuring data are findable, accessible, interoperable, and reusable. While many research repositories provide strong metadata and archival capabilities, they often lack interactive exploration tools, whereas geospatial platforms, though rich in visualization features, are typically not designed for comprehensive RDM workflows. This disconnect hinders data reuse, as users cannot assess dataset content, structure, or spatial context without downloading data or using specialized software. To bridge this gap, this work presents the adaptation of GeoNode as a unified RDM infrastructure that integrates robust repository functionalities\u2014such as persistent identifiers, extended metadata models, and structured publication workflows\u2014with advanced web-based visualization and interactive exploration capabilities. By enabling users to inspect both geospatial and non-geospatial datasets directly in the browser, the platform facilitates early understanding of data context and quality, significantly improving discoverability and reusability. This approach demonstrates how GeoNode can be extended beyond its traditional role to serve as a scalable, FAIR-compliant foundation for managing diverse research data in agricultural and environmental sciences.\r\nThe presented platform has been developed at the Leibniz Centre for Agricultural Landscape Research to operate the BonaRes Repository, a research data repository supporting the German agricultural research community. The repository was originally established within the BonaRes research initiative (meaning soil as a sustainable resource) and has since become part of the national research data management initiative FairAgro, which aims to build a FAIR-compliant data infrastructure for agricultural research in Germany. The system currently hosts more than one thousand datasets and is accessible to researchers across the German agricultural research community.\r\nOne objective of this work was to investigate how a geospatial data platform can be adapted and extended to support the requirements of a domain-specific research data management infrastructure. Particular attention is given to the architectural integration of repository workflows, metadata interoperability, data validation mechanisms, and scalable deployment infrastructure.The objective of this work is to investigate how an open-source geospatial data platform can be adapted and extended to support the requirements of a domain-specific research data management infrastructure. This work should motivate others to follow our path. \r\nA central requirement for research data infrastructures is the support of interoperable and domain-relevant metadata models. The BonaRes Repository integrates multiple metadata standards, including the DataCite Metadata Schema, together with the ARC metadata model developed within the NFDI4Plants initiative to represent annotated research context. Further requirements are addressed through the BonaRes Metadata Schema, an extended INSPIRE-oriented metadata schema for soil and agricultural research. \r\nSupporting efficient data ingestion while ensuring high data quality remains a critical challenge for research data repositories. To address this, we developed an open-source upload tool (https://github.com/zalf-rdm/upload-tool)  that interfaces with the GeoNode backend via its REST API, offering researchers a structured, guided workflow for dataset submission. The tool enables users to prepare datasets locally, validate data structures and metadata prior to upload, and publish datasets through a transparent and reproducible process. A key enhancement to the workflow is the integration of a data steward review process, which allows data stewards to inspect uploaded datasets and request revisions to metadata or data structure to improve quality, consistency, and FAIRness before final publication. This collaborative feedback loop strengthens data governance and ensures adherence to domain-specific standards. Implementing this workflow required significant extensions to the GeoNode 4.x REST API to support programmatic dataset management, extended metadata handling, and multi-step publication states, including draft, review, and public release stages. To further enhance interoperability and automation, we developed geonodectl (https://github.com/GeoNodeUserGroup-DE/geonodectl), a dedicated Python client and commandline client for the GeoNode API. Geonodectl provides a clean, structured interface for managing datasets, metadata, and publication workflows, enabling seamless integration with external tools and automated ingestion systems.\r\nAdditional extensions in GeoNode enhance support for research data workflows. Native non-geospatial dataset support\u2014allows tabular data (e.g., crop trials, sensor records) to be managed alongside spatial datasets. These datasets are visualized as interactive tables and grouped into a Tabular Collection, a tabbed interface enabling seamless exploration of related data. The metadata model was extended for domain-specific fields, and the publication workflow now includes multi-stage curation with review and embargo. ORCID integration ensures persistent researcher attribution. To improve usability for non-GIS experts, the web UI was streamlined by hiding advanced features and enhancing visual clarity, making the platform more accessible to researchers without geospatial expertise. These improvements foster broader adoption across agricultural and environmental research.\r\nReliable and scalable operation of the research data repository is essential for sustained use in research environments. To meet this requirement, we adopted a Kubernetes-based deployment architecture using the geonode-k8s (https://github.com/GeoNodeUserGroup-DE/geonode-k8s) Helm chart, a production-ready, open-source deployment solution developed and maintained by the GeoNodeUserGroup-DE. This Helm chart provides a fully automated, declarative, and reproducible way to deploy GeoNode on Kubernetes clusters. By leveraging Kubernetes, the infrastructure can dynamically scale based on user demand, ensuring consistent performance during peak usage, shown in FoSS4g 2024 (Performance Benchmarking for Resource Allocation Optimization in GeoNode Ecosystems on Kubernetes Clouds). This approach not only enhances system reliability and maintainability but also enables deployment across diverse environments\u2014from local development to cloud-based research infrastructures. \r\nThe presented work demonstrates that GeoNode can serve as a foundation for domain-specific research data management infrastructures when complemented by targeted architectural extensions. By combining repository workflows with interactive geospatial exploration capabilities, the platform enables researchers to both publish and explore datasets  within a unified environment.This approach supports improved dataset discoverability and practical data reuse, while the architectural patterns and open-source components developed in this project provide a reference for other institutions seeking to implement interoperable research data infrastructures based on free and open-source geospatial technologies.",
+    "start_datetime": "2026-09-02T04:00:00Z",
+    "end_datetime": "2026-09-02T04:30:00Z",
+    "talk:code": "VZMXCF",
+    "talk:guid": "bbb00a54-a065-5b33-b8dd-3cb4b2c53717",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos1",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "VN39PS",
+        "name": "Marcel Wallschl\u00e4ger",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/VN39PS/"
+      },
+      {
+        "code": "RBYPCQ",
+        "name": "Igo Silva de Almeida",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/RBYPCQ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T04:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/VZMXCF/",
+      "title": "Extending GeoNode as a Foundation for Research Data Management Infrastructures in Agricultural Research"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/VZMXCF/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/VN39PS/",
+      "title": "Marcel Wallschl\u00e4ger"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/RBYPCQ/",
+      "title": "Igo Silva de Almeida"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.zalf.de/de/ueber_uns/mitarbeiter/Seiten/silva-de-almeida_i.aspx",
+      "title": "www.zalf.de/de/ueber_uns/mitarbeiter/Seiten/silva-de-almeida_i.aspx"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/VZMXCF/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

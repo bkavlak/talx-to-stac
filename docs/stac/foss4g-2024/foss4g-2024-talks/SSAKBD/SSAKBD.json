@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "SSAKBD",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Modern Geospatial Data Science in the Cloud with Nebari",
+    "description": "The modern Python geospatial stack encompasses several tools and libraries that allow scientists and developers to write more efficient and scalable data science workflows, from data access and preparation, to analysis and visualization. It provides a great ecosystem for reading and writing cloud-optimized and chunked data formats, accessing data catalogs, handling labeled N-dimensional arrays, parallel and distributed computing, statistical analysis, machine learning, and interactive computing and plotting.\r\n\r\nAs data scientists increasingly work in teams and tackle bigger and more complex problems, there is a growing need for collaborative platforms that can support sophisticated workflows and large-scale data processing. However, platforms for effective collaboration still have significant challenges, including deployment, configuration, graceful scaling, and environment and dependency management. Addressing these challenges is not trivial and it often requires some DevOps expertise.\r\n\r\nIn this talk, we\u2019ll introduce Nebari, a cloud-based open source data science platform built on top of Kubernetes, Dask and the Jupyter ecosystem. Nebari enables organizations to quickly deploy a collaborative platform on any of the major cloud providers. Once deployed, teams can easily access single-user Jupyter Notebook and VS Code servers from their web browsers and start writing and running reproducible and scalable geospatial data science workflows. Integrated with conda-store and Dask, it provides users not only the possibility to build, share and access conda environments from their servers, but also to launch short-lived clusters to handle their compute-intensive tasks.\r\n\r\nWe\u2019ll demonstrate how Nebari can be leveraged to develop compute and data intensive applications in the cloud using packages from the modern Python geospatial stack. By the end, we hope to equip organizations with the tools and knowledge to promote better and more effective collaboration in geospatial data science. Organizations can choose to adopt Nebari as an out-of-the box platform for their teams, or use it as a blueprint for developing a custom platform built on top of open source libraries.",
+    "start_datetime": "2024-12-05T19:00:00Z",
+    "end_datetime": "2024-12-05T19:30:00Z",
+    "talk:code": "SSAKBD",
+    "talk:guid": "6d07727e-9365-5fd3-bb7c-7955128a5136",
+    "talk:event": "foss4g-2024",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room II",
+    "talk:room_capacity": 200,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "ZLKXHV",
+        "name": "Marcelo Villa",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/ZLKXHV/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-05T19:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/SSAKBD/",
+      "title": "Modern Geospatial Data Science in the Cloud with Nebari"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/SSAKBD/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/ZLKXHV/",
+      "title": "Marcelo Villa"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/SSAKBD/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024/submissions/SSAKBD/resources/FOSS4G_2024_-_Modern_Geospatial_Data_Science_in_6hgp05X.pdf",
+      "type": "application/pdf",
+      "title": "Slides",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/4uUDjMsiGQUyQtXyP6ziZQ",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | Modern Geospatial Data Science in the Cloud with Nebari",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=jGpKGT-v-Q0",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | Modern Geospatial Data Science in the Cloud with Nebari",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

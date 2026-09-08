@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "GZACL9",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "10 years of open-source software in emergency management: the case of the European Flood Awareness Service",
+    "description": "The European Flood Awareness System and the Global Flood Awareness System (EFAS and GloFAS), are the two Early Warning Service for floods part of the Copernicus Emergency Management Service (CEMS), operated by the EU Joint Research Centre (JRC). EFAS and GloFAS aims to complement national and regional service by providing medium-range flood forecasts and hydrological outlooks for large, transboundary rivers. Data and products are accessible to eligible users through the Climate Data Store and dedicated web interfaces. ECMWF, having the role of the computational centre within CEMS, is responsible for running the forecasts and the post-processing, on top of co-developing and hosting the EFAS and GloFAS information systems.\r\n\r\nThese two information systems consist on back-end/front-end web services based on OGC standards and open-source software. As it is often the case, a web-based mapviewer allows to display different layers, produced by a WMS back-end. These layers are the graphical representation of the output of the hydrological models and meteorological observations, like flood probability, soil moisture, return period, observed precipitation etc. For most layers a new forecast is produced every 12 hours for EFAS and every 24 hours for GloFAS.\r\n\r\nUnlike many similar services, however, the aim of EFAS and GloFAS is not only to offer the latest forecasts or the latest observations but also to browse through data from previous days, so that older forecasts can be compared with actual observed events. This inherently means supporting the time dimension within the WMS standard, and managing large quantity of data that accumulates every day. In the case of EFAS, for example, an additional 1.5 Gb of data is produced twice a day.\r\n\r\nIt also means handling the inevitable changes in data formats and structures that arise as the service grows and new features are added, without breaking backward compatibility. New layers are added, old layers are removed, changes in the geographical domain or the projection for a certain layer must be supported from a certain date onward, etc. Not to mention increasing the number of forecast cycles from one per day to two or more.\r\n\r\nTo make matters worse, data access must be restricted on both front-end and back-end based on a matrix of user privileges, requested product and requested date. For example some layers are offered to all users with no time restrictions, while others are restricted to some users for the latest 30 days, and freely accessible to all users for dates older than 30 days ago.\r\n\r\nIn this talk we describe the challenges of developing and operating an authentication-aware web service heavily based on large geospatial datasets with a strong diachronic component.",
+    "start_datetime": "2022-08-25T15:45:00Z",
+    "end_datetime": "2022-08-25T16:15:00Z",
+    "talk:code": "GZACL9",
+    "talk:guid": "a0ac3676-33d1-5402-9c26-5a8fb1c8281c",
+    "talk:event": "foss4g-2022",
+    "talk:track": "A European approach to geospatial open source",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Auditorium",
+    "talk:room_capacity": 1000,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "QR38XY",
+        "name": "Dimitar Tasev",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/QR38XY/"
+      },
+      {
+        "code": "8ZU8N7",
+        "name": "Paolo Battino",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/8ZU8N7/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T16:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/GZACL9/",
+      "title": "10 years of open-source software in emergency management: the case of the European Flood Awareness Service"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/GZACL9/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/QR38XY/",
+      "title": "Dimitar Tasev"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/8ZU8N7/",
+      "title": "Paolo Battino"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/GZACL9/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/1QTnK6enytUEmn7CbQrWj1",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | 10 years of open-source software in emergency management: the case of the European\u2026",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=b_-sOkvWO3Y",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | 10 years of open-source software in emergency management: the case of the European\u2026",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

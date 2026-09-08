@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "KGTFHY",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "GeoTools Update",
+    "description": "Quick check in with the GeoTools project!\n\nGeoTools is the backbone of the Java Geospatial community, implementing a lot of the GIS functionality behind GeoServer, GeoNetwork and more.\r\n\r\nCheck in with this project as we update to Java 17, a new image processing engine, and general map-happy-ness.",
+    "start_datetime": "2025-11-20T20:35:00Z",
+    "end_datetime": "2025-11-20T20:40:00Z",
+    "talk:code": "KGTFHY",
+    "talk:guid": "7e26872e-7dea-5666-86fc-2a16dac37d6e",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Lightning talk",
+    "talk:type": "Lightning Talk",
+    "talk:language": "en",
+    "talk:room": "WG403",
+    "talk:room_capacity": 386,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "BQBVFC",
+        "name": "Jody Garnett",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/BQBVFC/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-20T20:37:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/KGTFHY/",
+      "title": "GeoTools Update"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/KGTFHY/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/BQBVFC/",
+      "title": "Jody Garnett"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/KGTFHY/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=42Y-OkB0940",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | GeoTools Update",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "MSYSPT",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Making OGC IndoorGML 2.0 Web-Ready: API \u2013 IndoorFeatures with IndoorJSON",
+    "description": "As smart buildings, campuses, airports, and shopping malls grow increasingly complex, the need for precise and reliable indoor location-based services has become critical. However, unlike outdoor navigation\u2014which benefits from decades of investment in mature infrastructure such as GPS, OpenStreetMap, and a rich ecosystem of standardized APIs\u2014the indoor spatial data landscape remains fragmented. Addressing this gap requires not only robust data standards capable of representing indoor environments but also practical service interfaces that enable those standards to be easily used in real-world applications.\r\n\r\nOGC IndoorGML[1] is the international standard that provides the formal foundation for indoor spatial information modeling. It represents indoor space using two complementary layers. The primal space layer encodes the physical geometry of indoor environments through cell spaces (e.g., rooms, corridors, and open areas) and cell boundaries (e.g., walls and virtual thresholds). In parallel, the dual space layer represents navigable connectivity as a graph, with nodes corresponding to navigable cells and edges representing their connectivity. This dual representation enables both geometric description and topological reasoning for indoor navigation. The latest IndoorGML 2.0 specification further extends this model by introducing support for multi-layered space representations. This capability allows multiple thematic perspectives\u2014such as topographic layout, furniture configuration, accessibility constraints, or emergency routes\u2014to coexist within a single building model. As a result, IndoorGML 2.0 provides a flexible semantic framework capable of supporting diverse indoor service scenarios.\r\n\r\nDespite the richness of the IndoorGML data model, most prior work has focused on the construction phase of the indoor spatial data lifecycle, such as developing data generators, editors, and conversion tools. While these efforts have established essential foundations for creating IndoorGML datasets, comparatively less attention has been given to how such data can be efficiently served, queried, validated, and consumed by downstream applications. Consequently, a persistent gap remains between the semantic expressiveness of IndoorGML and its practical accessibility in production systems.\r\n\r\nA key challenge in bridging this gap lies in the encoding and delivery of IndoorGML data in web-based environments. IndoorGML was originally designed with an XML-based encoding schema that provides strict schema validation and strong standards compliance. However, in practice, XML-based workflows often introduce considerable operational overhead. XML requires constructing the full document tree before accessing individual elements, involves relatively high parsing costs, and typically depends on domain-specific libraries that complicate integration into modern software stacks. In contrast, JSON has become the (de-facto) standard data exchange format for web-based systems due to its lightweight structure and direct compatibility with modern programming environments. JSON-based data structures map naturally to objects in most programming languages, support incremental parsing, and integrate seamlessly with web technologies such as JavaScript frameworks, mobile platforms, and contemporary GIS clients.\r\n\r\nTo address this need, IndoorJSON[2] has been proposed as a JSON-based encoding schema for the IndoorGML 2.0 conceptual model and is currently being standardized by the OGC. IndoorJSON preserves the complete semantic structure of IndoorGML\u2014including CellSpaces, CellBoundaries, Nodes, Edges, multi-layered spatial models, and dual-space connectivity graphs\u2014while providing a lightweight and web-friendly representation suitable for modern development environments.\r\n\r\nBuilding upon this encoding approach, API \u2013 IndoorFeatures[3] is designed to operationalize IndoorGML-based data in web services. Rather than relying on customized or proprietary encodings, the API directly adopts the upcoming standardized IndoorJSON schema, ensuring interoperability and long-term compatibility within the evolving OGC ecosystem. In this sense, the implementation also serves as a practical proof of concept demonstrating that IndoorJSON-based indoor spatial data exchange can be deployed reliably in operational systems and can fully support real-world navigation and querying tasks.\r\n\r\nAPI \u2013 IndoorFeatures is implemented as a RESTful service that exposes IndoorGML 2.0 data encoded as IndoorJSON through HTTP endpoints. The API allows developers to access and utilize indoor spatial data without requiring detailed knowledge of the underlying IndoorGML data structures. The implementation is built on extending pygeoapi[4], a Python-based framework that conforms to OGC API standards, and extends it with indoor-specific functionality while maintaining compatibility with the OGC API \u2013 Features[5]. In the system architecture, IndoorGML geometries and topological relationships are stored in PostgreSQL/PostGIS, enabling efficient spatial indexing and complex SQL-based queries. Indoor routing operations are supported through pgRouting, which operates directly on the dual-space connectivity graph stored in the database. To maintain data consistency, all write operations are validated against IndoorGML 2.0 requirements, ensuring that the stored data preserves the semantic integrity of the standard. Additionally, a bundled web application provides interactive visualization, geometric querying, and routing capabilities directly within a browser environment.\r\n\r\nThis study presents the design requirements and implementation considerations encountered during the development of API \u2013 IndoorFeatures and evaluates its effectiveness through practical use cases using real building datasets. By extending the indoor spatial data lifecycle beyond data construction to include serving, validation, sharing, and consumption, this work provides a reusable, extensible open-source platform to support the development of next-generation indoor location-based services.\r\n\r\nReferences:\r\n[1] OGC IndoorGML 2.0 Part1 \u2013 Conceptual Model, https://docs.ogc.org/is/22-045r5/22-045r5.html \r\n[2] IndoorJSON Schema and Sample Data, https://github.com/opengeospatial/IndoorGML-SWG/tree/master/IndoorGML2/IndoorGML2_metanorma/Part%20II/JSON \r\n[3] API \u2013 IndoorFeatures, https://github.com/STEMLab/API_IndoorFeatures \r\n[4] pygeoapi, https://pygeoapi.io/ \r\n[5] OGC API - Features - Part 1: Core corrigendum, https://docs.ogc.org/is/17-069r4/17-069r4.html",
+    "start_datetime": "2026-09-02T08:00:00Z",
+    "end_datetime": "2026-09-02T08:30:00Z",
+    "talk:code": "MSYSPT",
+    "talk:guid": "254707f0-b093-5117-b554-d34ab1ff7bb2",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos1",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "XRJJFP",
+        "name": "Dong Gwon",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/XRJJFP/"
+      },
+      {
+        "code": "ARSKMD",
+        "name": "Seongmin Choi",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/ARSKMD/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T08:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/MSYSPT/",
+      "title": "Making OGC IndoorGML 2.0 Web-Ready: API \u2013 IndoorFeatures with IndoorJSON"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/MSYSPT/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/XRJJFP/",
+      "title": "Dong Gwon"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/ARSKMD/",
+      "title": "Seongmin Choi"
+    },
+    {
+      "rel": "related",
+      "href": "https://docs.ogc.org/is/22-045r5/22-045r5.html",
+      "title": "docs.ogc.org/is/22-045r5/22-045r5.html"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/opengeospatial/IndoorGML-SWG/tree/master/IndoorGML2/IndoorGML2_metanorma/Part%20II/JSON",
+      "title": "github.com/opengeospatial/IndoorGML-SWG/tree/master/IndoorGML2/IndoorGML2_metanorma/Part%20II/JSON"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/STEMLab/API_IndoorFeatures",
+      "title": "github.com/STEMLab/API_IndoorFeatures"
+    },
+    {
+      "rel": "related",
+      "href": "https://pygeoapi.io/",
+      "title": "pygeoapi.io"
+    },
+    {
+      "rel": "related",
+      "href": "https://docs.ogc.org/is/17-069r4/17-069r4.html",
+      "title": "docs.ogc.org/is/17-069r4/17-069r4.html"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/MSYSPT/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

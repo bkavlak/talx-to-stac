@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "SA7BNH",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Turning Statistics into Maps with UNICEF\u2019s Open Source Geospatial Solutions",
+    "description": "Official statistics lack impact without spatial context. This talk presents UNICEF\u2019s open-source stack - GeoRepo, GeoSight, and SDMXConnector - enabling seamless integration of SDMX data with harmonized boundaries. We address key challenges and show how to transform complex indicators into map-ready insights for better decision-making and GeoAI readiness.\n\nOfficial statistics are critical for decision-making - but without a spatial dimension, their full value often remains untapped. Maps transform tabular indicators into actionable insights, revealing geographic inequalities, trends, and hotspots that are otherwise difficult to detect. Yet, integrating statistical data - especially from SDMX (Statistical Data and Metadata eXchange format) into geospatial workflows remains complex and inaccessible for many users.\r\nThis talk presents UNICEF\u2019s open-source approach to bridging that gap through a modular geospatial stack: GeoRepo, GeoSight, and a newly developed SDMX Connector. Together, these tools enable seamless integration of official statistics with harmonized administrative boundaries, making it easier to explore, visualize, and analyze subnational, multi-indicator time series data.\r\nWe begin by outlining the key challenges of geo-enabling SDMX data: matching statistical indicators with the correct administrative boundaries, handling evolving geographies over time, transforming multidimensional datasets into GIS-ready formats, and managing time-series complexity. We argue that sharing reference area codes alone is insufficient - true interoperability requires access to consistent, versioned geometries.\r\nNext, we introduce GeoRepo, UNICEF\u2019s open-source repository of global administrative boundaries, offering versioning, smart matching, and scalable APIs, and GeoSight, an open-source platform designed for visualizing statistical indicators alongside contextual geospatial layers. Building on this foundation, we showcase the SDMX Connector - developed in collaboration with Harvard Tech for Social Good - which allows users to directly browse, filter, preview, and import data from an SDMX registry into a geospatial environment.\r\nBy lowering technical barriers, this ecosystem empowers analysts, policymakers, and developers to move from static tables to dynamic, map-based insights. It also lays the groundwork for GeoAI applications by making statistical data spatially explicit and machine-readable.",
+    "start_datetime": "2026-09-02T07:00:00Z",
+    "end_datetime": "2026-09-02T07:30:00Z",
+    "talk:code": "SA7BNH",
+    "talk:guid": "54a13ef1-305e-533c-b2f6-653b611c9056",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room4",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "E3KVLE",
+        "name": "Jan Burdziej",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/E3KVLE/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T07:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/SA7BNH/",
+      "title": "Turning Statistics into Maps with UNICEF\u2019s Open Source Geospatial Solutions"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/SA7BNH/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/E3KVLE/",
+      "title": "Jan Burdziej"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/SA7BNH/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

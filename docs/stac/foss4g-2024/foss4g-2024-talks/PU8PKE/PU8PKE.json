@@ -1,0 +1,114 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "PU8PKE",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "State of fAIr: Free and Open Source AI-assisted Mapping for Humanitarian",
+    "description": "fAIr is an open AI-assisted mapping service developed by the Humanitarian OpenStreetMap Team (HOT) that aims to improve the efficiency and accuracy of mapping efforts for humanitarian purposes. The service uses AI models, specifically computer vision techniques, to detect objects such as buildings, roads, waterways, and trees from satellite and UAV imagery. However currently focused on buildings only . \r\n\r\nThe name fAIr is derived from the following terms:\r\n\r\n    f: for freedom and free and open-source software\r\n    AI: for Artificial Intelligence\r\n    r: for resilience and our responsibility for our communities and the role we play within humanitarian mapping\r\n\r\nIn this talk we will talk about the recent developments in fAIr , Our experiment with Yolo model and RAMP model for community mapping and couple of test results . fAIr recently made public version deployment : https://fair.hotosm.org/",
+    "start_datetime": "2024-12-05T17:30:00Z",
+    "end_datetime": "2024-12-05T18:00:00Z",
+    "talk:code": "PU8PKE",
+    "talk:guid": "32252aab-3afa-5e05-a37e-90b3cc6d1644",
+    "talk:event": "foss4g-2024",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room IV",
+    "talk:room_capacity": 100,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "AQJKMM",
+        "name": "Emilio Mariscal",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/AQJKMM/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-05T17:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/PU8PKE/",
+      "title": "State of fAIr: Free and Open Source AI-assisted Mapping for Humanitarian"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/PU8PKE/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/AQJKMM/",
+      "title": "Emilio Mariscal"
+    },
+    {
+      "rel": "related",
+      "href": "https://fair.hotosm.org/",
+      "title": "fair.hotosm.org"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/PU8PKE/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/eEytDT9KdYnWCq9d4SJY6w",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | State of fAIr: Free and Open Source AI-assisted Mapping for Humanitarian",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=iiQRHk0Ry_E",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | State of fAIr: Free and Open Source AI-assisted Mapping for Humanitarian",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

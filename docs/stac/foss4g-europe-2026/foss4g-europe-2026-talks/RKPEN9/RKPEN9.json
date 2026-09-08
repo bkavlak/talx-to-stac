@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "RKPEN9",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "Automating the Subdivision Control Check: An Open-Source GIS and LLM Pipeline for Cadastral Case Preparation",
+    "description": "The subdivision control check (udstykningskontrol, UKS) is the process of verifying that a land subdivision complies with planning and land-use regulations. In Denmark, chartered land surveyors are legally obligated to complete this check for every cadastral case submitted to the Danish Geodata Agency (Geodatastyrelsen). The UKS requires the surveyor to manually gather data from 11 different legal themes, ranging from protected nature areas and coastal protection lines to soil contamination, road building lines, and local plans (resulting in querying 17 different geospatial data themes), before verifying whether a proposed cadastral change is legally permissible. Each theme is governed by its own sector legislation, and the surveyor must cross-reference open government datasets from multiple national portals including data themes such as nature, environmental, planning, cadastral, coastal zones, heritage sites, agricultural etc. In current practice this process is time-consuming, fragmented, and prone to human error [Hosseini et al., 2025b], yet it remains a mandatory prerequisite before any cadastral case can be registered.\r\n\r\nResearch Question\r\nThis paper presents a web-based, AI-enabled PostGIS engine that automates the UKS workflow. The system accepts WFS links, performs dynamic geospatial analysis, and structures its output specifically to enable a generative AI model to interpret the geographic properties of each GIS analysis. The central research question is: how can AI be utilised as a tool to streamline the subdivision control check, and to what degree can a locally hosted, open-source LLM produce legally grounded, evidence-based answers when provided with deterministic geospatial results as context? Notably, while the cadastral use case drives the design, the core contribution is a generalisable architecture: the combination of WFS ingestion, PostGIS analysis, and AI interpretation can be applied to any regulatory compliance workflow where spatial evidence must be matched against legal requirements.\r\n\r\nSystem Architecture and Open-Source Stack\r\nThe system is built entirely on free and open-source components. The web application is developed in Next.js, which exposes the APIs that connect the user interface to the geospatial and AI backend. The data layer is managed through Supabase, which provides three databases built on PostgreSQL: a primary database storing case information and parcel geometries; a results database holding PostGIS outputs in structured JSON; a vector database for the CAG embeddings.\r\nAt the analytical core is PostGIS, which performs all 17 geospatial analyses deterministically against the parcel geometry retrieved from the Danish cadastral register. The system accepts WFS endpoints, reads GetFeature responses, and constructs a bounding box envelope around the selected parcel. This envelope is used to query each WFS service, and the returned features are parsed and stored. Spatial operations include within-polygon tests, line intersections and distance calculations. The outputs are structured to serve as precise inputs for the AI interpretation phase, since the quality of the LLM response is only as good as the spatial evidence it receives.\r\nFor natural language interpretation, the system uses Ollama, an open-source platform for running LLMs locally, serving the Meta Llama 3.1 8B model [Ollama, u.d.a]. The relevant legal texts are embedded using the Nomic-embed-text model and stored in the vector database. This constitutes a Cache-Augmented Generation (CAG) architecture [Chan et al., 2025]: rather than expecting the model to recall Danish land law from its training data, the system caches the legislation and injects it as context at inference time. This constrains the model to a closed legal knowledge space, which reduces the risk of hallucination.\r\n\r\nPipeline Phases and Case Demonstration\r\nThe processing pipeline consists of four phases. Phase 1 accepts a parcel identifier via the web interface, retrieves the cadastral geometry, and initialises the case. Phase 2 runs the orchestrator, which queries all WFS endpoints in parallel and populates the database. Phase 3 executes the PostGIS analyses, producing a structured result record per theme with a preliminary decision flag, spatial evidence, and an agent log. Phase 4 passes these results alongside the embedded legislative context to the LLM, which produces a completed draft of the UKS form. The paper includes a case-oriented walkthrough demonstrating the system on a real cadastral parcel, showing the analysis outputs for each of the 17 themes and the corresponding AI-generated interpretations. Crucially, the geospatial results are themselves meaningful and verifiable independently of the AI layer: in many themes, the spatial finding is already the answer, and the AI provides the legal framing and documentation around it.\r\n\r\nResults\r\nThe system was evaluated against real cadastral cases and the generated UKS drafts were compared to manually prepared versions. The PostGIS layer correctly identified overlaps and distances across all 17 themes. The LLM layer produced coherent, legislation-referenced responses in the majority of test cases, with output quality closely tied to the specificity of the spatial evidence provided. Beyond the cadastral domain, the architecture is directly applicable to other land-use compliance workflows where spatial data must be checked against regulatory thresholds. Obvious examples include wind turbine siting (setback distances to dwellings and nature areas), solar farm permitting, and environmental impact screening.\r\n\r\nRelevance for FOSS4G\r\nAll geospatial data originates from Danish national open data infrastructures operating under INSPIRE-compliant WFS standards. The full stack, Next.js, PostGIS, Supabase, Ollama, Llama 3.1, and Nomic-embed-text, is open source. The architecture is generalisable to any jurisdiction exposing land-restriction data through WFS services. The system code and data schema will be made publicly available under an open-source licence and available on GitHub. The study contributes to a broader discussion on responsible LLM integration into professional legal-technical workflows [Hosseini et al., 2025a], specifically the role of deterministic spatial evidence as a grounding mechanism that makes AI output traceable and verifiable.\r\n\r\nConclusion\r\nThe presented system demonstrates that a web-based open-source GIS and LLM pipeline can automate complex, legislation-bound cadastral workflows in a robust and practically useful way. Human oversight is preserved throughout, as the surveyor reviews and approves all outputs.",
+    "start_datetime": "2026-06-30T09:00:00Z",
+    "end_datetime": "2026-06-30T09:30:00Z",
+    "talk:code": "RKPEN9",
+    "talk:guid": "91e84df7-6046-517a-b71b-bc8d089cb8ad",
+    "talk:event": "foss4g-europe-2026",
+    "talk:track": "Academic track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "A01",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "VVKTZN",
+        "name": "Lasse Hedegaard Hansen",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/VVKTZN/"
+      },
+      {
+        "code": "FS3UZN",
+        "name": "Nicklas Nordhaug",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/FS3UZN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-06-30T09:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/RKPEN9/",
+      "title": "Automating the Subdivision Control Check: An Open-Source GIS and LLM Pipeline for Cadastral Case Preparation"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/RKPEN9/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/VVKTZN/",
+      "title": "Lasse Hedegaard Hansen"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/FS3UZN/",
+      "title": "Nicklas Nordhaug"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/RKPEN9/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

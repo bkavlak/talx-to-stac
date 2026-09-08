@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "MUDTQN",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Spatial Analysis with the CARTO Analytics Toolbox",
+    "description": "The CARTO Analytics Toolbox (AT) is a collection of spatial functions that add spatial capabilities to Data Warehouses. At the moment, BigQuery, Snowflake, Redshift and PostgreSQL versions are available.\r\n\r\nThis talk will show some of the main functions of the AT, and discuss some examples of spatial data analysis performed in different DWs. Special emphasis will be put on the functionality related to spatial indexes, particularly H3 and Quadbin.\r\n\r\nThe Analytic Toolbox functions are also the building blocks for other tools both from CARTO and outside of CARTO, which will be briefly introduced as well.",
+    "start_datetime": "2023-06-30T13:00:00Z",
+    "end_datetime": "2023-06-30T13:30:00Z",
+    "talk:code": "MUDTQN",
+    "talk:guid": "7c790e5c-7119-506d-b653-77f787fbd8c0",
+    "talk:event": "foss4g-2023",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Outdoor Stage",
+    "talk:room_capacity": 600,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "QCEEWS",
+        "name": "V\u00edctor Olaya",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/QCEEWS/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-30T13:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/MUDTQN/",
+      "title": "Spatial Analysis with the CARTO Analytics Toolbox"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/MUDTQN/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/QCEEWS/",
+      "title": "V\u00edctor Olaya"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/MUDTQN/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/tpQDcS2xS5TZK6B1x9QC6U",
+      "type": "text/html",
+      "title": "2023 | Spatial Analysis with the CARTO Analytics Toolbox - V\u00edctor Olaya",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=79w4dWQWCIM",
+      "type": "text/html",
+      "title": "2023 | Spatial Analysis with the CARTO Analytics Toolbox - V\u00edctor Olaya",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

@@ -1,0 +1,113 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "HCQTLP",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Modernising Tasking Manager infrastructure using Terraform, cloud-native tools and good sense",
+    "description": "Learn how Humanitarian Openstreetmap Team uses modern tools like Terraform, AWS serverless, and other tools to modernise the collaborative mapping tool - Tasking Manager. The talk will focus on balancing infrastructure costs, cloud vendor lock-in, performance and DevOps processes.\r\n\r\nTasking Manager is an important collaborative mapping tool that is considered a public good. In recent times, the tool has left a lot to be desired in terms of performance and availability. The HOT Tech team set out to overhaul the architecture, and deployment processes of Tasking Manager. I discuss the soon-to-go-live improvements that touch upon Terraform, AWS Serverless, CircleCI, Observability processes, and Developer Experience. \r\n\r\nLinks: https://github.com/hotosm/tasking-manager",
+    "start_datetime": "2023-06-30T10:00:00Z",
+    "end_datetime": "2023-06-30T10:30:00Z",
+    "talk:code": "HCQTLP",
+    "talk:guid": "5c5a77ea-ed88-5903-82ba-2e006517126b",
+    "talk:event": "foss4g-2023",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Drini",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "PDSALR",
+        "name": "Yogesh Girikumar",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/PDSALR/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-30T10:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/HCQTLP/",
+      "title": "Modernising Tasking Manager infrastructure using Terraform, cloud-native tools and good sense"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/HCQTLP/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/PDSALR/",
+      "title": "Yogesh Girikumar"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/hotosm/tasking-manager",
+      "title": "github.com/hotosm/tasking-manager"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/HCQTLP/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/epiVvti4hjozgTwBUCv4rR",
+      "type": "text/html",
+      "title": "2023 | Modernising Tasking Manager infrastructure using Terraform, cloud-native tools and good sense",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=fGS2BU3tLMs",
+      "type": "text/html",
+      "title": "2023 | Modernising Tasking Manager infrastructure using Terraform, cloud-native tools and good sense",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

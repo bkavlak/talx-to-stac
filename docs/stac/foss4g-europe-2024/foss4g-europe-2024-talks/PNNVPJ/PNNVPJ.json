@@ -1,0 +1,127 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "PNNVPJ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Leave no one behind - UNDP GeoHub. Spatial data visualization and analytics for policy making",
+    "description": "United Nations Development Programme (UNDP) is a United Nations agency tasked with helping countries eliminate poverty and achieve sustainable economic growth and human development.\r\n\r\nRecent advances in technology and information management have resulted in large quantities of data being available to support improved data driven decision making across the organization. In this context, UNDP has developed a corporate data strategy to accelerate its transformation into a data-driven organization. Geo-spatial data is included in this strategy and plays an important role in the organization. However, the large scale adoption and integration of geo-spatial data was obstructed in the past by issues related to data accessibility (silos located in various country offices), interoperability as well as sub-optimal hard and soft infrastructure or know-how.\r\nAll this issues have been addressed recently, when UNDP SGD integration team started developing GeoHub to provide geospatial data visualization and analytical tools to UNDP staff and policymakers.\r\n\r\n[UNDP GeoHub](https://geohub.data.undp.org/) is a repository of a wide array of data sets of the most recent time span available at your fingertips! It is a centralized ecosystem of geospatial data and services to support development work. It allows non-geospatial users to upload, search and visualize datasets, compute dynamic statistics and download the data. In addition, GeoHub provides a feature to create and share their maps with the community easily. Satellite imagery, spatial-temporal model generated data, as well as regular spatial datasets, can be streamed into various analytical tools to create new insights leveraged by policymakers and regular users.\r\n\r\nGeohub ecosystem consists of sveltekit & maplibre based frontend web applications and various FOSS4G software on the backend side. PostgreSQL/PostGIS, titiler, pg_tileserv are deployed in Azure Kubernetes (AKS) to provide advanced visualization and analysis for users. All source code is published in [GitHub repository](https://github.com/UNDP-Data/geohub) with an open-source license.\r\n\r\nWe have presented GeoHub at FOSS4G 2023 Prizren. We are going to update the latest state of GeoHub since we have developed a lot of new features and UI/UX improvements. The major changes since Kosovo are as follows.\r\n- Introduced a landing page to direct users to each page of GeoHub\r\n- Implemented social login (GitHub authentication and UN B2C authentication)\r\n- Data upload pipeline\r\n- User permission management for datasets and maps\r\n- UI improvement for data visualization\r\n- Raster analytical features (titiler algorithms)\r\n- Static image API (generate static map image from a saved Maplibre style)",
+    "start_datetime": "2024-07-05T07:30:00Z",
+    "end_datetime": "2024-07-05T08:00:00Z",
+    "talk:code": "PNNVPJ",
+    "talk:guid": "96f8f58d-6ae6-50d5-8831-319e4e2cd658",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Omicum",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "CXK3AT",
+        "name": "Jin Igarashi",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/CXK3AT/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-05T07:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/PNNVPJ/",
+      "title": "Leave no one behind - UNDP GeoHub. Spatial data visualization and analytics for policy making"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/PNNVPJ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/CXK3AT/",
+      "title": "Jin Igarashi"
+    },
+    {
+      "rel": "related",
+      "href": "https://geohub.data.undp.org/",
+      "title": "UNDP GeoHub"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/UNDP-Data/geohub",
+      "title": "GitHub repository"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/PNNVPJ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "undp-geohub-slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/PNNVPJ/resources/UNDP_GeoHub_-_FOSS4G2024_BZj1jM2.pdf",
+      "type": "application/pdf",
+      "title": "UNDP GeoHub slides",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/gkoitryKZas7jbaeF77H5z",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Leave no one behind - UNDP GeoHub. Spatial data visualization and analytics for ...",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=_fiRnkYJnqg",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Leave no one behind - UNDP GeoHub. Spatial data visualization and analytics for ...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

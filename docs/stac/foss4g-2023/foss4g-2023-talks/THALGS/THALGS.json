@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "THALGS",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "OGC API standards for geospatial data cubes",
+    "description": "A presentation and demonstration of data cube functionality implemented based on OGC API Standards and draft Candidate Standards.\r\n\r\nIncluding:\r\n\r\n- OGC API - Tiles,\r\n- OGC API - Maps,\r\n- OGC API - Coverages,\r\n- OGC API - Discrete Global Grid Systems,\r\n- OGC API - Processes - Part 1: Core, and Part 3: Workflows and Chaining (\"Nested Processes\", \"Collection Input\", \"Collection Output\"),\r\n- OGC Common Query Language (CQL2)\r\n\r\nwith a focus on providing efficient access to analysis-ready sentinel-2 data and additional processing close to the data, in the context of wildfire risk assessment.",
+    "start_datetime": "2023-06-28T09:00:00Z",
+    "end_datetime": "2023-06-28T09:30:00Z",
+    "talk:code": "THALGS",
+    "talk:guid": "77348f98-68f5-54be-a661-3632683826a5",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Open Standard",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT D / N112 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "KNRWPK",
+        "name": "Jerome St-Louis",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/KNRWPK/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T09:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/THALGS/",
+      "title": "OGC API standards for geospatial data cubes"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/THALGS/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/KNRWPK/",
+      "title": "Jerome St-Louis"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/THALGS/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/8gsBf6HfrZeFvagrWUobhw",
+      "type": "text/html",
+      "title": "2023 | OGC API standards for geospatial data cubes - Jerome St Louis",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=TuBZwoLH-vo",
+      "type": "text/html",
+      "title": "2023 | OGC API standards for geospatial data cubes - Jerome St Louis",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

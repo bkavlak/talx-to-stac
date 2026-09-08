@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "A7PKNC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "A Map-First Conference Guide App with MapLibre for FOSS4G Hiroshima 2026",
+    "description": "Volunteers from the FOSS4G 2026 Hiroshima LOC are building a cross-platform event guide app using React Native and MapLibre. The app offers map-based navigation from Hiroshima Station to the venue, interactive indoor floor maps, and session information linked to each floor.\n\nMembers of the FOSS4G 2026 Hiroshima Local Organizing Committee have been developing a mobile application designed to help attendees navigate the conference with ease. Built with React Native and MapLibre, the app runs on both iOS and Android and places an interactive map at the core of the user experience.\r\nThe app provides three main features. First, it guides attendees from Hiroshima Station to the International Conference Center Hiroshima, offering a clear, map-based route so that newcomers to the city can reach the venue with confidence. Second, it displays indoor floor maps of the conference center and workshop spaces, allowing users to explore the building layout before and during the event. Third, tapping on a floor reveals the sessions and workshops scheduled in that area, making it easy to discover what is happening nearby and plan your day.\r\nBy combining outdoor navigation and indoor mapping in a single interface, the app aims to reduce the friction that attendees often face when moving between sessions at an unfamiliar venue. All map data and rendering are powered by open-source geospatial tools, staying true to the spirit of FOSS4G.\r\nIn this lightning talk, I will give a brief demo of the app, share the technical choices behind it, and invite every attendee to install and use it during the conference.",
+    "start_datetime": "2026-09-02T04:15:00Z",
+    "end_datetime": "2026-09-02T04:20:00Z",
+    "talk:code": "A7PKNC",
+    "talk:guid": "3ddd4578-5397-52b9-80d4-771db6d1e7cd",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Lightning Talk",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Ran1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "XEHQSZ",
+        "name": "Haruki Inoue",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/XEHQSZ/"
+      },
+      {
+        "code": "ZVCMFJ",
+        "name": "Ryosuke Aoki",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/ZVCMFJ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T04:17:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/A7PKNC/",
+      "title": "A Map-First Conference Guide App with MapLibre for FOSS4G Hiroshima 2026"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/A7PKNC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/XEHQSZ/",
+      "title": "Haruki Inoue"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/ZVCMFJ/",
+      "title": "Ryosuke Aoki"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/A7PKNC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-2026/submissions/A7PKNC/resources/FOSS4GHiroshima2026_presentation_sl_30a9jIL.pdf",
+      "type": "application/pdf",
+      "title": "presentation slides",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

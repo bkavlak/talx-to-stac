@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "KAZNL7",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "What is new in Giswater 3.5",
+    "description": "Giswater (www.giswater.org) is a open source software aimed at being a corporate tool in water utilities with which to manage network assets in an excellent way and at the same time have the assets ready for hydraulic simulation, a feature that today Today it is known how to have a digital clone of network assets.\r\n\r\nTechnologically, it uses a set of Open Source technologies such as EPANET, SWMM, PostgreSQL, PostGIS or QGIS, all of them mature and proven, which give it a very powerful base for growth and consolidation.\r\n\r\nIts 'database centric' architecture gives it enormous potential with which maintenance operations (network outages) can be managed in an integrated way, longitudinal profiles can be made, events inventoried, among others.\r\n\r\nIt has a data model with dual-face architecture, which allows full integration of inventory and hydraulic model data, both for drinking water networks (https://github.com/Giswater/giswater_dbmodel/wiki/epanet- dual-dbmodel) and for urban drainage and sanitation networks (https://github.com/Giswater/giswater_dbmodel/wiki/swmm-dual-dbmodel) , giving full flexibility to the modeler to work with hydraulic capacities without any impact on inventory data for each asset item.\r\n\r\nThe EPA file export module has certain \"on the fly\" transformations to make the two different geometries (remember the dual-face) of the inventory elements compatible for both EPANET (https://github.com/Giswater/giswater_dbmodel/ wiki/epanet-on-the-fly-transformations) how to for SWMM (https://github.com/Giswater/giswater_dbmodel/wiki/swmm-on-the-fly-transformations).\r\n\r\nIt allows you to work with different scenarios to create different modeling conditions in order to check the worst case scenario or check how the network will respond in future scenarios. For Water Supply networks it is possible to work with demand scenarios (https://github.com/Giswater/giswater_dbmodel/wiki/epa-demand-scenarios) and for Urban Drainage projects it is possible to work with DWF scenarios (https: //github.com/Giswater/giswater_dbmodel/wiki/epa-dwf-scenarios) and hydrological scenarios (https://github.com/Giswater/giswater_dbmodel/wiki/epa-hydrology-scenarios)\r\n\r\nAdditionally, it also allows working with alternatives to plan new elements of the network without interfering with the elements of the asset inventory. By creating an alternative (https://github.com/Giswater/giswater_dbmodel/wiki/masterplan-capabilities) you can modify the physical reality of the network without affecting the real assets at all.\r\n\r\nAnother especially interesting feature is that it allows collaborative work. Large hydraulic engineering projects have been worked on to date in a sequential or fractional way, but not collaboratively. Thanks to Giswater it is now possible to work on projects in a real collaborative way, given the inherent multi-user characteristics of the Databases on which the project pivots.\r\n\r\nThe project was born seven years ago and in its version 3.5 it incorporates interesting novelties, among which the following stand out: Complete refactor of the python code, new hydraulic model capabilities with the management of multi-scenarios or the improvement of the usability of numerous tools such as dynamic zoning or the info among others.",
+    "start_datetime": "2022-08-26T07:00:00Z",
+    "end_datetime": "2022-08-26T07:30:00Z",
+    "talk:code": "KAZNL7",
+    "talk:guid": "b05eeb7d-a6b8-51f5-911e-5c302a2f64e4",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Modulo 0",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "KJKM9J",
+        "name": "XAVIER TORRET",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/KJKM9J/"
+      },
+      {
+        "code": "R9GLMA",
+        "name": "Albert Bofill",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/R9GLMA/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T07:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/KAZNL7/",
+      "title": "What is new in Giswater 3.5"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/KAZNL7/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/KJKM9J/",
+      "title": "XAVIER TORRET"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/R9GLMA/",
+      "title": "Albert Bofill"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/KAZNL7/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=VCs56lpTaVI",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | What is new in Giswater 3.5",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

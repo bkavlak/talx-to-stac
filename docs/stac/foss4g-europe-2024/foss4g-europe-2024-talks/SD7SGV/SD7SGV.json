@@ -1,0 +1,142 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "SD7SGV",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Improving interoperability between OpenDRIVE HD map data and GIS using GDAL",
+    "description": "Our new vector driver for GDAL offers the possibility to convert highly detailed HD map data from the complex road description format ASAM OpenDRIVE into common geodata formats such as GeoPackage, GeoJSON, Shapefile, KML or spatial databases. Finally, this makes OpenDRIVE easily usable in established GIS applications.\r\n\r\nWithin the domains of automotive and transportation, highly detailed road network datasets (HD maps) emerged as a core component for development, testing, function validation and also for later production use. Applications such as autonomous driving, driving simulation and traffic simulation often rely on special engineering data formats, of which ASAM OpenDRIVE [1] evolved as an open industry standard. This domain-specific data model bundles mathematical, continuous track geometry modelling with all necessary topological links and semantic information from traffic-regulating infrastructure (signs and traffic lights).\r\n\r\nOpenDRIVE\u2019s complexity makes data acquisition a sophisticated task, often financed by the automotive industry and conducted by third-party mobile mapping providers. Recently, governmental institutions have also shown increased interest in such data, particularly in the context of urban transport planning and road infrastructure maintenance. However, even though such OpenDRIVE data often covers the institutions\u2019 own urban space, it is often \"inaccessible\" because tool support for OpenDRIVE is mostly limited to expensive commercial software and \u2014 even worse \u2014 lacks integration into popular Geographic Information Systems (GIS). Our free software contribution [2] extends the common Geospatial Data Abstraction Library (GDAL) [3] and transforms OpenDRIVE road elements into OGC Simple Features [4] which can be loaded and processed ad hoc by all commercial and free GIS tools! This way, OpenDRIVE data can directly be loaded in QGIS, for example, which involves less overhead than having to intermediately convert it to CityGML using r:tr\u00e5n [5] beforehand.\r\n\r\nBy bringing the domains of automotive engineering and GIS closer together, we hope to stimulate interdisciplinary knowledge transfer and the creation of an interconnected research community. With our open software extension, we empower public authorities and research institutions with easier access to highly-detailed road data, which might otherwise be limited to just industrial players. Vice versa, the (automotive) industry benefits from established tools and data provisioning services of the spatial data domain, with which it does normally not interact.\r\n\r\nBased on our experience with extending GDAL, other domain-specific data formats such as railML, RoadXML and the NDS Open Lane Model could be made accessible for the greater audience of GIS users as well.\r\n\r\n[1] ASAM OpenDRIVE: https://www.asam.net/standards/detail/opendrive/\r\n[2] Git branch of OpenDRIVE driver: https://github.com/DLR-TS/gdal/tree/libopendrive\r\n[3] GDAL: https://gdal.org\r\n[4] OGC Simple Feature Access: https://www.ogc.org/standard/sfa/\r\n[5] r:tr\u00e5n: https://doi.org/10.5281/zenodo.7702313",
+    "start_datetime": "2024-07-05T12:00:00Z",
+    "end_datetime": "2024-07-05T12:30:00Z",
+    "talk:code": "SD7SGV",
+    "talk:guid": "84a0bffa-50c6-5a82-9996-109819e49e37",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Open standards and interoperability for geospatial",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Destination Earth (Van46 ring)",
+    "talk:room_capacity": 400,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RVDUBZ",
+        "name": "Michael Scholz",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/RVDUBZ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-05T12:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/SD7SGV/",
+      "title": "Improving interoperability between OpenDRIVE HD map data and GIS using GDAL"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/SD7SGV/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/RVDUBZ/",
+      "title": "Michael Scholz"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.asam.net/standards/detail/opendrive/",
+      "title": "www.asam.net/standards/detail/opendrive"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/DLR-TS/gdal/tree/libopendrive",
+      "title": "github.com/DLR-TS/gdal/tree/libopendrive"
+    },
+    {
+      "rel": "related",
+      "href": "https://gdal.org",
+      "title": "gdal.org"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.ogc.org/standard/sfa/",
+      "title": "www.ogc.org/standard/sfa"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.5281/zenodo.7702313",
+      "title": "doi.org/10.5281/zenodo.7702313"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/SD7SGV/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/SD7SGV/resources/2024-07_05_FOSS4GE_Scholz_OpenDRIVE_usin_rs28dlY.pdf",
+      "type": "application/pdf",
+      "title": "Slides",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/oHCCkerfjaMP3kViLJWe5f",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Improving interoperability between OpenDRIVE HD map data and GIS using GDAL",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=BSfS39e-ryQ",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Improving interoperability between OpenDRIVE HD map data and GIS using GDAL",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

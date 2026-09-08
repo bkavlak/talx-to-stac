@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "T9MXUP",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Detecting Rooftop Solar Panels with Deep Learning, using Open Remote Sensing Data and OpenStreetMap",
+    "description": "Introducing a deep learning-based rooftop solar model using open remote sensing data and OpenStreetMap. We will explain the design of the model and demonstrate its use in the Climate Action Navigator.\n\nHow dependent is your town on the electricity grid? How many buildings are supplied by rooftop solar panels? How much unused potential is there to leverage the power of the sun?\r\n\r\nWe built a deep learning model using FOSS4G and open remote sensing data for Germany. With this model, you can detect which buildings have rooftop solar panels at a neighbourhood level. The input data is orthophotos and OpenStreetMap building footprints, which we feed into a 4-channel image classification model.\r\n\r\nThe results of the model are visualised in the Rooftop Solar assessment tool of the Climate Action Navigator (https://climate-action.heigit.org) from HeiGIT (https://heigit.org).\r\n\r\nIn this talk, we will demonstrate our results through our assessment tool. We will also explain the design of our model and how we used OpenStreetMap tagging to significantly speed up the creation of training data for our supervised learning approach.",
+    "start_datetime": "2026-09-01T07:00:00Z",
+    "end_datetime": "2026-09-01T07:30:00Z",
+    "talk:code": "T9MXUP",
+    "talk:guid": "bf43d63c-e933-5c7e-a589-b8a9089fabf9",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "SKERXB",
+        "name": "Danielle",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/SKERXB/"
+      },
+      {
+        "code": "DRBZVS",
+        "name": "Gefei Kong",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/DRBZVS/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T07:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/T9MXUP/",
+      "title": "Detecting Rooftop Solar Panels with Deep Learning, using Open Remote Sensing Data and OpenStreetMap"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/T9MXUP/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/SKERXB/",
+      "title": "Danielle"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/DRBZVS/",
+      "title": "Gefei Kong"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/T9MXUP/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

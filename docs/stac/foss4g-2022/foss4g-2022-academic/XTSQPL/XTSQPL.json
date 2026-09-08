@@ -1,0 +1,93 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "XTSQPL",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "An open-source-based workflow for DEM generation from Sentinel-1 for landslide volume estimation",
+    "description": "Digital elevation models (DEMs) are a representation of the topography of the Earth, stored as elevation values in regular raster grid cells. These data serve as basis for various geomorphological applications, for example, for landslide volume estimation. Access to timely, accurate and comprehensive information is crucial for landslide analysis, characterisation and for understanding (post-failure) behaviours. This information can subsequently be used to effectively assess and manage potential cascading hazards and risks, such as landslide dam outburst floods or debris flows. Freely available DEM data has been an important asset for landslide volume estimation. Earth observation (EO) techniques, such as DEM differencing, can be leveraged for volume estimation. However, their applicability is reduced by high costs for commercial DEM products, limited temporal and spatial coverage and resolution, or insufficient accuracy.  \r\n\r\nSentinel-1 synthetic aperture radar (SAR) data from the European Union's Earth observation programme Copernicus opens the opportunity to leverage free SAR data to generate on-demand multi-temporal topographic datasets. Sentinel-1 A & B data provide a new opportunity to tackle some of the problems related to data costs and spatio-temporal availability. Moreover, the European Space Agency (ESA) guarantees the continuity of the Sentinel-1 mission with the planned launch of another two satellites, i.e., Sentinel-1 C & D. Interferometric SAR (InSAR) approaches based on Sentinel-1 have often been used to detect surface deformation; however, few studies have addressed DEM generation (Braun, 2021). For example, Dabiri et al. (2020) tested Sentinel-1 for landslide volume estimation, but highlighted the need to further research and systematically assess the accuracy of the generated DEMs. InSAR analysis is often conducted using commercial software; however, a well-structured workflow based on free and open-source software (FOSS) increases the applicability and transferability of the DEM generation method. Although a general workflow for DEM generation from Sentinel-1 imagery based on InSAR has been described and documented (ASF DAAC, 2019; Braun, 2020, 2021), there is still a need for improvement, harmonisation and automation of the required steps based on open-source tools. \r\n\r\nWithin the project SliDEM (Assessing the suitability of DEMs derived from Sentinel-1 for landslide volume estimation), we explore the potential of Sentinel-1 for the generation of multi-temporal DEMs for landslide assessment leveraging FOSS. Relying on the open-source Sentinel Application Platform (SNAP) developed by the ESA, the Statistical-Cost, Network-Flow Algorithm for Phase Unwrapping (SNAPHU) developed by Stanford University, and several other open-source software publicly available for geospatial and geomorphological applications, we work on a semi-automated and transferable workflow bundled in an open-source Python package that is currently under active development. The workflow uses available Python SNAP application programming interfaces (APIs), such as snappy and snapista. We distribute the SliDEM package within a Docker container, which allows its usage along with all its software dependencies in a structured and straightforward way, reducing usability problems related to software versioning and different operating systems. The final package will be released under an open-source license on a public GitHub repository. \r\n\r\nThe package consists of different modules to 1) query Sentinel-1 image pairs based on perpendicular and temporal baseline thresholds that also match a given geographical and temporal extent; 2) download and archive suitable Sentinel-1 image pairs; 3) produce DEMs using InSAR techniques and perform necessary post-processing such as terrain correction and co-registration; 4) perform DEM differencing of pre- and post-event DEMs to quantify landslide volumes; and 5) assess the accuracy and validate the generated DEMs and volume estimates against reference data. The core module focusses on DEM generation from Sentinel-1 using InSAR techniques available in SNAP. The script co-registers and debursts Sentinel-1 image pairs before generating and filtering an interferogram. Phase unwrapping is performed using SNAPHU. The unwrapped phase is then converted into elevation values, which are finally geometrically corrected and co-registered to a reference DEM. Co-registration is based on assessing the normalised elevation biases over stable terrain (after Nuth and K\u00e4\u00e4b, 2011).  \r\n\r\nWe assess errors and uncertainties for each step and the quality of the Sentinel-1 derived DEMs using reference data and statistical approaches. The semi-automated workflow allows for the generation of DEMs in an iterative and structured manner, where a systematic evaluation of the resulting DEM quality can be performed by testing the influence of different temporal and perpendicular baselines, the usage of ascending and descending passes, distinct land use/land cover and topography, among other factors. Several major landslides in Austria and Norway have been selected to evaluate and validate the workflow in terms of reliability, performance, reproducibility, and transferability.  \r\n\r\nThe SliDEM workflow represents an important contribution to the field of natural hazard research by developing an open-source, low-cost, transferable, and semi-automated method for DEM generation and landslide volume estimation. From a practical perspective, disaster risk management can benefit from efficient methods that deliver added-value information. From a technical point of view, SliDEM tackles scientific questions on the validity of EO-based methods and the quality of results related to the assessment of geomorphological characteristics of landslides.",
+    "start_datetime": "2022-08-26T07:30:00Z",
+    "end_datetime": "2022-08-26T08:00:00Z",
+    "talk:code": "XTSQPL",
+    "talk:guid": "bc05afef-c419-5bc2-ac34-a7b09835646a",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room Modulo 3",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "ZRKRY7",
+        "name": "Lorena Abad",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/ZRKRY7/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T07:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/XTSQPL/",
+      "title": "An open-source-based workflow for DEM generation from Sentinel-1 for landslide volume estimation"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/XTSQPL/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/ZRKRY7/",
+      "title": "Lorena Abad"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.plus.ac.at/geoinformatik/research/research-areas/risk-hazard-climate/?lang=en",
+      "title": "Risk, Hazard & Climate Research Group"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/XTSQPL/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

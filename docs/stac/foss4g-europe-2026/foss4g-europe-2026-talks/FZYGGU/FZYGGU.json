@@ -1,0 +1,113 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "FZYGGU",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "mapchete EO: Abstractions for Sentinel-2 Data Access and Processing",
+    "description": "mapchete EO extends mapchete with abstractions and utilities to read from Earth Observation (EO) archives, with a primary focus on Sentinel-2 data. While mapchete provides a tile-based execution model for raster and vector processing, mapchete EO enables reading multidimensional arrays (time series) from well known data archives.\r\n\r\nClass-based abstractions for handling Sentinel-2 products were engineered to also enable usage outside of the mapchete context. They provide a unified interface to various data and metadata archives to automatically mask data using all available metadata masks (SCL, L1C, etc.) as well as to apply BRDF correction while reading the datza.\r\n\r\nThe second part of the talk focuses on operational experience from processing Sentinel-2 data at global scale for the EOxCloudless product line. At this scale, the system has to have multiple layers of fallbacks and retries in order to accomodate I/O related and temporary failures.\r\n\r\nAdditional challenges arise when processing data across the antimeridian, where data coverage is not consistent between various archives. These edge cases expose limitations that are not apparent in smaller-scale workflows and require careful handling within global processing pipelines.\r\n\r\nThe presentation will outline these challenges and discuss their implications for the design of robust, large-scale Sentinel-2 processing pipelines within an open source framework.",
+    "start_datetime": "2026-06-30T08:30:00Z",
+    "end_datetime": "2026-06-30T09:00:00Z",
+    "talk:code": "FZYGGU",
+    "talk:guid": "39bb344a-dbc7-516e-8893-50dfc8e9a3b8",
+    "talk:event": "foss4g-europe-2026",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "A12",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "DRBES7",
+        "name": "Joachim Ungar",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/DRBES7/"
+      },
+      {
+        "code": "P9BWZ9",
+        "name": "Petr Sevcik",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/P9BWZ9/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-06-30T08:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/FZYGGU/",
+      "title": "mapchete EO: Abstractions for Sentinel-2 Data Access and Processing"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/FZYGGU/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/DRBES7/",
+      "title": "Joachim Ungar"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/P9BWZ9/",
+      "title": "Petr Sevcik"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/FZYGGU/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "mapchete-eo-abstractions-for-sentinel-2-data-access-and-proc": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2026/submissions/FZYGGU/resources/2026-06-30_Mapchete-EO_FOSS4_0jwXgOB.pdf",
+      "type": "application/pdf",
+      "title": "Mapchete EO - Abstractions for Sentinel-2 Data Access and Processing",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "mapchete-eo-abstractions-for-sentinel-2-data-access-and-proc-2": {
+      "href": "https://docs.google.com/presentation/d/1AsMY_--5mWyTpI8icDtJULDR0P3tQSv1zrpmg8mjBhM/edit?usp=sharing",
+      "title": "Mapchete EO - Abstractions for Sentinel-2 Data Access and Processing",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

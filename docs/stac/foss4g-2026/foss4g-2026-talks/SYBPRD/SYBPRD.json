@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "SYBPRD",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Voxelization. Cubing 3D Space for Machine.",
+    "description": "Voxelizer, which produces 3D grid data\u2014voxels\u2014from 2D/3D spatial information raw data.\n\nCurrently, the data used to train and operate Deep/Machine Learning-based AI models is primarily two-dimensional raster data. However, when considering AI for use in three-dimensional spatial information environments like Digital Twins, three-dimensional grid data cannot be ignored.\r\n This research involves producing three-dimensional grid data, specifically voxel data, for use as training/input data for AI, and verifying whether this produced voxel data can be utilized in autonomous drones, vehicles, and indoor robots.\r\nThis year marks the first year of this research, focusing on studying the process of converting raw data into voxel data.\r\n\r\nThis work is supported by the Korea Agency for Infrastructure Technology Advancement(KAIA) grant funded by the Ministry of Land, Infrastructure and Transport. (Grant RS-2025-02317649, NTIS Grant:2610000447)",
+    "start_datetime": "2026-09-02T06:30:00Z",
+    "end_datetime": "2026-09-02T07:00:00Z",
+    "talk:code": "SYBPRD",
+    "talk:guid": "52c8bab8-b7d8-5a25-ae0e-001ce23f83ab",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room2",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "A9P77Y",
+        "name": "Hak joon Kim",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/A9P77Y/"
+      },
+      {
+        "code": "YJZDMG",
+        "name": "Seungmin Kwon",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/YJZDMG/"
+      },
+      {
+        "code": "HZXATN",
+        "name": "joohyoung Kim",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/HZXATN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T06:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/SYBPRD/",
+      "title": "Voxelization. Cubing 3D Space for Machine."
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/SYBPRD/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/A9P77Y/",
+      "title": "Hak joon Kim"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/YJZDMG/",
+      "title": "Seungmin Kwon"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/HZXATN/",
+      "title": "joohyoung Kim"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/SYBPRD/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "visualization-of-created-voxel-data": {
+      "href": "https://talks.osgeo.org/media/foss4g-2026/submissions/SYBPRD/resources/resource1_THS5YEr.png",
+      "type": "image/png",
+      "title": "Visualization of created voxel data",
+      "roles": [
+        "data"
+      ]
+    },
+    "visualization-of-created-voxel-data-2": {
+      "href": "https://talks.osgeo.org/media/foss4g-2026/submissions/SYBPRD/resources/resource2_mMA2Ceg.png",
+      "type": "image/png",
+      "title": "Visualization of created voxel data",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

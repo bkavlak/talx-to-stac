@@ -1,0 +1,97 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "EVMMWW",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "QGIS Teamwork with NextGIS Web: Sync, Conflict Resolution, and Version Control",
+    "description": "QGIS is one of the most widely used open-source desktop GIS platforms, offering strong tools for geospatial data management, editing, and styling. Yet collaboration is still hard in everyday production workflows: teams need shared server-side storage, reliable desktop synchronization, conflict-aware multi-user editing, and a transparent history of changes.\r\n\r\nWe develop an open-source stack that enables smooth simultaneous editing from both QGIS and Web maps. NextGIS Web is a Web GIS server for storing and publishing geospatial data with granular permissions and built-in version control for vector layers. It uses QGIS as a renderer, providing near-complete support for QGIS symbology in web maps. NextGIS Connect is a QGIS plugin that integrates QGIS with NextGIS Web: it supports publishing QGIS projects as web maps, opening web maps as QGIS projects, editing server data directly from QGIS, and resolving conflicts interactively.\r\n\r\nThe latest NextGIS Connect release adds end-to-end handling of feature attachments (photos, documents, and other files), managed consistently from both QGIS and the Web interface. Attachments are also covered by the same versioning mechanics as spatial and attribute edits.\r\n\r\nIn this talk, we will present the current state of the NextGIS Web / NextGIS Connect / QGIS ecosystem, demonstrate workflows for seamless multi-user editing, and show how teams can move from local QGIS projects to enterprise-level collaboration using open source software.",
+    "start_datetime": "2026-07-01T12:30:00Z",
+    "end_datetime": "2026-07-01T13:00:00Z",
+    "talk:code": "EVMMWW",
+    "talk:guid": "7e771907-dd73-526e-a394-72db4e5478b2",
+    "talk:event": "foss4g-europe-2026",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "AM",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "XYGHJ8",
+        "name": "Eduard Kazakov",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/XYGHJ8/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-07-01T12:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/EVMMWW/",
+      "title": "QGIS Teamwork with NextGIS Web: Sync, Conflict Resolution, and Version Control"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/EVMMWW/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/XYGHJ8/",
+      "title": "Eduard Kazakov"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/EVMMWW/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2026/submissions/EVMMWW/resources/Kazakov__QGIS_Teamwork_with__m4OXNKY.pdf",
+      "type": "application/pdf",
+      "title": "Slides",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

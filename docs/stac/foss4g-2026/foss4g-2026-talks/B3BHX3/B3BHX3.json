@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "B3BHX3",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Turning Japan\u2019s Open Data into a Modern Web Map",
+    "description": "A modern vector map of Japan built from GSI open data and OpenStreetMap, focused on cartographic design and customization. Built on vector tiles, it integrates with MapLibre and open-source tools, balancing Japanese mapping conventions with modern usability.\n\nThis presentation introduces a new vector map of Japan built from Japanese governmental open data, OpenStreetMap, and the MapTiler platform.\r\n\r\nThe project translates the highly detailed vector tile schema of the Geospatial Information Authority of Japan (GSI) into a modern web map style while preserving the semantics of Japanese cartography. This includes translating local feature attributes into clear, usable map layers, rendering Japanese text using modern fonts, and converting traditional map symbols into scalable vector icons.\r\n\r\nThe result is a coherent and modern map style that maintains the richness and precision of the original data while significantly improving readability and usability. A strong emphasis was placed on flexibility and customization: the map supports multiple visual styles, including a carefully designed dark mode, and allows developers to adapt colors, symbols, and visual hierarchy to different applications and use cases.\r\n\r\nBuilt on vector tiles, the map enables dynamic styling and smooth rendering across all zoom levels. Through the MapTiler platform, it can be easily customized and integrated into applications using MapLibre, the MapTiler SDK, or other open-source mapping libraries such as Leaflet and OpenLayers. Support for TileJSON, OGC Tiles, and WMTS ensures full interoperability within the broader open geospatial ecosystem. \r\n\r\nThe resulting map balances local cartographic conventions with modern usability expectations, providing a highly readable and adaptable basemap for web and mobile applications. OpenChizu can also be used completely offline and deployed into secured environements and sovereign map infrastructures.\r\n\r\nThis talk demonstrates how open data, open standards, and open-source technologies can be leveraged to design modern, user-friendly maps at national and global scales.",
+    "start_datetime": "2026-09-02T08:00:00Z",
+    "end_datetime": "2026-09-02T08:30:00Z",
+    "talk:code": "B3BHX3",
+    "talk:guid": "832bd072-a578-5d80-b86a-120244d9c8a1",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RCMQLV",
+        "name": "Nicolas Bozon",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/RCMQLV/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T08:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/B3BHX3/",
+      "title": "Turning Japan\u2019s Open Data into a Modern Web Map"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/B3BHX3/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/RCMQLV/",
+      "title": "Nicolas Bozon"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/B3BHX3/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

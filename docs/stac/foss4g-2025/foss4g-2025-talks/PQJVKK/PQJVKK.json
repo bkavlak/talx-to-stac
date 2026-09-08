@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "PQJVKK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "IGEO7 and DGGRID - Like H3, but an Equal-Area Hexagonal DGGS for Fairer Global Analysis",
+    "description": "Uber H3 has revolutionized spatial indexing, but its cell sizes vary a lot. I will introduce IGEO7, an aperture 7 hexagonal equal-area DGGS with its hierarchical indexing system Z7. It is now implemented in the open-source software  DGGRID and has a handy Python wrapper, dggrid4py.\n\nUber's H3 has revolutionized spatial indexing, but its cells aren't equal-area, skewing global analyses and visualizations. What if you could have H3's elegant hierarchical indexing and true equal-area cells for statistically sound results?\r\n\r\nIGEO7 is a pure aperture 7 hexagonal DGGS with a hierarchical indexing system named Z7. It is implemented in the long-standing open-source DGGRID software and has a handy Python wrapper, dggrid4py.\r\n\r\n- https://dggrid.readthedocs.io/\r\n- https://github.com/sahrk/DGGRID\r\n- https://dggrid4py.readthedocs.io/\r\n- https://github.com/allixender/dggrid4py\r\n\r\nIn this talk, I'll shortly introduce IGEO7's capabilities and show how to use it with DGGRID and dggrid4py. Come see how you no longer have to choose between handy hexagon indexing and statistically sound analysis with open-source world.",
+    "start_datetime": "2025-11-19T03:00:00Z",
+    "end_datetime": "2025-11-19T03:05:00Z",
+    "talk:code": "PQJVKK",
+    "talk:guid": "77ed0ff7-3792-5b53-b659-b3f72eea30eb",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Lightning talk",
+    "talk:type": "Lightning Talk",
+    "talk:language": "en",
+    "talk:room": "WG403",
+    "talk:room_capacity": 386,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "PQFYHP",
+        "name": "Alexander Kmoch",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/PQFYHP/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-19T03:02:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/PQJVKK/",
+      "title": "IGEO7 and DGGRID - Like H3, but an Equal-Area Hexagonal DGGS for Fairer Global Analysis"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/PQJVKK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/PQFYHP/",
+      "title": "Alexander Kmoch"
+    },
+    {
+      "rel": "related",
+      "href": "https://dggrid.readthedocs.io/",
+      "title": "dggrid.readthedocs.io"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/sahrk/DGGRID",
+      "title": "github.com/sahrk/DGGRID"
+    },
+    {
+      "rel": "related",
+      "href": "https://dggrid4py.readthedocs.io/",
+      "title": "dggrid4py.readthedocs.io"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/allixender/dggrid4py",
+      "title": "github.com/allixender/dggrid4py"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/PQJVKK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

@@ -1,0 +1,114 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "V9HQLU",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Low-cost AirQuality stations + open standard (OGC SensorThings) + open data (CC-BY) + open source (FROST + QGIS plugin for sensors)",
+    "description": "This is the story of 2 twin projects (namely AIR-BREAK and USAGE) undertaken by Deda Next on dynamic sensor-based data, from self-built air quality stations to the implementation of OGC standard compliant client solution.\r\nIn the first half of 2022, within AIR-BREAK project (https://www.uia-initiative.eu/en/uia-cities/ferrara), we involved 10 local high schools to self-build 40 low-cost stations (ca. 200\u20ac each, with off-the-shelf sensors and electronic equipment) for measuring air quality (PM10, PM2.5, CO2) and climate (temperature, humidity). After completing the assembling, in late 2022 stations were installed at high schools, private households, private companies and local associations. Measurements are collected every 20 seconds and pushed to RMAP server (Rete Monitoraggio Ambientale Partecipativo = Partecipatory Environmental Monitoring Network - https://rmap.cc/).\r\nHourly average values are then ingested with Apache NiFi into OGC\u2019s SensorThings API (aka STA) compliant server of the Municipality of Ferrara (https://iot.comune.fe.it/FROST-Server/v1.1/) based on the open source FROST solution by Fraunhofer Institute (https://github.com/FraunhoferIOSB/FROST-Server).\r\nSTA provides an open, geospatial-enabled and unified way to interconnect  Internet of Things (IoT) devices, data and applications over the Web (https://www.ogc.org/standard/sensorthings/). STA is an open standard, it builds on web protocols and on OGC\u2019s SWE standards and has an easy-to-use REST-like interface, providing a uniform way to expose the full potential of the IoT (https://github.com/opengeospatial/sensorthings/).\r\nIn second half of 2022, within USAGE project (https://www.usage-project.eu/), we released the v1 of a QGIS plugin for STA protocol.\r\nThe plugin enables QGIS to access dynamic data from heterogeneous domains and different sensor/IoT platforms, using the same standard data model and API. Among others, dynamic data collected by the Municipality of Ferrara will be CC-BY licensed and made accessible from municipal open data portal (https://dati.comune.fe.it/).\r\nDuring the talk, a live demo will be showcased, accessing public endpoints exposing measurements (timeseries) about air quality (from EEA), water (BRGM), bicycle counters, traffic sensors, etc.",
+    "start_datetime": "2023-06-29T14:00:00Z",
+    "end_datetime": "2023-06-29T14:30:00Z",
+    "talk:code": "V9HQLU",
+    "talk:guid": "7489e784-bd58-5fd6-a9bc-97d96141a9fe",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Open source geospatial \u2018Made in Europe\u2019",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT F / N212 - Floor 3",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "ZYHEHV",
+        "name": "Piergiorgio Cipriano",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/ZYHEHV/"
+      },
+      {
+        "code": "YWTRXR",
+        "name": "Luca Giovannini",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/YWTRXR/"
+      },
+      {
+        "code": "LSJRCK",
+        "name": "Giacomo Magisano",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/LSJRCK/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-29T14:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/V9HQLU/",
+      "title": "Low-cost AirQuality stations + open standard (OGC SensorThings) + open data (CC-BY) + open source (FROST + QGIS plugin for sensors)"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/V9HQLU/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/ZYHEHV/",
+      "title": "Piergiorgio Cipriano"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/YWTRXR/",
+      "title": "Luca Giovannini"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/LSJRCK/",
+      "title": "Giacomo Magisano"
+    },
+    {
+      "rel": "related",
+      "href": "https://rmap.cc/",
+      "title": "rmap.cc"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/V9HQLU/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

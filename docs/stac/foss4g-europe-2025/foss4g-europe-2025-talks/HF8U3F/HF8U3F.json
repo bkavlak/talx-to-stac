@@ -1,0 +1,134 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "HF8U3F",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "GeoServer 3 Status Report: How We Got Here, How It\u2019s Going",
+    "description": "This presentation provides an in-depth status update on GeoServer 3, the ambitious overhaul of the widely used open-source server for spatial data and web services. Announced as part of a community-driven crowdfunding effort, GeoServer 3 seeks to modernize the platform\u2019s foundation to ensure it meets the growing demands of the geospatial community.\r\n\r\nWe\u2019ll first analyze the GeoServer 2.x status quo, and the effect of cascading changes that a \u201csimple\u201d Spring upgrade caused, turning the activity into a cross project overhaul, and how the large effort required got socialized and eventually brought to implementation via in-kind volunteering and a crowdfunding campaign driven by Camp2Camp, GeoCat and GeoSolutions.\r\n\r\nWe will explore the planned milestones in the transition to GeoServer 3. These include critical refactorings, such as replacing aging libraries, adopting modern Java frameworks, and integrating support for the latest versions of GeoTools and GeoWebCache. Key technical advancements include the evolution and integration of ImageN for improved raster data processing, the migration from Wicket 7 to Wicket 10 for a modernized and more secure web user interface, and the adoption of Jakarta EE and Spring 6 to support enhanced security, scalability, and long-term compatibility with modern Java ecosystems.\r\n\r\nJoin us to investigate progress, reflect on the lessons learned, and get inspired by what\u2019s possible with GeoServer 3\u2014a project that continues to empower geospatial professionals and organizations worldwide.",
+    "start_datetime": "2025-07-16T15:00:00Z",
+    "end_datetime": "2025-07-16T15:30:00Z",
+    "talk:code": "HF8U3F",
+    "talk:guid": "bd615380-9ade-5b1b-b448-fdc467e2b6a0",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "EL11 (Geosolutions)",
+    "talk:room_capacity": 200,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RBSH8T",
+        "name": "Andrea Aime",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/RBSH8T/"
+      },
+      {
+        "code": "BQBVFC",
+        "name": "Jody Garnett",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/BQBVFC/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-16T15:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/HF8U3F/",
+      "title": "GeoServer 3 Status Report: How We Got Here, How It\u2019s Going"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/HF8U3F/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/RBSH8T/",
+      "title": "Andrea Aime"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/BQBVFC/",
+      "title": "Jody Garnett"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/HF8U3F/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "geoserver-3-status-report": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/HF8U3F/resources/GeoServer_3_Status_Report_r7jgPIl.pdf",
+      "type": "application/pdf",
+      "title": "GeoServer 3 Status Report",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "google-slides": {
+      "href": "https://docs.google.com/presentation/d/1QmEyItxpjUkgfX6d0JNfO8sAOhXqNt2CKgW-VdxM72c/edit?usp=sharing",
+      "title": "google slides",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/iT1v4FNN6n8jhjZELL3hMF",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | GeoServer 3 Status Report: How We Got Here, How It\u2019s Going",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=vC8O4AHgNA4",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | GeoServer 3 Status Report: How We Got Here, How It\u2019s Going",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

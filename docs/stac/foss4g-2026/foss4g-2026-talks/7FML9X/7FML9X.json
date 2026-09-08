@@ -1,0 +1,95 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "7FML9X",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "City-scale imagery generation using a handful of cheap consumer drones",
+    "description": "Using cheap 250 g consumer drones introduces challenges when processing imagery at scale. At HOTOSM we have been refining workflows alongside OpenDroneMap to process areas of <100 km\u00b2 captured using drones such as the DJI Mini series, combining drone-specific correction techniques with scalable Kubernetes-native processing pipelines.\n\nConsumer drones have made aerial imagery collection accessible to communities, NGOs, and local governments. However, once image collections reach city scale, processing thousands of photographs into orthomosaics, point clouds, and digital surface models becomes a significant computational challenge. This problem is compounded by the limitations introduced when using lightweight consumer drones designed primarily for hobbyist use.\r\n\r\nThis talk explores how the open-source project ScaleODM enables scalable processing of large drone datasets by orchestrating OpenDroneMap workloads across Kubernetes clusters. By distributing photogrammetry tasks across multiple nodes, ScaleODM allows teams to process large mapping projects using commodity infrastructure while maintaining fully open workflows.\r\n\r\nUsing a real-world example of city-scale drone imagery, this session will demonstrate:\r\n- Challenges encountered when processing very large drone datasets\r\n- How ScaleODM structures distributed photogrammetry pipelines\r\n- Deploying Kubernetes-native processing for OpenDroneMap\r\n- Performance considerations and cluster scaling strategies\r\n- Specific challenges introduced when processing imagery from lightweight drones such as the DJI Mini series\r\n- Lessons learned from running large-scale drone processing in practice\r\n\r\nThe presentation will also discuss how these tools enable humanitarian mapping, urban analysis, and community mapping projects by reducing the infrastructure barriers traditionally associated with large photogrammetry workloads.\r\n\r\nAttendees will gain a practical understanding of how open-source geospatial tools can scale from small drone surveys to city-wide imagery processing while keeping infrastructure costs accessible.",
+    "start_datetime": "2026-09-02T08:30:00Z",
+    "end_datetime": "2026-09-02T09:00:00Z",
+    "talk:code": "7FML9X",
+    "talk:guid": "992bd29c-9f06-5ed2-be7e-187b71f65962",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Himawari",
+    "talk:room_capacity": 300,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "MM3EMS",
+        "name": "Sam Woodcock",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/MM3EMS/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T08:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/7FML9X/",
+      "title": "City-scale imagery generation using a handful of cheap consumer drones"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/7FML9X/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/MM3EMS/",
+      "title": "Sam Woodcock"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/7FML9X/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-2026/submissions/7FML9X/resources/city-scale-drone-imagery_9PsqFpF.html",
+      "title": "Slides",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "PLW9VW",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Data4Land - reproducible open-source tool for enrichment of land-use/land-cover rasters and connectivity maps.",
+    "description": "We present Data4Land (https://doi.org/10.1016/j.softx.2025.102226), a flexible and reusable open-source workflow for semi-automatic enrichment of remote sensing products, such as land-use/land-cover (LULC) datasets, with other vector datasets of higher accuracy and consistency, such as OpenStreetMap (OSM). Originally designed for analyses of functional habitat connectivity, where features such as roads and railways dissect natural habitats, the workflow has applications in a range of environmental monitoring and assessment, for example predicting land conversion or analysing land surface temperatures. Data4Land is published on github along with a sample raster dataset and a set of suggested test values for ecological parameters. The sample dataset covers part of England and includes nine category labels representing LULC classes. Samples of input data and folder structure for output data are located in the data subrepository, and the detailed user guide is available in the documentation.\r\nUsers are not constrained to use the modular noteboooks for connectivity computation, but can run any of them in combination to create updated LULC datasets for multiple purposes. The input parameters, such as the width of buffer or decay rate, are flexible, and users should define them with reference to their own ecological framework or research question (e.g. species and their migration characteristics, stressors etc.). \r\nConnectivity between natural habitats is an important parameter for mitigating the \u2018demographic bottlenecks\u2019 that affect populations\u2019 survival in natural and semi-natural ecosystems, and wildlife corridors are widely recognised as an effective approach to ensure or restore movement of plants and animals between habitats. However, land-use/land-cover datasets produced from remote sensing may not consistently capture small/linear features of interest, including ecological barriers, eg. roads, railways and water objects. These features may boost or limit habitat connectivity (depending on the species being considered), while being too narrow to be detected through widely-used remote sensing products (for example, Landsat and Sentinel) due to relatively small spatial resolution (20\u201330 m) and shadows cast by vegetation. To overcome this challenge, the open-source Data4Land workflow  was developed to enrich the LULC with vector data dynamically retrieved from open APIs (for example, OpenStreetMap or World Database on Protected Areas). Users apply Data4Land through a series of open-source Jupyter notebooks which can be flexibly configured to model different impacts and diffusion of impacts for specific feature classes. A particular strength of the workflow is the capacity to vary the distance at which landscape features such as roads and urban areas exert impact on the surrounding landscape. This allow the creation of suites of landscape maps which capture the sensitivities of different species groups to anthropogenic pressures such as noise, disturbance and pollution.\r\nTo illustrate the use of Data4Land outputs, we assess historical trends (1987-2022) and analyse connectivity dynamics for a range of threatened species with different ecological characteristics. Case studies for Catalonia and Northern England and for Albera Natural Park in the Pyrenees have been used to demonstrate the capabilities of the developed technical workflow at the regional and local extent respectively. The regional case studies focus mainly on forest- and shrubland-dwelling species (badger, beech marten, common genet, stoat, and hedgehog), The local case study considers Testudo hermanni (Hermann\u2019s tortoise), which is is particularly vulnerable to habitat fragmentation due to its limited dispersal ability. Connectivity outputs for the local case study are validated with species occurrence records from GBIF, iNaturalist and the administration of Albera park. \r\nWhere vector data represented ecological barriers, connectivity indices tended to drop at all scales once the enriched LULC datasets were implemented. Edge effects of biodiversity stressors affected connectivity by up to 2.9-fold, while low spatial resolution underestimates the role of \u2018stepping stones\u2019\u2019, and individual filtering of OpenStreetMap features was essential for datasets with spatial resolution > 30 m. Data4Land prevents the calculation of spurious ecological corridors between species\u2019 habitats by applying ecological barriers not covered in input datasets. It results in lower, and more realistic, connectivity values and provide a more sophisticated representation of actual ecological corridors compared to connectivity computations based on non-enriched remote sensing LULC datasets.\r\nThis scalable workflow enables automated habitat connectivity assessments for regional and local spatial planning, biodiversity conservation, and ecosystem services evaluations. It demonstrates the interoperability of four open-source technical components and highlights the need for multiple connectivity indices, as their temporal trends may diverge and are not always intercorrelated.\r\nThe Data4Land tool is capable of providing users with more accurate reflections of land use and land cover not only for nature conservation studies but also in other fields. The connectivity case study illustrates the value of a transparent and repeatable workflow in which parameters such as dispersal distance and edge effects of stressor features can be systematically varied in order to consistently assess their effect. The developed workflow is flexible and scalable and would be useful to implement at regional and local scales by planning authorities, environmental consultants, and nature conservation experts as a part of environmental impact assessments. We believe that the Data4Land tool will be a useful contribution to analysis not only of habitat connectivity, but of a range of landscape analyses where documentation of provenance and process are important.",
+    "start_datetime": "2026-09-03T04:00:00Z",
+    "end_datetime": "2026-09-03T04:30:00Z",
+    "talk:code": "PLW9VW",
+    "talk:guid": "7bfae169-7697-5c92-aa3d-004e5ff3dfeb",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos1",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "9QRKPJ",
+        "name": "Lucy Bastin",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/9QRKPJ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-03T04:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/PLW9VW/",
+      "title": "Data4Land - reproducible open-source tool for enrichment of land-use/land-cover rasters and connectivity maps."
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/PLW9VW/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/9QRKPJ/",
+      "title": "Lucy Bastin"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/PLW9VW/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

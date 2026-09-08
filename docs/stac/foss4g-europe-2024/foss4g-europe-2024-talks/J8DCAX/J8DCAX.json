@@ -1,0 +1,127 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "J8DCAX",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "A Processing Pipeline For European Official Statistics: Towards Standardisation Of Mobile Network Operator Data Processing",
+    "description": "Disclaimer: The views in this abstract are those of the authors and do not necessarily reflect the position of the European  Commission (EC) or national statistical institutes\r\n\r\nAbstract: \r\nThe European Statistical System (ESS) \u2013 the partnership between the EU statistical authority (Eurostat) and national statistical institutes (NSI), and other statistical authorities in the European member states \u2013 considers Mobile  Network Operator (MNO) data as one of the most promising new data sources for future statistical production. The production of official statistics based on MNO data has the potential to provide considerable societal value. In this context, the ESS emphasises the need for standardised reference methods adhering to the principles of statistical production, such as quality, privacy protection, and transparency.  \r\n\r\nIn line with the ESS Innovation Agenda, following an open call for tenders, in December 2022, Eurostat awarded the service contract \u201cDevelopment, implementation and demonstration of a reference processing pipeline for the future production of official statistics based on Multiple Mobile Network Operator data (TSS multi MNO)\u201d*. The project is a significant milestone towards the future reuse of MNO data for the production of official statistics at EU level. The goal of the project is to develop a complete, open end-to-end processing pipeline that should serve as a starting point towards the regular production of future official statistics based on  MNO data Europe-wide. This \u201cprocessing pipeline\u201d encompasses a combination of a fully documented open methodological and quality framework, plus the implementation of a reference open-source software pipeline compliant with the said framework. The processing pipeline will be demonstrated across data from multiple MNOs. If successful, the reference pipeline developed by the project will be proposed for adoption by the ESS  as a methodological standard.  \r\nThe project is being implemented by a consortium providing extensive experience from both the business and the official statistics domains. The consortium is composed of GOPA Worldwide Consultants GmbH (DE) - lead,  Nommon Solutions and Technologies SL (ES), Positium O\u00dc (EE), Statistics Netherlands (NL) and the Italian  Statistical Institute (IT). Additionally, five European MNOs from four distinct countries will be involved in the pipeline testing. \r\nThis collaborative endeavour aligns with the European Data Strategy's goal of providing comparable and reliable statistics across European countries. The project addresses the challenge of providing open and standardised methodologies for official statistics without hampering the development of future private initiatives nor the continuation of the range of analytic products based on MNO data that have been developed and commercialised by mobile operators or other third-party entities for purposes other than European official statistics. \r\nWhile the project is financed by Eurostat (the EU statistical office), its ultimate success will depend on the potential endorsement of the project result by the larger ESS community (integrating all EU statistical offices and other national authorities). It is expected that this will have positive implications for future activities and may serve as a model that can be replicated in other domains, along with seeking closer collaboration with industry or business partners, more in general, in the context of initiating or strengthening co-development undertakings for the production of official statistics. \r\nThis contribution will focus on the presentation of the overall pipeline architecture and the description of an initial version of the processing pipeline. The architecture design will adhere to the highest technical requirements and methodological soundness. The proposed pipeline considers the division between data processing at the MNO environments and additional processing steps at the NSI or other parties.  \r\nThe software will be divided into modules for (1) the processing of disaggregated data exclusively at each  MNO\u2019s secured environment, and (2) the post-processing of aggregated and anonymous data at national statistical offices. The latter is particularly relevant since the post-processing will be performed on aggregated data after the application of statistical procedures, such as Statistical Disclosure Control (SDC), that ensure that individual data cannot be referenced back. Comprehensive documentation, including functionality,  implementation details, and usage instructions, will accompany the software. Reference test data, consisting of synthetic or semi-synthetic samples, will be created for each software module to ensure reproducibility and ease the development of alternative but fully compliant software implementations by independent entities.  \r\nThe entire open-source pipeline, including the codes and related documentation, as well as the methodological framework, will be openly published. The software codes will be published under an EUPL license, promoting transparency and accessibility, facilitating the replication and adoption of the developed software solutions,  and encouraging collaboration and further advancements in the field of statistical production. The reference implementation of the pipeline will be public, and results will be communicated to interested audiences through public official channels.",
+    "start_datetime": "2024-07-04T13:30:00Z",
+    "end_datetime": "2024-07-04T14:00:00Z",
+    "talk:code": "J8DCAX",
+    "talk:guid": "72f9804c-aaed-56fe-b5b0-b4823ebbcb19",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "FOSS4G \u2018Made in Europe\u2019",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Destination Earth (Van46 ring)",
+    "talk:room_capacity": 400,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "FGLPTA",
+        "name": "Kadri Arrak",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/FGLPTA/"
+      },
+      {
+        "code": "ZFTAD7",
+        "name": "Marko Peterson",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/ZFTAD7/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-04T13:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/J8DCAX/",
+      "title": "A Processing Pipeline For European Official Statistics: Towards Standardisation Of Mobile Network Operator Data Processing"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/J8DCAX/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/FGLPTA/",
+      "title": "Kadri Arrak"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/ZFTAD7/",
+      "title": "Marko Peterson"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/J8DCAX/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/J8DCAX/resources/A_Processing_Pipeline_for-European_Offic_fXzuxJC.pdf",
+      "type": "application/pdf",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/3ms2VShhc8a8z7Nzv5BQP9",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | A Processing Pipeline For European Official Statistics: Towards Standardisation ...",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=hPq16CIfq-s",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | A Processing Pipeline For European Official Statistics: Towards Standardisation ...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

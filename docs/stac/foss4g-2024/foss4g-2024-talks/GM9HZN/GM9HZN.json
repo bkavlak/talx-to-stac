@@ -1,0 +1,121 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "GM9HZN",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Visualizing Overture Maps Data with Lonboard in a Jupyter Notebook",
+    "description": "Visualizing and analyzing large-scale geospatial datasets, such as Overture Maps' comprehensive global dataset containing more than 3 billion features grows more challenging as these datasets continue to expand in size and scale. This presentation introduces Lonboard, a cutting-edge open-source Python library designed to address this challenge by enabling fast, interactive geospatial vector data visualization within Jupyter notebooks.\r\n\r\nLonboard's exceptional performance and ease of use stem from its innovative architecture, built on four key technologies: deck.gl for GPU-accelerated rendering, GeoArrow for efficient in-memory representation, GeoParquet for optimized file storage, and anywidget for seamless Jupyter integration. This powerful combination allows Lonboard to move data from Python to JavaScript and then to the GPU with unprecedented efficiency.\r\n\r\nUnlike existing solutions that rely on slower GeoJSON encoding, Lonboard employs a fully binary pipeline. It leverages GeoPandas as the primary user interface, internally managing conversions to GeoArrow and GeoParquet for efficient data transport and rendering. This approach not only accelerates data processing but also significantly reduces the data size transferred to the browser.\r\n\r\nWe will demonstrate Lonboard's capabilities using Overture Maps data, which is provided in GeoParquet format as monthly releases. This showcase will highlight how Lonboard's simple interface allows researchers and data scientists to effortlessly visualize and interact with cloud-native, optimized geospatial data at a global scale.",
+    "start_datetime": "2024-12-05T19:00:00Z",
+    "end_datetime": "2024-12-05T19:30:00Z",
+    "talk:code": "GM9HZN",
+    "talk:guid": "33b00025-52c4-5fb5-973e-f01c7805650e",
+    "talk:event": "foss4g-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room V",
+    "talk:room_capacity": 80,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "9FWXRN",
+        "name": "Vitor George",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/9FWXRN/"
+      },
+      {
+        "code": "9H9JMS",
+        "name": "Jennings Anderson",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/9H9JMS/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-05T19:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/GM9HZN/",
+      "title": "Visualizing Overture Maps Data with Lonboard in a Jupyter Notebook"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/GM9HZN/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/9FWXRN/",
+      "title": "Vitor George"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/9H9JMS/",
+      "title": "Jennings Anderson"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/GM9HZN/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024/submissions/GM9HZN/resources/Visualizing_Overture_Maps_Data_with_Lonboard_in_18WZUMW.pdf",
+      "type": "application/pdf",
+      "title": "Presentation Slides",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "lonboard-website": {
+      "href": "https://developmentseed.org/lonboard",
+      "title": "Lonboard Website",
+      "roles": [
+        "data"
+      ]
+    },
+    "overture-maps": {
+      "href": "https://overturemaps.org",
+      "title": "Overture Maps",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

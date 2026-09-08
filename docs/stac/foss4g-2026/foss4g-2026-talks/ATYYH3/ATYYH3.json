@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "ATYYH3",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Estimation of Soil Organic Carbon and Total Nitrogen in Thailand's Rubber Plantations Using Multispectral Imagery and Machine Learning Algorithms",
+    "description": "Soil organic carbon (SOC) and total nitrogen were estimated using Sentinel-2 vegetation indices and machine learning in northeastern Thailand. After outlier removal, Random Forest achieved R\u00b2 = 0.63 for SOC and R\u00b2 = 0.39 for total N, with BSI and BAEI as dominant predictors.\n\n**Description (\u2248320 words)**\r\n\r\nThis study investigates the potential of multispectral satellite imagery and machine learning techniques to estimate soil organic carbon (SOC) and total nitrogen (N) in rubber plantation soils in northeastern Thailand. Soil organic carbon and nitrogen are important indicators of soil fertility, nutrient cycling, and ecosystem productivity. In rubber plantation systems, maintaining adequate soil nutrient levels is essential for sustainable agricultural production and long-term soil health. Conventional soil sampling and laboratory analyses provide reliable measurements but are often costly, time-consuming, and limited in spatial coverage. Remote sensing approaches, particularly satellite-derived spectral indices combined with machine learning algorithms, provide an alternative method for large-scale soil property assessment and monitoring.\r\n\r\nField-based soil measurements were integrated with spectral indices derived from Sentinel-2 multispectral imagery. Sentinel-2 offers high spatial resolution and multiple spectral bands suitable for vegetation and soil analysis. Several vegetation, moisture, and soil-related indices were calculated, including the Normalized Difference Vegetation Index (NDVI), Enhanced Vegetation Index (EVI), Soil Adjusted Vegetation Index (SAVI), Modified Soil Adjusted Vegetation Index (MSAVI), Green Normalized Difference Vegetation Index (GNDVI), Normalized Difference Water Index (NDWI), Modified Normalized Difference Water Index (MNDWI), Normalized Difference Moisture Index (NDMI), Normalized Burn Ratio (NBR), Leaf Area Index (LAI), Bare Soil Index (BSI), Soil Index (SI), Normalized Difference Built-up Index (NDBI), Urban Index (UI), Built-up Area Extraction Index (BAEI), Normalized Difference Red Edge Index (NDRE), Red-Edge Chlorophyll Index (CIre), and MERIS Terrestrial Chlorophyll Index (MTCI). These indices capture variations in vegetation condition, soil exposure, moisture dynamics, and surface reflectance characteristics that may influence soil nutrient variability.\r\n\r\nData preprocessing involved removing missing values and detecting outliers to improve model reliability. After preprocessing, 79 samples were retained for SOC modelling and 95 samples for total nitrogen modelling. Random Forest regression was applied due to its ability to capture nonlinear relationships and interactions among predictor variables.\r\n\r\nThe modelling results indicate that SOC estimation achieved moderate predictive performance with a coefficient of determination (R\u00b2) of 0.63, root mean square error (RMSE) of 0.198, and mean absolute error (MAE) of 0.166. Feature importance analysis showed that the Bare Soil Index (BSI) and Built-up Area Extraction Index (BAEI) were the most influential predictors, followed by the Normalized Difference Built-up Index (NDBI) and Urban Index (UI). For total nitrogen prediction, the model showed lower predictive performance (R\u00b2 = 0.39, RMSE = 0.0107, MAE = 0.0088), with key predictors including soil organic matter, MERIS Terrestrial Chlorophyll Index (MTCI), Modified Normalized Difference Water Index (MNDWI), Green Normalized Difference Vegetation Index (GNDVI), and Soil Index (SI).\r\n\r\nThe results demonstrate the potential of integrating Sentinel-2 multispectral data and machine learning techniques for soil property estimation. Future work should improve field sampling strategies and incorporate additional environmental variables to enhance model accuracy and support soil monitoring in rubber plantation systems.",
+    "start_datetime": "2026-09-02T07:00:00Z",
+    "end_datetime": "2026-09-02T07:30:00Z",
+    "talk:code": "ATYYH3",
+    "talk:guid": "768e18d8-fcdb-5027-8592-29c4109c0bd2",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room5",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "DAHKDL",
+        "name": "Pramet Kaewmesri",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/DAHKDL/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T07:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/ATYYH3/",
+      "title": "Estimation of Soil Organic Carbon and Total Nitrogen in Thailand's Rubber Plantations Using Multispectral Imagery and Machine Learning Algorithms"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/ATYYH3/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/DAHKDL/",
+      "title": "Pramet Kaewmesri"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/ATYYH3/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

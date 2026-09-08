@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "JKBHTM",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Serverless Planet-scale Geospatial with Protomaps and PMTiles",
+    "description": "Protomaps is a simple, self-hostable system for tiled vector datasets. In the year since last FOSS4G, we've rolled out a new compressed specification (V3), added support for tile generation tools, and open sourced key integrations with content delivery networks. This talk will give an overview of:\r\n\r\n* Why you might want to, or not want to, deploy Protomaps for your application\r\n* PMTiles write support in the popular Tippecanoe and Planetiler tools\r\n* The new open source integrations of Protomaps with AWS Lambda and Cloudflare\r\n* Overview of real-world deployments for users in web GIS, journalism and the public sector",
+    "start_datetime": "2023-06-28T09:00:00Z",
+    "end_datetime": "2023-06-28T09:30:00Z",
+    "talk:code": "JKBHTM",
+    "talk:guid": "51aba096-0415-5c9b-b288-f4f3884a093e",
+    "talk:event": "foss4g-2023",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Mirusha",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RUXECV",
+        "name": "Brandon Liu",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/RUXECV/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T09:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/JKBHTM/",
+      "title": "Serverless Planet-scale Geospatial with Protomaps and PMTiles"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/JKBHTM/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/RUXECV/",
+      "title": "Brandon Liu"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/JKBHTM/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/dpQCdNWCLTWojqMy1Q2uQE",
+      "type": "text/html",
+      "title": "2023 | Serverless Planet-scale Geospatial with Protomaps and PMTiles - Brandon Liu",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=zpQMLLDAowM",
+      "type": "text/html",
+      "title": "2023 | Serverless Planet-scale Geospatial with Protomaps and PMTiles - Brandon Liu",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

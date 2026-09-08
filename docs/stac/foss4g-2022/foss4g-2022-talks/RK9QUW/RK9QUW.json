@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "RK9QUW",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Status of OTBTF, the Orfeo ToolBox extension for deep learning",
+    "description": "OTBTF is a remote module of the Orfeo ToolBox enabling deep learning with remote sensing images.\r\nCreated in 2018, it aimed to provide a generic framework for various kind of raster-oriented deep-learning based applications.\r\nOriginally, OTBTF included user-oriented applications for patches sampling, model training, and inference on real world remote sensing images, and a few python scripts to help users with no coding skills to generate some ready-to-use models.\r\nA few years later, it has been used for a wide range of applications, like landcover mapping at country scale, super-resolution, optical image cloud removal, etc.\r\nThis talk will present a few selected IA based applications powered by OTBTF in the framework of research projects, public policies support, or teaching.\r\nWe will present the recent features added in OTBTF and we are very happy to introduce what is next!\r\nMore details on the project on the github repository: github.com/remicres/otbtf",
+    "start_datetime": "2022-08-25T10:30:00Z",
+    "end_datetime": "2022-08-25T11:00:00Z",
+    "talk:code": "RK9QUW",
+    "talk:guid": "3b5be26d-4c45-5fa1-8af6-7138f0586e16",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Verde",
+    "talk:room_capacity": 230,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "SM7WCE",
+        "name": "remi.cresson@inrae.fr",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/SM7WCE/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T10:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/RK9QUW/",
+      "title": "Status of OTBTF, the Orfeo ToolBox extension for deep learning"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/RK9QUW/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/SM7WCE/",
+      "title": "remi.cresson@inrae.fr"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/RK9QUW/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=hNwglulxm7c",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Status of OTBTF, the Orfeo ToolBox extension for deep learning",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "T7TNGZ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Breaking the Browser\u2019s Limit: High-Performance Spatial Analytics with GeoArrow & DuckDB",
+    "description": "high-performance, serverless spatial analytics framework using GeoArrow, DuckDB-Wasm, and Parquet. By shifting from row-based GeoJSON to a columnar architecture, the method achieves a 10x\u201350x performance boost, enabling the seamless browser-based visualization and processing of over ten million records without backend infrastructure.\n\nCurrent spatial analytics within web browsers face severe performance bottlenecks when handling large-scale datasets, primarily due to reliance on row-based formats like GeoJSON. These structures incur significant serialization overhead and excessive memory consumption. This paper proposes a transition toward a columnar architecture leveraging GeoArrow, a spatial extension of the Apache Arrow standard. By utilizing binary in-memory storage, GeoArrow enables \"zero-copy\" data transfer and optimizes memory locality\u2014key factors in overcoming the hardware constraints of modern browser environments.\r\nThis study demonstrates the seamless processing and visualization of over ten million spatial records directly within the browser. By querying Parquet files hosted on Google Cloud Platform (GCP) via DuckDB-Wasm and GeoArrow, this approach achieves a 10 - 50x performance increase compared to traditional methods. It allows for the rendering of massive raw datasets while maintaining high interactivity and fluidity, all without the need for intermediary API servers or backend infrastructure. By eliminating architectural complexity and maximizing execution speed, this methodology establishes a robust foundation for the next generation of serverless, high-efficiency GIS web applications.",
+    "start_datetime": "2026-09-01T05:30:00Z",
+    "end_datetime": "2026-09-01T06:00:00Z",
+    "talk:code": "T7TNGZ",
+    "talk:guid": "546f7d70-3bbe-5fd9-8492-27f06b094850",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room4",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "AUGXUN",
+        "name": "Phanukorn Kongphet",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/AUGXUN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T05:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/T7TNGZ/",
+      "title": "Breaking the Browser\u2019s Limit: High-Performance Spatial Analytics with GeoArrow & DuckDB"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/T7TNGZ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/AUGXUN/",
+      "title": "Phanukorn Kongphet"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/T7TNGZ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

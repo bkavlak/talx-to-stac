@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "S9ACUV",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Simulation of the effects of possible regulations for the location of wind and photovoltaic power plants in the Lazio Regional Administration (Italy)",
+    "description": "The need to make electricity production increasingly sustainable requires careful planning of production plants, mainly for wind and photovoltaic energy conversion. Planning areas correctly, while respecting existing environmental constraints, is not an easy task and requires the collaboration of a panel of experts with different skills.\r\n\r\nThe need to search for new sites to be allocated to renewable energy generation plants is dictated by the most pressing current events, the search for non-impacting energy sources to whose research and development specific points of the National Resistance and Resilience Plan are dedicated, to which are added the consequences of the newborn Ukrainian conflict that has definitively discovered the problematic relationship-dependence of Italy and Europe with energy supplies from non-European countries. Both issues are pushing the country towards a rapid search for new energy strategies for environmental reasons and to make up for natural shortages that require massive imports of gas and other resources from abroad. \r\nIn particular, the National Recovery and Resilience Plan (PNRR), part of the European Next Generation EU (NGEU) programme, a 750 billion euro package allocated by the European Union to counteract the economic damage caused by the Covid-19 global pandemic, is an economic plan worth 248 billion euro that Italy can use in the five-year period from 2021 to 2026 to implement various reforms and repair the damage created by the pandemic crisis. \r\nThe plan, presented to the EU under the name 'Italia Domani', envisages investments along three main axes: digitalisation and innovation, ecological transition and social inclusion. These economic interventions are intended to resolve the drama caused by the advent of the Sars-Cov2 virus and help solve structural problems in the Italian economy, accompanying the country towards a path of ecological and environmental transition. It also aims to resolve important issues such as territorial, generational and gender gaps.  \r\nIt is in this context that the national legislation is undergoing a revision, which has entrusted the regional administrations with the task of identifying the territorial criteria that favour or prevent the establishment of certain plants in the various areas of the territory. Each regional administration has the right to graduate the criteria according to the specific geomorphologic characteristics of its own territory and therefore the most efficient procedure would be to verify, with simulations in GIS environments, the effect of defining certain criteria on the territory to assess in advance which and how many areas could have greater or lesser suitability. On the basis of this consideration, we proceeded to experiment with the effects of the most common constraints by developing a real simulation on the territory of the Lazio Region.\r\n\r\nThe experimentation used the well-known open environment QGIS 3.22, which made it possible to exploit the possibilities offered by the open territorial databases of the Lazio Region.\r\nIt should be noted that the Lazio Region (like most Italian regions) has made many spatial data available in open format in recent years. The European directive called \"Inspire\" gave a boost to the use, standardisation and free dissemination of spatial data. It provides for the creation of a Community data infrastructure that simplifies the sharing between public administrations and user access to spatial information. In Italy, the directive was transposed into Italian law by Legislative Decree no. 32 of 27 January 2010, which established the National Infrastructure for Spatial Information and Environmental Monitoring as a node of the Community infrastructure. As a result of this implementation, the National Geoportal was created, which was followed by the various Regional Geoportals, such as that of the Lazio region.\r\n\r\nThe implementation of the open data in QGIS 3.12 made it possible to identify topological inaccuracies in the files provided and shared on the Lazio Region site, which led to necessary decisions such as the correction of some polygons that presented errors, such as their overlapping or imperfect closure (the correction of the latter case was suggested by QGis itself, through the \"reopen geometries\" function). \r\nA possible inaccuracy was also found in the \"lowland species\" and \"mountain species\" files of the Regional Ecological Network, which seems to show an error in the transcription of the relative geodetic datum on the website, where it is reported as WGS84, UTM33N and resulting from verifications and overlapping more likely ED50 . Uncategorised areas also emerged in the file called \"PTPR Regione Lazio (Tav. A - Tav. B)\" which were however excluded from those considered to be unsuitable since a more detailed analysis revealed the area of the Parco della Caffarella in Rome, which is hardly conceivable as the site for a wind farm or large-scale photovoltaic plant. Extraterritorial areas within the Region's territory belonging to the State of \"Vatican City\" were also added as \"unsuitable\".\r\nThe first results show that the remaining areas after eliminating all those that are certainly unsuitable are a limited part of the Region itself. It should be noted that these areas are not definitely suitable areas but those that are not unsuitable or potentially suitable, even if further investigation is required to ascertain their suitability.\r\nThe limited extent of the areas remaining after the exclusion of the unsuitable areas suggested that we make an initial estimate of the sustainability of a total conversion to these energy sources for the whole region in order to assess its potential energy autonomy.\r\nThe analysis was extended to individual municipalities by comparing average yields per conceivable plant area, then comparing them with inhabitants for an initial estimate of energy needs at least for domestic use.",
+    "start_datetime": "2022-08-25T08:15:00Z",
+    "end_datetime": "2022-08-25T08:20:00Z",
+    "talk:code": "S9ACUV",
+    "talk:guid": "014dd836-bc41-5f5c-b36a-00574010b561",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "Room Hall 3A",
+    "talk:room_capacity": 85,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "YLYNAM",
+        "name": "Valerio Baiocchi",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/YLYNAM/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T08:17:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/S9ACUV/",
+      "title": "Simulation of the effects of possible regulations for the location of wind and photovoltaic power plants in the Lazio Regional Administration (Italy)"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/S9ACUV/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/YLYNAM/",
+      "title": "Valerio Baiocchi"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/S9ACUV/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

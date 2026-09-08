@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "3SYURF",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Multi-branch Deep learning Based Transport Mode Detection using Weakly Supervised Labels",
+    "description": "Mobility data, based on global positioning system (GPS) tracking, have been widely used in many areas.\u00a0 These include analyzing travel patterns, investigating transport safety and efficiency, and evaluating travel impacts. Transport Mode Detection (TMD) is an essential factor in understanding mobility within the transport system.\u00a0 A TMD model assigns a GPS point or a GPS trajectory to a particular transport mode based on the user's activity and medium of travel [1].\u00a0 However, the complexity of the prediction procedure increases with the number of modes that need to be predicted. For example, it is comparatively easy to predict whether a user is 'static' or 'slow moving' or 'fast moving' but it's hard to predict detailed transport modes such as walk, bike, car, bus, train, boat, etc.\u00a0 Therefore, this study proposes a multi-branch deep learning-based TMD model which can predict multi-class transport modes.\u00a0\r\n\r\n\r\nTwo major challenges need to be addressed in order to generate a state-of-the-art deep learning model.\r\n\r\n\r\nThe first is to prepare ground-truth data. There are insufficient open-sourced ground-truth data available for transport modes in Japan. Hence, we proposed a transport mode label generation approach using snorkel [2]. Snorkel is a weakly supervised labeling function, a first-of-its-kind system that enables users to train state-of-the-art models without hand labeling any training data. Instead, experts write labeling functions that express arbitrary heuristics based on the logic that can be drawn from understanding the data and the physical actions they represent. In this study, we used snorkel for generating the ground truth data for transport mode. Initially, we considered publicly available road networks, railway networks, bus routes, etc., for creating road, bus, train labels by overlaying GPS points on these transportation networks. However, there are multiple occasions where the road, bus, and train classes overlap each other, especially in a city region. Hence, we introduced a boolean (True/False) based soft-labeling function, where the same GPS point might have multiple True values for road or railway.\u00a0\r\n\r\n\r\nSecond, we derived mobility-related features from the raw GPS data. Raw GPS raw data is typically composed of latitude, longitude, and timestamps. The raw GPS data were used to generate point-level features such as speed, speed difference, acceleration, acceleration difference, initial bearing, and bearing difference. Apart from that, we also generated trajectory level features such as average speed and average acceleration.\u00a0\u00a0\r\n\r\n\r\nTransportation network-based soft-labeling and other mobility features are used to define labeling functions in the snorkel. These label functions are used to create true ground truths using a generative machine learning model with a portion of the GPS data. The generated labels (walk, cycle, bus, car, train, boat/ship) were then used to train the proposed deep learning model.\u00a0 To construct the model we opted to use two branches where raw GPS latitude and longitude values were used in one and the derived mobility features are used in the other. We used 3 fully-connected hidden layers for raw GPS data (lat/lon) and 4 fully connected hidden layers for mobility features.\u00a0 Features derived from the two branches are concatenated. Further, 3 fully connected hidden layers and softmax cross-entropy were used as a loss function. The proposed deep learning model has 108,614 trainable parameters and Adam is used as an optimizer. This particular two-branch model structure achieves better accuracy as it combines raw data as well as the derived mobility features in the network.\u00a0 An example of the benefit from this approach benefit can be the network's ability to relate GPS coordinates with road driving classes, thus inherently inferring that location as on a road.\u00a0 Note, many of these inferences that improve classification accuracy are possible via dramatically more advanced pre-processing to build out additional features.\u00a0 However, that approach is more time-consuming and could never catch all the potential inferences that an unbiased set of deep learning layers can inherently extract.\r\n\u00a0\r\n\r\n\r\nWe evaluated the trained model's effectiveness in two ways.\u00a0 We compared the results against the popular XGBoost classifier, with our model producing over 5% higher accuracy for the benchmark Geolife dataset [3].\u00a0 Moreover, we collected smartphone-based GPS trajectories for multiple modes of transportation collected by testers in Bengaluru, India, and Tokyo, Japan.\u00a0 With this new absolute ground truth data, we compared the resulting predicted classes between operating system-provided activity classifications, the above XGBoost model, and our own.\u00a0 Our experiments show promising results with improved accuracy and increases in number of labeled data points.\u00a0 Of key note is that the iOS [4] and android [5]in-built activity recognition tools provide the 'automotive' class as a single class, while our proposed model efficiently distinguishes automotive classes as car, bus, and train with improved accuracy. This work completely depends upon Free and Open Source Solutions (FOSS) for data preparation, mobility feature generation, deep learning model training, and big data computing. That includes various geospatial libraries such as geopandas, shapely, rtree, weakly label generation platform snorkel, deep learning platform tensorflow,\u00a0 keras, big-data computing platforms such as pyspark, hadoop, hive, etc.",
+    "start_datetime": "2022-08-24T10:05:00Z",
+    "end_datetime": "2022-08-24T10:10:00Z",
+    "talk:code": "3SYURF",
+    "talk:guid": "7a9622c9-e3d8-506f-9537-779709b40cb3",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "Room Hall 3A",
+    "talk:room_capacity": 85,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "DSKWMD",
+        "name": "Vinayaraj",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/DSKWMD/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T10:07:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/3SYURF/",
+      "title": "Multi-branch Deep learning Based Transport Mode Detection using Weakly Supervised Labels"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/3SYURF/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/DSKWMD/",
+      "title": "Vinayaraj"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/3SYURF/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

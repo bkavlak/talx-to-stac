@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "LXVTSW",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Mapping invasive canopy-smothering vines in the tropical Pacific using SAR and open-source geospatial tools",
+    "description": "Invasive canopy-smothering vines such as Decalobanthus peltatus threaten tropical forests but are difficult to map under persistent cloud cover. This talk presents a SAR-based workflow using Sentinel-1 and open-source geospatial tools to detect and map infestation across Pacific islands, supporting reproducible, transferable monitoring for management.\n\nDecalobanthus peltatus is an invasive canopy-smothering vine that spreads rapidly through tropical forest and is difficult to map reliably with optical imagery alone, especially in persistently cloudy regions. This talk presents a SAR-based approach for detecting and mapping vine infestation in selected areas across the Pacific using freely available Sentinel-1 data and open-source geospatial tools. We use grey-level co-occurrence matrix (GLCM) textural metrics derived from SAR imagery to characterize canopy pattern and structure associated with vine-infested forest and to distinguish infestation from surrounding vegetation. The workflow is implemented with open-source geospatial software and is designed to be reproducible and scalable across multiple sites. Results show that SAR texture metrics can identify infestation patterns that are difficult to detect consistently with optical imagery alone, while also improving monitoring through more complete time series in cloud-prone regions and supporting more timely management responses through higher temporal coverage. The talk will show where the approach performs well, where confusion remains, and what this means for operational vegetation mapping in the region.",
+    "start_datetime": "2026-09-02T07:00:00Z",
+    "end_datetime": "2026-09-02T07:30:00Z",
+    "talk:code": "LXVTSW",
+    "talk:guid": "afd72213-3387-5e63-b96e-3aa5c6ea9fc4",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Dahlia2",
+    "talk:room_capacity": 140,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "37VPNQ",
+        "name": "Iosefa Percival",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/37VPNQ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T07:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/LXVTSW/",
+      "title": "Mapping invasive canopy-smothering vines in the tropical Pacific using SAR and open-source geospatial tools"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/LXVTSW/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/37VPNQ/",
+      "title": "Iosefa Percival"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/LXVTSW/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

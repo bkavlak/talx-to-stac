@@ -1,0 +1,93 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "VMNCM3",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "An approach for real-time validation of the location of biodiversity observations contributed in a citizen science project",
+    "description": "Motivation:\r\n\r\nBecause of technological advancements, public participation in scientific projects, known as citizen science, has grown significantly in recent years (Schade and Tsinaraki 2016; Land-Zandstra et al. 2016). Contributors to citizen science projects are very diverse, coming from a variety of expertise, age groups, cultures, and so on, and thus the data contributed by them should be validated before being used in any scientific analysis. Experts typically validate data in citizen science, but this is a time-consuming process. One disadvantage of this is that volunteers will not receive feedback on their contributions and may become demotivated to continue contributing in the future. Therefore, a method for (semi)-automating validation of citizen science data is critical. One way that researchers are now focusing on is the use of machine learning (ML) algorithms to validate citizen science data.\r\n\r\nMethodology:\r\n\r\nWe developed a citizen science project with the goal of collecting and automatically validating biodiversity observations while also providing participants with real-time feedback. We implemented the application with the Django framework and a PostgreSQL/PostGIS database for data preservation. In general, the focus of biodiversity citizen science applications is on automatically identifying or validating species images, with less emphasis on automatically validating the location of observations. Our application's focus, aside from image and date validation (Lotfian et al. July 15-20, 2019), is on automatically validating the location of biodiversity observations based on the environmental variables surrounding the observation point. In this project, we generated species distribution models using various machine learning algorithms (Random Forest, Balanced Random Forest, Deep Neural Network, and Naive Bayesian) and used the models to validate the location of a newly added observation. After comparing the performance of the various algorithms, we chose the one with the best performance to use in our real-time location validation application.\r\n\r\nWe developed an API that validates new observations using the trained models of the chosen algorithm. The Flask framework was used to create the API. The API uses the location and species name as parameters to predict the likelihood of observing a species (for the time being, a bird species) in a given neighborhood. Moreover, the model prediction, as well as information on species habitat characteristics are then communicated to participants in the form of real-time feedback. The API has three endpoints: a POST request that takes the species name and location of observation and returns the model prediction for the probability of observing the species in a 1km neighborhood around the location of observation; a GET request that takes the location of observations and returns the top five species likely to be observed in a 1km neighborhood around the location of observation; and a GET request that returns the species common names in English.\r\n\r\n\r\nUser experiment:\r\n\r\nA user experiment was carried out to investigate the impact of automatic feedback on simplifying the validation task and improving data quality, as well as the impact of real-time feedback on sustaining participation. Furthermore, a questionnaire was distributed to volunteers, who were asked about their feedback on the application interface as well as the impact of real-time feedback on their motivation to continue contributing to the application.\r\n\r\nResults:\r\n\r\nThe results were divided into two parts: first, the performance of the machine learning algorithms and their comparison, and second, the results of testing the application through the user experiment.\r\n\r\nWe used the AUC metric to compare the performance of the machine learning algorithms, and the results showed that while DNN had a higher median AUC (0.86) than the other three algorithms, DNN performance was very poor for some species (below 0.6). Balanced Random Forest (AUC median 0.82) performed relatively better for all species in comparison to the other three algorithms. Furthermore, for some species where the other three algorithms performed poorly (AUC less than 70%), Balanced-RF outperforms the others.\r\n\r\nThe user experiment results provided us with preliminary findings that support the combination of citizen science and machine learning. According to the findings of the user experiment, participants with a higher number of contributions found real-time feedback to be more useful in learning about biodiversity and stated that it increased their motivation to contribute to the project. Besides that, as a result of automatic data validation, only 10% of observations were flagged for expert verification, resulting in a faster validation process and improved data quality by combining human and machine power. \r\n\r\n\r\nWhy it should be considered:\r\n\r\nData validation and long-term participation have always been two of the most difficult challenges in citizen science and VGI (volunteer geographic information) projects. Various studies have been conducted on biodiversity data validation, focusing primarily on observation images with automatic species identification; however, not enough attention has been paid to observation location validation, particularly automatic location validation taking into account species habitat characteristics. Furthermore, to the best of our knowledge, the combination of machine learning and citizen science for sustaining participation by providing real-time user-centered and machine generated feedback to participants has received, till now, little attention and therefore our work is new, original and completely coherent with the vision of community citizen science, where scientists and citizen scientists are supposed to learn from each other. \r\n\r\nBibliography:\r\n\r\n\r\nLand-Zandstra, Anne M., Jeroen L. A. Devilee, Frans Snik, Franka Buurmeijer, and Jos M. van den Broek. 2016. \u201cCitizen Science on a Smartphone: Participants\u2019 Motivations and Learning.\u201d Public Understanding of Science  25 (1): 45\u201360.\r\n\r\nLotfian, Maryam, Jens Ingensand, Olivier Ertz, Simon Oulevay, and Thibaud Chassin. July 15-20, 2019. \u201cAuto-Filtering Validation in Citizen Science Biodiversity Monitoring: A Case Study.\u201d In Proceedings of the 29th ICA Conference. Vol. 2. https://doi.org/10.5194/ica-proc-2-78-2019.\r\n\r\nSchade S, Tsinaraki C.; Survey report: data management in Citizen Science projects; EUR 27920 EN; Luxembourg (Luxembourg): Publications Office of the European Union; 2016; doi:10.2788/539115",
+    "start_datetime": "2022-08-25T12:15:00Z",
+    "end_datetime": "2022-08-25T12:45:00Z",
+    "talk:code": "VMNCM3",
+    "talk:guid": "ecbecbe5-a940-5c16-9b83-a4aed1d89334",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room Hall 3A",
+    "talk:room_capacity": 85,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "SMRLLD",
+        "name": "Maryam Lotfian",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/SMRLLD/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T12:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/VMNCM3/",
+      "title": "An approach for real-time validation of the location of biodiversity observations contributed in a citizen science project"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/VMNCM3/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/SMRLLD/",
+      "title": "Maryam Lotfian"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.5194/ica-proc-2-78-2019",
+      "title": "doi.org/10.5194/ica-proc-2-78-2019"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/VMNCM3/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

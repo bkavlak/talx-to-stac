@@ -1,0 +1,93 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "78LBSE",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Streetview Image Inpainting with Image-Edit Diffusion Models",
+    "description": "This talk shows how using ComfyUI and the Qwen Image model to build a \"magic eraser\" for high-res street imagery. We\u2019ll dive into how to use AI-driven masks to scrub away the clutter while keeping the city\u2019s geometry intact, plus some tips on scaling this up.\n\nStreet-level imagery captured from vehicle-mounted cameras often contains dynamic and undesirable elements such as vehicles, pedestrians, signboards, glare artifacts, or privacy-sensitive regions. These elements limit downstream applications including mapping, urban analysis, visualization, and dataset preparation for computer vision tasks. In this talk, I present a practical, end-to-end inpainting pipeline built using ComfyUI and the Qwen Image-edit diffusion model, and how to make it work for high-resolution street-view imagery.\r\n\r\nThe workflow combines prompt-guided inpainting with mask-based control to selectively remove or modify objects while preserving structural and semantic consistency. I will walk through how segmentation masks are integrated into ComfyUI graphs, how Qwen Image handles context-aware reconstruction, \r\n\r\nI'll also talk about why other inpainting methods failed in this task, and only certain model succeed. Join to learn about how I used Image-edit model, segmentation model, and applied it to high res panoramic imagery",
+    "start_datetime": "2026-09-02T06:30:00Z",
+    "end_datetime": "2026-09-02T07:00:00Z",
+    "talk:code": "78LBSE",
+    "talk:guid": "bce26581-232a-53e4-b058-1a64d4d08e8b",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room5",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "UWNGAA",
+        "name": "Aman Bagrecha",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/UWNGAA/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T06:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/78LBSE/",
+      "title": "Streetview Image Inpainting with Image-Edit Diffusion Models"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/78LBSE/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/UWNGAA/",
+      "title": "Aman Bagrecha"
+    },
+    {
+      "rel": "related",
+      "href": "https://letstalkspatial.in/talks/",
+      "title": "letstalkspatial.in/talks"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/78LBSE/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

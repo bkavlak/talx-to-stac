@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "YRLJNG",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Using Sentinel 2 images to quantify agricultural encroachment in Burkina Faso\u2019s protected livestock reserves",
+    "description": "In many parts of Burkina Faso, competition over land use has increased tensions and often conflicts between farming and herding communities. Allocating land for farming or grazing is increasingly perceived as a zero-sum calculation among these communities. As a response, the government of Burkina Faso created \u201cPastoral Zones\u201d across the country as reserves for livestock herders where animals could graze without the risk of entering cropland. Farming in these areas is typically prohibited unless done by herders residing within the reserve. However, farms have appeared in pastoral zones over the years, reducing resources available to herders and exacerbating already fraught tensions between herding and farming communities (N\u00e9bie et al 2019). This study uses Sentinel 2 imagery to quantify to what extent agricultural growth is encroaching on two such pastoral zones in Southern Burkina Faso, Niassa and Sondr\u00e9-Est. This study found a significant growth of agricultural cultivation in both zones between the period of 2016 and 2021.\r\n\r\nTo map agricultural growth, Sentinel 2 imagery was used in Google Earth Engine (GEE). Reproducibility and accessibility were prioritized, hence the use of a free platform and open EO data was prioritised. Google Earth Engine stood out as an accessible cloud platform to easily access the imagery and run the analysis (Gorelick et al, 2017). To visualise agricultural areas, the \u201c3 Period Timescan\u201d (3PTS) Method was employed. This method uses a series of NDVI Images from the Sentinel 2 satellite throughout a growing season to isolate areas of active cultivation. This product consists of a Red-Green-Blue composite of Sentinel-2 Images where the red band represents the maximum NDVI value during the first period of the growing season, the green the maximum NDVI in the middle, and the blue the maximum NDVI at the end. As a result, the method is able to create a seasonal time-series profile of NDVI. A single NDVI product provides an indication of vegetation presence on a given date, but it is not sufficient to distinguish croplands from other types of vegetation. Croplands are thus identified by their temporal evolution of NDVI values throughout the different phases of the agricultural season: photosynthetic activity of crops is low during the planting period (\u201cbeginning of the season\u201d, approximated by 15th June to 1st August), increases during the growing phase (\u201cmiddle\u201d, 2nd August to 1st September) until reaching a maximum value right before the harvest; once harvested, NDVI values decrease drastically  (\u201cend of season\u201d, 2nd September to 15th October). Thus, the approach employed for investigating cropland change considers maximum NDVI values for those three separate subperiods of the agricultural season and aggregates this information into a higher-level product, a RGB color composite so-called 3-Period TimeScan, reflecting the vegetation temporal evolution during the agricultural period, at 10m resolution (Boudinaud and Orenstein, 2021). \r\n\r\n3PTS images allow for a user-friendly method to visually identify cropland. Cropland pixels from 3PTS images, when visualized in GEE appear in a dark blue due to the sharp changes from the 2nd and 3rd periods of the time series. This contrasts well with natural vegetation, which has a smoother temporal profile with a noticeable peak in the 2nd period and thus appears greener or a much lighter blue.  Forests, due to their high NDVI values throughout the entire growing season appear in white, due to the saturation of all 3 bands. Bare soil, with it\u2019s low NDVI values throughout all 3 periods appears as nearly black pixels. \r\n\r\nRather than machine learning, visual identification was the preferred method of identification due to the relatively small size of each pastoral zone. The time needed to prepare training data and clean the results of a supervised classification would have exceeded the time to manually identify each area of cropland. As a result, once the images were treated by GEE, they were manually traced within QGIS. The 3PTS script, originally made for GEE was then translated to run in PyQGIS. Once run, the script created a raster image for each year\u2019s growing season in the archive (2016-2021) and polygons were traced over each visualised cluster of cropland. The total surface area of all polygons was then calculated for each year. A github repository contains both the PyQGIS and GEE code and can be run with no prerequisites (https://github.com/oren-sa/3PTS).\r\n\r\nThe results of the study indicate a significant increase in cultivation in both zones between 2016 and 2021. For Sondr\u00e9 Est, this change amounted to 40% and 160% for Niassa.Curiously, the largest increase in cultivation seems to occur between 2016 and 2017. This is especially so for Niassa. Nonetheless, increases in cultivation increased with each passing year until the present year of 2021.  A number of these fields are suspected to be encroachments, given their proximity to the border of the zone and that many are contiguous with the agricultural fields outside of the zone\u2019s borders. However, it is estimated that a number of the fields are the result of the zones\u2019 resident herders planting fodder or other cereals. The latter assumption is made based on the location of the fields in question (far from the borders of the reserves) and their proximity to permanent structures in the reserves (habitations, wells or park buildings).",
+    "start_datetime": "2022-08-26T09:30:00Z",
+    "end_datetime": "2022-08-26T10:00:00Z",
+    "talk:code": "YRLJNG",
+    "talk:guid": "4227cdea-191b-5ee6-8211-71ee30fac42a",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room Modulo 3",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "WNXGSQ",
+        "name": "Alex Orenstein",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/WNXGSQ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/YRLJNG/",
+      "title": "Using Sentinel 2 images to quantify agricultural encroachment in Burkina Faso\u2019s protected livestock reserves"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/YRLJNG/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/WNXGSQ/",
+      "title": "Alex Orenstein"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/YRLJNG/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "J9NSUC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Women in Geospatial: My Journey Using OpenStreetMap for Engineering Solutions",
+    "description": "This talk traces my path from an undergraduate Geomatics Engineering student to an open-mapping leader who applies OpenStreetMap (OSM) data to real engineering problems in Nepal. Since 2023, OSM has served as working engineering data across projects spanning flood hazard modelling, disaster-preparedness mapping, public health, and urban planning \u2014 including a flood susceptibility study of the Sunkoshi River Basin where OSM-derived hydrography, combined with AHP-weighted terrain, rainfall, and land-cover data, showed that community-mapped rivers can substitute for missing authoritative datasets in mountainous terrain. Alongside this technical practice, I founded KU YouthMappers to open geospatial work to students across faculties and put women into leadership, lifting female participation in flagship mapping activities to 62% and earning recognition from the Annapurna Post. This talk presents both threads together open data used for real engineering solutions, and the community that makes that work sustainable as a model for women-led open-mapping practice.\n\nMy journey began in February 2023 with a first OpenStreetMap workshop and mapathon at Kathmandu University. What started as curiosity about a tool used worldwide turned into sustained practice: within months I placed first in institutional mapping competitions, and by 2024 was training peers, organizing events for the Geomatics Engineering Society, and being recognized internationally through OSM community meetups. That early growth is what led me to see OSM not just as a skill to build, but as infrastructure to share.\r\nOver time, OSM became a recurring input in my actual engineering work rather than a standalone activity. In a flood susceptibility study of the Sunkoshi River Basin, I processed OSM river and stream geometry into two hydrological indicators drainage density and distance-from-river and combined them with terrain, rainfall, vegetation, land-cover, and soil data in a GIS-based Multi-Criteria Decision Analysis framework, weighting each factor with the Analytic Hierarchy Process and testing the results through sensitivity analysis. The outcome showed that OSM's community-mapped rivers can stand in for missing or outdated official hydrographic data in mountainous, data-scarce regions. This was one example among several: a HEC-RAS/ArcGIS flood risk assessment of the Rapti River identified high-risk zones for land-use planning; remote digitization work with NAXA supported a heat-related health risk study; a month-long mapping sprint with the Youth Innovation Lab contributed to disaster-preparedness planning in two rural municipalities; and an interactive heritage map of Bhaktapur supported sustainable tourism. Across all of these, the same underlying practice contributing to and drawing on open geospatial data kept proving useful for different kinds of engineering and planning problems.\r\nI want the audience to leave with a concrete sense that open data like OSM is genuinely reusable across engineering problems, and a replicable pathway participate, contribute, lead, institutionalize for growing women-led open-mapping communities elsewhere.",
+    "start_datetime": "2026-09-03T05:30:00Z",
+    "end_datetime": "2026-09-03T06:00:00Z",
+    "talk:code": "J9NSUC",
+    "talk:guid": "9ad3d422-b1b1-5bd2-a055-92b0783b397f",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room3",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "LRYZHU",
+        "name": "Prativa Thapa",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/LRYZHU/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-03T05:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/J9NSUC/",
+      "title": "Women in Geospatial: My Journey Using OpenStreetMap for Engineering Solutions"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/J9NSUC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/LRYZHU/",
+      "title": "Prativa Thapa"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/J9NSUC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

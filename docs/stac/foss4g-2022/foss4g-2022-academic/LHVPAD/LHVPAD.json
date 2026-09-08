@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "LHVPAD",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Monitoring landslide displacements through maximum cross-correlation of satellite images",
+    "description": "In the last years we have witnessed a huge increase in the availability of free and open multispectral, multitemporal and global coverage satellite imagery. At the same time, new open software tools for exploiting these images have arisen. Given the availability of short-revisiting time open satellite images, this study focuses on the analysis of satellite imagery using free and open source GIS software to identify displacements of single landslides.\r\nIn particular, the Ruinon landslide was selected as the subject for this analysis. It is situated in Northern Lombardy, Italy, and it is one of the most active landslides of the Alps. The landslide is situated at the base of a Deep-seated Gravitational Slope Deformation, that affects the entire slope up to the summit at 3000 m a.s.l. Two major scarps can be identified: the upper one is a sub-vertical rock cliff of about 30 m in height, while the lower one is characterized by a more widespread debris cover.\r\nThe general strategy employed in this work for obtaining landslide displacements in terms of direction and magnitude is to apply a local maximum cross-correlation on a multitemporal images stack. This was achieved using GRASS GIS and custom Python scripts.\r\nThe images were selected from both the Sentinel-2 catalogue, which is free, and the Planet catalogue, available for free for research purposes.\r\nThe main preprocessing steps are: creation of a suitable multi-temporal stack, clipping the satellite images to the selected AOI and applying cloud masking and an atmospheric correction; image co-registration to ensure that the images become spatially aligned so that any feature in one image overlaps as well as possible its footprint in all other images in the stack; histogram matching to transform one image so that the cumulative distribution function (CDF) of values in each band matches the CDF of bands in another image.\r\nThe main processing is based on the Maximum Cross-Correlation method implemented on couples of images. The first image of the couple will be refererred to as reference image, and the second one as secondary image. This algorithm was previously applied to land cover changes (You et al., 2017) and to the movement of desert sand dunes (Oxoli et al., 2020). In the developed procedure, the processing phase starts by placing a window in the same position of both images. The window on the secondary image is then shifted in all directions, and a cross-correlation coefficient is computed for each of the shifts. The shifted window with the highest cross-correlation coefficient is selected, and a displacement vector is computed between the center pixel of the reference image window and the center pixel of the new shifted window of the secondary image.\r\nThe outputs are shifts (in pixels) in X and Y directions which are actually the distances required to register the window of the secondary image with the one of the reference image. \r\nIt is important to note that the smallest displacement that can be identified by this procedure is a displacement of 1 pixel, i.e. a displacement of 10 m if considering Sentinel-2 data. Therefore, smaller movements cannot be sensed by because of the native resolution of input satellite data. Secondly, errors can arise from the images having differences in terms of co-registration and histogram distribution, since this process highly relies on the images being as aligned and similar as possible.\r\nFor monitoring the activity of the Ruinon landslide, two different sets of images were considered. The first one consists of one image per year in the period 2015-2020, with the idea to track the evolution of the landslide throughout the last few years. Since the landslide is situated in a mountainous region, it is often covered by clouds, and in the winter months by snow. Because of this, only the best image for each year was selected for the analysis. The other set is composed of three images, one per month, in the period July 2019 - September 2019, aiming at highlighting a large movement that took place in the summer of 2019.\r\nTo compare and evaluate the performances of the cross-correlation approach, data coming from UAV surveys (provided by the local environmental agency ARPA Lombardia) of the landslide were used. At first, the results obtained with the procedure were compared with the output given by the procedure when applied to RGB images obtained from the surveys, which have a resolution of 1m. The two outputs were found to be very similar, both for the displacement magnitudes and directions. Secondly, photogrammetric point cloud comparisons created from the UAV observations in periods close to the considered ones for satellite monitoring were investigated. In particular, the displacement along the vertical axis was inspected, and accumulation zones were found in correspondence to the largest movements of the landslide detected from the algorithm. Because of this, the results were considered consistent with the data of the surveys.\r\nThe increased availability of high-resolution multitemporal satellite imagery promotes the use of these images for monitoring purposes. While on the field monitoring can produce very accurate results, a procedure like the one applied in this work has the advantage to be more flexible, scalable and cost-effective than an analysis on the field. The experimental procedure developed in this work led to promising results, despite being a first stage approach to landslide monitoring applying the maximum cross-correlation method. Many approaches were considered, varying the main parameters of the procedure (adding or removing a classification phase, considering different intervals between satellite images, modifying the size of the moving window and others), and the whole process was progressively improved and refined until satisfactory results were achieved.",
+    "start_datetime": "2022-08-25T08:05:00Z",
+    "end_datetime": "2022-08-25T08:10:00Z",
+    "talk:code": "LHVPAD",
+    "talk:guid": "4236c016-9ba2-5307-a6e2-738b1e74b206",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "Room Hall 3A",
+    "talk:room_capacity": 85,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "HQGR9H",
+        "name": "Lorenzo Amici",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/HQGR9H/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T08:07:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/LHVPAD/",
+      "title": "Monitoring landslide displacements through maximum cross-correlation of satellite images"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/LHVPAD/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/HQGR9H/",
+      "title": "Lorenzo Amici"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/LHVPAD/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

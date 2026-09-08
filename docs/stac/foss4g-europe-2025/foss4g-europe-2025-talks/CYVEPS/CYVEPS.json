@@ -1,0 +1,127 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "CYVEPS",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "Georeferencing and publishing Finnish historical maps",
+    "description": "More than 30000 scanned historical maps from the archive of the National Land Survey of Finland were georeferenced and made available as open data through download services. The oldest maps which were georeferenced in this project are from 1860s.  Maps until 1917 cover the area of the Grand Dutchy of Finland in the Russian Empire, and since 1917 the area of the independent Republic of Finland.\r\n\r\nAll the georeferenced maps were originally produced into some regular mapsheet grid. In theory this makes georeferencing easy because the four corner points of a mapsheet can be used as ground control points, and the georeferenced coordinates are known by the grid. However, during the period 1860-2020 about 15 different mapsheet grids and 5 different coordinate systems have been used and most of them were not available as spatial data in a digital format. Also, the map makers have not always honored strictly the mapsheet grid which make issues for automatic processing.\r\n\r\nThe georeferenced maps were published in Cloud Optimised GeoTIFF format in two versions. One version preserves the whole information of the scanned map and contains the original marginalia and possible handwritten remarks, while the other version is clipped to the area of the actual map for making it easy to build seamless mosaics from adjacent map sheets. Maps were published through the Geoportti Research Infrastructure that is particularly targeted for researchers, teachers, and students, but that is open for everybody. Maps can be downloaded with a web application or as mass download by using HTTP, FTP, or rsync. Maps can also be searched and downloaded with STAC.\r\n\r\nIn this talk the general workflow of georeferencing historical maps is presented with examples about typical oddities in historical maps which can make the workflow fail. Reasons are also given for the decisions that were made about the file format, compression, and image metadata.",
+    "start_datetime": "2025-07-16T09:00:00Z",
+    "end_datetime": "2025-07-16T09:30:00Z",
+    "talk:code": "CYVEPS",
+    "talk:guid": "fd1b3328-007a-5b59-b647-66dbe147eb62",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Open Data",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "SA01",
+    "talk:room_capacity": 130,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "MNER83",
+        "name": "Jukka Rahkonen",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/MNER83/"
+      },
+      {
+        "code": "KRTWTY",
+        "name": "K\u00fclli Ek",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/KRTWTY/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-16T09:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/CYVEPS/",
+      "title": "Georeferencing and publishing Finnish historical maps"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/CYVEPS/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/MNER83/",
+      "title": "Jukka Rahkonen"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/KRTWTY/",
+      "title": "K\u00fclli Ek"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/CYVEPS/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-slides-about-georeferencing-finnish-historical-": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/CYVEPS/resources/Georeferencing-and-publishing-Finnish-hi_DklHeey.pdf",
+      "type": "application/pdf",
+      "title": "Presentation slides about georeferencing Finnish historical maps",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/uCsEufYnsTF5181tdcDRLz",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Georeferencing and publishing Finnish historical maps",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=XaMphN6jVH8",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Georeferencing and publishing Finnish historical maps",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

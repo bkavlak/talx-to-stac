@@ -1,0 +1,132 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "AJBHPV",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "EOEPCA+: a method for an open-sourced EO Exploitation Platform Common Architecture",
+    "description": "The \u2018Exploitation Platform\u2019 concept derives from the need to access and process an ever-growing volume of data. Many web-based platforms have emerged - offering access to a wealth of satellite Earth Observation (EO) data. Increasingly, these are collocated with cloud computing resources and applications for exploiting the data. Rather than downloading the data, the exploitation platform offers a cloud environment with access to EO data and associated compute and tools that facilitate the analysis and processing of large data volumes. The Exploitation Platform benefits users, data providers and infrastructure providers. Users benefit from the scalability & performance of the cloud infrastructure, the added-value services offered by the platform \u2013 and avoid the need to maintain their own hardware. Data hosted in the cloud infrastructure reaches a wider audience and Infrastructure Providers gain an increased cloud user base.\r\n\r\nUsers are beginning to appreciate the advantages of exploitation platforms. However, the market now offers a plethora of platforms with various added value services and data access capabilities. This ever-increasing offer is rather intimidating and confusing for most users. Users often face challenges such as inconsistent interfaces, proprietary software and limited interoperability. To fully exploit the potential of these complementary platform resources we anticipate the need to encourage interoperation amongst the platforms, such that users of one platform may consume the services of another directly platform-to-platform.\r\n\r\nEOEPCA (EO Exploitation Platform Common Architecture - https://eoepca.org/) is a European Space Agency (ESA) funded project with the goal to define and agree a re-usable exploitation platform architecture using standard interfaces to encourage interoperation and federation between operational exploitation platforms - facilitating easier access and more efficient exploitation of the rapidly growing body of EO and other data. Interoperability through open standards is a key guiding force for the Common Architecture. EOEPCA adheres to standards from organisations such as Open Geospatial Consortium (OGC) and follows best practices in data management, including implementation of OGC Web Services and emerging OGC API specifications for features, coverages and processes. Platform developers are more likely to invest their efforts in standard implementations that have wide usage; off-the-shelf clients and software are more likely to be found for standards-based solutions.\r\n\r\nThe EOEPCA system architecture is designed to meet a set of defined use cases for various levels of user, from expert application developers to data analysts and end users. The architecture is defined as a set of Building Blocks (BBs), exposing well-defined open-standard interfaces. These include Identity and Access Management, Resource Discovery, Data Access, Processing Workflows, Data Cube Access, Machine Learning Operations, and more. Each of these BBs are containerized for Kubernetes deployment, which provides an infrastructure-agnostic deployment target.\r\n\r\nThe exploitation platform is conceived as a \u2018virtual work environment\u2019 where users can access data, develop algorithms, conduct analysis and share their value-adding outcomes. The EOEPCA architecture facilitates this through a Workspace BB that provides collaboration environments for projects (groups of users) including dedicated storage and services for analysis, processing and publishing of added-value data and applications. This is supported by an Application Hub building-block that provides interactive web-tooling for analysis, algorithm development, data exploitation and provides a web dashboard capability through which added-value outcomes can be showcased.\r\n\r\nOur presentation will highlight the generalised architecture, standards, best practice and open source software components available.",
+    "start_datetime": "2025-07-17T12:00:00Z",
+    "end_datetime": "2025-07-17T12:30:00Z",
+    "talk:code": "AJBHPV",
+    "talk:guid": "2da6759c-6681-5636-a261-c91ee1fc1d3d",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "FOSS4G \u2018Made in Europe\u2019",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "EL11 (Geosolutions)",
+    "talk:room_capacity": 200,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "TGZU9X",
+        "name": "Chandra Taposeea-Fisher",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/TGZU9X/"
+      },
+      {
+        "code": "J7FMQP",
+        "name": "James Hinton",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/J7FMQP/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-17T12:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/AJBHPV/",
+      "title": "EOEPCA+: a method for an open-sourced EO Exploitation Platform Common Architecture"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/AJBHPV/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/TGZU9X/",
+      "title": "Chandra Taposeea-Fisher"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/J7FMQP/",
+      "title": "James Hinton"
+    },
+    {
+      "rel": "related",
+      "href": "https://eoepca.org/",
+      "title": "eoepca.org"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/AJBHPV/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "updated-slide-deck": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/AJBHPV/resources/FOSS4G-Romania_wgIjW6T.pptx",
+      "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "title": "Updated Slide Deck",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/2YUBcRBsf339kuHqBXyg45",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | EOEPCA+: a method for an open-sourced EO Exploitation Platform Common Architecture",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=oin0dPzrocU",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | EOEPCA+: a method for an open-sourced EO Exploitation Platform Common Architecture",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

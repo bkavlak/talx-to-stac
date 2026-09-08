@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "GWSJMU",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Taking an AI Agent Apart: Learn How LLM \u00d7 GIS Agents Work by Building One",
+    "description": "Ask in plain language \u2014 \u201ccolor Japanese municipalities by prefecture\u201d \u2014 and an AI agent runs SQL and paints the map, entirely in your browser. A 3-hour workshop that takes an LLM \u00d7 GIS agent apart (DuckDB-WASM, MapLibre GL, Vega-Lite, Claude) and rebuilds it one layer at a time.\n\nFor most of us an \u201cAI agent\u201d is still a black box. This 3-hour workshop opens it. We train no model: we hand an existing LLM the tools of GIS \u2014 SQL, maps, charts \u2014 and assemble an \u201cAI as analyst\u201d: the conversational, tool-using corner of GeoAI.\r\n\r\nThe vehicle is geo-chat, an open-source app built for this workshop, running entirely in the browser with no server: DuckDB-WASM (spatial extension) for SQL, MapLibre GL rendering vector tiles generated on the fly via ST_AsMVT, Vega-Lite for charts, and Anthropic Claude operating all of it through tool calls.\r\n\r\nThe method is \u201ctake it apart to understand it.\u201d After seeing the finished app, we switch to a branch with every capability subtracted, then add the layers back one at a time \u2014 tools, visualization, validation, skills, evals \u2014 throwing the same request at each: all talk; SQL that runs but paints nothing; a map that paints and silently breaks; a break that becomes a readable error; a skill that fixes a real coordinate-order bug. Same task, same model, same key: every difference comes from one layer.\r\n\r\nAlong the way we watch the agent loop in the browser\u2019s Network tab as raw API traffic \u2014 including the surprise that the model is stateless, the whole conversation re-sent every call. We see why declarative specs suit AI, and that a skill is one Markdown file loaded only when needed. The finale is evals: participants run the real loop against the real API and write one automated evaluation, because with a non-deterministic agent the evaluation is the product.\r\n\r\nNo implementation expertise is required. You leave able to design tools and skills for your own data, and to debug an agent at the API-request level. Materials are open source, English and Japanese.",
+    "start_datetime": "2026-08-31T05:00:00Z",
+    "end_datetime": "2026-08-31T08:00:00Z",
+    "talk:code": "GWSJMU",
+    "talk:guid": "aa418eb5-ab90-5adf-997c-46ec585373f9",
+    "talk:event": "foss4g-2026-workshop",
+    "talk:track": "Sponsor Workshop",
+    "talk:type": "Sponsor workshop",
+    "talk:language": "en",
+    "talk:room": "704",
+    "talk:room_capacity": 90,
+    "talk:duration_minutes": 180,
+    "talk:speakers": [
+      {
+        "code": "QR3MLQ",
+        "name": "Yoshinori Yamazaki",
+        "url": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/QR3MLQ/"
+      },
+      {
+        "code": "R7W9P9",
+        "name": "Piyush Chauhan",
+        "url": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/R7W9P9/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-08-31T06:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/GWSJMU/",
+      "title": "Taking an AI Agent Apart: Learn How LLM \u00d7 GIS Agents Work by Building One"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/GWSJMU/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/QR3MLQ/",
+      "title": "Yoshinori Yamazaki"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/R7W9P9/",
+      "title": "Piyush Chauhan"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/GWSJMU/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-workshops"
+}

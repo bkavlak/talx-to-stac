@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "VCPPNM",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Teaching GIS Through Geospatially Aware Agent-Based Modeling",
+    "description": "Teaching GIS Through Geospatially Aware Agent-Based Modeling.\r\n\r\n\r\n\r\nAgentScriptGIS is a web-based platform that provides a geospatially aware agent-based modeling programming environment. The goal is to enable programmers to generate geo-agent-based models with minimal barriers to entry. The platform provides a programming environment that includes an agent-based modeling library (agentscript.org), a geo-aware programming context, and a map display (leafletjs.com). \r\n\r\nThe platform was designed to reduce the overhead needed for programmers to begin modeling. We want to empower modelers who come from a wide array of backgrounds with the ability to write and animate geospatial models with minimal time and effort. The intended audience of this platform are users who want to explore geospatial and agent-based modeling but may have little to no experience interacting with these types of models.\r\n\r\nWe use agent-based modeling as a basis for our platform since it is a popular way to teach programming and can model a wide spectrum of problems. Popularized by NetLogo and StarLogo, agent-based modeling is used in a variety of educational contexts from elementary school studies to graduate level research. To maximize deployability, our agent-based modeling library AgentScript was written in JavaScript and built to be leveraged by the web browser.\r\n\r\nGIS software is typically professional in nature and leans on being sophisticated and precise, but is often overburdened with complexity. The hobbyist GIS programmer faces a steep learning curve when starting, including choosing appropriate tools and information sources, deciding on data formats and understanding projections. Our platform intends on removing these burdens on the user by trading versatility for simplicity and ease of use.\r\n\r\nWe are preparing our platform to be used initially in academia, but can see it being applied in a variety of settings. AgentScriptGIS focuses on facilitating new ways to engage students, teachers and modelers with geospatial issues. This platform provides a low barrier of entry to users and promotes the modeling of local and regional problems by leveraging real-world data and empowering low skill users with the ability to model various geospatial phenomena.",
+    "start_datetime": "2022-08-25T13:15:00Z",
+    "end_datetime": "2022-08-25T13:45:00Z",
+    "talk:code": "VCPPNM",
+    "talk:guid": "520fb673-8cc4-5e25-8ca9-2b9e76a743cf",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Education",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Onice",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "33FGUL",
+        "name": "Cody D Smith",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/33FGUL/"
+      },
+      {
+        "code": "VN3RKD",
+        "name": "Kasra Manavi",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/VN3RKD/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T13:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/VCPPNM/",
+      "title": "Teaching GIS Through Geospatially Aware Agent-Based Modeling"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/VCPPNM/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/33FGUL/",
+      "title": "Cody D Smith"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/VN3RKD/",
+      "title": "Kasra Manavi"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/VCPPNM/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/bAQBwTyvBthYNFvfWRQSVU",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Teaching GIS Through Geospatially Aware Agent-Based Modeling",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=1E8SPszeajo",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Teaching GIS Through Geospatially Aware Agent-Based Modeling",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

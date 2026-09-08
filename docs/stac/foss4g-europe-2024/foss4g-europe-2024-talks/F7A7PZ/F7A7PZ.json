@@ -1,0 +1,121 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "F7A7PZ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Modernizing the National River and Lakes Cadastre by Transition to FOSS4G",
+    "description": "This presentation is intended to introduce a project completed at the end of 2023, during which the Lithuanian National River and Lake Cadastre (https://uetk.biip.lt/) has been modernized by transferring GIS (and not only) solutions from commercial software to open source and by extending automated GIS data processing solutions. During the presentation, we will share not only the technological solutions we have adopted, but also our experience in changing the attitude of GIS specialists with experience of working with commercial GIS software towards open source.\r\n\r\nThe main technological components of the project included the development of a data management system using PostGIS and QGIS, the development of a map browser using openlayers and Vue JS (available as an open source project - https://github.com/AplinkosMinisterija/biip-maps-web), and the development of a service publishing solution based on QGIS Server. The project used Docker technology and GitHub action-based continuous deployment (CD) solutions, which should also be relevant to the audience.\r\n\r\nMany of us know that building a system from the ground up is often much easier than upgrading an existing system that has been in place for a long time but has not been updated. This was the case for the National River and Lakes Cadastre as well. This process is particularly challenging when it comes to the modernisation of national information systems and cadastres, which are often subject to quite strict legislative control. There are also a number of challenges at the technical level: 1) old and outdated software that cannot be upgraded without overhauling the system, 2) integrations with other systems, 3) old infrastructure, 4) code that is closed and unmanageable by the organization, and 5) users who are working with the data, who are challenged by the new solutions. This is exactly the same set of problems that awaited the modernisation of the Lithuanian National Cadastre of Rivers and Lakes, managed by the Environmental Protection Agency.\r\n\r\nThe Lithuanian National Cadastre of Rivers and Lakes is a system for collecting, organizing and making available to other information systems and to the public data on rivers, lakes, ponds, as well as hydraulic engineering structures such as hydroelectric power plants, overflow culverts, fish ladders, fish passes, research stations, etc. The cadastre consists of three major components: the administration of GIS data, the publishing and viewing of online map services, and the provision of e-services (extracts, statistics). This cadastre is of particular importance as it is not only essential for the monitoring of the hydrographic network, but also for the protection of these features and the restriction of agricultural activities.\r\n\r\n\r\nThe digital cadastre of rivers and lakes was launched almost 10 years ago, and at that time it was one of the largest GIS projects in Lithuania. The cadastre was implemented using only commercial software: ArcGIS (ArcMap, ArcGIS Server, ArcGIS JS api), Oracle, Alfresco (document management system), etc. Over time, the Environment Agency has been unable to upgrade the software of these systems due to licensing costs, and has lost support as a result. The system soon showed its weaknesses: the system's availability was unacceptable (the load time of web map was 1 minute at peak times), the incorrectly implemented database structure led to a large number of errors, as the data was administered using a programmed plug-in in the ArcMap environment, any changes were difficult to implement and in practice were difficult to support due to the old code and outdated versions of ArcMap software.\r\n\r\nWe came into the modernisation project with the basic idea of migrating the core functionality to open source solutions, i.e. migrating exactly what is being used and not bloated with legacy software solutions. In this presentation, we will share these insights from the project:\r\n- Use of PostGIS for automated data filling, e.g. automated analysis of river tributaries, lengths, distances to parent river headwaters, etc. All of this is realized with the help of PostGIS functions;\r\n- Database structure and use to ensure data integrity;\r\n- Creating a map browser using OpenLayers and Vue JS as a reusable component that now serves also for other informational systems;\r\n- Use of QGIS server and Docker;\r\n- GitHub and continuous deployment to dev, staging and production environments.",
+    "start_datetime": "2024-07-03T11:30:00Z",
+    "end_datetime": "2024-07-03T12:00:00Z",
+    "talk:code": "F7A7PZ",
+    "talk:guid": "e5a2f5ac-8642-525b-8c55-c33c7e3e2890",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Transition to FOSS4G",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "GEOCAT (301)",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "WJXMV7",
+        "name": "Andrius Balciunas",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/WJXMV7/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-03T11:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/F7A7PZ/",
+      "title": "Modernizing the National River and Lakes Cadastre by Transition to FOSS4G"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/F7A7PZ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/WJXMV7/",
+      "title": "Andrius Balciunas"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/AplinkosMinisterija/biip-maps-web",
+      "title": "github.com/AplinkosMinisterija/biip-maps-web"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/F7A7PZ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://www.canva.com/design/DAGJaQ2T8Cs/WDkzpxChS7FAmRTp80s7Lw/view?utm_content=DAGJaQ2T8Cs&utm_campaign=designshare&utm_medium=link&utm_source=editor",
+      "title": "Slides",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/9W3aLuJra2CR72Ywq3DMWN",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Modernizing the National River and Lakes Cadastre by Transition to FOSS4G",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=9psNn4HD20s",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Modernizing the National River and Lakes Cadastre by Transition to FOSS4G",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

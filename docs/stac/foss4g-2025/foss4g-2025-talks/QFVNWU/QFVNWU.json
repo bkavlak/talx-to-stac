@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "QFVNWU",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "A Framework of GeoAI for Object Detection and Classification using OGC Standards - From Data Collection to Visualization",
+    "description": "In this presentation, we discuss a framework of GeoAI for object detection and classification based on OGC standards. This framework has been developed as OGC pilot project, tested for UN VMC, and composed of multiple open-source modules communicating via OGC standards.\n\nObject detection and feature classification are one of the most common applications of Geo-AI. It consists of multiple modules such as training data collection of geospatial data such as geo-referenced images and video, training deep learning model, object classification and detection, and visualization of the results. As diverse environments may be included in the system, the interoperability between modules becomes a critical challenge to develop an integral GeoAI solution. OGC UDTIP (Urban Digital Twin Interoperability Pilot) project aims to provide a GeoAI framework based on OGC standards as part of its requirements. The system is composed of four building blocks \u2013 data collection module for geo-reference image or video training datasets, GeoAI analytics module for deep learning model, visualization for presenting the result of detection or classification on a map, and a geospatial platform for coordinating these modules. Many OGC standards are applied such as GeoPose, TrainDML for AI, and OGC-API. The solution has been tested with UN VMC (Verification Mission in Colombia) for collecting the training data. While the first target application was to classify the road surfaces, it is extensible to other types of GeoAI applications such as object detections by simply modifying the code list of TrainDML for AI and replacing proper deep learning model.",
+    "start_datetime": "2025-11-20T01:30:00Z",
+    "end_datetime": "2025-11-20T01:55:00Z",
+    "talk:code": "QFVNWU",
+    "talk:guid": "8bfcc2f9-f270-57e6-b2ce-b5549472796c",
+    "talk:event": "foss4g-2025",
+    "talk:track": "AI, Data Science & Analytics",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG802",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "QHDJTV",
+        "name": "Ki-Joune Li",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/QHDJTV/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-20T01:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/QFVNWU/",
+      "title": "A Framework of GeoAI for Object Detection and Classification using OGC Standards - From Data Collection to Visualization"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/QFVNWU/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/QHDJTV/",
+      "title": "Ki-Joune Li"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/QFVNWU/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=TVghPWCoHSI",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | A Framework of GeoAI for Object Detection and Classification using OGC Standards",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

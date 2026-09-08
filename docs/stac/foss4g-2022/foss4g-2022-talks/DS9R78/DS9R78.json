@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "DS9R78",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "HIECTOR: Hierarchical object detector for cost-efficient detection at scale",
+    "description": "Object detection, classification and semantic segmentation are ubiquitous and fundamental tasks in extracting, interpreting and understanding the information acquired by satellite imagery. Applications for locating and classifying man-made objects, such as buildings, roads, aeroplanes, and cars typically require Very High Resolution (VHR) imagery, with spatial resolution ranging approximately from 0.3 m to 5 m. However, such VHR imagery is generally proprietary and commercially available at a high cost. This prevents its uptake from the wider community, in particular when analysis at large scale is desired. HIECTOR (HIErarchical deteCTOR) tackles the problem of efficiently scaling object detection in satellite imagery to large areas by leveraging the sparsity of such objects over the considered area-of-interest (AOI). This talk presents a hierarchical method for detection of man-made objects, using multiple satellite image sources with different Ground Sample Distance (GSD). The detection is carried out in a hierarchical fashion, starting at the lowest resolution and proceeding to the highest. Detections at each stage of the pyramid are used to request imagery and apply the detection at the next higher resolution, therefore reducing the amount of data required and processed. We evaluate HIECTOR for the task of building detection for a middle-eastern country, estimating oriented bounding boxes around each object of interest.\r\n\r\nFor the detection of buildings, HIECTOR is demonstrated using the following data sources: Sentinel-2 imagery with 10 m GSD, Airbus SPOT imagery pan-sharpened to 1.5 m pixel size and Airbus Pleiades imagery pan-sharpened to 0.5 m pixel size. Sentinel-2 imagery is openly available, making their use very cost efficient. The Single-Stage Rotation-Decoupled Detector (SSRDD) algorithm is used. Given that single buildings are not discernible at 10 m GSD, a bounding box does not describe a single building but rather a cluster of buildings. The estimated bounding boxes at 10 m are joined and the resulting polygon area is used to further request SPOT imagery at the pan-sharpened pixels size of 1.5 m. In the case of SPOT imagery, given the higher spatial resolution, one bounding box is estimated for each building. As a final step, predictions are improved in areas with low confidence by requesting Airbus Pleiades imagery at the pan-sharpened 0.5 m pixel size. Ablation studies show that HIECTOR achieves a mean Average Precision (mAP) score of 0.383 and 20-fold reduction in costs compared to using only VHR at the highest resolution, which achieves a mAP of 0.452.\r\n\r\nCode will be released under MIT license. We will also release the trained models on Sentinel, SPOT and Pleiades imagery. In addition, manually labelled building footprints over Dakar will be open-sourced to allow users evaluate the generalisation of the models over different geographical areas. The Sentinel Hub service is used by HIECTOR to request the commercial imagery sources on the specified polygons determined at each level of the pyramid, allowing to request, access and process specific sub-parts of the AOI.",
+    "start_datetime": "2022-08-24T12:45:00Z",
+    "end_datetime": "2022-08-24T13:15:00Z",
+    "talk:code": "DS9R78",
+    "talk:guid": "97b9d99f-fcd0-5b9e-bc35-96aa49f84974",
+    "talk:event": "foss4g-2022",
+    "talk:track": "AI4EO Challenges & Opportunities",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Auditorium",
+    "talk:room_capacity": 1000,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "8Q7L99",
+        "name": "Devis Peressutti",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/8Q7L99/"
+      },
+      {
+        "code": "JWAQ8U",
+        "name": "Nejc Vesel",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/JWAQ8U/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T13:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/DS9R78/",
+      "title": "HIECTOR: Hierarchical object detector for cost-efficient detection at scale"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/DS9R78/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/8Q7L99/",
+      "title": "Devis Peressutti"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/JWAQ8U/",
+      "title": "Nejc Vesel"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/DS9R78/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/oKjQBKBWyH6SjZ3456KPko",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | HIECTOR: Hierarchical object detector for cost-efficient detection at scale",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=UWRzqfCRW7M",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | HIECTOR: Hierarchical object detector for cost-efficient detection at scale",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

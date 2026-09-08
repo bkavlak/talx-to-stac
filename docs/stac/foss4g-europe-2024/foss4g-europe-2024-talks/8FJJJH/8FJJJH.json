@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "8FJJJH",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Analyzing Charging and Petrol Station Distribution with FOSS4G: Implications for Energy Transition Monitoring in European Regions",
+    "description": "The global transition towards sustainable energy sources, particularly in the transportation sector, has sparked significant interest in understanding the distribution patterns of electric vehicle (EV) infrastructure compared to traditional petrol stations. Leveraging the wealth of openly available geospatial data through platforms like OpenStreetMap (OSM) and routing engines such as OpenRouteService (ORS), this presentation explores the disparities in the distribution of electric columns and petrol stations across different European regions. Moreover, it delves into the potential of utilizing open data to monitor the energy transition's evolution and its implications for societal perception and awareness.\r\n\r\nWith the growing richness of OpenStreetMap data about transportation infrastructure, researchers and practitioners have unprecedented access to detailed information about electric vehicle charging stations and traditional petrol stations. This study harnesses this data to conduct a comparative analysis of their spatial distribution across various European regions. By leveraging the capabilities of OpenRouteService, we perform analyses to evaluate the accessibility and coverage of both types of refuelling infrastructure, shedding light on potential gaps and disparities in their distribution.\r\n\r\nFurthermore, this research underscores open data's significance in monitoring the energy transition progress in different European regions. The diffusion of the charging station follows different paths in Europe. Initially, charging stations were sparsely distributed, primarily concentrated in urban areas and along major transportation routes. However, a discernible discrepancy can be observed in the evolution of charging station networks across Europe in recent years. While some regions have accelerated their efforts to expand and enhance charging infrastructure, others still need to catch up, resulting in an uneven distribution of charging stations across the continent.\r\n\r\nImportantly, this study emphasizes the role of visualizations and data-driven insights in enhancing public awareness and understanding of electric vehicles in the European context. By presenting visual graphs and data analyses depicting the current reality of electric column distribution compared to petrol stations across different regions, we aim to dispel misconceptions and increase knowledge about EV infrastructure. \r\n\r\nIn conclusion, the presentation underscores the transformative potential of open data and geospatial analysis in studying the energy transition and promoting sustainable mobility solutions in European regions. By leveraging platforms like OpenStreetMap and routing engines such as OpenRouteService, we can gain valuable insights into the distribution of electric vehicle infrastructure and its implications for the transition towards clean energy. Through visualizations and data-driven analyses, we can enhance public awareness and understanding of electric vehicles, paving the way for a more sustainable and environmentally conscious transportation system across Europe.",
+    "start_datetime": "2024-07-04T09:00:00Z",
+    "end_datetime": "2024-07-04T09:30:00Z",
+    "talk:code": "8FJJJH",
+    "talk:guid": "ca2a032a-c9f8-558c-8346-4beb75f54100",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Destination Earth (Van46 ring)",
+    "talk:room_capacity": 400,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "DC9VYC",
+        "name": "Lorenzo Stucchi",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/DC9VYC/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-04T09:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/8FJJJH/",
+      "title": "Analyzing Charging and Petrol Station Distribution with FOSS4G: Implications for Energy Transition Monitoring in European Regions"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/8FJJJH/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/DC9VYC/",
+      "title": "Lorenzo Stucchi"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/8FJJJH/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/8FJJJH/resources/Charging_and_Petrol_Station_Distribution_0cJtoGB.pdf",
+      "type": "application/pdf",
+      "title": "Slides",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "github-code": {
+      "href": "https://github.com/LorenzoStucchi/ChargingStationIsochronesComputation",
+      "title": "GitHub code",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/432ii4tanj4uEyQ2jqi1hT",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Analyzing Charging and Petrol Station Distribution with FOSS4G: Implications for ...",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=gf90HlBcnPw",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Analyzing Charging and Petrol Station Distribution with FOSS4G: Implications for ...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

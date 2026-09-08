@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "DQYFQC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "Extracting realistic pedestrian, cycling, and traffic street networks from OpenStreetMap",
+    "description": "In a time where geospatial information is key to provide context to the world we live in, accurate, realistic, and complete maps are a first-hand necessity. Crowdsourced maps provide a fast, reliable, and affordable way to obtain global geospatial information. Points of interest (POI), street networks, landscape data, and even 3D models are among the information that can be extracted from crowdsourced platforms. In the geospatial community, a project that has dominated the crowdsourced map scene for its reasonable accuracy, and extense community, is OpenStreetMap (OSM). \r\n\r\nAs OSM has historically been car-centric, deriving realistic and good-quality pedestrian and cycling networks poses a complex task. Various initiatives to improve the quality and amount of pedestrian and cycling data has appeared over the years, specially for big urban centres in high-income countries. Yet, inconsistencies are still present, as the quality of the data in crowdsourced projects varies from one place to another. Those inconsistencies create a dissociation of the street network with the reality.\r\n\r\nBuilding pedestrian networks is increasingly difficult, as walking offers such freedom of movement. While normally in high-income societies there are multiple rules and regulations for pedestrians, low and middle income countries do not follow such rigurosity. Thus, streets that are normally not considered \u201cwalkable\u201d in certain places, are realistically used for pedestrian movement, even without the required infrastructure. Another limitation is the level of detail, as big cities normally have very high map detail \u2013including features such as separately-mapped sidewalks and crossroads\u2013, while some other cities only have basic, car-centric, traffic networks that do not offer information about pedestrian capabilities. The situation is less drastic for cycling networks, as normally cycling can be performed over the traffic network. However, more accurate maps would allow the creation of safer and better maps for cyclists.\r\n\r\nIn this work, we propose and test a methodology for producing realistic pedestrian, cycling, and traffic street networks extracted from OpenStreetMap. The methodology is composed of a generalised set of filters and post-processing methods to produce realistic and usable pedestrian, cycling, and traffic street networks from anywhere in the world. By realistic, we mean that the networks should be as close to reality as possible, while usability is related to the fact that they should allow functional aspects such as routing. To extract the raw networks we used the OSMnx library. Filtering and post-processing is then applied to each raw network for further refinement.\r\n\r\nFor pedestrian networks, a filter was designed to retrieve all traffic, pedestrian, and cycling street segments that are potentially pedestrian. As a generalisation, each street is considered pedestrian at first, and then, based on certain elimination criteria, non-walkable street segments are eliminated. Elimination criteria includes certain types of streets (e.g., motorways), streets and paths that are non-accessible, cycleways that do not allow pedestrians, and streets that have separately-mapped sidewalks. Particular attention was paid to streets with separately mapped sidewalks, as they provided an important source of inconsistencies. Separately mapped sidewalks provide granularity when mapping pedestrian networks, as it states a clear separation between the geometry of the main road and the geometry of the sidewalk. However, inconsistencies arise when the street segment does not specify that it has a separately mapped sidewalk. The main issue with this kind of inconsistency is the duplication of street segments, increasing the size and complexity of an already complex network, affecting real distances, pedestrian routes, and the calculation of indices based on the network topology. To overcome this, a novel algorithm was implemented to eliminate streets with separately mapped sidewalks based on spatial and angular proximity, i.e., that both a sidewalk and a street segment are close, and their compass angle is similar. As an example, the processing of the pedestrian street network of Mostar, Bosnia and Herzegovina, resulted in a network of 5.354 edges, instead of the original 50.068 edges without elimination, posing a significant reduction. One special remark is that pedestrian street networks are represented as undirected graphs, meaning that every segment can be traversed in any direction.\r\n\r\nFor cycling street networks, a filter was designed to exclude all non-bikeable segments, as well as segments that clearly specify that cycling is not permitted. Cycling poses less challenges than pedestrian street networks, as regulations for bicycles are normally more strict, and bicycles normally can use the traffic street network. Thus, the cycling network is built on the assumption that bicycles can circulate on any street of the traffic network, and elimination is made based on attributes. Additionally, as cycle networks are similar to traffic, direction is important. This means that cycling networks are represented as directed graphs.\r\n\r\nFor completeness, the methodology for extracting traffic networks is provided. As OSM is already car-centric, building realistic and usable traffic networks is not a complex task. Nonetheless, special care must be taken towards street direction, as the direction in which traffic can flow is important for traffic. Ergo, traffic street networks are represented also as directed graphs.\r\n\r\nAn additional advantage of this methodology is that it can be used to spot inconsistencies on the various street networks of OSM, aiding in collaborative mapping efforts. The paper will provide examples on how this methodology can be used to identify duplicated streets and sidewalks, and disconnected street segments. \r\n\r\nTo conclude, street networks provide valuable information about human mobility and urban dynamics. Its analysis is fundamental for understanding cities and settlements. Having realistic, usable, and open-sourced street network models is then a necessity to analyse, plan, and implement measures for sustainable and resilient cities. This work proposes a novel methodology to extract pedestrian, cycling, and traffic street networks that considers not only functionality, but also real world scenarios.",
+    "start_datetime": "2025-07-17T12:30:00Z",
+    "end_datetime": "2025-07-17T13:00:00Z",
+    "talk:code": "DQYFQC",
+    "talk:guid": "f1d42110-c455-53fe-b995-d5776b9b141c",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Academic track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "PA01 (Quarticle)",
+    "talk:room_capacity": 95,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "HFK38L",
+        "name": "Juan Pablo Duque Ordo\u00f1ez",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/HFK38L/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-17T12:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/DQYFQC/",
+      "title": "Extracting realistic pedestrian, cycling, and traffic street networks from OpenStreetMap"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/DQYFQC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/HFK38L/",
+      "title": "Juan Pablo Duque Ordo\u00f1ez"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/DQYFQC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/DQYFQC/resources/FOSS4G_-_extracting_OSM_pedestrian_cycli_P660Bwh.pdf",
+      "type": "application/pdf",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/cFCwWYXEuLqDp3584ebioH",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Extracting realistic pedestrian, cycling, and traffic street networks from ...",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=X1usxkxUxWU",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Extracting realistic pedestrian, cycling, and traffic street networks from ...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

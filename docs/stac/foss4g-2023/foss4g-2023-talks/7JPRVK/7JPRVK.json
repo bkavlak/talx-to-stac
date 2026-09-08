@@ -1,0 +1,104 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "7JPRVK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Human-wildlife conflict and road collisions with ungulates. A risk analysis and design solutions in Trentino, Italy",
+    "description": "Among the human-wildlife conflicts, wildlife vehicle collisions is one of the most evident to the general public. Human-wildlife conflicts can be defined as the breaking of a relationship of coexistence which occurs when the needs or the behavior of a species negatively affect human activity. Among the causes there are: land use change, especially urbanization, with the construction of infrastructures that interrupt natural habitats, but also conversion of forests to agriculture and pastures, that leads to damages of crops and predation of livestock and also the increased presence of people in wilderness area for recreational activities (Corradini et al. 2021). Often these conflicts lead to the killing and persecution of species, thus compromising the conservation of the species itself. This problem is globally widespread, both in those countries where the Land Use Change already occurred in historical times as well as where the land use change is presently occurring at a dramatic pace. In the last decades, in Europe there was actually a recover of large mammal populations, due to the legal protection and abandonment of traditional agriculture (Chapron et al 2014). The increased amount of large mammals lead to an increased human wildlife interaction, including roadkill and car accidents. \r\nThis study investigates wildlife vehicle collisions in the territory of the Italian Autonomous Province of Trento (PAT) 541,692 inhabitants, extending for 6,207 km2, a mountainous area interested by a significant summer and winter tourist presence. The species taken into account are Roe deer (Capreolus capreolus) and Red deer (Cervus elaphus) that are the most common species involved in road accidents in the area. In the last 10 years an average of 700 annual collisions were registered, the animals are often killed and the vehicles are heavily damaged leading to injuries and occasionally to human fatalities. A solution of the problem is becoming urgent in a highly anthropic environment like the Alpine one. \r\nDifferent measures can be adopted to reduce the risks of collisions, e.g. underpasses, overpasses, viaducts and fly-overs, fences, animal detection systems, warning signs, nets, or also a combination of the former (van der Ree et al 2015). \r\nThe main purpose of this work was to use FOSS4G to identify the road sections characterized by a greater number of collisions and to propose and design practical solutions focusing mitigation efforts on these hotspots. The practical solutions were chosen among those more appropriate to each specific situation and when a specific project is proposed it includes the costs to realize it.\r\nInitially the work focused on the geostatistical study of roads collisions with ungulates to determine their trends in space and time. The road sections characterized by a greater number of accidents were identified with accuracy and reliability, by combining GIS geostatistical analysis and a detailed study of the morphology, land cover and other boundary conditions. \r\nQGIS 3.16.6  was used to import data and standardize the data set, as well as to process data and produce heat maps, analysis and most of the final maps. GRASS GIS 8.2 was used to perform data integrity check fixing data errors and resample or recombine data from different sources.\r\nA large amount of different environmental co variates such as  forest coverage, ecological corridors, roads and infrastructures were collected while others (e.g. contours and slope) were created starting from the Digital Elevation Model (DEM), the Digital Terrain Model (DTM). Data about ungulates collisions were provided by the Wildlife Service of the Autonomous Province of Trento.\r\nSince the January 2000, every road collision caused by ungulates reported by the Forest Service or by the Hunters Association or by the Road Service was stored in a geo database. In this database   are stored the date, the species of affected ungulate, the sex, an indication of the age and the geographical coordinates. Last update used for this study is 08/2022 and the datum is ETRS89, frame ETRF2000, projection UTM zone 32 N.\r\nThe ungulates are active mainly during the first at dusk and dawn when the greatest number of investments are also recorded (Mayer et al. 2021). Speed limit of the roads in the hotspots are often disregarded. In a straight tract located on the state road 47 in Valsugana, the  maximum speed is set at 90 km/h and about 60% of the vehicles transit with a speed exceeding the limit (90 km/h) with a daily average  of more than 19,000 vehicles per day.\r\nOnce the areas of intervention were identified with QGIS we carried out on-site inspections to define the best solutions to be adopted in each specific case. GIS processing proved to be extremely informative both in the preliminary design phase and in the final design phase in which the works and interventions were defined in detail.\r\nThe five hotspots chosen for intervention were  located along four state roads and one provincial road For each case a specific analysis was carried out and a series of tailored interventions (underpasses, overpasses, viaducts and fly-overs, fences, road tunnels) and works aimed at mitigating road accidents with ungulates were identified. Each site was different and posed different construction problems and for each site we developed a specific solution. In addition, a first rough estimative metric computation is developed to determine the order of magnitude of the cost required to implement the recommended interventions.\r\nThe proposed projects may create a guideline for the future politics of the provincial government. \r\nMoreover, with the aim of creating a tool for planning interventions at provincial scale a new map was created classifying the road sections in 5 categories based on the number of road accidents with ungulates.  \r\nSharing the capabilities of FOSS4G to improve the procedures in designing interventions that can reduce the collisions can inspire further researchers and technicians to experiment these solutions to plan the positioning of crossing structures, thus helping to mitigate Human-wildlife conflict (HWC).",
+    "start_datetime": "2023-06-30T08:30:00Z",
+    "end_datetime": "2023-06-30T09:00:00Z",
+    "talk:code": "7JPRVK",
+    "talk:guid": "852778ce-6a25-59a3-839a-b7e72ed4082e",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Academic Track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT E / N209 - Floor 3",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "GHQYZE",
+        "name": "Marco Ciolli",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/GHQYZE/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-30T08:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/7JPRVK/",
+      "title": "Human-wildlife conflict and road collisions with ungulates. A risk analysis and design solutions in Trentino, Italy"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/7JPRVK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/GHQYZE/",
+      "title": "Marco Ciolli"
+    },
+    {
+      "rel": "related",
+      "href": "https://webapps.unitn.it/du/en/Persona/PER0003808/Curriculum",
+      "title": "webapps.unitn.it/du/en/Persona/PER0003808/Curriculum"
+    },
+    {
+      "rel": "related",
+      "href": "https://webapps.unitn.it/du/en/Persona/PER0003808/Pubblicazioni",
+      "title": "webapps.unitn.it/du/en/Persona/PER0003808/Pubblicazioni"
+    },
+    {
+      "rel": "related",
+      "href": "https://orcid.org/0000-0001-8370-9039",
+      "title": "orcid.org/0000-0001-8370-9039"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/7JPRVK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

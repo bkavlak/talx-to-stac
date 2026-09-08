@@ -1,0 +1,113 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "ZPM3WY",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "GeoAI in Practice: From Geospatial Data to Graph Neural Networks with City2Graph",
+    "description": "This workshop introduces Graph Neural Networks (GNNs) for geospatial practitioners. Using open-source Python tools including [PyTorch Geometric](https://pytorch-geometric.readthedocs.io/) and [City2Graph](https://city2graph.net/), participants will learn how to transform urban geospatial data into network structures and apply GNNs to model complex spatial relations.\n\nAs Geospatial Artificial Intelligence (GeoAI) evolves, Graph Neural Networks (GNNs) have emerged as a promising approach for predicting and understanding complex spatial relationships. This workshop provides a practical overview of the full GNN pipeline, from processing raw spatial data to training models, using an open-source Python stack: GeoPandas, NetworkX, PyTorch Geometric, OSMnx, and City2Graph.\r\n\r\n### Target audience\r\n\r\nThis workshop is intended for spatial data scientists, GIS analysts, and Python developers who are interested in GeoAI and spatial network modelling.\r\n\r\n### Schedule\r\n\r\n**Part 1: Graph Data Engineering, Spatial Network Analysis, and GNNs ([Jupyter Notebook](https://github.com/c2g-dev/city2graph-workshop/blob/main/notebooks/part2_geoai.ipynb))**\r\n\r\nLearn to construct and analyse spatial networks using GeoPandas and NetworkX. We will demonstrate how to convert standard geospatial data (e.g., OpenStreetMap, GTFS, etc.) into unified graph structures with OSMnx and City2Graph. We will then explore key GNN architectures and transition from spatial graphs into tensor formats using PyTorch Geometric and City2Graph.\r\n\r\n(10-Minute Pause)\r\n\r\n**Part 2: Build Your Own GeoAI Pipeline ([Jupyter Notebook](https://github.com/c2g-dev/city2graph-workshop/blob/main/notebooks/part2_geoai.ipynb))**\r\n\r\nPut your skills into practice. Choose your faviorite city, generate H3 hexagonal grids as graph nodes, and enrich them with POIs anf land uses from Overture Maps. Fetch streets network from OpenStreetMap or Overture Maps (optional), build a graph linking hexagons to street intersections, and compute 15-minute walkability. After preprocessing features, train a Graph Autoencoder (GAE) to learn node embeddings. Finally, cluster neighbourhoods using HDBSCAN and K-Means, and export the results as an interactive web map. We will conclude by discussing how GNN pipelines could be adopted for your business or research workflows.\r\n\r\nGoogle Colab is also available:\r\nPart 1 https://colab.research.google.com/drive/1aGeFnTPv83A8oN4UES2IZ424XceSRi13\r\nPart 2 https://colab.research.google.com/drive/1MKnc8nG0oGKTZIy_ZTQLTsUl9vez94Jz",
+    "start_datetime": "2026-08-31T05:00:00Z",
+    "end_datetime": "2026-08-31T08:00:00Z",
+    "talk:code": "ZPM3WY",
+    "talk:guid": "ace7b59d-cc80-58ad-853e-a79c148e573c",
+    "talk:event": "foss4g-2026-workshop",
+    "talk:type": "Workshop",
+    "talk:language": "en",
+    "talk:room": "609",
+    "talk:room_capacity": 45,
+    "talk:duration_minutes": 180,
+    "talk:speakers": [
+      {
+        "code": "DHHLWM",
+        "name": "Yuta Sato",
+        "url": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/DHHLWM/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-08-31T06:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/ZPM3WY/",
+      "title": "GeoAI in Practice: From Geospatial Data to Graph Neural Networks with City2Graph"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/ZPM3WY/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/DHHLWM/",
+      "title": "Yuta Sato"
+    },
+    {
+      "rel": "related",
+      "href": "https://pytorch-geometric.readthedocs.io/",
+      "title": "PyTorch Geometric"
+    },
+    {
+      "rel": "related",
+      "href": "https://city2graph.net/",
+      "title": "City2Graph"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/c2g-dev/city2graph-workshop/blob/main/notebooks/part2_geoai.ipynb",
+      "title": "Jupyter Notebook"
+    },
+    {
+      "rel": "related",
+      "href": "https://colab.research.google.com/drive/1aGeFnTPv83A8oN4UES2IZ424XceSRi13",
+      "title": "colab.research.google.com/drive/1aGeFnTPv83A8oN4UES2IZ424XceSRi13"
+    },
+    {
+      "rel": "related",
+      "href": "https://colab.research.google.com/drive/1MKnc8nG0oGKTZIy_ZTQLTsUl9vez94Jz",
+      "title": "colab.research.google.com/drive/1MKnc8nG0oGKTZIy_ZTQLTsUl9vez94Jz"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/ZPM3WY/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-workshops"
+}

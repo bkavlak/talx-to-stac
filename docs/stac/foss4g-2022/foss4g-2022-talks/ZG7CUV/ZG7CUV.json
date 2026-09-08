@@ -1,0 +1,114 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "ZG7CUV",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Hardening a GeoNode Project \u2013 Some considerations about container security and optimization",
+    "description": "The GeoNode, according to the project's website, is a platform for managing and publishing geospatial data. It brings together mature and stable open source software projects into a consistent, easy-to-use interface, allowing non-specialist users to share data and create interactive maps. In Brazil there is a growing use of GeoNode, observed mainly in governmental institutions and universities. One of the main ways of installing and configuring GeoNode is the so-called Geonode Project. It consists of a custom Django Project template, which contains, in addition to the main project files, a set of Dockerfiles of GeoNode components, such as GeoServer, Nginx (reverse proxy) and PostGIS. From a detailed analysis of the components of the GeoNode Project created, it was found that the original dockerfiles contain a series of security holes and also unnecessary packages for the execution of the stack, not recommended for production environments. A Dockerfile that follows best practices eliminates the need to run privileged containers (as root), the use of unnecessary packages, leaked credentials, like mail passwords or database DSNs, or anything that could be used for an attack. Removing known risks in advance will reduce security management work and service overhead. The objective of this talk corresponds to discuss the possible security holes found in the Geonode Project and, with the application of best practices in Dockerfiles, to make it leaner and safer for production environments. For demonstration purposes, there will have a project to be used as an example and will be hosted at https://github.com/geonode-br/hardening-geonode-docker.",
+    "start_datetime": "2022-08-26T08:05:00Z",
+    "end_datetime": "2022-08-26T08:10:00Z",
+    "talk:code": "ZG7CUV",
+    "talk:guid": "ee24601a-13c8-58ef-ae75-dcd62dc4269f",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Modulo 0",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "BZLYD8",
+        "name": "Carlos Eduardo Mota",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/BZLYD8/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T08:07:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/ZG7CUV/",
+      "title": "Hardening a GeoNode Project \u2013 Some considerations about container security and optimization"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/ZG7CUV/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/BZLYD8/",
+      "title": "Carlos Eduardo Mota"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/geonode-br/hardening-geonode-docker",
+      "title": "github.com/geonode-br/hardening-geonode-docker"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/ZG7CUV/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/17FhgMwDwcGA15gJKfALRe",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Hardening a GeoNode Project \u2013 Some considerations about container security and\u2026",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=hNdBg9YNY-o",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Hardening a GeoNode Project \u2013 Some considerations about container security and\u2026",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

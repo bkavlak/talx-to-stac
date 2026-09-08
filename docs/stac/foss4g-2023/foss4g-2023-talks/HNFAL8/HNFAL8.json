@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "HNFAL8",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Faster, easier, more powerful map tile creation with Tippecanoe 2.0",
+    "description": "Development of Tippecanoe, a widely-used open-source C++ tool for creating vector map tilesets, has moved to Felt, where it is a key component of the zero-configuration data ingestion pipeline that processes Felt\u2019s public data library layers as well as uploads from external users.\r\n\r\nVersion 2 of Tippecanoe improves its automatic choice of zoom levels, and makes visual improvements to coordinate rounding, small polygons, and the distribution of points in low zoom levels. It now runs faster and uses less memory and disk space. There are new options to generate label points for polygons, to order features by attributes, and to use Visvalingam line simplification. Tippecanoe now accepts FlatGeobuf input as well as GeoJSON and CSV, and can generate output in PMTiles as well as MBTiles.",
+    "start_datetime": "2023-06-28T12:00:00Z",
+    "end_datetime": "2023-06-28T12:30:00Z",
+    "talk:code": "HNFAL8",
+    "talk:guid": "a87e47f2-c3b9-579c-8e85-fa4d45865334",
+    "talk:event": "foss4g-2023",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Mirusha",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "8WQUKA",
+        "name": "Erica Fischer",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/8WQUKA/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T12:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/HNFAL8/",
+      "title": "Faster, easier, more powerful map tile creation with Tippecanoe 2.0"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/HNFAL8/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/8WQUKA/",
+      "title": "Erica Fischer"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/HNFAL8/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/k8mw2tWUxaRt7P9jaDL98y",
+      "type": "text/html",
+      "title": "2023 | Faster, easier, more powerful map tile creation with Tippecanoe 2.0 - Erica Fischer",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=o9NsZp-2Xcg",
+      "type": "text/html",
+      "title": "2023 | Faster, easier, more powerful map tile creation with Tippecanoe 2.0 - Erica Fischer",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

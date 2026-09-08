@@ -1,0 +1,154 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "KDJEFQ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Bridging geomatics theory to real-world applications in alpine surveys through an innovative teaching summer school program",
+    "description": "Applying skills gained from university courses marks a pivotal step in crafting engaging teaching methods. Including practical activities in higher education programs plays a crucial role in knowledge transfer, especially in geomatics (Tucci et al., 2020). Moreover, engaging groups of students along the entire process of in-situ survey design, data collection, management, processing and results preparation furtherly foster their responsibility as well as the awareness of the technologies adopted, actively understanding their limitations and potentials (Balletti et al., 2023). In recent years, STEM and geomatics have seen a growing number of learning experiences based on open knowledge (Gaspari et al, 2021, https://machine-learning-in-glaciology-workshop.github.io/, Pot\u016f\u010dkov\u00e1 et al., 2023). In this context, this work is presenting an innovative teaching experience framed in the mountainous environment of the Italian Alps describing the structure of the course and the potential of open geo education in geomatics.\r\n\r\nSince 2016, the Geodesy and Geomatics Section of the Department of Civil and Environmental Engineering of Politecnico di Milano organised a Summer School for Engineering, Geoinformatics and Architecture Bachelor and Master students consistently aimed to bridge the divide between theory and practice. The Summer School is framed within a long-term monitoring activity of the Belvedere Glacier (https://labmgf.dica.polimi.it/projects/belvedere/), a temperate debris-covered alpine glacier, located in the Anzasca Valley (Italy), where annual in-situ GNSS and UAV photogrammetry surveys have been performed since 2015 to derive accurate and complete 3D models of the entire glacier, allowing the derivation of its velocity and volume variations over the last decade. \r\n\r\nIn a week-long program, students are encouraged to collaborate, with the supervision of young tutors passionate about the topic, to develop effective strategies for designing and executing topographic surveys in challenging alpine regions. This program involves them in hands-on learning experiences, also directly engaging students in a wider ongoing research project, getting familiar with the concept of open data and with the adoption of dedicated open-source software.\r\n\r\nThe summer school program is divided into 6 modules whose goal is to introduce students to key theoretical concepts of fieldwork design, UAV photogrammetry, GNSS positioning, GIS and spatial data analysis, image stereo-processing and 3D data visualization. Along with theory, practical sessions are organised with guided case study-driven exercises that allow students to get familiar also with FOSS4G tools such as QGIS, CloudCompare and PotreeJS. The teaching materials used to guide students through exercises with processing software is made openly accessible online with a dedicated website built on top of an open-source GitHub repository with MkDocs (https://tars4815.github.io/belvedere-summer-school/), setting the groundwork for developing collaborative online teaching and expanding the material for other learning experiences with future versions.\r\n\r\nAdding value to the experience, students also contribute to a research project regarding the monitoring of the glacier (Ioli et al., 2021; Ioli et al., 2024), providing valuable insights on the recent evolution of the natural site. The georeferenced products derived from the in-situ surveys are indeed published in an existing public repository on Zenodo (Ioli et al., 2023), sharing results with a wider scientific community.\r\n\r\nFurthermore, in order to optimise the management of the information and data collected during the different editions of the summer school, a relational database has been designed and is currently under implementation with PostgreSQL and PostGIS. Such solutions allow for querying the location of markers deployed on the glacier surface and measured every year by GNSS, making it possible to accurately describe the glacier movements. Additionally, a database allows for effectively storing the results of the annual in-situ surveys carried out during the summer schools, as well as documenting the instruments and the procedure employed to acquire and process the data.\r\n\r\nIn summary, this study highlights the commitment to open education within the realm of geomatics, with the ongoing transformation of the Belvedere Summer School program into an experience mainly driven by open-source software. Beyond the educational focus on fieldwork design and data analysis, the project extends to a comprehensive approach to transparency, making resources openly accessible through a dedicated website. In this way, the Summer School aspires to contribute significantly to the principles of open education in geomatics, thereby establishing an accessible bridge between education, research, and the open-source community.\r\n\r\nBibliography:\r\n\r\nBalletti, C. et al. (2023): The SUNRISE summer school: an innovative learning-by-doing experience for the documentation of archaeological heritage, https://doi.org/10.5194/isprs-archives-XLVIII-M-2-2023-147-2023\r\n\r\nGaspari, F., et al. (2021): Innovation in teaching: the PoliMappers collaborative and humanitarian mapping course at Politecnico di Milano, https://doi.org/10.5194/isprs-archives-XLVI-4-W2-2021-63-2021\r\n\r\nIoli, F. et al. (2021). Mid-term monitoring of glacier\u2019s variations with UAVs: The example of the belvedere glacier. Remote Sensing, 14(1), 28.\r\n\r\nIoli, F., et al. (2023). Belvedere Glacier long-term monitoring Open Data (1.0) Zenodo. https://doi.org/10.5281/zenodo.7842348\r\n\r\nIoli, F., et al. (2024). Deep Learning Low-cost Photogrammetry for 4D Short-term Glacier Dynamics Monitoring. https://doi.org/10.1007/s41064-023-00272-w\r\n\r\nPot\u016f\u010dkov\u00e1, et al. (2023): E-TRAINEE: open e-learning course on time series analysis in remote sensing, XLVIII-1/W2-2023, 989\u2013996\r\n\r\nTucci, G., et al. (2020). Improving quality and inclusive education on photogrammetry: new teaching approaches and multimedia supporting materials, https://doi.org/10.5194/isprs-archives-XLIII-B5-2020-257-2020",
+    "start_datetime": "2024-07-04T08:30:00Z",
+    "end_datetime": "2024-07-04T09:00:00Z",
+    "talk:code": "KDJEFQ",
+    "talk:guid": "dfa164f5-6d11-58a9-b13f-623a5fe13058",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Academic track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Omicum",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "CFAZ9L",
+        "name": "Federica Gaspari",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/CFAZ9L/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-04T08:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/KDJEFQ/",
+      "title": "Bridging geomatics theory to real-world applications in alpine surveys through an innovative teaching summer school program"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/KDJEFQ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/CFAZ9L/",
+      "title": "Federica Gaspari"
+    },
+    {
+      "rel": "related",
+      "href": "https://machine-learning-in-glaciology-workshop.github.io/",
+      "title": "machine-learning-in-glaciology-workshop.github.io"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.5194/isprs-archives-XLVIII-M-2-2023-147-2023",
+      "title": "doi.org/10.5194/isprs-archives-XLVIII-M-2-2023-147-2023"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.5194/isprs-archives-XLVI-4-W2-2021-63-2021",
+      "title": "doi.org/10.5194/isprs-archives-XLVI-4-W2-2021-63-2021"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.5281/zenodo.7842348",
+      "title": "doi.org/10.5281/zenodo.7842348"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.1007/s41064-023-00272-w",
+      "title": "doi.org/10.1007/s41064-023-00272-w"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.5194/isprs-archives-XLIII-B5-2020-257-2020",
+      "title": "doi.org/10.5194/isprs-archives-XLIII-B5-2020-257-2020"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/KDJEFQ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "gaspari-foss4ge2024belvederesummerschool-pdfversion": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/KDJEFQ/resources/BelvedereSummerSchool_LabMGF_light_RvhcNZW.pdf",
+      "type": "application/pdf",
+      "title": "Gaspari_FOSS4GE2024BelvedereSummerSchool_PDFversion",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "gaspari-foss4ge2024belvederesummerschool-full": {
+      "href": "https://polimi365-my.sharepoint.com/:p:/g/personal/10462873_polimi_it/EWrvVoptzKdCps6Dc1sjYNABqkt00hmdvwzTxGgk1vgqdw?e=RfWdHO",
+      "title": "Gaspari_FOSS4GE2024BelvedereSummerSchool_Full",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/nwoUGRRaL7wAjpv56BYH6e",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Bridging geomatics theory to real-world applications in alpine surveys through ...",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=9ksNuahKdNo",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Bridging geomatics theory to real-world applications in alpine surveys through ...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

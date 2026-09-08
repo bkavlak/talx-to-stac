@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "NH7Y8G",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "Real Time Co-editing of High Vertex Count Geometries Using OpenLayers and CRDTs - a Performance Analysis",
+    "description": "Real-time GIS has become an essential tool in various domains, including Volunteered Geographic Information (VGI) and disaster management. One of critical topics in real-time GIS is concurrency control (Sun and Li 2016). In the geospatial domain, concurrency has traditionally been controlled using optimistic or pessimistic models (i.e. versioning and locking, respectively). In the domain of distributed databases, a standard consistency model, called strong consistency, ensures that a set of distributed databases behave as if they were a single database. However, enforcing strong consistency can introduce bottlenecks and lags, and requires significant hardware resources and time to implement. \r\n\r\nTo address these drawbacks, a more relaxed approach called strong eventual consistency (SEC) (Gomes et al. 2017) has been developed in the domain of real-time text co-editing. Unlike strong consistency, SEC lets each site edit its local copy of the data without any restrictions and replicate all the updates to all other sites, which, upon reception, apply them on their local data. Temporary local inconsistencies are allowed between the participating sites, but it is guaranteed that, once all sites have received the same set of updates, they will be in the same state (i.e., they will converge).\r\n\r\nIt has recently been shown that SEC model i.e. its instantiation, CRDT (Commutative Replicated Data Type) technology (Shapiro et al. 2011) can also be used for the task of geospatial co-editing. Within the research (Matijevi\u0107 et al. 2024), an experimental real-time geospatial co-editor (source code referenced in the original paper) has been developed and tested. The implementation uses OpenLayers (OL) on the graphical user interface (GUI) and a small, unoptimized but complete and correct Javascript CRDT library called Reference CRDTs (Gentle 2023). The research showed that, when applied to the co-editing of geospatial geometry in its native form, standard CRDT conflict resolution mechanics exhibit some issues. As an attempt to address these issues, the authors developed an advanced operation generation technique named \u201ctentative operations\u201d. This technique allows for the operations to be generated over the most recent session-wide state of the data, which in effect highly reduces concurrency and provides a \u201cgeometry aware\u201d conflict resolution. The tests conducted using the developed system showed that in low-latency network conditions, the negative effects of standard CRDT conflict resolution mechanics do get minimized even under increased loads (many concurrent sites co-editing a low vertex count geometry).\r\n\r\nReal-time co-editors generally aim to provide good user experience of the system, with correct handling of conflicts being one of its important aspects. However, besides correct handling of conflicts, the system also has to be responsive. The responsiveness of real-time co-editors depends on the efficiency of the underlying business logic but also on the efficiency of the GUI itself. Especially in the case of geospatial data manipulation, both the GUI and the business logic will be additionally stressed by increasing the vertex count of geometries being co-edited. Since within the original research the tests were performed using polygons low vertex count (several hundreds), it remained unknown how would a CRDT based geospatial co-editor behave when much larger geometries (e.g. hundreds of thousands of vertices) are co-edited.\r\n\r\nWithin this research we therefore investigate the impact that the increase of vertex count has on the overall performance of the system, which in turn can hinder responsiveness. We reused the existing implementation from (Matijevi\u0107 et al. 2024) and only introduced minor modifications to achieve the ability to time the execution of its key mechanisms. Instead of focusing on the performance of CRDT mechanisms only, we observed the behaviour of the complete system. We first analysed the overall composition of the system and divided it into several distinct parts. Then, during load testing we observed how the performance of each of those parts changes when handling geometries with increasing vertex counts. To stress the system, we created three polygons with 100K, 200K and 300K vertexes and conducted real co-editing sessions over those polygons. The upper limit of 300K was selected based on preliminary testing which showed that already at this vertex count OL starts to lose responsiveness in editing mode. The sessions were conducted using several identical instances of some recent, mainstream hardware and the latest Google Chrome browser.\r\n\r\nAs expected, the results of the experiment show that the overall performance of the system does suffer from the increased vertex count of the geometry being co-edited. In the setting as implemented within the research (Matijevi\u0107 et al. 2024) the part most affected by the increased vertex count turned out to be the redrawing on GUI upon integration of remote updates while the client is in editing mode. This is because the implementation uses a simple redraw method where the complete geometry is replaced by its new version.\r\n\r\nThe results from this research show that geometries with high vertex count can efficiently be co-edited in real-time. However, there exists a limit where the increased vertex count will start to render the system irresponsive, depending on the capabilities of the hardware that the clients are running on.\r\n\r\nThe results from this research are to be observed in the setting which includes both CRDT and OL written in Javascript, with CRDT implementation including only some simple optimizations and with no tighter CRDT-OL coupling other than what OL offers off-the-shelf. It can therefore be expected that a deeper integration of CRDT mechanisms with OL could make some of the critical parts of the implementation faster. Also, there exist several mature, production ready open-source CRDT frameworks which include many optimizations and can outperform the Reference CRDTs by orders of magnitude.",
+    "start_datetime": "2025-07-18T09:00:00Z",
+    "end_datetime": "2025-07-18T09:30:00Z",
+    "talk:code": "NH7Y8G",
+    "talk:guid": "abf774ad-2ede-5022-a353-27f5975f3785",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Academic track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "PA01 (Quarticle)",
+    "talk:room_capacity": 95,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "3L7777",
+        "name": "Hrvoje Matijevi\u0107",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/3L7777/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-18T09:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/NH7Y8G/",
+      "title": "Real Time Co-editing of High Vertex Count Geometries Using OpenLayers and CRDTs - a Performance Analysis"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/NH7Y8G/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/3L7777/",
+      "title": "Hrvoje Matijevi\u0107"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/NH7Y8G/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "pdf-presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/NH7Y8G/resources/MatijevicEtAl_crdtPerformance2_L0IenHY.pdf",
+      "type": "application/pdf",
+      "title": "pdf presentation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "pptx-presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/NH7Y8G/resources/MatijevicEtAl_crdtPerformance2_DQLrGlu.pptx",
+      "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "title": "pptx presentation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/cMieF77wXnQUvccJ5Y55wE",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Real Time Co-editing of High Vertex Count Geometries Using OpenLayers and CRDTs ...",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=VRKIm_dRflE",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Real Time Co-editing of High Vertex Count Geometries Using OpenLayers and CRDTs ...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

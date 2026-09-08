@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "DCFDXR",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "When vector tiles are not enough: advanced visualizations with deck.gl",
+    "description": "Deck.gl is a framework for visualization, animation and 3D editing of large volumes of data (up to millions of points), in the browser, with optimal performance thanks to WebGL technology and the computing power of the GPU.\r\n\r\nDeck.gl is prepared to work seamlessly with WebGL based map libraries such as MapLibre GL JS, Mapbox GL JS or Google Maps. It extends their capabilities with a large number of formats, data types and layer visualizations, such as point clouds (tessellated or not), real 3D vector data, 3D models, on-the-fly clustering, trip animations, GPU filtering, etc. The deck.gl code is not only free, but designed with extensibility in mind, making it very easily customizable.\r\n\r\nIn this presentation we will show 4 use cases developed for companies and administrations with specific needs. We chose deck.gl (over Mapbox/MapLibre alone) to provide rich interactivity and the ability to visually analyze large amounts of data.\r\nWe will expose the challenges we faced and how deck.gl was used:\r\n1. Information system for precision irrigation: in a region of 25,000 plots, we show animated time series of evapotranspiration data, vegetative vigor, or water needs during an annual cycle.\r\n2. Biodiversity world map: instant loading of a dataset of 200,000 points with GPU filtering, providing interactivity and refresh rates far beyond the ones offered by Mapbox or MapLibre.\r\n3. Precision topographic measurements on terrain surface models: visualization of point clouds, terrains, textures, contour lines and other vector cartography in 3D, multi-profiles, and in-browser 3D editing.\r\n4. Urban data control panel: from a dataset of 40,000 georeferenced records, we apply spatiotemporal and categorical filtering, 3D dynamic aggregation and symbolization, and computation of indicators and graphs in real time.",
+    "start_datetime": "2023-06-30T12:00:00Z",
+    "end_datetime": "2023-06-30T12:30:00Z",
+    "talk:code": "DCFDXR",
+    "talk:guid": "c1d9f8d9-bb19-5937-980d-381eba7292f6",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Mirusha",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "N3GNA9",
+        "name": "Marti Pericay",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/N3GNA9/"
+      },
+      {
+        "code": "P8SNV3",
+        "name": "Oscar Fonts",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/P8SNV3/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-30T12:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/DCFDXR/",
+      "title": "When vector tiles are not enough: advanced visualizations with deck.gl"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/DCFDXR/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/N3GNA9/",
+      "title": "Marti Pericay"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/P8SNV3/",
+      "title": "Oscar Fonts"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/DCFDXR/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/dsWETtqAnTDqF4JL6cUUXa",
+      "type": "text/html",
+      "title": "2023 | When vector tiles are not enough: advanced visualizations with deck.gl - Marti Pericay",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=EuymvVuV0K4",
+      "type": "text/html",
+      "title": "2023 | When vector tiles are not enough: advanced visualizations with deck.gl - Marti Pericay",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

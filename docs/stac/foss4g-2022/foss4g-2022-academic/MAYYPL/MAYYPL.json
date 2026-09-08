@@ -1,0 +1,123 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "MAYYPL",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "OSGeo, Persistent Identifiers and the shape of things to come",
+    "description": "This article is a work in progress report on the introduction and exploitation of persistent identifiers (PID) within the OSGeo Foundation and its software project communities. Following an introduction to the topic of Persistent Identifiers (PID), an overview of the currently achieved states and emerging new opportunities, but also new challenges is given. The latter enables the OSGeo project communities to actively participate in the further development of data-driven open science and the evolution of the FAIR (Findable, Accessible, Interoperable, Reusable) Guiding Principles for scientific data management and stewardship from the original data focus to research software and community software projects. With the rise of the Internet and World Wide Web, Universal Resource Locators (URL) have become common practice to reference web resources. A URL specifies its location on a computer network and a mechanism for retrieving it. However, URLs are not a sustainable practice for scientific citation because they will break once the referenced resource is transferred to another web address; i.e., the original URL cannot be resolved anymore and an error message is returned instead (e.g., HTTP error 404). To counter this, persistent identifiers have been introduced as long-lasting references to web resources, including research data, source code, audiovisual content, and also human individuals or communities. Persistence is always achieved by infrastructure services which resolve the references to their target objects. This requires open standards, operation of infrastructure services and best practices for sustainable long term use. The adoption of PID use in the OSGeo Foundation continues for different application areas, with increasing synergy effects forming the foundation of a greater whole. The introduction of PID in OSGeo started in 2014 for a newly discovered version of the historical GRASS GIS informational video from 1987, which is preserved in the AV Portal of TIB Hannover (https://av.tib.eu/) and can be accessed through a permanent Digital Object Identifier (DOI) (https://doi.org/10.5446/12963, https://doi.org/10.5446/31768). Since 2016, OSGeo conference videos have been collected as a permanent service in the AV Portal, with the collection growing by approximately 100 hours of video recordings annually (pre-Covid). In 2017, the rasdaman software project registered a DOI for the first time for release version 9.4.2 in the Zenodo data repository (https://doi.org/10.5281/zenodo.1040170).  Zenodo is a general-purpose open-access repository operated by the European Organization for Nuclear Research (CERN) since 2015. In 2019, the next DOI registration followed for the GMT software project for release version 6.0.0 (https://doi.org/10.5281/zenodo.3407865). Further improvements of the technical integration of project software repositories hosted on the GitHub platform and Zenodo have enabled a simplified handling of software versioning: When registering a DOI as a PID for a software project, at least two references are created, which are linked to each other: The Concept DOI, which represents the software project as a higher-level intellectual construct, and an initial Version DOI, which references a specific software release. With the integration now available between GitHub and Zenodo, the successive creation of additional Version DOI for upcoming new software releases can be done automatically. Since 2021, the number of DOI registrations by OSGeo software projects has increased significantly. Currently, DOIs are already available for 19 software repositories related to OSGeo projects (https://wiki.osgeo.org/wiki/DOI). More than half of the official OSGeo software projects can already be referenced by means of DOI. All projects that have registered a DOI have chosen an official scheduled release to initiate DOI versioning. Equipping OSGeo projects and content with PID results in significant added value for scientific users, but also for the respective project communities. Well formatted citations for software project DOI can be conveniently generated in thousands of different citation styles by online citation services (e.g. https://citation.crosscite.org/). Citation of OSGeo projects is already actively used in scientific publications (e.g. Springer Handbook of Geo Information, 2nd Ed. https://doi.org/10.1007/978-3-030-53124-9, in print). The metadata of a PID for data and software can also reference PIDs for the authors and others involved. As a result, it is now possible that once the Version DOI of a software release is cited, the involved persons can also be referenced using an individual PID, such as the Open Researcher and Contributor ID (ORCID), and receive measurable scientific credit for their effort. This allows that that collaboration efforts in FOSS software projects will become a measurable and rewarding part of the scientific track record. Furthermore, PID of software, data and other information sources can be related to each other by specifying related persistent identifiers in the metadata. This field is currently undergoing rapid development. A further step will be the linking of the now available concept and version DOI of the OSGeo projects with the PID of the OSGeo conference videos, which will improve the discoverability and re-use of the conference contributions.The OSGeo Foundation can be understood as a growing continuum of software projects, functionalities, groups of people, but also knowledge and information.\r\nProviding an up-to-date mapping of internal linkages and dependencies of the OSGeo continuum has not been satisfactorily solved yet. In the past, there have been several approaches (e.g. http://pathfinder.terrasigna.com/oss/index2.html or https://doi.org/10.5446/14652), which have remained snapshots due to the lack of persistent references to the described objects and manual maintenance for regular updates. The availability of PID for software and persons creates a stable base for this for the first time, seconded by the conceptual approach of an integrated PID-based graph, which was developed in the FREYA project (https://www.project-freya.eu/). This approach models resources which are identified by PIDs (software projects, data, publication, persons) and the connections between them in a graph of the network of interconnected PID systems, based on their PID metadata.",
+    "start_datetime": "2022-08-25T08:10:00Z",
+    "end_datetime": "2022-08-25T08:15:00Z",
+    "talk:code": "MAYYPL",
+    "talk:guid": "6f0c2e3c-1268-56f3-8d12-3b3475858711",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "Room Hall 3A",
+    "talk:room_capacity": 85,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "JB8MU3",
+        "name": "Markus Neteler",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/JB8MU3/"
+      },
+      {
+        "code": "8VQCXZ",
+        "name": "Peter L\u00f6we",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/8VQCXZ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T08:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/MAYYPL/",
+      "title": "OSGeo, Persistent Identifiers and the shape of things to come"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/MAYYPL/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/JB8MU3/",
+      "title": "Markus Neteler"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/8VQCXZ/",
+      "title": "Peter L\u00f6we"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.5446/31768",
+      "title": "doi.org/10.5446/31768"
+    },
+    {
+      "rel": "related",
+      "href": "https://citation.crosscite.org/",
+      "title": "citation.crosscite.org"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.1007/978-3-030-53124-9",
+      "title": "doi.org/10.1007/978-3-030-53124-9"
+    },
+    {
+      "rel": "related",
+      "href": "http://pathfinder.terrasigna.com/oss/index2.html",
+      "title": "pathfinder.terrasigna.com/oss/index2.html"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.5446/14652",
+      "title": "doi.org/10.5446/14652"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/MAYYPL/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

@@ -1,0 +1,96 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "KZDMU9",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Semantic Interoperability made easy with OGC Building Blocks Workshop",
+    "description": "Learn how OGC Building Blocks allow you to use open standards to improve user experience\n\nHands on opportunity to build data schemas that self-document and deliver them using FOSS4G software.  Will include schema design, server and client options, and introduce you to the open source OGC Building Blocks for defining, testing, composing and publishing data and metadata that means something to end users.  Focuses on JSON, JSON-LD and Linked Data, GeoDCAT and STAC, and OGC API Processes and provenance tracing to make your data and processing chains understandable and trustworthy.\r\n\r\nParticipants will ideally have a github account, and pre-install docker on your own laptops - and by preference preload docker images by following the instructions at:\r\n\r\nhttps://ogcincubator.github.io/bblocks-docs/build/local\r\n\r\nWork shop will be a mix of \"theory\" - an exploration of the rationale and approach to be discussed - practical hands-on and discussion about the needs and opportunities in the FOSS4G community.",
+    "start_datetime": "2025-11-18T00:30:00Z",
+    "end_datetime": "2025-11-18T03:30:00Z",
+    "talk:code": "KZDMU9",
+    "talk:guid": "d2fb0fce-1c4d-5999-9eca-bc17e9b276b4",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Workshop - Intermediate Level",
+    "talk:type": "Workshop",
+    "talk:language": "en",
+    "talk:room": "WF510",
+    "talk:room_capacity": 30,
+    "talk:duration_minutes": 180,
+    "talk:speakers": [
+      {
+        "code": "AMJYRP",
+        "name": "Robert Atkinson",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/AMJYRP/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-18T02:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/KZDMU9/",
+      "title": "Semantic Interoperability made easy with OGC Building Blocks Workshop"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/KZDMU9/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/AMJYRP/",
+      "title": "Robert Atkinson"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/KZDMU9/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "docker-pre-install": {
+      "href": "https://ogcincubator.github.io/bblocks-docs/build/local",
+      "title": "Docker pre-install",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

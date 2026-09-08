@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "7H7P38",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "Honey, I shrunk the GIS \u2013 Developing scalable and lightweight geospatial software applications with microservices and containerization",
+    "description": "Traditional Geographic Information Systems (GIS) are often developed as monolithic software. This project presents a case study that explores the development of geospatial software using microservices and containerization, focusing on core modular elements such as images, containers, and service orchestration. The use case involves serving geospatial data related to radiological measurement data for routine monitoring and emergency response scenarios. The implementation is fully open-source and includes the following technologies: Docker, PostgreSQL/PostGIS, GeoServer, Node.js, and OpenLayers. The primary aim is to share practical insights into modular software development and provide a streamlined guide for rapidly building lean, portable and maintainable geospatial applications.\r\n\r\nBackground and Motivation\r\n\r\nMonolithic software development poses numerous limitations compared to component-based approaches. In the proposed architecture, all key GIS components - data storage, management, and visualization - are modularized and isolated into independent services. Each service is encapsulated within its own Docker container, simplifying deployment and ongoing maintenance. This isolation enables independent development of each component, provided that the interfaces (e.g., APIs) remain consistent.\r\n\r\nFor example, by fully integrating a relational database management system (RDBMS) such as PostgreSQL/PostGIS, GIS applications can delegate core functions\u2014including user and role management, query optimization, data storage and retrieval, and backup and recovery\u2014to the database layer. This eliminates the need to build such functionality from scratch, promoting a concept known as decoupling. Decoupling is central to tiered software architectures as it minimizes interdependencies, improves flexibility and enables autonomous development across components.\r\n\r\nMicroservices and Containerization in GIS\r\n\r\nThe architecture presented in this study organizes components like data storage and visualization into a multi-service environment using Docker. Docker provides an ecosystem that encapsulates the operating system and all required dependencies, enabling OS-level and software-level virtualization (Acharya et al., 2021). Key benefits of this approach include:\r\n\u2022 Portability - containers encapsulate all required libraries, dependencies, software and configurations.\r\n\u2022 Efficiency - containers use fewer resources than VMs or server infrastructures. They also have a positive effect on human resources because they lessen dependencies between developers.\r\n\u2022 Scalability - supports both horizontal and vertical scaling.\r\n\u2022 Isolation - containers are self-contained and reduce the risk of conflicts.\r\n\u2022 Continuous integration - testing and production environments can be identical, accelerating development cycles.\r\n\u2022 Clear ownership - containers have well-defined boundaries, which prevents individuals from interfering with each other\u2019s work and thereby improving efficiency.\r\n\u2022 Interoperability - containers and services can easily be consumed with no special needs in terms of operating system or software.\r\n\r\nThe project implements a 4-tier container orchestration to visualize the geodata, PostgreSQL/Postgis for data storage, pgAdmin as Postgres\u2019 graphical user interface (GUI), Geoserver as a web map server and Node.js for client dependencies such as OpenLayers. \r\n\r\nComponents can be individually configured and tailored. In a containerized environment, services are defined as images and deployed as containers. These can be distributed and executed independently of the host system's configuration. For example, deploying a traditional web-based GIS requires manually installing and configuring a database (e.g., PostgreSQL), a web map server (e.g., GeoServer), and a frontend visualization library (e.g., OpenLayers or Leaflet). This process must be repeated for each redundant server to achieve fault tolerance or switchover capabilities - an inefficient and error-prone approach.\r\n\r\nBy contrast, containerization allows each component to be defined in configuration files (e.g., docker-compose.yml) alongside accompanying text files for credentials and settings. The result is a streamlined and reproducible environment where services interact through well-defined interfaces. Containerization enables full-stack development of service-oriented architectures (SOA), simplifying workflows needed for redundancy, fault tolerance and system maintenance. Modularization also facilitates all key tasks across the GIS stack - from data ingestion and analysis to visualization.\r\n\r\nBy isolating each functional component - data ingestion, storage, service and visualization into independent Docker containers, the system achieves modularity, scalability, and ease of maintenance. The use of open-source tools like PostgreSQL/ PostGIS, GeoServer, and OpenLayers ensures adaptability to a wide range of GIS use cases. This architecture not only simplifies development and deployment but also provides a robust foundation for building more complex geospatial systems that support advanced spatial analytics and statistics or elaborate data pipelines.\r\n\r\nReal-World Application: Radiological Emergency Preparedness\r\n\r\nThe application showcases how radiological measurement data can be deployed for various tasks from routine monitoring to emergency response. The Federal German Office for Radiation Protection (Bundesamt f\u00fcr Strahlenschutz) is responsible for detecting, assessing, and reacting to nuclear and radiological events. It collaborates with European member states and international agencies (e.g., Euratom, IAEA). In an emergency, it must rapidly collect, analyze, and distribute information while proposing protective measures to reduce the impact of nuclear fallout.\r\n\r\nScalability is critical, as emergency situations often trigger surges in web traffic. The agency has prioritized container-based, component-driven software architectures for nearly a decade, yielding significant improvements in continuous integration and deployment (CI/CD), scalability, maintainability, portability, resilience (e.g., service recovery) and overall performance.",
+    "start_datetime": "2025-07-16T15:00:00Z",
+    "end_datetime": "2025-07-16T15:05:00Z",
+    "talk:code": "7H7P38",
+    "talk:guid": "29762043-fe9b-5505-98f3-96a74a384ca9",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Academic track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "PA01 (Quarticle)",
+    "talk:room_capacity": 95,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "PGHK7Q",
+        "name": "Arne Schumacher",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/PGHK7Q/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-16T15:02:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/7H7P38/",
+      "title": "Honey, I shrunk the GIS \u2013 Developing scalable and lightweight geospatial software applications with microservices and containerization"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/7H7P38/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/PGHK7Q/",
+      "title": "Arne Schumacher"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/7H7P38/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "academic-paper": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/7H7P38/resources/containerization_and_microservices_l565ucC.pdf",
+      "type": "application/pdf",
+      "title": "Academic Paper",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/7H7P38/resources/260716_presentation_rjX4D7y.pptx",
+      "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/6Bs6MTKcwSuvTfoQSizj5m",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Honey, I shrunk the GIS \u2013 Developing scalable and lightweight geospatial ...",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=XCxLmXFZ4gA",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Honey, I shrunk the GIS \u2013 Developing scalable and lightweight geospatial ...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

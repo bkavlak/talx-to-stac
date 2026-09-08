@@ -1,0 +1,103 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "PPVLZH",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Modernizing the R-GRASS interface: confronting barn-raised OSGeo libraries and the evolving R.*spatial package ecosystem",
+    "description": "Introduces the current status of the R R-GRASS GISS interface package \"rgrass\". There are two operation modes, starting R in a running GRASS session in an existing GRASS location, or starting a fresh GRASS session from R. All GRASS commands and most GRASS extensions can be scripted from R.\n\nWe'll show different ways to connect R and GRASS, and different ways to read and write especially raster data via chosen R packages , their advantages and disadvantages. There have been many changes in the OSGeo library ecosystem used both by GRASS GIS and R.*spatial packages (https://r-spatial.org, https://rspatial.org), so the tutorial will introduce the interface to those for whom it is new, and update users of the interface on ongoing changes related to changes both in the OSGeo library ecosystem and the R.*spatial package ecosystem. \r\n\r\nExamples will include using GRASS GIS functionality to extend what is feasible in R alone when handling and analysing spatial data, and using R as an alternative to Python for scripting GRASS GIS commands.\r\n\r\nInformation on the versions of GRASS, R and R packages which should be installed on participants' computers will be provided, together with a simple test to check that installation has succeeded. Participant's computers should have recent GRASS and R pre-installed, and the instructions at the start of the online workshop document should be followed before reaching Florence. Data sets and code will also be provided linked from the workshop document. Files will be made available from the workshop document on https://rsbivand.github.io/foss4g_2022/modernizing_220822.html",
+    "start_datetime": "2022-08-22T14:15:00Z",
+    "end_datetime": "2022-08-22T16:15:00Z",
+    "talk:code": "PPVLZH",
+    "talk:guid": "2a2993e1-534b-5635-a877-3f224921b675",
+    "talk:event": "foss4g-2022-workshops",
+    "talk:type": "Short Workshop",
+    "talk:language": "en",
+    "talk:room": "212",
+    "talk:room_capacity": 25,
+    "talk:duration_minutes": 120,
+    "talk:speakers": [
+      {
+        "code": "BXZHAN",
+        "name": "Roger Bivand",
+        "url": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/BXZHAN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-22T15:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/talk/PPVLZH/",
+      "title": "Modernizing the R-GRASS interface: confronting barn-raised OSGeo libraries and the evolving R.*spatial package ecosystem"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/talk/PPVLZH/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/BXZHAN/",
+      "title": "Roger Bivand"
+    },
+    {
+      "rel": "related",
+      "href": "https://rspatial.org",
+      "title": "rspatial.org"
+    },
+    {
+      "rel": "related",
+      "href": "https://rsbivand.github.io/foss4g_2022/modernizing_220822.html",
+      "title": "rsbivand.github.io/foss4g_2022/modernizing_220822.html"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.1016/S0098-3004(00",
+      "title": "doi.org/10.1016/S0098-3004(00"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/talk/PPVLZH/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-workshops"
+}

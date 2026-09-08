@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "TLJESF",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "A new SQL library to enable spatial analytics in Spark",
+    "description": "In this talk, we'll review the major milestones that have defined Spatial SQL as the powerful tool for geospatial analytics that it is today. \r\n \r\nFrom the early foundations of the JTS Topology Suite and GEOS and its application on the PostGIS extension for PostgreSQL, to the latest implementation in Spark SQL using libraries such as the CARTO Analytics Toolbox for Databricks, Spatial SQL has been a key component of many geospatial analytics products and solutions, leveraging the computing power of different databases with SQL as lingua franca, allowing easy adoption by data scientists, analysts and engineers. \r\n \r\nThe CARTO Analytics Toolbox is a comprehensive library that provides advanced geospatial functionality through Spark SQL. It enables Spatial SQL analytics at scale providing the foundational tools for analyzing and visualizing geospatial data. \r\n \r\nIn this talk we'll cover the technical aspects of the library implementation using Open Source technologies, as well as demonstrating the installation and practical usage with a real-life example. \r\n \r\nOur talk will go through some of the geospatial operations that can be performed directly in Spark and we will demonstrate how users of the Analytics Toolbox can create beautiful map visualizations leveraging the latest Open Source rendering tools; and how to address a wide variety of spatial use cases using other products built on top of open source technologies, like CARTO and Databricks.",
+    "start_datetime": "2022-08-25T08:15:00Z",
+    "end_datetime": "2022-08-25T08:20:00Z",
+    "talk:code": "TLJESF",
+    "talk:guid": "e0d718a4-fa95-5ec7-8b0e-6ba4d8e0a038",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Room 4",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "Q7DQYK",
+        "name": "Borja Mu\u00f1oz",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/Q7DQYK/"
+      },
+      {
+        "code": "YVGAAN",
+        "name": "Ernesto Mart\u00ednez Becerra",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/YVGAAN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T08:17:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/TLJESF/",
+      "title": "A new SQL library to enable spatial analytics in Spark"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/TLJESF/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/Q7DQYK/",
+      "title": "Borja Mu\u00f1oz"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/YVGAAN/",
+      "title": "Ernesto Mart\u00ednez Becerra"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/TLJESF/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=sC59peomgfQ",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | A new SQL library to enable spatial analytics in Spark",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

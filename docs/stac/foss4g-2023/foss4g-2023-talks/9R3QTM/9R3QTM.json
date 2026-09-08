@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "9R3QTM",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "GeoServer Cloud in depth",
+    "description": "A typical GeoServer deployment involves exposing it as a front service to publish a number of layers directly to the internet, where a single instance, or even a couple, and an on-premise deployment model is enough.\r\n\r\nWithin larger companies though, more often than not GeoServer is a critical component of a more significant infrastructure, used to host tens of thousands of layers to accommodate organization requirements across various departments and workflows that involve several other systems, and complex cloud deployments.\r\n\r\nThese scenarios are where GeoServer Cloud shine, enabling devOps teams to set up clusters of GeoServer pods that are scalable, have improved resiliency, security, and resource utilization; and increased observability and integration with telemetry systems for monitoring, debugging, and tracing.\r\n\r\nIn this talk, we'll explore in depth how GeoServer Cloud achieves these goals, from technology and design choices to detailed overviews of technical improvements that were required, supported by success stories of current CampToCamp customers that got GeoServer Cloud in production.",
+    "start_datetime": "2023-06-28T09:30:00Z",
+    "end_datetime": "2023-06-28T10:00:00Z",
+    "talk:code": "9R3QTM",
+    "talk:guid": "9902db05-f3a2-50fd-b8e4-0990584527a5",
+    "talk:event": "foss4g-2023",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT F / N212 - Floor 3",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RR3FVS",
+        "name": "Gabriel Roldan",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/RR3FVS/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/9R3QTM/",
+      "title": "GeoServer Cloud in depth"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/9R3QTM/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/RR3FVS/",
+      "title": "Gabriel Roldan"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/9R3QTM/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/fyYS3kTioWYNkiYErpZNwx",
+      "type": "text/html",
+      "title": "2023 |  GeoServer Cloud in depth - Gabriel Roldan",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=CMct0SXk9n4",
+      "type": "text/html",
+      "title": "2023 |  GeoServer Cloud in depth - Gabriel Roldan",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

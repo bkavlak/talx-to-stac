@@ -1,0 +1,113 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "7C8LUT",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Styling Natural Earth with GeoServer",
+    "description": "This workshop is a practical introduction to advanced data styling with GeoServer using the GeoCSS styling language and Natural Earth data to build a multi-scale political map. Join to learn the basics of GeoCSS, and a number of interesting tricks to build an interesting, colorful, informative map.\n\nNatural Earth is a public domain map dataset available at 1:10m, 1:50m, and 1:110 million scales. Featuring tightly integrated vector and raster data, with Natural Earth one can build a variety of visually pleasing, well-crafted maps with cartography or GIS software.\r\n\r\nGeoServer GeoCSS is a CSS inspired language allowing you to build maps without consuming fingertips in the process, while providing all the same abilities as SLD.\r\n\r\nThis workshop will how how to style Natural Earth with GeoServer CSS, showing how simple, compact styles can be used to prepare a multiscale map, covering:\r\n* Leveraging CSS cascading.\r\n* Building styles that respond to scales in ways that go beyond simple scale dependencies.\r\n* Various types of labeling tricks (conflict resolution and label priority, controlling label density, label placement, typography, labels in various scripts, label shields and more).\r\n* Quickly controlling colors with LessCSS inspired functions.\r\n* Building symbology using GeoServer large set of well known marks.",
+    "start_datetime": "2023-06-27T07:00:00Z",
+    "end_datetime": "2023-06-27T11:00:00Z",
+    "talk:code": "7C8LUT",
+    "talk:guid": "2448e337-543e-5728-bd63-0435b4ea6c8a",
+    "talk:event": "foss4g-2023-workshop",
+    "talk:type": "Long Workshop",
+    "talk:language": "en",
+    "talk:room": "Lumbardhi",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "RBSH8T",
+        "name": "Andrea Aime",
+        "url": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/RBSH8T/"
+      },
+      {
+        "code": "J7Z7F8",
+        "name": "krishna lodha",
+        "url": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/J7Z7F8/"
+      },
+      {
+        "code": "PYLPBY",
+        "name": "Alessio Fabiani",
+        "url": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/PYLPBY/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-27T09:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/7C8LUT/",
+      "title": "Styling Natural Earth with GeoServer"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/7C8LUT/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/RBSH8T/",
+      "title": "Andrea Aime"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/J7Z7F8/",
+      "title": "krishna lodha"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/PYLPBY/",
+      "title": "Alessio Fabiani"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.youtube.com/c/krishnalodha",
+      "title": "www.youtube.com/c/krishnalodha"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/7C8LUT/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-workshops"
+}

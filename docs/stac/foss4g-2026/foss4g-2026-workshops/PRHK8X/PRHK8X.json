@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "PRHK8X",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Microwave Image Processing: Exploring realms of Earth through spaceborne Radars using Python",
+    "description": "Synthetic Aperture Radar(SAR) is an Imaging Radar that acquires images of a particular area in the microwave region and possesses all-weather,all-time imaging capabilities.This workshop deals with the processing of SAR Images and how these images can be beneficial in a variety of geographical applications.\n\nIntended Audience : The workshop will be aimed at the audience belonging to any level of education. It will introduce them to the wonderful class of SAR images and help them develop a clear perspective of various applications.\r\n\r\nPost  workshop, the audience will be :\r\n\r\ni) Able to understand the acquisition of SAR imagery.\r\n\r\nii) Able to understand the types of datasets utilized in remote sensing\r\n\r\niii) Able to use the GDAL library to perform operations on images\r\n\r\niv) Able to efficiently process SAR imagery using Python\r\n\r\nv) Able to draw a roadmap in order to utilize SAR imagery for various geographic applications\r\n\r\nOutline\r\n\r\nThe workshop will be divided into the following sub-sessions :\r\n\r\nSub-Session-1: Introduction to Microwave Remote Sensing (30 minutes) - This part will discuss the foundations of Microwave Remote Sensing. Theoretical aspects regarding the acquisition of images, the formation of images encompassing the generation of complex images and ground range detected images will be discussed.\r\n\r\nSub-Session-2: Pythonic Way to SAR Image Processing (150 minutes): This part will focus on achieving the following Key points:\r\n\r\n1) Basic utilization of GDAL, Numpy and Matplotlib Libraries for opening and visualizing Images(30 minutes)\r\n\r\n2) Codes will be developed separately for calibration for each SAR sensor(esp. Sentinel-1, Radarsat-2) from scratch.(45 minutes)\r\n\r\n3) Utilization of the codes developed in (2) for various applications such as Oceanography, Forestry, etc.(75 minutes)\r\n\r\nDatasets: Free Imagery data sets of Sentinel-1 SAR will be utilized. In addition, Sample Data sets of Radarsat-2, RISAT- 1 which are freely downloadable will be utilized.The sample datasets will be provided. Sentinel-1 Free SAR Imagery is available at https://browser.dataspace.copernicus.eu/\r\n\r\nConduct of the workshop : The workshop will be conducted through the means of Jupyter Notebooks.",
+    "start_datetime": "2026-08-31T01:00:00Z",
+    "end_datetime": "2026-08-31T04:00:00Z",
+    "talk:code": "PRHK8X",
+    "talk:guid": "48ecb06b-58fb-5182-a8a8-45b5e2c9e0e1",
+    "talk:event": "foss4g-2026-workshop",
+    "talk:type": "Workshop",
+    "talk:language": "en",
+    "talk:room": "700",
+    "talk:room_capacity": 63,
+    "talk:duration_minutes": 180,
+    "talk:speakers": [
+      {
+        "code": "RSVBNT",
+        "name": "SHUBHAM SHARMA",
+        "url": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/RSVBNT/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-08-31T02:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/PRHK8X/",
+      "title": "Microwave Image Processing: Exploring realms of Earth through spaceborne Radars using Python"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/PRHK8X/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/RSVBNT/",
+      "title": "SHUBHAM SHARMA"
+    },
+    {
+      "rel": "related",
+      "href": "https://browser.dataspace.copernicus.eu/",
+      "title": "browser.dataspace.copernicus.eu"
+    },
+    {
+      "rel": "related",
+      "href": "https://in.linkedin.com/in/shubham-sharma-54685780",
+      "title": "in.linkedin.com/in/shubham-sharma-54685780"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/PRHK8X/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-workshops"
+}

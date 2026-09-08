@@ -1,0 +1,143 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "YCJ3YZ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Use Postgis Topology simplify/secure work with spatial data.",
+    "description": "We will take look at this elements\r\n\r\nClean up Simple Feature datasets by using Postgis Topology\r\n\r\nUse declarative methods to set up a client to edit Postgis Topology data\r\n\r\nHow do use QGIS to view Postgis Topology data\r\n\r\nCopy a Postgis Topology from one database to another.\n\nSome reasons why NIBIO are using Postgis Topology: \r\nIt solves problems we were not able to solve by sticking to Simple Feature only. \r\nWe are able to make very user friendly clients to update maps.\r\n\r\nSometimes I hear from people that say \u201cit's so complicated to use Postgis Topology\u201d and yes I must admit that is easier to start up using Simple feature then Postgis Topology.\r\n\r\nSo in this workshop we will try to help other people in to the Postgis Topology world. Together with/help from Sandro Santilli, NIBIO has made some simple tools to make it easier to use/show how you can use Postgis Topology for some tasks.\r\n\r\nhttps://gitlab.com/nibioopensource/resolve-overlap-and-gap\r\nhttps://gitlab.com/nibioopensource/topo_update-app-foss4g2022\r\nhttps://gitlab.com/nibioopensource/pgtopo_update_gui\r\nhttps://gitlab.com/nibioopensource/pgtopo_update_rest\r\nhttps://gitlab.com/nibioopensource/pgtopo_update_sql\r\n\r\nWe will also look into the following tools \r\n\r\nhttps://postgis.net/docs/manual-3.3/Topology.html#Topology_Import_Export\r\nTopoViewer in \r\nhttps://docs.qgis.org/3.4/en/docs/user_manual/plugins/core_plugins/plugins_db_manager.html\r\n\r\n\r\nAll tools like QGIS, Postgis Topology and pgtopo_update_gui works from windows, but some of the scrips we have made are only tested on Ubuntu/Mac. For those of you who run windows only, will then use the clients tools only and against test a environment that will be set up or you have to run it on your ovn docker environment.",
+    "start_datetime": "2023-06-27T12:00:00Z",
+    "end_datetime": "2023-06-27T14:00:00Z",
+    "talk:code": "YCJ3YZ",
+    "talk:guid": "1df5c745-67a0-5113-ac4f-12fa9a875d82",
+    "talk:event": "foss4g-2023-workshop",
+    "talk:type": "Short Workshop",
+    "talk:language": "en",
+    "talk:room": "UBT D / N113 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 120,
+    "talk:speakers": [
+      {
+        "code": "QS7Y88",
+        "name": "Lars Opsahl",
+        "url": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/QS7Y88/"
+      },
+      {
+        "code": "X8CLRQ",
+        "name": "Mattia",
+        "url": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/X8CLRQ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-27T13:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/YCJ3YZ/",
+      "title": "Use Postgis Topology simplify/secure work with spatial data."
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/YCJ3YZ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/QS7Y88/",
+      "title": "Lars Opsahl"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/X8CLRQ/",
+      "title": "Mattia"
+    },
+    {
+      "rel": "related",
+      "href": "https://gitlab.com/nibioopensource/resolve-overlap-and-gap",
+      "title": "gitlab.com/nibioopensource/resolve-overlap-and-gap"
+    },
+    {
+      "rel": "related",
+      "href": "https://gitlab.com/nibioopensource/topo_update-app-foss4g2022",
+      "title": "gitlab.com/nibioopensource/topo_update-app-foss4g2022"
+    },
+    {
+      "rel": "related",
+      "href": "https://gitlab.com/nibioopensource/pgtopo_update_gui",
+      "title": "gitlab.com/nibioopensource/pgtopo_update_gui"
+    },
+    {
+      "rel": "related",
+      "href": "https://gitlab.com/nibioopensource/pgtopo_update_rest",
+      "title": "gitlab.com/nibioopensource/pgtopo_update_rest"
+    },
+    {
+      "rel": "related",
+      "href": "https://gitlab.com/nibioopensource/pgtopo_update_sql",
+      "title": "gitlab.com/nibioopensource/pgtopo_update_sql"
+    },
+    {
+      "rel": "related",
+      "href": "https://postgis.net/docs/manual-3.3/Topology.html#Topology_Import_Export",
+      "title": "postgis.net/docs/manual-3.3/Topology.html"
+    },
+    {
+      "rel": "related",
+      "href": "https://docs.qgis.org/3.4/en/docs/user_manual/plugins/core_plugins/plugins_db_manager.html",
+      "title": "docs.qgis.org/3.4/en/docs/user_manual/plugins/core_plugins/plugins_db_manager.html"
+    },
+    {
+      "rel": "related",
+      "href": "https://gitlab.com/nibioopensource",
+      "title": "gitlab.com/nibioopensource"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/larsop",
+      "title": "github.com/larsop"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/YCJ3YZ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-workshops"
+}

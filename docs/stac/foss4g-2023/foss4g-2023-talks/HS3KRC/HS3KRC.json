@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "HS3KRC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Let's defense my country using FOSS4G!",
+    "description": "This talk is about the current state of MilMap and its ongoing development. MilMap is a military geo-portal system widely and successfully used in every sectors of Korean military. The system is now undergoing major change from geo-portal to military digital twin system. \r\n\r\nMilMap is developed on top of numerous open source projects such as PostGIS, GeoServer, GeoWebCache, Cesium, OpenLayers, mago3D, OpenGXT. The system provides several functionalities like POI search, geospatial data search, layer control, satellite image search and download, spatial terrain analysis, coordinates reading, and map notes, to the military officers through the intranet. Although the system provides geospatial analytics functions through OGC WPS(Web Processing Service), the current system is basically a web based 3D GIS for data viewing and printing. Thanks to MilMap, military officers can now access the huge amount of geospatial data(maps, imagery, 3D, POI, and others) in their browser without installing additional software. \r\n\r\nMilMap is now undergoing major development to be a more customized, automated, and analytical system. The future MilMap will support user data uploading for intelligence sharing, more bespoke battle field analysis and others. In the long run, MilMap is expected to be a cloud based military digital twin system for geospatial intelligence sharing and battle field analysis & simulation.",
+    "start_datetime": "2023-06-29T14:00:00Z",
+    "end_datetime": "2023-06-29T14:30:00Z",
+    "talk:code": "HS3KRC",
+    "talk:guid": "5d664db5-245f-5dcc-aa7b-d99ae71ce4b5",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Drini",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "Z8DMDB",
+        "name": "Sanghee Shin",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/Z8DMDB/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-29T14:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/HS3KRC/",
+      "title": "Let's defense my country using FOSS4G!"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/HS3KRC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/Z8DMDB/",
+      "title": "Sanghee Shin"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/HS3KRC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/e9ZcDJzvhW1PjEfy6SuoCE",
+      "type": "text/html",
+      "title": "2023 | Let's defense my country using FOSS4G! - Sanghee Shin",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=6kImlub97rY",
+      "type": "text/html",
+      "title": "2023 | Let's defense my country using FOSS4G! - Sanghee Shin",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

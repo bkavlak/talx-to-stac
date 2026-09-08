@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "XHU8UU",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Migration strategies: Or how to get rid of a deprecated framework",
+    "description": "Deprecation of a used framework is a common risk for software projects. Migrations are very time-consuming and costly, without showcasing any new functional features. This can make them an unpopular task, that tends to be postponed until there is no other choice, be it for a customer or the community of an open source project.\r\n\r\nDuring the last decade for instance, AngularJS has been one of the most popular web frameworks around. This was not any different in FOSS4G projects, where it had been adopted in geoportals and other frontend components. With the end of the decade, active development of AngularJS came to an end and since summer 2021 no more security updates are provided. This has become a major challenge for many web ecosystems - including FOSS4G ones - where AngularJS is still very present, but will have to be replaced in the long run.\r\n\r\nThis talk will present various open source projects and how they differently approach this challenge. It will reflect on lessons learned so far and aspires to provide inspiration for other projects in a similar situation.\r\n\r\nGeomapfish is a WebGIS framework that allows to build geoportals. It is a community driven project. Its frontend is based on the ngeo javascript library, which has been built on top of AngularJS and OpenLayers. Due to its wide functionality, the project\u2019s goal is to prevent a one shot migration. It has been decided for a continuous migration based on (Lit Element) web components, that allow to integrate migrated functionalities step by step.\r\n\r\nGeoportal.lu is the national geoportal of Luxembourg. It is based on the Geomapfish framework, but has a very customized frontend. The requirement here is similar. Instead of migrating all at once, the different parts should be continuously integrated. After following the Geomapfish migration strategy based on web components at first, the project is finally migrated to another javascript framework (vue), without giving up on the continuous migration.\r\n\r\nGeonetwork is a well-known FOSS4G catalog application. On top of its powerful backend, sits a frontend that is also based on AngularJS. Once again, its functionality is so vast, that a complete rewrite would be enormous. Thus came up the idea of geonetwork-ui: A new project that could live alongside Geonetwork without the goal to become isofunctional, but to complement it. A project providing libraries specialized in proposing user interfaces by leveraging Geonetwork\u2019s backend capabilities.",
+    "start_datetime": "2023-06-29T13:00:00Z",
+    "end_datetime": "2023-06-29T13:30:00Z",
+    "talk:code": "XHU8UU",
+    "talk:guid": "ea86d9f7-98d6-5dbe-8424-77112ffc8ef1",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Mirusha",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "LRLXSW",
+        "name": "Tobias Kohr",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/LRLXSW/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-29T13:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/XHU8UU/",
+      "title": "Migration strategies: Or how to get rid of a deprecated framework"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/XHU8UU/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/LRLXSW/",
+      "title": "Tobias Kohr"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/XHU8UU/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/pDE5uYLSi4z4YG8zjL6iNc",
+      "type": "text/html",
+      "title": "2023 |  Migration strategies: Or how to get rid of a deprecated framework - Tobias Kohr",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=T-0DJj_vGGo",
+      "type": "text/html",
+      "title": "2023 |  Migration strategies: Or how to get rid of a deprecated framework - Tobias Kohr",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

@@ -1,0 +1,139 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "H7ZEBF",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Postgis Topology to secure data integrity, simple API and clean up messy simple feature datasets.",
+    "description": "In Postgis Topology a merge of two surfaces does not involve spatial operations, since \r\nthe surface to border relation has foreign key structures in the database. This means that the border of the new object is spatially not touched/changed when two surfaces are merged. With simple feature the common border must be computed on the fly, which again may involve snapTo and cause tiny overlaps and gaps. \r\n\r\nWith Postgis Topology you can easily make an API where the client only sends new borders which is a key issue to secure data integrity. This secures that old border are not are not moved by a client error or the by simple transport format, because existing points are never not passed back to the server. Postgis Topology makes it easy for the server to work with those new borders(delta), because there are standard methods for this in Postgis Topology and all relations between border and surfaces are stored in the database. Postgis Topology also has validation routines in addition to using standard database constraints to secure a healthy system. \r\n\r\nThe principles that Postgis Topology is based on was used in spatial system many years ago, but one problem was to keep the border line work nice and clean and not end up in a spaghetti.  So one of the first things we did together with Sandro Santilli was to create methods on top of Postgis Topology to avoid this, by throwing away any border parts that does not contribute to a new \u201cvalid\u201d surface.\r\n\r\nPostgis Topology is built on a relational database model that is based on SQL-MM part 3. Your own domain data are easily linked to border, surface objects with more. For instance to check domain attributes on a surface on the other side of a border is not spatial query but a standard relational query. \r\n\r\nThe following projects will also be touched in this talk:\r\n\r\nhttps://gitlab.com/nibioopensource/pgtopo_update_sql (Functions using Postgis Topology to make it easy to create spatial update clients.)\r\n\r\nhttps://github.com/strk/qgis_pgis_topoedit (Postgis Topology is very well integrated with QGIS.)\r\n\r\nhttps://github.com/larsop/resolve-overlap-and-gap (Show how we clean up,  simplify, generalize  simple feature tables with millions of rows using Postgis Topology)\r\n\r\nIs relational database structure a good choice for Postgis Topology? Yes I will mean and since it\u2019s also linked up SQL-MM part3 and not a random private structure and with all great Postgis functions available this is very good combination. You may take take glance at https://www.ibm.com/ibm/history/ibm100/us/en/icons/reldb/ and other articles about relational databases. \r\n\r\nThe plan now is to build a full ecosystem around Postgis Topology with a generic client to support declarative rules, where you can define attributes, rules for attribute handling and how to deal with overlap and gap. \r\n\r\nAll the work NIBIO has done/is doing here would not have been possible with out the great support from Sandro Santilli.",
+    "start_datetime": "2022-08-25T10:00:00Z",
+    "end_datetime": "2022-08-25T10:30:00Z",
+    "talk:code": "H7ZEBF",
+    "talk:guid": "8d7a99ac-0bd7-56f6-8784-6b1d24df91ee",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Limonaia",
+    "talk:room_capacity": 110,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "QS7Y88",
+        "name": "Lars Opsahl",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/QS7Y88/"
+      },
+      {
+        "code": "FGP8FL",
+        "name": "sandro santilli",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/FGP8FL/"
+      },
+      {
+        "code": "LMFPHL",
+        "name": "Mattia Natali",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/LMFPHL/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T10:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/H7ZEBF/",
+      "title": "Postgis Topology to secure data integrity, simple API and clean up messy simple feature datasets."
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/H7ZEBF/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/QS7Y88/",
+      "title": "Lars Opsahl"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/FGP8FL/",
+      "title": "sandro santilli"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/LMFPHL/",
+      "title": "Mattia Natali"
+    },
+    {
+      "rel": "related",
+      "href": "https://gitlab.com/nibioopensource/pgtopo_update_sql",
+      "title": "gitlab.com/nibioopensource/pgtopo_update_sql"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/strk/qgis_pgis_topoedit",
+      "title": "github.com/strk/qgis_pgis_topoedit"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/larsop/resolve-overlap-and-gap",
+      "title": "github.com/larsop/resolve-overlap-and-gap"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.ibm.com/ibm/history/ibm100/us/en/icons/reldb/",
+      "title": "www.ibm.com/ibm/history/ibm100/us/en/icons/reldb"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/H7ZEBF/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=SbSs09ZPsLA",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Postgis Topology to secure data integrity, simple API and clean up messy simple\u2026",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

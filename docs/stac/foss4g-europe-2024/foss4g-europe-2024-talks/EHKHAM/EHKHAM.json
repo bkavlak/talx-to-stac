@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "EHKHAM",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "OpenMapTiles - vector tiles from OpenStreetMap & Natural Earth Data",
+    "description": "**OpenMapTiles** is an open-source set of tools for **processing OpenStreetMap data** into **zoomable** and **web-compatible vector tiles** to use as **high-detailed base maps**. These vector tiles are ready to use in MapLibre, Mapbox GL, Leaflet, OpenLayers, and QGIS as well as in mobile applications.\r\n\r\nDockerized OpenMapTiles tools and OpenMapTiles schema are being **continuously upgraded by the community** (simplification, performance, robustness). The presentation will demonstrate the latest changes in OpenMapTiles. **The last release of OpenMapTiles greatly enhanced cartography and map styling possibilities**, especially the enrichment of road network, added more POI, or improved update performance. The latest version of Natural Earth brings updated data to upper zooms and includes the **OpenMapTiles style** showing all features in well-known colors for vector tiles. OpenMapTiles is also used for generating **vector tiles from government open data** secured by **Swisstopo**.",
+    "start_datetime": "2024-07-03T12:00:00Z",
+    "end_datetime": "2024-07-03T12:30:00Z",
+    "talk:code": "EHKHAM",
+    "talk:guid": "2d2cc114-17ef-585d-958d-e1426ae44ba1",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "LAStools (327)",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "SPQSVL",
+        "name": "Tom\u00e1\u0161 Pohanka",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/SPQSVL/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-03T12:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/EHKHAM/",
+      "title": "OpenMapTiles - vector tiles from OpenStreetMap & Natural Earth Data"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/EHKHAM/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/SPQSVL/",
+      "title": "Tom\u00e1\u0161 Pohanka"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/EHKHAM/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "openmaptiles-presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/EHKHAM/resources/Pohanka_MapTiler_OpenMapTiles_694kw9p.pdf",
+      "type": "application/pdf",
+      "title": "OpenMapTiles presentation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/d28cgmmPgzMv3kEAMn3S6T",
+      "type": "text/html",
+      "title": "OSS4GE 2024 | OpenMapTiles - vector tiles from OpenStreetMap & Natural Earth Data",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=EUOx_v5cj0k",
+      "type": "text/html",
+      "title": "OSS4GE 2024 | OpenMapTiles - vector tiles from OpenStreetMap & Natural Earth Data",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

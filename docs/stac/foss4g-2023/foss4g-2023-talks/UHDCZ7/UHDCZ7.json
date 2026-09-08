@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "UHDCZ7",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Open source tooling for hydrodynamic simulation software development",
+    "description": "In this talk we give an example of how open source tooling enables companies to fast-track software development, while simultaneously benefitting the FOSS4G community. Our use case is the development of the user interface for hydrodynamic simulation software, including editing and analysis, called the 3Di Modeller Interface.\r\n\r\nTraditionally hydrodynamic simulation software companies develop their own user interfaces, usually closely resembling GIS packages, (re-)implementing features like background maps, layer management, geoprocessing tools, and styling options. In our approach we turned it around. Instead of developing our own GIS-like software, we used QGIS to leverage development. Specifically for larger governmental agencies (where a certain well-known proprietary GIS suite is often the only GIS that employees are allowed to use), we packaged our implementation in an installer, enabling modellers to use QGIS for hydrodynamic analysis within their organisations.\r\n\r\nThis approach has several advantages for users and for the FOSS4G community. For users, hydrodynamic modelling tools seamlessly integrate with the ever expanding GIS capabilities that QGIS has to offer; and users can built their own custom tooling, combining our own open libraries for hydrodynamic modelling with FOSS4G libraries like PyQGIS, Shapely, NetworkX, GDAL or QGIS.\r\nFor the FOSS4G community, this approach increases the user base, including users that are into developing their own plugins, it increases sustainable memberships, and creates job opportunities for FOSS4G developers.\r\n\r\nThe 3Di Modeller Interface is developed by Nelen & Schuurmans, a Dutch water and IT company, in collaboration with Lutra Consulting, a European FOSS4G company. Its development relies on several open source projects: QGIS, Shapely, GDAL, GeoAlchemy2, and NetworkX, amongst others. When we started in software development, we used open source mainly because it was free of cost. During the development, the board of directors became convinced that contributing to several open source projects (financially and/or developing) is the way forward.",
+    "start_datetime": "2023-06-30T12:00:00Z",
+    "end_datetime": "2023-06-30T12:30:00Z",
+    "talk:code": "UHDCZ7",
+    "talk:guid": "f9269891-d347-5d87-8bd2-e3fec905d7bf",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Drini",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "89ETCL",
+        "name": "Leendert van Wolfswinkel",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/89ETCL/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-30T12:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/UHDCZ7/",
+      "title": "Open source tooling for hydrodynamic simulation software development"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/UHDCZ7/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/89ETCL/",
+      "title": "Leendert van Wolfswinkel"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/UHDCZ7/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/7BKbu7P11YqE1ejfU5xW7Q",
+      "type": "text/html",
+      "title": "2023 | Open source tooling for hydrodynamic simulation software development",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=0F592q6x4oo",
+      "type": "text/html",
+      "title": "2023 | Open source tooling for hydrodynamic simulation software development",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

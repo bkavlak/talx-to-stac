@@ -1,0 +1,108 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "EAX3P7",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Public Transportation GTFS Editor",
+    "description": "For sustainable public transport (PT) operations and planning, the most important part of the decision-making cycle is the accurate and up-to-date collection and sharing of static public transport data. One of the biggest problems experienced is that the data for comprehensive analyzes are not accurate and powerful, and data formats change according to PT agencies. To solve these problems, PT data formats and visualization methods have been investigated.\r\n\r\nGTFS (General Transit Feed Specification) is the most commonly used format for specifying PT schedules,line,stop and route. In other words, GTFS is a data specification that allows PT agencies to publish their transit data in a format that can be consumed by a wide variety of software applications. Today, the GTFS data format is used by thousands of PT providers.\r\n\r\nOur company has developed an open-source GIS-based GTFS editor using its knowledge in data analysis, big data, and data visualization in the field of PT. Within the scope of this study, firstly, open PT data (line, stop, schedule, etc.) were obtained from different municipalities and visualized using open source GIS applications such as QGIS, SAGA GIS, JOSM, GeoDa, and data quality evaluation was made. State of art in the field of ITS has been researched and open source GTFS editors have been studied.\r\n\r\nOpen source map servers such as GeoServer were used for sharing, editing and organizing stop & line maps produced in GIS applications. For geospatial data analysis, stop points were verified by using geopandas and shapely libraries. PostgreSQL database was used to store geo-based stop & line data and the PostGIS extension was used. PostGIS adds spatial capabilities to PostgreSQL so it can store, query, and manipulate spatial data. On the server side scripting, GeoAlchemy(an extension of SQLAlchemy) was used for working with spatial databases and geospatial queries. Turf was used for any spatial operations. It is a geospatial engine, and it includes spatial operations and helper functions. - MapboxGL: WebGL-powered library was used for interactive vector maps on the web application. To render more than 1k of stops & lines with high performance, WebGL powered geospatial visualization framework DeckGL was used. NebulaGL provides geospatial drawing and editing tools for lines. It was added for creating & editing routes from the map. Osm-Nominatim is a geocoding library. It allows users to find a stop address from a location.\r\n\r\nAs a result of the studies, the open source GTFS editor was developed, which will create a geographical base for PT planning and operational methods. The developed GIS-based editor provides fast and more effective PT management by enabling the visualization, creation and management of lines and stops of PT agencies with user-friendly interfaces.",
+    "start_datetime": "2022-08-25T13:35:00Z",
+    "end_datetime": "2022-08-25T13:40:00Z",
+    "talk:code": "EAX3P7",
+    "talk:guid": "858060eb-3469-552d-9949-099605e54964",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "General online",
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "HHYABN",
+        "name": "Elif Karag\u00fcm\u00fc\u015f",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/HHYABN/"
+      },
+      {
+        "code": "WZEWMF",
+        "name": "Egemen Okten",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/WZEWMF/"
+      },
+      {
+        "code": "WFTCHT",
+        "name": "HALDUN YILDIZ",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/WFTCHT/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T13:37:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/EAX3P7/",
+      "title": "Public Transportation GTFS Editor"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/EAX3P7/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/HHYABN/",
+      "title": "Elif Karag\u00fcm\u00fc\u015f"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/WZEWMF/",
+      "title": "Egemen Okten"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/WFTCHT/",
+      "title": "HALDUN YILDIZ"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/EAX3P7/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

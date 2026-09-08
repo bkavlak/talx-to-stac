@@ -1,0 +1,129 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "MZTDHF",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Better productivity for QGIS plugin developers",
+    "description": "Developing a plugin for QGIS is both as simple as one of the countless tutorials and as complicated as a software engineering job facing with the dynamism of the project (maintenance requirements), the size of the APIs and constraints that need to be taken into account (Windows, etc.).\r\n\r\nAt Oslandia, we create and maintain many plugins for our clients, which leads us to streamline their development... and especially their maintenance! Historically, many extensions were created using the amazing Plugin Builder and the underlying tool (pb_tool) but it no longer fit our needs.\r\n\r\nWe present here our [QGIS Plugin Templater](https://oslandia.gitlab.io/qgis/template-qgis-plugin/), based on [Cookiecutter](https://cookiecutter.readthedocs.io/) and the related work on developer tools (tests, documentation, code structure, formatting, linter...). We will also mention the other tools we are using or following closely (the 3Liz toolbelt, the other template from Gispo Coding...).\r\n\r\nYet Another Plugin Generator? Probably but we think it's worth it!",
+    "start_datetime": "2022-08-26T13:15:00Z",
+    "end_datetime": "2022-08-26T13:45:00Z",
+    "talk:code": "MZTDHF",
+    "talk:guid": "f429f575-29a7-54ce-b69f-932090f769a9",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Auditorium",
+    "talk:room_capacity": 1000,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "98ALRK",
+        "name": "Julien Moura",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/98ALRK/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T13:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/MZTDHF/",
+      "title": "Better productivity for QGIS plugin developers"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/MZTDHF/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/98ALRK/",
+      "title": "Julien Moura"
+    },
+    {
+      "rel": "related",
+      "href": "https://oslandia.gitlab.io/qgis/template-qgis-plugin/",
+      "title": "QGIS Plugin Templater"
+    },
+    {
+      "rel": "related",
+      "href": "https://cookiecutter.readthedocs.io/",
+      "title": "Cookiecutter"
+    },
+    {
+      "rel": "related",
+      "href": "https://oslandia.com/en/",
+      "title": "Oslandia"
+    },
+    {
+      "rel": "related",
+      "href": "http://geotribu.fr/",
+      "title": "Geotribu"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/MZTDHF/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/aDiyBryDkH1TpzxYHw69Kc",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Better productivity for QGIS plugin developers",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=tpsltHMqkrI",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Better productivity for QGIS plugin developers",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

@@ -1,0 +1,94 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "E9LK8S",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "Working with Point Cloud Data in QGIS",
+    "description": "This workshop will teach you how to work with point cloud data in QGIS. You will learn how to visualize point clouds in both 2D and 3D, style them to highlight important features, and process and edit them to extract meaningful information.\n\nQGIS has seen tremendous growth in point cloud related features over the last two years. This workshop will show you how to use all the point cloud related features in QGIS. This includes numerous data visualization settings, point cloud processing algorithms, exploring data via the Elevation Profile panel, viewing in 3D and editing point cloud attributes. \r\n\r\nSpecifically you'll learn to:\r\n\r\n* Load and display point clouds in 2D.\r\n* View point clouds in 3D.\r\n* Create Virtual Point Clouds (VPCs).\r\n* Use Point Cloud Processing Tools.\r\n* Edit Point Cloud attributes.\r\n* Use PDAL Wrench\r\n\r\nSoftware:\r\nTo get the most out of this workshop, you will need to minimally install the latest release of QGIS (v 3.44.0). Optionally, it's recommended that you install QGIS 4.0 or QGIS 4.2, because you will then have access to even more processing algorithms and settings in the Elevation Profile panel and 3D viewer. Please install QGIS prior to the workshop. \r\n\r\nNote1: If you will be using a corporate laptop where permissions can be problematic, consider getting these installations completed with IT before you travel to the conference.\r\n\r\nNote 2:  It is recommended that you also bring a tablet. There is an accompanying step-by-step tutorial. Having a tablet will allow you to read the tutorial on your tablet while working on your laptop.\r\n\r\nData\r\nAll data for the workshop will be provided.",
+    "start_datetime": "2026-07-03T06:00:00Z",
+    "end_datetime": "2026-07-03T10:00:00Z",
+    "talk:code": "E9LK8S",
+    "talk:guid": "dcc48d29-833c-5ed3-b637-cf59e37a8db4",
+    "talk:event": "foss4g-europe-2026-workshops",
+    "talk:type": "workshop",
+    "talk:language": "en",
+    "talk:room": "003",
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "FVV3PU",
+        "name": "Kurt Menke",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026-workshops/speaker/FVV3PU/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-07-03T08:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/talk/E9LK8S/",
+      "title": "Working with Point Cloud Data in QGIS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/talk/E9LK8S/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/speaker/FVV3PU/",
+      "title": "Kurt Menke"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/talk/E9LK8S/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "workshop-homepage-with-data-presentation-and-tutorial": {
+      "href": "https://septima.dk/kursusmateriale.html?kursus=20260603_working_with_pointclouds_in_qgis_workshop_1357",
+      "title": "Workshop homepage with data, presentation and tutorial.",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-workshops"
+}

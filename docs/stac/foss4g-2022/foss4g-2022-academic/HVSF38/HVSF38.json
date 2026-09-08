@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "HVSF38",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "The Role of Open Standards in Digital Building Permitting, 3D Registration of Condominium, and Update of 3D City Models",
+    "description": "Digitalization is being adopted in many public services to increase the efficiencies of the required operations. Regarding this, there is an important interest in digitalizing the current building permit procedures since most of the buildings are designed digitally and as three-dimensional (3D). In addition, several countries are making an effort to realize the transition from two-dimensional (2D) cadastre to 3D cadastre. This is because 2D delineation of the legal rights may remain incapable to reflect the reality with respect to property ownership in multipartite buildings. The 3D city models should also be kept updated to effectively manage the occasions (e.g., natural disasters) and services (e.g., waterworks) in the living areas. In this sense, the open data standards have a vital role to enable interoperability between different domains such as AEC and Land Administration. In this sense, this paper first aims to show the current situation and opportunities on how to efficaciously benefit from open data standards for three significant issues. The issues can be listed as, 1) digitalizing the building permit procedures, 2) registering the condominium as 3D, and 3) updating the 3D city models. It then presents an approach for integrating open standards for 3D registration of condominium rights in Turkey context. The integration of GIS and BIM, GeoBIM, has gained importance in terms of digital building permitting since there are rules to be checked with respect to the built environment; for example, the availability of bicycle parks. Besides, zoning plans that are essential for building permitting are generally formatted with GIS-based data. There are studies in the literature that aim to carry out the building permitting by benefiting from the integrated GIS and BIM approach. This approach is also connected with the update of the 3D city model database because the as-built models of the buildings can be integrated into this database after the necessary conversions (Guler & Yomralioglu, 2021). 3D registration of condominium rights, which is part of the 3D cadastre, is often researched in the literature since 2D-based delineation of ownership rights might be insufficient in detecting who owns or responsible for which parts of the multipartite buildings. The availability of 3D representation of ownership rights will be efficient for various land administration applications, for example, property valuation. Open standards are, of course, pivotal for realizing the 3D registration of condominium rights as they not only provide the integration between different organizations but also enable the interoperability for other processes that are needed the same data. In this connection, Land Administration Domain Model (LADM) is the first standard that comes to mind because it aims to provide a common language for land administration systems and supports 3D representation through boundary face and boundary face strings. Since standards like CityGML focus on 3D modeling of buildings more deeply, there are attempts that integrate the CityGML and LADM by exploiting advantageous features of each of the standards for better depiction of ownership rights as 3D (Li et al., 2016). The \u201cBuilding\u201d and \u201cCadastre\u201d themes that are produced within the context of Turkey National GIS (TNGIS) describe the relationship between related features, namely parcel, building, building blocks, and condominiums. These features are modeled such that they allow for integration with other standards such as CityGML and IndoorGML so as to enable the efficient reuse of spatial data in different applications. To enable better interoperability and 3D depiction of condominium rights, an integrated model is developed. The proposed features that are adapted from LADM permits the 3D representation of ownership rights. The proposed features are linked with the IFC entities, namely \u201cIfcZone\u201d, \u201cIfcRelAssignsToGroup\u201d, and \u201cIfcSpace\u201d to provide integration with IFC. \u201cBuildingUnit\u201d is linked with the \u201cBuildingCondominium3D\u201d feature, and hence the integration with CityGML data is provided. It can be mentioned that \u201cBuildingCondominium3D\u201d corresponds to the \u201cLegalSpaceBuildingUnit\u201d feature of LADM. The proposed model incorporates the integration with IndoorGML by means of the link between \u201cBuildingCondominium3D\u201d and \u201cCellSpace\u201d. Due to fact of the inevitable proliferation of digitalization, the processes related to land and city management need to be accomplished more digitally and fast. There is an important potential to be practiced building permit issuing, as one of the important public services, in the sense of improvement and automation of the process (Noardo et al., 2022). Open data standards have a quite crucial role in realizing this potential. This is because these standards enable the standardization of information flow between designers and organizations that are responsible for compliance checking. In other words, applicants can prepare their submissions according to required information for building permit issuing. There is a strong interrelation between digital building permitting and the update of 3D city models because if the as-built IFC data of buildings are available, these data can be converted to CityGML, and thus the 3D city model database can be kept up-to-date. In addition to this, an up-to-date 3D city model database can be used for digital building permitting as there is a need for built environment data for integrated and comprehensive compliance checking. For example, rules with respect to infrastructure facilities can be checked using 3D city models. Open standards are effective to be successful in practicing the 3D cadastre. With the increasing trend in BIM, there are proposed approaches that use the IFC schema for 3D delineation of apartment rights in multipartite buildings. In parallel, this paper concentrates on a model that provides the integration with IFC data in the 3D representation of condominium rights in Turkey. The misinterpretations regarding who is responsible or owns of which parts of the buildings can be prevented using the IFC-based depiction of ownership rights (Shin et al., 2020). The semantic information pertaining to independent sections can be queried using the produced IFC-based models. These models will also be quite helpful for property valuation applications in Turkey that exploit 3D variables such as size, volume, position, and material quantities since they provide detailed information on indoor parts of the buildings (El Yamani et al., 2021).",
+    "start_datetime": "2022-08-24T13:35:00Z",
+    "end_datetime": "2022-08-24T13:40:00Z",
+    "talk:code": "HVSF38",
+    "talk:guid": "27967cd8-df99-53d1-b8fe-ca732e885a64",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "Room Hall 3A",
+    "talk:room_capacity": 85,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "MDGRPX",
+        "name": "Dogus Guler",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/MDGRPX/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T13:37:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/HVSF38/",
+      "title": "The Role of Open Standards in Digital Building Permitting, 3D Registration of Condominium, and Update of 3D City Models"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/HVSF38/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/MDGRPX/",
+      "title": "Dogus Guler"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/HVSF38/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

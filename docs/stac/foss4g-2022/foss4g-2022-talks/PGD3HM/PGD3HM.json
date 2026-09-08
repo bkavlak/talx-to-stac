@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "PGD3HM",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "If a tree falls in the forest, does the river notice?: Creating and Visualizing Equivalent Clearcut Area using Satellite Imagery, Python and Crossfilters",
+    "description": "Forest disturbance can have a significant impact on the hydrologic regime and health of watersheds, aquatic habitats, and their overall ecological functions. Although these impacts can vary as a result of physical and hydroclimatic conditions in watersheds, over the past decades a simple metric known as equivalent clearcut area (ECA) has emerged to quantify the cumulative disturbance at any point in time in a watershed, accounting for the temporal dynamics, including recovery, of historical disturbance. \r\nECA is widely used as an indicator to quantify forest disturbances as it not only covers all disturbance types but also considers the subsequent recovery of these disturbed areas through space and time. An ECA coefficient of 100% means there is no hydrological recovery due to planting trees, on the other hand, an ECA of 0% means 100% of the disturbed area has reached its maximum potential in recovery. \r\nThe prime objective of this project was to generate an annual time series of ECA for every watershed within the area covered by the Nadina Natural Resource District in British Columbia, Canada. The disturbance types identified in this project were forest fire, timber harvest, pest infestation, and permanent infrastructure development. The time and location of these disturbances were integrated with the BC Freshwater Atlas, in order to provide quantitative estimates of ECA for the watershed associated with stream reaches in the study area. \r\nDue to the cumulative nature of ECA over space and time, all types of forest disturbances have to be combined and recovery factors must be applied to account for vegetation and hydrological recovery over time. Previous field research was used to find the relationship between the tree stand height and the age following logging. \r\nIn order to apply the methodology, open source data and tools were used. We used two publicly available global satellite image derived raster products of forest change for our initial disturbance data source. We updated the forest change raster products using GDAL with local public geospatial datasets to assign change types for each year from 1985-2020, creating a unified multiband raster of change. The multiband raster was processed within Python, using GDAL and NumPy libraries, and recovery factors were applied to each pixel dynamically based on the year and type of change. The result of this processing was a collection of time series for watersheds broken down by year and type of change present. \r\nThe ECA results for the study area were loaded into PostGreSQL for delivery to a web application that allows a user to compare a location\u2019s ECA with the forest disturbance input. The application relies on Mapbox GL to interact with a web map and the spatial data display of the forest disturbance locations. D3 and Crossfilter JS libraries were used to interact with the disturbance data, allowing a user to filter histograms based on a variety of attributes, which are reflected in the histograms and web map in real time. ECA time series data is displayed in interactive histograms and line charts.",
+    "start_datetime": "2022-08-26T07:30:00Z",
+    "end_datetime": "2022-08-26T08:00:00Z",
+    "talk:code": "PGD3HM",
+    "talk:guid": "907fa98c-6506-5d9b-9950-e201b787a34a",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "General online",
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "ZX7ZP7",
+        "name": "Christopher Webb",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/ZX7ZP7/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T07:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/PGD3HM/",
+      "title": "If a tree falls in the forest, does the river notice?: Creating and Visualizing Equivalent Clearcut Area using Satellite Imagery, Python and Crossfilters"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/PGD3HM/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/ZX7ZP7/",
+      "title": "Christopher Webb"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/PGD3HM/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

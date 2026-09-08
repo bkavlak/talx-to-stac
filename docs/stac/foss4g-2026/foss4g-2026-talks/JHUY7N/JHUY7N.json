@@ -1,0 +1,128 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "JHUY7N",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "GeoSDC: A Spatial Data Infrastructure to support geological risk management in Santa Catarina State, Brazil",
+    "description": "This paper presents the current state of development of a spatial data infrastructure, based on GeoNode, focusing on data applied to natural disasters, especially geological hazards and susceptibility to mass movements and flooding.\n\nThe Secretariat of State for Protection and Civil Defense of Santa Catarina State, Brazil (SDC), in partnership with the Geological Survey of Brazil (SGB), is leading a strategic initiative for territorial risk management in the state. Through a Research, Development, and Innovation agreement, this collaboration encompasses the development of risk mapping and the implementation of a Spatial Data Infrastructure (SDI) platform. This joint effort addresses the historical lack of critical data in several municipalities, enabling risk reduction, disaster prevention, and the optimization of land-use planning.\r\nTo support and enhance this large-scale generation of knowledge, the project relies on the implementation of an advanced Spatial Data Infrastructure based on GeoNode 5.0. This open-source platform serves as the technological core of the initiative, integrating maps, metadata catalogs, and databases into a single high-performance ecosystem. By consolidating this robust database, the SDC aims to eliminate data fragmentation and ensure that all geospatial layers adhere to the FAIR principles (Findable, Accessible, Interoperable, and Reusable), thereby enhancing technical efficiency and institutional agility in risk-related information management.\r\nThe decision to choose GeoNode as a replacement to the proprietary SDI software is justified not only by the absence of a license cost, but also by its user-friendly interface for non-GIS specialists, ease of content management, and the high level of software customization potential. The challenge lies in building a team of human resources within the SDC capable of maintaining and disseminating SDI throughout the organization.\r\nThe GeoSDC project began in January 2026 with the deployment of two GeoNode environments in the SDC infrastructure - testing and production. After installation and initial contact with SDI, activities began to customize the \"look and feel,\" as well as including State Government\u2019s visual identification elements. The need to translate Geonode 5 terms into Brazilian Portuguese was also identified, and also the definition of authentication and authorization mechanisms.\r\nIn parallel, an inventory of SDC data is underway, whose portfolio consists of various types of formats \u2013 from vector data and spreadsheets to multidimensional grids of meteorological data. The order of magnitude of the number of datasets is estimated at 20,000 items. Meteorological datasets, in particular, constitute a major challenge to overcome, as they are information that is produced daily and has a high volume of traffic and storage.\r\nGeoSDC will be integrated into the SGB's spatial data infrastructure through automated metadata harvesting from spatial datasets and documents, enabling the indexing of selected SGB data directly from the GeoSDC infrastructure. Furthermore, some SGB products, such as Mass Movement and Flood Susceptibility maps, will be directly synchronized between the two SDIs.\r\nThe GeoSDC SDI is expected to be fully operational and publicly accessible by the end of 2027.",
+    "start_datetime": "2026-09-02T04:30:00Z",
+    "end_datetime": "2026-09-02T05:00:00Z",
+    "talk:code": "JHUY7N",
+    "talk:guid": "0f4b6ba7-157c-5be8-8b23-b16c809e4030",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room4",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "BZLYD8",
+        "name": "Carlos Eduardo Mota",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/BZLYD8/"
+      },
+      {
+        "code": "AM39HP",
+        "name": "Mauricio Marino",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/AM39HP/"
+      },
+      {
+        "code": "QGRJYH",
+        "name": "Matheus Klein Flach",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/QGRJYH/"
+      },
+      {
+        "code": "J3EBQB",
+        "name": "Tiago Antonelli",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/J3EBQB/"
+      },
+      {
+        "code": "KW3E3T",
+        "name": "Diogo Rodrigues",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/KW3E3T/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T04:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/JHUY7N/",
+      "title": "GeoSDC: A Spatial Data Infrastructure to support geological risk management in Santa Catarina State, Brazil"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/JHUY7N/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/BZLYD8/",
+      "title": "Carlos Eduardo Mota"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/AM39HP/",
+      "title": "Mauricio Marino"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/QGRJYH/",
+      "title": "Matheus Klein Flach"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/J3EBQB/",
+      "title": "Tiago Antonelli"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/KW3E3T/",
+      "title": "Diogo Rodrigues"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/JHUY7N/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

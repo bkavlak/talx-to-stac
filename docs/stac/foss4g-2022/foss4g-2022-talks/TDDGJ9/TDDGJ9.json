@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "TDDGJ9",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Developing a topographic data production system based on open source",
+    "description": "The National Land Survey (NLS) of Finland decided in the fall of 2020 to develop a national topographic data production system based on open source technologies and especially on QGIS client. Since then, many significant steps have been taken for us to be able to implement the MVP of the application for the mappers of the NLS at the start of 2024. Later on, we are planning to replace our digital elevation model production system with similar technologies which would enable us to replace the current mapping system by 2026. In this presentation I will talk about our system's architecture, the tools we are developing and furthermore, some insights that we have learned during this project.\r\n\r\nThe application's architecture is based heavily on Postgres, where we run the main database from which the national topographic maps are made. The operators can access the main database via Job management-plugin and modify the database objects on the client (QGIS). These modifications (inserts, updates, deletes) are saved in the operators' work database, from which they can register these changes to the main database.\r\n\r\nOur first challenge was to design how more than 150 operators of the NLS are able to work using the same main database. We decided to use the client-web service architecture. The benefit of that is that we can use QGIS as such as it is and we can build all of the functions required for job management into the backend application. The job management plugin communicates with the web service and the conflicts between the different work databases are handled by a separate tool. With the tool, an operator can solve conflicts that are created by another operator editing the same objects.  \r\n\r\nCurrently, we are integrating stereo compilation with QGIS, which will enable the operators to measure objects from 3D aerial stereoscopic photos. The next steps are to develop comprehensive tools for quality assurance and to improve basic QGIS tools for selecting, editing and digitizing objects. The problem is that we have over a hundred different layers, therefore the default way to choose the layer is not sufficient for the operator. We also want to develop tools for real time quality checking so that the mapper would immediately know if a quality error occurs, making the general workflow smoother.\r\n\r\nAlthough some of the components are custom-made, our purpose is to publish those components that we recognize to be useful for other QGIS users. In addition, we have seen the value of multiple premade plugins to which we are planning to contribute as well. As a whole, NLS is currently looking for new ways to be a part of the open-source community.",
+    "start_datetime": "2022-08-26T10:00:00Z",
+    "end_datetime": "2022-08-26T10:30:00Z",
+    "talk:code": "TDDGJ9",
+    "talk:guid": "c38b8394-56cf-5658-846e-78499773dd04",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Limonaia",
+    "talk:room_capacity": 110,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "Y9XNXB",
+        "name": "Olli Rantanen",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/Y9XNXB/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T10:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/TDDGJ9/",
+      "title": "Developing a topographic data production system based on open source"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/TDDGJ9/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/Y9XNXB/",
+      "title": "Olli Rantanen"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/TDDGJ9/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=FJi_dly_JuI",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Developing a topographic data production system based on open source",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

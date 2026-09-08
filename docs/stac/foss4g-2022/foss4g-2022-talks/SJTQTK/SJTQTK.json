@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "SJTQTK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Supporting precision farming with GeoServer:  past experiences and way forward",
+    "description": "The amount of data available from drones, earth observation as well as machinery itself (i.e. telemetry data) plus the advent of cloud infrastructure has given a huge impulse to innovating the way we used to support farmers and farming in general, democratizing access to data and capabilities like never before through precision (or digital) farming solutions.\r\n\r\nPrecision farming (or digital farming) has therefore become one of main use cases for GeoServer deployments over the past years and at GeoSolutions we have worked with many clients, from NGOs to large private companies (like Bayer), from startups to organizations like DLR in helping them to support their client to make sense of data and information through GeoServer and other geospatial open source technologies at scale, in the cloud.\r\n\r\nThis presentation will condense 10 years of GeoSolutions in ingesting, managing and disseminate data at scale in the cloud for the precision farming industry covering items like:\r\n- Proper optimizations and organization of raster data\r\n- Proper optimizations and organization of vector data\r\n- Modeling data for performance & scalability in GeoServer and PostGIS\r\n- Deployment guidelines for performance and scaling GeoServer\r\n- Styling to create NDVI and other visualizations on the fly\r\n\r\nAt the end of the presentation the attendees will be able to design and plan properly a GeoServer deployment to serve precision farming data at scale.",
+    "start_datetime": "2022-08-26T10:30:00Z",
+    "end_datetime": "2022-08-26T11:00:00Z",
+    "talk:code": "SJTQTK",
+    "talk:guid": "ec7e1d48-65d2-5a4b-a5b2-c5efa315a660",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Limonaia",
+    "talk:room_capacity": 110,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RBSH8T",
+        "name": "Andrea Aime",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/RBSH8T/"
+      },
+      {
+        "code": "NMVVQN",
+        "name": "Simone Giannecchini",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/NMVVQN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T10:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/SJTQTK/",
+      "title": "Supporting precision farming with GeoServer:  past experiences and way forward"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/SJTQTK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/RBSH8T/",
+      "title": "Andrea Aime"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/NMVVQN/",
+      "title": "Simone Giannecchini"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/SJTQTK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/rxzxnBTgjhtcSx1X77fzBp",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Supporting precision farming with GeoServer:  past experiences and way forward",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=OwagaoeH2Aw",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Supporting precision farming with GeoServer:  past experiences and way forward",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "EMWHHZ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Make It Easier to View GTFS : Building a GTFS Timetable Viewer with SvelteKit",
+    "description": "A web-based GTFS timetable viewer that processes General Transit Feed Specification (GTFS) data entirely client-side using SvelteKit. Users can upload GTFS ZIP files and instantly visualize transit schedules in an interactive timetable format with real-time status indicators.\n\nPublic transit agencies publish schedule data in GTFS format, but accessing this information remains challenging for most users. This application provides a web-based GTFS timetable viewer that transforms complex transit data into readable, interactive timetables with ease of use. Users simply drag and drop GTFS ZIP files directly into their browser, where data is processed entirely client-side without requiring server infrastructure.This application makes viewing GTFS data significantly quicker and easier.",
+    "start_datetime": "2025-11-20T20:45:00Z",
+    "end_datetime": "2025-11-20T20:50:00Z",
+    "talk:code": "EMWHHZ",
+    "talk:guid": "5dad59a6-8430-53fa-914e-6ec06b7b020f",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Lightning talk",
+    "talk:type": "Lightning Talk",
+    "talk:language": "en",
+    "talk:room": "WG403",
+    "talk:room_capacity": 386,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "QTWS3L",
+        "name": "Xinmiao Qu",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/QTWS3L/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-20T20:47:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/EMWHHZ/",
+      "title": "Make It Easier to View GTFS : Building a GTFS Timetable Viewer with SvelteKit"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/EMWHHZ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/QTWS3L/",
+      "title": "Xinmiao Qu"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/EMWHHZ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=V5_mDsVvLW4",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Make It Easier to View GTFS : Building a GTFS Timetable Viewer with SvelteKit",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

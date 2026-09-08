@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "ZCEZF9",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Speed-related traffic accident analysis using GIS-based DBSCAN and NNH clustering",
+    "description": "Traffic accidents are a significant problem facing the world, as they result in many deaths and injuries every year. Generally, the probability of traffic accidents occurring at any point is not random. Factors such as the condition of the road, where the accidents occurred, and the general structure of the land play an essential role in the accidents that will occur at one point. For this reason, traffic accidents tend to occur intensively in areas where these factors are different from usual.\r\n\r\nIt is critical to identify such areas and take the necessary measures to ensure road safety and reduce traffic accidents. Identifying the different geographic locations where traffic accidents occur can help prevent more traffic accidents, personal injuries, and fatal accidents and understand the different accident occurrence conditions. When the literature is considered, it is seen that many studies in this field are handled with different methods. Analyzing the locations where traffic accidents occur by considering the hot spots with spatial clustering methods plays a very active role in examining the tendency of traffic accidents to occur. In this study, it is thought to deal with detecting traffic accident hot spots by using the GIS-based Nearest Neighbor Hierarchical Clustering Method (NNH) and Density-based clustering Method (DBSCAN).\r\n\r\nNearest Neighbor Hierarchical Clustering Method (NNH) is a hot spot spatial clustering method that detects accident hot spots. This method considers two types of criteria for spatial mapping clustering of spatial point data: the threshold distance (d), which is the Euclidean distance between each pair of data points, and the minimum number of points that must be present in a cluster (nmin) (Kundakci E, 2014; Kundakci and Tuydes-Yaman, 2014; Levine, 1996; Levine et al., 2004; Ture Kibar and Tuydes-Yaman, 2020). At the point of realizing this method, the crime stat program, which was developed especially for hot spot clustering analysis of crimes, is widely used. CrimeStat is a crime mapping software program developed by Ned Levine (Levine, 1996). \r\n\r\nDensity-based clustering, on the other hand, is also known as DBSCAN, is a method for finding specific predefined events and hotspots. The algorithm, moreover, is open source and recommended for noisy data in large spatial databases (Ester et al., 1996). This method identifies a cluster as the most densely connected set of points possible. There are two criteria addressed in this method: Epsilon and minimum scores. The maximal radius of the neighbourhood is epsilon, and the minimal number of points in the epsilon-neighbourhood to describe a cluster is minimum points. This clustering algorithm separates the point data into three different forms (Schubert et al., 2017).\r\n\r\nIn the study, the Mersin province of Turkey was chosen as the pilot region for the analyses using the mentioned methods. Mersin is a port city located in the Mediterranean Region of Turkey, located between 36-37\u00b0 north latitude and 33-35\u00b0 east longitude. As of 2021, it has a population of 1.891.145 (URL-1, 2022). It is the most important domestic tourism center of Turkey and is on the way to becoming Turkey's new tourism region with the appointments made in tourism in recent years and new hotels built on the beach. \r\n\r\nThis study predicted determining the risky areas where speed-related traffic accidents will occur in Mersin, which is an important point for the country, and to make predictions by making evaluations depending on the road geometry at the determined points. In addition, it will be examined whether the measures to be taken based on the analysis at the determined points are made comparatively with two different methods and whether these evaluations create differences by considering both based on a large region and the basis of a more local region.\r\n\r\nThe study was planned in four phases. First of all, spatial and non-spatial data of the selected pilot region will be provided. For this stage, traffic accidents data between 2013-2020 will be obtained from the general directorate of safety and the general command of the gendarmerie. The obtained data will be organized and then transferred to the geographic database for GIS-based analyses in the second stage. Since speed-related traffic accident hot spot analysis will be performed in the study, the database will be suitable to include speed-related accidents. The NNH and the DBSCAN method will be performed in the third stage, and the results will be discussed. At this stage, the Crime Stat III program will be used for the NNH method, and the open-source GIS program QGIS will be used for the DBSCAN method. All results will be analyzed, visualized, and evaluated through the QGIS program. In the last stage of the study, the results obtained will be examined according to the probability of accidents. Finally, the obtained risky areas according to the analysis results will be evaluated according to the geometry of the road. In short, it will be examined within the framework of accident-road geometry whether the structure of the road and the high-risk areas of the accidents overlap.\r\n\r\nThe fact that the points where speed-related accidents will tend to cluster will be determined, with the study to be carried out, will address a significant gap in this field. Since the effectiveness of the methods will be compared with a different analysis, a study will be constituted a base for studies in a similar field. In addition, since the reasons such as whether these methods produce effective results in large regions and more local regions will be examined, it is thought that important suggestions will be made and contributions to the literature. Finally, since the results obtained in the study will be evaluated depending on the road geometry, the traffic accident-road geometry relationship will be discussed. Thus, a base for similar studies will be provided.",
+    "start_datetime": "2022-08-25T10:50:00Z",
+    "end_datetime": "2022-08-25T10:55:00Z",
+    "talk:code": "ZCEZF9",
+    "talk:guid": "8b44e7e6-0757-5842-af3d-933f5da8244a",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "Room Hall 3A",
+    "talk:room_capacity": 85,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "BYQN39",
+        "name": "Baran Topcuoglu",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/BYQN39/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T10:52:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/ZCEZF9/",
+      "title": "Speed-related traffic accident analysis using GIS-based DBSCAN and NNH clustering"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/ZCEZF9/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/BYQN39/",
+      "title": "Baran Topcuoglu"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/ZCEZF9/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

@@ -1,0 +1,96 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "CCRDGC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Benchmarking Zonal Stats for Wildfire Resilience",
+    "description": "The State of California has a recurring issue of devastating wildfires that spread out of control, causing significant damage to the well-being of its citizens, environment, and economy.\r\n\r\nDue to this recurring issue, the State of California and the USDA\u2014United States Forest Service committed to treating one million acres of land (roughly 400,000 hectares) to reduce the occurrence and severity of these wildfires. Planscape was created to prioritize and guide this one million-acre effort.\r\n\r\nPlanscape is a freely available tool built to help landscape planners, public agents and the general public prioritize and learn about landscape interventions that minimize fire risk and cost while maximizing ecological benefits. \r\n\r\nPlanscape utilizes zonal statistics data gathered from over 200 raster layers, applying Linear Programming techniques to determine the best locations for planners to intervene in the landscape by performing treatments such as mastication, prescribed burns, etc.\r\n\r\nThis hands-on session will discuss several options for obtaining Zonal Statistics for Planscape. In this benchmark, we can compare a diverse range of technologies and techniques utilized to reduce the necessary time to obtain zonal statistics for roughly 24 million regular polygons covering the state of California and, over 200 million zonal statistics records.\r\n\r\nThis talk benchmarks the following methods: PostGIS + PostgreSQL, Python RasterIO, rasterstats, custom code.",
+    "start_datetime": "2024-12-05T13:00:00Z",
+    "end_datetime": "2024-12-05T13:30:00Z",
+    "talk:code": "CCRDGC",
+    "talk:guid": "1addbf12-8753-57bc-aaf8-64efe730546f",
+    "talk:event": "foss4g-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room II",
+    "talk:room_capacity": 200,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "QUUKHU",
+        "name": "George Rodrigues da Cunha Silva",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/QUUKHU/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-05T13:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/CCRDGC/",
+      "title": "Benchmarking Zonal Stats for Wildfire Resilience"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/CCRDGC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/QUUKHU/",
+      "title": "George Rodrigues da Cunha Silva"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/CCRDGC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://docs.google.com/presentation/d/1BG4iLd5xhRufLF8a_egXgfQH1CBpMdw37zuVe6OninY/edit?usp=sharing",
+      "title": "Slides",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

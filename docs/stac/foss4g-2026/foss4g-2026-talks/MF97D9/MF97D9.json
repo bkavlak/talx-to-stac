@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "MF97D9",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Open Geo Embeddings: Models, Representations, and Systems",
+    "description": "GeoAI embeddings span models, representations, and systems, but are often conflated. This talk introduces a clear framework and compares approaches like Clay and TESSERA to help practitioners understand and apply geospatial embeddings in real-world workflows.\n\nVector embeddings are becoming a key building block in GeoAI, enabling new forms of search, analysis, and data integration. But the landscape of geospatial embeddings is still emerging and often conflated, spanning foundation models, derived representations, and the systems used to manage them.\r\n\r\nThis talk provides a practical introduction to geospatial embeddings, focusing on how the pieces fit together. We will outline a simple framework that distinguishes between foundation models such as Clay, pre-computed embedding representations such as the TESSERA temporal grid, and the systems used to store and query these vectors at scale.\r\n\r\nWe will compare how these approaches differ in terms of inputs such as imagery, time series, and multimodal data, as well as training strategies and intended use cases including similarity search, classification, and change detection. We will also examine the role of general-purpose vision models and how they are being adapted for geospatial workflows.\r\n\r\nFinally, we will discuss the current state of openness in this space, including what is truly open-source, what is partially accessible, and where gaps remain.\r\n\r\nThis session offers a structured view of the geo-embedding ecosystem, helping practitioners understand what is available today and how to evaluate and combine these approaches in real-world applications.",
+    "start_datetime": "2026-09-02T05:00:00Z",
+    "end_datetime": "2026-09-02T05:30:00Z",
+    "talk:code": "MF97D9",
+    "talk:guid": "42f36e89-37fe-50de-923b-21685de4c1d8",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room6",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "W8MQ89",
+        "name": "Matthew Hanson",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/W8MQ89/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T05:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/MF97D9/",
+      "title": "Open Geo Embeddings: Models, Representations, and Systems"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/MF97D9/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/W8MQ89/",
+      "title": "Matthew Hanson"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/MF97D9/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "C9D9EJ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Facilitating advanced Sentinel-2 analysis through a simplified computation of Nadir BRDF Adjusted Reflectance",
+    "description": "The Sentinel-2 mission, pivotal to the European Space Agency's Copernicus program, features two satellites with the MultiSpectral Instrument (MSI) for high-to-medium resolution (10-60 m) imaging in visible (VIS), near-infrared (NIR), and shortwave infrared (SWIR) bands. Its 180\u00b0 satellite phasing allows for a 5-day revisit time at the equator, essential for Earth Observation (EO) tasks. Sentinel-2 Surface Reflectance (SR) is crucial in detailed Earth surface analysis. However, for enhanced accuracy in SR data, it is imperative to perform adjustments that simulate a nadir viewing perspective (Roy et al., 2016). This correction mitigates the directional effects caused by the anisotropy of SR and the variability in sunlight and satellite viewing angles. Such adjustments are essential for the consistent comparison of images captured at different times and under varying conditions. This is particularly critical for processing and analysing Earth System Data Cubes (ESDCs, Mahecha et al., 2020), which are increasingly used due to their organised spatiotemporal structure and the ease of their generation from cloud-stored data (Montero et al., 2023).\r\n\r\nThe MODIS BRDF/Albedo product presents spectral Bidirectional Reflectance Distribution Function (BRDF) model parameters, enabling the calculation of directional reflectance across any specified sensor viewing and solar angles. Building on this foundation, Roy et al. (2008, 2016) introduced a novel approach leveraging MODIS BRDF parameters, named the c-factor, for the adjustment of Landsat SR data. This adjustment produces Nadir BRDF Adjusted Reflectance (NBAR) by multiplying the observed Landsat SR with the ratio of reflectances predicted by the MODIS BRDF model for both the observed Landsat SR and a standard nadir view under fixed solar zenith conditions. Subsequently, Roy et al. (2017) expanded this method to include adjustments for multiple Sentinel-2 spectral bands (VIS to SWIR).\r\n\r\nWhile the c-factor method facilitates straightforward computation for individual Sentinel-2 images, there is a notable absence of a unified Python framework to apply this conversion uniformly across multiple images, especially for ESDCs derived from cloud-stored data.\r\n\r\nTo bridge this gap, we introduce \u201csen2nbar,\u201d a Python package specifically developed to convert Sentinel-2 SR data to NBAR. This tool is versatile, aiming for converting both individual images and ESDCs generated from cloud-stored data, thus streamlining the conversion process for Sentinel-2 data users.\r\n\r\nThe \"sen2nbar\" package, meticulously designed for simplicity, facilitates the direct conversion of Sentinel-2 Level 2A (L2A) SR data to NBAR through a single function. To streamline this process, the package is segmented into multiple modules, each dedicated to specific tasks within the NBAR computation pipeline. These modules include functions for extracting sun and sensor viewing angles from metadata, calculating geometric and volumetric kernels, computing the BRDF model, and determining the c-factor.\r\n\r\n\u201csen2nbar\u201d supports NBAR calculations for three distinct data structures:\r\n\r\n1. **Complete scenes via SAFE files**: Users can input a local SAFE file from a Sentinel-2 L2A scene. The package processes this file, generating a new folder where each spectral band is adjusted to NBAR at its original resolution. The adjusted images are saved as Cloud Optimised GeoTIFF (COG) files, with an option for users to choose standard GeoTIFF formats instead.\r\n\r\n2. **Xarray Data Arrays via \u201cstackstac\u201d**: For ESDCs obtained as xarray data array objects from a SpatioTemporal Asset Catalog (STAC) using stackstac and pystac-client, \u201csen2nbar\u201d requires the xarray object, the STAC endpoint, and the Sentinel-2 L2A collection name. This information allows the package to access STAC for metadata retrieval necessary for adjusting the data cube. The spatial coverage and resolution in this scenario might differ from complete scenes, and \"sen2nbar\" adjusts only the specific area and timeframe retrieved for the given resolution.\r\n\r\n3. **Xarray Data Arrays via \u201ccubo\u201d**: When users have ESDCs formed as xarray data arrays through cubo, which builds upon stackstac and incorporates the STAC endpoint and the collection name as attributes, \u201csen2nbar\u201d directly adjusts these to NBAR, utilising the methodology described in the stackstac case.\r\n\r\nFor the latter two scenarios, \u201csen2nbar\u201d works without writing files to disk, instead returning an xarray data array object containing the NBAR values. The package is designed to handle available bands without errors for missing bands, acknowledging that users may not require all bands and might have generated ESDCs with selected bands. Additionally, if the input arrays are \u2018lazy\u2019 arrays, created using dask arrays (a default in stackstac or cubo), \u201csen2nbar\u201d executes calculations in parallel, ensuring efficient computation of NBAR values.\r\n\r\nImportantly, \u201csen2nbar\u201d automatically harmonises SR data for images with a processing baseline of 04.00 or higher before performing NBAR, ensuring consistency and accuracy in the processed data.\r\n\r\n\"sen2nbar\" efficiently computes NBAR values from Sentinel-2 L2A SR data. The software supports complete SAFE files processing as well as the adjustment of ESDCs sourced from STAC and COG files, utilising tools such as \u201cstackstac\u201d and \u201ccubo\u201d. This versatility is encapsulated in a streamlined design, allowing for the adjustment of various data formats through a single, user-friendly tool, adapted to diverse user requirements.\r\n\r\n\"sen2nbar\" is anticipated to become a key resource for geospatial Python users, especially in Earth System research. This tool is set to improve analyses conducted by scientists and students by significantly reducing the time and effort traditionally spent on technical adjustments. Its impact is expected to be particularly profound for multitemporal analyses, facilitating more efficient and streamlined investigations. This includes Artificial Intelligence (AI) research, particularly for studies involving multidimensional EO data. By utilising \"sen2nbar\", AI-based research can achieve more reliable outcomes, enhancing the overall quality and credibility of the findings.\r\n\r\nThe \u201csen2nbar\u201d package is open-source and readily available on GitHub (https://github.com/ESDS-Leipzig/sen2nbar) under an MIT License. This encourages contributions from the global community, fostering collaborative development and continuous improvement. While prior experience in Remote Sensing can be advantageous for users, it is not a prerequisite for using it. The package is equipped with comprehensive documentation and tutorials, all designed to be beginner-friendly and facilitate easy adoption of the package.",
+    "start_datetime": "2024-07-03T12:00:00Z",
+    "end_datetime": "2024-07-03T12:30:00Z",
+    "talk:code": "C9D9EJ",
+    "talk:guid": "681c631a-f08b-5826-a579-2458074102d1",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Academic track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Omicum",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "GXMXGL",
+        "name": "David Montero Loaiza",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/GXMXGL/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-03T12:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/C9D9EJ/",
+      "title": "Facilitating advanced Sentinel-2 analysis through a simplified computation of Nadir BRDF Adjusted Reflectance"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/C9D9EJ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/GXMXGL/",
+      "title": "David Montero Loaiza"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/C9D9EJ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides-pdf": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/C9D9EJ/resources/FOSS4G24EU_sen2nbar_IskX79i.pdf",
+      "type": "application/pdf",
+      "title": "Slides PDF",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "slides": {
+      "href": "https://docs.google.com/presentation/d/1FXOB7E399zNjF1VQU0-iqiwII9dJU5kOjZw5OQU8SKU/edit?usp=sharing",
+      "title": "Slides",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/k9c72rBKZkuCA9GamxftLK",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Facilitating advanced Sentinel-2 analysis through a simplified computation of ...",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=q5UghFQHSLA",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Facilitating advanced Sentinel-2 analysis through a simplified computation of ...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

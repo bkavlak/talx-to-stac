@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "HYNJ9W",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Open Standards and Tools to Accelerate Global Crisis Response",
+    "description": "The IFRC launched the Global Crisis Data Bank (Montandon) \u2014 the world's largest repository of natural hazard and impact data, enabling evidence-based decisions for financial and operational crisis planning. This talk covers how we're building a harmonized data repository using open standards like STAC for fast, reproducible analysis.\n\n### Background\r\nThe latest Emergency Events Database (EM-DAT) report recorded 393 natural-hazard related disasters. We are collectively experiencing this, and we recognise that this number is trending upwards. As a rule-of-thumb, that's at least one disaster every day of the year. This scale is staggering and requires major shifts in our humanitarian response operations. When a crisis happens, a data crisis unfolds. Several agencies are trying to build a situational report, learn from previous response strategies, and their impact while lives are at stake. IFRC is trying to solve this data crisis through Montandon.\r\n\r\nIFRC started Montandon initiative with support from UNDRR, UN OCHA, and the WMO. The Montandon's goal is to create a centralized database harmonizing hazard, impact, and corresponding response data for every event from various sources, including EM-DAT and DesInventar. This addresses crucial gaps in the humanitarian data ecosystem, with a focus on IFRC\u2019s own National Societies, to understand the past and better prepare for the future. Montandon will be the foundation for risk and forecast models and systems and a dynamic database constantly reflecting the humanitarian community's approaches.\r\n\r\n### Building Montandon\r\nWe helped IFRC build the foundation of Montandon using open standards and tools. The humanitarian data ecosystem is historically siloed but the choice of technology, and metadata can play a huge role in breaking these silos and create fundamental shifts in evidence-based decisions. Montandon uses STAC, and custom but extensible Montandon STAC extension. This is based on years of humanitarian data management experience and a consultation with groups like IFRC, ESA, and NASA. This infrastructure is AI-ready, allows caliberating models, trigger anticipatory action, and streamline disaster response globally. Reproducible analysis is at the core of Montandon. With humantarian funding under stress, it is important to imagine workflows that are easy to replicate and scale. \r\n\r\nThis talk will present Montandon, the design philosophy, data taxonomy, and share how this approach is supporting real-world crisis response.",
+    "start_datetime": "2026-09-02T04:00:00Z",
+    "end_datetime": "2026-09-02T04:30:00Z",
+    "talk:code": "HYNJ9W",
+    "talk:guid": "0b400e4e-296c-590e-b220-f5f4159ec250",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room4",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "LCZTLW",
+        "name": "Sajjad Anwar",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/LCZTLW/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T04:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/HYNJ9W/",
+      "title": "Open Standards and Tools to Accelerate Global Crisis Response"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/HYNJ9W/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/LCZTLW/",
+      "title": "Sajjad Anwar"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/HYNJ9W/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

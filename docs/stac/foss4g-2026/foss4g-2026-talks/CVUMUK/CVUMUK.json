@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "CVUMUK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Towards a Spatial Knowledge Mesh: A Metamodel for Federated and Interoperable Spatial Knowledge Graphs to Enable Geospatial Awareness, Integrity, Provenance, and Trust in Large Language Models",
+    "description": "Motivation and Problem Context\r\n\r\nAdvances in generative artificial intelligence are enabling new applications across many industry sectors. Large language models (LLMs) have the potential to bring geospatial decision support to non-technical professionals by allowing users to explore spatial questions through natural language. Compared with traditional geospatial workflows\u2014characterized by manual layer selection and preprocessing, static maps, delayed updates, limited model transparency, fragmented analytical processes, and results that are difficult to reproduce\u2014GeoAI-enabled approaches offer the promise of on-demand, ad hoc spatial analysis. By reducing the burden of integrating knowledge across multiple data silos, such approaches can broaden access to geospatial insight while maintaining essential principles of integrity, provenance, and trust (IPT).\r\n\r\nHowever, LLMs lack intrinsic geospatial awareness and do not maintain structured knowledge of geographic features or their domain-specific relationships. As a result, they cannot natively reason about how disruptions propagate through interconnected spatial systems\u2014such as transportation networks, health service accessibility, or school catchments\u2014during events like floods, wildfires, or other natural hazards. While LLMs excel at synthesizing textual information, they lack an internal representation of the spatial networks and semantic relationships required for geospatial reasoning.\r\n\r\nOvercoming this limitation requires a sustainable and open approach for making the wealth of geoinformatics data interoperable and accessible to retrieval-augmented generation (RAG) workflows that can provide geospatial grounding for LLMs. Rather than relying on custom point-to-point integrations between individual systems, interoperability should occur at the point where data are published. Such an approach would act as a force multiplier for data reuse by eliminating bespoke integrations and enabling on-demand data fusion across domains.\r\n\r\nDiscrete Global Grid Systems (DGGS), recently standardized by the Open Geospatial Consortium (OGC), provide an important step in this direction by enabling aggregate and statistical datasets to be aligned to a common geographic reference framework through standardized zone identifiers. When datasets across different domains are published using the same DGGS reference system, they can be integrated directly and consistently across organizational and disciplinary boundaries.\r\n\r\nSpatial Knowledge Graphs (SKGs) provide a complementary mechanism for representing geographic entities and their semantic relationships, enabling machines to discover, retrieve, and reason over geospatial context across networks of features. However, while DGGS enables interoperability for statistical and aggregated data, no widely adopted standard currently exists for publishing SKGs in a way that supports interoperability by common geography across independent organizations. Without such a mechanism, spatial knowledge graphs remain difficult to integrate dynamically across domains and data providers.\r\n\r\nProposed Approach\r\n\r\nThis paper outlines a metamodel that enables disparate organizations to independently publish interoperable spatial knowledge graphs (iSKGs) anchored to common geographies. By adopting a federated architecture inspired by the Data Mesh paradigm, independently managed iSKGs can be combined into a broader Spatial Knowledge Mesh, allowing networks of geographically referenced knowledge to be discovered and integrated on demand. In this architecture, organizations publish domain-specific knowledge graphs that reference shared geographic abstractions while maintaining their own governance and provenance.\r\n\r\nThe proposed metamodel further supports the propagation of changes across dependent knowledge graphs, enabling updates to flow through the mesh and ensuring that downstream users\u2014particularly those operating in lower-resource environments\u2014can maintain up-to-date geospatial awareness. When combined with DGGS-based data integration and retrieval-augmented generation workflows, the resulting Spatial Knowledge Mesh provides the foundation for Geo-GraphRAG pipelines that allow LLM-based systems to reason over interconnected spatial systems with explicit semantic context.\r\n\r\nLLMs lack geospatial awareness because they do not maintain a live model of the Earth or structured graphs of geographic features and their topological relationships. Instead, they learn statistical associations between words rather than networks linking roads, facilities, and populations, and therefore cannot determine which specific roads connect communities to hospitals without structured geospatial data at runtime. They also lack domain-specific geospatial semantics, spatial reasoning capabilities, and up-to-date local knowledge as infrastructure and hazards evolve.\r\n\r\nSpatial Knowledge Graphs address these limitations by representing geographic features as interconnected networks of geo-objects and their semantic relationships. In an SKG, each node represents a geographic feature, while edges capture topological relationships or analytical findings derived from geoinformatics data and expressed through semantic labels. Together with a geo-ontology defining the graph schema, these relationships create a structured representation of spatial systems that can be traversed and queried. This structure enables Geo-GraphRAG pipelines in which LLMs translate natural-language questions into graph queries, such as GeoSPARQL or Cypher, enabling geospatial insights to be retrieved with full transparency and traceability.\r\n\r\nTo support interoperability across organizations, the metamodel enables geo-ontologies\u2014comprising definitions of geo-object classes and semantic relationships\u2014to be published as first-order graphs that provide shared schemas for interoperable graph creation. Integrations between iSKGs can also be published as reusable first-order entities. Provenance metadata records both the original source of attribute values and geometries and the publishing organization, supporting traceability and integrity using existing standards such as GeoDCAT. iSKGs can be published with explicit periods of validity and version identifiers to capture temporal evolution. Open-source software implementing this metamodel has been developed to support the creation of geo-ontologies and iSKGs, as well as graph operations such as pull, merge, and change detection across federated knowledge graphs.\r\n\r\nThis work has been supported by the U.S. Army Corps of Engineers (USACE) Civil Works Division and, through the OGC, by Natural Resources Canada and the United States Geological Survey as part of a collaborative research effort to integrate geospatial awareness into LLMs for disaster response and resilience. The proposed metamodel extends OGC Building Blocks\u2014which model dependencies between specifications and promote reuse across geospatial standards\u2014by adding support for change propagation, temporal alignment, and spatial knowledge graph interoperability.\r\n\r\nExpected Impact\r\n\r\nBy providing a standard approach and open-source software for publishing geoinformatics data as interoperable geospatial knowledge networks accessible to large language models, this work aims to act as a force multiplier for positive impact. In particular, it seeks to enable lower-resourced settings to develop bespoke GeoAI solutions by providing access to integrated geospatial knowledge infrastructures optimized for use with LLM-based systems.",
+    "start_datetime": "2026-09-01T07:00:00Z",
+    "end_datetime": "2026-09-01T07:30:00Z",
+    "talk:code": "CVUMUK",
+    "talk:guid": "19c26b00-a199-583d-b3e8-e03c9d9b8501",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos1",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RBXJPQ",
+        "name": "Nathan McEachen",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/RBXJPQ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T07:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/CVUMUK/",
+      "title": "Towards a Spatial Knowledge Mesh: A Metamodel for Federated and Interoperable Spatial Knowledge Graphs to Enable Geospatial Awareness, Integrity, Provenance, and Trust in Large Language Models"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/CVUMUK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/RBXJPQ/",
+      "title": "Nathan McEachen"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/CVUMUK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

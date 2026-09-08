@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "MZZ9BS",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Making Maps Readable: A Dive into Font Rendering in Navara",
+    "description": "Rendering dynamic map typography is notoriously difficult. Standard engines rely on pre-baked PBF glyphs, breaking complex text shaping (like Arabic), and making custom fonts hard to use. This talk explores these pitfalls and reveals how Navara abandons PBFs entirely.\n\nThis presentation is a technical journey into the architecture of map engine typography, contrasting industry-standard methods with Navara\u2019s approach.\r\n\r\nThe talk is structured in the following parts:\r\n\r\n- **The Problem (Why Map Text is Hard):** A quick look at the unique constraints of GIS typography, why map text is uniquely difficult compared to standard UI text\r\n- **Text Rendering:** A quick crash course on text rendering in general to keep everyone engaged in the following sections.\r\n- **The PBF Paradigm:** We will break down how standard map engines render text.\r\n- **The Navara Solution:** We will pop the hood on Navara's rendering engine to show how we bypassed the PBF approach entirely.",
+    "start_datetime": "2026-09-01T07:00:00Z",
+    "end_datetime": "2026-09-01T07:30:00Z",
+    "talk:code": "MZZ9BS",
+    "talk:guid": "6806d78b-170f-5da1-b187-f30dc1137ec6",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Ran2",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "FSRB9K",
+        "name": "Adel Refaat Ali Mohamed Elnahas",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/FSRB9K/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T07:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/MZZ9BS/",
+      "title": "Making Maps Readable: A Dive into Font Rendering in Navara"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/MZZ9BS/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/FSRB9K/",
+      "title": "Adel Refaat Ali Mohamed Elnahas"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/MZZ9BS/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

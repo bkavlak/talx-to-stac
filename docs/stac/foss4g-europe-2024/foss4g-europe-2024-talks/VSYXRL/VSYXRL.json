@@ -1,0 +1,129 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "VSYXRL",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Our journey into an OGC-compliant Processing Engine",
+    "description": "We have recently adopted the OGC API-Processes specification as we modernize our legacy processing platform at UP42. The legacy platform was plagued by poor compatibility among linked processes, high rates of failure, and unnecessary complexity when handling multi-data inputs. The OGC API-Processes specification offers a standard interface that makes complex computational processing services accessible via a RESTful API.\r\n\r\nBehind the scenes we built a well choreographed set of micro-services providing substance to the standard endpoints: a process registry service (ProcessList, ProcessDescrition), a job registry service (Status, JobList, Result), a task execution service (Execute) and more. To avoid the failure rate experienced in our legacy platform, we enabled a very restrictive validation of every job ahead of execution, leveraging our STAC-in/STAC-out paradigm (widely relying on extensions like proj, eo etc). Our job-registry-service also leverages STAC to ensure full traceability of jobs and items.\r\n\r\nNow we would like to look back and share our journey with the community, showing how embracing \r\ncommunity specifications like STAC and OGC-Processes API enabled us to transition into a more reliable and scalable processing engine.\r\n\r\nMore information: https://up42.com/blog/pansharpening-an-initial-view-into-our-advanced-analytic-capabilities",
+    "start_datetime": "2024-07-05T08:30:00Z",
+    "end_datetime": "2024-07-05T09:00:00Z",
+    "talk:code": "VSYXRL",
+    "talk:guid": "51c8316e-c3ac-5112-ad4f-c56c67a09f7d",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Open standards and interoperability for geospatial",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Destination Earth (Van46 ring)",
+    "talk:room_capacity": 400,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "TAEHKT",
+        "name": "Miguel Delgado",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/TAEHKT/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-05T08:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/VSYXRL/",
+      "title": "Our journey into an OGC-compliant Processing Engine"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/VSYXRL/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/TAEHKT/",
+      "title": "Miguel Delgado"
+    },
+    {
+      "rel": "related",
+      "href": "https://up42.com/blog/pansharpening-an-initial-view-into-our-advanced-analytic-capabilities",
+      "title": "up42.com/blog/pansharpening-an-initial-view-into-our-advanced-analytic-capabilities"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/VSYXRL/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/VSYXRL/resources/OGC_Processes_at_UP42_9xJ0Rwf.pptx",
+      "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "title": "Slides",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "google-slides": {
+      "href": "https://docs.google.com/presentation/d/1CnhCzhp6JLvDho0P8WJwnx1d0M0WngwCny7hqG2o0sE/edit?usp=sharing",
+      "title": "Google Slides",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/kcdQAYr1XfjKH3d7gMWHeg",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Our journey into an OGC-compliant Processing Engine",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=Q1AHR-zJnwk",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Our journey into an OGC-compliant Processing Engine",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

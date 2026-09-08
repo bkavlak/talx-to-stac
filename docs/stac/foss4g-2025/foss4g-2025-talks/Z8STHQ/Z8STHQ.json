@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Z8STHQ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "How to Complete Japan\u2019s OSM Building Data in One Year using the citygml-osm Converter",
+    "description": "Since 2020, Japan\u2019s MLIT has led Project PLATEAU, releasing 3D city models. Despite efforts, only 62% of buildings are mapped. OSM Japan is using the \"citygml-osm\" converter. This presentation proposes a one-year roadmap to complete building mapping, optimizing data imports, and community collaboration.\n\n\u2014 Strategies for Integrating PLATEAU Data into OpenStreetMap\r\n\r\nSince 2020, Japan\u2019s Ministry of Land, Infrastructure, Transport and Tourism (MLIT) has led Project PLATEAU, developing and releasing 3D city models in CityGML format. By 2025, over 236 municipalities have published detailed building datasets compatible with the Open Database License (ODbL), making them suitable for integration into OpenStreetMap (OSM). These high-precision, semantically rich datasets are valuable for urban planning, research, and civic technology.\r\n\r\nBuilding upon previous FOSS4G and SotM presentations, this talk highlights the progress made since 2022 by OpenStreetMap Japan volunteers in importing PLATEAU\u2019s Level of Detail 1 (LOD1) building data into OSM. As of May 2025, imports have been completed for 13 cities. In addition to these imports, numerous volunteer mappers continue to enhance OSM\u2019s building data through aerial imagery tracing and other methods.\r\n\r\nDespite these efforts, only about 62% of Japan\u2019s estimated 38 million building polygons are currently mapped in OSM, leaving approximately 14 million polygons (38%) yet to be integrated. Addressing this gap requires a clear numerical target and a strategic approach.\r\n\r\nThis presentation outlines an ambitious yet achievable goal: to complete the mapping of Japan\u2019s building data using the CityGML-OSM converter within one year. We will provide a quantitative analysis of current progress and outline a roadmap to achieve this objective. Key strategies include optimizing the importation of PLATEAU data, ensuring data consistency between PLATEAU and OSM, and strengthening collaboration within the mapping community.\r\n\r\nBy sharing these insights and methodologies, we aim to accelerate the integration of PLATEAU data into OSM and serve as a model for other countries seeking to enhance their building mapping efforts.",
+    "start_datetime": "2025-11-19T23:00:00Z",
+    "end_datetime": "2025-11-19T23:25:00Z",
+    "talk:code": "Z8STHQ",
+    "talk:guid": "aa803aa3-e29b-51e1-85d5-205ab0937123",
+    "talk:event": "foss4g-2025",
+    "talk:track": "AI, Data Science & Analytics",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG802",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "KZQBHV",
+        "name": "Taichi Furuhashi",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/KZQBHV/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-19T23:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/Z8STHQ/",
+      "title": "How to Complete Japan\u2019s OSM Building Data in One Year using the citygml-osm Converter"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/Z8STHQ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/KZQBHV/",
+      "title": "Taichi Furuhashi"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/Z8STHQ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=IAqWgDDJQog",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | How to Complete Japan\u2019s OSM Building Data in One Year using the citygml-osm Converter",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

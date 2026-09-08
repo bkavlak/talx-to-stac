@@ -1,0 +1,96 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "JFCDW9",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "From Cron Job to Self-Healing Pipeline, using Argo and STAC for EO Data Ingestion.",
+    "description": "Building analysis-ready Earth observation products starts well before any algorithm runs. Source data need to be accessible, complete, up to date. That sounds obvious, but doing it reliably across multiple satellite missions while backfilling years of historical archives is not an easy task.\r\n\r\nThis talk is about how we built that foundation. The starting point is a simple Argo CronWorkflow that queries a STAC API and downloads one day of data to S3. Nothing impressive, but Argo already gives you things a cron job doesn't: built-in retries, a web UI showing exactly which step failed, and the full log. Your Python script doesn't change, you're just not the (only) one watching it anymore.\r\n\r\nThis talk follows what happened when we scaled this up across various satellite products. Each problem we ran into pushed us to add something: fan-out parallelism when sequential backfills were taking days, STAC as a logbook of what had already been ingested and what is missing, and eventually an observability layer when we needed to understand periods of higher error rate.  \r\n\r\nThe combination of autonomous backfill and automated monitoring creates a  system that self-corrects at two levels: individual failed items are retried via STAC gap detection, while systemic issues surface in daily reports for human intervention.                                                                                      \r\nAll the tools are open source: Argo Workflows, STAC API, Python, Kubernetes, CI pipelines Attendees will leave with a concrete understanding of what Argo Workflows gives you at each stage of complexity, from replacing a cron job to running a system you can trust \"unsupervised\".",
+    "start_datetime": "2026-06-29T09:00:00Z",
+    "end_datetime": "2026-06-29T09:30:00Z",
+    "talk:code": "JFCDW9",
+    "talk:guid": "610ac067-3e03-5d0f-b0e6-ddc28d66b1ba",
+    "talk:event": "foss4g-europe-2026",
+    "talk:track": "Remote Sensing",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "A13",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "PSWYNG",
+        "name": "Lo\u00efc Houpert",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/PSWYNG/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-06-29T09:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/JFCDW9/",
+      "title": "From Cron Job to Self-Healing Pipeline, using Argo and STAC for EO Data Ingestion."
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/JFCDW9/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/PSWYNG/",
+      "title": "Lo\u00efc Houpert"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/JFCDW9/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "companion-repo-for-the-foss4g-europe-2026-talk-a-clone-and-r": {
+      "href": "https://github.com/lhoupert/argo-stac-eo-pipeline",
+      "title": "Companion repo for the FOSS4G Europe 2026 talk . A clone-and-run reference that walks a maturity ladder for Earth-observation data ingestion, from a fragile cron job to a self-correcting pipeline.  The unit-of-work ingest function never changes across rungs; only the orchestration around it grows.",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

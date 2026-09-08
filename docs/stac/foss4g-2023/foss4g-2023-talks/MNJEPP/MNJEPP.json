@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "MNJEPP",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Methods and Evaluation in the Historical Mapping of Cities",
+    "description": "Through a (re)mapping and spatial modeling of a city\u2019s past, we can build data-rich exploratory platforms to examine urban histories and engage both scholars and the public. Geospatial technologies can be applied to extract data from archives and other data sources to build historical data models, geodatabases, and geocoders that subsequently enable the development of web-based dynamic map interfaces connected to rich digital content. This paper outlines a project within a larger consortium of institutions and researchers that focuses on methods in open data and open-source development of the historical mapping of cities. \r\n\r\nOpenWorld Atlanta (OWA) is an example of the possibilities of such a web map platform. OWA seeks to provide public access to historical information about Atlanta, Georgia (United States) during the late 19th century and early 20th century through engaging 3D and dynamic interfaces. Drawing upon historical maps, city directories, archival collections, newspapers, and census data, projects like OWA allow researchers to analyze spatially grounded questions. \r\n\r\nRecent effort on this project focuses on the 1920s, a dynamic period in the city\u2019s history that saw the rapid expansion of the urban footprint driven by an increase in population and public infrastructure. Between 1870 and 1940, the city was shaped by its primary modes of transportation, heavy rail, and the electric streetcar. By the 1940s, the commuter automobile began transforming Atlanta into the sprawling landscape it is today. These developments happened under racist \u201cJim Crow\u201d laws, and as such, the project thus allows new avenues into investigating the long and contentious histories of racial discrimination and the Civil Rights Movement. \r\n\r\nThis paper addresses the development of OWA which was built on open-source methods and philosophy. The design of its interface and features, including the call of spatial data and digital objects from server resources, the function of metadata, the evaluation of the project in usability studies, and the building of consortia around these methods are explored. Further, the interdisciplinary approach of its research and development team and the engagement of students in the process from coding, building, and evaluation. With OWA being built using Leaflet and other forms of coding it is designed to pull spatial data and map overlays organized and stored on Emory\u2019s instance of Geoserver developed by the Open Geospatial Consortium (OGC).  \r\n\r\nFurthermore, another vital component is the structure of the information, data, and digital objects that are stored on an instance of Omeka which is a free, open-source content management system (CMS) designed for the management and dissemination of digital collections and exhibitions. It is primarily used by archives, museums, libraries, and other cultural heritage institutions to create and manage their online collections and exhibitions. Omeka allows student researchers and assistants to prepare and upload non-spatial content that will be populated as features into the platform. With Omeka, users can create and manage items such as images, documents, and audio and video files, as well as add metadata to describe these items and make them searchable. \r\n\r\nMetadata plays an especially significant role in the function of the OWA platform. Geospatial features are then linked to records and the corresponding pieces of information, data, and digital objects, including images and 3D models. A modified Dublin Core schema was utilized in Omeka with categories designed to better fit the geospatial and historical data collected. As an example, the fields for the buildings of a data layer include architects, date built/demolished, racial classification of residents or businesses, head of households (from census data and city directories), etc. To populate these fields, research teams comprised of graduate and undergraduate students. Engaging with faculty and staff, the students collect historical information from newspapers, archives, and online resources and enter the information into the database.  \r\n\r\nThe spatial data in OWA comprises many vector layers including administrative boundaries, roads, rail lines, buildings, and more. The design includes multiple avenues for exploration based on specific years and special themes. A key feature is the buildings layer, which was populated with historical information including people, race, entity name, addresses, and more from the building of historical geocoders. The 1928 historical geocoder is complete and was used to populate the 1928 map layer, 1878 is currently in production and with the years surrounding the 1928 geocoder we are using machine learning to produce geocoders for 1927, 1929, and 1930. \r\n\r\nAnother important aspect is the recognition of the necessity of usability and user experience studies. Researchers at Yonsei and Emory Universities have collaborated to evaluate the ease of use and overall user experience of the platform. The usability study's goal is to find areas of improvement in the user interface and user flow and to gather feedback on the product's design and functionality. A primary goal is to serve as an example of and future framework for usability studies centered on diverse use groups (insider vs. outsider, academic/public, etc.). Test participants were grouped by level of familiarity with Atlanta to capture the diversity of users of the platform. This investigation focused on analyzing and evaluating user experience to explore data and content, conduct analyses, and contribute via feedback or to the resource directly. Therefore, our key questions in these groups sought to address how we can better design interactive web maps of city histories to accommodate diverse user groups. \r\n\r\nThe authors of this paper include collaborators from Emory University, Yonsei University, Stanford University, and The University of Arkansas. Further, other collaborators include The University of S\u00e3o Paulo (USP), a public research university located in S\u00e3o Paulo, Brazil and Kaziranga University, a private university located in the state of Assam, India both of which are engaged in similar or related projects. The collaborators of these projects seek to share ideas and methods surrounding the historical mapping of cities.",
+    "start_datetime": "2023-06-30T09:00:00Z",
+    "end_datetime": "2023-06-30T09:30:00Z",
+    "talk:code": "MNJEPP",
+    "talk:guid": "44de8eb1-c192-5262-9875-92632203dce8",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Academic Track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT E / N209 - Floor 3",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "KJEW3Q",
+        "name": "Michael Page",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/KJEW3Q/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-30T09:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/MNJEPP/",
+      "title": "Methods and Evaluation in the Historical Mapping of Cities"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/MNJEPP/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/KJEW3Q/",
+      "title": "Michael Page"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/MNJEPP/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/7cQjTof4jw9rmQXJFREp4y",
+      "type": "text/html",
+      "title": "2023 | Methods and Evaluation in the Historical Mapping of Cities - Michael Page",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=em55Wt4LIFI",
+      "type": "text/html",
+      "title": "2023 | Methods and Evaluation in the Historical Mapping of Cities - Michael Page",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

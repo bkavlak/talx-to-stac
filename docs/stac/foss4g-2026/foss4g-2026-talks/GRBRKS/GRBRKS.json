@@ -1,0 +1,96 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "GRBRKS",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "WoSIS: Global soil information service powered by open source tools.",
+    "description": "WoSIS is a global soil information service that safeguards, standardises and shares soil profile data from contributors worldwide. Built on PostgreSQL/PostGIS, GraphQL and OGC services, it covers the full cycle from ingestion to dissemination. This presentation discusses the architecture, soil data workflows, and latest developments.\n\nWoSIS is developed and maintained by ISRIC with the aim to safeguard world soil profile data, quality-assess and standardise the data, and serve it to support digital soil mapping and environmental applications. WoSIS draws on voluntary contributions from data holders worldwide who share their data for the benefit of the international community. \r\n\r\n- The architecture is built entirely on open source technologies: \r\n\r\n- PostgreSQL/PostGIS as the core spatial database, with a data model based on the ISO 28258 standard; \r\n\r\n- GraphQL APIs (PostGraphile and Node.js) for data ingestion and dissemination; \r\n\r\n- Automated ETL pipelines that validate, harmonise and standardise contributed datasets; \r\n\r\n- OGC web services, dashboards, metadata catalogues and DOI referenced snapshots. \r\n\r\nData ingestion follows a strict protocol. Submitted soil profiles undergo automated checks for overlapping horizons, implausible values, unit inconsistencies and vocabulary mismatches. WoSIS never alters the original data; it flags issues for the contributor to resolve before re-submission. Only error-free datasets enter the system. In return, providers receive dashboards, downloads in multiple formats, and if needed a DOI for findability and citeability. \r\n\r\nStandardised data flows out through GraphQL, OGC services and freely available snapshots, feeding downstream products such as SoilGrids. \r\n\r\nIn this presentation we will walk through the soil data workflows, the open source architecture behind them, and the latest developments in the WoSIS APIs.",
+    "start_datetime": "2026-09-03T05:00:00Z",
+    "end_datetime": "2026-09-03T05:30:00Z",
+    "talk:code": "GRBRKS",
+    "talk:guid": "c283ceba-753d-5594-991b-2ac0e9294ef9",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Ran2",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "ZKPZPF",
+        "name": "Luis Calisto",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/ZKPZPF/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-03T05:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/GRBRKS/",
+      "title": "WoSIS: Global soil information service powered by open source tools."
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/GRBRKS/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/ZKPZPF/",
+      "title": "Luis Calisto"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/GRBRKS/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-2026/submissions/GRBRKS/resources/WoSIS_FOSS4G_2026_TzC74I5.pdf",
+      "type": "application/pdf",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

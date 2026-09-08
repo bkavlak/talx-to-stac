@@ -1,0 +1,103 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "BWGXHK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "How to use data from the AWS Open Data program in Amazon Bedrock and Amazon SageMaker AI",
+    "description": "The AWS  Open Data team will discuss how to use datasets in the Registry of Open Data as Amazon Bedrock Knowledge Bases. With Amazon Bedrock Knowledge Bases, you can give foundation models and agents contextual information from private and public data sources to deliver more relevant, accurate, and customized responses.\n\nSharing data in the cloud lets data users spend more time on data analysis rather than data acquisition. Amazon Web Services (AWS) provides a catalog of publicly available datasets on AWS through the Registry of Open Data on AWS (https://registry.opendata.aws/). The registry has over 650 datasets open to the public, such as government data, scientific research, life sciences, climate, satellite imagery, geospatial, and genomic data.  \r\n\r\nFirst, we will cover the Registry of Open Data on AWS, how to search for datasets and how to search for data objects.  Second, we will cover how to use datasets in Open Data as Knowledge Bases in Amazon Bedrock with a vector embedding store. Then we will cover how to use certain datasets in Open Data as Knowledge Bases with a structured dataset, and the trade offs between each type. Last, we will have take-home information to try this at home.",
+    "start_datetime": "2025-11-19T22:30:00Z",
+    "end_datetime": "2025-11-19T22:55:00Z",
+    "talk:code": "BWGXHK",
+    "talk:guid": "f9019845-ce47-5a52-8368-38c1058f44cb",
+    "talk:event": "foss4g-2025",
+    "talk:track": "AI, Data Science & Analytics",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG802",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "MY3KNG",
+        "name": "Chris Stoner",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/MY3KNG/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-19T22:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/BWGXHK/",
+      "title": "How to use data from the AWS Open Data program in Amazon Bedrock and Amazon SageMaker AI"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/BWGXHK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/MY3KNG/",
+      "title": "Chris Stoner"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.linkedin.com/in/chrisstoner",
+      "title": "www.linkedin.com/in/chrisstoner"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/BWGXHK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=BS9qSX4tTM4",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | How to use data from the AWS Open Data program in Amazon Bedrock and Amazon SageMaker",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

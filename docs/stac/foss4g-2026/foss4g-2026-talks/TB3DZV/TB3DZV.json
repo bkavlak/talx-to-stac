@@ -1,0 +1,95 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "TB3DZV",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "A New Approach to MapLibre Style Editing",
+    "description": "Every serious MapLibre project hits this wall: a monolithic style.json nobody fully owns. Designers want a GUI, developers edit JSON by hand, version history is one huge diff. Mapstrata is a visual editor that makes collaboration possible: spec validation, support for related stylesheets with different themes, and a project format built for git.\n\nIf you maintain a MapLibre stylesheet with more than a few dozen layers, you already know the problem. A color change that should take five minutes takes fifty because you need to search and replace, plus visually review, across dozens of layers. Designers iterate in Maputnik, but complain about it, meanwhile developers find limits to its utility\u2014it applies edits in ways that make source control of the style JSON impossible. So instead we edit JSON by hand with a live reload and consider iterative visual design and management impossible. Nobody has a full picture of the style, version history is indecipherable.\r\n\r\nRight now this workflow gap influences how the MapLibre ecosystem can develop. Writing layers requires an encyclopedic and up-to-date knowledge of the style spec, superhuman grasp of how expressions work, *and* instantaneous visual feedback on what incremental changes produce. The WYSIWYG approach has real limits of its own: it typically generates verbose JSON, obscures optimization opportunities, and doesn't integrate with the code, reload, commit workflow that experienced style authors actually prefer. It also prevents designers from truly understanding the renderer and what it is really good at; instead they advocate for features that would make it more similar to familiar experiences in print map rendering.\r\n\r\nMapstrata takes a different approach. Instead of replacing the JSON workflow with a visual one, it makes the JSON workflow maintainable. Import a stylesheet and Mapstrata decomposes it: layers become reviewable, diffable, attributable in git. Build different themes and maintain them. Iterate on changes live with a MapLibre preview pane. Export, commit, and collaborate on the Mapstrata files or the composed style JSON. No cloud dependency, no lock-in, no proprietary format.\r\n\r\nThe design philosophy is that the editor should make the underlying structure legible, not hide it. Variables use embedded references directly in layer JSON, so you can read any layer file and immediately see which properties are variable-driven versus hardcoded. The build engine validates against the MapLibre style spec on every edit, catching errors before they produce a blank map.\r\n\r\nThis talk will demo the editor, share what I learned about building\u2014and then cutting\u2014an AI-assisted version, and outline where the project is headed (GitHub-backed persistence, Figma integration). Come to the talk and reach out if you want to know more: I'm looking for projects that will put Mapstrata through its paces on real stylesheets.",
+    "start_datetime": "2026-09-02T06:30:00Z",
+    "end_datetime": "2026-09-02T07:00:00Z",
+    "talk:code": "TB3DZV",
+    "talk:guid": "7b5bb587-d8fa-5109-9a66-3cbba1a61edc",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Phoenix Hall",
+    "talk:room_capacity": 1150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "7A883D",
+        "name": "Stephanie May",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/7A883D/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T06:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/TB3DZV/",
+      "title": "A New Approach to MapLibre Style Editing"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/TB3DZV/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/7A883D/",
+      "title": "Stephanie May"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/TB3DZV/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "more-information-or-to-express-interest": {
+      "href": "https://mizmay.com/mapstrata/",
+      "title": "More information or to express interest",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

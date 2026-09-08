@@ -1,0 +1,108 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "LXKEB8",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "eo-learn and eo-grow: from prototype to production in Earth Observation data science",
+    "description": "A workshop about open-source Python frameworks eo-learn and eo-grow for developing solutions with satellite data will show how these frameworks can be used to build a simple prototype and then scale it to an end-to-end product.\n\nWith the wide availability of satellite and other geospatial data the potential for developing innovative Earth Observation (EO) solutions with a real-world impact has never been higher. However, the road from an idea to a fully-functional product is long and full of challenges. Most of them arise due to the sheer size of EO data required to extract valuable information.\r\n\r\nIn the workshop, we will present two open-spource packages developed and maintained by the EO research team from Sinergise. The combination of eo-learn and eo-grow introduces a well-structured way of working with EO data, is fully customizable, and streamlines the way large-scale products can be developed. The workshop will be a hands-on session, where we will start with a simple prototype use-case and gradually upgrade it to an end-to-end product.\r\n\r\nIn the first part, we'll look at eo-learn, a library designed to bridge EO data and the data science ecosystem in Python. The library has already established itself in the EO community over the past years but has recently got a larger upgrade. We'll work with its main building blocks EOPatch, EOTask, and EOWorkflow, and explore how these can be used to build our prototype code.\r\n\r\nIn the second part, we'll continue with a new contribution to open-source: eo-grow, built on top of eo-learn. It introduces concepts of data-processing pipelines, management of large areas of interest, user-defined storage structure, and detailed logging, all customizable with configuration files. Finally, we will look at its powerful and easy-to-use scalability based on the Ray framework. This will enable us to run our entire use case on a cluster of servers efficiently and in a production-ready manner.\r\n\r\n##### Requirements for the Attendees\r\n\r\n- Install Docker (https://docs.docker.com/get-docker/)\r\n- Pull the docker image (`docker pull sentinelhub/foss4g-2023-tutorial:latest-with-backup`)\r\n- Start a docker container (`docker run --shm-size=8.00gb -p 8888:8888 -p 8265:8265 sentinelhub/foss4g-2023-tutorial:latest-with-backup`)\r\n- Click on the Jupyter server link and start :)\r\n\r\n##### Some other links for convenience\r\n\r\n- DockerHub page: https://hub.docker.com/repository/docker/sentinelhub/foss4g-2023-tutorial/tags?page=1&ordering=last_updated",
+    "start_datetime": "2023-06-27T12:00:00Z",
+    "end_datetime": "2023-06-27T16:00:00Z",
+    "talk:code": "LXKEB8",
+    "talk:guid": "bc6635ea-30ca-507b-b3bf-94a327f8716e",
+    "talk:event": "foss4g-2023-workshop",
+    "talk:type": "Long Workshop",
+    "talk:language": "en",
+    "talk:room": "UBT C / N111 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "YLFAVG",
+        "name": "Matic Lubej",
+        "url": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/YLFAVG/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-27T14:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/LXKEB8/",
+      "title": "eo-learn and eo-grow: from prototype to production in Earth Observation data science"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/LXKEB8/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/YLFAVG/",
+      "title": "Matic Lubej"
+    },
+    {
+      "rel": "related",
+      "href": "https://hub.docker.com/repository/docker/sentinelhub/foss4g-2023-tutorial/tags?page=1&ordering=last_updated",
+      "title": "hub.docker.com/repository/docker/sentinelhub/foss4g-2023-tutorial/tags"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/LXKEB8/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "instructions-for-users": {
+      "href": "https://talks.osgeo.org/media/foss4g-2023-workshop/submissions/LXKEB8/resources/instructions_AmeNYMY.txt",
+      "title": "Instructions for users",
+      "roles": [
+        "data"
+      ]
+    },
+    "workshop-slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-2023-workshop/submissions/LXKEB8/resources/foss4g_2023_eo_workshop_BkuqGLH.pptx",
+      "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "title": "Workshop slides",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-workshops"
+}

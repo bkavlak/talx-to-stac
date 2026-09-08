@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "YZ7CAF",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Grid4Earth: An open-source Python ecosystem for geospatial data integration on the ellipsoidal HEALPix DGGS",
+    "description": "The rapid growth of Earth observation (EO) data, from satellite missions such as the Copernicus Sentinel missions to Digital Twin Earth frameworks like Destination Earth, which integrate high-resolution atmospheric and oceanic simulation models with the ever-growing satellite remote sensing datasets, poses significant challenges for data storage, interoperability, and analysis at the global scale. Traditional gridding approaches, typically based on regular latitude/longitude grids or projected coordinate systems such as UTM, suffer from well-known limitations, in particular non-uniform cell areas, singularities at the poles, and poor scalability for multi-resolution analysis. There is a growing need for a common, efficient, and interoperable data representation that can accommodate heterogeneous sources, support large-scale analytics, and integrate naturally with cloud-native storage paradigms.\r\n\r\nThe Grid4Earth project investigates how HEALPix (Hierarchical Equal Area isoLatitude Pixelization), combined with the Zarr storage format, can serve as a unifying framework for Earth observation and Digital Twin data. Although HEALPix takes a fundamentally different route to spherical tessellation than the polyhedron-based constructions that dominate the classical DGGS literature, it satisfies the desirable DGGS geospatial core criteria: congruent refinement levels, strictly equal-area cells, and unique hierarchical indexing that enables efficient spatial queries and data indexing. Originating from the demanding computational needs of cosmic microwave background analysis in astrophysics, HEALPix is now well integrated into the workflows of climate modellers and astrophysicists and is thus positioned as a prime candidate for terrestrial geospatial and remote sensing applications. Our approach extends HEALPix for geospatial applications by generalising the spherical tessellation to an ellipsoidal HEALPix, ensuring true equal-area properties on the WGS84 ellipsoid. Unlike traditional geographic grids (e.g. Lat/Lon grids, UTM), HEALPix cells have identical areas regardless of latitude, thus eliminating polar distortions and facilitating statistically unbiased global analyses. Combined with the cloud-native, chunked array data format Zarr, HEALPix data can be efficiently stored, accessed in parallel, and integrated into modern Python data science workflows.\r\n\r\nWithin grid4earth, we developed a complementary suite of four composable open-source Python packages that address the full workflow from data ingestion to analysis: healpix-geo, healpix-resample, healpix-plot, and healpix-analyse.\r\n\r\nhealpix-geo: Provides the foundational geospatial layer of the grid4earth ecosystem. While standard HEALPix implementations assume a perfect sphere, healpix-geo extends the tessellation to the WGS84 ellipsoid, ensuring true equal-area properties for real-world Earth observation data. The library supports refinement levels from 0 to 29, spanning global scale down to ~1.2 cm resolution, and provides coordinate conversions, spatial subset selection through bounding box, polygon, and cone coverage queries, and Multi-Order Coverage (MOC) via the zuniq scheme. All operations are fully vectorised and support parallel processing, enabling memory-efficient workflows at scale.\r\n\r\nhealpix-resample: Tackles the core data conversion problem: regridding arbitrary Lat/Lon or UTM gridded data onto the ellipsoidal HEALPix grid. It implements a forward modelling approach in which source data points are projected onto their corresponding HEALPix target pixels using precomputed index mappings. This design enables efficient batch processing of large datasets, including multi-temporal satellite image stacks and model outputs. Flexible aggregation strategies (nearest neighbour, averaging, majority/mode) make it applicable to both continuous fields (e.g., surface temperature, reflectance) and categorical data (e.g., land cover).\r\n\r\nhealpix-plot: Provides visualisation capabilities tailored to HEALPix data. Building on established Python visualisation libraries, it offers functions for projecting HEALPix maps onto standard cartographic projections (Mollweide, orthographic, and regional), overlaying ancillary geographic information, and producing publication-quality figures. Particular attention has been paid to handling multi-resolution data and supporting interactive exploration in Jupyter notebook environments.\r\n\r\nhealpix-analyse: Completes the ecosystem with diagnostic and analytical tools, including, but not limited to computation of power spectra via spherical harmonic decomposition,  spatial convolution with custom kernels on the sphere, and standard statistical diagnostics (mean, variance, histograms, spatial correlation). These operations benefit from the isolatitude property of HEALPix and decades of optimisation in astrophysical data processing, which makes spherical harmonic transforms in HEALPix exact and fast. These capabilities are valuable for model evaluation, intercomparison between EO products and Digital Twin outputs, and characterisation of spatial variability at global scale.\r\nThe HEALPix+Zarr approach builds on existing adoption. HEALPix is already being used in the Destination Earth's Climate Digital Twin, and Zarr underpins the EOPF format for Sentinel data re-engineering, thus providing a validated foundation for the Grid4Earth toolchain.\r\n\r\nAll four packages are released as open-source software under permissive licences and are publicly available on GitHub, PyPI, and conda-forge. The project follows open development practices, with documented APIs, unit tests, and example notebooks. Contributions from the community are actively encouraged, and the packages are designed to integrate seamlessly with the broader Python geospatial ecosystem (Xarray, NumPy, Matplotlib, and PyProj). In parallel, the Grid4Earth team is working together with the OGC DGGS Standards Working Group to advance recognition of ellipsoidal HEALPix as a conformant DGGS, and with the CF Conventions community to establish standardised metadata conventions for HEALPix-indexed data in netCDF and Zarr, ensuring that the toolchain aligns with evolving community standards for interoperability.\r\n\r\nIn conclusion, the Grid4Earth Python suite provides a complete, open-source toolchain for converting, storing, visualising, and analysing Earth observation and Digital Twin data in the ellipsoidal HEALPix+Zarr format. By combining geodetically accurate indexing, efficient regridding, rich visualisation, and spherical analytics, the ecosystem lowers the barrier to adopting HEALPix as a common representation for global-scale geospatial workflows. We believe that this approach has strong potential to improve interoperability across the Earth system science community.",
+    "start_datetime": "2026-09-02T04:30:00Z",
+    "end_datetime": "2026-09-02T05:00:00Z",
+    "talk:code": "YZ7CAF",
+    "talk:guid": "b7e14010-b0e7-5e33-9bf3-000587381309",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos1",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "BKF3HK",
+        "name": "Tina Odaka",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/BKF3HK/"
+      },
+      {
+        "code": "PQFYHP",
+        "name": "Alexander Kmoch",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/PQFYHP/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T04:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/YZ7CAF/",
+      "title": "Grid4Earth: An open-source Python ecosystem for geospatial data integration on the ellipsoidal HEALPix DGGS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/YZ7CAF/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/BKF3HK/",
+      "title": "Tina Odaka"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/PQFYHP/",
+      "title": "Alexander Kmoch"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/YZ7CAF/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

@@ -1,0 +1,126 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "3LPRP3",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "A fun way to do spatial cataloguing and publishing using pygeometa and mdme",
+    "description": "Metadata, YAML files and pipelines? When I try to convince my colleagues that the approach mentioned in this presentation is fun, they look at me alienated.\r\n\r\nThis presentation will highlight the usage of pygeometa, mdme and DevOps workflow in two projects from different domains of interest.\r\n\r\nLand-Soil-Crop data\r\n================\r\n\r\nISRIC is endorsing the pygeometa MCF format, a YAML-based representation originally developed as a subset of ISO 19115 metadata, advertised by the pygeometa community as 'Metadata Creation for the Rest of Us'. YAML reads much better then XML, and is optimal for content versioning in Git. But YAML comes with its peculiarities, such as strict indenting and reserved characters.\r\n\r\n'Average users should not look at code, instead use shiny (web) interfaces' is a quote often used, but we're not used to reverse the quote: \"As a DevOps engineer I hate shiny interfaces. I want to look at code, see the history of that code, who changed what, when, and how can I fix it\".\r\nThis is where the fun part of pygeometa MCF comes in. CI/CD pipelines which run on content changes validate the YAML format and report errors to the submitters.\r\n\r\nShould we then fully neglect the basic user? Of course not! So we crafted web based forms that generate mcf (osgeo.github.io/mdme) and have import options for Excel sheets (every column is a metadata field). Consider that many data scientists (fortunately) are used to placing a README.md in any project folder. We just ask them to structure the content using YAML. We added an inheritance mechanism, so common properties (contact details, usage constraints) are inserted only once and inherited by lower levels in the folder hierarchy. And embedded metadata is extracted from data files (bounds, projection, format) or online sources.\r\n\r\nAll this metadata is crawled to a central search index (pycsw/pygeoapi/geonetwork). To increase the participatory experience we added 'Edit me on GIT' links to each of the records, which brings users back to the original mcf file to suggest changes.\r\n\r\nWeather/climate/water metadata\r\n==============================\r\n\r\nThe WMO Information System (WIS2) is the next generation data exchange infrastructure for real-time and archive weather/climate/water data.  Discovery metadata is a key component for cataloguing and discovery.  An event driven architecture, metadata files are managed on GitHub, which on change, trigger CI/CD workflow to generate compliant WMO discovery metadata, validation and publish to an MQTT broker.",
+    "start_datetime": "2024-07-03T08:30:00Z",
+    "end_datetime": "2024-07-03T09:00:00Z",
+    "talk:code": "3LPRP3",
+    "talk:guid": "937a0ca7-7070-5560-9f6c-8261ab0177a1",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "GEOCAT (301)",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "H8LVLX",
+        "name": "Tom Kralidis",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/H8LVLX/"
+      },
+      {
+        "code": "YSAX3Y",
+        "name": "Paul van Genuchten",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/YSAX3Y/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-03T08:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/3LPRP3/",
+      "title": "A fun way to do spatial cataloguing and publishing using pygeometa and mdme"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/3LPRP3/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/H8LVLX/",
+      "title": "Tom Kralidis"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/YSAX3Y/",
+      "title": "Paul van Genuchten"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/3LPRP3/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://pvgenuchten.github.io/slides/slides/fun-way-of-spatial-cataloguing.html",
+      "title": "Slides",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/vDoE4v14x9mXCsX9mm8Gsb",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | A fun way to do spatial cataloguing and publishing using pygeometa and mdme",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=bhKfNSkSv5I",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | A fun way to do spatial cataloguing and publishing using pygeometa and mdme",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

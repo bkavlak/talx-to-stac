@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "8EWA8W",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "MDAL: mesh data in QGIS",
+    "description": "Mesh Abstraction Library (MDAL) has become an integral part of QGIS over the recent years. MDAL is used in QGIS to parse meteorological and hydrological data. MDAL is an open source library and recently has joined the OSGeo family as a Community project.\r\nMDAL data can be 1-dimensional, 2D or stacked 3D data. QGIS has been extended to render all those types of data in 2D and 3D map canvases. Once data are loaded in QGIS, users can easily style and explore temporal dimension of the data using QGIS generic tool. Additional plugins have been developed to leverage on mesh data in QGIS to slice and dice the mesh data.\r\nIn addition to visualising the data, new tools have been developed to directly edit the unstructured mesh data in QGIS. Users can edit geometries and values of the faces and vertices of the mesh data. The built-in validation tools for mesh editing, ensure the resulting mesh is topologically correct during and after mesh editing operations.",
+    "start_datetime": "2022-08-25T15:15:00Z",
+    "end_datetime": "2022-08-25T15:45:00Z",
+    "talk:code": "8EWA8W",
+    "talk:guid": "358f4f47-7a87-5289-bc9e-46758cc13c7e",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Verde",
+    "talk:room_capacity": 230,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "Y9AUJZ",
+        "name": "Saber Razmjooei",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/Y9AUJZ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T15:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/8EWA8W/",
+      "title": "MDAL: mesh data in QGIS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/8EWA8W/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/Y9AUJZ/",
+      "title": "Saber Razmjooei"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/8EWA8W/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/mTJXSkTby8nM2ru4YhqVQs",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | MDAL: mesh data in QGIS",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=A0MqYZMC140",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | MDAL: mesh data in QGIS",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

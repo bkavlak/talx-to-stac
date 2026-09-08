@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "PFADT9",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "OpenAerialMap V2 Design and Development",
+    "description": "OpenAerialMap.org (OAM) was built in 2015 to serve as a platform and tools for sharing openly licensed satellite and aerial imagery. For Humanitarian OpenStreetMap Team (HOT) and its partners, open imagery has been critical for disaster response and preparedness mapping projects. Those images have traditionally been difficult to share and access because of the large file sizes and technical skills required to publish them online. Since its inception, OAM provides an easy means of contributing to and accessing a large repository of open imagery, with over 11,000 images added. The OAM browser is designed to easily index, visualize and filter images, while the data itself is stored in Cloud Optimized GeoTIFF (COG) format in the Open Imagery Network, a federated network of highly available imagery buckets from different cloud providers. \r\n\r\nOpenAerialMap is the only platform built on open-source software that allows anyone to upload and share aerial imagery of anywhere on Earth. With advances in drone mapping technologies and their proliferation in places where cost and access used to be a limiting factor, there are now massive amounts of images that can be easily made available through OAM. Once uploaded, all imagery becomes instantly accessible via scalable TMS and WMTS services for mapping in OpenStreetMap or for any other use. Since its creation, OAM has been democratizing high resolution Earth observation and promoting the sharing of aerial imagery through open data licenses.\r\n\r\nThis year HOT joined with Kontur to take a fresh look at OAM and redesign the platform. Using modern, equitable, human-centered design principles, we evaluated how this tool could be used to better support HOT\u2019s vision that everyone has access to high quality map data and can use that data responsibly to improve their lives and their communities. The development will build on and integrate emerging standards for geospatial data such as the Spatio-Temporal Asset Catalog (STAC) specification. A broad range of users and stakeholders will be involved in the design process, to ensure that OAM v2 will result in a modern and accessible platform. In this talk we will present an update on the development of OAM as informed by the results of that design work and share a preview of its implementation using open-source geospatial software. \r\n\r\nThe need for access to open imagery has never been greater, with advances in UAS imaging and processing technologies and their proliferation in places where cost and access are a major factor. This year HOTOSM joined with Kontur to take a fresh look at OAM and redesign the tool with modern, equitable, human-centered design principles to better support HOTOSM\u2019s vision that everyone has access to high quality map data and can use that data responsibly to improve their lives and their communities. In this talk we will present an update on the development of OAM as informed by the results of that design work.",
+    "start_datetime": "2022-08-25T13:15:00Z",
+    "end_datetime": "2022-08-25T13:45:00Z",
+    "talk:code": "PFADT9",
+    "talk:guid": "9a27a840-f17e-59ef-b0f6-d6e8b3595344",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Verde",
+    "talk:room_capacity": 230,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "YM3DC9",
+        "name": "Cristiano Giovando",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/YM3DC9/"
+      },
+      {
+        "code": "YNV8TV",
+        "name": "DK Benjamin",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/YNV8TV/"
+      },
+      {
+        "code": "EDJ8FG",
+        "name": "Ekaterina Grudinskaya",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/EDJ8FG/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T13:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/PFADT9/",
+      "title": "OpenAerialMap V2 Design and Development"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/PFADT9/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/YM3DC9/",
+      "title": "Cristiano Giovando"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/YNV8TV/",
+      "title": "DK Benjamin"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/EDJ8FG/",
+      "title": "Ekaterina Grudinskaya"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/PFADT9/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=UuvPUHFA7OI",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | OpenAerialMap V2 Design and Development",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

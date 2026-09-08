@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "HAUFHA",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Every building on Earth",
+    "description": "We present an open, global, building-level resolution, reproducible and dynamic exposure model with the aim to provide global exposure data on the building level for applications in natural hazard risk estimation, resilience planning, disaster recovery, rapid loss assessments and humanitarian tasks\n\nThe built environment is, globally speaking, the largest unknown in the understanding of the effects of disasters and in assessing their risk. This includes not only the location of buildings but also their size, occupancy, structural type, vulnerability and value. Detailed knowledge of it is necessary for many tasks in disaster risk reduction but also in other fields, e.g. climate-related sustainability, urban planning and management, insurance and re-insurance.\r\nWhile in well-regulated countries cadastral data is available that provides various details about the buildings, in most parts of the world such information is lacking. In some areas not even the locations of buildings and settlements are known to the authorities. Buildings, the core part of the built environment, can be strongly mixed within small areas in their structural types, sizes, shapes and number of people in them and the socio-economic structure can vary highly on these scales. This heterogeneity cannot adequately be described by classical exposure models that provide aggregated building data over larger areas. A global model describing the built environment at the scale of individual buildings has never been achieved, nor has such a model been dynamic, with continuous updates reflecting changes in input data.\r\nHere, we present a global, building-level resolution, open, reproducible and dynamic exposure model with the aim to provide global exposure data on the building level. This model is based on volunteered geographic information, predominantly OpenStreetMap and open data that is created with earth observation and machine learning, e.g. the building footprints of the Google Open Buildings and Microsoft ML Building Footprints, and the Global Human Settlement Layer to estimate the extent of built area. Further datasets like EUBucco and full 3D building geometries are added where available and the height information covering approx. 70% of all buildings is used to further create 3D models at the Level-of-Detail 1.\r\nThe distribution of different structural types of buildings per region are taken from open aggregated exposure models or developed from cadastral data. Every building is assessed separately and its exposure indicators are computed deterministically, where possible, or probabilistically. This level of detail is necessary when it comes to localized hazards, such as strong shaking of earthquakes, floods or tsunamis due to local site conditions. In particular 3D buildings are now becoming part of the next-generation seismic risk framework. \r\nThe model covers every country and territory globally and is to a large degree building complete with approx. 3 billion buildings described in detail.",
+    "start_datetime": "2026-09-02T02:30:00Z",
+    "end_datetime": "2026-09-02T03:00:00Z",
+    "talk:code": "HAUFHA",
+    "talk:guid": "7353715b-7ac3-5817-8483-db935e958789",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room2",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "XMNDD9",
+        "name": "Danijel Schorlemmer",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/XMNDD9/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T02:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/HAUFHA/",
+      "title": "Every building on Earth"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/HAUFHA/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/XMNDD9/",
+      "title": "Danijel Schorlemmer"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/HAUFHA/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

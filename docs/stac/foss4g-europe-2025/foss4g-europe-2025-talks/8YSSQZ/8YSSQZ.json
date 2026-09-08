@@ -1,0 +1,127 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "8YSSQZ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "Publishing INSPIRE and other rich data models in GeoServer made easy with Smart Data Loader and Features Templating",
+    "description": "This presentation will cover the support GeoServer provides to publish rich data models (complex features with nested properties and multiple-cardinality relationships), through OGC services and OGC API - Features, focusing on the recent Smart Data Loader and Features Templating extensions, covering in detail ongoing and planned work on GeoServer. \r\nAs far as the INSPIRE scenario is concerned, GeoServer has extensive support for implementing view and download services thanks to its core capabilities but also to a number of free and open-source extensions; undoubtedly the most well-known (and dreaded) extension is App-Schema, which can be used to publish complex data models and implement sophisticated download services for vector data.\r\nWe will also provide an overview of how those extensions are serving as a foundation for new approaches to publishing rich data models: publishing them directly from MongoDB, embracing the NoSQL nature of it, and supporting new output formats like JSON-LD which allows us to embed well-known semantics in our data. \r\nReal-world use cases from the organizations that have selected GeoServer and GeoSolutions to support their use cases will be introduced to provide the attendees with references and lessons learned that could put them on the right path when adopting GeoServer.",
+    "start_datetime": "2025-07-17T13:00:00Z",
+    "end_datetime": "2025-07-17T13:30:00Z",
+    "talk:code": "8YSSQZ",
+    "talk:guid": "a8c147cf-b655-5b07-95be-094771f895eb",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "CA01 (TomTom)",
+    "talk:room_capacity": 130,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RBSH8T",
+        "name": "Andrea Aime",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/RBSH8T/"
+      },
+      {
+        "code": "CXTHFZ",
+        "name": "Nuno Oliveira",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/CXTHFZ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-17T13:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/8YSSQZ/",
+      "title": "Publishing INSPIRE and other rich data models in GeoServer made easy with Smart Data Loader and Features Templating"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/8YSSQZ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/RBSH8T/",
+      "title": "Andrea Aime"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/CXTHFZ/",
+      "title": "Nuno Oliveira"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/8YSSQZ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-slides-as-pdf": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/8YSSQZ/resources/Publishing_INSPIRE_datasets_in_GeoServer_n8YJPYl.pdf",
+      "type": "application/pdf",
+      "title": "Presentation slides as PDF",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/3fmq57oNRwrYXvzLXphzok",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Publishing INSPIRE and other rich data models in GeoServer made easy with Smart ...",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=UiJZM7ADh44",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Publishing INSPIRE and other rich data models in GeoServer made easy with Smart ...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

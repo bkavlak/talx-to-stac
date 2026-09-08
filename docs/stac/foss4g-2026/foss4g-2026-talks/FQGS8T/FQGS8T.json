@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "FQGS8T",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Methods for Introducing Geospatial Awareness to Large Language Models with Integrity, Provenance, and Trust through Open Standards and Open Source",
+    "description": "While LLMs excel at synthesizing text, they lack geospatial awareness and cannot reason over spatial networks. This talk demonstrates how Geo-GraphRAG and DGGS, grounded in open standards, enable geospatial reasoning with transparent, traceable results.\n\nAlthough Large Language Models (LLMs) excel at natural language processing and general reasoning, they lack the cross-sectoral, domain-specific, and up-to-date geospatial knowledge needed for decision support in disaster and crisis response, public health, economic analysis, and security applications. National Spatial Data Infrastructures (NSDIs) contain a wealth of such data, but they are not published in interoperable formats suitable for use by LLMs. Incompatible representations of the same locations across systems make feature-level integration (i.e., common geographies) prohibitively labor-intensive, particularly in lower-resourced settings.\r\n\r\nThis talk presents two complementary methods for introducing geospatial awareness into LLMs by shifting interoperability to the point of data publication rather than relying on point-to-point integrations. Discrete Global Grid Systems (DGGS)\u2014a new Open Geospatial Consortium (OGC) standard\u2014implement the concept of common geographies by quantizing data into hierarchical grid cells identified by standardized zone IDs. When datasets are published using the same DGGS reference system, they become immediately interoperable. LLM agents can translate natural language questions into DGGS API calls with CQL2 parameters, enabling queries such as identifying areas where flood levels exceed specified thresholds.\r\n\r\nSpatial Knowledge Graphs (SKGs) provide a complementary capability by representing networks of interconnected geographic features and their semantic relationships across domains. Through Geo-GraphRAG, LLM agents can translate natural language questions into GeoSPARQL queries, enabling reasoning over feature networks such as infrastructure, populations, and services. When combined with DGGS, these approaches enable integrated analysis linking semantic networks with aggregated and statistical data, while maintaining transparency and traceability in model outputs.\r\n\r\nHowever, no standard currently exists for publishing SKGs with interoperability by common geography. This makes maintaining referential integrity across evolving datasets complex and resource-intensive. Interoperable Spatial Knowledge Graphs (iSKGs) address this challenge by enabling geo-objects to be aligned at publication, allowing graphs from different organizations to be integrated on demand in a federated architecture. By incorporating metadata standards such as DCAT and leveraging OGC Building Blocks, provenance, traceability, and shared geo-ontologies can be established to support trusted, reusable knowledge. This talk will demonstrate how these capabilities can be implemented using open-source software. The work builds on collaboration with the OGC community through disaster and resilience research pilots, as well as contributions developed in partnership with the U.S. Army Corps of Engineers Civil Works Division.\r\n\r\nBy shifting the paradigm to interoperability at the point of publication, this approach creates a force multiplier\u2014enabling local talent to build and sustain LLM-based geospatial applications by providing access to integrated, trustworthy geospatial data that has historically been out of reach.",
+    "start_datetime": "2026-09-02T08:00:00Z",
+    "end_datetime": "2026-09-02T08:30:00Z",
+    "talk:code": "FQGS8T",
+    "talk:guid": "c9ed3d98-928e-599a-96cf-3dbe137c0c03",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room5",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RBXJPQ",
+        "name": "Nathan McEachen",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/RBXJPQ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T08:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/FQGS8T/",
+      "title": "Methods for Introducing Geospatial Awareness to Large Language Models with Integrity, Provenance, and Trust through Open Standards and Open Source"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/FQGS8T/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/RBXJPQ/",
+      "title": "Nathan McEachen"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/FQGS8T/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

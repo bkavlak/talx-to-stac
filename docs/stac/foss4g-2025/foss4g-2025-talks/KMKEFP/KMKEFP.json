@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "KMKEFP",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "From Forest Types to Trees: A Web-based Digital Twin of Individual Trees Using OGC 3D Tiles",
+    "description": "A browser-based digital twin of individual trees is possible\u2014even at scale. Using OGC 3D Tiles, we visualized real tree models with species and height data across vast forests in Korea.\n\n### \ud83c\udf32 From Forest Types to Trees: A Web-based Digital Twin of Individual Trees Using OGC 3D Tiles\r\n\r\nCan we implement a large-scale forest\u2014down to individual trees\u2014as a digital twin on the web? We asked this question, and then we did it. The answer: **yes, it works beautifully.**\r\n\r\nIn this project, we converted Korea Forest Service\u2019s *forest type map* into **OGC 3D Tiles** for web-based service. However, rather than stopping at generalized forest polygons, we focused on **individual tree-level data**\u2014which includes species, height, crown diameter, and other attributes per tree.\r\n\r\nThis level of detail is often considered impractical to visualize on the web due to data volume and complexity. So we challenged that assumption by rendering **3D models of real tree species**, each placed in their **actual location with correct height and size**, not just symbolic representations. And yes\u2014it works smoothly, in-browser.\r\n\r\nAll of this is made possible through the use of the **OGC 3D Tiles** standard. This means that once the data is converted, it becomes interoperable across multiple platforms: web, mobile, desktop GIS (QGIS, ArcGIS), and game engines (Unreal, Unity, O3DE, Omniverse) with no additional conversion required. This is the power of international open standards\u2014**true \u201cwrite once, use anywhere.\u201d**\r\n\r\nDespite Korea's rich geospatial data, usage is often hindered by spatial data security policies. However, this project demonstrates how even highly detailed and sensitive datasets like individual tree inventories can be made accessible and useful\u2014securely and efficiently.\r\n\r\nWith this, **digital twin forest management at the individual tree level** is no longer a distant future\u2014it\u2019s already happening.\r\n\r\n---\r\n\r\n### \ud83d\udcdd Acknowledgements\r\n\r\nThis study was carried out with the support of 'R&D Program for Forest Science Technology '(Project No. \"RS-2025-25404070\")' provided by Korea Forest Service(Korea Forestry Promotion Institute).",
+    "start_datetime": "2025-11-20T22:30:00Z",
+    "end_datetime": "2025-11-20T22:55:00Z",
+    "talk:code": "KMKEFP",
+    "talk:guid": "0f5a66aa-6c92-5079-a11b-b5d15625aebb",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Use Cases and Applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG403",
+    "talk:room_capacity": 386,
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "ENHDVS",
+        "name": "Kim Jinho",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/ENHDVS/"
+      },
+      {
+        "code": "KWWRVN",
+        "name": "Heejin Ha",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/KWWRVN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-20T22:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/KMKEFP/",
+      "title": "From Forest Types to Trees: A Web-based Digital Twin of Individual Trees Using OGC 3D Tiles"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/KMKEFP/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/ENHDVS/",
+      "title": "Kim Jinho"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/KWWRVN/",
+      "title": "Heejin Ha"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/KMKEFP/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

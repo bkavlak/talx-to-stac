@@ -1,0 +1,118 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "VJT8JW",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "PILAR-2b: An Open Geospatial Pipeline for Biogas Potential Assessment in Institutionally Fragmented Data Environments",
+    "description": "Spatially explicit biogas potential assessment requires integrating land cover dynamics, agricultural census records, livestock inventories, and municipal waste generation data into a unified analytical framework. In most national contexts, each of these dimensions is maintained by a distinct government agency operating at incompatible spatial resolutions, under divergent update schedules, and without a shared classification ontology. The result is not data absence but institutional fragmentation, and fragmentation is a structurally different problem from scarcity: the data exists, is publicly available, and is updated regularly, but no coordinating infrastructure connects it into an analysis-ready form. This distinction has direct consequences for platform design. A system built to address data scarcity aggregates and estimates; a system built to address institutional fragmentation must integrate, reconcile, and make the reconciliation process itself transparent and reproducible.\r\nPILAR-2b (Plataforma Inteligente de Localiza\u00e7\u00e3o e Aproveitamento de Res\u00edduos para Biog\u00e1s e Bioprodutos) is an open-source spatial decision-support platform developed at CP2b/NIPE-Unicamp, Brazil, to produce municipally disaggregated biogas potential estimates for S\u00e3o Paulo State's 645 municipalities through a reproducible pipeline that treats data integration as a primary computational challenge rather than a preprocessing step. The platform integrates five heterogeneous government datasets: IBGE agricultural census records, SNIS municipal waste inventories, MapBiomas 30-metre land cover rasters, ANEEL energy infrastructure layers, and CETESB environmental licensing records. These sources present four structurally distinct incompatibilities: administrative unit definitions differ across agencies; coordinate reference systems require transformation to SIRGAS 2000 UTM Zone 22S; update cycles range from annual to decennial; and feedstock classification schemes lack a common ontology across sources. The data integration pipeline resolves each incompatibility through a fully scripted, version-controlled transformation chain implemented in Python with GeoPandas, Shapely, and Fiona, with no manual reconciliation steps at any stage. Every transformation from raw institutional input to analysis-ready geospatial layer is traceable, independently executable, and documented in a public repository under GPL 3.0.\r\nThe platform architecture follows a three-tier microservices model, separating presentation, application logic, and data persistence into independently deployable cloud components. The presentation layer is implemented in Next.js 15 with Mapbox GL JS vector tile rendering, enabling simultaneous display of all 645 municipal polygons with sub-second pan-and-zoom response without requiring a client-side GIS installation. The application layer is built on FastAPI 0.104.1 with an asynchronous Python runtime; NumPy vectorization across all municipalities reduced per-request computation time from approximately 8.2 seconds with sequential iteration to 0.9 seconds with vectorised batch processing. The persistence layer operates on PostgreSQL 15 with PostGIS 3.4, hosted on Supabase, with full operational costs ranging from zero to fifty US dollars per month, depending on demand, a range considered accessible for public sector and academic deployment without proprietary licensing.\r\nIntegrated feedstock inventories enter a correction factor methodology that decomposes theoretical biomass availability into practical mobilisable potential through four sequential, feedstock-dependent factors: collection efficiency (FC), competing uses (FCo), seasonal availability (FS), and logistical constraints (FL). Each factor is independently parameterised per feedstock category across 30 feedstock types in four sectors: agriculture, industry, livestock, and urban waste. The FC times FCo times FS times FL multiplication produces a transparent audit trail from gross theoretical potential to practically actionable municipal estimates, enabling factor-specific sensitivity analysis that is structurally unavailable in single-factor yield approaches, where corrections are embedded rather than decomposed.\r\nApplied to S\u00e3o Paulo State's 645 municipalities, PILAR-2b quantifies a theoretical biogas potential of 133.82 million m\u00b3 CH4/day from consolidated feedstock inventories, reduced to 19.69 million m\u00b3/day practical mobilisable potential through sequential correction factor application, representing a 14.7% weighted average retention that encodes binding regulatory and logistical constraints directly in the correction structure. Spatial analysis reveals that 25.1% of municipalities account for 67.0% of the state's practical potential, a four-order-of-magnitude spread across the municipal distribution that confirms that state-level aggregation is analytically insufficient for infrastructure investment decisions and that municipal-resolution outputs constitute a structurally distinct planning information product. Cross-validation against the 2025 S\u00e3o Paulo biomethane roadmap (Instituto 17, PSR, and Amplum Biog\u00e1s, published by FIESP) yields a mean absolute error of 13.2%, approaching the 15-20% performance range documented for the DBFZ Biomass Monitor operating under substantially denser European data conditions. All primary analytical workflows are complete within sub-3-second response times under 50 concurrent users in production conditions.\r\nThe data incompatibility challenges resolved by this pipeline, including misaligned administrative units, divergent update cycles, and absent cross-agency classification standards, recur structurally wherever policy-relevant energy assessments depend on combining institutionally separated government sources. The S\u00e3o Paulo deployment demonstrates that these challenges are tractable within a fully open, browser-accessible stack at operational costs within reach of public institutions. PILAR-2b is designed for direct replication in any national or subnational context where MapBiomas-equivalent land cover data, agricultural census records, and municipal waste inventories achieve sufficient completeness, a condition already met across multiple Brazilian states and increasingly across Latin American, African, and Southeast Asian contexts where open satellite and census data are advancing faster than institutional coordination. The result is not a regional tool but a methodological blueprint: an open geospatial integration architecture replicable wherever fragmented data governance, not technical capacity, is the binding constraint on evidence-based energy planning.",
+    "start_datetime": "2026-06-30T09:45:00Z",
+    "end_datetime": "2026-06-30T09:50:00Z",
+    "talk:code": "VJT8JW",
+    "talk:guid": "bf4f501f-4afe-5509-a7b6-ec6764c10c81",
+    "talk:event": "foss4g-europe-2026",
+    "talk:track": "Academic track",
+    "talk:type": "Academic lightening talk",
+    "talk:language": "en",
+    "talk:room": "A01",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "SAANDR",
+        "name": "Lucas Nakamura Cerejo",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/SAANDR/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-06-30T09:47:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/VJT8JW/",
+      "title": "PILAR-2b: An Open Geospatial Pipeline for Biogas Potential Assessment in Institutionally Fragmented Data Environments"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/VJT8JW/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/SAANDR/",
+      "title": "Lucas Nakamura Cerejo"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/VJT8JW/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "graphical-abstract": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2026/submissions/VJT8JW/resources/Graphical_Abstract_1_H5ZW2ol_8x5Uu74.png",
+      "type": "image/png",
+      "title": "Graphical Abstract",
+      "roles": [
+        "data"
+      ]
+    },
+    "url-production-deployment-of-pilar-2b-browser-based-with-dis": {
+      "href": "https://cp2b.unicamp.br/pilar2b/pt-BR",
+      "title": "URL Production deployment of PILAR-2b. Browser-based, with disaggregated biogas potential estimates for S\u00e3o Paulo's State 645 municipalities with interactive GIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "github-repository": {
+      "href": "https://github.com/aikiesan/Pilar-2b",
+      "title": "Github Repository",
+      "roles": [
+        "data"
+      ]
+    },
+    "public-dataset-repository": {
+      "href": "https://redu.unicamp.br/dataset.xhtml?persistentId=doi%3A10.25824%2Fredu%2FF36WP9&version=DRAFT",
+      "title": "Public Dataset Repository",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

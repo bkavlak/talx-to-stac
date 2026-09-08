@@ -1,0 +1,114 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "LPDRTF",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "OpenStreetMap as an input source for producing governmental datasets: the case of the Italian Military Geographic Institute",
+    "description": "The collection, curation and publication of geospatial information has been for centuries the sole prerogative of public sector organisations. Such data has been traditionally considered the reference source for datasets and cartographic outputs. However, new geospatial data sources (e.g. from the private sector and citizen-generated[1]) have emerged that are currently challenging the role of the public sector [2]. In response to this, governments are currently exploring new ways of managing the creation and update of their geospatial datasets [3]. \r\nDatasets of high relevance are increasingly produced by both private companies and crowdsourced initiatives. E.g., in 2022 Microsoft released Microsoft Building Footprints, a dataset of around 1 billion building footprints extracted from Bing Maps imagery from 2014 to 2022. More recently, in December 2022n Amazon Web Services (AWS), Meta, Microsoft, and TomTom founded the Overture Maps Foundation (https://www.linuxfoundation.org/press/linux-foundation-announces-overture-maps-foundation-to-build-interoperable-open-map-data), a joint initiative in partnership with the Linux Foundation with the aim to curate and release worldwide map data from the aggregation of multiple input sources including civic organisations and open data sources, especially OpenStreetMap data.\r\nThese initiatives aim to improve the coverage of existing governmental geospatial information through the release of open data and a strong dependency on  OpenStreetMap. In particular, the Overture initiative has the explicit goal to add quality checks, data integration, and alignment of schemas to OSM data.\r\nRecently, the Italian Military Geographic Institute (IGM, one of the governmental mapping agencies in Italy) has released a multi-layer dataset called \u201cDatabase di Sintesi Nazionale\u201d (DBSN, https://www.igmi.org/en/dbsn-database-di-sintesi-nazionale). The DBSN is intended to include geospatial information relevant to analysis and representation at the national level, with the additional purpose to derive maps at the scale 1:25,000 through automatic procedures. The creation of the DBSN builds on top of various information sources, with regional geotopographic data as primary source of information and products from other national public bodies (e.g. cadastral maps) as additional sources. The source is recorded in a specific attribute field for each feature in the database, with a list of codes referencing the various sources. Among the external sources used as input for the work of integration in the DBSN, OpenStreetMap was explicitly considered and used.\r\nOne of the elements of novelty, at least in the Italian context, is the release of the DBSN under the ODbL licence (https://opendatacommons.org/licenses/odbl), caused by the fact that the inclusion of OSM data requires derivative products to be released with the same licence.\r\nCurrently, the DBSN includes data covering only 12 out of the 20 Italian regions (Abruzzo, Basilicata, Calabria, Campania, Lazio, Marche, Molise, Puglia, Sardegna, Sicilia, Toscana, Umbria). The remaining ones will be released in the near future.\r\nThe datasets have been downloaded from the official IGM website in January 2023.\r\nThe DBSN schema is a subset of the specifications defined in the \"Catalogue of Spatial Data - Content Specifications for Geotopographic Databases\u201d (Decrete 10 November 2011) and is composed of 10 layers, 29 themes and 91 classes. We compared it with the OpenStreetMap specifications (based on the community-based tagging scheme at https://wiki.openstreetmap.org/wiki/Map_Features) and selected two main themes (buildings and streets).\r\nThe analysis was performed through a set of Python scripts available under the open source WTFPL licence at https://github.com/napo/dbsnosmcompare.\r\nFirstly, we analysed\u2014for buildings and streets in the IGM database\u2014where OSM data was used as the primary source of information. The percentage of buildings derived from OSM is minimal, ranging from 0.01% in Umbria to 1.3% in Marche; regarding streets, the differences between regions increase, ranging from almost 0% in Abruzzo and Calabria to 94% in Umbria.\r\nSecondly, we calculated the area covered by buildings and the length of streets in both the IGM and OSM databases to understand how much OSM completeness is good, compared to the official IGM dataset.\r\nIn the 12 regions, the area covered by buildings in OSM is on average about 55% of the corresponding area in IGM, while the percentage of the length of streets is about 78%. Anyway, these numbers are highly variable among regions, ranging between 32% in Calabria and 105% in Puglia for buildings, and between 46% in Calabria and 103% in Umbria for streets.\r\nThese first results show that the main source information in the DBSN (namely the official regional data) is highly variable across the 12 regions, which required the IGM to find additional data sources to fill the gaps. OSM plays a minor role for integrating buildings in the database, while it demonstrates a high potential for contributing to street information.\r\nResults also show that, even with only a small contribution, some elements that are present in OSM are still not included in the DBSN. This can be due to at least two reasons: (i) the current workflow of selection of elements in OSM (through tags) does not include some potentially relevant elements; ii) the (ideally) daily update of OSM is able to bring in the database new features at a pace that is unbeatable by the IGM, and governmental organisations in general.\r\nWhile this study highlights the importance that OpenStreetMap has achieved as a reference source of geospatial information for governmental bodies as well, providing evidence of its contribution to the national database of the IGM, iit also paves the way for improving OpenStreetMap itself by importing data for various layers, benefiting from the release of the DBSN under the ODbL licence.",
+    "start_datetime": "2023-06-29T14:00:00Z",
+    "end_datetime": "2023-06-29T14:30:00Z",
+    "talk:code": "LPDRTF",
+    "talk:guid": "f8a516f4-d199-5dcb-a5d5-ece53dc859db",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Academic Track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT E / N209 - Floor 3",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "JMVJMS",
+        "name": "Marco Minghini",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/JMVJMS/"
+      },
+      {
+        "code": "WPKF7Y",
+        "name": "Alessandro Sarretta",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/WPKF7Y/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-29T14:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/LPDRTF/",
+      "title": "OpenStreetMap as an input source for producing governmental datasets: the case of the Italian Military Geographic Institute"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/LPDRTF/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/JMVJMS/",
+      "title": "Marco Minghini"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/WPKF7Y/",
+      "title": "Alessandro Sarretta"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.igmi.org/en/dbsn-database-di-sintesi-nazionale",
+      "title": "www.igmi.org/en/dbsn-database-di-sintesi-nazionale"
+    },
+    {
+      "rel": "related",
+      "href": "https://wiki.openstreetmap.org/wiki/Map_Features",
+      "title": "wiki.openstreetmap.org/wiki/Map_Features"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/napo/dbsnosmcompare",
+      "title": "github.com/napo/dbsnosmcompare"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/LPDRTF/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

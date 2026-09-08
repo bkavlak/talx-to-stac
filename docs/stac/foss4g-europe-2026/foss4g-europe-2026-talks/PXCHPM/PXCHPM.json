@@ -1,0 +1,103 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "PXCHPM",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "From Tile-Based Processing to Distributed Execution: Extending the mapchete stack",
+    "description": "Over the past years, mapchete has evolved from a tile-based raster and vector processing library into a modular ecosystem for building and operating large-scale geospatial data processing pipelines. Previous presentations at FOSS4G focused on the core package and touching scalable processing patterns using dask and mapchete.\r\n\r\nThis talk presents the next step: the open source publication of additional components developed in a production context, including mapchete EO, mapchete Hub, and mapchete Hub CLI. These packages extend mapchete's core processing model towards Earth Observation (EO) use cases and distributed execution, with a focus on reproducibility, scalability, and a variety of (pre)processesing capabilities relevant for EO.\r\n\r\nmapchete EO provides higher-level primitives for working with satellite imagery (primarily Sentinel-2), including typical preprocessing steps such as cloud masking, BRDF correction, and temporal compositing. These components are derived from operational pipelines used in the EOxCloudles (cloudless.eox.at) product line, where consistent large-scale processing and data quality constraints are critical.\r\n\r\nmapchete Hub introduces a service layer for orchestrating distributed processing of mapchete tasks. Processing jobs can be submitted, scheduled, and monitored via an API. The API design is oriented towards the OGC API - Processes standard, aligning mapchete-based workflows with emerging interoperable interfaces in the geospatial ecosystem. The accompanying CLI (mapchete hub CLI) provides a minimal interface for interacting with this system without requiring custom integration.\r\n\r\nIn addition to the software components, the talk covers recent changes in packaging and distribution. All packages are now published via both PyPI and Conda, and container images are provided through GitHub Container Registry. All packages were moved to a dedicated mapchete organization.",
+    "start_datetime": "2026-06-29T09:30:00Z",
+    "end_datetime": "2026-06-29T10:00:00Z",
+    "talk:code": "PXCHPM",
+    "talk:guid": "0ee2ac6f-8e17-5bf3-9e25-e31dfa4ef299",
+    "talk:event": "foss4g-europe-2026",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "A13",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "DRBES7",
+        "name": "Joachim Ungar",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/DRBES7/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-06-29T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/PXCHPM/",
+      "title": "From Tile-Based Processing to Distributed Execution: Extending the mapchete stack"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/PXCHPM/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/DRBES7/",
+      "title": "Joachim Ungar"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/PXCHPM/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides-pdf": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2026/submissions/PXCHPM/resources/20260629_ungarj_mapchete_dxRI1C7.pdf",
+      "type": "application/pdf",
+      "title": "slides (PDF)",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "slides-online": {
+      "href": "https://docs.google.com/presentation/d/1OSizgY3VijW79hWCS2Ia81dRt7FL3FDXNr-3i13oxDE/edit?usp=sharing",
+      "title": "slides (online)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

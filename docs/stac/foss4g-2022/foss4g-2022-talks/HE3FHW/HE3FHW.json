@@ -1,0 +1,104 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "HE3FHW",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "From photographic survey to street-level imagery integration in an OpenSource webgis: complete workflow",
+    "description": "For several years Gter has been involved in the development and maintenance of the webGIS related to the management of the road network of the Province of Piacenza. Recently, the client requested the integration of the images, deriving from the photographic survey of about 520 Km of routes, in the existing webGIS (an instance of Lizmap Web Client which public version can be found here https://catastostrade.provincia.pc.it/lizmap/lizmap/www/index.php/view/map/?repository=progettipubblici&project=catasto_strade_pub).\r\nIn this case, the Public Administration needed the photographic survey in order to update a set of old images sparsely distributed along the network and to have a customized tool similar to services like Google Street View. Therefore, an integration of the Mapillary viewer in Lizmap Web Client has been proposed and developed; hence the survey was performed with a camera that uses front and back optics to have 360-degree photos.\r\nThe workflow consisted of four main tasks. The first step involved the photographic survey of the road network using a GoProFusion360 mounted on a car that took photos of the surrounding environments. The next step consisted in the processing of the images, stitching the front and the back photos in order to obtain a 360-degree panoramic image. This step has been automated through the development of a Python script together with the use of the available software of the camera from the command line. About 50000 photos were uploaded on the Mapillary platform. Images have been integrated into the Lizmap Web Client webGIS through the Mapillary viewer and utilities. The integration was achieved by developing a new feature  for Lizmap Web Client based on Mapillary JS, an Open Source library provided by Mapillary that helps developers interact with the Mapillary API.\r\nThe final result is a tool that makes the Public Administration able to navigate and reach the photos uploaded on Mapillary directly from a window in the webGIS.",
+    "start_datetime": "2022-08-26T09:30:00Z",
+    "end_datetime": "2022-08-26T10:00:00Z",
+    "talk:code": "HE3FHW",
+    "talk:guid": "88a99d61-5f49-5352-83df-b08899c4d6b7",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Limonaia",
+    "talk:room_capacity": 110,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "9HUKUG",
+        "name": "Francesco Bursi",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/9HUKUG/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/HE3FHW/",
+      "title": "From photographic survey to street-level imagery integration in an OpenSource webgis: complete workflow"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/HE3FHW/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/9HUKUG/",
+      "title": "Francesco Bursi"
+    },
+    {
+      "rel": "related",
+      "href": "https://catastostrade.provincia.pc.it/lizmap/lizmap/www/index.php/view/map/?repository=progettipubblici&project=catasto_strade_pub",
+      "title": "catastostrade.provincia.pc.it/lizmap/lizmap/www/index.php/view/map"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/HE3FHW/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=bjKfMJIMAGM",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | From photographic survey to street-level imagery integration in an OpenSource webgis:\u2026",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "D9EVPE",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "OGC API feature services built with Hakunapi",
+    "description": "National Land Survey of Finland (NLS) has built multiple feature services based on the OGC API Features standard since 2019. These services provide cadastral and topographic data, buildings, geographic names, and addresses both as open and contract-based APIs.\r\n\r\nThe engine behind these services is Hakunapi \u2013 a high performance server implementation to easily build \u201coff-the-shelf\u201d Simple Features and customized Complex Features services with geospatial data backed by a PostGIS database. Currently the OGC API Features (Part 1, 2 and 3) standard is supported. The codebase is based on Java, and it utilizes also other geospatial libraries such as JTS Topology Suite and GeoTools.\r\n\r\nHakunapi is now Free Open-Source Software available at GitHub with the version 1.0 released in May 2023. On the last few years NLS has internally used the library for services providing both Simple Features (like traditional topographic database) and Complex Features (cadastral registry and geographic names with some hierarchical feature structures too).\r\n\r\nThis talk presents key features and benefits of using Hakunapi for implementing feature services based on the OGC API Features standard. Also experiences and best practices by NLS on developing these services and our roadmap towards modern OGC API services is discussed.\r\n\r\nDemo: https://beta-paikkatieto.maanmittauslaitos.fi/inspire-addresses/features/v1/ \r\n\r\nCode: https://github.com/nlsfi/hakunapi",
+    "start_datetime": "2023-06-29T14:30:00Z",
+    "end_datetime": "2023-06-29T15:00:00Z",
+    "talk:code": "D9EVPE",
+    "talk:guid": "449676c3-115a-5e26-80b8-e9bfcb054266",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Open source geospatial \u2018Made in Europe\u2019",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT F / N212 - Floor 3",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "TCJVS9",
+        "name": "Teemu Sipil\u00e4",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/TCJVS9/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-29T14:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/D9EVPE/",
+      "title": "OGC API feature services built with Hakunapi"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/D9EVPE/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/TCJVS9/",
+      "title": "Teemu Sipil\u00e4"
+    },
+    {
+      "rel": "related",
+      "href": "https://beta-paikkatieto.maanmittauslaitos.fi/inspire-addresses/features/v1/",
+      "title": "beta-paikkatieto.maanmittauslaitos.fi/inspire-addresses/features/v1"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/nlsfi/hakunapi",
+      "title": "github.com/nlsfi/hakunapi"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/D9EVPE/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/564kY2LcwKUGx1tNUKxUgU",
+      "type": "text/html",
+      "title": "2023 | OGC API feature services built with Hakunapi - Teemu Sipil\u00e4",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=ERbwgMBIv8A",
+      "type": "text/html",
+      "title": "2023 | OGC API feature services built with Hakunapi - Teemu Sipil\u00e4",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

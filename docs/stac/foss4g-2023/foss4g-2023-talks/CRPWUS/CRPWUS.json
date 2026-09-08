@@ -1,0 +1,101 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "CRPWUS",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Opensidewalkmap: A Project And Open Source Framework For An Web-Based Urban Pedestrian Network Inventory Using Openstreetmap Data",
+    "description": "The interest on urban pedestrian networks is growing, with impacts centered at UN SDGs numbered 3, 11, 10 and 13: the improvement of accessibility helps in reducing inequalities and the fostering of non-motorized locomotion improves well-being and sustainability in urban scenarios. The idea behind OpenSidewalkMap is to leverage the multi-purpose OpenStreetMap data for the pedestrian network data. The structure of the project is decentralized, with localities deployed as nodes on a world web-map. At each node there\u2019s a modular structure within a webpage, containing apps that have a different role, in order to create what is intended to be a full-fledged inventory, whose functionality can be expanded as new modules can be added. Currently there are four modules: \u201cWebmap\u201d containing an interactive cartographic representation of the data; \u201cOptimized Routing\u201d that uses the data to create an optimized routing, currently only for a wheelchair profile based on an empiric equation;  \u201cDashboard\u201d featuring statistical charts to look at the bigger picture of the data, mainly focused on value percentages, thus giving attribute completeness, also giving a look at the data aging and number of revisions; \u201cData quality tool\u201d looking at most common possible errors on data, giving direct link to editors, being at this point focused on finding invalid values, with geometrical and topological error detection planned to be included; there are 4 planned modules: \u201cdata watching\u201d to monitor changes on data, to track and combat possible vandalism against data since OSM data is universally editable; \u201cTiles\u201d giving raster and maybe vector tiles; \u201cAPI\u201d giving features on request; \u201cSurveying And Validation\u201d to list projects in different platforms/editors to expand and validate available data. This way the inventory will include continuously the full cycle of data: creation and collection; storage, maintenance and management;  application and analysis. The project is aimed to have zero-maintenance costs, as long as everything is hosted using current freely available Microsoft github infrastructure, with all code and data being maintained inside github repositories, webpages deployed with github pages, updated using github actions. In case of shutdown of any of these services, the software can still be deployed in another server infrastructure with a similar workflow. There is lots of room for improvement, with only the node for the city of Curitiba being available as of february 2023. The homepage of the code is available at:  https://kauevestena.github.io/opensidewalkmap/ .",
+    "start_datetime": "2023-06-29T14:30:00Z",
+    "end_datetime": "2023-06-29T15:00:00Z",
+    "talk:code": "CRPWUS",
+    "talk:guid": "a2d2d024-6ec8-5a3d-94c8-e689fb7246e7",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Drini",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "LA3NZT",
+        "name": "Kau\u00ea de Moraes Vestena",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/LA3NZT/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-29T14:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/CRPWUS/",
+      "title": "Opensidewalkmap: A Project And Open Source Framework For An Web-Based Urban Pedestrian Network Inventory Using Openstreetmap Data"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/CRPWUS/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/LA3NZT/",
+      "title": "Kau\u00ea de Moraes Vestena"
+    },
+    {
+      "rel": "related",
+      "href": "https://kauevestena.github.io/opensidewalkmap/",
+      "title": "kauevestena.github.io/opensidewalkmap"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/CRPWUS/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "link-for-the-interactive-presentation-is-better-than-the-sta": {
+      "href": "https://talks.osgeo.org/media/foss4g-2023/submissions/CRPWUS/resources/presentation_link_1N5TTkv.md",
+      "title": "Link for the interactive presentation, is better than the static file and keeps the animations",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

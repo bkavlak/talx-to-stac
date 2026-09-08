@@ -1,0 +1,104 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "BZ3EY9",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Development of an open-source analytical Digital Twin framework for environmental modelling and management",
+    "description": "Digital Twins are software systems that provide dynamic virtual representations of physical systems(1), enabling modelling and visualisation, with automated data exchange and analytics being key attributes. These systems are enabling the development of smart cities(2) and may also represent the natural environment(3\u20135). Common use cases for Digital Twins are to monitor and control manufacturing lines or smart cities, but in environmental applications they are less common. Digital Twins can be used to automate and connect computer models of the environment, enabling on-demand simulations or ingestion of model outputs in planning.\r\n\r\nA key example of an environmental Digital Twin is the the EU's \u201cDestination Earth\u201d system, which is being developed as a Digital Twin for climate services, to facilitate access to weather and climate models which can be used for impact studies(6). Physics-based Digital Twins such as this will revolutionise access to and use of numerical model predictions. By connecting systems together through open-data and standards, a \u201cDigital Twin web\u201d will be created, powered by rapidly growing data and distributed cloud computing(7). Yet the development of each component remains challenging. \r\n\r\nIn this work, we describe the development of the Environmental Digital Data Intelligence Engine (EDDIE), an open-source framework for creating environmental Digital Twins. The concept of EDDIE is that it acts as a core engine which manages the ingestion and processing of spatial and other data, provides a modularised framework for running environmental models from these data, orchestrates them and ingests their results, and provides an (optional) web-based user interface and visualisation system. EDDIE is based on APIs, meaning that is it possible to connect two or more instances of EDDIE (or other Digital Twins) to share data and environmental models. For example, these Digital Twins can represent multiple different domains, such as hazard assessment, environmental monitoring, and community and urban planning. Here we describe the EDDIE system and provide some application examples.\r\n\r\nEDDIE and its open-source module implementations help developers of novel Digital Twins by providing a structure to follow, and providing library functionality for key spatial data handling processes. A dashboard of existing spatial data becomes trivial to setup and fetching and combining open data for analysis becomes simpler by following existing workflows and patterns.\r\n\r\nAn application using EDDIE is comprised of multiple containers working together to form a web application. Key containers include PostGIS, GeoServer, TerriaJS and the EDDIE backend and processing containers. EDDIE\u2019s Python library is used in the backend to prepare data and keep them up to date if required. When a model scenario is requested, the Python library is used within domain-specific modules to gather and process data to generate predictive outputs. TerriaJS is the typical frontend for an EDDIE application, allowing 3D visualisations as well as the ability to request model scenarios to be run. These requests use the OGC Web Processing Service standard, and return JSON results that are valid TerriaJS catalog items. This allows requests to use existing tooling with standardised inputs, with results that can be used in further processing scripts or can be automatically displayed on the web. The standard front-end for EDDIE applications is TerriaJS, with the backend containers able to expose detailed dynamic catalogs. These catalogs can also be used by other independent Digital Twins, enabling them to use all functionality available to create more powerful ecosystems of Digital Twins.\r\n\r\nEDDIE is used in active research projects for multiple distinct Digital Twins developed by the Geospatial Research Institute Toi Hangarau. EDDIE was born from the Flood Resilience Digital Twin (FReDT), focused on automated prediction of flood risk and collation of data for impact analysis. Currently, FReDT allows users to select parameters relating to climate change to assess how sea-level rise and increased storm intensity may change flood inundation risk. Ongoing developments are focused on working with communities to develop nature-based solutions to reduce flood impact, while allowing them to trial many different scenarios using the web interface. The core modules were extracted from FReDT to be able to be reused to construct novel environmental Digital Twins, and this core has formed EDDIE. \r\n\r\nFrom there, EDDIE was used as the basis for the \u014ct\u0101karo Digital Twin, a prototype environmental platform for monitoring the health of the \u014ct\u0101karo/Avon River in Christchurch, New Zealand. This Digital Twin was created in collaboration with Ng\u0101i T\u016b\u0101huriri and Christchurch City Council. Modelling available within the platform currently focuses on the MEDUSA 2.0 stormwater pollutant runoff model using user-inputted rainfall event parameters, and potential future modelling may include linking this to rainfall gauge telemetry.\r\n\r\nMost recently, EDDIE was the core framework used to create Te Awarua Kai Ora, a platform for Te Awarua / Porirua Harbour. This platform collates data from open data sources relating to the harbour, presents spatial data on environmental sampling, and allows the Porirua community to understand a flow model of the harbour created at the Geospatial Research Institute Toi Hangarau in collaboration with PHF Science. People can create story maps to describe the environmental data, as well as interact with overviews and detailed plots of flows within the harbour to understand how the catchment, streams, tide and rain contribute to sedimentation, flushing, or contaminant buildup.\r\n\r\nCurrent and near-future developments of EDDIE include optimisations and templates for cloud deployments. Focusing on facilitating cloud deployments allows for dynamic scaling to occur, allowing for large amounts of processing power to be accessed for only the short amount of time needed. This will be invaluable for FReDT allowing us to run many proposed scenarios at once for communities. EDDIE was built on a containerised architecture, and these additional developments will remove barriers to deploying new EDDIE projects.\r\n\r\nEDDIE provides a framework for building environmental Digital Twins with interoperable standards. This framework will help adoption of new Digital Twins and strengthen the community ecosystem of environmental Digital Twins. This will enhance access to data and insights for communities, for planning, for decision making and for research. \r\n\r\n\r\n1. \u2003\u2002\u2002Madni A, Madni C, Lucero S. Leveraging Digital Twin Technology in Model-Based Systems Engineering. Systems. 2019 Jan 30;7(1):7.\r\n2. \u2003\u2002\u2002Deren L, Wenbo Y, Zhenfeng S. Smart city based on digital twins. Comput Urban Sci. 2021 Dec;1(1):4.\r\n3. \u2003\u2002\u2002Blair GS. Digital twins of the natural environment. Patterns (N Y). 2021 Oct 8;2(10):100359.\r\n4. \u2003\u2002\u2002Bauer P, Stevens B, Hazeleger W. A digital twin of Earth for the green transition. Nat Clim Chang. 2021 Feb;11(2):80\u20133.\r\n5. \u2003\u2002\u2002European Commission. Destination Earth (DestinE) [Internet]. 2022 [cited 2022 Apr 18]. Available from: https://digital-strategy.ec.europa.eu/en/policies/destination-earth\r\n6. \u2003\u2002\u2002Hoffmann J, Bauer P, Sandu I, Wedi N, Geenen T, Thiemert D. Destination Earth \u2013 A digital twin in support of climate services. Clim Serv. 2023 Apr;30:100394.\r\n7. \u2003\u2002\u2002Autiosalo J, Siegel J, Tammi K. Twinbase: Open-Source Server Software for the Digital Twin Web. IEEE Access. 2021;9:140779\u201398.",
+    "start_datetime": "2026-09-01T05:00:00Z",
+    "end_datetime": "2026-09-01T05:30:00Z",
+    "talk:code": "BZ3EY9",
+    "talk:guid": "63696710-3072-5f08-a22c-12798a612082",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos1",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "8FMRTS",
+        "name": "Luke Parkinson",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/8FMRTS/"
+      },
+      {
+        "code": "7G79AY",
+        "name": "Matthew Wilson",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/7G79AY/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T05:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/BZ3EY9/",
+      "title": "Development of an open-source analytical Digital Twin framework for environmental modelling and management"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/BZ3EY9/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/8FMRTS/",
+      "title": "Luke Parkinson"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/7G79AY/",
+      "title": "Matthew Wilson"
+    },
+    {
+      "rel": "related",
+      "href": "https://digital-strategy.ec.europa.eu/en/policies/destination-earth",
+      "title": "digital-strategy.ec.europa.eu/en/policies/destination-earth"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/BZ3EY9/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

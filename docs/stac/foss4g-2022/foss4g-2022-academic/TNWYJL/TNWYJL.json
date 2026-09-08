@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "TNWYJL",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Efficient three-dimensional survey techniques and their comparison in open software in the archaeological test site of \"Ninfeo maggiore\" and \"Ninfeo minore\" of Formia (latina, Italy)",
+    "description": "The survey took place in part of the so-called Roman Villa of Caposele, also known as Villa Rubino (Giuliani and Guaitoli 1972; Cassieri 2015). The Villa, built by the Dukes of Marzano and subsequently passed into the hands of Charles of Ligny, Prince of Caposele, was purchased by Ferdinand II of Bourbon in 1845, with the aim of making it a luxurious summer residence. The building overlooks the inlet of Caposele, where there must have been a small harbour, and is squeezed between the Via Appia and the sea. To the west of the small port are the remains of an imposing structure with a central courtyard, datable to the 1st century B.C., which scholarly tradition has identified as Cicero's Academy or School, although it is probably a horreum, testifying to the utilitarian vocation of this area of the villa. In later phases, while retaining its intended use, the horreum would be incorporated into a residential building complex together with other structures further to the west that, too, may have served as warehouses in the earlier phase. To the east of the marina is the residential area, the area in which the survey operations were concentrated. Here, on a front about 140 metres long, there are a series of rooms with barrel vaults that were probably part of the basis villae of the building. In two of these rooms are the so-called minor and major nymphaea. The first consists of an almost quadrangular room with a roof supported by four Doric brick columns; on the back wall, in a large niche, spring water gushes out. The wall decorations include stucco, shells and incrustations of glass paste and small stones. The main nymphaeum, on the other hand, is divided into three naves and covered with a rounded coffered vault supported by Doric columns. The large niche at the bottom of the nymphaeum contains a pool of spring water; the floor is in white mosaic with polychrome dots. These nymphaeums constitute the focus of the intervention. \r\nIn front of this front there was a very large fishpond, which ran into the sea for about one hundred metres in length, with a width of over 200.\r\nBecause of its architectural features and good state of preservation, the central body of the monument has always been a great attraction for visitors and scholars, many of whom have left descriptions and drawings in their diaries.\r\n\r\n\r\nThe two nymphaeums have to be surveyed both for conservation and study purposes and in order to allow a virtual visit, which is particularly important since they are located inside a private property. As already described, the structure is complex, with a succession of rooms and environments in an archaeological complex extending approximately 480 metres in an east-west direction and approximately 50 metres in a south-north direction. The survey of such an extension and such an articulation with consolidated techniques such as terrestrial laser scanning would probably have required days of work, and for this purpose we wanted to test the possible use of the most modern SLAM techniques, in particular using a GEOSLAM Zeb Horizon, totally transportable by an operator and with a range of up to 100 metres (https://geoslam.com/solutions/zeb-horizon/).\r\nIn order to compare the times, modes, precision and accuracy of the point cloud thus obtained, we took advantage of the possibilities provided by the open software \"Cloud Compare 2.11.3 64 bit version\", which allows us to compare point clouds of different origins. Cloud Compare allows comparisons to be made with various methods of calculating distance and to estimate precision and accuracy separately, allowing one cloud to be fitted to the other or to be compared while remaining within their absolute coordinates.\r\nIn the present experimentation it was therefore decided to survey both nymphaea with the \"GEOSLAM\", also surveying all the internal connecting rooms and corridors between these two environments. The whole survey was carried out in a few tens of minutes and therefore the survey continued over most of the exterior of the entire structure.\r\nThe survey of the entire complex was not carried out because the main interest of this project was to test the SLAM technology and validate its precision and accuracy in comparison with more consolidated techniques.\r\nFor comparison, only the major nymphaeum was surveyed with a more consolidated laser\r\nFaro\" terrestrial scanning laser.\r\nIn order to verify the validity of the Slam also on the external part, a survey was carried out using a DJI Matrix drone with laser scanning. Finally, the same survey was also carried out with an optical camera on the same Matrix drone and with the most widely used drone for photogrammetry, i.e. the \"Phantom 4 pro\", also by DJI.\r\nAll the surveys were framed with respect to the same network of ground control points, in order to refer them to the same framing system and be able to assess their precision and accuracy. \r\nIt should be noted that Slam was only able to station a few of the GCPs while, as can be easily guessed, the drones acquired practically all of them.\r\n\r\nThe comparison showed very limited deviations whose statistical validation is in progress, demonstrating that the SLAM technique can advantageously be used in such vast archaeological complexes where the completeness of the survey is more important than millimetric accuracy.",
+    "start_datetime": "2022-08-25T10:30:00Z",
+    "end_datetime": "2022-08-25T10:35:00Z",
+    "talk:code": "TNWYJL",
+    "talk:guid": "52053377-87aa-51ee-aa42-f5cf8304bac9",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "Room Hall 3A",
+    "talk:room_capacity": 85,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "YLYNAM",
+        "name": "Valerio Baiocchi",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/YLYNAM/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T10:32:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/TNWYJL/",
+      "title": "Efficient three-dimensional survey techniques and their comparison in open software in the archaeological test site of \"Ninfeo maggiore\" and \"Ninfeo minore\" of Formia (latina, Italy)"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/TNWYJL/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/YLYNAM/",
+      "title": "Valerio Baiocchi"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/TNWYJL/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

@@ -1,0 +1,136 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "NYLAFW",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Comparing spatial patterns in raster data using R",
+    "description": "Spatial pattern is an inherent property visible in many spatial variables. Spatial patterns are often at the heart of many geographical studies, where we search for existing hot spots, correlations, and outliers. They may be exhibited in various forms, depending on the type of data and the underlying processes that generated the data. Here, we will focus on spatial patterns in spatial rasters, but the concept can be extended to other types of spatial data, including vector data and point clouds.\r\n\r\nPatterns in spatial raster data may have many forms. We may think of spatial patterns for continuous rasters as an interplay between intensity and spatial autocorrelation (e.g., elevation) or between composition and configuration for categorical rasters (e.g., land cover) (Gustafson, 1998). Intensity relates to the range and distribution of values of a given variable, while spatial autocorrelation is a tendency for nearby values of a given variable to be more similar than those that are further apart. On the other hand, composition is the number of cells belonging to each map category, while configuration represents their spatial arrangement.   Another distinction is between the data dimensionality. The most common situation is when we only use one layer of given data (e.g., an elevation map or a land cover product for one year). However, we may also be interested in sets of variables (layers, bands), such as hyperspectral data, time series, or proportions of classes. An additional special case is the RGB representation of the data.\r\n\r\nAssessing the similarity of spatial patterns is a common task in many fields, including remote sensing, ecology, and geology. This procedure may encapsulate many types of comparisons: comparing the same variable(s) for different areas, comparing different datasets (e.g., different sensors), or comparing the same area but at different times.\r\n\r\nGiven various possible scientific questions and the fact that we have a plethora of forms of spatial data, there is no universal method for assessing similarity between two spatial patterns. The basic method is a visual inspection; however, it is highly subjective, both from the observer\u2019s and visualization type\u2019s perspectives. Fairly straightforward other approaches are to create a difference map, count changed pixels, or look at the distribution of the values. More advanced methods include the use of machine learning algorithms. However, these methods are often complex, require a lot of data, and are not always interpretable. An alternative and general approach, inpired by content-based image retrieval (Kato, 1992), is to use spatial signatures to represent spatial patterns and dissimilarity measures to compare them (Jasiewicz and Stepinski, 2013).\r\n\r\nA spatial signature is any numerical representation (compression) of a spatial pattern. For a categorical raster, it can be a co-occurrence vector of classes in a local window, while for a time series, it may be a vector of values in a given cell. Then, having spatial signatures for both areas (sensors, moments), we can compare them using a dissimilarity measure (e.g., Euclidean distance, cosine similarity, etc.) (Cha, 2007). This approach can compare complex, multidimensional spatial patterns, but at the same time, it gives some degree of interpretability. It can also be further applied to many techniques of spatial data analysis, including spatial clustering (to find groups of areas with similar spatial patterns) and segmentation (to create regions with similar spatial patterns).\r\n\r\nWhile the concept of applying spatial signature and dissimilarity measures is powerful, there are still many unresolved issues and questions to consider. It includes the topics of scale of comparison, input data resolution, dimensions, or types, used spatial signatures, and selected dissimilarity metrics. There is still a lack of studies that systematically compare different methods of assessing similarity between spatial patterns, or suggest good practices in their use. At the same time, a growing number of FOSS tools allows us to test various methods and apply them to real-life scenarios.\r\n\r\nThe goal of this work is to provide an overview of existing R packages for comparing spatial patterns. These include \u2018motif\u2019 (for comparing spatial signatures for categorical rasters; Nowosad, 2021), \u2018spquery\u2019 (allowing for comparing spatial signatures for continuous rasters), and \u2018supercells\u2019 (for segmentation of various types of spatial rasters based on their patterns; Nowosad and Stepinski, 2022). It will show how they can be applied in real-life cases and what their limitations are. This work also aims to open a discussion about the methods for assessing similarity between spatial patterns and their FOSS implementations.\r\n\r\nReferences\r\n\r\nCha, S-H. (2007). Comprehensive Survey on Distance/Similarity Measures Between Probability Density Functions. Int. J. Math. Model. Meth. Appl. Sci.\r\n\r\nGustafson, E.J. (1998) Quantifying landscape spatial pattern: what is the state of the art? Ecosystems\r\n\r\nJasiewicz, J., & Stepinski, T. F. (2013). Example-Based Retrieval of Alike Land-Cover Scenes From NLCD2006 Database. IEEE Geoscience and Remote Sensing Letters, https://doi.org/10.1109/lgrs.2012.2196019\r\n\r\nKato, T. (1992) Database architecture for content-based image retrieval, Image Storage and Retrieval Systems, https://doi.org/10.1117/12.58497\r\n\r\nNowosad, J. (2021). Motif: an open-source R tool for pattern-based spatial analysis. Landscape Ecology, https://doi.org/10.1007/s10980-020-01135-0\r\n\r\nNowosad, J., & Stepinski, T. F. (2022). Extended SLIC superpixels algorithm for applications to non-imagery geospatial rasters. International Journal of Applied Earth Observation and Geoinformation, https://doi.org/10.1016/j.jag.2022.102935",
+    "start_datetime": "2024-07-04T07:30:00Z",
+    "end_datetime": "2024-07-04T08:00:00Z",
+    "talk:code": "NYLAFW",
+    "talk:guid": "ba131c7b-22c8-5d43-9726-d742d13d1081",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Academic track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Omicum",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "SAV3ZK",
+        "name": "Jakub Nowosad",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/SAV3ZK/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-04T07:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/NYLAFW/",
+      "title": "Comparing spatial patterns in raster data using R"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/NYLAFW/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/SAV3ZK/",
+      "title": "Jakub Nowosad"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.1109/lgrs.2012.2196019",
+      "title": "doi.org/10.1109/lgrs.2012.2196019"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.1117/12.58497",
+      "title": "doi.org/10.1117/12.58497"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.1007/s10980-020-01135-0",
+      "title": "doi.org/10.1007/s10980-020-01135-0"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.1016/j.jag.2022.102935",
+      "title": "doi.org/10.1016/j.jag.2022.102935"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/NYLAFW/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://jakubnowosad.com/foss4ge2024-spc/",
+      "title": "Presentation",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/renaQ1iT5UuyZA83BuVQXQ",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Comparing spatial patterns in raster data using R",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=vt0WNtnTi4M",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Comparing spatial patterns in raster data using R",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

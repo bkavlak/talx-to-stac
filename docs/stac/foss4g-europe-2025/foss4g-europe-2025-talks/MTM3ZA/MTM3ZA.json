@@ -1,0 +1,135 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "MTM3ZA",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "Evaluating Matrix Factorization Techniques for Thematic Mapping of Wilderness Walkability Using Multiple GPX Datasets",
+    "description": "Quantitative thematic mapping is widely used in meteorology (e.g., weather maps), geology (e.g., topographic maps), and environmental science (e.g., pollution distribution). However, mapping continuous quantitative data is challenging, especially when data is sparse or unreliable. Sparse data arises from uneven measurement distribution, while unreliable data stems from inconsistencies or errors, such as subjective self-reports or satellite-derived estimates. These challenges intensify when mapping hidden variables requiring indirect proxies[Ervin, 2009], introducing further uncertainty. Advanced techniques for integrating multiple datasets and statistical methods like interpolation or machine learning are essential for improving accuracy.\r\nMapping walkability and fire risk in wilderness areas is particularly difficult due to the hidden nature of these variables and data limitations. Wilderness walkability depends on factors such as trail connectivity, slope, surface quality, and accessibility, which are difficult to measure comprehensively. Desktop analyses often miss real-world obstacles like debris or vegetation overgrowth. Similarly, fire risk is influenced by vegetation dryness, wind patterns, topography, and human activity\u2014complex interactions that are hard to quantify due to sparse sensor coverage and environmental variability. Both require indirect proxies, such as fire behavior data or trail condition audits, which introduce inaccuracies. Addressing these challenges demands advanced mapping techniques that integrate multiple data sources, including crowdsourced trail reviews, IoT sensors, and remote sensing data.\r\nThis study focuses on thematic mapping of walkability. Unlike urban walkability[Horak,2022], which is linked to built infrastructure, wilderness walkability depends on natural terrain features such as slope, surface stability, vegetation density, and trail connectivity. Measuring these factors directly is difficult due to terrain heterogeneity and dynamics. For instance, steep inclines and loose surfaces can impede movement, while dense undergrowth or debris can block trails entirely.\r\nWalkability can be assessed using GPX trail data by calculating walking speed along trails, providing an objective measure of terrain difficulty. GPX files contain time-stamped geographic coordinates that allow speed calculations based on distance and time. However, individual differences in fitness, experience, and preferences introduce subjectivity when expressing walkability as walking speed. One hiker may struggle on rocky trails, while another navigates them with ease. Aggregating data from multiple users helps mitigate these biases, capturing broader patterns and providing a more accurate walkability representation. Walking speed alone is insufficient for defining inherent walkability, so we propose matrix factorization as a technique for revealing latent walkability values. Using multiple GPX trails, we evaluate different matrix factorization methods for thematic mapping.\r\nData\r\nWe collected 1,620 GPX trails from users across Croatia, including mountain rescue teams, hikers, runners, dog walkers, and casual users. To ensure anonymity, each GPX file was assigned a unique user ID without personal information. Each trail contained geographic coordinates and timestamps, though variations in recording instruments led to differences in segment lengths. Movement speed was calculated by comparing time and location of neighboring segments. After filtering out outliers, we obtained 1,795,663 valid segments described by location, time, user ID, and speed.\r\nTo address inconsistencies, segments were grouped into 100-meter spatial cells per user. The median movement speed per user-cell combination was computed, resulting in 127,478 user-cell speed descriptions. The final dataset was structured as a 1,609 \u00d7 24,349 sparse matrix, where rows represent users and columns represent terrain cells, with values indicating median walking speed.\r\nMethods\r\nWhen factorizing user-item rating matrices, various techniques uncover latent features and improve predictions (Khalitov,2021; Du,2023). \r\nSingular Value Decomposition (SVD)  factorizes the matrix into three components, capturing latent relationships through eigenvalue calculations.  Truncated SVD  retains only the top  k  singular values, primarily for dimensionality reduction in preprocessing.   Non-Negative Matrix Factorization (NMF) , similar to SVD, enforces non-negative components, making results more interpretable by representing additive user-item interactions.  For large datasets,  Stochastic Gradient Descent (SGD)  iteratively updates latent factors to minimize prediction error, while  Alternating Least Squares (ALS)  optimizes user and item factors in a least-squares framework.   Fast Independent Component Analysis (FastICA)  extracts statistically independent latent factors, assuming non-Gaussian distributions, and is mainly used for feature extraction and preprocessing.\r\nEvaluation\r\nAll factorization techniques were tested on the dataset using Python, scikit-learn, and custom implementations. Factorization extracted a single latent factor per user and per cell. Performance was evaluated by calculating RMSE between reconstructed values (user-cell latent factor product) and original sensed values.\r\nA cell's latent factor represents its inferred walkability. Walkability maps generated from each technique were compared with satellite imagery, topography, and land cover data using GRASS GIS statistical tools.\r\nResults\r\nRMSE obtained for the constructed dataset evaluation was 0.4148 (NMF and TruncatedSVD) , 0.4665 (SVD) , 0.4666 (  FastICA), 2.2839 (ALS) and 5.2349 (SGD)\r\nConclusion\r\nResults confirm that matrix factorization effectively separates user and terrain latent data in sparse datasets. NMF, with its explainability, proves particularly useful for mapping hidden values, as it ensures non-negative components that directly relate to real-world factors influencing walkability. This property makes it especially suited for modeling walkability.\r\nExtracted latent factors provide insights into spatial walkability patterns, revealing areas where walking conditions are more or less favorable. These factors can serve as a foundation for extrapolating walkability across larger areas using geospatial datasets, including land cover classifications, slope gradients, and aspect orientations. Additionally, integrating these results with external environmental datasets could lead to predictive models for walkability in natural landscapes. Future research should explore method transferability across diverse geographical regions and other applications, such as fire risk mapping, where fire behavior data could quantify fire susceptibility.",
+    "start_datetime": "2025-07-18T09:30:00Z",
+    "end_datetime": "2025-07-18T10:00:00Z",
+    "talk:code": "MTM3ZA",
+    "talk:guid": "3643861c-0724-5a7b-980d-a73ac277c202",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Academic track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "PA01 (Quarticle)",
+    "talk:room_capacity": 95,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "S9TQZP",
+        "name": "Ljiljana Seric",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/S9TQZP/"
+      },
+      {
+        "code": "JRT3S9",
+        "name": "Boris Dra\u0161ko",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/JRT3S9/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-18T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/MTM3ZA/",
+      "title": "Evaluating Matrix Factorization Techniques for Thematic Mapping of Wilderness Walkability Using Multiple GPX Datasets"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/MTM3ZA/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/S9TQZP/",
+      "title": "Ljiljana Seric"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/JRT3S9/",
+      "title": "Boris Dra\u0161ko"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/MTM3ZA/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/MTM3ZA/resources/Walkability_k3ArOdP.pdf",
+      "type": "application/pdf",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "presentatin-ppt": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/MTM3ZA/resources/Walkability_min_zySu8k7.pptx",
+      "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "title": "Presentatin ppt",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/sejpmtxcVC7fj2fWxt5ybP",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Evaluating Matrix Factorization Techniques for Thematic Mapping of Wilderness ...",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=PXOGFLE5JU4",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Evaluating Matrix Factorization Techniques for Thematic Mapping of Wilderness ...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

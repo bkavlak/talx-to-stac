@@ -1,0 +1,114 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "EBYEUP",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Joint ESA-NASA Multi-Mission Algorithm and Analysis Platform (MAAP)",
+    "description": "The scientific community is faced with a need for greatly improved data sharing, analysis, visualization and advanced collaboration based firmly on open science principles. Recent and upcoming launches of new satellite missions with more complex and voluminous data, as well as the ever more urgent need to better understand the global carbon budget and related ecological processes, provided the immediate rational for the ESA-NASA Multi-mission Algorithm and Analysis Platform (MAAP). \r\n\r\nThis highly collaborative joint project of ESA and NASA established a framework between ESA and NASA to share data, science algorithms and compute resources in order to foster and accelerate scientific research conducted by ESA and NASA EO data users. Presented to the public in October 2021, the current version of MAAP provides a common cloud-based platform with computing capabilities co-located with the data, a collaborative coding and analysis environment, and a set of interoperable tools and algorithms developed to support the estimation and visualization of global above-ground biomass. \r\n\r\nData from the Global Ecosystem Dynamics Investigation (GEDI) mission on the International Space Station and the Ice, Cloud, and Land Elevation Satellite-2 (ICESat-2) have been instrumental in the first products of MAAP including the first comprehensive map of Boreal above-ground Biomass and a current Global Biomass Harmonization Activity, but the platform is also being specifically designed to support the forthcoming ESA Biomass mission and incorporate data from the upcoming NASA-ISRO SAR (NISAR) mission. While these missions and the corresponding research which includes airborne, field, and calibration/validation data collection and analyses, provide a wealth of data and information relating to global biomass estimation, they also present data storing, processing and sharing challenges. The NISAR mission alone will produce about 80TB/day. These large data volumes present a challenge that would otherwise place accessibility limits on the scientific community and impact scientific progress. \r\n\r\nOther challenges being addressed by MAAP include: 1) Enabling researchers to easily discover, process, visualize and analyze large volumes of data from both agencies; 2) Providing a wide variety of data in the same coordinate reference frame to enable comparison, analysis, data evaluation, and data generation; 3) Providing a version-controlled science algorithm development environment that supports tools, co-located data and processing resources; and 4) Addressing intellectual property and sharing challenges related to collaborative algorithm development and sharing of data and algorithms.\r\n\r\nMAAP products can be explored on the MAAP Dashboard at https://earthdata.nasa.gov/maap-biomass or the joint platform entrance at scimaap.net. MAAP also can be accessed through individual NASA (https://maap-project.org) and ESA (https://esa-maap.org/) landing pages.",
+    "start_datetime": "2022-08-25T13:35:00Z",
+    "end_datetime": "2022-08-25T13:40:00Z",
+    "talk:code": "EBYEUP",
+    "talk:guid": "3e2e14d0-3272-5f62-861b-1a9bd1ed6dab",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Room Limonaia",
+    "talk:room_capacity": 110,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "7NZB9S",
+        "name": "Gerald \"Stinger\" Guala",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/7NZB9S/"
+      },
+      {
+        "code": "PSNDEK",
+        "name": "Cl\u00e9ment Albinet",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/PSNDEK/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T13:37:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/EBYEUP/",
+      "title": "Joint ESA-NASA Multi-Mission Algorithm and Analysis Platform (MAAP)"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/EBYEUP/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/7NZB9S/",
+      "title": "Gerald \"Stinger\" Guala"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/PSNDEK/",
+      "title": "Cl\u00e9ment Albinet"
+    },
+    {
+      "rel": "related",
+      "href": "https://earthdata.nasa.gov/maap-biomass",
+      "title": "earthdata.nasa.gov/maap-biomass"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/EBYEUP/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=XEdBzc7_hgo",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Joint ESA-NASA Multi-Mission Algorithm and Analysis Platform (MAAP)",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

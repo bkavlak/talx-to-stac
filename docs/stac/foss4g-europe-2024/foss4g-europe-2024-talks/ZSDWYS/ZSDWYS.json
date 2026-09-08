@@ -1,0 +1,121 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "ZSDWYS",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "State of PDAL",
+    "description": "PDAL is Point Data Abstraction Library. It is a C/C++ open source library and applications for translating and processing point cloud data. It is not limited to LiDAR data, although the focus and impetus for many of the tools in the library have their origins in LiDAR. PDAL allows you to compose operations on point clouds into pipelines of stages. These pipelines can be written in a declarative JSON syntax or constructed using the available API. This talk will focus on the current state of the PDAL Pointcloud processing library and related projects such as COPC and Entwine, for pointcloud processing. Coverage of the most common filters, readers and writers along with some general introduction on the library, coverage of processing models, language bindings and command line based batch processing. First part will be covering new features for current users. Some discussion of installation method including Docker, binaries from package repositories, and Conda packaging. For more info see https://pdal.io",
+    "start_datetime": "2024-07-04T07:30:00Z",
+    "end_datetime": "2024-07-04T08:00:00Z",
+    "talk:code": "ZSDWYS",
+    "talk:guid": "5344469f-dd49-5b03-aa28-bb0ea2b958aa",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "QFieldCloud (246)",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "JLBAQT",
+        "name": "Michael Smith",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/JLBAQT/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-04T07:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/ZSDWYS/",
+      "title": "State of PDAL"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/ZSDWYS/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/JLBAQT/",
+      "title": "Michael Smith"
+    },
+    {
+      "rel": "related",
+      "href": "https://pdal.io",
+      "title": "pdal.io"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/ZSDWYS/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "pdal": {
+      "href": "https://docs.google.com/presentation/d/1Gar1Yj7bOHE1gpQhCrryuK1YB-kWRI0BjLAoDDRoVhs/edit",
+      "title": "PDAL",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/gZaVwCFPQkgqGt3meLhk2b",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | State of PDAL",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=LXmf2WDpglc",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | State of PDAL",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

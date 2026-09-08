@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "XYDDAD",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Mapping for Municipal Revenue: Geospatial Upgrades to Local Governments Revenue Systems in Zanzibar",
+    "description": "Under the BIG-Z project, Zanzibar has geospatially enabled its Municipals Revenue  (MUTM) software. This talk demonstrates using a 100% open-source geospatial stack including QGIS, PostGIS, and GeoServer to solve municipal finance challenges by integrating the Municipal Revenue Management (MUTM) database with  payment gateway for real-time compliance visualization\n\nIn Zanzibar, maximizing Own Source Revenue (OSR) for Local Government Authorities (LGAs) is critical for sustainable urban management. The BIG-Z (Boosting Inclusive Growth for Zanzibar) project initiated a comprehensive geospatial upgrade of the legacy MUTM system, connecting all 12 LGAs across Unguja and Pemba islands. By prioritizing an open-source architecture, we ensured long-term viability and avoided vendor lock-in.\r\nThis presentation details the technical architecture and practical \"LGAs Use-Case,\" specifically how we:\r\n\u2022\tTransitioned tabular business license and property taxation data into a spatially-enabled PostgreSQL/PostGIS database.\r\n\u2022\tUtilized GeoServer and GeoNode to publish spatial data and interactive dashboards for government decision-makers.\r\n\u2022\tEquipped field inspectors with QField and Mergin Maps to capture coordinates and synchronize data with the centralized system.\r\n\u2022\tSymbolized map data dynamically based on real-time payment statuses through integration with the ZanMalipo government electronic payment gateway.\r\nThe session concludes by highlighting tangible impacts: supervisors can now monitor field inspections spatially, and revenue officers can optimize collection routes based on geographic \"hot spots\" of non-compliance.",
+    "start_datetime": "2026-09-03T02:00:00Z",
+    "end_datetime": "2026-09-03T02:30:00Z",
+    "talk:code": "XYDDAD",
+    "talk:guid": "eae3f06a-a07f-5d30-a514-8ce2cf261608",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room3",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "ZUAKHW",
+        "name": "Mohammed ZAHRAN",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/ZUAKHW/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-03T02:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/XYDDAD/",
+      "title": "Mapping for Municipal Revenue: Geospatial Upgrades to Local Governments Revenue Systems in Zanzibar"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/XYDDAD/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/ZUAKHW/",
+      "title": "Mohammed ZAHRAN"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/XYDDAD/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

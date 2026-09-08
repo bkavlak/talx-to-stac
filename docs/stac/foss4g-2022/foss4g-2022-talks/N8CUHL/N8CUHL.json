@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "N8CUHL",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "ogc-client: OGC protocols made fun!",
+    "description": "**ogc-client** is a library written in Javascript for interacting with OGC services. It is simple to use and provides a nice and consistent way to operate OGC protocols. The list of supported protocols now includes WMS and WFS and will hopefully soon expand to others including WMTS and OGC APIs, of course! Also **ogc-client** gives you great performance out of the box by keeping things in cache and using multi-threading.\r\nThe library is currently still quite small in scope but it has proven to be very efficient and helped us lower the complexity in various codebases. Great success!\r\nIf you are one of the poor souls having to reimplement for the zillionth time a GetCapabilities parser, or if you have given up trying to guess a data schema from a WFS service, this library is for you! Come join us for this lightning talk to learn more!",
+    "start_datetime": "2022-08-24T15:20:00Z",
+    "end_datetime": "2022-08-24T15:25:00Z",
+    "talk:code": "N8CUHL",
+    "talk:guid": "0c04395a-71dc-51b2-b5c1-fbf233613c26",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "General online",
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "MKHVLE",
+        "name": "Olivia Guyot",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/MKHVLE/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T15:22:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/N8CUHL/",
+      "title": "ogc-client: OGC protocols made fun!"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/N8CUHL/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/MKHVLE/",
+      "title": "Olivia Guyot"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/N8CUHL/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

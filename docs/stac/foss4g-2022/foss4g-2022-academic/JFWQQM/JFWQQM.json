@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "JFWQQM",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Classifying American Viticultural Areas Based on Environmental Data",
+    "description": "Introduction: Legally defined appellation areas are used by governments throughout the world to demarcate geographic areas that produce agricultural products, such as wine, cheese, or preserved meats, with a specific quality or set of characteristics.  In the United States, the American Viticultural Areas (AVAs) define wine growing areas that are distinctly different from others.  These boundaries are created by the US Alcohol and Tobacco Tax and Trade Bureau (TTB) through a legal process and the definitions are published in the United States Federal Register in narrative form defined using United States Geological Survey (USGS) topographic maps for their landmarks. Despite their geographic definition, a full spatial dataset of these boundaries following the legal definitions did not exist until they were created by a team of researchers led by the University of California Davis\u2019 (UC Davis) library.  The purpose of the dataset is to produce open data suitable for use in research and cartography following a well-documented set of methods that represents the official boundary descriptions with as high fidelity as possible. Using the UC Davis AVA dataset alongside datasets defining environmental characteristics such as soils, climate, and elevation, we seek to understand how the characteristics present within the AVA boundaries are similar to each other using a hierarchical clustering process. Through this case study, we will describe the UC Davis AVA boundary dataset and demonstrate a use case for the data.\r\nData: The UC Davis AVA dataset was created by digitizing the boundary narrative onto the USGS topographic maps described in the legal documents (officially known as the \u201capproved maps\u201d) for each AVA by a team of collaborators at UC Davis, UC Santa Barbara, and Virginia Tech University, as well as community volunteers. For each boundary, we recorded attributes including an identifier, the official name of the AVA, any synonyms for the name, the dates the AVA officially was recognized, the start and end date for the given polygon, who petitioned to define the AVA, which TTB staff member wrote the official documents, the list of approved maps, the list of maps used to digitize the boundary (to record any necessary substitutions), and the official boundary description.  In addition to the currently defined boundaries, we also created a boundary polygon for the previous iterations of any boundaries that have undergone revisions.  The dataset is stored in geojson format in a publically available GitHub repository and updated as AVAs are created or amended.\r\nFor each AVA, we summarized the environmental data over the area of the polygon. The PRISM dataset (from Oregon State University) provided the climate data (30-year climate normals for precipitation and temperature) and elevation data in raster format with an 800m cell size. For each variable, we calculated the mean and the range within the AVA boundaries.\r\nWe also plan to expand this analysis over the coming weeks to include additional environmental characteristics available from PRISM, such as vapor pressure and solar radiation that would be important considerations for grape growth, as well as soil data from the United States Department of Agriculture\u2019s (USDA) SSURGO (Soil Survey Geographic) soil dataset.  SSURGO is a spatially-enabled dataset of soil characteristics for the United States. It includes geologic soil series names as well as the soil\u2019s chemical attributes.\r\nAnalysis: For each attribute, the value at each AVA was assigned a z-score, calculated as the mean of the attribute field subtracted from the value and divided by the standard deviation of the field. This was done to normalize the data and reduce the effect of differing scales of measurements (for example, depth of precipitation compared with temperature in degrees Celsius). To assess how similar any given AVA is to other AVAs, we performed a hierarchical clustering analysis using R\u2019s hclust() hierarchical clustering function.  This tool uses a dissimilarity matrix to assign each polygon to a hierarchical series of groups based on how similar (or dissimilar) each polygon is to each other. The results can be displayed in a dendrogram to visualize the structure of the classes. The classes can also be used to create a map of the AVAs to help interpret the groups.\r\nResults: Preliminary results group AVAs into clusters that appear to be somewhat based on geographic regions, but not entirely. When the dendrogram is cut into 6 groups, the AVAs in the eastern half of the country primarily fall into one group, however, the western AVAs comprise the remaining 5 groups. This could be driven by the higher degree of variation in elevations, precipitation, and temperature in the west.  In the southwest, the AVAs appear to correspond to one group, however, the west coast states have many groups, including some AVAs that correspond with the eastern group. Expanding the analysis to include additional environmental factors will likely clarify some of these groups, perhaps defining more variation in the east. This paper will include maps and diagrams that clearly show the relationships between the groups.\r\nDiscussion: Investigating the relationship between the AVA boundaries is an important exercise. With the availability of the AVA boundaries as a geographic dataset, we are now able to combine this data with other existing open datasets to better understand the relationship and differences between these areas. All of the datasets used in this analysis are freely available and demonstrates not only the usefulness of the UC Davis AVA dataset but also the depth of the work possible with open data. This particular exploration builds on work I have published with colleagues investigating the Sierra Foothills AVAs in the state of California and the emerging wine growing region in the state of Arizona.",
+    "start_datetime": "2022-08-25T08:00:00Z",
+    "end_datetime": "2022-08-25T08:30:00Z",
+    "talk:code": "JFWQQM",
+    "talk:guid": "c3c85000-595c-5f92-99aa-58dbbfa41156",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room Modulo 3",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "3VFHGJ",
+        "name": "Michele Tobias",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/3VFHGJ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T08:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/JFWQQM/",
+      "title": "Classifying American Viticultural Areas Based on Environmental Data"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/JFWQQM/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/3VFHGJ/",
+      "title": "Michele Tobias"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/JFWQQM/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

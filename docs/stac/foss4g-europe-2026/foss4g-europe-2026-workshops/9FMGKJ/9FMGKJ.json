@@ -1,0 +1,118 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "9FMGKJ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "From Sensors to Services: Building Interoperable Environmental Data Platforms with istSOS4 and the OGC SensorThings API",
+    "description": "Environmental monitoring infrastructures are increasingly required to support high-frequency sensor data, heterogeneous observation types, and real-time analytics, while ensuring interoperability, scalability, and long-term sustainability. In this context, open standards and open-source technologies play a central role in enabling data sharing across institutions, disciplines, and national boundaries. This workshop introduces istSOS4, an open-source implementation of the OGC SensorThings API, designed for the management, publication, and analysis of spatio-temporal sensor observations. The workshop targets practitioners and researchers involved in environmental monitoring, smart cities, hydrology, climate studies, and geospatial data infrastructures who wish to design interoperable sensor data platforms aligned with FAIR data principles. \r\n\r\nParticipants will gain both conceptual and practical knowledge on how to structure sensor metadata, ingest observations, and expose time-series data through standardized web APIs. The workshop starts by framing the challenges of modern sensor networks: increasing data volumes, diverse sensor typologies, the need for near real-time access, and the integration of observations with downstream analytics, dashboards, and decision-support systems.\r\n\r\nA core focus will be the SensorThings API data model, including key entities such as Things, Locations, Sensors, ObservedProperties, Datastreams, and Observations. Particular attention will be given to\r\nmodeling complex environmental monitoring setups, including multi- parameter stations, mobile sensors, and long-term monitoring networks. The workshop will demonstrate how istSOS4 extends and operationalizes\r\nthis model in real-world deployments, supporting versioning, quality control, and efficient time-series handling. Through hands-on sessions, participants will interact directly with an istSOS4 instance to:\r\n\uf0b7* Register sensors and monitoring stations,\r\n\uf0b7* Ingest observations via RESTful endpoints,\r\n\uf0b7* Query time-series data using spatial, temporal, and attribute filters,\r\n  * Visualize and export observations for further analysis.\r\nThe workshop will also cover architectural aspects, including database backends, performance considerations for high-frequency data, and integration patterns with visualization tools, data analytics pipelines, and early-warning systems. Real use cases from environmental monitoring projects (e.g., hydrometeorological networks, water quality monitoring, and climate adaptation initiatives) will be used to illustrate best practices and common pitfalls.\r\nBy the end of the workshop, participants will have a clear understanding of how to design and deploy a SensorThings-based infrastructure using istSOS4, enabling interoperable and standards-compliant access to sensor observations.\n\nThis workshop provides a practical and technical introduction to istSOS4 as a SensorThings API\u2013based platform for managing environmental sensor data. It is designed as a hands-on session combining short lectures with guided exercises.\r\nThe workshop is structured into four main parts:\r\n1. Concepts and Standards\r\nIntroduction to sensor data challenges and the rationale behind the OGC SensorThings API. Overview of the SensorThings data model and its relevance for interoperable environmental monitoring systems.\r\n2. istSOS4 Architecture and Data Modeling\r\nPresentation of istSOS4 architecture, including metadata handling, time-series storage, and quality control mechanisms. Participants will learn how to design a consistent data model for real monitoring networks.\r\n3. Hands-on: Data Ingestion and Querying\r\nPractical exercises where participants register sensors, create\r\ndatastreams, ingest observations, and perform spatial and temporal queries using the API.\r\n4. Integration and Use Cases\r\nDemonstration of how SensorThings data can be integrated with dashboards, analytics tools, and early-warning systems. Discussion of real deployment scenarios and lessons learned.\r\nThe workshop is suitable for participants with basic knowledge of web APIs and geospatial data concepts. No prior experience with SensorThings or istSOS is required.",
+    "start_datetime": "2026-07-02T06:00:00Z",
+    "end_datetime": "2026-07-02T10:00:00Z",
+    "talk:code": "9FMGKJ",
+    "talk:guid": "8e24448a-b495-5f90-a885-0ebb189f02d3",
+    "talk:event": "foss4g-europe-2026-workshops",
+    "talk:type": "workshop",
+    "talk:language": "en",
+    "talk:room": "059",
+    "talk:room_capacity": 30,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "LPFDM8",
+        "name": "Massimiliano Cannata",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026-workshops/speaker/LPFDM8/"
+      },
+      {
+        "code": "SMMFEV",
+        "name": "Daniele Strigaro",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026-workshops/speaker/SMMFEV/"
+      },
+      {
+        "code": "7EUFEJ",
+        "name": "alessandro centazzo",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026-workshops/speaker/7EUFEJ/"
+      },
+      {
+        "code": "7VGN77",
+        "name": "Claudio Primerano",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026-workshops/speaker/7VGN77/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-07-02T08:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/talk/9FMGKJ/",
+      "title": "From Sensors to Services: Building Interoperable Environmental Data Platforms with istSOS4 and the OGC SensorThings API"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/talk/9FMGKJ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/speaker/LPFDM8/",
+      "title": "Massimiliano Cannata"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/speaker/SMMFEV/",
+      "title": "Daniele Strigaro"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/speaker/7EUFEJ/",
+      "title": "alessandro centazzo"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/speaker/7VGN77/",
+      "title": "Claudio Primerano"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/talk/9FMGKJ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-workshops"
+}

@@ -1,0 +1,134 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "ZLGZPA",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Rendering OGC API Compliant Vector Tiles on the Fly with pygeoapi + Elasticsearch",
+    "description": "Tiled maps are well-known for their performance and have been present in web map applications for more than twenty years. Vector tiles combine all the benefits of map tiling with the ability to access attributes, enabling client side attribute-based rendering. This makes them one of the most efficient ways of visualising vector data, and they are present in many interactive web maps that we see on the web today.\r\n\r\nHowever the proliferation of web map applications has often resulted in a lack of interoperability between tile servers and clients. This was the motivation for the OGC API - Tiles Standard (https://tiles.developer.ogc.org/), published in late 2022. The core of this Standard is very simple, adding some formality to what people have been doing for years with XYZ tilesets, while specifying some metadata elements that help clients do a better job at creating maps (e.g.: title, description, zoom levels, custom projection). \r\n\r\nIn this talk we will present a software stack to render OGC compliant vector tiles. This stack includes pygeoapi (https://pygeoapi.io/), an OSGeo project and a Reference Implementation for OGC API - Tiles (https://www.ogc.org/resources/product-details/?pid=1663). The architecture of pygeoapi supports backend plugins, which use different software for storing and accessing geospatial data. For the purpose of creating vector tiles, we will present the MVT-elastic plugin (https://github.com/geopython/pygeoapi/blob/master/pygeoapi/provider/mvt_elastic.py), which leverages the Elasticsearch capability of rendering vector tiles on the fly, from geospatial data stored in an Elasticsearch index. Elasticsearch (https://github.com/elastic/elasticsearch) is a distributed, RESTful search and analytics engine. Recently, this plugin also became capable of exposing the attributes associated with the data, enabling client side styling of attributes. These capabilities can be demonstrated by creating a Leaflet map that consumes and styles the pygeoapi+elastic vector tiles (https://emotional-cities.github.io/vtiles-example/demo-oat.htm). \r\n\r\nWe hope that this presentation can make the creation of fast, expressive and interoperable maps, accessible to anyone.",
+    "start_datetime": "2024-12-06T15:00:00Z",
+    "end_datetime": "2024-12-06T15:30:00Z",
+    "talk:code": "ZLGZPA",
+    "talk:guid": "ec082169-5529-5938-8c7c-1ddd81aecf35",
+    "talk:event": "foss4g-2024",
+    "talk:track": "Open Standard",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room I",
+    "talk:room_capacity": 100,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "FNYKAD",
+        "name": "Joana Simoes",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/FNYKAD/"
+      },
+      {
+        "code": "LYSMQB",
+        "name": "Jorge Sanz",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/LYSMQB/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-06T15:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/ZLGZPA/",
+      "title": "Rendering OGC API Compliant Vector Tiles on the Fly with pygeoapi + Elasticsearch"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/ZLGZPA/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/FNYKAD/",
+      "title": "Joana Simoes"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/LYSMQB/",
+      "title": "Jorge Sanz"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/ZLGZPA/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slide-deck-pdf": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024/submissions/ZLGZPA/resources/Rendering_compliant_vector_tiles_ecSAkdQ.pdf",
+      "type": "application/pdf",
+      "title": "slide deck (pdf)",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "presentation": {
+      "href": "https://docs.google.com/presentation/d/1Gj2zwTPG43cqzejP7brv0j4em7svkw1QnGYs1SENHJQ/edit?usp=sharing",
+      "title": "Presentation",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/1fiRurxPPAQKs8nV4Kyx2W",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | Rendering OGC API Compliant Vector Tiles on the Fly with pygeoapi + Elasticsearch",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=yFoh9vRkbNQ",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | Rendering OGC API Compliant Vector Tiles on the Fly with pygeoapi + Elasticsearch",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

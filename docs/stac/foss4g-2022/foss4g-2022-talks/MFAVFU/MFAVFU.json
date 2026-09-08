@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "MFAVFU",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "A Python tool for QGIS for gender recognition in street directories",
+    "description": "In the last years the attention for gender equality in all context has increased all over the world.\r\nNowadays the sensibility of Public Administrations towards the naming of streets, roads, squares and monuments after women has highlighted that, instead, the toponymy has always been oriented to the choice of male figures.\r\nIn this work we present a Python script for QGIS, that allows to verify if a proper name, contained in a street directory, is of male or female gender.\r\nThere are other Open Source projects that, starting from an address, verify the gender of the represented person; the most famous is the GeoChicas Project [1]; in Italy it is worth mentioning the \"Toponomastica Femminile\" Association [2] that manually verifies the streets dedicated to women, according to a predefined taxonomy (religious women, artists, etc.).\r\nThe goal of the present work is to automate the gender reconnaissance starting from a list of names; however, unlike GeoChicas that use as a base parameter a dictionary of names with which to compare the list, we propose to make a query of DBpedia via SPARQL in order to identify the subject and derive its gender. \r\nIf the address is the attribute of a spatial dataset, then it is possible to add a new attribute (the gender) to the vector layer table as a result of DBpedia query.\r\nThis approach overcomes language limitations (which would require differentiated dictionaries) and the ambiguities that some names would have (for example the nome \"Andrea\" is used as both a masculine and feminine name).\r\nThe script is created using the SPARQL language with a very simple structure, in which the triplet of data is constructed in order to obtain the gender from the name of a person through the query of DBpedia.\r\nThe script can be run in QGIS environment associating the data outputs directly to the geometry or even outside of QGIS and as a result you will have a list of \"genders\".\r\nThe process of relying on Wikipedia/DBpedia has the twofold advantage that, where the name dedicated to street exists, then the desired information is taken, the gender in our case, while if it missing it can be added or enriched. \r\nThe script is currently under validation and will be published in the dedicated git repository [3].\r\n\r\n[1] https://github.com/geochicasosm \r\n[2] https://www.toponomasticafemminile.com \r\n[3] https://github.com/skampus/toponomasticafemminile",
+    "start_datetime": "2022-08-25T13:15:00Z",
+    "end_datetime": "2022-08-25T13:20:00Z",
+    "talk:code": "MFAVFU",
+    "talk:guid": "6adb2bd2-d365-595e-b2a8-5051594a4b99",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Room 4",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "BXSXWR",
+        "name": "Stefano Campus",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/BXSXWR/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T13:17:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/MFAVFU/",
+      "title": "A Python tool for QGIS for gender recognition in street directories"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/MFAVFU/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/BXSXWR/",
+      "title": "Stefano Campus"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/geochicasosm",
+      "title": "github.com/geochicasosm"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.toponomasticafemminile.com",
+      "title": "www.toponomasticafemminile.com"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/skampus/toponomasticafemminile",
+      "title": "github.com/skampus/toponomasticafemminile"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/MFAVFU/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/jW5YeBUohqE1GQCqy1jDqv",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | A Python tool for QGIS for gender recognition in street directories",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=0EUdkx9aaik",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | A Python tool for QGIS for gender recognition in street directories",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

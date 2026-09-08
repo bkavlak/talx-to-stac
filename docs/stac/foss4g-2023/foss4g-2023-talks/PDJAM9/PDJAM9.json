@@ -1,0 +1,127 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "PDJAM9",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Visualization of accidental chemical release simulation",
+    "description": "Chemical incidents, such as accidents at heavy chemical plants or large-scale toxic gas leaks, are difficult to assess accurately because of the large spatial extent of the damage and the rapidly changing scope/level/target of the damage over time. These characteristics also make it hard to conduct experiments to recreate or simulate large-scale chemical incidents in real world. In the case of large-scale chemical accidents or release, post-incident damage assessment is as important as prevention, but spatial ambiguity makes it difficult to assess the extent of damage to victims, and there is little way to identify fake victims from real ones.\u00a0\r\n\r\nIn this 5 year-long study, we aim to combine the results of a chemical diffusion model and the location data of mobile service subscribers on the incident spot over time. For this, FOSS4G based 3D geospatial web service using GeoServer, Postgresql/PostGIS, Cesium, etc. will be developed to assess the level of chemical exposure of each victim and calculate the level of damage based on it.\u00a0\r\n\r\nIn 2022, the first year of the study, we developed a prototype that combines the time-dependent output of the chemical diffusion model with the time-dependent location data of individuals and successfully visualized it in a Web 3D globe. In the coming year, we'll further develop this system into an integrated risk assessment platform for chemical accidents by combining chemical exposure assessment model and damage calculation model.",
+    "start_datetime": "2023-06-28T12:30:00Z",
+    "end_datetime": "2023-06-28T12:35:00Z",
+    "talk:code": "PDJAM9",
+    "talk:guid": "6163e0e2-fa52-50c0-b7d0-2e79e071fee3",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "UBT C / N110 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "Z8DMDB",
+        "name": "Sanghee Shin",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/Z8DMDB/"
+      },
+      {
+        "code": "ENHDVS",
+        "name": "Kim Jinho",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/ENHDVS/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T12:32:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/PDJAM9/",
+      "title": "Visualization of accidental chemical release simulation"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/PDJAM9/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/Z8DMDB/",
+      "title": "Sanghee Shin"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/ENHDVS/",
+      "title": "Kim Jinho"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/PDJAM9/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "chemical-release-simulation": {
+      "href": "https://talks.osgeo.org/media/foss4g-2023/submissions/PDJAM9/resources/chemical_vI5oreV.png",
+      "type": "image/png",
+      "title": "Chemical release simulation",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/emcH29BagbqDstf2w6LrPV",
+      "type": "text/html",
+      "title": "2023 | Visualization of accidental chemical release simulation - Kim Jinho",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=qFS7OWqH12s",
+      "type": "text/html",
+      "title": "2023 | Visualization of accidental chemical release simulation - Kim Jinho",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

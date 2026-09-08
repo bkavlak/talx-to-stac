@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "ZFRGQZ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Learning with Spaceborne LiDAR for Enhancement of Bare-Earth Digital Elevation Models from Global Data",
+    "description": "Bare-earth Digital Elevation Models (DEMs) or Digital Terrain Models (DTMs) are fundamental to geospatial applications, from flood modelling and landslide assessment to infrastructure planning and environmental management. However, original publicly accessible global elevation products, such as SRTM (Shuttle Radar Topography Mission), ASTER GDEM (Advanced Spaceborne Thermal Emission and Reflection Radiometer Global Digital Elevation Model), and Copernicus DEM, represent Digital Surface Models (DSMs). DSMs are elevation models that include canopy heights and building structures, rather than true bare-earth topography. Their vertical accuracies (how closely elevations match the real ground height) typically range from 4\u201315 m RMSE (root mean square error), and their spatial resolutions (size of the smallest discernible detail) are constrained to 30 m or coarser. Airborne Light Detection and Ranging (LiDAR) derived DTMs achieve sub-meter vertical accuracy and spatial resolution because lasers/photons penetrate vegetation to measure ground elevation. However, high-cost LiDAR surveys lead to fragmented coverage, even in developed countries. For example, about 16% of New Zealand\u2019s land surface still lacks airborne LiDAR mapping, resulting in critical data gaps in the very remote, rugged, and densely vegetated terrain where elevation information is most important.\r\n\r\nRecent deep learning approaches have the potential to enhance the vertical accuracy and spatial resolution of global DEMs through super-resolution techniques. For example, JSPSR (Joint Spatial Propagation Super-Resolution) networks improve Copernicus GLO-30 DSM from 30 m to 3 m spatial resolution by utilising high-resolution remote sensing imagery, reducing elevation RMSE by over 70% across diverse sites. However, their performance drops in dense forest canopies. Optical sensors cannot penetrate vegetation, so models must infer ground elevation from indirect cues (such as estimating canopy height or shape). Spaceborne LiDAR missions, such as ICESat-2\u2019s ATL08 product, provide global terrain measurements that can penetrate vegetation. However, incorporating these measurements poses two main challenges. First, after rigorous data quality filters, ATL08 photons can cover as little as 0.1\u20130.2% of dense-forest mountain areas. Second, spaceborne LiDAR provides sparse point data, whereas optical imagery and DEMs are dense raster grids, resulting in a data-geometry mismatch that most conventional network architectures cannot inherently accommodate.\r\n\r\nThis study describes an open-source deep neural network framework that tackles these two challenges using a triple-branch multi-modal fusion network. It processes three complementary data streams: high-resolution remote sensing imagery via a Swin Transformer encoder, interpolated Copernicus GLO-30 DEMs via a parallel Swin encoder, and serialised ATL08 along-track data via a sparse encoder that preserves measurement features without rasterisation or interpolation. All code and trained models will be released under an open-source license to support open-science principles.\r\n\r\nThe main innovation is a multi-scale deformable cross-attention mechanism that enables effective fusion of sparse LiDAR measurements with dense raster data. At each scale, individual ATL08 photons independently query the surrounding image and DEM features through learned deformable sampling patterns, allowing each photon to adaptively sample contextual information most relevant to elevation prediction at its location. Inspired by deformable DETR, the deformable cross-attention mechanism implements bidirectional information flow: image and DEM features inform the interpretation of photon measurements during downscaling, while photon-derived elevation features are injected back into the feature maps during upscaling. This design provides that sparse yet accurate LiDAR measurements guide feature extraction, while dense image context enriches photon representations, addressing the key challenge of multi-modal feature fusion in open geospatial data science.\r\n\r\nUltimately, the Spatial Propagation Network (SPN) transforms sparse DSM grids into dense predictions by conditioning content-adaptive kernels on fused multi-modal features. Through multiple propagation iterations, corrections propagate along paths guided by image content, following ridgelines, thalwegs, or areas with similar vegetation characteristics, while re-injecting precise photon measurements at each iteration to retain accuracy at known locations. \r\n\r\nSparse-to-dense progressive supervision computes elevation loss only at ATL08-confirmed locations (typically fewer than 64 per 256\u00d7256 training patch), whereas multi-scale deep supervision heads propagate gradient information throughout the network, even in areas without direct elevation constraints. This strategy prevents learning invalid correlations in unobserved areas while retaining end-to-end differentiability.\r\n\r\nWe evaluate our approach using the DFC30 dataset, which we augment with spatially matching ATL08 measurements. The training set contains 12,728 image-DSM-photon tuples, and the test set contains 3,196, both with airborne LiDAR ground truth. Our results show considerable improvements versus the baseline method, JSPSR. Across all test sites at 3 m spatial resolution, elevation accuracy (RMSE) improves by 8% in open terrain (from 1.1 m to 1.01 m) and 28% in dense forest canopies (from 6.7 m to 4.8 m). Overall, we achieve a vertical accuracy of 3.2 m for all vegetation classes. The largest improvements occur where optical-only methods perform weakest. In indigenous forests with dense understory and complex terrain, our method decreases systematic bias from 15.1 m to 8.8 m.\r\n\r\nAll code, trained weights, and preprocessing tools will be public under an open-source license. This ensures complete repeatability and allows community adaptation. The trained model enables end-to-end 3 m DTM generation for unmapped areas of New Zealand using global DEMs. It will produce a seamless bare-earth elevation product at a national scale, covering about 268,000 square kilometres. This supports applications such as landslide mapping, hydrological analysis for freshwater management, carbon stock assessment in forests, and infrastructure planning in rural areas.\r\n\r\nFor the FOSS4G community, this work makes three key contributions. First, it delivers a practical, open-source solution for generating high-resolution bare-earth DTMs by fusing global datasets (Copernicus DEM, remote sensing imagery, and ICESat-2 ATL08) using reproducible methods. Second, it provides an architectural strategy that respects the geometry of different data modalities, e.g., constructed tables, sparse point clouds and dense rasters, by using a template for multi-modal fusion in open geospatial science. Third, it shows that open data and software can solve real-world data gaps to produce operational products that benefit communities, environmental management, and disaster resilience. More broadly, our work supports ongoing efforts in the open geospatial community to improve global terrain characterisation by fusing diverse Earth observation assets, making high-quality elevation data accessible to all.",
+    "start_datetime": "2026-09-03T04:00:00Z",
+    "end_datetime": "2026-09-03T04:30:00Z",
+    "talk:code": "ZFRGQZ",
+    "talk:guid": "610e9e39-3f65-5708-ae6f-fbc825902bcb",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos2",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "FSNJRZ",
+        "name": "Xiandong Cai",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/FSNJRZ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-03T04:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/ZFRGQZ/",
+      "title": "Learning with Spaceborne LiDAR for Enhancement of Bare-Earth Digital Elevation Models from Global Data"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/ZFRGQZ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/FSNJRZ/",
+      "title": "Xiandong Cai"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/ZFRGQZ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

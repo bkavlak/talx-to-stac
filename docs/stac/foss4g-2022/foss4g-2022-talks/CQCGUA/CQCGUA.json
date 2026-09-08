@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "CQCGUA",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Just Enough GIS: Plugging Lightweight Mobile GIS into an Offline Field Data Collection Platform",
+    "description": "In 2012, FAIMS project developed FAIMS Mobile, an open-source platform for minting Android applications for offline human-mediated data collection on multiple tablets. Originally intended for archaeology, this platform saw cross-disciplinary adoption including disciplines such as oral tradition, linguistics, ecology and geochemistry.  Mobile GIS (provided by Nutiteq, Estonia) was built into the core software from the start providing the most essential geospatial functionality from management and rendering user-owned raster and vector data, to manual data creation, editing, retrieval, and rendering. Automated data collection via onboard and bluetooth sensors was also implemented to support unique identifier generation and printing, and other key tasks for field sample tracking.  Navigation and spatial query facility existed. The simplified interface isolated end-users from administrators, with only the latter needing geospatial skills and domain knowledge, a division that facilitated data entry by unskilled volunteers. Many of the geospatial functions, however, required programming to customize. Given this barrier to entry, only clients with access to a programmer could create customisations for geospatially-tailored field data entry. Others had to run existing customisations, published on Github. Despite this bottleneck, FAIMS 2.6 clients created a variety of spatial data collection workflows, from simple offline shape mapping to manual map data digitisation.\r\nIn 2022, FAIMS project is rebuilding the FAIMS Mobile platform to equip it with a graphic user interface for customisation, to allow cross-platform deployment, and to implement \u2018round trip\u2019 data transfer to and from  existing desktop tools. We hope to retain a robust geospatial data creation capability but aim to strip away functionality that saw little use over the 10 previous years, taking a 'just-enough-GIS' approach. As the architecture of FAIMS Mobile is changing from sqlite with spatialite extension to CouchDB/ PouchDB supporting geojson, technical elaboration pointed to OpenLayers as the most appropriate and complete library for geospatial data collection and management. This paper will examine the challenges and considerations of \u2018just enough GIS\u2019 implemented with OpenLayers in a comprehensive mobile data capture application.",
+    "start_datetime": "2022-08-24T15:15:00Z",
+    "end_datetime": "2022-08-24T15:20:00Z",
+    "talk:code": "CQCGUA",
+    "talk:guid": "debd04c4-d4b5-5dec-affd-e117c0e1efd3",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Modulo 0",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "L8C9FZ",
+        "name": "Adela Sobotkova",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/L8C9FZ/"
+      },
+      {
+        "code": "CAVMH9",
+        "name": "Steve Cassidy",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/CAVMH9/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T15:17:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/CQCGUA/",
+      "title": "Just Enough GIS: Plugging Lightweight Mobile GIS into an Offline Field Data Collection Platform"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/CQCGUA/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/L8C9FZ/",
+      "title": "Adela Sobotkova"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/CAVMH9/",
+      "title": "Steve Cassidy"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/CQCGUA/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/b3prnsKTw2CdGAZRTVKvS5",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Just Enough GIS: Plugging Lightweight Mobile GIS into an Offline Field Data\u2026",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=HNhF_s5HRdc",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Just Enough GIS: Plugging Lightweight Mobile GIS into an Offline Field Data\u2026",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

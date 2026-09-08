@@ -1,0 +1,121 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "XB7SF7",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "State of Oskari for developers",
+    "description": "Oskari is used world wide to provide web based map applications that are built on top of existing spatial data infrastructures. Oskari offers building blocks for creating and customizing your own geoportals and allows embedding maps to other sites that can be controlled with a simple API. In addition to showing data from spatial services, Oskari offers hooks for things like using your own search backend and fetching/presenting statistical data.\r\n\r\nThis presentation will go through the improvements to existing functionalities and new features introduced in Oskari during the last year including:\r\n\r\n- Combining different types of user generated content\r\n- UI rewrite progress\r\n- Supporting mobile devices\r\n\r\nYou can try some of the functionalities Oskari offers out-of-the-box on our sample application: https://demo.oskari.org.",
+    "start_datetime": "2024-07-05T12:00:00Z",
+    "end_datetime": "2024-07-05T12:30:00Z",
+    "talk:code": "XB7SF7",
+    "talk:guid": "181290b0-3bf1-5e24-8707-72102789c0db",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "QFieldCloud (246)",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "YTH97V",
+        "name": "Sami M\u00e4kinen",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/YTH97V/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-05T12:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/XB7SF7/",
+      "title": "State of Oskari for developers"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/XB7SF7/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/YTH97V/",
+      "title": "Sami M\u00e4kinen"
+    },
+    {
+      "rel": "related",
+      "href": "https://demo.oskari.org",
+      "title": "demo.oskari.org"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/XB7SF7/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://zakarfin.github.io/oskari_foss4g_2024/",
+      "title": "Slides",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/5HcFf9HQvQQe75N2pdZ47N",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | State of Oskari for developers",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=pDQdLCWXCAA",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | State of Oskari for developers",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

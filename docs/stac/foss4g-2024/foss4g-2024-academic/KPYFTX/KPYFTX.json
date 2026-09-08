@@ -1,0 +1,104 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "KPYFTX",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Natural Language Processing and Voice Recognition for Geolocation and Geospatial Visualization in Notebook Environment",
+    "description": "Innovations, such as voice recognition and natural language processing (NLP), have significantly impacted various fields by enabling more natural interactions between humans and machines (Mahmoudi et al., 2023). In geoinformatics, these advances are crucial for visualising geospatial data, allowing the creation of interactive and dynamic maps (Craglia et al., 2012). Online mapping applications, like OpenStreetMap (OSM), have democratised spatial information by enabling public participation in its creation and maintenance (Haklay, 2010). Geolocation is essential in contemporary applications, such as navigation, emergency services, and location-based services. Google Colaboratory (or Colab) Notebook Environment stands out in promoting open science due to its accessibility, ease of use, and collaborative capabilities, and enabling the embodiment of the FAIR principles (Camara et al., 2021). This study aims to develop a voice interaction application in Google Colab Notebook Environment to answer the question: \"Is it possible to develop a voice command application for geolocation and visualisation of geospatial data within the Google Colab environment?\" The methodology includes FOSS libraries and tools such as geopy, speech_recognition, ffmpeg, librosa, and flask, subdivided into six stages: Audio Data Acquisition, Audio Processing, Speech Recognition, Geocoding, Visualization, and Interface Development. The complete code, under an open license, and how to reproduce this work are available on GitHub. Audio capture is performed using the Web Speech API in JavaScript (JS), which allows real-time voice recognition and integration with the MediaDevices API to access the user's microphone. This method provides an interface for high-quality audio recording, essential for speech recognition and geocoding accuracy. Audio processing involves converting the \".webm\" format to \".wav\" using ffmpeg, efficiently maintaining the original audio quality. The Librosa library loads the audio, adjusts the sampling rate, and extracts relevant features from the audio signal, such as spectrograms (Bisong, 2019). Speech recognition is performed with the SpeechRecognition library in Python, which provides an interface for various speech recognition services, including the Google Web Speech API. This choice is due to its high accuracy and support for multiple languages, ensuring the system's flexibility and accessibility to a diverse audience (Nassif et al., 2019). Geocoding transforms textual descriptions of locations into geographic coordinates, allowing the visual representation of these locations on an interactive map. The geopy library and the Nominatim service from OSM are used to convert addresses into latitude and longitude coordinates (Mooney & Corcoran, 2012). For the visualisation of geocoded data, a web server was implemented using Flask, a microframework for Python that allows the creation of lightweight and efficient web applications. The user interface was developed with HTML, CSS, and JS, providing an intuitive and interactive experience. The results show that the user and machine interaction occurred satisfactorily. The first message displayed to the user instructs them to slowly state the name of the city, state, or country they wish to geolocate. The use of JS and the Web Speech API allowed the system to detect specific voice commands to start and stop recording, as indicated by the interface colors and states. This step is crucial for subsequent steps to ensure that the captured audio is clear and understandable. When the start command is recognised, the interface changes to indicate that the recording is in progress. The message \"Command recognised: starting recording\" confirms that the command was detected correctly. If the voice command is not recognised, the interface displays a message asking the user to repeat the command. After recording, the audio is saved in \".webm\" format. If a previous audio file exists, it is automatically overwritten. This approach simplifies file management and avoids the accumulation of unnecessary data. Next, the audio is converted to \".wav\" format using the ffmpeg library. Then, the audio is transcribed using the Web Speech API and the SpeechRecognition interface for the recognised language, along with the confirmation of the geocoded location and its respective latitude and longitude. The visual feedback proved essential for the user to confirm that the entered information was recognised, improving the system's usability. The displayed information includes city, region, country, latitude, and longitude. The interactive map allows the user to visualise and interact with the located area, altering the zoom level and receiving a voice message informing the map's current zoom level. This work presented the integration of tools that assist in advances in human-computer interaction in geoinformatics, offering an intuitive and accessible interface for users of different technical proficiency levels. The results confirm the feasibility of voice command geolocation in Google Colab, a platform that can be used for education, research, collaboration, and sharing in science, enabling this work's reproducibility. Future research can improve voice interaction features, explore geolocation methods such as bounding boxes, and reduce dependence on JS and Flask. Improving the requirements for peripheral devices could further increase the system's accuracy, accessibility and user experience. The importance of geospatial accessibility lies in enhancing service provision, urban planning, and social inclusion, facilitating mobility for people with disabilities, and improving urban infrastructure (Han et al., 2020).",
+    "start_datetime": "2024-12-04T18:45:00Z",
+    "end_datetime": "2024-12-04T19:15:00Z",
+    "talk:code": "KPYFTX",
+    "talk:guid": "3d58e71d-166e-5b64-b610-156a4ca3ca91",
+    "talk:event": "foss4g-2024-academic-track",
+    "talk:track": "Academic Track",
+    "talk:type": "Oral Presentation 4",
+    "talk:language": "en",
+    "talk:room": "Room II",
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "TSRVVZ",
+        "name": "Nathan Damas",
+        "url": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/TSRVVZ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-04T19:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/talk/KPYFTX/",
+      "title": "Natural Language Processing and Voice Recognition for Geolocation and Geospatial Visualization in Notebook Environment"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/talk/KPYFTX/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/TSRVVZ/",
+      "title": "Nathan Damas"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/talk/KPYFTX/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "poster": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024-academic-track/submissions/KPYFTX/resources/20240915_-_Poster_-_NLP_Google_N_k69ZjYk.pdf",
+      "type": "application/pdf",
+      "title": "Poster",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024-academic-track/submissions/KPYFTX/resources/20241204-_Presentation_-_NLP_Goo_BEsAbne.pdf",
+      "type": "application/pdf",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-academic"
+}

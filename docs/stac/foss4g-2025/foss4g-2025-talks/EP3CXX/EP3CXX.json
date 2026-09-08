@@ -1,0 +1,163 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "EP3CXX",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Introduction to the Discrete Global Grid Abstraction Library (DGGAL)",
+    "description": "An introduction and overview of the capabilities provided by the Free and Open Source Software Discrete Global Grid Abstraction Library (DGGAL) https://dggal.org https://github.com/ecere/dggal\n\nDGGAL provides a common interface to perform various operations on Discrete Global Grid Reference Systems (DGGRS), facilitating the implementation of Discrete Global Grid Systems (DGGS),\r\nincluding implementing Web APIs based on the [OGC API - DGGS Standard](https://docs.ogc.org/DRAFTS/21-038r1.html).\r\n\r\nDGGAL, including the `dgg` command-line utility as well as the Python bindings to the library, can be installed from [from PyPI](https://pypi.org/project/dggal/) with `pip install dggal`.\r\n\r\nDGGAL currently supports all three DGGRS described in [OGC API - DGGS Annex B](https://docs.ogc.org/DRAFTS/21-038r1.html#annex-dggrs-def), as well as additional DGGRSs:\r\n\r\n* [GNOSIS Global Grid](https://docs.ogc.org/DRAFTS/21-038r1.html#ggg-dggrs): An axis-aligned quad-tree defined in WGS84 latitude and longitude, with special handling of polar regions, corresponding to the [OGC 2D Tile Matrix Set of the same name](https://docs.ogc.org/is/17-083r4/17-083r4.html#toc58)\r\n* [ISEA3H](https://docs.ogc.org/DRAFTS/21-038r1.html#isea3h-dggrs): An equal area hexagonal grid with a refinement ratio of 3 defined in the Icosahedral Snyder Equal Area (ISEA) projection\r\n* [ISEA9R](https://docs.ogc.org/DRAFTS/21-038r1.html#isea9r-dggrs): An equal area rhombic grid with a refinement ratio of 9 defined in the ISEA projection transformed into a 5x6 Cartesian space resulting in axis-aligned square zones\r\n* **IVEA3H**: An equal area hexagonal grid with a refinement ratio of 3 defined in the Icosahedral Vertex-oriented Great Circle Equal Area (tentatively called IVEA) projection based on [Slice & Dice (2006)](https://www.tandfonline.com/doi/abs/10.1559/152304006779500687), using the same global indexing and sub-zone ordering as for ISEA3H\r\n* **IVEA9R**: An equal area rhombic grid with a refinement ratio of 9 defined in the IVEA projection transformed into a 5x6 Cartesian space resulting in axis-aligned square zones, using the same global indexing and sub-zone ordering as for ISEA9R\r\n* **RTEA3H**: An equal area hexagonal grid with a refinement ratio of 3 defined in the Rhombic Triacontahedron Equal Area (RTEA) projection, a configuration of the Slice & Dice great circle projection equivalent to applying Snyder's projection to the RT, using the same global indexing and sub-zone ordering as for ISEA3H\r\n* **RTEA9R**: An equal area rhombic grid with a refinement ratio of 9 defined in the RTEA projection transformed into a 5x6 Cartesian space resulting in axis-aligned square zones, using the same global indexing and sub-zone ordering as for ISEA9R\r\n* [rHEALPix](https://iopscience.iop.org/article/10.1088/1755-1315/34/1/012012): An equal area and axis-aligned grid with square zones topology and a refinement ratio of 9 defined in the rHEALPix projection (using same parameters as default [PROJ implementation](https://proj.org/en/stable/operations/projections/rhealpix.html)) with the original hierarchical indexing and scanline-based sub-zone ordering\r\n\r\nThe API documentation can be [found here](https://dggal.org/docs/html/dggal/Classes/DGGRS.html).\r\n\r\nThe `DGGRS` class provides most of the functionality of the library, allowing to resolve DGGRS zones by textual ID to a unique 64-bit zone integer identifier (`DGGRSZone`).\r\nThe geometry and sub-zones of a particular zone can also be queried.\r\nThe concept of [sub-zones](https://docs.ogc.org/DRAFTS/21-038r1.html#term-sub-zone) is key to encoding both vector and raster geospatial data quantized to a DGGRS.\r\nThe DGGAL library also allows to resolve a sub-zone index at a particular depth from a parent zone, allowing to read DGGS-optimized data such as [DGGS-JSON](http://dggs-json.org) and [DGGS-JSON-FG](https://docs.ogc.org/DRAFTS/21-038r1.html#rc_data-dggs-jsonfg).\r\n\r\nThe recommended method to obtain and build DGGAL and the `dgg` tool is to follow the instructions in [BUILDING.md](BUILDING.md), or running [fetchAndBuild.sh](fetchAndBuild.sh) / [fetchAndBuild.bat](fetchAndBuild.bat).\r\n\r\nWhile the library is written in the [eC programming language](https://ec-lang.org), object-oriented bindings for C, C++ and Python generated using the Ecere SDK's [`bgen` tool](https://github.com/ecere/bgen) are provided. Bindings for Rust are available as well. Support for additional languages may be added in the future.\r\n\r\nExample usage of the bindings to the different programming languages can be [found here](https://github.com/ecere/dggal/tree/eC-core/bindings_examples).\r\n\r\nThe `dgg` tool provides the ability to perform various operations from the command-line, including generating grids at different refinement levels, querying information about a particular zone identifier, identifying the zone a particular set of geospatial coordinates, listing the zones within a certain bounding box, resolving sub-zone indices and converting compact DGGS-JSON data files to GeoJSON files.\r\n\r\n_Acknowledgement_\r\nFinancial support provided by GeoConnections, a national collaborative initiative led by Natural Resources Canada. GeoConnections supports the modernization of the Canadian Geospatial Data Infrastructure (CGDI). The CGDI is the collection of geospatial data, standards, policies, applications, and governance that facilitate its access, use, integration, and preservation.",
+    "start_datetime": "2025-11-20T20:30:00Z",
+    "end_datetime": "2025-11-20T20:55:00Z",
+    "talk:code": "EP3CXX",
+    "talk:guid": "21bc8406-1934-55ef-a0d9-4817c7e7ddcc",
+    "talk:event": "foss4g-2025",
+    "talk:track": "AI, Data Science & Analytics",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WA220",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "KNRWPK",
+        "name": "Jerome St-Louis",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/KNRWPK/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-20T20:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/EP3CXX/",
+      "title": "Introduction to the Discrete Global Grid Abstraction Library (DGGAL)"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/EP3CXX/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/KNRWPK/",
+      "title": "Jerome St-Louis"
+    },
+    {
+      "rel": "related",
+      "href": "https://dggal.org",
+      "title": "dggal.org"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/ecere/dggal",
+      "title": "github.com/ecere/dggal"
+    },
+    {
+      "rel": "related",
+      "href": "https://docs.ogc.org/DRAFTS/21-038r1.html",
+      "title": "OGC API - DGGS Standard"
+    },
+    {
+      "rel": "related",
+      "href": "https://pypi.org/project/dggal/",
+      "title": "from PyPI"
+    },
+    {
+      "rel": "related",
+      "href": "https://docs.ogc.org/is/17-083r4/17-083r4.html#toc58",
+      "title": "OGC 2D Tile Matrix Set of the same name"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.tandfonline.com/doi/abs/10.1559/152304006779500687",
+      "title": "Slice & Dice (2006)"
+    },
+    {
+      "rel": "related",
+      "href": "https://iopscience.iop.org/article/10.1088/1755-1315/34/1/012012",
+      "title": "rHEALPix"
+    },
+    {
+      "rel": "related",
+      "href": "https://proj.org/en/stable/operations/projections/rhealpix.html",
+      "title": "PROJ implementation"
+    },
+    {
+      "rel": "related",
+      "href": "https://dggal.org/docs/html/dggal/Classes/DGGRS.html",
+      "title": "found here"
+    },
+    {
+      "rel": "related",
+      "href": "http://dggs-json.org",
+      "title": "DGGS-JSON"
+    },
+    {
+      "rel": "related",
+      "href": "https://ec-lang.org",
+      "title": "eC programming language"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/ecere/bgen",
+      "title": "`bgen` tool"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/ecere/dggal/tree/eC-core/bindings_examples",
+      "title": "found here"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/EP3CXX/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=P3a4aH_G8c4",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Introduction to the Discrete Global Grid Abstraction Library (DGGAL)",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

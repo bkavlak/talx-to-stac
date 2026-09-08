@@ -1,0 +1,106 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "UXPNJZ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Geomatics and open-source for road infrastructure management: standards, technologies, and future directions",
+    "description": "This contribution reviews how open standards and open-source technologies enable integrated, transparent, and sustainable workflows for managing bridges, tunnels, and roads. It highlights how open ecosystems can overcome data silos, support digital twins, and enhance long-term monitoring, regulatory compliance, and collaboration in infrastructure asset management.\n\nFollowing the introduction of guidelines for documenting road assets in Europe, infrastructure asset management is undergoing a new digital transformation. The reuse and transparency principles are fostering the adoption of open standards and open-source technologies [1]. This paradigm shift toward digitising is evident in the monitoring and maintenance of critical infrastructure, such as bridges and road networks. New guidelines led to the proliferation of proprietary solutions, which, however, contributed to a fragmentation of data environments. Custom and licence-dependent formats limited the interoperability, scalability and transparency of infrastructure management workflows [2]. In contrast, the open-source approach fosters collaboration, enhances accessibility to information, and supports more resilient, cost-effective and democratic decision-making processes. To strategically develop operational solutions answering the guidelines needs, it is then needed to address the state-of-the-art of open standards, technologies and their potentials and limitations in documented applications.\r\n\r\nStandards overcoming proprietary limitations\r\n\r\nA core enabler of this transformation is the implementation of open standards for data interoperability. In the building and infrastructure sector, BIM standards such as Industry Foundation Classes (IFC, ISO 16739) offer a solid basis for representing built assets in a vendor-neutral format [3]. IFC enables the exchange and reuse of information throughout the design, construction and operational phases, incorporating essential elements such as geometric components, spatial relationships and functional systems. Recent IFC extensions specifically support bridges, and ongoing efforts are targeting tunnels and other infrastructure typologies [4]. In parallel, developments in the GIS domain have produced open standards such as CityGML and LandInfra, which enable the structured representation of infrastructure within its environmental context [5]. These standards facilitate the integration of semantic, spatial, and topological information across administrative and technical domains, especially when aligned with OGC specifications that adhere to the FAIR principles \u2014 Findable, Accessible, Interoperable, and Reusable [6].\r\n\r\nHowever, the true digital integration of infrastructure assets requires more than the adoption of standalone standards. The convergence of BIM and GIS necessitates strategies that harmonise their respective models and semantics, especially for multi-scale, cross-domain applications. Projects are increasingly relying on Linked Data and Semantic Web technologies to achieve this integration. Using ontologies facilitates mapping sensor properties to models, embedding IoT data in the infrastructure\u2019s digital representation [1]. Despite these advances, challenges persist. Semantic and schematic discrepancies between BIM and GIS standards continue to pose significant challenges. For example, efforts to map IFC to CityGML often involve trade-offs between semantic richness and geometric accuracy. Rather than creating new standards, the prevailing strategy is to extend and align existing ones to meet the evolving requirements of digital twin systems, particularly those focused on bridge management and road asset monitoring [7].\r\n\r\nTechnologies in operational systems\r\n\r\nComplementing this standards foundation is an expanding ecosystem of open-source technologies that support the practical implementation of digital infrastructure management systems. PostgreSQL, enhanced with the PostGIS extension, remains essential for storing spatio-temporal data [8][9]. Graph databases like Neo4j offer an intuitive and scalable solution for modelling relationships between infrastructure components, inspections, and maintenance workflows [10]. Open-source GIS platforms such as QGIS facilitate desktop spatial analysis and visualisation [11], integrating seamlessly with mobile tools such as MerginMaps, QField, and ODK Collect to enable efficient in-situ data collection. These solutions have proven effective for managing transportation assets at the municipal level, such as signage and road condition inventories [12].\r\n\r\nThe web-based visualisation and analysis of road networks and assets has also advanced significantly through libraries such as Cesium, Deck.gl and Xeokit. Cesium supports interactive, 3D globe-based visualisation and streams 3D tiles to render large-scale infrastructure environments [7]. Xeokit specialises in BIM visualisation, enabling examination of IFC models within web platforms. These libraries enable infrastructure stakeholders to interact with 3D models independently of proprietary software, thereby expanding access to asset information across organisations [10]. Dashboards built with frameworks such as ECharts and enhanced with WebSocket protocols support the integration of real-time data from sensor networks, ensuring that digital models are dynamically linked to their physical counterparts.\r\n\r\nIn the field of road network analysis, open-source Python packages such as OSMnx, MovingPandas and Scikit-Mobility allow for a detailed examination of mobility patterns and accessibility [13]. Simulation tools such as SUMO and AequilibraE offer the ability to model multimodal traffic flows, test policy scenarios and evaluate infrastructure interventions [14]. When integrated with geodata from OpenStreetMap and coupled with routing engines like OSRM, these tools provide a comprehensive solution for network planning and optimisation [6].\r\n\r\nCurrent potentials and limitations\r\n\r\nBy eliminating licensing fees, open-source approaches reduce long-term software costs and provide full transparency into the computational models and assumptions behind analyses\u2014an essential aspect for public infrastructure projects where trust, accountability, and reproducibility are critical [15]. Open tools also give public agencies and asset owners control over their data and workflows, enabling them to inspect, adapt, and extend codebases to meet evolving needs without vendor lock-in.\r\nThe collaborative nature of open-source development further facilitates knowledge transfer and capacity building. Active communities, thorough documentation and modular architectures reduce the barriers to adoption, thereby fostering innovation [6]. Local governments and academic institutions can contribute to, and benefit from shared development to generate context-specific, sustainable solutions. Furthermore, open tools promote citizen engagement by making infrastructure data more accessible and easier to understand \u2014 a vital aspect of participatory planning and the development of inclusive smart cities [12, 15].\r\n\r\nHowever, there are still challenges to overcome. For example, integrating different types of data, such as point clouds, GIS layers, BIM models and real-time sensor feeds, requires robust data pipelines. Ensuring data quality, particularly for legacy assets, remains challenging. Furthermore, performance and scalability issues arise with large-scale or high-resolution models, and efforts to optimise such workflows are ongoing.\r\n\r\nEqually critical are the human and institutional factors. Although many open-source tools now have user-friendly interfaces, a certain level of technical expertise is still needed for setup, customisation and maintenance. Capacity building and continuous training are necessary to ensure that practitioners can leverage these tools effectively. At the policy level, questions relating to data ownership, privacy and digital sovereignty must be addressed by robust legal and governance frameworks. The adoption of digital twins for public infrastructure also raises important ethical and epistemological questions, particularly with regard to the authority of data-driven models in decision-making contexts.\r\nLooking forward, research focus on enhancing semantic alignment between BIM and GIS models, improving the representation of defects and maintenance history within IFC schemas, and enabling greater automation in cross-platform integration. Further studies are needed to assess the comparative benefits and limitations of open-source versus proprietary solutions in different infrastructure contexts. Evaluating the long-term sustainability, replicability, and social impact of open-source digital twins will be key to their broader adoption.\r\n\r\nThis contribution aims to provide an overview of the open-source and open-standard scenario in infrastructure management with case studies from literature. It offers a technical synthesis and a forward-looking perspective, with a particular focus on documented case studies that adopt OSGeo tools, OGC standards and open data. Leveraging the strengths of openness  enables stakeholders to build more resilient infrastructure systems.",
+    "start_datetime": "2025-11-20T03:00:00Z",
+    "end_datetime": "2025-11-20T03:25:00Z",
+    "talk:code": "UXPNJZ",
+    "talk:guid": "ac3d8b1c-b52f-5ee7-962e-a0f43292ea28",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Academic",
+    "talk:type": "Academic Paper",
+    "talk:language": "en",
+    "talk:room": "WG802",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "CFAZ9L",
+        "name": "Federica Gaspari",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/CFAZ9L/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-20T03:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/UXPNJZ/",
+      "title": "Geomatics and open-source for road infrastructure management: standards, technologies, and future directions"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/UXPNJZ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/CFAZ9L/",
+      "title": "Federica Gaspari"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/UXPNJZ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "gasparifoss4g2025": {
+      "href": "https://talks.osgeo.org/media/foss4g-2025/submissions/UXPNJZ/resources/GaspariFOSS4G2025_mgZYSHB.pdf",
+      "type": "application/pdf",
+      "title": "GaspariFOSS4G2025",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=rT2Jev2DubA",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Geomatics and open-source for road infrastructure management",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

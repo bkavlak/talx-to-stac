@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Z7GTH9",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "From field data collection to web-based analysis and sharing : building the PINOGIO geospatial platform with open-source technologies",
+    "description": "PINOGIO connects gPocket for field data collection with a web platform for project management, map production, and story-map publishing. This talk shows how open-source technologies, offline workflows, and external GIS interoperability were combined into a practical GIS workflow that non-developers could use.\n\n1. Problem This Talk Addresses\r\nIn many organizations, field collection, photo records, route tracking, map editing, spatial analysis, and publishing are handled in separate tools. Field teams capture location, attributes, photos, and movement paths, while office teams later review, interpret, map, and share the same data again. When that process is split across paper notes, messenger attachments, spreadsheets, standalone GIS tools, and web reports, the same information gets re-entered, updates become slow, and the field context is easily lost. The gap becomes even more visible in unstable network conditions. This talk explains how we reduced that gap by connecting a mobile app, a web workspace, and a platform backend into one practical workflow.\r\n\r\n2. What We Built or Applied\r\n- We built `gPocket` as a field mobile GIS app for collecting and editing spatial data, with encrypted offline storage, project-based working data, GeoPackage working copies that can be modified in the field and reflected back to the server, and tracking records that can be exported as files and reused in external GIS tools such as `QGIS`.\r\n- We use `PINOGIO platform` to describe one connected workflow rather than two separate products: `pinogio` provides the platform core for projects, datasets, layers, maps, geocoding, analysis, and sharing, while `pinogio-studio` provides the browser-based workspace where people actually organize data, style layers, build maps, and publish outputs.\r\n- We designed `pinogio maps` not as a simple map viewer, but as a story-map style output where map layers, explanatory text, photos, and interpretive panels can be combined into something readable and shareable.\r\n- We connected all three through open standards and open-source GIS components so they behave like one operational ecosystem.\r\n\r\n3. Outcomes and Lessons Learned\r\n- Mobile and web should not provide the exact same experience; each works better with a focused role.\r\n- OGC standards and GeoPackage made it possible to design online workflows, offline workflows, and file-based interoperability with external GIS tools together.\r\n- Open-source geospatial components can be combined into a product-grade platform.\r\n- The real challenge was not only the GIS engine, but designing a project-centered experience that non-developers could actually use.\r\n\r\n4. What the Audience Will Gain\r\n- A practical architecture pattern for connecting field apps, web tools, and backend GIS services\r\n- A real-world example of turning open-source geospatial building blocks into an end-user product\r\n- Ideas for combining field collection, offline synchronization, web review, analysis, and publishing in one workflow\r\n- A community-oriented perspective on why open standards matter in product design",
+    "start_datetime": "2026-09-01T04:30:00Z",
+    "end_datetime": "2026-09-01T05:00:00Z",
+    "talk:code": "Z7GTH9",
+    "talk:guid": "2475dc94-6882-5a60-80b7-3802377648aa",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room4",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "BSQS9Z",
+        "name": "Sohee Kang",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/BSQS9Z/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T04:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/Z7GTH9/",
+      "title": "From field data collection to web-based analysis and sharing : building the PINOGIO geospatial platform with open-source technologies"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/Z7GTH9/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/BSQS9Z/",
+      "title": "Sohee Kang"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/Z7GTH9/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

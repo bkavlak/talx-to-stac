@@ -1,0 +1,139 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "LMNBLS",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Geoconnex.us: a standards based framework to discover water data",
+    "description": "The Web has an increasing number of web applications being developed to freely provide their information and is a hub for open data publishing. For this to happen as a self-sustained ecosystem, data must be findable, accessible, interoperable, and reusable to both humans and machines across the wider web. This session delves into Web Best Practices for publishing data using open source and standards-based solutions.\r\n\r\nThe geoconnex.us project is about providing technical infrastructure and guidance to create an open, community-contribution model for a knowledge graph linking hydrologic features in the United States as an implementation of Internet of Water principles. This knowledge graph can be leveraged to create a wide array of information products to answer innumerable water-related questions. \r\n\r\nImplementation has two parts: persistently identified real world objects and organizational monitoring locations that collect data about them. Both must be published to the Web using persistent URIs and communicated with common linked data semantics in order for a knowledge graph to be constructed. \r\n\r\nThe Internet of Water Coalition supports the first part with a Permanent Identifier Service and reference hydrologic reference features (e.g. watersheds, monitoring locations, dams, bridges, etc.) within the US.\r\n\r\nIn support of the second part, geoconnex.us takes advantage of pygeoapi using the OGC API - Features standard to publish structured metadata resources about individual hydrologic objects and the data about them. pygeoapi supports extending this standard by incorporating domain-specific structured data into the HTML format at the feature level, and allowing for external HTTP URI identification. In addition, pygeoapi\u2019s flexible plugin architecture enables for custom integration and processes. This means that individual features from various sources can have structured, standardized metadata harvested by search engines and assembled into a useful knowledge graph.\r\n\r\nThis spatial feature-based linked data architecture enables data interoperability between independent  organizations who hold information about the same real world thing without centralizing data infrastructure - answering important questions like, \u201cWho is collecting water data about my local stream and its tributaries?\u201d or \u201cWhat data do we have about water upstream and downstream of East Palestine, Pennsylvania?\u201d",
+    "start_datetime": "2023-06-29T12:30:00Z",
+    "end_datetime": "2023-06-29T13:00:00Z",
+    "talk:code": "LMNBLS",
+    "talk:guid": "4f30c5fb-c9e7-5cf3-b132-95a10b358b80",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT C / N109 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "H8LVLX",
+        "name": "Tom Kralidis",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/H8LVLX/"
+      },
+      {
+        "code": "A8VTL7",
+        "name": "Benjamin Webb",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/A8VTL7/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-29T12:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/LMNBLS/",
+      "title": "Geoconnex.us: a standards based framework to discover water data"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/LMNBLS/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/H8LVLX/",
+      "title": "Tom Kralidis"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/A8VTL7/",
+      "title": "Benjamin Webb"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/LMNBLS/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/f6kB8ZiufeGAGnpLc8jrDC",
+      "type": "text/html",
+      "title": "2023 | Geoconnex.us: a standards based framework to discover water data",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-peertube-2": {
+      "href": "https://video.osgeo.org/videos/watch/nxEHRUQ2qpZ6NsipRPCtbu",
+      "type": "text/html",
+      "title": "2023 | Geoconnex.us: a standards based framework to discover water data",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=1b7iiiEanMU",
+      "type": "text/html",
+      "title": "2023 | Geoconnex.us: a standards based framework to discover water data",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    },
+    "recording-youtube-2": {
+      "href": "https://www.youtube.com/watch?v=zFB9R0FC6X4",
+      "type": "text/html",
+      "title": "2023 | Geoconnex.us: a standards based framework to discover water data",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

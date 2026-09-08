@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "YG7B8H",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "UNS Geo: LiDAR Dataset for point cloud classification in urban areas",
+    "description": "Automatic and reliable 3D point cloud classification is a crucial yet challenging task with applications across various domains, including urban planning, 3D modeling, and the development of smart cities. Airborne LiDAR (Light Detection and Ranging) has emerged as an efficient and effective tool for conducting large-scale 3D surveys of urban areas, offering high spatial resolution and accurate data collection. Over the years, numerous algorithms and methodologies have been proposed for point cloud classification. Despite advancements in machine learning and deep learning, this task remains a significant challenge in the geospatial community. \r\nOne of the primary challenges lies in the availability of sufficient labelled data for training classification algorithms. The creation of publicly accessible, large-scale datasets is essential for developing and benchmarking new methods. While several databases have been introduced, such as ISPRS Vaihingen (Niemeyer, et. al., 2014), LASDU (Ye, et. al., 2020) or AHN3 (AHN, 2024), they have some limitations. For instance, while LASDU and AHN3 datasets are valuable resources for point cloud classification, they lack the comprehensive diversity of urban-specific classes, limiting their utility in capturing the complexity of dense urban environments. \r\nThe ISPRS benchmark dataset is most commonly used in resources in this field. It provides a point cloud classified into nine classes, along with features such as x, y, z, intensity, return number, and the number of returns. Additionally, the synchronized orthophoto of the same area is available, providing valuable context for classification tasks. However, this dataset also presents some challenges, including its highly unbalanced class distribution and the relatively small number of points available, particularly for training deep learning methods. \r\n\r\nIn this paper, we introduced an aerial LiDAR point cloud dataset, UNS Novi Sad, designed specifically for the classification of complex urban environments. The dataset comprises over five million points, classified into seven distinct classes, and is focused on the City of Novi Sad, which is known for its unique urban morphology. The city\u2019s layout reflects the architectural and planning styles typical of Southeastern Europe in the post-World War II era, featuring a mix of high-density residential blocks, green spaces, wide boulevards, narrow streets, and diverse building types. These characteristics ensure that the dataset captures a wide range of structural and spatial variations.  In addition to providing new data, we evaluate the PointNet and PointNet ++ algorithm for classification of the proposed dataset.\r\n\r\nThe UNS Geo dataset comprises over five million points, classified into 8 distinct classes, and is focused on the City of Novi Sad, which is known for its unique urban morphology. The city\u2019s layout reflects the architectural and planning styles typical of Southeastern Europe in the post-World War II era, featuring a mix of high-density residential blocks, green spaces, wide boulevards, narrow streets, and diverse building types. These characteristics ensure that the dataset captures a wide range of structural and spatial variations. \r\nThe study area is in the urban area of Novi Sad, consisting of Liman, located in the southeast part of the city, and the left Danube bank with high residential blocks, spacious green areas, and boulevards. The topography of the study area is flat, with an average elevation of 77 m. The ALS point cloud data were collected using a Riegl LMS-Q680i laser scanner and a digital camera DigiCam H39 onboard a helicopter. \r\nThe total number of annotated points is 5.4 million of points. The dataset is divided into two .las files: for training and for testing. \r\nIn the .las file, each point was assigned the following attributes: Position: X, Y, Z coordinates of each point in UTM 34N (EPSG:32634) projection, Intensity, Return number, Number of returns, Classification, Scan Angle Rank, Time, RGB: Each \r\nRegarding the labeling, the automatic, semi-automatic, and manual classification was used. We selected classes with a focus on different applications such as mapping, urban planning, and forestry monitoring. The points are classified into 8 different classes: ground, roads, parking, pedestrian lens, roof, walls, high vegetation, and cars. The training and testing datasets have a similar distribution, except for pedestrian lenses and cars. The high vegetation class points contain the largest number of points. This is expected since the multiple returns are characteristic of this class and it is also a commonly occurring class in this type of city. The car class only reaches  2.64 % of all labeled points, making them one of the most challenging classes to detect. The imbalance of classes should be considered during the training or testing phase.\r\n\r\nTo provide a brief evaluation of the proposed dataset, the supervised classification to label points was performed. The PointNet architecture is a neural network that directly classifies raw point cloud. PointNet++ applies PointNet to local neighbourhoods to capture local features. The evaluation metrics include the recall, precision, and F1 score.",
+    "start_datetime": "2025-07-17T13:15:00Z",
+    "end_datetime": "2025-07-17T13:20:00Z",
+    "talk:code": "YG7B8H",
+    "talk:guid": "5349df35-fa70-571c-ab46-b41ca2ee14a9",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Academic track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "PA01 (Quarticle)",
+    "talk:room_capacity": 95,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "9S7SHC",
+        "name": "Gordana Jakovljevic",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/9S7SHC/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-17T13:17:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/YG7B8H/",
+      "title": "UNS Geo: LiDAR Dataset for point cloud classification in urban areas"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/YG7B8H/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/9S7SHC/",
+      "title": "Gordana Jakovljevic"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/YG7B8H/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/YG7B8H/resources/Govedarica_Foss4gMostar_BFqMYqV.pdf",
+      "type": "application/pdf",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/bZCw91TCXEkJkgMSgXSEQ9",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | UNS Geo: LiDAR Dataset for point cloud classification in urban areas",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=d0DEuABkh-s",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | UNS Geo: LiDAR Dataset for point cloud classification in urban areas",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

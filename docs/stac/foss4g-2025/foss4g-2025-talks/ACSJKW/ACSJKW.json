@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "ACSJKW",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "PyForestScan: A Python Library for Large-Scale LiDAR Forest-Structure Metrics",
+    "description": "We introduce PyForestScan, a Python library that streams LiDAR data and outputs GeoTIFF canopy height, cover, foliage-height diversity, plant-area-index and density layers. We demonstrate it by mapping forest metrics on Hawai\u2018i Island\u2019s 1 M-ha, 1.8 B-point survey into 1\u201330 m grids.\n\nAirborne LiDAR now blankets landscapes with up to sub-centimeter-scale detail. Yet, researchers and land managers have lacked a fully open, Python-native workflow to transform billions of points into actionable information on forest structure. Existing solutions are either proprietary or anchored in R, leaving the rapidly growing Python geospatial stack without a scalable counterpart. PyForestScan bridges this gap. Built on PDAL\u2019s streaming I/O, the library reads traditional LAS/LAZ alongside hierarchical octree formats such as COPC and EPT, tiles point clouds automatically, and exports GeoTIFF layers of canopy height, canopy cover, foliage-height diversity (FHD), plant-area density (PAD), plant-area index (PAI), and digital-terrain models in a single command. We demonstrate these capabilities by generating island-wide canopy height, canopy cover, FHD, and PAI mosaics for Hawai\u2018i Island - an area with over 1 million hectares and over 1.8 billion points, in under 24 hours of wall time on commodity hardware, producing multi-resolution (1 m\u201330 m) grids ready for carbon accounting, biodiversity assessment, and geoAI training. The talk will outline PyForestScan's architecture, highlight performance benchmarks, and invite contributions via its open governance model, Docker images, and CI-tested notebooks. By placing robust LiDAR analytics squarely within the free and open Python ecosystem, PyForestScan equips the FOSS4G community to move seamlessly from raw point clouds to island- and continent-scale forest insights.",
+    "start_datetime": "2025-11-19T22:00:00Z",
+    "end_datetime": "2025-11-19T22:25:00Z",
+    "talk:code": "ACSJKW",
+    "talk:guid": "ee85e8fe-fc63-56ee-a88f-3b9e3862512e",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Tools, Libraries & Visualisation",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WA220",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "37VPNQ",
+        "name": "Iosefa Percival",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/37VPNQ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-19T22:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/ACSJKW/",
+      "title": "PyForestScan: A Python Library for Large-Scale LiDAR Forest-Structure Metrics"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/ACSJKW/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/37VPNQ/",
+      "title": "Iosefa Percival"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/ACSJKW/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=jfNAWpf9N-4",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | PyForestScan: A Python Library for Large-Scale LiDAR Forest-Structure Metrics",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

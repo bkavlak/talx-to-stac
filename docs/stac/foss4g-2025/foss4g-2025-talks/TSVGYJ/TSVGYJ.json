@@ -1,0 +1,141 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "TSVGYJ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "GPU-native Zarr: Optimizing data throughput for large-scale geospatial machine learning workflows",
+    "description": "Zarr is a cloud-native format, and now it can be GPU-native too! We address one of the main bottlenecks of geospatial machine learning, which is on the data loading stage. Let's see how we can read and decompress data from Zarr directly into GPU memory!\n\nThe Zarr format is used in the geosciences for storing time-series and multi-variate data, and was designed with parallel access in mind. Previously though, there was a bottleneck where data from storage disk had to go through an intermediate step of being loaded into CPU memory, before it is then copied to Graphical Processing Unit (GPU) memory. Now, with the proper [GPUDirect Storage (GDS)](https://docs.nvidia.com/gpudirect-storage/overview-guide/index.html) drivers configured, one can read and decode uncompressed data from storage into CUDA GPU device memory directly via [`kvikIO`](https://docs.rapids.ai/api/kvikio/stable) for lower latency. To get even more throughput, compressed data in Zarr can be sent directly to GPU memory, and decompressed in parallel using [`nvCOMP`](https://developer.nvidia.com/nvcomp) that works faster than CPU-based decompression algorithms. The result is a fully GPU-native pipeline where I/O latency is minimized by sending compressed data, and GPU utilization is maximized by having it do most of the processing. We'll show some benchmarks comparing the speedups from a CPU baseline to a fully GPU-native workflow, and show some extra tips and tricks on how to use these technologies for your next geospatial machine learning project!",
+    "start_datetime": "2025-11-19T02:45:00Z",
+    "end_datetime": "2025-11-19T02:50:00Z",
+    "talk:code": "TSVGYJ",
+    "talk:guid": "d2496001-0be6-53d9-b1c0-6b6ee8659414",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Lightning talk",
+    "talk:type": "Lightning Talk",
+    "talk:language": "en",
+    "talk:room": "WG403",
+    "talk:room_capacity": 386,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "RTEKLC",
+        "name": "Wei Ji Leong",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/RTEKLC/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-19T02:47:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/TSVGYJ/",
+      "title": "GPU-native Zarr: Optimizing data throughput for large-scale geospatial machine learning workflows"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/TSVGYJ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/RTEKLC/",
+      "title": "Wei Ji Leong"
+    },
+    {
+      "rel": "related",
+      "href": "https://docs.nvidia.com/gpudirect-storage/overview-guide/index.html",
+      "title": "GPUDirect Storage (GDS)"
+    },
+    {
+      "rel": "related",
+      "href": "https://docs.rapids.ai/api/kvikio/stable",
+      "title": "`kvikIO`"
+    },
+    {
+      "rel": "related",
+      "href": "https://developer.nvidia.com/nvcomp",
+      "title": "`nvCOMP`"
+    },
+    {
+      "rel": "related",
+      "href": "https://developmentseed.org/team/weiji-leong",
+      "title": "Machine Learning Engineer"
+    },
+    {
+      "rel": "related",
+      "href": "https://developmentseed.org",
+      "title": "Development Seed"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.pygmt.org",
+      "title": "PyGMT"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/pangeo-data/pangeo-docker-images",
+      "title": "pangeo-docker-images"
+    },
+    {
+      "rel": "related",
+      "href": "https://crates.io/crates/cog3pio",
+      "title": "cog3pio"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/weiji14",
+      "title": "GitHub"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/TSVGYJ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "blog-post-on-accelerating-ai-ml-workflows-in-earth-sciences-": {
+      "href": "https://xarray.dev/blog/gpu-pipeline",
+      "title": "Blog post on \"Accelerating AI/ML Workflows in Earth Sciences with GPU-Native Xarray, Zarr, DALI, and nvcomp\"",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

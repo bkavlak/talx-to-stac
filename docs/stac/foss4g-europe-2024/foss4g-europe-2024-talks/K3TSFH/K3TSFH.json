@@ -1,0 +1,139 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "K3TSFH",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Towards better data platforms with semantic metadata",
+    "description": "For data platforms, where thousands of datasets are stored and documented, interoperability is essential. These platforms often gather records from external sources, and they above all _want to make their own data widely exploitable_.\r\n\r\nIn the world of INSPIRE and geospatial data, rigid XML standards have been the foundation of interoperability for many years. This is now changing as we notice a strong push towards another kind of standards: **semantic metadata**.\r\n\r\n[DCAT](https://www.w3.org/TR/vocab-dcat-3/) is a very good example: at its core, it is a list of concepts and relations that can be used to describe multiple collections of datasets. Because it does not impose a formal way to set up those concepts, metadata expressed in DCAT can have many different forms.\r\n\r\nThis trend imposes great challenges to long-standing solutions such as GeoNetwork, which are built on strictly-structured XML formats.\r\n\r\nIn this talk we will showcase a promising approach made by leveraging the versatility of the GeoNetwork-UI toolkit, a sister project of GeoNetwork built using modern technologies. GeoNetwork-UI has a different way of reading and outputting metadata, and implementing a semantic-capable module opens up many new and exciting perspectives: wider interoperability outside of the geospatial ecosystem, description of relationships between resources across the network, better indexation of the catalog content by search engines etc.\r\n\r\nThis talk will first give a general overview of the changes ongoing in the INSPIRE ecosystem and the push for new interoperability standards, and then showcase the existing implementation in GeoNetwork-UI and what it is capable of.\r\n\r\nPlease keep in mind that the talk will be quite technical, and that the word \"metadata\" _will_ be pronounced more than once! ;)\r\n\r\nLooking forward to see you there!",
+    "start_datetime": "2024-07-04T14:30:00Z",
+    "end_datetime": "2024-07-04T15:00:00Z",
+    "talk:code": "K3TSFH",
+    "talk:guid": "52eed6ef-d6a8-5afc-9c0f-ac2aac1e9b5c",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Open standards and interoperability for geospatial",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "QFieldCloud (246)",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "MKHVLE",
+        "name": "Olivia Guyot",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/MKHVLE/"
+      },
+      {
+        "code": "9JWZHX",
+        "name": "Florent Gravin",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/9JWZHX/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-04T14:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/K3TSFH/",
+      "title": "Towards better data platforms with semantic metadata"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/K3TSFH/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/MKHVLE/",
+      "title": "Olivia Guyot"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/9JWZHX/",
+      "title": "Florent Gravin"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.w3.org/TR/vocab-dcat-3/",
+      "title": "DCAT"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/K3TSFH/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/K3TSFH/resources/FOSS4G_EU_Tartu_2024_-_Towards_better_da_3TC2P51.pdf",
+      "type": "application/pdf",
+      "title": "Slides",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "converter-video": {
+      "href": "https://drive.google.com/file/d/18FBf-5fNmnzNqBB26FEw1kX432U4Nh1D/view?usp=sharing",
+      "title": "converter video",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/7fAJc2yC5LG14duR5S2v4y",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Towards better data platforms with semantic metadata",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=DjF2NC-43Rc",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Towards better data platforms with semantic metadata",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

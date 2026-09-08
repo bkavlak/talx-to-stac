@@ -1,0 +1,114 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "ZYC7RM",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "FAIR-ization of INSPIRE datasets",
+    "description": "Belgian federal authorities are working on PSI/INSPIRE conversion tool. We have produced an enhanced DCAT AP 2.0 profile. We have proposed to use ATOMFeed to instantiate dcat:Distribution classes because of their semantic completeness. We have tried to keep most of the INSPIRE metadata elements in order to keep the work that has been done for some years..\r\n\r\n\r\nNow we are working on its implementation through GeoNetwork 4.x microservices that would provide a consistent DCAT AP RDF/XML with many languages. By doing this we consider that our datasets will be more accessible through many platforms and open data portals and will become real FAIR data. \r\n\r\nThis work is the result of the strong collaboration between federal belgian authorities (e.g. Cadaster, National Mapping Agency, Office of federal statistics, ...).Moreover we are involving regional authorities in order to reach a certain harmonization. Now we would like to share these developments with the opensource community. You can find more information here https://github.com/belgif/inspire-dcat.",
+    "start_datetime": "2022-08-25T10:00:00Z",
+    "end_datetime": "2022-08-25T10:30:00Z",
+    "talk:code": "ZYC7RM",
+    "talk:guid": "041fef56-9d54-5c01-ac77-adff65d447e1",
+    "talk:event": "foss4g-2022",
+    "talk:track": "A European approach to geospatial open source",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Auditorium",
+    "talk:room_capacity": 1000,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "MUR7XC",
+        "name": "C\u00e9line Vilain",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/MUR7XC/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T10:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/ZYC7RM/",
+      "title": "FAIR-ization of INSPIRE datasets"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/ZYC7RM/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/MUR7XC/",
+      "title": "C\u00e9line Vilain"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/belgif/inspire-dcat",
+      "title": "github.com/belgif/inspire-dcat"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/ZYC7RM/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/mDCmQXBUbyXWcWCBByQyf1",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | FAIR-ization of INSPIRE datasets",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=4zD9Nm3nm5k",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | FAIR-ization of INSPIRE datasets",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

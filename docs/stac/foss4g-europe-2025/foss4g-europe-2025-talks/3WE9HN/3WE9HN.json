@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "3WE9HN",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "GeoNetwork improvements for better usability",
+    "description": "The NSDI Geoportal (National Spatial Data Infrastructure) serves as a\u00a0starting point for viewing, searching, and downloading spatial data sources that are, according to the NSDI Act, part of National Spatial Data Infrastructure. \r\nThe main part of Geoportal is the metadata catalog, which was developed using the GeoNetwork catalog application to manage spatially referenced resources. It provides powerful metadata editing and search functions and is currently used in numerous Spatial Data Initiatives worldwide.\r\nImplementing customized functionalities within the Geonetwork framework enabled an enhanced user experience, optimization of metadata search, and integration with other systems.\r\nKey adaptations include the enhancement of spatial and attribute filters for better search results, an analytics module on the map component, customization of the metadata editor according to INSPIRE standards and NSDI specification for better interoperability, and enhancement of the administrative module for better user and group management. \r\nGeoNetwork was integrated with Kibana dashboards, which provide an intuitive way of relaying data to the user, such as the number of defined metadata in the system, most searched keywords, the percentage of the metadata spatial scope, the number of searches, etc. Also, GeoNetwork was integrated with GeoHealthCheck, a Python application used to monitor the overall health (uptime and availability) of OGC services like WMS, WFS, WMTS, and ATOM. \r\nThe results of this work show that the customization of the GeoNetwork system within NSDI Geoportal significantly contributes to improving the accessibility of spatial data and increasing its usability for end users. The integration of customized functionalities enables more efficient searching, easier data analysis, and better interaction with other systems.\r\nKeywords: NSDI Geoportal, GeoNetwork, interoperability, INSPIRE, spatial data, metadata",
+    "start_datetime": "2025-07-16T09:30:00Z",
+    "end_datetime": "2025-07-16T10:00:00Z",
+    "talk:code": "3WE9HN",
+    "talk:guid": "d8c21bed-e3d5-5204-8c33-d43fef0c02e2",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Open standards and interoperability for geospatial",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "SA02",
+    "talk:room_capacity": 108,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "38PPVU",
+        "name": "Dora Kardum",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/38PPVU/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-16T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/3WE9HN/",
+      "title": "GeoNetwork improvements for better usability"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/3WE9HN/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/38PPVU/",
+      "title": "Dora Kardum"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/3WE9HN/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/dC1vCD9rwv4cXnsiNac42b",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | GeoNetwork improvements for better usability",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=EAlOjhlZMhU",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | GeoNetwork improvements for better usability",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

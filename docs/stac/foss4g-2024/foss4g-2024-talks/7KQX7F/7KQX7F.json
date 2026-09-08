@@ -1,0 +1,97 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "7KQX7F",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "State of PgHydro - Hydrographic Extension for PostgreSQL/PostGIS",
+    "description": "The PostgreSQL extension for Hydrographic Applications Project (PgHydro) represents the first innovation of intelligence as an extension of spatial database management systems for use in water resources management that uses the sub-catchment network model and the logic elements present in the Pfafstetter basin coding system. PgHydro aims for an add-on implementation of a spatial database management system performed by a series of tables, queries, functions, or views that can be used individually to assist in water resources decision-making. These objects are the hydrography core of the intelligence system developed using free open-source software that can be used by anyone dealing with water resources management. To this end, this new conceptual model was implemented in the object-relational spatial database management system PostgreSQL/PostGIS, respecting the integrity constraints related to the geometry of the mapped objects. These user-defined constraints respect the logical objects based on the Pfafstetter basin coding system and integrity constraints linked to the spatial relationships between objects, which follow the ISO SQL/MM specifications. The main advantage of using the pghydro extension is the possibility to process large datasets and complex queries using a simpler hydrography model and the tools and languages already available in spatial database management systems that work as a framework for the future development of new extensions related to water resources.\r\nThe pghydro functionalities can be run using a GUI developed in a QGIS plugin called PgHydro Tools. After the physical implementation of the pgHydro Scheme in the spatial database management system, the construction of the Pfafsteter hydrography dataset is started using the hydrography objects that make up the pgHydro Tools. The construction of this base is divided into seven stages: 1) Creation of the spatial database and creation of the pghydro extension; 2) insertion of the drainage lines and the drainage areas in the spatial database; 3) verification of the consistency of the drainage network geometries and topologies; 4) verification of the consistency of the drainage areas geometries and topologies; 5) verification of the consistency of topology between the drainage network and the drainage areas; 6) Pfafstetter basin coding and other information, finally; 7) export of the final Pfafstetter hydrography dataset. Optional steps are the systematization of river names and the management of the multiuser edition.\r\nLast year, the pgh_raster was developed, which allows the insertion of the digital elevation model and products derived from it, such as drainage direction and flow accumulation. Functions allow retrieving the downstream or upstream pixel given a position as well as the elevation profile along a given specific geometry.\r\nAnother extension developed for pghydro was the pgh_hgm, a hydrogeomorphometric extension used to calculate information such as minimum and maximum elevation, slope, concentration time, time travel, and others related to drainage geometry and digital elevation. The pghydro project is officially and widely used by the National Water and Sanitation Agency of Brazil as a reference for the Brazilian Water Resources Management.",
+    "start_datetime": "2024-12-04T18:45:00Z",
+    "end_datetime": "2024-12-04T19:15:00Z",
+    "talk:code": "7KQX7F",
+    "talk:guid": "6e5b5e3f-cc0f-53a6-bb9e-2f4684a94ec9",
+    "talk:event": "foss4g-2024",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room V",
+    "talk:room_capacity": 80,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "VUUG7N",
+        "name": "Alexandre de Amorim Teixeira",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/VUUG7N/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-04T19:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/7KQX7F/",
+      "title": "State of PgHydro - Hydrographic Extension for PostgreSQL/PostGIS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/7KQX7F/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/VUUG7N/",
+      "title": "Alexandre de Amorim Teixeira"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/7KQX7F/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024/submissions/7KQX7F/resources/PgHydro_20241204_EN-US_bWe7sr4.pdf",
+      "type": "application/pdf",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

@@ -1,0 +1,140 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "FRJ3M3",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "Python plugin for statistical analysis of landslides susceptibility over wide areas",
+    "description": "Within the Extended Partnership \u201cMulti-Risk sciEnce for resilienT commUnities undeR a changiNg climate\u201d (RETURN), the research group of the Department of Civile, Chemical and Environmental Engineering of the University of Genova is developing a system for processing landslide susceptibility maps in GIS environment.\r\nThe expected result is a tool meant to be used by administrations and local authorities for ground instability assessment and management. Therefore, high usability is required, that implies free and easily available base data, easily interpretable results, and clearly explained limitations of use and reliability level.\r\nTo accomplish this objective, some stakes have been established:\r\n    \u2022 Only earth landslide are expected to be considered for the processing of susceptibility maps. They include slow flows, fast flows, slides, areas subject to diffuse shallow landslides and those landslides classified as \u201cundetermined\u201d and \u201ccomplex\u201d that generally contain at least some earth movement .\r\n    \u2022 The proposed tool should be scalable and transferable. To such purpose, eight independent predisposing factors were chosen complying with these requirements and described by data open  and available for the whole Italy. \r\n    \u2022 To ensure the quality of input and output data, the procedure is optimized for certain \u201ccertified\u201d datasets\r\n    \u2022 The procedure has to be transparent and traceable . The logistic regression method was chosen, which is widely used and described in the literature. The resulting maps report probability values that are quite difficult to understand, so, to facilitate usability, they are subsequently aggregated into qualitative susceptibility classes.\r\n    \u2022 Minimum reliability threshold: the procedure has been tuned, and additional tests are presently in course in some study areas, to ensure an overall reliability defined through AUC of at least 75%. In case of lower AUC values, the causes are investigated, to foresee possible corrective interventions.\r\n    \u2022 In order to allow also people not particularly experienced in GIS to use the model and to ensure the correct implementation of the planned operations, the writing of the entire procedure in Python code is underway, at the moment within GRASS, then, possibly as a QGIS plugin. \r\nThe procedure was tested in GRASS over areas of about 1,000 km2, considering the pixel as the minimum spatial unit, with a nominal scale of 1:100,000 and a raster resolution of 20 m. The first phase consisted of the preprocessing and discretization of the basic data, so as to allow a general control of data quality and reduce the possible combinations of factors to a manageable number. The eight considered factors, elevation, slope, aspect, water accumulation, land use/land cover, lithology and rainfall influence, were then brought into raster format at the set resolution and divided into qualitative (e.g., land use type) or ordinal (e.g., Elevation Intervals, from 0 to maximum elevation) classes. \r\nThe resulting maps were compared in a bivariate analysis with the Inventory of Landslide Phenomena In Italy (IFFI), and the classes of each factor were reordered on the basis of conditional probability. The factors were then related to each other and to actual landslides in a multivariate analysis by logistic regression, defining for each pixel the probability of landslide occurrence. The obtained values were finally grouped into three qualitative classes to indicate high, medium and low landslide susceptibility. \r\nThe procedure described above resulted in an AUC in calibration generally above the preset threshold of 75 percent and was used as a basis for the realization of the actual tool, through a series of refinements currently in progress. \r\nThe tests so far have shown that each type of landslide is affected differently by the factors considered, and the model is more reliable if the different kinematisms are treated separately. Therefore, for each study area, the procedure has to be repeated for all landslide types, which is time-consuming and disk room-consuming. In response to this problem, the rewriting of the model as a python script is in course, not only for a more efficient application, but also to define a standardized procedure by which to make it accessible to people outside the research team, and leading to comparable results.\r\nAs part of the automation of the procedure, efforts are also being made to define ancillary functions dedicated to solving problems that arose during the experimentation. \r\nWith regard to the definition of the statistical sample, i.e., the areas actually in landslide, the need has emerged to distinguish, for the phenomena reported in the IFFI repository, the detachment area, i.e., the area from which the landslide actually developed, and the accumulation area, i.e., the part of the territory affected by the effects of the landslide. Therefore, to avoid introducing noise into the model due to incorrect perimetry, a part of the code is being prepared to separate the two parts on a statistical basis.\r\nAnother issue that is being addressed is the identification, for each kinematism and for each territory considered, of the factors actually determining the development of the landslides, in order to reduce noise and lighten the computational processes. Several methods are being tested, including \u201cFrequency Ratio,\u201d \u201cLeave One Out,\u201d and \u201cStepwise\u201d. Once the most effective method is determined, this part will also be introduced as a script into the model.",
+    "start_datetime": "2025-07-16T15:15:00Z",
+    "end_datetime": "2025-07-16T15:20:00Z",
+    "talk:code": "FRJ3M3",
+    "talk:guid": "6e558a55-2d22-5d3a-9b0e-d7c4eb73102c",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Academic track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "PA01 (Quarticle)",
+    "talk:room_capacity": 95,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "3RMTVM",
+        "name": "Paola Salmona",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/3RMTVM/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-16T15:17:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/FRJ3M3/",
+      "title": "Python plugin for statistical analysis of landslides susceptibility over wide areas"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/FRJ3M3/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/3RMTVM/",
+      "title": "Paola Salmona"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/FRJ3M3/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "word-version": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/FRJ3M3/resources/Paper_MOSTAR_pulitoB_N9Rnz8j.docx",
+      "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "title": "Word version",
+      "roles": [
+        "data"
+      ]
+    },
+    "pdf-version": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/FRJ3M3/resources/Paper_MOSTAR_final_hVijlgS.pdf",
+      "type": "application/pdf",
+      "title": "PDF version",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "presentation-16-07": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/FRJ3M3/resources/presentazione_salmona_vkgdkBb.pdf",
+      "type": "application/pdf",
+      "title": "Presentation 16/07",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "link-to-the-code": {
+      "href": "https://github.com/LabGeomatica/SALSA",
+      "title": "Link to the code",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/fLjDpWKq4c6k6HTYwygXrj",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Python plugin for statistical analysis of landslides susceptibility over wide areas",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=VeMRlOlst3w",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Python plugin for statistical analysis of landslides susceptibility over wide areas",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

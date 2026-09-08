@@ -1,0 +1,104 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "KWDATH",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "3D4DT: An Approach to Explore Decision Trees for Thematic Map Creation as an Interactive 3D Scene",
+    "description": "Background & Problem: There are currently several software dedicated to the automatic creation of thematic maps. These can be proprietary (e.g., ArcGIS Online, Carto) or non-proprietary solutions (e.g., SDG Viz, AdaptiveMaps, the GAV Toolkit, the Geoviz Toolkit). An important drawback of these state-of-the-art solutions is that the expertise encapsulated in such software (e.g., enabling to choose a type of map or visual variables depending on the characteristics of the data contained in the map), is usually not well communicated to the user. That is, users can use these tools to create meaningful maps for their open geographic datasets but are offered little support regarding knowing why some suggestions of thematic map types were made (e.g., why a dot map is proposed by a toolkit instead of a choropleth map). Put simply, users get little insight into the decision processes of current tools/toolkits for thematic web creation.\r\n\r\nContributions & Target audience: To help users learn about the decision processes of software for automatic map creation, this work introduces the 3D4DT approach. The approach uses JSON (JavaScript Object Notation) as a machine-readable format to represent decision trees and subsequently maps JSON elements to user interface elements for an interactive 3D scene. The contributions of the work are twofold: 1) a controlled vocabulary to support the creation of machine-readable descriptions for decision trees of the Cartography literature; and 2) an approach to navigate these decision trees as interactive scenes in 3D. The approach is implemented as an open-source prototype. It is relevant to both developers and users of software for automatic thematic map creation. The controlled vocabulary is relevant to developers, who can encode the decision trees underlying their software as machine-readable data, and make the \u2018brain\u2019 of their software available for reuse in multiple use cases. The exploration of the decision trees as an interactive scene is relevant to users who can retrieve information about the inner workings of software for map creation in an interactive format.\r\n\r\nImplementation: The prototype is available as a web-based application on GitHub. The server is run using Node.js. To speed up the development of the frontend, we have used Vitejs. The 3D interactive scene is implemented using the JavaScript library Three.js. The choice of Three.js was motivated by the fact that it is 1) open source, 2) expressive enough to create a variety of 3D scenes in the browser, and 3) is actively maintained by a community of contributors.\r\n\r\nEvaluation: To evaluate the expressiveness of the controlled vocabulary (contribution 1), the work used three decision trees for thematic map creation: 1) DecisionTreeA: the decision tree of the AdaptiveMaps open-source prototype (Degbelo et al., 2020); 2) DecisionTreeB: the decision tree for the choice of thematic map types from (Kraak et al., 2020); and DecisionTreeC: the visual variable syntactics from (White, 2017), which was converted to a decision tree. To evaluate the usability of the 3D interactive scene (contribution 2), the open-source prototype was tested through a lab-based user study. The study compared the interaction with two decision trees using interactive 3D scenes to the same information displayed as a simple website (text+pictures). 12 participants were recruited via personal messages. They were asked to interact with DecisionTreeA and DecisionTreeB using both conditions (interactive 3D vs static). Six participants stated to have no experience at all in the field of geoinformatics, four claimed to be slightly experienced and two considered themselves very experienced. None of the participants was familiar with the literature which was used for DecisionTreeA and DecisionTreeB. A critical difference between DecisionTreeA and DecisionTreeB is that the latter was simpler in its hierarchical structure. We measured the efficiency (time taken to answer questions), effectiveness (number of correct answers, during the interaction with the prototype), and memorability (number of correct answers to questions asked to the users after the prototype has been shut). The key takeaways from the experiments were: 1) participants were slightly faster in the text+pictures condition, but the differences in efficiency values were not statistically significant; 2) using the 3D interactive scene, participants could answer questions pertaining to DecisionTreeB more accurately; differences in effectiveness for the more complex DecisionTreeA were not statistically significant; and 3) the differences in memorability between the two conditions (interactive 3D vs static) were not statistically significant. Hence, an interactive 3D scene could be used as a complementary means to help users understand how thematic maps are created especially when designers wish to convey this information most accurately.\r\n\r\nRelevance for the FOSSG Community: Since DecisionTreeA is the brain of the AdaptiveMaps open-source prototype that helps create web maps semi-automatically, helping users visually explore that decision tree through the 3D4DT approach is one way of realizing the requirement of algorithmic transparency for intelligent geovisualizations. The controlled vocabulary is relatively simple and could be reused to promote algorithmic transparency for other types of open-source geospatial software, if their decision rules can be modelled as decision trees (i.e., if-then-else rules). \r\n\r\nReproducibility: the data collected during the user study, the script for the analysis as well as all questions answered by the participants can be accessed at https://figshare.com/s/60b1a4a12f9bd32d2759. The source code of the AdaptiveMaps prototype, which used DecisionTreeA to create various thematic maps, can be accessed at https://github.com/aurioldegbelo/AdaptiveMaps . The source code of the 3D4DT prototype, the JSON schemas, and the encoding of the decision trees as JSON can be accessed at https://github.com/aurioldegbelo/3D4DT .\r\n\r\nReferences: \r\nDegbelo, A., Sarfraz, S. and Kray, C. (2020) \u2018Data scale as Cartography: a semi-automatic approach for thematic web map creation\u2019, Cartography and Geographic Information Science, 47(2). \r\nKraak, M.-J., Roth, R.E., Ricker, B., Kagawa, A. and Sourd, G.L. (2020) Mapping for a sustainable world. New York, USA: The United Nations.\r\nWhite, T. (2017) \u2018Symbolization and the visual variables\u2019, in J.P. Wilson (ed.) Geographic Information Science & Technology Body of Knowledge.",
+    "start_datetime": "2023-06-29T14:30:00Z",
+    "end_datetime": "2023-06-29T15:00:00Z",
+    "talk:code": "KWDATH",
+    "talk:guid": "4f82761e-b42d-5861-a666-1e46bb441379",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Academic Track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT E / N209 - Floor 3",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "C7AGMF",
+        "name": "Auriol Degbelo",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/C7AGMF/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-29T14:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/KWDATH/",
+      "title": "3D4DT: An Approach to Explore Decision Trees for Thematic Map Creation as an Interactive 3D Scene"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/KWDATH/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/C7AGMF/",
+      "title": "Auriol Degbelo"
+    },
+    {
+      "rel": "related",
+      "href": "https://figshare.com/s/60b1a4a12f9bd32d2759",
+      "title": "figshare.com/s/60b1a4a12f9bd32d2759"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/aurioldegbelo/AdaptiveMaps",
+      "title": "github.com/aurioldegbelo/AdaptiveMaps"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/aurioldegbelo/3D4DT",
+      "title": "github.com/aurioldegbelo/3D4DT"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/KWDATH/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

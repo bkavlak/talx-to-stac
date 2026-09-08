@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "FPNKWH",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "DINO-EdgeQuery: Edge-First Polygon Decoding for Building Footprint Extraction from Satellite Imagery",
+    "description": "Abstract : \r\n\r\nBuilding footprint extraction from high-resolution satellite imagery requires accurate building boundary raster masks and an effective shape reconstruction method to produce natural building footprints. Unlike vertex-centric graph approaches or mask contour tracing, we propose DINO-EdgeQuery, an edge-first paradigm that addresses this need. A frozen DINOv3 backbone, adapter neck, and an instance decoder inspired by Mask2Former provide building-aware boxes and masks, while a region of interest (ROI)-conditioned EdgeQuery decoder predicts edge activity, center, direction, length, and successor relations. By capturing dominant wall structures as edge primitives and reconstructing vertices purely through deterministic line intersections, we deliberately separate neural edge prediction from verifiable geometric assembly. Active edges are ordered by successor scores, and the P2 quality gate removes invalid or contained duplicate polygons. This geometric post-processing encourages sharp, line-intersection-based corners and enforces topology-safe polygons through deterministic validity checks. To improve generalization, we train segmentation and EdgeQuery branches separately, mask inactive losses to zero, and merge the trained weights for unified inference. Validation on the dataset publicly released on the website by the Wuhan University Geospatial Computer Vision Group demonstrates that our EdgeQuery framework, including the P2 quality gate, delivered high-quality, geometrically superior polygon outputs with zero self-intersections and triangle collapses, and simultaneously improved Intersection over Union (IoU) and suppressed duplicate building footprints.\n\nDetailed description : \r\n\r\nThis presentation introduces DINO-EdgeQuery, an edge-first framework for extracting GIS-ready building footprint polygons from high-resolution satellite and overhead imagery. The motivation is that raster segmentation and vector polygon generation are related but not identical tasks. A building mask can achieve good pixel-level accuracy while still producing jagged outlines, redundant vertices, missing corners, duplicate footprints, or invalid geometry. For practical GIS use, footprints should be compact, editable, georeferenced, and topologically valid. DINO-EdgeQuery therefore treats polygon extraction as a structured geometry problem rather than a simple mask-polygonization task.\r\n\r\nThe architecture separates neural prediction from deterministic geometric assembly. Modules 1\u20138 form the neural pipeline. A frozen DINOv3 backbone processes the input image, and an adapter neck converts intermediate DINO features into an F8/F16/F32 multi-scale feature pyramid used by the instance decoder and ROI tokenizer. The neck also includes a shallow CNN boundary stem: F4-like boundary features are extracted from the RGB image and fused as a lightweight residual correction into the stride-8 path, rather than being used as direct mask or ROI inputs. A Mask2Former-like instance decoder then predicts building masks and boxes.\r\n\r\nFor each instance, the ROI tokenizer extracts local multi-scale tokens from predicted boxes and masks at inference time, while oracle boxes and masks are used only during StageG2 training. The EdgeQuery decoder predicts a fixed set of edge queries. Each query estimates edge activity, center, direction, half-length, and successor relation. Unlike vertex-centric methods that detect vertices and optimize connections, DINO-EdgeQuery predicts edge primitives first and uses successor scores to form an ordered edge cycle.\r\n\r\nModules 9\u201310 are deterministic post-processing and output stages in the current implementation. Active edges are converted into support lines, ordered by successor relations, and intersected to reconstruct polygon vertices. The final P2 inference profile applies mask-consistency, coverage, outside-ratio, area-ratio, and geometric-validity checks, followed by containment-based duplicate suppression. This removes invalid or redundant polygons and produces cleaner GIS-ready outputs.\r\n\r\nTraining is performed in two main stages. StageG1 is boundary-aware segmentation training: the DINO backbone and EdgeQuery branch are frozen, while the adapter neck and instance decoder are optimized with classification, box, GIoU, mask BCE, mask Dice, and boundary-focused mask BCE losses. StageG2 freezes the segmentation branch and trains the ROI tokenizer, EdgeQuery decoder, edge primitive head, and successor relation head using contour-derived targets for edge activity, center, direction, length, and successor relation.\r\n\r\nFinally, predicted image-space polygons are exported as geospatial vector data. GeoTIFF affine georeferencing and CRS metadata are read with Rasterio/GDAL, optional CRS transformation is performed with PROJ/pyproj, and the results are exported as GeoJSON for inspection in QGIS over the source raster or an OpenStreetMap basemap.",
+    "start_datetime": "2026-09-01T06:30:00Z",
+    "end_datetime": "2026-09-01T07:00:00Z",
+    "talk:code": "FPNKWH",
+    "talk:guid": "9bc2c964-6e21-589c-b64a-96aa1855b6f5",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos1",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "NASYTF",
+        "name": "Yuji Kobayashi",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/NASYTF/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T06:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/FPNKWH/",
+      "title": "DINO-EdgeQuery: Edge-First Polygon Decoding for Building Footprint Extraction from Satellite Imagery"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/FPNKWH/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/NASYTF/",
+      "title": "Yuji Kobayashi"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/FPNKWH/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

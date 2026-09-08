@@ -1,0 +1,134 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "XPCXBQ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "MapStore and geOrchestra, a match made in heaven",
+    "description": "Work started at the end of 2019 to integrate [MapStore](https://mapstore.readthedocs.io/en/latest/) as a [WebGIS viewer](https://mapstore.geosolutionsgroup.com/mapstore/#/) for the [geOrchestra SDI](https://www.georchestra.org/) (a free, open source, modular and interoperable Spatial Data Infrastructure software born in 2009 to meet the requirements of the INSPIRE directive in Europe). The work, led by [GeoSolutions](https://www.geosolutionsgroup.com/), was funded by [Rennes M\u00e8tropole](https://metropole.rennes.fr/) with the  goal to meet the expectations of the large geOrchestra community for a new, more ergonomic, modular and customizable WebGIS based on updated technologies.\r\n\r\nThe project also triggered a significant evolution of the MapStore product by developing several interesting new tools and enhancements to the MapStore framework. Thanks also to this powerful integration MapStore significantly increases its strengths by opening the door to further and more advanced developments and evolutions. Below is a list of main enhancements and new features that have been part of the integration:\r\n\r\n- Application Context Manager: an administrative tool designed to build and configure MapStore's viewers\r\n- General evolutions of common existing tools in MapStore to enrich the user experience: Map viewport enhancements, CRSs management, TOC, translations, styling of layers, advanced measure tool, layer metadata, various catalog tool extensions to support additional data sources (like TMS, WFS etc), Attribute Table enhancements for the editing mode and more\r\n- Enhancements on the MapStore security tier aimed to the integration\r\n- Extension Manager: extensions are plugins that can be distributed as a separate package (a zip file), and be installed, activated and used at runtime in an existing MapStore installation\r\n- MapStore Data Directory: to make more portable and manageable the MapStore configuration and installed extensions\r\n\r\nThe first integration received positive feedback from the geOrchestra community but also from those who were already using MapStore as a standalone application as well as from GeoNode users. Thanks to MapStore, some application flows have also been strengthened and consolidated in geOrchestra; further developments made after the first integration work also had the aim of migrating other custom tools (such as Cadastrapp and Urbanisme) leveraging on the MapStore Extensions system and also the geOrchestra community has taken its own steps in this direction with the inclusion of further custom extensions for MapStore.\r\n\r\nThis great collaboration is progressing fruitfully even today where further evolutions and developments are expected for 2022, including new features and functionalities for MapStore.",
+    "start_datetime": "2022-08-25T15:55:00Z",
+    "end_datetime": "2022-08-25T16:00:00Z",
+    "talk:code": "XPCXBQ",
+    "talk:guid": "7637dc7a-3707-5fb2-926e-202f0a9d22f5",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Room Limonaia",
+    "talk:room_capacity": 110,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "RXQNFX",
+        "name": "Tobia Di Pisa",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/RXQNFX/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T15:57:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/XPCXBQ/",
+      "title": "MapStore and geOrchestra, a match made in heaven"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/XPCXBQ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/RXQNFX/",
+      "title": "Tobia Di Pisa"
+    },
+    {
+      "rel": "related",
+      "href": "https://mapstore.readthedocs.io/en/latest/",
+      "title": "MapStore"
+    },
+    {
+      "rel": "related",
+      "href": "https://mapstore.geosolutionsgroup.com/mapstore/#/",
+      "title": "WebGIS viewer"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.georchestra.org/",
+      "title": "geOrchestra SDI"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.geosolutionsgroup.com/",
+      "title": "GeoSolutions"
+    },
+    {
+      "rel": "related",
+      "href": "https://metropole.rennes.fr/",
+      "title": "Rennes M\u00e8tropole"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/XPCXBQ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/1mjJiCTBufoJLa7VL9FXPo",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | MapStore and geOrchestra, a match made in heaven",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=Ya1gp1kHLZY",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | MapStore and geOrchestra, a match made in heaven",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

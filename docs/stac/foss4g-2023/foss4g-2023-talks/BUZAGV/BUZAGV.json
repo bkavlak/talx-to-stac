@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "BUZAGV",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Land of 60000 zoning plans - QGIS to the rescue!",
+    "description": "This project was a pilot of a larger upcoming project, where the aim is to produce a national interoperable data model for every valid zoning and city plan in Finland. The project is part of the development of the Finnish Environment Institute\u2019s Built Environment Information System and the harmonization of national land use planning information. \r\n\r\nThe aim of this presentation is to present the overall workflow of the project and the transition from proprietary data towards an open source national database with common spatial and descriptive information. Currently the data used in municipal decision making processes in Finland consists of proprietary data that is lacking spatial information or is outdated.\r\n\r\nThe transformation of the zoning and city plans from two different data providers created a lot of topological errors and unmatched geometries. QGIS was a key tool for fixing these errors - the digitizing and geometry repair tools were used in solving these issues. \r\n\r\nThis pilot project was implemented in Southern Savonia, Finland. In the region,  zoning has been executed for approximately 80 % of the whole land area. The focus of the project was to investigate the compatibility of the base data and how to automate the processes of merging, fixing, updating and comparing the data. The data was in vector format and was provided by the National Land Survey of Finland and municipalities of Southern Savonia. \r\n\r\nThe automation processes were built with a python script and the quality control was made with manual digitization. The official documentation of the zoning and city plans were included in the borderline vector data. The final product was uploaded to a GitHub repository. The project also managed to produce a timeline for the upcoming nationwide project and the distribution between automated and manual workload in similar projects. \r\n\r\nThe methods and the results of the project could be duplicated in other countries or lead the way towards more open national or regional land use planning.",
+    "start_datetime": "2023-06-28T14:00:00Z",
+    "end_datetime": "2023-06-28T14:30:00Z",
+    "talk:code": "BUZAGV",
+    "talk:guid": "acd5d22b-4904-51c1-b687-0e211f43deff",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Transition to FOSS4G",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT F / N212 - Floor 3",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "ZUUPNY",
+        "name": "Ville Hamunen",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/ZUUPNY/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T14:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/BUZAGV/",
+      "title": "Land of 60000 zoning plans - QGIS to the rescue!"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/BUZAGV/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/ZUUPNY/",
+      "title": "Ville Hamunen"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/BUZAGV/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/8NCDiXsXzsKaLcowJ7BS9W",
+      "type": "text/html",
+      "title": "2023 | Land of 60000 zoning plans - QGIS to the rescue! - Ville Hamunen",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=IFYKEmzGslU",
+      "type": "text/html",
+      "title": "2023 | Land of 60000 zoning plans - QGIS to the rescue! - Ville Hamunen",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

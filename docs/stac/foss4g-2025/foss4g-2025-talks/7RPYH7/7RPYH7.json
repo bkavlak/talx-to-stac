@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "7RPYH7",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Evaluating the reliability of Crowdsourced Weather data for urban heat assessment: a case study in Melbourne",
+    "description": "This study assesses the reliability of Citizen Weather Stations (CWS) for urban heat analysis in Melbourne using CrowdQC+ and spatial interpolation. After quality control, 277 of 465 stations remained. CWS data recorded slightly higher temperatures than professional stations, with accurate predicted vs. observed comparisons (R\u00b2\u202f=\u202f0.989; RMSE\u202f=\u202f0.306).\n\n1. Introduction\r\nProviding air temperature data with high spatial and temporal resolution remains a challenge in urban research as at least one of these conditions is often not met. The concept of crowdsourcing holds significant potential in solving that issue, particularly in urban areas where population density is high. Muller et al. (2015) defined crowdsourcing as the gathering of atmospheric data from publicly accessible sensors connected to the internet. Current and historical data from Citizen Weather Stations (CWS) are accessible through various online platforms, enabling broader use for local climate analysis and research. For example, Muller et al. (2015) highlighted various web-based initiatives and climate-related crowdsourcing efforts. Among them, Netatmo (https://www.netatmo.com/en-us/weather) and Weather Underground (https://www.wunderground.com/) have been used in urban climate research (Chapman et al., 2017; Fenner et al., 2021). \r\nCWS are run by diverse users, with varying quality control and sensor placement in different environments. As a result, the accuracy of CWS data can vary significantly. Several studies have established quality control (QC) procedures to tackle uncertainties in CWS data and remove inaccurate observations. These methods either depend on reference data from Professionally operated weather stations (PWRS) or apply statistical techniques that do not require external meteorological data (Chapman et al., 2017; Meier et al., 2017). One recent approach is CrowdQC+ (Fenner et al., 2021), which filters out erroneous data based on the principle that the collective observations of the crowd, referred to as the \u201cwisdom of the crowd\u201d, are more reliable than those from any single CWS. This paper examines data quality control through following that principle, incorporating a comparative analysis with PWRS data using spatial interpolation techniques. \r\n\r\n2. Methods\r\n2.1. CrowdQC+ \r\nFive northern suburbs of Melbourne, Victoria, Australia, were selected including the Local Government Areas (LGAs) of Brimbank, Maribyrnong, Moonee Valley, Merri-bek, and Darebin.  Hourly air temperature data from Wunderground and Netatmo stations were collected within the study area and a 10 km buffer zone, covering the period from December 1st, 2022, to February 28th, 2023. A first QC has been conducted using the CrowdQC+ package in R by Fenner et al. (2021). The main QC steps in the tool are: (m1) latitude and longitude check, (m2) distribution check, (m3) validity check, (m4) temporal correlation check, and (m5) spatial buddy check.\r\n2.2. Spatial interpolation and comparison with PWRS data\r\nUsing the quality controlled CWS data, air temperature measurements were compared against PWRS data to further evaluate consistency and potential biases. First, the daily maximum air temperature recorded by CWS located within a 2000 m radius and situated in similar Local Climate Zones (LCZs) was compared to corresponding PWRS data from five Bureau of Meteorology stations in and around the study area, as done by Napoly et al. (2018) and Fenner et al. (2021). Second, CWS air temperature was interpolated using Empirical Bayesian Kriging (EBK) at 06:00 AM on a single observation day. This time was chosen as it typically reflects stable atmospheric conditions with minimal human activity and limited solar influence, occurring just before sunrise, as also noted by Chapman et al. (2017).  EBK is a geostatistical interpolation method that predicts values by accounting for both distance and spatial autocorrelation, using a variogram to model how similarity between points decreases with distance. Kriging is especially effective in relatively flat and homogeneous terrains, such as Melbourne\u2019s northern and northwestern suburbs  (Dodson & Marks, 1997). Predicted air temperature at PWRS stations using the EBK layer were compared to observed values. A Wilcoxon signed-rank test assessed the difference between observed and predicted air temperatures.\r\n\r\n3. Results\r\n3.1\tData availability over the levels of quality control\r\nAs the QC process progressed, the number of stations meeting the criteria gradually decreased. The original dataset comprised 465 stations. At the m3 quality control level, 460 stations passed the validity check. This number slightly decreased to 457 at the m4 level, following the temporal correlation check. A moderate reduction was observed at the m5 level (spatial \"buddy check\"), with 277 stations meeting the required standards.\r\n3.2. Comparison of the average maximum temperatures between CWS and PWRS stations\r\nScatter plots comparing daily maximum air temperature data from PWRS and CWS stations, within areas where LCZs are uniform over a 2000 m radius, between December 2022 and February 2023 reveal that CWS stations tend to record slightly higher temperatures. This difference is likely due to the siting of CWS in more built-up or enclosed environments compared to the typically open settings of PWRS stations.\r\n3.3. Comparison of predicted and observed air temperatures\r\nThe interpolated spatial distribution of predicted air temperature at 6:00 AM across the study area, generated based on five PRWS stations shows a clear temperature gradient, with cooler conditions (18.0\u201319.5\u202f\u00b0C) in the northern and northeastern of Melbourne, particularly around Melbourne and Essendon Airports, and progressively warmer temperatures (20.5\u201321.5\u202f\u00b0C) toward the southern and southeastern areas. The Wilcoxon signed-rank exact test produced a test statistic of V = 0 and a p-value of 0.0625, indicating no statistically significant difference between the two sets of values at the 5% significance level. the model achieved a high coefficient of determination (R\u00b2 = 0.989), indicating that 98.9% of the variance in the observed data is explained by the predictions. The root mean square error (RMSE) of 0.306 further supports the model\u2019s accuracy, reflecting a low average prediction error.\r\n\r\n4. Conclusion\r\nThis study demonstrates the feasibility and reliability of using CWS data for high-resolution urban temperature analysis. The quality control process proved effective, retaining 277 out of the original 465 stations after a series of checks, including validity, temporal correlation, and spatial consistency. Comparison with PWRS data revealed that CWS stations tend to record slightly higher maximum temperatures, likely due to their location in more built-up or enclosed environments. The findings highlight the importance of spatial statistics in leveraging CWS data for urban air temperature assessments.\r\n\r\n5. References\r\n- Chapman, L., Bell, C., & Bell, S. (2017). Can the crowdsourcing data paradigm take atmospheric science to a new level? A case study of the urban heat island of London quantified using Netatmo weather stations. International journal of climatology, 37(9), 3597-3605.\r\n- Dodson, R., & Marks, D. (1997). Daily air temperature interpolated at high spatial resolution over a large mountainous region. Climate research, 8(1), 1-20.\r\n- Fenner, D., Bechtel, B., Demuzere, M., Kittner, J., & Meier, F. (2021). CrowdQC+\u2014a quality-control for crowdsourced air-temperature observations enabling world-wide urban climate applications. Frontiers in Environmental Science, 9, 720747.\r\n- Meier, F., Fenner, D., Grassmann, T., Otto, M., & Scherer, D. (2017). Crowdsourcing air temperature from citizen weather stations for urban climate research. Urban Clim 19: 170\u2013191. In.\r\n- Muller, C., Chapman, L., Johnston, S., Kidd, C., Illingworth, S., Foody, G., Overeem, A., & Leigh, R. (2015). Crowdsourcing for climate and atmospheric sciences: current status and future potential. International journal of climatology, 35(11), 3185-3203.\r\n- Napoly, A., Grassmann, T., Meier, F., & Fenner, D. (2018). Development and application of a statistically-based quality control for crowdsourced air temperature data. Frontiers in Earth Science, 6, 118.",
+    "start_datetime": "2025-11-18T22:30:00Z",
+    "end_datetime": "2025-11-18T22:55:00Z",
+    "talk:code": "7RPYH7",
+    "talk:guid": "c73960dd-8a4a-5dcb-abb6-dbdbbd126524",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Academic",
+    "talk:type": "Academic Paper",
+    "talk:language": "en",
+    "talk:room": "WG404",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "B8RBVE",
+        "name": "Percy Yvon Rakoto",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/B8RBVE/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-18T22:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/7RPYH7/",
+      "title": "Evaluating the reliability of Crowdsourced Weather data for urban heat assessment: a case study in Melbourne"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/7RPYH7/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/B8RBVE/",
+      "title": "Percy Yvon Rakoto"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/7RPYH7/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=3hY93UdKwuU",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Evaluating the reliability of Crowdsourced Weather data for urban heat assessment",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

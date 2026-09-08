@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "XDD9JK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Collaborative validation of user-contributed data using a geospatial blockchain approach: the SIMILE case study",
+    "description": "Decentralized applications are a fundamental element for internet development, not only because they are safer but also because they make data accessible to more people than centralized applications. One of the most important architectures of decentralized applications is blockchain, a computing infrastructure capable of sharing data obeying consensus and in an immutable way. The most popular blockchain applications belong to the financial sector, and developments are still missing in other areas that can take advantage of \r\nthis technology. An area that can benefit from blockchain characteristics is citizen science, which, as its name specifies, is the research activity performed by a community of citizens. Due to the requirements to this extent, this work studies the feasibility to use a blockchain architecture in citizen science, specifically for ecosystem monitoring. Additional to this, this work helped to understand the advantages and disadvantages of using this technology in this area.\r\n\r\nCurrent state-of-the-art applications that propose partially a solution to citizen science are FOAM and CryptoSpatial Coordinates. FOAM [1] is a geospatial web application that builds a consensus-driven globe map using the blockchain Ethereum protocol. To achieve network verification, it employs a cryptographic software utility token, where cartographers verify if points added to the network are false or correct. This removes the need for a central authority to regulate and verify the points. The voting mechanism uses FOAM tokens to avoid spamming from the participants. The system works by mapping a blockchain address to a physical location, which can be registered with a spatial resolution of 1m by 1m. CryptoSpatial Coordinates (CSC) [2] is an Ethereum smart-contract library that can be used for developing geospatially enabled decentralized apps. It uses Blockchain technology to store, retrieve, and process vector geographic data.\r\n\r\nIn our approach, we were only \u201cinspired\u201d by the previous solutions, but we decided to develop something new and original. The system is developed in Solidity programming language. This allows usage on every blockchain that supports the Ethereum Virtual Machine and guarantees extended flexibility. Moreover, this choice is justified by the expanded ecosystem that Ethereum offers. The architecture of Smart Contracts is completely open-source and developed with a focus on the reusability of the components for other applications in the same field. The two main parts of the architecture are the Cell Smart Contracts and the Registry Smart Contracts. This is based on the mapping of a Discrete Global Grid System (DGGS) [3] with Smart Contracts. As a DGGS we choose S2 [4], which is an open-source library developed by Google that offers good processing functionalities and a grid with a fine-grained resolution. Each Smart Contract representing a Cell is used to keep track of the hash of the observations collected in the application. The hashes are used to locate and retrieve the stored files in the decentralized storage InterPlanetary File System (IPFS). This structure also allows to store metadata about the observations, for example, their quality decided through a peer voting mechanism or with some other system. The Registry Contracts are linked to a resolution of the DGGS and have the duty to keep track of the mapping between the DGGS cells of that resolution and their respective Smart Contract. \r\n\r\nThe prototype platform is developed in Velas, a blockchain architecture with a strong focus on fast transaction speed and low costs of fees compared to other blockchains (e.g. Ethereum, Cardano, Solana). The use-case for this work was the Informative System for the Integrated Monitoring of Insubric Lakes and their Ecosystems (SIMILE)  project. SIMILE  is a cross-border Italian-Swiss project with the aim to improve the collaboration between public administrations and stakeholders for the management of the Insubric lakes (Lugano, Como and Maggiore) and their ecosystems, as well as monitoring water resources quality [5]. One of the main sources of data in SIMILE is collected with a Citizen Science approach, meaning that the data is collected from normal citizens through their smartphones. The observations of this type include data about water quality, climatic parameters, and multimedia files such as images can be included. The collected data can be currently validated by the public authorities managing the platform but this requires time which is not always available to technicians. In our system, the observations are instead validated through a mixed rating system that allows both users and admins to evaluate each entry. Furthermore, the use of the proposed blockchain architecture allows access to the collected data without relying on the currently existing Web Application. \r\n\r\nThe practical importance of this work is to fill the gaps currently present in citizen science applications, by proposing an innovative system that works with the blockchain infrastructure. The result of this work and the technological development performed, demonstrate that citizen science applications can be, as a matter of fact, developed as a decentralized infrastructure. The main advantages with respect to other systems are data immutability, security and no single point of failure. Future work can include the implementation of a system to further incentivize the collection of data. This will work with a reward system in the form of a Utility Token. This token could be accepted by the public administrations benefitting from the data, in exchange for some form of compensation such as discounts on public services.",
+    "start_datetime": "2022-08-24T14:15:00Z",
+    "end_datetime": "2022-08-24T14:45:00Z",
+    "talk:code": "XDD9JK",
+    "talk:guid": "5120d71e-a062-5f8c-9ef2-751d44be89f9",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room Modulo 3",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "KWVMET",
+        "name": "Andrea Folini",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/KWVMET/"
+      },
+      {
+        "code": "CSPHKS",
+        "name": "Jesus Rodrigo Cedeno Jimenez",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/CSPHKS/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T14:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/XDD9JK/",
+      "title": "Collaborative validation of user-contributed data using a geospatial blockchain approach: the SIMILE case study"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/XDD9JK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/KWVMET/",
+      "title": "Andrea Folini"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/CSPHKS/",
+      "title": "Jesus Rodrigo Cedeno Jimenez"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/XDD9JK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

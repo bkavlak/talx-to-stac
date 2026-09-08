@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "EMCDLQ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "ARCOS Platform for Monitoring of Arctic Region",
+    "description": "The objective of ARCOS is to design and implement an early-warning system providing continuous monitoring of the Arctic Region. Designed to generate actionable products in the security domain by processing and fusing multi-sensor data, the system integrates available information from space, non-space sources and products available from multiple Copernicus services.\r\nARCOS generates information at three different levels of scale and user interaction:\r\n1) Level 1: Automatic Early-warning System. Integration of space and non-space data sources for the triggering of alarms on the region when certain conditions happens. Automatic early-warnings are generated in case anomalous behaviours are detected. For this wide-area monitoring, automatic extraction of analytics and AI techniques are applied.\r\n2) Level 2: User-Driven Alert System, where space and non-space data is processed on specific locations provided by the user. The alarms can be configured based contextual information based on the user input.\r\n3) Level 3: Geospatial Intelligence Products. Following early-warnings generated in Level 1 or 2, geospatial intelligence products requiring human intervention are provided upon user request.\r\nThe system is developed using GeoNode (https://geonode.org/) as a Core component and integrates OpenEO services (https://openeo.org/) for the generation of innovative contents from open datasets like Copernicus Sentinels data, Copernicus Services data, AIS data and Social media.",
+    "start_datetime": "2022-08-26T08:15:00Z",
+    "end_datetime": "2022-08-26T08:20:00Z",
+    "talk:code": "EMCDLQ",
+    "talk:guid": "2c66705e-c8de-5ea4-90d6-368702ea8604",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Room Limonaia",
+    "talk:room_capacity": 110,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "9YNXTP",
+        "name": "Marco Corsi",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/9YNXTP/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T08:17:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/EMCDLQ/",
+      "title": "ARCOS Platform for Monitoring of Arctic Region"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/EMCDLQ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/9YNXTP/",
+      "title": "Marco Corsi"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/EMCDLQ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=w9RIB74RqUk",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | ARCOS Platform for Monitoring of Arctic Region",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

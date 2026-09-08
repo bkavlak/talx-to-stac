@@ -1,0 +1,105 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "FDPFRV",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "The M4S Project: Scaling Seagrass Conservation in Timor-Leste through Participatory FOSS Workflows",
+    "description": "The M4S Project leverages a low-barrier FOSS stack to map seagrass in Metinaro, Timor-Leste. By integrating participatory drone imagery and mobile data collection into a community-led workflow, we transition from manual methods to digital baseline mapping, empowering community stewardship to protect marine biodiversity and sustain local livelihoods.\n\nSeagrass meadows in Metinaro, Timor-Leste, are vital yet undervalued ecosystems. They act as carbon sinks, protect endangered dugongs, and sustain the fisheries that the local economy depends on. Despite their importance, standardized geospatial data for these areas has historically been limited. The M4S (Monitoring for Seagrass) Project aims to address this by closing the data gap using an open-source and participatory approach.\r\n\r\nThis session explores how the M4S project moves beyond traditional, labor-intensive manual transects toward a streamlined, digital workflow. We will detail the technical and social architecture of our mapping process, which is designed to be fully adaptable by local communities.\r\n\r\nThe project\u2019s methodology relies on an integrated stack of mainly FOSS tools that ensure transparency and local ownership:\r\n\r\n1. Aerial Data via DroneTM: We utilize HOT\u2019s DroneTM for web-based flight planning and image processing. This allows the team to capture high-resolution imagery necessary to identify seagrass extent that is often invisible in standard satellite imagery, all while keeping the planning and processing pipeline accessible via the web.\r\n2. Ground-Level Insights with Mapillary: To complement aerial views, we use Mapillary for street-level (and coast-level) imagery. This provides a geolocated visual record of the seagrass habitats, helping to validate findings on species types and degradation levels. Mapillary provides open data but is currently not open-source.\r\n3. Mobile Field Mapping with KoboToolbox: We replaced paper-based notes with KoboToolbox. By using customized digital forms, local mappers collect real-time data on species distribution and seagrass condition, significantly reducing human error and speeding up the data collection timeline.\r\n\r\nBy prioritizing FOSS, we ensure that the community is not dependent on expensive proprietary licenses to maintain their own data. This project is set to generate Metinaro\u2019s first baseline seagrass data and produce maps that are grounded in local knowledge and community ownership.\r\n\r\nAttendees will learn how the integration of DroneTM, Mapillary, and KoboToolbox creates a replicable framework for marine conservation in data-scarce environments. Beyond the tech, we demonstrate how this participatory approach shifts the power to the community, providing the evidence-based insights they need to independently prioritize high-risk areas for conservation. We are moving toward a future where seagrass protection in Timor-Leste is not just streamlined, but led by locally-owned, data-driven stewardship.",
+    "start_datetime": "2026-09-02T07:00:00Z",
+    "end_datetime": "2026-09-02T07:30:00Z",
+    "talk:code": "FDPFRV",
+    "talk:guid": "f410fe1b-4ef6-560e-80ae-d8a7286a84dd",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room3",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "FEH9SK",
+        "name": "Honey Fombuena",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/FEH9SK/"
+      },
+      {
+        "code": "VNSWE7",
+        "name": "Dinar Adiatma",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/VNSWE7/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T07:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/FDPFRV/",
+      "title": "The M4S Project: Scaling Seagrass Conservation in Timor-Leste through Participatory FOSS Workflows"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/FDPFRV/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/FEH9SK/",
+      "title": "Honey Fombuena"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/VNSWE7/",
+      "title": "Dinar Adiatma"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/FDPFRV/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "monitoring-for-seagrass-community-mapping-for-coastal-conser": {
+      "href": "https://www.hotosm.org/en/projects/monitoring-for-seagrass-timor-leste/",
+      "title": "Monitoring for Seagrass: Community Mapping for Coastal Conservation - Timor-Leste",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

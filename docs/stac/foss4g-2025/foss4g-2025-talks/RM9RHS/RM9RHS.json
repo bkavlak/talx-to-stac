@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "RM9RHS",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Navara map engine: The Next-Generation Flexible Map Engine for Advanced GIS Visualization.",
+    "description": "Powered by a newly architected headless map engine written in Rust and WebAssembly, Navara combines photorealistic rendering, unconstrained custom-shader freedom, and a high-performance API in a single platform. This session introduces the technology behind Navara and showcases the real-world use cases these capabilities unlock.\n\nTraditional map engines often struggle to (1) expand their visualization capabilities and (2) prevent interactive logic from becoming overly complicated and slow. **Navara**, under development since FY 2024, breaks this mold by *fully decoupling the GIS engine from the rendering engine*. Complex GIS operations\u2014coordinate transformations, LOD management, ellipsoid computations\u2014run in a Rust/WASM headless core, while any renderer (e.g., Three.js) handles drawing.\r\n\r\nDuring the current fiscal year we implemented:\r\n\r\n- **Visual API** \u2013 realistic atmosphere, clouds, night-time lighting, and other photoreal effects.\r\n- **GIS API** \u2013 coordinate conversion, ellipsoid geometry, and other GIS-specific computations.\r\n\r\nIn this talk we will dive into these APIs, share architectural insights, and demonstrate the kinds of applications Navara is built to power.\r\n\r\n### Intended Audience\r\n\r\n- 3D-engine and real-time graphics developers\r\n- Researchers, municipalities, and enterprises working with GIS data\r\n- Creators who want to combine photoreal rendering with rich data visualization\r\n\r\n### Takeaways\r\n\r\n- Design patterns for **headless GIS + rendering-engine** architectures\r\n- Examples of photorealistic visual effects achievable with Navara\r\n- How the **GIS API** enables advanced, high-speed interactions",
+    "start_datetime": "2025-11-19T22:30:00Z",
+    "end_datetime": "2025-11-19T22:55:00Z",
+    "talk:code": "RM9RHS",
+    "talk:guid": "c3959973-5f5a-5c0a-a1b1-719fc05b81bf",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Tools, Libraries & Visualisation",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG403",
+    "talk:room_capacity": 386,
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "PZ8CMJ",
+        "name": "Keiya Sasaki",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/PZ8CMJ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-19T22:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/RM9RHS/",
+      "title": "Navara map engine: The Next-Generation Flexible Map Engine for Advanced GIS Visualization."
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/RM9RHS/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/PZ8CMJ/",
+      "title": "Keiya Sasaki"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/RM9RHS/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

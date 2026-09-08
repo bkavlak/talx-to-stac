@@ -1,0 +1,95 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "8TCYWN",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Ensuring Tile Quality in MapLibre Through Automated Testing and CI",
+    "description": "Ensuring reliable map tiles is essential for modern web mapping applications. This talk explores how quality is maintained around MapLibre through automated testing, visual regression testing, and continuous integration workflows. We then demonstrate how TileGuard, an independent vector tile inspection tool developed during this work, complements these automated processes by helping developers investigate rendering regressions, inspect vector tile data, and diagnose quality issues more efficiently. The session concludes with practical engineering patterns that other open-source geospatial projects can adopt to build more reliable tile quality workflows.\n\nMap tiles are the foundation of modern web mapping, directly affecting rendering correctness, application performance, and user trust. As projects such as MapLibre continue to grow, maintaining tile quality across changing datasets, styles, and rendering engines requires more than manual verification\u2014it demands robust automated quality workflows.\r\n\r\nThis session explores how quality is maintained around MapLibre through automated testing, visual regression testing, and continuous integration. We will examine how unit tests, integration tests, rendering tests, and CI pipelines work together to detect regressions early, provide confidence during development, and support sustainable open-source collaboration. Along the way, we will discuss the engineering decisions behind these workflows, common failure modes encountered in vector tile pipelines, and the practical trade-offs between test coverage, execution time, and developer productivity.\r\n\r\nAutomated testing is highly effective at detecting when rendering changes occur, but understanding why a regression happened often requires deeper inspection of the underlying vector tile data. To demonstrate this workflow, the talk introduces TileGuard, an independent vector tile inspection tool developed to complement automated quality processes. Through a live demonstration, we will show how interactive feature inspection, diagnostics, geometry visualization, and tile statistics can help developers investigate rendering regressions and identify the root cause of data and geometry issues more efficiently.\r\n\r\nRather than focusing on a specific implementation, the session emphasizes practical engineering practices that can be applied across open-source geospatial projects. Attendees will leave with a clearer understanding of how automated testing, continuous integration, and interactive inspection complement one another to build more reliable vector tile workflows, reduce regressions, and improve contributor productivity.",
+    "start_datetime": "2026-09-02T04:30:00Z",
+    "end_datetime": "2026-09-02T05:00:00Z",
+    "talk:code": "8TCYWN",
+    "talk:guid": "f10c006f-931d-579e-a068-0ca007afe989",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Dahlia1",
+    "talk:room_capacity": 140,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "UUY3LN",
+        "name": "Shriharsh Shinde",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/UUY3LN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T04:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/8TCYWN/",
+      "title": "Ensuring Tile Quality in MapLibre Through Automated Testing and CI"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/8TCYWN/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/UUY3LN/",
+      "title": "Shriharsh Shinde"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/8TCYWN/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "tileguard-an-open-source-vector-tile-inspection-and-quality-": {
+      "href": "https://github.com/shreeharshshinde/tileguard",
+      "title": "TileGuard \u2013 An open-source vector tile inspection and quality assurance tool demonstrated during this talk. The repository includes the source code, documentation, and examples referenced in the presentation.",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "RDZMQP",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Oxidize to Decarbonize. Building more sustainable geospatial processes with Rust Workshop",
+    "description": "Geospatial workflows can be surprisingly energy-intensive. This workshop introduces Rust as a fast, efficient alternative to interpreted languages like Python and R. Learn how Rust\u2019s performance and safety make it ideal for sustainable geospatial analysis, and explore the eorst toolkit for spatial data, raster processing, and modelling.\n\nEven though servers, data centers, and high-performance computers use a considerable amount of energy\u2014and thus contribute significantly to carbon emissions, the environmental impact of computation is often overlooked. This is especially ironic in geospatial science, where much of the work aims to understand and protect natural resources. Remote sensing workflows can be resource intensive, and as data volumes and analysis complexity grows, so too do the computational demands. Efficiency becomes not just a practical issue, but an environmental concern. The tools we use may matter more than we think.\r\n \r\nThis workshop explores how programming language choice can meaningfully reduce the environmental cost of geospatial analysis. While interpreted languages like Python and R are the most popular choices due to their accessibility and rich ecosystems, they often fall short at scale. Their reliance on runtime interpretation and garbage collection often translates into longer compute times and higher energy usage, and thus generate more emissions. \r\n \r\nCompiled languages like Rust and C++ can offer an alternative path. These languages are significantly more efficient, often completing tasks faster and with less energy consumption. Rust in particular is emerging as a powerful option for scientific computing. It provides memory safety without a garbage collector, using a system of ownership and borrowing to manage memory at compile time. The result is software that is fast and reliable, with minimal runtime overhead. Unlike C or C++, Rust helps prevent common errors such as buffer overflows, null pointer dereferencing, and data races on parallel processes, without sacrifice in performance.\r\n \r\nRust\u2019s growing adoption by major tech players, like Microsoft, AWS, Google, and even the Linux kernel project reflects its maturity and reliability. This support, highlight that Rust is more than an academic or niche choice, but a practical, long-term solution.\r\n \r\nThis workshop will introduce core Rust concepts relevant to geospatial analysis and explore the growing Rust geospatial ecosystem\u2014including libraries for spatial data handling, raster processing, modelling, and machine learning.\r\n \r\nIn this hands-on session, we will explore Rust fundamentals and use eorst to compute cloud frequency over a two-year period from satellite Sentinel-2 imagery.\r\n \r\nThe eorst crate is an open-source Rust library designed to simplify and accelerate geospatial raster processing. Inspired by tools like Rasterio, RIOS, Dask, and Open Data Cube, eorst wraps complex geospatial operations in high-level abstractions, while preserving the performance benefits of systems programming. It minimizes the overhead of abstraction, letting developers focus on the science rather than the plumbing.\r\n \r\nOriginally developed to support the Spatial BioCondition framework for modeling ecosystem condition, eorst now underpins large-scale operational workflows for Queensland\u2019s Department of the Environment, Tourism, Science and Innovation. The library's main features are:\r\n \r\nEfficient geospatial raster I/O\r\nOn-the-fly projection and alignment.\r\nTiling and parallel out-of-core processing.\r\nRaster point sampling.\r\nZonal statistics.\r\nMosaicking.\r\nBand math and time series operations.\r\nSTAC integration.\r\nXGBoost and LightGBM inference.\r\nOptional OpenCV image processing.\r\n \r\n \r\nRust also interoperates well with Python and R, making it a pragmatic choice for hybrid workflows and for teams gradually transitioning toward more efficient computation. As part of the session, we will also demonstrate how to create a simple Python wrapper using the pyo3 library, allowing Rust functionality to be accessed from Python.\r\n \r\nIf you are curious about producing more sustainable geospatial analysis, this session will be a practical starting point.",
+    "start_datetime": "2025-11-17T20:00:00Z",
+    "end_datetime": "2025-11-17T23:00:00Z",
+    "talk:code": "RDZMQP",
+    "talk:guid": "2c39bd34-0872-51fb-af37-ab2793355f16",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Workshop - Beginner Friendly",
+    "talk:type": "Workshop",
+    "talk:language": "en",
+    "talk:room": "WF610",
+    "talk:room_capacity": 30,
+    "talk:duration_minutes": 180,
+    "talk:speakers": [
+      {
+        "code": "3QRPYC",
+        "name": "Leonardo Hardtke",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/3QRPYC/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-17T21:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/RDZMQP/",
+      "title": "Oxidize to Decarbonize. Building more sustainable geospatial processes with Rust Workshop"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/RDZMQP/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/3QRPYC/",
+      "title": "Leonardo Hardtke"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/RDZMQP/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

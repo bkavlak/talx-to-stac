@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "78TXXS",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Building an AI Map Agent with Self-Hosted Planet-Scale OSM and Tiny LLMs",
+    "description": "How far can a fully open geospatial stack take a natural-language request like \u201cShow me cafes in Hiroshima City\u201d? This talk presents TRIDENT, text2geoql-dataset, and a self-hosted planet-scale OpenStreetMap stack for building a grounded, interactive AI map agent.\n\nThis talk presents a practical end-to-end pipeline for building an AI map agent with a fully open geospatial stack. Starting from a natural-language request such as \u201cShow me cafes in Hiroshima City,\u201d I demonstrate how TRIDENT, text2geoql-dataset, and core OpenStreetMap services including Overpass API, Nominatim, and Taginfo can be combined to generate grounded, interactive maps without depending on public shared infrastructure for repeated LLM-driven queries.\r\n\r\nThe talk has three parts. First, I introduce my self-hosted \u201cosm-planet-in-da-house\u201d environment, where planet-scale OSM services run at home and provide rate-limit-free endpoints for experimentation. Second, I explain how text2geoql-dataset synthesizes and validates natural-language-to-Overpass-QL training pairs by resolving place names, checking tag validity, and confirming that queries return real results. Third, I discuss the path toward running the deepest layer of the agent with a tiny local model on Raspberry Pi-class hardware for offline or low-connectivity settings.\r\n\r\nRather than promising magic, I will focus on concrete architecture, lessons learned, practical constraints, and what is realistically possible today with FOSS.",
+    "start_datetime": "2026-09-02T07:30:00Z",
+    "end_datetime": "2026-09-02T08:00:00Z",
+    "talk:code": "78TXXS",
+    "talk:guid": "137fd721-e021-5f70-bfa6-03cfe7f01daf",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Himawari",
+    "talk:room_capacity": 300,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "DEE8AD",
+        "name": "Yui Matsumura",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/DEE8AD/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T07:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/78TXXS/",
+      "title": "Building an AI Map Agent with Self-Hosted Planet-Scale OSM and Tiny LLMs"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/78TXXS/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/DEE8AD/",
+      "title": "Yui Matsumura"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/78TXXS/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

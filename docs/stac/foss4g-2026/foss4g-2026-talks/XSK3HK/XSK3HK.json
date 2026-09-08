@@ -1,0 +1,110 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "XSK3HK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Storing your Satellite in a DGGS",
+    "description": "DGGS gaining popularity in the GeoAI space, we'll look at pros and cons of storing your vector and raster data in couple of indexing algorithms.\n\nEarth observation using remote sensing (or satellite data) comes with its own fair bit of challenges. From managing large amounts of data to dealing with projections, inconsistencies with resolutions and more. \r\n\r\nWhile there's no silver bullet to solve all these problems, we'll look at one possible of modelling your GIS data (not just satellite data) in a Discrete Global Gird System (DGGS). \r\n\r\nIn DGGS, you divide the earth into multiple cells and store the data in each cell. There are few advantages of using this approach \r\n- Single data structure for all your GIS (vector or raster) \r\n   - Rasters are represented as array of Cell ids with each cell having a value \r\n   - Vectors are represented as Points => Cells, Lines => Array of Cells, Polygon => Array of Cells \r\n- A single base frame with multiple layers of data built on top \r\n- Easy visualization and analysis \r\n- Easy storage and retrieval based on Cell IDs \r\n\r\nIt's not all rainbow in the DGGS land, you lose:\r\n- Existing tool set not built around DGGS \r\n- Distortions/Errors going from point data to cells \r\n\r\nBut still it's an interesting way to look at data. We'll use \r\n- DuckDB as our database and query engine \r\n- Sample data from OSM \r\n- Sample data from Sentinel-2\r\n\r\nReach out to `contact@jsonsingh.com` for a chat or consulting work.",
+    "start_datetime": "2026-09-01T05:30:00Z",
+    "end_datetime": "2026-09-01T06:00:00Z",
+    "talk:code": "XSK3HK",
+    "talk:guid": "e13b6e5a-ae42-5d91-84d8-403c0a0c36d7",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room6",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "8MGXWG",
+        "name": "json singh",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/8MGXWG/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T05:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/XSK3HK/",
+      "title": "Storing your Satellite in a DGGS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/XSK3HK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/8MGXWG/",
+      "title": "json singh"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/XSK3HK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "jupyter-notebook-for-running-the-dggs-on-hiroshima": {
+      "href": "https://talks.osgeo.org/media/foss4g-2026/submissions/XSK3HK/resources/hiroshima_27NVjFo.ipynb",
+      "title": "Jupyter Notebook for running the DGGS on Hiroshima",
+      "roles": [
+        "data"
+      ]
+    },
+    "slides-in-pdf": {
+      "href": "https://talks.osgeo.org/media/foss4g-2026/submissions/XSK3HK/resources/Storing_your_Satellite_in_a_DGGS____yoFVx5l.pdf",
+      "type": "application/pdf",
+      "title": "Slides in PDF",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "google-slides-link": {
+      "href": "https://docs.google.com/presentation/d/1-j0q0vcBkZMWBne0bKLumyzZTGmxJuoWRfawJOVif5k/edit?usp=sharing",
+      "title": "Google Slides Link",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

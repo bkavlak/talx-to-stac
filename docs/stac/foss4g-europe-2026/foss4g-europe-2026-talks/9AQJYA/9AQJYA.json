@@ -1,0 +1,97 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "9AQJYA",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "State of GDAL: what's new in 3.12 and 3.13?",
+    "description": "We will give a status report on the GDAL software, focusing on recent developments and achievements in the 3.12 and 3.13 GDAL versions released during the last year.\r\nThe discussed topics will be as various as the scope of GDAL is, covering among other things:\r\n- Enhancements in the \"gdal\" front-end command line interface:\r\n   * raster functionality: as-features, blend, compare, neighbors, nodata-to-alpha, zonal-stats, etc.\r\n   * vector functionality: check-coverage, check-geometry, clean-coverage, index, layer-algebra, make-point, partition\r\n   * dataset management\r\n   * mixed raster/vector pipelines\r\n   * nested pipelines\r\n- GeoParquet, JSON Features and Geometries (JSON-FG), Zarr support enhancements\r\n- New VRT pixel functions\r\n- C/C++/Python API for raster band algebra\r\n- and more confidential topics, like CADRG NITF product generation, new E57 raster driver, IHO S-102/S-104/S-111 driver enhancements etc.",
+    "start_datetime": "2026-06-29T08:30:00Z",
+    "end_datetime": "2026-06-29T09:00:00Z",
+    "talk:code": "9AQJYA",
+    "talk:guid": "71e6eaac-1cc0-5fd2-ab11-2541d9a4f9bc",
+    "talk:event": "foss4g-europe-2026",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Aula Magna",
+    "talk:room_capacity": 500,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RSWKM3",
+        "name": "Even Rouault",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/RSWKM3/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-06-29T08:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/9AQJYA/",
+      "title": "State of GDAL: what's new in 3.12 and 3.13?"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/9AQJYA/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/RSWKM3/",
+      "title": "Even Rouault"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/9AQJYA/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2026/submissions/9AQJYA/resources/State_of_GDAL_FOSS4G-E_2026_2vh5EFd.pdf",
+      "type": "application/pdf",
+      "title": "Presentation slides",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

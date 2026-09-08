@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "KRASRT",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Open resources and open standards for multi source marine twinning",
+    "description": "Spatial data interoperability has been on the spot among the Open Geospatial Consortium members for almost 30 years, but the current moment is notable for several reasons. An enormous amount of data is growing exponentially due to the novel sensors that bring observations from previously inaccessible areas in such resolution. We can observe and explore the global ocean with modern computational resources and AI models. Federated Data Spaces initiatives emerge with the paradigm of multi-source data integration harmoniously supporting heterogeneous models.\r\nSpeakers will present recent advancements in the data mesh methods based on two environments endorsing open source implementations used for the integrations.\r\nFirst is the Federated Marine SDI (FMSDI) Pilot, which focuses on advancing the implementation of open data standards, architecture, and prototypes for use with the creation, management, integration, dissemination, and onward use of marine and terrestrial data services for the Arctic. Use cases developed in the recent phase of the FMSDI pilot further demonstrated the capabilities and use of OGC, IHO and other community standards in response to a grounding event and the evacuation of a cruise ship or research vessel in the Arctic. \r\nThe approach collated with Iliad - Digital Twin of the Ocean and its interoperability patterns model. Based on the specific requirements for data transfer, access and computation, it looks to generalise core architectural patterns with standard implementations. These patterns address the core issues of data publishing, aggregation and extensive analyses close to the data. Together, they enable a viable overall digital twin ecosystem. Data mesh of observations with data lakes and assembly are essential building blocks that allow the flow and synchronisation of data between different data owners. A open, common information model, defined on the domain-specific and well-known generic ontologies, Analysis Ready Data, and Essential Variables concepts, allows for the traceability of provenance and various expressions. It is a critical prerequisite to achieving data interoperability and explainable AI. Application packaging of processing chains allows for seamless compute-to-data, remote computation, or even mobile control when data is too big to flow. The computation is executed in a controlled environment, and the results harmonised for further use or available as decision-ready information. \r\n\tPresenters will describe these patterns and illustrate them with OGC and partners' open implementations (like OGC-NA, EDR, geoXACML, HubOcean sync API) from the projects.",
+    "start_datetime": "2023-06-28T08:30:00Z",
+    "end_datetime": "2023-06-28T09:00:00Z",
+    "talk:code": "KRASRT",
+    "talk:guid": "d04ce216-215e-500c-9ee1-b54cb6080859",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Open Standard",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT D / N112 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "VMLBS3",
+        "name": "Piotr Zaborowski",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/VMLBS3/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T08:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/KRASRT/",
+      "title": "Open resources and open standards for multi source marine twinning"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/KRASRT/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/VMLBS3/",
+      "title": "Piotr Zaborowski"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/KRASRT/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/6w74hGMEdHkd8LcxqirgQk",
+      "type": "text/html",
+      "title": "2023 |  Open resources and open standards for multi source marine twinning - Piotr Zaborowski",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=cKlGBHYzGc0",
+      "type": "text/html",
+      "title": "2023 |  Open resources and open standards for multi source marine twinning - Piotr Zaborowski",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

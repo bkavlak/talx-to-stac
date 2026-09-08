@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "FEEQDQ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "From NDVI to 260+ Indices: Five Years of Awesome Spectral Indices",
+    "description": "Awesome Spectral Indices (ASI) is an open, community-driven catalogue designed to make spectral indices easy to discover, document, and compute. Five years after its first release, ASI supports 260+ indices across multiple programming languages and platforms. This talk reviews its evolution, current state, and future directions.\n\nEverything started around ten years ago with a simple question: *what other indices are out there besides NDVI?* The answer was: *a lot!* While the number of indices was large, access to them was fragmented, documentation was inconsistent, and programmatic use was rarely supported. Existing catalogues of spectral indices were often closed, outdated, poorly referenced, or not designed to be used programmatically.\r\n\r\nFive years ago, **Awesome Spectral Indices** (ASI) set out to change that by creating an open, comprehensive, and community-driven catalogue of spectral indices, built around a simple idea: indices should be easy to discover, clearly documented, properly referenced, and directly executable in scientific workflows.\r\n\r\nThe first public release in 2021 (v0.0.1) included 66 spectral indices grouped into seven categories. Each index followed a clear standard, with attributes such as name, acronym, formula, application domain, date of addition, and bibliographic reference. A key design choice was the introduction of band standards aligned with commonly used satellite platforms (e.g. Landsat, Sentinel, MODIS), allowing indices to be defined using simple expressions like \u201c`(N - R) / (N + R)`\u201d. This made the catalogue not just readable, but executable.\r\n\r\nASI was released together with open-source APIs to make this standard usable in practice: *spyndex* for Python and *spectral* for the Google Earth Engine Code Editor. Community uptake was immediate, and the project quickly grew beyond its initial scope.\r\n\r\nToday, ASI includes more than 260 spectral indices (v0.9.0), has over 1k GitHub stars, and more than 200k downloads across PyPI and conda-forge. The ecosystem has expanded with an official Julia API (*SpectralIndices.jl*) and community-driven implementations, including an R package (*rsi*), adoption by projects such as *openEO* and *EOReader*, and alignment with the electro-optical STAC extension.\r\n\r\nThis talk will present the current state of *Awesome Spectral Indices*, reflect on key technical and community lessons learned over the past five years, and outline what comes next. Upcoming developments include improvements to the band standard to support additional sensors and indices, richer metadata for each index, expanded categorization, and API updates focused on interoperability and ease of use.",
+    "start_datetime": "2026-09-01T05:00:00Z",
+    "end_datetime": "2026-09-01T05:30:00Z",
+    "talk:code": "FEEQDQ",
+    "talk:guid": "c3bcfa28-e4e3-536d-96b4-5d8de68c88b9",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room2",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "GXMXGL",
+        "name": "David Montero Loaiza",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/GXMXGL/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T05:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/FEEQDQ/",
+      "title": "From NDVI to 260+ Indices: Five Years of Awesome Spectral Indices"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/FEEQDQ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/GXMXGL/",
+      "title": "David Montero Loaiza"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/FEEQDQ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

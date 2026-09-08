@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "LZJFAW",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "National Map Agent: An Open Geospatial Architecture for Knowledge Graph\u2013Driven GeoAI",
+    "description": "This presentation introduces a National Map Agent that integrates open geospatial standards, knowledge graphs, and GraphRAG to enable intelligent, standards-aware mapping workflows. Built on open-source tools, the system transforms authoritative mapping specifications into machine-readable knowledge, supporting automated feature modeling, validation, and collaboration between mapping agencies.\n\nNational mapping agencies face increasing pressure to manage complex geospatial data ecosystems while ensuring interoperability, data sovereignty, and timely updates. At the same time, open-source geospatial technologies have matured into a robust foundation for scalable, standards-compliant infrastructure. This talk introduces a new architectural paradigm\u2014the National Map Agent\u2014which integrates open geospatial stacks with knowledge graphs and Graph Retrieval-Augmented Generation (GraphRAG) to enable intelligent and explainable mapping workflows.\r\n\r\nThe core idea is to transform authoritative mapping specifications\u2014such as feature models, classification schemas, and survey regulations\u2014into a machine-readable knowledge graph aligned with OGC and ISO 191xx standards. This semantic layer encodes domain knowledge that is traditionally locked in documents, allowing it to be queried, reasoned over, and reused across systems. By structuring national mapping rules as a knowledge graph, we create a foundation for automation and interoperability that remains fully transparent and auditable.\r\n\r\nOn top of this foundation, we implement a GraphRAG pipeline that combines graph queries (e.g., Cypher or SPARQL) with large language models to support context-aware reasoning. This enables AI agents to assist in tasks such as feature classification, schema alignment, and attribute validation, while maintaining consistency with official standards. Unlike purely text-based AI approaches, this method grounds reasoning in structured geospatial knowledge, improving both accuracy and explainability.\r\n\r\nThe system is built almost entirely on open-source components, including PostGIS, GDAL, GeoPandas, PMTiles, MapLibre, and Neo4j. This ensures extensibility and alignment with the FOSS4G ecosystem. A prototype implementation using Taiwan\u2019s national mapping datasets demonstrates how the National Map Agent can bridge authoritative data and collaborative platforms such as OpenStreetMap, enabling more efficient and consistent mapping workflows.\r\n\r\nThis work highlights a shift from traditional GIS systems toward intelligent, knowledge-driven geospatial infrastructures. It demonstrates how open standards and open-source tools can serve as the backbone for next-generation GeoAI systems, while preserving data sovereignty and interoperability. The National Map Agent provides a practical and scalable approach for modernizing national mapping workflows and advancing the role of open geospatial technologies in the era of AI.",
+    "start_datetime": "2026-09-02T04:00:00Z",
+    "end_datetime": "2026-09-02T04:30:00Z",
+    "talk:code": "LZJFAW",
+    "talk:guid": "2f252289-6975-5d1b-860a-8ee7e1f26212",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room6",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "QZ3PBY",
+        "name": "Dongpo Deng",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/QZ3PBY/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T04:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/LZJFAW/",
+      "title": "National Map Agent: An Open Geospatial Architecture for Knowledge Graph\u2013Driven GeoAI"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/LZJFAW/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/QZ3PBY/",
+      "title": "Dongpo Deng"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/LZJFAW/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

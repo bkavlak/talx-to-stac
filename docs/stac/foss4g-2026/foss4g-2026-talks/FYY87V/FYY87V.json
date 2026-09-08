@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "FYY87V",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "A Self-Hostable Open-Source Geospatial Platform for Small Teams, with Natural Language Querying via MCP",
+    "description": "geo-base is a self-hostable open-source geospatial platform that combines\r\na tile server, a management dashboard, and an MCP connector, enabling small\r\nteams to manage and query their own spatial data in natural language without\r\nrelying on external cloud services.\n\nMany small teams working with geospatial data\u2014municipal planners, field\r\nsurveyors, local governments, and non-profit organizations\u2014face a common\r\nproblem: they collect and maintain geographic data internally, but lack the\r\nengineering capacity to build and operate their own spatial data infrastructure.\r\nExisting solutions either require significant server administration expertise\r\nor push data into external cloud services where teams lose direct control.\r\n\r\ngeo-base is an open-source, self-hostable geospatial data platform designed\r\nfor exactly this context. It provides a tile server, a web-based management\r\ndashboard, and a built-in Model Context Protocol (MCP) server as a single\r\ndeployable system. Teams can upload raster and vector data in open formats\r\n(GeoTIFF, PMTiles, GeoJSON), preview and manage tilesets through a browser\r\ninterface, and query their data using natural language via MCP-compatible AI\r\nclients\u2014without sending data to third-party services.\r\n\r\nThe entire stack is built on open-source components: a tile server API,\r\na web-based management dashboard, an MCP connector layer, a spatial database,\r\nand a browser-based map renderer. The system is designed to be deployable by\r\na single person with basic command-line familiarity, without dedicated\r\ninfrastructure or database administration staff.\r\n\r\nThis talk shares the motivation behind geo-base, the design decisions that\r\nprioritize operational simplicity over feature breadth, and honest reflections\r\non where the approach works well and where it falls short. The session includes\r\na live demonstration showing how a non-technical team member can upload a\r\ndataset and immediately query it in natural language through an AI agent.\r\nWe hope this sparks discussion on how the open-source geospatial community\r\ncan better serve small, non-IT organizations as primary users.",
+    "start_datetime": "2026-09-02T08:30:00Z",
+    "end_datetime": "2026-09-02T09:00:00Z",
+    "talk:code": "FYY87V",
+    "talk:guid": "8617865c-e788-5767-bc66-23b7550b6a20",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Dahlia1",
+    "talk:room_capacity": 140,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "YXFTUG",
+        "name": "Noboru Otsuka",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/YXFTUG/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T08:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/FYY87V/",
+      "title": "A Self-Hostable Open-Source Geospatial Platform for Small Teams, with Natural Language Querying via MCP"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/FYY87V/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/YXFTUG/",
+      "title": "Noboru Otsuka"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/FYY87V/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

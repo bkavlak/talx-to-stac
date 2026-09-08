@@ -1,0 +1,106 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "JEVCDC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Georeferencing of Urban Trees Using Drones and Ground-Level Imaging, and Classification of Their Species by Machine Learning",
+    "description": "Forest registration is essential for effectively managing natural resources, enabling improved tree management (Kattenborn, Eichel and Fassnacht 2019). This process simplifies urban planning, allowing for a more conscientious approach and significantly contributing to the preservation of green areas. The proposal to reduce environmental impact, survey time, and required effort (Barbosa et al. 2018; Li et al. 2015; Beloiu et al. 2023) has motivated the growing use of computer vision for these tasks. Today, this represents a true cartographic revolution. These innovations enhance the quality of life in cities by providing accurate and up-to-date data to support critical decisions (Barbosa et al. 2018).\r\nThis work aims to detect, classify, and georeference trees in urban environments using image segmentation algorithms applied to aerial and street-level images. Several studies use aerial images (Beloiu et al. 2023; W\u00e4ldchen and M\u00e4der 2018; Mlenek, Dalla Corte e Santos 2020), but our approach seeks to improve the detection and identification of tree species by combining street-level images with aerial images. Our model will be developed with the algorithms that present the best metrics for species segmentation and classification based on related studies. The project also prioritizes using free and open-source software in its development. This not only democratizes access to robust monitoring and analysis tools but also encourages collaboration and innovation in the geospatial community, aligning with the values of FOSS4G.\r\nWe will apply pre-processing techniques to the images to enhance the model\u2019s accuracy, including geometric and atmospheric correction with QGIS software. Gaussian filters will also be applied to reduce noise and contrast adjustments to make edges and textures more distinct. After this step, we will proceed to the feature extraction stage for automatic species identification using a machine-learning model. Given the increasing need for environmental preservation and sustainable management, identifying and classifying tree species have become solid allies for ecological conservation, positively impacting urban quality of life.\r\nTo map the urban area of Rio Parana\u00edba, an unmanned aerial vehicle (UAV) drone equipped with a high-resolution camera was used, capturing images with a 3.5 cm resolution. The UAV was operated autonomously, flying in parallel strips over the city. A 70% overlap between the images was used, resulting in the creation of an accurate orthomosaic of the region, favoring more accurate georeferencing of the trees. OpenStreetMap software was used to create the orthomosaic. GPS performed georeferencing during the flight. Street-level images were obtained with a camera that provides 360\u00ba coverage. For species classification, a training dataset was created from samples collected in the field, both aerial and ground-level. Various machine learning algorithms, such as Random Forest, Support Vector Machine (SVM), and Convolutional Neural Networks (CNN), were researched and evaluated for their accuracy in species classification.\r\nTree identification through images of trunks and leaves presents significant challenges due to high intraclass variability and high interclass similarity. High intraclass variability refers to the substantial differences between images of trunks or leaves of the same tree species caused by lighting variations, capture angle, and tree condition. On the other hand, high interclass similarity refers to the very similar visual characteristics between different species, making it difficult to distinguish one from another based solely on appearance. Additionally, improper color balance adjustments by cameras can introduce unwanted shades, such as a greenish tint, further complicating accurate classification. These combined factors make using deep learning for tree classification a complex and challenging problem (Cotrim et al. 2019). This technique, which combines remote sensing with aerial and ground-level images and advanced machine learning techniques, is expected to present a significant advance in tree species classification. This approach allows for detailed analysis of trunk and leaf textures, potentially significantly improving species identification accuracy. Studies such as those by Kattenborn, Eichel and Fassnacht (2019) have demonstrated that CNN-based segmentation (U-net) can achieve an 84% accuracy in vegetation classification using high spatial resolution RGB images. The U-net is widely recognized for its effectiveness in image segmentation tasks, especially in high-precision and detail scenarios. Its architecture captures complex features, making it ideal for detecting and classifying specific elements in high-resolution images. Additionally, the U-net has shown consistent results in various remote sensing applications, making it a reliable choice for geospatial data analysis projects. Therefore, adopting the U-net in the project can ensure superior tree species identification and mapping performance. This work aligns closely with the themes addressed at the FOSS4G event, as it demonstrates the practical application of free and open-source software tools in an environmental monitoring context. QGIS, OpenDroneMap, and OpenStreetMap exemplify how open technologies can be integrated to solve complex georeferencing and species classification problems. Furthermore, the focus on urban areas and the combination of drone and street view data provides valuable insights for the geospatial community, showing the feasibility and benefits of free software for urban and environmental applications.",
+    "start_datetime": "2024-12-04T19:45:00Z",
+    "end_datetime": "2024-12-04T20:15:00Z",
+    "talk:code": "JEVCDC",
+    "talk:guid": "6225116c-ea67-51bb-8c8d-3d1556c88c62",
+    "talk:event": "foss4g-2024-academic-track",
+    "talk:track": "Academic Track",
+    "talk:type": "Oral Presentation 3",
+    "talk:language": "en",
+    "talk:room": "Room I",
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "HWLSJF",
+        "name": "Paulo Roberto Ferreira Maciel",
+        "url": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/HWLSJF/"
+      },
+      {
+        "code": "AQNXFV",
+        "name": "Rodrigo Smarzaro",
+        "url": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/AQNXFV/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-04T20:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/talk/JEVCDC/",
+      "title": "Georeferencing of Urban Trees Using Drones and Ground-Level Imaging, and Classification of Their Species by Machine Learning"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/talk/JEVCDC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/HWLSJF/",
+      "title": "Paulo Roberto Ferreira Maciel"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/AQNXFV/",
+      "title": "Rodrigo Smarzaro"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/talk/JEVCDC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024-academic-track/submissions/JEVCDC/resources/Georeferencing_and_Classificatio_gWStNR9.pdf",
+      "type": "application/pdf",
+      "title": "Slides",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-academic"
+}

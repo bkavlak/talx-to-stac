@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "FHMXWY",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Demystifing OGC APIs with GeoServer: introduction and status of implementation",
+    "description": "The OGC APIs are a fresh take at doing geo-spatial APIs, based on WEB API concepts and modern formats, including:\r\n\r\n* Small core with basic functionality, extra functionality provided by extensions\r\n* OpenAPI/RESTful based\r\n* JSON first, while still allowing to provide data in other formats\r\n* No mandate to publish schemas for data\r\n* Improved support for data tiles (e.g., vector tiles)\r\n* Specialized APIs in addition to general ones (e.g., DAPA vs OGC API - Processes)\r\n* Full blown services, building blocks, and ease of extensibility\r\n\r\nThis presentation will provide an introduction to various OGC APIs and extensions, such as Features, Styles, Maps and Tiles, STAC and CQL2 filtering. \r\nSome have reached a final release, some are in draft: we will discuss their trajectory towards official status, as well as how good the GeoServer implementation is tracking them, and show examples based on the GeoServer HTML representation of the various resources.",
+    "start_datetime": "2023-06-28T12:00:00Z",
+    "end_datetime": "2023-06-28T12:30:00Z",
+    "talk:code": "FHMXWY",
+    "talk:guid": "14fbb52a-6bf6-58d9-b9df-64e16a3cc4a9",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Open Standard",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT D / N112 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RBSH8T",
+        "name": "Andrea Aime",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/RBSH8T/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T12:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/FHMXWY/",
+      "title": "Demystifing OGC APIs with GeoServer: introduction and status of implementation"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/FHMXWY/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/RBSH8T/",
+      "title": "Andrea Aime"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/FHMXWY/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/uWqpvhuAhd6WUBVDkA6U2u",
+      "type": "text/html",
+      "title": "2023 | Demystifing OGC APIs with GeoServer: introduction and status of implementation  - Andrea Aime",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=-puVjljmeeo",
+      "type": "text/html",
+      "title": "2023 | Demystifing OGC APIs with GeoServer: introduction and status of implementation  - Andrea Aime",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

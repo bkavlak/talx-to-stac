@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "ERGRGW",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "50 Lines of Python: Neighborhood DNA from Overture Maps Places",
+    "description": "verture Maps Places offers 53 million POIs with a clean taxonomy \u2014 but what can you actually do with them? In 50 lines of Python and DuckDB, I turn raw Overture places into a visual neighborhood typology. Before/after, pipeline, and a ready-to-run notebook.\n\nThis is a one-idea, four-minute talk.\r\n\r\nThe idea: every neighborhood has a hidden fingerprint in its POI mix. Overture Maps Places \u2014 the new open dataset combining Meta, Microsoft, Foursquare, and OSM sources \u2014 gives us 53 million points with a standardized category taxonomy. That makes neighborhood profiling dramatically simpler than raw OSM tagging.\r\n\r\nI will show one before/after image: thousands of raw Overture points versus the same city colored by discovered neighborhood types.\r\n\r\nThen one workflow slide: DuckDB spatial query \u2192 H3 hexagons \u2192 POI feature vectors \u2192 UMAP + HDBSCAN \u2192 typology map.\r\n\r\nThen one takeaway: a public Jupyter notebook. Replace the city name, run, done.\r\n\r\nStack: Python, DuckDB, GeoPandas, hdbscan, umap-learn, H3.",
+    "start_datetime": "2026-09-02T04:45:00Z",
+    "end_datetime": "2026-09-02T04:50:00Z",
+    "talk:code": "ERGRGW",
+    "talk:guid": "fe960cdb-6151-5331-8ffc-79103d6b9bac",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Lightning Talk",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Ran1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "9SBVXW",
+        "name": "Marija Ercegovac",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/9SBVXW/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T04:47:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/ERGRGW/",
+      "title": "50 Lines of Python: Neighborhood DNA from Overture Maps Places"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/ERGRGW/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/9SBVXW/",
+      "title": "Marija Ercegovac"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/ERGRGW/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

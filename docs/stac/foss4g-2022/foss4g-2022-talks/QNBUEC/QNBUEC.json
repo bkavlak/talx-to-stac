@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "QNBUEC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "The best practices of Open Source GIS base applications on T\u00fcrkiye General Directorate of Hihgways",
+    "description": "Traffic Safety Application:\r\n\r\nIn the data preprocessing phase, data quality assessment and dirty data were determined on the accident data by using desktop GIS applications such as QGIS,SAGAGIS,JOSM,GeoDa. OpenSource GIS applications and programming languages such as R language and python were used in data cleaning, exploratory analysis and data processing. Statistics for accident data have been extracted. OpenSource map server such as GeoServer is used for sharing, editing and organizing accident maps and base maps produced in GIS applications.\r\nPython software language was used in the server side of the project. For geospatial data analysis, accident points were verified by using geopandas and shapely libraries. PostgreSQL database was used to store geo-based accident data and the PostGIS extension was used. PostGIS adds spatial capabilities to PostgreSQL so it can store, query, and manipulate spatial data. On the server side scripting, GeoAlchemy(an extension of SQLAlchemy) is used for working with spatial databases and geospatial queries.\r\nFor the client side, Turf was used for any spatial operations. It is a geospatial engine, and it includes spatial operations and helper functions. MapboxGL-WebGL-powered library is used for interactive vector maps on the web application. To render more than 100k of accidents with high performance, WebGL powered geospatial visualization framework DeckGL was used. NebulaGL provides geospatial drawing and editing tools for lines, polygons etc. It was added for selecting analysis regions from the map. Osm-Nominatim is a geocoding library. It allows users to find accident locations from an address.\r\n\r\nOpenSource GIS Tools:\r\n\r\n\u25cf\tGIS software for data visualization, processing and analysis:\r\n\r\nQGIS, GRASSGIS, JOSM, SAGAGIS, OrbisGIS\r\n\r\n\u25cf\tGIS Servers: GeoServer, MapServer, Mapnik,\tMapGuide, QGIS Server\r\n\r\n\u25cf\tBackend(Python) :Geopandas, Shapely, Postgis\r\n\r\n\u25cf\tClient(Javascript) :Turf, DeckGL, osm-nominatim\r\n\r\nAsset Management Application:\r\n\r\nWith the \u201cImage-Based Information Management System\u201d Application, it is work to make an information management system and Digital 3D road inventory map for the 91,126km road network under the responsibility of the General Directorate of Highways. With this project, it is possible ensured that images (approximately 21 million) of the highway are taken and the collection, digitization, storage and presentation of the road information of the objects base and the realization of asset management, maintenance services, planning, project design, measurement and evaluation processes determined by the administration through the image.\r\n\r\nOpenSource GIS Tools:\r\n\r\n\u25cf\tGIS software for data visualization, processing and analysis: QGIS\r\n\r\n\u25cf\tGIS Servers: GeoServer\r\n\r\n\u25cf\tBackend :Postgis, Turf, @swimlane/ngx-charts\r\n\r\n\u25cf\tClient :OpenLayers\r\n\r\nResults:\r\n\r\n\u2022 Data in semi HD map quality was produced.\r\n\r\n\u2022 The entire road network can be monitored and analyzed with panoramic images.\r\n\r\n\u2022 The vertical and horizontal profile of the entire highways network has been created.\r\n\r\n\u2022 2.995.845 point inventories and 991.820km line inventories in 42  inventory were produced.\r\n\r\n\u2022 Detection of inventory deficiencies in the field and maintenance processes can be followed.\r\n\r\n\u2022 Road inventory data needed can be shared with other public institutions.",
+    "start_datetime": "2022-08-26T13:20:00Z",
+    "end_datetime": "2022-08-26T13:25:00Z",
+    "talk:code": "QNBUEC",
+    "talk:guid": "7044aba5-de24-5fb1-b0c6-e0d64ebb34a1",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Room 9",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "BFLJZY",
+        "name": "ozgenc uslu",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/BFLJZY/"
+      },
+      {
+        "code": "VTKQEV",
+        "name": "sefa bugra ozen",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/VTKQEV/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T13:22:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/QNBUEC/",
+      "title": "The best practices of Open Source GIS base applications on T\u00fcrkiye General Directorate of Hihgways"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/QNBUEC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/BFLJZY/",
+      "title": "ozgenc uslu"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/VTKQEV/",
+      "title": "sefa bugra ozen"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/QNBUEC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=FyhKmeENTTk",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | The best practices of Open Source GIS base applications on T\u00fcrkiye General\u2026",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

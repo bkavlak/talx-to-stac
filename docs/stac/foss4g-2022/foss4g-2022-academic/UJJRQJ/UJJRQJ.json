@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "UJJRQJ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Development of a graphical user interface to support the semi-automatic semantic segmentation of UAS-images",
+    "description": "Image semantic segmentation focuses on the problem of properly separating and classifying different regions in an image depending on their specific meaning or use, e.g. belonging to the same object. It is worth to notice that in general segmentation is a ill posed problem: it is not possible to provide a unique solution to such problem, different solutions can typically be acceptable, depending on the segmentation criterion which is applied. Nevertheless, regularization techniques are typically used to reduce the issues related to ill posedness, hence ensuring the computability of a unique solution. In the case of semantic segmentation, ill posedness is also reduced by the specific data and object interpretation that shall be included in the semantic part of the data. \r\nIt is also worth to notice that image semantic segmentation tools can be useful in many several applications, related both to the interpretation of images themselves, but also of other entities related to such images. The latter is for instance the case of a point cloud, whose objects and areas are also described by some images. In this case, a proper image semantic segmentation could be back projected from the images to the point cloud, in such a way to exploit such process to properly segment the point cloud itself.\r\nAutomatic image semantic segmentation is a quite challenging problem that nowadays is usually handled by taking advantage of the use of artificial intelligence tools, such as deep learning based neural networks. \r\nThe availability of reliable image segmentation datasets plays a key role in the training phase of any artificial intelligence and machine learning tool based on the image analysis: indeed, despite artificial intelligence tools can currently be considered as the state of the art method in terms of recognition and segmentation ability, they do require a huge size learning dataset in order to ensure reliable segmentation results.\r\nThe developed graphical user interface aims at supporting the semi-automatic semantic segmentation of images, hence easing and speeding up the generation of a ground truth segmentation database. Then, such database can be of remarkable importance for properly training any machine or deep learning based classification and segmentation method.\r\nDespite the development of the proposed graphical user interface has been originally motivated by the need of easing the process of producing a ground truth segmentation and classification of plastic objects in maritime and fluvial environments, within a project aiming at reducing plastic pollution in rivers, the developed tool can actually be used in contexts that are more general.\r\nIndeed, the interface supports in particular two types of quite specific operations: 1) segmenting and identifying objects in a single image, 2) exporting previously obtained results in new images, while also enabling the computation of certain related parameters (e.g. navigation related, such as tracking the same object over different data frames). Different types of images are supported: standard RGB, multispectral images (already available as TIFF (Tagged Image File Format) images) and thermal ones.\r\nFor what concerns the semantic segmentation of a single image, several alternative segmentation options are supported, starting from manual and going to semi-automatic segmentation methods. First, the manual segmentation of the objects is ensured by means of properly inserted polylines. Then, intensity based and graph based methods are implemented as well. On the semi-automatic side, two tools are provided: a) a machine learning based method, exploiting few click choices by the user (implementing a rationale similar to that in (Majumder et al., \u201cMulti-Stage Fusion for One-Click Segmentation\u201d, 2020), i.e. aiming at minimize the user input), b) when images are periodically acquired by a UAS, at quite high frequencies, two successive frames are expected to be not that different from each other. Consequently, the system aims at determining the camera motion between different frames, and using machine learning tools to properly extend and generalize the results in the previous image to those of the new one.\r\nThe latter method opens to a wider scenario, where some more information may come by the availability of consecutive frames. In particular, such additional information that could be determined by properly analyzing consecutive frames could be used to: assess and track the UAS movements while acquiring the video frames, increase the automation in the segmentation and classification process of an object.\r\nOverall, the developed graphical user interface is expected to be useful to support the semi-automatic identification of objects, and to help determining the UAS and the object movements as well.\r\nDespite full autonomous image semantic segmentation would clearly be of interest, its development seems to be quite challenging. Nevertheless, future investigations will be dedicated to these aspects, in order to increase the procedure automation level.\r\nThe simulator will be freely available for download from the website of the GeCo (Geomatics and Conservation) laboratory of the University of Florence (Italy).",
+    "start_datetime": "2022-08-25T09:30:00Z",
+    "end_datetime": "2022-08-25T10:00:00Z",
+    "talk:code": "UJJRQJ",
+    "talk:guid": "7cc3745c-0c48-5adc-b4c8-b6ef375865de",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room Hall 3A",
+    "talk:room_capacity": 85,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "JLKQPE",
+        "name": "Andrea Masiero",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/JLKQPE/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/UJJRQJ/",
+      "title": "Development of a graphical user interface to support the semi-automatic semantic segmentation of UAS-images"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/UJJRQJ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/JLKQPE/",
+      "title": "Andrea Masiero"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/UJJRQJ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

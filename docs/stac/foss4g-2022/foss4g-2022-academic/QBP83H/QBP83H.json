@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "QBP83H",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "How to grow? -Modeling land use change to develop sustainable pathways for settlement growth in the hinterland of Cologne, Germany",
+    "description": "Urban sprawl is associated with negative environmental impacts such as the loss of habitat and the  loss of  most fertile soils for agriculture. The hinterland of Cologne, Germany is facing these challenges. The area is expected to face a population increase by 200,000 inhabitants in the next twenty years. Given past development trends, this population increase will have to be mainly absorbed by the cities and villages in the hinterland. While this provides ample economic opportunities, negative impacts on ecosystems as well as on agriculture have to be assumed due to urban sprawl and increasing fragmentation. The region is known as as one of the most productive agricultural regions in Central Europe. As highest fertile soils are located in the direct neighborhood of existing settlements, urban sprawl will lead to strong trade-offs with agricultural production.\r\nThe aim of the scientific project NACHWUCHS is to identify alternatives to the continuation of existing development patterns. Therefore, we developed a baseline land use model and compare it to scenarios that assume different brownfield development activities. Stakeholder involvement is at the core of the project, as policies for alternative pathways cannot be successfully implemented without the support by farmers, real estate companies, environmental stakeholder , the municipalities and the district administration. The most important aspect of land use change in the region is the allocation of new housing areas. This is modeled by a tool-chain based on a free software stack, that uses PostgresSQL with a Postgis extention, Python and QGIS. The allocation model for new housing areas is currently based on a random forest classifier that has been trained on the official governmental ATKIS vector land use data set. The predictors of the model included distance to public transport and social infrastructure as well as existing land use development plans. The allocation of new housing areas was limited to areas outside of protected areas. Furthermore, only a few land use classes \u2013 mainly agriculture \u2013 were allowed for the allocation of new housing areas. The distance-based predictors were calculated by the openrouteservice, which uses OpenStreetMap data to build the routing graph and to assign routing weights.\r\nA 100 by 100m vector grid was  used for model training and prediction. Model performance was evaluated based on a split in test and training data that considered spatial relationships. Based on the suitability of the grid cells  the demand for projected new housing areas was allocated. We used nine scenarios that differed  in the building density for new housing areas as well as by the extent of brownfield development . In the study presented, building density is expressed in residential units per hectare.  Residential units per hectare is simplified as the number of flats in a building.  In the simulated scenarios, three density classes (10, 30 and 50 residential units per hectare) and three different proportions of brownfield development (10, 20 and 40 per cent) were combined. In the simulated period from 2018 to 2040, we had an area increase of more than fifty percent between the scenario with the lowest density and the lowest proportion of brownfield development and the scenario with the highest density and the highest proportion of brownfield development . The results of the allocation procedure was evaluated based on a set of indicators which cover environmental, agricultural and social aspects. Examples are the supply of agriculture related ecosystem services, soil fertility, economic value of agricultural production and hemeroby.We used the Open Data of the State of North Rhine-Westphalia, which contained geodata for the relevant domains  economy, environment and nature conservation, agriculture, social affairs and transport. The data are Inspire-compliant  and   available under a free licence (DL-DE->Zero-2.0) .  The data set further allowed  the evaluation of the model results with regard to the consequences of the flood disaster of the 14th July 2021, which severely affected parts of the hinterland of Cologne.  \r\nOur results will be used in the context of a mission statement for the future regional development, developed together with locals stakeholders. The mission statement defined development goals for  four sub-regions derived by socio-economic and environmental properties based on 17 UN SDGs. With the help of the above-mentioned indicators, we will evaluate how close or how far the results of the different scenarios  are to these goals and assist  local stakeholders, e.g. in the search for locations of new residential areas. A transfer of the model to regions with similar settings is possible as long as suitable data is available for retraining the model and for the estimation of the indicator sets, highlighting again the importance of open data. The ATKIS data used is openly available for some of the federal states of Germany but not beyond. For North-Rhine Westphalia a transfer semms reasonable- Test runs based on the CORINE land use / land cover product lead to comparable results, indicating that this might be a suitable replacement for the ATKIS based land use information.The Python code of the model, the necessary scripts to generate the required postgisdatabase, a QGIS project example for the visualisation of the results as well as a set of training and test data are provided under free licence via a Gitlab repository.",
+    "start_datetime": "2022-08-26T12:15:00Z",
+    "end_datetime": "2022-08-26T12:45:00Z",
+    "talk:code": "QBP83H",
+    "talk:guid": "97794f74-5f5a-58b9-9277-4dbe0baf78a5",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room Modulo 3",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "WBV9DQ",
+        "name": "Mirko Blinn",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/WBV9DQ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T12:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/QBP83H/",
+      "title": "How to grow? -Modeling land use change to develop sustainable pathways for settlement growth in the hinterland of Cologne, Germany"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/QBP83H/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/WBV9DQ/",
+      "title": "Mirko Blinn"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/QBP83H/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

@@ -1,0 +1,102 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "HK3WBZ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Multistore: An S3-compliant data distribution API",
+    "description": "Source Cooperative's data proxy lets users access open datasets through S3-compatible tools. We rebuilt it from scratch as Multistore, an open source S3 gateway designed to be reusable across the ecosystem. This talk covers why we rebuilt, what we learned, and how others can adopt it.\n\nSource Cooperative is an open data platform where researchers and organizations publish and share datasets. Its data proxy lets users access hosted data through familiar S3-compatible tools like aws-cli, boto3, obstore, GDAL, and DuckDB, with backends spanning AWS S3 and Azure Blob Storage. The proxy works, but it was built specifically for Source Cooperative and is difficult for others to adopt or extend.\r\n\r\nMultistore is our effort to rebuild the data proxy as a modular, open source project that any organization can use. Rather than extracting and refactoring the existing proxy, we started fresh with a focus on clean interfaces and pluggable components. The result is an S3-compliant gateway that resolves incoming requests to the correct storage backend. Its zero-copy passthrough approach means the proxy never buffers file contents, keeping resource usage low and throughput high regardless of file size.\r\n\r\nBeyond modularity, we used the rebuild as an opportunity to rethink deployment. The original runs on a small cluster of ECS Fargate nodes in a single AWS region. Multistore can compile to both native and WebAssembly targets, which lets us run a hybrid architecture: a Cloudflare Workers layer handles global edge routing to insure fast data access from across the globe, while regional servers handle heavier workloads that benefit from proximity to storage backends. This combination improves latency for users worldwide while keeping operational costs predictable.\r\n\r\nAuthentication moves from long-lived access keys to OIDC token exchange, supporting both interactive and machine-to-machine flows with temporary credentials. The system is organized around a set of pluggable interfaces for routing, authorization, credential storage, and backend I/O, so adopters can customize behavior without forking the project.\r\n\r\nIn this talk, we will walk through the limitations that motivated a ground-up rebuild, the architectural decisions we made along the way, and the tradeoffs involved in designing software that serves one platform's needs while remaining genuinely reusable. We will demo Multistore as it runs in Source Cooperative and discuss how other open data platforms, catalogs, and data repositories might integrate it into their own infrastructure.",
+    "start_datetime": "2026-09-02T08:30:00Z",
+    "end_datetime": "2026-09-02T09:00:00Z",
+    "talk:code": "HK3WBZ",
+    "talk:guid": "a77f34e2-67e3-5292-950b-3e0e22bdc4fd",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room2",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "7HKBZZ",
+        "name": "Anthony Lukach",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/7HKBZZ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T08:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/HK3WBZ/",
+      "title": "Multistore: An S3-compliant data distribution API"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/HK3WBZ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/7HKBZZ/",
+      "title": "Anthony Lukach"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/HK3WBZ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides-japanese": {
+      "href": "https://alukach.com/foss4g-2026-multistore/ja/",
+      "title": "Slides (Japanese)",
+      "roles": [
+        "data"
+      ]
+    },
+    "slides-english": {
+      "href": "https://alukach.com/foss4g-2026-multistore/",
+      "title": "Slides (English)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

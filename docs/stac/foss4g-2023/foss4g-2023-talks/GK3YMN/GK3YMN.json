@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "GK3YMN",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Get your own OpenStreetMap dataset running in a Geoserver instance in 2 steps",
+    "description": "Get your preferred OSM dataset (ie. country) running in a local Geoserver instance with only 2 commands and avoid any dependence on an external provider.\r\nSimple, fast, clean solution. Lowering the barrier to entry to geospatial technology use and development.\r\n\r\nDocker-compose setup which assembles the necessary components to implement a Geoserver instance that publishes the OpenStreetMap (OSM) layers locally on a single host/machine (Postgis is required to store the OSM layers).\r\nInstructions for this project are based on this repository OSM-Styles, but make a much simpler execution plan. \r\nThe steps and scripts are intended to run in the context of Linux, Mac and Windows environments.",
+    "start_datetime": "2023-06-28T12:00:00Z",
+    "end_datetime": "2023-06-28T12:05:00Z",
+    "talk:code": "GK3YMN",
+    "talk:guid": "e96bcbc1-dfa0-5487-a9b7-8bab944000ca",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "UBT C / N110 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "TCHDXB",
+        "name": "Jose Macchi",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/TCHDXB/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T12:02:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/GK3YMN/",
+      "title": "Get your own OpenStreetMap dataset running in a Geoserver instance in 2 steps"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/GK3YMN/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/TCHDXB/",
+      "title": "Jose Macchi"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/GK3YMN/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/ckgkKFiQHYZjywp7Qt8hA5",
+      "type": "text/html",
+      "title": "2023 | Get your own OpenStreetMap dataset running in a Geoserver instance in 2 steps - Jose Macchi",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=-hDbwfdskoA",
+      "type": "text/html",
+      "title": "2023 | Get your own OpenStreetMap dataset running in a Geoserver instance in 2 steps - Jose Macchi",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

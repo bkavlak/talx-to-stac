@@ -1,0 +1,130 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "L9PB9K",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Wagtail CMS + pygeoapi = Modern SDI for the current needs",
+    "description": "The current state of the art of Spatial Data Infrastructures (SDIs) is limited to solutions that are already becoming stagnant in terms of their approach and technology.\r\n\r\nToday, we need more robust and modern SDIs, beyond the logic of flat data tables with a spatial component, with data access that is either all open or all closed, lacking granularity.\r\nWagtail is originally used as a content management system, I propose a modern SDI where data management can be granular, with access roles and version control.\r\n\r\nThanks to the pygeoapi library, this application also allows the publication of modern REST web services, according to OGC API specifications.\r\n\r\nThe premise of this proposal is to have a platform with extensive features, but also with current and modern standards, and as simple as possible, without the need to integrate multiple platforms and synchronization agents, etc.\r\n\r\nBasically, this is a simple Django, but enhanced for the management and publication of spatial data with a modern and scalable approach.\r\n\r\nWagtail is well known for content management but its use for spatial data management has not been explored until now. On the other hand, pygeoapi is an agnostic library but primarily intended only for publication, not for data management, even less for data that changes day by day.\r\n\r\nFor ending this proposal precisely resolves both the granular and versioned management of spatial data as well as their publication according to the new OGC (OGC API) standards.",
+    "start_datetime": "2024-12-06T15:30:00Z",
+    "end_datetime": "2024-12-06T16:00:00Z",
+    "talk:code": "L9PB9K",
+    "talk:guid": "757b3f09-8f93-5a71-81ba-133973da9911",
+    "talk:event": "foss4g-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room I",
+    "talk:room_capacity": 100,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "CPW8HX",
+        "name": "C\u00e9sar Benjamin Garc\u00eda Martinez",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/CPW8HX/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-06T15:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/L9PB9K/",
+      "title": "Wagtail CMS + pygeoapi = Modern SDI for the current needs"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/L9PB9K/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/CPW8HX/",
+      "title": "C\u00e9sar Benjamin Garc\u00eda Martinez"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/L9PB9K/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-slides": {
+      "href": "https://docs.google.com/presentation/d/10HbN_x3HZJ1AhvCyx2-aWaG40H7P7yrrwr9TGM3jpfs/",
+      "title": "Presentation Slides",
+      "roles": [
+        "data"
+      ]
+    },
+    "github-repo": {
+      "href": "https://github.com/Wagtial/wagtial",
+      "title": "Github Repo",
+      "roles": [
+        "data"
+      ]
+    },
+    "website": {
+      "href": "https://cesarbenjamin.net",
+      "title": "Website",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/kw9fj9eWYZ895wbWqEKS68",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | Wagtail CMS + pygeoapi = Modern SDI for the current needs",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=ccyqGB2vFlI",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | Wagtail CMS + pygeoapi = Modern SDI for the current needs",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

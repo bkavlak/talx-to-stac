@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "JKV73V",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "pgRouting optimization: from technical to functional",
+    "description": "Due to its SQL-based engine, the OpenSource Software pgRouting is the most flexible routing engine available.\r\nA common misconception is that pgRouting is the least performant routing engine.\r\n\r\nSo how to keep both performance and flexibility with pgRouting ?\r\n\r\nMany factors should be taken into account.\r\nTo begin with, the use cases.\r\nWhat level of precision do you need ?\r\nWill you be computing short or long routes ?\r\nWill there be many routes computed at the same time ?\r\n\r\nSimplification is the most common way to deal with performance issues.\r\nHowever, when accuracy is at the core of decision making, a minimum level of precision must be kept.\r\nReducing the number of rows the routing engine will have to process is the number one tip to enhance performances.\r\nBut there are many other technical and functional optimizations that can make pgRouting run much faster.\r\n\r\nWe will look at some choices we had to make in various projects.\r\nHow the data is the first key to optimization.\r\nBut also how to help the routing engine make the best of it.\r\nWhich algorithms are best used for which use cases, and how fine tuning the database can help too.",
+    "start_datetime": "2022-08-26T07:30:00Z",
+    "end_datetime": "2022-08-26T08:00:00Z",
+    "talk:code": "JKV73V",
+    "talk:guid": "be83cb9f-a6bd-561d-9133-aee2005c51f9",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Verde",
+    "talk:room_capacity": 230,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "SJUWFF",
+        "name": "Laure-H\u00e9l\u00e8ne Bruneton",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/SJUWFF/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T07:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/JKV73V/",
+      "title": "pgRouting optimization: from technical to functional"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/JKV73V/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/SJUWFF/",
+      "title": "Laure-H\u00e9l\u00e8ne Bruneton"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/JKV73V/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/kREWiYGYDZ5gSvwammtsrF",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | pgRouting optimization: from technical to functional",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=s3Dyoz_5veY",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | pgRouting optimization: from technical to functional",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

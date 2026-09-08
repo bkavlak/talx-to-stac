@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "BSKJ83",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Finding the Street-Level Images You Need in Mapillary",
+    "description": "Mapillary hosts over 2 billion street-level images as open data. Their quality and capture conditions vary. This presentation introduces filtering methods to remove low-quality or irrelevant images, enabling more effective use of Mapillary imagery.\n\nMapillary is an open data platform where users upload and share street-level imagery. It contains over 2 billion street-level images from around the world. These images are available as open data (CC BY-SA 4.0) and are widely used in various fields, such as OpenStreetMap mapping and urban environment assessment.\r\n\r\nImage quality on Mapillary can vary due to the diversity of contributors and capturing devices. The images vary in viewpoint, resolution, weather conditions, and time of capture, and some contain motion blur or are out of focus. Therefore, users need to not only retrieve images from target regions, but also filter out low-quality or irrelevant images using metadata and image analysis techniques, such as semantic segmentation and vision-language models (VLMs).\r\n\r\nIn this presentation, I introduce methods for filtering images and share practical experiences from applying these methods. This session provides hints for using Mapillary imagery more effectively.",
+    "start_datetime": "2026-09-02T04:05:00Z",
+    "end_datetime": "2026-09-02T04:10:00Z",
+    "talk:code": "BSKJ83",
+    "talk:guid": "a05117ce-8649-5a1d-983e-350dad847fd2",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Lightning Talk",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Ran1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "PCLFYD",
+        "name": "Hironori Banno",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/PCLFYD/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T04:07:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/BSKJ83/",
+      "title": "Finding the Street-Level Images You Need in Mapillary"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/BSKJ83/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/PCLFYD/",
+      "title": "Hironori Banno"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/BSKJ83/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

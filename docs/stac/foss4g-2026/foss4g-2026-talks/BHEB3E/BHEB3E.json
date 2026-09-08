@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "BHEB3E",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Multivariate Spatio-Temporal Modeling for Regional GIS Data: A Statistical Framework for Analyzing Multidimensional Spatial Interactions",
+    "description": "Open geospatial data have become increasingly available in recent years, enabling researchers and practitioners to analyze complex spatial phenomena at unprecedented spatial and temporal resolutions. Government statistics, environmental monitoring networks, and socio-economic indicators are now widely distributed through open data platforms and can be integrated with geographic information systems (GIS). However, many spatial datasets contain multiple interrelated variables that evolve simultaneously across both space and time. Examples include regional economic indicators, demographic statistics, environmental measurements, and infrastructure activity. Understanding the interactions among these variables is essential for studying spatial systems, yet most existing spatial modeling approaches treat each variable separately.\r\n\r\nTraditional spatial regression models such as the spatial autoregressive (SAR) model and the spatial error model (SEM) are widely used in spatial econometrics and spatial statistics. These models capture spatial dependence through spatial weight matrices representing relationships among geographic units such as administrative regions or grid cells. While these methods have proven useful for analyzing spatial spillovers and diffusion processes, they are typically formulated for a single response variable. When multiple spatial variables are analyzed separately, potential interactions among them cannot be represented explicitly. As a result, the joint dynamics of spatial systems may remain partially unexplained.\r\n\r\nThis presentation introduces a multivariate spatio-temporal regression framework designed to analyze multiple spatial variables simultaneously. The proposed model extends classical spatial regression models to a multivariate setting by representing dependent variables as vectors that evolve across both geographic space and time. In this framework, spatial dependence is represented through spatial weight matrices commonly used in GIS-based spatial analysis, while temporal dependence is incorporated through autoregressive structures. The resulting model captures three important types of interactions: spatial spillovers across neighboring regions, temporal persistence within each variable, and cross-variable interactions among multiple spatial indicators.\r\n\r\nThe proposed modeling framework is expressed in a compact matrix form and estimated using maximum likelihood methods. The likelihood-based estimation approach enables efficient parameter estimation while maintaining statistical interpretability. Under suitable conditions, the parameters of the model are identifiable, meaning that spatial effects and cross-variable interactions can be uniquely recovered from observed spatial data. Because the model structure generalizes classical spatial econometric specifications, it naturally nests widely used models such as multivariate spatial autoregressive and spatial error models.\r\n\r\nTo evaluate the statistical performance of the proposed framework, Monte Carlo simulation experiments were conducted under a variety of spatial and temporal dependence scenarios. The simulations demonstrate that the estimation procedure can accurately recover true model parameters even when complex cross-variable spatial interactions are present. These results indicate that the multivariate formulation provides a robust statistical tool for modeling multidimensional spatial dependence.\r\n\r\nThe practical applicability of the approach is demonstrated using regional data from Japan. The empirical analysis focuses on the joint spatial dynamics of prefectural fertility rates and regional gross domestic product (GDP). These variables are closely related through demographic and economic processes and are likely to influence one another across neighboring regions. Using GIS-based regional datasets and spatial weight matrices representing prefectural adjacency relationships, the multivariate spatio-temporal model is estimated to capture both spatial spillovers and cross-variable interactions. Model comparison based on the Akaike Information Criterion indicates that the multivariate specification provides a better fit to the data than conventional univariate spatial regression models. The results suggest that explicitly modeling multidimensional spatial dependence improves both statistical performance and interpretability of regional processes.\r\n\r\nBeyond this specific example, the proposed framework has broad implications for spatial data science and geospatial analytics. Many open geospatial datasets\u2014including environmental observations, urban indicators, transportation data, and socio-economic statistics\u2014contain multiple variables that interact across both space and time. The multivariate spatio-temporal regression framework provides a statistical methodology for analyzing such datasets while accounting for spatial dependence structures commonly used in GIS analysis. Because the model relies on spatial weight matrices and likelihood-based estimation, it can be integrated with existing geospatial workflows and open-source statistical environments. It is also potentially useful for policy evaluation, regional forecasting, disaster recovery assessment, and evidence-based planning using linked spatial indicators.\r\n\r\nFor the FOSS4G community, this work highlights the importance of combining statistical modeling with open geospatial infrastructures. While GIS platforms provide powerful tools for visualizing and managing spatial data, rigorous statistical models are essential for understanding spatial interactions and making reliable inferences from complex datasets. The proposed modeling approach contributes to this integration by offering a statistically grounded framework for analyzing multidimensional spatial processes using GIS-based regional data.\r\n\r\nFuture work will focus on implementing the proposed modeling framework in open-source statistical and geospatial software environments, enabling researchers and practitioners to apply multivariate spatial modeling techniques to a wide range of open geospatial datasets. By bridging statistical methodology and open geospatial data analysis, the approach aims to support more comprehensive modeling of complex spatial systems in both research and applied domains.",
+    "start_datetime": "2026-09-02T07:30:00Z",
+    "end_datetime": "2026-09-02T08:00:00Z",
+    "talk:code": "BHEB3E",
+    "talk:guid": "8c5ef4d9-f558-509c-8a10-d9b0ce97b24a",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos1",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "YDTCV3",
+        "name": "Saeko Ohta",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/YDTCV3/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T07:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/BHEB3E/",
+      "title": "Multivariate Spatio-Temporal Modeling for Regional GIS Data: A Statistical Framework for Analyzing Multidimensional Spatial Interactions"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/BHEB3E/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/YDTCV3/",
+      "title": "Saeko Ohta"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/BHEB3E/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

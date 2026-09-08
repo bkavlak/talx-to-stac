@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "3M9AQK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8094,
+      43.3416
+    ]
+  },
+  "bbox": [
+    17.8094,
+    43.3416,
+    17.8094,
+    43.3416
+  ],
+  "properties": {
+    "title": "Land Cover Dynamics Simulations with MOLUSCE Plugin in QGIS",
+    "description": "MOLUSCE (Modules for Land Use Change Simulations) is an open-source land cover change analysis module for QGIS, developed by NextGIS with support from Asia Air Survey. Initially presented at FOSS4G 2013 in Nottingham, MOLUSCE has resumed active development after a long period of inactivity. The module now supports the latest QGIS versions and introduces powerful new mechanics. The latest enhancement allows users to apply different versions of environmental factors for historical and prediction periods, expanding its application for climate change-related land cover dynamics analysis.\r\n\r\nIn this workshop, we will conduct and discuss the complete updated MOLUSCE workflow, including data preparation, simulation processes, and validation, with a focus on the new mechanics that account for the dynamics of environmental factors.\r\n\r\nPreparation will include hypothesis formulation, focusing on which factors affect land cover dynamics, and adjusting vector layers such as road network and populated places, as well as raster layers like elevation and climate data, from different sources using built-in QGIS tools. During the simulation, we will take a detailed look at the available models and their settings.\r\n\r\nParticipants are only required to have the latest stable version of QGIS installed on their laptops.",
+    "start_datetime": "2025-07-14T07:00:00Z",
+    "end_datetime": "2025-07-14T11:00:00Z",
+    "talk:code": "3M9AQK",
+    "talk:guid": "fda6a4e9-97ec-5d28-9cc2-da7ae493b1cf",
+    "talk:event": "foss4g-europe-2025-workshops",
+    "talk:type": "workshop",
+    "talk:language": "en",
+    "talk:room": "PL14",
+    "talk:room_capacity": 53,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "XYGHJ8",
+        "name": "Eduard Kazakov",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025-workshops/speaker/XYGHJ8/"
+      },
+      {
+        "code": "ZJJ38J",
+        "name": "Aleksei Novikov",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025-workshops/speaker/ZJJ38J/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-14T09:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025-workshops/talk/3M9AQK/",
+      "title": "Land Cover Dynamics Simulations with MOLUSCE Plugin in QGIS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025-workshops/talk/3M9AQK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025-workshops/speaker/XYGHJ8/",
+      "title": "Eduard Kazakov"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025-workshops/speaker/ZJJ38J/",
+      "title": "Aleksei Novikov"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025-workshops/talk/3M9AQK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-workshops"
+}

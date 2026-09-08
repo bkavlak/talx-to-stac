@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "7PKNY3",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "FOSS4G with .NET: A Hands-On Introduction for Spatial Developers Workshop",
+    "description": "The .net-platform is gaining ground in the open-source community but is it for us \u201cspatial-junkies\u201d?\r\nIn this workshop we touch on the subject, going through possibilities and limitations of using .net in foss4g.\r\nDatabase connections\r\nUsing existing spatial servers\r\nBuilding your own spatial server\r\nFrontend interactive maps\n\nIs .NET Ready for the Spatial World?\r\nIn 2014, Microsoft announced that the .NET Core platform would become open source. Since then, it has steadily gained traction within the open-source community. But how well does it fit within the FOSS4G (Free and Open Source Software for Geospatial) ecosystem?\r\nThis workshop aims to explore exactly that\u2014bridging the powerful, modern capabilities of the .NET platform with the rich, well-established tools in the OSGeo stack.\r\nWhy Consider .NET for Geospatial Projects?\r\n\r\nThere are several reasons why you might choose the .NET platform for geospatial applications:\r\n* Legacy integration: You may be working in an enterprise environment where .NET systems already exist, and you're looking to add spatial functionality.\r\n* Greenfield projects: You may be considering .NET for its modern tooling, performance, or cross-platform capabilities using .NET 8+.\r\n* C# language benefits: C# is expressive, type-safe, and comes with excellent async/await support\u2014useful for scalable geospatial applications.\r\n* Strong IDEs: With Visual Studio and Visual Studio Code, .NET developers benefit from some of the best development environments available.\r\n\r\nThis workshop is for anyone curious about using .NET as a viable toolset in geospatial development\u2014whether for new applications or enhancing existing systems.\r\nWorkshop Structure\r\nThe workshop will consist of three short, focused programming examples. Each one introduces a different layer of the technology stack\u2014from database interaction to frontend mapping.\r\n1)Database Access with PostGIS Using Npgsql\r\nWe\u2019ll start at the data layer, using the Npgsql library to connect a C# application to a PostgreSQL/PostGIS database.\r\nTopics include:\r\nConnecting to PostGIS with connection strings\r\nExecuting spatial queries\r\nReading and writing geometry types using NetTopologySuite.IO.PostGIS\r\nMapping results to C# objects\r\n\r\n2)Handling Spatial Data in the Backend with NetTopologySuite\r\nNext, we move to the backend. The NetTopologySuite library provides robust spatial capabilities similar to JTS (Java Topology Suite).\r\nTopics include:\r\nRepresenting geometries such as points, polygons, and linestrings\r\nPerforming spatial operations (e.g., intersection, buffering, distance)\r\nBuilding spatial APIs using ASP.NET Core\r\n\r\n3)Serving Frontend Maps\r\nFinally, we bring everything to life in the browser. We will demonstrate how to use Blazor (a .NET-based frontend framework) alongside OpenLayers to create an interactive web map.\r\nTopics include:\r\nServing GeoJSON data via Web API\r\nDisplaying spatial data in OpenLayers/Leaflet in a .net-context.\r\nAdding interactivity: popups, hover info, and basic layer control\r\n\r\nThis combination lets you stay within the C# ecosystem across the full stack while integrating with powerful open-source geospatial libraries.\r\n\r\nWho Should Attend?\r\nThis workshop is ideal for:\r\n.NET developers new to the FOSS4G ecosystem who want to understand how to integrate spatial capabilities\r\n\r\nProject leaders or software architects evaluating .NET for geospatial projects\r\n\r\nGeospatial professionals who find themselves moving into or collaborating with teams using the .NET platform\r\n\r\nWhether you're an experienced backend developer or a GIS expert exploring new toolchains, this session will offer practical, real-world insights.\r\n\r\nPrerequisites\r\nAttendees should have:\r\n* Basic familiarity with C# and the .NET platform\r\n* Experience using an IDE such as Visual Studio or Visual Studio Code\r\n* A general understanding of geospatial concepts (e.g., coordinates, layers, spatial queries)\r\n\r\nKeywords\r\n.NET, PostGIS, Npgsql, NetTopologySuite, OpenLayers, Leaflet,C#, FOSS4G, spatial API",
+    "start_datetime": "2025-11-17T20:00:00Z",
+    "end_datetime": "2025-11-17T23:00:00Z",
+    "talk:code": "7PKNY3",
+    "talk:guid": "b966defa-94b4-53ed-b8c5-c60603dcbd8f",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Workshop - Beginner Friendly",
+    "talk:type": "Workshop",
+    "talk:language": "en",
+    "talk:room": "WF502",
+    "talk:room_capacity": 30,
+    "talk:duration_minutes": 180,
+    "talk:speakers": [
+      {
+        "code": "SRBCF3",
+        "name": "Joakim Svensberg",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/SRBCF3/"
+      },
+      {
+        "code": "T8EYAA",
+        "name": "Anders Dahlgren",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/T8EYAA/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-17T21:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/7PKNY3/",
+      "title": "FOSS4G with .NET: A Hands-On Introduction for Spatial Developers Workshop"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/7PKNY3/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/SRBCF3/",
+      "title": "Joakim Svensberg"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/T8EYAA/",
+      "title": "Anders Dahlgren"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/7PKNY3/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

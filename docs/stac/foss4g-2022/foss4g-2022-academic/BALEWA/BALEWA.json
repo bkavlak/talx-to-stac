@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "BALEWA",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Sea water turbidity analysis from Sentinel-2 images: atmospheric correction and bands correlation",
+    "description": "Sea water turbidity is a measure of the amount of light scattered by particles in water. It is due to the presence of suspended particles, which it is operationally defined as the fraction in water with less than 2 \u00b5m in diameter. Plankton can also generate turbidity, but high turbidity events are dominated by high concentrations of inanimate inorganic particles. High levels of suspended sediments in coastal regions can occur as consequence of high sediment load from rivers, from bottom sediment resuspension due to wave actions or due to anthropogenic activities, such as dredging operations or bottom resuspension from ship propellants. The increase of turbidity can determine negative environmental effects both on the biotic and abiotic marine ecosystem. In highly anthropized coastal marine systems, like harbours, sediments represent a sink for contaminants and resuspension can contribute to propagate pollution to unpolluted areas (Lisi et al., 2019).\r\n\r\nMany marine water quality monitoring programmes measure turbidity. Traditional methods (e.g., in situ monitoring) offer high accuracy but provide sparse information in space and time. Earth Observation (EO) techniques, on the other hand, have a potential to provide a comprehensive, fast and inexpensive monitoring system to observe the biophysical and biochemical conditions of water bodies (Caballero et al., 2018; Saberioon et al., 2020; Sagan et al., 2020). Hence, some of the authors are developing a semi-empirical model for predicting water turbidity by combining Sentinel-2A data and machine learning methods using samples collected along the North Tyrrhenian Sea (Italy). Field data collected at the study site from April 2015 to December 2020 were made available by ARPAL, even though most of these data refer to low turbidity events.\r\n\r\nIn the framework of this research activity, Sentinel-2A multispectral optical images, freely available within the EU Copernicus programme, are elaborated. It\u2019s well known that such products are provided at Level-1C (L1C) Top of Atmosphere (TOA) and at Level-2A (L2A) Bottom-Of-Atmosphere (BOA). L2A BOA reflectance products are preferred as they are already corrected for effects of the atmosphere. However, the official L2A data are available for wider Europe from March 2018 onwards. \r\n\r\nThe necessity to use the complete on-site dataset to calibrate the predicting model, and not only data after March 2018, required the identification of the most appropriate algorithm for atmospheric correction of L1C images relative to study area between 2015 and 2018. \r\n\r\nHence, a comparison between the available L2A BOA product ant the corresponding L1C image corrected in different open source environment was performed. In particular, the free and open source QGIS and GRASS GIS, and the Sentinel Application Platform (SNAP), provided by ESA/ESRIN free of charge to the Earth Observation Community, published under the GPL license and with its sources code available on GitHub, were used.\r\n\r\nBoth image-based method, i.e. the Dark Object Subtraction (DOS) method in QGIS, and physically-based methods, i.e. the Second Simulation of Satellite Signal in the Solar Spectrum (6S) method in i.atcorr module of GRASS GIS and the Sen2Cor algorithm inside SNAP, were applied (Lantzanakis et al., 2017). The great advantage of the DOS method is that it focuses only on the spectral and radiometric characteristics of the processed image, hence it doesn\u2019t require remote or in-situ atmospheric measurements. But the performed correction doesn\u2019t seem so accurate. Instead, the physically-based approach requires atmospheric measurements and parameters, that are difficult to be identified so to be coherent in space and time with the processed image. \r\n\r\nThe most complex physical parameter to set is Aerosol Optical Depth (AOD), which is a dimensionless parameter related to the amount of aerosol in the vertical column of the atmosphere over the target station. It usually range from 0 to 1, with values less than 0,1 that corresponds to a clean atmosphere with high visibility, and values higher than 0,4 that corresponds to hazy atmosphere with very less visibility. AOD is spatially and temporally very variable. It can be estimated from AERONET (AErosol RObotic NETwork), a federation of ground-based remote sensing aerosol networks with more than 25 years of data. A station which measured the Aerosol Optical Depth at 500 nm at Level 2 (quality-assured) at the same time as the scene was taken, is not always available nearby the site under study. Hence the evaluation of AOD variability in time and space was analysed for the area and the events of interest, so to identify the proper values. Expecially i.atcorr seems very sensitive to the set values of AOD.\r\n\r\nOnce the proper method for atmospheric correction was identify, it was applied to the L1C images relative to the collected field data from April 2015 to March 2018. Then, the correlation between the in-site dataset and the individual bands known to be most sensitive to water turbidity, i.e. blue (B2), green (B3), red (B4) and near infrared (B8 and B8A) bands, was analysed, finding good results for the visible bands, and a weak correlation with NIR bands. In addition, indexes defined by the ratio between the three visible bands were checked to see which combination could best highlight the turbidity of the water from the Sentinel-2 images. Preliminary results seem to confirm that the identified EO technique could provide a fast and inexpensive monitoring system to observe sea water turbidity along the Northern Tyrrhenian Sea (Italy).",
+    "start_datetime": "2022-08-24T09:30:00Z",
+    "end_datetime": "2022-08-24T10:00:00Z",
+    "talk:code": "BALEWA",
+    "talk:guid": "afdfc2e0-112f-5706-8701-5b5dc7eb8c49",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room Hall 3A",
+    "talk:room_capacity": 85,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "BFRR3Z",
+        "name": "Bianca Federici",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/BFRR3Z/"
+      },
+      {
+        "code": "RHNJFD",
+        "name": "Stefania Magr\u00ec",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/RHNJFD/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/BALEWA/",
+      "title": "Sea water turbidity analysis from Sentinel-2 images: atmospheric correction and bands correlation"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/BALEWA/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/BFRR3Z/",
+      "title": "Bianca Federici"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/RHNJFD/",
+      "title": "Stefania Magr\u00ec"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/BALEWA/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

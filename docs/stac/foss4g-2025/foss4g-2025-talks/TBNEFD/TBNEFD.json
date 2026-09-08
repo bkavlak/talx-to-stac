@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "TBNEFD",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Semantic Spatial Search with Natural Language: Integrating NL2SQL with PostGIS & pgVector",
+    "description": "We propose a semantic spatial search architecture that understands users\u2019 natural language requests and precisely retrieves optimal locations from PostGIS and pgVector using NL2SQL.\n\nA Semantic Spatial Search Architecture Based on Natural Language: Integrating NL2SQL with PostGIS and pgVector\r\n\r\nTraditional location searches have relied on explicit keywords or structured database queries, such as \u201cAuckland Sky Tower.\u201d\r\n\r\nHowever, with the widespread adoption of LLMs, users increasingly expect to explore places using ambiguous and abstract expressions, like \u201cthe tallest building nearby\u201d or \u201ca cafe with a great view.\u201d\r\n\r\nTo overcome the limitations of these conventional search methods, we propose an architecture capable of directly understanding users\u2019 natural language and performing semantic spatial search.\r\n\r\nNatural Language Processing (NLP) techniques to analyze abstract user requirements\u2014such as \u201ccozy atmosphere\u201d or \u201ccost-effective\u201d\u2014and identifies their core intentions.\r\n\r\nBased on these intentions, it employs NL2SQL techniques to directly query spatial and vector data stored in PostGIS and pgVector, enabling precise retrieval of relevant objects.\r\n\r\nThrough the organic integration of these components, the proposed architecture goes beyond simple information retrieval\u2014performing multi-step reasoning on user intent and delivering high-level semantic spatial search that recommends the optimal location.\r\n\r\n---\r\n\r\nThis work is supported by the Korea Agency for Infrastructure Technology Advancement(KAIA) grant funded by the Ministry of Land, Infrastructure and Transport (Grant RS-2022-00143336, NTIS Grant: 2610000396)",
+    "start_datetime": "2025-11-20T02:50:00Z",
+    "end_datetime": "2025-11-20T02:55:00Z",
+    "talk:code": "TBNEFD",
+    "talk:guid": "476e8b0e-260d-5374-8096-77292f6e35d6",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Lightning talk",
+    "talk:type": "Lightning Talk",
+    "talk:language": "en",
+    "talk:room": "WG403",
+    "talk:room_capacity": 386,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "NKTGGU",
+        "name": "Hanjin Lee",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/NKTGGU/"
+      },
+      {
+        "code": "F7LELM",
+        "name": "Jungin Yoon",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/F7LELM/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-20T02:52:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/TBNEFD/",
+      "title": "Semantic Spatial Search with Natural Language: Integrating NL2SQL with PostGIS & pgVector"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/TBNEFD/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/NKTGGU/",
+      "title": "Hanjin Lee"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/F7LELM/",
+      "title": "Jungin Yoon"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/TBNEFD/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

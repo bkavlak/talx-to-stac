@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "AUE7KY",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Integration of Numerical Weather Prediction Models: A 3D Spatial Information Approach",
+    "description": "This presentation introduces a workflow for converting numerical weather prediction data from the Korea Meteorological Administration into real-time 3D visualizations. The process includes algorithmic transformation based on NWP models, optimization for lightweight performance, and display rendering, utilizing the open-source CesiumJS platform for 3D visualization.\n\n1- Overview of the 3D Visualization System\r\nThis system was developed to visualize numerical weather prediction (NWP) data from the Korea Meteorological Administration in a web-based 3D environment. The primary goal is to support meteorologists in their analysis of weather phenomena by rendering NWP data alongside topographical information and various weather elements. For 3D visualization, the system employs CesiumJS, a specialized open-source engine for geospatial data rendering. CesiumJS enables high-performance visualization of terrain, spatial models, and time-based data directly in a browser, providing an optimal foundation for the system.\r\n\r\n2 - Processing Workflow of NWP Model Data\r\nThe system includes an automated pipeline that handles the collection, transformation, and management of large-scale NWP data. This allows for fast and efficient visualization of real-time or periodically updated datasets. Manual reprocessing is also supported, ensuring adaptability and control when necessary.\r\n\r\nThe processed data is categorized into two main types:\r\n\r\n- Isosurface -> GLTF\r\n\r\n- Streamline -> JSON\r\n\r\n1. Isosurface Generation\r\nTo extract isosurfaces from volumetric scalar fields, the marching cubes algorithm was applied. This method generates triangle mesh representations of 3D structures corresponding to specific threshold values in the data. The generated structures are then converted into GLTF format. Geospatial coordinates are embedded into these GLTF models to ensure accurate placement in the 3D environment.\r\n\r\nThe models undergo a lightweight optimization process to reduce file size while preserving visual fidelity. This makes them suitable for smooth rendering in web browsers without compromising detail.\r\n\r\n2. Streamline Visualization\r\nStreamlines are used to represent directional flow patterns such as wind. For this, a computed engine calculates flow data in real time on a per-frame basis, and the results are merged into a single texture. This process is executed through parallel computation, ensuring optimized performance even when handling large datasets.\r\n\r\nThis approach allows for dynamic visualization responsive to user interaction and effectively conveys directional elements such as wind speed and direction.\r\n\r\n3 - Significance and Presentation Goal\r\nThe described techniques offer a visual aid in interpreting complex numerical weather data, helping meteorologists and researchers understand and utilize this information more intuitively. The system is under continuous development, with additional NWP models being processed and integrated.\r\n\r\nThis presentation aims to showcase the data processing pipeline and visualization results of the system, introducing new possibilities in weather data interpretation and the technical approaches used to achieve it.",
+    "start_datetime": "2026-09-01T04:30:00Z",
+    "end_datetime": "2026-09-01T04:35:00Z",
+    "talk:code": "AUE7KY",
+    "talk:guid": "f99a529e-9ee1-585c-9d88-53ed1298d2bd",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Lightning Talk",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Ran1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "CVAY7Q",
+        "name": "YimYooYeol",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/CVAY7Q/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T04:32:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/AUE7KY/",
+      "title": "Integration of Numerical Weather Prediction Models: A 3D Spatial Information Approach"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/AUE7KY/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/CVAY7Q/",
+      "title": "YimYooYeol"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/AUE7KY/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

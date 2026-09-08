@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "E9HEQB",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "FAIR4G: Advancing FAIR Software Citation and Transparency for Open Geospatial Science",
+    "description": "The reproducibility and transparency of scientific research are fundamental prerequisites for building trust in knowledge production and for addressing global challenges such as those outlined in the United Nations Sustainable Development Goals (SDGs). However, many scientific publications still lack the necessary information to reproduce results, particularly with regard to underlying software, data, and computational workflows. This situation, commonly referred to as the replication crisis, undermines the reliability and sustainability of scientific practice (Baker, 2016).\r\n\r\nTo address these challenges, the paradigms of Open Science and FAIR (Findable, Accessible, Interoperable, Reusable) have emerged as guiding frameworks. Open Science promotes transparency through open access publications, open data, and open source software, while the FAIR principles define minimum standards for the structured availability and reuse of research outputs. A critical but often underrepresented component in this ecosystem is the proper citation and recognition of research software, including free and open source geospatial (FOSS4G) tools (Smith et al., 2016).\r\n\r\nThe Open Source Geospatial Foundation (OSGeo) represents a mature ecosystem of approximately 50 open source geospatial software projects, supported by a global community. All OSGeo projects undergo a formal incubation process, ensuring adherence to best practices such as open licensing, publicly accessible repositories, and transparent governance. These practices inherently support several FAIR principles, particularly Findability and Accessibility (Tzotsos et al., 2016). However, gaps remain in long-term preservation, persistent identification, and formal recognition through standardized citation mechanisms.\r\n\r\nSoftware is commonly referenced using URLs pointing to code repositories. While suitable for short-term access, URLs lack long-term reliability, as they may become invalid due to infrastructure changes or resource removal. This creates challenges for reproducibility, as references in scientific publications may no longer resolve to the original artifacts (Fenner et al., 2019).\r\n\r\nPersistent Identifiers (PIDs), particularly Digital Object Identifiers (DOIs), provide a robust solution. DOIs enable stable referencing of digital objects independent of their location, supported by infrastructures such as CrossRef and DataCite. Platforms such as Zenodo, operated by CERN and supported by the European Union, facilitate DOI assignment for software and datasets, enabling long-term archiving and citation. The importance of software citation has been formalized by initiatives such as FORCE11, which defined community principles for software citation (Smith et al., 2016), and the Research Data Alliance, which promotes global standards for data and software interoperability.\r\n\r\nAn increasing number of OSGeo projects have adopted DOI-based citation practices. Currently, more than 20 projects provide DOIs, allowing both version-specific citation and project-level referencing. This development aligns with broader trends in geospatial research, where open source GIS has become a central component of scientific workflows (Brovelli et al., 2020). However, implementation depth and automation vary across projects, and the scientific publishing ecosystem has not yet fully adapted to consistently support DOI-based software citation.\r\n\r\nA key challenge lies in the heterogeneity of publisher workflows. While some journals encourage or require DOI-based software citation, the integration of these references into metadata systems such as CrossRef is not always reliable. As a result, even correctly implemented FAIR practices may fail to produce visible and citable references. This lack of transparency creates uncertainty for researchers, developers, and reviewers and may lead to what can be described as an \u201cinformation catastrophe,\u201d where contributions remain effectively invisible within the scientific record (Fenner et al., 2019).\r\n\r\nThe FAIR4G project (www.fair4g.org) addresses this challenge by introducing a transparent, data-driven approach to monitoring and documenting FAIR software citation practices in the open geospatial domain. Launched in 2025 as a volunteer-driven initiative, FAIR4G provides continuously updated analyses of DOI-based citations for OSGeo projects, based on CrossRef metadata from scientific journals and books.\r\n\r\nThe FAIR4G web portal serves as a centralized, low-barrier information resource for stakeholders across the Open Science ecosystem. For each participating software project, it offers tabular overviews of DOI-based citations, including publication date, publication type, publisher, journal title, and the DOI of the citing work. Additional contextual information, such as links to project websites and Zenodo landing pages, enhances transparency and usability.\r\n\r\nThese data provide significant added value for multiple stakeholder groups. OSGeo projects can track the scientific reuse of their software across disciplines and optimize citation guidelines. Individual contributors gain visibility into how their work is reused in scientific and societal contexts. Researchers can identify journals that successfully implement FAIR software citation practices, enabling more informed publication strategies. Publishers and journals can use FAIR4G data to benchmark and improve their workflows, supporting their transition towards Open and FAIR practices.\r\n\r\nThe Geospatial Data Abstraction Library (GDAL) illustrates these dynamics. Since registering a DOI in 2022 and archiving releases via Zenodo, GDAL has seen increasing adoption in both downloads and DOI-based citations. FAIR4G analyses show a steady growth in citations across a wide range of scientific disciplines, highlighting the central role of open geospatial software in contemporary research.\r\n\r\nFAIR4G is an evolving project that aims to expand its analytical capabilities and data services. Planned developments include temporal and thematic analyses of DOI adoption across publishers and journals, as well as the provision of FAIR-compliant, machine-readable datasets. These efforts are intended to foster dialogue among stakeholders and support the continuous improvement of standards and infrastructures for software citation.\r\n\r\nIn conclusion, FAIR4G addresses a critical gap at the intersection of Open Science, FAIR principles, and open geospatial software. By increasing transparency and providing actionable insights into DOI-based software citation practices, it supports reproducibility, recognition, and sustainability in scientific research. As such, FAIR4G contributes both a practical tool and a conceptual framework for strengthening the role of FOSS4G within a more open and sustainable scientific ecosystem.",
+    "start_datetime": "2026-06-29T12:30:00Z",
+    "end_datetime": "2026-06-29T12:35:00Z",
+    "talk:code": "E9HEQB",
+    "talk:guid": "a9dd5ce3-98c7-5db5-931e-b8470799b6c8",
+    "talk:event": "foss4g-europe-2026",
+    "talk:track": "Academic track",
+    "talk:type": "Academic lightening talk",
+    "talk:language": "en",
+    "talk:room": "A01",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "8VQCXZ",
+        "name": "Peter L\u00f6we",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/8VQCXZ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-06-29T12:32:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/E9HEQB/",
+      "title": "FAIR4G: Advancing FAIR Software Citation and Transparency for Open Geospatial Science"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/E9HEQB/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/8VQCXZ/",
+      "title": "Peter L\u00f6we"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/E9HEQB/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "EUMGTD",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "G3W-SUITE: the OS framework to publish and manage QGIS projects on the web",
+    "description": "G3W-SUITE is a modular, client-server application for managing and publishing interactive QGIS cartographic projects of various kinds in a totally independent, simple and fast way.\r\n\r\nThe application is compatible with QGIS LTR version and it is based on strong integration with the QGIS API.\r\n\r\nDescription max 500 words\r\nThe workshop allows you to learn how to install, initialize and activate the various features of the suite.\r\nThe aim of the session is to transform a QGIS project into a web cartographic management software dedicated to online editing.\r\n\r\nThe following topics will be covered in the workshop:\r\n* installation and configuration of G3W-SUITE on a Ubuntu LTS server;\r\n* from QGIS desktop to G3W-SUITE\r\n* overview of the suite features, widgets and capabilities\r\n* creation of users and definition of roles (Admin, Manager, Viewer ...)\r\n* creation of thematic containers and functional association with users\r\n* publication and management of a QGIS project as WebGis service\r\n* function settings related to individual layers: searches, downloads ...\r\n* introduction to web geo-editing suite capabilities\r\n* creation of geographic and alphanumeric constraints (visualization and editing) based on individual users\r\n* view interactive graphs created with the QGIS Data Plotly plugin on webgis\r\n* QGSI ProcessingAPI integration to to use QGIS geographic analysis models on the web\r\n\r\nG3W-SUITE is released on GitHub with Mozilla Public Licence 2.0",
+    "start_datetime": "2024-07-02T11:00:00Z",
+    "end_datetime": "2024-07-02T15:00:00Z",
+    "talk:code": "EUMGTD",
+    "talk:guid": "94f0ba4e-cfbf-562a-916d-19e8242e87f0",
+    "talk:event": "foss4g-europe-2024-workshops",
+    "talk:type": "workshop",
+    "talk:language": "en",
+    "talk:room": "Room 301",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "D88UCN",
+        "name": "Walter Lorenzetti",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024-workshops/speaker/D88UCN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-02T13:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024-workshops/talk/EUMGTD/",
+      "title": "G3W-SUITE: the OS framework to publish and manage QGIS projects on the web"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024-workshops/talk/EUMGTD/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024-workshops/speaker/D88UCN/",
+      "title": "Walter Lorenzetti"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024-workshops/talk/EUMGTD/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-workshops"
+}

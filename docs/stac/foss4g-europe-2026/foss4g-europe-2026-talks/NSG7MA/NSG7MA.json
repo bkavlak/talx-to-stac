@@ -1,0 +1,101 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "NSG7MA",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "QField goes (e)geniouss",
+    "description": "Precise localization in urban areas, can be tricky despite having accurate GPS devices. Urban canyons may lead to interrupted and reflected satellite signals making navigation unreliable und imprecise.\r\n\r\nThis presentation will present the outcome of the ongoing European Horizon Initiative [Egeniouss](https://www.egeniouss.eu/). In a consortium of more than 10 partners we have worked more than three years to get to the point where we can locate ourselves within 10 cm's in urban areas without adding an external GPS Device.\r\nThe project\u2019s mission was to harness alternative data sources and develop a cloud service based on novel multi-sensor navigation with a tightly integrated visual localisation component to overcome known GNSS issues and augment existing EGNSS services. Following, this service is made available through a dedicated API. To validate our approach, we defined three real-world use cases to test the reliability and accuracy of the service.\r\nWe\u2019ll showcase one of these used cases and explain how Egeniouss has been integrated into QField via its innovative plugin framework.\r\n The presentation will cover the journey of egeniouss alongside QField and how both were constantly improved to finally serve the same groups of end-users. \r\nNew features which were specifically developed to finally meet the needs of the end-users of the egeniouss service in the urban areas, will also be presented.",
+    "start_datetime": "2026-07-01T11:30:00Z",
+    "end_datetime": "2026-07-01T12:00:00Z",
+    "talk:code": "NSG7MA",
+    "talk:guid": "0f593bb3-3bdf-5844-bfff-0671e4a94172",
+    "talk:event": "foss4g-europe-2026",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "AM",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "MMXWUV",
+        "name": "Berit Mohr",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/MMXWUV/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-07-01T11:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/NSG7MA/",
+      "title": "QField goes (e)geniouss"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/NSG7MA/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/MMXWUV/",
+      "title": "Berit Mohr"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.egeniouss.eu/",
+      "title": "Egeniouss"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/NSG7MA/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "link-to-slides": {
+      "href": "https://docs.google.com/presentation/d/1-L9iqBBj7dk5FEaq5-UklruUX5DEg09t9EAtrlzceP0/edit?usp=sharing",
+      "title": "LInk to Slides",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

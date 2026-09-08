@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "N87UAA",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Idle-Aware Geo-Processing Scheduler: Auto-Scaling Workers for Cloud-Native Geospatial Processing",
+    "description": "An idle-aware geospatial processing scheduler that auto-scales workers based on queued workloads. The system runs spatial processing tasks opportunistically using available resources and supports cloud-native deployment for scalable geospatial data processing pipelines.\n\nLarge-scale geospatial processing tasks such as spatial analysis, spatial indexing, and vector processing often require significant computing resources. In many production environments, however, computing resources remain underutilized during periods of low activity.\r\nThis talk introduces an Idle-Aware Geo-Processing Scheduler, a worker-based processing system designed to run geospatial workloads opportunistically by utilizing idle compute resources.\r\nThe system operates as a distributed worker processing engine built around a task queue architecture. When new geospatial jobs enter the queue, the scheduler automatically scales workers based on workload demand. For example, if multiple jobs are submitted simultaneously, multiple workers can be spawned to process them in parallel.\r\nConversely, when the workload decreases or the queue becomes empty, workers automatically scale down, allowing the system to return to minimal resource usage. This mechanism enables geospatial processing tasks to run as background pipelines without interfering with primary system workloads.\r\nThe architecture follows cloud-native principles, allowing the system to be deployed on cloud environments where compute resources can scale elastically. By combining auto-scaling workers, task queues, and open-source geospatial tools, spatial processing pipelines can dynamically expand during high workloads and shrink during idle periods.\r\nThis talk will cover:\r\n-The design of an idle-aware scheduler for geospatial workloads\r\n-Architecture of a worker-based geospatial processing engine\r\n-Applying auto-scaling and cloud-native deployment to spatial processing pipelines\r\n-Task queue orchestration for distributed geospatial jobs\r\n-Integrating open-source geospatial tools into scalable processing workflows\r\n\r\nThis approach enables geospatial teams to build flexible spatial processing pipelines that adapt to workload demands while efficiently utilizing available computing resources.",
+    "start_datetime": "2026-09-03T04:00:00Z",
+    "end_datetime": "2026-09-03T04:30:00Z",
+    "talk:code": "N87UAA",
+    "talk:guid": "4616c3ae-b41d-5e20-9c47-1d5a616c0234",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room5",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "XAGQYY",
+        "name": "Natpakal Maneerat",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/XAGQYY/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-03T04:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/N87UAA/",
+      "title": "Idle-Aware Geo-Processing Scheduler: Auto-Scaling Workers for Cloud-Native Geospatial Processing"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/N87UAA/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/XAGQYY/",
+      "title": "Natpakal Maneerat"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/N87UAA/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "VKV8BW",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "spatialEpisim: an open-source R Shiny app for tracking COVID-19 in low- and middle-income (LMIC) countries",
+    "description": "It is essential to understand what future epidemic trends will be, as well as the effectiveness and potential impact of public health intervention measures. The goal of this research is to provide insight that would support public health officials towards informed, data-driven decision making. We present spatialEpisim, an R Shiny app (https://github.com/ashokkrish/spatialEpisim) that integrates mathematical modelling and open-source tools for tracking the spatial spread of COVID-19 in low- and middle-income (LMIC) countries.\r\n\r\nWe present spatial compartmental models of epidemiology (ex: SEIR, SEIRD, SVEIRD) to capture the transmission dynamics of the spread of COVID-19. Our interactive app can be used to output and visualize how COVID-19 spreads across a large geographical area. The rate of spread of the disease is influenced by changing the model parameters and human mobility patterns.\r\n\r\nFirst, we run the spatial simulations under the worst-case scenario, in which there are no major public health interventions. Next, we account for mitigation efforts including strict mask wearing and social distancing mandates, targeted lockdowns, and widespread vaccine rollout to vaccinate priority groups.\r\n\r\nAs a test case Nigeria is selected and the projected number of newly infected and death cases are estimated and presented. Projections for disease prevalence with and without mitigation efforts are presented via time-series graphs for the epidemic compartments.\r\n\r\nPredicting the transmission dynamics of COVID-19 is challenging and comes with a lot of uncertainty. In this research we seek primarily to clarify mathematical ideas, rather than to offer definitive medical answers. Our analyses may shed light more broadly on how COVID-19 spreads in a large geographical area with places where no empirical data is recorded or observed.",
+    "start_datetime": "2022-08-26T13:25:00Z",
+    "end_datetime": "2022-08-26T13:30:00Z",
+    "talk:code": "VKV8BW",
+    "talk:guid": "2e1a61b0-b8d0-5248-a79b-77d25aa3bd9d",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Modulo 0",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "F9B7AA",
+        "name": "Crystal Wai",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/F9B7AA/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T13:27:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/VKV8BW/",
+      "title": "spatialEpisim: an open-source R Shiny app for tracking COVID-19 in low- and middle-income (LMIC) countries"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/VKV8BW/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/F9B7AA/",
+      "title": "Crystal Wai"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/VKV8BW/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=XEHE0019b-M",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | spatialEpisim: an open-source R Shiny app for tracking COVID-19 in low- and middle-\u2026",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

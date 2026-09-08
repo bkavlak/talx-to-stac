@@ -1,0 +1,189 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "EFDUYY",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Connecting tribes: how we connected the GRASS GIS database natively to GeoServer",
+    "description": "All of us involved in the creation and publication of large amounts of geodata are familiar with the complexities of data management. In the case of geodata created with GRASS GIS, we asked ourselves how they could be made accessible to GeoServer without duplication. To overcome the previous limitation of GRASS GIS having its own data format, we connected the tribes and let Java and C/Python communicate with each other. So the challenge was to be able to efficiently read the GRASS GIS database directly with GeoServer. And why is that? Because this directly links the analytical capabilities of GRASS GIS with the exceptional geo service & publishing capabilities of GeoServer.\r\n\r\nOur approach is to use the existing GDAL-GRASS bridge, and add this bridge as a new extension to GeoServer. To this we add two new GRASS GIS addons (r.geoserver.style + r.geoserver.publish) to easily publish the data from a GRASS GIS session as an OGC service. The new GeoServer GRASS raster datastore allows to use GRASS raster data directly in a GeoServer instance. In this way it is now very easy to publish GRASS data as a web service via GeoServer without having to export the data from GRASS GIS to GeoTIFF or COG files. This works for both classic raster data and also for timeseries which can e.g. be inspected as a WMS Time.",
+    "start_datetime": "2022-08-24T10:15:00Z",
+    "end_datetime": "2022-08-24T10:20:00Z",
+    "talk:code": "EFDUYY",
+    "talk:guid": "02c04bcd-7a01-509a-b65a-879122c7500f",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Room 4",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "JB8MU3",
+        "name": "Markus Neteler",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/JB8MU3/"
+      },
+      {
+        "code": "CGRC9L",
+        "name": "Carmen Tawalika",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/CGRC9L/"
+      },
+      {
+        "code": "PPU3XQ",
+        "name": "Marc Jansen",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/PPU3XQ/"
+      },
+      {
+        "code": "DJYXBZ",
+        "name": "Markus Metz",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/DJYXBZ/"
+      },
+      {
+        "code": "MGV3S3",
+        "name": "Anika Weinmann",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/MGV3S3/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T10:17:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/EFDUYY/",
+      "title": "Connecting tribes: how we connected the GRASS GIS database natively to GeoServer"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/EFDUYY/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/JB8MU3/",
+      "title": "Markus Neteler"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/CGRC9L/",
+      "title": "Carmen Tawalika"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/PPU3XQ/",
+      "title": "Marc Jansen"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/DJYXBZ/",
+      "title": "Markus Metz"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/MGV3S3/",
+      "title": "Anika Weinmann"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.osgeo.org/member/tawalika",
+      "title": "Carmen"
+    },
+    {
+      "rel": "related",
+      "href": "https://openlayers.org/",
+      "title": "OpenLayers"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/geoext/geoext",
+      "title": "GeoExt"
+    },
+    {
+      "rel": "related",
+      "href": "https://terrestris.github.io/react-geo/",
+      "title": "react-geo"
+    },
+    {
+      "rel": "related",
+      "href": "https://geostyler.org/",
+      "title": "GeoStyler"
+    },
+    {
+      "rel": "related",
+      "href": "https://actinia.mundialis.de/",
+      "title": "actinia"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.terrestris.de/",
+      "title": "terrestris"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.mundialis.de/",
+      "title": "mundialis"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/EFDUYY/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/rTd63aMjeLJua4nVYhcXWk",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Connecting tribes: how we connected the GRASS GIS database natively to GeoServer",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=Zgv_YfnIaYo",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Connecting tribes: how we connected the GRASS GIS database natively to GeoServer",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

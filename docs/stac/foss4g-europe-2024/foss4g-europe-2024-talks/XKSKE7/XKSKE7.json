@@ -1,0 +1,126 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "XKSKE7",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Complexity of Land use planning - simplicity from FOSS4G",
+    "description": "Land use planning is a complex process involving legal frameworks, decision making, participation with the community and skills for making maps that are artistic but still comprehensible to both experts and laypeople. In the end, however, land use maps are \u201cjust\u201d geographical data. They usually consist of an area (a town or a region) and smaller features (blocks, land use areas, lines, points of interest) with lots of different regulations. Attached are different types of documents (decisions, reports) and events describing when and how the process goes from phase to phase.\r\n\r\nHarmonisation of data for national and global use has been the aim in the geospatial field for a very long time. Now in Finland there is an ambitious scheme to gather all the land use plans from municipalities and regions together in a harmonised manner in an open API service. This is a huge opportunity for FOSS4G since there are no tools available in any software to do this. \r\n\r\nIn this talk we shall briefly go through the current situation in Finland in land use planning. We focus on how to use PostGIS and QGIS in land use planning and bring simplicity to the complex database models. We present two use cases: Regional land use plan which can be done using QGIS attribute forms, and another for detailed zoning and land use plans, which require QGIS plugin development. We also describe our architecture for\r\nthe PostGIS database and its related services, such as how to import and export data to the national land use planning API.",
+    "start_datetime": "2024-07-03T13:30:00Z",
+    "end_datetime": "2024-07-03T14:00:00Z",
+    "talk:code": "XKSKE7",
+    "talk:guid": "af54526c-f3a9-53f9-bacf-531927ddf828",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Transition to FOSS4G",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "LAStools (327)",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "PNUW3A",
+        "name": "Riku Oja",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/PNUW3A/"
+      },
+      {
+        "code": "CKRKLQ",
+        "name": "Sanna Jokela",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/CKRKLQ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-03T13:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/XKSKE7/",
+      "title": "Complexity of Land use planning - simplicity from FOSS4G"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/XKSKE7/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/PNUW3A/",
+      "title": "Riku Oja"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/CKRKLQ/",
+      "title": "Sanna Jokela"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/XKSKE7/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://docs.google.com/presentation/d/1MOrV88By0lIPkskJaspRjn6vaD7ELQozohvSw9uyNKU/edit?usp=sharing",
+      "title": "Presentation",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/1BeKkBXm2QH6R8z23RtqHy",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Complexity of Land use planning - simplicity from FOSS4G",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=FdxzBTH3LkU",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Complexity of Land use planning - simplicity from FOSS4G",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

@@ -1,0 +1,95 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "UXJSSB",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "QGIS For You: Building a Plugin and Using Model Designer",
+    "description": "If you are coming to FOSS4G you already know (or heard) QGIS is a great tool for working with GIS datasets. \r\nYou load data, manipulate, download, upload and there are thousands of plugins to choose from to make your life even easier. \r\n\r\nBut let's say your workflow is not fitting in those available plugins, and you have a custom python script to make some changes to the QGIS layers. How can we make automate that or make it easier for the entire org to run your shiny python script purpose built for your use case? \r\n\r\nIn this workshop we'll look at two possible solutions \r\n- QGIS Plugin Development \r\n- QGIS Model Designer \r\n\r\n1. QGIS Plugin Development will include \r\n- Basic setup for plugin development \r\n- Writing a basic python script \r\n- Some debugging practises\r\n- Using QT designer for the UI\r\n- How to work with dependencies \r\n- Sharing your built plugin with your team \r\n \r\n2. QGIS Model Designer \r\n- Creating a model \r\n- Saving and loading models \r\n- Running custom python scripts as steps \r\n- Sharing models \r\n\r\nAfter this workshop, I hope the folks can walk away with a basic understanding of custom data manipulation capabilities of QGIS.",
+    "start_datetime": "2026-07-03T13:10:00Z",
+    "end_datetime": "2026-07-03T15:10:00Z",
+    "talk:code": "UXJSSB",
+    "talk:guid": "e7c9b484-e805-5863-8b83-b206232d4cde",
+    "talk:event": "foss4g-europe-2026-workshops",
+    "talk:type": "Lightning workshop",
+    "talk:language": "en",
+    "talk:room": "A12",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 120,
+    "talk:speakers": [
+      {
+        "code": "8MGXWG",
+        "name": "json singh",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026-workshops/speaker/8MGXWG/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-07-03T14:10:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/talk/UXJSSB/",
+      "title": "QGIS For You: Building a Plugin and Using Model Designer"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/talk/UXJSSB/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/speaker/8MGXWG/",
+      "title": "json singh"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/talk/UXJSSB/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "github-repository": {
+      "href": "https://github.com/jashanbhullar/foss4geu-2026-workshop-qgis",
+      "title": "Github Repository",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-workshops"
+}

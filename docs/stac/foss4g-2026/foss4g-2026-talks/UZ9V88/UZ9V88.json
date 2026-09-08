@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "UZ9V88",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Between Sacred Tradition and Urban Form: An OpenStreetMap-Based Analysis of Church Orientation Patterns in Milan",
+    "description": "The orientation of Christian churches has long attracted attention in liturgical studies, architectural history, and archaeoastronomy. In the Catholic tradition, churches are often associated with an eastward-facing sanctuary and a westward-facing entrance, reflecting theological symbolism linked to sunrise, resurrection, and the anticipation of Christ\u2019s return. In actual urban settings, however, church orientation is rarely determined by theology alone. Existing streets, neighbouring buildings, plot geometry, topography, and later rebuilding campaigns can all shape the final disposition of a church building. This tension between sacred orientation and urban form makes church directionality a productive field of inquiry at the intersection of religion, architecture, and urban studies.\r\n\r\nThis proposal investigates church orientation patterns in Milan, Italy, using open geospatial data derived primarily from OpenStreetMap (OSM). Milan is an appropriate case because it is a historic Catholic city with a long continuity of ecclesiastical development and a complex urban morphology shaped by Roman, medieval, early modern, and modern transformations. Rather than treating churches only as isolated monuments, this study approaches them as urban objects embedded in streets, blocks, and neighbourhood structures. It asks three questions: first, whether church entrances in Milan display a statistically visible directional pattern; second, whether that pattern suggests the persistence of the traditional east\u2013west liturgical axis; and third, how directional variation can be interpreted in relation to urban morphology and spatial constraints.\r\n\r\nThis proposal also responds to a methodological opportunity. OSM has become an important infrastructure for transportation analysis, humanitarian mapping, land use studies, and urban modelling, yet its value for architectural-historical and religious-spatial research remains underexplored. By using OSM building footprints as the spatial basis for city-scale analysis, this proposal contributes to an emerging dialogue between open geospatial science, digital humanities, urban history, and the study of religion.\r\n\r\nPrevious scholarship has proposed several explanations for church orientation. One long-standing interpretation emphasizes alignment toward geographic East as a symbolic and liturgical norm. A second associates church alignment with the sunrise azimuth on the feast day of the patron saint. A third suggests that deviations from true East may reflect the historical use of magnetic compasses during church construction. In this debate, Arneitz et al. (2014) provide an important reassessment based on a statistical analysis of medieval churches in Lower Austria and northern Germany. Their study compares deviations from geographic East, magnetic East, and sunrise azimuths associated with patrons\u2019 feast days. The smallest mean deviations were found relative to geographic East: \u22125.5\u00b0 in Lower Austria and \u22122.1\u00b0 in northern Germany. By contrast, deviations from magnetic East were much larger, at \u221219.0\u00b0 and \u221214.0\u00b0, leading the authors to reject the compass hypothesis statistically. They also found that the patron-saint sunrise model showed greater scatter and only limited explanatory value overall.\r\n\r\nEqually important, Arneitz et al. argue that deviations from East should not automatically be treated as evidence of alternative symbolic rules. They emphasize that church orientation may be affected by neighbouring buildings, pre-existing streets, foundation conditions, vegetation, and topography, especially in urban settings. They also note that a raised horizon can substantially shift the apparent sunrise, complicating straightforward solar interpretations. Church orientation should therefore be understood as the result of both sacred principles and material-spatial constraints. This framework is particularly useful for interpreting Milan, where churches are situated within a dense and historically layered urban fabric.\r\n\r\nThe dataset used in this proposal consists of 114 church buildings in Milan. For each case, a web-based mapping tool was developed using MapLibre GL JS and Turf.js to measure entrance orientation and automatically analyse church directionality. The analysis tool has been released as open-source software under the CC0-1.0 license, and the resulting measurements were organized in a spreadsheet. Direction was defined as the azimuth from the building centroid toward the main entrance. Although this value does not directly measure the liturgical axis or altar orientation, it provides a consistent and scalable proxy for analysing the public-facing directionality of church buildings in relation to the urban fabric. The azimuth values were analysed using circular statistics and visualized through a wind rose diagram. For exploratory analysis, the bearings were grouped into 16 directional sectors to evaluate concentration and dispersion.\r\n\r\nThe results show that church entrances in Milan are neither uniformly distributed nor tightly concentrated around a single bearing. Instead, the pattern is dispersed but structured. The wind rose reveals a noticeable concentration in the western to west-southwestern sectors. The two most frequent classes are W and WSW, each with 19 cases, representing 16.7% of the sample. Together, they account for one-third of all observed entrance directions. Secondary peaks appear in the E sector, with 12 cases (10.5%), and in the SW sector, with 11 cases (9.6%). Circular statistics yield a mean direction of 245.4\u00b0 and a mean resultant length of 0.283, indicating a relatively weak but visible directional tendency rather than a strongly concentrated system.\r\n\r\nThese findings suggest that the traditional Catholic arrangement of west-facing entrances and east-facing sanctuaries may still be partially visible in Milan at the aggregate level. At the same time, the relatively low concentration and the presence of substantial eastern and southwestern groups indicate that the city cannot be explained by a single orientation rule. Instead, Milan appears to contain a mixed spatial morphology of church orientation. Some churches likely preserve the canonical east\u2013west liturgical axis, while others appear to have adapted to street alignment, constrained parcels, public squares, topographic conditions, or later phases of rebuilding and urban redevelopment.\r\n\r\nThis interpretation aligns closely with the implications of Arneitz et al. (2014). Their work suggests that the most productive way to analyse church orientation is not to choose between symbolic and practical explanations, but to examine how these forces interact. In Milan, church entrances should therefore be read not only as liturgical markers but also as indicators of how sacred buildings negotiate the urban environment. Entrance direction becomes a meaningful variable through which one can explore the relationship between ecclesiastical architecture and surrounding city form.\r\n\r\nMethodologically, this proposal demonstrates the value of combining OSM building geometries, a custom open-source web mapping tool, manually validated directional attributes, and circular analytical techniques in an open and reproducible workflow. The approach is lightweight and transferable to other cities where church inventories and building footprints are available. It also opens possibilities for comparative research across Catholic and non-Catholic cities, as well as diachronic analyses incorporating construction dates, denominational affiliation, or street-network orientation.\r\n\r\nThe contribution of this proposal is therefore twofold. Substantively, it offers new evidence that church orientation in Milan reflects both sacred tradition and urban form. Methodologically, it shows that open geospatial data, OSM-based analysis, and openly released analytical tools can extend church orientation research beyond isolated monuments toward city-scale spatial humanities. In the context of FOSS4G and ISPRS-related academic discussion, the study demonstrates how open mapping ecosystems can support new forms of interdisciplinary scholarship across religion, architecture, urban history, and geospatial science.",
+    "start_datetime": "2026-09-02T04:30:00Z",
+    "end_datetime": "2026-09-02T05:00:00Z",
+    "talk:code": "UZ9V88",
+    "talk:guid": "5ca5387e-9e99-5653-91b5-51ce3465b5ea",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos2",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "9D3UXJ",
+        "name": "Hinako Terado",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/9D3UXJ/"
+      },
+      {
+        "code": "KZQBHV",
+        "name": "Taichi Furuhashi",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/KZQBHV/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T04:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/UZ9V88/",
+      "title": "Between Sacred Tradition and Urban Form: An OpenStreetMap-Based Analysis of Church Orientation Patterns in Milan"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/UZ9V88/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/9D3UXJ/",
+      "title": "Hinako Terado"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/KZQBHV/",
+      "title": "Taichi Furuhashi"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/UZ9V88/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

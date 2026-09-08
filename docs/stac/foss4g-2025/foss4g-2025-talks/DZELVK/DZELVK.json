@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "DZELVK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Did you get that thing I sent you? Simplifying spatial data",
+    "description": "Distributing spatial data is a major challenge. This talk walks-through different strategies you can take to simplify your spatial data for distribution, and under what circumstances you might make each choice, including: reducing precision; filling holes; Ramer-Douglas-Peucker and friends; and raster and vector conversion.\n\nTo quote Stewart Brand: On the one hand information wants to be expensive, because it\u2019s so valuable. The right information in the right place just changes your life. On the other hand, information wants to be free, because the cost of getting it out is getting lower and lower all the time.\r\n\r\nRegardless of which hand you hold, making sure you can deliver data efficiently and quickly is important. Spatial data is not special - it's just more data - but it poses major challenges in distribution for a number of reasons: competing file formats; multiple data types (vector and raster is just the beginning); and the most common issue: the quantity of data. This talk walks through different strategies for simplifying your data, why you might want to (and why you might not), and what choice you might make to perform the simplification using GDAL.\r\n\r\nTopics covered include:\r\n\r\n- reducing precision and delivering data suitable to scale;\r\n- filling holes and removing noise;\r\n- the Ramer-Douglas-Peucker algorithm and other common simplification algorithms;\r\n- and, when to use raster vs vector data for distributing information.",
+    "start_datetime": "2025-11-19T02:30:00Z",
+    "end_datetime": "2025-11-19T02:55:00Z",
+    "talk:code": "DZELVK",
+    "talk:guid": "b8fa3de7-c0ce-558e-8bda-216d3a50fbc8",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Tools, Libraries & Visualisation",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG404",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "NZWTTP",
+        "name": "Henry Walshaw",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/NZWTTP/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-19T02:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/DZELVK/",
+      "title": "Did you get that thing I sent you? Simplifying spatial data"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/DZELVK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/NZWTTP/",
+      "title": "Henry Walshaw"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/DZELVK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=hv3hlKekbAE",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Did you get that thing I sent you? Simplifying spatial data",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

@@ -1,0 +1,127 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "CPU8E3",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Learning paths with FOSS4G",
+    "description": "There are multiple different ways to learn and teach the use of FOSS4G software. How to combine different platforms smoothly and how to get the most out of them is the problem new users are usually dealing with. One way to structure the learning is introducing learning paths to articulate the learning goals and the most useful path to navigate different learning modules and courses.\r\n\r\nMost e-learning platforms can use some kind of learning paths as a way to structure learning but they are applicable also to contact training and online training. Learning paths are a way to help the learner to build their knowledge in a structured way. They can be either visual representations of how to navigate the courses or built into your platform. The purpose is to guide students from the current level of competence towards a better level of competence. Learning paths need to be structured in a way the learner can track their progress and choose a different path if their learning needs change. Learning paths give the learner more flexibility and a sense of empowerment in their learning process. \r\n\r\nFrom the course organiser, systematic planning is required in constructing course content to ensure that courses do not remain disjointed entities but are logically interconnected. When designing each course, it is essential to define the learning objectives and the level of expertise the course aims to achieve. It is crucial to consider to whom the course is intended and what level of skills participants are expected to have throughout the planning process. Planned learning objectives should be in the heart of the course and should try to support the student's interest in the subject. To mark the competences or completion of the course the learner should have some sort of feedback or certification of completing the course. These are an important part of keeping up the learners motivation and engaging them in the learning process.\r\n\r\nOnce the course organiser has analytically examined the content of their course offerings, they can begin to plan various learning paths. It may be necessary to build new courses or modify existing content in addition to the already existing courses, so that pathways become seamless, and learning can be built upon previously acquired skills. Learning paths should allow learners to join at any stage, avoiding the need to start from the beginning every time. Learners should be able to jump in at any point, continuing their journey based on their skills and learning objectives.\r\n\r\nLearning paths can be just learning the basics of some FOSS4G software and focus on the essential skills the learner needs to use the software efficiently. In best case the learning paths can move from basics to advanced skills and find out they need some other FOSS4G software to upgrade their workflows and skills. Learning paths could steer the learner from basic QGIS skills to using geodatabases with PostGIS and PostgreSQL or to plugin development and using mobile apps to enhance their own workflow.",
+    "start_datetime": "2024-07-03T13:30:00Z",
+    "end_datetime": "2024-07-03T14:00:00Z",
+    "talk:code": "CPU8E3",
+    "talk:guid": "52310539-b31e-5fb6-879a-54dd7f95dbc9",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "FOSS4G in education and research",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "GEOCAT (301)",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "QMMDQT",
+        "name": "Elisa Hanhirova",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/QMMDQT/"
+      },
+      {
+        "code": "LNHLND",
+        "name": "Reetta Lindberg",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/LNHLND/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-03T13:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/CPU8E3/",
+      "title": "Learning paths with FOSS4G"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/CPU8E3/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/QMMDQT/",
+      "title": "Elisa Hanhirova"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/LNHLND/",
+      "title": "Reetta Lindberg"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/CPU8E3/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "learning-paths": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/CPU8E3/resources/Learning_paths_-_FOSS4G_QpwyvUI.pdf",
+      "type": "application/pdf",
+      "title": "Learning paths",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/dvUfXjQBeH4bBHiGyGS2h7",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Learning paths with FOSS4G",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=r4s0IVryNfY",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Learning paths with FOSS4G",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

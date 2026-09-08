@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "7NEL3P",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Development of QGIS based topographic data management system",
+    "description": "The National Land Survey of Finland (NLS) is rebuilding its topographic data management system using open source components. The new system will be based on QGIS and PostgreSQL. The goals of the renewal are: \r\n- Utilization of new technologies and standards \r\n- Advancement in the transition from producing map data to producing spatial data \r\n- Enhancement of the quality and timeliness of data \r\n- Enhancement of the production through automation and better tools \r\n\r\nThe current system has been in use for over 20 years and has been developed throughout its lifespan. NLS is planning to replace the current production system after the first phase of development in 2025. \r\n\r\n \r\n\r\nIn this talk, I will talk about the status of the development, elaborate the main objectives of the first phase and introduce the published OS components so far. In the first two years of the development the focus was on concurrent data management by 100 operators and on the integration of the stereo mapping tools (proprietary). In addition, we have designed and implemented OS quality assurance tools to ensure the logical consistency of the features concerning the attributes, the geometries and the topology. These tools also include a topological rule set for topographic data management in PostgreSQL. \r\n\r\n \r\n\r\nWe have also published some plugins for the operators to improve the digitizing workflow. To facilitate the development work, we have contributed some development tools for QGIS plugin developers. The OS publications of the service and client components of the concurrent data management tools are not yet on the roadmap although our final goal. \r\n\r\n \r\n\r\nThe current process of maintaining topographic data includes some field work too. QField is the chosen OS tool for that purpose. Now, we are defining the additional functionalities needed to make the field work efficient enough and to smooth out the data transfer between the main system and the mobile application.  \r\n\r\nAfterwards, we have yet to make significant progress in the integration of TDMS with the systems that produce and provide products. In relation to our products, we need to find a way to easily maintain base topographic data and its enriched cartographic derivates and place names, as part of the production process.",
+    "start_datetime": "2023-06-30T12:30:00Z",
+    "end_datetime": "2023-06-30T13:00:00Z",
+    "talk:code": "7NEL3P",
+    "talk:guid": "6c1a423f-a2e1-5e2c-aff2-e112f61f8722",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT C / N111 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "DWYDZL",
+        "name": "Eero Hietanen",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/DWYDZL/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-30T12:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/7NEL3P/",
+      "title": "Development of QGIS based topographic data management system"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/7NEL3P/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/DWYDZL/",
+      "title": "Eero Hietanen"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/7NEL3P/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-2023/submissions/7NEL3P/resources/Eero_Hietanen_New_TDMS_NLSFI_44nJn1u.pdf",
+      "type": "application/pdf",
+      "title": "Presentation slides",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/oABkhi5RBgGShNpALx6Bs2",
+      "type": "text/html",
+      "title": "2023 | Development of QGIS based topographic data management system - Eero Hietanen",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=Hf1Tf2hBBag",
+      "type": "text/html",
+      "title": "2023 | Development of QGIS based topographic data management system - Eero Hietanen",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

@@ -1,0 +1,93 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "33TQQC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Bringing Old Maps & Illustrated Maps to the Web: 10 Years of Maplat and Turning Misalignment into Innovation",
+    "description": "Maplat is an open-source platform enabling bidirectional coordinate transformation between historical or illustrated maps and modern maps. Celebrating its 10th anniversary, this talk covers the project's technology, real-world applications, and philosophy \u2014 including ongoing developments and open challenges we would love to explore together with the community.\n\nHistorical maps and hand-drawn tourist illustrated maps are difficult to handle with conventional GIS tools due to their distortion, scaling, and rotation. Maplat addresses this through a proprietary coordinate transformation engine built on Japanese-patented technology, achieving high-accuracy bidirectional coordinate transformation between any such map image and modern maps \u2014 within 2D space.\r\n\r\n## 10 Years of Maplat: Where We Came From and Where We Stand\r\n\r\n* Why conventional GIS tools struggle with historical and illustrated maps\r\n* Real-world use cases (Niigata Kagai Project and others)\r\n* Current state of development and commercialization by Nayuta Inc.\r\n\r\n## Turning \"Misalignment\" into a Positive Force\r\n\r\nHistorical and illustrated maps never align perfectly with modern maps. Rather than treating this as a defect, Maplat embraces it as meaningful information \u2014 a reflection of the era, purpose, and culture in which each map was created. By transforming this misalignment into a bidirectional coordinate transformation system within 2D space, Maplat has delivered a practical solution for historical GIS, cultural heritage, and tourism applications. This philosophy is at the heart of Maplat's innovation.\r\n\r\n## Future Directions and Open Challenges\r\n\r\n* Ongoing development including expanded support for vector data\r\n* The exciting yet unsolved challenge of 3D extension \u2014 the \"misalignment as a feature\" approach that works elegantly in 2D breaks down when carried into 3D space, and this remains a fundamental open question\r\n* We would love to hear ideas and insights from the audience on how to move forward\r\n\r\nMaplat is still a relatively unknown project, but for those interested in humanities-oriented GIS \u2014 history, culture, and tourism \u2014 and for anyone who sees potential in embracing the \"imperfection\" of maps, we hope this talk sparks an inspiring discussion.",
+    "start_datetime": "2026-09-02T02:00:00Z",
+    "end_datetime": "2026-09-02T02:30:00Z",
+    "talk:code": "33TQQC",
+    "talk:guid": "38a335bb-7c5e-56f8-9b9d-a1a0861e8508",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Dahlia2",
+    "talk:room_capacity": 140,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "MEZRSX",
+        "name": "KOHEI OTSUKA",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/MEZRSX/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T02:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/33TQQC/",
+      "title": "Bringing Old Maps & Illustrated Maps to the Web: 10 Years of Maplat and Turning Misalignment into Innovation"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/33TQQC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/MEZRSX/",
+      "title": "KOHEI OTSUKA"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.linkedin.com/in/kochizufan/",
+      "title": "www.linkedin.com/in/kochizufan"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/33TQQC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

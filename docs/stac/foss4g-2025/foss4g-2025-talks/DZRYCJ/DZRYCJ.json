@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "DZRYCJ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Earth Search: Expanding Open Access to Sentinel-2 and Beyond",
+    "description": "Earth Search is Element 84\u2019s open, cloud-native STAC API for public Earth observation data. This talk covers pipeline updates, metadata fixes, and open-source plans\u2014making geospatial data easier to find and use.\n\nEarth Search is Element 84\u2019s free, cloud-native catalog that makes public Earth observation data\u2014like Sentinel-1 and Sentinel-2\u2014discoverable, analysis-ready, and open to all. This talk will share an in-depth update on the current state of Earth Search, the pipelines that power it, and our recent work to ensure long-term stability and transparency.\r\n\r\nWe\u2019ll cover how the team has taken over the Sentinel ingestion pipeline on AWS, tackled metadata gaps and ingestion bugs, and improved the catalog\u2019s coverage and accuracy. Attendees will learn how the pipeline generates Cloud-Optimized GeoTIFFs and rich STAC metadata that follows current best practices and extensions\u2014making advanced cloud-native workflows possible.\r\n\r\nWe\u2019ll also discuss our plans to open source the entire Earth Search processing stack, explain how the community can benefit from and contribute to it, and share progress on addressing known gaps in the Sentinel-2 archive. From debugging broken asset links to filling missing scenes and deprecating legacy collections, this talk will give a transparent look at the challenges of maintaining a massive, open geospatial archive\u2014and what\u2019s next as we continue to expand reliable, standards-based access for everyone.",
+    "start_datetime": "2025-11-20T23:00:00Z",
+    "end_datetime": "2025-11-20T23:25:00Z",
+    "talk:code": "DZRYCJ",
+    "talk:guid": "da159c85-ad3d-5efa-8ffe-60e554491d4c",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Cloud, APIs & Data Infrastructure",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG404",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "W8MQ89",
+        "name": "Matthew Hanson",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/W8MQ89/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-20T23:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/DZRYCJ/",
+      "title": "Earth Search: Expanding Open Access to Sentinel-2 and Beyond"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/DZRYCJ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/W8MQ89/",
+      "title": "Matthew Hanson"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/DZRYCJ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=D-N_v9U4Pc8",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Earth Search: Expanding Open Access to Sentinel-2 and Beyond",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "CUPKJ8",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "From Boring XML to 3D Tiles: Building a Geological Borehole Viewer with CesiumJS",
+    "description": "We present a pipeline transforming 190,000+ Japanese geological borehole records into interactive CesiumJS 3D Tiles. From open-sourcing a custom XML parser (boring-parser), through Implicit Tiling with glTF metadata extensions, to a browser-based WebGIS viewer \u2014 we share the journey of making subsurface data accessible to everyone.\n\n~Background~\r\nJapan's National Ground Information Database holds over 190,000 borehole columnar logs in BED XML format spanning six schema versions (1.10\u20134.00). This geological data is critical for disaster prevention, construction, and urban planning, yet has traditionally been accessible only as 2D columnar charts (PDF/images) \u2014 making it difficult to grasp spatial relationships between boreholes, continuity of geological layers, or to get an overview of 190K records at once.\r\n\r\nOur initial proof-of-concept used PostGIS and Ruby on Rails to dynamically serve borehole data via bounding-box queries. At the scale of 190K records, the per-camera-move database queries proved too slow for practical use, and the always-on server cost was prohibitive. This motivated a pivot to pre-tiled static file delivery using 3D Tiles.\r\n\r\n~Building on Open Standards, Step by Step~\r\n\r\nStep 1: Custom XML Parser (boring-parser, open-source) \u2014 BED XML has six incompatible schema versions, DTD-based definitions with no type information, and mixed geodetic datums (Tokyo, JGD2000, JGD2011). No existing tool could handle all versions, so we built boring-parser and published it on crates.io as open-source. It unifies parsing across all versions with automatic datum-to-WGS84 conversion.\r\n\r\nStep 2: 3D Tile Generator based on OGC 3D Tiles 1.1 \u2014 Using boring-parser as the foundation, we built a tile generator compliant with the OGC 3D Tiles 1.1 specification using Implicit Tiling (quadtree, region). We designed a three-tier LOD strategy for 190K boreholes: spatially clustered count markers at wide zoom (Levels 4\u20136), individual circle markers at mid zoom (Levels 7\u20139), and detailed cylindrical meshes with per-layer rock-type coloring at close zoom (Level 10). Each GLB embeds geological metadata via glTF extensions EXT_structural_metadata and EXT_mesh_features, enabling interactive property queries in the browser.\r\n\r\nStep 3: WebGIS Viewer (CesiumJS + Resium) \u2014 The frontend renders the generated 3D Tiles using CesiumJS and Resium, providing 3D borehole visualization with rock-type coloring, multi-borehole cross-section generation with DXF export for CAD workflows, and terrain rendering via Japan's GSI elevation tiles.\r\n\r\n~Key Technical Challenges~\r\n- Unifying six XML schema versions into a common data model\r\n- Multi-step geodetic datum conversion (Tokyo \u2192 JGD2000 \u2192 JGD2011 \u2192 WGS84 \u2192 ECEF)\r\n- Designing Implicit Tiling levels and clustering strategies for smooth browsing of 190K records\r\n- Embedding rich geological metadata into glTF via EXT_structural_metadata PropertyTable schema design\r\n\r\n~Takeaway~\r\nBy publishing the foundational parser (boring-parser) as open-source and building the visualization pipeline on open standards (3D Tiles, glTF), we show how domain-specific geospatial data can be made accessible through the browser. Improving accessibility to geological data supports better decision-making in disaster prevention and urban planning. We hope this \"build the parser, open-source it, then visualize with open standards\" approach inspires others facing similar challenges.",
+    "start_datetime": "2026-09-02T07:30:00Z",
+    "end_datetime": "2026-09-02T08:00:00Z",
+    "talk:code": "CUPKJ8",
+    "talk:guid": "c7bebcae-6d1d-500b-8ecc-b47aa56970d8",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Ran2",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "LF7AL3",
+        "name": "Haruto SASAKI",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/LF7AL3/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T07:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/CUPKJ8/",
+      "title": "From Boring XML to 3D Tiles: Building a Geological Borehole Viewer with CesiumJS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/CUPKJ8/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/LF7AL3/",
+      "title": "Haruto SASAKI"
+    },
+    {
+      "rel": "related",
+      "href": "https://x.com/fhchchgc",
+      "title": "x.com/fhchchgc"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/groovyjovy",
+      "title": "github.com/groovyjovy"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/CUPKJ8/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

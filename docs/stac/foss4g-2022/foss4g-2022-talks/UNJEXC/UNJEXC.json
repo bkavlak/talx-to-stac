@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "UNJEXC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "From the field to the desk - end to end mobile data capture in an enterprise environment.",
+    "description": "A demonstration of how to deploy a mobile data capture platform in an enterprise setting. In this example an environmental survey has been developed for a large organisation with a team of surveyors. Consideration is made to authentication, version control and synchronisation to an enterprise spatial database for wider consumption.\r\n\r\nQGIS is used to define base mapping, context layers and the data capture layers for the mobile application. In this project it is demonstrated how QGIS can be used to define survey forms to reduce input error. In this case a tree survey layer has been defined that adheres to the Individual Tree Standard from the UK\u2019s Forest Research, the Open University and Treework Environmental Practice.\r\n\r\nThe QGIS project is then deployed to a dockerised Mergin service. Authenticated access is then granted to users of Lutra Consulting\u2019s Input Android application. Field collected data can be created and synchronised with the Mergin service. Version control & merging allows multiple users to make asynchronous changes with the ability to rollback if required.\r\n\r\nThe Mergin service internal database is synchronised with an enterprise PostGIS database to allow other users to access and edit data via desktop. Media captured in the survey such as images is extracted through Mergin\u2019s API and made available together with the survey data through a web GIS interface.",
+    "start_datetime": "2022-08-24T13:15:00Z",
+    "end_datetime": "2022-08-24T13:45:00Z",
+    "talk:code": "UNJEXC",
+    "talk:guid": "e2544ba1-c550-59b3-ba4b-ca8aa272e07b",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room 4",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "SEVKB9",
+        "name": "Andrew Bailey",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/SEVKB9/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T13:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/UNJEXC/",
+      "title": "From the field to the desk - end to end mobile data capture in an enterprise environment."
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/UNJEXC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/SEVKB9/",
+      "title": "Andrew Bailey"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/UNJEXC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/dpq7nY4oJmktyx4ARLX86r",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | From the field to the desk - end to end mobile data capture in an enterprise\u2026",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=jm6Xq1YquL4",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | From the field to the desk - end to end mobile data capture in an enterprise\u2026",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

@@ -1,0 +1,127 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "PKSLDT",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "FOSS Applications in the Amazon through the GeoRond\u00f4nia Project with the GeoINCRA Plugin in QGIS",
+    "description": "Introduction:\r\n\r\nFOSS4G (Free and Open Source Software for Geospatial) 2024 will be a platform to present innovative and accessible solutions that use free and open-source software for geospatial information management. In this proposal, we highlight the importance of using FOSS to reduce costs, automate processes, and simplify operations in QGIS, with a special focus on applications for large and environmentally sensitive areas such as the Amazon. Our presentation will detail the implementation of the GeoRond\u00f4nia project and the use of the GeoINCRA plugin in QGIS, emphasizing its benefits in land regularization and environmental sustainability.\r\n\r\nGeoRond\u00f4nia Project - Land Regularization and Environmental Sustainability:\r\n\r\nThe GeoRond\u00f4nia project is a partnership between the Federal Institute of Education, Science, and Technology of Rond\u00f4nia (IFRO) and the National Institute for Colonization and Agrarian Reform (INCRA), through the Decentralized Execution Term (TED) No. 20/2021/DF/SEDE/INCRA-IFRO. With a duration of 48 months, the project aims to title rural properties in 120 Settlement Projects (PAs), covering a perimeter of 31,000 km and benefiting more than 20,000 families in 26 municipalities. The actions include georeferencing, perimeter demarcation, parceling, occupational supervision, and the Rural Environmental Registry (CAR). With an investment of approximately 23 million reais, GeoRond\u00f4nia has already benefited about 15,000 families, standing out as a model of efficiency and economy.\r\n\r\nImportance of FOSS in Geospatial Projects:\r\n\r\nRond\u00f4nia has 222 Settlement Projects, with approximately 66,000 rural properties, and a large part is being served by the GeoRond\u00f4nia project. However, the biggest obstacle is data processing, which involves large volumes and complexity. Therefore, the project sought ways to optimize processes and speed up the achievement of goals within established deadlines, finding in QGIS+GeoINCRA the tools needed for this objective.\r\nAdopting free and open-source software (FOSS) is essential to reduce costs and increase the accessibility of geospatial technologies. Software like QGIS offers a robust and flexible platform for implementing georeferencing and land registration projects, eliminating the need for expensive licenses and allowing the customization of tools according to the specific needs of the projects. With the savings generated in the GeoRond\u00f4nia project using QGIS and the GeoINCRA plugin, it was possible to direct resources and optimize other processes in the project. Additionally, the solution created using these applications can be replicated to all Brazilian states.\r\n\r\nGeoINCRA Plugin: Simplifying Georeferencing in QGIS:\r\n\r\nThe GeoINCRA plugin was developed to optimize the georeferencing process of rural properties according to INCRA's technical standards. Implemented in Python, the plugin integrates with QGIS's processing framework, offering functionalities that automate data querying, attribute filling, and document generation required for land certification. The main tools of the plugin include:\r\nLoad Vertex Layer - Loads selected features from a point layer into the vertices layer of the GeoINCRA database; Download ODS Spreadsheet from SIGEF - Generates an empty ODS spreadsheet for later filling; Query INCRA Database - Connects to INCRA's database to query land assets and generate vector layers; CSV from INCRA to PointZ Layer - Transforms CSV vertex files from INCRA into PointZ layers; GeoINCRA to TopoGeo - Copies features from the GeoINCRA database layers to the TopoGeo database, facilitating the generation of descriptive memorials and topographic maps; Generate TXT for ODS Spreadsheet - Creates a text file with data needed to fill the SIGEF ODS spreadsheet; Fill Vertex Code - Automatically fills the vertex code attribute in the GeoINCRA database's vertex layer, easing the work of the georeferencing professional.\r\n\r\nMethodology and Results:\r\n\r\nThe adopted methodology includes the modeling of geospatial data in a Geopackage database, the implementation of a plugin in QGIS, and the integration of these elements to optimize the georeferencing workflow. The GeoINCRA database was designed to store topographic data in a standardized and integrated manner, while the GeoINCRA plugin automates processes that traditionally would be manual and prone to errors.\r\nThe results achieved with the use of QGIS+GeoINCRA are: Automation of ODS spreadsheets that were previously done manually; Reduction of the time to prepare the spreadsheets by 80%, as the spreadsheets are generated in bulk, i.e., hundreds of plots can be generated at once; Elimination of topological errors that were only seen when trying to insert the data into SIGEF (INCRA's georeferencing platform); Elimination of errors in textual attributes (spelling errors); Savings for the project, without the need to purchase licenses.\r\nThe results obtained demonstrate that the combined use of the GeoINCRA database and the GeoINCRA plugin results in greater productivity, better data standardization, and elimination of software license costs. This approach facilitates access for small companies and professionals to the georeferencing market, aligning with federal government policies on the use of FOSS and promoting independence and public resource savings.\r\n\r\nWho Benefits from the GeoINCRA+QGIS Solution:\r\n\r\nThe presentation at FOSS4G 2024 will highlight how the use of FOSS, exemplified by QGIS and the GeoINCRA plugin, can transform georeferencing projects for a diverse range of stakeholders. This includes government agencies, environmental organizations, and small surveying companies, particularly in vast and environmentally critical areas like the Amazon. By reducing costs, automating processes, and ensuring high-quality results, these solutions significantly contribute to land regularization, environmental sustainability, and socio-economic development in the region. This approach ensures that even resource-constrained entities can efficiently manage geospatial data and meet regulatory requirements.",
+    "start_datetime": "2024-12-05T15:45:00Z",
+    "end_datetime": "2024-12-05T16:15:00Z",
+    "talk:code": "PKSLDT",
+    "talk:guid": "ad07391a-574b-5702-b219-086f62fc27e9",
+    "talk:event": "foss4g-2024",
+    "talk:track": "Applications and solutions for the Amazon region",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room IV",
+    "talk:room_capacity": 100,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "ZQFQQK",
+        "name": "Leandro Fran\u00e7a",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/ZQFQQK/"
+      },
+      {
+        "code": "WRC8PV",
+        "name": "Dra. Ranieli dos Anjos de Souza",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/WRC8PV/"
+      },
+      {
+        "code": "PUEEXY",
+        "name": "Valdir Moura",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/PUEEXY/"
+      },
+      {
+        "code": "L3XGLE",
+        "name": "Tiago Prudencio Silvano",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/L3XGLE/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-05T16:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/PKSLDT/",
+      "title": "FOSS Applications in the Amazon through the GeoRond\u00f4nia Project with the GeoINCRA Plugin in QGIS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/PKSLDT/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/ZQFQQK/",
+      "title": "Leandro Fran\u00e7a"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/WRC8PV/",
+      "title": "Dra. Ranieli dos Anjos de Souza"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/PUEEXY/",
+      "title": "Valdir Moura"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/L3XGLE/",
+      "title": "Tiago Prudencio Silvano"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/PKSLDT/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024/submissions/PKSLDT/resources/Apresenta%C3%A7%C3%A3o_FOSS4G_-_GeoINCRA_U1iIxUd.pdf",
+      "type": "application/pdf",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

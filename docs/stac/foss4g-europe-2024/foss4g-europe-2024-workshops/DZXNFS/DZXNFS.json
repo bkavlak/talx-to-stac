@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "DZXNFS",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "A HACKER\u2019S GUIDE FOR NO-CODE GEOPROCESSING USING PYTHON AND QGIS",
+    "description": "Within the geospatial world, we are usually immersed with different analysis for specific purposes. It ranges from basic intersection of polygons, to complex estimations such as population at risk to floods in Sri Lanka. These operations involve a defined set of inputs and a set of steps or instructions, whose number depends on the final goal. Using previous examples, intersection requires two polygons, while the flood analysis needs a population and flood layers, country administrative boundaries, etc. From a hacker\u2019s perspective, as we break down what we can denote as workflow, into a minimum set of commands, we realize that executing them in a manual manner could be overwhelming, since the number of operations increases. Furthermore, as a hacker you become aware that there might exist human-prone errors, such as incorrect inputs or parameters.\r\n\r\nThis workshop will teach attendees the development of an automated process using QGIS. By taking advantage of the QGIS processing models, together combined with the Processing toolbox, users will automate manual tasks in a no-code manner. Ranging from simple to complex workflows, users will reduce time and errors that are common in a manual manner.\r\n\r\nFurthermore, functions and analysis that do not exist within QGIS, can be created. Using custom scripts written in Python, users will leverage and extend and adapt the actual Processing toolbox to fulfil the desired goal.\n\nAs an alternative to performing analysis manually, we can write a script with the same set of instructions. We realize that the big goal can be automated, reducing time and manual mistakes. Also, we become aware that this workflow scales to multiple inputs. For instance, the flood analysis can be the same for Sri Lanka or Colombia, what changes is the country boundaries. Also, we can gain more precision using city information rather than district. Finally, we can extend the workflow by adding building polygons or road networks.\r\n\r\nBased on previous paragraphs, we can see the benefits of an automated workflow using scripts. We can enhance current software available, such as QGIS, to create, modify and share geospatial workflows in an easy-to-run way. We can leverage the current toolbox by writing custom scripts to perform specific tasks that are not existing within it. Using a hacker\u2019s mindset, it will be possible to design tasks and execute instructions by modifying what is available to fulfill the milestone.\r\n\r\nWith this workshop, I want to share the knowledge for a successful geospatial analysis and automation workflow, commonly used within an emergency context as an example, but with the ability to be extended into multiple domains where geospatial data is used. Using QGIS designer, we will create a graph that, by receiving specific inputs, will run commands to measure the amount of people exposed to earthquakes or floods, and combine the results with vulnerability indicators, like poverty or food security indexes. I will also explain how to make use of QGIS Python runtime to create custom functions to be further connected into the graph.\r\n\r\nThe contributions of this workshop are twofold:\r\n- Attendees will create an automated geospatial analysis, increasing productivity while reducing manual errors. All of this encompassed within QGIS Python runtime, which will allow shareability without dependency concerns or issues.\r\n- We can extend the QGIS processing toolbox by creating scripts that run specific tasks. It will be possible to insert them into a processing graph for a fully automated workflow.\r\n\r\n**Schedule:**\r\n- Introduction to geospatial data and QGIS (25 minutes).\r\n- Simple automation for a population exposure analysis (40 minutes). Input/Output definitions, simple tasks and execution runtime (1 hour)\r\n- Extension of processing toolbox via python scripting. Development of a processing script to download data. (1 hour,15 minutes).\r\n- Model export and shareability (20 minutes)",
+    "start_datetime": "2024-07-02T06:00:00Z",
+    "end_datetime": "2024-07-02T10:00:00Z",
+    "talk:code": "DZXNFS",
+    "talk:guid": "76e881ed-f1fb-5b72-b01f-13d4c0cc9043",
+    "talk:event": "foss4g-europe-2024-workshops",
+    "talk:type": "workshop",
+    "talk:language": "en",
+    "talk:room": "Room 202",
+    "talk:room_capacity": 25,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "NDTVQS",
+        "name": "Jorge Martinez",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024-workshops/speaker/NDTVQS/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-02T08:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024-workshops/talk/DZXNFS/",
+      "title": "A HACKER\u2019S GUIDE FOR NO-CODE GEOPROCESSING USING PYTHON AND QGIS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024-workshops/talk/DZXNFS/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024-workshops/speaker/NDTVQS/",
+      "title": "Jorge Martinez"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024-workshops/talk/DZXNFS/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-workshops"
+}

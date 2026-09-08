@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "3CEATB",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Apache SIS for integrated metadata, referencing and grid coverage services",
+    "description": "Apache SIS is a Java library for metadata, referencing, feature and grid coverage services with a focus on implementing OGC/ISO abstract models. This talk shows how SIS can handle some non-trivial cases such as non-linear localization grids and rasters crossing the anti-meridian.\n\nApache Spatial Information System (SIS) is a Java library for geospatial applications with a focus on the implementation of the standards published jointly by the Open Geospatial Consortium (OGC) and the International Organization for Standardization (ISO). While the most widely-known standards are data formats or web services, they are often derived from abstract models defined by other OGC/ISO standards in the form of Unified Modelling Language (UML). Apache SIS uses these abstract models for some of its API, as a way to inherit a fraction of the insights from geodesists, scientists and other members of the expert groups who designed them. In the past, this approach saved GeoTools and Apache SIS (which can be seen as a continuation of GeoTools for the referencing service part) from the temptation to use a universal hub for coordinate transformations, and for the future this approach is guiding the support of epoch in dynamic datums.\r\n\r\nApache SIS provides metadata, referencing, features and grid coverage services. In SIS, these services are closely integrated. For example, ISO 19111 (referencing) depends on ISO 19115 (metadata) for describing the authority and domain of validity, and on ISO 19157 (data quality) for describing the positional accuracy. Apache SIS provides a nearly complete implementation of ISO 19115, which can be useful alone (for catalogues), but this implementation is also tuned for being a convenient support for ISO 19111, features and grid coverages. Another example is the resampling of a raster that crosses the anti-meridian. Identifying which values need to be shifted by 360\u00b0 requires an exchange of information between the referencing and coverage modules, especially when the longitudes to shift are buried under map projections.\r\n\r\nThis talk will present the services offered by Apache SIS, show how the API is designed from the ground for multi-dimensional CRS and data-cubes, and how it handles some difficult cases such as resampling a raster where pixel coordinates are defined by a non-linear localization grid. This talk will also show how Apache SIS takes inspiration from Java Advanced Imaging (JAI), without depending on it, for implementing deferred tile computations on top of the standard Java2D API. For example, a BigTIFF file can be opened as if the RenderedImage was fully in memory. Then chains of operations, such as resampling the image to a different CRS, are applied as if the full images were manipulated in memory. But actually only the requested tiles are resampled, which in turn read only the needed tiles from the file (a classical pull model), with in turn may be read thought HTTP range protocol or from S3, thus allowing some work on the cloud.\r\n\r\nThe talk will also show how SIS leverages the standard Java stream API for giving access to the data of a PostGIS database, how some operations on the stream are converted to SQL statements, and how SIS handles complex features.",
+    "start_datetime": "2026-09-02T07:30:00Z",
+    "end_datetime": "2026-09-02T08:00:00Z",
+    "talk:code": "3CEATB",
+    "talk:guid": "3110603c-3679-54f3-97a0-7a72f7a07238",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Dahlia2",
+    "talk:room_capacity": 140,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "9MEVKZ",
+        "name": "Martin Desruisseaux",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/9MEVKZ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T07:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/3CEATB/",
+      "title": "Apache SIS for integrated metadata, referencing and grid coverage services"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/3CEATB/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/9MEVKZ/",
+      "title": "Martin Desruisseaux"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/3CEATB/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

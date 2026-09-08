@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "H9E37D",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "The modern STAC software ecosystem",
+    "description": "A tour of the latest-and-greatest in the STAC software ecosystem, with a focus on demonstrations and use-cases.\n\nThe SpatioTemporal Asset Catalog (STAC) specification celebrated its fifth birthday in May. A key part of STAC\u2019s adoption story is its robust, community-supported ecosystem of software and applications, with clients and APIs written in a variety of languages. Without a single company or entity driving development, STAC software advances and maintenance have been a story of self-organization, individual initiative, and collaboration.\r\n\r\nThe STAC software ecosystem can be complex and hard-to-navigate, especially to newcomers. In this talk, we\u2019ll walk you through the key software repositories and applications, with a focus on practical demonstrations and use-cases.\r\n\r\nThere\u2019s been some advances over the last year that we\u2019ll highlight:\r\n\r\n- Better tooling and support for stac-geoparquet\r\n- In-browser visualization advances in stac-browser and stac-map\r\n- A major update to the core Python STAC software package, PySTAC v2.0, including obstore support, cleaner read-write semantics, and better extension hooks\r\n\r\nWe\u2019ll also talk about plans for the coming year, and provide pointers on places where you or your organization can plug in!",
+    "start_datetime": "2026-09-01T08:00:00Z",
+    "end_datetime": "2026-09-01T08:30:00Z",
+    "talk:code": "H9E37D",
+    "talk:guid": "5a89c157-5e47-57c8-9ba3-c7a4deda9c83",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Ran2",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "SXDV8L",
+        "name": "Pete Gadomski",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/SXDV8L/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T08:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/H9E37D/",
+      "title": "The modern STAC software ecosystem"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/H9E37D/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/SXDV8L/",
+      "title": "Pete Gadomski"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/H9E37D/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

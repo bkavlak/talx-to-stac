@@ -1,0 +1,144 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "RNYUNN",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "View Server - Cloud Native EO Data Access",
+    "description": "The View Server (VS) software project was developed for cloud native geospatial data access. This includes functionality to browse, search, transform and download Earth Observation (EO) and other geospatial data via a range of OGC compliant and other standardized interfaces such as STAC, OpenSearch, WMS, WMTS and WCS and their OGC API successors.\r\n\r\nBased on EOxServer, powerful rendering capabilities are built in, allowing on-the-fly data transformation and colorization for exploring datasets, which can subsequently be tiled and cached via the built in MapCache. Data is ingested via feature rich components to harvest, enrich metadata, preprocess and pre-seed caches, to offer a performance optimized and flexible rendering of the data via its service endpoints. Using the harvested and enriched metadata, CQL filters can be employed to filter down the records to be visualized or searched, whereas an expression language is used to flexibly define the renderings of either RGB or color-scaled outputs.\r\n\r\nAs a cloud native component, View Server allows various storage systems, such as OpenStack Swift and S3 and can be installed as a system in a kubernetes (via Helm Charts) or Docker Swarm environments.\r\n\r\nIn the recently concluded Earth Observation Exploitation Platform Common Architecture (EOEPCA), View Server was both employed in the global and user workspace data access contexts.\r\n\r\nIn ongoing developments, View Server will be made compatible with the other components of the eoAPI, allowing it to share a common data model based on STAC and as an interchangeable component in an eoAPI deployment but with all rendering features remaining.\r\n\r\nView Server is also used in other operational deployments for data preprocessing, access and visualisation. Those include the ESA Payload Data Ground Segment Software Applications (PDGS) or Copernicus Space Component Data Access system (CSCDA) for a vast number of active and discontinued optical and SAR satellite missions. Lastly, it supports data access for our Agricultural Area Monitoring Systems (AMS).\r\n\r\nhttps://gitlab.eox.at/vs/vs\r\n\r\nhttps://eox.at/2021/09/eoxserver-1-0/",
+    "start_datetime": "2024-07-04T11:00:00Z",
+    "end_datetime": "2024-07-04T11:30:00Z",
+    "talk:code": "RNYUNN",
+    "talk:guid": "c742760e-095d-5e1f-a301-a55950e7939a",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "GEOCAT (301)",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "PR8SFJ",
+        "name": "Fabian Schindler-Strauss",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/PR8SFJ/"
+      },
+      {
+        "code": "KG9PZL",
+        "name": "Lubomir Dolezal",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/KG9PZL/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-04T11:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/RNYUNN/",
+      "title": "View Server - Cloud Native EO Data Access"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/RNYUNN/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/PR8SFJ/",
+      "title": "Fabian Schindler-Strauss"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/KG9PZL/",
+      "title": "Lubomir Dolezal"
+    },
+    {
+      "rel": "related",
+      "href": "https://gitlab.eox.at/vs/vs",
+      "title": "gitlab.eox.at/vs/vs"
+    },
+    {
+      "rel": "related",
+      "href": "https://eox.at/2021/09/eoxserver-1-0/",
+      "title": "eox.at/2021/09/eoxserver-1-0"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/RNYUNN/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-slides-pdf": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/RNYUNN/resources/FOSS4G2024_View_Server_-_EO_Data_Visuali_9ZcdA5k.pdf",
+      "type": "application/pdf",
+      "title": "Presentation Slides PDF",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "presentation-slides": {
+      "href": "https://docs.google.com/presentation/d/1-itfGHqz44JANNDhTvV7AbAa0e2xTSO8TpR5bZqDums",
+      "title": "Presentation Slides",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/shUa3SSB11FgNy8beSBgJm",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | View Server - Cloud Native EO Data Access",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=uOs9Y9XN8xI",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | View Server - Cloud Native EO Data Access",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

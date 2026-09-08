@@ -1,0 +1,94 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "XW3XTM",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Evaluating spectral diversity approaches for tree species diversity mapping in hemi-boreal forests using Sentinel-2 and\u202fbiodivMapR",
+    "description": "Introduction\u202f\u202f \r\nRemote sensing-based spectral diversity has emerged as a\u202fscalable proxy for field-measured biodiversity [1-4], grounded in the Spectral Variation Hypothesis, which posits that greater spectral heterogeneity in remotely sensed imagery reflects greater ecological diversity on the ground [5]. While studies have examined methodological choices known to influence spectral diversity mapping performance [6,7], the effect of input feature type, specifically the choice between spectral bands, Principal Component Analysis (PCA) transformed spectral bands, and spectral indices (SI),\u202fhas not been empirically tested. The\u202fbiodivMapR\u202fpackage [8] implements the spectral species concept for biodiversity mapping and acknowledges both PCA-transformed bands and\u202fSI as valid input options, but provides no firm recommendation, explicitly calling for users to test and compare approaches against ground observations [9]. Within the FOSS4G ecosystem, reproducible biodiversity monitoring workflows based entirely on open data and open-source software remain under-evaluated, particularly with\u202frespect to\u202fmethodological parameterisation choices. To address this gap, we\u202fcompare\u202fthree spectral diversity computation approaches across three ecologically distinct hemi-boreal forest sites in\u202f Estonia and\u202fvalidate\u202fthem\u202fagainst field-measured tree species diversity.\u202fWe aim to address two research questions: (1) Does PCA-based dimensionality reduction produce stronger correlations with field-measured tree species diversity than\u202fnon-PCA spectral bands\u202for\u202fSI\u202fused\u202fas\u202fbiodivMapR\u202finputs? (2) Are results consistent across ecologically distinct\u202fhemi-boreal\u202fforest sites?\u202f \r\nMethods\u202f\u202f \r\nWe selected\u202fthree study sites representing\u202fcharacteristic hemi-boreal landscape types\u202fin\u202fEstonia:\u202fOtep\u00e4\u00e4, a glacial moraine upland characterised by mixed nemoral forests dominated by spruce (n = 3,758 plots);\u202fSoomaa, a peatland and floodplain forest complex dominated by pine, birch, and alder with extensive bog-forest mosaics (n = 10,259); and\u202fRapla, a lowland managed forest mosaic representative of intensively managed hemi-boreal production forests (n = 4,322).\u202fWe filtered forest inventory validation plots using a morphological erosion criterion,\u202fretaining\u202fonly plots with a minimum residual area of 900 m\u00b2 after applying a 30-metre inward buffer, to exclude geometrically irregular or insufficiently large plots where moving-window diversity estimates would be strongly influenced by non-forest edge pixels. We pre-processed the Sentinel-2 imagery from the Copernicus Open Access Hub using open-source geospatial libraries in Python. We masked forests prior to spectral diversity computation, ensuring analysis was restricted to forested areas across all sites.\u202f\u202f \r\nWe compared three approaches: (1) PCA applied to ten Sentinel-2 bands, with the first three principal components used as input features for Shannon spectral diversity mapping; (2) bands without dimensionality reduction (non-PCA); and (3) a set of three ecologically relevant SI - Normalised Difference Vegetation Index (NDVI), Normalised Difference Water Index (NDWI), and Leaf Area Index proxy derived from Soil-Adjusted Vegetation Index (LAI-SAVI), derived from the same Sentinel-2 bands. Shannon alpha-diversity was computed using a moving window of three pixels (30 m \u00d7 30 m) across tiled processing grids, with mosaicked outputs\u202fvalidated\u202fagainst field-measured tree species Shannon diversity using Spearman rank correlation. The effect of inter-quartile range (IQR) outlier filtering,\u202fan internal\u202fbiodivMapR\u202fpreprocessing step that masks pixels whose spectral values fall outside Q1 - 4 \u00d7 IQR or Q3 + 4 \u00d7 IQR, was additionally assessed by comparing results with and without this filtering applied. The entire workflow was implemented using open Sentinel-2 imagery and the open-source R package\u202fbiodivMapR, ensuring full methodological transparency and reproducibility within the FOSS4G ecosystem.\u202f \r\nResults\u202f\u202f \r\nPCA-based spectral diversity consistently achieved the highest correlation with field-measured tree species diversity across all three sites, outperforming both the SI\u202fand spectral band approaches. The performance advantage of PCA was modest but consistent across sites. SI\u202foutperformed spectral bands at two of three sites. IQR filtering produced no consistent improvement across sites or methods.\u202fPixel-level analysis confirmed that IQR masked fewer than 1.4% of pixels in\u202fthe\u202fpre-masked forest-only imagery,\u202fregardless of site or method.\u202f \r\nDiscussion\u202f \r\nResults\u202findicate\u202fa moderate relationship between spectral and field-measured diversity across all methods and sites. While remote sensing-derived spectral diversity cannot serve as a standalone biodiversity indicator at this spatial resolution [1,4], it provides a reproducible, scalable,\u202fand open-source means of monitoring relative diversity patterns across landscapes.\u202f \r\nThe modest but consistent advantage of PCA over spectral indices reflects its ability to condense spectral variance across correlated bands into uncorrelated components, reducing noise while\u202fretaining\u202fbiodiversity-relevant signal. This comes at the cost of\u202fadditional\u202fprocessing overhead and user-guided\u202fcomponent\u202fselection, which limits full workflow automation. SI, by contrast, are theoretically grounded, computationally efficient, and directly interpretable,\u202fmaking them a practical alternative for large-area applications where automation and transferability are priorities. Spectral bands alone are not recommended due to band collinearity, increased spectral noise. The negligible effect of IQR filtering suggests that, in pre-masked forest-only imagery, this step may not be necessary. The ecological significance of the pixels removed warrants further attention.\u202f\u202f \r\nConclusions\u202f\u202f \r\nWe evaluated three input feature approaches for spectral diversity mapping in hemi-boreal forests using Sentinel-2 and\u202fbiodivMapR,\u202fvalidated\u202fagainst field-measured tree species diversity across three ecologically distinct sites. PCA consistently outperformed spectral bands and SI, though the advantage was modest. SI represent\u202fa practical open-source alternative for large-area applications where computational efficiency is a priority.\u202fWe\u202fidentify integration of complementary environmental predictors is identified as a priority for future work, as we expect it to strengthen this relationship.\u202fBecause the workflow relies exclusively on open data and tools, it transfers directly to other forest ecosystems without licensing constraints. All scripts and parameter configurations will be made openly available to support reproducible biodiversity monitoring.\u202f \r\nReferences\u202f \r\n[1] Fassnacht, F.E. et al., 2022. About the link between biodiversity and spectral variation. Appl. Veg. Sci. 25, e12643.\r\n[2] Rocchini, D. et al., 2021. rasterdiv: An Information Theory tailored R package for measuring ecosystem heterogeneity from space. Methods Ecol. Evol. 12, 1093\u20131102.\r\n[3] Torresani, M. et al., 2024. Reviewing the Spectral Variation Hypothesis: Twenty years in the tumultuous sea of biodiversity estimation by remote sensing. Ecol. Inform. 82, 102702.\r\n[4] Wang, R., Gamon, J.A., 2019. Remote sensing of terrestrial plant biodiversity. Remote Sens. Environ. 231, 111218.\r\n[5] Palmer, M.W. et al., 2002. Quantitative tools for perfecting species lists. Environmetrics 13, 121\u2013137.\r\n[6] Robertson, K.M. et al., 2023. Effects of Spatial Resolution, Mapping Window Size, and Spectral Species Clustering on Remote Sensing of Plant Beta Diversity. J. Geophys. Res. Biogeosciences 128, e2022JG007350. \r\n[7] Schmidtlein, S., Fassnacht, F.E., 2017. The spectral variability hypothesis does not hold across landscapes. Remote Sens. Environ. 192, 114\u2013125. \r\n[8] F\u00e9ret, J., De Boissieu, F., 2020. biodivMapR: An r package for \u03b1\u2010 and \u03b2\u2010diversity mapping using remotely sensed images. Methods Ecol. Evol. 11, 64\u201370. \r\n[9] F\u00e9ret, J., De Boissieu, F. (n.d.). biodivMapR: Produce diversity maps from optical images. https://jbferet.github.io/biodivMapR/articles/biodivMapR_02.html",
+    "start_datetime": "2026-09-03T04:30:00Z",
+    "end_datetime": "2026-09-03T05:00:00Z",
+    "talk:code": "XW3XTM",
+    "talk:guid": "e6f8e609-9037-57c7-842f-36d5b4881f33",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos1",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "B8VYXU",
+        "name": "Arathi Biju",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/B8VYXU/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-03T04:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/XW3XTM/",
+      "title": "Evaluating spectral diversity approaches for tree species diversity mapping in hemi-boreal forests using Sentinel-2 and\u202fbiodivMapR"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/XW3XTM/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/B8VYXU/",
+      "title": "Arathi Biju"
+    },
+    {
+      "rel": "related",
+      "href": "https://jbferet.github.io/biodivMapR/articles/biodivMapR_02.html",
+      "title": "jbferet.github.io/biodivMapR/articles/biodivMapR_02.html"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/XW3XTM/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

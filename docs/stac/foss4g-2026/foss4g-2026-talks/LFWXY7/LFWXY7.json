@@ -1,0 +1,108 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "LFWXY7",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Combining DuckDB, MapLibre GL JS, and AI for Browser-Native Map Visualization",
+    "description": "We built a conversation-first data analysis tool for Japan's MLIT LINKS project that lets non-engineers explore location-rich datasets using natural language. The stack runs entirely in-browser DuckDB-WASM for SQL execution, Claude on AWS Bedrock, and MapLibre GL JS and Vega-Lite for declarative visualization.\n\nJapan's MLIT LINKS project manages large volumes of data, much of it geospatial, but the people who need to analyze it aren't engineers. Writing SQL, building charts, or plotting data on maps requires technical skills that create a bottleneck.\r\nWe built a conversation-first tool that bridges this gap. Users describe what they want in plain language, and the system handles the rest: generating SQL queries, rendering interactive charts, and plotting results on maps, all within the browser.\r\nThe architecture is fully client-side. DuckDB-WASM executes AI-generated SQL directly in the browser with no backend required, using Parquet for efficient columnar storage. For visualization, we chose MapLibre GL JS and Vega-Lite because their declarative specs are natural targets for AI generation: the model outputs a spec, and the library renders it. Inference runs through AWS Bedrock with Claude, restricted to Tokyo and Osaka regions for compliance.\r\nThe UI splits into a chat panel on the left and a live preview panel on the right showing tables, charts, and maps. Each conversation can reference multiple tables, and each table supports an optional chart and map view.\r\nOur biggest challenge was AI response quality. Tool design for DuckDB queries, chart specs, and map specs required careful prompt engineering: but a single monolithic system prompt proved brittle and hard to maintain. We solved this with an AI skill system: the system prompt is broken into many small, focused markdown files, and the model retrieves only what it needs for a given task via a get_skill tool. This reduces context size while significantly improving response quality and stability. Improving the AI's behavior now means creating or editing a skill markdown file in the codebase: no prompt rewrites needed.\r\nTo close the feedback loop, we built an AI regression testing pipeline. It generates detailed markdown and JSON reports scoring response quality, enabling automated tuning. Skill refinement is now largely handled by AI itself through GitHub Issues paired with Claude Code Actions.",
+    "start_datetime": "2026-09-02T02:30:00Z",
+    "end_datetime": "2026-09-02T03:00:00Z",
+    "talk:code": "LFWXY7",
+    "talk:guid": "3eb15dd9-0029-5601-af86-a8b8f1f45aa0",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Ran2",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "R7W9P9",
+        "name": "Piyush Chauhan",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/R7W9P9/"
+      },
+      {
+        "code": "CP8VZA",
+        "name": "Hiroki Inoue",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/CP8VZA/"
+      },
+      {
+        "code": "SPMXAZ",
+        "name": "Nimit Bhandari",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/SPMXAZ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T02:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/LFWXY7/",
+      "title": "Combining DuckDB, MapLibre GL JS, and AI for Browser-Native Map Visualization"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/LFWXY7/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/R7W9P9/",
+      "title": "Piyush Chauhan"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/CP8VZA/",
+      "title": "Hiroki Inoue"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/SPMXAZ/",
+      "title": "Nimit Bhandari"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/LFWXY7/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

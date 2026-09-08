@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "K7GULV",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Enhancing MapProxy with New 2D and 3D Layers Support via Plugins",
+    "description": "MapProxy is a lightweight geospatial proxy server supporting WMTS, WMS, and TMS. We utilize its plugin system to enable COG, vector tiles, and 3D Tiles support, facilitating integration of modern 2D/3D geospatial formats into open-source enterprise GIS workflows with enhanced interoperability, scalability, and cost-efficiencies in enterprise environments.\n\nAs the demand for modern geospatial data formats grows, integrating 2D and 3D content into open-source GIS infrastructures becomes increasingly critical. This talk presents our work on extending MapProxy\u2014a widely used open-source tile and proxy server\u2014to support next-generation geospatial formats through a modular plugin architecture.\r\n\r\nWe introduce new plugins that enable seamless support for:\r\n\r\n- **Cloud Optimized GeoTIFFs (COG)**\r\n- **Vector tiles**\r\n- **3D Tiles**\r\n\r\nThese enhancements allow MapProxy to serve as a unified gateway for both traditional and modern geospatial services. They enable seamless integration of high-performance, scalable 2D and 3D data delivery into enterprise workflows, while preserving compatibility with established OGC standards such as **WMS**, **WMTS**, and **TMS**.\r\n\r\n**Attendees will gain insights into:**\r\n\r\n- The architecture and design of the plugin system  \r\n- Implementation details  \r\n- Deployment strategies",
+    "start_datetime": "2025-11-20T01:00:00Z",
+    "end_datetime": "2025-11-20T01:25:00Z",
+    "talk:code": "K7GULV",
+    "talk:guid": "4f220277-0286-53c0-b238-fbce931b9176",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Cloud, APIs & Data Infrastructure",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG403",
+    "talk:room_capacity": 386,
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "BWUNU7",
+        "name": "Mete Ercan Pakdil",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/BWUNU7/"
+      },
+      {
+        "code": "HNAJPU",
+        "name": "Alex Briggs",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/HNAJPU/"
+      }
+    ],
+    "talk:do_not_record": true,
+    "datetime": "2025-11-20T01:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/K7GULV/",
+      "title": "Enhancing MapProxy with New 2D and 3D Layers Support via Plugins"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/K7GULV/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/BWUNU7/",
+      "title": "Mete Ercan Pakdil"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/HNAJPU/",
+      "title": "Alex Briggs"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/K7GULV/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

@@ -1,0 +1,122 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "WZ3VJB",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "An Open-Source WebGIS Approach to Empower Glacier Research with Scalability and Reproducibility",
+    "description": "Glacier monitoring is essential for understanding climate change, especially for smaller glaciers, which are highly sensitive to warming and face rapid losses. The GlaMBIE team (2025) provides a global assessment of glacier mass changes from 2000 to 2023, revealing an alarming acceleration in mass loss, particularly in regions with small glacier areas. Central Europe, including the Alps, experienced the most dramatic relative loss (-39%), highlighting the vulnerability of mid-latitude glaciers. Despite their relatively small size, these ice bodies play a crucial role in regional water resources and ecosystem stability. Hugonnet et al. (2021) further quantify this acceleration, reporting a global glacier mass loss rate of 267 gigatonnes per year between 2000 and 2019, exceeding the combined ice loss of Greenland and Antarctica. Smaller glaciers, such as those in the Alps, are particularly challenging to monitor due to their fragmented nature and steep, complex terrain, which often limits data coverage and increases uncertainty. High-resolution Digital Elevation Models, such as those provided by the Pl\u00e9iades Glacier Observatory, provide critical insight into these changes (Berthier et al., 2024). Given their importance for water supply and natural hazard management, maintaining long-term, high-precision monitoring and data management systems - especially through accessible platforms such as WebGIS - is crucial to reduce observational uncertainties and inform adaptation strategies (G\u00e4rtner-Roer et al., 2022).\r\n\r\nWebGIS platforms are essential tools for environmental monitoring, enabling real-time data collection, analysis, and visualization. By integrating diverse geospatial datasets, they provide interactive assessments of environmental conditions, support change detection, and enhance decision-making. Advances in cloud computing, open-source software, and mobile technologies further improve their efficiency (Kipkemboi et al., 2023). Their ability to manage large datasets and present user-friendly visualizations has expanded their role in various environmental domains (Toro Herrera et al., 2021). In water resource management, a WebGIS environment facilitates real-time monitoring of parameters such as chlorophyll-a concentration, suspended matter, and surface water temperature, aiding awareness and policymaking (Oxoli et al., 2020). Similarly, in glacier monitoring, initiatives are emerging to integrate geological, remote sensing, and geophysical data into centralized WebGIS platforms (Senger et al., 2021). These systems address challenges posed by harsh environments and accessibility issues, enabling data sharing and visualization to improve research and fieldwork efficiency. They also support educational activities by documenting data acquisition workflows. Despite challenges such as high hardware costs and limited interpretation tools, the benefits\u2014extended field seasons, quantitative analysis, and increased accessibility\u2014outweigh these limitations.\r\n\r\nThis work presents a WebGIS platform designed to facilitate the exploration and analysis of the Belvedere Glacier monitoring data. The glacier, located in the Italian Alps, is the site of a long-term monitoring project coordinated by the Department of Civil and Environmental Engineering of Politecnico di Milano that yearly organises a Summer School for groups of students that are involved in the Global Navigation Satellite System measurements of documented targets distributed along the surface. This allows the derivation of velocity and volume variations over the last decade (Gaspari et al., 2024). By integrating geospatial visualization and interactive data analysis, the WebGIS platform offers an intuitive environment for researchers, environmental agencies, and stakeholders. It leverages CesiumJS for dynamic 3D geovisualization and PostgreSQL/PostGIS for spatial data management, ensuring scalability and efficiency in handling large datasets but also providing a compatible interface for flexible mobile field mapping activities employing Qfield or Mergin Maps.\r\n\r\nThe WebGIS platform is conceived as a dynamic tool intended to help monitor the Belvedere Glacier and to serve a broad audience with various needs. The motivation behind developing the platform stems from the need to improve data accessibility and usability in the context of glacier monitoring. Traditional methods of data management are often based on static files like spreadsheets and PDFs, and are proved to be inefficient, fragmented, and challenging to update. The implementation of the Belvedere WebGIS platform involved translating conceptual designs into a fully functional web application. This process included setting up a Django framework, configuring the database, developing backend logic and integrating frontend visualization tools. Key features include an interactive map, temporal data visualization, and graph-based analysis, enabling users to track glacier changes over time and examine displacement trends. The platform supports data uploads and exports, enhancing its role as a comprehensive tool for scientific research and decision-making.\r\n\r\nBuilt with open-source geospatial technologies, this WebGIS provides a solid foundation for future enhancements, such as integrating orthophotos, 3D representations, as well as advanced visualization. By combining GIS technology with web-based accessibility, the platform contributes to a deeper understanding of glacier dynamics, supports data-driven environmental assessments, and serves as a valuable tool for the scientific community studying climate-driven glacier evolution.\r\nSource code: https://github.com/labmgf-polimi/belvedere-webgis\r\nPublication of the webGIS on a public server is in progress.\r\n\r\nReferences:\r\nThe GlaMBIE Team (2025). Community estimate of global glacier mass changes from 2000 to 2023. Nature, 1-7.\r\nHugonnet et al. (2021). Accelerated global glacier mass loss in the early twenty-first century. Nature 592, 726\u2013731\r\nBerthier et al. (2024). The Pl\u00e9iades Glacier Observatory: high-resolution digital elevation models and ortho-imagery to monitor glacier change. The Cryosphere, 18(12), 5551-5571.\r\nG\u00e4rtner-Roer et al. (2019). Worldwide assessment of national glacier monitoring and future perspectives. Mountain Research and Development, 39(2), A1-A11.\r\nKipkemboi et al. (2023). Development of a Web-GIS Platform for Environmental Monitoring and Conservation of the Muringato Catchment in Kenya, Journal of Geovisualization and Spatial Analysis, vol. 7, no. 1.\r\nToro Herrera et al. (2021). A collaborative platform for water quality monitoring: SIMILE WebGIS, in Int. Arch. Photogramm. Remote Sens. Spatial Inf. Sci., 201\u2013207. \r\nSenger et al. (2021). Using digital outcrops to make the high Arctic more accessible through the Svalbox database. Journal of Geoscience Education, 69(2), 123-137.\r\nGaspari et al. (2024). Bridging geomatics theory to real-world applications in alpine surveys through an innovative summer school teaching program, Int. Arch. Photogramm. Remote Sens. Spatial Inf. Sci., XLVIII-4/W12-2024, 59\u201366",
+    "start_datetime": "2025-07-18T10:00:00Z",
+    "end_datetime": "2025-07-18T10:05:00Z",
+    "talk:code": "WZ3VJB",
+    "talk:guid": "e43b610e-1ddd-5b3a-8353-5a25f5ef96c8",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Academic track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "PA01 (Quarticle)",
+    "talk:room_capacity": 95,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "CFAZ9L",
+        "name": "Federica Gaspari",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/CFAZ9L/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-18T10:02:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/WZ3VJB/",
+      "title": "An Open-Source WebGIS Approach to Empower Glacier Research with Scalability and Reproducibility"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/WZ3VJB/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/CFAZ9L/",
+      "title": "Federica Gaspari"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/labmgf-polimi/belvedere-webgis",
+      "title": "github.com/labmgf-polimi/belvedere-webgis"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/WZ3VJB/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "foss4gegaspari-presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/WZ3VJB/resources/FOSS4Ge2025_Gaspari_VaDGnPa.pdf",
+      "type": "application/pdf",
+      "title": "FOSS4GeGaspari_Presentation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/v6yDuFerbqohn86kzR9GYC",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | An Open-Source WebGIS Approach to Empower Glacier Research with Scalability and ...",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=RA29pSlXF_o",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | An Open-Source WebGIS Approach to Empower Glacier Research with Scalability and ...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "R7GEQB",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Running pygeoapi Cloud Native at Scale",
+    "description": "pygeoapi is one of the most popular open source solutions for deploying OGC compliant geospatial APIs. This session will explain best practices for deploying pygeoapi and scaling it within a cloud native, containerized, and horizontally scalable deployment.\n\npygeoapi provides an off the shelf solution for serving OGC APIs like Features, Maps, Tiles, or Environmental Data Retrieval from your organization\u2019s existing data including GeoPackage, PostGIS, Zarr, GeoParquet, shapefiles, and many more. Pygeoapi can be deployed on its own or be integrated into existing API servers written with Flask, Starlette or Django. As such, pygeoapi offers many ways to tweak its performance depending on use case. We will begin the talk with a general introduction to pygeoapi and how it can be used to simplify OGC API deployment in your organization. We will then go over the high level internals of pygeoapi and best practices for scaling your deployment. Topics will include horizontal scaling in containerized environments, caching strategies, connection pooling, and best practices when creating your own custom provider extensions to pygeoapi.",
+    "start_datetime": "2026-09-03T05:00:00Z",
+    "end_datetime": "2026-09-03T05:30:00Z",
+    "talk:code": "R7GEQB",
+    "talk:guid": "993e272e-7311-5cf3-a720-1d369d474cb9",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room5",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "A8VTL7",
+        "name": "Benjamin Webb",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/A8VTL7/"
+      },
+      {
+        "code": "U3KYYC",
+        "name": "Colton Loftus",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/U3KYYC/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-03T05:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/R7GEQB/",
+      "title": "Running pygeoapi Cloud Native at Scale"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/R7GEQB/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/A8VTL7/",
+      "title": "Benjamin Webb"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/U3KYYC/",
+      "title": "Colton Loftus"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/R7GEQB/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "CHBS39",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "A knowledge graph prototype for national topographic data",
+    "description": "Spatial data infrastructures prioritize data interoperability to serve their diverse communities. Geospatial knowledge graphs (GKG) are a form of database representation and handling that aim to meet the challenges of data interoperability, reasoning for information storage and knowledge creation, and user access that provide coherent spatial context to a domain of information.  This paper discusses the development of a prototype GKG based on national topographic databases. Geospatial data are used to test interoperability aspects of ontology creation, faceted search and retrieval using GeoSPARQL (Open Geospatial Consortium, 2022), and user interface for data visualization and evaluation. The challenges are to capture and represent geographic semantics inherent in the source data, to integrate data from outside sources through SPARQL Protocol and RDF Query Language (SPARQL) queries and to visualize the data using a cartographic user interface. \r\n\r\nPoore (2003) identified four levels of data interoperability: articulation, sharing, integration, and alignment. These concepts are carried into the semantic technology design and application. Called the Map as Knowledge Base (MapKB), the approaches use software components to build a system architecture aligned with available standardized vocabularies and is composed entirely of free and open-source software for geospatial data The application was created in the context of The National Map of the U.S. Geological Survey (USGS). For purposes of data interoperability, the GKG ontology, queries, and visualization were studied for the system. \r\nData pre-processing involved creating a GKG ontology. The ontology was semi-automatically transformed from source databases through the application of rules on schema attribute, domain, and metadata files to create classes, properties, and other triple resources of Resource Description Framework (RDF) and Web Ontology Language (OWL) (Hayes and Patel-Schneider, 2014; Hitzler and others, 2012). An R2RML file was created using Web-Karma for transforming the feature-level instance data using the ontology and confirmed using standards specifications (University of Southern California, 2016; Das and others, 2012). The converted data and ontology are imported into a triplestore for data handling.  \r\n\r\nA cartographic user interface (UI) was created as a foundation for the visualization and interaction of users with the triplestore graphs. The general guidelines given by the information search process model serves to guide UI functionality (Kuhlthau, 2004). The user interface offers menu search options by namespace for typically retrieving initial results. Multiple graphs can be visualized at once. Other queries can be performed on the initial results appearing on a map or table by faceted search and by query builder interfaces for SPARQL. An advanced feature description function retrieves related properties to support browsable graph searches. Linked Open Data were retrieved using SPARQL endpoints to test linking triples. Some GeoSPARQL support was created for geospatial queries on feature geometries of the GKG use cases. \r\n\r\nThe automated transformation ontology revealed aspects of data silos that were known to exist. However, the ontology model created a new perspective of data resources across the enterprise, where resource semantics could be streamlined for reuse. This was demonstrated in the post-processing stage of the ontology creation. The system and ontology design were validated through reasoning of semantically related data and pre-determined competency questions relevant to reasoning results. An ontology pattern of aligning feature classes represented as codes and geometries of The National Map matched to the GeoSPARQL ontology feature and geometry classes was validated using reasoners. The ontology for feature interoperability provided inferred information for competency questions such as \u201cWhat type of feature is classified as FCode 73002,\u201d or \u201cHow are streams represented geometrically?\u201d  The GKG alignment with Linked Open Data used some specific widely used vocabularies to be reused between graphs, and problems encountered could be resolved by designing a better metadata annotation approach for structural alignment in addition to syntax matching.  Multiple GeoSPARQL queries executing topological relations on features were successfully demonstrated with a pre-built query to find specified buildings on a road section between two cross streets.  Such a query can depend on the shape of the road, building distance from the roadway, and other factors. The queries required a change in viewpoint from machine computation to landscape cognition creating related semantic factors, and then were followed by GeoSPARQL function computation. \r\n\r\nThis project tested some key challenges for GKG applications for spatial data infrastructure interoperability including data transformation, ontology design, information search and retrieval, and multi-modality cartographic visualization.  Completing the resulting ontology from automated data transformation for knowledge representation is still a cognitive activity.  RDF and OWL vocabulary were sufficiently expressive to demonstrate linking and reasoning successes. Improved metadata annotation systems are needed for on-the-fly entity resolution. Although initial tests of GeoSPARQL techniques were successful, the full capabilities of SPARQL as a rule-based reasoning tool would need further research for queries that leverage the full semantic capabilities of knowledge graphs and for their portrayal.  \r\n\r\nDisclaimer Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the U.S. Government.",
+    "start_datetime": "2022-08-25T13:20:00Z",
+    "end_datetime": "2022-08-25T13:25:00Z",
+    "talk:code": "CHBS39",
+    "talk:guid": "a2f074d2-b9f1-5d58-9e6f-60ead7b78373",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "Room Hall 3A",
+    "talk:room_capacity": 85,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "UECYEA",
+        "name": "Dalia Varanka",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/UECYEA/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T13:22:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/CHBS39/",
+      "title": "A knowledge graph prototype for national topographic data"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/CHBS39/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/UECYEA/",
+      "title": "Dalia Varanka"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/CHBS39/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

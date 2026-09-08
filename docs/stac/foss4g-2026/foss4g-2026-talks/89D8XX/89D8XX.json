@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "89D8XX",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Title: Natural Language Querying of STAC Catalogs Using LLMs for Geospatial Visualization",
+    "description": "This framework simplifies STAC data access by using Gemma 3 to translate natural language into queries. It automates GISTDA\u2019s disaster data retrieval and MapLibre visualization, transforming complex geospatial imagery into instant, actionable intelligence. This human-centered AI approach ensures rapid, expert-free decision-making during crises for societal safety.\n\nThis work proposes a framework to simplify access to STAC data under the concept of \u201cBridging Geospatial Technology and Humanity,\u201d with the aim of delivering timely information and support to people, particularly during disaster situations where every second matters.\r\n\r\nA key element of modern data management is the open-source STAC standard, which can be compared to an \u201cintelligent knowledge repository\u201d that systematically records changes occurring in disaster-affected areas. In Thailand, the Geo-Informatics and Space Technology Development Agency (GISTDA) has adopted this standard as a core component of its disaster management initiatives to organize spatial data related to floods, hotspots, and drought conditions. This approach enables decision-support systems to access critical information more efficiently while significantly reducing the time required for data retrieval.\r\n\r\nTo address the challenge of accessibility, we developed a human-centered AI communication approach that leverages the Gemma 3 large language model (LLM), deployed via Ollama, as the interaction and orchestration layer. The system is designed to receive natural language input from users and analyze both spatial and temporal context. It then automatically translates the request into STAC API-compliant query commands. This process removes the traditional dependency on technical experts and reduces the complexity of geospatial data discovery, allowing users to access information simply through natural-language questions and responses.\r\n\r\nOnce the system retrieves vector coordinates and satellite imagery (raster data) from GISTDA\u2019s data repositories, the information\u2014typically in the form of GeoJSON or metadata\u2014is passed to a dynamic visualization process. Olama performs spatial statistical analysis to determine the event bounding box and generates JSON-based style instructions for MapLibre GL JS, which automatically configures the layer structure using vector tiles. This enables the creation of interactive maps that can instantly visualize geospatial information through a simple prompt.\r\nThe system then overlays risk-related layers, such as flooded areas or thermal hotspots, onto the map along with easily interpretable statistical summaries. As a result, complex geospatial datasets are transformed into clear visual intelligence, enabling decision-makers to quickly and accurately assess ongoing crisis situations.\r\n\r\nThis work demonstrates that when advanced geospatial technologies are combined with a deep understanding of human needs, and mediated through intelligent systems such as Olama, it becomes possible to create innovations that go beyond simply storing data. Instead, these systems can truly \u201clisten to\u201d and \u201cassist\u201d people, ultimately contributing to the safety and long-term sustainability of Thai society in the future.",
+    "start_datetime": "2026-09-02T02:00:00Z",
+    "end_datetime": "2026-09-02T02:30:00Z",
+    "talk:code": "89D8XX",
+    "talk:guid": "9c3392a2-6188-5e7c-a7f9-0372cfc71799",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Dahlia1",
+    "talk:room_capacity": 140,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "FKDRMW",
+        "name": "Pakpoom Najanthom",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/FKDRMW/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T02:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/89D8XX/",
+      "title": "Title: Natural Language Querying of STAC Catalogs Using LLMs for Geospatial Visualization"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/89D8XX/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/FKDRMW/",
+      "title": "Pakpoom Najanthom"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/89D8XX/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

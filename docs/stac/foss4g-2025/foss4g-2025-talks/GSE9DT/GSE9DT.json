@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "GSE9DT",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "\u201cDevelop Traffic Simulator for Urban Planning\u201d \u2014 Integrated 2D/3D Platform Workflow for Urban Planning",
+    "description": "This project builds a scenario-based simulation platform for urban planners and policy makers, presenting a real-time integrated workflow that supports the entire process from scenario creation to result analysis and comparison.\n\nUrban traffic systems are rapidly becoming more complex due to urban expansion, new town developments, and the diversification of transportation modes. Therefore, a user-centered system is needed to examine various scenarios during planning and to intuitively understand the results.\r\n\r\nPurpose:\r\n- To support urban planners and policy makers with an end-to-end traffic simulation platform that enables interactive scenario editing, execution, and comparative visualization based on real city data.\r\n\r\nThis system is built based on actual urban data, utilizing transportation network and station data from Seoul and Daejeon in GeoJSON and PostGIS formats as simulation input. Users can modify road networks and route structures through a scenario editor, configure various demand conditions, and execute simulations. Scenarios are edited and visualized in 2D and 3D using OpenLayers and CesiumJS, and the results can be explored in real-time through analysis tools such as scenario comparison, time filtering, and route change analysis.\r\n\r\nKey Features:\r\n- Scenario builder for editing roads, routes, and simulation parameters\r\n- Integrated 2D (OpenLayers) and 3D (CesiumJS) visualization per scenario\r\n- Time filter, route change analyzer, and side-by-side comparison UI\r\n- Workflow: Edit \u2192 Simulate \u2192 Visualize \u2192 Analyze\r\n\r\nThe entire structure is implemented based on a microservice architecture, allowing each function to be independently scalable and flexibly integrated with external traffic modeling engines.\r\n\r\nThis presentation shares the practical implementation experience of an open-source-based integrated workflow platform, applied to real urban data from Seoul and Daejeon.\r\n\r\nOpen Source Technologies Used:\r\n- **CesiumJS** for immersive 3D scenario playback\r\n- **OpenLayers** for 2D route editing and spatial analysis tools\r\n- **PostGIS** and **GeoJSON** for simulation data input\r\n\r\nThis work was supported by Institute of Information & communications Technology Planning & Evaluation (IITP) grant funded by the Korea government(MSIT) (RS-2024-00459703, Development of next-generation AI integrated mobility simulation and prediction/application technologies for metropolitan cities)",
+    "start_datetime": "2025-11-20T02:55:00Z",
+    "end_datetime": "2025-11-20T03:00:00Z",
+    "talk:code": "GSE9DT",
+    "talk:guid": "a9563d5d-4005-5580-9c3b-23726e703adb",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Lightning talk",
+    "talk:type": "Lightning Talk",
+    "talk:language": "en",
+    "talk:room": "WG403",
+    "talk:room_capacity": 386,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "C8VYQW",
+        "name": "Hansang Kim",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/C8VYQW/"
+      },
+      {
+        "code": "8WZ7K3",
+        "name": "Sungjo MIN",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/8WZ7K3/"
+      }
+    ],
+    "talk:do_not_record": true,
+    "datetime": "2025-11-20T02:57:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/GSE9DT/",
+      "title": "\u201cDevelop Traffic Simulator for Urban Planning\u201d \u2014 Integrated 2D/3D Platform Workflow for Urban Planning"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/GSE9DT/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/C8VYQW/",
+      "title": "Hansang Kim"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/8WZ7K3/",
+      "title": "Sungjo MIN"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/GSE9DT/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "urban-traffic-simulator-workflow": {
+      "href": "https://talks.osgeo.org/media/foss4g-2025/submissions/GSE9DT/resources/UrbanTrafficSimulator_Workflow_Aw9YcHY.pdf",
+      "type": "application/pdf",
+      "title": "Urban Traffic Simulator Workflow",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

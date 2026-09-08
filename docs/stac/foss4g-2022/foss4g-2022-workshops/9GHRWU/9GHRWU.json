@@ -1,0 +1,93 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "9GHRWU",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Kubernetes for SDI (development set up and production set up)",
+    "description": "Spatial Data Infrastructure is an elusive concept, this workshop takes it to mean the set up of a multi node cluster for delivery of geospatial applications.\n\nDuring the workshop participants will learn:\r\n- How to set up Rancher Desktop on OSX/Windows/Linux for development\r\n- The use of Kubernetes UI to inspect workloads/pods/persistent volumes and claims.\r\n- Helm and the creation of a helm chart with Postgres (Postgis and timescaledb), GeoServer and GeoNode.\r\n- Deployment of the same chart on a cloud based kubernetes service.\r\n\r\nWorkshop is based on work done for the island of Dominica from 2019 to 2022 on a consortium between Kartoza and Piensa Labs. Main engineers were Rizky Maulana, Wayner Barrios, Ricardo Silva and Ariel N\u00fa\u00f1ez.",
+    "start_datetime": "2022-08-22T12:00:00Z",
+    "end_datetime": "2022-08-22T16:00:00Z",
+    "talk:code": "9GHRWU",
+    "talk:guid": "d5a51001-ab7b-59fb-a9f2-c742a041e5a4",
+    "talk:event": "foss4g-2022-workshops",
+    "talk:type": "Long Workshop",
+    "talk:language": "en",
+    "talk:room": "202",
+    "talk:room_capacity": 65,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "EUCS9L",
+        "name": "Ariel Nunez",
+        "url": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/EUCS9L/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-22T14:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/talk/9GHRWU/",
+      "title": "Kubernetes for SDI (development set up and production set up)"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/talk/9GHRWU/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/EUCS9L/",
+      "title": "Ariel Nunez"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/ingenieroariel/",
+      "title": "github.com/ingenieroariel"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/talk/9GHRWU/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-workshops"
+}

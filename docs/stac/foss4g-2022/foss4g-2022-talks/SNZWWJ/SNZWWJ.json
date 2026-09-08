@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "SNZWWJ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "OpenSource to the rescue: the future of MapLibre",
+    "description": "The story and the future of the MapLibre community - the project that continues to develop various browser and native technologies for map tile visualization ever since Mapbox changed their licensing on the amazing Mapbox gl js technology that sadly became proprietary restricted to Mapbox own service.\r\n\r\nThis talk will cover existing lib capabilities, how the project grew to include native, navigation, routing, 3D, and other features. How the project was able to quickly migrate to typescript with lots of additional testing and stabilization efforts. How we became a large non-centralized collective of mapping technologies covering web, android and ios devices. How hundreds of small and large donations from developers and companies have helped with extra incentives.\r\n\r\nSome possible future projects and ideas will be presented by individual feature owners, including the possibility of uniting all library efforts using a cross platform compilation from the common Rust code (web assemblies + native libs) and additional styling features.",
+    "start_datetime": "2022-08-26T10:30:00Z",
+    "end_datetime": "2022-08-26T11:00:00Z",
+    "talk:code": "SNZWWJ",
+    "talk:guid": "319b79e1-074c-5a2d-aa13-38f03ccbbe8b",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room 9",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "VXXFNW",
+        "name": "Yuri Astrakhan",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/VXXFNW/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T10:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/SNZWWJ/",
+      "title": "OpenSource to the rescue: the future of MapLibre"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/SNZWWJ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/VXXFNW/",
+      "title": "Yuri Astrakhan"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/SNZWWJ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=DZ-1nZFLvnw",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | OpenSource to the rescue: the future of MapLibre",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "TERMMU",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Maplandscape - an open-source geospatial workflow for agricultural landscape monitoring",
+    "description": "Maplandscape is a stack of open-source geospatial applications designed to enable mapping of agricultural landscapes and farm systems. It supports large team in-the-field mobile data collection, provides tools for data syncing and management, and easy visualisation and querying of spatial information for decision making and reporting. The workflow has been developed and deployed in Tonga through a collaboration between universities in Australia and the South Pacific, and Tonga\u2019s Ministry of Agriculture, Food, Forests and Fisheries (MAFF). Maplandscape is currently being used in Tonga to map crop, livestock, agroforestry systems, and farm management practices; over 11,000 farms and four island groups have been mapped so far. This information has been used to inform agricultural planning and resource allocation, disaster response, land utilisation assessment, tracking land use changes, and monitoring of the condition of key commercial crops. \r\n\r\nThe Maplandscape workflow is based on QField for in-the-field data collection and QFieldCloud for data syncing, storage, and user authentication and management. Using QField mobile GIS, key agricultural landscape features (e.g. crop parcels, paddocks, fallow land) can be spatially mapped, and rich attribute information can be captured through various widgets and flexible and complex form logic, with support of reference geospatial layers. Three cloud-based applications have been developed that build on top of the QFieldCloud API to provide geospatial data visualisation and analytics tools. These applications provide differing and complementary functionalities, and facilitate quick analysis, publishing, and reporting of data collected using QField and stored using QFieldCloud. The apps are built using Shiny, Leaflet, ggplot, and DataTables software, and are deployed using ShinyProxy and docker containers in swarm mode. These applications use the QFieldCloud API to authenticate users and retrieve data and an R package has been developed to handle this interaction within Shiny apps. The goal of these applications is to speed up the process of data collected using QField informing agricultural monitoring, planning, and decision making activities. A summary of these geospatial data visualisation and analytics applications is provided below.\r\n\r\nmaplandscape-view is a web app that allows users to query and view spatial data on interactive maps and data tables and generate reports comprising cartographic outputs, charts, and summary tables directly from QFieldCloud data. maplandscape is a web app that allows users to specify and apply custom geospatial data querying, analysis, and visualisation tasks to their QFieldCloud data in a web browser and with a simple UI interface. This application enables users without a GIS background to extract information from, and analyse, rich datasets collected in-the-field using QField; for example, agricultural officials in Tonga used this application to generate village- and district-level crop area summary tables for their annual report. Finally, maplandscape-admin provides tools for users to manage their QFieldCloud projects and accounts.",
+    "start_datetime": "2022-08-24T09:00:00Z",
+    "end_datetime": "2022-08-24T09:30:00Z",
+    "talk:code": "TERMMU",
+    "talk:guid": "e1de6aff-4279-5ded-baa1-b9cde30db10e",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Modulo 0",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "GK3SZG",
+        "name": "John Duncan",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/GK3SZG/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T09:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/TERMMU/",
+      "title": "Maplandscape - an open-source geospatial workflow for agricultural landscape monitoring"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/TERMMU/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/GK3SZG/",
+      "title": "John Duncan"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/TERMMU/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/wrzdxmyLf1Ziy7GupvB2MJ",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Maplandscape - an open-source geospatial workflow for agricultural landscape\u2026",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=fB-oPrlloGY",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Maplandscape - an open-source geospatial workflow for agricultural landscape\u2026",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

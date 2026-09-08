@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "KPQ97A",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Geospatial Indexing with Apache Lucene and OpenSearch",
+    "description": "Come have a look under the covers at the data structures that enable geospatial and multi-dimensional indexing and search at massive scale in Apache Lucene and OpenSearch. This talk will cover not only the indexing structures considered and ultimately implemented in the Apache Lucene Open Source Project but the exceptional performance improvements and centimeter spatial accuracy obtained in the latest release. As a bonus, this talk will cover new and upcoming Spatial Analysis Aggregations and Processing available in the OpenSearch Open Source project.\r\n\r\nFrom tessellation to multidimension encoding and block KD trees this talk will cover the algorithms and data structures written and committed to the following open source projects:\r\n\r\nApache Lucene (specifically the release of BKD based geo indexing https://issues.apache.org/jira/browse/LUCENE-8396)\r\nPerformance benchmarks for Lucene Spatial Indexing: https://home.apache.org/~mikemccand/geobench.html\r\n\r\nFinally, we will discuss the future of the project including existing and evolving support for custom coordinate reference systems and projections, spatial regression modeling and statistics, and spatial visualizations with OpenSearch Dashboards.",
+    "start_datetime": "2022-08-25T07:30:00Z",
+    "end_datetime": "2022-08-25T08:00:00Z",
+    "talk:code": "KPQ97A",
+    "talk:guid": "2ae8177d-598f-5543-842e-1b6a7e72762b",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room 4",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "ESMGBW",
+        "name": "Nicholas Knize, PhD",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/ESMGBW/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T07:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/KPQ97A/",
+      "title": "Geospatial Indexing with Apache Lucene and OpenSearch"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/KPQ97A/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/ESMGBW/",
+      "title": "Nicholas Knize, PhD"
+    },
+    {
+      "rel": "related",
+      "href": "https://issues.apache.org/jira/browse/LUCENE-8396",
+      "title": "issues.apache.org/jira/browse/LUCENE-8396"
+    },
+    {
+      "rel": "related",
+      "href": "https://home.apache.org/~mikemccand/geobench.html",
+      "title": "home.apache.org/~mikemccand/geobench.html"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/KPQ97A/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/nxjBuowFbqhSXUojw5LRjD",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Geospatial Indexing with Apache Lucene and OpenSearch",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=ERS-IvVn_Wc",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Geospatial Indexing with Apache Lucene and OpenSearch",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

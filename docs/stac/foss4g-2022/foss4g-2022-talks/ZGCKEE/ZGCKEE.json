@@ -1,0 +1,114 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "ZGCKEE",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "QGIS & PostGIS : Tips & Tricks",
+    "description": "QGIS and PostGIS are now renown as one of the best combination to setup a GIS application.\r\n\r\nThe support of PostGreSQL and PostGIS in QGIS have grown very mature and offers great features to deal with your database stored geographic data. It allows to create powerful business application easily without any advanced programming language skills, only plain SQL and a well configured QGIS.\r\n\r\nThis presentation will showcase some of the interesting features you should be aware of in order to build the perfect GIS user application. I'll explain how to:\r\n- Properly configure relations between layers/tables,\r\n- Enable transactions (and whether or not you should do it),\r\n- Communicate from PostGreSQL to QGIS using notifications,\r\n- Deal with triggers using data dependencies,\r\n- Store your QGIS project and style information in a PostGIS database,\r\n- Output your processing result directly to your database,\r\n- Manage your database directly from the browser.\r\n\r\nThese will be some of the key features that will be demonstrated along with a given use case.",
+    "start_datetime": "2022-08-26T08:00:00Z",
+    "end_datetime": "2022-08-26T08:30:00Z",
+    "talk:code": "ZGCKEE",
+    "talk:guid": "af9e391c-6c65-5710-8476-26b3cfe00d82",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Onice",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "ZEA9TL",
+        "name": "Julien Cabieces",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/ZEA9TL/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T08:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/ZGCKEE/",
+      "title": "QGIS & PostGIS : Tips & Tricks"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/ZGCKEE/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/ZEA9TL/",
+      "title": "Julien Cabieces"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.linkedin.com/in/julien-cabieces-9b55363b/",
+      "title": "www.linkedin.com/in/julien-cabieces-9b55363b"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/ZGCKEE/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/nUuLXyD4kx8vFqwU6EZxDG",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | QGIS & PostGIS : Tips & Tricks",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=F4Ozrxj6XmI",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | QGIS & PostGIS : Tips & Tricks",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

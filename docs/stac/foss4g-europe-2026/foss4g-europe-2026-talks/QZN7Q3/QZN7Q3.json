@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "QZN7Q3",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "Asking a Province a Question: LLMs, H3, and Open Dutch Geodata",
+    "description": "The Province of South Holland manages one of the most densely packed, data-rich regions in Europe. Housing pressure, nitrogen deposition, flooding risk, ageing infrastructure, biodiversity loss \u2014 the questions are urgent, and the data to answer them mostly already exists. It's public, it's free, and almost none of it talks to anything else.\r\nWe built something to fix that.\r\nOver the past two years, we've assembled a spatial data warehouse for Zuid-Holland: an H3 geo-datacube at resolution 9, combining six years of Dutch open datasets \u2014 demographics and housing (CBS), land use and nature (LGN), water quality (IHW/KRW), air quality (RIVM), ground height (AHN), noise exposure, and accessibility distances. Every dataset on the same hexagonal grid. Every hexagon its own small story about a patch of land.\r\nThen we gave it a voice.\r\nA natural-language assistant \u2014 built entirely on open source tools \u2014 lets policy advisors, planners, and analysts ask questions in plain Dutch and get a map back in seconds. No SQL. No data wrangling. No waiting for a colleague who knows which table holds what. \"Where did nature expand while population shrank between 2018 and 2023?\" becomes a map. \"Which areas combine flooding risk with high housing pressure and poor accessibility?\" becomes a map. Decisions that used to take a week of preparation start with a conversation.\r\nThe stack is fully open: LangGraph for the AI workflow, DuckDB for query execution, FastAPI for the backend, Deck.gl and MapLibre GL JS for rendering. The warehouse itself is built on Delta Lake \u2014 a living system, not a static file \u2014 designed to grow as new provincial datasets are onboarded.\r\nThis talk covers the architecture, the hard-won lessons (LLM hallucinations hitting production queries is a fun problem to debug), and a live demo against the actual provincial data warehouse. We'll show what the hexagons reveal about Zuid-Holland that spreadsheets never could \u2014 and what it looks like when a province can finally ask itself the right questions.\r\nAll code is open source. The pattern is replicable. The data is already yours.\r\nStack: H3 \u00b7 DuckDB \u00b7 LangGraph \u00b7 FastAPI \u00b7 Deck.gl \u00b7 PDOK \u00b7 Delta Lake",
+    "start_datetime": "2026-06-30T12:00:00Z",
+    "end_datetime": "2026-06-30T12:30:00Z",
+    "talk:code": "QZN7Q3",
+    "talk:guid": "3af5a9a0-c1bc-507a-bef4-b5d2cdcf7f24",
+    "talk:event": "foss4g-europe-2026",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "AM",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "CARWMW",
+        "name": "Thijs Oosterhuis",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/CARWMW/"
+      },
+      {
+        "code": "EBC97L",
+        "name": "Sebastiaan Schmidt",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/EBC97L/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-06-30T12:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/QZN7Q3/",
+      "title": "Asking a Province a Question: LLMs, H3, and Open Dutch Geodata"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/QZN7Q3/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/CARWMW/",
+      "title": "Thijs Oosterhuis"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/EBC97L/",
+      "title": "Sebastiaan Schmidt"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/QZN7Q3/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2026/submissions/QZN7Q3/resources/foss4g_eu_presentation_Talki_FGCGiyA.pdf",
+      "type": "application/pdf",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

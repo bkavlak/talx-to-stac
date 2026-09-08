@@ -1,0 +1,102 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "LVM9TG",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Serving live maps with vector tiles",
+    "description": "Vector tiles are an efficient way to serve maps with a high volume of live data. IoT applications or maps with weather, traffic or other live data require a compact format for transmitting updated data. Vector tiles with their powerful styling capabilities are supported by several Javascript map viewers.\r\n\r\nThis talks shows how to disply live data with MapLibre and OpenLayers. On the server side [BBOX](https://www.bbox.earth/) is used to serve tiles from a PostGIS database.",
+    "start_datetime": "2024-12-05T13:00:00Z",
+    "end_datetime": "2024-12-05T13:30:00Z",
+    "talk:code": "LVM9TG",
+    "talk:guid": "822a9ee1-6cc8-579f-abec-3d34ad73136b",
+    "talk:event": "foss4g-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room IV",
+    "talk:room_capacity": 100,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "HRNGH3",
+        "name": "Pirmin Kalberer",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/HRNGH3/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-05T13:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/LVM9TG/",
+      "title": "Serving live maps with vector tiles"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/LVM9TG/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/HRNGH3/",
+      "title": "Pirmin Kalberer"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.bbox.earth/",
+      "title": "BBOX"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/LVM9TG/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024/submissions/LVM9TG/resources/foss4g-vector-tiles-live-maps_gkMLAUo.pdf",
+      "type": "application/pdf",
+      "title": "Slides",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

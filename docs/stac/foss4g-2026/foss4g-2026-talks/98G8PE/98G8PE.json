@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "98G8PE",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Mastering Security with GeoServer, GeoFence, and OpenID",
+    "description": "This presentation introduces GeoServer\u2019s authentication and authorization subsystems, covering supported protocols, identity providers, and integration strategies. It explores combining mechanisms into a unified framework, custom plugins, and proxy-based solutions. It concludes with GeoFence, highlighting advanced rule-based access control, fine-grained data security, and flexible integration options.\n\nThe presentation will provide a comprehensive introduction to GeoServer\u2019s authentication and authorization subsystems. The authentication section will cover the supported protocols (e.g., Basic/Digest authentication) and identity providers (such as local configuration files, databases, LDAP servers, and OAuth2/OpenID Connect), including scenarios where the same source may fulfill both roles.\r\n\r\nIt will explain how to combine multiple authentication mechanisms into a unified and coherent security framework, and will present examples of custom authentication plugins for GeoServer, enabling integration with bespoke security architectures. The presentation will then address authorization, describing GeoServer\u2019s pluggable authorization model and comparing it with external proxy-based solutions. The default service and data security system will also be examined, highlighting its strengths and limitations.\r\n\r\nFinally, we will explore the advanced authorization provider, GeoFence. The various levels of integration with GeoServer will be presented, ranging from simple, seamless direct integration to more sophisticated external deployments. We will conclude by showcasing GeoFence\u2019s powerful authorization capabilities, including:\r\n\r\n* User- and role-based access control\r\n* OGC service, workspace, layer, and layer group restrictions\r\n* CQL read and write filters\r\n* Attribute-level security\r\n* Spatial filtering of raster and vector data based on areas of interest",
+    "start_datetime": "2026-09-02T04:00:00Z",
+    "end_datetime": "2026-09-02T04:30:00Z",
+    "talk:code": "98G8PE",
+    "talk:guid": "090cad38-31d0-5fae-b993-d475f73ec213",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RBSH8T",
+        "name": "Andrea Aime",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/RBSH8T/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T04:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/98G8PE/",
+      "title": "Mastering Security with GeoServer, GeoFence, and OpenID"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/98G8PE/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/RBSH8T/",
+      "title": "Andrea Aime"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/98G8PE/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

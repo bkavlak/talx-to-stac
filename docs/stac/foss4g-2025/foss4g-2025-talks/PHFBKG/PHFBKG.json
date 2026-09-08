@@ -1,0 +1,106 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "PHFBKG",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Fast Urban Digital Twin prototyping based on open data",
+    "description": "This work proposes a methodology for assembling Urban Digital Twin prototypes using solely open data and open source software. It outlines a three-component architecture for processing, data storage, and extensibility, and its implementation, showcasing a cost-effective, scalable solution, demonstrated via a test case.\n\nIn recent years, the paradigm of the smart city has evolved towards the concept of digital twins, which are now being ever more discussed and implemented in cities from all around the world. Conceptually, a digital twin is a digital model representing a real-world object, process, or system that enables 2-way communication, simulations and what-if scenarios, revisit of past data, and monitoring of the modelled entity. Urban Digital Twins are the application of said Digital Twins to cities, urban areas and urban spaces, and are mostly used in urban planning as a tool for engaging with communities, perform simulations, manage multiple urban processes, and enable data-driven decision support systems. Geospatial data is central for the implementation of Urban Digital Twins, as their data requirements are inherently spatial. Street networks, sensor networks, granular meteorological and weather information, and remotely sensed imagery are all geospatially enabled data sources, prompting a need for robust spatial data infrastructures and standardised services that enable interoperability.\r\n\r\nHowever, the adoption of Urban Digital Twis is limited due to economic and technological factors, as such projects require large volumes of historical and constantly updated data, data streams, 3D models, and an infrastructure to store such data and run simulations. Consequently, the use of proprietary software for Urban Digital Twins is common practice. Open source software and open data offer a massive opportunity for the development of Urban Digital Twins. With, overall, robust and globally available data for multiple city systems, it is possible to create minimal prototypes of Urban Digital Twins that can scale up by appending authoritative information, replacing global open data with other high-resolution datasets, and creating tailored models for analysing specific aspects of urban areas. Global open data is also practical for deploying Urban Digital Twin prototypes in developing countries and economies that lack high-resolution data availability.\r\n\r\nThis work is focused on proposing a methodology for assembling prototypes of Urban Digital Twins based solely on open data and open source software. Our research includes the proposal of an Urban Digital Twin architecture, the analysis of minimal data requirements for Urban Digital Twins, a selection of global, open data sources, and a city-scale test case. Our methodology strides to be applicable worldwide as a baseline and precursor of fully-featured Urban Digital Twins.\r\n\r\nThe architecture for the Fast Urban Digital Twin prototype features three components: i) the Digital Twin engine where calculations and models run following a cloud-computing paradigm; ii) the data component where unstructured and structured data is stored; and iii) the extension system that enables the platform to connect with other standardized data sources and services. \r\n\r\nThe Digital Twin engine component enables a fundamental part of the Digital Twin: processing and simulations. This component provides dashboard capabilities, visualization, and custom processing functionalities. As a critical part of Digital Twins is their purpose, the customisation of processing functionalities enables to steer a generic prototype towards a domain-specific solutions. Such processing capabilities also include AI and physical models for forecasting and simulating future scenarios.\r\n\r\nThe data component provides storage and retrieval capabilities of structured, unstructured, and streamed data. Such solutions, generally related to data lakes and warehouses, are usually implemented in data spaces and Digital Twins, as they allow to store massive amounts of data and are optimised for its analysis and retrieval. The prototype solution includes minimal, pre-loaded, data that can be used for urban analyses. Examples of such data include street networks, 3D buildings, socioeconomic information, and any other minimal information found during the research phase, which are useful for general-purpose Urban Digital Twins.\r\n\r\nFinally, the extension system is the way in which the Urban Digital Twin prototype can scale up and become a fully-fledged solution by enabling the connection with standardised geospatial services and the insertion of standard data formats (e.g., CityGML, GeoPackage, GeoTiff, GeoParquet, etc.). This extension system allows the inclusion of new data and the possibility to modify existing one, enabling the use of high resolution and authoritative information instead of default global data.\r\n\r\nTo test our methodology, a test case will be presented, featuring a city-scale Urban Digital Twin prototype based solely on open data. Other functionalities as the extension system, custom functionalities, and dashboard visualization are also tested. The city to be studied for the test case is Bologna, Italy.\r\n\r\nIn conclusion, the usage of open data and open source software is beneficial for the implementation of Urban Digital Twins as it enables fast prototyping and baseline solutions that are cost-effective and open. We propose and implement an Urban Digital Twin architecture and solution for the creation of minimal and usable prototypes, based on open data, that enable processing, simulations, data insertion, and extension through custom functionalities, such as AI models, and standardised data formats and services. We test our approach with a test case, featuring a city-scale study for the city of Bologna, combining multiple global, open data, and a set of custom functionalities.",
+    "start_datetime": "2025-11-20T03:30:00Z",
+    "end_datetime": "2025-11-20T03:55:00Z",
+    "talk:code": "PHFBKG",
+    "talk:guid": "e892e63b-c3d8-52e2-a82a-4c2ab9e5718d",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Academic",
+    "talk:type": "Academic Paper",
+    "talk:language": "en",
+    "talk:room": "WG802",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "HFK38L",
+        "name": "Juan Pablo Duque Ordo\u00f1ez",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/HFK38L/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-20T03:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/PHFBKG/",
+      "title": "Fast Urban Digital Twin prototyping based on open data"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/PHFBKG/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/HFK38L/",
+      "title": "Juan Pablo Duque Ordo\u00f1ez"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/PHFBKG/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-2025/submissions/PHFBKG/resources/UrbanDT_Prototyping_-_FOSS4G_Auckland_33vEvZh.pdf",
+      "type": "application/pdf",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=-yarunecmmY",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Fast Urban Digital Twin prototyping based on open data",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

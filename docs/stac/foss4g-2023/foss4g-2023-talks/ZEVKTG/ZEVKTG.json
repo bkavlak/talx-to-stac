@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "ZEVKTG",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "How to secure pygeoapi and streamline protected OGC APIs",
+    "description": "Securing a modern API in an effective way is critical to prevent unauthorized access and ensure the privacy and integrity of data. In general, there are three common mechanisms that can be used for API security: API keys, OAuth2/OpenID Connect, and JSON Web Tokens (JWT). Each of these mechanisms provides a different level of security and flexibility, depending on the requirements of the API. Modern OGC APIs are agnostic and rely completely on the adoption of OpenAPI security schemes so the implementers can use the mechanism that perfectly fits with their requirements. \r\nfastgeoapi is a new open-source tool designed to be an authentication and authorization layer on top of a vanilla pygeoapi that offers out-of-the-box a secured infrastructure easily pluggable and configurable through the a standard OpenID Connect protocol. \r\nThis talk aims to describe the recipe to configure and protect a vanilla pygeoapi with Keycloak and Open Policy Agent in order to publish secured OGC APIs in a standard manner.",
+    "start_datetime": "2023-06-28T13:00:00Z",
+    "end_datetime": "2023-06-28T13:30:00Z",
+    "talk:code": "ZEVKTG",
+    "talk:guid": "f5d429dd-32cf-56b9-90e8-52e5fb6181c4",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Open Standard",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT D / N112 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "YBLBW9",
+        "name": "Francesco Bartoli",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/YBLBW9/"
+      },
+      {
+        "code": "RU9BR9",
+        "name": "Antonio Cerciello",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/RU9BR9/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T13:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/ZEVKTG/",
+      "title": "How to secure pygeoapi and streamline protected OGC APIs"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/ZEVKTG/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/YBLBW9/",
+      "title": "Francesco Bartoli"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/RU9BR9/",
+      "title": "Antonio Cerciello"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/ZEVKTG/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/iohqKeW7Fc45o8Mzev1N7t",
+      "type": "text/html",
+      "title": "2023 | How to secure pygeoapi and streamline protected OGC APIs - Francesco Bartoli",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=TenZ1w9hh-I",
+      "type": "text/html",
+      "title": "2023 | How to secure pygeoapi and streamline protected OGC APIs - Francesco Bartoli",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

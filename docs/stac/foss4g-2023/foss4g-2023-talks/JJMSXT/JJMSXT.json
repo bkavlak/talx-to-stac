@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "JJMSXT",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "MapTiler SDK, the MapLibre experience on steroids",
+    "description": "**MapTiler SDK** is a TypeScript layer that adds new capabilities on top of MapLibre GL, both in terms of UI and core features. It also comes with an interface to **MapTiler Cloud REST API**.\r\nThe features we have added on top of MapLibre are of two kinds: many convenient helpers to make the developers' life easier, and plenty of built-in defaults that are specially made to use MapTiler data without having to specify annoying URLs or {ZXY} patterns, yet keeping it 100% backward compatible with MapLibre. In addition, all our services from MapTiler Cloud API, such as geocoding, IP geolocation, coordinate transforms, or static maps generation, are now easily accessible with well-documented TypeScript functions. All this with an open-source license.\r\n\r\nIn the talk, we are going to present the library, showing practical examples and outputs. We believe, that the SDK is going to make the life of the web mapper easier not only by providing a close integration of MapTiler services but also by the new components and library itself. \r\n\r\nThe demo will feature some nice weather visualization we\u2019ve been working on lately!",
+    "start_datetime": "2023-06-28T12:30:00Z",
+    "end_datetime": "2023-06-28T13:00:00Z",
+    "talk:code": "JJMSXT",
+    "talk:guid": "a082b273-3892-57da-894c-e9e8ca1430be",
+    "talk:event": "foss4g-2023",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Mirusha",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "TXDWAA",
+        "name": "Jonathan Lurie",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/TXDWAA/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T12:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/JJMSXT/",
+      "title": "MapTiler SDK, the MapLibre experience on steroids"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/JJMSXT/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/TXDWAA/",
+      "title": "Jonathan Lurie"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/JJMSXT/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/iEEBap4ZzchYQqxntL492B",
+      "type": "text/html",
+      "title": "2023 | MapTiler SDK, the MapLibre experience on steroids - Jonathan Lurie",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=LPi_QtUNM-g",
+      "type": "text/html",
+      "title": "2023 | MapTiler SDK, the MapLibre experience on steroids - Jonathan Lurie",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

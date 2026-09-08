@@ -1,0 +1,122 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "YQQYSU",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Elevating GeoServer to the Cloud: Production-Ready Features for Optimal Performance",
+    "description": "## Abstract:\r\n\r\nUnlock the full potential of your geospatial data with GeoServer Cloud! This presentation will showcase how GeoServer Cloud delivers high availability, scalability, and cost-effective mapping solutions, positioning itself as a robust alternative to proprietary mapping platforms. Learn how to optimize your GeoServer deployment for production, ensuring reliability and efficiency without breaking the bank.\r\n\r\n[ GeoServer Cloud ](https://geoserver.org/geoserver-cloud/) is a GeoServer distribution (alongside war downloads and docker), that leverage microservices for deployment. \r\n\r\n## Session Description:\r\n\r\nAs the demand for reliable and scalable geospatial solutions grows, GeoServer Cloud emerges as a leading choice for organizations looking to enhance their mapping capabilities without incurring excessive costs. This session will explore how GeoServer Cloud addresses these needs through its core features and advanced functionalities.\r\n\r\nIn this session, you will learn:\r\n\r\n1. **High Availability and Scalability:** Discover how GeoServer Cloud ensures high availability and scalability, allowing you to confidently deploy your geospatial applications.\r\n\r\n2. **Improved Catalog scalability:** Say goodbye to lengthy load times. GeoServer Cloud leverages a new PostgreSQL back-end for the GeoServer Catalog and Configuration objects, ensuring a cloud-friendly, stateless, scalable storage solution. Experience near-instantaneous pod start-up times, allowing you to spawn as many pods as needed and be ready in seconds.\r\n\r\n3. **Advanced Authorization with GeoServer ACL:** Secure your data with GeoServer ACL, an advanced authorization system. This independent application service manages data access rules and per-workspace administrative rights, providing granular control over your geospatial data.\r\n\r\n4. **Comprehensive Observability:** GeoServer Cloud integrates with observability tools to collect traces, metrics, and logs. This integration provides invaluable insights into your system\u2019s performance, supporting proactive monitoring and troubleshooting. Working with open-source tools like Jaeger and Prometheus or commercial offerings, and ensuring adaptability to diverse cloud environments and existing infrastructure.\r\n\r\nDuring this presentation, we will walk you through these features and discuss their positive impact on productivity, reliability, and efficiency. Learn how Camptocamp\u2019s customers have successfully implemented GeoServer Cloud and how you can achieve similar results in your organization.\r\n\r\nJoin us to explore the cutting-edge capabilities of GeoServer Cloud and transform your geospatial data management.",
+    "start_datetime": "2024-12-06T19:00:00Z",
+    "end_datetime": "2024-12-06T19:30:00Z",
+    "talk:code": "YQQYSU",
+    "talk:guid": "79674658-d515-52f3-b79e-098756123249",
+    "talk:event": "foss4g-2024",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room III",
+    "talk:room_capacity": 400,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RR3FVS",
+        "name": "Gabriel Roldan",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/RR3FVS/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-06T19:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/YQQYSU/",
+      "title": "Elevating GeoServer to the Cloud: Production-Ready Features for Optimal Performance"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/YQQYSU/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/RR3FVS/",
+      "title": "Gabriel Roldan"
+    },
+    {
+      "rel": "related",
+      "href": "https://geoserver.org/geoserver-cloud/",
+      "title": "GeoServer Cloud"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/YQQYSU/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024/submissions/YQQYSU/resources/FOSS4G_2024_Elevating_GeoServer_to_the_Cloud_HqBAtE2.pdf",
+      "type": "application/pdf",
+      "title": "Presentation slides",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/5oVztaguKmPtqCRbMDFddY",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | Elevating GeoServer to the Cloud: Production-Ready Features for Optimal Performance",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=Q3FuiLCMsHQ",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | Elevating GeoServer to the Cloud: Production-Ready Features for Optimal Performance",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

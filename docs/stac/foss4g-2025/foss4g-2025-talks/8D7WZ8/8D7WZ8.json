@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "8D7WZ8",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Spatiotemporal Analysis of Forest Disturbance Dynamics in Maharashtra Using Remote Sensing Techniques",
+    "description": "This study investigates forest disturbance patterns across Maharashtra using multi-temporal remote sensing data. By analyzing vegetation indices and land surface temperature trends from 2014 to 2024, the research identifies key spatiotemporal shifts in forest cover. The findings contribute to understanding ecosystem dynamics and support forest management and conservation strategies.\n\nAbstract\r\nForests in Maharashtra are undergoing significant changes due to a combination of natural and anthropogenic factors. This study employs multi-temporal remote sensing data from 2014 to 2024 to analyze forest disturbances across the state. By integrating vegetation indices like NDVI and NDWI along with Land Surface Temperature (LST), we map disturbance hotspots and quantify temporal forest change. The results highlight key patterns in forest degradation and provide valuable insights for conservation planning and sustainable land use policies.\r\nForests are vital for maintaining ecological balance, regulating climate, and supporting biodiversity, and Maharashtra, located in western India, hosts diverse forest types ranging from dry deciduous to moist deciduous, particularly in the Sahyadri (Western Ghats), Satpura, and Vidarbha regions; however, these ecosystems are increasingly under pressure from urbanization, infrastructure expansion, mining, logging, and climatic stress such as droughts and rising temperatures. In this study, forest disturbances across Maharashtra were assessed over a decade (2014\u20132024) using spatiotemporal remote sensing data and open-source platforms, where Landsat imagery was primarily used for the pre-2017 period and Sentinel-2 data was incorporated after its availability, thereby ensuring temporal continuity; to address the differences in spatial resolution (30 m for Landsat vs. 10\u201320 m for Sentinel-2), all datasets were harmonized to a common scale through resampling techniques to ensure comparability across time. Vegetation indices including NDVI (for greenness) and NDWI (for vegetation moisture) were computed from both datasets, while MODIS-derived Land Surface Temperature (LST) was integrated to capture thermal anomalies, and preprocessing steps included cloud masking, generating seasonal composites (pre-monsoon, monsoon, and post-monsoon), and applying zonal statistics at the district level. A composite Forest Disturbance Index (FDI) was developed by combining NDVI, NDWI, and LST trends, with thresholds applied to detect significant vegetation decline alongside thermal rise, and temporal anomalies were analyzed using Mann-Kendall and Sen\u2019s slope methods. Results revealed widespread declining trends in NDVI and NDWI, particularly in forest-rich districts such as Gadchiroli, Chandrapur, and Thane, where vegetation decreased by 5\u201315%, with sharper drops during dry seasons, while LST rose by 1.5\u20132.2\u00b0C in disturbed patches. Spatial patterns showed fragmentation in the Western Ghats due to encroachment and road development, recurrent disturbances in Vidarbha linked to mining and shifting cultivation, and localized degradation in Marathwada, where seasonal stress appeared not only from forested patches under drought but also due to edge effects from agricultural expansion adjacent to forests, leading to canopy thinning and conversion pressures. Seasonally, pre-monsoon months exhibited maximum stress and fire risk, monsoon months showed vegetation recovery, and post-monsoon periods marked the re-emergence of degradation signals. These disturbances were driven by anthropogenic pressures such as urban growth, illegal logging, and mining, compounded by climatic anomalies and occasional natural events like cyclones and landslides in the Ghats. Overall, the integration of multi-source satellite datasets, after careful harmonization, proved effective in detecting disturbance hotspots and tracking temporal changes, and the findings underscore significant degradation in Maharashtra\u2019s forests over the past decade, highlighting the urgent need for early detection, mitigation, and informed conservation planning by policymakers and forest managers.",
+    "start_datetime": "2025-11-19T22:30:00Z",
+    "end_datetime": "2025-11-19T22:55:00Z",
+    "talk:code": "8D7WZ8",
+    "talk:guid": "1ca5055c-130f-5150-b4f2-67b993abe9c5",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Academic",
+    "talk:type": "Academic Paper",
+    "talk:language": "en",
+    "talk:room": "WA220",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "QDB8VL",
+        "name": "Komal Rai",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/QDB8VL/"
+      }
+    ],
+    "talk:do_not_record": true,
+    "datetime": "2025-11-19T22:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/8D7WZ8/",
+      "title": "Spatiotemporal Analysis of Forest Disturbance Dynamics in Maharashtra Using Remote Sensing Techniques"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/8D7WZ8/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/QDB8VL/",
+      "title": "Komal Rai"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/8D7WZ8/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

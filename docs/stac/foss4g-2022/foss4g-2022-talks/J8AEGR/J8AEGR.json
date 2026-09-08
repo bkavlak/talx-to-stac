@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "J8AEGR",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Creating Maps in GeoServer using CSS and SLD",
+    "description": "The presentation aims to provide attendees with enough information to master GeoServer styling documents and most of GeoServer extensions to generate appealing, informative, readable maps that can be quickly rendered on screen. Examples will be provided from [GeoSolutions training material](https://docs.geoserver.geo-solutions.it/edu/en/), as well as from the [OSM data directory](https://github.com/geosolutions-it/osm-styles) we shared with the community.\r\n\r\nSeveral topics will be covered, providing examples in CSS and SLD, including:\r\n\r\n* Mastering common symbolization, filtering, multi-scale styling.\r\n* Using GeoServer extensions to build common hatch patterns,  line styling beyond the basics, cased lines, controlling symbols along a line and the way they repeat.\r\n* Leveraging TTF symbol fonts and SVGs to generate good looking point thematic maps.\r\n* Using the full power of GeoServer label lay-outing tools to build pleasant, informative maps on both point, polygon and line layers, including adding road plates around labels, leverage the labeling subsystem conflict resolution engine to avoid overlaps in stand alone point symbology.\r\n* Dynamically transform data during rendering to get more explicative maps without the need to pre-process a large amount of views.\r\n* Generating styles with external tools.",
+    "start_datetime": "2022-08-24T13:15:00Z",
+    "end_datetime": "2022-08-24T13:45:00Z",
+    "talk:code": "J8AEGR",
+    "talk:guid": "adc8cc30-9555-57db-a158-16de0e83ea8f",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Modulo 0",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RBSH8T",
+        "name": "Andrea Aime",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/RBSH8T/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T13:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/J8AEGR/",
+      "title": "Creating Maps in GeoServer using CSS and SLD"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/J8AEGR/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/RBSH8T/",
+      "title": "Andrea Aime"
+    },
+    {
+      "rel": "related",
+      "href": "https://docs.geoserver.geo-solutions.it/edu/en/",
+      "title": "GeoSolutions training material"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/geosolutions-it/osm-styles",
+      "title": "OSM data directory"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/J8AEGR/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/nA6zZsEG3Cn7kQXFbUtBSn",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Creating Maps in GeoServer using CSS and SLD",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=wnSobB4yqms",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Creating Maps in GeoServer using CSS and SLD",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

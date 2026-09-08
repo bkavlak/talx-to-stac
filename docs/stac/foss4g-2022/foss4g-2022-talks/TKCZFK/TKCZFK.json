@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "TKCZFK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "EOEPCA - An Open Source Exploitation Platform",
+    "description": "Exploitation platforms offer a cloud-based virtual work environment where expert users can access data, develop algorithms, conduct analysis close to the data and share their value-adding outcomes. We now have a complementary ecosystem of platforms, data sources and cloud services. To fully exploit the potential of these complementary resources we anticipate the need to encourage interoperation amongst the platforms, such that users of one platform may consume the services of another directly platform-to-platform.\r\n\r\nThe goal of the EO Exploitation Platform Common Architecture (EOEPCA) project is to define and agree a re-usable exploitation platform architecture by identifying a set of common building blocks that provide their services through open interfaces (e.g. OGC), to encourage interoperation and federation within this Network of Resources. We are also developing an open source Reference Implementation, to validate and refine the architecture, and to provide an implementation to the community.\r\n\r\nThe Reference Implementation comprises a set of open source components that are available on GitHub, and provided with helm charts for Kubernetes deployment. The components can be used together as an integrated platform, or individually for specific capabilities - which include:\r\n\r\n* Application Deployment and Execution Service (ADES) - processing engine for execution of user defined applications via OGC API Processes interface\r\n* Processor Development Environment (PDE) - integrated web tooling to develop, test and package apps for ADES execution\r\n* Resource Catalogue - metadata catalogue for data/applications which provides OGC CSW, API Records, STAC and OpenSearch interfaces\r\n* Data Access - standards-based access to both platform and user-owned data (OGC WCS, WMS, WMTS)\r\n* Workspace - centralises the user\u2019s management of owned resources through personal Resource Catalogue and Data Access services, integrated with platform S3 object storage\r\n* Identity and Access Management - OpenID Connect (OIDC) for authentication (OIDC) and User Managed Access (UMA) for authorization, with integrations for external identity providers\r\n\r\nWe provide an introduction to each of the building blocks and the open source projects that underpin their development.\r\n\r\nAll of our work is available on GitHub (https://github.com/EOEPCA), via our website (https://eoepca.org/) and through our helm chart repository (https://eoepca.github.io/helm-charts).",
+    "start_datetime": "2022-08-25T08:05:00Z",
+    "end_datetime": "2022-08-25T08:10:00Z",
+    "talk:code": "TKCZFK",
+    "talk:guid": "1d1d14d7-e260-5ba1-b459-31cc89c79d2f",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Modulo 0",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "JGV7CM",
+        "name": "Richard Conway",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/JGV7CM/"
+      },
+      {
+        "code": "APQ7NR",
+        "name": "Philip Beavis",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/APQ7NR/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T08:07:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/TKCZFK/",
+      "title": "EOEPCA - An Open Source Exploitation Platform"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/TKCZFK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/JGV7CM/",
+      "title": "Richard Conway"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/APQ7NR/",
+      "title": "Philip Beavis"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/TKCZFK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=H0ngu_DcnEU",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | EOEPCA - An Open Source Exploitation Platform",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

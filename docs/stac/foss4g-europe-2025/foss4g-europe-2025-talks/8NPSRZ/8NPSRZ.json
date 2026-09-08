@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "8NPSRZ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "OpenTrack: a Sensor for Monitoring the Usage of Territory",
+    "description": "Monitoring the movement of people, animals, and vehicles in daily territorial use can significantly improve spatial development, enhancing safety, sustainability, and inclusiveness. Across Ticino canton, many stakeholders, such as regional natural parks, are eager for a system that can provide valuable data on space usage to better manage costs, justify new investments, and handle maintenance activities [1, 2]. \r\n\r\nDuring the INSUBRIPARKS Interreg project, a cost-effective prototype was developed to track and count the passage of tourists in specific park areas. The system consists of a device with a camera that, through image recognition and machine learning techniques, collects data that are then sent to a data warehouse based on istSOS [3], an open-source implementation of the Sensor Observation Service (SOS) standard of the Open Geospatial Consortium (OGC). The system fully complies with European GDPR regulations, as it only stores anonymous metadata such as the type of object (person, car, bicycle, etc.) and the object's movement path. No video or images captured by the camera are saved. \r\n\r\nThanks to these features, the device has been adopted also in the Adaptive Space project, funded by the Federal Office of the Spatial Development (ARE). This project aims to develop a protocol with guidelines for the inclusive planning of last-mile mobility. \r\n\r\nTo this end, two sites were selected as study areas (SA) to analyse the behaviour of citizens who frequently use these spaces. One is located outside the Mendrisio railway station (SA1). This area is occupied by four parking lots and is subject to movements that prioritize pedestrian passage and vehicle flow to and from the station and the city centre. The second site is located at Mendrisio S. Martino, also outside the railway station (SA2). This area is of particular interest because new structures have been built over the past year, impacting pedestrian use due to an increase in traffic from both vehicles and people. In fact, this area is commonly used as a passageway for people heading to the industrial zone. \r\n\r\nThe methodology involved an automatic detection approach by installing sensors to collect continuous data. Three main data collection campaigns were conducted at each site: one in summer, one in autumn, and one in winter. Since the device has high power consumption, it had to be installed with a battery, as no viable solution was found to connect the sensor to a continuous power source. During the campaigns, the device collected data on the number of detected objects, their classification, and their movements across the monitored areas, using tracking capabilities that gather coordinates frame by frame to monitor the movement of each object. Such data have been validated through manual sampling and, on the other hand, have been provided a broader overview of the usage of the selected areas across different periods of the year.  \r\n\r\nThe analysis developed during this project focused on tracking data coordinates, which proved to be essential for understanding how the objects are distributed across the area and determining where activities are most concentrated, based on the different categories to which each object belongs. This approach results in the generation of heatmaps for pedestrians and vehicles using data from the entire day, as well as filtering for evening and morning peak-hour traffic. The dataset has also been evaluated in terms of data accuracy, as for each object present in the frame, the percent of confidence is archived. By plotting this data through a histogram, it was possible to understand the accuracy assessments of the detected objects from the chosen classification model. \r\n\r\nFurthermore, two different analytical methods were applied to the two study areas. In SA1, alongside heatmap generation and accuracy evaluation, the analysis focused on parking areas by calculating the stationary time of detected objects, which helped to assess how these parking areas are utilized by citizens. In contrast, in SA2, a different approach was taken, custom-defined zones were created to analyze object counts and determine the percentage of people or vehicles using specific parts of the area compared to the rest. \r\n\r\nIn this context, the challenges encountered during the project will be reported, primarily those related to data transmission. Due to the large amount of data collected, it was difficult to transmit everything using only an NB-IoT connection via the MQTT standard, which, due to its low bandwidth, cannot handle the transmission of large amounts of data. \r\n\r\nThanks to this research, new advancements have been made using this device firstly developed during the INSUBRIPARKS project, such as analysis based on object tracking coordinates rather than solely relying on object counts. However, further developments are needed, including the possibility of georeferencing the data, since the current system uses an absolute reference system based on image coordinates, and improving the overall performance of the device. One of the critical aspects in this regard is the video streaming frame rate, which currently ranges from 15 to 19 FPS. A more powerful device, combined with a higher-resolution camera, could achieve 30\u201340 FPS, which would enhance both detection accuracy and the ability to track object positions more precisely during video capture. \r\n\r\nIn conclusion, this paper presents and analyses the collected data, along with the preliminary results derived from the implemented methodology, where tracking data served as the raw input for all analyses. This approach is highly promising in providing valuable insights for urban planners to improve the studied areas, enhancing security, and supporting sustainable and inclusive urban development.",
+    "start_datetime": "2025-07-16T09:30:00Z",
+    "end_datetime": "2025-07-16T10:00:00Z",
+    "talk:code": "8NPSRZ",
+    "talk:guid": "fd6cbf28-5e55-525c-a0f2-175aeb28bac3",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Academic track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "PA01 (Quarticle)",
+    "talk:room_capacity": 95,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "SMMFEV",
+        "name": "Daniele Strigaro",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/SMMFEV/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-16T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/8NPSRZ/",
+      "title": "OpenTrack: a Sensor for Monitoring the Usage of Territory"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/8NPSRZ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/SMMFEV/",
+      "title": "Daniele Strigaro"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/8NPSRZ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/8NPSRZ/resources/opentrack_strigaro_ttBBNTT.pdf",
+      "type": "application/pdf",
+      "title": "presentation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/97d8Qque4sCg3t3DomDB7a",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | OpenTrack: a Sensor for Monitoring the Usage of Territory",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=V3BUyoXQ6IU",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | OpenTrack: a Sensor for Monitoring the Usage of Territory",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

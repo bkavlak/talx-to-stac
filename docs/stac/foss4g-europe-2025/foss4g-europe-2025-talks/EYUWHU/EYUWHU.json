@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "EYUWHU",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "Utilizing Sentinel-2 Remote Sensing for Water Quality Monitoring in Deran Lake, Bosnia and Herzegovina",
+    "description": "Climate change significantly threatens water quality, ecosystem health, and the balance of lake ecosystems, making the monitoring of lake water quality increasingly critical. Remote sensing technology has emerged as an effective tool for this purpose. This study focuses on Deran Lake in Bosnia and Herzegovina, assessing the suitability of Sentinel-2 Multispectral Instrument (MSI) data for mapping various water quality parameters. Deran Lake is a vital aquatic habitat known for its rich biodiversity, primarily due to the numerous water sources originating from the surrounding karst hills. Its unique hydrological connection with the Krupa River and various underground springs enhances its ecological significance, providing a habitat for diverse plant and animal species. Recognized for its ecological importance, Deran Lake has been designated as part of the Hutovo Blato Nature Park, a wetland area that forms a natural unit of the Neretva River delta in southern Bosnia and Herzegovina. This nature park encompasses six lakes, including Deran, Jelim, Drijen, Orah, \u0160krka, and Svitava, and is sustained by 62 underground freshwater springs. Due to the lake\u2019s shallowness, its dimensions vary with seasonal changes, covering approximately 1.4 square kilometres during high water levels and shrinking to about 0.3 square kilometres in summer. The Krupa River serves as the lake's sole outflow, flowing into the Neretva River, and plays a crucial role in maintaining the ecological balance of the area. The Krupa River's hydrological dynamics are complex; under certain conditions, it can reverse its flow during high water levels, returning water to the lake. This phenomenon significantly impacts nutrient dynamics and ecosystem changes, necessitating comprehensive monitoring for thorough understanding of these processes to preserve ecological balance. Deran Lake is characterized by its pristine natural environment, with minimal anthropogenic pressure, although strong seasonal vegetation complicates water quality studies. In summer, extensive water lily growth can cover nearly the entire lake surface, obstructing various research methods. The dense vegetation, particularly water lilies, poses challenges for remote sensing and the assessment of physicochemical and biological parameters. Additionally, this extensive vegetation cover can influence nutrient distribution and other ecological factors, complicating the assessment of ecosystem processes at the lake level. To mitigate these challenges, the research focuses on a high-water level period when vegetation cover is reduced, allowing for more effective remote sensing research to contribute to the understanding and conservation of the Hutovo Blato ecosystem. By using new technologies, researchers can focus their efforts on better understanding the role of vegetation in nutrient distribution and the effects of seasonal changes in the lake's ecosystem by continuous monitoring in long-term studies and research of the ecosystem is essential to develop strategies for its protection. The application of new technologies contributes to more effective monitoring and conservation of these valuable ecosystems. Ultimately, such approaches can contribute significantly to the sustainability of the Hutovo Blato ecosystem and ensure the long-term conservation of biodiversity. With proper management and the application of scientific research, the negative effects of climate change can be mitigated and the balance in these fragile ecosystems can be maintained. This research aims to explore the application of Sentinel-2 imagery for monitoring water quality, specifically focusing on Deran Lake. Sentinel-2, part of the Copernicus Programme, is operated by European Space Agency and provides high-resolution optical imagery from 10 m to 60 m on a free and open data basis. The mission includes the Sentinel-2A and Sentinel-2B satellites, with a third satellite, Sentinel-2C, launched in 2024, and plans for a Sentinel-2D in the future to replace the earlier satellites. The mission supports a variety of applications, including agricultural monitoring, emergency management, land cover classification, and water quality assessment. Sentinel-2 features multi-spectral data with 13 bands that cover visible, near-infrared, and short-wave infrared spectra, allowing for systematic global coverage from 56\u00b0 S to 84\u00b0 N and a revisit time of every 5 days. The mission\u2019s spatial resolutions of 10 m, 20 m, and 60 m, along with a 290 km field of view and a free and open data policy, make it a valuable tool for environmental monitoring. The study emphasized the importance of lakes and the growing demand for water quality monitoring at both local and global scales. The research evaluates the effectiveness of Sentinel-2's Multispectral Instrument (MSI) data in mapping various water quality parameters, including chlorophyll-a, total suspended solids, and water transparency. In situ measurements from Deran Lake were compared with remote sensing assessment derived from atmospherically corrected Level-1C images. Since 2015, Sentinel-2 Level 1C products have been available globally, providing Top of Atmosphere (TOA) reflectance images. The study employed the C2RCC processor for atmospheric correction in the Sentinel Application Platform (SNAP), and all bands were resampled to a uniform resolution of 10 m for comparability. SNAP is a versatile architecture designed for Earth observation processing and is available free of charge to the Earth Observation Community. C2RCC, developed by Schiller and Doerffer in 1999, utilities a machine learning-based methodology for atmospheric correction and in-water retrieval challenges. The processor was utilized to assess water parameters, yielding correlation results with R\u00b2 greater than 0.5 for the parameters examined. These initial findings suggest that Sentinel-2 could be a valuable resource for lake monitoring and research, particularly due to the routine availability of data over the years, frequent imagery, and free and open data policy.",
+    "start_datetime": "2025-07-17T14:30:00Z",
+    "end_datetime": "2025-07-17T15:00:00Z",
+    "talk:code": "EYUWHU",
+    "talk:guid": "7cd75ddd-2d67-52a6-8a10-a79e7589358e",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Academic track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "PA01 (Quarticle)",
+    "talk:room_capacity": 95,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "PGRDM9",
+        "name": "Anja Batina",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/PGRDM9/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-17T14:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/EYUWHU/",
+      "title": "Utilizing Sentinel-2 Remote Sensing for Water Quality Monitoring in Deran Lake, Bosnia and Herzegovina"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/EYUWHU/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/PGRDM9/",
+      "title": "Anja Batina"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/EYUWHU/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/EYUWHU/resources/Anja_Batina_Utilizing_Sentinel-2_Remote_APhXSnu.pptx",
+      "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/g8EnQc5mnR1vSqcSdqtAEV",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Utilizing Sentinel-2 Remote Sensing for Water Quality Monitoring in Deran Lake, ...",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=o0RzNaJrXnY",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Utilizing Sentinel-2 Remote Sensing for Water Quality Monitoring in Deran Lake, ...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

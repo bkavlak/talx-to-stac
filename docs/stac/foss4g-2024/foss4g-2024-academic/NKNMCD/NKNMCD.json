@@ -1,0 +1,110 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "NKNMCD",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "GeoAI in resource-constrained environments.",
+    "description": "Advances in spatial and spectral resolution in private sector satellite imagery, together with geography aware algorithms, have created new venues for the use of Artificial Intelligence (AI) in geospatial applications, sometimes referred to as AI4Geo. However, these advancements are accompanied by significant costs in the procurement of data, computing resources, communication infrastructure and human expertise. We describe a case study in central Bali in which we developed multiple AI4Geo approaches to assist the WISNU foundation, a Non-Governmental Organization in Bali, Indonesia, in their ongoing efforts to manage community resources and to perform land mapping across small villages in Bali. \r\n\r\nConcepts \r\nThe concept we explore here is multipath AI4Geo that seeks to find the \u201cbest\u201d approach to AI4Geo for resource constrained environments. The assumption that larger models are always better does not hold where AI4Geo, trained on data from dominant western institutions, is applied in the majority world. Some of the most ambitious AI4Geo models are trained for land cover categories that are mostly of interest to the Northern Hemisphere. Given this imbalance, we ask how participants from low-resourced environments can best make use of AI4Geo.\r\n\r\nMethodology\r\nBased on field data from a study site in Bali, Indonesia, we have developed multiple open source AI4Geo land cover approaches to find the best way to represent agroforestry, a key indicator of sustainable and robust food production. We compare the image segmentation results from small models such as Random Forests (RF) and Support Vector Machines (SVM)  with large models such as U-Net  and ResNet152 not only along established model performance metrics such as f-score, but also in terms of their suitability for use in low-resource conditions. This generally includes limited ability to collect large data sets, limited computational infrastructure, limited AI expertise and limited internet connectivity. We then describe a mixed-method multi-pathway approach to produce good AI4Geo results while building capacity for the NGO to continue the integration of  AI4Geo into its operations while planning for an even more challenging AI4Geo future dominated by large homogenizing AI models. \r\n\r\nHere are links to code experiments and instructions on generating the required input data for the U-Net model from geospatial shapefiles.\r\n\r\nSmall models (RF, SVM based on the Orfeo library)\r\nhttps://github.com/realtechsupport/cocktail/tree/main/code \r\n\r\nLarge models (Custom designed U-Net and SATLAS based ResNet models)\r\nhttps://github.com/realtechsupport/cocktail/tree/main/satlas_test\r\nhttps://github.com/realtechsupport/cocktail/blob/main/sandbox/working_model/working_model_inference.ipynb \r\n\r\nResults\r\nWhile RF, SVM and U-Net approaches were all able to detect agroforestry in 8-band, 3-meter spatial resolution datasets provided by Planet Labs, we found that the SVM algorithm was most responsive to the limitations of our dataset while producing useful results that we could verify in the field. SVM was furthermore painless to update with additional field data. Figure 1 summarizes the results from the image segmentation after model training.\r\n\r\nWhile U-Net\u2019s f1 accuracy for agroforestry exceeds that of RF and SVM, it is likely an overestimate of the actual extent of agroforestry. We believe this to be the case because the U-Net architecture ingested patches of 16 x 16 pixels, and these dimensions exceed the size of  the smaller agroforestry plots detected in the field. The choice of the input patches was in turn a function of the dimensions of the U-Net architecture selected for its ability to minimize loss during training across all land cover categories. \r\n\r\nAs opposed to the three other models listed above, the large ResNet152 model was not trained on data Planet Lab satellite imagery but on Sentinel-2 imagery. Because Sentinel-2 only has a maximum spatial resolution of 10m/pixel it is not able to distinguish small scale landscape features, agroforestry that typically utilizes small plots in random arrangements. While the ResNet algorithm was trained on the largest dataset, with over 300 distinct labels across 137 classes represented across 64 million images, the class labels are not tuned to the spectral signatures of agroforestry and deliver only crude results in our selected study area, as Figure 2 shows. Moreover, The ResNet152 model that supports multi spectral Sentinel-2 input has over 80 million trainable parameters, exceeding our bespoke U-Net model by more than an order of magnitude, thus making its  use more costly.\r\n\r\nWhile we have not fine-tuned the Resnet152 model with our own highest resolution Planet Lab data due to spatial resolution mismatches, it seems clear that the effort would exceed the capacities of our partner organization WISNU. Our dilemma is that the most promising large models are unwieldy and not adapted to our land cover conditions while the smaller models we have end to end control over can be tuned with smaller dataset but run the risk of becoming obsolete in the AI arms race over time, where larger and more powerful models become standard-bearers. While the agroforestry specific results we observe are characteristic of our study area and the constraints our project operates under, the homogenizing forces of large models pose a condition all AI4Geo operations are faced with. For that reason, the territory of this project is significant beyond the immediate results we produce.\r\n\r\nOur solution to this dilemma is two-fold. We deploy multi-pathway AI4Geo across various technical complexity levels while retaining agency for local stakeholders. The Wisnu foundation does preliminary studies of Sentinel-2 satellite imagery through the QGIS environment to survey sites and build simple datasets. They then use QGIS integrated small model approaches such as Random Forests to build baseline segmentation maps of a given area. The research team will then collect Planet Labs based higher resolution data and use the cocktail suite of models, including U-Net, to deepen the study results. Parallel to this approach, we together use the SATLAS ResNet models to find synergies in those results. Across the approaches, we build land cover analysis results that optimize limited resources while producing solid analytical results.",
+    "start_datetime": "2024-12-04T19:15:00Z",
+    "end_datetime": "2024-12-04T19:45:00Z",
+    "talk:code": "NKNMCD",
+    "talk:guid": "35e62da9-5101-5442-8ddd-525991e3fb7c",
+    "talk:event": "foss4g-2024-academic-track",
+    "talk:track": "Academic Track",
+    "talk:type": "Oral Presentation 2",
+    "talk:language": "en",
+    "talk:room": "Room III",
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "MP98AQ",
+        "name": "marc b\u00f6hlen",
+        "url": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/MP98AQ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-04T19:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/talk/NKNMCD/",
+      "title": "GeoAI in resource-constrained environments."
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/talk/NKNMCD/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/MP98AQ/",
+      "title": "marc b\u00f6hlen"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/realtechsupport/cocktail/tree/main/code",
+      "title": "github.com/realtechsupport/cocktail/tree/main/code"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/realtechsupport/cocktail/tree/main/satlas_test",
+      "title": "github.com/realtechsupport/cocktail/tree/main/satlas_test"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/realtechsupport/cocktail/blob/main/sandbox/working_model/working_model_inference.ipynb",
+      "title": "github.com/realtechsupport/cocktail/blob/main/sandbox/working_model/working_model_inference.ipynb"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/talk/NKNMCD/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "22-minute-video-recording": {
+      "href": "http://u.pc.cd/wKErtalK",
+      "title": "22 minute video recording",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-academic"
+}

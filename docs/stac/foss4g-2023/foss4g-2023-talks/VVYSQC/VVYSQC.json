@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "VVYSQC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Validating the European Ground Motion Service: An Assessment of Measurement Point Density",
+    "description": "The European Ground Motion Service (EGMS) constitutes the first application of high-resolution monitoring of ground deformation for the Copernicus Participating States. It provides valuable information on geohazards and human-induced deformation thanks to the interferometric analysis of Sentinel-1 radar images. This challenging initiative constitutes the first ground motion public dataset, open and available for various applications and studies.\r\n\r\n\r\nThe subject of this abstract is to validate the EGMS product in terms of spatial coverage and density of measurement points. A total of twelve sites have been selected for this activity, covering various areas of Europe, as well as representing equally the EGMS data processing entities. To measure the quality of the point density we employ open land cover data to evaluate the density per class. Furthermore, we propose statistical parameters associated with the data processing and timeseries estimation to ensure they are consistent across the different selected sites. \r\n\r\n\r\nThe usability criteria to be evaluated concern the completeness of the product, its consistency, and the pointwise quality measures. Ensuring the completeness and consistency of the EGMS product is essential to its effective use. To achieve completeness, it is important to ensure that the data gaps and density measurements are consistent with the land cover classes that are prone to landscape variation. Consistency is also vital for point density across the same land cover class for different regions. For instance, urban classes will have higher density than farming grounds, and this density should be consistent between the ascending and descending products. Pointwise quality measures are critical in assessing the quality of the EGMS PSI results. For example, the temporal coherence is expected to be higher in urban classes, and the root-mean-square error should be lower. Overall, these measures and standards are crucial in ensuring the usefulness and reliability of the EGMS product for a wide range of applications, including environmental management, urban planning, and disaster response.\r\n\r\n\r\nFor the validation of point density, a dataset of 12 selected sites across Europe is used, representing the four processing entities (TRE Altamira, GAF, e-GEOSS, NORCE). The aim of the point density validation activity is to ensure consistency across the EU territories by comparing the point density at three sites for each algorithm, one of which is in a rural mountainous area and the other two are urban. The dataset is obtained directly from the Copernicus Land \u2013 Urban Atlas 2018 and contains validated Urban Atlas data with the different land cover classes polygons, along with metadata and quality information. We have extensive Urban Atlas (version 2018) verified datasets on the cities of Barcelona/Bucharest (covered by TRE Altamira), Bologna/Sofia (covered by e-GEOSS), Stockholm/Warsaw (covered by NORCE) and Brussels/Bratislava (covered by GAF). In parallel we select four different rural and mountainous areas to analyse more challenging scenarios as well for the four processing chains of the providers.\r\n\r\n\r\nThere are 27 different land cover classes defined in Urban Atlas. To facilitate the analysis and the interpretation of the results, we aggregate and present our findings for each of the main CLC groups: Artificial Surfaces, Forest and seminatural areas, Agricultural areas, Wetlands and Water bodies.\r\n\r\n\r\nFor the validation measures, key performance indices (KPI) are calculated, with values between 0 and 1. We normalise the estimated density values for each service provider with respect to the highest value for Artificial surfaces, Agricultural areas and Forest and seminatural areas. Users expect consistent and good densities in these classes, specifically in the Artificial surfaces. And the lowest value for Wetlands and Water bodies. This will enable outlier detection since the applied algorithms should barely produce any measurement points on these surfaces.\r\n\r\n\r\nRegarding the pre-processing of the data from EGMS, one of the challenges was the overlapping of bursts from different Sentinel-1 satellite tracks. If all bursts were included in the analysis, areas with more track overlaps would result in a higher point density, creating a bias in the data. To address this issue, a custom algorithm was designed to identify and extract the unique, non-overlapping polygon for each burst. This iterative algorithm was specifically designed to ensure a fair comparison among different areas, and to eliminate any biases that could impact the results of the analysis.\r\n\r\n\r\nIn conclusion, as an open and freely available dataset, the EGMS will provide valuable resources for a wide range of applications and studies, including those that leverage free and open-source software for geospatial analysis. The validation results presented here will help to ensure the accuracy and reliability of the EGMS product, thereby enabling further research and applications in areas such as geohazards, environmental monitoring, and infrastructure management.\r\n\r\n# References\r\nCostantini, M., Minati, F., Trillo, F., Ferretti, A., Novali, F., Passera, E., Dehls, J., Larsen, Y., Marinkovic, P., Eineder, M. and Brcic, R., 2021, July. European ground motion service (EGMS). In 2021 IEEE International Geoscience and Remote Sensing Symposium IGARSS (pp. 3293-3296). IEEE.\r\n\r\nAtlas, U., 2018. Copernicus Land Monitoring Service. European Environment Agency: Copenhagen, Denmark.",
+    "start_datetime": "2023-06-29T13:20:00Z",
+    "end_datetime": "2023-06-29T13:25:00Z",
+    "talk:code": "VVYSQC",
+    "talk:guid": "f27635a9-5eed-5e26-a433-9eaf834aabc6",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Academic Track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "UBT E / N209 - Floor 3",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "KAYBXZ",
+        "name": "Joan Sala Calero",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/KAYBXZ/"
+      },
+      {
+        "code": "QUQD9C",
+        "name": "Amalia Vradi",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/QUQD9C/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-29T13:22:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/VVYSQC/",
+      "title": "Validating the European Ground Motion Service: An Assessment of Measurement Point Density"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/VVYSQC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/KAYBXZ/",
+      "title": "Joan Sala Calero"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/QUQD9C/",
+      "title": "Amalia Vradi"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/VVYSQC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/4eL7jexTkQtzWiNyzyPgFT",
+      "type": "text/html",
+      "title": "2023 | Validating the European Ground Motion Service: An Assessment of Measurement Point Density",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=qI8kwoxUj-A",
+      "type": "text/html",
+      "title": "2023 | Validating the European Ground Motion Service: An Assessment of Measurement Point Density",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

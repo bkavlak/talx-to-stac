@@ -1,0 +1,101 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "BVBPNG",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "A unified framework for building AI-focused Earth System Data Cubes across STAC and Google Earth Engine",
+    "description": "Earth system science is increasingly driven by an unprecedented influx of heterogeneous Earth observation and model data, but these data typically arrive as disparate products, tiles, and collections rather than as uniform analysis-ready cubes. In response, a growing set of data cube frameworks aims to integrate heterogeneous datasets into common, interoperable spatio-temporal structures. Earth System Data Cubes (ESDCs) are one such framework (Mahecha et al., 2020), and can be understood as labelled, multi-dimensional arrays of Earth system data that organize variables consistently across space and time (or any other dimension), enabling uniform operations across common grids. Concretely, ESDCs comprise (1) labelled dimensions defining the data cube axes, (2) one or more grids with coordinate values distributed along these dimensions, (3) univariate values associated with each grid cell, and (4) a suite of attributes that characterise the data variables, the dimensions, and the cube entity as a whole. In practice, however, building such data cubes still requires significant engineering to discover datasets, harmonize metadata, and create consistent arrays that Artificial Intelligence (AI) models can consume (Montero et al., 2024a).\r\n\r\nIn recent years, the SpatioTemporal Asset Catalog (STAC) specification has become a widely adopted way to describe and access cloud-hosted geospatial assets, enabling programmatic discovery and standardized links to imagery and other derived products. Building on this ecosystem, we developed cubo (Montero et al., 2024b), an open-source Python tool for creating AI-focused ESDCs from STAC catalogues, producing data cubes (as xarray objects) on regular spatial grids with consistent array shapes (e.g. matching pixel counts along x and y or longitude and latitude). Yet a large portion of routinely used Earth observation data is accessed through Google Earth Engine (GEE), a cloud-based platform that hosts a large, curated catalogue of geospatial datasets and provides scalable, planetary-scale analysis via both JavaScript and Python APIs (Gorelick et al., 2017). The catalogue spans long optical and radar satellite archives (e.g. Landsat and Sentinel-1 and Sentinel-2), widely used global products (e.g. MODIS, ERA5 reanalysis, SRTM), and thematic layers and derived datasets such as land cover and vegetation indices.\r\n\r\nAs a result, users face a fragmentation problem: cubo can readily create ESDCs from STAC catalogues, but datasets that are primarily accessed via GEE remain out of reach for the same data cube specification and output conventions.\r\n\r\nHere we present a Google Earth Engine (GEE) backend for cubo that generates on-demand AI-focused Earth System Data Cubes (ESDCs) directly from GEE, using the same data cube specification concept developed initially for STAC catalogues and returning consistent xarray outputs (Hoyer and Hamman, 2017).\r\n\r\nThe optional GEE backend mirrors the STAC workflow in cubo: users specify cube centre coordinates (longitude and latitude), a temporal window, bands, cube edge size (pixels), and a target spatial resolution, and cubo derives the corresponding bounding box in the local Universal Transverse Mercator (UTM) Coordinate Reference System (CRS). This keeps the data cube definition explicit and comparable across studies, and it makes the data preparation step a parameterized part of the workflow. The key difference is the data access layer: instead of retrieving assets via STAC (using stackstac: https://github.com/gjoseph92/stackstac), cubo queries GEE collections through xee (https://github.com/google/Xee), an xarray interface to Earth Engine that returns the result directly as xarray objects. From the user perspective, the same cube specification is reused, with the collection identifier now pointing to a GEE collection. The only additional argument in the main cubo function is selecting the GEE backend (via a boolean flag). This keeps data cube construction consistent across backends while leveraging GEE as a scalable data access and processing environment.\r\n\r\nBy aligning GEE-based cube creation with an existing STAC-based cube workflow, the GEE backend lowers the practical barrier to switching between catalogues and platforms without rewriting entire pipelines. It also opens up access to datasets that are primarily available through GEE (e.g. CloudScore+, Dynamic World, or the novel AlphaEarth Embeddings) while still adhering to the same cube specification and output conventions. Retrieving data cubes from GEE and from STAC catalogues using the same cube specification also enables users to merge data cubes across backends with minimal effort, since they share consistent dimensions and coordinates. This is particularly relevant for open geospatial ecosystems, where interoperability and transparent data preparation are prerequisites for comparable results across studies.\r\n\r\nWe release the Earth Engine support as an optional backend in cubo (installable via the extra cubo[ee]), which is free and open source, hosted on GitHub (https://github.com/ESDS-Leipzig/cubo), and distributed through common Python channels (PyPI and conda-forge). We expect users to benefit from this update since they can now retrieve data from both STAC catalogues and GEE in the same way for their scientific workflows, using consistent cube specifications across backends.\r\n\r\nLooking forward, we plan to extend cubo so that multiple datasets can be retrieved and organised directly into a single data cube without rerunning the full workflow for each collection, regardless of the backend they come from. We also plan to broaden the set of supported backends to additional widely used packages in the open geospatial ecosystem, such as odc-stac.",
+    "start_datetime": "2026-06-29T12:45:00Z",
+    "end_datetime": "2026-06-29T12:50:00Z",
+    "talk:code": "BVBPNG",
+    "talk:guid": "4a926ead-bec9-59b2-8209-098a34a9097c",
+    "talk:event": "foss4g-europe-2026",
+    "talk:track": "Academic track",
+    "talk:type": "Academic lightening talk",
+    "talk:language": "en",
+    "talk:room": "A01",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "GXMXGL",
+        "name": "David Montero Loaiza",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/GXMXGL/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-06-29T12:47:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/BVBPNG/",
+      "title": "A unified framework for building AI-focused Earth System Data Cubes across STAC and Google Earth Engine"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/BVBPNG/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/GXMXGL/",
+      "title": "David Montero Loaiza"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/gjoseph92/stackstac",
+      "title": "github.com/gjoseph92/stackstac"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/BVBPNG/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://docs.google.com/presentation/d/1jHo6iVNCTsmjbaW_8ATNfkHq1fDQvzMAnX-1fcqe93U/edit?usp=sharing",
+      "title": "slides",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

@@ -1,0 +1,139 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "RYDKNA",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "State of the eoAPI",
+    "description": "**eoAPI** is an open-source toolkit for building scalable Earth Observation applications. We discuss the state of core components like **pgSTAC**, **TiTiler**, and **STAC-FastAPI**, introduce new tools like **stac-auth-proxy** and **stac-manager**, and highlight recent infrastructure work in **AWS CDK** and **Kubernetes** for deploying production-ready services.\n\nIn 2023, Development Seed launched the eoAPI project - a growing collection of open-source tools and infrastructure aimed at making it easier to build, deploy, and scale modern Earth Observation (EO) applications. In this talk, we\u2019ll explore the current state of the ecosystem, highlight new developments, and share what\u2019s coming next.\r\n\r\nWe\u2019ll visit some of the core building blocks of eoAPI:\r\n\r\n- **[pgSTAC](https://github.com/stac-utils/pgstac)** - A performant, normalized STAC catalog backed by PostgreSQL\r\n- **[TiTiler](https://github.com/developmentseed/titiler)** - A dynamic tile server for Cloud Optimized GeoTIFFs and STAC Items\r\n- **[TiPg](https://github.com/developmentseed/tipg)** - A lightweight OGC API - Features implementation built on top of pgSTAC\r\n- **[STAC-FastAPI](https://github.com/stac-utils/stac-fastapi)** - A high-performance, pluggable STAC API built with FastAPI\r\n\r\nWe\u2019ll showcase some exciting new additions:\r\n\r\n- **[stac-auth-proxy](https://github.com/developmentseed/stac-auth-proxy)** - A flexible FastAPI-based proxy for adding authentication and authorization to any STAC API\r\n- **[stac-manager](https://github.com/developmentseed/stac-manager)** - A tool for orchestrating STAC metadata ingestion, validation, and management across pipelines\r\n\r\nFinally, we\u2019ll explore recent infrastructure efforts that support deploying and scaling these services:\r\n\r\n- **[eoAPI-CDK](https://github.com/developmentseed/eoapi-cdk)** - AWS CDK constructs for cloud-native eoAPI deployments\r\n- **[eoAPI-K8s](https://github.com/developmentseed/eoapi-k8s)** - Kubernetes Helm charts for containerized, production-grade deployments\r\n\r\nTogether, these tools form a modular, interoperable foundation for building next-generation EO platforms. Whether you\u2019re running a small data portal or a high-scale STAC service, eoAPI provides the pieces to get you up and running securely and efficiently.",
+    "start_datetime": "2025-11-19T02:50:00Z",
+    "end_datetime": "2025-11-19T02:55:00Z",
+    "talk:code": "RYDKNA",
+    "talk:guid": "c248699c-4427-5234-8081-135ccc0eee26",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Lightning talk",
+    "talk:type": "Lightning Talk",
+    "talk:language": "en",
+    "talk:room": "WG403",
+    "talk:room_capacity": 386,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "7HKBZZ",
+        "name": "Anthony Lukach",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/7HKBZZ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-19T02:52:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/RYDKNA/",
+      "title": "State of the eoAPI"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/RYDKNA/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/7HKBZZ/",
+      "title": "Anthony Lukach"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/stac-utils/pgstac",
+      "title": "pgSTAC"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/developmentseed/titiler",
+      "title": "TiTiler"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/developmentseed/tipg",
+      "title": "TiPg"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/stac-utils/stac-fastapi",
+      "title": "STAC-FastAPI"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/developmentseed/stac-auth-proxy",
+      "title": "stac-auth-proxy"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/developmentseed/stac-manager",
+      "title": "stac-manager"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/developmentseed/eoapi-cdk",
+      "title": "eoAPI-CDK"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/developmentseed/eoapi-k8s",
+      "title": "eoAPI-K8s"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/RYDKNA/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=nimZicZRQ6Q",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | State of the eoAPI",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

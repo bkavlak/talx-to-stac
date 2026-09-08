@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "VWBVSS",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "geOrchestra - project status",
+    "description": "geOrchestra is a complete spatial data infrastructure (SDI) and combines a number of widely used open source components. These include GeoNetwork as a metadata catalogue, GeoServer, GeoWebCache, GeoFence, and Jasig CAS. During this talk we will present the project and its latest developments.\r\n\r\ngeOrchestra is an open source, modular, interoperable and secure spatial data infrastructure designed by people for people.\r\n\r\nThe technical architecture is based on modularity and interoperability. The extensive use of the Spring Framework allows the integration of additional components. Compliance with OGC standards is central, because only then can the various components and any external IDS work together.\r\n\r\ngeOrchestra is supported by an underlying server infrastructure, which can be configured in an automated way if necessary. We support deployment on Kubernetes as well as Ansible. geOrchestra has proven to be an innovative IDS in a highly orchestrated environment. Its modular architecture allows it to deploy individual components as microservices. Individual components such as GeoServer-cloud or GeoNetwork Microservices can therefore be scaled as needed.\r\n\r\nNevertheless, an SDI must be user-friendly and adopt a user-centric approach. This is the latest development that the geOrchestra community has started to follow. New modules such as the Datafeeder simplifies the data registry and the Datahub portal makes it very easy for a user to find the right dataset.\r\n\r\nCurrent developments related to geOrchestra include a rewrite of the GeoNetwork metadata catalogue to provide a complete new user interface for editing metadata.",
+    "start_datetime": "2023-06-30T10:00:00Z",
+    "end_datetime": "2023-06-30T10:30:00Z",
+    "talk:code": "VWBVSS",
+    "talk:guid": "2a9055c2-4af0-5228-b5c1-32b409406515",
+    "talk:event": "foss4g-2023",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Lumbardhi",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "MD9CSC",
+        "name": "Emmanuel Belo",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/MD9CSC/"
+      },
+      {
+        "code": "DZNJTX",
+        "name": "VAN DER BIEST Fran\u00e7ois",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/DZNJTX/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-30T10:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/VWBVSS/",
+      "title": "geOrchestra - project status"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/VWBVSS/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/MD9CSC/",
+      "title": "Emmanuel Belo"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/DZNJTX/",
+      "title": "VAN DER BIEST Fran\u00e7ois"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/VWBVSS/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/bpFvNh2VQ1M4ZuiCX56qDU",
+      "type": "text/html",
+      "title": "2023 | geOrchestra - project status - Emmanuel Belo",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=Qhi7GVP5B_E",
+      "type": "text/html",
+      "title": "2023 | geOrchestra - project status - Emmanuel Belo",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

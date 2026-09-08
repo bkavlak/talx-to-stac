@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "P8PLUS",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Landslide susceptibility assessment: soil moisture monitoring data processed by an automatic procedure in GIS for 3D description of the soil shear strength",
+    "description": "Slope stability is strongly influenced by soil hydraulic conditions, affected by the meteoric events to which the site is subject. With particular reference to shallow landslides triggered by rainfalls, the stability conditions can be influenced by the propagation of the saturation front inside the unsaturated zone. The soil shear strength varies in the vadose zone depending on the type of soil and the variations of soil moisture.  In general, monitoring of the unsaturated zone can be done by measuring suction and/or water content. \r\n\r\nThe measurement of the volumetric water content can be performed using low-cost instrumentation, such as the Waterscout SM100 capacitive sensors (Spectrum Tec.), distributed over the study areas. Such sensors provide data in near-real time and are relatively easy to install and replace. However, it is essential to perform a site-specific calibration of the instrumentation, since previous work (Bovolenta et al. 2020) has shown that the factory settings lead to a general overestimation of the actual volumetric soil water content. Therefore, following a sampling of the analyzed soil and a specific laboratory procedure, it is necessary to define the calibration curve that allows the transition from raw data, meant as the ratio between sensor output voltage and input voltage, to soil water content. \r\n\r\nThen, the knowledge of soil water content allows the estimation of the suction parameter, thanks to a Water Retention Curve (WRC), and consequently the definition of the soil shear strength in partly saturated conditions.  \r\n\r\nSeveral methodologies for landslide susceptibility assessment, based on global Limit Equilibrium (LEM) or Finite Element (FEM) methods, need the soil shear strength description in order to evaluate the slope stability conditions. Both in the recent literature (Escobar-Wolf et al. 2020, Moresi et al. 2020) and in the GRASS GIS software (r.shalstab), models are already proposed for shallow landslide susceptibility estimation in GIS, based mainly on LEM. However, these models do not usually consider the unsaturated soil behaviour, but at most take into account the strength contribution provided by the vegetation root systems. \r\n\r\nThe present contribution describes the implementation of an automatic procedure in GRASS GIS that, starting from monitoring data related to the soil volumetric water content, provides a 3D description of the soil shear strength in the vadose zone, that is essential for the subsequent landslide susceptibility assessment, especially in the case of shallow landslides.\r\n\r\nSoil moisture sensors data come from five monitoring networks that were set up between 2019 and 2021 in the framework of the Interreg Alcotra AD-VITAM project. Each network was organized into measurement nodes (from three to five) instrumented with four soil moisture sensors each and communicating via radio with a receiver. The receiver was then connected to a modem for remote data transmission. The four sensors in each node have been placed in the soil at four different depths (-15, -35, -55, -85 cm from the ground level). The monitoring systems allow to obtain data with a minimum frequency of 5 minutes, in .csv format so that can feed a geodatabase.\r\n\r\nStarting from a properly storing of data recorded by the monitoring network in a geodatabase, at the moment within GRASS GIS but in the near future in PostGIS, the equation of the site-specific sensor calibration, defined in laboratory, and the equation of the WRC are implemented in a procedure that allows to pass automatically from the raw sensor data to the soil water content, and then to the evaluate the suction parameter. Hence, the soil strength can be estimated for each depth at which a soil moisture sensor is installed. Moreover, since the study area is often in the order of few square kilometers, the information must be spatialized over the entire area of interest, through appropriate techniques of interpolation and extrapolation. \r\n\r\nThis procedure could be integrated into a LEM or FEM, including the above cited, taking advantage of the soil moisture measurements to improve the evaluation of the stability conditions over time, by analysing the evolution of the saturation front according to the weather conditions. \r\n\r\nThe authors, in particular, will integrate it into a system called LAMP (LAndslide Monitoring and Predicting), which has been under development for several years through the implementation in a GIS environment of an Integrated Hydrological-Geotechnical (IHG) 3D model for the assessment of landslide risk triggered by measured or forecasted precipitation. The integration of this procedure in LAMP will allow to obtain a simple but effective modelling for the assessment of susceptibility to shallow landslides, too.\r\n\r\nNote that the contribution in the landslide risk management of the present procedure could be important even in the days following the rainfall event of interest, providing the technical staff in charge of territorial protection with a useful tool for the landslide susceptibility assessment, especially in the case of shallow landslides.\r\n\r\nIn order to allow the scientific community to evaluate the usefulness of the proposed procedure and consequently to have the possibility to implement it in the above-mentioned methods (LEM-FEM) improving the assessment of landslide susceptibility, soil moisture data at a specific site, related to significant rainfall events, and the implemented procedure will be openly shared, once the testing phase is completed.",
+    "start_datetime": "2022-08-26T12:45:00Z",
+    "end_datetime": "2022-08-26T13:15:00Z",
+    "talk:code": "P8PLUS",
+    "talk:guid": "9accc060-dd40-5761-bd0f-18cfebe39a88",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room Modulo 3",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "BFRR3Z",
+        "name": "Bianca Federici",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/BFRR3Z/"
+      },
+      {
+        "code": "GDHQWG",
+        "name": "Stefania Viaggio",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/GDHQWG/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T13:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/P8PLUS/",
+      "title": "Landslide susceptibility assessment: soil moisture monitoring data processed by an automatic procedure in GIS for 3D description of the soil shear strength"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/P8PLUS/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/BFRR3Z/",
+      "title": "Bianca Federici"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/GDHQWG/",
+      "title": "Stefania Viaggio"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/P8PLUS/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

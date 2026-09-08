@@ -1,0 +1,126 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "UYL89P",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "gitRmap / \u201cGuitar Map\u201d- Easy Maps for Git users",
+    "description": "GIS is amazing, but there are many people who would like to create a map, who don't know GIS. gitRmap is an easy way of creating a simple map. It is designed for people who know a little bit of Git, but don't know any R or GIS.\n\nGIS is a great tool, but there are many people who would like to create a map, but don't know any GIS. gitRmap is an easy way of creating a simple map. It is designed for people who know a little bit of Git, but don't know any R or GIS. The idea is you can fork the repo, add some data (name, location, etc.) to a CSV file, and then GitHub Actions will automatically create a web map. \r\n\r\nI created a version of this for my attendance at the Open Science Retreat (https://open.science-retreat.org/), where I know there are many people who want to make a map, and have Git skills, but don't have GIS skills. This was based on Michele Tobias's Travelling GIS Chat Book map (https://github.com/MicheleTobias/traveling-gis-chat-book) which is a automated Leaflet webmap, where users can provide locations (city, state, country) in a CSV file, and GitHub actions will create the Leaflet map using an R script.\r\n\r\nI have now received \u00a3500 from OSGeo:UK GoFundGeo award (https://uk.osgeo.org/gofundgeo.html) to develop this into a reuable tool which I am in the process of doing. I will present my progress and the tool at FOSS4G.",
+    "start_datetime": "2026-09-01T06:50:00Z",
+    "end_datetime": "2026-09-01T06:55:00Z",
+    "talk:code": "UYL89P",
+    "talk:guid": "73a98880-9f2d-5df5-aa7c-599011cf3673",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Lightning Talk",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Ran1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "BHPFDA",
+        "name": "Nick Bearman",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/BHPFDA/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T06:52:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/UYL89P/",
+      "title": "gitRmap / \u201cGuitar Map\u201d- Easy Maps for Git users"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/UYL89P/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/BHPFDA/",
+      "title": "Nick Bearman"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/UYL89P/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-pdf-attachment": {
+      "href": "https://talks.osgeo.org/media/foss4g-2026/submissions/UYL89P/resources/presentation_9eKFwRV.pdf",
+      "type": "application/pdf",
+      "title": "Presentation (pdf attachment)",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "presentation-pdf-link": {
+      "href": "https://github.com/nickbearman/gitRmap-presentations/blob/main/2026-08-foss4g/presentation.pdf",
+      "type": "application/pdf",
+      "title": "Presentation (pdf link)",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "website": {
+      "href": "https://nickbearman.com/gitRmap/",
+      "title": "Website",
+      "roles": [
+        "data"
+      ]
+    },
+    "github-repo": {
+      "href": "https://github.com/nickbearman/gitRmap",
+      "title": "GitHub Repo",
+      "roles": [
+        "data"
+      ]
+    },
+    "presentation-source-html": {
+      "href": "https://github.com/nickbearman/gitRmap-presentations/tree/main/2026-08-foss4g",
+      "title": "Presentation (source/html)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

@@ -1,0 +1,101 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "YM7FDU",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Rust for Geospatial ETL: High-Throughput Conversion of Japan's Land Parcel Data",
+    "description": "Japan\u2019s cadastral land-parcel open data ships as massive proprietary XML files. This talk is about how I made a Rust port of the official Python converter in Rust, rewriting and optimizing, cutting nationwide conversion down from hours to minutes.\n\nJapan\u2019s Ministry of Justice has released nationwide cadastral land parcel data every year since 2022. The data is provided in a proprietary XML format, so it must be converted before it can be used in common GIS tools.\r\n\r\nThe Digital Agency released a Python converter, but the full dataset is huge (around 90\u2013100GB). Converting everything can take 6 to 8 hours, which slows down repeatable builds and downstream workflows.\r\n\r\nThis talk explains the XML format, how I ported the converter to Rust, then reworked it for maximum speed using profiling, streaming processing, and parallelism. The current Rust tool can convert the entire dataset in about 15 minutes.\r\n\r\nRepository: https://github.com/KotobaMedia/mojxml-rs",
+    "start_datetime": "2026-09-02T04:00:00Z",
+    "end_datetime": "2026-09-02T04:30:00Z",
+    "talk:code": "YM7FDU",
+    "talk:guid": "b9111f5a-7b3c-5d1d-9285-8992567656df",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room3",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "T9NB3L",
+        "name": "Keita Kobayashi",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/T9NB3L/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T04:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/YM7FDU/",
+      "title": "Rust for Geospatial ETL: High-Throughput Conversion of Japan's Land Parcel Data"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/YM7FDU/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/T9NB3L/",
+      "title": "Keita Kobayashi"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/KotobaMedia/mojxml-rs",
+      "title": "github.com/KotobaMedia/mojxml-rs"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/YM7FDU/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-2026/submissions/YM7FDU/resources/FOSS4G_Japan_-_Rust_for_Geo_ETL_Y6mwk6o.pdf",
+      "type": "application/pdf",
+      "title": "Slides",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

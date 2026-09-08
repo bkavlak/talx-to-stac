@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "DMTRUP",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Evaluation of the geometric accuracy of the base map 1 : 100 000 of Madagascar compared to the CASEF ortho image",
+    "description": "The quality of geospatial data is generally measured by its logical consistency, completeness,\r\npositioning quality, semantic quality, temporal quality and genealogy [1]. In fact, concerning the\r\nsituation of geospatial data in Madagascar in the past, since 1992, the old orthophotos had been\r\nattached to the national reference system which is the international 1924 with Laborde as a\r\nprojection. The first old orthophotos were achieved during the environmental program in 90s. In\r\nother hand, the remain old orthophotos were produced with the mission as national securing land\r\ntenure. However, the geometric accuracy and details of all the old orthophotos are different as well\r\nas they do not cover the national territory. If they cover a large area for about 60 000 km2, some\r\nusers have noticed discrepancies of a few meters or even more than a dozen meters on certain\r\npoints, even though the field of application is land. In December 2019, a ministerial order was\r\ndeveloped to define the technical specifications of photogrammetric work in the country. In this\r\nspecification, according to Chapter 4, Section 14, the accuracy of the orthophoto / orthoimage is\r\nestimated by the planimetric root mean square deviation (emqXY) calculated from the differences\r\nbetween the ground coordinates and measured orthoimage coordinates of certain clearly identifiable\r\ntopographic features. For the orthophoto / orthoimages in urban areas, the emqXY must be better\r\nthan 1 m CE90 which is the circular error at the 90th percentile. For the rest of the territory other\r\nthan the urban area, it must be better than 3 m CE90 [2].\r\nTherefore, not only is it crucial to be able to measure this quality, but also to control, to improve,\r\nand finally to guarantee it [3]. The basic map in Madagascar is the topographic map at the scale of 1\r\n: 100 000. However, the average age of these maps is 60 years. Consequently, the contained\r\ninformation no longer meets the needs of most users. On the other hand, orthoimages produced later\r\nseem to be much more accurate. To evaluate the accuracy of the 1 : 100 000 topographic map, we\r\nfirst identified an orthophoto that could be used as a reference. Furthermore, we considered the\r\northobase elaborated in 2014 from the SPOT5 image and the control result of the CASEF\r\n(Agricultural Growth and Land Security) project orthoimage. The 2014 orthobase was produced\r\nwithin the framework of our cooperation with the La Reunion (France) region, while the CASEF\r\northoimage was developed for the purpose of land tenure security in Madagascar.\r\nIn order to conduct this study, we tried to answer the following series of questions : 1) what is the\r\nmost accurate orthoimage to serve as a reference; 2) what is the average value of the deviations of\r\nthe objects on the 1 : 100 000 topographic maps as well as those of these derived products (SCAN\r\n100 and BD 100) compared to those of the reference orthophotos. 3) Finally, is there a set of\r\nparameters to reposition the SCAN 100 / BD 100 on this orthoimage?\r\nTo achieve this study, several steps were taken including literature reviews, collection of a few\r\nsamples and observations of results from previous work. We also made researches on the reference\r\ndata from which the BD 100, the topographic maps at 1 : 100 000 and SCAN 100 will be evaluated.\r\nFrom this comparison, we could see that the attachment to the national reference system of the\r\nCASEF orthoimage is more accurate than that of the orthobase. In addition to that, coordinate\r\npointing of identifiable geographic objects on both datasets were made with statistical evaluation of\r\nthe differences. Related to tools that we are adopting, since that our budget has been limited in\r\nterms of software license, so that we are using open source geospatial software to make our\r\norganization better with QGIS during the evaluation process.\r\nAfter evaluating four (04) sheets on the 1 : 100 000 map of Mahajanga, Antalaha, Manjakandriana\r\nand Toamasina, we quantified the root mean square errors at 109.3 m, 108.6 m, 128.4 m and 51.9 m\r\nrespectively. The deviations are disparate, therefore there is no single set of parameters to reposition\r\nthe 1,100,000 topographic map. We concluded that the BD 100 should be left as it is, and that a newset of geographic databases should be developed at different scales, in particular the new version of\r\nthe BD 100.",
+    "start_datetime": "2023-06-28T11:45:00Z",
+    "end_datetime": "2023-06-28T11:50:00Z",
+    "talk:code": "DMTRUP",
+    "talk:guid": "c9061fb2-7a06-5ba1-a3ee-dd70cdc710d1",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Open Data",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "UBT C / N110 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "BYFL8U",
+        "name": "Marie Anna BAOVOLA",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/BYFL8U/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T11:47:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/DMTRUP/",
+      "title": "Evaluation of the geometric accuracy of the base map 1 : 100 000 of Madagascar compared to the CASEF ortho image"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/DMTRUP/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/BYFL8U/",
+      "title": "Marie Anna BAOVOLA"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/DMTRUP/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

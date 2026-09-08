@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "SC9WU8",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "DigiAgriApp: the app to manage your agricultural field",
+    "description": "DigiAgriApp is a client-server application to manage different kinds of data related to farming fields. It is able to store information about crops (specie, farming forms/system...), any kind of sensor data (included sensors and device hardware, weather, soils...), irrigation information (system type, openings...), field operations (pruning, mowing, treatments...), remote sensing data (taken from different devices as mobiles, drone, satellites) and production quantities.\r\n\r\nThe DigiAgriApp server is composed of a PostgreSQL/PostGIS database and a REST API service to interface with it. The server is developed using Django and the Django REST framework extension with other minor extensions are used to create the REST API. This service plays the key interface between the database and the client. We choose a nested way to create the API, of which the main element is the farm; this way the user can see only the farms related to him and from there he can look to other nested elements, first of all the farm\u2019s fields and later other elements like sensor and remote data or other sub-fields like rows and plants. The REST API is using JavaScript Object Notation as input and output format to simplify and standardize the communication with it.\r\n\r\nTo obtain data from the sensors the server is also composed of a growing number of services to work with data providers, of which currently only a few are implemented. The Message Queue Telemetry Transport provider is a demon listening continuously to a broker (backend system to coordinate different clients) and several topics to obtain data as soon as they are provided; the second provided that is already implemented is related to remote sensing data and uses the SpatioTemporal Asset Catalogs specification to obtain the data. STAC is a common language to describe geospatial information, so it can more easily be worked with, indexed and discovered.\r\n\r\nThe client side instead is developed using Flutter, an open-source UI software development kit based on dart, a programming language designed for client development. Flutter is able to create cross-platform applications and it was chosen precisely because of its ability to realize cross platform applications.\r\n\r\nAll the code is released as Free and Open Source software with a GNU General Public License Version 3 license; it is available in the DigiAgriApp repository on GitLab and the client application will be published also in the main stores for mobile apps.",
+    "start_datetime": "2023-06-28T09:30:00Z",
+    "end_datetime": "2023-06-28T10:00:00Z",
+    "talk:code": "SC9WU8",
+    "talk:guid": "9a206918-26ec-543c-b5c5-48252fae1a9b",
+    "talk:event": "foss4g-2023",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT C / N109 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "87ZRNW",
+        "name": "Andrea Antonello",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/87ZRNW/"
+      },
+      {
+        "code": "SQ7UJS",
+        "name": "Luca Delucchi",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/SQ7UJS/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/SC9WU8/",
+      "title": "DigiAgriApp: the app to manage your agricultural field"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/SC9WU8/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/87ZRNW/",
+      "title": "Andrea Antonello"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/SQ7UJS/",
+      "title": "Luca Delucchi"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/SC9WU8/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/7U4SvHCKNb39fQBwhnFWHj",
+      "type": "text/html",
+      "title": "2023 |  DigiAgriApp: the app to manage your agricultural field - Luca Delucchi",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=mTN5l451LY0",
+      "type": "text/html",
+      "title": "2023 |  DigiAgriApp: the app to manage your agricultural field - Luca Delucchi",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

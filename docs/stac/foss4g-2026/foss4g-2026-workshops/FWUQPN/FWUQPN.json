@@ -1,0 +1,108 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "FWUQPN",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Managing Dynamic Geospatial Data with OGC API\u2013Moving Features",
+    "description": "OGC API\u2013Moving Features standardizes dynamic geospatial data, enabling interoperable management, querying, and real-time tracking with open-source tools such as pygeoapi, MobilityDB, Kafka, and ksqlDB.\n\nModern applications increasingly rely on dynamic geospatial data\u2014from vehicles and pedestrians to environmental phenomena. Representing and processing these \u201cmoving features\u201d in a scalable and interoperable way is a key challenge for developers building next-generation location-based services.\r\n\r\nThis workshop introduces OGC API\u2013Moving Features (OGC API\u2013MF), an open standard designed to handle spatiotemporal data in a consistent, developer-friendly manner. Participants will learn how to manage, query, and analyze moving feature data using standardized APIs that support filtering, sorting, and aggregation across space and time.\r\n\r\nGoing beyond static APIs, we will also explore the next-generation streaming extension of OGC API\u2013MF. Using Apache Kafka and ksqlDB, we demonstrate how to build a real-time pipeline for ingesting, processing, and tracking moving objects\u2014bridging the gap between standard-based data models and event-driven architectures.\r\n\r\nThis is a hands-on, end-to-end session where you will:\r\n\r\n- Understand the core concepts of OGC API\u2013MF and MF-JSON\r\n- Deploy a fully functional API using pygeoapi\r\n- Store and query trajectory data with MobilityDB / PyMEOS\r\n- Validate implementations with test code\r\n- Visualize spatiotemporal data using STINUUM (Cesium-based client)\r\n\r\nAll components are containerized with Docker, enabling quick setup and reproducible experimentation.\r\n\r\nWhether you are building mobility platforms, digital twins, or real-time monitoring systems, this workshop provides practical insights and open-source tools to accelerate development with standardized moving feature data.",
+    "start_datetime": "2026-08-30T05:00:00Z",
+    "end_datetime": "2026-08-30T08:00:00Z",
+    "talk:code": "FWUQPN",
+    "talk:guid": "0bf54e57-3e61-5752-9410-47f594e73d9b",
+    "talk:event": "foss4g-2026-workshop",
+    "talk:type": "Workshop",
+    "talk:language": "en",
+    "talk:room": "703",
+    "talk:room_capacity": 90,
+    "talk:duration_minutes": 180,
+    "talk:speakers": [
+      {
+        "code": "CJCQGN",
+        "name": "Wijae Cho",
+        "url": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/CJCQGN/"
+      },
+      {
+        "code": "U8WE7U",
+        "name": "Taehoon Kim",
+        "url": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/U8WE7U/"
+      },
+      {
+        "code": "UKCKWU",
+        "name": "Kyoungsook Kim",
+        "url": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/UKCKWU/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-08-30T06:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/FWUQPN/",
+      "title": "Managing Dynamic Geospatial Data with OGC API\u2013Moving Features"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/FWUQPN/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/CJCQGN/",
+      "title": "Wijae Cho"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/U8WE7U/",
+      "title": "Taehoon Kim"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/UKCKWU/",
+      "title": "Kyoungsook Kim"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/FWUQPN/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-workshops"
+}

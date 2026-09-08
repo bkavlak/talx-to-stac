@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "BAQUZY",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Empowering Everyone with Satellite Data \u2013 Agile Development Powered by FOSS4G",
+    "description": "ArkEdge Space Inc. has developed a Free and Open platform to democratize satellite-derived geospatial data. Leveraging FOSS4G technologies and rapid iterative development, we've quickly deployed forestry, agriculture, environmental, and water management apps globally, actively sharing source code to enable easy satellite-data access for everyone, including non-experts.\n\nArkEdge Space Inc. is a system integrator specializing in ultra-small satellites, having successfully launched and operated thirteen spacecraft to date. In 2024, based on the \"Free and Open\" philosophy, we initiated development of a platform aimed at making satellite-derived geospatial data easily accessible to everyone.\r\n\r\nWith the support of FOSS4G, within just one year, we developed multiple practical applications, including a forestry-management tool for local governments, an agricultural decision-support system for smallholder farmers and ministries in Global South countries, an environmental monitoring application, and applications for flood monitoring and water resource management. These tools enable non-experts to easily access, visualize, and analyze satellite data without requiring specialized knowledge.\r\n\r\nWe have collaborated with government agencies in Global South countries during the development of these applications. Currently, many of these applications have been deployed free of charge to government agencies and primary-sector workers in Global South countries, as well as to local municipalities and educational institutions within Japan.\r\n\r\nFurthermore, we have actively provided the source code of our applications to other Web IT application companies. By doing so, we aim to enable a broader range of players\u2014including ordinary IT companies without specialized satellite data expertise\u2014to develop applications leveraging satellite data.\r\n\r\nBy adopting a rapid iteration approach\u2014frequently developing, testing, and refining mock-up applications based on user feedback\u2014we quickly produced a wide range of solutions tailored to user needs. FOSS4G technologies played a crucial role in enabling this agile development process. Specifically, we actively utilized various FOSS4G technologies such as MapLibre GL JS, PMTiles, TiTiler, and GDAL. Additionally, we leveraged open-source image processing models such as Segment Anything Model 2. The combination of TiTiler and AWS Lambda proved particularly powerful, supporting not only fast raster data delivery, rapid time-series processing, and data download tools, but also more specialized use cases like rainfall analysis applications.\r\n\r\nIn this way, we adopt the perspective of end users working with satellite-derived geospatial data. This hands-on experience gives us insight into the challenges of leveraging geospatial information\u2014especially satellite data, which is large in size, stored in specialized formats, and requires expert knowledge for processing and analysis. Drawing on these insights, we are committed to further improving the usability of Free and Open geospatial data\u2014including satellite datasets\u2014and to providing an accessible data-delivery experience for all.\r\n\r\nIn this presentation, we will introduce our journey, discuss the underlying technologies, and share our vision for creating a society where satellite data is effortlessly accessible to everyone.",
+    "start_datetime": "2025-11-20T23:00:00Z",
+    "end_datetime": "2025-11-20T23:25:00Z",
+    "talk:code": "BAQUZY",
+    "talk:guid": "e48c417c-efbf-552b-9b4e-28578bb526e0",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Use Cases and Applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WA220",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "DG9ZK7",
+        "name": "Ryo Suzumoto",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/DG9ZK7/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-20T23:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/BAQUZY/",
+      "title": "Empowering Everyone with Satellite Data \u2013 Agile Development Powered by FOSS4G"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/BAQUZY/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/DG9ZK7/",
+      "title": "Ryo Suzumoto"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/BAQUZY/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=a34gIic6bDg",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Empowering Everyone with Satellite Data \u2013 Agile Development Powered by FOSS4G",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

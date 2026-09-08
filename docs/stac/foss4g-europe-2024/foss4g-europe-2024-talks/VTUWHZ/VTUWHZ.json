@@ -1,0 +1,138 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "VTUWHZ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "SATILADU \u2013 AN OPEN WEB MAP FOR ESTONIAN LAND USE AND LAND COVER DATA",
+    "description": "We live in the era of growing demands for natural resources due to the growth of population on the global scale. Therefore it becomes more urgent to plan more responsibly the land use at the global scale as well as in the European level. In the path towards public agreement on decreasing human induced environment stress Estonia among other countries has joined with the Paris Agreement as well as with the \u201cFit For 55\u201d.\r\n\r\nFor serving public needs for land use and land cover (LULC) data the open web map Satiladu (https://satiladu.maaamet.ee/en) is fully operational on its 4th year. The application was released by the Estonian Land Board on 17th of February 2021 initially for providing as easy as possible access to the Copernicus Sentinel data. During the active use period by different stakeholders Satiladu has grown to a convenient platform for providing user friendly access to other important LULC data as well \u2013 the data produced by Estonian Land Board, Estonian Environment Agency and Estonian Agriculture Registers and Information Bureau.\r\n\r\nBy sector Satiladu has found its importance in:\r\n(1) public sector institutions (incl. offices related with environment and real estate planning);\r\n(2) open communities related to environmental planning activities;\r\n(3) educational and research institutions.\r\n\r\nAs a major future perspective, the platform is designated to address more citizen science needs. As being an easy demonstrator for use cases of LULC data covering Estonian area, the vision is to apply the best practices and more settled algorithms at the European level as well.",
+    "start_datetime": "2024-07-05T09:25:00Z",
+    "end_datetime": "2024-07-05T09:30:00Z",
+    "talk:code": "VTUWHZ",
+    "talk:guid": "c8e75947-5666-5880-8761-d3dd7e2ac367",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "LAStools (327)",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "QX3NPL",
+        "name": "Martin Menert",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/QX3NPL/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-05T09:27:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/VTUWHZ/",
+      "title": "SATILADU \u2013 AN OPEN WEB MAP FOR ESTONIAN LAND USE AND LAND COVER DATA"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/VTUWHZ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/QX3NPL/",
+      "title": "Martin Menert"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/VTUWHZ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides-of-lightning-talk": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/VTUWHZ/resources/Satiladu_2024-07-05_Menert_w8cyeUw.pdf",
+      "type": "application/pdf",
+      "title": "Slides of lightning talk",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "map-example-natural-colors-rgb": {
+      "href": "https://teenus.maaamet.ee/ows/wms-satiladu?sensor=sentinel-2&filter=rgb&date=2024-06-28&mapbox=392172,6516895,448733,6543762",
+      "title": "Map example - natural colors (RGB)",
+      "roles": [
+        "data"
+      ]
+    },
+    "map-example-summer-land-cover-filter-ndr": {
+      "href": "https://teenus.maaamet.ee/ows/wms-satiladu?sensor=sentinel-2&filter=ndr&date=2024-06-28&mapbox=392171,6516895,448734,6543762",
+      "title": "Map example - summer land cover filter (NDR)",
+      "roles": [
+        "data"
+      ]
+    },
+    "map-example-winter-land-cover-filter-rnr": {
+      "href": "https://teenus.maaamet.ee/ows/wms-satiladu?sensor=sentinel-2&filter=msi&bands=1,4,1&curve=0&curver=-100&curveg=0&curveb=-100&lut1=0:0,31:16,63:34,95:53,127:74,159:99,191:127,223:165,255:255&lut2=0:0,31:31,63:63,95:95,127:127,159:159,191:191,223:223,255:255&lut3=0:0,31:16,63:34,95:53,127:74,159:99,191:127,223:165,255:255&date=2024-01-07&mapbox=392171,6516895,448734,6543762",
+      "title": "Map example - winter land cover filter (RNR)",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/xznwDb36eyZT9Tnzh1NG35",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | SATILADU - AN OPEN WEB MAP FOR ESTONIAN LAND USE AND LAND COVER DATA",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=Wr1uSKzO9nw",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | SATILADU - AN OPEN WEB MAP FOR ESTONIAN LAND USE AND LAND COVER DATA",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

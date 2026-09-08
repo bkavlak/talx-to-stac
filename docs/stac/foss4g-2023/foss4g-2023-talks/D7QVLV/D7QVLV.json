@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "D7QVLV",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "GIS-based intelligent decision making support system for the disaster response of infectious disease",
+    "description": "[Background and Purpose]\r\nThere are currently more than 7.5 million workers worldwide working in the field of fire, medical, and various emergency services with a total budget exceeding 400 billion euros. Additionally, approximately 15 billion euros are spent on equipment and other needs.\r\nWater pollution caused by a downpour and climate change have a fatal impact on our health and the number of waterborne diseases continues to increase domestically and internationally. Therefore, the significance of technology which properly responds to various disasters caused by the climate crisis is increasing. Technologies regarding natural disasters have been widely developed; however, disaster response systems related to medical and biological emergencies are lacking. Many technologies for natural disasters have been developed, but there is no technology development and response system platform related to biological and medical risks, which are considered social disasters. \r\n \r\nFurthermore, we aim to develop rapid and accurate pathogen detection technology which contains situational awareness, control/response methods, risk assessment, and epidemiological investigation methods. Eventually, by combining all these methods, we want to establish a user-centered GIS platform. \r\n\r\n[Methods]\r\nA decision support system that manages pathogen contamination was developed by using information obtained from sensors and fields. Moreover, risk assessment and epidemiological investigation technology which was developed through artificial intelligence and big data were included. The following three technologies were applied to analyze contaminated areas. \r\n\r\nFirst, it provides a preview of data taken by satellites and collects images of aquatic regions to analyze and inform the pollution degree. Moreover, the turbidity of the water is provided from the data of aquatic regions which are constantly being filmed. Lastly, it also builds a water quality monitoring system based on data analyzed from water samples that are acquired from drones. \r\n\r\nThese images were taken from regions that humans cannot easily access. The technology provides both the spatial analysis result and images to users. Data and photos on social media are also analyzed to provide the severity of water pollution along with the specific spatial locations. To effectively provide and manage information on the platform, the system consists of seven layers: source management, data collection, interoperability, data harmonization, data application, data process, and security. All components in the data collection, interoperability, data harmonization, and security layers provide geographic information and statistics for users. \r\n\r\n\r\n\r\n[Results]\r\nConsidering the functions of the system, the following platform can be applied in three fields: \"Detection of pathogens and water pollution/situational response/post-investigation\", \"Infection management and decision support system \" and \"Protection and management of the first responder\".\r\n\r\nTwo test locations were selected and the pilot case study was conducted in each location.\r\n\r\nLimassol Pilot Case Study\r\n- An earthquake near Limassol caused flash floods and landslides, polluting the Kouris Dam which is a primary reservoir in Limassol.\r\n \r\n- The water pollution over time can be checked by satellite images analyzed through PathoSAT. The turbidity and temperature of water detected by PathoSENSE and the results of satellite image analysis can be checked on the PathoGIS platform.\r\n\r\n- The user can check the areas heavily affected by flood and the magnitude of the tide is visualized on the PathoGIS data panel through graphs.\r\n\r\n- A warning alert appears when the pollution level exceeds the threshold and the user can check. If victims report the location of polluted areas on Twitter, it can be checked through PathoTweet.\r\n\r\nKorean Pilot Youth Case Demonstration\r\nA person in close contact with ASF wild pigs visited a farm near Soyang Dam and all pigs on the farm had to be dislocated due to mass infection. Many positive ASF cases were reported near the Soyang River inevitably.\r\n\r\n- Due to the unusually high precipitation in summer, the Soyang River Dam overflowed and caused leaked leachate to flow into the Soyang River Dam.\r\n\r\n- PathoSAT satellite images can be used to identify the boundaries of areas that can be potentially damaged by flooding. The time series visualization shows that water pollution is more severe near the location of ASF-positive cases.\r\n\r\n-Since the government needs to respond to the rapidly increasing number of ASF cases, the results of ASF case analysis can be checked using the analysis application. Using such data to prevent African swine fever from spreading south, analysts can determine the optimal distance from SLL (Southern Limit Line), CLL (Civil Defense Limit Line), primary fence, or the need for additional fence installation.\r\n\r\n- As the number of ASF-positive cases increases, pollution in tap water can be easily found in Seoul since a large portion of water originates from Soyanggang Dam.\r\n\r\n- The PathoSENSE turbidity sensor notifies the current situation regarding water pollution. If the turbidity of tap water increases, Twitter reports on health problems also increase in Seoul simultaneously.\r\n\r\n\r\n[Conclusion]\r\nA platform that contains a database related to the spread of pathogens and provides AI-based information regarding the dangers of the situation will certainly help in responding to infectious diseases.  \r\n\r\nIt will be able to strengthen its ability to respond to infectious diseases and disasters by using it as a tool to improve the capability of the first responder and reduce the time required to detect and respond to the situation.\r\n\r\nIn particular, there will be an effect of reducing industrial accidents by improving the ability to respond to unidentified risk situations that are likely to be encountered by first-time field responders.\r\n\r\nBy improving the ability to respond to unidentified situations, the number of industrial accidents will likely decrease. Shortly, when database expansion and the cost of maintenance becomes stable, in-depth data analysis of epidemiologic big data will be possible using pattern recognition and deep learning models.",
+    "start_datetime": "2023-06-28T13:05:00Z",
+    "end_datetime": "2023-06-28T13:10:00Z",
+    "talk:code": "D7QVLV",
+    "talk:guid": "3fb2d454-e3e5-5c5d-99cd-378a3e672d3e",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Academic Track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "UBT E / N209 - Floor 3",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "JNPJMJ",
+        "name": "MIN YOUNG LEE",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/JNPJMJ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T13:07:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/D7QVLV/",
+      "title": "GIS-based intelligent decision making support system for the disaster response of infectious disease"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/D7QVLV/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/JNPJMJ/",
+      "title": "MIN YOUNG LEE"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/D7QVLV/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

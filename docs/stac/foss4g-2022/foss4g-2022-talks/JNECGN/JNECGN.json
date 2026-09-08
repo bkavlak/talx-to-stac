@@ -1,0 +1,114 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "JNECGN",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Using QField to manage traffic sign inventory",
+    "description": "The new Road Traffic Act of Finland (effective since 2020) requires \r\nthe road management authorities to provide information about the existing road \r\nsigns, along with other similar infrastructure such as traffic lights and road paintings, to Traficom, \r\nthe Finnish Transport Infrastructure Agency. The data is stored in Digiroad, the national database of open \r\nstreet and road data, also hosted by Traficom. To help the different actors in public sector and elsewhere fulfill this legal obligation, \r\nas well as providing tools for infrastructure management and maintenance more generally, FOSS4G software can play an important role.\r\n\r\nIn this talk, we present results from our recent project related to this effort. In the project, we developed a \r\ntraffic sign inventory process using QField mobile data collection app and studied its suitability for the task.\r\nThere was a pre-existing conceptual data model for the road signs from Traficom, which was used as the basis for the \r\nphysical PostGIS database implementation. In addition, the data collection workflow was designed to make the \r\ndata collection as efficient as possible. This included configuring the data input forms and the traffic sign visualizations in the  related QGIS project file, as well as other aspects of usability of the app, such as further development of the geocoding functionality. \r\n\r\nThe process was then tested out in the field and improved upon in cooperation with employees from a few different-sized municipalities around Finland. The finished project report, along with the files needed to set up the data collection project are freely available in  the Github repository of the project: https://github.com/finnishtransportagency/digiroad-QField",
+    "start_datetime": "2022-08-24T14:15:00Z",
+    "end_datetime": "2022-08-24T14:45:00Z",
+    "talk:code": "JNECGN",
+    "talk:guid": "99d48f82-4e5e-5b89-9a8f-2e8b2a0ec9b1",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room 4",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "QKJQHW",
+        "name": "Jaakko Lehto",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/QKJQHW/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T14:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/JNECGN/",
+      "title": "Using QField to manage traffic sign inventory"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/JNECGN/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/QKJQHW/",
+      "title": "Jaakko Lehto"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/finnishtransportagency/digiroad-QField",
+      "title": "github.com/finnishtransportagency/digiroad-QField"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/JNECGN/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/2bQhNSENHnw3gRWgmCMPdj",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Using QField to manage traffic sign inventory",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=du8BcQxx2Aw",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Using QField to manage traffic sign inventory",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

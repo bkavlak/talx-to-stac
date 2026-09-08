@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "BCYFPL",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Deploying GeoNode in Production: Lessons from Brazilian Government Agencies",
+    "description": "This talk presents case studies of deploying GeoNode, an open-source geospatial content management system, in production environments within two Brazilian government agencies: the Geological Survey of Brazil (SGB) and the Brazilian Federal Police (PF). We'll explore how these agencies have successfully implemented and customized GeoNode to meet their specific needs, addressing common challenges in large-scale FOSS4G deployments.\r\n\r\nKey points we'll cover:\r\n\r\n1. SGB's approach:\r\n   - Developing a Helm chart for automated GeoNode 4 installation on Red Hat OpenShift\r\n   - Addressing security requirements like rootless execution and random UID support\r\n   - Implementing autoscaling for most components based on CPU and memory utilization\r\n   - Exploring cluster implementation of GeoServer for improved scalability\r\n\r\n2. PF's customizations:\r\n   - Creating a dedicated \"inteligeo-deploy\" repository for enhanced deployment features\r\n   - Implementing centralized configuration and logging\r\n   - Improving security by separating credentials and using Podman instead of Docker\r\n   - Integrating with internal systems and scheduling data updates\r\n\r\nWe'll discuss the challenges faced, solutions implemented, and lessons learned from both approaches. These case studies demonstrate that FOSS4G solutions like GeoNode are ready for production use in government agencies, providing flexibility, scalability, and security.\r\n\r\nBy sharing our experiences, we aim to help other organizations successfully deploy GeoNode and other FOSS4G solutions in production environments. We welcome questions and discussions on best practices for large-scale FOSS4G implementations.",
+    "start_datetime": "2024-12-06T13:45:00Z",
+    "end_datetime": "2024-12-06T14:15:00Z",
+    "talk:code": "BCYFPL",
+    "talk:guid": "088e3a45-bbc9-5ca5-9203-047713beaecd",
+    "talk:event": "foss4g-2024",
+    "talk:track": "Transition to FOSS4G",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room II",
+    "talk:room_capacity": 200,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "BZLYD8",
+        "name": "Carlos Eduardo Mota",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/BZLYD8/"
+      },
+      {
+        "code": "HKTHWA",
+        "name": "Daniel Ara\u00fajo Miranda",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/HKTHWA/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-06T14:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/BCYFPL/",
+      "title": "Deploying GeoNode in Production: Lessons from Brazilian Government Agencies"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/BCYFPL/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/BZLYD8/",
+      "title": "Carlos Eduardo Mota"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/HKTHWA/",
+      "title": "Daniel Ara\u00fajo Miranda"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/BCYFPL/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-file": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024/submissions/BCYFPL/resources/BCYFPL_-_Deploying_Geonode_in_Production_1pBD6Js.pdf",
+      "type": "application/pdf",
+      "title": "Presentation file",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

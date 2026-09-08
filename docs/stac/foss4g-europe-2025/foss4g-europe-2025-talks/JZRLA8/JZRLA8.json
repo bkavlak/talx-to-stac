@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "JZRLA8",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "Assessing long-term hydrological dynamics and water quality using Google Earth Engine: A case study of Ilg\u0131n Lake (1985-2024)",
+    "description": "Monitoring inland water areas is crucial for ecosystem health and water resources management, particularly under impacts of global climate change. However, traditional water management plans prioritize large water bodies due to the labor-intensive nature of data collection and analysis. Consequently, shallow lakes are often overlooked despite their critical role in local ecosystems. This situation is critical, as shallow lakes like Ilg\u0131n Lake have unique importance for migratory bird populations and irrigation-dependent agricultural livelihoods. Recent advancements in cloud-based platforms like Google Earth Engine (GEE) enable efficient, scalable remote sensing analyses and democratize access to a wide range of data sources. This study leverages the GEE Python API and free and open-source Python libraries (e.g., geemap, scipy, pymannkendall, pingouin) to present a scalable workflow for assessing hydrological and water quality dynamics in shallow lakes. The methodology is demonstrated through a 40-year (1985-2024) case study of Ilg\u0131n Lake in Central Anatolia, T\u00fcrkiye. Ilg\u0131n Lake is a vital resource for regional agriculture; however, its shallow nature increases vulnerability to climate change and human activities, necessitating continuous monitoring. This lake is also classified as a protected area and a nitrate vulnerable zone under the European Union Water Framework Directive (WFD). Despite this designation, to the best of our knowledge, there is no specific conservation action plan or regular in-situ water quality monitoring program. \r\n\r\nWe conducted a long-term analysis (1985-2024) of water area changes and water quality parameters to investigate their relationship with key climate factors. Annual water areas were derived using the Modified Normalized Difference Water Index (MNDWI) applied to Landsat 5/7/8 satellite images, with dynamic Otsu thresholding (Otsu, 1979; Xu, 2006). The Otsu method is reliable, especially for shallow lakes, as it automatically selects the best threshold by maximizing inter-class variance between water and non-water pixels. A total of 347 Landsat scenes were processed using the GEE Python API, incorporating cloud masking and gap-filling for Landsat 7 scan-line corrector off data. The accuracy of water area extraction was validated using high-resolution Google Earth image with random sampling points. Based on 250 sample points, a binary confusion matrix was constructed, and overall accuracy (96.0%) and kappa coefficient (0.887) were calculated. Trends were analyzed using non-parametric statistical methods (Mann-Kendall and Theil-Sen), and correlations with key climate variables (total precipitation, mean temperature) were assessed using the ERA5 (ECMWF Reanalysis Fifth Generation) dataset. Water quality within water-masked areas was assessed via the Normalized Difference Chlorophyll Index (NDCI) (Mishra and Mishra, 2012) for chlorophyll and the Normalized Difference Turbidity Index (NDTI) (Lacaux et. al., 2007) for turbidity. Relationships between climate variables, water area, and water quality were evaluated using Pearson correlation and multiple linear regression. Partial correlation analysis was used to isolate the effects of temperature and precipitation. Multiple linear regression was used to quantify the combined influence of temperature and precipitation on water area variations.\r\n\r\nThe results showed that Ilg\u0131n Lake experienced a significant decrease in water area (p < 0.05) at a rate of -9.54 hectares/year. The lake lost 31% of its area between 1985 and 2024. Annual mean temperature showed a significantly increasing trend (p < 0.01) at a rate of 0.05 \u00b0C per year. For water quality, chlorophyll concentrations (NDCI) significantly increased (p < 0.01), indicating intensifying eutrophication. These trends are related to agricultural runoffs and warmer temperatures. The temperature was found to be negatively correlated with water area (r= -0.45) and positively correlated with NDCI (r= 0.40). Multiple linear regression revealed that temperature and precipitation explain 21% of the annual water area variability (p < 0.05). Incorporating 1-year precipitation lags improved the explanatory power (R2= 0.34), highlighting delayed hydrological responses in shallow lakes. The remaining unexplained variance (66%) suggests additional anthropogenic drivers, such as agricultural water use and runoff. This aligns with public documentation under T\u00fcrkiye\u2019s EU WFD commitments, as Ilg\u0131n Lake is designated as a nitrate vulnerable zone and protected area.\r\n\r\nThese findings underscore the vulnerability of shallow lakes like Ilg\u0131n Lake to ecological degradation, driven by both climatic variations and human activities. Their limited water depth increases risks to sustainable agriculture, biodiversity, and local socio-economic conditions. The proposed workflow utilizes open datasets on the cloud-based GEE platform and open-source Python tools, ensuring cost-effective scalability. All code and workflow are publicly available as Jupyter Notebook on GitHub (https://github.com/earth-obs/lake-gee-hydrology-water-quality) under the open source MIT license. This approach provides valuable insights into sustainable water resource management plans, especially for regions where field data is unavailable. This study aligns with the EU WFD goals by providing cost-effective and scalable sources for monitoring water bodies listed under Annex V. We conclude that water resource monitoring studies should focus not only on the hydrological context but also on water quality status, as both are essential for holistic water management. Additionally, shallow lakes like Ilg\u0131n play a critical role in preserving natural habitats and sustaining local agricultural livelihoods. Future work will extend this framework to higher spatial and spectral resolution satellite imagery (e.g., Sentinel-2) and additional shallow lakes across Europe.",
+    "start_datetime": "2025-07-17T14:00:00Z",
+    "end_datetime": "2025-07-17T14:30:00Z",
+    "talk:code": "JZRLA8",
+    "talk:guid": "7c5afae2-b092-54c2-ae04-b7f192f14538",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Academic track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "PA01 (Quarticle)",
+    "talk:room_capacity": 95,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "LEAXKP",
+        "name": "Omer Faruk Atiz",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/LEAXKP/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-17T14:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/JZRLA8/",
+      "title": "Assessing long-term hydrological dynamics and water quality using Google Earth Engine: A case study of Ilg\u0131n Lake (1985-2024)"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/JZRLA8/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/LEAXKP/",
+      "title": "Omer Faruk Atiz"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/JZRLA8/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-pptx": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/JZRLA8/resources/FOSS4GE_2025_Atiz_and_Durduran_p3HiSKx.pptx",
+      "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "title": "Presentation pptx",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "presentation-pdf": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/JZRLA8/resources/FOSS4GE_2025_Atiz_and_Durduran_ClzMK9u.pdf",
+      "type": "application/pdf",
+      "title": "Presentation pdf",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/rM4FdXc2ZX8nZNsyVfuWxD",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Assessing long-term hydrological dynamics and water quality using Google Earth ...",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=qteXI4Nn3aU",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Assessing long-term hydrological dynamics and water quality using Google Earth ...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

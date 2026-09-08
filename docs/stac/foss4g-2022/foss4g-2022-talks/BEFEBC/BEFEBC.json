@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "BEFEBC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "rassta: Raster-based Spatial Stratification Algorithms",
+    "description": "Spatial stratification of landscapes allows for the development of efficient sampling surveys, the inclusion of domain knowledge in data-driven modeling frameworks, and the production of information relating the spatial variability of response phenomena to that of landscape processes. This work presents the rassta package as a collection of algorithms for spatial stratification developed in the R environment. The core ideas implemented in the rassta package include the multi-scale, hierarchical landscape stratification based on spatial intersection, the application of non-parametric distribution estimators to define the typical landscape configuration of stratification units, and the use of spatially explicit landscape correspondence metrics for non-probability sampling and predictive modeling. The theoretical background of rassta is presented through references to several studies which have benefited from landscape stratification routines. The functionality of rassta is presented through code examples which are complemented with the geographic visualization of their outputs. Moreover, domain-specific applications are presented to demonstrate the applicability of rassta for the spatial modeling of diverse environmental phenomena.",
+    "start_datetime": "2022-08-26T10:00:00Z",
+    "end_datetime": "2022-08-26T10:30:00Z",
+    "talk:code": "BEFEBC",
+    "talk:guid": "8a5434db-4454-5556-b3b4-85fafe4ced10",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "General online",
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "SG8RXD",
+        "name": "Bryan Fuentes",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/SG8RXD/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T10:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/BEFEBC/",
+      "title": "rassta: Raster-based Spatial Stratification Algorithms"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/BEFEBC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/SG8RXD/",
+      "title": "Bryan Fuentes"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/BEFEBC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

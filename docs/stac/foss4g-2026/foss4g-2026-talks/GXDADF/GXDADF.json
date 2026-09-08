@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "GXDADF",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Application of SUMO in Simulation of Optimized Traffic Light Timing derived using Artificial Neural Network and GIS",
+    "description": "Traffic congestion at signalized intersections is a common issue in urban cities, which is often caused by static and inefficient traffic light timings that cannot adapt to changing traffic conditions. These long wait times lead to a significant amount of time loss, higher car emissions, and higher fuel usage. During peak hours or unforeseen disruptions, traditional traffic light control systems that rely on preset or time-of-day-based signal cycles are unfit to handle the dynamic and variable nature of traffic volumes which resulting in slow vehicle movement and increased in travel time. In addition, current traffic light control methods do not include spatial data or intelligent prediction tools that are able to analyze for unpredictable characteristic of traffic in urban areas. This gap highlights that an adaptive method for signal optimization is required. Hence, this study aims to derive the optimal traffic light timing at the junction by integrating Geographic Information System (GIS) and Artificial Neural Network (ANN) models. Unlike the current fixed-time signal control practice, ANN was chosen as it is one of the best machine learning techniques that could be used in predictive modelling. It did not rely on human in making prediction instead, it will learn solely on data without relying on manual assumptions or fixed timing. The historical and current traffic volume data, together with existing signal timing parameters, were used to develop ANN models capable of predicting optimal green time allocations based on traffic demand patterns for each signal phase. \r\n\r\nIn this study, traffic signal optimisation is conducted for a selected signalised intersection at Section 13, Shah Alam, Selangor, Malaysia. The traffic movement at the intersection is divided into multiple signal phases, including straight and right-turn movements from different approaches. Historical traffic volume data and current traffic volume data are used as input variables in the ANN model, while the existing signal timing serves as the target output. The ANN model is trained to generate new optimal green time durations for each signal phase during morning and evening peak periods. To evaluate the effectiveness of the optimised signal timings, microscopic traffic simulation using SUMO is applied. The existing signal timing and the ANN-predicted optimal timing are simulated and compared using key performance indicators such as traffic volume discharge, queue length, and average waiting time. Through this approach, the study aims to assess how intelligent signal timing optimisation can enhance intersection performance and reduce traffic congestion. \r\n\r\nTraffic volume at intersections fluctuates significantly between morning and evening peak hours, as well as across different approaches and movement types. However, the current signal timing plans apply uniform green times that may not correspond to actual traffic conditions, leading to congestion, long queues, and inefficient traffic flow. Therefore, this study focuses on traffic volume characteristics as the primary factor influencing signal timing optimisation, specifically historical traffic volume and current traffic volume for straight and right-turn movements. To address this problem, the first objective of this study is to develop an ANN model to optimise traffic light signal timing. The model used historical traffic volume data as input variables, current traffic volume data as predictor variables, and existing signal timing as the target output. Through training, validation, and testing processes, the ANN model generated optimised green time durations for each signal phase based on five weeks of traffic observations. The results demonstrate that the ANN model is capable of producing adaptive signal timings that better reflect real traffic demand compared to conventional fixed-time control.\r\n\r\nThe SUMO software was used in this study to simulate the optimized traffic signal timing produced by the ANN model. SUMO is an open-source, microscopic traffic simulation software that enables detailed modelling of road networks, traffic flows, and signal control systems. It provides a flexible platform for evaluating how different signal timing configurations affect traffic performance in terms of delay, queue length, and vehicle throughout. The traffic network for the selected study area was imported from OSM into SUMO. The network editing and configuration were carried out in NETEDIT, which is a graphical tool in SUMO used to edit and reorganize road geometry, lane connections, and traffic light control logic.\r\nThe simulation results demonstrate that the ANN-optimized signal timings generally improved traffic performance compared to the existing signal plans. The SUMO simulation enables the evaluation of vehicle throughput by showing the number of vehicles that can pass through the intersection under the new signal timing configuration derived using ANN. The evaluation process involved running two (2) separate simulation scenarios, existing fixed time signal timing and optimized signal timings produced by the ANN model. By simulating these two conditions under almost the same traffic demand, the performance differences could be directly attributed to the signal timings adjustment. SUMO will automatically record several key performance indicators (KPIs) during each running simulation, such as vehicle throughput using Simulation output detector. These indicators were then compared the vehicle volume pass the traffic light intersection.\r\n\r\nIn conclusion, it is possible for us to use ANN to predict and optimised the traffic light signal timings based on existing traffic volume conditions. By employing historical traffic volume data, the ANN model was able to generate optimal green times for multiple signal phases, thereby instead of setting traffic light timing based on personal experience, assumptions or manual decisions by engineers, this study uses data and the ANN model to decide the timings automatically. In addition, the usage of SUMO for simulation had helped in understanding how much the traffic volume can be controlled with optimized signal timings. This helps avoid human errors, personal references or bias that may affect the traditional signal timing design.",
+    "start_datetime": "2026-09-01T08:00:00Z",
+    "end_datetime": "2026-09-01T08:30:00Z",
+    "talk:code": "GXDADF",
+    "talk:guid": "f0deedc0-c8ce-50d1-90ec-748cf4a8c484",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos2",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "TTGDWD",
+        "name": "Nabilah Naharudin",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/TTGDWD/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T08:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/GXDADF/",
+      "title": "Application of SUMO in Simulation of Optimized Traffic Light Timing derived using Artificial Neural Network and GIS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/GXDADF/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/TTGDWD/",
+      "title": "Nabilah Naharudin"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/GXDADF/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

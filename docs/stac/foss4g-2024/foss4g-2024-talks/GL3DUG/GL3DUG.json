@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "GL3DUG",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Streamlining GIS Workflows: Developing a Collaborative QGIS Plugin Repository",
+    "description": "A QGIS plugin repository functions as a centralized repository of tools designed to automate and simplify the daily tasks of GIS users. It serves as a hub where company employees and collaborators can access, share, and utilize these tools. This initiative has the additional benefit of enhancing productivity while also cultivating a culture of collaboration and innovation within the organization. In any organization that places a significant reliance on GIS, the efficiency and accuracy of geospatial data processing are of paramount importance. Geographic information system (GIS) teams encounter a number of challenges, including the necessity to perform repetitive tasks, to complete time-consuming data processing steps, and to develop custom tools that are not readily available in standard GIS software. These issues underscored the necessity for a solution that could automate repetitive tasks, provide custom tools tailored to specific needs, and facilitate easy sharing and collaboration among team members. As an open-source GIS platform, QGIS offers a robust plugin architecture that allows users to extend its functionality. \r\nTo develop QGIS plugins, a development environment was established, comprising Python (the primary language for QGIS plugin development), QGIS itself, and the requisite libraries, including PyQt for GUI development, pandas, and requests. A version control system based on the Git distributed revision control system was implemented to facilitate the effective management of the codebase. With the development environment prepared, the coding of the plugins commenced. Each plugin was designed to address a specific task or workflow and they are organized by projects. For example, the data standardization plugin was developed to meet the requirements of Resolu\u00e7\u00e3o ANM n\u00b0 142/2023, the automatic caves CAD file download was created through the use of a database PostGRESQL/PostGIS and an AWS connection, and a Drainage tool was developed to delineate and estimate flow given a pour point of interest and elevation data. The initial step in developing the plugin repository involved understanding the specific needs of the team. A series of meetings and surveys were conducted to gather requirements and identify the most pressing issues. Several team members were involved in the testing process, gathering feedback and making necessary improvements. This iterative process helped refine the plugins and make them robust.\r\nThe plugin repository was organized in a manner that was both clear and intuitive. Each plugin was organized in a directory, which contained the source code, documentation, and example datasets. This structure facilitated user navigation of the repository, enabling them to readily identify the tools they required. The Bitbucket platform was selected for hosting the repository due to its widespread use and intuitive interface, which provides a collaborative environment where team members can access the plugins, report issues, suggest enhancements, and contribute to the development process.\r\nTo integrate the repository with QGIS, a custom plugin server was incorporated into the QGIS software. The server enabled users to peruse the available plugins, install them with a single click, and receive updates automatically, thus ensuring that users could readily access and utilize the tools without leaving the QGIS environment. To optimize the adoption and efficacy of the plugins, training sessions and workshops were conducted for colleagues. These sessions encompassed the installation and utilization of the plugins, best practices for geospatial data processing, and strategies for integrating the tools into daily workflows.\r\nThe QGIS plugin repository has had a profound impact on the organization, delivering key benefits such as increased efficiency, enhanced accuracy, enhanced collaboration and knowledge sharing, and enhanced scalability. The automation of repetitive tasks has resulted in a notable reduction in the time and effort required for data processing, thereby enabling team members to direct their attention to tasks of greater critical importance. The implementation of bespoke analytical tools has enhanced the precision and dependability of geospatial analyses. The repository has fostered a collaborative environment in which team members can share their tools and expertise, thereby facilitating continuous improvement and innovation. The modular structure of the repository allows for the straightforward incorporation of new plugins, thereby ensuring that emerging needs and challenges can be addressed.\r\nConsidering the repository's success, several prospective developments have been proposed. These include the expansion of the plugin library through the development of new plugins to address additional tasks and workflows, the incorporation of advanced geospatial analytics such as machine learning and spatial statistics to further enhance capabilities, the linking of the QGIS plugins with other enterprise systems such as databases and web services to create a more integrated and efficient geospatial data infrastructure, and the encouragement of participation from the broader FOSS4G community through the sharing of plugins and contributions to the global repository of geospatial tools and solutions.",
+    "start_datetime": "2024-12-05T17:00:00Z",
+    "end_datetime": "2024-12-05T17:30:00Z",
+    "talk:code": "GL3DUG",
+    "talk:guid": "d1fba515-888f-5e84-93c8-9201400225aa",
+    "talk:event": "foss4g-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room V",
+    "talk:room_capacity": 80,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "SS73DU",
+        "name": "Alexandre Assuncao",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/SS73DU/"
+      },
+      {
+        "code": "NPURTC",
+        "name": "ANA CAROLINA MAYRINCK MOURA",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/NPURTC/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-05T17:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/GL3DUG/",
+      "title": "Streamlining GIS Workflows: Developing a Collaborative QGIS Plugin Repository"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/GL3DUG/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/SS73DU/",
+      "title": "Alexandre Assuncao"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/NPURTC/",
+      "title": "ANA CAROLINA MAYRINCK MOURA"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/GL3DUG/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024/submissions/GL3DUG/resources/Apresentacao_FOSS4G_PLUGIN_REPOSITORY_p6PaZYY.pdf",
+      "type": "application/pdf",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "XYLZPW",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Open EO and FOSS4G serving Sahelian farmers and herders: lessons from the GARBAL programme",
+    "description": "n the West African Sahel, farmers and herders are critically vulnerable to climate shocks and need access to climate information to secure their livelihoods. Herders use data on pasture and water availability to move their livestock and farmers need weather predictions for planting. While satellite imagery has made much of this information readily accessible to the spatial community, few channels exist to transmit this information to farmers and herders. As a result, climate data has become more powerful than ever before, yet mostly inaccessible to those who depend on this information for their livelihoods.\r\n\r\nThis talk will share the lessons of the GARBAL programme, an initiative that seeks to bridge this gap. GARBAL is a call center that uses Copernicus Earth Observation imagery and field data to provide farmers & herders with information on pasture, water and markets in Mali, Niger and Burkina Faso. GARBAL was first developed in 2015 and this talk will provide lessons from several years of practice.\r\n\r\nThe GARBAL interface uses an open-source stack including PostGIS and Mapserver to create a user-friendly interface for call center agents, who then use that interface to answer questions from callers on pasture conditions, market prices and weather forecasts (among others).  \r\n\r\nThe talk will share lessons from the technical and programmatic aspects of the project. The technical side will go over the architecture of the data treatment, demo the interface, talk about successes and failures and show how you can play with the data yourself. The programmatic side focuses more on how the user needs evolved over the years, techniques for translating GIS data into information useful to farmers and herders, operating in areas of active conflict and how EO data fits into existing centuries-old traditional data collection systems in the Sahel.",
+    "start_datetime": "2023-06-30T09:30:00Z",
+    "end_datetime": "2023-06-30T10:00:00Z",
+    "talk:code": "XYLZPW",
+    "talk:guid": "a66d93b1-90fa-587e-b561-e7a3011fcb27",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT F / N212 - Floor 3",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "WNXGSQ",
+        "name": "Alex Orenstein",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/WNXGSQ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-30T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/XYLZPW/",
+      "title": "Open EO and FOSS4G serving Sahelian farmers and herders: lessons from the GARBAL programme"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/XYLZPW/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/WNXGSQ/",
+      "title": "Alex Orenstein"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/XYLZPW/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/sUD2AqNn9aiHBqx4gFoTTs",
+      "type": "text/html",
+      "title": "2023 |  Open EO and FOSS4G serving Sahelian farmers and herders: lessons from the GARBAL programme",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=491aTqXxM1U",
+      "type": "text/html",
+      "title": "2023 |  Open EO and FOSS4G serving Sahelian farmers and herders: lessons from the GARBAL programme",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

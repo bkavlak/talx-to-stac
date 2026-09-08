@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "M9FP9L",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "landlensdb: A Python Package for Managing Proximity Sensing Imagery",
+    "description": "We introduce landlensdb, an open-source Python package for managing proximity sensing imagery, including action cameras, 360\u00b0 cameras, and UAVs, using PostgreSQL/PostGIS. It automates metadata extraction, corrects geolocation errors via road network snapping, and enables scalable spatial-temporal queries and visualization for large-scale geotagged image datasets.\n\nProximity sensing imagery, captured by action cameras, 360\u00b0 panoramic cameras, and UAV-mounted cameras, offers unique human-scale perspectives on natural and built environments that complement traditional remote sensing. These images reveal fine-scale environmental features that overhead sensing typically misses. However, managing vast volumes of geotagged images presents technical challenges including GPS positional errors, varying camera geometries, and complex spatial-temporal relationships.\r\nWe developed landlensdb, an open-source Python package for efficient management of geotagged proximity sensing imagery using PostgreSQL/PostGIS. The package supports diverse acquisition platforms within a unified framework, handling both local image directories and Mapillary API data sources.\r\nCore features include automated metadata extraction from EXIF data, geolocation correction by snapping image positions to reference geometries such as road networks, and storage in a PostGIS database with a standardized yet extensible schema. The camera_type field distinguishes between perspective, equirectangular (360\u00b0), and other modalities, enabling platform-specific handling. By leveraging PostGIS, landlensdb supports efficient spatial-temporal queries across millions of records via SQL or Python APIs, with export to any OGR-supported format. Interactive visualization tools for Jupyter notebooks facilitate exploratory analysis and data validation.\r\nBuilt entirely on open-source technologies including Python, PostgreSQL, PostGIS, and GeoPandas, landlensdb aligns with the FOSS4G philosophy and addresses the growing need for scalable, open systems for proximity sensing image management.",
+    "start_datetime": "2026-09-01T06:30:00Z",
+    "end_datetime": "2026-09-01T07:00:00Z",
+    "talk:code": "M9FP9L",
+    "talk:guid": "122009c8-2e4b-578b-b023-d0e87219f24b",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "37VPNQ",
+        "name": "Iosefa Percival",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/37VPNQ/"
+      },
+      {
+        "code": "QHD7C8",
+        "name": "Narumasa Tsutsumida",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/QHD7C8/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T06:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/M9FP9L/",
+      "title": "landlensdb: A Python Package for Managing Proximity Sensing Imagery"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/M9FP9L/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/37VPNQ/",
+      "title": "Iosefa Percival"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/QHD7C8/",
+      "title": "Narumasa Tsutsumida"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/M9FP9L/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "H8SFLU",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "SpectralIndices.jl: Streamlining spectral indices access and computation for Earth system research",
+    "description": "Remote sensing has evolved into a fundamental tool in environmental science, helping scientists monitor environmental changes, assess vegetation health, and manage natural resources. As Earth observation (EO) data products have become increasingly available, a large number of spectral indices have been developed to highlight specific surface features and phenomena observed across diverse application domains, including vegetation, water, urban areas, and snow cover. Examples of such indices include the normalized difference vegetation index (NDVI) (Rouse et al., 1974), used to assess vegetation states, and the normalized difference water index (NDWI) (McFeeters, 1996), used to delineate and monitor water bodies. The constantly increasing number of spectral indices, driven by factors such as the enhancement of existing indices, parameters optimization, and the introduction of new satellite missions with novel spectral bands, has necessitated the development of comprehensive catalogs. One such effort is the Awesome Spectral Indices (ASI) suite (Montero et al., 2023), which provides a curated machine-readable catalog of spectral indices for multiple application domains. Additionally, the ASI suite includes not only a Python library for querying and computing these indices but also an interface for the Google Earth Engine JavaScript application programming interface, thereby accommodating a wide range of users and applications.\r\n\r\nDespite these valuable resources, there is an emerging necessity for a dedicated library tailored to Julia, a programming language renowned for its high-performance computing capabilities (Bezanson et al., 2017). Julia has not only established itself as an effective tool for numerical and computational tasks but also offers the possibility to utilize Python within its environment through interoperability features. This interoperation adds a layer of flexibility, allowing users to access Python's extensive libraries and frameworks directly from Julia. However, while multiple packages are available in Julia to manipulate high dimensional EO data, most of them provide different interfaces. Furthermore, leveraging Python's PyCall for interfacing with Zarr files and other high-dimensional data formats is not practical. Specifically, the inefficiency in cross-language data exchange and the overhead from cross-language calls significantly hinder performance, underlining the need for native Julia solutions optimized for such data tasks.\r\n\r\nRecognizing the need for a streamlined approach to use spectral indices, we introduce SpectralIndices.jl, a Julia package developed to simplify the computation of spectral indices in remote sensing applications. SpectralIndices.jl provides a user-friendly, efficient solution for both beginners and researchers in the field of remote sensing. SpectralIndices.jl offers several features supporting remote sensing tasks:\r\n - Easy Access to Spectral Indices: The package provides instant access to a comprehensive range of spectral indices from the ASI catalog, removing the need for manual searches or custom implementations. Users can effortlessly select and compute indices suitable for their specific research needs.\r\n - High-Performance Computing: Built on Julia's strengths in numerical computation, SpectralIndices.jl provides rapid processing even for large datasets (Bouchet-Valat et al., 2023). Consequently, this makes it a time-efficient tool for handling extensive remote sensing data.\r\n - Versatile Data Compatibility: SpectralIndices.jl supports a growing list of input data types. Furthermore, the addition of data types to the library does not slow down compilation through the built-in package extensions of Julia that allow conditional compilation of dependencies.\r\n - User-Friendly Interface: Designed with simplicity in mind, the package enables users to compute spectral indices with just a few lines of code. This ease of use lowers the barrier to entry for those new to programming or remote sensing.\r\n - Customization and Community Contribution: Users can extend the package's capabilities by adding new indices or modifying existing ones. This openness aligns with the FAIR principles, ensuring that data is findable, accessible, interoperable and reusable.\r\n\r\nBy providing a straightforward and efficient means to compute spectral indices, the package helps users to streamline and accelerate software pipelines in Earth system research. Furthermore, it provides a consistent and unified interface to compute indices, improving the reliability and accuracy of research outcomes. Whether tracking deforestation, studying crop health, or assessing water quality, SpectralIndices.jl equips users with the tools needed for accurate, timely analysis.\r\n\r\nThe introduction of SpectralIndices.jl reflects a broader trend in scientific computing towards adopting high-performance languages like Julia, highlighting the importance of efficient data analysis tools in addressing complex environmental challenges. This development contributes to the democratization of data analysis, making advanced tools more accessible to a diverse range of users.\r\n\r\nThe SpectralIndices.jl package is open-source and hosted on GitHub (https://github.com/awesome-spectral-indices/SpectralIndices.jl), available for public access and contribution. It is licensed under the MIT license, which permits free use, modification, and distribution of the software. This approach encourages community contributions and fosters an environment of shared learning and improvement, ensuring that SpectralIndices.jl remains a cutting-edge tool for environmental analysis and research. Additionally, the code is commented and documented, facilitating both contribution and adoption. The code in the examples is run during the compilation of the online documentation, assuring its reproducibility. Finally, the software is tested using continuous integration through GIthub Actions, ensuring its correct execution in different use cases and environments.",
+    "start_datetime": "2024-07-03T11:30:00Z",
+    "end_datetime": "2024-07-03T12:00:00Z",
+    "talk:code": "H8SFLU",
+    "talk:guid": "f84709af-5abc-5525-9968-ceab8ab8b1dd",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Academic track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Omicum",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "BZVWZ3",
+        "name": "Francesco Martinuzzi",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/BZVWZ3/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-03T11:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/H8SFLU/",
+      "title": "SpectralIndices.jl: Streamlining spectral indices access and computation for Earth system research"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/H8SFLU/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/BZVWZ3/",
+      "title": "Francesco Martinuzzi"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/H8SFLU/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/H8SFLU/resources/20240703foss4geu24_sijl-1_2LQyGYE.pdf",
+      "type": "application/pdf",
+      "title": "Slides",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "slides-2": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/H8SFLU/resources/20240703foss4geu24_sijl-2_lL6h2EK.pdf",
+      "type": "application/pdf",
+      "title": "Slides",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/u4xPypEoafz41zSGLWbLoE",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | SpectralIndices.jl: Streamlining spectral indices access and computation for ...",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=BwuW4bcgGrM",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | SpectralIndices.jl: Streamlining spectral indices access and computation for ...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

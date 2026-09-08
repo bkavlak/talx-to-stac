@@ -1,0 +1,128 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "LPCJRL",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Improving Climate Data Delivery and Visualisation",
+    "description": "I am Harris Hudson and I aim to put climate, weather, and earth science, data directly into the hands of the everyday person. This discussion follows my research and recommendations regarding the future of visualisation of NetCDF Climate and Forecast gridded data.\n\nSome GIS (Geographic Information System) technologists present today may remember maps before they became 'slippy'. But young or old, we should now question some prior assumptions that shaped the current GIS web ecosystem. Considering its evolution \u2013 based on prior learning and precedents \u2013 I suggest we re-examine some of the premises underlying NetCDF gridded data. Are legacy OGC (Open Geospatial Consortium) or tiling services really the best abstractions for delivery of NetCDF or gridded data?\r\n\r\nThe following discussion also provides insights into my development of a front-end renderer. I will also briefly mention delivery mechanism services such as TDS (THREDDS - Thematic Real-time Environmental Distributed Data Server) Subsetting Service. These delivery mechanisms, coupled with modern devices and networks, allow us to explore contemporary, timely and scalable ways of delivering and viewing data that have the potential to improve the end-user experience.  \r\n\r\nFollowing are some live demonstrations for your consideration.\r\n\r\nMy findings are especially useful to custodians, publishers and climate/earth data researchers who seek better alternatives of delivery and visualisation of this important information. If nothing else, my suggestions will help broaden audiences by delivering important data into the hands of the everyday person. \r\n\r\nAnd for the technologists present today, I will share some limitations encountered during my journey and possible future directions. Who knows? Perhaps you can also contribute.\r\n\r\nSee Also;\r\n\r\n- [CFRender - Github Code Repo](https://github.com/harrishudson/CFRender)\r\n- [Vista Manifest - Github Code Repo](https://github.com/harrishudson/VistaManifest)\r\n- [Demonstration Website - vistamanifest.com](https://vistamanifest.com)\r\n- [Short recordings of demonstration website](https://harrishudson.com/vistamanifest_examples/)\r\n- [Summary of Presentation](https://harrishudson.com/FOSS4G2025/HarrisHudson_talk_THREDDS3.odp)\r\n- [Bio](https://harrishudson.com)",
+    "start_datetime": "2025-11-18T23:00:00Z",
+    "end_datetime": "2025-11-18T23:25:00Z",
+    "talk:code": "LPCJRL",
+    "talk:guid": "b03ffe17-6bc8-5c6b-bb1b-357e3e08a70e",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Community, Collaboration & Impact",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WA220",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "H9H3GX",
+        "name": "Harris Hudson",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/H9H3GX/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-18T23:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/LPCJRL/",
+      "title": "Improving Climate Data Delivery and Visualisation"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/LPCJRL/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/H9H3GX/",
+      "title": "Harris Hudson"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/harrishudson/CFRender",
+      "title": "CFRender - Github Code Repo"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/harrishudson/VistaManifest",
+      "title": "Vista Manifest - Github Code Repo"
+    },
+    {
+      "rel": "related",
+      "href": "https://vistamanifest.com",
+      "title": "Demonstration Website - vistamanifest.com"
+    },
+    {
+      "rel": "related",
+      "href": "https://harrishudson.com/vistamanifest_examples/",
+      "title": "Short recordings of demonstration website"
+    },
+    {
+      "rel": "related",
+      "href": "https://harrishudson.com/FOSS4G2025/HarrisHudson_talk_THREDDS3.odp",
+      "title": "Summary of Presentation"
+    },
+    {
+      "rel": "related",
+      "href": "https://harrishudson.com",
+      "title": "Bio"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/LPCJRL/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=CzuFHhGSDdg",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Improving Climate Data Delivery and Visualisation",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

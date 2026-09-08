@@ -1,0 +1,121 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "AYUVHZ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Challenges for displaying STAC Items and Assets in the browser",
+    "description": "At UP42 we are making extensive use of map visualizations of STAC Items and Assets, including vector files and very-high resolution imagery in our main React application. We will show our journey from simply displaying geometries on a using React Leaflet and HERE maps, to eventually adding high resolution previews and interactions. We will go through the main issues we had during this process and what we did to solve them, as well as presenting what we learned during this process.\r\n\r\nOn this talk we will present how we handled displaying and interacting with GeoJson and GeoTIFF previews with the current open source tools. We will present some of our challenges like rendering COGs directly, handling different projections, authentication with Leaflet, performance, error handling, and integrating dynamic tiling services such as TiTiler.\r\n\r\nMore information:\r\nhttps://up42.com/data-management",
+    "start_datetime": "2024-07-05T12:00:00Z",
+    "end_datetime": "2024-07-05T12:30:00Z",
+    "talk:code": "AYUVHZ",
+    "talk:guid": "21145347-70d8-5e63-ac5e-00e6187e0ec4",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Omicum",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "XTU3RX",
+        "name": "Daniel Scarpim",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/XTU3RX/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-05T12:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/AYUVHZ/",
+      "title": "Challenges for displaying STAC Items and Assets in the browser"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/AYUVHZ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/XTU3RX/",
+      "title": "Daniel Scarpim"
+    },
+    {
+      "rel": "related",
+      "href": "https://up42.com/data-management",
+      "title": "up42.com/data-management"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/AYUVHZ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://docs.google.com/presentation/d/1oQAhXizrbj8Lwg3WIHdEO9xarEHWyBb5zHFaQxbnd5I/edit?usp=sharing",
+      "title": "Slides",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/7FbCTii17fs3Wp14kjAadY",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Challenges for displaying STAC Items and Assets in the browser",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=vCYnKtaQgkA",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Challenges for displaying STAC Items and Assets in the browser",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

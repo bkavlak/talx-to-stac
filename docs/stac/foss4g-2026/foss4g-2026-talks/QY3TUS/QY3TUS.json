@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "QY3TUS",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Web-Based High-Performance Traffic Simulator: Advancing an Integrated Interaction Platform for Urban Planning Decision-Making",
+    "description": "Building on previous research, we introduce a traffic simulation platform enhanced for real-world urban planning. By optimizing large-scale data processing and interactions, we demonstrate technical maturity as a practical decision-support tool, moving beyond visualization toward immediate, high-performance deployment in professional and production-ready environments.\n\nBased on the 2D/3D visualization and scenario editing workflows established in previous years, the third year focuses on securing PERFORMANCE EXCELLENCE and OPERATIONAL EFFICIENCY required for professional environments.\r\n\r\n[Key Advancements]\r\n\u2022 WebGL-based High-Performance Engine and State Management Optimization\r\n: Optimized the WebGL rendering engine to process large-scale traffic networks and high-precision terrain data without latency. Designed a sophisticated State Management structure between Cesium and OpenLayers to ensure stable operation.\r\n\r\n\u2022 User-Centric Interaction Enhancement\r\n: Developed an interface to precisely control complex road structures, such as overpasses and underpasses. Improved UX to reflect professional workflows, increasing the convenience of simulation settings.\r\n\r\n\u2022 Flexible Data Compatibility\r\n: Strengthened Import/Export functionalities for seamless integration with external simulation engines and various GIS data formats, maximizing scalability and practical data utility.\r\n\r\n\u2022 Analytical Reporting System\r\n: Added a dashboard-based reporting feature to provide intuitive insights. This allows analytical data to be immediately utilized as evidence for urban policy-making.\r\n\r\nTechnical Stack & Standards\r\n\u2022 3D Geospatial Visualization: CesiumJS\r\n(Immersive 3D visualization, terrain rendering, and dynamic movement animation)\r\n\u2022 2D Vector Rendering: OpenLayers\r\n(High-performance engine for WebGL-based 2D vector rendering)\r\n\u2022 Spatial Database: PostGIS / PostgreSQL\r\n(Robust spatial data storage, advanced indexing, and topological analysis)\r\n\r\n[Conclusion]\r\nIn this presentation, we share our experience in building a PRODUCTION-READY PLATFORM that implements professional-grade functionality using open-source technologies, designed for IMMEDIATE DEPLOYMENT in actual urban planning processes.\r\n\r\n[Acknowledgment]\r\nThis work was supported by Institute of Information & communications Technology Planning & Evaluation (IITP) grant funded by the Korea government(MSIT) (RS-2024-00459703, Development of next-generation AI integrated mobility simulation and prediction/application technologies for metropolitan cities)",
+    "start_datetime": "2026-09-01T05:30:00Z",
+    "end_datetime": "2026-09-01T05:35:00Z",
+    "talk:code": "QY3TUS",
+    "talk:guid": "bce6eff5-bf9d-5bd3-afcb-847843e9fce2",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Lightning Talk",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Ran1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "SNYS3Z",
+        "name": "Cheun-gill Park",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/SNYS3Z/"
+      },
+      {
+        "code": "VPAQPX",
+        "name": "KIMDEOKHYEON",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/VPAQPX/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T05:32:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/QY3TUS/",
+      "title": "Web-Based High-Performance Traffic Simulator: Advancing an Integrated Interaction Platform for Urban Planning Decision-Making"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/QY3TUS/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/SNYS3Z/",
+      "title": "Cheun-gill Park"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/VPAQPX/",
+      "title": "KIMDEOKHYEON"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/QY3TUS/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

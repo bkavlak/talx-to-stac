@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "GZFWDL",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Quality Control Leveraging the Characteristics of Proprietary and Open-Source GIS: Discrepancies in Topology Validation and Strategic Selection",
+    "description": "Topology validation is an essential tool for GIS quality control; however, discrepancies frequently arise between ArcGIS and QGIS results. This presentation compares the outcomes of both tools, analyzes the practical issues stemming from these differences, and proposes potential solutions to ensure consistent data integrity.\n\nIn our daily operations, we utilize the open-source software QGIS for data production, incorporating topology validation for quality assurance. However, discrepancies in quality standards emerged because our clients conduct their quality control using ArcGIS. This difference in software environments led to inconsistent validation outcomes. Consequently, we compared the quality check results from both platforms and examined potential solutions to address the challenges stemming from these inter-software discrepancies.",
+    "start_datetime": "2026-09-03T02:30:00Z",
+    "end_datetime": "2026-09-03T03:00:00Z",
+    "talk:code": "GZFWDL",
+    "talk:guid": "cd834b7e-352f-59a9-9027-91f13a0c6732",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "CNKHGG",
+        "name": "misako ueno",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/CNKHGG/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-03T02:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/GZFWDL/",
+      "title": "Quality Control Leveraging the Characteristics of Proprietary and Open-Source GIS: Discrepancies in Topology Validation and Strategic Selection"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/GZFWDL/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/CNKHGG/",
+      "title": "misako ueno"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/GZFWDL/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

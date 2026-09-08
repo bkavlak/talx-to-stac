@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "RSNPM3",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Open data of digital twin city models in CityGML format and their import into OpenStreetMap: Project PLATEAU2OSM",
+    "description": "In recent years, 3D city models have gained popularity for supporting urban planning, citizen engagement, and research. As technology and infrastructure have improved, many cities and countries now use 3D models to address urban issues, encourage participation, and inform decision-making.\r\n\r\nThe Japanese government, including the Ministry of Land, Infrastructure, Transport and Tourism's Project PLATEAU, have promoted open 3D city models and 3D point cloud data. Over 100 cities are currently developing and releasing open digital twin data in CityGML format as of February 2023. Binyu et al. published the results of these efforts, which are also highlighted in the 3D City Index benchmarking report. The report shows that seven out of 40 cities (18%) compared were Japanese cities.\r\n\r\nThis report discusses the current state of open digital twin data in Japan, which is compatible with the open database license ODbL. The data can be imported into popular tools such as OpenStreetMap, and converters have been developed for this purpose. Since 2022, import work has been conducted on an experimental basis in collaboration with national and international communities. Sharing the results and challenges of this work is expected to promote the use of 3D city model data globally.",
+    "start_datetime": "2023-06-29T14:00:00Z",
+    "end_datetime": "2023-06-29T14:30:00Z",
+    "talk:code": "RSNPM3",
+    "talk:guid": "ab44a66e-1746-5001-aa05-90b5afb97a8f",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Open Data",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT D / N112 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "KZQBHV",
+        "name": "Taichi Furuhashi",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/KZQBHV/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-29T14:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/RSNPM3/",
+      "title": "Open data of digital twin city models in CityGML format and their import into OpenStreetMap: Project PLATEAU2OSM"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/RSNPM3/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/KZQBHV/",
+      "title": "Taichi Furuhashi"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/RSNPM3/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/joTEDLYvtgkoCeV5qpZEwz",
+      "type": "text/html",
+      "title": "2023 |  Open data of digital twin city models in CityGML format and their import into OpenStreetMap",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=i-lYtRDU9KE",
+      "type": "text/html",
+      "title": "2023 |  Open data of digital twin city models in CityGML format and their import into OpenStreetMap",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

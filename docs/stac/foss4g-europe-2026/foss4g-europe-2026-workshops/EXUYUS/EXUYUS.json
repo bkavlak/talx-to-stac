@@ -1,0 +1,87 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "EXUYUS",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "iTowns, a JavaScript 3D data visualization framework : from the first steps to the creation of a complex 3D geographic web service",
+    "description": "iTowns is an open-source, community-driven web framework designed for geospatial\r\ndata visualization, navigation and interaction. It provides seamless 3D\r\nrendering in a single, integrated package. Sponsored by the french National\r\nMap agency (IGN) and Ciril Group, iTowns benefits from institutional\r\nand industry support to ensure long-term development and innovation.\r\nTechnique\r\n\r\nBuilt with extensibility and interoperability in mind, iTowns out-of-the-box\r\nsupports commonly-used OGC's open formats and protocols. This includes:\r\n- fetching imagery and elevation data from WMS, WMTS and TMS servers\r\n- streaming large 3D datasets: 3D Tiles, pointclouds; ...\r\n- importing various vectors formats: vector tiles, geoJSON, GPX, ...\r\n- and those requested by the community!\n\nThe iTowns team would like to present an introduction to the tool, from the first steps to the design of complex 3D geographic web service. \r\n\r\nAfter a quick presentation of the library, we will see how easy it is to set up a first standard OGC data viewer (WMS, WMTS, VectorTiles) on a 3D globe. \r\n\r\nThen we will move on to setting up richer applications combining 3DTiles data, point clouds (EPT or COPC), etc., always in a simple and fluid way. \r\n\r\nThen, since iTowns is based on ThreeJS, we will show how it is possible to use the richness of Three.JS in an iTowns view. \r\n\r\nFinally, we will show the latest developments in the library and present upcoming new features.",
+    "start_datetime": "2026-07-03T11:00:00Z",
+    "end_datetime": "2026-07-03T15:00:00Z",
+    "talk:code": "EXUYUS",
+    "talk:guid": "b144ee2d-f9fa-5afc-b35a-8e279d6d9213",
+    "talk:event": "foss4g-europe-2026-workshops",
+    "talk:type": "workshop",
+    "talk:language": "en",
+    "talk:room": "003",
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "MTM7T9",
+        "name": "lavenant",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026-workshops/speaker/MTM7T9/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-07-03T13:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/talk/EXUYUS/",
+      "title": "iTowns, a JavaScript 3D data visualization framework : from the first steps to the creation of a complex 3D geographic web service"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/talk/EXUYUS/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/speaker/MTM7T9/",
+      "title": "lavenant"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/talk/EXUYUS/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-workshops"
+}

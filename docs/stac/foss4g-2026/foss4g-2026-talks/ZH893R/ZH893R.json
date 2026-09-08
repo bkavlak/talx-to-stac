@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "ZH893R",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "How map engine optimizes your visualization",
+    "description": "Web map engines perform dozens of optimizations to render geographic features at interactive frame rates. This talk reveals the internal mechanisms \u2013 from GPU optimization that collapse 10,000 draw calls into a handful, to zero-copy parsing pipelines and Web Worker task scheduling that keep the main thread free.\n\n### Description\r\n\r\nWhen a map engine renders smoothly, it's rarely by accident. Behind every tile transition and feature layer lies a carefully engineered stack of performance strategies that most developers never see. This session dives into the internals of a map engine to explain *why* these optimizations exist and *what* you can learn from them to improve your own visualizations.\r\n\r\n**Efficient feature rendering**:  Rendering 10,000 individual features naively means 10,000 draw calls. We'll explore how batching and GPU instancing dramatically reduce this overhead. Styling batched features by their attributes presents a unique challenge. We'll examine how engines evaluate styles against feature attributes in advance, pack the results into a texture, and enable the GPU to look up each feature's style at render time via a per-vertex batch ID. This approach maintains the speed of attribute-driven styling while preserving the integrity of the batching model.\r\n\r\n**Post-processing on the GPU**: Once features are rendered, visual effects are often still needed. We'll explore why screen-space post-processing techniques like SMAA and FXAA are significantly faster than per-mesh approaches like MSAA, and how applying effects to the final rendered image rather than to individual geometries keeps the pipeline lean regardless of feature count.\r\n\r\n**Zero-copy data pipelines**: Traversing feature data twice is wasteful. We'll look at how parsing pipelines can be structured to complete as much work as possible in a single pass, and how data structures like flattened 1D polygon arrays enable large geometry transfers to Web Workers without memory copying.\r\n\r\n**Threading and the main thread**: Web Workers are essential for keeping UIs responsive, but they come with constraints. We'll discuss how engines manage worker pools based on `navigator.hardwareConcurrency`, assign tasks to idle workers, and structure transferable data to avoid serialization overhead.\r\n\r\n**Network and connection management**: Browsers impose hard limits on concurrent HTTP connections. We'll cover strategies for aborting stale requests early, queuing tile fetches intelligently, and preventing connection saturation from blocking critical resources.\r\n\r\n**Memory and GC pressure**: Garbage collection pauses are a silent framerate killer. We'll examine how engines minimize GC exposure, and why languages like Rust compiled to WebAssembly offer structural advantages for memory-safe, GC-free data handling.\r\n\r\n**Perceived performance through progressive rendering**: Actual render time and perceived render time are not the same. Map engines exploit this difference by first rendering cheaper, lower-fidelity representations, such as a single parent tile instead of four child tiles, and then progressively refining them to full quality.\r\n\r\n**Improve coordinate precision**: When you set the position to the GLB itself or put a model through Three.js, you may notice that the model shakes. This is due to the vertex precision on the GPU. In this case, you must use a technique called RTE or RTC.\r\n\r\n---\r\n\r\n### Intended Audience\r\n\r\nSomeone who wants to optimize your visualization from the perspective of a map engine's internal structure.\r\n\r\n---\r\n\r\n### Takeaways\r\n\r\n- Insight of how to optimize your visualization\r\n- Knowledge of various optimizations in a map engine",
+    "start_datetime": "2026-09-02T05:00:00Z",
+    "end_datetime": "2026-09-02T05:30:00Z",
+    "talk:code": "ZH893R",
+    "talk:guid": "e24bd6eb-9898-52d9-83c5-3403dc50edb6",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room3",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "PZ8CMJ",
+        "name": "Keiya Sasaki",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/PZ8CMJ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T05:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/ZH893R/",
+      "title": "How map engine optimizes your visualization"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/ZH893R/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/PZ8CMJ/",
+      "title": "Keiya Sasaki"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/ZH893R/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

@@ -1,0 +1,114 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "CVT8GC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Getting Sentinel Data within Seconds with STAC Workshop",
+    "description": "Discover how to access and analyze Sentinel satellite imagery in seconds using STAC APIs and Microsoft Planetary Computer. In this hands-on workshop, you'll use Python to fetch data, calculate vegetation indices, and build efficient Earth observation workflows.\n\nThis hands-on workshop introduces a modern and efficient way to access and analyze Sentinel satellite data using STAC (SpatioTemporal Asset Catalog) APIs and the Microsoft Planetary Computer. You'll learn how to build scalable Earth observation workflows in Python\u2014without downloading massive datasets manually.\r\nWe\u2019ll begin with an overview of STAC and the role of the Microsoft Planetary Computer as a cloud-native source for open geospatial data. Participants will learn how to search and access Sentinel-2 and Sentinel-1 imagery based on time, location, and cloud coverage\u2014directly within Python using libraries like pystac-client, odc-stac, and xarray.\r\nDuring the workshop, you'll:\r\n- Search and preview Sentinel datasets using STAC\r\n- Fetch cloud-hosted imagery from Microsoft Planetary Computer\r\n- Visualize bands and calculate vegetation indices like NDVI, EVI, and RVI\r\n- Perform pixel-level analysis with minimal compute time\r\n- Build efficient, reproducible workflows using Jupyter notebooks\r\n\r\nBy the end, you\u2019ll have a working pipeline to go from area of interest to actionable insights in minutes\u2014ideal for environmental monitoring, agriculture, and forest analysis. This workshop is perfect for developers, remote sensing analysts, or GIS professionals looking to simplify and accelerate their satellite data workflows.",
+    "start_datetime": "2025-11-17T00:30:00Z",
+    "end_datetime": "2025-11-17T03:30:00Z",
+    "talk:code": "CVT8GC",
+    "talk:guid": "841ba313-898c-56c2-b167-3756df3f529d",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Workshop - Beginner Friendly",
+    "talk:type": "Workshop",
+    "talk:language": "en",
+    "talk:room": "WF502",
+    "talk:room_capacity": 30,
+    "talk:duration_minutes": 180,
+    "talk:speakers": [
+      {
+        "code": "J7Z7F8",
+        "name": "krishna lodha",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/J7Z7F8/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-17T02:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/CVT8GC/",
+      "title": "Getting Sentinel Data within Seconds with STAC Workshop"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/CVT8GC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/J7Z7F8/",
+      "title": "krishna lodha"
+    },
+    {
+      "rel": "related",
+      "href": "https://rottengrapes.tech/",
+      "title": "Rotten Grapes Private Limited"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.youtube.com/@krishnaglodha",
+      "title": "YouTube tutorials"
+    },
+    {
+      "rel": "related",
+      "href": "https://medium.com/rotten-grapes",
+      "title": "technical blogs"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/CVT8GC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=9miyk6AgYsw",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Getting Sentinel Data within seconds",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

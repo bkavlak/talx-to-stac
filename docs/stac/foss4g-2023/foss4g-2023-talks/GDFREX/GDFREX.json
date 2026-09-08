@@ -1,0 +1,129 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "GDFREX",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Connecting SMODERP with Living Landscape - QGIS Plugin",
+    "description": "The Model of Living Landscape (MLL) is a set of empirical based tools for land management and landscape planning. It recognizes the complexity of the interactions between humans and the natural environment, and it aims to create a sustainable and resilient landscape that supports the well-being of both people and nature. One of the core MLL components is a process-based model for rainfall-runoff and erosion computation called SMODERP. The model operates on the principle of cell-by-cell mass balance, calculated at each time step. SMODERP (https://github.com/storm-fsv-cvut/smoderp2d) is open-source software implemented in Python language to ensure compatibility with most GIS software solutions. The current implementation supports Esri ArcGIS, GRASS GIS and QGIS. In this contribution, a new QGIS SMODERP plugin linking the hydrologic model outputs to MLL will be presented. The plugin performs the input data preparation on the background using GRASS GIS data provider, computation is done by SMODERP Python package, and results visualised with predefined map symbology in QGIS map canvas. \r\n\r\nThis contribution was supported by grant RAGO - Living landscape (SFZP 085320/2022) and Using remote sensing to assess negative impacts of rainstorms (TA\u010cR - SS01020366).",
+    "start_datetime": "2023-06-29T12:00:00Z",
+    "end_datetime": "2023-06-29T12:30:00Z",
+    "talk:code": "GDFREX",
+    "talk:guid": "45e9c872-0e2d-5373-ae9f-d40ffd9a5444",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Mirusha",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "AJGKPK",
+        "name": "Martin Landa",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/AJGKPK/"
+      },
+      {
+        "code": "LDLAFY",
+        "name": "Ond\u0159ej Pe\u0161ek",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/LDLAFY/"
+      },
+      {
+        "code": "XBETJA",
+        "name": "Petr Kavka",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/XBETJA/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-29T12:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/GDFREX/",
+      "title": "Connecting SMODERP with Living Landscape - QGIS Plugin"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/GDFREX/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/AJGKPK/",
+      "title": "Martin Landa"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/LDLAFY/",
+      "title": "Ond\u0159ej Pe\u0161ek"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/XBETJA/",
+      "title": "Petr Kavka"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/GDFREX/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/5q4eSDZEFpNcwmCUUXi1FX",
+      "type": "text/html",
+      "title": "2023 | Connecting SMODERP with Living Landscape   QGIS Plugin - Petr Kavka & Ond\u0159ej Pe\u0161ek",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=dHbErU40h84",
+      "type": "text/html",
+      "title": "2023 | Connecting SMODERP with Living Landscape   QGIS Plugin - Petr Kavka & Ond\u0159ej Pe\u0161ek",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

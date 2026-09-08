@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "8MAGEX",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Three Rewrites and a Standard: A Year Inside Re:Earth Flow",
+    "description": "Re:Earth Flow is an open-source visual ETL engine for 3D city models, shown here last year as an alpha. This year we stopped adding and started reading it back: a new geometry core, a new expression language, and a written standard that all 164 of our workflow actions now have to meet. What we found, what we changed, and which decisions we stopped delegating. With a live demo on Japan's PLATEAU data.\n\nRe:Earth Flow was eighteen months in the making when we presented it here last year: a visual, node-based ETL engine for geospatial data, built primarily against Japan's PLATEAU 3D city model. Like most projects on a deadline with a small team, we shipped fast, and we leaned heavily on AI assistance to do it. This talk is about the year that followed \u2014 the one where we read our own work back.\r\n\r\nThe same decision turned up at three layers of the stack. The geometry core is being replaced with a unified model, migrated action by action behind a feature flag rather than on a long-lived branch. The expression language that users write inline in their workflows was rebuilt from scratch instead of patched further. And every one of our 164 workflow actions now has to meet a written standard covering naming, parameters, port conventions, and how failures are routed rather than dropped \u2014 with 74 audited and visible today, the remaining 90 hidden behind a server-side gate until each has been through the same review, then brought back batch by batch.\r\n\r\nI'll walk through that third one end to end: what a standard for a workflow action actually needs to say, the bugs an audit finds that a passing test suite doesn't \u2014 parameters the schema advertises that the code never applies, names that promise more than the implementation delivers \u2014 and why writing the standard down is what made the rest of the work delegable at all. The honest version of the AI story isn't that we stopped using it; it's that we learned which decisions it shouldn't be making.\r\n\r\nThe talk closes with a live demo on PLATEAU data of the tooling that makes this possible: inspecting feature data at any port mid-pipeline, checking attribute schemas before a run, viewing CityGML LOD geometry in the browser, and re-running from a selected node against cached upstream results. You can't hold a standard on a pipeline you can't see inside.\r\n\r\nTakeaways: what to specify before delegating implementation work at scale; why hiding functionality can be a better release strategy than shipping it unreviewed; a concrete checklist for evaluating the transformer library of any ETL tool.\r\n\r\nWho this is for: maintainers of geospatial tooling, anyone working with CityGML or PLATEAU data, and anyone currently deciding how much of their codebase to hand to AI.",
+    "start_datetime": "2026-09-02T08:00:00Z",
+    "end_datetime": "2026-09-02T08:30:00Z",
+    "talk:code": "8MAGEX",
+    "talk:guid": "52f79573-bca3-5bac-8aeb-771e2d9fa880",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Ran1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "PD7ETL",
+        "name": "Kyle Waite",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/PD7ETL/"
+      },
+      {
+        "code": "3GHELD",
+        "name": "Bill Cook",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/3GHELD/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T08:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/8MAGEX/",
+      "title": "Three Rewrites and a Standard: A Year Inside Re:Earth Flow"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/8MAGEX/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/PD7ETL/",
+      "title": "Kyle Waite"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/3GHELD/",
+      "title": "Bill Cook"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/8MAGEX/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "3CZCNP",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "FloodA5: An Open-Source Framework for Flood Modelling on an Equal-Area Pentagonal DGGS",
+    "description": "# Background\r\nFlood inundation models are an essential component of flood hazard assessment, emergency management, infrastructure planning, and climate adaptation. Most contemporary two-dimensional flood models operate on structured raster grids or unstructured meshes and typically require repeated conversion between raster, vector, and computational representations throughout the modelling workflow. While these approaches are mature and widely adopted, they can introduce complexity in data management and interoperability. Discrete Global Grid Systems (DGGS) provide an alternative spatial framework based on hierarchical tessellations that support globally consistent indexing, multi-resolution analysis, and standardised spatial referencing. Although DGGS have been widely applied in Earth observation, geospatial analytics, and environmental data management, comparatively little work has explored their use as the primary computational mesh for hydrodynamic simulation.\r\nThis paper presents FloodA5, an open-source flood modelling framework built on the A5 equal-area pentagonal DGGS. The A5 DGGS provides an equal-area hierarchical tessellation of the Earth composed of pentagonal cells. At any given resolution, all cells possess identical area, while refinement follows a strict parent\u2013child hierarchy in which each cell subdivides into five children. Interior cells possess a uniform five-neighbour topology, and compact hierarchical identifiers provide efficient indexing and storage. These properties make the grid attractive for hydrodynamic modelling because water storage calculations can be performed directly from cell area and depth, while the hierarchical structure provides a potential pathway towards future adaptive multi-resolution simulations.\r\n# Methods\r\nFloodA5 was developed to investigate the feasibility of performing flood inundation modelling within a fully DGGS-native workflow, maintaining a single spatial representation from mesh generation through terrain processing, simulation, storage, and visualisation. The framework is implemented primarily in Julia, with DGGS operations provided through the pya5 ecosystem via a lightweight Python interoperability layer. FloodA5 integrates mesh generation, digital elevation model (DEM) processing, hydrodynamic simulation, sub-grid terrain representation, visualisation, and data storage within a unified software architecture.\r\nFloodA5 currently supports two hydrodynamic formulations. The standard solver applies the inertial shallow-water approximation of Bates et al. (2010) on the A5 mesh. Because A5 cells form a non-orthogonal polygonal grid, a first-order correction based on the angle between the edge normal and the cell-centre connection vector is applied when calculating water-surface gradients. The framework also includes an optional Sub-Grid Sampling (SGS) formulation intended to represent terrain variability below the computational mesh resolution. Rather than storing a single representative elevation for each cell, the SGS approach derives hypsometric relationships from high-resolution DEM samples and pre-computes volume\u2013elevation, wetted-area, hydraulic-radius, conveyance, and edge-sill relationships. During simulation, water storage is tracked as volume and converted to water-surface elevation through inversion of the hypsometric curves, while flow routing uses hydraulic properties derived from the pre-computed SGS tables.\r\nThe framework was evaluated using two synthetic benchmark problems and a real-world flood case study. The first benchmark consisted of a point-source injection on a flat domain. Under isotropic conditions, the resulting inundation pattern should be circular and therefore provides a simple test of directional bias. The second benchmark consisted of a planar slope intersected by a perpendicular embankment. This benchmark was designed to evaluate routing behaviour under a known flow direction and assess the ability of the SGS formulation to represent sub-cell topographic barriers. A larger-scale evaluation was performed using the January 2005 Carlisle flood event, using the same domain configuration and inflow hydrographs employed in previous LISFLOOD-FP studies. Three FloodA5 configurations were tested: a resolution 18 standard solver (approx. 22 m cell spacing), a resolution 20 standard solver (approx. 5.6 m cell spacing), and a resolution 18 SGS solver. Results were compared against a 5 m LISFLOOD-FP reference simulation using inundation extent intersection-over-union (IoU) and depth RMSE metrics.\r\n# Results\r\nThe synthetic benchmarks demonstrated that physically plausible flood propagation can be simulated on the A5 DGGS. In the point-source benchmark, the resulting inundation pattern exhibited a high Polsby\u2013Popper circularity score of 0.96, indicating near-circular expansion. However, visual inspection revealed a preferred northwest\u2013southeast propagation axis, suggesting the presence of directional routing bias. The planar slope benchmark provided stronger evidence of this behaviour, with the flood wave deviating approximately 30\u201360 degrees from the expected downslope direction. These results indicate limitations in the current treatment of non-orthogonal gradients and suggest that more sophisticated gradient reconstruction approaches may be required for accurate routing on pentagonal meshes.\r\nThe SGS benchmark revealed a second important limitation. Although the SGS formulation successfully represented sub-cell elevation variability, it failed to reproduce the hydraulic effect of an embankment located entirely within individual cells. Water was able to pass through the barrier because the current SGS representation preserves elevation distributions but not the spatial arrangement of topographic features. This finding highlights a potential limitation of storage-based sub-grid approaches when internal barriers are important controls on flow routing.\r\nComparison with the Carlisle reference simulation demonstrated that useful flood simulations can nevertheless be produced using the current implementation. The Resolution 18 standard solver produced the closest correspondence with the LISFLOOD-FP reference, achieving an IoU of 0.67 and a depth RMSE of 1.17 m. While these results indicate only reasonable rather than strong agreement, they demonstrate that a DGGS-native flood model can reproduce broad inundation patterns within a real-world catchment. Interestingly, neither increased resolution nor the SGS formulation improved performance, suggesting that numerical formulation errors currently dominate resolution-related effects.\r\nComputational performance was also evaluated. A Resolution 18 mesh containing approximately 30,000 cells was generated in approximately two minutes and completed a 120-hour flood simulation in 39 minutes on a workstation-class AMD Ryzen Threadripper system. These results indicate that DGGS-native flood modelling can be performed efficiently without specialised high-performance computing infrastructure.\r\n# Conclusions\r\nThe results demonstrate the feasibility of hydrodynamic flood modelling on an equal-area pentagonal DGGS and establish FloodA5 as one of the first open-source frameworks to provide a complete DGGS-native flood-modelling workflow. At the same time, the synthetic benchmarks identify important methodological challenges, particularly in relation to non-orthogonal gradient treatment and sub-grid representation of internal topographic barriers. These findings should not be interpreted as limitations of DGGS-based modelling in general. Rather, they highlight the importance of numerical formulations specifically designed for non-orthogonal polygonal meshes. Beyond flood modelling, FloodA5 illustrates the broader potential of DGGS-native environmental simulation frameworks and provides an open-source platform for future research into multi-scale environmental modelling, integrated geospatial analysis, and environmental digital twins.",
+    "start_datetime": "2026-09-02T05:30:00Z",
+    "end_datetime": "2026-09-02T06:00:00Z",
+    "talk:code": "3CZCNP",
+    "talk:guid": "b56407e3-005a-57f4-8989-89291ad14f46",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos1",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "7G79AY",
+        "name": "Matthew Wilson",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/7G79AY/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T05:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/3CZCNP/",
+      "title": "FloodA5: An Open-Source Framework for Flood Modelling on an Equal-Area Pentagonal DGGS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/3CZCNP/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/7G79AY/",
+      "title": "Matthew Wilson"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/3CZCNP/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

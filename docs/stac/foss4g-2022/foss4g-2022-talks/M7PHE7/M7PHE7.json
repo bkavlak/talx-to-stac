@@ -1,0 +1,189 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "M7PHE7",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "State of GeoRasterLayer: A LeafletJS Plugin for Visualizing GeoTIFFs (and soon other rasters)",
+    "description": "GeoRasterLayer is a LeafletJS Plugin for visualizing GeoTIFFs.  This presentation will show live demos of new features and discuss the roadmap for the next couple of years.\r\n\r\n### Features\r\n- Support for nearly all projections, thanks to [proj4-fully-loaded](https://github.com/danieljdufour/proj4-fully-loaded) and [epsg.io](https://epsg.io/)\r\n- Super faster rendering thanks to a simple nearest neighbor interpolation\r\n- Use of web workers means seamless integration that doesn't block main thread\r\n- Loads large geotiffs greater than a hundred megabytes\r\n- Supports custom rendering including custom colors, directional arrows, and context drawing\r\n- Doesn't depend on WebGL\r\n\r\n### Videos\r\n- [Edge Compute: Cool Stuff You Can Do With COGs in the Browser](https://www.youtube.com/watch?v=XTkNhGpfmB8&t=4190s)\r\n- [2019 - Algorithm Walk-through: How to Visualize a Large GeoTIFF on Your Web Map](https://www.youtube.com/watch?v=K47JvCL99w0)\r\n\r\n### Examples\r\n- Loading the georaster-layer-for-leaflet library along with GeoBlaze via a script tag. You can view the source code [here](https://github.com/GeoTIFF/georaster-layer-for-leaflet-example/blob/master/examples/load-via-script-tag-with-geoblaze.html) and the live demo [here](https://geotiff.github.io/georaster-layer-for-leaflet-example/examples/load-via-script-tag-with-geoblaze.html).\r\n- Combining two Cloud Optimized GeoTIFFs together to create an NDVI map. You can view the source code [here](https://github.com/GeoTIFF/georaster-layer-for-leaflet-example/blob/master/examples/ndvi.html) and the live demo [here](https://geotiff.github.io/georaster-layer-for-leaflet-example/examples/ndvi.html).\r\n- Identifying Wildfires from a Landsat 8 Scene. You can view the source code [here](https://github.com/GeoTIFF/georaster-layer-for-leaflet-example/blob/master/examples/identifying-wildfires-with-landsat.html) and the live demo [here](https://geotiff.github.io/georaster-layer-for-leaflet-example/examples/identifying-wildfires-with-landsat.html).\r\n- Visualizing Population COG. You can view the source code [here](https://github.com/GeoTIFF/georaster-layer-for-leaflet-example/blob/master/examples/population.html) and the live demo [here](https://geotiff.github.io/georaster-layer-for-leaflet-example/examples/population.html).\r\n- Display a COG that represents only one band of a Landsat scene. You can view the source code [here](https://github.com/GeoTIFF/georaster-layer-for-leaflet-example/blob/master/examples/cog-with-only-one-band.html) and the live demo [here](https://geotiff.github.io/georaster-layer-for-leaflet-example/examples/cog-with-only-one-band.html).\r\n- Display a COG with YCbCr Photometric Interpretation.  You can view the source code [here](https://github.com/GeoTIFF/georaster-layer-for-leaflet-example/blob/master/examples/ycbcr.html) and the live demo [here](https://geotiff.github.io/georaster-layer-for-leaflet-example/examples/ycbcr.html).",
+    "start_datetime": "2022-08-26T12:45:00Z",
+    "end_datetime": "2022-08-26T13:15:00Z",
+    "talk:code": "M7PHE7",
+    "talk:guid": "6db540ae-7966-53e5-a35c-a016210f5a93",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Onice",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "SGXLDH",
+        "name": "Daniel J. Dufour",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/SGXLDH/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T13:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/M7PHE7/",
+      "title": "State of GeoRasterLayer: A LeafletJS Plugin for Visualizing GeoTIFFs (and soon other rasters)"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/M7PHE7/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/SGXLDH/",
+      "title": "Daniel J. Dufour"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/danieljdufour/proj4-fully-loaded",
+      "title": "proj4-fully-loaded"
+    },
+    {
+      "rel": "related",
+      "href": "https://epsg.io/",
+      "title": "epsg.io"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.youtube.com/watch?v=XTkNhGpfmB8&t=4190s",
+      "title": "Edge Compute: Cool Stuff You Can Do With COGs in the Browser"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.youtube.com/watch?v=K47JvCL99w0",
+      "title": "2019 - Algorithm Walk-through: How to Visualize a Large GeoTIFF on Your Web Map"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/GeoTIFF/georaster-layer-for-leaflet-example/blob/master/examples/load-via-script-tag-with-geoblaze.html",
+      "title": "here"
+    },
+    {
+      "rel": "related",
+      "href": "https://geotiff.github.io/georaster-layer-for-leaflet-example/examples/load-via-script-tag-with-geoblaze.html",
+      "title": "here"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/GeoTIFF/georaster-layer-for-leaflet-example/blob/master/examples/ndvi.html",
+      "title": "here"
+    },
+    {
+      "rel": "related",
+      "href": "https://geotiff.github.io/georaster-layer-for-leaflet-example/examples/ndvi.html",
+      "title": "here"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/GeoTIFF/georaster-layer-for-leaflet-example/blob/master/examples/identifying-wildfires-with-landsat.html",
+      "title": "here"
+    },
+    {
+      "rel": "related",
+      "href": "https://geotiff.github.io/georaster-layer-for-leaflet-example/examples/identifying-wildfires-with-landsat.html",
+      "title": "here"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/GeoTIFF/georaster-layer-for-leaflet-example/blob/master/examples/population.html",
+      "title": "here"
+    },
+    {
+      "rel": "related",
+      "href": "https://geotiff.github.io/georaster-layer-for-leaflet-example/examples/population.html",
+      "title": "here"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/GeoTIFF/georaster-layer-for-leaflet-example/blob/master/examples/cog-with-only-one-band.html",
+      "title": "here"
+    },
+    {
+      "rel": "related",
+      "href": "https://geotiff.github.io/georaster-layer-for-leaflet-example/examples/cog-with-only-one-band.html",
+      "title": "here"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/GeoTIFF/georaster-layer-for-leaflet-example/blob/master/examples/ycbcr.html",
+      "title": "here"
+    },
+    {
+      "rel": "related",
+      "href": "https://geotiff.github.io/georaster-layer-for-leaflet-example/examples/ycbcr.html",
+      "title": "here"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/M7PHE7/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/8faK69kcrNxvZVUeEo5Pp7",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | State of GeoRasterLayer: A LeafletJS Plugin for Visualizing GeoTIFFs (and soon other\u2026",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=M3hh6QBIC_A",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | State of GeoRasterLayer: A LeafletJS Plugin for Visualizing GeoTIFFs (and soon other\u2026",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

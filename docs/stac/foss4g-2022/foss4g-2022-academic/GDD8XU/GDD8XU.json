@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "GDD8XU",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Effect of water level on bird habitat at lake Maggiore",
+    "description": "Lake Maggiore and the Ticino River are water bodies shared by\r\nItaly and Switzerland: they are important resources for drinking\r\nwater, irrigation and hydroelectricity generation as well as for\r\ntourism and biodiversity. The cross-border character and the\r\noften conflicting needs of the different users make the shared\r\nmanagement of this resource very complex, but of great importance.\r\nThe `\u2018Parchi Verbano Ticino\u00b4\u2019 project, funded by Regione\r\nLombardia / EU \u2013 INTERREG Italia Svizzera 2014/2020, aims\r\nto study the effects of water levels of the lake on various environmental\r\ncomponents with a particular focus on protected\r\nnatural areas. The level of the lake is regulated by a dam located\r\nat the southern shore of the lake. In this framework, this\r\nstudy aims to analyse the effect of water level on bird migration\r\nby: 1) Calculate the inundated bird habitat using a simulation\r\nbased on measured water level; 2) calculate the inundated habitat\r\nfrom Sentinel-1 remote sensing imagery 3) Use the flooded\r\narea derived from S1 as ground truth to validate the previous\r\nsimulation 1).\r\nThe study area is centerend around Bolle di Magadino (Switzerland,\r\n8\u00b051\u201956.90\u201dE, 46\u00b09\u201942.17\u201dN, a protected wetland located\r\non the north shore of lake Maggiore at the confluence with the\r\nTicino river. The area is a recognized nesting and stopover\r\nsite for birds, listed as a Ramsar Wetland of International Importance\r\nand as Important Bird and Biodiversity Area (IBA).\r\nWe defined the habitats of interest  using\r\na vegetation map provided by Fondazione Bolle di Magadino.\r\nThe vegetation types collected from a phytosociological field\r\nstudy were aggregated into ten land cover classes that described\r\nthe habitat types and land use. The final habitat map covers\r\nan extent of 6.7 km\u00b2, including the 1500 ha of wetland called\r\nBolle di Magadino. Daily passage of migrant birds have been\r\nrecorded at Magadino ringing station and since 2019, traditional\r\nnet captures were coupled with an Avian Vertical-looking Radar\r\nIn this study we focus on the following periods, during which\r\nbird monitoring systems were both deployed: P1: 2019-05-01\u2013\r\n2019-06-20; P2 2019-10-01\u20132020-02-20 and P3 2021-02-01\u2013\r\n2021-07-20.\r\nThe lake level measured at the hydrological station of Locarno\r\n(CH) was used to determine the inundated area in GRASS GIS\r\nusing ther.fill module (GRASS Development Team, 2022) and\r\na DTM that included the lake bathymetry (cell size 0.5 m). The\r\nlake level fluctuated between 192.3 and 194.9 m.a.s.l. over the\r\nstudy period, with a minimum in April and May, when the waters\r\nare used to irrigate the rice fields downstream, and a maximum\r\nin late autumn.\r\n\r\nWe used the Google Earth Engine Platform (GEE) (Gorelick et\r\nal., 2017) to extract Sentinel-1 Synthetic Aperture Radar (SAR)\r\nimages (ESA, 2021) as they are suited for surface water mapping\r\nand not affected by cloud coverage (Ovakoglou et al., 2021).\r\nWe used Edge Otsu Algorithm with terrain correction (Markert\r\net al., 2020) to estimate the inundated areas of the collection of\r\na total of 236 images for the three time periods when bird migration\r\nwas also monitored. The calculation was implemented\r\nGEE with the approach described by Gorelick et al. (2017) calibrating\r\nthe threshold for our study area, adapting the code provided\r\nby Open Geo Blog (2021). The inundated areas were then\r\noverlapped with the land use map in order to estimate the extent\r\nof the submerged vegetation over the three time period defined.\r\nThe resolution of all maps was 10 m, except the DTM that has\r\n0.5 m, the CRS used in this work were WGS84 in GEE and the\r\nlocal CRS GCS CH1903 for all the other analysis.\r\nThe area covered with water, according to S1, varied between\r\n103.9 and 471.7 ha (210+- 83.6), some of the surface is a permanent\r\nwetland so it is never completely dry. Each habitat was\r\naffected differently by the flooding: when the water was at its\r\nhighest, croplands were completely inundated, grasslands and\r\nreeds were submerged for 80% of their extent whereas urban\r\nareas and infrastructures were not affected (less than 1% underwater).\r\nThe flooded area calculated by filling the terrain model\r\nat the level of the ranged from 130.4 to 248.90 ha (208+- 48.6).\r\nThe correlation between inundated areas obtained using r.fill in\r\nGRASS and S1 on the same dates was fair for P1 and P2, but\r\nnot for P3, when the water of the lake were taken for irrigation,\r\nbut the habitats were flooded by rainfall. An interpolation of the\r\nflooded from S1 is a more efficient way to obtain an estimate of\r\nthe flooded habitat on a daily basis, that is necessary to study\r\nits effect on migratory birds.\r\nThe results presented here will contribute to the definition sustainable\r\nmanagement tools of water management of lake Maggiore\r\ntaking into account the effect of lake level on biodiversity\r\nin general and on bird habitat in particular.",
+    "start_datetime": "2022-08-25T07:30:00Z",
+    "end_datetime": "2022-08-25T08:00:00Z",
+    "talk:code": "GDD8XU",
+    "talk:guid": "030e6e8a-b60e-5412-bdd7-67794bec73e7",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room Modulo 3",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "E8B7JX",
+        "name": "Clara Tattoni",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/E8B7JX/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T07:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/GDD8XU/",
+      "title": "Effect of water level on bird habitat at lake Maggiore"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/GDD8XU/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/E8B7JX/",
+      "title": "Clara Tattoni"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/GDD8XU/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

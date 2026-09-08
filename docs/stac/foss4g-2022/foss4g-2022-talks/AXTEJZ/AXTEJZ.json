@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "AXTEJZ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "DistrictBuilder, or how TopoJSON was the cause of and solution to all of our problems",
+    "description": "DistrictBuilder (districtbuilder.org) is a web-based, open-source tool for collaborative political boundary redistricting or redistribution.\r\n\r\nIn order to support creating legally valid districts, DistrictBuilder allows advocates and legislators to define districts using geometries as small as a single census block, which are very numerous \u2013 a medium-sized state will have hundreds of thousands of them. Users can create districts from any combination of geometries, and we need to be able to generate statistics and dissolve them into district geometries in near real-time.\r\n\r\nBy reformatting our data as TopoJSON, a file format and Node.js library for working with topological data, we are able to dissolve over half a million census blocks into legislative districts in only a few seconds!\r\n\r\nI\u2019ll discuss how we use TopoJSON in DistrictBuilder; the issues we encountered when using it at scale in production and how we were able to overcome them; and the other tools we considered instead of TopoJSON and how they compared in terms of performance.\r\n\r\nI\u2019ll also go over our strategy for displaying and calculating metrics in real-time in the browser, using typed arrays and web-workers in combination with Mapbox vector tiles to do real-time aggregation of statistics from hundreds of thousands of features.",
+    "start_datetime": "2022-08-25T07:00:00Z",
+    "end_datetime": "2022-08-25T07:30:00Z",
+    "talk:code": "AXTEJZ",
+    "talk:guid": "92c974ff-1ad0-50f4-ad21-17e5bc2e845c",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room 4",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "NYNUNG",
+        "name": "Michael Maurizi",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/NYNUNG/"
+      },
+      {
+        "code": "XW9A7S",
+        "name": "Daniel McGlone",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/XW9A7S/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T07:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/AXTEJZ/",
+      "title": "DistrictBuilder, or how TopoJSON was the cause of and solution to all of our problems"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/AXTEJZ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/NYNUNG/",
+      "title": "Michael Maurizi"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/XW9A7S/",
+      "title": "Daniel McGlone"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/AXTEJZ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=I5MF-rwKIus",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | DistrictBuilder, or how TopoJSON was the cause of and solution to all of our problems",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

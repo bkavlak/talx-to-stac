@@ -1,0 +1,97 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "JQMHCW",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "Open Technologies Supporting Linked Open Data Publishing: Croatian Population Census Case Study",
+    "description": "Population census is one of the most complex statistical undertake of a country that results in a detailed social, demographic, and economic data about its population. Achieving and maintaining of population's welfare relies heavily on effective socio-economic policies that are rooted in census data. According to the United Nations The 2020 World Population and Housing Census Programme, census data is the backbone for formulating, implementing, and monitoring of such policies (United Nations Statistical Commision, 2015 ) as it allows policymakers to make data-driven decision-making and target economic and social challenges more effectively. \r\nIn European context, the collection of census data has a long-standing tradition and today is governed by legal frameworks such as EU Regulation on Population and Housing Censuses 763/2008 that standardized methodology and comparability across countries. However, the way census data is disseminated was transformed with the adoption of 2019 EU Open Data Directive which obliged governments to unrestrictedly publish data for anyone to reuse. Not only does it argue for free and available data, but the Directive also classifies census data as high-value data. Such classification underscores its immense potential for fostering societal and economic development and urges its provision in machine readable formats or via suitable APIs to foster this goals. \r\nPublishing census as open data on the web undoubtedly improves data accessibility but simply making the data available does not necessarily eliminate the challenges associated with data integration and interoperability. Potential solution to this problem lies in the shifting from a web of documents, which is inherently designed for human consumption, to web of data where structured, machine-accessible data enables automated processing and integration by the computer (Hogan, 2020). To assess how effectively open data supports the transition to a web of data, Tim Berners-Lee proposed the 5-star deployment scheme for Linked Open Data (LOD). This rating system evaluates the openness and interoperability of data based on a set of key principles. At the most basic level (one-star data), data is merely published on the web, regardless of format. As the data becomes more structured and adheres to semantic web standards, it progresses through higher levels of the scheme. The highest level, five-star linked open data (LOD), represents dataset that is semantically described, structured in standard formats, and interlinked with other datasets. This transition from isolated, file-based datasets to interconnected, structured data allows scattered data to be connected into a global knowledge ecosystem, paving the way for more intelligent data use.\r\nThe concept of LOD is intrinsically linked to the Semantic Web, as it relies on semantic web technologies such as RDF triples (Resource Description Framework), SPARQL, and ontologies to structure and interlink datasets across the web. By adhering to the LOD principles, use of URIs, HTTP access, RDF structure, and links to other datasets, LOD facilitates data discoverability, interoperability, and reusability, ultimately allowing for richer, more insightful analyses across multiple domains.\r\nThe growing demand for semantically interoperable population census data (LOD) has exposed the limitations of traditional data dissemination formats, prompting the need for more flexible and machine-processable solutions. In Croatia, national statistical agency provides geocoded census data as open data primarily in. xslx format, which imposes significant constraints on automated data processing, and cross-domain analysis. To overcome these limitations, this research aims to provide the basis for publishing the Croatian census as LOD by utilizing the capabilities of OpenRefine, a fully open source data processing tool. By using open source technology, we ensure that each step of the transformation \u2013 from data cleaning to RDF triple generation \u2013 is transparent, reproducible and adaptable to diverse datasets and research contexts, which is in line with the principles of openness advocated by FOSS4G communities.\r\nTo achieve the proposed goal, the methodology includes three main steps: (1) data source identification, (2) semantical description of the census data and (3) data transformation to RDF triples. The census data provided by the Croatian Bureau of Statistics is identified as the primary dataset. This data pertains to the 2021 Census, is aggregated at the administrative spatial unit level, and is provided in .xlsx format. Additionally, corresponding spatial unit geometries are obtained from the State Geodetic Administration, which provides geospatial boundaries in ESRI Shapefile format. Data semantical descriptions reuse existing vocabularies and ontologies to define a structured conceptual model for census data. Specifically, the W3C RDF Data Cube Vocabulary is employed to model the semantic structure of census attributes, while the OGC GeoSPARQL Query Language is integrated to incorporate geospatial components, ensuring that census data is linked to its corresponding spatial regions and geometries. In the final step, .xlsx census data are transformed into RDF triples using OpenRefine. The existing tabular structure is mapped to the RDF Data Cube schema, with spatial units classified as qb:Dimension, population counts as qb:MeasureProperty, and units of measurement as qb:AttributeProperty. Finally, GeoSPARQL classes are utilized to extend spatial units with geospatial properties, such as polygon geometries.\r\nPublishing census data as LOD using Open Refine data manipulation tool demonstrates that existing open technology and conceptual models can easily support the transition to a web of data. However, a potential limitation of the presented approach lies in its realiance on predefined concepts withing the RDF Data Cube schema, rather than extending the ontology to include more detailed domain-specific concepts. Nonetheless, converting Croatia\u2019s census data into LOD represents a significant step toward improved data integration, enhanced accessibility, and the generation of new insights. Future research efforts in this direction may focus on expanding the scope of LOD cloud by integrating housing census data and establishing linkages between population and housing statistics in an LOD framework.",
+    "start_datetime": "2025-07-18T12:00:00Z",
+    "end_datetime": "2025-07-18T12:30:00Z",
+    "talk:code": "JQMHCW",
+    "talk:guid": "bdf362cf-af41-5abd-853d-694596e83c56",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Academic track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "PA01 (Quarticle)",
+    "talk:room_capacity": 95,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "CXBEHX",
+        "name": "Karlo Kevi\u0107",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/CXBEHX/"
+      }
+    ],
+    "talk:do_not_record": true,
+    "datetime": "2025-07-18T12:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/JQMHCW/",
+      "title": "Open Technologies Supporting Linked Open Data Publishing: Croatian Population Census Case Study"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/JQMHCW/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/CXBEHX/",
+      "title": "Karlo Kevi\u0107"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/JQMHCW/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "open-technologies-supporting-linked-open-data-publishing-cro": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/JQMHCW/resources/Open_Technologies_supporting_LOD_Kevic_UKFxBZ5.pdf",
+      "type": "application/pdf",
+      "title": "Open Technologies Supporting Linked Open Data Publishing: Croatian Population Census Case Study Full Paper",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

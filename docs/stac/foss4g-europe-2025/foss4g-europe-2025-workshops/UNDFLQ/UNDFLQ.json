@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "UNDFLQ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8094,
+      43.3416
+    ]
+  },
+  "bbox": [
+    17.8094,
+    43.3416,
+    17.8094,
+    43.3416
+  ],
+  "properties": {
+    "title": "Serving and Displaying Vector Tiles with PostgreSQL, Tegola, and OpenLayers: Hands-on Coding Workshop",
+    "description": "This workshop demonstrates a full workflow for serving and visualizing vector tiles using open-source tools. We will cover essential spatial data management in PostgreSQL/PostGIS, generating vector tiles through Tegola, and rendering them in a basic React application using OpenLayers. The primary focus is to provide a clear, end-to-end solution that participants can adapt to their own map-driven projects or organizational requirements. \r\n\r\nThe session begins by examining best practices for structuring and indexing geospatial data in PostgreSQL/PostGIS. Participants will learn how to organize tables, create spatial indexes, and leverage PostGIS functionalities for efficient queries. This foundational step ensures that performance is maintained when dynamically creating vector tiles, even for large datasets. The workshop will then guide attendees through Tegola\u2019s setup, demonstrating how to map backend data to vector tile layers via a straightforward configuration. Techniques for defining multiple layers and handling geometry transformations will be covered, giving participants the tools needed to generate tiles on the fly. \r\n\r\nMoving on to the frontend, we will build a basic React application that fetches and renders the Tegola-served vector tiles. With OpenLayers as the primary mapping library, the workshop will show how to set up data sources, bind them to interactive map components, and display or hide layers as needed. Through examples and best practices, participants will see how to manage typical mapping features, such as popup information or user-driven layer toggling, while maintaining performant and responsive applications. Although we will not go deeply into caching strategies, we will highlight how optimizing data loading and proper data structuring can provide a smoother user experience when dealing with numerous vector tiles. \r\n\r\nA core theme of the workshop involves creating and managing map styles on the backend, which is particularly beneficial when multiple or frequently changing layers must be styled consistently. Attendees will learn how to define a Mapbox-style JSON document, store it in a centralized location, and leverage the ol-mapbox-style plugin in OpenLayers to apply these definitions automatically. This streamlined approach reduces repetitive work in the frontend and helps maintain style consistency across different projects or teams. \r\n\r\nThroughout the workshop, real-world challenges and potential pitfalls will be discussed, including common performance considerations and troubleshooting strategies for vector tile pipelines. Participants will explore how to handle large datasets effectively, address geometry errors, and debug tile generation issues. These insights will equip attendees with practical techniques to ensure their mapping applications remain stable and efficient, even under demanding conditions. \r\n\r\nThis workshop is hands-on and code-oriented, giving participants a practical guide they can follow step by step. Sample datasets and code snippets will be supplied, helping attendees quickly understand core concepts and apply them in real-time. By combining PostgreSQL/PostGIS, Tegola, React, and OpenLayers, this workshop delivers a robust, open-source foundation for building modern, scalable web mapping applications. By the end of the session, attendees will have a working proof-of-concept application, along with the knowledge and confidence to integrate these techniques into future projects.\n\nDuring this technically focused workshop, attendees will learn how to build a complete vector tile pipeline from spatial data management in a PostgreSQL/PostGIS environment to a fully functional web map interface built with React and OpenLayers. \r\n\r\n1. Data Preparation - We begin with best practices for storing and indexing geospatial data in PostgreSQL/PostGIS. This includes tips on data modeling, indexing strategies, and query optimizations for high-performance tile generation. \r\n\r\n2. Tegola Setup - Next, we install and configure Tegola, a vector tile server that interfaces with PostgreSQL. We\u2019ll walk through creating a configuration file to define map layers, handling geometry transformations, and generating vector tiles on the fly. You\u2019ll see how to manage multiple layers and styles using Tegola\u2019s straightforward configuration syntax. \r\n\r\n3. Frontend Integration - We then move to building a React application that consumes the Tegola-served vector tiles. Using OpenLayers, attendees will learn how to set up vector tile sources and implement interactive map features (e.g., popup information, layer toggling etc.). We\u2019ll discuss strategies for maintaining efficient loading times and smooth interactions in a production setup. \r\n\r\n4. Styling with ol-mapbox-style - A key focus will be on moving layer styling logic to the backend (important when working with large number of layers). We\u2019ll demonstrate how to define a Mapbox-style JSON document and leverage the ol-mapbox-style plugin in OpenLayers to automatically apply that style. This approach simplifies collaboration and ensures consistent styling, eliminating repetitive frontend adjustments as data changes. \r\n\r\n5. Performance and Troubleshooting - We\u2019ll address performance tuning, caching, and troubleshooting common issues in vector tile pipelines. You\u2019ll learn how to optimize tile generation and serve large datasets effectively. \r\n\r\nThroughout the workshop, attendees will follow a practical, step-by-step approach, resulting in a working proof-of-concept application by the end. Familiarity with PostgreSQL, React, and basic mapping concepts is recommended, but we\u2019ll provide contextual guidance to ensure everyone can keep pace. The whole workshop (and code) will be provided using GitHub (or similar repository) for easier participation.",
+    "start_datetime": "2025-07-15T12:00:00Z",
+    "end_datetime": "2025-07-15T16:00:00Z",
+    "talk:code": "UNDFLQ",
+    "talk:guid": "251edd7f-0ed4-52c3-9c14-7d101ea5d721",
+    "talk:event": "foss4g-europe-2025-workshops",
+    "talk:type": "workshop",
+    "talk:language": "en",
+    "talk:room": "PA11",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "XDGEWX",
+        "name": "Luka Stemberga",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025-workshops/speaker/XDGEWX/"
+      },
+      {
+        "code": "AM7FN8",
+        "name": "Ivan",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025-workshops/speaker/AM7FN8/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-15T14:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025-workshops/talk/UNDFLQ/",
+      "title": "Serving and Displaying Vector Tiles with PostgreSQL, Tegola, and OpenLayers: Hands-on Coding Workshop"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025-workshops/talk/UNDFLQ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025-workshops/speaker/XDGEWX/",
+      "title": "Luka Stemberga"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025-workshops/speaker/AM7FN8/",
+      "title": "Ivan"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025-workshops/talk/UNDFLQ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-workshops"
+}

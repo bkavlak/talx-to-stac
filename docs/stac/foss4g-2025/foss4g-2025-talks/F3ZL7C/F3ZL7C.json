@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "F3ZL7C",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Saving lives with GIS: engineering our open-source mapping stack",
+    "description": "Abley\u2019s open-source mapping stack powers high performance apps and APIs using PostGIS, GeoServer and MapLibre. The architecture underpins Abley\u2019s SafeSystem data platform and road safety applications. This presentation, aimed at spatial developers, explores the stack\u2019s architecture, discusses engineering challenges encountered and presents key learnings.\n\nAbley\u2019s open-source mapping stack powers its SafeSystem suite of road safety applications and data APIs, helping US transportation agencies optimise investments and reduce deaths and serious injuries on their road networks. The suite delivers consistently fast performance and smooth user interaction, even under heavy data loads.\r\n\r\nThe architecture comprises a PostGIS database, GeoServer (serving cached vector tile operational layers and managing security), MBTileserver for contextual data layers, and Nginx as a reverse proxy. Core road safety applications use MapLibre GL JS, plus a standalone API Explorer app enables seamless integration with desktop GIS tools via open standards like WMS and WFS. Docker Compose orchestrates the stack, ensuring consistent environments and enabling robust and scalable deployments, and simplifying testing and debugging.\r\n\r\nTopics discussed in this presentation include pros/cons of alternative architectures considered, techniques for securing GeoServer within Docker, challenges and solutions when integrating secure services with desktop GIS and contributing back to open-source communities. The presentation also outlines a pragmatic, agile engineering approach that balances requirements, stability and system security while avoiding speculative over-engineering . Spatial developers will gain insights into performant spatial data hosting and discover practical guidance for getting started with GeoServer, as well as vector tiles and integrating with desktop GIS.",
+    "start_datetime": "2025-11-20T03:00:00Z",
+    "end_datetime": "2025-11-20T03:25:00Z",
+    "talk:code": "F3ZL7C",
+    "talk:guid": "27ff770c-66fd-57cd-acb1-5767088a8099",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Use Cases and Applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG126",
+    "talk:room_capacity": 140,
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "LQ9KHP",
+        "name": "Stacy Rendall",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/LQ9KHP/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-20T03:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/F3ZL7C/",
+      "title": "Saving lives with GIS: engineering our open-source mapping stack"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/F3ZL7C/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/LQ9KHP/",
+      "title": "Stacy Rendall"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/F3ZL7C/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=Z4eT1NJ8Pd4",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Saving lives with GIS: engineering our open-source mapping stack",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

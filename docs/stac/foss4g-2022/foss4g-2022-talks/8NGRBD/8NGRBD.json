@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "8NGRBD",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "On the road to 3D semantic segmentation",
+    "description": "A few years after the democratization of semantic segmentation advanced techniques in the 2D\r\ncontext (imagery), there are more and more initiatives for exploiting such algorithms with 3D\r\ndatasets. The context appears favorable: public and private initiatives are arising in terms of\r\nmassive 3D dataset collection, hence a huge amount of 3D point cloud data will become available in\r\na near future. As an example, the french cartography institute (IGN) is currently targetting a\r\nfull-coverage of the country with LIDAR data in the five next years.\r\n\r\nConsidering 3D point clouds is a really challenging task regarding semantic segmentation. Whilst\r\nthis data format allows to represent a scene with a high level of details, the unordered and\r\nunstructured nature of the data makes the standard convolution neural network approach\r\nineffective. However other deep learning algorithms exist to cope with these\r\ncharacteristics. Depending on the desired accuracy and the labelled data availability, some\r\n\"softer\" machine learning approaches may also complete the toolbox.\r\n\r\nLeveraging georeferenced data in such a context may be an interesting avenue in order to improve\r\nthe algorithm performances. In any case, these fairly innovative solutions can be applied in some\r\ngeographical use cases, e.g. cartography with street-views, Building Information Modelling (BIM),\r\n...\r\n\r\nThis presentation will provide some insights on these 3D semantic segmentation related topics:\r\n\r\n* the 3D semantic segmentation state-of-the-art will be flied over;\r\n\r\n* the BIM use case will be detailed through the presentation of an ongoing R&D project carried out\r\nby Bimadata.io, Oslandia and the LIRIS lab (CNRS);\r\n\r\n* the geo3dfeatures project (https://gitlab.com/Oslandia/geo3dfeatures) will be showcased in\r\norder to illustrate what the seminal component of a 3D point cloud segmentation software could\r\nbe.",
+    "start_datetime": "2022-08-24T12:15:00Z",
+    "end_datetime": "2022-08-24T12:45:00Z",
+    "talk:code": "8NGRBD",
+    "talk:guid": "4886ee5c-eb42-51c5-bc2b-aab232e95af2",
+    "talk:event": "foss4g-2022",
+    "talk:track": "AI4EO Challenges & Opportunities",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "General online",
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "3SSH9P",
+        "name": "Rapha\u00ebl Delhome",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/3SSH9P/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T12:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/8NGRBD/",
+      "title": "On the road to 3D semantic segmentation"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/8NGRBD/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/3SSH9P/",
+      "title": "Rapha\u00ebl Delhome"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/8NGRBD/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

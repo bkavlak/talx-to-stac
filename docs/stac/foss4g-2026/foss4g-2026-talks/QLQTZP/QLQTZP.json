@@ -1,0 +1,150 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "QLQTZP",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Pedestrian Trajectory Mapping with MapLibre and OpenCV from Videos",
+    "description": "I needed to analyze pedestrian flow patterns and draw them on map in urban spaces, so I built a simple pipeline to extract trajectories from smartphone videos which shot from a low line of sight.\n\n## Overall Pipeline\r\n1. Capturing videos of pedestrians with smartphone\r\n2. Pedestrian Detection with openCV DNN and makeing trajectories with CentroidTracker\r\n3. Homography transformation from video coordinate to wgs84\r\n4. Draw trajectory on interactive map\r\n5. Extract behavioral feature distributions and compare them, via information geometry, against a street-network manifold built with OSMnx\r\n\r\n## In this session\r\nI will talk about the barriers encountered during the experiment.\r\n1. From holding the smartphone with my hand to securing it with a tripod.\r\n2. How effective is a low line of sight in videos.\r\n3. Comparison between centroid and footprint trackers.\r\n4. How and how many trajectory points I sampled.\r\n5. Why I switched trackers midway (CentroidTracker \u2192 ByteTrack) and what changed\r\n6. What happened when I compared pedestrian behavior with OSMnx-derived street network structure \u2014 did urban geometry explain how people moved?\r\n\r\n\r\n## Technologies Used\r\nThis project utilizes only open source technologies:\r\n- [**OpenCV DNN**](https://opencv.org/) - Computer vision and deep learning\r\n- [**CentroidTracker**](https://pyimagesearch.com/2018/07/23/simple-object-tracking-with-opencv/) - Multi-object tracking\r\n- [**MapLibre GL**](https://maplibre.org/) - Interactive web mapping\r\n- [**YOLOx**](https://github.com/Megvii-BaseDetection/YOLOX) - Object detection\r\n- [**Python**](https://www.python.org/), [**TypeScript**](https://www.typescriptlang.org/), [**React**](https://react.dev/) - Development frameworks\r\n- [**ByteTrack (via supervision library)**] - Multi-object tracking\r\n  originally proposed by Zhang et al. (ifzhang/ByteTrack)\r\n- [**OSMnx / NetworkX**] - street network extraction & graph analysis\r\n\r\n## License\r\nThis project acknowledges the following open source licenses:\r\n- [Apache 2.0](https://www.apache.org/licenses/LICENSE-2.0) - OpenCV, YOLOx, TypeScript\r\n- [BSD 3-Clause](https://opensource.org/licenses/BSD-3-Clause) - MapLibre GL\r\n- [MIT](https://opensource.org/licenses/MIT) - ByteTrack,React, supervision, OSMnx\r\n- [Python Software Foundation License](https://docs.python.org/3/license.html) - Python\r\n\r\n## \r\nI expect that this project contributes to individual protest analysis by analyzing pedestrian reactions.",
+    "start_datetime": "2026-09-02T04:00:00Z",
+    "end_datetime": "2026-09-02T04:30:00Z",
+    "talk:code": "QLQTZP",
+    "talk:guid": "68df0565-b7dc-5b67-af52-911cdb9ccbd1",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Ran2",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "8ZR7YK",
+        "name": "Toki Hirose",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/8ZR7YK/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T04:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/QLQTZP/",
+      "title": "Pedestrian Trajectory Mapping with MapLibre and OpenCV from Videos"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/QLQTZP/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/8ZR7YK/",
+      "title": "Toki Hirose"
+    },
+    {
+      "rel": "related",
+      "href": "https://opencv.org/",
+      "title": "**OpenCV DNN**"
+    },
+    {
+      "rel": "related",
+      "href": "https://pyimagesearch.com/2018/07/23/simple-object-tracking-with-opencv/",
+      "title": "**CentroidTracker**"
+    },
+    {
+      "rel": "related",
+      "href": "https://maplibre.org/",
+      "title": "**MapLibre GL**"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/Megvii-BaseDetection/YOLOX",
+      "title": "**YOLOx**"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.python.org/",
+      "title": "**Python**"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.typescriptlang.org/",
+      "title": "**TypeScript**"
+    },
+    {
+      "rel": "related",
+      "href": "https://react.dev/",
+      "title": "**React**"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.apache.org/licenses/LICENSE-2.0",
+      "title": "Apache 2.0"
+    },
+    {
+      "rel": "related",
+      "href": "https://opensource.org/licenses/BSD-3-Clause",
+      "title": "BSD 3-Clause"
+    },
+    {
+      "rel": "related",
+      "href": "https://opensource.org/licenses/MIT",
+      "title": "MIT"
+    },
+    {
+      "rel": "related",
+      "href": "https://docs.python.org/3/license.html",
+      "title": "Python Software Foundation License"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/QLQTZP/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "powerpoint-slides": {
+      "href": "https://1drv.ms/p/c/760ddc42e8d1c146/IQA8XrcD2rv-TLN8u_5HjkN-ATsSi2baYZWMW_J58YmnEYc?e=9s5n5i",
+      "title": "powerpoint slides",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

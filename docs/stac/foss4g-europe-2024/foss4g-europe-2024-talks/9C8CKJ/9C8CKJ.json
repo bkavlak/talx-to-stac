@@ -1,0 +1,132 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "9C8CKJ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Pan-European open building footprints: analysis and comparison in selected countries",
+    "description": "Building footprints (hereinafter buildings) represent key geospatial datasets for several applications, including city planning, demographic analyses, modelling energy production and consumption, disaster preparedness and response, and digital twins. Traditionally, buildings are produced by governmental organisations as part of their cartographic databases, with coverage ranging from local to national and licensing conditions being heterogeneous and not always open. This makes it challenging to derive open building datasets with a continental or global scale. Over the last decade, however, the unparalleled developments in the resolution of satellite imagery, artificial intelligence techniques and citizen engagement in geospatial data collection have enabled the birth of several building datasets available at least at a continental scale under open licenses.\r\nIn this work, we analyse four such open building datasets. The first is the building dataset extracted from the well-known OpenStreetMap (OSM, https://www.openstreetmap.org) crowdsourcing project, which creates and maintains a database of the whole world released under the Open Database License (ODbL). OSM buildings are typically derived from the digitalisation of high-resolution satellite imagery, and in some case from the import of other databases with ODbL-compatible licenses. The second dataset is EUBUCCO (https://eubucco.com), a pan-European building database produced by a research team at the Technical University Berlin by merging different input sources: governmental datasets when available and open, and OSM otherwise [1]. EUBUCCO is mostly licensed under the ODbL, with only exceptions for two regions in Italy and Czech Republic. The third dataset is Microsoft Open Building Footprints (MS, https://github.com/microsoft/GlobalMLBuildingFootprints), extracted through the application of machine learning technology from high-resolution Bing Maps satellite imagery between 2014 and 2023, available at the global scale and also licensed under the ODbL. The fourth dataset, called Digital Building Stock Model (DBSM), was produced by the Joint Research Centre (JRC) of the European Commission to support studies on energy-related purposes. It is an ODbL-licensed pan-European dataset produced from the hierarchical conflation of three input datasets: OSM, MS and the European Settlement Map [2].\r\nThe objective of this work is to compare the four datasets \u2013 which derive from different approaches following heterogeneous processing steps and governance rules \u2013 in terms of their geometry (i.e. attributes are out of scope) in order to draw conclusions on their similarity and differences. It is known from literature that building completeness in OSM (which plays a key role in three out of the four datasets \u2013 OSM itself, EUBUCCO and DBSM) varies with the degree of urbanisation [3] and that machine learning applied to satellite imagery (used in MS) may have different performance depending on the urban or rural context [4]. In light of this, we analyse the building datasets according to the degree of urbanisation of their location using the administrative boundaries provided by Eurostat, which classifies each European province as urban, semi-urban or rural (https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/administrative-units-statistical-units/countries). \r\nWe chose five European Union (EU) countries for the analysis: Malta (MT), Greece (EL), Belgium (BE), Denmark (DK) and Sweden (SE). The choice was motivated by the needs to: i) select countries of different size and geographical location, which ensure that their national OSM communities are substantially different; ii) select countries having different portions of urban, semi-urban and rural areas; and iii) select two sets of countries for which the input source for EUBUCCO buildings was a governmental dataset (BE, DK) and OSM (MT, EL, SE) to detect possibly different behaviours. \r\nFrom the methodological point of view, for each country and degree of urbanisation we first calculated and compared the total number and total area of buildings in all datasets and we examined their statistics through box plots. This was followed by the calculation, for each couple of datasets and degree of urbanisation, of the building area of intersection and its fraction of the total building area of each of the two datasets. Finally, we intersected all the four datasets and calculated the fraction of the area of each dataset that this intersection represents.\r\nResults show that in urban areas, while the datasets are overall similar in terms of total area of buildings, the total number of buildings is typically higher in EUBUCCO for DK and BE, where the information comes from governmental datasets. This suggests that such datasets outperform OSM in modelling the footprints of individual buildings in the most urbanised areas. In contrast, in semi-urban and rural areas, where OSM traditionally lacks completeness, MS (and as a consequence DBSM, which is also based on MS) captures more buildings. This is especially evident in SE, where 94% of the country area is not urban. When calculating the intersection between building areas for each couple of datasets in all countries and urban areas, the area of OSM buildings scores the lowest percentages of intersection when compared to the building areas of the other datasets. The lowest such percentages, equal to 25%, are scored when compared to MS in non-urban areas. EUBUCCO represents an obvious exception for the countries (MT, EL and SE) where it uses OSM. Finally, the dataset for which the area of intersection between the buildings of all the four datasets represents the largest percentage of the area is OSM, with values even higher than 80% for urban areas. This proves that EUBUCCO and even more DBSM can be considered a sort of \u2018OSM extension\u2019 improving its completeness. Instead, the lowest values are scored by MS and result from its radically different generation process compared to the other datasets. \r\nThe whole procedure was written in Python using libraries such as Pandas, Dask-GeoPandas and Plotly. The code is available under the European Union Public License (EUPL) v1.2 at https://github.com/eurogeoss/building-datasets in the form of Jupyter Notebooks. Work is ongoing to extend the analysis to the whole EU in order to validate the results of this study and formulate recommendations at the continental level.",
+    "start_datetime": "2024-07-03T08:00:00Z",
+    "end_datetime": "2024-07-03T08:30:00Z",
+    "talk:code": "9C8CKJ",
+    "talk:guid": "60ba87f9-8dd4-56d8-b899-c6a22a284041",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Academic track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Omicum",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "GQL9US",
+        "name": "Marco Minghini",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/GQL9US/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-03T08:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/9C8CKJ/",
+      "title": "Pan-European open building footprints: analysis and comparison in selected countries"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/9C8CKJ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/GQL9US/",
+      "title": "Marco Minghini"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.openstreetmap.org",
+      "title": "www.openstreetmap.org"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/microsoft/GlobalMLBuildingFootprints",
+      "title": "github.com/microsoft/GlobalMLBuildingFootprints"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/eurogeoss/building-datasets",
+      "title": "github.com/eurogeoss/building-datasets"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/9C8CKJ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-pdf": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/9C8CKJ/resources/FOSS4GE_Buildings_Minghini_3FNpwOU.pdf",
+      "type": "application/pdf",
+      "title": "Presentation pdf",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/bt8PQVQB57Y1ob8C1Ys49V",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Pan-European open building footprints: analysis and comparison in selected countries",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=0ivPKWZGJPA",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Pan-European open building footprints: analysis and comparison in selected countries",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

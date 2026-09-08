@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "AL9L3W",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Mapping the Distance to History: Tracing My Memory of Reading Barefoot Gen ( \u300e\u306f\u3060\u3057\u306e\u30b2\u30f3\u300f \uff09with Open Geospatial Tools",
+    "description": "An experimental CesiumJS project that reconnects scenes from Barefoot Gen to real locations in Hiroshima, using historical maps and open geospatial data to explore spatial storytelling, cultural memory, and how narrative can be read through geographic space.\n\nThis talk introduces an experimental project that reconstructs the spatial world of Keiji Nakazawa\u2019s manga Barefoot Gen using open geospatial technologies.\r\n\r\nAlthough Barefoot Gen is widely known as a narrative of the atomic bombing of Hiroshima, readers usually experience the story only through sequential manga panels. As a result, the geographic structure of the city\u2014distance from the hypocenter, directions of movement, terrain, and the scale of destruction\u2014often remains abstract.\r\n\r\nTo address this, the project models each narrative scene as structured geospatial data (scene ID, order, place type, viewpoint, coordinates, time phase, and source reference). These scene points are visualized in a web-based 3D viewer built with CesiumJS, combined with historical maps and open geospatial datasets. Users can navigate Hiroshima spatially, explore key scenes from the narrative, and examine how the story relates to the real geography of the city.\r\n\r\nMethodologically, the project borrows a geolocation logic similar to OSINT-style analysis\u2014linking open sources to geographic coordinates\u2014but applies it to cultural memory rather than investigative verification. The goal is not to reproduce the past exactly, but to make the \u201cdistance to history\u201d visible and explorable through geographic space.\r\n\r\nThe presentation will demonstrate a prototype viewer currently under development, focusing on an initial set of narrative scenes reconstructed as geospatial data. The talk will also discuss how open geospatial technologies can support new forms of spatial storytelling and contribute to emerging practices in Geospatial Humanities.",
+    "start_datetime": "2026-09-02T05:30:00Z",
+    "end_datetime": "2026-09-02T06:00:00Z",
+    "talk:code": "AL9L3W",
+    "talk:guid": "c890ebc0-1653-5f17-b798-622ce179b3ef",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "CW9LGY",
+        "name": "Gen Kukita",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/CW9LGY/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T05:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/AL9L3W/",
+      "title": "Mapping the Distance to History: Tracing My Memory of Reading Barefoot Gen ( \u300e\u306f\u3060\u3057\u306e\u30b2\u30f3\u300f \uff09with Open Geospatial Tools"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/AL9L3W/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/CW9LGY/",
+      "title": "Gen Kukita"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/AL9L3W/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

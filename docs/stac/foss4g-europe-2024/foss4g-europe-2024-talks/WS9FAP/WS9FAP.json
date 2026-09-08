@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "WS9FAP",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "G3W-SUITE and QGIS Processing API integration: your geographic analysis models  on the web",
+    "description": "The integration between G3W-SUITE and QGIS extends, with the latest release, to the APIs relating to the QGIS Processing module, allowing the use of geographic analysis models, created in QGIS, in a Web environment.\r\n\r\nG3W-SUITE is a modular, client-server application (based on QGIS-Server) for managing and publishing interactive QGIS cartographic projects of various kinds in a totally independent, simple and fast way.\r\n\r\nThe framework is characterized by strong integration with the QGIS API in relation to numerous aspects: project management, data access, editing and much more.\r\n\r\nA specific development concerns the integration with the QGIS Processing API in order to migrate the analysis models, created in QGIS via the ModelDesigner, to a web environment.\r\n\r\nThe new module is dedicated to the creation of geographic analyzes on the web and it is based on the automated analysis models prepared on QGIS through the Processing ModelDesigner.\r\n\r\nDuring the presentation, both the aspects of interactions with the APIs and the workflow to allow the association of the analysis models with the published WebGis services and their use on the web will be described.\r\n\r\nFinally, the limits of the current integration and future developments dedicated to simplifying the creation of personalized geographical analyzes on web maps will be described.",
+    "start_datetime": "2024-07-04T13:30:00Z",
+    "end_datetime": "2024-07-04T14:00:00Z",
+    "talk:code": "WS9FAP",
+    "talk:guid": "077c74bc-3ca8-5eb6-9efb-a7c924078f3b",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "LAStools (327)",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "D88UCN",
+        "name": "Walter Lorenzetti",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/D88UCN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-04T13:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/WS9FAP/",
+      "title": "G3W-SUITE and QGIS Processing API integration: your geographic analysis models  on the web"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/WS9FAP/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/D88UCN/",
+      "title": "Walter Lorenzetti"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/WS9FAP/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/WS9FAP/resources/QProcessing_CsQsZWg.pdf",
+      "type": "application/pdf",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/hXb41CPrJZWeu4Mt1vbADo",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | G3W-SUITE and QGIS Processing API integration: your geographic analysis models  ...",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=jAgLUbfvKS4",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | G3W-SUITE and QGIS Processing API integration: your geographic analysis models  ...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

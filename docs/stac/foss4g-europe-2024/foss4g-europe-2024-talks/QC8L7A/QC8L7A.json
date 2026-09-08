@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "QC8L7A",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "MapLibre Tiles: Introducing The Next Generation Vector Tiles Format",
+    "description": "This talk introduces a new vector tiles format called MapLibre Tiles (MLT), which offers a significant tile size reduction and accelerated decoding performance compared to the de-facto standard Mapbox Vector Tiles (MVT). MLT also adds support for missing features like nested properties, linear referencing and M-values. The design of MLT is influenced by the latest research results on big data analytics formats and adapted for the map visualization use case. \r\n\r\nOur evaluation against MVT on a OpenMapTiles schema based tileset shows a reduction in tile size of nearly up to 80% with even faster decoding times. Moreover, on a already highly optimized Bing Maps tileset, MLT achieves reductions of up to 40% in size. Based on these results, Microsoft generously donated to MapLibre to integrate MLT into the mapping stack.\r\n\r\nAdditionally, we will explore how next-generation map rendering libraries can leverage SIMD and WebGPU compute shaders for processing to fully  utilize the potential of MLT.",
+    "start_datetime": "2024-07-03T07:30:00Z",
+    "end_datetime": "2024-07-03T08:00:00Z",
+    "talk:code": "QC8L7A",
+    "talk:guid": "7e26a836-3a87-520a-8c48-594a4734685a",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "LAStools (327)",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "J38ZLN",
+        "name": "Markus Tremmel",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/J38ZLN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-03T07:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/QC8L7A/",
+      "title": "MapLibre Tiles: Introducing The Next Generation Vector Tiles Format"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/QC8L7A/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/J38ZLN/",
+      "title": "Markus Tremmel"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/QC8L7A/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/gFrKVRbb9MRxGrXDoGH8Kr",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | MapLibre Tiles: Introducing The Next Generation Vector Tiles Format",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=YHcoAFcsES0",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | MapLibre Tiles: Introducing The Next Generation Vector Tiles Format",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

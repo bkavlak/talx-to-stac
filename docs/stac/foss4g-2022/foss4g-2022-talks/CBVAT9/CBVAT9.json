@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "CBVAT9",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "State of MapServer 2022",
+    "description": "MapServer is one of the founding OSGeo projects, and is used for publishing spatial data and interactive mapping applications to the web [1]. \r\n\r\nThis talk provides an overview of new developments for existing users, and to show the potential of MapServer for those yet to try the software. \r\n\r\nWe'll review migrating to the new MapServer 8.0 release [2], using the new OGC API, highlighting lesser-known features, optimizing performance, and reporting news from the MapServer ecosystem. \r\nMapScript [3], a scripting interface to MapServer provided in several languages such as Python, PHP, and C#, will also be covered. \r\n\r\nThis talk will give an overview of current and planned development for MapServer and its related project MapCache, a tile server that speeds up access to map layers [4]. \r\n\r\nFinally, we'll look at how to become involved in the MapServer community both as a user and as a developer. \r\n\r\n[1] https://mapserver.org/\r\n\r\n[2] https://github.com/mapserver/mapserver/wiki/MapServer-8.0-Release-Plan\r\n\r\n[3] https://mapserver.org/mapscript/index.html\r\n\r\n[4] https://mapserver.org/mapcache/",
+    "start_datetime": "2022-08-25T09:30:00Z",
+    "end_datetime": "2022-08-25T10:00:00Z",
+    "talk:code": "CBVAT9",
+    "talk:guid": "3d62e20f-64eb-5898-810b-de7b488ad3c2",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room 9",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "L7JZRE",
+        "name": "Seth Girvin",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/L7JZRE/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/CBVAT9/",
+      "title": "State of MapServer 2022"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/CBVAT9/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/L7JZRE/",
+      "title": "Seth Girvin"
+    },
+    {
+      "rel": "related",
+      "href": "https://mapserver.org/",
+      "title": "mapserver.org"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/mapserver/mapserver/wiki/MapServer-8.0-Release-Plan",
+      "title": "github.com/mapserver/mapserver/wiki/MapServer-8.0-Release-Plan"
+    },
+    {
+      "rel": "related",
+      "href": "https://mapserver.org/mapscript/index.html",
+      "title": "mapserver.org/mapscript/index.html"
+    },
+    {
+      "rel": "related",
+      "href": "https://mapserver.org/mapcache/",
+      "title": "mapserver.org/mapcache"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/CBVAT9/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=odb6gy4URIY",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | State of MapServer 2022",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

@@ -1,0 +1,142 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "8GJRDX",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "Monitoring the FAIRness of geospatial data: Lessons learnt from the European Union",
+    "description": "Over the last decade, the global landscape of data sharing has gone through profound changes that also applied to the geospatial domain, where traditional Spatial Data Infrastructures (SDIs) have progressively evolved into multifaceted data sharing ecosystems [1]. These ecosystems embraced fundamentally new elements in terms of: (big) data sources (e.g. from research, Earth Observation, Internet of Things devices, crowdsourcing initiatives, synthetic data from Artificial Intelligence/Machine Learning algorithms or Digital Twins); technology and infrastructures (e.g. cloud/edge/fog architectures, standards to encode and share data, AI/ML models); actors such as private companies and citizens becoming valuable providers of data and services; legislation (e.g. to open up data, foster data sharing and protect privacy); and business models and governance mechanisms [2,3].\r\nWithin this modern and dynamic context, it becomes increasingly important to setup targeted, fit-for-purpose, and efficient mechanisms to monitor the status and evolution of SDIs to extract the insights needed by policy and decision makers. In this work, we present the experience of monitoring the implementation of the European SDI established after the INSPIRE Directive, reflect on the lessons learnt from the process, and distill some recommendations for future policy-relevant scientific work.\r\nIn force since 2007, the INSPIRE Directive [4] set the legal basis to create an interoperable pan-European SDI based on the SDIs of the European Union (EU) Member States, with legal and technical requirements on the FAIRness (Findability, Interoperability, Interoperability, Reusability) of data: discoverability through metadata, accessibility through network services, and interoperability through common data models. The status of implementation for each Member State is assessed through an annual monitoring exercise, in which 19 indicators defined in a legal act [5] are calculated based on the metadata harvested each year from the Member States catalogues. These are grouped in 5 categories focused on: i) availability of datasets, ii) conformity of metadata, iii) conformity of datasets, iv) accessibility of datasets, and v) conformity of network services. Since the entry into force of the legal act on INSPIRE monitoring [5] in 2019, the Joint Research Centre (JRC) of the Commission has calculated those indicators for 6 consecutive years, thus producing a valuable time series from which to derive insights and lessons learned, which in the following are grouped in three categories: i) geospatial resources (data, metadata and services); ii) tools/technology and iii) community/governance.\r\nRegarding the resources shared by the Member States, over the last 6 years INSPIRE implementation has overall advanced. Although it remains heterogeneous across countries, aggregated statistics on the indicators show that more datasets have been made available and these are increasingly more interoperable and accessible. Nevertheless, challenges remain as e.g. i) some indicators rely on self-declarations of conformity made by data providers, which were proven to be unreliable; ii) indicators are provider-centric, i.e. they describe the offer from data providers but not their actual adoption and reuse by the public; iii) they do not analyse the quality of the datasets; and iv) while capturing the amount of available datasets, they do not capture the presence or lack of specific datasets. Research should investigate ways to address these challenges without increasing the required effort, e.g. by leveraging new, AI-based solutions.\r\nTools and technology have played a crucial role in the INSPIRE monitoring process. The calculation of indicators has been fully automated and the software stack has evolved over the years and currently includes all open source applications: the [INSPIRE Geoportal](https://inspire-geoportal.ec.europa.eu/srv/eng/catalog.search#/home) based on [GeoNetwork](https://geonetwork-opensource.org/), the [INSPIRE Reference Validator](https://inspire.ec.europa.eu/validator/home/index.html) based on the [ETF](https://github.com/etf-validator), and a set of custom-made open source Python and SQL [scripts](https://github.com/INSPIRE-MIF/mr-tools). The open source nature of the components, with clear release processes allowing data providers to test their implementations in advance, ensures objectivity, transparency and reproducibility of results. The use of a reference validation tool also brings legal certainty to the process. Additionally, Large Language Models (in particular, the open-source Mixtral) have proven extremely useful in refining, testing, and validating results. Finally, the monitoring process has benefited from integrating newly developed standards such as OGC API - Features for data sharing and GeoPackage for data encoding, enabling Member States to streamline and modernise their infrastructures in a legally viable way.\r\nFinally, the success of the INSPIRE monitoring exercise, an iterative process undergoing incremental changes over the years, relies on establishing a continuous dialogue and building trust with the relevant community. This is achieved through a clear governance structure, provision of open and scientifically sound guidance on indicator calculation, clear explanation of results, and targeted, country-specific feedback on potential improvement areas. The process has also highly contributed to the evolution of the open source tools mentioned above.\r\nThe lessons learned from this unique SDI initiative, with no equivalent in temporal and spatial extension, can inform and benefit similar initiatives, while also highlighting the need for specific scientific and technological advancements, including in the field of open source, to further reduce the distance between data and (data-driven) decision-making.",
+    "start_datetime": "2025-07-16T14:30:00Z",
+    "end_datetime": "2025-07-16T15:00:00Z",
+    "talk:code": "8GJRDX",
+    "talk:guid": "26ff310c-1f65-56be-a435-d413789487a8",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Academic track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "PA01 (Quarticle)",
+    "talk:room_capacity": 95,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "GQL9US",
+        "name": "Marco Minghini",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/GQL9US/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-16T14:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/8GJRDX/",
+      "title": "Monitoring the FAIRness of geospatial data: Lessons learnt from the European Union"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/8GJRDX/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/GQL9US/",
+      "title": "Marco Minghini"
+    },
+    {
+      "rel": "related",
+      "href": "https://inspire-geoportal.ec.europa.eu/srv/eng/catalog.search#/home",
+      "title": "INSPIRE Geoportal"
+    },
+    {
+      "rel": "related",
+      "href": "https://geonetwork-opensource.org/",
+      "title": "GeoNetwork"
+    },
+    {
+      "rel": "related",
+      "href": "https://inspire.ec.europa.eu/validator/home/index.html",
+      "title": "INSPIRE Reference Validator"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/etf-validator",
+      "title": "ETF"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/INSPIRE-MIF/mr-tools",
+      "title": "scripts"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/8GJRDX/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-pdf": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/8GJRDX/resources/FOSS4GE_AT_MarcoMinghini_ptI1A4m.pdf",
+      "type": "application/pdf",
+      "title": "Presentation - PDF",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/nC9DvngnU2U65zMvdSivUa",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Monitoring the FAIRness of geospatial data: Lessons learnt from the European Union",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=ETVG5vTVkJI",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Monitoring the FAIRness of geospatial data: Lessons learnt from the European Union",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

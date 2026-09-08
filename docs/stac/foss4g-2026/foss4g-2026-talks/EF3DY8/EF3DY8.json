@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "EF3DY8",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Intent-Centric Wildfire Monitoring: LLM and VLM Orchestration for Everyone",
+    "description": "We present a shift from tool-centric to intent-centric wildfire monitoring. By integrating LLMs and VLMs, we eliminate the technical barrier of manual tool selection. This enables any user to utilize satellite data through simple dialogue, achieving accessibility for everyone and bridging technology and humanity.\n\nThe Vision: Enabling Accessibility for Everyone\r\n\r\n- \"ForestView AI\" was designed to make satellite intelligence accessible to non-experts. However, our initial platform revealed a persistent \"Expertise Gap\": users were still required to make complex technical decisions regarding which analysis tools to invoke. This barrier prevented non-specialists from effectively utilizing geospatial information.\r\n\r\nThe Evolution: Intent over Complexity\r\n\r\n- To close this gap, we evolved our system into an \"Intent-centric\" platform by orchestrating LLM and VLM engines. This is not merely a UI update; it represents a fundamental shift in how humans interact with geospatial data. We ensure the technology adapts to natural human language rather than requiring users to learn technical jargon.\r\n\r\nKey Innovations:\r\n\r\n- LLM-Driven Orchestration: The LLM interprets natural language intent and automatically invokes the optimal analysis pipeline from a suite of specialized geospatial tools.\r\n- VLM-Driven Visual Interpretation: The VLM performs specialized visual analysis on the results of each diagnostic stage. By examining various analytical outputs, it identifies critical changes and translates visual patterns into structured textual insights.\r\n- AI-Synthesized Reports: The LLM synthesizes the VLM\u2019s visual interpretations with quantitative data. Instead of merely listing raw numbers, it generates narrative reports that provide actionable insights and comprehensive diagnostics based on the integrated data.",
+    "start_datetime": "2026-09-02T04:40:00Z",
+    "end_datetime": "2026-09-02T04:45:00Z",
+    "talk:code": "EF3DY8",
+    "talk:guid": "a9272ab5-39f9-511d-8e90-c51ef6b67bcf",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Lightning Talk",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Ran1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "E8XSSL",
+        "name": "Dongchul Kim",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/E8XSSL/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T04:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/EF3DY8/",
+      "title": "Intent-Centric Wildfire Monitoring: LLM and VLM Orchestration for Everyone"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/EF3DY8/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/E8XSSL/",
+      "title": "Dongchul Kim"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/EF3DY8/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

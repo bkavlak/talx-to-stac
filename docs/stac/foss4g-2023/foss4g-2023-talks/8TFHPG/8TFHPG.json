@@ -1,0 +1,184 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "8TFHPG",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "UNDP's one stop shop for cloud based geospatial data visualisation and analytical tool",
+    "description": "United Nations Development Programme (UNDP) is a United Nations agency tasked with helping countries eliminate poverty and achieve sustainable economic growth and human development. \r\n\r\nRecent advances in technology and information management have resulted in large quantities of data being available to support improved data driven decision making across the organization. In this context, UNDP has developed a corporate data strategy to accelerate its transformation into a data-driven organisation. Geo-spatial data is included in this strategy and plays an important role in the organization. However, the large scale adoption and integration of geo-spatial data was obstructed in the past by issues related to data accessibility (silos located in various country offices), interoperability as well as sub-optimal hard and soft infrastructure or  know-how.\r\nAll this issues have been addressed recently, when UNDP SGD integration started developing  a geospatial hub - GeoHub - to provide geospatial data visualisation and analytical tools to UNDP staff and policymakers.\r\n\r\n[UNDP GeoHub](https://geohub.data.undp.org/) is a repository of a wide array of data sets of the most recent time span available at your fingertips! It is a centralized ecosystem of geospatial data and services to support development policymakers. It allows users to search and visualise datasets, compute dynamic statistics and download the data. In addition, GeoHub provides a feature to share their maps with the community easily. With our repository, you can also upload to share your valuable data to share with the community! It connects geospatial knowledge and know-how across the organization to enhance evidence-based decision-making with relevant data-led insights.\r\n\r\nGeohub ecosystem consists of [sveltekit](https://kit.svelte.dev/) & [maplibre](https://maplibre.org/) based frontend web applications and various FOSS4G software in the backend side. [PostgreSQL/PostGIS](https://postgis.net/), [titiler](https://developmentseed.org/titiler/), [pg_tileserv](https://github.com/CrunchyData/pg_tileserv) and [martin](https://martin.maplibre.org/) are deployed in Azure Kubernetes (AKS) to provide advanced visualisation and analysis for users. All source code is published in [Github](https://github.com/UNDP-Data/geohub) with an open-source license.",
+    "start_datetime": "2023-06-29T09:30:00Z",
+    "end_datetime": "2023-06-29T10:00:00Z",
+    "talk:code": "8TFHPG",
+    "talk:guid": "e5f83394-e6de-5130-8025-a9d9c2568146",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT C / N109 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "QN9QGN",
+        "name": "Jin Igarashi",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/QN9QGN/"
+      },
+      {
+        "code": "VUL9TX",
+        "name": "Joseph Thuha",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/VUL9TX/"
+      },
+      {
+        "code": "7CEBKG",
+        "name": "Samara Dilakshani Polwatta Polwatta Lekamlage",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/7CEBKG/"
+      },
+      {
+        "code": "VYTZMS",
+        "name": "Ioan Ferencik",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/VYTZMS/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-29T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/8TFHPG/",
+      "title": "UNDP's one stop shop for cloud based geospatial data visualisation and analytical tool"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/8TFHPG/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/QN9QGN/",
+      "title": "Jin Igarashi"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/VUL9TX/",
+      "title": "Joseph Thuha"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/7CEBKG/",
+      "title": "Samara Dilakshani Polwatta Polwatta Lekamlage"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/VYTZMS/",
+      "title": "Ioan Ferencik"
+    },
+    {
+      "rel": "related",
+      "href": "https://geohub.data.undp.org/",
+      "title": "UNDP GeoHub"
+    },
+    {
+      "rel": "related",
+      "href": "https://kit.svelte.dev/",
+      "title": "sveltekit"
+    },
+    {
+      "rel": "related",
+      "href": "https://maplibre.org/",
+      "title": "maplibre"
+    },
+    {
+      "rel": "related",
+      "href": "https://postgis.net/",
+      "title": "PostgreSQL/PostGIS"
+    },
+    {
+      "rel": "related",
+      "href": "https://developmentseed.org/titiler/",
+      "title": "titiler"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/CrunchyData/pg_tileserv",
+      "title": "pg_tileserv"
+    },
+    {
+      "rel": "related",
+      "href": "https://martin.maplibre.org/",
+      "title": "martin"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/UNDP-Data/geohub",
+      "title": "Github"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/watergis",
+      "title": "GIS for Water"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/8TFHPG/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/hr2jscbHpwnS3Q2UwLXKZk",
+      "type": "text/html",
+      "title": "2023 | UNDP's one stop shop for cloud based geospatial data visualisation and analytical tool",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=JCgNnMAtCI4",
+      "type": "text/html",
+      "title": "2023 | UNDP's one stop shop for cloud based geospatial data visualisation and analytical tool",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

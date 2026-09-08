@@ -1,0 +1,113 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "DN8NTM",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Leveraging Open Geospatial Data in Journalism: Visualization and Analysis Workflows at Nikkei Visual Data",
+    "description": "Nikkei Visual Data produces digital news content. This presentation introduces how FOSS4G technologies contribute to article production and related developments. It demonstrates the application of geospatial information in journalism through visualization using MapLibre and vector tiles, as well as data analysis and infrastructure development with tools such as QGIS.\n\nNikkei Visual Data contributes to journalism by producing digital content that uses visual storytelling techniques and technologies to communicate news more clearly and in greater depth. This presentation explains the role that FOSS4G technologies play in the production of public-interest digital articles and introduces selected development cases involving the use of geospatial information at Nikkei Visual Data.\r\nIn newsroom practice, FOSS4G technologies play an important role in connecting map-based data visualization and spatial analysis to reporting. For example, in coverage of the ongoing Russian invasion of Ukraine since 2022, journalists have collected and analyzed diverse datasets with location information and visualized them on maps, enabling the production of high-value reporting even from remote locations. Geospatial data are also used in reconstruction projects that present past disasters and events in digital space. In 2023, marking the 100th anniversary of the Great Kanto Earthquake, Nikkei Visual Data vividly recreated on maps the spread of earthquake-triggered fires that ultimately burned down approximately 40 percent of Tokyo City.\r\nTo deliver such geospatial visualizations effectively to readers of news applications, it is essential to load and render data and maps at high speed. It is equally important to provide a consistent user experience across diverse device environments, including laptops and smartphones. Combining rendering libraries such as MapLibre and [deck.gl](http://deck.gl/) with vector and raster tiles, including formats such as PMTiles, represents one effective practice. At the same time, user experience is further enhanced through responsive design based on core web technologies such as HTML and CSS.\r\nSpatial data analysis also plays a key role in reporting. In Japan, public institutions publish a wide range of geospatial datasets related to disaster risks, infrastructure, and municipal statistics. By using disaster hazard data as a starting point and conducting temporal analysis or cross-analysis with railway networks and population grid datasets, journalists have been able to uncover new story angles and generate original news insights. In such data journalism practices, FOSS4G technologies form an indispensable foundation.\r\nFurthermore, establishing data lakes for large-scale geospatial datasets contributes to the democratization of map data use within the newsroom. Such infrastructure provides a foundation for dashboards and tools that enable journalists and designers\u2014who may not have extensive engineering expertise\u2014to conduct spatial analysis and visualization. At Nikkei Visual Data, a cloud-based data lake has been developed to manage the large volumes of geospatial data required for reporting. This foundation also supports the integration of geospatial information with machine learning techniques and large language models (LLMs).\r\nThrough the use of FOSS4G technologies for map visualization and spatial data analysis, Nikkei Visual Data advances the creation of distinctive digital content and supports the discovery of new stories. The team is also working to create environments in which professionals across a wide range of roles\u2014not only engineers\u2014can access and utilize geospatial information. These efforts illustrate how FOSS4G serves as an essential enabler of high-public-value journalism.",
+    "start_datetime": "2026-09-01T04:00:00Z",
+    "end_datetime": "2026-09-01T04:30:00Z",
+    "talk:code": "DN8NTM",
+    "talk:guid": "8ec67332-45df-577a-9d56-15c3a0283556",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Phoenix Hall",
+    "talk:room_capacity": 1150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "LNLUD8",
+        "name": "Ryohei Senzaki",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/LNLUD8/"
+      },
+      {
+        "code": "U3VGCZ",
+        "name": "Ryo Namiki",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/U3VGCZ/"
+      },
+      {
+        "code": "GRXTYQ",
+        "name": "Sotaro Sakai",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/GRXTYQ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T04:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/DN8NTM/",
+      "title": "Leveraging Open Geospatial Data in Journalism: Visualization and Analysis Workflows at Nikkei Visual Data"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/DN8NTM/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/LNLUD8/",
+      "title": "Ryohei Senzaki"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/U3VGCZ/",
+      "title": "Ryo Namiki"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/GRXTYQ/",
+      "title": "Sotaro Sakai"
+    },
+    {
+      "rel": "related",
+      "href": "http://deck.gl/",
+      "title": "deck.gl"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/DN8NTM/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

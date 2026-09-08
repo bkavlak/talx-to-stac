@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "B9DDED",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Offline web map server \"UNVT Portable\"",
+    "description": "UNVT Portable is a package for RaspberryPi that allows users to access a map hosting server via a web browser within a local network, primarily for offline use during disasters. It is designed to aid disaster response by combining aerial drone imagery with OpenStreetMap and open data tile datasets.\n\n\"UNVT Portable\" is a map server that allows you to freely use web maps from devices such as smartphones even in an offline environment. It is mainly designed to work in an offline environment in the event of a major disaster, and various open data tiles are prepared in advance, such as drone aerial images taken after a disaster, OpenStreetMap, and satellite images released for free by JAXA\uff08Japan Aerospace Exploration Agency\uff09, etc. Combine sets to create the maps you need in times of disaster. We envision a use case for municipalities, etc. to understand the situation after a disaster and to respond to disasters. It is built using open source software such as Apache and MapLibre and Raspberry Pi, and is completely open source. Unlike tools such as Google Maps, which are difficult to use for secondary purposes, it is being developed as open source so that it can be released in a form that can be easily used by anyone, including local governments, international organisations and private companies.",
+    "start_datetime": "2023-06-29T09:00:00Z",
+    "end_datetime": "2023-06-29T09:30:00Z",
+    "talk:code": "B9DDED",
+    "talk:guid": "650d1d95-4586-5235-917a-8fd40ae2d0e8",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT C / N109 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "SSNAHM",
+        "name": "ShogoHirasawa",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/SSNAHM/"
+      },
+      {
+        "code": "WFYVSX",
+        "name": "Hidenori Fujimura",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/WFYVSX/"
+      },
+      {
+        "code": "KZQBHV",
+        "name": "Taichi Furuhashi",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/KZQBHV/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-29T09:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/B9DDED/",
+      "title": "Offline web map server \"UNVT Portable\""
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/B9DDED/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/SSNAHM/",
+      "title": "ShogoHirasawa"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/WFYVSX/",
+      "title": "Hidenori Fujimura"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/KZQBHV/",
+      "title": "Taichi Furuhashi"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/B9DDED/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "mainvisual": {
+      "href": "https://talks.osgeo.org/media/foss4g-2023/submissions/B9DDED/resources/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2023-01-21_17.38.37_ol0oKfq.png",
+      "type": "image/png",
+      "title": "mainvisual",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

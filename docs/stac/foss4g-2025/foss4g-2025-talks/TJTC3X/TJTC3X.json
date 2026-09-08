@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "TJTC3X",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Beyond Square Pixels: H3 Spatial Indexing for Global Raster Data",
+    "description": "Workflow demonstration converting 20GB+ raster datasets like GEDTM30 global DEM to H3 hexagonal grids at resolution 12. Complete pipeline uses GDAL, DuckDB, and GeoParquet for QGIS visualization. Benefits include eliminated projection boundaries, consistent global coverage, and scalable OGC REST API with O(1) retrieval performance for modern cloud-native workflows\n\nThis lightning talk demonstrates a practical workflow for converting raster data (like 20GB+ DEM datasets such as  GEDTM30 global 1-arc-second (~30m or ~900m\u00b2) Digital Terrain Model) to H3 Discrete Global Grid Systems (DGGS) with resolution 12 (around ~300m\u00b2),enabling global spatial analysis minimising  projection distortions. H3 provides much more consistent spatial partitioning compared to traditional raster projections, especially at global scales, with less proportional distortion (closer to the poles) compared to square pixels in Web Mercator or other commonly used projections.\r\nThe presentation showcases a complete pipeline: H3 hashes parquet file \u2192  Raster  reading to H3 parquet \u2192 Parquet storage and processing (using GDAL + DuckDB) \u2192 Parquet to Geopackage conversion \u2192 QGIS visualization. Using the GEDTM30 global DEM as example data, pixel values are mapped to H3 cells at specified resolution and stored efficiently in columnar format, then converted to GeoParquet for seamless visualization workflows. When deployed as a OGC REST API, single H3 hash requests achieve near-constant time O(1) cell data retrieval, enabling the system to scale to massive datasets while maintaining consistent per-request performance.\r\nKey benefits include eliminated projection edge effects, consistent global hexagonal coverage, hierarchical multi-scale analysis, and compatibility with modern cloud-native geospatial tools. Attendees will see live demonstrations of H3 tools, practical code examples, performance comparisons and usage of a H3 REST API as data source on a local calculation workflow. This approach transforms how we handle large-scale geospatial raster data, making global analysis more accessible and accurate.",
+    "start_datetime": "2025-11-20T03:10:00Z",
+    "end_datetime": "2025-11-20T03:15:00Z",
+    "talk:code": "TJTC3X",
+    "talk:guid": "12f60977-1035-5c01-8b91-4b9e77d45370",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Lightning talk",
+    "talk:type": "Lightning Talk",
+    "talk:language": "en",
+    "talk:room": "WG403",
+    "talk:room_capacity": 386,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "GDVTCB",
+        "name": "Jorge S. Mendes de Jesus",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/GDVTCB/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-20T03:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/TJTC3X/",
+      "title": "Beyond Square Pixels: H3 Spatial Indexing for Global Raster Data"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/TJTC3X/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/GDVTCB/",
+      "title": "Jorge S. Mendes de Jesus"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/TJTC3X/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=IUrh9NtSe6s",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Beyond Square Pixels: H3 Spatial Indexing for Global Raster Data",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

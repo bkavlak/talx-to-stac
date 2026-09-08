@@ -1,0 +1,138 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "7LQM3T",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Automatic map deconstruction using QGIS: Leveraging open-source algorithms such as map2loop and LoopStructural",
+    "description": "We present an open-source workflow integrating QGIS, map2loop, and LoopStructural to automate geological map deconstruction into 3D models. This approach streamlines extracting contacts, faults, and stratigraphy from legacy maps, reducing manual effort and enhancing reproducibility. Results show rapid, scalable model generation, improving geological understanding in data-sparse regions.\n\nThe integration of geological knowledge from legacy maps into modern 3D geological models remains a critical challenge, particularly in regions where data is sparse or inconsistently digitized. This research presents an automated workflow for geological map deconstruction using QGIS, and 3D modelling, using open-source algorithms such as map2loop and LoopStructural. The aim is to streamline the transformation of 2D geological maps into structured data, reducing manual interpretation efforts and increasing reproducibility.\r\nThe proposed methodology leverages map2loop to extract and pre-process from georeferenced maps geological features such as contacts, faults, and stratigraphic boundaries. Some of these features are then structured into formats compatible with the input of LoopStructural, a Python-based library that builds rule-based 3D geological models. The QGIS environment acts as a central platform for visualizing and manipulating these spatial data layers, while our plugins facilitate automation and interoperability between components.\r\nThis approach underscores the value of open-source tools in geoscience workflows, fostering collaboration, transparency, and scalability. By automating the extraction and structuring of geological features, the workflow significantly reduces the subjectivity and time requirements traditionally associated with map deconstruction and 3D model builds. \r\nThe results demonstrate the feasibility of automated map deconstruction within an open-source GIS environment, paving the way for rapid geological model development in underexplored or poorly mapped regions. This work contributes to the broader geoscience community by offering a replicable and extensible framework for geological data translation, bridging the gap between static to support systems for integration with additional data sources such as drillholes and geophysical data, enhancing the fidelity of downstream 3D models.\r\nRepository:\r\nLoop3D\r\n\u2022\thttps://github.com/Loop3D/map2loop\r\n\u2022\thttps://github.com/Loop3D/LoopStructural\r\n\u2022\thttps://github.com/Loop3D/qgis-loopplugin\r\nField Mapping Tool\r\n\u2022\thttps://github.com/swaxi/GEOL-QMAPS\r\n\u2022\thttps://zenodo.org/records/13374088\r\n\r\nGeophysical Processing Tool\r\n\u2022\thttps://github.com/swaxi/SGTool \r\nTomofast-x Grav/Mag Inversion Tool\r\n\u2022\thttps://github.com/TOMOFAST/Tomofast-x\r\n\u2022\thttps://github.com/TOMOFAST/tomofast-x-q",
+    "start_datetime": "2025-11-20T22:30:00Z",
+    "end_datetime": "2025-11-20T22:55:00Z",
+    "talk:code": "7LQM3T",
+    "talk:guid": "a3186dce-bed6-5d65-a577-ca7aba87bd4e",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Use Cases and Applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WA220",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "ZXHQVX",
+        "name": "Michel Nzikou Mamboukou",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/ZXHQVX/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-20T22:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/7LQM3T/",
+      "title": "Automatic map deconstruction using QGIS: Leveraging open-source algorithms such as map2loop and LoopStructural"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/7LQM3T/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/ZXHQVX/",
+      "title": "Michel Nzikou Mamboukou"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/Loop3D/map2loop",
+      "title": "github.com/Loop3D/map2loop"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/Loop3D/LoopStructural",
+      "title": "github.com/Loop3D/LoopStructural"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/Loop3D/qgis-loopplugin",
+      "title": "github.com/Loop3D/qgis-loopplugin"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/swaxi/GEOL-QMAPS",
+      "title": "github.com/swaxi/GEOL-QMAPS"
+    },
+    {
+      "rel": "related",
+      "href": "https://zenodo.org/records/13374088",
+      "title": "zenodo.org/records/13374088"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/swaxi/SGTool",
+      "title": "github.com/swaxi/SGTool"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/TOMOFAST/Tomofast-x",
+      "title": "github.com/TOMOFAST/Tomofast-x"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/TOMOFAST/tomofast-x-q",
+      "title": "github.com/TOMOFAST/tomofast-x-q"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/7LQM3T/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=FYIUGfwJ0SQ",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Automatic map deconstruction using QGIS: Leveraging open-source algorithms",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

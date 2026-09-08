@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "EDYALU",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Political Reapportionment: Drawing Boundaries with QGIS",
+    "description": "The process of drawing new political boundaries in representative democracies has generally been done with closed source software. However, a number of open source products are changing the way governments draw their jurisdictions. The QGIS Redistricting Plugin has been used to redistrict communities in the United States, Canada, and Australia, and other open source software such as DistrictR has been used to redistrict the United States in their previous cycle, significantly cutting the cost needed to participate in this activity and allowing individuals to make better contributions. At its core, the software is simple but powerful: it allows users to change attributes in an attribute column using selection tools and displays aggregate statistics for other selected columns. Join John Holden, the plugin's developer, and Blake Esselstyn, a geographic and political consultant, for a plugin demonstration and a discussion of how governments and citizen groups have transitioned to using open source software in this important political area.",
+    "start_datetime": "2022-08-25T08:00:00Z",
+    "end_datetime": "2022-08-25T08:30:00Z",
+    "talk:code": "EDYALU",
+    "talk:guid": "19aedf16-7588-539d-a1a3-2c43645feae3",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Limonaia",
+    "talk:room_capacity": 110,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "UT9QQ7",
+        "name": "John Holden",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/UT9QQ7/"
+      },
+      {
+        "code": "TV98BA",
+        "name": "Blake Esselstyn",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/TV98BA/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T08:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/EDYALU/",
+      "title": "Political Reapportionment: Drawing Boundaries with QGIS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/EDYALU/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/UT9QQ7/",
+      "title": "John Holden"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/TV98BA/",
+      "title": "Blake Esselstyn"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/EDYALU/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/s8DjAbg9gAsjQpzBqXrGH3",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Political Reapportionment: Drawing Boundaries with QGIS",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=feYdpHLEJ_k",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Political Reapportionment: Drawing Boundaries with QGIS",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

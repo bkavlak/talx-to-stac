@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "RBAVH9",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "From Sensor to GeoJSON: Building an Open Source IoT Geo-Pipeline",
+    "description": "Spatial datasets originate in field measurements, yet the transformation from sensor reading to interoperable geospatial resource is often hidden in GIS workflows. This workshop makes that \u201cfirst mile\u201d tangible by guiding participants as they build and program their own hardware kit. The kit uses a microcontroller, GNSS module, and environmental sensor of choice. Measurements are transmitted to a provided Dockerized Python (FastAPI) and PostgreSQL backend, where they are exposed as GeoJSON Features. Emphasizing architectural clarity over complexity, the session demonstrates how structured JSON, REST APIs, and relational storage underpin scalable geospatial services, while outlining PostGIS and OGC API as natural extension paths within an open standards ecosystem.\n\nA significant share of spatial datasets originates from measurements collected in the field. Environmental monitoring, groundwater observation, climate sensing, infrastructure management, and many other geospatial domains depend on distributed sensor networks. Yet in many GIS workflows, the \u201cfirst mile\u201d remains abstracted or hidden. Namely how measurements become structured, georeferenced, and interoperable data\r\n\r\nThis workshop addresses that gap by guiding participants through the complete open-source pipeline from physical sensor to geospatial web resource. For this, we will be using a XIAO ESP32-C3 microcontroller, a GPS/GNSS module, and an environmental sensor of choice. Participants will collect real-world measurements and attach geographic coordinates at the source. These observations will be transmitted over Wi-Fi to a locally hosted backend stack built entirely with Free and Open-Source Software.\r\n\r\nThe provided backend is written in Python (FastAPI) and uses PostgreSQL. It will be provided as a ready-to-use Docker container. Measurements will be stored and exposed as GeoJSON Features, transforming raw sensor data into interoperable geospatial resources ready for integration with web maps and GIS clients.\r\n\r\nThe workshop emphasizes architectural understanding rather than framework complexity. Participants will examine how structured JSON payloads, RESTful APIs, and relational storage form the foundation for scalable geospatial services. \r\n\r\nWhile the implementation focuses on PostgreSQL and GeoJSON to keep things simple, the architecture naturally extends toward PostGIS for spatial indexing and advanced spatial operations, and toward OGC API Features for standardized data access. These extensions will be discussed conceptually as evolution paths within an open standards framework.\r\n\r\nThe core learning objective is to make the origins of spatial data tangible: from measurement in the field to structured, accessible geospatial services.",
+    "start_datetime": "2026-07-02T11:00:00Z",
+    "end_datetime": "2026-07-02T15:00:00Z",
+    "talk:code": "RBAVH9",
+    "talk:guid": "7331043f-cc0e-5875-9f92-9860b9ba787f",
+    "talk:event": "foss4g-europe-2026-workshops",
+    "talk:type": "workshop",
+    "talk:language": "en",
+    "talk:room": "059",
+    "talk:room_capacity": 30,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "GMQYGB",
+        "name": "Joram van der Vlist",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026-workshops/speaker/GMQYGB/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-07-02T13:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/talk/RBAVH9/",
+      "title": "From Sensor to GeoJSON: Building an Open Source IoT Geo-Pipeline"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/talk/RBAVH9/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/speaker/GMQYGB/",
+      "title": "Joram van der Vlist"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/talk/RBAVH9/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-workshops"
+}

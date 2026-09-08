@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "HSU3RK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "A vision for INSPIRE: from a traditional SDI to a self-sustainable data ecosystem",
+    "description": "Published in 2007, the INSPIRE Directive has established a pan-European Spatial Data Infrastructure (SDI) to support European Union (EU) policies related to or having an impact on the environment. The Directive requires Member States public organisations to make geospatial datasets in scope (i.e. belonging to 34 cross-sector categories known as data themes) interoperable, discoverable and accessible through view and download services. Fifteen years after the entry into force of the Directive, we assess the state of play, reflect on the lessons learned and, leveraging on these while also considering the current policy and technological context, elaborate a vision for the future evolution.\r\nThrough its Geoportal, which regularly harvests the EU Member States national catalogues, the INSPIRE infrastructure currently provides access to approximately 90 thousand datasets. The amount and update of those datasets is steadily increasing as is the fraction of datasets whose metadata, data models and view/download services are compliant to the legal requirements of the Directive. The INSPIRE infrastructure is currently based on three so-called central components, which in turn are implementations of reusable and mature open source software solutions: the INSPIRE Reference Validator makes use of the ETF testing framework, the INSPIRE Registry is based on the Re3gistry software (included in the OSGeo Live since 2021) and the INSPIRE Geoportal is currently being migrated to GeoNetwork  . INSPIRE has also played a key standardisation role in Europe by fully promoting and relying on open standards, mainly by ISO and OGC. Finally, an active and engaged community of stakeholders, meeting at the annual INSPIRE Conference and other related ad-hoc events, has highly favoured the policy and technological development.\r\nDespite many pros, lessons learned from INSPIRE also show some cons. These include e.g. overspecification in legislation (often leading to extensions to existing standards) which still limit implementation, and the lack of a common approach to data licensing. In addition, the current technological landscape is very different from the one from the INSPIRE dawn. New data sources (Internet of Things, citizen-generated and Earth Observation data, research data and data owned by businesses), new agile standards (e.g. OGC APIs for data sharing and modern standards for data encoding) and novel architectures (cloud, edge and fog computing) are creating an opportunity that INSPIRE shall leverage to remain relevant and fit-for-purpose. In parallel, driven by the recent European Strategy for Data, the current European policy context and related legislative instruments are strongly pushing for an increased, better and fairer use of all available data for the benefit of European economy and society.\r\nWithin this context, the talk will illustrate our vision to streamline and simplify the technological and organisational structure of INSPIRE towards a data-driven and self-sustainable ecosystem. We will mainly reflect on the key role played by open source software, open standards and open licenses, and on the need to redefine the governance of the infrastructure through the increasing involvement of open source communities, including OSGeo as a strategic partner.",
+    "start_datetime": "2022-08-25T08:00:00Z",
+    "end_datetime": "2022-08-25T08:30:00Z",
+    "talk:code": "HSU3RK",
+    "talk:guid": "5aa3a49a-3577-518c-8e27-84dc9c91cdaa",
+    "talk:event": "foss4g-2022",
+    "talk:track": "A European approach to geospatial open source",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Auditorium",
+    "talk:room_capacity": 1000,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "GQL9US",
+        "name": "Marco Minghini",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/GQL9US/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T08:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/HSU3RK/",
+      "title": "A vision for INSPIRE: from a traditional SDI to a self-sustainable data ecosystem"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/HSU3RK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/GQL9US/",
+      "title": "Marco Minghini"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/HSU3RK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/cpUjUB3CjiYJfNjT4PmFhQ",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | A vision for INSPIRE: from a traditional SDI to a self-sustainable data ecosystem",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=iK9tByZclBA",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | A vision for INSPIRE: from a traditional SDI to a self-sustainable data ecosystem",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

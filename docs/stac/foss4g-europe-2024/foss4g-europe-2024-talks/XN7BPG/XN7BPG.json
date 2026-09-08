@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "XN7BPG",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "QGIS Server in an enterprise environment",
+    "description": "This presentation describes the functionalities and integration of QGIS Server with a focus which features we are using in our company. A particular strength of QGIS Server lies in its ability to display geodata on the web in the same way as it is visible in QGIS Desktop. This is particularly relevant if an extensive selection of different map styles based on QGIS is available. The QGIS Server is configured exclusively via a QGIS project, which makes it very easy to set up. However, it should be noted that no automated settings are currently possible, for example via API.\r\n\r\nThe QGIS Server supports various OGC standards, including WMS (Web Map Service), WFS (Web Feature Service), WCS (Web Coverage Service) and WMTS (Web Map Tile Service). In addition, it offers a prototype implementation of OAF (OGC API - Features) and integrates many features of QGIS, including the export of maps prepared in the desktop.\r\n\r\nThis presentation will also cover the installation of QGIS Server using Docker. Furthermore, the integration of QGIS Server into middleware solutions will be discussed to enable its use in complex GIS environments.\r\n\r\nAnother focus will be on the configuration of published layers and the selection of published attributes. We will also discuss how to store projects in a database and how to connect to the database using PG_SERVICE files.",
+    "start_datetime": "2024-07-03T13:00:00Z",
+    "end_datetime": "2024-07-03T13:30:00Z",
+    "talk:code": "XN7BPG",
+    "talk:guid": "44a5a80f-619e-5dc3-94c3-ef1da46af2c1",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "LAStools (327)",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "8M8VHY",
+        "name": "Jakob Miksch",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/8M8VHY/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-03T13:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/XN7BPG/",
+      "title": "QGIS Server in an enterprise environment"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/XN7BPG/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/8M8VHY/",
+      "title": "Jakob Miksch"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/XN7BPG/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/XN7BPG/resources/2024-06-03_qgis-server_pwRxWCt.pdf",
+      "type": "application/pdf",
+      "title": "slides",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/nqLBp1ZK3s2ZsGnwbxosrt",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | QGIS Server in an enterprise environment",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=NQpbpyf39sQ",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | QGIS Server in an enterprise environment",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

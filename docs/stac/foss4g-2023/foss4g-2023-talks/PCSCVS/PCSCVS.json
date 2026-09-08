@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "PCSCVS",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "River Runner: navigating and indexing hydrologic data with open standards and data",
+    "description": "The Hydro Network-Linked Data Index (NLDI) is a system that can index data to a hydrographic network  and offers a RESTful web service to discover indexed information upstream and downstream of arbitrary points along the stream network. This allows users to search for and retrieve geospatial representations of stream flowlines, catchments, and relevant water monitoring locations contributed by the water data community - without downloading the national dataset or establishing links themselves.\r\n\r\nThis is done by data providers publishing open information about the locations of their data within the context of the U.S. stream network. Data linked to the NLDI includes various federal, state and local water infrastructure features and water quantity and quality monitoring locations. The NLDI is being developed as an open source project and welcomes contributions to both its code and indexed data, with the main implementation currently being maintained by the U.S. Geological Survey. \r\n\r\nThe community of practice surrounding the NLDI extends to R and python developers working on clients that allow scientists to quickly retrieve data relevant for specific hydrologic analyses. As the NLDI community grows, a similar concept could be applied at a global scale, facilitating the development of downstream tools and applications. \r\n\r\nWhile the NLDI is limited to the US, global work would be possible by leveraging global stream network datasets such as MERIT-Hydro. A proof-of-concept global River Runner allowing discovery of the flowpath downstream of arbitrary points anywhere on Earth has already been implemented using MERIT-Hydro and OGC-API Processes in pygeoapi. This session includes demonstrations of the NLDI and the global River Runner.",
+    "start_datetime": "2023-06-29T11:30:00Z",
+    "end_datetime": "2023-06-29T12:00:00Z",
+    "talk:code": "PCSCVS",
+    "talk:guid": "00f461f4-c3de-536d-b929-4e0cd1bf2eb0",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT D / N115 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "A8VTL7",
+        "name": "Benjamin Webb",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/A8VTL7/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-29T11:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/PCSCVS/",
+      "title": "River Runner: navigating and indexing hydrologic data with open standards and data"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/PCSCVS/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/A8VTL7/",
+      "title": "Benjamin Webb"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/PCSCVS/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/u6hP53zfteF6Z9ERvtoqCf",
+      "type": "text/html",
+      "title": "2023 | River Runner: navigating and indexing hydrologic data with open standards and data",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=y1SHoZz5M-o",
+      "type": "text/html",
+      "title": "2023 | River Runner: navigating and indexing hydrologic data with open standards and data",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

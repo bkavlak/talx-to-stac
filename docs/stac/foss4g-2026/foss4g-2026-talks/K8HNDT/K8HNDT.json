@@ -1,0 +1,93 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "K8HNDT",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Rendering National Climate Data in the Browser: WebGL Custom Shaders with MapLibre GL JS",
+    "description": "Visualizing national climate projection data in the browser requires going beyond standard raster layers. We present maplibre-gl-shader-layer, an open source TypeScript library enabling custom WebGL shaders on MapLibre GL JS \u2014 demonstrated through M\u00e9t\u00e9o France climate datasets rendered with high-precision multi-channel tile encoding and configurable colormaps.\n\nHow do you visualize decades of high-resolution national climate projection data \u2014 wind speed, solar radiation, temperature, degree days \u2014 directly in a web browser, with smooth rendering and precise data picking, all built on open source tools?\r\n\r\nAt Camptocamp, we tackled this challenge during the M\u00e9t\u00e9o France hackathon in Toulouse, where teams were given access to beta climate projection datasets from M\u00e9t\u00e9o France and the DINUM. Our goal: build a web application helping the renewable energy industry assess regional potential under different climate warming scenarios, aligned with the French government's TRACC adaptation framework (+2\u00b0C, +2.7\u00b0C, +4\u00b0C milestones).\r\n\r\nThe data pipeline \u2014 built with Python, GDAL, Xarray, and RioXarray \u2014 transforms NetCDF climate model outputs (CNRM-ALADIN64E1, ~12 km resolution, 2014\u20132100) into monthly raster tilesets. The challenge then becomes how to render these rasters with maximum expressiveness on a map, going well beyond what standard raster layer support in MapLibre GL JS offers out of the box.\r\n\r\nThis is where our open source library maplibre-gl-shader-layer comes in. Born from real production needs in meteorological data visualization, this TypeScript/WebGL library provides the building blocks to create fully custom tiled layers for MapLibre GL JS, powered by Three.js under the hood. Developers can write their own GLSL fragment shaders and hook into per-tile uniform updates \u2014 giving full control over color mapping, encoding, blending, and animation.\r\n\r\nThe library's flagship component, MultiChannelSeriesTiledLayer, is designed specifically for scientific data: it decodes multi-channel PNG or WebP tiles where RGB channels encode up to 24-bit precision float values (similar to Mapbox Terrain-RGB), supports time/depth/scenario series interpolation, and applies configurable colormaps from a built-in library (viridis, inferno, turbo, and custom descriptions). Nodata handling via the alpha channel and support for PMTiles archives round out the feature set for production use.\r\n\r\nWe will walk through the full open source stack \u2014 from raw NetCDF to interactive browser map \u2014 and show how maplibre-gl-shader-layer makes it straightforward to build expressive, performant meteorological visualizations without sacrificing flexibility. Demos will include climate indicator overlays, a warming scenario slider, and seasonal navigation \u2014 all rendered in WebGL.\r\n\r\nThe library is MIT-licensed, available on npm, and actively maintained by the Camptocamp geoblocks team.\r\n\r\nRepository: https://github.com/geoblocks/maplibre-gl-shader-layer",
+    "start_datetime": "2026-09-02T02:00:00Z",
+    "end_datetime": "2026-09-02T02:30:00Z",
+    "talk:code": "K8HNDT",
+    "talk:guid": "ef532195-f141-5409-a0d7-19f9a463f1e4",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Ran2",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "9JWZHX",
+        "name": "Florent Gravin",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/9JWZHX/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T02:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/K8HNDT/",
+      "title": "Rendering National Climate Data in the Browser: WebGL Custom Shaders with MapLibre GL JS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/K8HNDT/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/9JWZHX/",
+      "title": "Florent Gravin"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/geoblocks/maplibre-gl-shader-layer",
+      "title": "github.com/geoblocks/maplibre-gl-shader-layer"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/K8HNDT/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

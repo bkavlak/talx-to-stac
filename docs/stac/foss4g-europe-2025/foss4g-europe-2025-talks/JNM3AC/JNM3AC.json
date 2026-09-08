@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "JNM3AC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "Evaluation of Spatial Interpolation Methods for Wind Speed and Direction: A Case Study in Split-Dalmatia County",
+    "description": "Wind is a natural movement of air caused by variations in air pressure due to the uneven heating of the Earth. Wind speed and direction are dynamic variables that fluctuate over both time and space. These variables are crucial for urban and spatial planning, agriculture and crop management, sports event organization, aerial navigation, air pollution modeling, and fire management. The latter is especially important, as fire behavior and spread are significantly influenced by wind conditions at the exact location. Thus, accurately determining wind conditions at a given location is essential. Typically, wind measurement is performed at sparse locations using weather instruments. Although these measurements are conducted according to strict standards\u2014typically at an altitude of 10 meters above ground, on grassy terrain, and without nearby obstacles\u2014capturing wind speed and direction at a single point in space and time does not fully represent the broader conditions. Thus, various spatial methods are utilized for wind interpolation. Wind interpolation refers to the process of estimating wind speed and direction at locations where no direct measurements are available.\r\nThis paper investigates the effectiveness of selected interpolation methods for estimating wind speed and direction at unknown locations, using measurements from a network of weather stations. Four well-established methods were considered: Natural Neighbor (NN)[1], Inverse Distance Weighting (IDW), Kriging (K), and Ordinary Kriging (OK)[2]. The study focuses on the Split-Dalmatia County region.\r\n\r\nMETHODOLOGY\r\nFor this purpose, wind measurement data from 28 weather stations with continuous data availability was utilized. Data from weather stations distributed across Split-Dalmatia County were collected throughout 2024 from the Weather Underground website[3]. This service integrates meteorological data from both public and privately owned weather stations. The data was preprocessed, and scenarios representing simultaneous measurements were selected and included in the analysis. These scenarios corresponded to three main wind directions (Bora, Sirocco, and Mistral), four seasons (Winter, Spring, Summer, and Autumn), and different times of day (morning, afternoon, and evening). Since some wind directions are uncommon in certain seasons or times of the day, a total of 28 unique scenarios were used in this study.\r\nOf the 28 stations, data from 24 stations was used for wind interpolation across the study area, while four were selected as \"unknown\" locations for comparison with the interpolated values. In two experiments, the four unknown stations were chosen to represent: (1) locations with distinct geographical challenges (land, coast, canyon, and island locations) and (2) a station spatially surrounded by known measurements. For each experiment, scenario, and interpolation method, we calculated and analyzed the Root Mean Squared Error (RMSE), Mean Absolute Error in the zonal u-direction (MAE u), and Mean Absolute Error in the meridional v-direction (MAE v) for the unknown stations, using actual measurements as the ground truth and comparing them with interpolated values.\r\nInterpolation was performed using the Python packages Rasterio, PyKrige, and Delaunay, as well as some custom code, while the visualization of interpolated values was conducted using QGIS software. The analysis was carried out in Python, utilizing the Seaborn and Matplotlib libraries to generate a series of charts that revealed noteworthy findings.\r\n\r\nRESULTS\r\nThe evaluation of interpolation methods demonstrated that Ordinary Kriging achieved the lowest interpolation errors, likely due to its ability to account for spatial autocorrelation and incorporate data from multiple nearby stations. Despite utilizing a significant number of measurements, distance-based weighting methods, such as IDW and Natural Neighbors, exhibited higher errors, with RMSE values reaching up to 5 m/s. This highlights the impact of terrain complexity on accurate wind interpolation.\r\nWhen analyzing the median values of exhibited errors, IDW methods showed the lowest RMSE vector and MAE v (meridional) direction, while Ordinary Kriging produced the lowest median MAE in the u (zonal) direction.\r\nSpatial analysis revealed that interpolation accuracy varied significantly by location, with the station situated in a river canyon displaying the highest errors across all methods. This underscores the difficulty of wind interpolation in complex terrains. Wind type also played a crucial role, with Bora producing the highest RMSE values (up to 8 m/s) across all methods due to its turbulent nature. In contrast, Jugo and Maestral, with their steadier patterns, resulted in lower errors (below 3 m/s).\r\nA separate analysis of the u (zonal) and v (meridional) wind components indicated no significant difference in interpolation accuracy between them, as both components contribute equally to wind variability. However, certain locations exhibited elevated errors during Maestral wind scenarios. Upon closer examination, this can be attributed to their positioning relative to the coastline and surrounding topography.\r\nA comparison of errors between both wind components showed that Maestral exhibited significant errors in eastward-oriented directions, affecting both rural and urban areas.\r\nVisualization of interpolation across the entire study area revealed that the examined methods struggled to adapt to local conditions. While Kriging produced wind field maps with expected variations in wind speed and direction, it statistically resulted in less accurate predictions. However, maps resulting from other methods do not exhibit expected spatial patterns of the wind field.\r\n\r\nCONCLUSIONS\r\nThis study underscores the critical role of terrain complexity, wind type, and station placement in determining interpolation accuracy, particularly in challenging environments such as canyons, where conventional methods struggle to capture abrupt wind variations.\r\nFuture research on wind interpolation should focus on integrating high-resolution topographic and land cover data to improve accuracy, especially in complex terrains. Machine learning techniques, utilizing historical data,  could enhance predictive capabilities by capturing intricate spatial patterns. Expanding the study to include time-series analysis and temporal interpolation would provide better wind forecasting insights. Additionally, leveraging higher-resolution datasets from remote sensing and hybrid approaches that combine statistical and physics-based models could refine wind field predictions. Validating these methods across diverse geographic regions and developing real-time applications for fire management and disaster response would further enhance the practical utility of wind interpolation techniques.",
+    "start_datetime": "2025-07-16T10:00:00Z",
+    "end_datetime": "2025-07-16T10:30:00Z",
+    "talk:code": "JNM3AC",
+    "talk:guid": "29da03ee-72bc-5fd0-b3c2-6f701bdc6a39",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Academic track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "PA01 (Quarticle)",
+    "talk:room_capacity": 95,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "ZECLWV",
+        "name": "Mateo Radi\u0107",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/ZECLWV/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-16T10:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/JNM3AC/",
+      "title": "Evaluation of Spatial Interpolation Methods for Wind Speed and Direction: A Case Study in Split-Dalmatia County"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/JNM3AC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/ZECLWV/",
+      "title": "Mateo Radi\u0107"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/JNM3AC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/JNM3AC/resources/FOSS4G_gKwm8YZ.pptx",
+      "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "presentation-pdf": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/JNM3AC/resources/FOSS4G_3nGdx6n.pdf",
+      "type": "application/pdf",
+      "title": "Presentation - PDF",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/sXBahbkDcwbism3FeewhPs",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Evaluation of Spatial Interpolation Methods for Wind Speed and Direction: A Case ...",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=3k-N6L4jHJw",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Evaluation of Spatial Interpolation Methods for Wind Speed and Direction: A Case ...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

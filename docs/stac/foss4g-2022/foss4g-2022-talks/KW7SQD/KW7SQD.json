@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "KW7SQD",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "3D Tiles Next",
+    "description": "\"3D Tiles Next\" is a major update of the \"3D Tiles\" OGC Community Standard 1.0. 3D Tiles are designed by Cesium GS, Inc. for streaming massive heterogeneous 3D geospatial datasets. 3D Tiles Next is a set of extensions in the following areas:\r\n- direct use of glTF models\r\n- using glTF for point clouds and glTF extensions for texture compression additional 3D tiles functionality\r\n- semantic metadata stored per tileset, feature, vertex and more\r\n- implicit spatial indexes (quadtree, octtree, S2 subdivision)\r\n\r\nThis presentation gives an overview of the current \"3D Tiles\" format and shows new features in the \"3D Tiles Next\" specification. It also covers other existing 3D OGC (community) standards like CityJSON or \u00abIndexed 3D Scene (I3S)\u00bb.\r\n\r\nImportant further topics are :\r\n- overview of viewers for 3D Tiles on the web and in native and mobile applications using game engines\r\n- data processing tools for producing data in these formats\r\n- building a community for creating 3D tiles for GIS and OSM data",
+    "start_datetime": "2022-08-26T13:15:00Z",
+    "end_datetime": "2022-08-26T13:45:00Z",
+    "talk:code": "KW7SQD",
+    "talk:guid": "6ad1776e-3007-5f47-8bc3-9b1f9c5ecbc0",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Verde",
+    "talk:room_capacity": 230,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "HRNGH3",
+        "name": "Pirmin Kalberer",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/HRNGH3/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T13:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/KW7SQD/",
+      "title": "3D Tiles Next"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/KW7SQD/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/HRNGH3/",
+      "title": "Pirmin Kalberer"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/KW7SQD/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=RA_uw3FbcAI",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | 3D Tiles Next",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

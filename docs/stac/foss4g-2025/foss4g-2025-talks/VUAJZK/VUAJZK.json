@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "VUAJZK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "State of mago3DTiler & mago3DTerrainer: Open-Source Tools for Standards-Based Digital Twins!",
+    "description": "I will present the current state of mago3DTiler and mago3DTerrainer.\r\n\r\nmago3DTiler is a Java-based OGC\u202f3D\u202fTiles creator that has gained wide adoption thanks to its flexibility, high performance, and extensive format support. \r\n\r\nmago3DTerrainer is a Java-based quantized-mesh terrain generator designed specifically for Cesium Terrain Tiles.\n\nmago3DTiler (https://github.com/Gaia3D/mago-3d-tiler) is a Java-based OGC\u202f3D\u202fTiles creator that has gained wide adoption thanks to its flexibility, high performance, and extensive format support. It handles over ten 3D formats (CityGML, 3DS, OBJ, FBX, glTF, Collada DAE, IFC/BIM, LAS/LAZ, SHP) and features on-the-fly CRS conversion for seamless integration. It can convert 2D data into extruded 3D Tiles. Additionally mago3DTiler optimizes large point clouds and reality mesh data for smooth web visualization. \r\n\r\nmago3DTerrainer (https://github.com/Gaia3D/mago-3d-terrainer) is a Java-based quantized-mesh terrain generator designed specifically for Cesium Terrain Tiles. It efficiently converts GeoTIFFs into high-precision quantized-mesh data with customizable settings (depth range, tile size, interpolation method) and supports batch processing .\r\n\r\n1. mago3DTiler Key Features\r\n- On-the-fly CRS (Coordinate Reference System) transformation during tile generation\r\n- Extrusion of 2D features into 3D using height attributes\r\n- Support for massive point clouds (e.g., full-scale city level datasets)\r\n- Attribute handling for intensity and classification in point clouds\r\n- Photogrammetry (Reality Model) data conversion\r\n- Reality mesh data optimization with new triangle reduction and geometry simplification algorithms\r\n- Mesh quantization for improved rendering performance\r\n- Instance-based LOD implementation (e.g., trees and forest data rendering with scalable detail)\r\n- 3D Tiles 1.1 compatibility: unified GLB support across .b3dm, .i3dm, and .pnts\r\n- Tileset merging: generate parent tilesets from multiple input tilesets\r\n\r\n2. mago3DTerrainer Key Features\r\n- Easy and flexible conversion of GeoTIFFs into quantized mesh\r\n- High accuracy mesh generation\r\n- Batch conversion of multiple GeoTIFFs\r\n- Detailed customization options (e.g., tile depth, size, interpolation)\r\n- Priority handling for overlapping GeoTIFFs based on resolution\r\n- Enhanced support for large-scale GeoTIFFs and diverse CRS transformations\r\n- Large area conversion (e.g., verified conversion of nationwide DEM datasets)\r\n\r\nThese tools enable seamless integration of various spatial datasets into digital twin platforms based on OGC 3D Tiles and Quantized Mesh standards. Through continuous improvements and real-world applications, such as national digital twin projects and high-resolution environmental simulations, mago3DTiler and mago3DTerrainer are helping advance the open geospatial ecosystem.\r\n\r\nJoin this session to explore how open-source tools can simplify complex geospatial workflows and empower developers and users to build smarter, scalable 3D digital twins.\r\n\r\n<Acknowledgments> This work is supported by the Korea Agency for Infrastructure Technology Advancement(KAIA) grant funded by the Ministry of Land, Infrastructure and Transport (Grant RS-2025-02317649, NTIS Grant: 2610000447)",
+    "start_datetime": "2025-11-18T22:30:00Z",
+    "end_datetime": "2025-11-18T22:55:00Z",
+    "talk:code": "VUAJZK",
+    "talk:guid": "f96ab957-bc99-5714-9f4d-810998b2e7b0",
+    "talk:event": "foss4g-2025",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG126",
+    "talk:room_capacity": 140,
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "Z8DMDB",
+        "name": "Sanghee Shin",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/Z8DMDB/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-18T22:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/VUAJZK/",
+      "title": "State of mago3DTiler & mago3DTerrainer: Open-Source Tools for Standards-Based Digital Twins!"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/VUAJZK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/Z8DMDB/",
+      "title": "Sanghee Shin"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/VUAJZK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

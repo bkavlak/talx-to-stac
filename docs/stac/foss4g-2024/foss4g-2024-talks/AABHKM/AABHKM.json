@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "AABHKM",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "K8S Operator for Geoserver: Quarticle's approach to automation",
+    "description": "As geospatial data systems grow in scale and complexity, automating the deployment, scaling, and management of geospatial servers becomes increasingly critical. This talk presents Quarticle\u2019s innovative solution to automating GeoServer management using Kubernetes (K8S) operators. GeoServer is a powerful open-source server for sharing geospatial data, but its deployment and management in cloud-native environments can pose challenges.\r\n\r\nWe will dive into how Quarticle, a company specializing in cloud-native applications and geospatial data solutions, developed a Kubernetes Operator tailored for GeoServer. This operator simplifies the management of GeoServer instances, enabling seamless automated deployments, scaling, updates, and configuration management in a Kubernetes environment.",
+    "start_datetime": "2024-12-06T17:00:00Z",
+    "end_datetime": "2024-12-06T17:30:00Z",
+    "talk:code": "AABHKM",
+    "talk:guid": "29fc8f88-8103-5b5f-9002-1319d4d29d33",
+    "talk:event": "foss4g-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Sponsor",
+    "talk:language": "en",
+    "talk:room": "Room IV",
+    "talk:room_capacity": 100,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "XBD8QX",
+        "name": "Ionut Ungurianu",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/XBD8QX/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-06T17:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/AABHKM/",
+      "title": "K8S Operator for Geoserver: Quarticle's approach to automation"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/AABHKM/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/XBD8QX/",
+      "title": "Ionut Ungurianu"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/AABHKM/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024/submissions/AABHKM/resources/K8S_Operator_for_Geoserver__Quarticles_approach_i4UO6KQ.pdf",
+      "type": "application/pdf",
+      "title": "Presentation slides",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/o3oehP5HXd9e2nFEXfZGxD",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | K8S Operator for Geoserver: Quarticle's approach to automation",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=fjd1ZnF9z6w",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | K8S Operator for Geoserver: Quarticle's approach to automation",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

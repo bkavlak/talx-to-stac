@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "UYJAMC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Creating vector tiles with osm2pgsql",
+    "description": "For over a decade now osm2pgsql has been the standard tool for importing OpenStreetMap data into a PostgreSQL/PostGIS database for rendering of raster tiles and many other use cases. Thanks to several improvements in the last years centered around a flexible configuration language and new geoprocessing capabilities, osm2pgsql is now also a great base for creating a vector tile toolchain. It can easily handle imports of a small country in a few minutes as well as scale to a planet-sized database with minutely updates from OSM.\r\n\r\nThe talk will introduce some of the new features that allow you to customize the database table layout and contents. It will outline the few steps needed to create your very own custom vector tiles based on OpenStreetMap data. We'll see how you can use the configuration language to clean up OSM data on import and prepare it for fast access with a vector tile server like T-Rex.",
+    "start_datetime": "2022-08-26T12:45:00Z",
+    "end_datetime": "2022-08-26T13:15:00Z",
+    "talk:code": "UYJAMC",
+    "talk:guid": "7091970c-d45d-5b5d-9e5f-9456680dc970",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Verde",
+    "talk:room_capacity": 230,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "8SZP8R",
+        "name": "Jochen Topf",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/8SZP8R/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T13:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/UYJAMC/",
+      "title": "Creating vector tiles with osm2pgsql"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/UYJAMC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/8SZP8R/",
+      "title": "Jochen Topf"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/UYJAMC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=QzK3Ad_tstc",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Creating vector tiles with osm2pgsql",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "8SQSSV",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Styling Natural Earth with GeoServer and GeoCSS",
+    "description": "Natural Earth is a public domain map dataset available at 1:10m, 1:50m, and 1:110 million scales. Featuring tightly integrated vector and raster data, with Natural Earth one can build a variety of visually pleasing, well-crafted maps with cartography or GIS software.\r\n\r\nGeoServer GeoCSS is a CSS inspired language allowing you to build maps without consuming fingertips in the process, while providing all the same abilities as SLD.\r\n\r\nIn this presentation we\u2019ll show how we have built a world political map and a world geographic map based on Natural Earth, using CSS, and shared the results on GitHub. We\u2019ll share with you how simple, compact styles can be used to prepare a multiscale map, including:\r\n* Leveraging CSS cascading.\r\n* Building styles that respond to scales in ways that go beyond simple scale dependencies.\r\n* Various types of labeling tricks (conflict resolution and label priority, controlling label density, label placement, typography, labels in various scripts, label shields and more).\r\n* Quickly controlling colors with LessCSS inspired functions.\r\n* Building symbology using GeoServer large set of well known marks.\r\n\r\nJoin this presentation for a relaxing introduction to simple and informative maps.",
+    "start_datetime": "2023-06-29T14:00:00Z",
+    "end_datetime": "2023-06-29T14:30:00Z",
+    "talk:code": "8SQSSV",
+    "talk:guid": "9115e119-b03e-58f2-bb3f-fd8541cbb721",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Mirusha",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RBSH8T",
+        "name": "Andrea Aime",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/RBSH8T/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-29T14:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/8SQSSV/",
+      "title": "Styling Natural Earth with GeoServer and GeoCSS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/8SQSSV/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/RBSH8T/",
+      "title": "Andrea Aime"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/8SQSSV/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/wpJahBwscs5mH9HBSvVkSz",
+      "type": "text/html",
+      "title": "2023 |  Styling Natural Earth with GeoServer and GeoCSS - Andrea Aime",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=Ne6xFgI4w4Q",
+      "type": "text/html",
+      "title": "2023 |  Styling Natural Earth with GeoServer and GeoCSS - Andrea Aime",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

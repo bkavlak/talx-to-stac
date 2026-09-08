@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "TQEFNE",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Open Data Analytics API in GeoNetwork",
+    "description": "In the OGC world, you have a catalog to look for metadata/datasets, and the OGC API Features to fetch the data, paginate, filter and so on.\r\nThe use cases have evolved since then and data consumers expect more complete abilities from their data catalogs. Nowadays we want to analyze, understand and reuse our datasets and providing such tools is a great way to encourage data owners to share and open their warehouse. A data API could then offer:\r\nFull text search on data points\r\nData fetching, paging, sorting and filtering\r\nData analytics, aggregation, computation\r\nData joining\r\nAnd those operations should perform in an optimized and scalable manner.\r\nIt's what GeoNetwork has offered for decades now, and GeoNetwork is taking the move to opendata to address all those use cases.\r\n\r\nYou might have heard about columnar formats, and columnar vector formats such as Arrow, Parquet\u2026 After an introduction of the context and the expectation of a well shaped data API, we\u2019ll present different approaches and types of flow architectures\r\n- Warehouse formats\r\n  - Static files (parquet)\r\n  - Index\r\n  - Databases (PostGIS, Cytus)\r\n- Api models and implementation\r\n  - OGC API Features limitation\r\n  - Duck DB\r\n  - Pure SQL\r\nAnd compare the different stack in terms of efficiency depending on various use cases.\r\n\r\nThe final goal is to provide an API which serves search, analytics and dataviz purposes.",
+    "start_datetime": "2023-06-28T10:00:00Z",
+    "end_datetime": "2023-06-28T10:30:00Z",
+    "talk:code": "TQEFNE",
+    "talk:guid": "5ca936ef-526d-55d3-83f4-54bf3c5528ff",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Open Data",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Drini",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "MKHVLE",
+        "name": "Olivia Guyot",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/MKHVLE/"
+      },
+      {
+        "code": "9JWZHX",
+        "name": "Florent Gravin",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/9JWZHX/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T10:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/TQEFNE/",
+      "title": "Open Data Analytics API in GeoNetwork"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/TQEFNE/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/MKHVLE/",
+      "title": "Olivia Guyot"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/9JWZHX/",
+      "title": "Florent Gravin"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/TQEFNE/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

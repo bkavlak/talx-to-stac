@@ -1,0 +1,103 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "HLVJMY",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Automation Geoprocessing of QGIS and GRASS with Airflow",
+    "description": "Empower the ETL (Extract, Transform, Load) tool, Airflow with the management, supervision, integration and development of data and metadata flows for operations developed in QGIS modeler and Raster data processing in GRASS.\n\nthe workshop aims to implement in Docker Compose a set of containers that allow the operation of DAG (ETL flows) for process automation. The  following points will be worked on: \r\n\r\n* Implementation of modified Airflow for QGIS and GRASS geoprocesses. \r\n* Configuration of the development environment\r\n* Assembling of DAGs\u2019 data flow example for each case. \r\n* Automatic generation of errors and alerts monitoring.\r\n\r\n##### Requirements for the Attendees\r\nMinimal Knowledge in the next fields:\r\n\r\n* Python\r\n* Remote Sensing\r\n* Docker Compose\r\n* QGIS\r\n* GRASS (optional)",
+    "start_datetime": "2023-06-26T07:00:00Z",
+    "end_datetime": "2023-06-26T11:00:00Z",
+    "talk:code": "HLVJMY",
+    "talk:guid": "4cfbd144-fb2c-55dd-b16c-cab1a149831c",
+    "talk:event": "foss4g-2023-workshop",
+    "talk:type": "Long Workshop",
+    "talk:language": "en",
+    "talk:room": "Mirusha",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "V9ZTMB",
+        "name": "Ariel Anthieni",
+        "url": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/V9ZTMB/"
+      },
+      {
+        "code": "GCMJNM",
+        "name": "Walter Shilman",
+        "url": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/GCMJNM/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-26T09:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/HLVJMY/",
+      "title": "Automation Geoprocessing of QGIS and GRASS with Airflow"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/HLVJMY/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/V9ZTMB/",
+      "title": "Ariel Anthieni"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/GCMJNM/",
+      "title": "Walter Shilman"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.linkedin.com/in/walter-shilman",
+      "title": "www.linkedin.com/in/walter-shilman"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/HLVJMY/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-workshops"
+}

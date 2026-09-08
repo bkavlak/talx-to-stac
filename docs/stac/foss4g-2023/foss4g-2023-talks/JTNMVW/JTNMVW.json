@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "JTNMVW",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "TOWARDS A PAN-EU BUILDING FOOTPRINT MAP BASED ON THE HIERARCHICAL CONFLATION OF OPEN DATASETS: THE DIGITAL BUILDING STOCK MODEL - DBSM",
+    "description": "Currently, a reliable harmonized and comprehensive pan-EU map of the building stock provided in vector format is not publicly available, not even for a level-of-detail LOD0 (according to the CityGML standard), where the buildings\u2019 footprints can be identified.\r\nEuropean countries offer vector maps of their building stock through a variety of levels of detail, formats, and tools; data across countries is often heterogeneous in terms of attributes, accuracy and temporal coverage, available through different user interfaces, or hardly accessible due to language barriers. Bottom-up solutions from local cadastral data in the framework of the INSPIRE initiative and top-down standard-setting regulations like the EU Regulation 2023/138 laying down a list of specific high-value datasets and the arrangements for their publication and re-use [1], are increasing and improving the homogeneity in the data availability.\r\nHowever, crowd-sourced providers of building footprint vectors like OpenStreetMap (www.openstreetmap.org) are covering an increasing fraction of territory within the European Union. Simultaneously, improvements in remote sensing increased the resolution of satellite imagery and allowed for building footprints segmentation on very high-resolution images based on deep learning: major stakeholders in the field of information technology were able to disseminate large vector datasets with extensive territorial coverage publicly (like Microsoft and Google). Other research institutions released grid-based maps of built-up, covering the world at the resolution of 10 metres (like the Built-Up Surface of the Global Human Settlement Layer) or Europe at the resolution of 2 metres (like the European Settlement Map). Another project called EUBUCCO [2] has compiled a vector database of individual building footprints for 200+ million buildings across the 27 European Union countries and Switzerland, by merging 50 open government datasets and OpenStreetMap, which have been collected, harmonized and partly validated.\r\nThe methodology presented here provides a replicable workflow for generating seamless building datasets for each of the EU-27 countries, by combining the best available public datasets.\r\nAfter reviewing existing literature and assessing publicly available buildings data sources, the following were identified as core input datasets:\r\n\u2022\tOpenStreetMap (OSM): a free and open-source global dataset of geographic features, including building footprints and attributes; \r\n\u2022\tMicrosoft Buildings (MSB): a freely available dataset of building footprints developed by Microsoft using machine learning algorithm on very high-resolution satellite imagery [3]; \r\n\u2022\tEuropean Settlement Map (ESM): raster dataset of built-up areas classified using Convolutional Neural Networks from 2-meter spatial resolution from very high-resolution imagery available through Copernicus [4]. \r\nBuilding footprints are available in OpenStreetMap across all 27 countries, but with different levels of completeness and coverage. Human contributors trace data in OSM manually, thus the available building footprints are considered of higher geometric quality compared to those extracted by machine learning algorithms of the MSB and ESM datasets. Microsoft provides high resolution building footprints for all 27 countries, but their coverage within the country areas varies considerably. The ESM dataset was derived from a seamless mosaic covering the entire EU-27 area, so it is considered being the most complete in terms of coverage, although the lower resolution and quality does not allow for extracting detailed building footprints as available with OSM and MSB.\r\nThe combination of the above-listed dataset is carried out with a stepwise approach. First, the MSB dataset is compared to OSM, and buildings are selected for any area where they don\u2019t overlap or intersect. MSB buildings below 40 m2 of surface are filtered out as outliers. Then, the ESM data is compared to the combined OSM and MSB buildings and vectorised, to fill in any gap that is not covered by the latter. Building footprints issued from ESM are further refined with various geo-spatial post-processing operations (e.g., buffer, holes filling, \u2026), then filtered to retain only features above 100 m2 of surface, thus discarding outliers.\r\nTo implement and automate the described logical workflow, an interactive model has been developed to work in the popular QGIS desktop software. The QGIS model builder allows for building logical processing workflows by linking input data forms, variables and all the analysis functions available in the software.\r\nThe conflation process is conducted at the country level since OSM and MSB sources are already conveniently provided in country extent packages. Depending on the geographic size of each country and the amount of data included, some countries are further split into tiles for processing. The resulting building footprints from each input dataset are kept in separate files for easier handling, but can be combined visually in GIS software or physically merged in a single file.\r\nThere are several known limitations to the data and the processing workflow:\r\n\u2022\tMany MSB building footprints present irregular geometries that are caused by faulty image interpretation. These can be filtered by calculating the vertex angle values of each polygon and removing specific outlier values. A methodology was developed at small scale, but it was not possible to implement it at country scale yet.\r\n\u2022\tThe ESM geometries do not accurately describe the actual building footprints but only the rough block outline. While ESM has seamless coverage, its best application would be for guiding additional feature extraction from VHR imagery in areas where OSM and MSB have poor coverage.\r\n\u2022\tThe default overlap settings could be tweaked and dynamically adjusted, based on the built-up pattern (e.g., less in urban areas, more in rural areas).\r\n\u2022\tFilters of minimum feature size of 40 m2 for MSB and 100 m2 for ESM can be optimised to find the most robust balance between including non-building features and actual smaller buildings.\r\nThe resulting buildings dataset is compared with the European Commission\u2019s GHSL Built-up surface layer [5] to get an understanding of the respective coverage at pan European level. A more focused look into the comparison with available cadastral data for a particular city, provides a preliminary understanding of the accuracy of the new layer along with its limitations.",
+    "start_datetime": "2023-06-29T13:15:00Z",
+    "end_datetime": "2023-06-29T13:20:00Z",
+    "talk:code": "JTNMVW",
+    "talk:guid": "f9f45dc4-6611-5ea3-9a73-0b9bf07dcfd6",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Academic Track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "UBT E / N209 - Floor 3",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "BLZHHQ",
+        "name": "Pietro Florio",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/BLZHHQ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-29T13:17:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/JTNMVW/",
+      "title": "TOWARDS A PAN-EU BUILDING FOOTPRINT MAP BASED ON THE HIERARCHICAL CONFLATION OF OPEN DATASETS: THE DIGITAL BUILDING STOCK MODEL - DBSM"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/JTNMVW/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/BLZHHQ/",
+      "title": "Pietro Florio"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/JTNMVW/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

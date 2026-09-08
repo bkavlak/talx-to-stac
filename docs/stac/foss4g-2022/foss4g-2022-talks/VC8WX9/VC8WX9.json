@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "VC8WX9",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "QGIS Server into the wild",
+    "description": "With our Lizmap hosting service, we provide and monitor several hundred of QGIS servers. These QGIS Servers receive and process 3.5 million requests per week, including 3 million WMS GetMap requests.\r\n\r\nWe do not control the content of these QGIS projects, which are sent by our customers on our servers. Therefore, we need to deal with projects having some various kind of issues. Some QGIS projects can have very heavy SQL views which are slow to load. Our infrastructure may host projects having hundreds of layers with complex symbology. Users can publish QGIS PDF layouts (A4 and A3) with custom logos etc. This can lead to memory problems.\r\n\r\nGIS technicians can add different data sources : vector and raster files, PostgreSQL / PostGIS database, OGC WMS, WFS and WMTS web services into these QGIS projects. We need to ensure that QGIS Server is working properly, for all customers, to execute incoming requests when some external Web Services providers are too slow to respond or are temporarily offline.\r\n\r\nWe need to take care of possible errors propagated by these projects. In some circumstances, we have about 10 thousand errors per week coming from QGIS server.\r\n\r\nThe goal of this presentation is to give an overview of what QGIS Server can experience into the wild and what we need to do to make the Lizmap user experience the best possible: monitoring, proxy, caching.",
+    "start_datetime": "2022-08-25T09:30:00Z",
+    "end_datetime": "2022-08-25T10:00:00Z",
+    "talk:code": "VC8WX9",
+    "talk:guid": "90d747d1-8200-5ed2-b3f9-3017dafc3463",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Onice",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "GBGVME",
+        "name": "Etienne Trimaille",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/GBGVME/"
+      },
+      {
+        "code": "SYBCSZ",
+        "name": "Ren\u00e9-Luc Dhont",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/SYBCSZ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/VC8WX9/",
+      "title": "QGIS Server into the wild"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/VC8WX9/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/GBGVME/",
+      "title": "Etienne Trimaille"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/SYBCSZ/",
+      "title": "Ren\u00e9-Luc Dhont"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/VC8WX9/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/sMoiWfuhF1rf12txD9Z5Ep",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | QGIS Server into the wild",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=bPru5zOvj54",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | QGIS Server into the wild",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

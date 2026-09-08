@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "AFTRTG",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Using Nix to build and distribute a geospatial software",
+    "description": "Nix is used to build the largest collection of software packages on a planet, including geospatial software maintained by Nix Geospatial Team. It is multi platform, runs on any Linux and even on a Mac. In addition, Nix provides full control of a dependency graph, can build reproducible, per-project isolated environments, container images, run services and provide many other features not found anywhere else.\r\n\r\nI will demonstrate some very unique features of Nix, which can make a developer's or a user's life so much nicer and will present the arguments why we should seriously consider using this technology for a FOSS4G software.\r\n\r\nThis talk is follow up on my previous FOSS4G talk about features and potential benefits of using Nix technology stack for geospatial use cases.",
+    "start_datetime": "2024-07-05T11:30:00Z",
+    "end_datetime": "2024-07-05T12:00:00Z",
+    "talk:code": "AFTRTG",
+    "talk:guid": "4098874d-7b7d-53be-a75d-9a5181720194",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "GEOCAT (301)",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "P9Q9UF",
+        "name": "Ivan Min\u010d\u00edk",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/P9Q9UF/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-05T11:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/AFTRTG/",
+      "title": "Using Nix to build and distribute a geospatial software"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/AFTRTG/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/P9Q9UF/",
+      "title": "Ivan Min\u010d\u00edk"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/AFTRTG/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/AFTRTG/resources/presentation_YiYxYEV.pdf",
+      "type": "application/pdf",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/fbCfB6zNyohqke8FoKCWcS",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Using Nix to build and distribute a geospatial software",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=kgkNthk6QvE",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Using Nix to build and distribute a geospatial software",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

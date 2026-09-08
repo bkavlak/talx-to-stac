@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "NAKXRM",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "yeoda - providing low-level and easy-to-use access to manifold earth observation datasets",
+    "description": "In recent years, several Python packages (e.g. xarray, rasterio) have evolved around more basic software libraries such as netCDF4 or GDAL for accessing geospatial data. These packages allow to work with all kind of data formats (e.g. GeoTIFF, NetCDF, ZARR) providing the data in array format (NumPy, xarray) and constitute a fundamental part of any scientific analysis or operational task. However, they do not offer full flexibility when working with Earth Observation (EO) datasets. The multidimensional complexity of EO data (i.e. space, time, bands) is often resolved by distributing dimensions across many files and thus not always easy to access. An important step forward to streamline EO data access has been the Open Data Cube (ODC) toolbox, which utilizes predefined dataset configurations and file-based indices stored in a database. With this setup, ODC enables an easy and uniform access to multidimensional geospatial datasets. Still, users are often confronted with a great variety of data formats, and files being distributed over different systems. This can pose a hurdle when working with ODC, especially if one wants to process a new stack of geospatial data, where the extra overhead of a database can stall swift progress.\r\n\r\nIn order to close this gap, the yeoda (''your earth observation data access'') Python software package aims to resolve this shortcoming by offering a similar interface as ODC, but allowing to interact with geospatial data on a lower level. It relies on two other Python software packages developed by TU Wien: geospade (definition of geospatial properties of a dataset, e.g. geometries), and veranda (read/write access to a variety of raster and vector data formats, e.g. GeoTIFF). This modular setup ensures a clear separation of concerns, specifically between geospatial operations and I/O tasks, yielding a homogenized interface independent from the actual data format. For example, geospatial operations based on tiled EO raster datasets can be easily performed across tile or file boundaries. Data access is then realised in veranda, which combines geometric properties with I/O objects listed in a table. On top of geospade and veranda, yeoda acts as a communication layer between files stored on the file system and data objects by adding additional dimensions to the data table, such as common metadata or file name entries. Thus, one can filter multiple files by their attributes (e.g. time, bands, variable names, satellite platform) before accessing the data.  \r\n\r\nHence, yeoda guarantees the necessary freedom to apply arbitrary algorithms on manifold data formats, while simultaneously supporting scalability by means of parallelised I/O operations. Despite ODC's tremendous value for accessing EO datasets through large scale operational services, yeoda introduces a new level of data interaction making it an indispensable tool for the EO user community. When taking a look on recent advancements in interoperable cloud-based processing via the openEO API, yeoda could be utilized as a slim back-end library to lower the hurdle of sharing new EO datasets and to foster scientific exchange.",
+    "start_datetime": "2022-08-25T08:15:00Z",
+    "end_datetime": "2022-08-25T08:20:00Z",
+    "talk:code": "NAKXRM",
+    "talk:guid": "7553b617-e482-5945-923e-4aced6562c6f",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Modulo 0",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "MRNTXF",
+        "name": "Claudio Navacchi",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/MRNTXF/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T08:17:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/NAKXRM/",
+      "title": "yeoda - providing low-level and easy-to-use access to manifold earth observation datasets"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/NAKXRM/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/MRNTXF/",
+      "title": "Claudio Navacchi"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/NAKXRM/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=m3ZmjhHU1-A",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | yeoda - providing low-level and easy-to-use access to manifold earth observation\u2026",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

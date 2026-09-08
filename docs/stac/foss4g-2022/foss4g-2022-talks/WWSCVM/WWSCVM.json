@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "WWSCVM",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Building a common building's(!) open dataset using FOSS4G, open data and open governement.",
+    "description": "Climate change is here. heating, construction, cooling is estimated to contribute to 30% of the C02 emissions for France. And yet, we don't really have a database of those buildings. We have footprints by the French National Geographic institute, tax raising datasets on cadastral parcels, many derived datasets for energy consumption, performance certificates, but all of them are far away from a usable and centralized reference dataset. \r\n\r\nThe national adress geolocation (BAN) project unlocked the key pivot database between all them. The Scientific and Technical Center for Building (CSTB) a public industrial and commercial company, decided to dedicated efforts to build a permanent reference dataset, and push it as an open database. \r\n\r\nThe full stack is using open source technologies (Pandas / GeoPandas, to PostGIS, Apache Spark, MLflow, QGIS, MapLibre ...), and with massive datasets (21 Millions buildings, >400 descriptors). It allows to run analyses and predictions for all the climate change related indicators, such as housing price and energetic performance relation, heat wave impact, solar potential, etc.. \r\n\r\nAs the first versions are now published, the next challenges are : \r\n- make the data easier to reuse\r\n- Push toward a official common identifier of each building, housing and parcels, through the BatID project and Etalab open government initiatives\r\n- Enrich the dataset with new statistics and predictions twice a year\r\n- Consolidate its economic rationales to make this viable on the long run\r\n\r\nThis talk will also show cool dataviz and geoviz stuff for geonerds audience :)",
+    "start_datetime": "2022-08-26T07:00:00Z",
+    "end_datetime": "2022-08-26T07:30:00Z",
+    "talk:code": "WWSCVM",
+    "talk:guid": "9d328f1a-ad55-5e7f-b2e1-fcbe90069b7a",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room 4",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "ECTMEC",
+        "name": "R\u00e9gis Haubourg",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/ECTMEC/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T07:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/WWSCVM/",
+      "title": "Building a common building's(!) open dataset using FOSS4G, open data and open governement."
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/WWSCVM/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/ECTMEC/",
+      "title": "R\u00e9gis Haubourg"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/WWSCVM/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=0PbsDw1DOvU",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Building a common building's(!) open dataset using FOSS4G, open data and open\u2026",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

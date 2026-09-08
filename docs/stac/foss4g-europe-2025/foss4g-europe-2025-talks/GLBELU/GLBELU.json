@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "GLBELU",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "Open source software for massive lidar data classification - The French LidarHD use case",
+    "description": "As part of the national LiDAR HD program, IGN (French National Institute of Geographic and Forest Information) produces a 3D description of the French territory using LiDAR data, and distributes it in the form of point clouds and digital models.  \r\n \r\nThe 3D point clouds captured as part of this program are first segmented into several classes (ground, water, vegetation, buildings, bridges, etc.), then  transformed into DTM (digital terrain models), DSM (digital surface models) and DHM (digital height models).\r\n \r\nTo meet this challenge, IGN development teams have set up a processing chain based on Open-Source libraries (pdal, gdal, proj, etc.) and developed their own tools (A.I. classification, DTM and DSM derivation, thematic map calculation, water surface processing, etc.), most of which are Open-Source.\r\n \r\nIn detail: \r\n* Myriad 3D: classification of point clouds using AI (https://github.com/IGNF/myria3d)\r\n* Coclico: classification results comparison tool, agnostic of classification tools. (https://github.com/IGNF/coclico)\r\n* CtView: calculation of thematic maps from point clouds (class maps with shading, density maps, etc.). (available soon)\r\n* Lidro: treatment of watercourses in a lidar point cloud (to guarantee watercourse flow) (https://github.com/IGNF/lidro)\r\n* GPAO : distribution and scheduling system for calculation (https://github.com/ign-gpao)\r\n* ...\r\n \r\nIn this talk, we propose to first describe the whole process, then delve into the Open-Source software components we have designed and the uses of the OSGeo Open-Source libraries (pdal, gdal, proj, ...) we make in those tools.",
+    "start_datetime": "2025-07-16T14:30:00Z",
+    "end_datetime": "2025-07-16T15:00:00Z",
+    "talk:code": "GLBELU",
+    "talk:guid": "d5ebc88b-9c49-5e21-a9da-42fedf25e032",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "SA01",
+    "talk:room_capacity": 130,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "MTM7T9",
+        "name": "lavenant",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/MTM7T9/"
+      },
+      {
+        "code": "BCBHZD",
+        "name": "L\u00e9a Vauchier",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/BCBHZD/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-16T14:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/GLBELU/",
+      "title": "Open source software for massive lidar data classification - The French LidarHD use case"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/GLBELU/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/MTM7T9/",
+      "title": "lavenant"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/BCBHZD/",
+      "title": "L\u00e9a Vauchier"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/GLBELU/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/GLBELU/resources/20250716_lidarexpress_foss4ge_HNUSOey.pdf",
+      "type": "application/pdf",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=ZHAWcSrNLlk",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Open source software for massive lidar data classification - The French LidarHD ...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

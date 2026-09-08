@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "P9WXJP",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Towards an open registry of Earth observation instruments",
+    "description": "Understanding the Earth system requires observing it: repeated and spatially explicit Earth observation (EO) measurements are what turn \u201cthe planet\u201d into variables we can analyze, compare and model. Over the last decades, EO has evolved quickly, and the number and variety of remote sensing instruments available to the community has grown even faster.\r\n\r\nToday, EO spans instruments onboard satellite platforms, airborne sensors, and in-situ or terrestrial measurement systems. Passive optical sensors measure reflected (and, for some missions, emitted) radiation in multispectral (e.g. Sentinel-2 and Landsat) and hyperspectral systems (e.g. EnMAP and EMIT), typically across the ultraviolet, visible, near-infrared and short-wave infrared, and sometimes extending into the thermal infrared. Active systems such as synthetic aperture radar (e.g. Sentinel-1) provide illumination-independent observations and enable monitoring through clouds and different atmospheric conditions. Airborne and UAV instruments can push spatial detail to the centimeter scale and offer flexible acquisition timing, while ground-based sensors provide the most direct in-situ reference.\r\n\r\nThis explosion of platforms and modalities gives rise to a very practical problem: many users simply do not have a single and reliable place to find out what instruments exist and, crucially, what their characteristics are (from governance and mission status to spectral configuration, imaging geometry, spatio-temporal resolution, or where the data can be accessed).\r\n\r\nAlthough data catalogues (including large platforms and STAC catalogues in particular) have made dataset discovery dramatically easier, they are fundamentally designed to describe collections of data products and their assets, not to provide a persistent, curated description of the instruments that generated them.\r\n\r\nHere we present Awesome Earth Observation Instruments, an open, community-oriented registry of EO instruments providing machine-readable instrument metadata intended to complement existing data catalogues and support reproducible, automated geospatial workflows.\r\n\r\nThe catalogue is an open registry: a community-maintained listing of EO instruments hosted on GitHub, where contributors can add instruments and their associated metadata under a shared standard. The specification is designed to be straightforward to read and implement, while remaining strict where it matters. Contributions are validated against a YAML-based JSON Schema.\r\n\r\nThe core schema requires a minimal set of attributes that identify an instrument and support practical use, including id, name, acronym, start date, and an explicit operational status (e.g. operational, retired, or planned). Instrument and platform type are treated as first-class metadata and contributors indicate whether an instrument is, e.g., multispectral, hyperspectral, radar, lidar, RGB, or other, and whether it operates from a satellite, an aircraft, a UAV, or in a terrestrial or in-situ configuration. Governance information is also captured (operator and responsible institutions, and whether the instrument is public or private), and authoritative references are required to document the provenance of reported properties. The core schema supports optional information such as an end date for retired instruments, notes for additional context, and general data-access links.\r\n\r\nA key design goal of the catalogue is modularity and extensibility. The catalogue follows an approach inspired by the STAC specification, using optional extensions that can be included when information is available. We currently provide four extensions: spectral, imaging, and two data-access related extensions (Earth Engine and Planetary Computer).\r\n\r\nThe spectral extension captures spectral characteristics using spectral bands or a spectral range, and (optionally) spectral response functions. For multispectral instruments, spectral bands represent per-band parameters such as center wavelength and bandwidth, together with band description and ground sampling distance (GSD), and include per-band common names aligned with the eo-stac extension. For hyperspectral instruments, spectral range captures the wavelength interval (minimum and maximum) and the total number of bands. Spectral response functions are an optional component, but can be stored per band when available.\r\n\r\nThe imaging extension provides additional parameters relevant for interpretation and modelling, including swath width, across- and along-track field of view (FOV), and instantaneous field of view (IFOV). Horizontal and vertical FOV can be added as well. It also supports optical parameters such as entrance pupil diameter, focal length, f-number, and a shared GSD when applicable.\r\n\r\nFinally, the data-access extensions record structured links to data distribution points in Google Earth Engine and Planetary Computer (for different processing levels, including raw, top-of-atmosphere, and bottom-of-atmosphere), indicating the reference source links as well as the collection names for data querying.\r\n\r\nHaving the standard in an open GitHub repository makes it straightforward for the community to use the catalogue in practice, both as a human-readable reference and as a machine-readable registry inside existing workflows and projects. In parallel, the repository itself works as a simple discovery interface since users can browse what instruments are out there, inspect their characteristics, and make more informed choices based on their specific needs.\r\n\r\nBecause the schema is open, versioned, and simple, it is easy for the community to add new instruments as they appear, and to update or extend the schema (or extensions) as requirements evolve. This creates a clean path for existing EO data catalogues to link data products to the instruments that generated them through shared identifiers. To avoid duplicated instrument entries and ensure quality metadata, every entry must have an unique identifier and links to the sources of the introduced metadata for each instrument entry (links to the original and official instrument sources or operators have first-class priority over links to unofficial sources). Furthermore, an audit will be performed by a maintainer for every added instrument, similar to the audits performed for other open cataloguing systems (e.g. conda-forge or Awesome Spectral Indices).\r\n\r\nLooking forward, we expect the catalogue to be used as a community reference point for EO instrument characteristics, with a workflow-friendly input that lowers the barrier for both discovery and integration. To support programmatic use, we anticipate developing a Python package that provides validated access to the registry, enabling direct interoperability in the environments where data access and analysis actually happen.\r\n\r\nWe also aim to align the catalogue with complementary open initiatives, including the TACO (Transparent Access to Cloud-Optimized datasets) specification and Awesome Spectral Indices (ASI), so that instrument metadata, data access, and band and index semantics can connect directly across open geospatial ecosystems.",
+    "start_datetime": "2026-09-02T08:00:00Z",
+    "end_datetime": "2026-09-02T08:30:00Z",
+    "talk:code": "P9WXJP",
+    "talk:guid": "f366edc7-3bd2-5238-bfc1-974585297ddc",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos2",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "GXMXGL",
+        "name": "David Montero Loaiza",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/GXMXGL/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T08:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/P9WXJP/",
+      "title": "Towards an open registry of Earth observation instruments"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/P9WXJP/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/GXMXGL/",
+      "title": "David Montero Loaiza"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/P9WXJP/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

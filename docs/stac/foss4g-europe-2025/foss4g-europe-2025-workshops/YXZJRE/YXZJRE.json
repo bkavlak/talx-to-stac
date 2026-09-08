@@ -1,0 +1,130 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "YXZJRE",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8094,
+      43.3416
+    ]
+  },
+  "bbox": [
+    17.8094,
+    43.3416,
+    17.8094,
+    43.3416
+  ],
+  "properties": {
+    "title": "Point Cloud Processing and 3D visualisation with QGIS",
+    "description": "Point Cloud Processing with QGIS is a workshop that will teach you how to work with point cloud data in QGIS. You will discover how to use QGIS's new features for point cloud processing, such as native point cloud processing tools and 3D rendering. Besides tools in the QGIS Desktop user interface, you\u2019ll learn how to use PDAL wrench. PDAL wrench is a collection of easy to use command line tools for processing point cloud data, integrated in the QGIS Processing framework. Most of the tools are multi-threaded, making good use of all available CPUs for fast processing. All tools are based on PDAL pipelines, but easier to use with commands that look similar to GDAL commands.\r\n\r\nBy the end of this workshop, you will be able to:\r\n- Download and preprocess point cloud data from different sources, such as LiDAR, photogrammetry or drones\r\n- Create digital surface models from point cloud data using different interpolation methods\r\n- Explore point cloud data in 3D using the QGIS 3D view and customize its appearance and style\r\n- Explore point cloud data using the Elevation Profile tool\r\n- Apply filters to point cloud data to derive features\r\n- Automate point cloud processing using PDAL wrench.\r\n\r\nTo participate in this workshop, you will need QGIS 3.40 Bratislava or newer. If you use other operating systems than Linux, please make sure that QGIS is compiled with PDAL. During the workshop you can use your own point cloud data or the provided open data.",
+    "start_datetime": "2025-07-15T07:00:00Z",
+    "end_datetime": "2025-07-15T11:00:00Z",
+    "talk:code": "YXZJRE",
+    "talk:guid": "43c36da6-d5a0-5f49-978b-71eb4d2bbafe",
+    "talk:event": "foss4g-europe-2025-workshops",
+    "talk:type": "workshop",
+    "talk:language": "en",
+    "talk:room": "PA01",
+    "talk:room_capacity": 95,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "EZ7BJK",
+        "name": "Hans van der Kwast",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025-workshops/speaker/EZ7BJK/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-15T09:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025-workshops/talk/YXZJRE/",
+      "title": "Point Cloud Processing and 3D visualisation with QGIS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025-workshops/talk/YXZJRE/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025-workshops/speaker/EZ7BJK/",
+      "title": "Hans van der Kwast"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.un-ihe.org/",
+      "title": "IHE Delft"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.qwast-gis.com/",
+      "title": "QWAST-GIS"
+    },
+    {
+      "rel": "related",
+      "href": "https://courses.gisopencourseware.org",
+      "title": "GIS OpenCourseWare"
+    },
+    {
+      "rel": "related",
+      "href": "https://locatepress.com/book/hyd2",
+      "title": "QGIS for Hydrological Applications"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.youtube.com/@hansvanderkwast",
+      "title": "YouTube Channel"
+    },
+    {
+      "rel": "related",
+      "href": "https://qgis.nl/",
+      "title": "Dutch QGIS User Group"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.qcooperative.net/",
+      "title": "QCooperative"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025-workshops/talk/YXZJRE/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "workshop-materials": {
+      "href": "https://courses.gisopencourseware.org/course/view.php?id=63",
+      "title": "Workshop materials",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-workshops"
+}

@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "7ZCG97",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "EODAG (Earth Observation Data Access Gateway)",
+    "description": "Nowadays, we observe a rise in publicly accessible Earth Observation (EO) data. Together with it, there is more and more EO data providers, each potentially having a different data access policy. This difference is visible at various levels: in the data discovery (CSW, OpenSearch more or less custom, etc.), in the product access (object storage, downloads, direct file system access, etc.), in the storage structure and in the authentication mechanisms (OAUTH, JWT, basic auth,\u2026). All these different technologies add a knowledge overhead on a user (end-user or application developer) wishing to take advantage of these data. EODAG was designed to solve this problem.\r\n\r\nEODAG (Earth Observation Data Access Gateway) is a command line tool and a Python package for searching and downloading remotely sensed images while offering a unified API for data access regardless of the data provider.\r\n\r\nIt gives you an easy way to access products from more than 10 providers, with more than 50 different product types (Sentinel 1, Sentinel 2, Sentinel 3, Landsat, etc.) that can be searched and downloaded.\r\n\r\nEODAG has the following primary features: search and download Earth Observation products from different providers with a unified API. It is both a Command Line Tool and a Python Package. It supports STAC API and Static STAC catalogs. It can run as a STAC API REST server to give access to a provider\u2019s catalog. New providers can be added with a configuration file or by extending EODAG with plugins.\r\n\r\nEODAG ecosystem includes EODAG-Labextension, a Jupyterlab extension allowing to search and browse for remote sensed imagery directly from JupyterLab. It also includes EODAG-Cube for having a direct access to data and stream it to a Xarray Dataset.",
+    "start_datetime": "2022-08-24T09:00:00Z",
+    "end_datetime": "2022-08-24T09:30:00Z",
+    "talk:code": "7ZCG97",
+    "talk:guid": "eef5261d-ab9a-5a37-9733-26c1f6b74053",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "General online",
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "LHEWKV",
+        "name": "Sylvain Brunato",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/LHEWKV/"
+      },
+      {
+        "code": "WHJXBQ",
+        "name": "Vincent Gaudissart",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/WHJXBQ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T09:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/7ZCG97/",
+      "title": "EODAG (Earth Observation Data Access Gateway)"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/7ZCG97/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/LHEWKV/",
+      "title": "Sylvain Brunato"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/WHJXBQ/",
+      "title": "Vincent Gaudissart"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/7ZCG97/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

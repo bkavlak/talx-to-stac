@@ -1,0 +1,96 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "TDBVZY",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "OGC APIs with GeoServer 3: implementation, avaialbility and next steps",
+    "description": "The OGC APIs are a fresh take at doing geo-spatial APIs, based on WEB API concepts and modern formats, including:\r\n\r\n- Small core with basic functionality, extra functionality provided by extensions\r\n- OpenAPI/RESTful based\r\n- JSON first, while still allowing to provide data in other formats\r\n- No mandate to publish schemas for data\r\n- Improved support for data tiles (e.g., vector tiles)\r\n- Specialized APIs in addition to general ones (e.g., DAPA vs OGC API - Processes)\r\n- Full blown services, building blocks, and ease of extensibility\r\n\r\nThis presentation will provide an introduction to various OGC APIs and extensions, such as Features, Styles, Maps and Tiles, Processes, STAC and CQL2 filtering. Some of specs are finalized and complete enough that they have a GeoServer supported extensions, while others are provided as community modules. Join us to find out the current state of implementation, our future steps, and how you can participate in it.",
+    "start_datetime": "2026-06-29T09:30:00Z",
+    "end_datetime": "2026-06-29T10:00:00Z",
+    "talk:code": "TDBVZY",
+    "talk:guid": "3b8b6e91-87c7-5a15-854b-67a1939bf7e3",
+    "talk:event": "foss4g-europe-2026",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "AM",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RBSH8T",
+        "name": "Andrea Aime",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/RBSH8T/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-06-29T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/TDBVZY/",
+      "title": "OGC APIs with GeoServer 3: implementation, avaialbility and next steps"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/TDBVZY/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/RBSH8T/",
+      "title": "Andrea Aime"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/TDBVZY/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "ogc-apis-with-geoserver-3-implementation-avaialbility-and-ne": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2026/submissions/TDBVZY/resources/OGC_APIs_-_2026_xKSbslY.pdf",
+      "type": "application/pdf",
+      "title": "OGC APIs with GeoServer 3: implementation, avaialbility and next steps",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

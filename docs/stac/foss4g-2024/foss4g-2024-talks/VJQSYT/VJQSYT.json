@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "VJQSYT",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Uber's Open Source H3 Index in Open Source Projects: Simplifying Distance Calculation and Data Storage",
+    "description": "## Introduction\r\n\r\nThe ability to efficiently and accurately represent geographic data is a cornerstone of many modern applications, from navigation systems to environmental monitoring. Uber\u2019s H3 index offers a transformative approach to handling spatial data, making it a valuable tool for developers and researchers alike. In this talk, we will explore how the H3 index can be utilized across a variety of open-source projects. We will delve into its advantages, such as ease of distance calculation, reliability at extreme latitudes, and the benefits of storing data as areas rather than points. Additionally, a live demo will illustrate the practical applications of the H3 index in real-time.\r\n\r\n## Main Points\r\n\r\n1. **Ease of Distance Calculation**\r\n   \r\n   Calculating distances between geographic points is a fundamental task in many applications. Traditional methods, relying on latitude and longitude, can be computationally intensive and complex. The H3 index simplifies this process by using a hexagonal grid system. Each hexagon, or cell, has a unique identifier that allows for straightforward distance calculations. This system reduces the computational overhead and enhances the performance of applications that require frequent distance measurements, such as ride-sharing services and delivery optimization platforms.\r\n\r\n2. **Reliability at the Poles**\r\n\r\n   Geographic coordinates (latitude and longitude) become less reliable and more distorted as one moves towards the poles due to the curvature of the Earth. The H3 index mitigates this issue through its hexagonal grid, which maintains consistent cell shapes and sizes across the globe, including polar regions. This characteristic ensures that spatial analyses and operations are accurate and reliable, regardless of geographic location. For instance, environmental monitoring projects can benefit from this consistency when tracking climate change indicators in polar areas.\r\n\r\n3. **Storing Data as Areas**\r\n\r\n   Traditional spatial data storage often relies on point-based representations, which can lead to inefficiencies and inaccuracies, particularly when dealing with large datasets or areas. The H3 index allows for data to be stored as areas rather than points, leveraging its hexagonal cells. This approach offers several advantages:\r\n   - **Efficiency:** Hexagonal cells cover areas more uniformly, reducing data redundancy and improving storage efficiency.\r\n   - **Accuracy:** By representing regions as collections of hexagonal cells, spatial analyses can be more precise. This is especially useful for applications such as urban planning and resource management.\r\n   - **Scalability:** Hexagonal cells can easily aggregate or disaggregate, facilitating scalable solutions for various spatial resolutions.\r\n\r\n## Conclusion\r\n\r\nUber\u2019s H3 index is a powerful tool that enhances how we handle and analyze geographic data. Its ease of distance calculation, reliability at extreme latitudes, and efficient area-based data storage present significant advantages for a wide range of open-source projects. By adopting the H3 index, developers and researchers can achieve more accurate, efficient, and scalable solutions for their spatial data needs.\r\n\r\nDuring the talk, we will demonstrate these benefits with a live demo, showcasing how the H3 index can be implemented in a real-world scenario. Whether you are a developer seeking to optimize your application\u2019s performance or a researcher aiming for precise spatial analysis, the H3 index offers a versatile and robust solution.",
+    "start_datetime": "2024-12-06T17:30:00Z",
+    "end_datetime": "2024-12-06T18:00:00Z",
+    "talk:code": "VJQSYT",
+    "talk:guid": "f8d4ad36-cda0-5515-82e1-65530bbf3734",
+    "talk:event": "foss4g-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room II",
+    "talk:room_capacity": 200,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "NA7RTM",
+        "name": "Luiza Santos",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/NA7RTM/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-06T17:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/VJQSYT/",
+      "title": "Uber's Open Source H3 Index in Open Source Projects: Simplifying Distance Calculation and Data Storage"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/VJQSYT/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/NA7RTM/",
+      "title": "Luiza Santos"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/VJQSYT/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "ppt-presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024/submissions/VJQSYT/resources/foss4g-h3index-presentation_xeyJenu.pdf",
+      "type": "application/pdf",
+      "title": "PPT_Presentation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/cPRojanbggd6mwn9G3SSYP",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | Uber's Open Source H3 Index in Open Source Projects",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=u3qPT-iUZMw",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | Uber's Open Source H3 Index in Open Source Projects",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

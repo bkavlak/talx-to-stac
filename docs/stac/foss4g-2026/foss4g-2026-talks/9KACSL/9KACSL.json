@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "9KACSL",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Rendering Massive Moving Points at 60fps on CesiumJS: Real-Time Dynamic Vector Rendering with GPU Textures",
+    "description": "CesiumJS's built-in APIs hit CPU bottlenecks when rendering massive dynamic objects in real time. This talk presents how we used Vertex Texture Fetch (VTF) to store position data in GPU textures, enabling real-time updates without geometry reconstruction, applied to a satellite trajectory monitoring system.\n\nWe needed to render thousands of satellites moving in real time on CesiumJS, each leaving a trail of trajectory points. The built-in API rebuilds vertex buffers on the CPU every time positions change, making it fundamentally unsuitable for large numbers of dynamic objects.\r\n\r\nVertex Texture Fetch (VTF) stores position data in GPU textures instead of vertex attributes, and samples them in the vertex shader to retrieve positions. Since the geometry only holds texture UV coordinates, it can be created once and reused. When objects move, only the texture pixels are updated. Thanks to this structure, the update cost remains nearly constant regardless of how many objects are moving simultaneously.\r\n\r\nWe are currently using this technique in a space surveillance system, rendering satellites with continuously changing orbits alongside massive numbers of point and polyline trails in real time. The talk will cover how the VTF pipeline works, how it differs from the traditional vertex attribute approach, and how we achieved 64-bit precision in a WebGL 32-bit float environment using High/Low splitting, \u2014 achieving over 150% frame rate improvement \u2014 with a demo showing the difference.",
+    "start_datetime": "2026-09-02T07:30:00Z",
+    "end_datetime": "2026-09-02T08:00:00Z",
+    "talk:code": "9KACSL",
+    "talk:guid": "ae209a2d-fac3-5aeb-acc7-14f80d59b0e2",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Ran1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "BN33XP",
+        "name": "Minjeong, KIM",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/BN33XP/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T07:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/9KACSL/",
+      "title": "Rendering Massive Moving Points at 60fps on CesiumJS: Real-Time Dynamic Vector Rendering with GPU Textures"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/9KACSL/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/BN33XP/",
+      "title": "Minjeong, KIM"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/9KACSL/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

@@ -1,0 +1,94 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "X3MSKD",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Global contributors, local maps: the story of OpenStreetMap in a small town",
+    "description": "Introduction \r\n\r\nUrban platform capitalism relies on spatial databases such as OpenStreetMap (OSM) to connect people with nearby services and commodities (Michel and Schr\u00f6der-Bergen 2022; Alvarez Leon 2024, p. 139). The set of features in OSM thus influences the set of locations that users of these platforms can know about and interact with (Graham and Dittus 2022, p. 17-18). Given the power of OSM to both represent and shape places, there is a need for deep place-based studies of OSM evolution, completeness, quality, and utility, with a focus on social and economic dynamics behind the map\u2019s production (Schr\u00f6der-Bergen et al. 2025).  Of particular interest are those who add high-value information from local knowledge, as well as remote contributors and corporate mappers who standardize data tags and topology for smoother integration into platforms. \r\n\r\nResearch purpose and questions \r\n\r\nThis research offers an example of a deeply place-based and contributor-focused study of OSM by presenting \u201c the story of OSM in a small town\u201d. I reconstruct the history of OSM\u2019s development in Othello, Washington, USA (population 9001) using qualitative and quantitative data from the OSM history extracts, changeset comments, user profiles, and a walking survey of the town\u2019s main thoroughfares.  \r\n\r\nOthello\u2019s rural economy is supported principally by farming and frozen food processing. Latino immigrants and their descendants play a major role in the town\u2019s daily life: over 79% of residents identify as Hispanic or Latino, compared with 15% for Washington state. Approximately 24% of Othello\u2019s residents are considered by the US Census Bureau as living in poverty, compared with about 10% for Washington state (https://www.census.gov/quickfacts/fact/table/othellocitywashington/PST045224).  \r\n\r\nIn this study, I focus on the influence of local mappers, one-time contributors to the project, corporate mappers, and armchair hobbyists, including the kinds of features contributed by each. In particular, I ask: \r\n\r\nWhen did the map begin to be infused with local knowledge that would be difficult to trace or import from remote locations? \r\n\r\nWhat can we determine about the contributors who added this local knowledge, especially their region of residence and level of involvement in the project? \r\n\r\nWhat kinds of activity by corporate editors can be detected in this place? \r\n\r\nWhen we walk the streets of Othello, how much information matches what we see in OSM? What kinds of things are present or missing? \r\n\r\nThis study demonstrates how FOSS4G attendees and other researchers could combine OSM history files, public profiles, and on-the-ground surveys to learn more about OSM data quality and completeness, especially in rural or low-income regions. \r\n\r\n \r\n\r\nMethods \r\n\r\nI gathered the edit history of OSM in Othello by downloading the OSM full history extract from Geofabrik for the US West region (download.geofabrik.de), along with the full changeset history from planet.osm.org. I used the osmconvert utility to help narrow down the edits to only those within the Othello city limits. I used Python text parsing functions for cleaning, reading, and organizing the data. I studied all unredacted edit information for nodes and ways from the year 2007 until 31 January 2026.  \r\n\r\nFor each of the 383 changesets in Othello, I examined the extent and type of the edits, along with any comments or hashtags left by the contributor and discussion from the user community. I browsed the contributor\u2019s public OSM profile page for any disclosure of home location, editing interests, or corporate affiliations. I also used Pascal Neis\u2019 utilities How Did You Contribute to OSM and Your OSM Heat Map to understand the contributor\u2019s activity levels and preferred editing locations  \r\n\r\nI evaluated the current state of the map in Othello by downloading all OSM data for the town on 31 January 2026 using the QuickOSM utility in QGIS. I compared the content of those datasets with information I gathered from a ground survey of Othello that same day. I walked 6.8 kilometers of street frontage of two commercial thoroughfares, recording all visible institutions such as businesses, places of worship, government offices, and nonprofit organizations. \r\n\r\nPreliminary Results \r\n\r\nOSM in Othello has been built by a diverse set of 122 contributors. Thirty-six of those edited the town on more than one day, and only two of them edited more than 10 days. Many of the most active contributors have at least regional ties, with either a home location or substantial mapping history within Washington state. Some of the mappers with the most detailed local knowledge edited on only one day. The amount of mapping activity in Othello has varied greatly from year to year, but was highest in 2025. \r\n\r\nI found corporate mapping activity by Mapbox, Meta, Microsoft, and Telenav. These companies focused on improving the positioning and topological integrity of the road network, with the latter two primarily editing driveways and parking lots. Several other companies appeared to be engaged in brand promotion by adding metadata tags to businesses. \r\n\r\nOut of 154 institutions identified in the walking survey, 29 were in OSM (18.8%). Half of the 26 national chain businesses in the Othello survey were represented in OSM, a substantially higher representation than other institutions. Institutions with Spanish-language words or names in the title, or those selling products aimed at the Hispanic/Latino population, had 13.3% representation in OSM (4 out of 30). \r\n\r\nOthello has a largely complete and accurate street network in OSM, and extensive coverage of building footprints that make the map look detailed; however, many of the institutions that contribute to day-to-day livelihoods in the town are absent from OSM and its representation of place.  \r\n\r\nReferences \r\n\r\nAlvarez Leon, L. (2024). The Map in the Machine. University of California Press. \r\n\r\n \r\n\r\nGraham, M., & Dittus, M. (2022). Geographies of Digital Exclusion. Pluto Press. \r\n\r\n \r\n\r\nMichel, B., & Schr\u00f6der-Bergen, S. (2022). The Politics of Geodata in Urban Platform Capitalism. In A. Str\u00fcver & S. Bauriedl (Eds.), Platformisation of Urban Life: Towards a Technocapitalist Transformation of European Cities. transcript Verlag. \r\n\r\n \r\n\r\nSchr\u00f6der-Bergen, S., Michel, B., Glasze, G., & Dammann, F. (2025). Open Geospatial Data within Digital Capitalism: OpenStreetMap and the Overture Maps Foundation. Cartographica, 60(3), 160\u2013172. https://doi.org/10.3138/cart-2024-0030",
+    "start_datetime": "2026-09-02T04:00:00Z",
+    "end_datetime": "2026-09-02T04:30:00Z",
+    "talk:code": "X3MSKD",
+    "talk:guid": "7512eca0-2075-537d-b7e4-531d99059623",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos2",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "MWNL3P",
+        "name": "Sterling Quinn",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/MWNL3P/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T04:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/X3MSKD/",
+      "title": "Global contributors, local maps: the story of OpenStreetMap in a small town"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/X3MSKD/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/MWNL3P/",
+      "title": "Sterling Quinn"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.3138/cart-2024-0030",
+      "title": "doi.org/10.3138/cart-2024-0030"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/X3MSKD/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "KV7EHL",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Modular, Interoperable, Cross-Language Geospatial libraries with GeoArrow",
+    "description": "DuckDB, GDAL, and libraries like Lonboard can now efficiently share large vector data at low cost, thanks to GeoArrow. This talk will explain what GeoArrow is and how to get the best performance when sharing data between these libraries with practical examples.\n\n[DuckDB](https://duckdb.org/), [GDAL](https://gdal.org/), libraries like [Lonboard](https://developmentseed.org/lonboard/latest/), and more can now efficiently share large vector data at low cost, thanks to [GeoArrow](https://geoarrow.org/), a binary representation for vector geometries that can be shared across libraries without any data copies.\r\n\r\nGeoArrow is a relatively low-level technology that tends to be unseen by end-users. This is great! Users just see performance improvements!\r\n\r\nFor example, GDAL 3.6 [introduced support](https://gdal.org/en/stable/development/rfc/rfc86_column_oriented_api.html) for exposing the data read by OGR\u2019s vector drivers as GeoArrow. This [dramatically improved performance](https://gdal.org/en/stable/development/rfc/rfc86_column_oriented_api.html#benchmarks): reading from FlatGeobuf or GeoPackage files to a GeoPandas `GeoDataFrame` improved by **20x**.\r\n\r\nBut it can be useful to understand the factors behind what makes GeoArrow so performant. This talk will explain what GeoArrow is, how it differs from other new technologies like GeoParquet, and how to get the best performance when sharing data between these libraries with practical examples. It will also give a quick peek under the hood for how advanced users can create a cross-language library from C or Rust, but this talk will aim to be digestible for wide audiences; no deep technical prerequisites are expected.",
+    "start_datetime": "2025-11-19T01:30:00Z",
+    "end_datetime": "2025-11-19T01:55:00Z",
+    "talk:code": "KV7EHL",
+    "talk:guid": "eb3ba284-0230-5911-9389-6a7cb4a1ec54",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Tools, Libraries & Visualisation",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG403",
+    "talk:room_capacity": 386,
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "LYUBSM",
+        "name": "Kyle Barron",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/LYUBSM/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-19T01:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/KV7EHL/",
+      "title": "Modular, Interoperable, Cross-Language Geospatial libraries with GeoArrow"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/KV7EHL/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/LYUBSM/",
+      "title": "Kyle Barron"
+    },
+    {
+      "rel": "related",
+      "href": "https://duckdb.org/",
+      "title": "DuckDB"
+    },
+    {
+      "rel": "related",
+      "href": "https://gdal.org/",
+      "title": "GDAL"
+    },
+    {
+      "rel": "related",
+      "href": "https://developmentseed.org/lonboard/latest/",
+      "title": "Lonboard"
+    },
+    {
+      "rel": "related",
+      "href": "https://geoarrow.org/",
+      "title": "GeoArrow"
+    },
+    {
+      "rel": "related",
+      "href": "https://gdal.org/en/stable/development/rfc/rfc86_column_oriented_api.html",
+      "title": "introduced support"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/KV7EHL/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=WHJj9gasgM8",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Modular, Interoperable, Cross-Language Geospatial libraries with GeoArrow",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

@@ -1,0 +1,129 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "PE8USS",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Using Nix to build development environments as you always wanted",
+    "description": "This talk is going to reveal the secret of building and running development or\r\nuser environments as you always wanted. Each of your projects can run in\r\nisolated, fully self contained environment, using the latest, or really old, or\r\nheavily customized geospatial packages regardless of Linux distro or Mac version you\r\nuse. You can have as many environments as you want, and the environment will change as you\r\nchange between your projects, branches or commits.\r\n\r\nNo, we are not going to run containers, Flatpaks of Snaps for that. We are going\r\nto enjoy the most advanced package manager [Nix](https://nixos.org/), the\r\nlargest collection of software in the world called [Nix packages\r\n(nixpkgs)](https://github.com/NixOS/nixpkgs), unique tooling they provide and\r\n[Geonix](https://github.com/imincik/geonix) [Devenv](https://devenv.sh/) projects built on top of that.",
+    "start_datetime": "2023-06-28T08:30:00Z",
+    "end_datetime": "2023-06-28T09:00:00Z",
+    "talk:code": "PE8USS",
+    "talk:guid": "6f54e73c-33de-505a-926f-fde829ae1927",
+    "talk:event": "foss4g-2023",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT D / N113 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "P9Q9UF",
+        "name": "Ivan Min\u010d\u00edk",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/P9Q9UF/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T08:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/PE8USS/",
+      "title": "Using Nix to build development environments as you always wanted"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/PE8USS/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/P9Q9UF/",
+      "title": "Ivan Min\u010d\u00edk"
+    },
+    {
+      "rel": "related",
+      "href": "https://nixos.org/",
+      "title": "Nix"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/NixOS/nixpkgs",
+      "title": "Nix packages (nixpkgs)"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/imincik/geonix",
+      "title": "Geonix"
+    },
+    {
+      "rel": "related",
+      "href": "https://devenv.sh/",
+      "title": "Devenv"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/PE8USS/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/a7a4m6VWEYjp73sgy2pv6p",
+      "type": "text/html",
+      "title": "2023 | Using Nix to build development environments as you always wanted - Ivan Min\u010d\u00edk",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=gJw2SDFlAUU",
+      "type": "text/html",
+      "title": "2023 | Using Nix to build development environments as you always wanted - Ivan Min\u010d\u00edk",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

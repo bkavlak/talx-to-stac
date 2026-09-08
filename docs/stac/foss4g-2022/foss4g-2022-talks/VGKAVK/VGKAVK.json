@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "VGKAVK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Re3gistry: Your interoperable open source tool for managing and sharing reference codes",
+    "description": "The Re3gistry is an open source software for creating, managing and sharing reference codes in a consistent way. Released under the European Union Public License (EUPL) v.1.2 (https://github.com/ec-jrc/re3gistry), it is a key component ensuring interoperability in data infrastructures.\r\nThe Re3gistry supports organizations in managing and updating \u201creference codes\u201d through unique identifiers. Reference codes can be used for example to define sets of permissible values for a data field or to provide a reference or context for the data being exchanged. Examples are enumerations, controlled vocabularies, taxonomies, thesauri or simply \u2018lists of things\u2019. The Re3gistry provides a means to assign identifiers to such items and their labels, definitions and descriptions in different languages. It provides a user-friendly interface where labels and descriptions for reference codes can be easily browsed by humans and retrieved by machines, including the possibility of downloading them in different formats and exploiting the information using a REST API.\r\nThe European Commission\u2019s Joint Research Centre (JRC) started the development of the Re3gistry in 2014 to satisfy the interoperability requirements set by the INSPIRE Directive. In 2020, considering the high reusability of the tool beyond INSPIRE, the JRC released the code as open source. So far, the development of the Re3gistry has been supported by the European Commission under the interoperability actions ARE3NA and ELISE and, more recently, by the National Land Survey of Finland.\r\nIn 2021, a second version of the Re3gistry software was released. This version v2.0, complemented by subsequent minor releases, introduced several new features such as a management interface to add and modify the status of items, and the capability to trace the full lifecycle of items following the workflow defined by ISO 19135 standard. The current stable release is v.2.3.0 released in March 2022. The INSPIRE registry (https://inspire.ec.europa.eu/registry) is currently the most popular implementation of the Re3gistry software. It is the central point of access to (currently) more than 7000 reference codes, available in 23 languages and several formats (HTML, ISO 19135 XML, JSON, RDF/XML, Re3gistry XML, CSV), grouped into different centrally managed INSPIRE registers. The content of these registers is based on the INSPIRE Directive, Implementing Rules and Technical Guidelines (as illustration, used to reference INSPIRE themes, code lists and application schemas). \r\nThe Re3gistry is currently used by many organizations across European countries (Austria, Finland, France, Italy, Slovakia, Spain, The Netherlands and North Macedonia), different EU-funded projects and private organizations even outside Europe. Since 2021, the Re3gistry v.2.x is included in the OSGeo Live to facilitate discovery and use by the open source geospatial community. In 2022 the software will be also submitted as an OSGeo Community Project. \r\nSumming up, the Re3gistry is more relevant than ever to ensure semantical and organisational interoperability across any kind of systems, including Spatial Data Infrastructures (SDIs).",
+    "start_datetime": "2022-08-26T10:00:00Z",
+    "end_datetime": "2022-08-26T10:30:00Z",
+    "talk:code": "VGKAVK",
+    "talk:guid": "bc68a3c6-d84a-56d6-b460-31f61efdad45",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Onice",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "XWGGBJ",
+        "name": "Jordi Escriu",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/XWGGBJ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T10:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/VGKAVK/",
+      "title": "Re3gistry: Your interoperable open source tool for managing and sharing reference codes"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/VGKAVK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/XWGGBJ/",
+      "title": "Jordi Escriu"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/VGKAVK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=4nyxxDl856c",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Re3gistry: Your interoperable open source tool for managing and sharing reference\u2026",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

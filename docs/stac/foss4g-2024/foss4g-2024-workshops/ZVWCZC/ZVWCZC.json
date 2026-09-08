@@ -1,0 +1,93 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "ZVWCZC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "GRASS GIS for Earth Observation data processing with Jupyter notebooks",
+    "description": "We will present and exemplify a subset of GRASS GIS toolsets for satellite imagery data processing and analysis in combination with other core modules and addons in a workflow going from data search and download to supervised classification of different scenes and visualization of results.\n\nGRASS GIS provides numerous tools to process and analyze Earth Observation data. There are modules to search for, download, import and pre-process data from MODIS, Landsat, Sentinel, etc. Furthermore, GRASS offers tools for atmospheric and topographic corrections, quality assessment, cloud and shadow masking, pansharpening, estimation of spectral indices, object based image analysis (OBIA), clustering and classification algorithms, among others.\r\n\r\nIn this hands-on session we will present and exemplify a subset of the imagery toolsets in combination with other GRASS GIS core modules and addons in a workflow starting from data download to the supervised classification of different scenes and visualization of results. We will specifically go through filtering and downloading data, importing, adding semantic labels, pre-processing, estimation of indices, and image classification. Eventually, the resulting maps will be exported to Cloud Optimized GeoTIFF (COG) files for further usage in QGIS, GeoServer, or elsewhere. This workshop will be run in a JupyterLab environment, taking advantage of the latest GRASS GIS Python features for Jupyter.\r\n\r\nWe'll work with the notebook [here](https://github.com/veroandreo/foss4g2024_grass4rs) within Google Colab.",
+    "start_datetime": "2024-12-03T12:00:00Z",
+    "end_datetime": "2024-12-03T16:00:00Z",
+    "talk:code": "ZVWCZC",
+    "talk:guid": "2fae1590-d0ac-5351-95b2-70fd7de9c2be",
+    "talk:event": "foss4g-2024-workshop",
+    "talk:type": "Workshop",
+    "talk:language": "en",
+    "talk:room": "Room Mangal das Gar\u00e7as (C Block)",
+    "talk:room_capacity": 35,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "RBWLUU",
+        "name": "Veronica Andreo",
+        "url": "https://talks.osgeo.org/foss4g-2024-workshop/speaker/RBWLUU/"
+      }
+    ],
+    "talk:do_not_record": true,
+    "datetime": "2024-12-03T14:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/talk/ZVWCZC/",
+      "title": "GRASS GIS for Earth Observation data processing with Jupyter notebooks"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/talk/ZVWCZC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/speaker/RBWLUU/",
+      "title": "Veronica Andreo"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/veroandreo/foss4g2024_grass4rs",
+      "title": "here"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/talk/ZVWCZC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-workshops"
+}

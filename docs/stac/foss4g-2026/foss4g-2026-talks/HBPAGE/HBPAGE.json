@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "HBPAGE",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Shifting from a monolithic to a scalable SDI architecture: is it worth it?",
+    "description": "This presentation concerns migrating an SDI from a single-machine, multi-container Docker architecture to a cluster-based solution. The authors will share their experience, including performance testing results and an evaluation of potential bottlenecks. They will also discuss the critical human factors involved in such a migration.\n\nThis question is a bit rhetoric, as the answer will depend on a number of factors such as requirements, but also capacities. However, it will give us a good excuse to share some of our experience in a journey of migrating from a single machine, multi container docker architecture to a cluster based solution. The system we migrated is a Spatial Data Infrastructure (SDI) based on a stack free and open source components, many of them OSGeo projects (e.g.: pygeoapi, PostGIS, GeoHealthCheck).\r\n\r\nWe will share some performance testing of the two deployments and evaluate some possible bottlenecks. We will also share some insights into the human component of the SDI, which can prove critical on the decision to embrace this migration path.\r\n\r\nWe hope this experience can prove useful to someone considering attempting this journey. If you think this is a discussion worth having, we look forward to seeing you at our talk!",
+    "start_datetime": "2026-09-03T05:30:00Z",
+    "end_datetime": "2026-09-03T06:00:00Z",
+    "talk:code": "HBPAGE",
+    "talk:guid": "bbaa22ad-7811-585e-b77a-2e9bd18cc29e",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Ran2",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RU9BR9",
+        "name": "Antonio Cerciello",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/RU9BR9/"
+      },
+      {
+        "code": "FNYKAD",
+        "name": "Joana Simoes",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/FNYKAD/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-03T05:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/HBPAGE/",
+      "title": "Shifting from a monolithic to a scalable SDI architecture: is it worth it?"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/HBPAGE/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/RU9BR9/",
+      "title": "Antonio Cerciello"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/FNYKAD/",
+      "title": "Joana Simoes"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/HBPAGE/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

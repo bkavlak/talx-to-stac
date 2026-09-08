@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "BSG7EL",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "GeoMapFish status: vector tiles!",
+    "description": "GeoMapFish is an open source WebGIS platform developed in close collaboration with a large user group. It targets a variety of uses in public administrations and private groups, including data publication, geomarketing and facility management. OpenLayers and an OGC architecture allow to use different cartographic engines (MapServer, QGIS Server). Recently new features have been added such as vector tiles integration, from raw data to visualization. In order to get rid of AngularJS dependency, a roadmap has been established for a migration to a web components architecture. Everything has been planned so that our users can continue to develop their projects during this process. K8S support is evolving with the implementation of the necessary tools for Azure environments. Highly integrated platform, large features scope, fine grained security, reporting engine, top performances and excellent quality of service are characteristics of the GeoMapFish solution. In this talk we ll present the key usages, web components migration process and latest developments, including vector tiles support.",
+    "start_datetime": "2022-08-25T15:15:00Z",
+    "end_datetime": "2022-08-25T15:45:00Z",
+    "talk:code": "BSG7EL",
+    "talk:guid": "93e62a41-9a16-5c5d-b624-6f25c2985ae7",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Modulo 0",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "ATJDWY",
+        "name": "Yves Bolognini",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/ATJDWY/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T15:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/BSG7EL/",
+      "title": "GeoMapFish status: vector tiles!"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/BSG7EL/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/ATJDWY/",
+      "title": "Yves Bolognini"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/BSG7EL/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=fFVMIfy90yg",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | GeoMapFish status: vector tiles!",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

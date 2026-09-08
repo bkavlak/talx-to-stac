@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "JVFQTA",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Efficient pixel-scale upstream covariate computation for environmental machine learning",
+    "description": "Hydrological ML requires costly upstream catchment aggregation. We present an efficient flow-accumulation-based method bypassing per-pixel delineation, achieving orders-of-magnitude speedups. Implemented in GRASS and Python, this open-source approach enables scalable, high-resolution modeling, demonstrated by a countrywide 90 m Random Forest nitrogen prediction.\n\nEnvironmental data cubes play an increasingly important role in geospatial machine learning pipelines by collating harmonised layers derived from heterogeneous sources into analysis-ready form. Open-source geospatial infrastructures are central to enabling this harmonisation, interoperability, and reproducibility across domains. \r\nYet domains such as freshwater hydrology require additional, costly data processing to convert gridded environmental layers into river-network-aware predictor variables that summarise environmental conditions as zonal statistics \u2014 such as average clay content or standard deviation of air temperature \u2014 across the entire upstream catchment draining to a given stream pixel. \r\nIn principle, this upstream aggregation can be achieved by delineating a separate upstream catchment for every stream pixel and computing zonal statistics within it. However, this approach becomes a major computational bottleneck already at the scale of a small European country (tens of thousands of km\u00b2), even when parallelised across high-performance computing clusters. \r\nHere we show an efficient and accurate method for calculating ML-ready, river-network-aware predictor variables based on a multi-flow-direction flow accumulation algorithm that requires no per-pixel catchment delineation. We validate the method against conventional delineation-based zonal statistics, demonstrating close numerical agreement while achieving orders-of-magnitude speedup. \r\nWe implement the method both as a new feature of the GRASS software suite and as an open-source Python package providing a generic interface to arbitrary flow accumulation backends, such as pysheds, making it directly pluggable into existing ML pipelines. The complete workflow runs reproducibly in a Jupyter notebook, lowering the barrier for users less familiar with geospatial scripting. \r\nWe demonstrate the approach on an end-to-end machine learning workflow: high-resolution (90 m) Random Forest predictions of total nitrogen across the full stream network of a European country, trained on multiple environmental predictors computed with the proposed flow-accumulation-based method. \r\nAt larger scales, this open and scalable approach supports evidence-based nutrient management and policy decisions, illustrating how FOSS4G tools can accelerate environmental modelling, reproducible research, and applied geospatial machine learning.",
+    "start_datetime": "2026-09-02T07:00:00Z",
+    "end_datetime": "2026-09-02T07:30:00Z",
+    "talk:code": "JVFQTA",
+    "talk:guid": "6af3d0ce-fe39-5557-97d0-69505e098362",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "QAZUXB",
+        "name": "Kajetan Chrapkiewicz",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/QAZUXB/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T07:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/JVFQTA/",
+      "title": "Efficient pixel-scale upstream covariate computation for environmental machine learning"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/JVFQTA/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/QAZUXB/",
+      "title": "Kajetan Chrapkiewicz"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/JVFQTA/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "L8BQFK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Developing an UI for historical orthophotos timeseries data",
+    "description": "In 2020 National Land Survey of Finland had scanned and digitized over 100.000 historical orthophotos from 1931 to 2020. This unique dataset had been open for a couple of years via a WMS-T API service but was not well known to the public at the time, and not truly available to less technically oriented users. Hence, there was a need to get them findable and easily accessible with a web browser. \r\n\r\nInstead of building a completely new service, the images were to be published with the Open Source based national geoportal of Finland - Paikkatietoikkuna. The geoportal is built with Oskari Map Application Platform which was enhanced for this use case to support timeseries data. The historical orthophotos are scattered both in time and in geography. To improve end-user experience and make discovering data easier an OGC API Features service was used for metadata.  \r\n\r\nThe final result was received with quite a bit of enthusiasm: after publishing the data in Paikkatietoikkuna geoportal in June 2021, the visitor numbers soared to new records. Nearly all of the feedback has been positive, and now it is possible for anybody to benefit from this extremely valuable and fascinating historical data. \r\n\r\nThe code is fully open source and can be easily used in any Oskari instance \u2013 all you need is the data, which, obviously, isn\u2019t the easiest part of this all.",
+    "start_datetime": "2022-08-26T12:15:00Z",
+    "end_datetime": "2022-08-26T12:45:00Z",
+    "talk:code": "L8BQFK",
+    "talk:guid": "e045d5ed-7f0a-5c5d-97f0-dbd269f86d39",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Open Data",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Modulo 0",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "YLD9YR",
+        "name": "Sini P\u00f6yt\u00e4niemi",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/YLD9YR/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T12:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/L8BQFK/",
+      "title": "Developing an UI for historical orthophotos timeseries data"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/L8BQFK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/YLD9YR/",
+      "title": "Sini P\u00f6yt\u00e4niemi"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/L8BQFK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=Hz_Dxh7ohZ8",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Developing an UI for historical orthophotos timeseries data",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

@@ -1,0 +1,125 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "3WEQYE",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "XDGGS: A community-developed Xarray package to support planetary DGGS data cube computations",
+    "description": "## 1. Introduction\r\n\r\nTraditional maps use projections to represent geospatial data in a 2-dimensional plane. This is both very convenient and computationally efficient. However, this also introduces distortions in terms of area and angles, especially for global data sets (de Sousa et al., 2019). Several global grid system approaches like Equi7Grid or UTM aim to reduce the distortions by dividing the surface of the earth into many zones and using an optimized projection for each zone to minimize distortions. However, this introduces analysis discontinuities at the zone boundaries and makes it difficult to combine data sets of varying overlapping extents (Bauer-Marschallinger et al., 2014).\r\n\r\nDiscrete Global Grid Systems (DGGS) provide a new approach by introducing a hierarchy of global grids that tesselate the Earth\u2019s surface evenly into equal-area grid cells around the globe at different spatial resolutions, and providing a unique indexing system (Sahr et al., 2004). DGGS are now defined in the joint ISO and OGC DGGS Abstract Specification Topic 21 (ISO 19170-1:2021). DGGS serve as spatial reference systems facilitating data cube construction, enabling integration and aggregation of multi-resolution data sources. Various tessellation schemes such as hexagons and triangles cater to different needs - equal area, optimal neighborhoods, congruent parent-child relationships, ease of use, or vector field representation in modeling flows.\r\n\r\nPurss et al. (2019) have explained the idea to combine DGGS and data cubes and underlined the compatibility of these two concepts. Thus, DGGS are a promising way to harmonize, store, and analyse spatial data on a planetary scale. DGGSs are commonly used with tabular data, where the cell id is a column. Many datasets have other dimensions, such as time, vertical level, ensemble member, etc. For these, it was envisioned to be able to use Xarray (Hoyer and Hamman 2017), one of the core packages in the Pangeo ecosystem, as a container for DGGS data.\r\n\r\nAt the joint OSGeo and Pangeo code sprint at the ESA BiDS\u201923 conference (6.-9. November, 2023, Vienna), members from both communities came together and envisioned implementing support for DGGS in the popular Xarray Python package, which is at the core of many geospatial big data processing workflows. The result of the codesprint is a prototype Xarray extension, named xdggs (https://github.com/xarray-contrib/xdggs), which we describe in this article.\r\n\r\n## 2. Design and methodology\r\n\r\nThere are several open-source libraries that make it possible to work with DGGS. Uber H3 , HEALPIX , rHEALPix , DGGRID , Google S2 , OpenEAGGR  \u2013 many if not most have Python bindings (Kmoch et al. 2022). However, they often come with their very own not easy-to-use APIs, different assumptions, and functionalities. This makes it difficult for users to explore the wider possibilities that DGGS can offer.\r\nThe aim of xdggs is to provide a unified, high-level, and user-friendly API that simplifies working with various DGGS types and their respective backend libraries, seamlessly integrating with Xarray and the Pangeo open-source geospatial computing ecosystem. Executable notebooks demonstrating the use of the xdggs package are also developed to showcase its capabilities. The xdggs community contributors set out with a set of guidelines and common DGGS features that xdggs should provide or facilitate, to make DGGS semantics and operations possible to use via the user-friendly Xarray API of working with labelled arrays.\r\n\r\n## 3. Results\r\n\r\nThis development represents a significant step forward. With xdggs, DGGS become more accessible and actionable for data users. Like traditional cartographic projections, a user does not need to be a expert on the peculiarities of various grids and libraries to work with DGGS, and can continue working in the well-known Xarray workflow. One of the aims of xdggs is making DGGS data access and conversion user-friendly, while dealing with the coordinates, tesselations, and projections under the hood.\r\n\r\nDGGS-indexed data can be stored in an appropriate format like Zarr or (Geo)Parquet, with according metadata to understand which DGGS (and potentially under which specific configuration) is needed to address the grid cell indices correctly. An interactive tutorial on Pangeo-Forge as open-access resource is being developed as well to demonstrate to users how to effectively utilizing these storage formats, thereby facilitating knowledge transfer in data storage best practices within the geospatial open-source community.\r\n\r\nNevertheless, continuous efforts are necessary to broaden the accessibility of DGGS for scientific and operational applications, especially in handling gridded data such as global climate and ocean modeling, satellite imagery, raster data, and maps. This would require, for example, an agreement ideally with entities such as the OGC for DGGS reference systems\u2019 registry (similar to the epsg/crs/proj database).\r\n\r\n## 4. Discussion and outlook\r\n\r\nOne of the big advantages of DGGS use via Xarray is the data integration between multi-source multi-sensor EO data, large global-scale ocean and climate models using the Pangeo environment and to make the data access and development practical and FAIR (Findable, Accessible, Interoperable, Reproducible) in the community. Two additional directions to improve uptake and comprise knowledge transfer could include:\r\n\r\n1) The implementation of DGGS such as HEALPix, DGGRID-based equal-area DGGS (ISEA), rHEALPix, and (currently) more industry-friendly DGGS (Uber H3, Google S2) on Xarray should be improved further, and more user-friendly API for how to re-grid current data into DGGS grids. Training materials and Pangeo sessions should be conducted to demonstrate the use of DGGS in Xarray, aimed at enhancing the skillset of practitioners and researchers in geospatial data handling, spatial data analysis, and professional and academic institutions.\r\n\r\n2) DGGS-indexed reference datasets could be validated and also used to highlight case studies and instructional material can be used in academic courses and workshops, focusing on the practical applications of data fusion, quick addressing of equal-area cell grids, AI, socio-economic and environmental studies. Especially the emerging property of selecting cell-ranges from different data sources to join and integrate only based on cell ids could make partial data access and sharing more dynamic and easy.",
+    "start_datetime": "2024-07-03T11:00:00Z",
+    "end_datetime": "2024-07-03T11:30:00Z",
+    "talk:code": "3WEQYE",
+    "talk:guid": "2caf606f-bd1c-55b2-b3aa-90efce2c1a3e",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Academic track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Omicum",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "PQFYHP",
+        "name": "Alexander Kmoch",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/PQFYHP/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-03T11:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/3WEQYE/",
+      "title": "XDGGS: A community-developed Xarray package to support planetary DGGS data cube computations"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/3WEQYE/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/PQFYHP/",
+      "title": "Alexander Kmoch"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/3WEQYE/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "manuscript": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/3WEQYE/resources/XDGGS_Xarray_community_package_planetary_7RuE0KJ.pdf",
+      "type": "application/pdf",
+      "title": "manuscript",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/3WEQYE/resources/Landscape_geoinfo_xdggs_foss4g2024_ZIZNHHu.pdf",
+      "type": "application/pdf",
+      "title": "presentation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/aH9E6Xq1SiSSjvgxsYwXua",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | XDGGS: A community-developed Xarray package to support planetary DGGS data cube ...",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=Idafrmy3GDQ",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | XDGGS: A community-developed Xarray package to support planetary DGGS data cube ...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

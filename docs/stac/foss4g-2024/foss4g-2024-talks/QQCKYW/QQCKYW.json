@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "QQCKYW",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Forest Carbon Monitoring: A New Era of Real-Time Insights for Collaborative Forest Protection",
+    "description": "Effective monitoring of forest carbon is essential for accurately estimating carbon emissions, detecting forest degradation, and enhancing forest management practices. This is particularly critical in biodiversity hotspots like the Amazon Rainforest, which not only sequesters vast amounts of terrestrial carbon but is also under constant threat from illegal deforestation and degradation.\r\nIn 2023, Planet launched Forest Carbon Diligence, a product that delivers annual global maps of canopy height, cover, and aboveground carbon (AGC) at a spatial resolution of 30 meters, covering the years 2014 to 2023. This initiative has already supported various applications, including a study published by Monitoring by the Andean Amazon Project (MAAP), revealing that the Amazon Rainforest stores approximately 56.8 billion metric tons of aboveground carbon (AP News, 2024; Mongabay, 2024).\r\nBuilding on this foundation, in September 2024, Planet introduced Forest Carbon Monitoring, a groundbreaking product that offers a global map of canopy height, cover, and AGC with a remarkable spatial resolution of 3 meters, updated quarterly. This enhanced capability allows for more detailed analysis of forest dynamics, providing timely insights into forest conditions and changes.\r\nThis talk will address two primary objectives:\r\nTechnical Insights: I will cover the development and validation of Forest Carbon Monitoring, highlighting its intercomparison with other existing products. Beyond providing quarterly snapshots, this system enables near-real-time monitoring of landscape changes, comparable to alert systems like RAdar for Detecting Deforestation (RADD) and Global Forest Change datasets. I will demonstrate how this tool is instrumental in identifying deforestation activities and directing conservation efforts to the most vulnerable areas of the Brazilian Amazon.\r\nCommunity Engagement and Collaboration: In this segment, I will illustrate Planet's commitment to fostering community engagement and collaboration through several key initiatives:\r\n1.\tOpen-Source Contributions: Planet actively collaborates with the Free Open Source Software for Geospatial (FOSS) community by using and contributing to open repositories such as pystac, GDAL, xarray, and Dask. This open-source approach encourages innovation, enhances tool accessibility, and supports diverse applications for the geospatial community.\r\n2.\tPartnerships for Impact: Our collaboration with Santiago & Cintra Consultoria (SCCON) in Brazil exemplifies the power of partnership. In the past year, Planet data assisted Brazilian Federal police agents in executing over 3,000 interventions to combat illegal activities, resulting in a remarkable 50% reduction in deforestation rates. This partnership not only strengthens law enforcement efforts but also builds local capacity for sustainable forest management.\r\n3.\tInclusive Access Programs: Planet offers initiatives like the NICFI and Education and Research programs, which provide users with free access to Planet data. By democratizing access to critical information, we empower researchers, conservationists, and local communities to utilize our data for informed decision-making and collaborative conservation efforts.\r\nThrough this presentation, I hope to engage the audience in a dialogue about the crucial intersection of technology, conservation, and community involvement, underscoring the vital role of precise forest carbon monitoring in addressing global environmental challenges.",
+    "start_datetime": "2024-12-04T17:00:00Z",
+    "end_datetime": "2024-12-04T17:45:00Z",
+    "talk:code": "QQCKYW",
+    "talk:guid": "a82569be-7e10-5421-acc2-698c415d1173",
+    "talk:event": "foss4g-2024",
+    "talk:track": "Applications and solutions for the Amazon region",
+    "talk:type": "Keynote",
+    "talk:language": "en",
+    "talk:room": "Room Auditorio",
+    "talk:room_capacity": 1000,
+    "talk:duration_minutes": 45,
+    "talk:speakers": [
+      {
+        "code": "ZJUDAD",
+        "name": "Camile Sothe",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/ZJUDAD/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-04T17:22:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/QQCKYW/",
+      "title": "Forest Carbon Monitoring: A New Era of Real-Time Insights for Collaborative Forest Protection"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/QQCKYW/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/ZJUDAD/",
+      "title": "Camile Sothe"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/QQCKYW/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024/submissions/QQCKYW/resources/FOSS4G_2024_Keynote_Talk-_Camile_compressed_dcoCtOO.pdf",
+      "type": "application/pdf",
+      "title": "Slides",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/j8osFF2i6ghYNtRPbTPZwy",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | Forest Carbon Monitoring: A New Era of Real- Time Insights for Collaborative Forest.",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=VXxyrh5M05Y",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | Forest Carbon Monitoring: A New Era of Real- Time Insights for Collaborative Forest.",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

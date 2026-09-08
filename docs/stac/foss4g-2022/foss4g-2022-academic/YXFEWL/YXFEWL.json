@@ -1,0 +1,113 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "YXFEWL",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "An open API for 3D-georeferenced historical pictures",
+    "description": "Approach and concepts\r\n3D-georeferenced historical pictures have a high potential for the analysis of different landscape features such as melting glaciers, the effects of urbanization or natural hazards. Moreover, historical pictures have a higher temporal and spatial resolution than satellite imagery and therefore allow for analyses that go farther back in time. A 3D georeferenced picture can for instance be combined with a digital terrain model (DTM) and other reference data to calculate the exact footprint of the picture and to generate a list of visible toponyms that can be used to find pictures of a specific place or region.\r\n\r\nThe utilization of historical pictures is unfortunately still difficult: 1. historical pictures need to be digitized 2. collections are often spread across several places in different archives and collections 3. metadata is often not available. In the ongoing open-source project Smapshot (Produit et al. (2018), https://smapshot.heig-vd.ch/) over 150\u2019000 digitized historical pictures have been georeferenced in 3D by more than 700 participants. In the web-platform Smapshot a participant can georeference a picture using monoplotting (Bozzini et al, 2012): ground-control-points (GCP) are digitized both in the historical picture and in a virtual globe that displays recently updated data. These GCP allow for the calculation of the exact position from where the picture has been taken (3D point) and the three angles that define the direction of view: roll, pitch and yaw. Once the position and the direction of view has been calculated a footprint of the picture is generated using a DTM.\r\n\r\nResults\r\nIn order to make the pictures and the metadata from Smapshot available to the public, an open API for 3D-georeferenced historical pictures has been created. The goal was to offer free access to all the data in the Smapshot database and to allow for different types of queries such as retrieving the footprints of the photos, fetching metadata for a picture (e.g. owner, title, date, x/y/z position and roll, pitch, yaw angles) or retrieving photos that are within a certain range from a specific point. \r\n\r\nThis API was built in NodeJS (https://nodejs.org/) with a PostgreSQL/PostGIS (https://www.postgresql.org/, https://postgis.net/) database and python code for the georeferencing algorithm. The API is a REST API fully documented using the OpenAPI specification. The API project has been open-sourced and specific test-suites have been put in place to ensure quality and to allow community contribution with confidence.\r\n\r\nOne challenge for the establishment of this API was standardization: Today there are several standards for the definition of metadata in pictures such as the IIIF (https://iiif.io/) or the Dublin-Core (https://www.dublincore.org/) standards. These standards however have limited support for geospatial data. On the other hand, spatial standards poorly support pictures that are oriented in 3D. The glTF standard (https://www.khronos.org/gltf/) is one example and there is also a recent initiative from the OGC called GeoPose (https://www.ogc.org/projects/groups/geoposeswg) which formalizes a standard to define a 6DoF pose everywhere on Earth including a position and orientation in 3D.\r\n\r\n\r\nReasons why it should be considered\r\n3D georeferenced images are increasingly used by several projects that document change over time; e.g. within the field of digital humanities even paintings can be considered for 3D georeferencing and differences between the real world and the painted world can give room for analysis and interpretation. Another use-case is the creation of geovisualization-applications that show the contents of historical pictures in 3D and that enable a user to compare its contents to the real world (e.g. augmented or virtual reality applications)\r\n\r\nFurthermore in the context of climate change, pictures and paintings document change and deliver evidence. Image processing techniques can be used to automatically detect features (machine learning) and if several pictures are available for one region (but taken from slightly different viewpoints) 3D features can be generated.\r\n\r\nThe open API for 3D georeferenced historical pictures makes these types of analyses easier and opens up the data for a larger public. It also becomes possible to implement other solutions that utilize the data directly - e.g. for displaying historical pictures in a 3rd party web page or for implementing machine-learning processes that automatically download pictures and metadata in order to recognize features and places.\r\n\r\nThe results of the project are also an important input for standardization activities that aim at establishing standards in the context of georeferenced pictures and their metadata.\r\n\r\nAn important perspective of the project is the establishment of an infrastructure for 3D-georeferenced pictures that can be deployed on a national or international level and that also offers the possibility to push new data (e.g. pictures) in the database.\r\n\r\nThis work is of interest for researchers who want to utilize and analyze 3D georeferenced historical imagery and for people who want to establish open API\u2019s to give access to data that is relevant for research.\r\n\r\nBibliography\r\nBozzini, C., Conedera, M., Krebs, P., 2012. A new monoplotting tool to extract georeferenced vector data and orthorectified raster data from oblique non-metric photographs. International Journal of Heritage in the Digital Era 1 (3), 499\u2013518.\r\n\r\nProduit, T., Blanc, N., Composto, S., Ingensand, J., Furhoff, L, 2018. Crowdsourcing the georeferencing of historical pictures. Proceedings of the Free and Open Source Software for  Geospatial (FOSS4G) Conference. Guimar\u00e3es, Portugal. 2018-07\r\n\r\nSource code : https://github.com/MediaComem/smapshot-api",
+    "start_datetime": "2022-08-24T12:45:00Z",
+    "end_datetime": "2022-08-24T13:15:00Z",
+    "talk:code": "YXFEWL",
+    "talk:guid": "9f3a65d2-c931-5c13-81f8-6c01c97d3bcf",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room Modulo 3",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "EHDW3S",
+        "name": "Jens Ingensand",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/EHDW3S/"
+      },
+      {
+        "code": "HETSMG",
+        "name": "Nicolas Blanc",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/HETSMG/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T13:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/YXFEWL/",
+      "title": "An open API for 3D-georeferenced historical pictures"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/YXFEWL/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/EHDW3S/",
+      "title": "Jens Ingensand"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/HETSMG/",
+      "title": "Nicolas Blanc"
+    },
+    {
+      "rel": "related",
+      "href": "https://smapshot.heig-vd.ch/",
+      "title": "smapshot.heig-vd.ch"
+    },
+    {
+      "rel": "related",
+      "href": "https://postgis.net/",
+      "title": "postgis.net"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/MediaComem/smapshot-api",
+      "title": "github.com/MediaComem/smapshot-api"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/YXFEWL/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

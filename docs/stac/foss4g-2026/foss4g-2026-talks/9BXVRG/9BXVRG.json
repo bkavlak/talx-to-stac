@@ -1,0 +1,96 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "9BXVRG",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Use of Open Source Software in the ESA Planetary Science Archive",
+    "description": "Overview of how the ESA Planetary Science Archive (PSA) uses open-source technologies such as OpenLayers, GeoServer, Three.js, and PostGIS to manage, visualize, and distribute planetary data, particularly for Mars, enabling interactive exploration, 3D visualization, and efficient access for the scientific community.\n\nThe European Space Agency (ESA) uses a range of open-source technologies to manage, visualize, and distribute planetary data, with a particular focus on Mars. These tools support both internal operations and provide the global scientific community with access to high-quality planetary datasets through the Planetary Science Archive (PSA).\r\n\r\nSeveral key open-source technologies are used in the PSA infrastructure. **OpenLayers** is used to create interactive web-based maps that allow scientists to explore planetary geospatial data through intuitive interfaces. **GeoServer** serves spatial datasets through standard protocols such as WMS, enabling visualization of observation footprints over different planetary base maps. **Three.js** provides 3D visualization capabilities, allowing users to interactively explore irregular bodies such as comet 67P/Churyumov\u2013Gerasimenko from the Rosetta mission. At the data layer, **PostgreSQL** combined with **PostGIS** manages complex geospatial datasets and enables advanced spatial queries, supporting the analysis and integration of large volumes of planetary data.\r\n\r\nESA also collaborates on open-source projects that facilitate scientific data access and processing. One example is **Astroquery**, a Python library that enables programmatic access to astronomical databases. ESA contributes to this project to ensure planetary mission data can be easily accessed and integrated into scientific workflows. Another example is **Antimeridian**, an open-source tool designed to correctly process geometries that cross the 180\u00b0 longitude line. This capability is particularly relevant for planetary mapping, where coordinate systems may extend beyond traditional Earth-based longitude conventions.\r\n\r\nThese technologies are integrated into a new user interface for the PSA that provides several capabilities for researchers. Scientists can explore interactive maps of Mars, Phobos, and other planetary bodies, apply filters, and overlay multiple geospatial layers such as geological, topographical, and spectral data. The interface also supports multiple projections, including polar and equirectangular views, and allows users to query and extract information for specific regions of interest. In addition, 3D visualization tools enable detailed inspection of planetary surfaces and irregular bodies. Users can perform real-time queries to retrieve mission data and download selected datasets for further scientific analysis.\r\n\r\nThe underlying GIS architecture combines GeoServer for distributing planetary base maps, a frontend based on OpenLayers and Three.js for 2D and 3D visualization, and PostgreSQL/PostGIS for geospatial data storage and querying. Additional integration with tools such as Astroquery and Antimeridian improves data accessibility and resolves technical challenges related to planetary coordinate systems.\r\n\r\nBy building its planetary data infrastructure on open-source technologies, ESA provides powerful tools for exploring and accessing planetary datasets while supporting collaboration within the scientific community. These technologies enable researchers to combine data from multiple missions and instruments within a single interface, facilitating more comprehensive planetary studies. This work demonstrates how open-source GIS tools can effectively support planetary science and the exploration of the Solar System.",
+    "start_datetime": "2026-09-02T08:00:00Z",
+    "end_datetime": "2026-09-02T08:30:00Z",
+    "talk:code": "9BXVRG",
+    "talk:guid": "70397516-4b9c-5850-b7a7-907281b7ab21",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Ran2",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "EMSNNM",
+        "name": "Fran Raga",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/EMSNNM/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T08:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/9BXVRG/",
+      "title": "Use of Open Source Software in the ESA Planetary Science Archive"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/9BXVRG/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/EMSNNM/",
+      "title": "Fran Raga"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/9BXVRG/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-2026/submissions/9BXVRG/resources/FOSS4G_Fran_Raga_qXUWRfk.pdf",
+      "type": "application/pdf",
+      "title": "slides",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

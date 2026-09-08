@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "3AQANT",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Developing custom GRASS tools",
+    "description": "Learn how to develop custom tools (aka addons or modules) for GRASS GIS in Python and, if you like, in C.\n\nPython scripting is powerful, but what is even more powerful is turning a script into a GRASS tool with just a few tricks and tweaks we will cover in this workshop. When you develop a GRASS tool (aka module), you get a graphical user interface (GUI), command line interface, and convenience you and your users will appreciate. Such tools can be published in a community-maintained addon repository which helps not only to distribute the tool, but also to maintain the code in the long term.\r\n\r\nWe will focus on Python, but we will cover tools written in C, too, because even compiled tools in C and C++ can be in this community-maintained repository and distributed to users.",
+    "start_datetime": "2022-08-22T12:00:00Z",
+    "end_datetime": "2022-08-22T14:00:00Z",
+    "talk:code": "3AQANT",
+    "talk:guid": "4719bfc0-67ac-528e-914e-6e1dd3f791f6",
+    "talk:event": "foss4g-2022-workshops",
+    "talk:type": "Short Workshop",
+    "talk:language": "en",
+    "talk:room": "210",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 120,
+    "talk:speakers": [
+      {
+        "code": "9WMZNX",
+        "name": "Anna Petrasova",
+        "url": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/9WMZNX/"
+      },
+      {
+        "code": "ALRNGU",
+        "name": "Vaclav Petras",
+        "url": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/ALRNGU/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-22T13:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/talk/3AQANT/",
+      "title": "Developing custom GRASS tools"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/talk/3AQANT/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/9WMZNX/",
+      "title": "Anna Petrasova"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/ALRNGU/",
+      "title": "Vaclav Petras"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/talk/3AQANT/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-workshops"
+}

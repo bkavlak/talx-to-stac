@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "TEFJBU",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Geospatial Cloud-Native at Scale - LINZ\u2019s Path from Legacy Stacks to a National Data Lake",
+    "description": "Land Information New Zealand is transitioning from siloed, middleware-heavy systems to a cloud-native geospatial data lake, built on STAC, COG, COPC, PMTiles, and GeoParquet. We\u2019ll share our insights on modernising our data publishing, web mapping, analytics, and open data publishing across a complex national enterprise.\n\nLand Information New Zealand (LINZ) is transforming its systems by replatforming a complex web of point-to-point feeds and isolated data stores in favour of a single, cloud-native geospatial data lake hosted on AWS. This shift involves pushing all datasets, including vector, tabular, raster, and point cloud data, into object storage and utilising STAC metadata and cloud-optimised formats. This approach decouples data producers from consumers, making the data more accessible, reusable, and self-describing from day one.\r\n\r\nWe are utilising open formats like PMTiles, COG, GeoParquet, and FlatGeobuf, enabling web applications, analytics, and external APIs to access the files through standard cloud tools. This eliminates the need for repetitive or ad-hoc ETL processes and reduces reliance on fragile bespoke solutions. \r\n\r\nThis presentation will discuss the progression from concept to pilot to production. Key topics will include metadata, versioning, incorporating data quality and lineage into our catalogue, and for both open and internal data. We will also share the organisational benefits, such as faster product creation, stable access patterns for both teams and customers, and a significant reduction in integration workloads. Additionally, we\u2019ll address the cultural shifts necessary to move away from outdated thinking.",
+    "start_datetime": "2025-11-21T01:00:00Z",
+    "end_datetime": "2025-11-21T01:25:00Z",
+    "talk:code": "TEFJBU",
+    "talk:guid": "05905f3a-bc58-5c69-97a2-5c3a74d22a4f",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Cloud, APIs & Data Infrastructure",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG308 TE IRINGA",
+    "talk:room_capacity": 180,
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "ALSACE",
+        "name": "Jeremy Palmer",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/ALSACE/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-21T01:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/TEFJBU/",
+      "title": "Geospatial Cloud-Native at Scale - LINZ\u2019s Path from Legacy Stacks to a National Data Lake"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/TEFJBU/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/ALSACE/",
+      "title": "Jeremy Palmer"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/TEFJBU/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

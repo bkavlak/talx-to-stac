@@ -1,0 +1,96 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "XMJZGY",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "OSGeo AGM",
+    "description": "The OSGeo Annual General Meeting",
+    "start_datetime": "2022-08-26T15:30:00Z",
+    "end_datetime": "2022-08-26T17:00:00Z",
+    "talk:code": "XMJZGY",
+    "talk:guid": "004348bd-6916-5ab3-9562-b652aa3c64c4",
+    "talk:event": "foss4g-2022",
+    "talk:type": "Side event",
+    "talk:language": "en",
+    "talk:room": "Auditorium",
+    "talk:room_capacity": 1000,
+    "talk:duration_minutes": 90,
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T16:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/XMJZGY/",
+      "title": "OSGeo AGM"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/XMJZGY/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/XMJZGY/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/iJzAS96Mhft5VLSV8QdEXP",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | OSGeo AGM",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=2Cq0FeEX-dU",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | OSGeo AGM",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

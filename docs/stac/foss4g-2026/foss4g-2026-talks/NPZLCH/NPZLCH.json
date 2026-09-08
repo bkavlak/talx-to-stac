@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "NPZLCH",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "TrustChain: Implementing the OGC Identity\u2013Provenance\u2013Trust Framework as an Open-Source Geospatial Pipeline",
+    "description": "Geospatial data powers critical decisions . TrustChain is an open-source implementation of the OGC IPT framework that makes trust computable: every dataset carries a cryptographic fingerprint proving its origin, integrity, and provenance. The data answers that question itself.\n\nA government agency receives a flood risk map. The analysis looks credible. The colors are clear. But can anyone in that room answer: Where exactly did this data come from? Has it been altered since collection?  Who validated it, and how?  If the answer is we trust the vendor that is confident without evidence.\r\n\r\nGeospatial professionals have spent decades improving how we process, analyse, and visualise spatial data. One fundamental question remains largely unsolved in practice: how do we make trust in geospatial data something that can be proven, not assumed?\r\n\r\nThis is not a theoretical problem , it is a governance one. When a flood early-warning system triggers an evacuation, the official signing that order needs to know the risk map is verified, not just plausible. When a land parcel platform determines ownership, the affected community needs to know the boundary data is traceable, not just available. When a supply chain certifies deforestation compliance, the regulator needs to know the provenance is auditable, not just claimed. In each case, the geospatial data exists. What is missing is proof that it can be trusted.\r\n\r\nTrustChain is an open-source implementation of the OGC Identity\u2013Provenance\u2013Trust (IPT) framework \u2014 Trust = Identity + Integrity + Provenance built as a working geospatial pipeline. Identity proves the source cryptographically. Integrity guarantees nothing has changed since collection. Provenance traces every processing step back to the original sensor. Every dataset leaving the pipeline carries a blockchain-anchored cryptographic fingerprint \u2014 independently verifiable by anyone, anywhere. The data answers that question itself.",
+    "start_datetime": "2026-09-02T05:00:00Z",
+    "end_datetime": "2026-09-02T05:30:00Z",
+    "talk:code": "NPZLCH",
+    "talk:guid": "1756fc21-a76b-5fa5-9fa9-8924bf990e1e",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Dahlia2",
+    "talk:room_capacity": 140,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "GQCFMM",
+        "name": "Pajarinee Songthammarat",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/GQCFMM/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T05:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/NPZLCH/",
+      "title": "TrustChain: Implementing the OGC Identity\u2013Provenance\u2013Trust Framework as an Open-Source Geospatial Pipeline"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/NPZLCH/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/GQCFMM/",
+      "title": "Pajarinee Songthammarat"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/NPZLCH/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

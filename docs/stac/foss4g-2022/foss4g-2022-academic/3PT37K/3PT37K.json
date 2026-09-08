@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "3PT37K",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "An Open-Source Mobile Geospatial Platform for Agricultural Landscape Mapping: A Case Study Of Wall-to-Wall Farm Systems Mapping in Tonga",
+    "description": "AN OPEN-SOURCE MOBILE GEOSPATIAL PLATFORM FOR AGRICULTURAL LANDSCAPE MAPPING: A CASE STUDY OF WALL-TO-WALL FARM SYSTEMS MAPPING IN TONGA\r\n\r\nPacific Island Countries (PICs) such as Tonga rely on landscape services to support communities and livelihoods in particular smallholder and commercial agriculture. However, PICs are increasingly vulnerable to climatic and environmental shocks and stressors such as increasing cyclone occurrence and landscape conversion. Spatially explicit, timely, and accurate datasets on agricultural and other land use at the community scale are an important source of information for land use policy development, landscape management, disaster response and recovery, and climate-smart sustainable development. However, such datasets are not available or readily accessible to stakeholders engaged in landscape management in PICs. Household surveys, participatory GIS (PGIS), and remote sensing are approaches that have previously been used to capture community-scale landscape uses in PICs; however, these approaches are challenged by data collection and management burdens, mismatched scales, timely integration of databases and data streams, aligning system requirements with local needs, and various socio-technical issues associated with developing and deploying applications in new domains. Such data collection approaches only provide single time-steps representations of landscape uses and fail to capture the highly dynamic and spatially diverse nature of PIC landscapes.\r\n \r\nWe have addressed these challenges by developing, integrating, and deploying a tool for agricultural landscape monitoring at a local scale. This tool is composed of a stack of open-source geospatial applications and was developed through a collaboration between Tonga\u2019s Ministry of Agriculture, Food, and Forests (MAFF) and researchers from Australian and South Pacific universities. We used a formal, iterative ICT for Development (ICT4D) framework to engage and co-develop the tool with MAFF and other landscape stakeholders including community leaders. The ICT4D framework is based on agile methods and is made up of five components: context analysis; needs assessment; use-case and requirements analysis; sustainability assessment; and development, testing and deploying. The five components provide a framework to ensure that project stakeholders (landscape managers, developers, and end-users) consider the range of technical and non-technical factors that will determine successful implementation of an ICT system in a new domain. Here, the goal was to transition from infrequent paper-based and non-spatial surveying of farms to develop a spatial data infrastructure that supports coordinated large-team farm mapping, data syncing and storage, and geospatial data analysis and reporting that aligns with MAFFs needs, and guides landscape management actions. \r\n \r\nHere, we describe our team\u2019s experience in applying the iterative ICT4D framework. We present the development activities associated with successive phases of the project and reflect on the advantages (and constraints) this framework offers for developing open-source geospatial applications for deployment in new domains with a low-resource context. Initially, we introduce the qualitative fact finding, context analysis, and needs assessment to ascertain and distil MAFF\u2019s needs for geospatial data and applications. Then, we present several stages of application design, development, testing, and refinement in various MAFF data collection and reporting campaigns, which enabled analysis and the detailed specification of the requirements for the agricultural landscape monitoring tool. This includes work on developing initial prototype applications, implementing small-scale vanilla and land utilisation surveys, and finally an island-wide wall-to-wall crop survey with a large team of field data collectors. \r\n \r\nFinally, we present the system architecture and a case study of the final iteration of the tool deployed for Tonga\u2019s country-wide wall-to-wall farm system survey completed by MAFF in 2021. The final iteration of the tool was composed of a stack of open-source geospatial tools including QField for mobile mapping and data collection, QFieldCloud for user authentication and data syncing, and newly developed, open-source geospatial data visualisation, analysis, and reporting applications. This case study discusses: (1) how a team of over 40 data collectors were able to work collaboratively to build up a database comprising records from over 11,000 farms using QField and QFieldCloud; and (2) how custom applications developed in this project enable visualisation of this data on web maps and automated reporting to inform policy development and landscape decision making by MAFF.  We also illustrate the critical role the tool and the crop survey information collected in 2021 played in assisting MAFF\u2019s recovery efforts in the aftermath of the Hunga Tonga\u2013Hunga Ha'apai submarine volcano explosion and subsequent tsunami which impacted heavily on Tonga\u2019s main island of Tongatapu in January 2022. We also discuss the potential challenges in delivering the tool to other low-resource jurisdictions in the South Pacific including issues related to data dissemination, privacy and security; user management; technical and financial sustainability; scalability; training and knowledge transfer; and creating and fostering a community of open-source developers and users in PICs.  The success of our case study demonstrates the importance of stakeholder engagement in an iterative ICT 4D development framework, and the great potential that open-source geospatial tools such as QGIS, QField, and QFieldSync can play in agricultural landscape management and disaster response in PICs.",
+    "start_datetime": "2022-08-24T10:10:00Z",
+    "end_datetime": "2022-08-24T10:15:00Z",
+    "talk:code": "3PT37K",
+    "talk:guid": "39e512d0-6916-561f-abe8-3c31546f9d68",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "Room Hall 3A",
+    "talk:room_capacity": 85,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "RZH7P7",
+        "name": "Kevin Davies",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/RZH7P7/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T10:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/3PT37K/",
+      "title": "An Open-Source Mobile Geospatial Platform for Agricultural Landscape Mapping: A Case Study Of Wall-to-Wall Farm Systems Mapping in Tonga"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/3PT37K/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/RZH7P7/",
+      "title": "Kevin Davies"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/3PT37K/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

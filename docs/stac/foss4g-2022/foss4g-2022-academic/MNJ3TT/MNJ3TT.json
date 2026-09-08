@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "MNJ3TT",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Mapping the Chatter: Spatial Metaphors for Dynamic Topic Modelling of Social Media",
+    "description": "opic modelling is a branch of Natural Language Processing that deals with the discovery of conversation topics in a document corpus. In social media, it translates into aggregating posts into topics of conversation and observing how these topics evolve over time (hence the \u201cdynamic\u201d adjective [Murakami, 2021]). Conveying the results of topic modelling to an analyst is challenging since the topics often do not lend themselves naturally to meaningful labelling, where relationships between them can involve hundreds of dimensions. Furthermore,  the popularity of topics is itself subject to change over time.\r\n\r\nIn this paper, we propose a spatialization technique based on open-source software that reduces the intrinsic complexity of dynamic topic modelling output to familiar topographic objects, namely: ridges, valleys, and peaks. This offers new possibilities for understanding complex relationships that change over time, that overcomes issues with traditional topic modelling visualisation approaches such as network graphs [Karpovich, 2017].\r\n\r\nSpatialization [Fabrikant, 2017], a technique that uses spatial metaphors to aid cognitive tasks, has been a research field since the early \u201890s. It can be used to make sense of vast amounts of information by reducing them to a physical landscape. In this work, we consider spatialization of topics in a 3D space where the X-axis is the similarity of topics posted on the same day, the Y-axis is the similarity of topics across time and how their relationships evolve, and the Z-axis is a measure of the topic popularity. With this approach, a topic is therefore reduced to a single point in a 3D space, and the interpolated surface constructed out of these points becomes a landscape with peaks, ridges, and valleys. More precisely, the \u201cvalleys\u201d represent less popular topics, while \u201cpeaks\u201d are the more popular ones and flat surfaces indicate the average topics.\r\n\r\nOur team is working on the Australian Data Observatory project, which has been collecting tweets and other social media posts (Instagram, Reddit, YouTube, Flickr, etc)) related to Australia for the last 12 months. Through the use of the new Twitter academic license, the project is harvesting 10s of millions of tweets per month. The social media posts are stored and analyzed daily using the deep learning BERTopic package. The BERTopic output is then stored and served through a ReST API, which is used by different clients (at present these are Jupyter notebooks and a web application). The intended audience of our platform is composed of the average topics domain researchers including social scientists, linguists, and data journalists. The goal is to support big data exploration at scale and overcome the smaller scale cottage industry of social media research that has hitherto been the norm in academia in Australia\r\n\r\nTopic modelling is often presented using 2D visualizations, such as circles with size proportional to topic popularity and position related to the similarity between topics, The dynamic (temporal) aspect of topic evolution is typically shown with animations that show how topics morph into different ones and wax and wane in popularity or it is ignored completely and researchers just use static topic modelling visualisations. here is merit in trying a different approach for dynamic topic visualisation: namely, to map the social media landscape to the physical one, as this metaphor allows the simultaneous appreciation of time, topic similarity, and popularity while allowing -via zoom operations- the aggregation/disaggregation of topics into bigger/smaller cluster of posts. This 3D landscape naturally aids the end-user in understanding complex highly dimensional data at a scale and volume that would otherwise be impossible. The formation of islands, archipelagos, mountain ranges or valleys related to mainstream topics such as Covid, vaccination, lockdown, through to geopolitical events such as the invasion of Ukraine provides a finger on the pulse of what is being discussed at scale by the broader population across the social media landscape.\r\n\r\nThis approach is currently realised using a web application that enables the \u201ctopographic\u201d exploration of the topic landscape with functions to improve the user experience in the areas of topic labelling and inter-topic distance.\r\n\r\nThere are a few criticalities in the proposed visualization: \r\ndistance between topics has to be drastically reduced in dimensionality from the ones provided by the Deep Learning model to just one (the X-axis);\r\nthe Y-axis (time) has to be put in relation to a completely different measure (distance between topics) to make it amenable to an interpolation;\r\ntopic popularity (the Z-axis) has a huge variability leading to irregular surfaces, hence the need for a non-linear scaling of the Z-axis;\r\ncommunicating the meaning of each topic to the user is difficult, as the top terms of each topic may not be meaningful to a human, and make for a poor label.\r\nThe proposed processing and visualization is developed using only open-source tools and frameworks, leveraging the work of the open-source geospatial community.\r\n\r\nAll the software developed in the course of the Australian Data Observatory project is available under the Apache 2.0 license, and available through the University of Melbourne GitLab source code repository.",
+    "start_datetime": "2022-08-25T13:15:00Z",
+    "end_datetime": "2022-08-25T13:20:00Z",
+    "talk:code": "MNJ3TT",
+    "talk:guid": "5b14561f-458d-5f6d-a97d-4d0a93062242",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "Room Hall 3A",
+    "talk:room_capacity": 85,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "8DCWUL",
+        "name": "Luca Morandini",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/8DCWUL/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T13:17:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/MNJ3TT/",
+      "title": "Mapping the Chatter: Spatial Metaphors for Dynamic Topic Modelling of Social Media"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/MNJ3TT/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/8DCWUL/",
+      "title": "Luca Morandini"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/MNJ3TT/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

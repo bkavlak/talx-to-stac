@@ -1,0 +1,96 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "JM9A8T",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "GeoLLM in the Wild: Open Source AI Meets Geospatial",
+    "description": "Large Language Models are reshaping how we interact with data \u2014 but most implementations ignore geography entirely. At Camptocamp, we've spent the last two years embedding LLMs deep into open source geospatial workflows, and this talk is a frank account of what works, what doesn't, and where the field is heading.\r\n\r\n** GeoNetwork as a GeoAI laboratory\r\n\r\nGeoNetwork, the OSGeo flagship metadata catalog, is where much of our work has been grounded. We'll walk through the integration of semantic search \u2014 moving beyond keyword matching to meaning-based retrieval powered by embedding models \u2014 and the development of a conversational assistant that lets users query geographic datasets in plain language. We'll also share our ongoing work on exposing GeoNetwork capabilities through the Model Context Protocol (MCP), enabling LLM agents to interact directly with catalog APIs.\r\n\r\n*** Agentic geospatial: bleeding edge techniques\r\n\r\nBeyond search and chat, we'll dive into what agentic AI looks like when applied to geospatial workflows: function calling to orchestrate GIS operations (buffer, intersection, spatial queries against OpenStreetMap), LLM-driven QGIS automation via MCP, and the architectural patterns \u2014 RAG pipelines, intent extraction, hybrid search \u2014 that make these systems reliable enough to put in front of real users.\r\n\r\n** The French National Digital Twin: an open source GeoAI at scale\r\n\r\nWe'll close with our role leading the LLM workstream of the French National Digital Twin project (France 2030), a consortium bringing together IGN, INRIA, Cerema and others. This initiative is tackling GeoAI at territorial scale \u2014 and doing it entirely in the open. We'll share early architectural decisions, the challenges of grounding LLMs in authoritative geographic knowledge bases, and why open source is not just a preference here but a sovereignty requirement.\r\n\r\n** Key takeaways for the FOSS4G community\r\n\r\nAttendees will leave with a clear picture of the current state of open source GeoLLM tooling, practical patterns for integrating LLMs into OSGeo-stack applications, and an honest assessment of the remaining challenges \u2014 from data quality to model size optimization \u2014 that the community needs to solve together.",
+    "start_datetime": "2026-07-01T12:30:00Z",
+    "end_datetime": "2026-07-01T13:00:00Z",
+    "talk:code": "JM9A8T",
+    "talk:guid": "81ca32ac-6f21-5f83-a633-038ec9348a16",
+    "talk:event": "foss4g-europe-2026",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "A12",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "9JWZHX",
+        "name": "Florent Gravin",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/9JWZHX/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-07-01T12:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/JM9A8T/",
+      "title": "GeoLLM in the Wild: Open Source AI Meets Geospatial"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/JM9A8T/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/9JWZHX/",
+      "title": "Florent Gravin"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/JM9A8T/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://docs.google.com/presentation/d/1wjUzfOUOdj0tneNknamFuOEQybi1dQQMeKae5T2BtKc/edit?usp=sharing",
+      "title": "Slides",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

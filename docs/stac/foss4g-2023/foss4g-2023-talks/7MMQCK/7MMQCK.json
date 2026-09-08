@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "7MMQCK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Enabling Knowledge Sharing By Managing Dependencies and Interoperability Between Interlinked Spatial Knowledge Graphs",
+    "description": "Knowledge sharing is increasingly being recognized as necessary to address societal, economic, environmental, and public health challenges. This often requires collaboration between federal, local and tribal governments along with the private sector, nonprofit organizations and institutions of higher education. In order to achieve this, there needs to be a move away from data-centric to knowledge sharing architectures, such as a Geographic Knowledge Infrastructure (GKI) to support spatial knowledge-based systems and artificial intelligence efforts. Location and time are dimensions that bind information together. Data from multiple organizations need to be properly contextualized in both space and time to support geographically based planning, decision making, cooperation and coordination.\r\n\r\nThe explosive uptake of ChatGPT seems to indicate that people will increasingly be getting information and generating content using chatbots. Examples of AI-driven chatbot technology providing misleading, harmful, biased, or inaccurate information due to a lack of access to information highlight the importance of making authoritative knowledge accessible, interoperable, and usable for machine-to-machine readable interfaces though GKIs to support AI efforts.\r\n\r\nSpatial knowledge graphs (SKG) are a useful paradigm for facilitating knowledge sharing and collaboration in a machine-readable way. Collaboration involves building graphs with nodes and relationships from different entities that represent a source of truth, trusted geospatial information, and analytical resources to derive new and meaningful insights through knowledge inferencing by location or a network of related locations.\r\n\r\nHowever, due to a lack of standardization for representing the same location and for managing dependencies between graphs, interoperability between independently developed SKGs that reference the same geographies is not automated. This results in a duplication of effort across a geospatial ecosystem to build custom transformations and pipelines to ensure references to geographic data from different sources are harmonized within a graph for the correct version and time period and that these references are properly maintained over time. \r\n\r\nWhat is needed is a way to manage graph dependencies, or linking, between organizations in a more automated manner. References to geographic features (i.e., geo-objects) from graphs that are curated by external (and ideally authoritative) entities should come from formally published versions with the time period for which they are valid (i.e., the period of validity). As newer versions of SKGs are published for different periods of validity, updating dependencies between graphs should be controlled and automated. \r\n\r\nIt turns out that an approach for a similar kind of dependency management has been in mainstream use for decades in a related field. Software developers long ago abandoned the practice of manually managing code artifacts on filesystems and manually merging changes to code. Rather, they use a combination of namespacing for identity and reference management along with formally managing versioned releases in a code repository.  Although there are nuanced differences between software code versioning and dependency management between SKGs, there are enough similarities to indicate distinct advantages to treating geospatial data as code for the purpose of managing graph dependencies to automate knowledge sharing. \r\n\r\nWe have been developing such an approach since 2018 with the core principles implemented in an open-source application called GeoPrism Registry (GPR), which utilizes spatial knowledge graphs to provide a single source of truth for managing geographic data over time across multiple organizations and information systems. It is used to host, manage, regularly update hierarchies and geospatial data through time for geographic objects. GPR is being used by the ministry of health in the country of Laos to manage interlinked dependencies between healthcare related geo-objects and geopolitical entities. More recently it has been installed in Mozambique for use by the national statistics division (ADE) to meet their National Spatial Data Infrastructure (NSDI) objectives to facilitate cross-sectoral information collaboration using common geographies for the correct periods of time.\r\n\r\nCurrently, GPR is being considered by the US Federal Geospatial Data Committee (FGDC) to help build a GKI for GeoPlatform.gov, which is mandated by the United States Geospatial Data Act of 2018 (GDA) to improve data sharing and cooperation between public and private entities to promote the public good in a number of sectors. US federal agencies are developing spatial knowledge graphs, but they are not interoperable using machine-to-machine readable interfaces with those from other agencies. We led a requirements, design, and scoping effort that revealed a GKI architecture for GeoPlatform, will at a minimum, require the following machine-readable characteristics to enable knowledge interoperability using SKGs at scale.\r\n\r\nAuthoritative:\r\nCopies of data always remain authoritative by preserving the identity of its source.\r\n\r\nTemporal:\r\nThe period of validity should be specified in metadata as a moment in time (such as a date), a frequency (e.g., annually or quarterly), or an interval (year 2000 to 2005) in which data have not changed relative to when they were published.\r\n\r\nDistributed:\r\nUtilize the Data Mesh architecture pattern by giving organizations the ability to publish locally hosted graph assets. Other organizations can build fit-for-purpose graphs by pulling and merging only what is needed from authoritative sources. \r\n\r\nTransitive:\r\nChanges made to graphs should automatically propagate to the graphs that reference them, even if the dependency occurs via multiple layers of indirection (i.e., a dependency of a dependency). \r\n\r\nVersioned:\r\nMetadata should capture the published version.\r\n\r\nInteroperable:\r\nThe semantic identity of data types, attributes, and relationships should be defined such that equivalency and identity can be established. This would include the use of namespaces, controlled vocabularies, taxonomies, ontologies, geo-object types, and graph edge types.\r\n\r\nIn this paper we will present the approach for implementing these GKI requirements and GeoPlatform.gov interoperability use cases using open-source software. This will include the Common Geo-Registry concept for managing the authoritative and interoperable requirements, the Data Mesh framework for making the solution distributed and transitive, and the spatial knowledge graph repository for managing temporal, and versioned dependencies. We will also present the metamodel architecture used by GeoPrism Registry for managing graph dependencies, facilitating interoperability, publishing, and how it currently is being used as a graph repository.",
+    "start_datetime": "2023-06-28T14:00:00Z",
+    "end_datetime": "2023-06-28T14:30:00Z",
+    "talk:code": "7MMQCK",
+    "talk:guid": "16d26cd1-47b2-5362-9269-0ab765157df9",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Academic Track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT E / N209 - Floor 3",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RBXJPQ",
+        "name": "Nathan McEachen",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/RBXJPQ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T14:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/7MMQCK/",
+      "title": "Enabling Knowledge Sharing By Managing Dependencies and Interoperability Between Interlinked Spatial Knowledge Graphs"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/7MMQCK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/RBXJPQ/",
+      "title": "Nathan McEachen"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/7MMQCK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

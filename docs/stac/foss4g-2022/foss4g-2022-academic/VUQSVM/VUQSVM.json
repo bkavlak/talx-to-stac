@@ -1,0 +1,158 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "VUQSVM",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "A method for universal superpixels-based regionalization (preliminary results)",
+    "description": "Generalization is one of the fundamentals of scientific research. In the context of spatial information, generalization needs to allow for finding common properties but also for spatial contiguity. Therefore, such generalization is often made through regionalization - partitioning of space into spatial clusters or regions. This process is vital for environmental studies, where many patterns and processes are autocorrelated spatially. Examples of regionalizations include delineation of ecoregions, detection of homogeneous zones for precision agriculture, definition of climate regions, and so on.\r\n\r\nTraditionally spatial generalization was performed manually, often based on a compilation of pre-existing, independently conducted studies. This approach lack of quantitative framework, and thus no systematic checks, modifications or objective updates are possible. Currently, the abundance of remote sensing spatial data, such as satellite imagery, gridded climate data, or land cover maps, allows fast extraction of relevant spatial information on regional and global scales, making possible studies rooted in a clear quantitative framework.\r\n\r\nSuch data, however, still requires spatially-aware generalization to formulate general concepts or claims. Remote sensing data stores information as a set of raster cells, where a single cell is unaware of its spatial context. This is often not enough to understand underlying objects or processes.\r\n\r\n(Geographic) object-based image analysis (OBIA) (Blaschke 2010) is frequently applied to resolve this issue. It is an approach to partition space consisting of raster cells into homogeneous objects and thus make spatial regionalization possible. Several generalization techniques were developed for OBIA, including a superpixels approach that proved to perform best for image processing and remote sensing data analysis (Csillik 2017).\r\n\r\nThe main idea of superpixels is to create connected groupings of cells with similar values (Ren and Malik 2003; Achanta et al. 2012). Each superpixel represents a desired level of homogeneity while at the same time maintaining spatial structures. Superpixels also carry more information than each cell alone, and thus they can speed up the subsequent processing efforts (Ren and Malik 2003; Achanta et al. 2012).\r\n\r\nThe original superpixels algorithm has, however, two major drawbacks for spatial data problems other than RGB images. Firstly, the algorithm uses the Euclidean distance, which is adequate in many cases, such as RGB images. However, it limits the possible usability for environmental datasets \u2013 Euclidean distance is not suitable for many types of spatial raster data (e.g., categorical rasters) and has undesirable properties for multi-dimensional data (e.g., a set of monthly climate data), where the results based on Euclidean distance contradict human intuition (Aggarwal, Hinneburg, and Keim 2001).  Secondly, the superpixels technique does not result in regions per se but rather over-segmentation \u2013 some spatial objects/regions could be represented by one superpixel, while others could consist of many very similar superpixels. \r\n\r\nOur preliminary results presented during the GIScience 2021 conference (Nowosad and Stepinski 2021) provide a basis for using other distance measures to create superpixels. The proposed extension can also be used for various scenarios, such as creating regions of similar multi-dimensional spatial and temporal patterns or similarly ranked areas. The extension is also already available as an open-source software in the form of an R package. The supercells package has extensive documentation in the form of a help file and additional vignettes that can be found, together with its installation instructions, at https://jakubnowosad.com/supercells/.\r\n\r\nThe second issue is, however, still not resolved. Many clustering methods exist that could be used for merging similar connected superpixels, including traditional ones such as hierarchical clustering and spatial-aware ones such as SKATER or REDCAP. Wang et al. (2018) developed a REDCAP-based workflow for merging superpixels, which showed good image results and outperformed similar techniques; however, their work was based on the original superpixels algorithm and thus used Euclidean distance on 3-dimensional RGB images only. Additionally, it could be worth testing how good modern unsupervised machine learning techniques would perform in this task.\r\n\r\nOur main goal is to present the work in progress related to developing a robust method for merging superpixels and thus creating high-quality regionalization. We will test clustering/grouping methods based on three main criteria: accuracy, universality, and computational performance. Accuracy will be obtained based on the resulting regions\u2019 internal homogeneity and their isolation compared to the neighbors. Universality will be tested on several datasets to check if the method works for various scenarios, including RGB images, categorical rasters, spatial time-series, etc. The computational performance will be evaluated based on the time needed for each method\u2019s calculation and their use of computer resources.\r\n\r\nReferences\r\n\r\nAchanta, R., A. Shaji, et al. 2012. \u201cSLIC Superpixels Compared to State-of-the-Art Superpixel Methods.\u201d IEEE Transactions on Pattern Analysis and Machine Intelligence 34 (11): 2274\u201382. https://doi.org/f39g5f.\r\n\r\nAggarwal, Charu C., Alexander Hinneburg, et al. 2001. \u201cOn the Surprising Behavior of Distance Metrics in High Dimensional Space.\u201d In Database Theory \u2014 ICDT 2001, edited by Jan Van den Bussche and Victor Vianu, 1973:420\u201334. Lecture Notes in Computer Science. Springer Berlin Heidelberg. https://doi.org/10.1007/3-540-44503-X_27.\r\n\r\nBlaschke, T. 2010. \u201cObject Based Image Analysis for Remote Sensing.\u201d ISPRS Journal of Photogrammetry and Remote Sensing 65 (1): 2\u201316. https://doi.org/d4ksqf.\r\n\r\nCsillik, Ovidiu. 2017. \u201cFast Segmentation and Classification of Very High Resolution Remote Sensing Data Using SLIC Superpixels.\u201d Remote Sensing 9 (3): 243. https://doi.org/f92zgd.\r\n\r\nNowosad, J., and T. Stepinski. 2021. \u201cGeneralizing the Simple Linear Iterative Clustering (SLIC) Superpixels.\u201d GIScience 2021 Short Paper Proceedings. 11th International Conference on Geographic Information Science. September 27-30 2021. Pozna\u0144: Poland (Online). https://doi.org/gnw982.\r\n\r\nRen, and Malik. 2003. \u201cLearning a Classification Model for Segmentation.\u201d In Proceedings Ninth IEEE International Conference on Computer Vision, 10\u201317 vol.1. Nice, France: IEEE. https://doi.org/c6s237.\r\n\r\nWang, Mi, Zhipeng Dong, et al. 2018. \u201cOptimal Segmentation of High-Resolution Remote Sensing Image by Combining Superpixels With the Minimum Spanning Tree.\u201d IEEE Transactions on Geoscience and Remote Sensing 56 (1): 228\u201338. https://doi.org/gct8gv.",
+    "start_datetime": "2022-08-26T10:30:00Z",
+    "end_datetime": "2022-08-26T11:00:00Z",
+    "talk:code": "VUQSVM",
+    "talk:guid": "e7599c3e-f6d3-54cd-ad7e-442b3ee19737",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room Modulo 3",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "SAV3ZK",
+        "name": "Jakub Nowosad",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/SAV3ZK/"
+      },
+      {
+        "code": "9WZKHZ",
+        "name": "Mateusz Iwicki",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/9WZKHZ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T10:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/VUQSVM/",
+      "title": "A method for universal superpixels-based regionalization (preliminary results)"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/VUQSVM/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/SAV3ZK/",
+      "title": "Jakub Nowosad"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/9WZKHZ/",
+      "title": "Mateusz Iwicki"
+    },
+    {
+      "rel": "related",
+      "href": "https://jakubnowosad.com/supercells/",
+      "title": "jakubnowosad.com/supercells"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/f39g5f",
+      "title": "doi.org/f39g5f"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.1007/3-540-44503-X_27",
+      "title": "doi.org/10.1007/3-540-44503-X_27"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/d4ksqf",
+      "title": "doi.org/d4ksqf"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/f92zgd",
+      "title": "doi.org/f92zgd"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/gnw982",
+      "title": "doi.org/gnw982"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/c6s237",
+      "title": "doi.org/c6s237"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/gct8gv",
+      "title": "doi.org/gct8gv"
+    },
+    {
+      "rel": "related",
+      "href": "https://jakubnowosad.com/publications.html",
+      "title": "My research"
+    },
+    {
+      "rel": "related",
+      "href": "https://jakubnowosad.com/projects.html",
+      "title": "geocomputational software"
+    },
+    {
+      "rel": "related",
+      "href": "https://twitter.com/hashtag/rspatial",
+      "title": "#rspatial"
+    },
+    {
+      "rel": "related",
+      "href": "https://geocompr.github.io/",
+      "title": "the Geocomputation with R"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/VUQSVM/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

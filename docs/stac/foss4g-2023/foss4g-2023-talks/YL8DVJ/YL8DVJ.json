@@ -1,0 +1,129 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "YL8DVJ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Collaborative mapping without internet connectivity",
+    "description": "This talk is about a prototype that enables collaborative mapping without the need of any internet connectivity, only a local network is required. It runs fully in the browser, hence is cross-platform, it basically runs on any smartphone. The users form a peer-to-peer network in order to exchange their data.\r\n\r\nIt can be used in situations where there either is no internet infrastructure, it's spotty or it was destroyed. In the disaster response case, only a local network, without any server infrastructure, would be needed.\r\n\r\nIn the talk you'll learn about content-addressing, WebRTC and peer-to-peer networks and of course experience a live demonstration of the prototype.\r\n\r\nThe tech-stack is [Svelte] for the application, [OpenLayers] for displaying the map, [IPFS] for the storage, [libp2p] for the networking. The project is licensed under the Apache/MIT licenses.\r\n\r\n[Sevelte]: https://svelte.dev/\r\n[OpenLayers]: https://openlayers.org/\r\n[IPFS]: https://ipfs.tech/\r\n[libp2p]: https://libp2p.io/",
+    "start_datetime": "2023-06-28T12:30:00Z",
+    "end_datetime": "2023-06-28T13:00:00Z",
+    "talk:code": "YL8DVJ",
+    "talk:guid": "9b3411a9-dd62-5f4b-ba92-be5f03a192df",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT D / N113 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "JRZHKD",
+        "name": "Volker Mische",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/JRZHKD/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T12:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/YL8DVJ/",
+      "title": "Collaborative mapping without internet connectivity"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/YL8DVJ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/JRZHKD/",
+      "title": "Volker Mische"
+    },
+    {
+      "rel": "related",
+      "href": "https://svelte.dev/",
+      "title": "svelte.dev"
+    },
+    {
+      "rel": "related",
+      "href": "https://openlayers.org/",
+      "title": "openlayers.org"
+    },
+    {
+      "rel": "related",
+      "href": "https://ipfs.tech/",
+      "title": "ipfs.tech"
+    },
+    {
+      "rel": "related",
+      "href": "https://libp2p.io/",
+      "title": "libp2p.io"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/YL8DVJ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/2yV8Mr4XKxsCL7AL3qmAai",
+      "type": "text/html",
+      "title": "2023 | Collaborative mapping without internet connectivity - Volker Mische",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=UV0YuHKz1dc",
+      "type": "text/html",
+      "title": "2023 | Collaborative mapping without internet connectivity - Volker Mische",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

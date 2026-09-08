@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Q8C3FK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "\u201cHow to Draw, Urban Traffic Data?\u201d \u2014 From Trip Lines to OD Matrices: Visualization Techniques for Traffic Simulation",
+    "description": "This project develops an open-source-based platform that visualizes urban traffic simulation data using various techniques and presents a way to intuitively understand complex movement patterns.\n\nUrban traffic flow is becoming increasingly complex, and it is difficult to grasp its meaning with only numerical data. In particular, there is a need for technical approaches to visually interpret simulation data that includes temporal and spatial patterns.\r\n\r\nPurpose:\r\n- To provide an intuitive and visual way of understanding complex urban traffic simulation results by implementing various spatial visualization techniques using open-source tools.\r\n\r\nThis system utilizes spatial data based on GeoJSON and PostGIS to generate various visualization layers, such as vehicle movement trajectories (trip lines), OD matrices, heatmaps, and time-based density changes. Simulation results are visualized in 2D and 3D using OpenLayers and CesiumJS, respectively, and by expressing the same data differently in 2D/3D, interpretability and communication are enhanced.\r\n\r\nKey Features:\r\n- Trip line animations to trace vehicle movement\r\n- OD matrix visualization with directional flow arrows\r\n- Heatmap layers for density and congestion hotspots\r\n- Time-series based map layers with playback\r\n- Dual 2D/3D rendering and synchronized view interaction\r\n\r\nAs a result, users can explore simulation data over time, analyze congestion patterns in specific areas, and intuitively identify complex OD patterns. All components are designed based on a microservice architecture, allowing scalability and integration with various simulation engines.\r\n\r\nThis project focuses on implementing various visualization techniques using only open-source technologies and expressing complex traffic flows in a form that anyone can understand.\r\n\r\nOpen Source Technologies Used:\r\n- **CesiumJS** for 3D spatial visualization and animation\r\n- **OpenLayers** for 2D WebGL vector layer rendering\r\n- **PostGIS** for spatial data storage and analysis\r\n- **GeoJSON** as the primary transport and visualization data format\r\n\r\nThis work was supported by Institute of Information & communications Technology Planning & Evaluation (IITP) grant funded by the Korea government(MSIT) (RS-2024-00459703, Development of next-generation AI integrated mobility simulation and prediction/application technologies for metropolitan cities)",
+    "start_datetime": "2025-11-20T01:30:00Z",
+    "end_datetime": "2025-11-20T01:55:00Z",
+    "talk:code": "Q8C3FK",
+    "talk:guid": "2b6a90e4-a38e-5757-83b3-9908f2a60046",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Use Cases and Applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG126",
+    "talk:room_capacity": 140,
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "C8VYQW",
+        "name": "Hansang Kim",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/C8VYQW/"
+      },
+      {
+        "code": "8WZ7K3",
+        "name": "Sungjo MIN",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/8WZ7K3/"
+      }
+    ],
+    "talk:do_not_record": true,
+    "datetime": "2025-11-20T01:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/Q8C3FK/",
+      "title": "\u201cHow to Draw, Urban Traffic Data?\u201d \u2014 From Trip Lines to OD Matrices: Visualization Techniques for Traffic Simulation"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/Q8C3FK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/C8VYQW/",
+      "title": "Hansang Kim"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/8WZ7K3/",
+      "title": "Sungjo MIN"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/Q8C3FK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "urban-traffic-data-visualization-overview": {
+      "href": "https://talks.osgeo.org/media/foss4g-2025/submissions/Q8C3FK/resources/UrbanTrafficData_Visualization_Overview_nx3WE2N.pdf",
+      "type": "application/pdf",
+      "title": "Urban Traffic Data Visualization Overview",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

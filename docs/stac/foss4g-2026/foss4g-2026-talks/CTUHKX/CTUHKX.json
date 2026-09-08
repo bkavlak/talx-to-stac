@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "CTUHKX",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Breaking the Barriers: Using Generative AI for Global Geospatial Data Accessibility",
+    "description": "As Open Data and FOSS4G grow, \"open\" does not always mean \"accessible\" due to language and local technical barriers. This presentation highlights these \"invisible walls\" and explores how Generative AI can bridge these gaps, making local geospatial data truly usable for the global community.\n\nIn Japan, premier platforms such as the Digital National Land Information and the Geospatial Information Center provide essential datasets for disaster management, urban planning, and environmental analysis. However, these portals often lack comprehensive English interfaces or metadata, creating a formidable Language Barrier.\r\n\r\nBeyond translation, a Technical Barrier exists in the form of localized standards. Japan\u2019s Plane Rectangular Coordinate System (consisting of 19 distinct zones) and unique Map Sheet Codes (Zukaku-codes) are often undocumented in international contexts. For a developer outside Japan, interpreting a dataset encoded in \"Zone 9\" or navigating a Japanese-only download manual requires niche expertise that traditional translation tools cannot provide.\r\n\r\nBy integrating Generative AI into the FOSS4G workflow, we can lower the entry barrier for global collaboration. This session will demonstrate how AI can assist in navigating Japanese data portals and automating the processing of local datasets. Our goal is to move toward a truly inclusive geospatial ecosystem where local wisdom\u2014stored in regional data\u2014is accessible to the entire global community, regardless of language or local technical standards.",
+    "start_datetime": "2026-09-02T07:30:00Z",
+    "end_datetime": "2026-09-02T08:00:00Z",
+    "talk:code": "CTUHKX",
+    "talk:guid": "8435f9f9-310e-512b-a7c0-3a1f12ceb653",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Phoenix Hall",
+    "talk:room_capacity": 1150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "LHTWHU",
+        "name": "Takahiro Endo",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/LHTWHU/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T07:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/CTUHKX/",
+      "title": "Breaking the Barriers: Using Generative AI for Global Geospatial Data Accessibility"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/CTUHKX/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/LHTWHU/",
+      "title": "Takahiro Endo"
+    },
+    {
+      "rel": "related",
+      "href": "https://aigid.jp/english/abstract/",
+      "title": "AIGID"
+    },
+    {
+      "rel": "related",
+      "href": "https://front.geospatial.jp/about-gic-en/",
+      "title": "the Geospatial Information Center"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/CTUHKX/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

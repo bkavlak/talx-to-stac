@@ -1,0 +1,114 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "EK7KL8",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "The Open Source GIS Stack (OSGS)",
+    "description": "In the last few years, open source GIS has been developing relatively rapidly with an increase in the number of open-source GIS software available for performing various specialty functions. With this increase came the problem of managing the dependencies of different software when installing them on the same machine or getting them to work together to accomplish a task.  How was the setting up process the last time you needed to make a map, share it and write about how you made the map? This is where the docker-based Open Source GIS Stack (OSGS) comes in. \r\n\r\nOSGS is a rich, integrated, and opinionated GIS Stack with a focus on configurability and ease of use built from open source components. The primary objective of the OSGS stack is to provide simple and effective end-to-end solutions based on open source geospatial technologies. Some of the key services offered by the OSGS platform are Nginx and Hugo for web publishing using static web pages, File Browser for file management, QGIS-Server for publishing web maps, PostgreSQL and PostGIS for database management, and Metabase for visualizing your data. We\u2019ll take a look at how easy and painless making, sharing and writing about maps can be. \r\n\r\nThe Open Source GIS Stack by Kartoza is maintained in the Kartoza OSGS repository https://github.com/kartoza/osgs.",
+    "start_datetime": "2022-08-24T15:20:00Z",
+    "end_datetime": "2022-08-24T15:25:00Z",
+    "talk:code": "EK7KL8",
+    "talk:guid": "c9e974f4-22ae-542b-bb32-017e043f2fc8",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Room Limonaia",
+    "talk:room_capacity": 110,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "M8KMDX",
+        "name": "Victoria Neema",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/M8KMDX/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T15:22:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/EK7KL8/",
+      "title": "The Open Source GIS Stack (OSGS)"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/EK7KL8/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/M8KMDX/",
+      "title": "Victoria Neema"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/kartoza/osgs",
+      "title": "github.com/kartoza/osgs"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/EK7KL8/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/bhAw8HqdePZVDCyReEzt5n",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | The Open Source GIS Stack (OSGS)",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=jHYav53Ih-c",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | The Open Source GIS Stack (OSGS)",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

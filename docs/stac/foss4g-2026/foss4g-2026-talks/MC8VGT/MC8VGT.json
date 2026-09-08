@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "MC8VGT",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Integrating Machine Learning with Open-Source GIS for Reproducible High-Resolution Terrain Classification and Hazard Mapping from UAV LiDAR Data",
+    "description": "The rapid development of high-resolution topographic information obtained through unmanned aerial vehicle (UAV) LiDAR systems has significantly improved the capability to analyse terrain morphology, detect geomorphologic processes, and support spatial hazard analysis at centimetre-scale resolutions. At the same time, the maturity of open-source geospatial software frameworks, including QGIS, GRASS GIS, SAGA GIS, PDAL, ESA SNAP, and the Python scientific stack, has enabled the development of transparent and reproducible analytical methods outside closed software environments. Despite these developments, a considerable number of terrain hazard modelling studies still rely on closed or only partially documented processing chains, which limits transparency, reproducibility, and scientific reuse of methods. In addition, while machine learning-based landslide and terrain instability analysis methods are well established, only a small number of studies present fully reproducible end-to-end workflows based on free and open-source geospatial software, including UAV LiDAR-derived geomorphometry.\r\nIn this study, we present an open, reproducible, and fully documented machine learning-based framework for high-resolution terrain classification and hazard susceptibility mapping using UAV LiDAR-derived geomorphometry. The main purpose of this study is to demonstrate that robust scientific analysis of terrain morphology, including terrain hazard modelling, can be achieved using an open geospatial software stack, while at the same time ensuring that the predictive accuracy of the proposed framework is comparable to closed software environments. A secondary purpose of this study is to quantify the relative importance of key geomorphometric factors controlling terrain instability at very high spatial resolutions, while at the same time exploring the reproducibility of the proposed framework within the broader context of open geospatial science and FAIR data principles.\r\nThe research is based on a dense UAV LiDAR survey that results in a centimetre-scale digital terrain model after classification of ground points, removal of outliers, and interpolation via an openly scripted PDAL processing pipeline. All the data were acquired in Croatia (Europe), on different geomorphology terrain characteristics. UAV LiDAR data were collected using DJI Matrice 350 RTK with L2 payload. To ensure centimetre level accuracy, UAV was paired with GNSS receiver Emlid Reach RS+ with the connection on Croatian Positioning System (CROPOS). From the normalized terrain surface, a full range of geomorphometric derivatives was computed via GRASS GIS and SAGA GIS plugins integrated into QGIS. The computed derivatives include slope gradient, aspect, plan and profile curvature, terrain position index, surface roughness, flow accumulation, and the LS erosion factor. These parameters are recognized as key indicators of morpho dynamic processes linked to slope instability and erosion. The raster layers were normalized to a consistent spatial resolution and extent and a consistent coordinate reference system to obtain a multivariate predictor stack for machine learning-based research.\r\nThe reference data for the supervised models were derived from detailed geomorphological interpretation of the LiDAR terrain surface and existing engineering-geological information in the study area. The stable and unstable terrain units were identified to develop the training and validation datasets. To guarantee methodological reproducibility and computational reproducibility, all the steps involved in the research were implemented via openly accessible Python scripts and QGIS models.\r\nThe machine learning classification was performed via open-source Python libraries. The most dominant libraries utilized were scikit-learn. The classification results were evaluated via spatially independent validation. The models were tested via confusion matrix, accuracy, F1 score, and receiver operating characteristic score. Feature importance was also computed to evaluate the relative contribution of individual geomorphometric variables to terrain instability hazard. The feature importance results provided physically interpretable results on terrain instability via LiDAR terrain morphology.\r\n\r\nThe results show that fully open-source machine learning workflows, when applied to UAV LiDAR-derived geomorphometric parameters, can attain high predictive reliability in differentiating stable from potentially unstable terrain conditions. Ensemble-based methods, particularly Random Forest, show the most balanced performance and robustness against predictor multicollinearity. For all models, slope gradient, curvature, and flow accumulation are consistently identified as dominant predictors, which is consistent with geomorphological theory and further underscores the analytical value of centimetre-scale terrain representation. Beyond predictive accuracy, the principal scientific contribution of this work is its operational reproducibility within the open geospatial community. The entire workflow, from point cloud pre-processing to final susceptibility map generation, can be executed using exclusively free and open-source tools, along with fully disclosed parameters and computational steps. Moreover, all processing scripts, derived data products permitted under data sharing restrictions, and workflow documentation will be made openly available under an open-source license via an open repository. The proposed framework is inherently transferable and applicable to the rapidly developing and expanding UAV LiDAR acquisition initiatives across the globe. By demonstrating the capability of high-end terrain hazard modelling without recourse to proprietary tools, this work makes a significant contribution to a community-based methodological blueprint applicable to environmental monitoring, infrastructure planning, and risk management under resource-constrained or open science-based scenarios. By integrating UAV LiDAR geomorphometry, interpretable machine learning, and fully reproducible open-source processing, this work advances the scientific and operational role of free and open geospatial technologies in high-resolution Earth surface science.",
+    "start_datetime": "2026-09-03T05:30:00Z",
+    "end_datetime": "2026-09-03T06:00:00Z",
+    "talk:code": "MC8VGT",
+    "talk:guid": "d1a94aba-c9ef-5a98-95bd-ffeb14ed8205",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos2",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "Q7TQTQ",
+        "name": "Nikola Kranj\u010di\u0107",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/Q7TQTQ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-03T05:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/MC8VGT/",
+      "title": "Integrating Machine Learning with Open-Source GIS for Reproducible High-Resolution Terrain Classification and Hazard Mapping from UAV LiDAR Data"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/MC8VGT/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/Q7TQTQ/",
+      "title": "Nikola Kranj\u010di\u0107"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/MC8VGT/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

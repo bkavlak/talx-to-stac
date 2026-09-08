@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "UYEXWL",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Using external dependencies in QGIS plugins",
+    "description": "This talk presents different methods to handle dependencies to external libraries in QGIS plugins.\r\n\r\nCompared to for example web development world there is no wide adoption of general-purpose QGIS libraries available nor a way to easily integrate such libraries into own plugin or library development. Also, some widely-used non-QGIS-specific libraries like pandas for data manipulation might be beneficial for QGIS plugins or libraries to use as well.\r\n\r\nBuilt-in QGIS features include declaring dependency plugins, but the usage must rely on either accessing the plugin instance and its API, importing code of the plugin package in a guarded way, or using only for example the processing providers installed by such dependency plugins. For example, sharing and using general purpose GUI components, simple functions etc. with an external, possibly pip-installable dependency library is not straightforward and has many obstacles.\r\n\r\nSome methods used include requesting dependency install manually from the user, using subprocess calls to install the dependencies automatically, shipping dependencies together with the plugin code and using import paths manipulation, or bundling the dependencies into the code and using replaced imports to point to the bundled library. Difficulties in some or all these approaches include possible version conflicts between different plugin requirements, version mismatches with the expected runtime and platform incompatibility.\r\n\r\nThis talk compares these different methods pros and cons, possible use cases for each, effect on the development workflow, and shows available tools for helping to use some of these methods.",
+    "start_datetime": "2024-07-05T11:00:00Z",
+    "end_datetime": "2024-07-05T11:30:00Z",
+    "talk:code": "UYEXWL",
+    "talk:guid": "aef2be84-e9e7-59d9-88f6-91e84402714b",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Omicum",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "P9PE8N",
+        "name": "Antero Komi",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/P9PE8N/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-05T11:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/UYEXWL/",
+      "title": "Using external dependencies in QGIS plugins"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/UYEXWL/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/P9PE8N/",
+      "title": "Antero Komi"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/UYEXWL/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/UYEXWL/resources/plugin-presentation_nQ3y5eF.pdf",
+      "type": "application/pdf",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/onZa3GUXt3TxAWg6eGeaf6",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Using external dependencies in QGIS plugins",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=yW5Iyg1OZQk",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Using external dependencies in QGIS plugins",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

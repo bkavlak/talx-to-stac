@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "LVW9CP",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Detecting land cover change using high spatial, high temporal satellite imagery and open-source platforms",
+    "description": "Satellite imagery is very useful for detecting change in land cover and use. However, it is often complex to set up analysis workflows. We will demonstrate how to assemble quick and efficient processes to detect change in multiple environments using open high spatial and temporal resolution data and processing platforms, .\n\nIn this workshop attendees will be able to replicate the steps necessary to put in place a QGIS data processing pipeline to analyse changes in vegetation in natural systems. Attendees will be walked through multiple approaches: 1) manually using different tools in QGIS, 2) automated using theQGIS graphical modeler, and 3) automated using QGIS with Python.\r\n\r\nAttendees will be using Planet-NICFI monthly data to create time-series analysis of change. Some of the functionalities covered include the creation of different vegetation indices and false colour composites, the animation of change over time, and the creation of analytical outputs such as tables and charts.\r\n\r\nAttendees will also learn to use the SEPAL geospatial data processing platform (sepal.io) to build custom Planet-NICFI imagery composites, classifications, and other analyses. SEPAL is a cloud-computing platform created by the UN Food and Agriculture Organization.\r\n\r\n##### Requirements for the Attendees\r\n* This workshop will be most comfortable for intermediate level users of QGIS with knowledge of remote sensing and ideally some basic knowledge of Python, but all levels should be able to follow and enjoy the session. So in fact we welcome all levels!\r\n* It is recommended that the attendees sign up for the NICFI Satellite Data Program ahead of the workshop by following the instructions available at www.planet.com/nicfi. Additional recommendations, or data packages, may be made available closer to the workshop date.\r\n\r\n##### Link to software source code\r\n* www.planet.com/nicfi",
+    "start_datetime": "2023-06-26T07:00:00Z",
+    "end_datetime": "2023-06-26T11:00:00Z",
+    "talk:code": "LVW9CP",
+    "talk:guid": "fb368dfd-6738-56f0-8ce4-7f9080110a89",
+    "talk:event": "foss4g-2023-workshop",
+    "talk:type": "Long Workshop",
+    "talk:language": "en",
+    "talk:room": "UBT D / N115 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "8HJUQR",
+        "name": "Benjamin Trigona-Harany",
+        "url": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/8HJUQR/"
+      },
+      {
+        "code": "W3DAYM",
+        "name": "Miguel Castro Gomez",
+        "url": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/W3DAYM/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-26T09:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/LVW9CP/",
+      "title": "Detecting land cover change using high spatial, high temporal satellite imagery and open-source platforms"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/LVW9CP/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/8HJUQR/",
+      "title": "Benjamin Trigona-Harany"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/W3DAYM/",
+      "title": "Miguel Castro Gomez"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/LVW9CP/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-workshops"
+}

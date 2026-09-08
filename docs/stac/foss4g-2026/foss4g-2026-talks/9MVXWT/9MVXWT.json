@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "9MVXWT",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "From Raw ADS-B Signals to Reproducible Flight Trajectories: An Open Geospatial Workflow for Narita Airport",
+    "description": "High-resolution flight trajectory data are essential for analyzing airport operations, environmental impacts, and aviation safety, yet publicly available aviation statistics typically provide only aggregated indicators such as annual movement counts and hourly traffic summaries. Such datasets do not preserve the individual trajectories required for spatial analysis of airport-adjacent phenomena at fine spatial and temporal scales. As a result, researchers and practitioners often lack accessible and reproducible methods for constructing trajectory datasets suitable for geospatial analysis.\r\n\r\nThis study presents a reproducible open workflow that converts raw ADS-B (Automatic Dependent Surveillance-Broadcast) reception data into analysis-ready flight trajectory datasets while explicitly examining uncertainties introduced throughout the processing pipeline. Implemented with low-cost open reception infrastructure and open geospatial tools, the workflow is designed to be transparent, transferable, and applicable across airports and research contexts.\r\n\r\nThe workflow is demonstrated using data collected in the vicinity of Narita International Airport, one of the largest airports in Japan and a complex operational environment well suited to evaluating trajectory reconstruction methods. ADS-B signals broadcast by aircraft were received using a reproducible hardware configuration consisting of a 1090 MHz antenna, an RTL-SDR (Radio-Television Tuner Software Defined Radio) receiver, and a Raspberry Pi 4B single-board computer. Signals were decoded with the open-source software dump1090-fa and stored as records containing timestamps, aircraft identifiers, positions, altitudes, and speed information.\r\n\r\nThe empirical dataset covers a full year, from 1 April 2024 to 31 March 2025, enabling analysis across seasonal and operational variation. Initial processing stages harmonize timestamps, remove records without valid positional information, and spatially filter the dataset to the area surrounding Narita Airport. Coordinates are transformed into a projected system suitable for geometric operations, and altitude values are converted to metric units to ensure consistency across analytical steps.\r\n\r\nBecause ADS-B altitude values represent pressure altitude rather than true altitude above mean sea level, meteorological observations from the Japan Meteorological Agency are incorporated to estimate corrected altitude values using the ICAO standard atmosphere relationship. This correction improves the interpretability of vertical trajectory profiles and is particularly relevant for analyses that depend on accurate vertical geometry, including approach-path diagnostics and environmental modeling.\r\n\r\nIndividual observations are then segmented into candidate flight trajectories based on temporal continuity between successive aircraft messages. Arrival and departure movements are inferred from geometric relationships between reconstructed trajectories and runway-end locations together with vertical trajectory characteristics. Low-altitude trajectory points are associated with specific runways using a minimum-distance rule applied to runway centerline extensions. Each movement is further categorized into operational classes defined by runway usage, movement direction, and arrival or departure status.\r\n\r\nTo enrich analytical interpretation, aircraft attributes are integrated by linking Mode S identifiers with the OpenSky Network aircraft database, enabling the inclusion of information such as aircraft type, manufacturer, registration, and nationality. Additional quality-control procedures remove trajectories with large deviations from runway geometry, exclude low-altitude outliers, and filter tracks with insufficient observation density.\r\n\r\nApplying the workflow to the one-year dataset produced 245,205 reconstructed arrival and departure trajectories associated with Narita Airport. This figure is broadly consistent with published annual aircraft movement statistics, suggesting that the reception and processing pipeline captures real operations at a practically meaningful scale. The most frequently observed aircraft types were A320, B767-300, B737-800, B777-200LR, and B787-8, reflecting the typical fleet composition operating at the airport.\r\n\r\nTemporal analysis of the reconstructed dataset indicates approximately 650 aircraft movements per day on average, with activity concentrated primarily between 06:00 and 22:00. Late-night operations are comparatively limited, a pattern relevant for interpreting time-dependent operational and environmental impacts. The classification results also reveal a clear asymmetry in runway usage, with departures predominantly associated with Runway A and arrivals with Runway B, demonstrating how reconstructed trajectories can reveal detailed operational characteristics of airport traffic.\r\n\r\nData-quality evaluation shows that the proportion of records excluded during filtering and outlier removal remained below one percent of the total dataset, suggesting limited distortion of population-level representativeness. Examination of vertical profiles indicates that many arrival trajectories follow the expected approximate three-degree descent path used in instrument approaches. Nevertheless, some trajectory segments fall below this reference path, with residual discrepancies on the order of approximately 100 m. These deviations likely reflect the combined effects of ADS-B measurement uncertainty, reception gaps, and the spatial limitations of meteorological pressure observations used in altitude correction.\r\n\r\nThe principal contribution of this study is the specification of a transparent and transferable geospatial data-engineering workflow that converts raw ADS-B reception data into curated flight trajectory datasets suitable for spatial analysis. By explicitly documenting processing steps and identifying sources of uncertainty throughout the pipeline, the workflow provides a reproducible foundation for aviation-related geospatial research across different airports and operational contexts. Potential applications include airport operational analysis, time-of-day airspace utilization studies, emissions-inventory preparation, environmental impact assessment, and the creation of public information products describing aircraft activity. More broadly, the study demonstrates how open reception infrastructure and open analytical tools can be integrated into reusable spatial data pipelines, thereby contributing to transparent and reproducible geospatial practice within the FOSS4G community.",
+    "start_datetime": "2026-09-02T06:30:00Z",
+    "end_datetime": "2026-09-02T07:00:00Z",
+    "talk:code": "9MVXWT",
+    "talk:guid": "f9d60dfc-c1bc-5495-9b97-f0b506ebdeb7",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos1",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "EUBAEN",
+        "name": "Junta Tagusari",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/EUBAEN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T06:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/9MVXWT/",
+      "title": "From Raw ADS-B Signals to Reproducible Flight Trajectories: An Open Geospatial Workflow for Narita Airport"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/9MVXWT/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/EUBAEN/",
+      "title": "Junta Tagusari"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/9MVXWT/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

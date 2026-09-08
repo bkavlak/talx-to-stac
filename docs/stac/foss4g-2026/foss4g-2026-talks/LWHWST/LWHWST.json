@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "LWHWST",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Iwfgara: Visualizing Numerical Weather Prediction Data in an Open Source Web-based 3D GIS",
+    "description": "Iwfgara is an open-source web-based 3D GIS platform for visualizing numerical weather prediction data and enabling interactive exploration of atmospheric phenomena.\n\nIwfgara is a web-based platform that integrates three-dimensional geospatial information with meteorological data to visualize atmospheric phenomena. The system collects numerical weather prediction (NWP) datasets, including the Global Forecast System (GFS) from the National Oceanic and Atmospheric Administration (NOAA) and forecasting data from the European Centre for Medium-Range Weather Forecasts (ECMWF), and processes them in near real time for visualization.\r\n\r\nIn this work, grid-based NWP data are transformed into a structure suitable for integration with a 3D GIS environment. Using an open-source 3D GIS engine, the platform enables interactive visualization of large-scale gridded atmospheric variables such as wind speed, temperature, and humidity directly in a web browser. The system also supports overlaying meteorological satellite imagery and provides vertical analysis tools for exploring atmospheric structures across different altitude levels.\r\n\r\nThis work demonstrates how open-source geospatial technologies can enable efficient web-based visualization and exploration of large-scale meteorological datasets in an interactive 3D environment.",
+    "start_datetime": "2026-09-02T05:00:00Z",
+    "end_datetime": "2026-09-02T05:05:00Z",
+    "talk:code": "LWHWST",
+    "talk:guid": "be3d6347-cff5-5690-bcf5-257419cbd1aa",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Lightning Talk",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Ran1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "FJZQD7",
+        "name": "Noh Jaehyuk",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/FJZQD7/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T05:02:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/LWHWST/",
+      "title": "Iwfgara: Visualizing Numerical Weather Prediction Data in an Open Source Web-based 3D GIS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/LWHWST/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/FJZQD7/",
+      "title": "Noh Jaehyuk"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/LWHWST/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

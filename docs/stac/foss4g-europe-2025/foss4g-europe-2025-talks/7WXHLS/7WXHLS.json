@@ -1,0 +1,131 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "7WXHLS",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "Comparing 545 Million Years of Sea-Level Change: New insights from the TopoChronia QGIS Plugin",
+    "description": "Palaeogeography is the study of past geography, focusing on the physical landscapes, climate, and environments of the Earth in past over geological periods. It reconstructs the positions of continents, oceans, mountain ranges, and ecosystems over millions of years, helping scientists understand plate tectonics, past climates, and the evolution of life.\r\nPalaeogeographic maps can be generated with qualitative to semi-quantitative methods, for instance by discriminating between oceans, coastal and land areas, or can be fully quantified, with each pixel of the map being assigned a specific elevation value.  Unlike other plate tectonic models, PANALESIS is able to depict fully quantified palaeogeographic maps at 0.1\u00b0 x 0.1\u00b0 resolution from 545 million years ago until present-day, in ca.10-million-year time steps.\r\nPalaeogeography can also be leveraged to estimate sea-level variations. By calculating the oceans volumes, and comparing them to the present-day volume, we can quantify the increase or decrease in sea-level required to match this reference. These sea-level variations can then be compared and validated against estimates from other plate tectonic models, and with other methods such as stratigraphic studies.\r\nAn initial sea-level curved based on PANALESIS was published in 2015 (V\u00e9rard et al., 2015). The methodology was never published in detail and was running on ArcGIS, using a now obsolete system that cannot be run anymore. This implies that it is not possible to reproduce or verify these results.\r\nTo address this, we have entirely rewritten and enhanced the source code into a QGIS plugin named TopoChronia. With this paper, we present the new sea-level curve derived from the new palaeogeographic maps and compare them with other data from the literature, including the 2015 PANALESIS data.\r\nWe also highlight critical issues that impacted this transition to open-source and open science in general, including input data and source code management practices, mismatch between published results, input data and code, as well as methodological errors, and the way towards FAIR compliance.\r\nWe use a straightforward methodology, which converts the model input lines into points, to each of which is assigned an elevation value based on modelling of the geological (or tectonic) setting they belong to (V\u00e9rard, 2017). Settings include for instance collision and subduction zones, active or passive margins and mid-oceanic ridges. \r\nA global raster is then interpolated form these points using the QGIS Triangulated Irregular Network (TIN) method, as it has shown to perform well in these circumstances (Franziskakis et al., in prep). From this global raster, we calculate the volume below the elevation of 0m and compare it with the present-day volume of oceans. \r\nAssuming a constant oceanic volume through time, we can therefore estimate the required increase or decrease in sea-level required to match this volume, using Allen & Allen (Allen & Allen, 2005) equations. These equations divide the newly added water column height into an increase of water above initial sea-level (\u2206SL) and the subsidence (S) of oceanic floor caused by the added water. \r\nWe compare the PANALESIS v0 results (spanning form 545Ma to present-day) and we also include the PANALESIS v1 results, currently spanning form 888Ma to 330Ma.\r\nOverall, both the original and the new v0 seem to follow similar tendencies, but with differences in amplitude. The original PANALESIS curve shows lower values compared to the new one, with a median value of +45m. This can be explained by a few factors, including:\r\n1.\tThe reference volume used in 2025 is based on the ETOPO volume under z = 0m, whereas the 2015 reference volume was the 000 Ma (present-day) PANALESIS reconstruction volume, which was significantly higher than ETOPO.\r\n2.\tThe method to calculate the required sea-level rise has changed. For the original version, a 0.55 ratio of the added water column height was used, whereas now the rise is following Allen & Allen equations, which approximates a higher ratio of 0.69. This leads to a 25% higher final sea-level increase.\r\n3.\tThe input data has since changed. Modifications have been made to some features (e.g. assigning a younger age to a feature), leading to large areas being shallower than previously, as depth is primarily controlled by age. \r\n4.\tA different interpolation method was used, previously Natural Neighbour from ArcGIS, and now replaced by QGIS TIN.\r\nThe v1 curve also differs from the v0 ones as the newest version of the model has been strongly enhanced and contains much more details. However, the v1 model only spans from 888 to 330 Ma, allowing comparison only between 330 and 545 Ma.\r\nImprovements are still required on the palaeogegraphy, including the incorporation of climate feedback: simulations for CO2 concentration and precipitation estimates at global scale will help shape better sediment fluxes. It is also important to consider ice sheets formation and melting, strongly controlled by the presence or absence of land in polar regions.\r\nAnother aspect is the quantification of error propagation: starting with the input model (time + space), points distribution (space), interpolation (oceans volume, sea-level), orbital parameters related to glacial/interglacial cycles (oceans volume, sea-level).\r\nFinally, the transition to open-source and open data is necessary and underway to make input and output data available, alongside the processing software. This has already started by making the TopoChronia code available online and will contribute to more transparency and reproducibility.",
+    "start_datetime": "2025-07-17T09:00:00Z",
+    "end_datetime": "2025-07-17T09:30:00Z",
+    "talk:code": "7WXHLS",
+    "talk:guid": "151207c1-3f45-520e-8778-421a5dc834c3",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Academic track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "PA01 (Quarticle)",
+    "talk:room_capacity": 95,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "F7SCRX",
+        "name": "Florian Franziskakis",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/F7SCRX/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-17T09:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/7WXHLS/",
+      "title": "Comparing 545 Million Years of Sea-Level Change: New insights from the TopoChronia QGIS Plugin"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/7WXHLS/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/F7SCRX/",
+      "title": "Florian Franziskakis"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/7WXHLS/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/7WXHLS/resources/Franziskakis_et_al_FOSS4G_academic_track_SYE5D1V.pdf",
+      "type": "application/pdf",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "supplementary-data": {
+      "href": "https://zenodo.org/records/15396265",
+      "title": "Supplementary Data",
+      "roles": [
+        "data"
+      ]
+    },
+    "topochronia-source-code": {
+      "href": "https://github.com/florianfranz/topo_chronia",
+      "title": "TopoChronia Source code",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/qJDjFgbScvFkWbAkmN9Ntz",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Comparing 545 Million Years of Sea-Level Change: New insights from the ...",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=mzi6VhbJKxY",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Comparing 545 Million Years of Sea-Level Change: New insights from the ...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

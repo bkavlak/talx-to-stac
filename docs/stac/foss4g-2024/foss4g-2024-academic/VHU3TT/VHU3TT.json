@@ -1,0 +1,116 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "VHU3TT",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "A Spatial Data Infrastructure using Modern Standards: Lessons Learned from the eMOTIONAL Cities Project",
+    "description": "Standards in the Geographic Information Systems (GIS) domain are crucial for ensuring interoperability, data consistency, and efficiency across diverse applications and platforms. As in other domains, they are necessary to ensure that different GIS software can work together. Moreover, the continuous improvement and development of these standards are essential to keep pace with evolving technologies and user requirements, enhancing the overall functionality and usability of GIS. By adhering to and advancing these standards, the GIS community can foster innovation, support informed decision-making, and address complex geospatial challenges more effectively.\r\nTherefore it\u2019s important to be conservative, using widely supported standards, but also open to emerging technologies, preparing for the future global leap, and welcoming it proactively. The design of the eMOTIONAL Cities Spatial data infrastructure (SDI) is built around this approach   (Simoes, J., and Cerciello, A. (2022). Serving Geospatial Data Using Modern and Legacy Standards: a Case Study from the Urban Health Domain. The International Archives of Photogrammetry, Remote Sensing and Spatial Information Sciences, 48, 419-425)\r\n\r\nThe environment we live in affects our mental health and well-being. \u200b\u200bThe eMOTIONAL Cities project has set out to understand how the natural and built environment can shape the feelings and emotions of those who experience it. It does so with a cross-disciplinary and data driven approach, which resulted in numerous datasets from more \u201ctraditional\u201d GIS based fields like Urban Planning, as well as other fields like Neuroscience. The common denominator between all these datasets is the geospatial dimension. One of the main goals of the project is to assemble these disparate datasets in a common SDI, in order to enable scientists and eventually the general public, to discover and access the data for the purposes of analysis and decision making.\r\nThe OGC API is a family of modern Standards from the Open Geospatial Consortium (OGC), which leverage modern web technologies like OpenAPI, REST and JSON (Percivall, G. (2017) OGC\u00ae Open Geospatial APIs - White Paper). Although very appealing to web developers, they are relatively new compared to the OGC Web Services (OWS) like WFS, WMS or WMTS, which have been in the GIS domain for more than twenty years. When we started the project, we were unsure if it would be possible to set up an SDI, purely based on OGC API, both because of the maturity of the Standards and the availability and Technology Readiness Level (TLR) of implementations. This has led us to initially create an SDI that contains both a modern and legacy stack (Simoes, J., and Cerciello, A. (2022). Serving Geospatial Data Using Modern and Legacy Standards: a Case Study from the Urban Health Domain. The International Archives of Photogrammetry, Remote Sensing and Spatial Information Sciences, 48, 419-425). However, in the past two years we have seen huge developments in OGC API Standards, with many Standards having parts approved and implementations catching up on those developments. One implementation in particular, pygeoapi (https://pygeoapi.io/), is exemplar in terms of the Standards development process, by participating actively in the OGC Code Sprints, by being an Early Implementer (EI) and even a Reference Implementation (RI) of several OGC API Standards. It embodies the new OGC paradigm, where the development of the Standard goes hand in hand with the development of implementations, resulting in published Standards which are market ready.\r\nThe eMOTIONAL Cities SDI demonstrates that it is now possible to share geospatial data using OGC API with Free and Open Source Software (FOSS). We have selected Standards to enable the publication of feature data (OGC API - Features), tiles of geospatial information (OGC API - Tiles), sensor data (SensorThings API) and metadata (OGC API - Records). Although that was not the case when we started this work, they are now all approved Standards. The SDI uses a stack of FOSS software, with pygeoapi at its core and several supporting services. In order to ease the deployment and reproducibility of the system, the services were virtualized into docker containers and orchestrated using docker-compose. This resulted in a system that is infrastructure agnostic and can be deployed in any Cloud Service Provider (CSP) in a matter of minutes. The code is available on GitHub with an MIT license (https://github.com/emotional-cities/openapi-sdi) and released in Zenodo with DOI 10.5281/zenodo.6591179. We have also set up pipelines to enable both humans and machines to ingest data and metadata into the SDI and extensive documentation about how to access the SDI, using clients such as QGIS, MapStore or jupyter notebooks.\r\nThe SDI is live at: http://emotional.byteroad.net/ and it includes 97 datasets from five different cities (e.g.: Lisbon, London, Copenhagen, Tartu and Lansing). It has collections that characterize the physical environment (e.g.: Normalized difference vegetation index (NDVI), Annual mean NO2 concentration), the built environment (e.g.: Buildings with repair needs ratio, Average age of buildings) socio-economic aspects (e.g.: Area Deprivation Index, Number of People Travel by Bicycle to Work) and health data (e.g.: Crude percent of adults with depression, Mortality rate), as well as results of experiments (e.g.: London outdoor walk test data: Air Quality Temperature, London outdoor walk test data: Sound Pressure levels). The data can be discovered and queried in the OGC API - Records searchable catalog: https://emotional.byteroad.net/catalogue\r\nIn this article we would like to share our journey during the process of implementing the SDI, and how we navigated the technological and human challenges of adopting emerging technologies in constant development. We hope the results of this project can encourage scientists, urban planners and other experts who deal with geospatial data in some way, to embark on a similar journey and contribute towards making geospatial information FAIR; e.g.: Findable, Accessible, Interoperable and Reusable. At the same time, we hope to promote a family of GIS standards (e.g.: OGC API) that seeks to mitigate the learning curve that has always characterized them.",
+    "start_datetime": "2024-12-04T17:00:00Z",
+    "end_datetime": "2024-12-04T17:30:00Z",
+    "talk:code": "VHU3TT",
+    "talk:guid": "4aede763-75f5-54e8-8067-a9a7e94c4e6a",
+    "talk:event": "foss4g-2024-academic-track",
+    "talk:track": "Academic Track",
+    "talk:type": "Oral Presentation 1",
+    "talk:language": "en",
+    "talk:room": "Room V",
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RU9BR9",
+        "name": "Antonio Cerciello",
+        "url": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/RU9BR9/"
+      },
+      {
+        "code": "FNYKAD",
+        "name": "Joana Simoes",
+        "url": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/FNYKAD/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-04T17:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/talk/VHU3TT/",
+      "title": "A Spatial Data Infrastructure using Modern Standards: Lessons Learned from the eMOTIONAL Cities Project"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/talk/VHU3TT/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/RU9BR9/",
+      "title": "Antonio Cerciello"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/FNYKAD/",
+      "title": "Joana Simoes"
+    },
+    {
+      "rel": "related",
+      "href": "http://emotional.byteroad.net/",
+      "title": "emotional.byteroad.net"
+    },
+    {
+      "rel": "related",
+      "href": "https://emotional.byteroad.net/catalogue",
+      "title": "emotional.byteroad.net/catalogue"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/talk/VHU3TT/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-foss4g": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024-academic-track/submissions/VHU3TT/resources/FOSS4G-Belem-EC-SDI_1UM4OxX.pdf",
+      "type": "application/pdf",
+      "title": "Presentation FOSS4G",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-academic"
+}

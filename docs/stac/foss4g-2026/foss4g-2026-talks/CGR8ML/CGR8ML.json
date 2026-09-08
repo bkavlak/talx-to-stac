@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "CGR8ML",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Examining the Relationship Between Tatara Iron Production and Grassland Distribution in Western Japan: An Open Geospatial Approach to Historical Landscape Analysis",
+    "description": "Introduction\r\nGrasslands historically occupied a substantially larger portion of the Japanese landscape than they do today. In western Japan, traditional tatara iron production\u2014a pre-industrial smelting technology that used iron sand and charcoal in clay furnaces\u2014has frequently been associated with the persistence of grassland landscapes. Historical narratives often portray these open landscapes as products of the massive forest clearance and charcoal extraction that iron production required. Early ecological studies reinforced this interpretation: Ito (1962) noted a correspondence between the spatial distribution of tatara production areas and grassland occurrence in the Ch\u016bgoku region, a pattern that has since been widely cited as evidence of a direct causal relationship. Despite the persistence of this interpretation, it has rarely been subjected to rigorous quantitative examination using spatially explicit data. This study examines the spatial relationship between tatara iron production sites and grassland distribution in Tottori Prefecture, western Japan, using an integrated open geospatial analysis workflow built entirely from open-source tools and publicly available datasets.\r\n\r\nStudy area and Data\r\nThe study area, Tottori Prefecture, occupies the northern slope of the Ch\u016bgoku Mountains and was historically one of the active tatara iron production regions in Japan. The prefecture's geology is dominated by granitic formations in the west and center, with distinct volcanic deposits around the Daisen volcano in the northwest. Three major river basins\u2014the Sendai, Tenjin and Hino river systems\u2014organize the mountainous landscape into hydrologically distinct units.\r\nThe analysis integrates three classes of data. Grassland area was derived from municipality-level statistics in the 1950 World Agricultural Census. Because the original records exist only as printed statistical tables, a structured digitization protocol was developed using AI-assisted table extraction, converting scanned census pages to machine-readable CSV format. Tatara iron production site locations were compiled from the Tottori Prefecture WebGIS cultural heritage database. Raw spatial data were extracted via browser developer tools and processed into structured point data using Python, then aggregated to municipality counts using spatial joins in QGIS 3.40. Environmental variables were constructed from open geospatial datasets, including the 1:200,000 seamless geological map of Japan, the national hydrological grid dataset, and DEM data from which terrain indicators including elevation, slope, and curvature were derived.\r\n\r\nAnalysis Methods\r\nSpatial data processing and analysis were conducted using Python-based open-source libraries. GeoPandas was used for vector data integration and spatial joins. Terrain derivatives were computed from DEM data using rasterio and scipy, with zonal statistics aggregated at the municipality level via rasterstats. All vector data were managed in GeoPackage and FlatGeobuf formats. Statistical modelling was implemented using statsmodels and scikit-learn.\r\nThe analysis proceeded in three stages. First, ordinary least squares regression models were estimated to assess the relationship between environmental variables and municipality-level grassland area, evaluating geological entropy, dominant basin membership, mean elevation, slope, and curvature as predictors. Second, stepwise model comparison assessed the marginal contribution of tatara site density after environmental predictors were included. Third, DBSCAN spatial clustering was applied to tatara site point data to identify geographically concentrated production districts and characterise their environmental context. The complete analysis code is archived on Zenodo (https://doi.org/10.5281/zenodo.19042339).\r\n\r\nResults\r\nTatara iron production sites exhibit strong spatial clustering, identifying two large production districts in western Tottori Prefecture concentrated within the Hino River basin. These districts correspond closely with granitic geological formations and mid-to-high elevation zones, consistent with the known requirements of iron-sand-based smelting for specific geological and hydrological conditions.\r\nGrassland distribution is most strongly predicted by environmental variables rather than by tatara site density. Mean elevation is the most consistent predictor across model specifications. When tatara site counts are added to environmental models, the improvement in explanatory power is modest. The interaction term between tatara count and slope gradient is statistically significant and negative: municipalities with many tatara sites but steeper terrain show a weaker association with grassland area. This suggests that iron production promoted grassland formation primarily in accessible mid-elevation areas, while in steeper terrain the same activities relied more directly on adjacent forest without generating the open landscapes associated with grassland land use.\r\n\r\nDiscussion\r\nThese findings suggest that the long-standing narrative associating tatara iron production with grassland landscapes requires qualification. Both phenomena appear to have developed within similar environmental opportunity spaces defined by geology, basin structure, and topography. From the perspective of cultural evolution and niche construction theory, tatara iron production can be interpreted as a technological strategy adapted to a particular ecological niche, in which the apparent correlation between industrial sites and grassland landscapes arises partly from shared environmental constraints rather than from direct landscape transformation alone.\r\nFrom a methodological standpoint, the study demonstrates that open geospatial workflows combining QGIS, GeoPandas, rasterio, rasterstats, and statsmodels can support rigorous historical landscape analysis. The integration of AI-assisted digitization, spatial data standardization, and reproducible statistical modelling within a single transparent workflow illustrates the practical potential of the open geospatial ecosystem for environmental history research. The approach is transferable to other historical industrial landscapes where documentary and archaeological data can be combined with environmental geospatial datasets to re-examine inherited interpretations of landscape change.",
+    "start_datetime": "2026-09-01T07:00:00Z",
+    "end_datetime": "2026-09-01T07:30:00Z",
+    "talk:code": "CGR8ML",
+    "talk:guid": "fe9129d5-8dd7-5aec-98cc-6031f87fbaa2",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos2",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "TFSA8P",
+        "name": "Nobusuke Iwasaki",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/TFSA8P/"
+      },
+      {
+        "code": "EJVV9Z",
+        "name": "Ayaka Onohara",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/EJVV9Z/"
+      },
+      {
+        "code": "GGUCGL",
+        "name": "Takatora Bito",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/GGUCGL/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T07:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/CGR8ML/",
+      "title": "Examining the Relationship Between Tatara Iron Production and Grassland Distribution in Western Japan: An Open Geospatial Approach to Historical Landscape Analysis"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/CGR8ML/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/TFSA8P/",
+      "title": "Nobusuke Iwasaki"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/EJVV9Z/",
+      "title": "Ayaka Onohara"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/GGUCGL/",
+      "title": "Takatora Bito"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/CGR8ML/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

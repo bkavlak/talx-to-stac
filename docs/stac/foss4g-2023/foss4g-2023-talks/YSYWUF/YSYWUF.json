@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "YSYWUF",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Processing and publishing Maritime AIS data with GeoServer and Databricks in Azure",
+    "description": "The amount of data we have to process and publish keeps growing every day, fortunately, the infrastructure, technologies, and methodologies to handle such streams of data keep improving and maturing. GeoServer is an Open Source web service for publishing your geospatial data using industry standards for vector, raster, and mapping. It powers a number of open-source projects like GeoNode and geOrchestra and it is widely used throughout the world by organizations to manage and disseminate data at scale. We integrated GeoServer with some well-known big data technologies like Kafka and Databricks, and deployed the systems in Azure cloud, to handle use cases that required near-realtime displaying of the latest AIS received data on a map as well background batch processing of historical Maritime AIS data. \r\n\r\nThis presentation will describe the architecture put in place, and the challenges that GeoSolutions had to overcome to publish big data through GeoServer OGC services (WMS, WFS, and WPS), finding the correct balance that maximized ingestion performance and visualization performance. We had to integrate with a streaming processing platform that took care of most of the processing and storing of the data in an Azure data lake that allows GeoServer to efficiently query for the latest available features, respecting all the authorization policies that were put in place.  A few custom GeoServer extensions were implemented to handle the authorization complexity, the advanced styling needs, and big data integration needs.",
+    "start_datetime": "2023-06-28T14:30:00Z",
+    "end_datetime": "2023-06-28T15:00:00Z",
+    "talk:code": "YSYWUF",
+    "talk:guid": "a41369b5-18a9-5ab7-9854-56a62a2d0a0b",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Drini",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RBSH8T",
+        "name": "Andrea Aime",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/RBSH8T/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T14:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/YSYWUF/",
+      "title": "Processing and publishing Maritime AIS data with GeoServer and Databricks in Azure"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/YSYWUF/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/RBSH8T/",
+      "title": "Andrea Aime"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/YSYWUF/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

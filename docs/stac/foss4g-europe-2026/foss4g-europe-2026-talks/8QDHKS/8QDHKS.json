@@ -1,0 +1,106 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "8QDHKS",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "Precision farming with GeoServer:  lessons learned and future directions",
+    "description": "The growing availability of data from drones, Earth observation, and agricultural machinery (i.e., telemetry), combined with the advent of cloud infrastructure, has significantly accelerated innovation in how farmers and agricultural systems are supported. These advances have democratized access to data and capabilities, enabling precision farming solutions at an unprecedented scale.\r\n\r\nThis has become one of the main use cases for GeoServer deployments in recent years. At GeoSolutions, we have collaborated with a wide range of clients\u2014from NGOs to large private companies, from startups to research institutions, helping them to extract value from data through GeoServer and other open-source geospatial technologies deployed at scale in cloud environments.\r\n\r\nThis presentation summarizes 10 years of experience in ingesting, managing, and disseminating data at scale for the precision farming industry. Key topics include:\r\n\r\n* Optimization and organization of raster data\r\n* Optimization and organization of vector data\r\n* Data modeling for performance and scalability in GeoServer and PostGIS\r\n* Deployment guidelines for scaling and performance of GeoServer\r\n* On-the-fly styling for NDVI and other visualizations\r\n\r\nBy the end of the presentation, attendees will be able to design and plan GeoServer deployments to efficiently serve precision farming data at scale.",
+    "start_datetime": "2026-07-01T07:30:00Z",
+    "end_datetime": "2026-07-01T08:00:00Z",
+    "talk:code": "8QDHKS",
+    "talk:guid": "8b2670df-519a-590a-8954-d0437b6f25cf",
+    "talk:event": "foss4g-europe-2026",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "A13",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RBSH8T",
+        "name": "Andrea Aime",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/RBSH8T/"
+      },
+      {
+        "code": "NMVVQN",
+        "name": "Simone Giannecchini",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/NMVVQN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-07-01T07:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/8QDHKS/",
+      "title": "Precision farming with GeoServer:  lessons learned and future directions"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/8QDHKS/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/RBSH8T/",
+      "title": "Andrea Aime"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/NMVVQN/",
+      "title": "Simone Giannecchini"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/8QDHKS/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "supporting-precision-farming-with-geoserver-past-experiences": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2026/submissions/8QDHKS/resources/Supporting_precision_farming_Z0oVWUX.pdf",
+      "type": "application/pdf",
+      "title": "Supporting precision farming with GeoServer: past experiences and way forward",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

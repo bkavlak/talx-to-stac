@@ -1,0 +1,116 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "LCVGKG",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "i.hyper: processing hyperspectral imagery in GRASS",
+    "description": "We present i.hyper, a multimodular toolset for processing hyperspectral satellite imagery in GRASS. It supports the import of PRISMA, EnMAP and Tanager products through a dedicated import module and provides preprocessing, visualization and export. The i.hyper addon is available in the official GRASS Addons repository.\n\nIntroduction\r\n\r\nHyperspectral remote sensing provides rich spectral information that enables advanced analysis across a wide range of environmental domains. Soil monitoring, biogeochemistry, vegetation dynamics, environmental conservation, and even marine and coastal remote sensing all benefit from the high spectral resolution of modern sensors.\r\nAlthough missions like EnMAP (DLR) and PRISMA (ASI) are already operational, and Hyperion (NASA EO-1) has left behind a valuable legacy archive, new missions such as ESA\u2019s FLEX and CHIME, along with superspectral systems like Landsat Next, are expected to dramatically expand the volume and variety of data. However, integrating this data into open-source spatial workflows remains limited.\r\nTo bridge this gap, we introduce i.hyper, a modular suite for GRASS that enables complete and reproducible hyperspectral workflows - from import and preprocessing to spectral analysis and export. The addon is available in the official GRASS Addons repository and can be installed directly from GRASS.\r\n\r\nOverview of i.hyper\r\n\r\ni.hyper is implemented in Python and tightly integrated into the GRASS environment, combining modern spectral processing with robust spatial analysis tools. The suite consists of five core modules:\r\n1. i.hyper.import \u2013 Import of hyperspectral satellite products\r\n2. i.hyper.preproc \u2013 Spectral preprocessing and transformation\r\n3. i.hyper.composite \u2013 Plotting of false composite maps from already imported 3D hyperspectral rasters\r\n4. i.hyper.explore \u2013 Interactive spectral analysis, plot and export of analyzed spectra\r\n 5. i.hyper.export \u2013 Conversion to external formats\r\nThese modules form a pipeline that allows users to ingest, process, and explore hyperspectral cubes using GRASS-native structures.\r\n\r\nModule 1: i.hyper.import\r\n\r\nSupports:\r\n\u2022 PRISMA L2B\u2013L2D\r\n\u2022 Tanager\r\n\u2022 EnMAP L2A\r\nIt imports imagery and metadata into GRASS 3D rasters (raster_3d), including per-band attributes (wavelength, FWHM, units, validity). Invalid bands are flagged. Optional composite layers (e.g., CIR, SWIR) can be created automatically for visualization. Modular backends make extension to new missions straightforward.\r\n\r\nModule 2: i.hyper.preproc\r\n\r\nProvides in-place spectral processing with support for:\r\n    \u2022 Savitzky-Golay filtering (configurable order, derivative, window size, NaN handling)\r\n    \u2022 Dimensionality reduction methods as Principal Component Analysis (PCA) and Kernel PCA (RBF kernel)\r\n    \u2022 Continuum removal using local convex hull normalization\r\nThese transformations are applied spectrally per pixel, using garray.array3d, with preserved metadata throughout.\r\n\r\nModule 3 i.hyper.composite\r\nProvides tools to create false composite RGG maps from 3D hyperspectral cube. Users can choose predefined false composites combinations (eg. for agriculture, geology) or define custome ones by choosing the wavelenght centers of the bands they want to stack into composite maps.\r\nModule 4: i.hyper.explore\r\nEnables:\r\n    \u2022 Interactive selection of pixels/regions\r\n    \u2022 Visualization of spectral signatures\r\n    \u2022 Export of spectra to JSON\r\n    \u2022 Export of plots\r\nThis module is particularly useful for validating preprocessing steps and preparing datasets for modeling.\r\nModule 5: i.hyper.export\r\nSupports export to:\r\n    \u2022 GeoTIFF\r\nUsers can select bands, apply scaling, and retain metadata during export.\r\n\r\nReproducibility and Integration\r\n\r\ni.hyper is fully open-source (GNU GPL 2.0), integrated via the GRASS Python API, and leverages libraries like NumPy, scikit-learn and SciPy. It ensures reproducibility through:\r\n    \u2022 Strict input structure and metadata validation\r\n    \u2022 Logging of transformation parameters\r\n    \u2022 Use of GRASS-native tools\r\nAll modules include documentation, CLI help, argument checks, and consistent metadata propagation.\r\n\r\nConclusion\r\n\r\ni.hyper is novel in its integration of hyperspectral processing within GRASS, unlocking a powerful combination of spectral and spatial tools. It facilitates comprehensive workflows - from raw data to analysis-ready layers - and supports both legacy and current missions with a roadmap for future expansion.\r\nAs more hyperspectral and superspectral missions emerge - including FLEX, CHIME, and Landsat Next - the need for transparent, extensible, and scriptable pipelines becomes critical. i.hyper addresses this need by offering a scalable, modular, and reproducible solution that enables open-source geospatial research across domains such as soil science, geochemistry, vegetation monitoring, conservation planning, and marine ecosystems.\r\nThe GRASS + Python + i.hyper stack provides a robust foundation for both research and operational remote sensing.",
+    "start_datetime": "2025-11-20T20:00:00Z",
+    "end_datetime": "2025-11-20T20:25:00Z",
+    "talk:code": "LCVGKG",
+    "talk:guid": "63d404ab-9a5f-5a76-b056-a0372726ca18",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Academic",
+    "talk:type": "Academic Paper",
+    "talk:language": "en",
+    "talk:room": "WG404",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "EYZCPK",
+        "name": "Alen Mangafi\u0107",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/EYZCPK/"
+      },
+      {
+        "code": "LVRBRN",
+        "name": "Toma\u017e \u017dagar",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/LVRBRN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-20T20:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/LCVGKG/",
+      "title": "i.hyper: processing hyperspectral imagery in GRASS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/LCVGKG/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/EYZCPK/",
+      "title": "Alen Mangafi\u0107"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/LVRBRN/",
+      "title": "Toma\u017e \u017dagar"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/LCVGKG/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "pdf-of-i-hyper-presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-2025/submissions/LCVGKG/resources/i.hyper_-_foss4g_ONxpBTO.pdf",
+      "type": "application/pdf",
+      "title": "PDF of i.hyper presentation.",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=8xg8kQaGAbo",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | i.hyper: processing hyperspectral imagery in GRASS",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

@@ -1,0 +1,93 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "UFFCEC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Data harmonization in a model-driven approach using INTERLIS and QGIS Model Baker",
+    "description": "The INTERLIS modeling standard and the QGIS Model Baker plugin provide everything you need to collect, manage and exchange harmonized data and ensures consistency, data quality and system independence. Let's have a look at it.\n\nAuthorities in Switzerland and Colombia use a model driven approach for collecting, managing and exchanging harmonized data. INTERLIS is the data modeling standard for geospatial data, ensuring consistency, data quality and system independence.\r\n\r\nModel Baker is a QGIS plugin to create projects from plain text INTERLIS models including layer tree, forms, relationships and more.\r\n\r\nIn this workshop, we will explain the benefits of this approach and guide you through the following workflow:\r\n- Analyze a conceptual model in INTERLIS\r\n- Convert a conceptual model to a database (ili2db)\r\n- Build automatic forms for data capture from your database (QGIS Model Baker)\r\n- Capture the data (QGIS)\r\n- Validate the data (QGIS Model Baker / iliValidator)\r\n- Exchange the data (ili2db)\r\n\r\n###### Requirements for the Attendees\r\n- QGIS 3.28 or later.  \r\n- Java Runtime Environment ( https://adoptium.net/ 1.6 or later) or openjdk (18)",
+    "start_datetime": "2023-06-27T12:00:00Z",
+    "end_datetime": "2023-06-27T14:00:00Z",
+    "talk:code": "UFFCEC",
+    "talk:guid": "09d5d12e-9f53-5282-bbd4-18c4af3c187d",
+    "talk:event": "foss4g-2023-workshop",
+    "talk:type": "Short Workshop",
+    "talk:language": "en",
+    "talk:room": "Mirusha",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 120,
+    "talk:speakers": [
+      {
+        "code": "PVKD9J",
+        "name": "Dave Signer",
+        "url": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/PVKD9J/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-27T13:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/UFFCEC/",
+      "title": "Data harmonization in a model-driven approach using INTERLIS and QGIS Model Baker"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/UFFCEC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/PVKD9J/",
+      "title": "Dave Signer"
+    },
+    {
+      "rel": "related",
+      "href": "https://adoptium.net/",
+      "title": "adoptium.net"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/UFFCEC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-workshops"
+}

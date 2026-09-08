@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "KTYGVZ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "High-resolution, large-scale inundation mapping with basic python libraries",
+    "description": "Designing a flood mapping workflow using a few standard python libraries to efficiently process high resolution data at-scale.\n\nBathtub modelling is a simple approach to flood mapping, whereby inundation depths are computed via differencing a water height layer with the terrain elevation. However, bathtub models often overestimate flood depth and extent, as they fail to resolve underlying processes including hydraulic connectivity, attenuation, fluid flow direction, and structural barriers. Following concepts outlined in Kasmalkar et al. (2024), a bathtub inundation model was developed which accounts for hydraulic connectivity and path-based attenuation to improve the accuracy of flood mapping. The model was applied for multiple inundation scenarios over a large extent (approx. 15,000 sq. km) at high spatial resolution (4 m) which presented numerous challenges in terms of compute capacity, runtime, and generation of useable output data and maps. To address these challenges, the workflow was implemented in Python and involved segmenting the study area into smaller regions, relying on only numpy/cupy (for GPU) in the processing script, and using gdal for reading/writing raster and vector inputs/outputs. This talk will briefly outline the goals of this project, the hurdles encountered along the way, and the solutions designed to overcome them.",
+    "start_datetime": "2025-11-20T20:30:00Z",
+    "end_datetime": "2025-11-20T20:35:00Z",
+    "talk:code": "KTYGVZ",
+    "talk:guid": "8cdf2601-aa0e-5fb7-9b6c-68ba3845f049",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Lightning talk",
+    "talk:type": "Lightning Talk",
+    "talk:language": "en",
+    "talk:room": "WG403",
+    "talk:room_capacity": 386,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "ZHVKHU",
+        "name": "Ellorine Carle",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/ZHVKHU/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-20T20:32:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/KTYGVZ/",
+      "title": "High-resolution, large-scale inundation mapping with basic python libraries"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/KTYGVZ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/ZHVKHU/",
+      "title": "Ellorine Carle"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/KTYGVZ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=ULJKgHbvI1s",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | High-resolution, large-scale inundation mapping with basic python libraries",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "TZK3LW",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "GIS-Based Walking Map Isochrones in Measuring Transit Catchment: A Spatial Approach to Urban Accessibility",
+    "description": "Transit accessibility is a crucial component of sustainable urban mobility, as it directly influences the effectiveness of public transportation systems. Many cities throughout the world use transit-oriented development (TOD) plannings to make it easier to travel to public transportation like bus and train stations. The goal of TOD policies is to get individuals to take public transit instead of private vehicle dependence. Using fixed-distance radial buffers to mark the areas surrounding stations where people can catch the bus or train is a common technique to plan transit. TOD plannings often provide guidance in improving first and last mile connectivity by using radial buffers. The distance between these buffers is normally between 400 and 1500 meters. These buffers are widely used in planning frameworks and policy recommendations since they are simple to use and understand. Radial buffers are useful, however they don't necessarily indicate how easy it is for people to get to locations. \r\n\r\nStandard Euclidean radial buffers assume as if people can walk straight from any location in the buffer to the station. Cities are a lot more complicated than they look. It's often hard for people to move around because of obstacles like buildings, fenced developments, and other physical barriers. Because of this, the real distance and time it takes to walk to a station can be significantly different from what radial buffers suggest they are. This oversimplification could lead to incorrect estimations of how easy it is to travel to stations, misleading representations of area coverage, and possibly faulty planning decisions in policies that are meant to encourage transit-oriented development. \r\n\r\nThis study therefore presents a GIS-based walking isochrone that utilizes open-source geospatial data and network analysis techniques to delineate transit station catchment regions. Walking isochrones show where you can walk to in a specific length of time or distance on an actual street or pedestrian network. The work employs open-source geographic data and GIS tools to generate walking isochrones around designated rail transit stops. This study locates places that can be accessed within 5, 10, and 15 minutes of walking by service area analysis via network data from OpenStreetMap (OSM). In addition to time-based accessibility, catchments based on walking distances of 400 m, 800 m, and 1500 m are also studied. This was done using open-source geospatial data as well as open-source tools such as QuickOSM and QNEAT3. The values are in line with the planning standards that are typically used for making transit stations catchments in TOD guidelines. Following that, the isochrone polygons are compared to normal Euclidean radial buffers that are the same distance from the center. \r\n\r\nSeveral spatial indicators are analysed to assess the differences between typical buffer and isochrones. First, the catchment areas are calculated to determine differences in size between isochrone-based service areas and radial buffers. Second, population are evaluated by estimating the population contained within each catchment area. Third, the entropy index or diversity of surrounding land uses are examined. Land-use mix indices are calculated to provide a quantitative representation of activity diversity within each catchment area. TOD documents often promote land use mix to increase public transportation usage. \r\n\r\nThe findings of this study indicate significant discrepancies between Euclidean radial buffers and network-based walking isochrones. Radial buffers tend to overestimate the accessible walking area within a given timeframe or distance. This difference is particularly obvious in urban environments characterized by inefficient street connectivity or physical barriers that hinder direct pedestrian movement. Subsequently, isochrone-derived catchment areas are typically smaller and reveal less regular geometries compared to radial buffers. Furthermore, network-based isochrones provide a more accurate representation of the population that can feasibly walk to a given station. The examination of land-use mix also demonstrates that the approach used to find the catchment region can change how much land-use variety is found for the station area. Isochrone-based catchments might not include some land-use zones that are in radial buffers but are cut off by barriers or street networks that don't connect well. The results have a big impact on how we plan for public transit and how we judge TOD policy. If planners simply use radial buffers to figure out station catchments, they might think that transit infrastructure is simpler to get to than it really is and that public transportation serves a greater population than it really does. \r\n\r\nThis study not only supplements to the ways that people plan transportation, but it also shows how helpful open-source geospatial tools and datasets can be. Anyone can use open-source GIS tools and data sources, which are what the whole process of this study relies on. For instance, OpenStreetMap is utilized to obtain data about road networks, and GIS-based network analysis is used to create service areas. The Free and Open Source Software for Geospatial (FOSS4G) group has goals that are similar to this study. It supports open, accessible, and repeatable geospatial research. Because it employs open-source data and analytical methodologies instead of high-priced software or proprietary datasets, cities all around the world may replicate this study in their own cities. \r\n\r\nAll in all, this study illustrates how open geospatial systems might enhance advanced spatial analysis in urban transportation planning. It demonstrates the practical application of open data and GIS-based network analysis for evaluating public transit accessibility. Furthermore, it also reveals how open-source methodologies can enhance the precision of planning assessments. The proposed method not only contributes to scholarly discussions regarding the measurement of transit accessibility but also provides planners, policymakers, and academics seeking to enhance first- and last-mile links in urban transit systems with improved strategies. This study ultimately provides a replicable approach for assessing transit station catchment areas, grounded in open-source geographical data. The results improve the methodological accuracy of transit accessibility studies and help planners make better decisions about sustainable urban transportation and TOD plans.",
+    "start_datetime": "2026-09-01T07:30:00Z",
+    "end_datetime": "2026-09-01T08:00:00Z",
+    "talk:code": "TZK3LW",
+    "talk:guid": "2dee77a8-a1c8-52ba-863c-c75364419686",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos2",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "X3JKHR",
+        "name": "Maisarah",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/X3JKHR/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T07:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/TZK3LW/",
+      "title": "GIS-Based Walking Map Isochrones in Measuring Transit Catchment: A Spatial Approach to Urban Accessibility"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/TZK3LW/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/X3JKHR/",
+      "title": "Maisarah"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/TZK3LW/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

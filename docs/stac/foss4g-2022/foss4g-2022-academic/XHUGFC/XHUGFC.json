@@ -1,0 +1,93 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "XHUGFC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Maplibre-rs: Toward portable map renderers",
+    "description": "Map renderers play a crucial role in various applications deployed in Web, desktop, mobile, and embedded environments. For instance, we rely upon them to travel, commute, find the best hotels and restaurants, and locate our closed ones. More digital applications emerge in various areas, such as urban planning, transportation, or even pandemic monitoring, as they get adopted. Beyond digital environments, it is worth noting that maps also get printed in books, reports, or pieces of urban furniture.\r\n\r\nIn this context, code portability, i.e., the ability to use the same codebase on various platforms, is a common problem. For instance, Mapbox and Maplibre both maintain a JavaScript codebase for the Web (e.g., maplibre-gl-js) and a C++ codebase for native platforms (e.g., maplibre-gl-native). These codebases enable their renderers to run in all major browsers (thanks to WebGL), in the main desktop and mobile environments, on servers (e.g., for headless rendering), and in cars, planes, or embedded settings. Guarantying that these renderers behave similarly and produce the same outputs on all these platforms is hard, costly, and slows down the ability of development teams to innovate and improve renderers.\r\n\r\nIn this paper, we review the most popular map renderers from a portability point of view. We show that the existing codebases written in Javascript, C++, and Java fail at least in one area or another at producing a portable map renderer. Additionally, we present a state of the art for code portability, and we describe emerging standards and technologies that promise to enable truly portable and high-performance map renderers written in C++ or Rust to emerge. Among these emerging technologies, we find:\r\n\r\n- **Rust -** Rust is a high-level programming language designed for safety and high performance. The project started at Mozilla and is now developed by the Rust foundation. Its compiler targets native architecture, enabling it to compile applications for desktop (x86) and mobile (arm) environments. Additionally, the Rust compiler can target WebAssembly, a binary instruction format that can run on web browsers with near-native speeds. This not only enables Rust applications to run in native environment but also to be included as a library in Web applications. As a result, the same codebase can be used anywhere with only a few modifications.\r\n\r\n- **WebGPU\t-** WebGPU is a 3D low-level API that runs on top of DirectX, Metal, Vulkan or OpenGL depending on the platform and gives the developer access to the GPU. It is developed by the W3C GPU for the Web Community Group with engineers from Apple, Microsoft, Mozilla, Google, and others. It is considered the successor of WebGL version 2. Contrary to WebGL version 1 and WebGL version 2, which were solely designed for the Web, WebGPU implements a standard header file (webgpu.h) that makes it cross-platform.\r\n\r\nBased on the emerging technologies identified in the review, we study the feasibility of creating a truly portable map renderer. We present maplibre-rs, a proof-of-concept released under the terms of the Apache Software License, that can render vector tiles natively and in the browser. We describe its overall architecture and highlight some of the challenges encountered while devising a portable solution that transforms vector tiles into 2d and 3d objects. These challenges include:\r\n\r\n- **Rendering 2d vector tiles in a 3d environment -** The vector tile specification describes simple 2d objects encoded in grid coordinates, such as points, lines, polygons, multi-polygons, and polygons with holes. Several steps enable to convert these 2d objects into 3d objects that can be rendered in a scene, including: the conversion of grid coordinates into 3d scene coordinates; the tessellation of polygons to display surfaces in the 3d environment; the extrusion of buildings based on their number of storeys with an attribute stored in the vector tiles.\r\n\r\n- **Using WebGPU as a portable 3d rendering pipeline -** WebGPU exposes a wide variety of features to render 3d scenes. Among them, we explore: the rendering of the 3d objects with the WebGPU Shading Language (WGSL) based on styling rules and object attributes; The navigation within the 3d world with the camera, user inputs, rotation on 3 axes, levels of details and occlusion culling; The configuration of the graphic card, graphics API and more. \r\n\r\n- **Devising a portable network library -** Rust does not provide a network library that works both natively and in the browser. We created a uniform interface to download vector tiles to address this issue. This interface, based on the facade pattern, uses macros to select the proper implementation at compile-time depending on the targeted architecture. The native implementation relies on the HTTP package of the standard library. The WebAssembly implementation relies on Fetch API bindings.\r\n\r\nFinally, we present our future work and explore possible ameliorations. Overall, this review and feasibility study gives an exciting glimpse on a possible future for map renderers, where the same code can run natively and in a browser.",
+    "start_datetime": "2022-08-26T07:00:00Z",
+    "end_datetime": "2022-08-26T07:30:00Z",
+    "talk:code": "XHUGFC",
+    "talk:guid": "3046505e-7c52-58c7-b77d-e6f814fc8b43",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room Modulo 3",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "WLTLYA",
+        "name": "Bertil Chapuis",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/WLTLYA/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T07:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/XHUGFC/",
+      "title": "Maplibre-rs: Toward portable map renderers"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/XHUGFC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/WLTLYA/",
+      "title": "Bertil Chapuis"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.bertil.ch/",
+      "title": "www.bertil.ch"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/XHUGFC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

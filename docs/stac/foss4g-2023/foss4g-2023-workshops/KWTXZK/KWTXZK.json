@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "KWTXZK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Scaling Spatial Temporal Data Analysis with Postgres, PostGIS, TimescaleDB, and H3 Indexing: A Hands-On Workshop",
+    "description": "Join this workshop to discover the powerful combination of Postgres, PostGIS, TimescaleDB, and H3 indexing for managing spatial temporal data at scale. With open source tools, you can create a scalable database solution for even the most complex data sets.\n\nWorking with spatial-temporal data using Postgres + Postgis + timescaleDB + h3 \r\n- Setup a local environment using docker \r\n  - Installing an extension or using an image from the docker hub \r\n  - Checking versions of extensions \r\n- Connecting to your environment using psql \r\n- Connecting to your environment using QGIS \r\n- Connecting to your environment using pgAdmin4 \r\n- Loading a set of sample data points, polygons for analysis (use some backups and restore) \r\n- Doing some spatial queries (point in polygon, polygon in polygon) with postgis \r\n- Doing temporal queries with and without timescaleDB \r\n- Optimizing spatial joins using h3 \r\n \r\nExplore further possibilities of combing and optimizing spatial temporal data, introduction of pg_raster.",
+    "start_datetime": "2023-06-27T14:00:00Z",
+    "end_datetime": "2023-06-27T16:00:00Z",
+    "talk:code": "KWTXZK",
+    "talk:guid": "1852b5c9-8803-54df-b229-1271d06fea11",
+    "talk:event": "foss4g-2023-workshop",
+    "talk:type": "Short Workshop",
+    "talk:language": "en",
+    "talk:room": "UBT D / N113 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 120,
+    "talk:speakers": [
+      {
+        "code": "8MGXWG",
+        "name": "json singh",
+        "url": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/8MGXWG/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-27T15:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/KWTXZK/",
+      "title": "Scaling Spatial Temporal Data Analysis with Postgres, PostGIS, TimescaleDB, and H3 Indexing: A Hands-On Workshop"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/KWTXZK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/8MGXWG/",
+      "title": "json singh"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/KWTXZK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-workshops"
+}

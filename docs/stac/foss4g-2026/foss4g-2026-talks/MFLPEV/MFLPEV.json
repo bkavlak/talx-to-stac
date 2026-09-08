@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "MFLPEV",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Synergistic use of PRISMA hyperspectral data and a random forest algorithm to map soil nutrients in sugarcane fields in Northeast Thailand",
+    "description": "Mapping and monitoring agricultural crop health, particularly for sugarcane, is essential for improving yield quality and ensuring sustainable crop management. Sugarcane plays a critical role in agricultural economies and bioenergy production in many tropical and subtropical countries, including Thailand. However, crop productivity and quality are strongly influenced by soil fertility and nutrient availability. Accurate and timely information on soil nutrients is therefore crucial for effective crop management and decision-making. Traditional soil analysis methods rely heavily on labor-intensive field sampling and laboratory testing, which are often time-consuming, costly, and spatially limited. As a result, these approaches are not always suitable for large-scale monitoring of soil conditions across extensive agricultural landscapes. Recent advances in Earth Observation (EO) technologies provide new opportunities to overcome these limitations. Satellite-based EO now offer high spatial, spectral, and temporal resolution data that can be used to monitor crop health and soil conditions at regional scales. In particular, hyperspectral satellite has shown strong potential for estimating soil properties because of its ability to capture detailed spectral signatures associated with soil composition, moisture content, and nutrient levels. Hyperspectral sensors offer continuous spectral information across hundreds of narrow bands, enabling the detection of subtle variations in soil characteristics that may not be captured by multispectral sensors. When combined with machine learning algorithms, hyperspectral data can be used to develop predictive models for estimating soil nutrients and other agronomic parameters at the field levels across large agricultural areas. Despite these technological advancements, several challenges remain for implementing satellite-based soil monitoring in Thailand. The northeastern region of the country is characterized by complex topography, heterogeneous land-use patterns, fragmented smallholder farms, and highly variable weather conditions. These factors complicate the accurate mapping of soil properties and crop conditions using remote sensing data. In addition, sugarcane cultivation in this region often occurs within relatively small and dispersed field plots, making it difficult to capture field-level variability using conventional monitoring approaches. Therefore, the integration of hyperspectral satellite data with advanced machine learning models offers a promising approach to improve soil nutrient estimation and support precision agriculture practices in the region. This study aims to develop predictive models for estimating key soil nutrients in sugarcane fields across Northeast Thailand using PRISMA hyperspectral imagery and the random forest (RF) algorithm. Specifically, the study focuses on estimating six important soil properties: soil pH, soil organic matter (SOM), electrical conductivity (EC), nitrogen (N), phosphorus (P), and potassium (K). These soil parameters are critical indicators of soil fertility and directly influence crop growth, nutrient uptake, and overall yield potential. The analysis was conducted using hyperspectral imagery (239 bands) acquired from the PRISMA satellite platform, which provides high-resolution spectral data suitable for environmental and agricultural monitoring applications. To support model development and validation, field data were collected from sugarcane-growing areas across the study region. A total of 46 soil sampling plots were established within representative sugarcane fields. Field surveys were conducted between 1st and 25th May 2025, during which soil samples were collected at an approximate depth of 20 cm. The collected soil samples were subsequently analyzed to determine the corresponding soil nutrient properties, including pH, SOM, EC, N, P, and K thought laboratory. These ground measurements served as reference data for training and validating the predictive models. In this study, a RF was implemented to estimate soil nutrients from hyperspectral satellite data. The RF algorithm is widely recognized for its robustness, ability to handle nonlinear relationships, and strong performance when working with high-dimensional datasets, like hyperspectral imagery. The model development process included feature extraction and optimization to identify the most relevant spectral variables associated with soil nutrient conditions. To evaluate model performance, the dataset in this study was divided into training and validation subsets. Specifically, 37 soil samples (80%) were used for training the model, while the remaining 9 samples (20%) were reserved for independent validation of the model results. \r\nThe experimental results demonstrated that the RF-based predictive models achieved varying levels of accuracy for different soil properties. The coefficient of determination (R\u00b2) values ranged from 0.30 to 0.80 across the estimated parameters. Higher predictive performance was generally observed for N and OM variables, which exhibit stronger spectral responses in hyperspectral imagery. In contrast, P and EC parameters showed relatively lower predictive accuracy due to weaker spectral signatures and potential environmental influences. Nevertheless, the resulting spatial distribution maps of soil fertility indicators exhibited consistent and meaningful spatial patterns when compared with the ground datasets. The generated maps provide valuable insights into the spatial variability of soil fertility conditions across sugarcane fields in Northeast Thailand. These spatial patterns can help farmers, agricultural planners, and policymakers identify areas with nutrient deficiencies or potential soil management issues. By integrating remote sensing-based monitoring with field observations, the developed approach offers a scalable framework for large-area soil nutrients assessment and crop monitoring. In addition, this work developed a spatial recommendation framework based on the derived nutrient maps and crop condition indicators. This framework aims to support precision agriculture practices by providing location-specific information for crop management. For example, farmers can use these spatial recommendations to optimize fertilizer application, adjust irrigation strategies, and improve overall crop management during different growth stages. The targeted interventions can help improve resource-use efficiency, reduce environmental impacts, and enhance crop productivity. Overall, this study demonstrates the potential of integrating PRISMA hyperspectral satellite data with the efficient RF model for monitoring soil nutrients at the field levels over the large-scale. The proposed approach provides a cost-effective and scalable alternative to traditional soil sampling methods, enabling continuous monitoring of soil fertility conditions at the field level. By supporting more informed and timely agricultural management decisions, this framework contributes to the advancement of precision agriculture and sustainable sugarcane production in Thailand. Ultimately, the proposed workflow can help improve crop health, optimize fertilizer management, and increase sugarcane yields across diverse agricultural landscapes.\r\n\r\nKeywords: Sugarcane crop, random forest, PRISMA hyperspectral, soil nutrients, precision agriculture",
+    "start_datetime": "2026-09-03T02:30:00Z",
+    "end_datetime": "2026-09-03T03:00:00Z",
+    "talk:code": "MFLPEV",
+    "talk:guid": "701b26c6-a95a-5bbf-9a58-208bf501fb88",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos1",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "F9RABK",
+        "name": "Jaturong Som-ard",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/F9RABK/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-03T02:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/MFLPEV/",
+      "title": "Synergistic use of PRISMA hyperspectral data and a random forest algorithm to map soil nutrients in sugarcane fields in Northeast Thailand"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/MFLPEV/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/F9RABK/",
+      "title": "Jaturong Som-ard"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/MFLPEV/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "SJENBF",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "LOOSE: Combining loosely coupled components into coherent architecture",
+    "description": "The continuously increasing amount of long-term and of historic data in EO facilities in the form of online datasets and archives makes it necessary to address technologies for the longterm management of these data sets, including their consolidation, preservation, and continuation across multiple missions. The management of long EO data time series of continuing or historic missions, with more than 20 years of data available already today, requires technical solutions and technologies which differ considerably from the ones exploited by existing systems. \r\n\r\nThe ESA project LOOSE (Technologies for the Management of LOng EO Data Time Series) enables investigating, testing and implementing new technologies to support long time series processing. \r\n\r\nFor specific tasks (such as ingestion, discovery, access, processing, analysis of EO data) a multitude of completely different mature open source components is usually available. LOOSE aims at combining functionally similar solutions from different heritages into one comprehensive framework. LOOSE even supports parallelism in a way that multiple solutions for the identical task are available and the application developer is invited to chose between these different components during implementation (e. g. \"GeoServer\" versus \"EOXServer\"). \r\n\r\nIn addition, LOOSE partners extended well-known existing components with new capabilities (=interfaces) to support efficient ingestion, discovery, exploitation optimized access, processing and optimized analysis of EO data timeseries. For example, GeoServer was extended with the capability to handle STAC metadata. \r\n\r\nOverall outcome of the project is a \"blueprint architecture concept\" which focuses on the interfaces between components and takes innovative concepts such as Bulk data retrieval from dedicated archives, OGC's Data Analysis Processing API and Data Cubes offering Discrete Global Grid Systems into consideration (see enclosed viewgraph).\r\n\r\nThe LOOSE system architecture is inspired by the EO Exploitation Platform Common Architecture (EOEPCA) and focuses on the technological evolution of selected services that enable the end-to-end workflow from retrieving long-term archived EO products to the extraction of high-level information based on processed value-added datasets. Architecture and interoperability are evaluated within LOOSE by using different implementations of these services (e.g. EOxServer and GeoServer) and deploying the whole system on two different infrastructures (DLR/LRZ and Mundi/OTC). The complete LOOSE infrastructure is built on Kubernetes and is therefore well transferrable between different cloud providers.\r\n\r\nThe validity of the LOOSE blueprint architecture is demonstrated in three different real-world application pilots.\r\nThese applications are covering totally different thematic areas: \r\n- Agricultural monitoring (based on Sentinel-1 and -2 data), \r\n- monitoring urbanization globally (also based on Sentinel-1 and -2) and \r\n- supporting fishery in the Black Sea (multi sensor approach, including in situ-data).\r\n\r\nLOOSE partners are DLR (Oberpfaffenhofen), EOX (Vienna), Terrasigna (Bucharest) and Mundialis (Bonn).",
+    "start_datetime": "2022-08-25T09:30:00Z",
+    "end_datetime": "2022-08-25T10:00:00Z",
+    "talk:code": "SJENBF",
+    "talk:guid": "59ace991-8e87-5282-8e60-538c69ed3ab1",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "General online",
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "WVERQR",
+        "name": "Vasile Cr\u0103ciunescu",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/WVERQR/"
+      },
+      {
+        "code": "9CUSEP",
+        "name": "Julian Meyer-Arnek",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/9CUSEP/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/SJENBF/",
+      "title": "LOOSE: Combining loosely coupled components into coherent architecture"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/SJENBF/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/WVERQR/",
+      "title": "Vasile Cr\u0103ciunescu"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/9CUSEP/",
+      "title": "Julian Meyer-Arnek"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/SJENBF/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "PBVGF3",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "World Soil Information Service (WoSIS): Practical Applications of Open Source Technology in Soil Data Management",
+    "description": "The World Soil Information Service (WoSIS) aims to serve users with standardized and harmonized soil profile data, underpinning a wide range of global assessments and applications. As an important component of ISRIC \u2013 World Soil Information\u2019s data infrastructure, WoSIS is fully open and accessible, adhering to the principles of open data and open standards. \r\n\r\nWoSIS infrastructure is powered entirely by Free and Open Source Software (FOSS), promoting transparency, reproducibility, and community-driven innovation. This talk will cover the latest developments in WoSIS, focusing on: \r\n\r\n- Spatial Data Infrastructure: Use of PostgreSQL, Mapserver, integration of Open Geospatial Consortium (OGC) standards, and the new spatial GraphQL interface for flexible and efficient data queries. \r\n\r\n- ETL Processes: Efficient extraction, transformation, and loading (ETL) methodologies for harmonizing soil profile data from diverse sources and ensuring data quality using mainly PostgreSQL and PostGIS. \r\n\r\n- Open Data Accessibility: Strategies to ensure data remains fully open, tools for accessing and utilizing soil data, and case studies highlighting its impact. \r\n\r\n- Community Collaboration: Contributions and enhancements by the global community, collaborative projects, and opportunities for engagement. \r\n\r\n- Future Directions: Upcoming features, exploration of emerging technologies, and the vision for leveraging open soil data to address global challenges. \r\n\r\nBy leveraging open source technology and adhering to open data standards, WoSIS demonstrates the importance of transparent and accessible data infrastructures in driving scientific advancements and supporting sustainable development goals. This presentation will provide insights into the challenges and approaches in the use of FOSS4G in data harmonization for global data products and global data dissemination with WoSIS as a use case.",
+    "start_datetime": "2024-12-04T19:15:00Z",
+    "end_datetime": "2024-12-04T19:45:00Z",
+    "talk:code": "PBVGF3",
+    "talk:guid": "aea69c4f-2f59-5cce-92c7-ac9409d3a786",
+    "talk:event": "foss4g-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room II",
+    "talk:room_capacity": 200,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "ZKPZPF",
+        "name": "Luis Calisto",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/ZKPZPF/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-04T19:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/PBVGF3/",
+      "title": "World Soil Information Service (WoSIS): Practical Applications of Open Source Technology in Soil Data Management"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/PBVGF3/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/ZKPZPF/",
+      "title": "Luis Calisto"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/PBVGF3/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024/submissions/PBVGF3/resources/WoSIS_FOSS4G_2024_1Ln2QJu.pdf",
+      "type": "application/pdf",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/s9b5SsW4pPbLnqFQCnUiLL",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | World Soil Information Service (WoSIS):",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=XDVpEcCGkXI",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | World Soil Information Service (WoSIS):",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "7URVYD",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Analysing access to UK public rights of way with the QGIS Graphical Modeler",
+    "description": "The UK national walking organisation, Ramblers, are working to improve the public rights of way network, and in particular improve access to it for people who are less advantaged, and may not have access to vehicles. The research project described in this talk undertook an analysis of the national paths network using publicly available data supplied by hundreds of individual local authorities across the UK. This was done by setting up a series of models in the QGIS Graphical Modeler to generate six key indicators aggregated to census area level, including distance to nearest continuous path from each small area unit of population,  length of available path within a series of buffers, and access to paths of specific types \u2013 for example those passing through protected or designated areas. The talk will look at some of the challenges of the project, including scaling the modeller to work with millions of path features and tens of thousands of point locations, and building processes to combine path segments and then disaggregate them to an appropriate level. \r\n\r\nThe main goal of the project was to inform and support specific policy proposals, but it is also intended that the QGIS models should be passed on to Ramblers and used in the longer term, to monitor the impact of changes to the paths network and of population patterns over time, and also to support analysis of how additions to the network, for example by the inclusion of historic paths which are not yet official rights of way, could improve access. The intention is that these models could be run on smaller areas, and on hypothetical paths networks, to help build a case for extensions and rationalisation of the paths network at both national and local levels. Use of the Graphical Modeler rather than scripts or database processing will make it easier for Ramblers staff to run the models themselves in the future using inputs of their choice.",
+    "start_datetime": "2022-08-24T14:45:00Z",
+    "end_datetime": "2022-08-24T15:15:00Z",
+    "talk:code": "7URVYD",
+    "talk:guid": "42da8ecb-7703-58fe-a2e4-f58d30de76f4",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room 4",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "V8XEFH",
+        "name": "Ant Scott",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/V8XEFH/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T15:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/7URVYD/",
+      "title": "Analysing access to UK public rights of way with the QGIS Graphical Modeler"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/7URVYD/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/V8XEFH/",
+      "title": "Ant Scott"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/7URVYD/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/jZdyCNWKAsrWPcHfkPmY2x",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Analysing access to UK public rights of way with the QGIS Graphical Modeler",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=Nu3LV1MDpiY",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Analysing access to UK public rights of way with the QGIS Graphical Modeler",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

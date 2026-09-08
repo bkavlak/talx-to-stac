@@ -1,0 +1,127 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "E9Z8SW",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "Analysis of the electric vehicle charging station coverage in Italian alpine region.",
+    "description": "The transition towards more sustainable transport together with a worldwide push for decarbonization promotes the adoption of light-duty electric vehicles (EVs). Nevertheless, for EVs to run on par with or better than internal combustion engine vehicles, they require convenient enough charging infrastructure (Knez et al., 2019). EV charging infrastructure must accommodate shifting demands in terms of density (queuing), frequency (coverage gaps), and dependability (outage) (Hanig et al., 2025). Even if only a small fraction of all car trips are longer than 50 miles (well within the range of today's EVs), long-distance drivers' concerns about charging tend to have a disproportionate effect on their decision to buy a car (Haidar et al., 2022). Moreover, changing stations availability can be critical when choosing a turistic destination.\r\nThis research project analyzes the availability of EV charging stations in the Provincia Autonoma di Trento (PAT), a region in the Italian eastern Alps, a popular touristic destination for Italians and northern Europeans.\r\nWhile an Italian national repository, PUN, \"Piattaforma Unica Nazionale dei punti di ricarica per i veicoli elettrici\" of the Ministero dell'Ambiente e della Sicurezza Energetica (Single National Platform for Charging Points for Electric Vehicles of the Italian Ministry of Environment and Energy Security) is available for consultation, its dataset cannot be downloaded as a map or a table for processing. Therefore the Open Charge Map dataset, available under the Creative Commons Attribution 4.0 International license (CC-BY 4.0) license, has been used. While this charging points database is far from complete, it is fairly representative of the distribution and density of the charging stations. The JSON dataset for Italy has been converted to CSV and the points within the  Provincia Autonoma di Trento have been extracted.\r\nThe road network has been provided by the local government, Provincia Autonoma di Trento, with a 1:10000 scale, again under the CC-BY 4.0 license. Only the paved roads have been used.\r\nThe road network and the charging stations have been combined, placing a node in each station, at the each road intersection and on each road extremity.\r\nWith this configuration, the distance of each road to the closest charging station, defined as the minimum distance of the starting or ending node of the arc representing the road, has been evaluated: the minimum distance is below 1 km for most of the roads, with only a few roads above 7 km.\r\nTo provide a better representation of the distance between charging stations and potential users a set of points has been created along the roads with a distance of 500m. The distance to charging points has been evaluated for these 8975 points. Nodes belonging to roads shorter than 100m have been removed because they would have too mach influence on the distance distribution.\r\nThe mean distance from the charging points is 4749.4 m, with a standard deviation of 4592.6 m. The maximum distance of 36766.6 m, and, as expected the minimum is 100 m. Only 3161 (35.22%) points have a distance above 5 km and 1104\t(12.30 %) above 10 km.\r\nTo analyze the distribution of the charging stations their density has been evaluated by extracting the charging points for each municipality. The province has 166 municipalities, ranging from relatively large cities in the main valleys to very small municipalities in secondary valleys.\r\nThe number of charging stations per municipality is quite low, 1.9 on average, but 72 (43.4%) municipalities have no charging points at all. For the other 94 (56.6%) municipalities which do have at least one charging station, the average number is of 3.32 charging point per municipality, with a standard deviation of 3.79.\r\nResults are compatible with a recent Italian national report (MOTUS-E, 2025) indicating that more than 40% of the municipalities have no charging stations. Moreover, around 30% of Italy has a distance to the nearest charging station above 5 km, 6% above 10 km. However, results are not really comparable because the national report does not employ network analysis but a coarse raster analysis with 1 km resolution and, more importantly, it takes advantage of the access to a more complete charging stations dataset.\r\nFuture developments include the repetition of the analysis for other Italian regions, the differentiation of the analysis per types of EV chargers and the use of a more comprehensive charging stations dataset. The availability of traffic data is being investigated since it would make it possible to verify whether the charging stations distribution match the traffic distribution or it is possible to optimize its configuration to serve the largest number of vehicles.\r\nThe main limitations of the analysis come not from the processing tools but from the insufficient availability of data, which are often in fragmented, proprietary and inaccessible datasets.\r\nAll analyses and statistical and spatial processing were carried out using only FOSS, demonstrating the power and versatility of these software tools. In particular, topological analysis has been implemented using python with numpy and geopandas for data processing and igraph for network analysis. The Matplotlib library has been used for data visualization. QGIS has been used for coordinate conversion, map representation, table processing and geoprocessing.",
+    "start_datetime": "2025-07-17T13:00:00Z",
+    "end_datetime": "2025-07-17T13:05:00Z",
+    "talk:code": "E9Z8SW",
+    "talk:guid": "5962807a-c25d-5e27-8a68-555bbe3e05f2",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Academic track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "PA01 (Quarticle)",
+    "talk:room_capacity": 95,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "GHQYZE",
+        "name": "Marco Ciolli",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/GHQYZE/"
+      },
+      {
+        "code": "RR9F3U",
+        "name": "Paolo Zatelli",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/RR9F3U/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-17T13:02:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/E9Z8SW/",
+      "title": "Analysis of the electric vehicle charging station coverage in Italian alpine region."
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/E9Z8SW/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/GHQYZE/",
+      "title": "Marco Ciolli"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/RR9F3U/",
+      "title": "Paolo Zatelli"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/E9Z8SW/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-analysis-of-the-electric-vehicle-charging-stati": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/E9Z8SW/resources/Analysis_of_the_electric_vehicle_chargin_CQ5JUUw.pdf",
+      "type": "application/pdf",
+      "title": "PRESENTATION_Analysis_of_the_electric_vehicle_charging_station_coverage_in_an_Italian_alpine_region",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/1gvPjKRDBtbg6F3x9o8EWd",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Analysis of the electric vehicle charging station coverage in Italian alpine region.",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=tShKGP6kXdE",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Analysis of the electric vehicle charging station coverage in Italian alpine region.",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

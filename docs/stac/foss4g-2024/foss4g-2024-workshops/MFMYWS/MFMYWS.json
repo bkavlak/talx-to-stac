@@ -1,0 +1,163 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "MFMYWS",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Doing Geospatial with Python",
+    "description": "This workshop will provide an introduction to performing common GIS/geospatial tasks using Python geospatial tools such as OWSLib, Shapely, Fiona/Rasterio, and common geospatial libraries like GDAL, PROJ, pycsw, as well as other tools from the geopython toolchain.\n\nWith a low barrier to entry and large ecosystem of tools and libraries, Python is the lingua franca for geospatial development. Whether you are doing data acquisition, processing, publishing, integration or analysis, there is no shortage of solid Python tools to assist in your daily workflows.\r\n\r\nThis workshop will provide an introduction to performing common GIS/geospatial tasks using Python geospatial tools such as OWSLib, Shapely, Fiona/Rasterio, and common geospatial libraries like GDAL, PROJ, pycsw, as well as other tools from the geopython toolchain. Manipulate vector/raster data using Shapely, Fiona and Rasterio. Publish data and metadata to OGC web services using pygeoapi, pygeometa, pycsw, and more. Visualize your data on a map using Jupyter and Folium. Plus a few extras in between!\r\n\r\nThe workshop is provided using the Jupyter Notebook environment with Python 3.\r\n\r\n**Requirements for the Attendees**\r\n\r\nPlease see https://geopython.github.io/geopython-workshop for details on how to setup the workshop before you attend.\r\n\r\nA Gitter channel exists at https://gitter.im/geopython/geopython-workshop for discussion and live support from the developers of the workshop.\r\n\r\nThe workshop uses Jupyter Notebooks. Jupyter is an interactive development environment suitable for documenting and reproducing workflows using live code.\r\n\r\nAs the installation of all dependencies on all platforms (Windows, Mac, Linux) can be quite involved and complex, this workshop provides all components within a Docker Image.\r\n\r\nIn addition, geospatial web services like pygeoapi and pycsw in this workshop are provided by Docker images.\r\n\r\nThe core requirement is to have Docker and Docker Compose installed on the system. Once you have Docker and Docker Compose installed you will be able to install the workshop without any other dependencies.",
+    "start_datetime": "2024-12-02T17:00:00Z",
+    "end_datetime": "2024-12-02T21:00:00Z",
+    "talk:code": "MFMYWS",
+    "talk:guid": "bc485e63-4fba-5e48-a02e-41810b2ffd12",
+    "talk:event": "foss4g-2024-workshop",
+    "talk:type": "Workshop",
+    "talk:language": "en",
+    "talk:room": "Room Forte do Castelo (M Block)",
+    "talk:room_capacity": 35,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "H8LVLX",
+        "name": "Tom Kralidis",
+        "url": "https://talks.osgeo.org/foss4g-2024-workshop/speaker/H8LVLX/"
+      },
+      {
+        "code": "YSAX3Y",
+        "name": "Paul van Genuchten",
+        "url": "https://talks.osgeo.org/foss4g-2024-workshop/speaker/YSAX3Y/"
+      },
+      {
+        "code": "WH7RLL",
+        "name": "Just van den Broecke",
+        "url": "https://talks.osgeo.org/foss4g-2024-workshop/speaker/WH7RLL/"
+      },
+      {
+        "code": "RU9BR9",
+        "name": "Antonio Cerciello",
+        "url": "https://talks.osgeo.org/foss4g-2024-workshop/speaker/RU9BR9/"
+      },
+      {
+        "code": "FNYKAD",
+        "name": "Joana Simoes",
+        "url": "https://talks.osgeo.org/foss4g-2024-workshop/speaker/FNYKAD/"
+      },
+      {
+        "code": "A8VTL7",
+        "name": "Benjamin Webb",
+        "url": "https://talks.osgeo.org/foss4g-2024-workshop/speaker/A8VTL7/"
+      },
+      {
+        "code": "UF7J7G",
+        "name": "Lu\u00eds M. de Sousa",
+        "url": "https://talks.osgeo.org/foss4g-2024-workshop/speaker/UF7J7G/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-02T19:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/talk/MFMYWS/",
+      "title": "Doing Geospatial with Python"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/talk/MFMYWS/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/speaker/H8LVLX/",
+      "title": "Tom Kralidis"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/speaker/YSAX3Y/",
+      "title": "Paul van Genuchten"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/speaker/WH7RLL/",
+      "title": "Just van den Broecke"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/speaker/RU9BR9/",
+      "title": "Antonio Cerciello"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/speaker/FNYKAD/",
+      "title": "Joana Simoes"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/speaker/A8VTL7/",
+      "title": "Benjamin Webb"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/speaker/UF7J7G/",
+      "title": "Lu\u00eds M. de Sousa"
+    },
+    {
+      "rel": "related",
+      "href": "https://geopython.github.io/geopython-workshop",
+      "title": "geopython.github.io/geopython-workshop"
+    },
+    {
+      "rel": "related",
+      "href": "https://gitter.im/geopython/geopython-workshop",
+      "title": "gitter.im/geopython/geopython-workshop"
+    },
+    {
+      "rel": "related",
+      "href": "https://justobjects.nl",
+      "title": "justobjects.nl"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/talk/MFMYWS/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-workshops"
+}

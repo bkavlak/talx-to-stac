@@ -1,0 +1,127 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "B8CETX",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "WGS 84: I don't know, I don't care.",
+    "description": "WGS 84 (EPSG:4326) is the most commonly Coordinate Reference System used. \r\nIt is the default in QGIS, the one used by OpenStreetMap, and what many people have in mind talking about latitude-longitude (or even for projected coordinates!).\r\nHowever in many cases users are not aware of the accuracy of coordinates in this system.\r\n\r\nNowadays with more affordable RTK devices (or PPK post-processing) people expect amazing accuracies (2 cm!), but forget that the reference system must keep that accuracy.\r\n\r\nIn this talk I will explain what is and what is not WGS84, when it is not a good idea to use it, and how we should be suspicious about data labelled as WGS84. Why people using it don't know or don't care about those problems (with or without a good reason).\r\nAlso I will talk about the pros and cons of such a CRS. For sure, not everything is bad.",
+    "start_datetime": "2024-07-04T14:00:00Z",
+    "end_datetime": "2024-07-04T14:30:00Z",
+    "talk:code": "B8CETX",
+    "talk:guid": "d65cb785-6330-5891-8922-cc135b1667ff",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "FOSS4G in education and research",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "QFieldCloud (246)",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "P9YTT3",
+        "name": "Javier Jimenez Shaw",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/P9YTT3/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-04T14:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/B8CETX/",
+      "title": "WGS 84: I don't know, I don't care."
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/B8CETX/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/P9YTT3/",
+      "title": "Javier Jimenez Shaw"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/jjimenezshaw/",
+      "title": "github.com/jjimenezshaw"
+    },
+    {
+      "rel": "related",
+      "href": "https://orcid.org/0000-0002-7227-9173",
+      "title": "orcid.org/0000-0002-7227-9173"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/B8CETX/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/B8CETX/resources/WGS_84_I_dont_know_I_dont_care_pTbpl9n.pdf",
+      "type": "application/pdf",
+      "title": "Slides",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/uw5E7NqyGrNg9NN5CVWWhG",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | WGS 84: I don't know, I don't care.",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=M2ck3cAGvhg",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | WGS 84: I don't know, I don't care.",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

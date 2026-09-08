@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "MQ3ZH9",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "Every building on Earth",
+    "description": "The built environment is, globally speaking, the largest unknown in the understanding of the effects of disasters and in assessing their risk. Detailed knowledge of it is necessary for many tasks in disaster risk reduction but also in other fields, e.g. climate-related sustainability, urban planning and management, insurance and re-insurance. While in well-regulated countries cadastral data is available that provides various details about the buildings, in parts of the world such information is lacking and not even the locations of buildings and settlements are known to the authorities. Buildings, the core part of the built environment, can be strongly mixed within small areas in their structural types, sizes, shapes and number of people in them and the socio-economic structure can vary highly on these scales. This heterogeneity cannot adequately be described by classical exposure models that provide aggregated building data over larger areas.\r\n\r\nA model that describes the built environment on the scale of each single building has never been accomplished, nor that such a model is dynamic, constantly updating with every change of the input data. Here, we present a high-resolution, open, and dynamic exposure model with the aim to provide global exposure data on the building level. This model is based on volunteered geographic information, predominantly OpenStreetMap and open data that is created with earth observation and machine learning, e.g. the building footprints of the Google Open Buildings and Microsoft ML Building Footprints, and the Global Human Settlement Layer to estimate the extent of built area. The different structural types of buildings per region are taken from open aggregated exposure models or developed from cadastral data. It covers every country and territory globally and is to a large degree building complete with approx. 2.7 billion buildings described in detail.",
+    "start_datetime": "2025-07-16T09:30:00Z",
+    "end_datetime": "2025-07-16T10:00:00Z",
+    "talk:code": "MQ3ZH9",
+    "talk:guid": "7c0fd153-6616-5651-9d63-28f3f2a5f5a3",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Open Data",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "CA01 (TomTom)",
+    "talk:room_capacity": 130,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "XMNDD9",
+        "name": "Danijel Schorlemmer",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/XMNDD9/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-16T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/MQ3ZH9/",
+      "title": "Every building on Earth"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/MQ3ZH9/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/XMNDD9/",
+      "title": "Danijel Schorlemmer"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/MQ3ZH9/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/MQ3ZH9/resources/gde.foss4g.01-04_K05Hx1Z.pdf",
+      "type": "application/pdf",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/r29hKpFXrRcaJ9guBzzaXo",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Every building on Earth",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=8e09gAFjf4c",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Every building on Earth",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "TMHDKA",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Automated Slope Estimation of Retaining Walls Using Drone Photogrammetry Point Clouds",
+    "description": "This study proposes an automated slope estimation method using cross-sectional profiles derived from large-scale point cloud data to reduce operator dependency and improve reproducibility, and demonstrates its practical applicability for the safety inspection and maintenance of retaining walls.\n\nThe deterioration of retaining walls and slopes leads to a reduction in structural stability, causing various negligent accident such as collapse and rockfall. Thus, the need for continuous management and precise condition assessment of such structures has been increasing. Recently, drone-based photogrammetry has enabled efficient data acquisition in sites that are difficult or limited to access, or in areas requiring more manpower than necessary, and has been actively applied, particularly in environments such as retaining walls and slopes. However, the large-scale point clouds generated from drone photogrammetry are difficult to handle. In particular, slope, which represents the structural characteristics of retaining walls and slopes, can still incur errors in analysis results depending on the operator\u2019s experience and subjective judgment, and accordingly, objective calculation standards are required. Therefore, this study proposes an automated procedure for slope estimation by generating cross-sectional profiles based on arbitrary points within large-scale point cloud data, and evaluates the applicability of the proposed method by applying it to an actual reinforced retaining wall. The experimental results indicate that the proposed automated slope estimation method minimizes operator dependency and provides reproducible slope estimation results even in complex field conditions, thereby demonstrating its potential to contribute practically to the field of safety inspection and maintenance of retaining walls.",
+    "start_datetime": "2026-09-02T05:05:00Z",
+    "end_datetime": "2026-09-02T05:10:00Z",
+    "talk:code": "TMHDKA",
+    "talk:guid": "9731ccf8-fea6-5879-a7d9-51d21151bc87",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Lightning Talk",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Ran1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "VDQLMB",
+        "name": "hyeonjeong Jo",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/VDQLMB/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T05:07:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/TMHDKA/",
+      "title": "Automated Slope Estimation of Retaining Walls Using Drone Photogrammetry Point Clouds"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/TMHDKA/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/VDQLMB/",
+      "title": "hyeonjeong Jo"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/TMHDKA/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

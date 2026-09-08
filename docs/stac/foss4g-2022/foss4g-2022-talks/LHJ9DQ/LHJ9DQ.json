@@ -1,0 +1,123 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "LHJ9DQ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "The Masterportal project \u2013 Highly customizeable feature-rich WebGIS",
+    "description": "This talk will give an overview of organizational and technical characteristics of the Open Source project [Masterportal](https://masterportal.org). We will also give an outlook about our activities towards getting Masterportal becoming an OSGeo project in the future.\r\n\r\nDriven by the succeeding trend of Open Governmental Data and the resulting needs for easy-to-use data platforms, the Masterportal (published under MIT license) sucscessfully developed into a powerful, customizeable Open Source solution for the visualization of geospatial data within the past years.\r\n\r\nIn order to build up a user and development community, the Masterportal Implementation Partnership was founded in 2018. This organization actually includes 35 public administration partners at the federal, state, and local levels in German-speaking countries (as of 02/2022). The most important committees of the Implementation Partnership are:\r\n\r\n* Strategic Committee (steers and controls the strategic direction of the master portal)\r\n* Technical Committee (supports the Strategic Committee in technical issues)\r\n* Product maintenance (technical further development, release management, etc.)\r\n* Maintainergroup (supports the product maintenance in technical further development, processing of PullRequests etc.)\r\n* Product Management (coordinates organizational matters, public relations, event planning, etc.)\r\n\r\nIn addition to regularly committee meetings, various workshops are organized, for example on the initial setup of the software or on special technical topics such as the integration of secure geodata services.\r\n\r\nBeside the partners from the public administration side, there are various companies, that offer support and maintenance  and contribute to the further development of Masterportal.\r\n\r\nFrom a technical point of view, the code is mainly based on OpenLayers, Vue.js and Bootstrap, while a wide range of modern ES6 libraries are used within the development. There are accurate and helpful development guide lines and code convention to ensure a reasonable code quality.\r\n\r\nWithout any further programming skills, a beginner may easily setup and configure a feature-rich modern WebGIS portal  including also an individual design. The configuration is done in a application context file, which is defined in JSON-format. Besides well-known features like printing, common map interactions, layer management, routing, search or drawing, Masterportal also supports all common OGC-Standards including WMS-Time and SensorThings API and the integration of metadata records.\r\n\r\nAlso, Masterportal serves as an underlying software basis for more individual projects  - therefore the addon concept allows maintainers to add further individual functionality, like special tools or individual feature info themes.\r\n\r\nThe talk will introduce the project and show some examples from real world clients, build upon Masterportal.\r\n\r\nTwitter Link: [twitter.com/masterportalorg](https://twitter.com/masterportalorg)  \r\nCode, Documentation:  [bitbucket.org/geowerkstatt-hamburg/masterportal/](https://bitbucket.org/geowerkstatt-hamburg/masterportal/)",
+    "start_datetime": "2022-08-25T10:00:00Z",
+    "end_datetime": "2022-08-25T10:30:00Z",
+    "talk:code": "LHJ9DQ",
+    "talk:guid": "19c987fb-519f-51ec-a5e5-729a87e768c1",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "General online",
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "3UPTTD",
+        "name": "Hannes Blitza",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/3UPTTD/"
+      },
+      {
+        "code": "NGBGDY",
+        "name": "Markus Besenfelder",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/NGBGDY/"
+      },
+      {
+        "code": "BYEEZB",
+        "name": "Hannes Blitza",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/BYEEZB/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T10:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/LHJ9DQ/",
+      "title": "The Masterportal project \u2013 Highly customizeable feature-rich WebGIS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/LHJ9DQ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/3UPTTD/",
+      "title": "Hannes Blitza"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/NGBGDY/",
+      "title": "Markus Besenfelder"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/BYEEZB/",
+      "title": "Hannes Blitza"
+    },
+    {
+      "rel": "related",
+      "href": "https://masterportal.org",
+      "title": "Masterportal"
+    },
+    {
+      "rel": "related",
+      "href": "https://twitter.com/masterportalorg",
+      "title": "twitter.com/masterportalorg"
+    },
+    {
+      "rel": "related",
+      "href": "https://bitbucket.org/geowerkstatt-hamburg/masterportal/",
+      "title": "bitbucket.org/geowerkstatt-hamburg/masterportal/"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/LHJ9DQ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

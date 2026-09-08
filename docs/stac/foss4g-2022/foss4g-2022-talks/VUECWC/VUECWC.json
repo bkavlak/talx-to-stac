@@ -1,0 +1,114 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "VUECWC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Elevation data support in QGIS: 3D, profiles, point clouds and more!",
+    "description": "For many years QGIS has been focused on 2D spatial data and support for\r\n3D data was very limited. This has changed in the last couple of years\r\nand QGIS is getting a full suite of tools to work with 3D data.\r\n\r\nQGIS development team has been actively working on better support for\r\ndata with elevation - such as point clouds, raster digital elevation models,\r\n3D vectors or meshes. This has been possible mainly thanks to the successful\r\ncrowdfunding campaign run in autumn 2021:\r\nhttps://www.lutraconsulting.co.uk/crowdfunding/elevation-pointcloud-enhancements-qgis/\r\n\r\nIn this talk, we will show outcomes of these development efforts including:\r\n- a brand new profile tool for detailed inspection of elevation data\r\n- new 2D/3D visualization options for data\r\n- great improvements to the usability of 3D map views\r\n- support for Cloud Optimized Point Cloud (COPC) format\r\n\r\nWe will also discuss the plans for future releases and how QGIS can even\r\nbetter fit requirements of users with the ever increasing supply of 3D data.",
+    "start_datetime": "2022-08-25T15:45:00Z",
+    "end_datetime": "2022-08-25T16:15:00Z",
+    "talk:code": "VUECWC",
+    "talk:guid": "a317ece1-4e52-589d-99be-d9706393b8d5",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room 9",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "YPWRBE",
+        "name": "Martin Dobias",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/YPWRBE/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T16:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/VUECWC/",
+      "title": "Elevation data support in QGIS: 3D, profiles, point clouds and more!"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/VUECWC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/YPWRBE/",
+      "title": "Martin Dobias"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.lutraconsulting.co.uk/crowdfunding/elevation-pointcloud-enhancements-qgis/",
+      "title": "www.lutraconsulting.co.uk/crowdfunding/elevation-pointcloud-enhancements-qgis"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/VUECWC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/1XpGing1dhWA4ZAHGgmPwr",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Elevation data support in QGIS: 3D, profiles, point clouds and more!",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=UTO2qDvz7FY",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Elevation data support in QGIS: 3D, profiles, point clouds and more!",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

@@ -1,0 +1,87 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "9RPVCX",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Digital 3D inventory for the promotion and conservation of the architectural heritage",
+    "description": "Heritage graphic representation combining building spatial location and urban/land planning provides a powerful tool for government agencies. These techniques support the decision-making, simplify the development of protection and conservation inventories and allow the treatment of buildings from an integral urban/land scale view. From a technical perspective the representation of information at various detail levels, and involving different types of data and supports, provides a complete vision with multiple applications. Furthermore, this graphical representation of historical buildings offers an informative contribution that can be used to promote the architectural heritage with educational and touristic purposes.\r\n\r\nThe so-called Mudejar architecture is unique of the Iberian Peninsula and represents the influence of the Muslim culture in art and architecture between the 12th and 17th centuries within the territories conquered by Christians. The Autonomous Community of Arag\u00f3n was one of the most influenced territories and hence the Aragonese Mudejar gained its own peculiarities that differentiate it from the rest of the territory. Some representative Aragonese Mudejar buildings were declared as World Heritage Sites by UNESCO in 2001. In the field of architecture, the typologies of fortress-churches and single-nave churches with a polygonal apse and simple ribbed vaults are representative from the Aragonese Mudejar. The bell towers have a characteristic structure, with a morphology similar to that used in the minarets of Muslim mosques.  The use of traditional materials such as brick, plaster, stucco, ceramics and wood in the construction processes and the use of geometric shapes and plant themes for ornamentation also stand out, derived directly from the muslin tradition.\r\n\r\nThis work presents the development of a digital system to document and inventory the Mudejar architectural style in Arag\u00f3n, involving a list of 225 buildings with unique architectural elements that are part of the World Heritage.  The development of useful graphic representations of the architectural heritage requires to exceed the classical inventory description level and to design graphical environments able to contain further information about the cultural assets. It is necessary to clarify a methodology to collect, organize and disclose information to common users and urban managers following a standardized procedure. First, the information collected from the historical Mudejar buildings was structured following standardized criteria and stored in digital sheets, creating a complete inventory of the Aragonese Architectural Heritage. This structured digital inventory of the Mudejar Heritage ensures that the information lasts over time, as well as helps design conservation measures and promotions actions (Quintilla, 2021).\r\n\r\nA geospatial web tool has been developed to organize and make available 2D and 3D architectural data of the buildings which enriches the descriptive information provided by the digital inventory sheets. The main goal is to provide a standardized basis for recording digital 2D/3D graphic documentation, supporting the use of this information in an understandable and coherent way in future conservation actions. The proposed geospatial web tool allows the dissemination and exploitation of the architectural information by different users through a website that integrates a cartographic viewer (WebGIS) and also offers access to a point cloud manager based on WebGL. The geospatial structured data are accessible through an interface with different visualization styles that are adaptable depending on the purpose, such as technical studies, reconstruction actions, informative campaigns, etc., opening up the possibilities of use of the available information. Furthermore, the 3D point cloud viewer supports the creation of a user-friendly repository of geometric information of the registered heritage assets.\r\n\r\nThe Digital Inventory of the Aragonese Mudejar Architectural Heritage has been developed using exclusively free and open source software. The creation, edition, managing, visualization and publication of the geospatial information is achieved using QGIS (QGIS Development Team, 2022), a multiplatform Geographic Information System which allows the manipulation of raster and vectorial data sets. PostgreSQL (PostgreSQL Global Development Group, 2022), allows the creation of attribute tables with geometric and spatial information and the analysis of the information by spatial SQL queries. The Spatial Data Infrastructure (SDI) services offered by different organizations have been used to support the geospatial architectural information using standardized web services. The data are published through OGC standardized formats, such as WMS, WMTS, WFS or WCS. The JavaScript library Leaflet (Leaflet, 2022) is used to create a web map application which make available the Mudejar Inventory the end-users.\r\n\r\nThe 3D information collected for each historical building is made available to end-users by means of an ad-hoc interactive point cloud environment based on the Potree viewer project (Potree, 2022). The three-dimensional geometric information is obtained by the combination of photogrammetry and laser scanner techniques. The result is a high-density point cloud model of the building that is used as a 3D support where the data provided by the different technicians involved in the documentation process can be incorporated. Traditionally, presenting models to the end user required transferring large amounts of data and installing third-party applications to view it. However, this point cloud viewer is based on the WebGL technology which enables the delivery of 3D content through web browsers without and installing third-party applications and which is natively supported by all devices. Previously, the software Cloud Compare (Cloud Compare, 2022) has been used to perform cloud segmentation and sub-sampling, as well as for the classification of different cloud groups into architectural elements.\r\n\r\nThe Digital Inventory of the Aragonese Mudejar Architectural Heritage is a digital repository with graphic material composed of photographic and 2D/3D volumetric information, which forms a complete documentation of the geometry of the building and achieves the correct characterization for metric or informative purposes.",
+    "start_datetime": "2022-08-25T12:45:00Z",
+    "end_datetime": "2022-08-25T13:15:00Z",
+    "talk:code": "9RPVCX",
+    "talk:guid": "a44e1f86-65d0-5a4b-a4c7-beeadcf9dab2",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Academic online",
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "EHARJQ",
+        "name": "Sergio Mart\u00ednez-Aranda",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/EHARJQ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T13:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/9RPVCX/",
+      "title": "Digital 3D inventory for the promotion and conservation of the architectural heritage"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/9RPVCX/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/EHARJQ/",
+      "title": "Sergio Mart\u00ednez-Aranda"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/9RPVCX/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

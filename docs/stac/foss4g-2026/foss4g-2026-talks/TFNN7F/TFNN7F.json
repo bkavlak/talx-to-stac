@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "TFNN7F",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "GERS in Five Minutes: Overture's Open ID System for Map Data",
+    "description": "Every month Overture Maps Foundation releases more than four billion records of global multi-source map data as GeoParquet files, available in public AWS and Azure buckets. We also release a modular schema as Pydantic packages, a data changelog in Parquet, metadata in STAC, PMTiles, and other open tools to make all of it usable. The spine of Overture's work is the Global Entity Reference System (GERS), an open ID system for maps, and we're building it with 50 member companies. Most map ID systems belong to a single company. An open one is unusual, and building it with companies that compete with each other is harder still. In five minutes I'll cover what a GERS ID is, where it comes from, what the GERS registry captures, and how bridge files help you join your own data to GERS.",
+    "start_datetime": "2026-09-02T02:40:00Z",
+    "end_datetime": "2026-09-02T02:45:00Z",
+    "talk:code": "TFNN7F",
+    "talk:guid": "02604857-7fec-5322-9ca6-8964670d45d3",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Sponsor Session",
+    "talk:type": "Sponsor talk(Bronze)",
+    "talk:language": "en",
+    "talk:room": "Phoenix Hall",
+    "talk:room_capacity": 1150,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "LY7YK9",
+        "name": "Dana Bauer",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/LY7YK9/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T02:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/TFNN7F/",
+      "title": "GERS in Five Minutes: Overture's Open ID System for Map Data"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/TFNN7F/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/LY7YK9/",
+      "title": "Dana Bauer"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/TFNN7F/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

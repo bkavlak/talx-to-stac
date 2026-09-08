@@ -1,0 +1,118 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "WPLVJQ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "GeoAI Transformer\u2013LSTM Boosts Maize-Yield Accuracy in Malawi\u2019s Smallholder Fields",
+    "description": "Leave-one-field-out tests on Malawian smallholder plots compare multiband/index linear regression, XGBoost, CNN-LSTM, a frozen ViT and a ViT-LSTM on Sentinel-2 VT\u2013R1 stacks. ViT-LSTM delivers the best accuracy (RMSE 0.022 t ha\u207b\u00b9) but runs 2.5 \u00d7 slower than CNN-LSTM.\n\n1. Introduction\r\n\r\nMaize supplies almost 60 % of Malawi\u2019s caloric intake, so mid-season yield forecasts are pivotal for food-security planning (FAO, 2015). Conventional ground surveys reach farmers only after harvest and sample < 1 % of the 1.8 million smallholdings. Optical earth-observation offers plot-scale coverage, and deep learning is now outperforming index-based regressions (Muruganantham et al., 2022). Transformers have recently eclipsed CNNs in US Corn-Belt studies (Lin et al., 2023), yet their benefit for densely inter-cropped African fields is unknown. We therefore benchmark five modelling paradigms, ranging from linear regression to a novel Vision-Transformer\u2013LSTM (ViT-LSTM) hybrid, on a hand-harvested dataset from Zomba District.\r\n\r\n2. Materials and Methods\r\n\r\nEight rain-fed maize fields (0.2 \u2013 0.9 ha) in Zomba District were GPS-delineated during the 2024/25 season. Grain harvested from ten 10 m \u00d7 10 m quadrats per field was dried to 13 % moisture and weighed, yielding plot-level reference values.\r\n\r\nSentinel-2 Level-2A surface reflectance (13 bands) was accessed via Google Earth Engine (GEE). Scenes acquired between 1 December 2024 and 28 February 2025, vegetative tasselling to first silking (VT\u2013R1), were cloud-masked with s2cloudless and aggregated into rolling 10-day medians. All bands (native 10 m / 20 m) were re-projected to EPSG:32736 (UTM 36 S) and bilinearly up-sampled to 1 m to produce inputs compatible with CNN and ViT backbones pre-trained on large-dimension Sentinel-2 imagery (e.g., BigEarthNet). For each field, images were tiled using a 32 \u00d7 32 px sliding window with a 16 px stride, augmenting the sample count. Five spectral indices, NDVI, EVI, red-edge NDVI, NDWI, and MSI, were computed from the 1m bands so that every raster layer shared the same grid.\r\n\r\n2.1. Models\r\n* LR-Indices: ordinary-least-squares regression implemented with PyTorch BSD-licensed Linear layer, applied to 10-day means of the five indices and raw bands.\r\n* XGBoost: gradient-boosted decision trees using the Apache-2.0 XGBoost library on aggregated bands + indices, fully open source and cross-platform.\r\n* CNN-LSTM: frozen ResNet-101 encoder pretrained on the open BigEarthNet v2.0 Sentinel-2 archive, released under the CDLA-Permissive licence; its patch embeddings and mean indices feed a three-layer LSTM, all implemented in PyTorch (BSD licence).\r\n* Frozen ViT: ViT-B16 encoder pretrained on the same BigEarthNet weights, kept frozen; token sequence plus mean indices pass to a linear head; codebase remains entirely PyTorch and open source.\r\n* ViT-LSTM (proposed): shares the open-source ViT encoder above, but pools tokens and mean indices with an LSTM decoder; the full pipeline (data and code) is published under GPL-3.0 in our repository.\r\n\r\nAll models were implemented in PyTorch 2.3 and trained on an NVIDIA Quadro P1000 GPU. Hyper-parameters were optimised with Optuna. Deep networks trained for 50 epochs using AdamW, cosine-annealed learning rates, batch = 1, FP16 mixed precision, and early-stopping (patience = 10). A leave-one-field-out (LOFO) scheme ensured each field served once as the unseen test set. Performance was assessed with RMSE and MAE. Exact paired-permutation tests compared fold-wise RMSEs, and average inference time per tile was computed for every fold.\r\n\r\nAll code, configuration files, and anonymised data are released under GPL-3.0 at https://github.com/jahnical/yield-pred-models-comp, enabling full replication of the workflow.\r\n\r\n3.  Results\r\n* Accuracy:\u2003ViT-LSTM achieved the lowest cross-validated RMSE 0.022 t ha\u207b\u00b9 and MAE 0.019 t ha\u207b\u00b9. CNN-LSTM followed at RMSE 0.088 t ha\u207b\u00b9; frozen ViT, 0.219 t ha\u207b\u00b9. XGBoost and LR-Indices exceeded 0.22 t ha\u207b\u00b9.\r\n* Significance:\u2003Both recurrent models (CNN-LSTM and ViT-LSTM) significantly out-performed non-recurrent baselines (p \u2264 0.02). The gap between ViT-LSTM and CNN-LSTM was also significant (p = 0.046).\r\n* Speed:\u2003LR-Indices and XGBoost predicted in < 0.02 ms per tile. CNN-LSTM needed 14 ms, whereas ViT-LSTM required 36 ms, 2.5 times slower.\r\n\r\n4. Discussion\r\n\r\nExplicit spatio-temporal learning is critical because Malawi\u2019s smallholder plots are tiny, irregular and often inter-cropped; spectral signatures therefore vary sharply over just a few metres and change quickly as plants develop. Recurrent layers already capture the crop\u2019s phenological curve, but the self-attention blocks in the transformer let the model weigh non-contiguous pixels and dates, teasing out subtle edge effects and mixed-crop patterns that a CNN-LSTM misses (Liu et. el, 2023). That extra context cuts RMSE by \u2248 0.07 t ha\u207b\u00b9 (about 60 %), yet self-attention is quadratic in sequence length, so inference jumps from 14 ms to 36 ms per 32 by 32 px 1 m-tile, a 2.5\u00d7 latency cost.\r\n\r\nData is streamed through Google Earth Engine, a free (though not open-source) cloud platform, while QGIS for vector editing, Rasterio/xarray for raster I/O, and PyTorch/XGBoost for modelling are fully open-source. This workflow demonstrates how combining free cloud access with FOSS4G tools can deliver high-resolution, scalable yield mapping in resource-constrained settings.\r\n\r\n5. Conclusion\r\n\r\nWe present the first open-source, plot-scale benchmark that pits classical machine-learning models, CNN-LSTM, and a transformer\u2013recurrent hybrid on Malawian maize yields. ViT-LSTM attains state-of-the-art accuracy (RMSE 0.022 t ha\u207b\u00b9), an 60 % improvement over CNN-LSTM, at a four-fold latency cost. All code and data are freely released, inviting the FOSS4G community to replicate, critique, and extend the workflow to other crops, sensors, and regions.\r\n\r\nReferences (abridged)\r\n1. Chen T & Guestrin C (2016) XGBoost: A scalable tree-boosting system. KDD.\r\n Dosovitskiy A et al. (2021) An image is worth 16\u00d716 words: Transformers for image recognition at scale. ICLR.\r\n2. FAO (2015) National Investment Profile: Water for Agriculture and Energy \u2013 Malawi.\r\n3. Gaddy D, Li K & Eisner J (2022) Exact paired-permutation testing for structured test statistics. NAACL-HLT.\r\n4. Krause J, Smith L & Brown M (2019) A CNN-RNN framework for crop-yield prediction. Frontiers in Plant Science 10:1750.\r\n5. Lin F et al. (2023) MMST-ViT: Climate-change-aware crop-yield prediction via multi-modal spatial-temporal Vision Transformer. ICCV.\r\n6. Muruganantham P et al. (2022) Systematic review on crop-yield prediction with deep learning and remote sensing. Remote Sensing 14(9):1990.\r\n7. Zupanc A et al. (2023) s2cloudless: An open-source cloud mask for Sentinel-2. Earth Science Informatics 16:399\u2013415.\r\n8. Li, C., Chimimba, E. G., Kambombe, O., Brown, L. A., Chibarabada, T. P., Lu, Y., \u2026 Dash, J. (2022). Maize yield estimation in intercropped smallholder fields using satellite data in Southern Malawi. Remote Sensing, 14(10), 2458.\r\n9. Sumbul, G., Utilkar, Y., Kaplan, S., & Demir, B. (2021). BigEarthNet-MM: A large-scale multi-modal benchmark archive for remote sensing. ISPRS Journal of Photogrammetry and Remote Sensing, 182, 49-62.\r\n10. Liu, F., Jiang, X., & Wu, Z. (2023). Attention Mechanism-Combined LSTM for Grain Yield Prediction in China Using Multi-Source Satellite Imagery. Sustainability, 15(12), 9210. https://doi.org/10.3390/su15129210",
+    "start_datetime": "2025-11-19T03:30:00Z",
+    "end_datetime": "2025-11-19T03:55:00Z",
+    "talk:code": "WPLVJQ",
+    "talk:guid": "abe6a30b-2398-5808-bb87-944dca49a22d",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Academic",
+    "talk:type": "Academic Paper",
+    "talk:language": "en",
+    "talk:room": "WG802",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "PKUHMX",
+        "name": "Kondwani Munthali",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/PKUHMX/"
+      },
+      {
+        "code": "KMLGS9",
+        "name": "Mathews Jere",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/KMLGS9/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-19T03:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/WPLVJQ/",
+      "title": "GeoAI Transformer\u2013LSTM Boosts Maize-Yield Accuracy in Malawi\u2019s Smallholder Fields"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/WPLVJQ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/PKUHMX/",
+      "title": "Kondwani Munthali"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/KMLGS9/",
+      "title": "Mathews Jere"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/jahnical/yield-pred-models-comp",
+      "title": "github.com/jahnical/yield-pred-models-comp"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.3390/su15129210",
+      "title": "doi.org/10.3390/su15129210"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/WPLVJQ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=iGGcOAcYBoU",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | GeoAI Transformer\u2013LSTM Boosts Maize-Yield Accuracy in Malawi\u2019s Smallholder Fields",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

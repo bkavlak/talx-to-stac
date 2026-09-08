@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "9C99XJ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Building heights: From open data to open maps",
+    "description": "In the US, less than 20% of OpenStreetMap (OSM) buildings have a height tag (less than 10% globally). Providing buildings with height tags helps several use cases including 3D map visualization. At Meta, we have begun using open mapping data to estimate building heights and providing them back to the community. At the end of 2022, we used data from city GIS departments to estimate millions of heights and release them to the public through the Daylight Map Distribution (https://daylightmap.org/2022/12/02/building-heights.html). In 2023, we are using publicly available USGS/3DEP aerial lidar and releasing to the public through the Overture Maps Foundation \u2013 processing millions of square kilometers. This talk will cover the challenges, algorithm, QA process, and accuracy metrics from this effort. It is our hope that over the course of the year, we can estimate and publish heights for the majority of the buildings in the US and begin work on non-US open data sources as well.",
+    "start_datetime": "2023-06-30T13:00:00Z",
+    "end_datetime": "2023-06-30T13:30:00Z",
+    "talk:code": "9C99XJ",
+    "talk:guid": "6e120862-9f63-5f1a-84af-ad780660b8e2",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Open Data",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT C / N110 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "DX3TVY",
+        "name": "Yunzhi Lin",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/DX3TVY/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-30T13:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/9C99XJ/",
+      "title": "Building heights: From open data to open maps"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/9C99XJ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/DX3TVY/",
+      "title": "Yunzhi Lin"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/9C99XJ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/qaTkV3qF5WuTGXi2o6H3ct",
+      "type": "text/html",
+      "title": "2023 | Building heights: From open data to open maps - Yunzhi Lin",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=TqoFd-D0TgM",
+      "type": "text/html",
+      "title": "2023 | Building heights: From open data to open maps - Yunzhi Lin",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

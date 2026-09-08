@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "ESB8EN",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Reconstructing literary geographies on the margins of S\u00e3o Paulo using open GIS resources",
+    "description": "This presentation shows how QGIS, OpenStreetMap, and other open resources were used to reconstruct narrative maps conveying one woman\u2019s experience with space and identity in mid-20th-century S\u00e3o Paulo. In 1960, the edited diary of Carolina Maria de Jesus, Quarto de Despejo, become one of the best-selling books in Brazil. It vividly portrayed the struggles of a single mother scavenging the streets of the city looking for anything to sell so she could feed her family. Some Brazilians did not believe that a Black woman from a \u201cfavela\u201d neighborhood could have composed such a poetically poignant manuscript, but more recent scholarship has confirmed the authenticity of Carolina\u2019s authorship.  \r\n\r\nIt is clear that Carolina saw and felt lines of division between her neighborhood and the city not visible on any printed maps of the time. When going into \u201cthe city\u201d she felt like she was in paradise, or a beautiful guest room; whereas her neighborhood on the precarious margins of the Tiet\u00ea River was viewed as the backyard trash heap, subject to environmental hazards and government neglect. In this talk, I use narrative maps to show how these different places in Carolina\u2019s life were constructed and what they each meant to her.  \r\n\r\nIn order to better understand Carolina's relationship to the spaces she called \u201cthe favela\u201d and \u201cthe city\u201d, I carefully constructed a list of every place mentioned in Quarto de Despejo. Employing a combination of archival research, Internet searches, onsite visits, and modern GIS databases, our research team located and mapped as many of these locations as possible, using QGIS software. For a base layer, we fashioned a historical street grid by starting with OpenStreetMap and modifying the geometries to conform to old aerial photographs freely available online. We then used our newly-created databases to compose narrative maps of Carolina\u2019s S\u00e3o Paulo, focusing on areas where she did and did not go, as well as places where she experienced different kinds of emotions, challenges, access to resources, and interactions with the state. These maps demonstrate how geographic and social barriers both seen and unseen influenced the daily lives of Paulistanos in the 1950s, a challenge that persists in Brazil today.",
+    "start_datetime": "2024-12-06T19:30:00Z",
+    "end_datetime": "2024-12-06T20:00:00Z",
+    "talk:code": "ESB8EN",
+    "talk:guid": "dee05ec8-6842-52c6-a769-b8e2c1f47221",
+    "talk:event": "foss4g-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room II",
+    "talk:room_capacity": 200,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "MWNL3P",
+        "name": "Sterling Quinn",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/MWNL3P/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-06T19:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/ESB8EN/",
+      "title": "Reconstructing literary geographies on the margins of S\u00e3o Paulo using open GIS resources"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/ESB8EN/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/MWNL3P/",
+      "title": "Sterling Quinn"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/ESB8EN/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides-reconstructing-literary-geographies-on-the-margins-of": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024/submissions/ESB8EN/resources/Reconstructing_literary_geographies_on_the_marg_48oW4LE.pdf",
+      "type": "application/pdf",
+      "title": "Slides: Reconstructing literary geographies on the margins of S\u00e3o Paulo using open GIS resources",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/3dHHKCeJVLYkYnHreCUqcx",
+      "type": "text/html",
+      "title": "FOSS4G 2024|Reconstructing literary geographies on the margins of S\u00e3o Paulo using open GIS resources",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=Ijp2B8F8bt4",
+      "type": "text/html",
+      "title": "FOSS4G 2024|Reconstructing literary geographies on the margins of S\u00e3o Paulo using open GIS resources",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

@@ -1,0 +1,147 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "SRSTLP",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "MapStore, Development of an Extension",
+    "description": "This workshop will provide an introduction to building your own Extension, a plugin component that allows adding custom functionality to the map viewer, based on the MapStore Open Source framework. MapStore is an highly modular Open Source WebGIS framework to create, manage and securely share maps and geospatial applications.\n\nThis workshop will provide an introduction to building your own Extensions for the MapStore Open Source framework, an highly modular Open Source WebGIS framework to create, manage and securely share maps and geospatial applications. An Extension is a plugin component that can be distributed as a separate package (a zip file), and be installed, activated and used at runtime. Creating an extension allows a developer to add custom components and functionalities to the map viewer.\r\nThe workshop provides an overview of the MapStore technological stack and introduces to the development of a MapStore extension.\r\n\r\nThe topics covered during the workshop are the following:\r\n  - Introduction to MapStore\r\n  - How to setup the development environment for a MapStore Extension\r\n  - Introduction to the development of an Extension\r\n  - Installation of an Extension inside a MapStore context map viewer\r\n\r\n#### Pre-requirements for attendees\r\n\r\nThe material we are going to use during the workshop is available online at the following links:\r\n  - MapStore demo https://mapstore.geosolutionsgroup.com/mapstore\r\n  - MapStore repository https://github.com/geosolutions-it/MapStore2\r\n  - MapStoreExtension documentation https://docs.mapstore.geosolutionsgroup.com/en/latest/developer-guide/extensions/\r\n  - MapStoreExtension repository https://github.com/geosolutions-it/MapStoreExtension\r\n\r\nAdditional needed tools:\r\n\r\n- Git - see git guides for installation instructions https://github.com/git-guides/install-git\r\n- NodeJS version 20, installation alternatives:\r\n  - Installation with nvm https://github.com/nvm-sh/nvm\r\n  - Installation with nvm-windows https://github.com/coreybutler/nvm-windows\r\n  - Download from node.js https://nodejs.org/en/download\r\n- Code editor (e.g. Visual Studio Code) https://code.visualstudio.com/\r\n\r\nFor those that want to follow hands on, we suggest to prepare previous listed tools beforehand  and:\r\n\r\n- Download [mapstore2-2026.01.02-bin.zip](https://github.com/geosolutions-it/MapStore2/releases/download/v2026.01.02/mapstore2-2026.01.02-bin.zip) to test MapStore WebGIS functionalities locally ([Release v2026.01.02](https://github.com/geosolutions-it/MapStore2/releases/tag/v2026.01.02))\r\n- Setup the MapStoreExtension repository:\r\n  - Navigate in your workspace folder and clone the repository with: `git clone -b 2026.01.xx --recursive https://github.com/geosolutions-it/MapStoreExtension`\r\n  - Navigate inside MapStoreExtension with: `cd ./MapStoreExtension`\r\n  - Install all the dependencies with npm (node version 20 must be installed) with: `npm install`\r\n\r\nA basic knowledge of JavaScript and ReactJS is needed for the development setup.",
+    "start_datetime": "2026-07-02T08:10:00Z",
+    "end_datetime": "2026-07-02T10:10:00Z",
+    "talk:code": "SRSTLP",
+    "talk:guid": "08dce483-6efa-5f3e-a9ab-0b052fc178b9",
+    "talk:event": "foss4g-europe-2026-workshops",
+    "talk:type": "Lightning workshop",
+    "talk:language": "en",
+    "talk:room": "005",
+    "talk:duration_minutes": 120,
+    "talk:speakers": [
+      {
+        "code": "BEYNQB",
+        "name": "Stefano Bovio",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026-workshops/speaker/BEYNQB/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-07-02T09:10:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/talk/SRSTLP/",
+      "title": "MapStore, Development of an Extension"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/talk/SRSTLP/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/speaker/BEYNQB/",
+      "title": "Stefano Bovio"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/geosolutions-it/MapStore2/releases/download/v2026.01.02/mapstore2-2026.01.02-bin.zip",
+      "title": "mapstore2-2026.01.02-bin.zip"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/geosolutions-it/MapStore2/releases/tag/v2026.01.02",
+      "title": "Release v2026.01.02"
+    },
+    {
+      "rel": "related",
+      "href": "https://mapstore.geosolutionsgroup.com/mapstore",
+      "title": "mapstore.geosolutionsgroup.com/mapstore"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/geosolutions-it/MapStore2",
+      "title": "github.com/geosolutions-it/MapStore2"
+    },
+    {
+      "rel": "related",
+      "href": "https://docs.mapstore.geosolutionsgroup.com/en/latest/developer-guide/extensions/",
+      "title": "docs.mapstore.geosolutionsgroup.com/en/latest/developer-guide/extensions"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/geosolutions-it/MapStoreExtension",
+      "title": "github.com/geosolutions-it/MapStoreExtension"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/git-guides/install-git",
+      "title": "github.com/git-guides/install-git"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/nvm-sh/nvm",
+      "title": "github.com/nvm-sh/nvm"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/coreybutler/nvm-windows",
+      "title": "github.com/coreybutler/nvm-windows"
+    },
+    {
+      "rel": "related",
+      "href": "https://nodejs.org/en/download",
+      "title": "nodejs.org/en/download"
+    },
+    {
+      "rel": "related",
+      "href": "https://code.visualstudio.com/",
+      "title": "code.visualstudio.com"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/geosolutions-it/MapStoreExtension`",
+      "title": "github.com/geosolutions-it/MapStoreExtension`"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/talk/SRSTLP/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-workshops"
+}

@@ -1,0 +1,103 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "AQYBNM",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Location-based scheduling of VRP tasks using pg_scheduleserv",
+    "description": "**Vehicle Routing Problems (VRP)** are a class of combinatorial optimization problems whose purpose is to design an optimal route for a fleet of vehicles, serving a set of customers, along with satisfying certain constraints. They are NP-complete (non-deterministic polynomial) and have been a challenging problem ever since.\r\n\r\n**[pg_scheduleserv](https://github.com/Georepublic/pg_scheduleserv) offers an API-based solution** for solving scheduling problems without the need to be an expert in algorithms or databases. It is a RESTful API written in Go, built on top of [vrpRouting](https://github.com/pgRouting/vrprouting). It uses [VROOM](https://github.com/VROOM-Project/vroom) as the schedule optimization engine to increase operational efficiency in location-based processes.\r\n\r\npg_scheduleserv lets you create jobs, shipments, or vehicles in the database by ***posting JSON objects*** through HTTP requests. It enables you to obtain the optimized schedule either as a JSON object or in ***iCal format*** so that the generated results can be directly used in your calendar applications.\r\n\r\npg_scheduleserv is easy to use and set up. By providing an API-based solution, it can be integrated into existing applications. **In this talk, we present pg_scheduleserv along with a simple demo application to demonstrate its efficiency and simplicity of usage.**",
+    "start_datetime": "2022-08-24T15:15:00Z",
+    "end_datetime": "2022-08-24T15:20:00Z",
+    "talk:code": "AQYBNM",
+    "talk:guid": "9b8dbb1a-6cda-5dbd-ab55-644fbb23406d",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "General online",
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "TLPKBD",
+        "name": "Ashish Kumar",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/TLPKBD/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T15:17:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/AQYBNM/",
+      "title": "Location-based scheduling of VRP tasks using pg_scheduleserv"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/AQYBNM/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/TLPKBD/",
+      "title": "Ashish Kumar"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/Georepublic/pg_scheduleserv",
+      "title": "pg_scheduleserv"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/pgRouting/vrprouting",
+      "title": "vrpRouting"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/VROOM-Project/vroom",
+      "title": "VROOM"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/AQYBNM/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

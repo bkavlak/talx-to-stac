@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "ZZEGLR",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "A high performing data retrieval system for large and frequently updated geospatial datasets",
+    "description": "ECMWF is a research institute and a 24/7 operational service, producing global numerical weather predictions and other data for a broad community of users. To achieve this, the centre operates one of the largest supercomputer facilities and data archives within the meteorological community. ECMWF also operates several services for the EU Copernicus programme to provide data for Climate Change, Atmospheric monitoring and Emergency services.\r\n\r\nAs part of ECMWF's Open data initiative, more and more meteorological data and web services are freely available to a wider community. ECMWF's web services include an interactive web application to explore and visualize its forecast data, a Web Map Service (WMS) server and many graphical products including geospatial weather diagrams so called Ensemble (ENS) meteograms and vertical profiles.\r\n\r\nENS meteograms and vertical profile diagrams are among the ECMWF's most popular web products and presents ECMWF's multi-dimensional real-time ensemble forecast data for a given position globally. They are freely available through various ECMWF web services,  and integrated on ECMWF's GIS based interactive web application. Datasets powering the dynamically generated diagrams are formed from a rolling archive of 10 days data, updated twice a day and each update consists of data around half a Terabyte. An upcoming update on ECMWF's forecasting system will increase the data size by a factor of 3-4 times in the near future.  In addition to ECMWF's forecast data, similar services are requested as part of various Copernicus projects producing different datasets.\r\n\r\nThis talk presents migrating legacy data structure used for ENS meteogram datasets to a more flexible, extensible, and high performing one fit to be used by GIS systems by using Free Open Source Software (FOSS). The new data structure uses Python ecosystem. The data preparation workflow as well as the challenges and the solutions that are taken when dealing large and frequently updated geospatial datasets are presented. Talk will also include early experiments and experiences to offer these datasets as part of OGC's Environmental Data Retrieval (EDR) API.",
+    "start_datetime": "2022-08-26T10:30:00Z",
+    "end_datetime": "2022-08-26T11:00:00Z",
+    "talk:code": "ZZEGLR",
+    "talk:guid": "1129ea2b-d2f5-5daf-91c0-9b85146f1b5a",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Onice",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "B3MEEJ",
+        "name": "Cihan Sahin",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/B3MEEJ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T10:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/ZZEGLR/",
+      "title": "A high performing data retrieval system for large and frequently updated geospatial datasets"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/ZZEGLR/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/B3MEEJ/",
+      "title": "Cihan Sahin"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/ZZEGLR/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=antc_9o5ivk",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | A high performing data retrieval system for large and frequently updated geospatial\u2026",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

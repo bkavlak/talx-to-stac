@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "CA3TGA",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Remote mapping of soil erosion risk in Iceland",
+    "description": "Soil erosion is a major global land degradation threat. Improving knowledge of the probable future rates of soil erosion, accelerated by human activity and climate change, is one of the most decisive factors when it comes to making decisions about conservation policies and for earth-system modelers seeking to reduce uncertainty on global predictions [1].\r\n\r\nIn this context, the use of remote-sensing based methods for soil erosion assessment has been increasing in recent years thanks to the availability of free access satellite data, and it has repeatedly proven to be successful [2, 3]. Accurate information about it is, however, usually known only at the local scale and based on limited field campaigns. Its application to the Arctic presents a number of challenges, due to peculiar soils with short growing periods, winter storms, wind, and frequent cloud and snow cover. However, the benefits of applying these techniques would be especially valuable in arctic areas, where ground local information can be hard to obtain due to hardly accessible roads and lands.\r\n\r\nHere we propose a hybrid solution, which uses ground truth samples to calibrate the processed remote images over a specific area, to then automate the analysis for larger, less accessible areas. This solution is being developed for soil erosion studies of Iceland specifically, using Sentinel 2 satellite data combined with local assessment data from Iceland\u2019s Soil Conservation Services department, Landgr\u00e6\u00f0slan. Their historical data is more extensive than usual, since they are the oldest soil erosion department in the world.\r\n\r\nAvailable data includes parameters of bare ground cover, which can be calculated from satellite images alone, after using information from observationally correct areas without vegetation for calibration; Icelandic soil profiles, to be analyzed to find how the profile relates to soil erosion intensity; as well as the parameters of agriculture use and arable land data including plant species in cultivated lands.\r\n\r\nFor the training phase we employ a dataset composed of 550 cropped georeferenced and atmospherically corrected Sentinel 2A images [4], combined with a Digital Elevation Model (DEM) of Iceland that allows us to detect slopes which can produce landslides or help erosion to occur. The dataset is labelled by six degrees of erosion severity, using measurement points furnished by Landgr\u00e6\u00f0slan. We split it into 2/3 for model training and 1/3 for model testing.\r\n\r\nThese images are in tiles of 10980x10980 pixels (about 600 MB) and cover an area of approximately 100x100 km2. We can crop the images down to preferred size. They contain multispectral data, divided up into 12 bands of varying wavelengths, and a resolution from 10 to 20m. We could add as well some of the 60m bands if necessary. Different band data are combined to create indices which represent or highlight certain features, such as vegetation, soil crusting, bare soil, and red edge indices.\r\n\r\nElevation data from the Arctic (north of 60\u00b0N, including Iceland) started to be openly available since 2015 through the ArcticDEM project. The DEMs are derived from satellite sub-meter stereo imagery, particularly from WorldView 1-3 and GeoEye-1. This information can be used to detect to what extent plant growth is reduced at higher heights because of longer snow cover, shorter growing period and stronger winds on one side. By using the variation of DEM and building a slope map, we can see that soil erodes more on steep slopes which leads to a higher likelihood of erosion the steeper they are.\r\n\r\nThe tools for geometric and topographic correction include SNAP (Sentinel application platform), Sen2Core, FLAASH (Fast line-of-sight atmospheric analysis of hypercubes), DOS (Dark Object Subtraction) and ATCOR software. This correction reduces effects due to shadows and surface irregularities and corrects the single-date Sentinel-2 Level-1C Top Of Atmosphere (TOA) products from atmospheric effects in order to deliver a Level-2A Bottom-Of-Atmosphere (BOA) reflectance product.\r\n\r\nAfter a preprocessing technique based on dimensionality reduction in order to avoid adding too much noise to the algorithm, this labelled data is then used to train a Support Vector Machine (SVM) model for classifying each coordinate. We choose the SVM algorithm as a starting point because it is a fast and reliable algorithm that performs well for classification problems with high-dimensional feature spaces such as ours, and does not require large training sets to achieve high accuracy as other algorithms do (e.g. deep neural networks). The output of the model is a set of coordinates, each with a numeric classification representing soil erosion severity, and used for creating a map of soil erosion severity in a selected area.\r\n\r\nThis methodology has been proven to provide good results, achieving an overall land cover classification accuracy of 94% [5], a performance that can be attributed to the spectral complexity of Sentinel-2 data, particularly the red-edge bands which give room for separability of erosion classes. Low separability is a common limitation to the applicability of classification methods. We address this by using ISODATA and minimum distance methods. Two factors that could affect the accuracy of the delineation of eroded soils using spectral images are the intensity of the soil erosion processes and changes in the spectral characteristics of disturbed soils.\r\n\r\nThe research described here aims at producing a reliable, widely applicable and cost-effective method to classify Icelandic soils into different categories of erosion risk, a proof of concept which, once engineered, could be straightforwardly expanded and applied to other Arctic areas, such as Greenland and Canada.",
+    "start_datetime": "2022-08-24T13:25:00Z",
+    "end_datetime": "2022-08-24T13:30:00Z",
+    "talk:code": "CA3TGA",
+    "talk:guid": "c1a09078-1af7-5044-a9fb-016f6ced0cc4",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "Room Hall 3A",
+    "talk:room_capacity": 85,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "37JX7T",
+        "name": "Daniel Fern\u00e1ndez",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/37JX7T/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T13:27:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/CA3TGA/",
+      "title": "Remote mapping of soil erosion risk in Iceland"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/CA3TGA/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/37JX7T/",
+      "title": "Daniel Fern\u00e1ndez"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/CA3TGA/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

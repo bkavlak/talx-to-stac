@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "GECX9K",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Rethink geo/open metadata edition in GeoNetwork",
+    "description": "This presentation is the follow up of the datahub paradigm presented last year: The confluence of geo data and open data. This time we will look at the metadata edition and maintenance aspect.\r\n\r\nWriting metadata to describe a dataset is an essential part of managing a catalog. Each record in a catalog has been written, or at the very least enriched, by actual humans. GeoNetwork is a very widely used open-source metadata catalog; as such, it offers powerful tools in this regard: custom edition forms, batch editing, templates, custom XSL processing, advanced edition in XML, etc.\r\nDespite all these features, authoring metadata is often felt as a difficult process, involving complex actions, convoluted validity rules and an intricate knowledge of metadata schemas like ISO19139.\r\n\r\nOur vision for this new metadata editor can be summed up in three phrases:\r\n- Make metadata accessible to everyone\r\n- Forget about metadata schemas\r\n- Build your own editor\r\n\r\nThis editor is made to feed content into your Datahub. Whether you want to describe open data, geo data or anything else, the editor will make it simple for you! Come and discover the concepts behind the scenes.",
+    "start_datetime": "2023-06-30T10:00:00Z",
+    "end_datetime": "2023-06-30T10:30:00Z",
+    "talk:code": "GECX9K",
+    "talk:guid": "3d1d5bd8-1cf0-5b21-a873-eddaffbb0217",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Open Data",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Outdoor Stage",
+    "talk:room_capacity": 600,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "MKHVLE",
+        "name": "Olivia Guyot",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/MKHVLE/"
+      },
+      {
+        "code": "9JWZHX",
+        "name": "Florent Gravin",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/9JWZHX/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-30T10:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/GECX9K/",
+      "title": "Rethink geo/open metadata edition in GeoNetwork"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/GECX9K/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/MKHVLE/",
+      "title": "Olivia Guyot"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/9JWZHX/",
+      "title": "Florent Gravin"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/GECX9K/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/bmTAx6bnoY4dE4csDp8iFH",
+      "type": "text/html",
+      "title": "2023 | Rethink geo/open metadata edition in GeoNetwork - Gravin Florent",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=FKpureJ9uso",
+      "type": "text/html",
+      "title": "2023 | Rethink geo/open metadata edition in GeoNetwork - Gravin Florent",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

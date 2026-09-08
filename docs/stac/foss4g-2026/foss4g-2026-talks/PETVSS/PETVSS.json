@@ -1,0 +1,108 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "PETVSS",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Why Nominatim Can't Find Hiroshima Peace Memorial Museum - and How to Fix It",
+    "description": "Nominatim struggles with CJK place name search. Searching for \"\u5e83\u5cf6\u5e73\u548c\u8a18\u5ff5\u8cc7\u6599\u9928\" (Hiroshima Peace Memorial Museum) returns no results.\r\nIts token-based search requires exact token matches and depends on complete alternative name data - which is often missing in OSM.\r\nI demonstrate how PostgreSQL extensions can fix this with minimal code changes.\n\nNominatim is the default geocoder for OpenStreetMap and works well for many languages.\r\nHowever, searching for place names in CJK (Chinese, Japanese, Korean) languages often produces poor results.\r\n\r\n### The Problem\r\n\r\nNominatim's token-based search has several limitations:\r\n\r\n* Search queries must exactly match registered tokens.\r\n* Alternative name fields (alt_name, short_name) could help, but they are often left empty.\r\n* In rare cases, ICU transliteration produces incorrect values for the original name.\r\n\r\nWhen any of these issues apply, searching for \"\u5e83\u5cf6\u5e73\u548c\u8a18\u5ff5\u8cc7\u6599\u9928\" (Hiroshima Peace Memorial Museum) returns no results - even though two matching features exist.\r\n\r\n### The Solution\r\n\r\nI added full-text search capability to Nominatim using a PostgreSQL extension.\r\nWith this extension and a small set of code changes, searching for \"\u5e83\u5cf6\u5e73\u548c\u8a18\u5ff5\u8cc7\u6599\u9928\" now correctly returns the two expected results with fast performance.\r\n\r\nSpecifically, I achieved full-text search that works alongside Nominatim's existing token-based search with the following changes:\r\n\r\n* Adding one text column to the existing search table\r\n* Creating an index on that column\r\n* Modifying three source files (a few lines each)\r\n\r\n(This is a proof-of-concept patch. Further work would be needed for upstream inclusion in Nominatim.)\r\n\r\nThe advantage of this approach is that search accuracy improves using existing data alone - without requiring additional alt_name or short_name entries in OSM.\r\n\r\n### Why PostgreSQL Extensions\r\n\r\nNominatim's strength is that it runs on PostgreSQL alone, without requiring additional services.\r\nMy approach preserves this by using a PostgreSQL extension rather than adding an external search engine.\r\nThis keeps the deployment simple and the architecture unchanged.\r\n\r\nPostgreSQL offers many extensions that could improve geocoding - not just for CJK, but for fuzzy matching, typo tolerance, and more.\r\nI suggest that Nominatim could benefit from a plugin mechanism that allows communities to plug in the extensions best suited for their language and use case.\r\n\r\n### Broader Impact\r\n\r\nThis is not a Japan-only issue.\r\nMy analysis confirms that CJK search limitations and sparse alternative name data are common across Japanese, Chinese, and Korean OSM data.\r\nThe approach presented is applicable to all three languages.\r\n\r\nI also discuss the complementary need for better OSM data.\r\nTechnical improvements and community data contributions go hand in hand - improving search technology helps even when data is incomplete, and enriching data makes all search approaches work better.\r\n\r\n### Open Source Projects\r\n\r\n* Nominatim ( https://nominatim.org/ )\r\n* PostgreSQL ( https://www.postgresql.org/ )\r\n* PGroonga ( https://pgroonga.github.io/ ) - used as the PostgreSQL extension in this proof of concept\r\n* OpenStreetMap ( https://www.openstreetmap.org )",
+    "start_datetime": "2026-09-03T06:00:00Z",
+    "end_datetime": "2026-09-03T06:30:00Z",
+    "talk:code": "PETVSS",
+    "talk:guid": "ed7d6810-9e11-5e00-9126-c18536be9640",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room3",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "DFJDGK",
+        "name": "abetomo",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/DFJDGK/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-03T06:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/PETVSS/",
+      "title": "Why Nominatim Can't Find Hiroshima Peace Memorial Museum - and How to Fix It"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/PETVSS/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/DFJDGK/",
+      "title": "abetomo"
+    },
+    {
+      "rel": "related",
+      "href": "https://nominatim.org/",
+      "title": "nominatim.org"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.postgresql.org/",
+      "title": "www.postgresql.org"
+    },
+    {
+      "rel": "related",
+      "href": "https://pgroonga.github.io/",
+      "title": "pgroonga.github.io"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.openstreetmap.org",
+      "title": "www.openstreetmap.org"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/PETVSS/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

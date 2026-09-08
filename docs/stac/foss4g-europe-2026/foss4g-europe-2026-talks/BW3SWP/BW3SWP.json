@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "BW3SWP",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "EOEPCA+: Open Source Building Blocks for EO Exploitation Platforms: Architecture, Community and the Road Ahead",
+    "description": "EOEPCA (Earth Observation Exploitation Platform Common Architecture) is a European Space Agency (ESA) funded project led by Telespazio UK that defines a reusable exploitation platform architecture using open standard interfaces. Its goal is to encourage interoperation and federation between operational exploitation platforms, facilitating easier access and more efficient exploitation of the rapidly growing body of Earth Observation (EO) and other data. \r\n\r\nUsers are beginning to appreciate the advantages of exploitation platforms. However, the market now offers a plethora of platforms with various added value services and data access capabilities. This ever-increasing offer is rather intimidating and confusing for most users. Users often face challenges such as inconsistent interfaces, proprietary software and limited interoperability. To fully exploit the potential of these complementary platform resources we anticipate the need to encourage interoperation amongst the platforms, such that users of one platform may consume the services of another directly platform-to-platform.\r\n\r\nThe EOEPCA system architecture is designed to meet a set of defined use cases for various levels of user, from expert application developers to data analysts and end users. The architecture is defined as a set of Building Blocks (BBs), exposing well-defined open-standard interfaces. These include Identity and Access Management, Resource Discovery, Data Access, Processing Workflows, Datacube Access, Machine Learning Operations and more. Each of these BBs are containerised for Kubernetes deployment, which provides an infrastructure-agnostic deployment target.\r\n\r\nThe recent stable release of EOEPCA+ 2.0 delivers 11 production-ready building blocks, each with deployment scripts, documentation and interactive tutorials. Work is progressing towards version 2.1.\r\n\r\nAll EOEPCA+ source code is public on GitHub under open-source licences. We will outline how individuals and organisations can get involved, and discuss how EOEPCA+ connects to the broader Open Science community and the future direction of the Common Architecture.",
+    "start_datetime": "2026-06-29T11:30:00Z",
+    "end_datetime": "2026-06-29T12:00:00Z",
+    "talk:code": "BW3SWP",
+    "talk:guid": "9fba06ff-7c8d-5917-ad49-ca4595032c75",
+    "talk:event": "foss4g-europe-2026",
+    "talk:track": "Remote Sensing",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "A13",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "JGV7CM",
+        "name": "Richard Conway",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/JGV7CM/"
+      },
+      {
+        "code": "J7FMQP",
+        "name": "James Hinton",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/J7FMQP/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-06-29T11:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/BW3SWP/",
+      "title": "EOEPCA+: Open Source Building Blocks for EO Exploitation Platforms: Architecture, Community and the Road Ahead"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/BW3SWP/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/JGV7CM/",
+      "title": "Richard Conway"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/J7FMQP/",
+      "title": "James Hinton"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/BW3SWP/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "ppx": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2026/submissions/BW3SWP/resources/FOSS4G-Romania-Updated_ltyK4bQ.pptx",
+      "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "title": "PPX",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

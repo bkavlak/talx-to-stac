@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "RVTHSV",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Valinor: Valhalla Meets Rust",
+    "description": "Valhalla is my favorite routing engine. It's one of the most flexible options already. but we can make it even better! Help us build extensions that enable even more use cases and easier collaboration.\n\nValhalla is perhaps not as well known as OSRM or GraphHopper, but it's an incredibly flexible routing engine with a space-efficient tile format and dynamic routing profiles (\"costing models\"). But the codebase is relatively difficult for newcomers to understand, and it's relatively difficult to extend with new costing models.\r\n\r\nI and several other collaborators have been working on a library layer which aims to make the Valhalla ecosystem more approachable and more extensible. This lightning talk will outline my vision for the project, and how I think Rust and WASM can expand the Valhalla ecosystem.",
+    "start_datetime": "2026-09-01T05:15:00Z",
+    "end_datetime": "2026-09-01T05:20:00Z",
+    "talk:code": "RVTHSV",
+    "talk:guid": "218b4fcb-43a3-5971-9ff5-5f301bf9eaa3",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Lightning Talk",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Ran1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "UT9S7X",
+        "name": "Ian Wagner",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/UT9S7X/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T05:17:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/RVTHSV/",
+      "title": "Valinor: Valhalla Meets Rust"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/RVTHSV/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/UT9S7X/",
+      "title": "Ian Wagner"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/RVTHSV/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "T9LLQV",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Scaling-up deep learning predictions of hydrography from IFSAR data in Alaska",
+    "description": "1.\tINTRODUCTION\r\nIn a new initiative to deliver higher-quality data and support improved geospatial analysis, the U.S. Geological Survey (USGS) is upgrading the elevation and hydrography datasets into the 3D National Topography Model (3DNTM), which will include fully integrated hydrography and elevation. The USGS 3D Elevation Program (3DEP) recently completed acquisition of interferometric synthetic aperture radar (IfSAR) elevation data at 5-meter spatial resolution for Alaska (USGS, 2022). Other parts of the United States are being mapped at higher resolution with lidar-derived elevation data. \r\n\r\nUnder the 3DNTM, new hydrography data are acquired through methods that derive or extract the features directly from best available 3DEP elevation data to ensure proper integration of the hydrography and elevation layers. By applying specifications for deriving 1:24,000 or larger scale hydrography from high resolution elevation data (Archuleta and Terziott, 2020; Terziotti and Archuleta, 2020), a tenfold increase in the number of features in the National Hydrography Dataset (NHD) is expected. Consequently, highly automated machine learning methods to extract and validate the hydrography data collection are being investigated.\r\n\r\nXu et al. (2021) demonstrated that the U-net fully convolutional neural network (Ronneberger, Fischer, and Brox, 2015) is capable of extracting hydrography from lidar elevation data with 80 to 90 percent accuracy. Stanislawski et al. (2021) applied a similar U-net model using several IfSAR and IfSAR-derived input layers to predict hydrography for a 50-watershed study area in northcentral Alaska, where 68 percent average F1-score accuracies were achieved on test watersheds. Further work to refine U-net predictions of hydrography using IfSAR for the same 50-watershed area in Alaska achieved average F1-scores for test watershed of better than 80 percent (Stanislawski et al., 2022). Research presented in this paper builds upon this earlier work by testing transfer learning methods and scaling-up U-net predictions of hydrography from IfSAR for other areas of Alaska using workflows in high-performance computing environment. \r\n\r\n2.\tMETHODS\r\nA workflow was developed to automate downloads and processing of IfSAR-derived tiles of digital elevation model (DEM), digital terrain model (DTM), and orthorectified intensity (ORI) data for user-selected watersheds from the 3DEP database. The workflow mosaics common tiles and derives several raster data layers from the DEM that are related to surface hydrology, such as topographic position index and shallow water channel depth. Overall, seventeen data layers are generated and coordinated with identical raster projection systems. The layers were used in U-net modelling for predicting hydrography for the 50-watershed Kobuk River study area (Stanislawski et al., 2022). In this study a transfer learning process begins with the Kobuk River U-net model and subsequently includes additional training data from outside the Kobuk area. Hydrography predictions are then generated from the transfer learning model and assessed. Several levels of refinements to training data are tested and the accuracy of predictions are assessed. Reference data consist of vector hydrography features derived by USGS contractors.\r\n\r\nThe data processing workflows are implemented with Python, linux shell scripts, and opensource software libraries such as the Geospatial Data Abstraction Library (GDAL). Neural network modelling is implemented through TensorFlow, and data processing is completed on a 12-node linux cluster and through the GPU nodes of the USGS Tallgrass computing facilities (https://hpcportal.cr.usgs.gov/hpc-user-docs/Tallgrass/Overview.html).\r\n\r\n3.\tDISCUSSION\r\nMapping hydrography for the state of Alaska is a daunting task, given its vast area and terrain that is difficult to navigate. Big challenges with large high-quality datasets are well suited to take advantage of recent advancements in neural networks (Usery et al., 2021). This research demonstrates the tremendous potential to improve and speed up mapping of surface water features in Alaska, and elsewhere in the world having challenging terrain and limited resources. \r\n\r\nReported accuracy scores measure how well a machine can reproduce hydrography generated with meticulous editing by numerous subject matter experts. It is not a score of how well the surface water features are mapped by the model. The human factor in contemporary broad scale mapping efforts cannot be ignored and warrants consideration as a source of uncertainty in the related accuracy metrics. How well the maps fit what is on the ground can only be definitively confirmed by being on the ground at any given point in time, as hydrologic conditions are constantly in flux. Thus, the work here could be used as an aid to human cartographers in their efforts to interpret what is important to the map user. \r\n\r\nThis work could also benefit change detection efforts. As new and better elevation data are collected, automated strategies such as the model presented here could be used to identify regions with significant changes in surface water distribution. This type of automation would be valuable to maintain an accurate national map over time and help address the numerous challenges that society faces related to hydrology.",
+    "start_datetime": "2022-08-25T10:35:00Z",
+    "end_datetime": "2022-08-25T10:40:00Z",
+    "talk:code": "T9LLQV",
+    "talk:guid": "64f4315c-bfb9-55fe-b84e-151302ab44b3",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "Room Hall 3A",
+    "talk:room_capacity": 85,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "9NBTH8",
+        "name": "Larry Stanislawski",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/9NBTH8/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T10:37:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/T9LLQV/",
+      "title": "Scaling-up deep learning predictions of hydrography from IFSAR data in Alaska"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/T9LLQV/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/9NBTH8/",
+      "title": "Larry Stanislawski"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/T9LLQV/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

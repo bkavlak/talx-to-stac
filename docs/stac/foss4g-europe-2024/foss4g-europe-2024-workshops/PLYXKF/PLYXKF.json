@@ -1,0 +1,93 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "PLYXKF",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Let's combine GRASS, Python and R: Satellite time series data for species distribution modeling",
+    "description": "In this workshop, we will explore the combined use of GRASS GIS, Python and R in a workflow of species distribution modeling (SDM). We will use a time series of satellite land surface temperature data to derive relevant predictors. The satellite data processing will be performed using GRASS GIS software functionality within a JupyterLab environment, taking advantage of the latest GRASS GIS Python features for Jupyter. Then, we\u2019ll read our predictors within R and perform SDM, visualize and analyze results there. Finally, we'll exemplify how to write the output distribution maps back into GRASS for further analysis.\r\n\r\nFind the workshop material at: <https://github.com/veroandreo/grass_foss4geu_2024>. We will run all online using The Whole Tale platform (and hopefully it will work ;-)).",
+    "start_datetime": "2024-07-01T11:00:00Z",
+    "end_datetime": "2024-07-01T15:00:00Z",
+    "talk:code": "PLYXKF",
+    "talk:guid": "a42d28cd-694d-5e6c-93d7-133dc0036e49",
+    "talk:event": "foss4g-europe-2024-workshops",
+    "talk:type": "workshop",
+    "talk:language": "en",
+    "talk:room": "Room 301",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "RBWLUU",
+        "name": "Veronica Andreo",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024-workshops/speaker/RBWLUU/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-01T13:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024-workshops/talk/PLYXKF/",
+      "title": "Let's combine GRASS, Python and R: Satellite time series data for species distribution modeling"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024-workshops/talk/PLYXKF/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024-workshops/speaker/RBWLUU/",
+      "title": "Veronica Andreo"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/veroandreo/grass_foss4geu_2024",
+      "title": "github.com/veroandreo/grass_foss4geu_2024"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024-workshops/talk/PLYXKF/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-workshops"
+}

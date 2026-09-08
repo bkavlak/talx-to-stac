@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "T9CZTQ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "GeoAI for marine ecosystem monitoring: a complete workflow to generate maps from AI model predictions",
+    "description": "The world's oceans are being affected by human activities and strong climate change pressures. Mapping and monitoring marine ecosystems imply several challenges for data collection and processing: water depth, restricted access to locations, instrumentation costs and weather availability for sampling. Nowadays, artificial intelligence (AI) and GIS open source software could be combined in new kinds of workflows, to generate, for instance, marine habitat maps from deep learning models predictions. However, one of the major issues for geoAI consists in tailoring usual AI workflow to better deal with spatial data formats used to manage both vector annotation and large georeferenced raster images (e.g. drone or satellite images). A critical goal consists in enabling computer vision models training directly with spatial annotations (Touya et al., 2019, Courtial et al., 2022) as well as delivering model predictions through spatial data formats in order to automate the production of marine maps from raster images. \r\nIn this paper, we describe and share the code of a generic method to annotate and predict objects within georeferenced images. This has been achieved by setting up a workflow which relies on the following process steps: (i) spatial annotation of raster images by editing vector data directly within a GIS, (ii) training of deep learning models (CNN) by splitting large raster images (orthophotos, satellite images) and keeping raster (images) and vector (annotation) quality unchanged, (iii) model predictions delivered in spatial vector formats. The main technical challenge in the first step is to translate standard spatial vector data formats (e.g. GeoJSON or shapefiles) in standard data formats for AI (e.g. COCO json format which is a widely used standard for computer vision annotations, especially in the object detection and instance segmentation tasks) so that GIS can be used to annotate raster images with spatial polygons (semantic segmentation). The core process of the workflow is achieved in the second step since the large size of raster images (e.g. drone orthophoto or satellite images) does not allow their direct use into a deep learning model without preprocessing. Indeed, AI models for computer vision are usually trained with much smaller images (most of the time not georeferenced) and do not provide spatialized predictions (Touya et al., 2019). To train the models with geospatial data, both wide geospatial raster data and related vector annotation data have thus to be split into a large number of raster tiles (for instance, 500 x 500 pixels) along with smaller vector files sharing the exact same boundaries as the raster tiles (converted in GeoJSON files). By doing so, we successfully trained AI models by using spatial data formats for both raster and vector data. The last step of the workflow consists in translating the predictions of the models as geospatial vector polygons either on small tiles or large images. Finally, different state-of-art models, already pre-trained on millions of images, have been tuned thanks to the transfer learning strategy to create a new deep learning model trained on tiled raster images and matching vector annotations. \r\nWe will present and discuss the results of this generic framework which is currently tested for three different applications related to marine ecosystem monitoring dealing with different geographic scales: orthomosaics made of underwater or aerial drone images (for coral reef habitats mapping) and satellite images (for fishing vessels recognition). However, this method remains valid beyond the marine domain. The first use case was done with underwater orthomosaics of coral reef made with a photogrammetry model and annotated with masks. This dataset was composed of 3 different sites of orthomosaic acquisition. The second use case was on the recognition of species and habitat from geolocated underwater photos collected in different Indian Ocean lagoons. The last implementation of this method was done using satellite images of fishing harbors in Pakistan where vessels were labeled with bounding boxes. For the three use cases,  model metrics are currently weak compared to similar computer vision tasks in the terrestrial domain but will be improved by using better training datasets in the coming years. Nevertheless, the technical workflow which manages spatialized predictions has been validated and  already provides results which proves that AI-assisted mapping will value different types of marine images. Special attention is paid to large objects that can be spread over several tiles when splitting the raster. In this case, the model can indeed make errors by predicting different classes for the parts of the same object. Thus, a decision rule must make it possible to choose the most probable class among the different classes predicted by the model to designate the whole object. The spatialization of the results of the model can then be decisive for reducing the misclassified objects.\r\n\r\nThe code is implemented with free and open source software for geospatial and AI. The whole framework relies on Python libraries for both geospatial processing and AI (e.g. PyTorch) and will be shared on GitHub and assigned a DOI on Zenodo, along with sample data. Moreover, a QGIS plugin is under development in order to facilitate the use of pre-trained deep learning models to automate the production of maps whether on underwater orthomosaics, simple georeferenced photos or satellite images.\r\n\r\nBeyond the optimization of model scores, one of the major perspectives of this work is to improve and ease AI-assisted mapping, as well as to include spatial information as input variables into a multi-channel deep learning model to make the most from spatial imagery (Yang et Tang, 2021, Janowicz et al, 2020).",
+    "start_datetime": "2023-06-28T13:00:00Z",
+    "end_datetime": "2023-06-28T13:05:00Z",
+    "talk:code": "T9CZTQ",
+    "talk:guid": "4415ca8a-f8bd-5f45-9a7f-7657fab1be90",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Academic Track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "UBT E / N209 - Floor 3",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "KVR9JS",
+        "name": "Justine Talpaert",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/KVR9JS/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T13:02:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/T9CZTQ/",
+      "title": "GeoAI for marine ecosystem monitoring: a complete workflow to generate maps from AI model predictions"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/T9CZTQ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/KVR9JS/",
+      "title": "Justine Talpaert"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/T9CZTQ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

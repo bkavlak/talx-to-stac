@@ -1,0 +1,103 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "9LJPTB",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Stable Open Source Software in production; the case of MapProxy",
+    "description": "MapProxy is a tile server for geospatial data that is capable to cache, accelerate and transform data from existing map services and serve them for various clients. \r\nMapProxy is a tile cache, but also offers many more features like full support for WMS, re-projection of tiled map services and much more. MapProxy is Open Source (Apache Software License 2.0), is easy to install and to configure and runs on various OS. \r\nThus, for many of our customers MapProxy is an essential part of their geodata-infrastructure (GDI), but the simple possibility to ask on a mailing list is often not enough, when they want to bring Mapproxy into production. Guidelines of IT departments often require a service contract, looking at proprietary software such a contract often is a binding part of the user agreement. But what about Open Source Software?\r\nWe as a service provider offer professional support and also service contracts for MapProxy (and other OSS software) and thus, we help customers to bring Open Source into production by filling the gap of missing warranty. In the talk we would like to discuss the various business models that we developed in the past, but we also want to show why MapProxy is an important part of their GDI for many customers.\r\n\r\n[1] https://mapproxy.org/",
+    "start_datetime": "2022-08-25T08:00:00Z",
+    "end_datetime": "2022-08-25T08:30:00Z",
+    "talk:code": "9LJPTB",
+    "talk:guid": "cfe4c686-001a-5010-8172-f323dc4d3ea5",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "General online",
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "JDMKWU",
+        "name": "Till Adams",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/JDMKWU/"
+      },
+      {
+        "code": "FLAV3G",
+        "name": "Daniel Koch",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/FLAV3G/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T08:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/9LJPTB/",
+      "title": "Stable Open Source Software in production; the case of MapProxy"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/9LJPTB/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/JDMKWU/",
+      "title": "Till Adams"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/FLAV3G/",
+      "title": "Daniel Koch"
+    },
+    {
+      "rel": "related",
+      "href": "https://mapproxy.org/",
+      "title": "mapproxy.org"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/9LJPTB/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

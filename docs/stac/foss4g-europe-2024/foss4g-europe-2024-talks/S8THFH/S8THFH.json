@@ -1,0 +1,116 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "S8THFH",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Modernizing Geospatial Services:  An investigation into modern OGC API implementation and comparative analysis with traditional standards in a Web application",
+    "description": "The Open Geospatial Consortium (OGC) APIs are a new set of standards released in response to existing WxS standards which is considered as a modern technology for data sharing over the internet.  This study explores the transition from traditional geospatial service standards to modern Open Geospatial Consortium (OGC) API standards in web applications by implementing it in the field of urban development management. The main goal of this study is to explore the potential for enhancing web applications through a comparative analysis of the integration of modern and traditional geospatial technologies based on their performance and practical implications. \r\nThe research scope encompasses the design and development of a modern web application architecture, involving database design and preparation, and automatic integration of data from various format; implementation of geospatial services using both traditional standards and modern OGC API standards, including the creation of a frontend website using Openlayers for the user. However, the core focus was given on the comparative analysis of the traditional and modern geospatial services standards, evaluating data compatibility, deployment processes, and performance metrics with different levels of concurrent requests. \r\nThe study is structured into two primary segments: an extensive theoretical evaluation of the standards, and followed by a hands-on testing phase. involving the setup of both traditional and modern services separately while keeping the other components (database and frontend) same in the architecture. In the database tier, PostGIS was employed, Geoserver and Pygeoapi were used in the server section for publishing data in both traditional (WxS) and modern (OGC API) standards to the user tier. OpenLayers was used for the frontend to visualize the data for users.\r\nDatabase design and preparation were accomplished using Geodjango and PostgreSQL, and automatic data integration was conducted using Python. The ALKIS (Authoritative Real Estate Cadastre Information System of Germany) includes both spatial and non-spatial information encoded in NAS (i.e., the standards-based exchange interface defined by the Surveying Authorities of Germany)   format using Extensible Markup Language (XML), served as the primary data source in this study with essential details such as street names, house numbers, and land parcel id. The comparison (Geoserver and Pygeoapi) platforms considered key findings, lessons learned, data format compatibility, and the evaluation of the installation process through literature review.  Performance metrics were measured through hands-on testing in terms of rendering time, overall performance of the website for different zoom level for different scale of vector features. Testing also included different data source formats such as PostGIS, GeoPackage (gpkg), and Shapefile (shp), with a focus on how performance varied with the change of the data source in the front end. Apache Jmeter and Google Chrome developer tools like network and lighthouse were used to get the rendering data from the front end. Usability evaluations are currently underway to gain user perspectives on aspects like data retrieval speed, map rendering speed, and the ease of use (e.g., panning, zooming, popups) in comparison to the previous system.\r\nIn a theoretical comparison Geoserver, a well-established and widely adopted open-source platform with an organized Graphical User Interface (GUI), boasts robust security features with support for various authentication methods and precise access control. With a rich history and a large user community, Geoserver provides extensive documentation and support resources. It supports a diverse array of data stores, including popular databases and file-based formats. On the other hand, Pygeoapi, a newer but increasingly popular project, emphasizes simplicity and ease of use. Offering modern technologies like the OpenAPI standard for a RESTful API, Pygeoapi supports various data stores, including PostgreSQL/PostGIS and Elasticsearch. Installation is straightforward, leveraging Python and its dependencies. While Geoserver stands out for its comprehensive feature set, including support for OGC standards and numerous plugins, Pygeoapi focuses on being lightweight and customizable according to OGC API standards.\r\nBased on the extensive hands-on testing, the analysis reveals persistent trends in rendering times across different scenarios. Pygeoapi consistently demonstrates higher rendering times compared to both Geoserver (WFS) and Geoserver (WMS). The fluctuation in rendering times remains relatively uniform as the zoom level increases from 14 to 18. However, as the number of features escalates from 4891 to 23319, both Pygeoapi (1.55s to 7.56s) and Geoserver WFS (454ms to 2.19s) exhibit a proportional increase in rendering time. Remarkably, Geoserver (WMS) showcases notable stability in rendering times across various zoom levels and feature counts, attributed to its tile-based approach. The observed linear correlation between feature count and rendering time suggests a scalability factor affecting both Pygeoapi and Geoserver. Consequently, users may need to consider factors beyond rendering times, such as ease of use, scalability, and available features, when making a choice between Pygeoapi and Geoserver for their specific spatial data needs. Moreover, concerning different data formats, it becomes apparent that PostGIS consistently outperforms SHP, JSON, WFS, and GPKG in Pygeoapi. In Geoserver, SHP and GPKG exhibit superior performance compared to other formats. These findings underscore the importance of considering the nuances of data formats when optimizing the performance of spatial data services. To overcome the issue of prolonged rendering times in Pygeoapi, especially when managing substantial amounts of GeoJSON data, a viable solution lies in incorporating vector tiles. The adoption of vector tiles led to a substantial reduction in rendering times (from 5.6s to 898ms) by transmitting pre-styled and pre-rendered map data. This approach enhances efficiency in visualizing data on the client side, demonstrating a significant improvement in performance.  \r\nIn conclusion, at the end this research will endeavour to provide actionable insights towards the effective integration of geospatial technologies, with the goal of narrowing the divide between well-established standards and emerging APIs within the dynamic realm of web applications.",
+    "start_datetime": "2024-07-03T09:05:00Z",
+    "end_datetime": "2024-07-03T09:10:00Z",
+    "talk:code": "S8THFH",
+    "talk:guid": "ed506c41-416a-52ef-a1f2-4b97ae6e1392",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Academic track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "Omicum",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "LGVGFP",
+        "name": "Sudipta Chowdhury",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/LGVGFP/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-03T09:07:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/S8THFH/",
+      "title": "Modernizing Geospatial Services:  An investigation into modern OGC API implementation and comparative analysis with traditional standards in a Web application"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/S8THFH/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/LGVGFP/",
+      "title": "Sudipta Chowdhury"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/S8THFH/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-slide": {
+      "href": "https://docs.google.com/presentation/d/1STQBXwPz8mI_v-kYSnXquoVZAZWJZvwQ/edit?usp=drive_link&ouid=103227082780959874569&rtpof=true&sd=true",
+      "title": "Presentation Slide",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/2KMRMCUUVtsYwPh2P5Jofp",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Modernizing Geospatial Services:  An investigation into modern OGC API ...",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=34gnA1Dka84",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Modernizing Geospatial Services:  An investigation into modern OGC API ...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

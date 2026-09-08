@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "KFVAPC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Development of plugins in QGIS for the management of the Multipurpose Cadastre in the Government of Mexico City",
+    "description": "Migration of the current tools that maintain the Cadastre of Mexico City to Open Source and free licensing technologies.\r\n\r\nThe objective of the project was the development of a plugin in QGIS that optimizes the functionalities of the licensed software and allows the maintenance and management of cadastral data.\r\n\r\nStages of the development process:\r\n\r\na. Requirements analysis: Based on the information provided by the client, the feasibility of integrating the database engine,  the API of workflow services with the transactional systems of the municipality is evaluated.\r\n\r\nb. Definition and implementation of PostGIS and QGIS: together with the client, for the integration of the tools and subsequent development.  \r\n\r\nc. Design of Python and QT tools: carry out the design and development of plugin components in QGIS.\r\n\r\nd. Design of Postgres security interfaces:  coordination with the permissions, automation routines with the plugin components.\r\n\r\ne. Development of functional tools from Bentley to QGIS: development of the previously detailed functionalities in the analysis and design stages of the project in order to replace the existing functionalities, accompanied by redesign. \r\n\r\nf. Test and implementation in Quality Assurance  (QA) environment \r\n\r\ng. Training and  technology transfer. \r\n\r\nh. Documentation of all strage of the process of the project, in order to carry out the complete transfer to our client.",
+    "start_datetime": "2022-08-24T15:35:00Z",
+    "end_datetime": "2022-08-24T15:40:00Z",
+    "talk:code": "KFVAPC",
+    "talk:guid": "fa795c0a-54bb-5968-a1e2-cf1276e611f3",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Transition to FOSS4G",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Room 9",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "V9ZTMB",
+        "name": "Ariel Anthieni",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/V9ZTMB/"
+      },
+      {
+        "code": "VQHBXP",
+        "name": "Julia Martinuzzi",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/VQHBXP/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T15:37:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/KFVAPC/",
+      "title": "Development of plugins in QGIS for the management of the Multipurpose Cadastre in the Government of Mexico City"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/KFVAPC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/V9ZTMB/",
+      "title": "Ariel Anthieni"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/VQHBXP/",
+      "title": "Julia Martinuzzi"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/KFVAPC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/wAXZ7TYiELJEntXZRjz1pj",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Development of plugins in QGIS for the management of the Multipurpose Cadastre in the\u2026",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=RMasc5-mDIo",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Development of plugins in QGIS for the management of the Multipurpose Cadastre in the\u2026",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

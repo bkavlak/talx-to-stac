@@ -1,0 +1,116 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "X3DWV7",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Spatial Data Sharing and Implications: An Example from the Map Department of General Directorate of Land Registry and Cadastre, T\u00fcrkiye",
+    "description": "In our country, coordination among public institutions for the Turkey\u2019s National Geographic Information System (NSDI) (T\u00fcrkiye Ulusal Co\u011frafi Bilgi Sistemi - TUCBS) and its infrastructure, the establishment of goals and strategies, the generation and maintenance of geographic data within the thematic areas of geographic information, and ensuring its currency, management, use, access, security, sharing, and distribution are determined by the procedures, principles, and standards to be developed with the Presidential Decree No. 49.\r\nThis proposal covers the project for coordinating Standard Topographic Maps produced by the Map Department of General Directorate of Land Registry and Cadastre, highlighting significant developments in map management processes and the successes of the project, along with the detailed use of open-source software. The Department, through its photogrammetric base map production at a 1/5000 scale since 1955, examines efforts to digitize a 480,000 km\u00b2 dataset. The characteristics of raster data, focusing on deformation, distortion, and quality issues in scanned data at different resolutions, are investigated to assess their suitability for automation. The testing conducted within the project includes the coordination processes using QGIS on the Ankara 1/250,000 sheet, emphasizing the contribution of open-source software to the project. The flexibility and community-driven development of open-source software have facilitated more effective project management and customization of the software. Test results indicate the successful coordination of 1,967 raster sheets and demonstrate the feasibility of more extensive testing through remote working methods.\r\nThe proposal also dives into institutional requirements related to 1/5000 sheet demands, such as registry needs, storage requirements, usage through the Metadata GeoPortal (Harita Bilgi Bankas\u0131 \u2013 HBB), and web presentation. The management of open-source GeoTiff files used in the presentation with GeoServer is particularly emphasized, illustrating how storage needs change during the presentation. The use of open-source software is highlighted for its cost-effectiveness, sustainability, and increased access to a broad user base, proposing a model for the widespread adoption of this approach in similar projects.\r\nIn conclusion, this work emphasizes improvements in the map management processes of the General Directorate of Land Registry and Cadastre and the successes achieved in the coordination of Standard Topographic Maps, advocating for the adoption of this open-source approach in comparable projects.",
+    "start_datetime": "2024-07-03T12:10:00Z",
+    "end_datetime": "2024-07-03T12:15:00Z",
+    "talk:code": "X3DWV7",
+    "talk:guid": "85eb4b0c-8bfc-5dca-a881-5455399b00da",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "Destination Earth (Van46 ring)",
+    "talk:room_capacity": 400,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "FPRXTA",
+        "name": "Salih Yalcin",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/FPRXTA/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-03T12:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/X3DWV7/",
+      "title": "Spatial Data Sharing and Implications: An Example from the Map Department of General Directorate of Land Registry and Cadastre, T\u00fcrkiye"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/X3DWV7/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/FPRXTA/",
+      "title": "Salih Yalcin"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/X3DWV7/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "spatial-data-sharing-and-implications": {
+      "href": "https://drive.google.com/drive/folders/1339-KD9UHwvsNZkwwERPT4lBTNFX8-iR?usp=sharing",
+      "title": "Spatial Data Sharing and Implications",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/jBJJL1Yokkk8YREdm3DhGH",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Spatial Data Sharing and Implications: An Example from the Map Department of ...",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=lXUdEt47n-M",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Spatial Data Sharing and Implications: An Example from the Map Department of ...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

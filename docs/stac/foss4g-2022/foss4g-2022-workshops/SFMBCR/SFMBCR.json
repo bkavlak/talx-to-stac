@@ -1,0 +1,108 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "SFMBCR",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "CARS, a high scalability satellite 3D stereo reconstruction framework with AI enhancement",
+    "description": "This workshop will present CARS 3D framework and explain how to use it from command line and python API to generate Digital Surface Models from stereo images.\r\nParticularly, the presentation will detail AI improvement in stereo matching step to improve DSM accuracy.\n\nFrom glaciology, smart cities to business intelligence studies, more and more scientific and business applications needs 3D earth elevation information named Digital Surface Models.\r\n\r\nIn the same time, a lot of High and Very High resolution optical satellite stereo images are available from satellites such as Pl\u00e9iades, Pl\u00e9iades N\u00e9o, WorldView3.\r\n\r\nIn this context, automatic, robust and scalable software are needed to generate 3D Digital Surface Models (DSM). \r\n\r\nIn the frame of future dedicated CO3D constellation, CNES have developed open source CARS tool as a a whole modern 3D Framework intended for massive DSM production with a robust and performant design but also for research aims.\r\nCARS allows therefore to design its own 3D pipeline easily from 3D classical steps.\r\n\r\nDuring this tutorial, we will first present quickly CARS context, objectives and details all its components.\r\n\r\nThen, some detailed practical examples will be done:\r\n  - Using CARS CLI to generate DSM from large data images using DASK to ensure high scalability.\r\n - Using CARS framework to follow a step by step approach with intermediate results analysis (disparity maps, point clouds, ...).\r\n  - Using CARS framework and stereo matching Pandora tool with AI improvement for better DSM accuracy.",
+    "start_datetime": "2022-08-23T07:00:00Z",
+    "end_datetime": "2022-08-23T11:00:00Z",
+    "talk:code": "SFMBCR",
+    "talk:guid": "44cf7ac1-1fc6-5d65-9ad0-cc327532c7db",
+    "talk:event": "foss4g-2022-workshops",
+    "talk:type": "Long Workshop",
+    "talk:language": "en",
+    "talk:room": "208",
+    "talk:room_capacity": 73,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "38A3AZ",
+        "name": "Dubois Emmanuel",
+        "url": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/38A3AZ/"
+      },
+      {
+        "code": "L8ZWW7",
+        "name": "Steux Yoann",
+        "url": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/L8ZWW7/"
+      },
+      {
+        "code": "RWG3AM",
+        "name": "Quentin Fardet",
+        "url": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/RWG3AM/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-23T09:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/talk/SFMBCR/",
+      "title": "CARS, a high scalability satellite 3D stereo reconstruction framework with AI enhancement"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/talk/SFMBCR/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/38A3AZ/",
+      "title": "Dubois Emmanuel"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/L8ZWW7/",
+      "title": "Steux Yoann"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/RWG3AM/",
+      "title": "Quentin Fardet"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/talk/SFMBCR/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-workshops"
+}

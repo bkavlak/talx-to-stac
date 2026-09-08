@@ -1,0 +1,136 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "83XWUZ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Diving into pygeoapi Workshop",
+    "description": "pygeoapi is an OGC Reference Implementation supporting numerous OGC API specifications. This workshop will cover publishing geospatial data to the Web using pygeoapi in support of the suite of OGC API standards.\n\npygeoapi is an OGC Reference Implementation supporting numerous OGC API specifications. Lightweight, easy to deploy and cloud-ready, pygeoapi's architecture facilitates publishing datasets and processes from multiple data sources to the Web. This tutorial will cover publishing geospatial data to the Web, and using the API from QGIS, OWSLib and a web browser. The workshop will cover the following OGC API standards:\r\n\r\n- OGC API - Features\r\n- OGC API - Coverages (OACov)\r\n- OGC API - Maps (OAMaps)\r\n- OGC API - Tiles (OATiles)\r\n- OGC API - Processes (OAProc)\r\n- OGC API - Records (OARec)\r\n- OGC API - Environmental Data Retrieval (EDR)\r\n- SpatioTemporal Asset Catalog (STAC)\r\n\r\n**Requirements for the Attendees**\r\n\r\nPlease consult the workshop documentation at https://dive.pygeoapi.io, and ensure you are setup accordingly (https://dive.pygeoapi.io/setup) prior to attending the workshop.\r\n\r\nA Gitter channel exists at https://gitter.im/geopython/diving-into-pygeoapi for discussion and live support from the developers of the workshop.\r\n\r\nAs the installation of all dependencies on all platforms (Windows, Mac, Linux) can be quite involved and complex, this workshop provides all components within a Docker Image.\r\n\r\nThe core requirement is to have Docker and Docker Compose installed on the system. Once you have Docker and Docker Compose installed you will be able to install the workshop without any other dependencies.",
+    "start_datetime": "2025-11-16T20:00:00Z",
+    "end_datetime": "2025-11-16T23:00:00Z",
+    "talk:code": "83XWUZ",
+    "talk:guid": "4b136b7e-ed79-5509-9ce3-631aed1134aa",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Workshop - Intermediate Level",
+    "talk:type": "Workshop",
+    "talk:language": "en",
+    "talk:room": "WF710",
+    "talk:room_capacity": 30,
+    "talk:duration_minutes": 180,
+    "talk:speakers": [
+      {
+        "code": "H8LVLX",
+        "name": "Tom Kralidis",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/H8LVLX/"
+      },
+      {
+        "code": "J7Z7F8",
+        "name": "krishna lodha",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/J7Z7F8/"
+      },
+      {
+        "code": "GDVTCB",
+        "name": "Jorge S. Mendes de Jesus",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/GDVTCB/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-16T21:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/83XWUZ/",
+      "title": "Diving into pygeoapi Workshop"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/83XWUZ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/H8LVLX/",
+      "title": "Tom Kralidis"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/J7Z7F8/",
+      "title": "krishna lodha"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/GDVTCB/",
+      "title": "Jorge S. Mendes de Jesus"
+    },
+    {
+      "rel": "related",
+      "href": "https://gitter.im/geopython/diving-into-pygeoapi",
+      "title": "gitter.im/geopython/diving-into-pygeoapi"
+    },
+    {
+      "rel": "related",
+      "href": "https://rottengrapes.tech/",
+      "title": "Rotten Grapes Private Limited"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.youtube.com/@krishnaglodha",
+      "title": "YouTube tutorials"
+    },
+    {
+      "rel": "related",
+      "href": "https://medium.com/rotten-grapes",
+      "title": "technical blogs"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/83XWUZ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "diving-into-pygeoapi-workshop": {
+      "href": "https://dive.pygeoapi.io",
+      "title": "Diving into pygeoapi Workshop",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

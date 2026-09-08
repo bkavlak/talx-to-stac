@@ -1,0 +1,121 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "A88X7L",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "An approach that utilizes blockchain to effectively and securely preserve data privacy for location data from IoT in smart cities.",
+    "description": "1.\tIntroduction\r\nGeospatial data has become an essential part of modern technological ecosystems, fuelling advancements in areas such as navigation, logistics, disaster management, and smart city planning. The capacity to capture and utilize accurate location information has significantly improved decision-making processes, resource allocation, and real-time situational awareness. However, as the use of geospatial data expands, so do the associated risks of storing, transmitting, and processing this information. \r\nBlockchain technology offers enhanced security, transparency, and decentralization, which holds transformative potential for geospatial data sharing. The quality and trustworthiness of shared data have been damaged due to the lack of transparency and credibility of intelligent sources. The objective is to Geospatial data management is being revolutionized by blockchain technology, which provides a decentralized and tamper-proof framework for data provenance. Users can trust the data they access by using this immutable record of data lineage, which enhances traceability and establishes clear data ownership.\r\nThis paper introduces a combination of Blockchain technology (to ensure transparent data integrity) and cryptography (to provide data confidentiality) as a solution to these issues. We present a prototype implementation of this proposed scheme as well as corresponding experimental results obtained with an actual smart city data set.\r\n\r\n2.\tTechnology Used\r\n2.1\tBlockchain \r\nBlockchain technology has emerged as a promising avenue for addressing the security and integrity demands of sensitive data. By distributing information across a network of nodes, blockchains offer immutability, transparency, and decentralized governance. Yet, implementing a blockchain-based platform for geospatial data introduces several key challenges. Large datasets, complex retrieval requirements, and the computational overhead of blockchain transactions can complicate system design.\r\n2.2\tCryptographic\r\nCryptographic methods, specifically AES (Advanced Encryption Standard) for symmetric encryption and RSA (Rivest-Shamir-Adleman) for asymmetric encryption, have long been used by industries to protect digital information. Efficient end-to-end encryption and secure key management are crucial for confidentiality and integrity in a blockchain context when combined with AES and RSA in a hybrid cryptosystem. Moreover, Proof-of-Location (PoL) protocols such as FOAM add a novel layer of authenticity by verifying the real-world coordinates that underlie each data entry, making it substantially more difficult for attackers to spoof or tamper with location records. \r\n\r\n2.3\tWeb3 and Open Standard Protocols \r\nThe development of innovative geospatial applications and markets can also be facilitated by Web3. Open standards for consensus-driven mapping and proof of location are provided by decentralized platforms like the FOAM protocol, which enable the creation of thrustless geospatial data ecosystems. The geospatial space has several noteworthy Web3 projects, including Shamba, a decentralized geospatial data oracle, and Geodnet, a decentralized network for sharing and monetizing geospatial data.\r\n\r\n2.4\tSmart Contract\r\nA smart contract is a contract that can be executed by itself, with code embedded with rules and agreements, and deployed on a blockchain. Transacting without intermediaries is assured through thrustless, automated, and tamper-proof transactions. The automation of data access control and the enforcement of predefined rules can be done by smart contracts, ensuring that data is shared only with authorized participants.\r\n\r\n2.5\tUsed Technology in paper\r\nIn this paper, a comparative analysis compares the performance, computational overhead, and scalability of AES and RSA. Factors such as encryption/decryption speed, memory footprint, and transaction costs determine blockchain's suitability for large-scale geospatial datasets. A prototype system has been created to show the complete process, from encryption and blockchain-based storage to on-demand retrieval and secure decryption, while keeping sensitive location information confidential and intact.\r\n\r\n3.\tData Integrity and Access Control  \r\nWeb3 technologies, based on blockchain principles, are advancing the decentralized storage and processing of spatial data. Decentralized file systems like IPFS and Filecoin enable the distributed storage of large geospatial datasets, ensuring data availability and resilience. By removing single points of failure, these systems allow for efficient data retrieval and sharing.\r\n\r\nIn addition, blockchain enables the secure sharing of data between peers without relying on centralized authorities. By directly exchanging geospatial data between parties, there is no need to employ intermediaries, and there is a reduced risk of data tampering. \r\n\r\nBlockchain technology, however, does not provide proper access control to data stored within the blockchain. Therefore, data stored within the blockchain needs to be encrypted in order to ensure that data can only be read by proper entities (access control). \r\n4.\tExperiment \r\nThe objective of this paper is to combine blockchain technology and cryptographic techniques to guarantee data integrity as well as access control for geospatial data when storing and transmitting it. The research examines the architecture of how encrypted geospatial coordinates can be committed to a blockchain, ensuring immutability while maintaining controlled access. Smart contracts ensure that data-sharing policies are enforced and user permissions are validated, thereby decreasing the need for centralized intermediaries. The practical viability of this system has been evaluated by a proof-of-concept prototype that includes metrics like encryption/decryption speed, on-chain data overhead, and access latency.\r\n\r\nA comparative analysis of centralized vs. is used in the research to evaluate the proposed framework. Security, scalability, and performance are the main concerns of decentralized approaches. \r\n\r\nThis involves analyzing various encryption techniques and quantifying the difference between on-chain and off-chain. The feasibility of large-scale geospatial datasets is tested within the constraints of blockchain networks through off-chain storage trade-offs. The study investigates the role of Proof-of-Location  protocols in enhancing location authenticity and resilience against spoofing.\r\n\r\n5.\tConclusion \r\nTo sum it up, this paper is aimed at offering a complete solution to the long-standing problem of securely managing geospatial data, covering everything from cryptographic confidentiality to blockchain immutability and location verification. The goal of the work is to demonstrate the technical feasibility and broader impact of integrating AES, RSA, and Proof-of-Location   into real-world geospatial applications by combining them on a blockchain platform. The paper details the design and implementation of a system, demonstrates empirical results, and discusses future developments for scalability and regulatory compliance.",
+    "start_datetime": "2025-07-18T10:25:00Z",
+    "end_datetime": "2025-07-18T10:30:00Z",
+    "talk:code": "A88X7L",
+    "talk:guid": "28c1c361-cb90-5521-865f-9eef341b0a62",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Academic track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "PA01 (Quarticle)",
+    "talk:room_capacity": 95,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "Q9RZSG",
+        "name": "Darshana Rawal",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/Q9RZSG/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-18T10:27:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/A88X7L/",
+      "title": "An approach that utilizes blockchain to effectively and securely preserve data privacy for location data from IoT in smart cities."
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/A88X7L/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/Q9RZSG/",
+      "title": "Darshana Rawal"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/A88X7L/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "full-paper": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/A88X7L/resources/Blockchain_Crypto_final_PA01_imA8WbK.pdf",
+      "type": "application/pdf",
+      "title": "Full Paper",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "final-updated-paper": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/A88X7L/resources/Blockchain_Crypto_final_F_PA01_a7kIWYk.pdf",
+      "type": "application/pdf",
+      "title": "Final Updated Paper",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/A88X7L/resources/Blockchain_Crypto_DRRAWAL_FOSS4GEurop202_vULaVJt.pdf",
+      "type": "application/pdf",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "presentation-2": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/A88X7L/resources/Blockchain_Crypto_DRRAWAL_FOSS4GEurop20_Yk3hLpP.pptx",
+      "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

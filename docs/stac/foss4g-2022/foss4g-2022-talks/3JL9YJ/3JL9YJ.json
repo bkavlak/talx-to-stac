@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "3JL9YJ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Open Source geospatial applications for energy and environment integration",
+    "description": "The use of GIS to support energy planning is now widespread and well consolidated, as evidenced by the numerous studies available in the international literature. Many companies and governmental institutions have transferred their data and results into open source web platforms or tools for public access.\r\n\r\nWithin the broad topic of the interaction between renewable energy and environment, over the last years RSE S.p.A. has faced the necessity to develop and maintain WebGIS and online platforms related to various aspects of the energy system, in order to characterize the territory and its possible influences on renewable energy sources integration in the energy system, thus supporting the decision-making process towards energy transition.\r\n\r\nOne of the most significant products is the Integrated Atlas for the National Energy System and Renewable Sources, a WebGIS platform which represents on a national scale significant variables of the energy sector (resources, demand, installed plants, territorial constraints) under a system view, with the principal aim of supporting energy planning. From a technical point of view the Integrated Atlas is developed on TerriaMap, a catalogue-based web geospatial visualisation platform developed by the Australian research centre CSIRO. TerriaMap uses the JavaScript library TerriaJS together with other open source libraries as React JS, Leaflet and Cesium, for 3D visualization.\r\n\r\nBesides standard WebGIS functionalities, the Integrated Atlas provides the access to TOTEM (Territory Overview Tool for Energy Models), an advanced open source tool for the energetical characterization of the territory, essential for supporting multi-energy modelling. Starting from spatial and energy data, the TOTEM tool estimates electrical and heat demand, wind and solar resource and other significant energy variables on hourly and provincial scale. Concerning technical details, the tool and its web interface are developed in Python and use libraries such as Pandas, Flask ad Bokeh. The tool is opensource and it will be release under MIT License, however only a portion of the input data are currently publicly available due to data providers\u2019 restrictions.\r\n\r\nThe need to harmonize data and analysis about the relations between energy and environment and provide an access point to the developed tools has inspired the creation of the Energy and Environment Geoportal, based on the Mapstore Open Source web platform developed by GeoSolutions. This platform allows viewing and querying geospatial published data, integrating different remote resources into interactive and immediate representations such as maps, dashboard or geostories.\r\n\r\nAs an example, detailed results of above cited multi-energy models, which receive spatialized energy data as inputs, have been synthesized in a geostory, an immersive narration which explains how a multi-energy analysis based on detailed territorial characterization of a region can support the evaluation of the best alternatives for its energy development. The geostory is accessible from the Energy and Environment Geoportal.\r\n\r\nIt must be specified that these products are still under development and subject to continuous updates of both data and technology. More details about contents and tools are left to the final presentation.",
+    "start_datetime": "2022-08-26T10:50:00Z",
+    "end_datetime": "2022-08-26T10:55:00Z",
+    "talk:code": "3JL9YJ",
+    "talk:guid": "adde9b3d-bcfc-5a23-aa13-ae828e21c255",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Modulo 0",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "DC9VYC",
+        "name": "Lorenzo Stucchi",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/DC9VYC/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T10:52:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/3JL9YJ/",
+      "title": "Open Source geospatial applications for energy and environment integration"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/3JL9YJ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/DC9VYC/",
+      "title": "Lorenzo Stucchi"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/3JL9YJ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=P-sLDyZAseI",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Open Source geospatial applications for energy and environment integration",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

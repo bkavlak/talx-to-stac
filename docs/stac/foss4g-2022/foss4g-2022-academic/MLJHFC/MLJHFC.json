@@ -1,0 +1,112 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "MLJHFC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "spectral: Awesome Spectral Indices for the Google Earth Engine JavaScript API",
+    "description": "Spectral Indices derived from Remote Sensing data are widely utilized for understanding Earth System dynamics. Accelerated climate and land change makes the monitoring of Earth surface processes a top priority. Vegetation Indices (VIs) are a set of indices developed to better understand biosphere processes, including potential photosynthetic activity, thereby providing key information for the terrestrial carbon cycle. Urban Indices (UIs) are designed to study anthropogenic footprint on the environment identifying artificial surfaces and their extent. Other types of indices such as Water Indices (WIs) and Burn/Fire Indices are also being constantly developed for understanding hydrological processes and the impact of extreme events on the biosphere, respectively. The increasing amount of spectral indices led to the creation of spectral indices catalogs, such as Awesome Spectral Indices, an open-source catalog with more than 100 spectral indices. Each spectral index in this catalog has numerous attributes, including the index name, formula, reference, and other additional metadata. This catalog is part of an ecosystem that allows users to query and compute spectral indices in a Python environment for different data types, including Google Earth Engine (GEE) classes. GEE is a cloud-based geospatial processing service for vector and raster data (Gorelick et al., 2021). It includes a multi-petabyte catalog of remote sensing data that users may explore online. The GEE Application Programming Interface (API) is exposed and accessible through JavaScript and Python client libraries. While the JavaScript API is more advantageous for rapid prototyping through the Code Editor, the GEE web-based Integrated Development Environment (IDE), it lacks Python's ability to integrate third-party packages. Multiple tools for computing spectral indices, including mathematical raster operations, normalized difference methods, and expressions evaluation methods in the case of more sophisticated indices have been developed in the source API. In the meanwhile, third-party Python packages have implemented methods for automatically computing spectral indices without hard-coding them in the GEE Python API (Montero, 2021). However, users still have to hard-code the desired spectral indices for the JavaScript API since there are no implementations that link spectral indices catalogs to the Code Editor for their easy calculation. Here we present spectral, a JavaScript module that links the Awesome Spectral Indices Catalog to GEE for querying and computing spectral indices inside the GEE Code Editor. The spectral module uses the Awesome Spectral Indices Catalog and implements several functions that leverage the access and computation of spectral indices for multiple remote sensing products in the GEE catalog. As a primary component of the module, all spectral indices, as well as their attributes from Awesome Spectral Indices, are available for querying by using a key-value model represented by a JSON object. As a secondary component, users can compute one or more spectral indices by using a single method and passing the required bands for the spectral indices computation as a dictionary of parameters. This method uses the expression of the index, contained as an attribute in the spectral indices catalog, for evaluating it as an image object in GEE. Furthermore, the module adds an additional method to compute kernel images for novel generalized kernel indices such as the kNDVI (Camps-Valls et al., 2021). Kernels such as the Polynomial Kernel as well as the Radial Basis Function (RBF) Kernel are included. As an additional feature for preprocessing raster datasets, the module also implements two methods for automatically scaling and offsetting all raster datasets included in the GEE catalog, thus, leveraging this mandatory manual step for several spectral indices that are not normalized. The spectral module demonstrates that spectral indices can be easily computed inside the GEE Code Editor by automatizing most of the hard-code scripting. Image objects, as well as image collection objects, can be used for the calculation of all spectral indices in the catalog if the specific raster dataset counts with the required bands. This principle applies to most raster datasets in GEE, including Landsat Series and most products of the Sentinel Series, as well as MODIS and VIIRS reflectance products. Furthermore, generalized kernel indices can be used in their pure form, allowing their spatio-temporal optimization by enabling the scale-length parameter as a free user choice in the RBF Kernel or the polynomial degree in the Polynomial Kernel. We anticipate that spectral will be used by most GEE users for Earth System research as well as for educational purposes in Remote Sensing. Analyses conducted by scientists, researchers and students will be sped up by avoiding hard-coding and Remote Sensing investigations using GEE will be boosted. Furthermore, novel indices will increase their visibility for different projects where they can be useful without taking out the visibility of standard and classical spectral indices. The module is open-source and it is hosted on GitHub (github.com/davemlz/spectral) with an MIT License, allowing contributions from the community. Prior experience in Remote Sensing can make it easier to get started using the module, however, it is not required and the module counts with several tutorials and a complete documentation oriented to beginners.",
+    "start_datetime": "2022-08-25T13:15:00Z",
+    "end_datetime": "2022-08-25T13:45:00Z",
+    "talk:code": "MLJHFC",
+    "talk:guid": "e6ebca53-5504-536f-b0e3-4b274f7228c0",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Academic online",
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "GXMXGL",
+        "name": "David Montero Loaiza",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/GXMXGL/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T13:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/MLJHFC/",
+      "title": "spectral: Awesome Spectral Indices for the Google Earth Engine JavaScript API"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/MLJHFC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/GXMXGL/",
+      "title": "David Montero Loaiza"
+    },
+    {
+      "rel": "related",
+      "href": "https://rsc4earth.de/",
+      "title": "Remote Sensing Centre for Earth System Research (RSC4Earth)"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/davemlz/eemont",
+      "title": "eemont"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/davemlz/spectral",
+      "title": "spectral"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/davemlz/spyndex",
+      "title": "spyndex"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/davemlz/awesome-spectral-indices",
+      "title": "Awesome Spectral Indices"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/MLJHFC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

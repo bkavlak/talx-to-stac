@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "DWHZKD",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Orfeo ToolBox: open source processing of remote sensing images",
+    "description": "Orfeo Toolbox (OTB) is a free and open-source remote sensing software. It is available on multiple platforms, Linux, Windows and MacOs, and was developed primarily by CNES (French Space Agency) and CS Group in the frame of the development of the ORFEO program (French and Italian support program for Pleiades and Cosmo-Skymed).  \r\n\r\nOTB can process large images thanks to its built-in streaming and multithreading mechanisms. Its data processing schema is primarily based on ITK pipelines, and uses GDAL dependency to read and write raster and vector data. Many formats are supported by the library (at least those supported by GDAL) as CosmoSkyMed, Formosat, Ikonos, Pleiades, QuickBird,  Radarsat 2, Sentinel 1, Spot5, Spot 6/7, TerraSarX or WorldView 2.  \r\n\r\nOTB provides a lot of applications to process optical and SAR products: ortho-rectification, calibration, pansharpening, classification, large-scale segmentation and more. The library is written in C++ but all the applications can also be accessed from Python, command line launcher, QGIS and Monterverdi, a powerful satellite image visualization tool bundled in the OTB packages capable of manipulating large images efficiently. \r\n\r\nThe library also facilitates external contributions thanks to the remote module functionality: users can add new applications without modifying the core of the library. If this new remote module is relevant, it could be added as an official remote module, like DiapOTB (differential SAR interferometric processing chain) and OTBTensorflow (multi-purpose deep learning framework, targeting remote sensing images processing). \r\n\r\nMoreover, several operational image processing chains are based on OTB: their algorithms use the framework of OTB Applications while the orchestration is written in python. Some of the chains are also open source: Let It Snow (Snow cover detection), iota2 (Large Scale Land Surface Classification), WASP (Multitemp images fusion), S1Tiling (Sentinel-1 calibration and MAJA (Maccs-Atcor Joint Algorithm). The Orfeo Toolbox is also a part of the Sentinel 2 ground segment, being integrated in the S2 Instrument Processing Facility (IPF) module where it is used for radiometric corrections and resampling. \r\n\r\nIn the latest releases (from 7.x to 8.0), several features have been added as new SAR sensor models and new applications, and the OSSIM dependency - used for geometric sensor modelling and metadata parsing \u2013 has been removed in favor of functionalities available in GDAL. The aim of the presentation is to present the major features of OTB, the latest updates, the future features and architecture of the library and how OTB is used at CNES and CS Group to process data from scientific and developer points of view.",
+    "start_datetime": "2022-08-25T09:30:00Z",
+    "end_datetime": "2022-08-25T10:00:00Z",
+    "talk:code": "DWHZKD",
+    "talk:guid": "e03ed812-0e25-5701-81e9-f1f84b95e433",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Verde",
+    "talk:room_capacity": 230,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "HNBRKL",
+        "name": "JulienOsman",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/HNBRKL/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/DWHZKD/",
+      "title": "Orfeo ToolBox: open source processing of remote sensing images"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/DWHZKD/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/HNBRKL/",
+      "title": "JulienOsman"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/DWHZKD/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/vHA6uFQetC8eFrtrpWzgnw",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Orfeo ToolBox: open source processing of remote sensing images",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=PJIHk7pEyyc",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Orfeo ToolBox: open source processing of remote sensing images",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

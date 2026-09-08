@@ -1,0 +1,137 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "XAE9U9",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "WebGIS for Coastal Resilience: A Use case for developing a coastal erosion Observatory",
+    "description": "Due to the compounding impacts of climate change and human activities, the frequency and severity of hazards and natural disasters are on the rise, exerting significant impacts on the environment, economy, and human lives. Responding to this shifting landscape, numerous institutions and political structures are redirecting their focus from emergency response to proactive disaster risk reduction and planning. Notably, the public Authority has sponsored the project titled \"Creation of an Integrated Observatory System for Preventing and Managing the Risk of Coastal Erosion due to the Impact of Climate Change through the Utilization of Earth Observation Data\". This initiative employs Earth Observation, combined with in-situ data, advanced algorithms, and models, to develop comprehensive knowledge on hazard exposure and vulnerability. \r\nThe applied methodology encompasses three thematic phases: Phase A includes the creation of algorithms and tools for calculating necessary indicators, Phase B involves the design of the web GIS application hosting the observatory, its services, and derived datasets, and Phase C entails evaluating the current state and proposing alternatives for risk management. \r\nSpatial databases were continually reassessed throughout the project, hosting digital products created by specialized Python scripts that process optical images from Sentinel-2 satellites, Sentinel-1 SAR acquisitions, and in-situ measurements. These data sources contribute to generating timeseries of multiple indicators related to coastline alterations. The extensive monitoring database serves not only to establish correlations between derived indicators and human activity but also to calculate 50- and 100-year simulation indicators for coastal vulnerability under tidal wave pressure. Additionally, a tool for determining passive flood mapping in different sea level rise scenarios is developed using the bathtub approach. \r\nAll this information is seamlessly integrated into a web GIS application, named \"Observatory System for Coastal Erosion.\" The application utilizes the Angular web application framework while the Leaflet library enhances interactive mapping, providing a user-friendly interface. Navigation features include zoom in/out tools, selection/identification tools, and an address bar. Users can search data using descriptive or spatial parameters, applying filters, with results displayed in a table for export in .csv or .shp formats.\r\nThis application ensures interactivity, interoperability, and information exchange, supporting decision-making and evaluating alternative coastal zone development strategies. Fully aligned with national Integrated Coastal Zone Management (ICZM) principles, the observatory has been in use by the Department of Environment and Industry, Energy & Natural Resources of the Region of Central Macedonia since 2021. Networking activities have already commenced among stakeholders and public authorities, addressing erosion issues highlighted by the project's results and exploring alternative, sustainable prevention measures.",
+    "start_datetime": "2024-07-04T12:05:00Z",
+    "end_datetime": "2024-07-04T12:10:00Z",
+    "talk:code": "XAE9U9",
+    "talk:guid": "cf613c8b-10db-53e3-a8d1-cf8141fc0f39",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "GEOCAT (301)",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "AQEPRS",
+        "name": "Anastasia Triantafyllou",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/AQEPRS/"
+      },
+      {
+        "code": "WACYGA",
+        "name": "Pano Voudouris",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/WACYGA/"
+      },
+      {
+        "code": "ZBX8P7",
+        "name": "Dimitris Tsagkarlis",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/ZBX8P7/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-04T12:07:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/XAE9U9/",
+      "title": "WebGIS for Coastal Resilience: A Use case for developing a coastal erosion Observatory"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/XAE9U9/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/AQEPRS/",
+      "title": "Anastasia Triantafyllou"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/WACYGA/",
+      "title": "Pano Voudouris"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/ZBX8P7/",
+      "title": "Dimitris Tsagkarlis"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/XAE9U9/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-of-webgis-for-coastal-resilience": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/XAE9U9/resources/observatories_sVOat3w.pptx",
+      "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "title": "Presentation of WebGIS for Coastal Resilience",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/uQzbcye5kau1XdisWXp17g",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | WebGIS for Coastal Resilience: A Use case for developing a coastal erosion ...",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=SVs7nEXE-iY",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | WebGIS for Coastal Resilience: A Use case for developing a coastal erosion ...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

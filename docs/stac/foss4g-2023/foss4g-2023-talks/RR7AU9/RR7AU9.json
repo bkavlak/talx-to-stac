@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "RR7AU9",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "An end-to-end deep learning framework for building boundary regularization and vectorization of building footprints",
+    "description": "With increasing digitalization and automation, there is a need to develop automatic methods to maintain and update public information stored in spatial databases. The building register stores public, building-related information and is the fundamental record for storing information and other relevant data necessary for taxation, public planning, and emergency services about buildings. Up-to-date building footprint maps are essential for many geospatial applications, including disaster management, population estimation, monitoring of urban areas, updating the cadaster, 3D city modelling, and detecting illegal construction cases (Bakirman, et al., 2022.). There are many approaches for building extraction from various data sources, including satellite, aerial, or drone images and 3D point clouds. However, there is still a demand for developing methodologies that can extract segment, regularize and vectorize building footprints using deep learning in and end-to-end workflow.\r\n\r\nToday, automatic and semi-automatic methods have achieved state-of-the-art results in building footprint extraction by combining computer vision and deep learning techniques. Semantic segmentation is a method for classifying each pixel in an image and extract building footprints from remote sensing data. In the case of building segmentation, the goal is to classify each pixel on an image belonging to its corresponding class. Recent advances in deep learning for building segmentation have drastically improved the accuracy of the segmented building masks using Convolutional Neural Networks (CNNs).\r\n\r\nRecently proposed semantic segmentation architectures include the application of advanced vision transformers for semantic segmentation. GeoSeg is one of the open-source semantic segmentation toolboxes for various image segmentation tasks. The repository has 7 different models, that can be used for either multi-class or binary semantic segmentation tasks, including four vision transformers: U-NetFormer, FT-U-NetFormer, DCSwin, BANet and three regular CNN models: MANet, ABCNet, A2FPN.\r\n\r\nDeep learning methods for building segmentation involve training the neural network on a labeled image dataset, referred to as supervised learning. Semantic segmentation aims to distinguish between semantic classes in an image but does not individually label each instance. On the other hand, instance segmentation aims at distinguishing between semantic classes and the individual instances of each class. Many popular instance segmentation architectures exist, such as Mask R-CNN and its predecessors, R-CNN, Fast R-CNN, and Faster R-CNN. While the implementation of instance segmentation can be more challenging, the approach can be more effective in densely populated urban areas, where buildings may be close or overlapping.\r\n\r\nA common problem with these methods is the irregular shape of the predicted segmentation mask. Additionally, the data contains various types of noise, such as reflections, shadows, and varying perspectives, making the irregularities more prominent. Further post-processing steps are necessary to use the results in many cartographic and other engineering applications (Zorzi et al., 2021).\r\n\r\nThe solution for the irregularity of the building footprints is to use regularization. Regularization is a technique in machine learning that applies constraints to the model and the loss function during the training process to achieve a desired behaviour (Tang et al., 2018). Applying regularization constrains the segmentation map to be smoother, with clearly defined and straight edges for buildings. As a result, the building footprint becomes less irregular when occluded and visually more appealing. Most studies apply regularization after image segmentation. \r\n\r\nWe propose an end-to-end workflow for building segmentation, regularization and vectorization using four different convolutional neural network architectures for binary semantic segmentation task: (1) U-Net, (2) U-Net-Former, (3) FT-UNet-Former and (4) DCSwin. We further improve the building footprints by applying the projectRegularization method proposed by (Li et al., 2021). The technique uses a boundary regularization network for building footprint extraction in satellite images combining semantic segmentation and boundary regularization with an end-to-end generative adversarial network (GAN). Our approach will perform semantic segmentation with our trained models and then perform boundary regularization on the segmentation masks. We aim to prove the scalability of projectRegularization on a different segmentation task, including aerial images as the data source. The last step in our approach is to develop a methodology for efficient vectorization of the segmented building mask using open-source software solutions. We aim to make the results practically applicable in any GIS environment. The dataset used for testing our developed method will be the MapAI dataset used for the MapAI: Precision in Building Segmentation competition (Jyhne et al., 2022) arranged with the Norwegian Artificial Intelligence Research Consortium in collaboration with the Centre for Artificial Intelligence Research at the University of Agder (CAIR), the Norwegian Mapping Authority, AI:Hub, Norkart, and The Danish Agency for Data Supply and Infrastructure.\r\n\r\nWe aim to produce better representations of building footprints with more regular building boundaries. After successful application, our method generates regularized building footprints, that are useful in many cartographic and engineering applications. Furthermore our regularization and vectorization workflow is further developed into a working QGIS-plugin that can be used to extent the functionality of QGIS. Our end-to-end workflow aims to advance the current research in convolutional neural networks and their application for automatic building footprint extraction and, as a result, further enhance the state of open-source GIS software.",
+    "start_datetime": "2023-06-28T09:00:00Z",
+    "end_datetime": "2023-06-28T09:30:00Z",
+    "talk:code": "RR7AU9",
+    "talk:guid": "2c37d89c-c85a-5a2a-9b55-e13536e531c5",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Academic Track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT E / N209 - Floor 3",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "J33TFA",
+        "name": "Simon \u0160anca",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/J33TFA/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T09:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/RR7AU9/",
+      "title": "An end-to-end deep learning framework for building boundary regularization and vectorization of building footprints"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/RR7AU9/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/J33TFA/",
+      "title": "Simon \u0160anca"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/RR7AU9/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

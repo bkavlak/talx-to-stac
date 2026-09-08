@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "BMXX8Y",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "How Does Walkability for Elderly People Differ between Hilly and Flat Urban Areas? A Case Study of Shin-Yurigaoka Station and Nagareyama-Otakanomori Station",
+    "description": "This study aims to evaluate the walkability of the area surrounding Shin-Yurigaoka Station for older adults, which is located in a hilly, suburban environment. This will be achieved by analysing the street network as a whole using a gradient-aware network approach.\r\n\r\n In Japan, walkability has become an increasingly important issue in the context of rapid population ageing. Older adults continue to go out frequently in their daily lives and walking remains one of their main modes of travel. In this context, the ease of walking is shaped not only by distance or network connectivity, but also by the physical burden of slopes. This issue is particularly relevant in Japanese suburban hilly areas, where many residential districts have been developed on hilly terrain, often requiring residents to negotiate slopes and stairways to access stations, shops, and everyday services.\r\n\r\nAgainst this background, this study focuses on the area around Shin-Yurigaoka Station in Asao Ward, Kawasaki City, examining how the walkability of older adults can be understood through a combined perspective of street network structure and slope conditions. Asao Ward is an appropriate study area for two reasons. Firstly, according to the 2020 Municipal Life Tables published in 2023, Asao Ward had the highest average life expectancy in Japan for both men and women, making it a notable area for longevity. Secondly, despite its hilly terrain, a Kawasaki City survey found that a significant proportion of older residents in the ward reported being able to walk for around 15 minutes or doing so in their daily lives. This suggests that walking remains an important mode of everyday mobility for older adults, even in areas with many slopes.\r\n\r\n This raises a key analytical question: in hilly urban environments, do roads that are structurally central to the street network also function as physically walkable routes for older adults? To address this question, the study examines the degree of overlap between network centrality and low-slope conditions.\r\n\r\n In Space Syntax research, configurational measures such as Integration have been linked to pedestrian movement (Hillier et al., 1993). In contrast, walkability is understood to be a multidimensional concept influenced not only by road connectivity, but also by factors such as access to destinations, land use and safety (Saelens & Handy, 2008). Studies of older adults have also shown that walking and physical activity are influenced by neighbourhood environmental factors, including walkability, access to destinations, and pedestrian infrastructure (Barnett et al., 2017). These findings suggest that street-network centrality alone may not fully explain actual walkability, particularly in hilly areas. Therefore, this study introduces a gradient-aware network analysis that integrates street-network centrality with topographic conditions.\r\n\r\n The analysis was conducted using open geospatial data and open-source software. Road network data were obtained from OpenStreetMap and a 5-metre digital elevation model (DEM) was used to represent topography. To better focus on walkable public routes, roads classified as parking areas, private roads and indoor roads were excluded from the analysis. The study area was defined as a 15-minute walking catchment around Shin-Yurigaoka Station, based on an assumed walking speed of 1.0 m/s for older adults. In QGIS, the roads were divided into 10 m segments and the longitudinal gradient of each segment was calculated based on the elevation difference between its start and end points. In parallel, Integration values were derived through Angular Segment Analysis at a radius of 900 m (R900) using DepthmapX and the Space Syntax Toolkit. These values were then assigned to road segments at intersections. Integrating these variables enabled the study to construct a gradient-aware network analysis framework, evaluating each road segment in terms of its configurational importance within the overall network and walking difficulty due to slope.\r\n\r\n The results reveal several important patterns. Within the 15-minute walking catchment area of Shin-Yurigaoka Station, high-integration roads \u2014 defined as the top 20% of the network in terms of integration value \u2014 accounted for 23.9% of the total road length. Low-gradient roads, defined as having a gradient of 8.0% or less based on Japanese sidewalk design standards, accounted for 84.7% of the total. Roads that satisfied both conditions simultaneously \u2014 namely, roads that were both highly integrated and low in gradient \u2014 accounted for 21.6% of the total. Examining the intersection of these two conditions more closely, it was found that 90.8% of high-integration roads were also low-gradient roads. This suggests that many of the structurally central roads around the station have relatively gentle slopes. In contrast, only 25.6% of low-gradient roads were classified as highly integrated. This suggests that, while gentle-slope roads are widely distributed across the study area, they do not necessarily form the core of the street network.\r\n\r\n These findings suggest that the walkability of a hilly urban area for older adults should be evaluated not only in terms of the physical ease of the slope, but also in terms of the role that a road plays within the overall network. In other words, roads that are easy to walk on do not necessarily occupy a central or strategic position in everyday movement patterns. This is an important consideration when it comes to understanding mobility in suburban hilly areas, where the topography can reshape the relationship between urban structure and practical pedestrian accessibility. The study also demonstrates the value of using open street and elevation data alongside open-source spatial analysis tools to examine this issue from a reproducible and scalable perspective.\r\n\r\n As a next step, road data in OpenStreetMap and QGIS will be refined to ensure the analytical network more accurately reflects the actual pedestrian environment, including sidewalks and other walkable links. The analysis will also be extended to a 30-minute walking catchment area to compare the relationship between centrality and gradient at a broader spatial scale. Furthermore, future work will validate the gap between the analytical results and the actual physical environment in order to examine the validity and applicability of gradient-aware network analysis for evaluating walkability for older adults in hilly urban areas.",
+    "start_datetime": "2026-09-01T07:30:00Z",
+    "end_datetime": "2026-09-01T08:00:00Z",
+    "talk:code": "BMXX8Y",
+    "talk:guid": "666e7a78-2fcd-54d7-8d70-6883b41d2246",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos1",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "9D3UXJ",
+        "name": "Hinako Terado",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/9D3UXJ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T07:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/BMXX8Y/",
+      "title": "How Does Walkability for Elderly People Differ between Hilly and Flat Urban Areas? A Case Study of Shin-Yurigaoka Station and Nagareyama-Otakanomori Station"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/BMXX8Y/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/9D3UXJ/",
+      "title": "Hinako Terado"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/BMXX8Y/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

@@ -1,0 +1,151 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "BHK3L9",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Re:Earth CMS in Action: Build a Map-Based Reporting App",
+    "description": "Build a working reporting app in three hours: pick a location, submit a report, and publish it to a map using Re:Earth CMS and Leaflet. Guided code and a ready backend are provided \u2014 no prior GIS, CMS, or backend experience needed, just basic HTML and JavaScript.\n\nRe:Earth CMS is an open-source, API-first headless CMS for managing structured and geospatial content and connecting it to external applications. In this hands-on workshop, participants will build a location-based reporting app using Re:Earth CMS and Leaflet, with a small ready-made backend provided so there's nothing to set up on that side.\r\n\r\nThe workshop begins with the CMS concepts you need for the exercise \u2014 projects, Models, Schema, items, publishing, and the roles of the Public API and Integration API \u2014 introduced as we use them, so no prior CMS knowledge is needed. Participants will configure a CMS project and Model for location-based reports, then use the Public API to load published records onto a Leaflet map.\r\n\r\nUsing guided starter code, participants will add map-based location selection and a submission form, send a new report to Re:Earth CMS, review and publish it, and confirm that it appears on the map. Checkpoints are provided along the way, so you won't get stuck.\r\n\r\nThe workshop focuses on completing one practical end-to-end workflow rather than covering every CMS feature. Starter code, completed reference code, checkpoints, and troubleshooting guidance will be provided. Optional extensions, such as image upload and map customization, may be explored if time allows.",
+    "start_datetime": "2026-08-30T05:00:00Z",
+    "end_datetime": "2026-08-30T08:00:00Z",
+    "talk:code": "BHK3L9",
+    "talk:guid": "00c4aa76-9f12-5361-8f2c-9b189bae0f3f",
+    "talk:event": "foss4g-2026-workshop",
+    "talk:track": "Sponsor Workshop",
+    "talk:type": "Sponsor workshop",
+    "talk:language": "en",
+    "talk:room": "704",
+    "talk:room_capacity": 90,
+    "talk:duration_minutes": 180,
+    "talk:speakers": [
+      {
+        "code": "QR3MLQ",
+        "name": "Yoshinori Yamazaki",
+        "url": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/QR3MLQ/"
+      },
+      {
+        "code": "CJJUKC",
+        "name": "Jason Karel",
+        "url": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/CJJUKC/"
+      },
+      {
+        "code": "ADFGCX",
+        "name": "Woody Chang",
+        "url": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/ADFGCX/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-08-30T06:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/BHK3L9/",
+      "title": "Re:Earth CMS in Action: Build a Map-Based Reporting App"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/BHK3L9/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/QR3MLQ/",
+      "title": "Yoshinori Yamazaki"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/CJJUKC/",
+      "title": "Jason Karel"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/ADFGCX/",
+      "title": "Woody Chang"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/BHK3L9/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "download-or-git-clone-sample-code-for-the-workshop": {
+      "href": "https://github.com/eukarya-inc/foss4g-2026-reearth-cms-workshop-sample-code",
+      "title": "Download (or git clone) sample code for the workshop",
+      "roles": [
+        "data"
+      ]
+    },
+    "node-installation": {
+      "href": "https://nodejs.org/en/download",
+      "title": "Node Installation",
+      "roles": [
+        "data"
+      ]
+    },
+    "postman-installation": {
+      "href": "https://www.postman.com/downloads/",
+      "title": "Postman Installation",
+      "roles": [
+        "data"
+      ]
+    },
+    "vscode-installation": {
+      "href": "https://code.visualstudio.com/download?_exp_download=fb315fc982",
+      "title": "VSCode Installation",
+      "roles": [
+        "data"
+      ]
+    },
+    "re-earth-account-signup": {
+      "href": "https://reearth.io/home",
+      "title": "Re:Earth Account Signup",
+      "roles": [
+        "data"
+      ]
+    },
+    "re-earth-cms-platform": {
+      "href": "https://cms.reearth.io/",
+      "title": "Re:Earth CMS Platform",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-workshops"
+}

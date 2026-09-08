@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "BJFRLD",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Applying OSS \u201cOuranos GEX\u201d: Lessons from PoC and the Path to Java-Based Development",
+    "description": "To address data integration and interoperability, we conducted a PoC using OSS \u201cOuranos GEX\u201d in our high-speed spatiotemporal data management technology. We present PoC results and discuss the development of the Java-based OSS, with a focus on technical challenges and lessons learned.\n\nTo build a next-generation digital society where people, robots, and autonomous systems can work together seamlessly, a strong and unified social infrastructure is essential. One major challenge is the fragmentation of spatio-temporal data caused by diverse proprietary standards. This fragmentation makes it difficult for different systems to connect and share data in real-time, resulting in inefficiencies and coordination issues. These obstacles hinder the growth of smart cities and digital twins. Resolving these issues requires cooperative efforts across various fields, as individual actions alone cannot overcome the broader problems caused by disconnected standards and data silos.\r\nTo address these challenges, Japan\u2019s Ministry of Economy, Trade and Industry (METI) and the Information-technology Promotion Agency (IPA) introduced the \"Spatial ID Guidelines,\" a standardized framework for classifying geospatial data as unique 4D voxels.\r\nOur experimental group incorporated an official OSS, \"Ouranos GEX,\" into our high-speed data management technology to develop a spatio-temporal data integration system. Using this platform, we conducted a Proof-of-Concept (PoC) to validate real-time data consolidation and management. This experiment demonstrated that converting dynamic data into Spatial IDs enables different organizations to share data easily, even when using different data formats. By adopting standardized 4D voxels, we achieved unified management and rapid updating of heterogeneous spatio-temporal information in complex environments. The PoC confirmed that this standardized indexing helps break down data silos and enables real-time data integration.\r\nWhile existing Spatial ID tools are mostly available in Python and JavaScript, large-scale commercial use demands faster processing, better memory safety, and higher stability. To bridge the gap between prototypes and industrial production, we developed the Java-based OSS for \u201cOuranos GEX.\u201d In this project, we focused on porting and optimizing the core logic, such as spatial ID calculations and coordinate transformations, to provide a stable foundation for a wide range of practical, real-world applications.\r\nThis report introduces our PoC results, technical challenges, and practical lessons learned. For example, migrating the coordinate transformation logic to Java required addressing discrepancies in how different programming languages handle map projections to ensure high precision. Our goal is to promote the adoption of standardized 4D spatial data and contribute to building interoperable digital twin solutions globally.",
+    "start_datetime": "2026-09-02T02:30:00Z",
+    "end_datetime": "2026-09-02T03:00:00Z",
+    "talk:code": "BJFRLD",
+    "talk:guid": "90f65004-ecab-591d-a423-3ff741a1f573",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "F8K9MV",
+        "name": "Nan Si",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/F8K9MV/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T02:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/BJFRLD/",
+      "title": "Applying OSS \u201cOuranos GEX\u201d: Lessons from PoC and the Path to Java-Based Development"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/BJFRLD/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/F8K9MV/",
+      "title": "Nan Si"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/BJFRLD/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

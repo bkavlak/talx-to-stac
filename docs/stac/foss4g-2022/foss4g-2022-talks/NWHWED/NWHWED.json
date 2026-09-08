@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "NWHWED",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Vision and Challenge of Re:Earth - an open source WebGIS platform using Cesium",
+    "description": "The Re:Earth project grew from the idea of, \"What would be possible if anyone, anywhere could access the digital Earth's potential?\". To make this a reality, we knew Re:Earth needed to be a no-code solution. But more than that, we needed to make sure hardware and OS requirements wouldn't get in the way, which is why Re:Earth is a fully web-based application. \r\n\r\n***Re:Earth allows you to manage, edit, compute and visualize a multitude of geographic information including 3D data with no coding required.***\r\n\r\nWe knew projects as well as data would need to be shareable so we have both project publishing and data exporting. \r\n\r\nPublishing a project is easy and gives users the chance to opt-in or out of SEO, change their URL and setup publishing to their own domain. Exporting data is easy and supports many of the most common file formats seen in GIS.\r\n\r\nIt is also the first WebGIS to feature a plug-in system that runs in the browser.\r\n\r\nToday, we are focused on solving a problem people face in maintaining, organizing, and managing a wide variety of data, by developing Re:Earth into a general-purpose data management system that can handle all types of data, and one that can be integrated with the user's existing systems.\r\n\r\nOur desire has always been to open Re:Earth to the OSS community, to build a global community around the vision of Re:Earth, and to provide and disseminate the value we create with our contributors to the wider society.\r\n\r\nThe first step to making this happen was Resium, a popular OSS package that allows developers to use Cesium with React. With Resium we have been able to write Re:Earth's codebase with React and Typescript on the front end. As the main backend language we chose Go. By using these modern languages we have kept Re:Earth highly maintainable and scalable and hope that other developers will find contributing to it easy.",
+    "start_datetime": "2022-08-25T10:30:00Z",
+    "end_datetime": "2022-08-25T10:35:00Z",
+    "talk:code": "NWHWED",
+    "talk:guid": "855a4c0d-b5f4-561f-9c1c-0ddd492d3c72",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Modulo 0",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "NXZKP7",
+        "name": "RED (XU CONG)",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/NXZKP7/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T10:32:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/NWHWED/",
+      "title": "Vision and Challenge of Re:Earth - an open source WebGIS platform using Cesium"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/NWHWED/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/NXZKP7/",
+      "title": "RED (XU CONG)"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/NWHWED/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=qirqWIhblMA",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Vision and Challenge of Re:Earth - an open source WebGIS platform using Cesium",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

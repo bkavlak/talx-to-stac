@@ -1,0 +1,131 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "3NRE7Q",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Development of an Information Extraction System for Mobile LiDAR Survey Data using Free and Open Source Technologies",
+    "description": "A 3D WebGIS Information Extraction System was developed to retrieve and visualize Mobile LiDAR Survey data by integrating spatial objects with attribute information. The system aims to have a user-friendly interface and uses free and open-source technologies including Python, HTML5, JavaScript, PostGIS, GeoServer. Leaflet and Cesium.\n\n1.\tIntroduction\r\n\u2022\tRapid advancements in technology have improved 3D visualization techniques in Geographic Information Systems (GIS). Open-source solutions can provide the functionality to store and visualise large quantities of GIS data in multiple formats.\r\n\u2022\tThis paper describes a WebGIS application for visualizing Mobile LiDAR GIS data across various Levels of Detail (LoDs).\r\n2. Mobile LiDAR Survey Technologies\r\n\u2022\tMobile LiDAR is a powerful geospatial technology for surveying complex urban landscapes including roads and roadside infrastructure. It provides accurate 3D data by integrating laser scanning, Inertial Measurement Unit (IMU), and Global Navigation Satellite System (GNSS) technologies to produce detailed point clouds. \r\n\u2022\tA schematic truck-mounted Mobile LiDAR system is shown in Figure 1.\r\n\r\n \r\nFigure 1: Mobile LiDAR system (adapted from [1]\r\n\r\n\u2022\tMobile LiDAR Surveys (MLS) capture X, Y, Z coordinates of laser light reflecting objects along with attributes like intensity and RGB colour values. They also capture imagery that can be fused with the point cloud data to improve object classification.\r\n\u2022\tTo identify and semantically classify objects such as roadside features requires the use of Artificial Intelligence (AI) software which incorporates complex algorithms which may be tailored to particular types of object. Thus detecting the road surface may require a different algorithm from pole-like objects such as street signs.\r\n\u2022\tThis study is based on survey data captured by Cyvl  LiDAR and 360-degree optical imagery sensors mounted on vehicles which travel on targeted roads at the same speed as other traffic. The Cyvl system also contains a suite of Artificial Intelligence (AI) software which is mainly used for road inventory recording, defect detection and road safety management. Road defects include road pavement damage and potholes. Road safety issues include street trees encroaching on the road, damaged signage, lighting fixtures and lane markings and driving obstacles on the road. The road infrastructure data relevant to this project are indicated in the diagram below.\r\n \r\nFigure 2: Taxonomy of elements for road surface and object identification (adapted from [2]). Features relevant to this project are indicated by orange boxes.\r\n\u2022\tAn additional type of infrastructure feature not shown above is powerlines, both roadside and cross country. The Cyvl system is capable of identifying powerlines as well as vegetation which may impinge on them, and the project may involve development of specialized algorithms to assess the risk and advise on vegetation removal action.\r\n\u2022\tThe Cyvl system identifies and semantically classifies roadside features captured by its optical imagery sensors and matches these to the point cloud data collected by its LiDAR sensor. This is a more accurate method of identifying roadside features than methods which rely on LiDAR data alone, see eg [3].\r\n\u2003\r\n3.\tInformation Extraction System Overview\r\n\u2022\tRoadside objects are segmented using the Cyvl2 AI system. Each object is stored in an ontological format, reducing data size for efficient querying. The integration process results in a semantically rich master geo-database for various roadside feature classes.\r\n\u2022\tThe system will allow for various types of queries, including spatial location-based, attribute-based, and aggregate queries.\r\n\u2022\tThis approach will be an ensemble of (i) data pre-processing (ii) data integration, schema development and 3D database development and (iii) data extraction and an integrated visualisation module.\r\n\u2022\tA system architecture diagram (simplified) is depicted in Figure 3 below.\r\n  \r\nFigure 3: Systems Architecture\r\n\u2022\tThe system architecture is entirely open-source, comprising multiple python packages including Geopandas, TensorFlow, Keras, PyTorch and NumPy, together with well-established database package PostgreSQL/PostGIS and server GeoServer. GeoServer is able to serve both geospatial data and HTML (www) files. The front end is under development, with software packages for 2D and 3D data including Leaflet and OL3-Cesium under evaluation.\r\n\r\n4.\tPreliminary results: a Leaflet-based map viewer\r\n\u2022\tData provided by the Cyvl system was processed using 16 GeoTIFF tiles into a GeoServer Image Mosaic. These geotiff files were transformed from .LAS point cloud files collected by Civiltech.\r\n\u2022 \tConfigured Web Map Service (WMS) rendering using coordinate reference system EPSG:28355\r\n\u2022 \tThe map added grayscale SLD for better visibility\r\n\u2022\tSee screenshot produced by Ryan Watson Consulting is shown below as Figure 4.\r\n \r\nFigure 4: Screenshot of 16 geotiff files as a mosaic\r\n5.\tConclusions\r\n\u2022\tThe developed WebGIS application effectively extracts and visualizes Mobile LiDAR survey data. This will help road authorities make more effective use of the data being collected.\r\n\u2022\tFuture research will focus on optimizing querying algorithms and expanding the application scope of the proposed framework.\r\n\u2022\tFuture applications may include complex queries such as assigning Pavement Condition Index (PCI) and road safety ratings such as the International Road Assessment Program (iRAP) star rating.\r\n\r\n6.\tReferences\r\n1.\tNational Cooperative Highway Research Program (US) (2025). Chapter 9: Typical components of mobile LIDAR systems. In: Transportation Research Board of the National Academies (ed.) Guidelines for the Use of Mobile LIDAR in Transportation Applications.  Available from: https://learnmobilelidar.com/guidance-document/chapter-9-background/.\r\n2.\tLuo, Z., Gao, L., Xiang, H. and Li, J. (2023). Road object detection for HD map: Full-element survey, analysis and perspectives. ISPRS Journal of Photogrammetry and Remote Sensing 197 2023/03/01/ 122-144 DOI: https://doi.org/10.1016/j.isprsjprs.2023.01.009\r\n3.\tAbro, G.-E. M., Zahid, F., Rajput, S., Azhar Ali, S. S. and Aromoye, I. A. (2025). Challenges and Innovations in 3D Object Recognition: The Integration of LiDAR and Camera Sensors for Autonomous Applications. Transportation Research Procedia 84 2025/01/01/ 618-624 DOI: https://doi.org/10.1016/j.trpro.2025.03.116",
+    "start_datetime": "2025-11-20T20:00:00Z",
+    "end_datetime": "2025-11-20T20:25:00Z",
+    "talk:code": "3NRE7Q",
+    "talk:guid": "121424d3-58da-5ea7-977f-f486e6557c90",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Use Cases and Applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG802",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "KADXM7",
+        "name": "Richard Watson",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/KADXM7/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-20T20:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/3NRE7Q/",
+      "title": "Development of an Information Extraction System for Mobile LiDAR Survey Data using Free and Open Source Technologies"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/3NRE7Q/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/KADXM7/",
+      "title": "Richard Watson"
+    },
+    {
+      "rel": "related",
+      "href": "https://learnmobilelidar.com/guidance-document/chapter-9-background/",
+      "title": "learnmobilelidar.com/guidance-document/chapter-9-background"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.1016/j.isprsjprs.2023.01.009",
+      "title": "doi.org/10.1016/j.isprsjprs.2023.01.009"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.1016/j.trpro.2025.03.116",
+      "title": "doi.org/10.1016/j.trpro.2025.03.116"
+    },
+    {
+      "rel": "related",
+      "href": "https://au.linkedin.com/in/richard-watson-7141629a",
+      "title": "linkedIn"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.ryanwatsonconsulting.com.au/dr-richard-watson",
+      "title": "RWC"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/3NRE7Q/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "paper-development-of-an-information-extraction-system-for-mo": {
+      "href": "https://talks.osgeo.org/media/foss4g-2025/submissions/3NRE7Q/resources/PAPER-Development-of-an-Information-Extraction-_Fd4d50H.pdf",
+      "type": "application/pdf",
+      "title": "PAPER-Development-of-an-Information-Extraction-System-for-Mobile-LiDAR-Survey-Data.pdf",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=v8EDs5kWjFE",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Development of an Information Extraction System for Mobile LiDAR Survey Data",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

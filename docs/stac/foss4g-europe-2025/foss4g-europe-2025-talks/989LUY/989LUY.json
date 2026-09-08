@@ -1,0 +1,143 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "989LUY",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "Serverless Rasters on the Web: The MapLibre COG Protocol extension",
+    "description": "In recent years, the approach to loading vector data in web browsers has shifted from traditional WMS/OGC methods to vector tiles, allowing for more efficient rendering and processing. With increasing bandwidth and more powerful CPU/GPU capabilities, handling data directly in the browser has become the preferred choice. The same evolution should apply to raster data: instead of preprocessing it on the server, a more efficient alternative is to load it directly as a Cloud-Optimized GeoTIFF (COG).\r\n\r\nThe MapLibre COG Protocol extension is a powerful tool for visualizing COGs directly in MapLibre GL JS. By leveraging HTTP range requests, it efficiently loads only the necessary portions of large raster datasets, reducing bandwidth usage and improving performance. This makes it ideal for handling high-resolution satellite imagery, elevation models, and other geospatial data. Since it enables direct cloud access from MapLibre, organizations can serve large datasets without expensive infrastructure, making it a cost-effective and scalable solution.\r\n\r\nAdditionally, the library supports dynamic adjustments, such as color manipulation and band mixing directly on the browser, providing greater flexibility for dynamic data visualization. As an open-source, community-driven project, it aligns with other open geospatial tools, standards and practices ensuring adaptability to future scenarios.\r\n\r\nBy combining efficiency, scalability, and ease of integration, the MapLibre COG Protocol simplifies the use of COGs in web mapping applications, making it an essential tool for developers, researchers, and GIS professionals working with cloud-based geospatial data.\r\n\r\nCustom protocol to load Cloud Optimized GeoTIFFs (COG) in Maplibre GL JS\r\nGithub: https://github.com/geomatico/maplibre-cog-protocol\r\nNPM: https://www.npmjs.com/package/@geomatico/maplibre-cog-protocol",
+    "start_datetime": "2025-07-16T14:30:00Z",
+    "end_datetime": "2025-07-16T15:00:00Z",
+    "talk:code": "989LUY",
+    "talk:guid": "24502e59-6fd5-5dc4-87d0-1b2c41bfae81",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "CA01 (TomTom)",
+    "talk:room_capacity": 130,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "N3GNA9",
+        "name": "Marti Pericay",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/N3GNA9/"
+      },
+      {
+        "code": "P8SNV3",
+        "name": "Oscar Fonts",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/P8SNV3/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-16T14:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/989LUY/",
+      "title": "Serverless Rasters on the Web: The MapLibre COG Protocol extension"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/989LUY/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/N3GNA9/",
+      "title": "Marti Pericay"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/P8SNV3/",
+      "title": "Oscar Fonts"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/geomatico/maplibre-cog-protocol",
+      "title": "github.com/geomatico/maplibre-cog-protocol"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.npmjs.com/package/@geomatico/maplibre-cog-protocol",
+      "title": "www.npmjs.com/package/@geomatico/maplibre-cog-protocol"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/989LUY/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://cloud.geomatico.es/s/rde7Yy4JG7jGM5g",
+      "title": "Presentation",
+      "roles": [
+        "data"
+      ]
+    },
+    "demos": {
+      "href": "https://labs.geomatico.es/maplibre-cog-protocol/",
+      "title": "Demos",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/cSgyDKDVPRzGrAf4vMx6S8",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Serverless Rasters on the Web: The MapLibre COG Protocol extension",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=t07CG90C4dM",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Serverless Rasters on the Web: The MapLibre COG Protocol extension",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

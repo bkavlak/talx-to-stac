@@ -1,0 +1,147 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "QURWVF",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Advancing water productivity monitoring: Waplugin for the analysis and validation of FAO WaPOR data in QGIS",
+    "description": "Remote sensing data have become indispensable for monitoring water resources and agricultural activities worldwide, offering comprehensive spatial and temporal information critical for understanding water availability, agricultural productivity, and environmental sustainability (Karthikeyan et al., 2020). The FAO Water Productivity Open Access Portal (WaPOR), developed by the Food and Agriculture Organization of the United Nations (FAO), provides extensive datasets derived from remotely sensed data (FAO, 2019). These datasets play a crucial role in water productivity monitoring, especially in regions facing water scarcity and intensive agricultural activity.\r\nHowever, the manual extraction and importation of WaPOR datasets from the WaPOR platform can be time-consuming and complex. Users typically navigate the platform to locate specific datasets, download the files, and then import them into their preferred Geographic Information System (GIS), such as QGIS. This process often requires users to repeat these steps for multiple datasets, consuming a significant amount of time. Additionally, ensuring the accuracy and reliability of remotely sensed data, including WaPOR datasets, requires validation against ground-based measurements (Wu et al., 2019). This validation process involves evaluating the correlation between remote sensing data and ground measurements to determine their suitability for further analysis and decision-making. However, this process involves a complex workflow and often requires multiple tools and software programs, further increasing the time and effort needed to process and analyze the data.\r\nTo address these challenges comprehensively, we developed WAPlugin, a comprehensive solution designed to streamline the entire process of accessing and analyzing FAO WaPOR datasets within the QGIS environment. WAPlugin is a user-friendly plugin that automates the retrieval of WaPOR datasets directly from the WaPOR platform, eliminating the need for users to navigate through the platform manually. The manual extraction and importation of WaPOR datasets into QGIS for analysis can be time-consuming, with users often spending around 30 minutes on each dataset. WAPlugin significantly reduces this time by automating the extraction and importation of WaPOR data directly into the QGIS environment, allowing users to reduce the time required for each dataset by approximately 83%. With an estimated time of just 5 minutes per dataset, WAPlugin saves users valuable time, enabling them to focus more on data analysis and decision-making.\r\nMoreover, WAPlugin not only streamlines the data acquisition process but also enhances the validation process by offering integrated functionality. Users can effortlessly upload ground observations and conduct comprehensive statistical analyses within the QGIS environment. This includes the calculation of a wide range of validation metrics, such as root mean square error (RMSE), mean absolute error (MAE), bias, coefficient of determination (R-squared), and scatter index. These metrics provide detailed insights into the accuracy and reliability of the WaPOR data by quantifying the level of agreement between remote sensing measurements and ground observations. By facilitating the calculation and visualization of these metrics directly within the QGIS environment, WAPlugin empowers users to make informed decisions regarding the suitability of the data for their specific applications. This built-in workflow not only saves time but also ensures the robustness of analyses, ultimately contributing to more accurate and reliable assessments of water productivity and agricultural activities.\r\nBy combining these tasks into a single, intuitive interface, WAPlugin significantly reduces the time and effort required for data acquisition and validation, enabling users to focus more on data analysis and decision-making. WAPlugin provides a complete solution for using FAO WaPOR datasets to analyze water productivity within the QGIS environment. By simplifying data retrieval and integrating validation functions, the plugin improves the accessibility and reliability of remotely sensed information.\r\nFurthermore, WAPlugin contributes to enhancing collaboration among researchers and practitioners in the field of water resources and agriculture. The streamlined process for accessing and analyzing WaPOR datasets promotes knowledge sharing and facilitates interdisciplinary research endeavors. This collaborative aspect is crucial for addressing complex challenges such as water management and agricultural sustainability, which require insights from diverse perspectives and expertise.\r\nIn addition to its practical utility, WAPlugin also serves as an educational tool, empowering users with the knowledge and skills to leverage remote sensing data for addressing real-world challenges. By providing a user-friendly interface and integrating essential functionalities, the plugin facilitates learning and capacity building in the field of geospatial analysis and environmental science.\r\n WAPlugin represents a significant advancement in the field of remote sensing and geospatial analysis, offering a practical solution for enhancing the accessibility and usability of WaPOR datasets. Its impact extends beyond technical efficiency to broader implications for research, collaboration, and education in the domains of water resources management, agricultural productivity, and environmental sustainability. As remote sensing technologies continue to evolve and play an increasingly vital role in addressing global challenges, tools like WAPlugin will remain essential for maximizing the potential of these technologies in informing evidence-based decision-making and fostering sustainable development.\r\nIn conclusion, WAPlugin stands as a pivotal tool for remote sensing applications for water resources management and agricultural productivity. Its ability to streamline data acquisition, analysis, and validation processes not only enhances efficiency but also promotes collaboration and knowledge exchange among stakeholders. As we navigate the complexities of sustainable resource management in a changing climate, WAPlugin exemplifies the transformative potential of technology in addressing pressing global challenges.",
+    "start_datetime": "2024-07-04T09:05:00Z",
+    "end_datetime": "2024-07-04T09:10:00Z",
+    "talk:code": "QURWVF",
+    "talk:guid": "2c842216-f4b5-5b51-81b2-ecf3f4542490",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Academic track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "Omicum",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "EZ7BJK",
+        "name": "Hans van der Kwast",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/EZ7BJK/"
+      },
+      {
+        "code": "KFKEEV",
+        "name": "WAPlugin Team",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/KFKEEV/"
+      },
+      {
+        "code": "SKVWNE",
+        "name": "Akshay Dhonthi",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/SKVWNE/"
+      },
+      {
+        "code": "QPGSHF",
+        "name": "Fabian Humberto Fonseca Aponte",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/QPGSHF/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-04T09:07:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/QURWVF/",
+      "title": "Advancing water productivity monitoring: Waplugin for the analysis and validation of FAO WaPOR data in QGIS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/QURWVF/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/EZ7BJK/",
+      "title": "Hans van der Kwast"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/KFKEEV/",
+      "title": "WAPlugin Team"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/SKVWNE/",
+      "title": "Akshay Dhonthi"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/QPGSHF/",
+      "title": "Fabian Humberto Fonseca Aponte"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/QURWVF/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/QURWVF/resources/WAPLUGIN_FOSS4GE_COMPRESSED_PoisNcf.pptx",
+      "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/sip2rXuncB4pgQVVS2J6y5",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Advancing water productivity monitoring: Waplugin for the analysis and ...",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=GwN8tc4J_Pg",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Advancing water productivity monitoring: Waplugin for the analysis and ...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

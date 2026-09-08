@@ -1,0 +1,131 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "ZRRKVE",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Farewell Web Mercator",
+    "description": "Most of today's web maps are using the [Web Mercator projection](https://en.wikipedia.org/wiki/Web_Mercator_projection). A major issue of Web Mercator is the distortion of area sizes far from the equator.\r\n\r\nIn 2018 Bojan \u0160avri\u010d, Tom Patterson and Bernhard Jenny published their work on the [Equal Earth map projection](https://www.equal-earth.com/), an equal-area projection for world maps.\r\n\r\nThis talk shows how to use the Equal Earth map projection for web mapping with different kind of data sources.\r\n\r\nA growing collection of information about using Equal Earth is available at [equal.bbox.earth](https://equal.bbox.earth/).",
+    "start_datetime": "2024-12-05T17:00:00Z",
+    "end_datetime": "2024-12-05T17:30:00Z",
+    "talk:code": "ZRRKVE",
+    "talk:guid": "e2a03005-e5d7-5266-8e21-89ddea23f3c1",
+    "talk:event": "foss4g-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room IV",
+    "talk:room_capacity": 100,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "HRNGH3",
+        "name": "Pirmin Kalberer",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/HRNGH3/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-05T17:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/ZRRKVE/",
+      "title": "Farewell Web Mercator"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/ZRRKVE/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/HRNGH3/",
+      "title": "Pirmin Kalberer"
+    },
+    {
+      "rel": "related",
+      "href": "https://en.wikipedia.org/wiki/Web_Mercator_projection",
+      "title": "Web Mercator projection"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.equal-earth.com/",
+      "title": "Equal Earth map projection"
+    },
+    {
+      "rel": "related",
+      "href": "https://equal.bbox.earth/",
+      "title": "equal.bbox.earth"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/ZRRKVE/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://pka.github.io/farewell-web-mercator/",
+      "title": "Slides",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/f7nU7ppjWjcMTDTqaa77py",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | Farewell Web Mercator",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=2q98EpKuZ4o",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | Farewell Web Mercator",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

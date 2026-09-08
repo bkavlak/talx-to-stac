@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "UETF3C",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Interactive web mapping with Equal Earth projection",
+    "description": "Most of today's web maps are using the Web Mercator projection, which has a major distortion of area sizes far from the equator. \r\n\r\nThis talk shows recent improvements in web mapping libraries for using the Equal Earth map projection in interactive web maps and discusses remaining obstacles.\n\nMost of today's web maps are using the [Web Mercator projection](https://en.wikipedia.org/wiki/Web_Mercator_projection). A major issue of Web Mercator is the distortion of area sizes far from the equator.\r\n\r\nIn 2018 Bojan \u0160avri\u010d, Tom Patterson and Bernhard Jenny published their work on the [Equal Earth map projection](https://www.equal-earth.com/), an equal-area projection for world maps. There is good support\r\nfor it in many mapping libraries and tools and cartographers use this projection regularly for world maps.\r\n\r\nEqual Earth has the disadvantage, that it is not well suited for large-scale maps. So zoomable web maps have to adapt the projection according to the current view scale. Most of them do this already by switching between a globe projection and Mercator.\r\nBut for thematic maps a globe is a bad solution since you only see half of the world at once. OpenLayers has recently added support for reprojection of vector tiles which allows using a dynamic projection dependening on the current view.\r\n\r\nThis talk shows how to use the Equal Earth map projection for web mapping with different kind of data sources. It shows what can be already done with current technoolgy and discusses remaining obstacles.",
+    "start_datetime": "2026-09-01T07:30:00Z",
+    "end_datetime": "2026-09-01T08:00:00Z",
+    "talk:code": "UETF3C",
+    "talk:guid": "33e3b300-d06c-5e32-9e28-bb9e841b413f",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room2",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "HRNGH3",
+        "name": "Pirmin Kalberer",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/HRNGH3/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T07:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/UETF3C/",
+      "title": "Interactive web mapping with Equal Earth projection"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/UETF3C/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/HRNGH3/",
+      "title": "Pirmin Kalberer"
+    },
+    {
+      "rel": "related",
+      "href": "https://en.wikipedia.org/wiki/Web_Mercator_projection",
+      "title": "Web Mercator projection"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.equal-earth.com/",
+      "title": "Equal Earth map projection"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/UETF3C/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

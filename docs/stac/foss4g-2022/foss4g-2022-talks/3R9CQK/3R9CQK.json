@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "3R9CQK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "State of Bridge for QGIS",
+    "description": "GeoCat Bridge for QGIS is a Python plugin that enables users to publish map layers as OGC data services (WM(T)S/WFS/WCS) to GeoServer or MapServer. It can also publish layer metadata to the GeoNetwork spatial catalog (CSW), linking service to metadata and vice versa, so that users can easily bind to a service from a catalog search result or find the relevant metadata for an exposed dataset.\r\nBridge can also export metadata, symbology and geodata to local files, so you can modify them and/or upload them manually.\r\n\r\nSince its first official release at the FOSS4G in Bucharest (2019), GeoCat has been gradually improving the plugin. One of the most requested and anticipated changes to Bridge for 2022 relates to GeoServer workspace publication. The next upcoming major release involves some major UX changes, which will allow more control over a workspace. For example, users can soon add (or overwrite) single layers to an existing workspace, whereas in older versions all workspace data was removed prior to publication. We would like to take the opportunity to discuss the upcoming release, highlighting this and other new features and improvements.",
+    "start_datetime": "2022-08-26T07:30:00Z",
+    "end_datetime": "2022-08-26T08:00:00Z",
+    "talk:code": "3R9CQK",
+    "talk:guid": "0f7549cc-5908-59d8-8ef8-26fcb7923d66",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Onice",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "XU7QJE",
+        "name": "Sander Schaminee",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/XU7QJE/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T07:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/3R9CQK/",
+      "title": "State of Bridge for QGIS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/3R9CQK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/XU7QJE/",
+      "title": "Sander Schaminee"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/3R9CQK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/3Nwk5NEe1K4rjQ9X2GKNN6",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | State of Bridge for QGIS",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=229Pzq5_SNs",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | State of Bridge for QGIS",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "AUMRSA",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Geospatial Data Gateway : Composing Spatial Features Across Databases and APIs",
+    "description": "A lightweight Geospatial Data Gateway built with Go that composes spatial features from multiple databases and APIs at request time, serving enriched GeoJSON through OGC API Features standard without upfront data preparation.\n\nIn our work with geospatial data, we store GeoJSON Features in MongoDB as the primary source, complete with geometry and standard properties. But when collaborating with multiple agencies, related data is scattered across different database systems and external APIs from various organizations. Whenever a complete picture is needed, teams must go through a process of gathering, preparing, and transforming data from each source before it can be used together, a process that is time-consuming, difficult to maintain, and must be repeated every time the upstream data changes.\r\nThis talk presents a lightweight Geospatial Data Gateway built with Go that takes a different approach. Instead of preparing data in advance, it composes it at request time. The gateway reads spatial features from MongoDB as the primary source, then performs virtual joins by fetching related properties from other data sources such as SQL Server, Elasticsearch, or external APIs. The composed result is served as a geospatial data service following the OGC API Features standard, with responses in GeoJSON format, making it immediately consumable by any OGC-compatible GIS client without custom integration.\r\nThis approach was born from real-world challenges of working across agencies where data lives in both databases and APIs across different systems. By composing at request time and delivering through a standards-compliant geospatial service, teams can build interoperable spatial APIs faster, with less infrastructure and fewer barriers to cross-agency collaboration.\r\nAll components are open source and designed to work with data you already have, exactly where it already lives.",
+    "start_datetime": "2026-09-02T02:00:00Z",
+    "end_datetime": "2026-09-02T02:30:00Z",
+    "talk:code": "AUMRSA",
+    "talk:guid": "e3557109-2ed0-5519-a4d3-cd6eb01c094f",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room4",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "PVQKRG",
+        "name": "Athitaya Phankhan",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/PVQKRG/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T02:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/AUMRSA/",
+      "title": "Geospatial Data Gateway : Composing Spatial Features Across Databases and APIs"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/AUMRSA/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/PVQKRG/",
+      "title": "Athitaya Phankhan"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/AUMRSA/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "KZBJ3M",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Processing and publishing big data with GeoServer and Azure in the cloud",
+    "description": "The amount of data we have to process and publish keeps growing every day, fortunately, the infrastructure, technologies, and methodologies to handle such streams of data keep improving and maturing. GeoServer is a web service for publishing your geospatial data using industry standards for vector, raster, and mapping. It powers a number of open source projects like GeoNode and geOrchestra and it is widely used throughout the world by organizations to manage and disseminate data at scale. We integrated GeoServer with some well-known big data technologies like Kafka and Databricks, and deployed the systems in Azure cloud, to handle use cases that required near-realtime displaying of the latest received data on a map as well background batch processing of historical data. \r\n\r\nThis presentation will describe the architecture put in place, and the challenges that GeoSolutions had to overcome to publish big data through GeoServer OGC services (WMS, WFS, and WPS), finding the correct balance that maximized ingestion performance and visualization performance. We had to integrate with a streaming processing platform that took care of most of the processing and storing of the data in an Azure data lake that allows GeoServer to efficiently query for the latest available features, respecting all the authorization policies that were put in place.  A few custom GeoServer extensions were implemented to handle the authorization complexity, the advanced styling needs, and big data integration needs.",
+    "start_datetime": "2022-08-26T10:00:00Z",
+    "end_datetime": "2022-08-26T10:30:00Z",
+    "talk:code": "KZBJ3M",
+    "talk:guid": "3378216f-e06a-54c9-8e6d-bb680257e054",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Verde",
+    "talk:room_capacity": 230,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "CXTHFZ",
+        "name": "Nuno Oliveira",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/CXTHFZ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T10:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/KZBJ3M/",
+      "title": "Processing and publishing big data with GeoServer and Azure in the cloud"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/KZBJ3M/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/CXTHFZ/",
+      "title": "Nuno Oliveira"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/KZBJ3M/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/7hHuybfByGNgi5TYRxEPPg",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Processing and publishing big data with GeoServer and Azure in the cloud",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=6aXdMkH7vWs",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Processing and publishing big data with GeoServer and Azure in the cloud",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

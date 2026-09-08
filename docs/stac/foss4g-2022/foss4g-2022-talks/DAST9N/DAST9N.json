@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "DAST9N",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Automating Generating a Web Map from Online Tabular Data: UC Davis Potential Worksite Exposure Interactive Web Map",
+    "description": "Tables are a great way to store data and this format is often used to make data available for the public on websites. While these tables technically meet their intended goal of sharing data, they do not make it easy to understand the spatial and temporal patterns in the data they contain. In this talk, I will demonstrate how an automated toolchain of web scraping and text processing in R, and interactive visualization in Leaflet is automated with GitHub Actions and applied to aid data interpretation and generate new insights from a daily-updated online tabular dataset using a case study of the University of California Davis\u2019 Potential Worksite Exposure Reporting data for COVID-19. \r\nIn the United States, California Assembly Bill 685 (AB685) requires employers in the state of California to notify employees of potential worksite exposures to COVID-19 to the geographic scale of individual buildings. The University of California Davis meets this requirement by listing any potential exposures on a website, giving the date reported, the dates of the potential exposure, and the building name as reported by the employee. To make a map from this data, the dates and building names had to be standardized and joined to a vector layer of campus buildings before they can be added to an interactive Leaflet map. Because the data updates daily, the whole process needed to be automated so no one had to run the scripts every day to update the map. The result is a map that gives uses a much clearer understanding of the spatial and temporal distribution of potential exposures to COVID-19 on campus.",
+    "start_datetime": "2022-08-25T15:50:00Z",
+    "end_datetime": "2022-08-25T15:55:00Z",
+    "talk:code": "DAST9N",
+    "talk:guid": "ae162299-69b7-57fa-95e8-e36566dd3050",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Room Limonaia",
+    "talk:room_capacity": 110,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "3VFHGJ",
+        "name": "Michele Tobias",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/3VFHGJ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T15:52:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/DAST9N/",
+      "title": "Automating Generating a Web Map from Online Tabular Data: UC Davis Potential Worksite Exposure Interactive Web Map"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/DAST9N/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/3VFHGJ/",
+      "title": "Michele Tobias"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/DAST9N/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/go1euwRqxjGnCveFQa681m",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Automating Generating a Web Map from Online Tabular Data: UC Davis Potential Worksite\u2026",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=5ZbZJWgOIwQ",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Automating Generating a Web Map from Online Tabular Data: UC Davis Potential Worksite\u2026",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

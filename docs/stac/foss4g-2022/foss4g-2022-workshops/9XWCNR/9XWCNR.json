@@ -1,0 +1,116 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "9XWCNR",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Manage your geospatial data with PostgreSQL/PostGIS",
+    "description": "PostgreSQL is a powerful, open source object-relational database system. It can be extended with PostGIS which allows you to store and handle geospatial data in the database.\r\nThis combination is very powerful and allows you many possibilities.\n\nEverything is possible with some magic lines of SQL. This workshop will help you with the first steps.\r\n\r\nMany processes that you did before with you Desktop GIS (f.e. intersection, union, buffer) can be easily done via SQL using PostGIS functions.\r\n\r\nIn the workshop you will get to know the databasemanagement sytem PostgreSQL and the extension PostGIS. There will be an introduction to PostgreSQL and SQL and you will learn SQL basics to create and modify data.\r\n\r\nYou also will get to know the concept of PostGIS and how geodata is stored in the database. You will get an overview about the enormous possibilities of PostGIS. In the workshops hands-ons we will concentrate on 2-dimensional data and we will use OSGeoLive for demonstration.\r\n\r\nYou will learn how to store, import and use geospatial data in the database. With QGIS you will discover how easy it is to bring your data to the database and out of it.\r\n\r\nYou will learn how to analyse and modify your data and learn how to make transformations, intersections, length/distance calculations, buffers, unions and more.\r\n\r\nEverything is possible with some magic lines of SQL.\r\n\r\nFind Workshop information and material: \r\n- https://trac.osgeo.org/osgeolive/wiki/Live_GIS_Workshop_Install\r\n- https://github.com/astroidex/foss4g-2022-workshop-manage-your-geospatial-data-with-postgresql-postgis-astrid-emde/blob/main/foss4g-2022-workshop-manage-your-geospatial-data-with-postgresql-postgis-astrid-emde.md\r\nWorkshop will use OSGeoLive Version 15.0.",
+    "start_datetime": "2022-08-22T07:00:00Z",
+    "end_datetime": "2022-08-22T11:00:00Z",
+    "talk:code": "9XWCNR",
+    "talk:guid": "a58fd021-1848-5f56-bf11-985f17a4fb08",
+    "talk:event": "foss4g-2022-workshops",
+    "talk:type": "Long Workshop",
+    "talk:language": "en",
+    "talk:room": "208",
+    "talk:room_capacity": 73,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "MF7PYA",
+        "name": "Astrid Emde",
+        "url": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/MF7PYA/"
+      },
+      {
+        "code": "DB33VU",
+        "name": "Enock Seth Nyamador",
+        "url": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/DB33VU/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-22T09:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/talk/9XWCNR/",
+      "title": "Manage your geospatial data with PostgreSQL/PostGIS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/talk/9XWCNR/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/MF7PYA/",
+      "title": "Astrid Emde"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/DB33VU/",
+      "title": "Enock Seth Nyamador"
+    },
+    {
+      "rel": "related",
+      "href": "https://trac.osgeo.org/osgeolive/wiki/Live_GIS_Workshop_Install",
+      "title": "trac.osgeo.org/osgeolive/wiki/Live_GIS_Workshop_Install"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/astroidex/foss4g-2022-workshop-manage-your-geospatial-data-with-postgresql-postgis-astrid-emde/blob/main/foss4g-2022-workshop-manage-your-geospatial-data-with-postgresql-postgis-astrid-emde.md",
+      "title": "github.com/astroidex/foss4g-2022-workshop-manage-your-geospatial-data-with-postgresql-postgis-astrid-emde/blob/main/foss4g-2022-workshop-manage-your-geospatial-data-with-postgresql-postgis-astrid-emde.md"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/talk/9XWCNR/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "workshop-material-pdf-1-4-mb": {
+      "href": "https://talks.osgeo.org/media/foss4g-2022-workshops/submissions/9XWCNR/resources/foss4g-2022-workshop-manage-your-geos_gzk4yNj.pdf",
+      "type": "application/pdf",
+      "title": "workshop material (.pdf) 1.4 MB",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-workshops"
+}

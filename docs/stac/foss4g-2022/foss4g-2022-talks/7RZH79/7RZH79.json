@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "7RZH79",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "geojson-vt for Highly Efficient Geojson Rendering in Open Layers",
+    "description": "GeoJSON is one of the most common geospatial data formats. In simple terms, it is an extension of JSON with geometry property. It is text-based and designed with human readability in mind. For the sake of being eye-convenient, there is a performance trade-off when the browser renders it. GeoJSON consists of features containing redundant property keys, causing the size to be bloated as the feature size goes up. Commonly, drawing GeoJSON with the size of tens megabytes would be slow. Showing a hundred megabytes of GeoJSON data on the browser would most likely crash the browser.\r\n \r\nWhen we are in complete control of the system: back end, front end, or anything in between, we could probably change the source format to something more efficient like Vector Tiles. But what if we can only tweak the front end?\r\n \r\nWhen we can only tweak the front end, geojson-vt comes to the rescue. Initially designed for Mapbox, we can pair it with OpenLayers to render GeoJSON on the fly as Vector Tiles. We will compare the performance between direct GeoJSON rendering versus geojson-vt for different types of GeoJSON. The usage is straightforward, making it a pretty easy solution to improve our map\u2019s performance. On top of that, we could still use Vector-specific Open Layers function like getFeatures when needed.",
+    "start_datetime": "2022-08-25T10:00:00Z",
+    "end_datetime": "2022-08-25T10:30:00Z",
+    "talk:code": "7RZH79",
+    "talk:guid": "eaa56738-20c9-54bf-9ef9-1c52bf47c0e3",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Modulo 0",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "CKGJBK",
+        "name": "Zulfikar Akbar Muzakki",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/CKGJBK/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T10:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/7RZH79/",
+      "title": "geojson-vt for Highly Efficient Geojson Rendering in Open Layers"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/7RZH79/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/CKGJBK/",
+      "title": "Zulfikar Akbar Muzakki"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/7RZH79/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=4DtENom5dno",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | geojson-vt for Highly Efficient Geojson Rendering in Open Layers",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

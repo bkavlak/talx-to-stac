@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "7WJNCB",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "State of GeoPandas and friends",
+    "description": "GeoPandas is one of the core packages in the Python ecosystem to work with geospatial vector data. By combining the power of several open source geo tools (GEOS/Shapely, GDAL/fiona, PROJ/pyproj) and extending the pandas data analysis library to work with geographic objects, it is designed to make working with geospatial data in Python easier. GeoPandas enables you to easily do operations in Python that would otherwise require desktop applications like QGIS or a spatial database such as PostGIS.\r\n\r\nThis talk will give an overview of recent developments in the GeoPandas community, both in the project itself as in the broader ecosystem of packages on which GeoPandas depends or that extend GeoPandas. We will highlight some changes and new features in recent GeoPandas versions, such as the new interactive explore() visualisation method, improvements in joining based on proximity, better IO options for PostGIS and Apache Parquet and Feather files, and others. But some of the important improvements coming to GeoPandas are happening in other packages. The Shapely 2.0 release is nearing completion, and will provide fast vectorized versions of all its geospatial functionalities. This will help to substantially improve the performance of GeoPandas. In the area of reading and writing traditional GIS files using GDAL, the pyogrio package is being developed to provide a speed-up on that front. Another new project is dask-geopandas, which is merging the geospatial capabilities of GeoPandas with the scalability of Dask. This way, we can achieve parallel and distributed geospatial operations.",
+    "start_datetime": "2022-08-24T12:15:00Z",
+    "end_datetime": "2022-08-24T12:45:00Z",
+    "talk:code": "7WJNCB",
+    "talk:guid": "33e07fa8-bfd8-513e-9440-f75a4ae19e5f",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Limonaia",
+    "talk:room_capacity": 110,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "FNXDSE",
+        "name": "Joris van den Bossche",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/FNXDSE/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T12:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/7WJNCB/",
+      "title": "State of GeoPandas and friends"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/7WJNCB/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/FNXDSE/",
+      "title": "Joris van den Bossche"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/7WJNCB/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/jq6daNafHeya2PMSzBQoSr",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | State of GeoPandas and friends",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=rNl_v0P27r8",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | State of GeoPandas and friends",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

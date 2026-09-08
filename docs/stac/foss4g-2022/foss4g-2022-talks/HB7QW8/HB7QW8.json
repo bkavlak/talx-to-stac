@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "HB7QW8",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Not too big, not too small: open source geospatial units that are just right",
+    "description": "Publicly available data tends to be spatially aggregated to administrative units, limiting the feasibility of nuanced analyses that reflect the natural state of communities and provide actionable insights for a wide range of stakeholders. While higher resolution data is generally available within government agencies, access for external researchers is limited due to well-established privacy concerns. Inspired by our own use case of developing a regional quality of life metric for neighborhoods in Denmark, our team at Aalborg University\u2019s Department of the Built Environment, in collaboration with data.org\u2019s Growth and Recovery Challenge, and Data Clinic, set out to develop and open source not only foundational granular spatial units and data that adhere to privacy laws, but also the accompanying methodology that has the potential for broad applicability in other countries. \r\n \r\nIn this presentation, we will demonstrate the methodology\u2019s generalizability, particularly across common European land use and geographical features, and show how the resulting high-resolution shape files and community data can become crucial tools for government decision-makers, community organizations, and researchers in their efforts to increase transparency and engage in practical, actionable research.\r\n \r\nFocused initially on our Denmark use case, we algorithmically create spatial units with minimum household and population counts from country-wide hectare cell level data. Our approach uses data on road networks and administrative boundaries to create socially meaningful component polygons. This is achieved by developing tools based on already existing open source packages available in R and Python. The hectare cells are then mapped onto the polygons and clustered using the max-p regionalization algorithm with constraints on the minimum population and household counts to arrive at the final set of spatial units. \r\n \r\nTo improve the accessibility of this data to not just researchers but also administrative decision-makers, community organizations, and the general public, we are developing an online tool to explore and visualize indicators within the resulting fine-grained regions such as disposable income, educational level, housing prices, migration rates, distances to public institutions, and labor market attachments in Denmark. Regional inequality in Denmark has increased over time, and with the help of this tool, we hope to provide the ability to study these key metrics both within and across municipal regions. In the development of the tool, we prioritize user feedback and common use cases to ensure both applicability and longevity.\r\n \r\nThis project has been developed with an open-source mindset by: 1) creating flexible open data resources that can adapt to a wide range of public use cases 2) open sourcing the methodology for use in other countries/regions and 3) enabling the use of existing open data and tools such as Open Street Maps, R and Python in the pipeline.\r\n \r\nWe firmly believe that the project has the potential to improve knowledge sharing and collaboration between GIS experts, decision-makers, researchers and the general public not only in Denmark, but also in Europe and beyond.",
+    "start_datetime": "2022-08-25T15:55:00Z",
+    "end_datetime": "2022-08-25T16:00:00Z",
+    "talk:code": "HB7QW8",
+    "talk:guid": "64c83692-3b6f-5ad8-a7c0-045c30533f75",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Room 4",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "T3BBJV",
+        "name": "Sixten Maximillian Thestrup",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/T3BBJV/"
+      },
+      {
+        "code": "WS7A8J",
+        "name": "Elise Stenholt S\u00f8rensen",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/WS7A8J/"
+      },
+      {
+        "code": "L8U3HH",
+        "name": "Erin Stein",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/L8U3HH/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T15:57:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/HB7QW8/",
+      "title": "Not too big, not too small: open source geospatial units that are just right"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/HB7QW8/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/T3BBJV/",
+      "title": "Sixten Maximillian Thestrup"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/WS7A8J/",
+      "title": "Elise Stenholt S\u00f8rensen"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/L8U3HH/",
+      "title": "Erin Stein"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/HB7QW8/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=NzIsVYSkx8Y",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Not too big, not too small: open source geospatial units that are just right",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

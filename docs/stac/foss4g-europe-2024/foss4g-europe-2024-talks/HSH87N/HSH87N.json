@@ -1,0 +1,116 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "HSH87N",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Geocint: Open Source Geospatial Data Processing Pipeline",
+    "description": "For data-driven organizations, it is critical to have reliable ETL processes. As an open-source tool, Geocint can help organizations and individuals who work with geospatial data and need to process it efficiently.\r\nGeocint is an ETL pipeline for processing geospatial data. At Kontur we have been using Geocint internally for a long time \u2013 to build the Kontur Population and Kontur Boundaries datasets. We also used it to prepare data for the Disaster Ninja app before deciding to make it reusable by other organizations in the GIS field.\r\nWe built the Geocint pipeline around PostgreSQL, PostGIS, and h3-pg (PostgreSQL bindings for H3). Thus, Geocint combines the powerful data processing features of PostgreSQL with the efficient geometric operations from PostGIS and the key benefits of using the H3 grid system, such as high-performance lookups and a compact storing format.",
+    "start_datetime": "2024-07-05T11:00:00Z",
+    "end_datetime": "2024-07-05T11:30:00Z",
+    "talk:code": "HSH87N",
+    "talk:guid": "46b2baf8-24b9-5b7b-a3cb-91b4efce04ef",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "GEOCAT (301)",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "EGDX3Q",
+        "name": "Andrew Valasiuk",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/EGDX3Q/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-05T11:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/HSH87N/",
+      "title": "Geocint: Open Source Geospatial Data Processing Pipeline"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/HSH87N/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/EGDX3Q/",
+      "title": "Andrew Valasiuk"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/HSH87N/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "powerpoint-slised-with-speaker-notes-and-bunch-of-memes": {
+      "href": "https://docs.google.com/presentation/d/1YRgmKLXozCpXnP_Tat5vZrKJq52YoXLFnzmZ-GGs8N8/edit?usp=sharing",
+      "title": "PowerPoint Slised with speaker notes and bunch of memes",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/hdqjrPrSfsf43TdYRQdSCb",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Geocint: Open Source Geospatial Data Processing Pipeline",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=uKF0xNY_1iw",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Geocint: Open Source Geospatial Data Processing Pipeline",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

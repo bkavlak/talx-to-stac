@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "QMWJTZ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Eyes-Free Navigation: OSM-Powered Spatial Audio and AI Navigation for Visually Impaired Users.",
+    "description": "Cogniscape is an open source iOS and Android app combining OpenStreetMap pedestrian data, spatial audio beacons, and on device AI obstacle detection for eyes free navigation. This talk covers the OSM data pipeline, offline routing, binaural audio, and real time computer vision for visually impaired users.\n\nMost navigation apps are built for people who can see the screen. Cogniscape is built for people who cannot. It is an open-source iOS and Android application that combines OpenStreetMap pedestrian data, 3D spatial audio beacons, and on-device AI obstacle detection \u2014 enabling visually impaired users to navigate real-world environments entirely without screen interaction.\r\nThe spatial audio layer is inspired by Microsoft's SoundScape research. Audio beacons placed at destinations and waypoints shift left, right, or ahead based on the phone's compass bearing. Face your destination and the sound comes from in front. Turn away and it drifts behind you. The user always knows where they are going \u2014 by listening, not looking. On top of this, a second AI layer continuously scans the camera feed and delivers immediate directional audio warnings when obstacles \u2014 steps, poles, parked vehicles, uneven surfaces \u2014 are detected ahead. Both layers run fully on-device with no network dependency, preserving privacy and full offline capability.\r\nThe talk is structured in three parts:\r\nPart 1 \u2014 OSM as an audio data source. Accessibility-relevant OSM tags \u2014 sidewalk, crossing, tactile_paving, kerb, surface \u2014 are inconsistently mapped globally, with South Asian cities among the least covered. I walk through how OSM data is extracted via Overpass API, transformed into a pedestrian routing graph, and enriched with POI data for beacon placement. Building Cogniscape exposed specific data quality gaps, and I describe the targeted mapathon workflows we designed to address them at a community level.\r\nPart 2 \u2014 Offline architecture, spatial audio, and on-device AI. Routing uses embedded GraphHopper with OSM PBF extracts. Tiles are served via MapLibre Native with MBTiles offline packs. The audio engine uses Android Oboe and iOS AVAudioEngine with HRTF approximation for binaural rendering, with azimuth computed from compass and accelerometer sensor fusion. Obstacle detection runs via TensorFlow Lite on Android and Core ML on iOS \u2014 same model, two runtimes, no cloud calls.\r\nPart 3 \u2014 Cross-platform design for non-visual interaction. Shipping on both Android and iOS required reconciling TalkBack and VoiceOver interaction models, two spatial audio APIs, and two on-device ML runtimes \u2014 while maintaining a single shared OSM data and routing layer. I cover the architectural decisions that enabled cross-platform parity and what building for blind users teaches any developer about accessible geospatial tool design.\r\nOpen source projects: OpenStreetMap, Overpass API, GraphHopper, MapLibre Native, Android Oboe, TensorFlow Lite, OSMAnd.",
+    "start_datetime": "2026-09-02T07:30:00Z",
+    "end_datetime": "2026-09-02T08:00:00Z",
+    "talk:code": "QMWJTZ",
+    "talk:guid": "4c6de1fd-0a62-5342-8172-4411da4b851c",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Dahlia1",
+    "talk:room_capacity": 140,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RAJ8S9",
+        "name": "Subhash Dulla",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/RAJ8S9/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T07:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/QMWJTZ/",
+      "title": "Eyes-Free Navigation: OSM-Powered Spatial Audio and AI Navigation for Visually Impaired Users."
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/QMWJTZ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/RAJ8S9/",
+      "title": "Subhash Dulla"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/QMWJTZ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

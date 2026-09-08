@@ -1,0 +1,129 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "EBJSBX",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Introducing Wayfarer - a Python Routing Library",
+    "description": "Compass Informatics [1] is pleased to announce the open sourcing of its routing library Wayfarer [2][3]. \r\n\r\nWayfarer is a pure Python library that allows spatial features to be loaded into a NetworkX [4] network format. Once in this format the data can be manipulated and analysed using the huge range of graph algorithms in NetworkX. \r\n\r\nThe Wayfarer library provides a number of helper functions for example to calculate routes, split edges, find ends of paths, and retrieve features by keys.\r\n\r\nThe talk will outline the use cases for the library, and when it may be suitable to use rather than alternatives such as pgRouting. Case studies will be presented including Wayfarer\u2019s use in Ireland's Pavement Management System to help designate works and surveys on the road network. Wayfarer is also currently used for an Environmental Protection Agency project to create fully connected river networks in Ireland. \r\n\r\n[1] https://compass.ie/\r\n[2] https://pypi.org/project/wayfarer/\r\n[3] https://github.com/compassinformatics/wayfarer\r\n[4] https://networkx.org/",
+    "start_datetime": "2022-08-26T10:35:00Z",
+    "end_datetime": "2022-08-26T10:40:00Z",
+    "talk:code": "EBJSBX",
+    "talk:guid": "c95e6ca7-f632-5c7e-b782-3afc113c7af3",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Modulo 0",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "L7JZRE",
+        "name": "Seth Girvin",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/L7JZRE/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T10:37:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/EBJSBX/",
+      "title": "Introducing Wayfarer - a Python Routing Library"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/EBJSBX/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/L7JZRE/",
+      "title": "Seth Girvin"
+    },
+    {
+      "rel": "related",
+      "href": "https://compass.ie/",
+      "title": "compass.ie"
+    },
+    {
+      "rel": "related",
+      "href": "https://pypi.org/project/wayfarer/",
+      "title": "pypi.org/project/wayfarer"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/compassinformatics/wayfarer",
+      "title": "github.com/compassinformatics/wayfarer"
+    },
+    {
+      "rel": "related",
+      "href": "https://networkx.org/",
+      "title": "networkx.org"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/EBJSBX/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/vpVDSLTTgFC3xEeHDXyqG3",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Introducing Wayfarer - a Python Routing Library",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=L7CFarhdDbg",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Introducing Wayfarer - a Python Routing Library",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

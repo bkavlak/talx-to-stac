@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "CEUSSA",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "GeoMapFish, QGIS and TEKSI Modules: A Comprehensive Open-Source Solution for Swiss Surveying Offices",
+    "description": "Swiss surveying offices manage a variety of geospatial data to support public administration and infrastructure planning. Open-source solutions provide an alternative to proprietary systems, offering flexibility and interoperability. This presentation explores the combined use of GeoMapFish, QGIS, and TEKSI modules to address the specific needs of surveying offices, particularly in managing and sharing spatial data.\r\n\r\nGeoMapFish is a WebGIS platform designed for developing interactive mapping applications. It supports multiple geospatial data sources and integrates various cartographic engines such as MapServer, QGIS Server, and GeoServer. Its architecture allows municipalities, cantons, and private organizations to visualize and distribute geodata through a web interface while maintaining fine-grained access control. In Switzerland, several entities use GeoMapFish to operate public and professional geoportals.\r\n\r\nQGIS is widely used as a desktop GIS tool for geodata analysis, editing, and visualization. Its modular architecture enables users to customize workflows, ensuring compatibility with national and international geospatial standards. The strong open-source community behind QGIS continuously enhances its capabilities, making it a widely accepted tool for geospatial professionals.\r\n\r\nTEKSI modules extend GIS capabilities to support public infrastructure management. These modules provide specific tools for potable water and wastewater system monitoring. The TEKSI Eau Potable module allows tracking of water supply networks, while TEKSI Assainissement facilitates wastewater infrastructure management. Built on QGIS and PostgreSQL/PostGIS, these modules offer structured workflows for data organization and decision-making.\r\n\r\nThe integration of these tools provides a structured approach for managing geospatial data in surveying offices. It supports multi-communal collaboration, enables the analysis and publication of geographic information, and enhances infrastructure management processes. This presentation will highlight concrete applications of this integrated system in Swiss surveying offices and discuss its benefits and challenges in operational contexts.",
+    "start_datetime": "2025-07-18T14:30:00Z",
+    "end_datetime": "2025-07-18T15:00:00Z",
+    "talk:code": "CEUSSA",
+    "talk:guid": "0c65a8bb-a90e-5510-99e2-1cc26d1802ec",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "SA01",
+    "talk:room_capacity": 130,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "ATJDWY",
+        "name": "Yves Bolognini",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/ATJDWY/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-18T14:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/CEUSSA/",
+      "title": "GeoMapFish, QGIS and TEKSI Modules: A Comprehensive Open-Source Solution for Swiss Surveying Offices"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/CEUSSA/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/ATJDWY/",
+      "title": "Yves Bolognini"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/CEUSSA/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-pdf": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/CEUSSA/resources/GeoMapFish_QGIS_and_TEKSI_Modules_wAdTjxJ.pdf",
+      "type": "application/pdf",
+      "title": "Presentation (PDF)",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/rQ4wwNX7HndcadhCytQPoB",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | GeoMapFish, QGIS and TEKSI Modules: A Comprehensive Open-Source Solution for ...",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=iQQslA3pXx4",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | GeoMapFish, QGIS and TEKSI Modules: A Comprehensive Open-Source Solution for ...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

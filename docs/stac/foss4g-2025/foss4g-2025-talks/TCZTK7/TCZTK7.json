@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "TCZTK7",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Performance Comparison of an Offline PMTiles-Powered Map Server Running on a Raspberry Pi for Decentralized Geospatial Access",
+    "description": "UNVT Portable, a Raspberry Pi server, streams PMTiles from a microSD card (up to 512 GB) without internet or database. Preloaded with OSM Planet, global DEM, and thematic layers, it\u2019s benchmarked against cloud solutions for latency, throughput, energy, and storage efficiency, proving effective for UN field operations.\n\n### 1. Introduction\r\nModern web-mapping stacks like Google Maps and Mapbox deliver rich cartography by pushing pre-rendered tiles from cloud storage into a browser. Formats like COG and PMTiles have improved access but still rely on data centers with steady fiber, power, and credit cards. In regions with unstable connectivity, this model fails.\r\n\r\nDiscussions by Cedeno Jimenez et al. (2022) and Rawal et al. (2024) highlight the need for decentralized geospatial information using blockchain and NFTs. However, even open datasets like OpenStreetMap often rely on centralized servers. The necessity of offline web maps, as noted by Esmail (2019), Paul et al. (2019), and Olyazadeh et al. (2017), has not been practically implemented. This study aims to measure the performance of a mobile web map server for UN operations.\r\n\r\n### 2. Research Objectives\r\nUNVT Portable aims to quantify the capabilities of a mobile web map server. The study has four objectives:\r\n\r\na. Design a reproducible hardware-software recipe to turn a Raspberry Pi into a zero-configuration tile server.\r\n\r\nb. Construct a reference dataset\u2014global OSM Planet vector tiles, Global DEM, Satellites/Aerial photos, and thematic layers\u2014packed into a PMTiles archive on a 512 GB MicroSD card.\r\n\r\nc. Benchmark PMTiles against a canonical S3/CloudFront deployment across latency, throughput, energy, and storage footprint.\r\n\r\nd. Evaluate operational suitability for UN field missions requiring 24/7 availability under erratic connectivity and power budgets.\r\n\r\n### 3. System Architecture\r\n\r\n**Hardware:**\r\n- Raspberry Pi 5 (8 GB RAM) with a 512 GB MicroSD Card\r\n- 2.4 GHz Wi-Fi in access-point mode, emitting SSID: UNVTportable\r\n- 20,000 mAh USB power bank capable of Power Delivery at 5V / 3A\r\n\r\n**Software:**\r\n- Raspberry Pi OS LITE (64-bit)\r\n- Nginx\r\n- Network Manager for local Wi-Fi\r\n- MapLibre GL JS\r\n\r\n### 4. Method\r\nWe measured the access performance of raster and vector tile data stored as PMTiles files on an SD card within a Raspberry Pi, evaluating latency, throughput, and other factors. This was compared to internet-based access to raster and vector tiles in a typical cloud environment. We also compared the access performance of PMTiles against raw raster and vector tiles extracted into folders as XYZ tiles. Field tests determined if 24-hour continuous operation is feasible using a standard mobile battery, even without internet connectivity and during power outages. We also tested usability in environments affected by natural disasters or lacking infrastructure.\r\n\r\n### 5. Results\r\nBoth raster and vector tile data stored in PMTiles format on a Raspberry Pi's SD card demonstrated access performance (latency and throughput) equal to or surpassing that of tile datasets hosted in online cloud environments. When comparing access performance in a local environment between PMTiles-format tile data and raw raster and vector tiles extracted into folders as XYZ tiles, PMTiles was found to be sufficiently effective. Field tests confirmed that continuous operation for over 14 hours is possible with consumer-grade mobile batteries of 20,000 mAh or higher.\r\n\r\n### 6. Discussion\r\nThe PMTiles format excels in offline environments due to its single-file architecture, consolidating millions of HTTP requests into efficient linear range requests. This design is advantageous on microSD cards, where random seek times can impact performance. By minimizing these seeks, PMTiles delivers faster response times, enhancing user-perceived speed in resource-constrained settings. The format\u2019s streamlined structure simplifies critical field operations, such as checksum verification and data copying, reducing the risk of errors during data transfers. PMTiles\u2019 compatibility with lightweight hardware like Raspberry Pi optimizes storage efficiency and reduces power consumption, making it ideal for decentralized, offline mapping applications, including UN field operations.\r\n\r\n### 7. Conclusion\r\nThe UNVT Portable system showcases the potential of a \u20ac200, pocket-sized Raspberry Pi-based computer to provide global-scale, interactive mapping capabilities with performance rivaling cloud-based solutions, all while operating entirely offline. Comprehensive benchmarks validate its exceptional performance, demonstrating low latency and significant throughput advantages over traditional XYZ raw tile formats. The system achieves an impressive full day\u2019s battery life using standard commodity power banks, enhancing its practicality for extended field use. These results represent a pivotal advancement toward decentralizing geospatial data access, transforming interactive maps from a cloud-dependent privilege into a universally accessible resource. UNVT Portable fosters egalitarian access to critical geospatial information, empowering communities, humanitarian workers, and volunteers in remote or underserved regions to leverage mapping technology effectively.",
+    "start_datetime": "2025-11-19T01:30:00Z",
+    "end_datetime": "2025-11-19T01:55:00Z",
+    "talk:code": "TCZTK7",
+    "talk:guid": "d60868e6-d6bb-5600-a6e6-b0db8e6f91a2",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Academic",
+    "talk:type": "Academic Paper",
+    "talk:language": "en",
+    "talk:room": "WG802",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "KZQBHV",
+        "name": "Taichi Furuhashi",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/KZQBHV/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-19T01:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/TCZTK7/",
+      "title": "Performance Comparison of an Offline PMTiles-Powered Map Server Running on a Raspberry Pi for Decentralized Geospatial Access"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/TCZTK7/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/KZQBHV/",
+      "title": "Taichi Furuhashi"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/TCZTK7/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

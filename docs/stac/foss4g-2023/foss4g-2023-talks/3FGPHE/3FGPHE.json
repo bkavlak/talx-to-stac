@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "3FGPHE",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "EuroGEOSS Prototype Development",
+    "description": "Europe is a world leader in Earth Observation (EO) and climate change studies. An outstanding example is Copernicus, the most ambitious EO programme worldwide, which in addition to being an independent system is also a strong component of the Group on Earth Observation (GEO), an intergovernmental partnership aiming to improve the availability, access and use of open EO to support policy and decision making in a wide range of sectors.\r\nSince 2005, the Global Earth Observation System of System (GEOSS) has been a key initiative by GEO to integrate platforms and connect existing infrastructures using common standards for sharing and using digital resources. Europe is delivering a regional contribution to GEO, named EuroGEO, by covering the last mile of the EO value chain. However, this regional node lacks the effective interoperability needed to implement a European ecosystem to fully support the policy cycle. \r\nTo fill this gap, the development of a sustainable EuroGEOSS ecosystem connecting many European assets including data, sensor networks, analytical methods and models, computing infrastructures, products and services that support European objectives (i.e. a EuroGEOSS ecosystem), is of a vital importance in the evolution of the initiative. \r\nThe purpose of this talk is to present the rationale and the development status of a EuroGEOSS prototype, that the European Commission\u2019s Joint Research Centre is conceptualizing.\r\nStarting with the analysis of use cases with the highest European policy priority, five of them were identified as the prominent ones to be replicated. Along with the replication of use cases, a monitoring framework of issues and gaps identified in the life cycle will be populated meanwhile. \r\nThe EuroGEOSS prototype architecture will implement the following patterns: a) Portal and Single Sign On; b) Meta catalogue of the services (data, models, infrastructures, etc.); c) High flexibility and modularity level; d) Adoption of the Machine Learning operation (MLOps) methodology. \r\nThe EuroGEOSS ecosystem is not conceived as another platform. It will rather be a virtual platform leveraging on: a) open sources and open interoperability standards (normative and de facto); b) interconnection of novel technologies; c) inclusion of relevant European communities such as those around EuroGEO and INSPIRE; d) Scalable interoperable infrastructures: CREODIAS, OpenEO, etc.\r\nThe development of a EuroGEOSS prototype will last until the end of 2024, documenting the status of gaps, challenges in the available data and infrastructure, as well as assisting a future scenario and business model and a possible operationalization.",
+    "start_datetime": "2023-06-29T10:00:00Z",
+    "end_datetime": "2023-06-29T10:30:00Z",
+    "talk:code": "3FGPHE",
+    "talk:guid": "ac482a26-cce9-5cd1-ae26-40ca986092e0",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Open source geospatial \u2018Made in Europe\u2019",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT F / N212 - Floor 3",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "GG93KP",
+        "name": "Albana KONA",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/GG93KP/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-29T10:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/3FGPHE/",
+      "title": "EuroGEOSS Prototype Development"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/3FGPHE/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/GG93KP/",
+      "title": "Albana KONA"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/3FGPHE/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/dCq4Q6SasHRpziraXEgyqV",
+      "type": "text/html",
+      "title": "2023 | EuroGEOSS Prototype Development  - Albana KONA",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=RWSRd7jPOKo",
+      "type": "text/html",
+      "title": "2023 | EuroGEOSS Prototype Development  - Albana KONA",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

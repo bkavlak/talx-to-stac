@@ -1,0 +1,60 @@
+{
+  "type": "Collection",
+  "id": "foss4g-2022",
+  "stac_version": "1.1.0",
+  "description": "FOSS4G 2022 Firenze: 328 talks, 44 workshops, 75 academic.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "child",
+      "href": "./foss4g-2022-talks/collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "child",
+      "href": "./foss4g-2022-workshops/collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "child",
+      "href": "./foss4g-2022-academic/collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    }
+  ],
+  "title": "FOSS4G 2022 Firenze",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          11.2558,
+          43.7696,
+          11.2558,
+          43.7696
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2022-08-22T07:00:00Z",
+          "2022-08-28T17:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "other"
+}

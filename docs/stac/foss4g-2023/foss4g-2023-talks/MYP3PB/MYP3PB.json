@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "MYP3PB",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Enhancing Researchers' Data FAIR Experience for producing Policy-Relevant Insights through STAC Open Source Software and Specifications",
+    "description": "The Joint Research Centre (JRC) of the European Commission is committed to providing independent, evidence-based science and knowledge that supports EU policies. To facilitate this, the JRC has developed the Big Data Analytics Platform (BDAP), a data platform that allows data scientists to easily access, analyze, view, and reuse scientific data to generate and communicate evidence-based insights and foresight. \r\n\r\nBDAP hosts spatiotemporal data at petabyte scale from various domains, including elevation, meteorological, administrative, and satellite Earth Observation data. Its architecture leverages almost entirely on Free and Open Source software and tools. The platform offers a cluster environment with both CPU and GPU machines, allowing for large-scale data processing. Additionally, users can visualize and interactively analyze their data through Jupyter Notebooks and Voil\u00e0 dashboards. \r\n\r\nRecently, BDAP implemented the Spatio Temporal Asset Catalog (STAC) specification to describe its data. The catalog hosts different types of data, which share the basic STAC fields. Thanks to the STAC modularity each data type can be described with its own STAC extensions. \r\n\r\nBDAP reuses and benefits from various STAC Free and Open Source software and tools. In particular, from the STAC ecosystem it implements the STAC Browser for displaying and searching data, it provides STAC compliant APIs through STAC FAST-API backed by an elasticsearch instance, and uses PySTAC as a Python library for working with STAC metadata. This implementation helps BDAP in its FAIRification process improving users' search, access, and reuse of data.  \r\n\r\nIn this presentation, the design and implementation of the STAC compliant set of software tools will be described. Some real use cases will be presented, with an example on the creation of analysis ready data cubes from Sentinel-2 Earth Observation satellite imagery.",
+    "start_datetime": "2023-06-28T14:00:00Z",
+    "end_datetime": "2023-06-28T14:30:00Z",
+    "talk:code": "MYP3PB",
+    "talk:guid": "663ee323-285f-5e24-bffe-7ab37e690b16",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Drini",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "AYUGGY",
+        "name": "Chiara Chiarelli",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/AYUGGY/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T14:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/MYP3PB/",
+      "title": "Enhancing Researchers' Data FAIR Experience for producing Policy-Relevant Insights through STAC Open Source Software and Specifications"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/MYP3PB/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/AYUGGY/",
+      "title": "Chiara Chiarelli"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/MYP3PB/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

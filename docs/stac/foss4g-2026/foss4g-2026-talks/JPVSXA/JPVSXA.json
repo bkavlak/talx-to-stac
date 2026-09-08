@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "JPVSXA",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Using Building Exposure Taxonomies in HOT Workflows",
+    "description": "We share how the Open Exposure Taxonomy integrates several open data taxonomies and improves the quality of data for disaster risk.\n\nGeospatial exposure data is essential for disaster risk assessment, but it is often fragmented across independent taxonomies such as the Prompt Assessment of Global Earthquakes for Response (PAGER), the Global Earthquake Model (GEM), the OASIS Loss Modelling Framework (OASIS LMF), and the Building Stock Observatory (BSO). Each framework provides valuable information, but differences in terminology and structure limit integration and reuse.\r\n\r\nOpenStreetMap (OSM) offers a strong foundation to address this challenge. It supports an open ecosystem focused on disaster risk management, with tools such as the iD Editor, the HOT Tasking Manager, and Field Tasking Manager (FieldTM) for coordinated field campaigns. Combined with mobile data collection tools such as OpenDataKit (ODK) and QField, OSM enables large-scale, collaborative mapping across both remote and in-situ workflows.\r\n\r\nThe Open Exposure Taxonomy (OXT) builds on this foundation by providing a structured way to integrate exposure-related information into the OSM ecosystem. It uses a YAML-based schema to define building attributes in a consistent and machine-readable format. This allows concepts from different exposure taxonomies to be aligned and translated while remaining compatible with OSM tagging practices. Through exporters and mappers, the taxonomy can be transformed into documentation, survey forms, and editor presets, enabling direct use within OSM workflows.\r\n\r\nOSM focuses on features that can be observed in the field, while exposure models rely on attributes that are often derived from statistical sources. OXT bridges this gap by separating observable attributes from exposure attributes. Observable properties follow standard OSM tagging, while exposure-related values are represented using controlled ranges that reflect uncertainty. In this way, OSM serves as both a semantic and infrastructural backbone, and OXT extends it with additional structure without altering core mapping principles.\r\n\r\nIn practice, OXT integrates into HOT workflows through forms and presets generated from the taxonomy. Contributors can map buildings using standard OSM tags and, where appropriate, enrich them with additional exposure information collected through tools such as ODK or QField. OSM-relevant attributes are contributed directly to the open dataset, while exposure-related information, particularly data that may be sensitive or derived, is managed separately and used for analysis only in aggregated form.\r\n\r\nBy embedding this approach into existing OSM tools, contributors can work within familiar environments while producing more consistent data. The resulting datasets can be exported and directly used in exposure modeling platforms such as the Global Dynamic Exposure (GDE) model, enabling rapid estimation of risk, improved post-event assessments, and more consistent integration between field data collection and analytical workflows.",
+    "start_datetime": "2026-09-02T05:00:00Z",
+    "end_datetime": "2026-09-02T05:30:00Z",
+    "talk:code": "JPVSXA",
+    "talk:guid": "7dc5dd1f-9b69-5b00-a57d-351b0ad4d49a",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room4",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "MM3EMS",
+        "name": "Sam Woodcock",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/MM3EMS/"
+      },
+      {
+        "code": "NFG8VH",
+        "name": "Doren Calliku",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/NFG8VH/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T05:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/JPVSXA/",
+      "title": "Using Building Exposure Taxonomies in HOT Workflows"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/JPVSXA/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/MM3EMS/",
+      "title": "Sam Woodcock"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/NFG8VH/",
+      "title": "Doren Calliku"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/JPVSXA/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

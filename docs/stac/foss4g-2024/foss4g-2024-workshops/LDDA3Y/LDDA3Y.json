@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "LDDA3Y",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Workshop on Use of GPSSample, a tool for Enumeration, Navigation and Sampling in Health Surveys",
+    "description": "What is GPSSample App?\r\nGPSSample is an Android-based mobile application to facilitate rapid statistical sampling and navigation back to selected locations in the field when conducting household surveys and rapid assessments. The app is designed to streamline the enumeration and statistical sampling process and can be used in areas with limited internet and cell phone connectivity. \r\n\r\nWhy is it important?\r\nThe 2018 World Health Organization guidance for vaccination coverage cluster surveys recommends that routine immunization coverage surveys use probability sampling methods and generally use census data derived from enumeration areas as the sampling frame. \r\n\u2022\tExisting process: As many countries lack up-to-date population sampling frames, teams are often sent to map and list households (HHs) in enumeration areas using a set of devices. Upon returning to an area with wifi, data from each device must be uploaded to a server, collated, and reviewed to ensure that no sections of the enumeration areas (EAs) were missed during mapping. Once the sampling frame is verified, a sample of HHs can be drawn and another team is deployed to navigate to selected HHs to conduct the coverage survey. \r\n\u2022\tImproved process: By streamlining this enumeration, statistical sampling, and survey process into a single field visit, GPSSample can substantially reduce time and costs associated with conducting coverage surveys, which has broad benefits to ministries of health and public health partners. In GPSSample, teams can collect foundational public health systems data used in providing services to the most vulnerable populations such as locations of health facilities and vaccination points and missing villages in hard-to-reach places that are often overlooked in microplanning efforts for immunization services.\r\n\r\nHow does it work?\r\n\r\nEnumeration teams can use GPSSample to rapidly enumerate HHs in an EA. Teams can send encrypted data to a supervisor via new local-only mobile hotspot QR code technology developed for GPSSample. The supervisor easily presses a button to generate a simple random sample from eligible HHs and sends the list of selected HHs back to the teams. Using GPSSample, teams can navigate back to the selected HHs to conduct surveys. GPSSample integrates seamlessly with other survey tools like OpenDataKit or XLSForm apps.  \r\n\r\nGPSSample app has tiered roles facilitating study design and implementation and securely transfers data from GPSSample to ODK and Kobo Collect for participants to conduct the longer household survey. \r\nTiered roles:  \r\n\u2022\tThe Admin sets up the configuration for an area, study questions, and defines sampling design  \r\n\u2022\tThe Supervisor defines teams, manages field work, selects sample, reviews data from listing and from survey \r\n\u2022\tThe Enumerator maps and lists households, collects points of interest, syncs data with supervisor \r\n\u2022\tThe Data Collector navigates back to selected sample, and completes the longer survey \r\n\r\n\r\nSelected Use Cases\r\n\u2022\tHH  surveys: A district-level HH malaria survey is planned to estimate malaria prevalence. 14 HHs will be selected in each cluster. High precision is required as the country is approaching elimination. GPSSample is used to map HHs in clusters and capture structure eligibility for the HH survey and an upcoming indoor residual spraying (IRS) campaign in the app. Three teams working in a cluster sync data with their field supervisor who draws the sample in GPSSample the same day listing finishes. In GPSSample, teams use points of interest and HH listing details just collected to navigate to HHs selected for the HH survey. A month later, IRS teams use IRS eligibility data to ensure all eligible HHs have been visited.\r\n\u2022\tZero dose children: Children missing the first dose of diphtheria, tetanus, and pertussis (DTP) containing vaccine (\u201czero dose\u201d) account for an estimated 50% of vaccine-preventable deaths. Zero dose children are challenging to identify since they often reside in urban areas, remote communities, or conflict-affected areas, where population estimates are unreliable. By offering the ability to rapidly conduct enumeration and mapping of targeted areas, GPSSample provides a valuable solution for identifying zero dose children. Through HH listing, GPS coordinates and contextual information can be collected, ensuring precise HH location and incorporating details into digital catchment maps. In conflict zones with restricted team mobility, satellite imagery and mapathons are used to identify inhabited structures. Once structures are identified, teams can safely conduct HH listing to gather information on zero dose individuals. GPSSample streamlines the zero-dose listing process.\r\n\r\n\r\nWorkshop Objectives \r\nParticipants will gain an applied knowledge of the GPSSample application and experience setting up the application for a household cluster field study. \r\n\r\nBy the end of the workshop, participants will gain applied experience to:\r\n\u2022\tExplain the tiered role of GPSSample application\r\n\u2022\tSet up a new configuration and study within GPSSample with a mapping and listing questionnaire, sampling configuration, and link to an ODK household survey\r\n\u2022\tCreate clusters directly in GPSSample by drawing, specifying a size, or walking the perimeter or bringing in known boundaries \r\n\u2022\tUse Android tablets or phones (OS 8+) to navigate to a cluster, use GPSSample to map and list households and points of interest, and to sync data to and from devices\r\n\u2022\tExperience the ease of sampling in an offline field environment and navigating back to selected households\r\n\u2022\tDecrypt example field data using the GPSSample Decoder App\r\n\r\nWhile GPSSample is designed for health surveys, it can be used in other scientific fields too.\n\nGPSSample is an Android-based mobile application to facilitate rapid statistical sampling and navigation back to selected locations in the field when conducting household surveys and rapid assessments. The app is designed to streamline the enumeration and statistical sampling process and can be used in areas with limited internet and cell phone connectivity. \r\n\u2022\tGPSSample app is available on the Google Playstore (version 100), GitHub page is live with documentation and the GPSSample Decoder, and GPSSample YouTube training videos. GPSSample is available in English, French, Spanish, Portuguese, Russian, and Bahasa.  \r\n\u2022\tGPSSample currently has cluster-based sampling and simple random sampling methods programmed. \r\n\u2022\tOver 30 Ministries of Health and 31 international non-governmental organizations (including UN agencies) have expressed interest in GPSSample. \r\n\r\nIn January of 2024, GPSSample was added to the Google Playstore, user-guides were added to a GPSSample GitHub site, and videos to the GPSSample YouTube channel. Since then, the Georgia Tech Research Institute (GTRI) and U.S. Centers for Disease Control and Prevention (CDC) teams have worked to support multiple pilots.",
+    "start_datetime": "2024-12-02T17:00:00Z",
+    "end_datetime": "2024-12-02T19:00:00Z",
+    "talk:code": "LDDA3Y",
+    "talk:guid": "930bd046-e94e-5296-901d-a706f27812ac",
+    "talk:event": "foss4g-2024-workshop",
+    "talk:type": "Short Workshop",
+    "talk:language": "en",
+    "talk:room": "Room Guajar\u00e1 (C Block)",
+    "talk:room_capacity": 35,
+    "talk:duration_minutes": 120,
+    "talk:speakers": [
+      {
+        "code": "MCCWJJ",
+        "name": "Amber Dismer",
+        "url": "https://talks.osgeo.org/foss4g-2024-workshop/speaker/MCCWJJ/"
+      },
+      {
+        "code": "FZLLPL",
+        "name": "Joel Adegoke",
+        "url": "https://talks.osgeo.org/foss4g-2024-workshop/speaker/FZLLPL/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-02T18:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/talk/LDDA3Y/",
+      "title": "Workshop on Use of GPSSample, a tool for Enumeration, Navigation and Sampling in Health Surveys"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/talk/LDDA3Y/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/speaker/MCCWJJ/",
+      "title": "Amber Dismer"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/speaker/FZLLPL/",
+      "title": "Joel Adegoke"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/talk/LDDA3Y/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-workshops"
+}

@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "FTA7PT",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Scaling Open 3D City Models: Implementation and Validation of an AI-driven Automated Generation Tool \u201cAI City Model Maker beta version\u201d",
+    "description": "1 Introduction and Objectives\r\nThe large-scale development and maintenance of high-quality 3D city models remain a key challenge in the digital transformation of urban planning and management. In Japan, Project PLATEAU, launched by the Ministry of Land, Infrastructure, Transport and Tourism (MLIT) in 2020, promotes the creation, utilization, and open dissemination of 3D city models as foundational data for smart city initiatives. Despite steady progress, the time and cost required to generate detailed models\u2014particularly at Level of Detail (LOD) 2 or higher\u2014continue to pose significant constraints, as such models are still largely produced through labor-intensive manual processes.\r\nProject PLATEAU aims to complete 3D city models for 500 municipalities by fiscal year 2027, with roughly two-thirds achieved by fiscal year 2025. Achieving full coverage will require substantial reductions in production cost. In addition, 3D city models quickly become outdated due to ongoing urban changes such as construction and demolition, making periodic updates essential. However, high update costs risk limiting their timely maintenance, underscoring the need for scalable and automated solutions that can reduce costs while meeting strict quality requirements for municipal use.\r\n\r\nIn response, this study presents the development and validation of a beta version of an AI-driven automated modeling tool, named AI City Model Maker, designed to support the generation and updating of 3D city models at LOD2 and above. The primary objective of the tool is not to fully replace human operators, but to significantly reduce manual workload by automating substantial portions of the modeling process, thereby enabling cost-effective and repeatable production workflows.\r\n\r\n2 Requirements \r\nThe tool is designed to comply with the \u201cStandard Data Product Specification for 3D City Models\u201d established by PLATEAU, which is based on the CityGML standard and aligned with ISO 19100 series quality requirements. This specification defines stringent criteria for positional accuracy, completeness, logical consistency, and thematic accuracy, reflecting the expectation that 3D city models will be used in official municipal operations such as urban planning, disaster management, and infrastructure assessment. For example, when models are generated from Level 2500 source data, horizontal positional accuracy must be within a standard deviation of 1.75 meters, and vertical accuracy within 0.66 meters, while logical and thematic errors are not permitted. Meeting these requirements through fully automated processes remains challenging with current technology.\r\n\r\n3 Architecture and Applied Technologies\r\nThe proposed tool addresses this challenge through a hybrid workflow that combines AI-based automation with targeted human editing. It takes as input quality-assured datasets commonly available to Japanese local governments, including aerial imagery, digital surface models, building footprints, and digital elevation models. Using these inputs, the tool automatically generates building models at LOD1 and LOD2, road models at LOD1 and LOD2, and city furniture and vegetation models at LOD3. Outputs are provided in standard formats such as CityGML, enabling seamless integration into existing geospatial workflows and open data ecosystems.\r\n\r\nFrom a technical perspective, the tool integrates multiple open-source and state-of-the-art AI technologies. Building model generation is based on an OSS \u201cAuto-Create-bldg-lod2-tool\u201d, enhanced with deep learning models such as convolutional and transformer-based architectures. Road extraction and modeling leverage semantic segmentation techniques, while city furniture and vegetation modeling combine point cloud analysis, object detection, clustering, and parametric modeling. The system is implemented in both cloud-based and desktop-based configurations, allowing flexibility in deployment depending on data volume, network conditions, and organizational constraints.\r\n\r\n4 Implementation and Validation\r\nTo ensure practical relevance, the beta version of the tool has been deployed for pilot testing at six surveying and construction consulting companies in Japan. These companies are actively incorporating the tool into their existing 3D city model production pipelines, and regular feedback is being collected to guide further development. This real-world testing distinguishes the present work from many prior studies, which often remain at the proof-of-concept or research prototype stage.\r\nClear performance metrics and automation targets were defined during implementation. These include overall cost reduction across an entire city model, cost reduction at the individual feature level, and automation rates required to achieve these reductions. The long-term target is an overall cost reduction of 30\u201350%, assuming that some degree of manual editing remains necessary to meet quality standards. Feature-level targets vary by object type, reflecting differences in geometric complexity and data availability.\r\n\r\nEvaluation results at the beta stage indicate mixed performance. For building models at LOD2, the automation rate for high-quality outputs remains well below the target, highlighting the difficulty of reliably reconstructing complex roof geometries from standard aerial imagery and elevation data. In contrast, road models and city furniture and vegetation models generally met or approached their respective targets, although performance varied depending on local conditions such as urban density and road structure. These results suggest that while AI-based automation is already effective for certain feature types, further improvements are required for complex building geometries.\r\n\r\n5 Conclusion\r\nDespite not yet achieving all targets, the beta version demonstrates the feasibility of a tool-oriented approach to AI-driven 3D city model generation. By focusing on usability, integration into existing workflows, and iterative improvement based on practitioner feedback, the proposed tool represents a step toward the social implementation of automated 3D city modeling technologies. In particular, it supports the expansion of open 3D city model coverage by lowering the barrier to production and updates, which aligns closely with the goals of both Project PLATEAU and the broader open geospatial community.\r\n\r\nFuture work will focus on improving modeling accuracy for existing feature types and extending automation to more detailed representations, including building and road models at LOD3. Through continued collaboration with industry users and further advances in AI and open-source geospatial technologies, the proposed approach aims to contribute to sustainable, scalable, and openly accessible 3D city model ecosystems.",
+    "start_datetime": "2026-09-01T04:30:00Z",
+    "end_datetime": "2026-09-01T05:00:00Z",
+    "talk:code": "FTA7PT",
+    "talk:guid": "469f8cc7-b1f2-53cb-b8e4-4e0ad7f34a35",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos1",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "7BCAAP",
+        "name": "Mayumi Mizobuchi",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/7BCAAP/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T04:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/FTA7PT/",
+      "title": "Scaling Open 3D City Models: Implementation and Validation of an AI-driven Automated Generation Tool \u201cAI City Model Maker beta version\u201d"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/FTA7PT/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/7BCAAP/",
+      "title": "Mayumi Mizobuchi"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/FTA7PT/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

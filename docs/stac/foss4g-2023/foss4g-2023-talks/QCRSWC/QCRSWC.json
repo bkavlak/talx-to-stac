@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "QCRSWC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Graph-based geo-intelligence",
+    "description": "We developed a free graph-based geo-intelligence engine that serves fast, scalable, and reliable data analysis. The engine's value lies in its flexibility and applicability to any relational dataset, as well as its integration of open-source technologies and libraries. We chose to build our geo-intelligence engine on a graph infrastructure to enable faster, index-free queries and better support for interconnected data.\r\n\r\nTo showcase the capabilities of our engine, we have developed a geo-financial software that provides users with a powerful tool for analyzing financial scores of companies based on geo-location. Businesses can quickly and easily analyze data to gain valuable insights into competitors, potential partnerships, and market trends. Our software presents the results of the analysis in a user-friendly and visually appealing format, making it accessible even to non-technical users.\r\n\r\nOur geo-financial analysis software is based on user-specified location and range. The user interacts with an Angular frontend, which incorporates the Leaflet library for map interaction and an OpenStreetMap basemap. The backend is based on Golang, which handles authentication and message queueing interaction with a Python analysis tool. The data retrieved for Python processing comes from a Neo4j graph database, which is accessed through Cypher queries and networking algorithms. All of the software components are located in separate containers, promoting flexible and independent scalability achieved with Docker Compose and orchestrated by Kubernetes.\r\n\r\nIn this presentation, we will discuss our graph-based geo-intelligence engine, which is the backbone of our application. We will showcase the geo-financial analysis application itself, providing a demo and demonstrating how it can be used for business geo-intelligence analysis. Throughout the presentation, we will continuously discuss the open-source technologies that are at the core of our work and focus on the value that each of them has brought to our achievements.",
+    "start_datetime": "2023-06-29T09:00:00Z",
+    "end_datetime": "2023-06-29T09:30:00Z",
+    "talk:code": "QCRSWC",
+    "talk:guid": "1261f0e8-4f07-5dcb-b4db-de846022b378",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT D / N113 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "TPWUH7",
+        "name": "Francesca Dr\u0103gu\u021b",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/TPWUH7/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-29T09:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/QCRSWC/",
+      "title": "Graph-based geo-intelligence"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/QCRSWC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/TPWUH7/",
+      "title": "Francesca Dr\u0103gu\u021b"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/QCRSWC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/g1LSw7upzUCnC71ewZYL9g",
+      "type": "text/html",
+      "title": "2023 |  Graph-based geo-intelligence - Francesca Dr\u0103gu\u021b",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=ZYrOwfFA90U",
+      "type": "text/html",
+      "title": "2023 |  Graph-based geo-intelligence - Francesca Dr\u0103gu\u021b",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

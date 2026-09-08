@@ -1,0 +1,128 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "N8FMS9",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Securing STAC APIs: Auth Patterns and a Proxy-Based Approach",
+    "description": "Learn how to secure STAC APIs using OIDC, CQL filtering, and existing STAC extensions. We present **stac-auth-proxy**, a backend-agnostic FastAPI proxy for enforcing flexible auth policies, including integration with Open Policy Agent.\n\nAs STAC APIs power more real-world applications, authentication (authN) and authorization (authZ) become essential. Yet, the STAC specification leaves these concerns to be addressed by implementers.\r\n\r\nIn this talk, we outline common auth needs seen across STAC deployments, including:\r\n\r\n- **Route-level access control** - marking some or all endpoints as private\r\n- **Record-level filtering** - limiting collections or items by request context such as user, group, or role\r\n- **Asset-level access** - transferring our authN policies to the asset files themselves\r\n\r\nWe\u2019ll introduce [**stac-auth-proxy**](https://github.com/developmentseed/stac-auth-proxy), a backend-agnostic FastAPI-based proxy that integrates with any modern STAC API and OIDC authentication server (e.g., Keycloak, AWS, Cognito, Auth0). We will discuss how we utilize existing extensions such as the [Authentication Extension](https://github.com/stac-extensions/authentication), [Filter Extension](https://github.com/stac-api-extensions/filter), [Collection Search](https://github.com/stac-api-extensions/collection-search), and [Transaction Extension](https://github.com/stac-api-extensions/transaction) to build a secure and self-descriptive STAC API. Finally, we will discuss how stac-auth-proxy can be integrated with external policy engines, such as [Open Policy Agent](https://www.openpolicyagent.org/), to provide a comprehensive decoupled solution.",
+    "start_datetime": "2025-11-21T01:00:00Z",
+    "end_datetime": "2025-11-21T01:25:00Z",
+    "talk:code": "N8FMS9",
+    "talk:guid": "adfe3e8f-a598-5d77-8440-4a47fb3cb13a",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Cloud, APIs & Data Infrastructure",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG404",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "7HKBZZ",
+        "name": "Anthony Lukach",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/7HKBZZ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-21T01:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/N8FMS9/",
+      "title": "Securing STAC APIs: Auth Patterns and a Proxy-Based Approach"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/N8FMS9/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/7HKBZZ/",
+      "title": "Anthony Lukach"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/developmentseed/stac-auth-proxy",
+      "title": "**stac-auth-proxy**"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/stac-extensions/authentication",
+      "title": "Authentication Extension"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/stac-api-extensions/filter",
+      "title": "Filter Extension"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/stac-api-extensions/collection-search",
+      "title": "Collection Search"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/stac-api-extensions/transaction",
+      "title": "Transaction Extension"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.openpolicyagent.org/",
+      "title": "Open Policy Agent"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/N8FMS9/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=ZiuwGLEhWIA",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Securing STAC APIs: Auth Patterns and a Proxy-Based Approach",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

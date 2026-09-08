@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "YLEXT7",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8117,
+      43.3436
+    ]
+  },
+  "bbox": [
+    17.8117,
+    43.3436,
+    17.8117,
+    43.3436
+  ],
+  "properties": {
+    "title": "Opening Ceremony",
+    "description": "Let's get this festival started. \r\n\r\nWelcome remarks from the FOSS4G Europe 2025 chair, city of Mostar, and University of Mostar representatives.",
+    "start_datetime": "2025-07-16T07:00:00Z",
+    "end_datetime": "2025-07-16T07:30:00Z",
+    "talk:code": "YLEXT7",
+    "talk:guid": "9c3fd998-7a5c-5d54-ad95-27fb881593a8",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Plenary",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "KOS",
+    "talk:room_capacity": 724,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "DTRHGU",
+        "name": "Marko Puljic",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/DTRHGU/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-16T07:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/YLEXT7/",
+      "title": "Opening Ceremony"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/YLEXT7/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/DTRHGU/",
+      "title": "Marko Puljic"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/YLEXT7/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/YLEXT7/resources/FOSS4G_Europe_2025_Mostar_-_opening_cere_zFZjJqM.pdf",
+      "type": "application/pdf",
+      "title": "Slides",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/jHCNUmSA5UKz5W9N6kLfV2",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Opening ceremony",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=T3mRRzlgV0o",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Opening ceremony",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

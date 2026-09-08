@@ -1,0 +1,106 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "E7GXTY",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "Publishing rich data models in GeoServer with Smart Data Loader and Feature Templating",
+    "description": "This presentation explores GeoServer\u2019s capabilities for publishing rich data models, including complex features with nested properties and multi-valued relationships, through standard OGC services and OGC API - Features. It focuses on recent developments such as the Smart Data Loader and Feature Templating extensions, highlighting both current capabilities and ongoing and planned enhancements within the GeoServer ecosystem.\r\n\r\nGeoServer already provides strong support for implementing view and download services for complex data models through its core architecture and a range of free and open-source extensions. Among these, App-Schema has long been the primary solution for modeling and exposing complex feature structures and enabling advanced vector data services, despite its steep learning curve.\r\n\r\nBuilding on these foundations, newer approaches are emerging to simplify and modernize the publication of rich data models. These include direct integration with NoSQL data sources such as MongoDB, leveraging their native document-oriented structures, as well as support for modern output formats like JSON-LD, which enables the embedding of explicit semantics alongside the data.\r\n\r\nThe session will conclude with real-world use cases from organizations that have adopted GeoServer and GeoSolutions solutions, providing practical insights, architectural patterns, and lessons learned to help attendees effectively design and implement scalable, production-ready services for complex data models.",
+    "start_datetime": "2026-07-01T07:00:00Z",
+    "end_datetime": "2026-07-01T07:30:00Z",
+    "talk:code": "E7GXTY",
+    "talk:guid": "44f9436e-01ec-54b8-bb47-a7b9fbe85a0d",
+    "talk:event": "foss4g-europe-2026",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "A13",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RBSH8T",
+        "name": "Andrea Aime",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/RBSH8T/"
+      },
+      {
+        "code": "CXTHFZ",
+        "name": "Nuno Oliveira",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/CXTHFZ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-07-01T07:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/E7GXTY/",
+      "title": "Publishing rich data models in GeoServer with Smart Data Loader and Feature Templating"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/E7GXTY/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/RBSH8T/",
+      "title": "Andrea Aime"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/CXTHFZ/",
+      "title": "Nuno Oliveira"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/E7GXTY/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "publishing-rich-data-models-in-geoserver-with-smart-data-loa": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2026/submissions/E7GXTY/resources/Publishing_rich_data_models__2y6VpP6.pdf",
+      "type": "application/pdf",
+      "title": "Publishing rich data models in GeoServer with Smart Data Loader and Feature Templating",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

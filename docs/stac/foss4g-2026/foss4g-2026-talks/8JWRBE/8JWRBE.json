@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "8JWRBE",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Reproducibility in geospatial research: a case study.",
+    "description": "Reproducibility in geospatial science is hindered by opaque data, proprietary software, and complex machine learning workflows. This talk highlights challenges in deep learning reproducibility and presents practical strategies, tools, and documentation practices to create transparent, repeatable experiments using open\u2011source technologies.\n\nComputational reproducibility is the ability to obtain consistent results from the original work using the same input data and methods, and to conduct them by different researchers. To conduct the experiments, the input data and methods must be transparent. However, transparency and reproducibility remain a challenge across several research domains, including geoscience, hindering trust in findings.\r\nIn the field of geospatial science, numerous algorithms, such as statistical analysis and machine learning, are used to analyse and extract valuable insight from geospatial and remote sensing data. This analysis can be performed by using GIS software or through custom coding. While sharing codes and datasets may appear sufficient for reproducing the research, the researchers may still encounter compatibility issues when executing the code, e.g., incorrect file paths, missing libraries, or computational environment issues. In addition to these technical barriers, factors that hinder the reproducibility are the unavailability of data and code, using proprietary software, and time required to reproduce others\u2019 work. Hence, open-source technologies are crucial for implementing reproducible workflows.\r\nRecently, machine learning, especially DL, has been applied to numerous geoscience studies. However, ensuring reproducibility is more challenging in this context due to their complexity and many components or configurations are involved, which can exhibit non-deterministic behaviour.\r\n\u00a0Some of the main challenges in machine learning that affect reproducibility are model uncertainty and the training method. In this talk, we discuss how to mitigate these challenges and explore best practices for documenting model architecture and computational environments. We describe our experience using open-source technologies and best practices for reproducibility while developing a deep learning workflow for a case study.",
+    "start_datetime": "2026-09-01T07:00:00Z",
+    "end_datetime": "2026-09-01T07:30:00Z",
+    "talk:code": "8JWRBE",
+    "talk:guid": "5909ed90-f449-54c2-8c76-43750d507cef",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room2",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "G3SZGS",
+        "name": "Rosa Aguilar",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/G3SZGS/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T07:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/8JWRBE/",
+      "title": "Reproducibility in geospatial research: a case study."
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/8JWRBE/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/G3SZGS/",
+      "title": "Rosa Aguilar"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/8JWRBE/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

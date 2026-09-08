@@ -1,0 +1,116 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "LFQJG7",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Status of GRASS GIS project",
+    "description": "This talk will give a comprehensive overview of the latest developments and progress of the GRASS GIS project for users and developers. The talk will cover topics relevant for integrating GRASS GIS engine into existing workflows. We will dispel some common misconceptions about the project, such as \"it's just a command line\", \"it's just a desktop GIS\", \u201cit's a QGIS plugin\u201d and \"it's been around for a long time, so it must be well funded\".\r\n\r\nMany potential users perceive GRASS GIS as difficult to use. During the talk, we'll cover different improvements to the graphical interface that are aimed at addressing this problem. The switch to a mature single-window layout, an easier startup, streamlined data management and the upcoming command history pane are all improvements attempting to increase user-friendliness and make it easier for newcomers to adopt GRASS GIS. \r\n\r\nThe talk will also go through a series of improvements relevant for industry and academic users to facilitate the integration of GRASS data processing and analytic tools in their workflows using Python or R, either on the command line or in the cloud. Examples of these improvements are the parallelisation of many modules with OpenMP enabling accelerated processing of large data sets and the stricter compiler configurations ensuring code quality in C, C++ and Python.\r\n\r\nFinally, the latest community activities and funding opportunities will be presented.",
+    "start_datetime": "2024-07-03T08:00:00Z",
+    "end_datetime": "2024-07-03T08:30:00Z",
+    "talk:code": "LFQJG7",
+    "talk:guid": "310d042d-ce51-5062-b34c-f0883a715e09",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Destination Earth (Van46 ring)",
+    "talk:room_capacity": 400,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RBWLUU",
+        "name": "Veronica Andreo",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/RBWLUU/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-03T08:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/LFQJG7/",
+      "title": "Status of GRASS GIS project"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/LFQJG7/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/RBWLUU/",
+      "title": "Veronica Andreo"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/LFQJG7/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://veroandreo.github.io/grass-gis-talks/foss4gEU2024.html#/Front%20page",
+      "title": "Presentation",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/7vnbQNLj4NHHdFNduD5Jen",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Status of GRASS GIS project",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=pzhZw6LOWVU",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Status of GRASS GIS project",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

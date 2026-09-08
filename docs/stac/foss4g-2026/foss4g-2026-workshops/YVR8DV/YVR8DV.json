@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "YVR8DV",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "NextGIS Web for QGIS teams: from deployment to collaboration",
+    "description": "NextGIS Web is an open-source Web GIS server with a built-in web interface for publishing, managing, and sharing geospatial data and web maps. In this workshop, participants will deploy a local NextGIS Web instance using Docker, perform initial configuration and work through the core admin and production workflows.\n\nNextGIS Web is an open-source Web GIS server with a built-in web interface for publishing, managing, and sharing geospatial data and web maps. It integrates closely with QGIS, enabling robust team workflows and enterprise-grade collaboration, including:\r\n\r\n* Publishing QGIS projects to the web while preserving cartography (QGIS can act as the rendering backend for strong desktop\u2013web style compatibility).\r\n\r\n* Connecting to published projects from multiple QGIS instances for distributed teamwork.\r\n\r\n* Simultaneous editing from QGIS with a built-in conflict resolution mechanism.\r\n\r\n* Working with file attachments both in QGIS and in the web interface.\r\n\r\n* Vector data version control: track who changed what and when, roll back changes, and create branches.\r\n\r\n* Fine-grained access control with roles and permissions to manage responsibilities across a team.\r\n\r\nIn this workshop, participants will deploy a local NextGIS Web instance using Docker, perform initial configuration, and then work through the core admin and production workflows: uploading data (via web and from QGIS), editing and managing layers, building web maps, and publishing data as standard OGC services. We\u2019ll also collaborate on a shared QGIS project to demonstrate real multi-user practices: collaborative editing, version control, and coordination features in action.",
+    "start_datetime": "2026-08-31T05:00:00Z",
+    "end_datetime": "2026-08-31T08:00:00Z",
+    "talk:code": "YVR8DV",
+    "talk:guid": "e2e21e08-f32d-5c69-8daa-bf3f86f8c148",
+    "talk:event": "foss4g-2026-workshop",
+    "talk:type": "Workshop",
+    "talk:language": "en",
+    "talk:room": "612",
+    "talk:room_capacity": 54,
+    "talk:duration_minutes": 180,
+    "talk:speakers": [
+      {
+        "code": "SXDXSE",
+        "name": "Maxim Dubinin",
+        "url": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/SXDXSE/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-08-31T06:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/YVR8DV/",
+      "title": "NextGIS Web for QGIS teams: from deployment to collaboration"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/YVR8DV/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/SXDXSE/",
+      "title": "Maxim Dubinin"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/YVR8DV/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-workshops"
+}

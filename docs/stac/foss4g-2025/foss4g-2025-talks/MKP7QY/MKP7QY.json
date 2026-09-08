@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "MKP7QY",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Bathymetry Data Wrangling",
+    "description": "This talk discusses workflows implemented in Python for processing bathymetry data for hydrodynamic modelling applications.\n\nWhile all of Earth\u2019s land surfaces have been mapped at 30 m resolution or finer, the topography of the seabed is still largely a black box, with only 26.1% of the seabed mapped to \u201cadequate resolution\u201d  thus far. In practice, this means that compiling a gridded bathymetric dataset often requires \u201cfilling in\u201d areas of missing data, \u201csmoothing\u201d conflicts between overlapping datasets, and \u201cblending\u201d information from multiple sources. This talk discusses several strategies for fusing and interpolating datasets such as coastal lidar, high resolution multibeam echosounder data, chart depths, and the globally available GEBCO grid in real world application. The \u201cfuzzy\u201d boundary between land and sea is emphasized, as terrestrial and marine datasets often disagree when their coverage overlaps. Interpolation and smoothing methods are explored as well. The techniques discussed are implemented in Python using geospatial libraries and thus open source, easily scaled, and reproducible.",
+    "start_datetime": "2025-11-19T20:00:00Z",
+    "end_datetime": "2025-11-19T20:25:00Z",
+    "talk:code": "MKP7QY",
+    "talk:guid": "799be19a-f443-5ed3-9361-7bcb12da6991",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Tools, Libraries & Visualisation",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG126",
+    "talk:room_capacity": 140,
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "ZHVKHU",
+        "name": "Ellorine Carle",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/ZHVKHU/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-19T20:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/MKP7QY/",
+      "title": "Bathymetry Data Wrangling"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/MKP7QY/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/ZHVKHU/",
+      "title": "Ellorine Carle"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/MKP7QY/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=2rnoIx0BKec",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Bathymetry Data Wrangling",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

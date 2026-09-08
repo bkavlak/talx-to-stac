@@ -1,0 +1,97 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "3MTN3L",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "OpenGeoSGB: State of the art of Transition to an Open Source, semi-automated, FAIR-ready Geological Spatial Data Infrastructure of the Geological Survey of Brazil",
+    "description": "The Geological Survey of Brazil (SGB) is under a digital transformation process. One of the pillars of this process involves speed, scalability, security and availability of data produced. Furthermore, CPRM is creating a favorable environment for the adoption of cloud-based architecture.\r\n\r\nThis paper aims to present an overview of a new developed Geological Spatial Data Infrastructure for the SGB. The GeoSGB is the main source for internal mapping, infographic and dashboard applications. It will assimilate legacy services, that runs on isolated map servers, such as self hosted node of OneGeology OGC Services.\r\n\r\nThe solution adopted is GeoNode 4.2, which brings together map, data services, metadata catalog and spatial database. It is free and open source software with a very active community. In addition, GeoNode has a good content management system, a rich API, and it\u2019s fully customizable. To meet data access demands, it was customized to run in Kubernetes-based environments and each mapped area produces its own geoservice, exportable to different formats, such as shapefile and geotiff.\r\n\r\nHowever, it became necessary a complete separation between the production and publishing environments. SGB\u2019s production pipeline is composed by internally developed data management software. Some of these systems are being modernized, with updates on business rules, frameworks and security. GIS work is carried out in ArcGIS Enterprise\u00ae, with some exceptions in QGIS and GeoServer. With this background, it should be considered as a hybrid GIS model.\r\n\r\nAbout database structures, a process of harmonization was necessary, mainly those produced from proprietary GIS. For legacy reasons, the proprietary structures were maintained, as long as possible to export to OGC WKT or WKB. Exported geometries are analyzed for compliance with Simple Features Standard (OGC/ISO19125). The information eligible for publication were consolidated in database views and is literally replicated to GeoSGB, by script.\r\n\r\n\r\nThe metadata production for continuous databases is carried out semi-automatically \u2013 templated - in accordance with the mapping program. This is possible by integrating GeoNode's APIs with internal databases, delivering associated metadata and resources directly to the authors. The contact with (meta)data authors were managed by GeoNode.\r\n\r\nThe symbolization of thematic layers involved the development of interoperable libraries, based on SVG glyphs inserted in OpenType fonts (ISO/IEC 14496-22:2007), with near equal rendering among different multi-platform GIS software.\r\n\r\nData and metadata pipelines were implemented using Python scripts, with specific libraries associated with GeoNode APIs. Apache Airflow manages the entire process of extracting internal bases, quality tests, structure analysis and loading on the GeoSGB database server, including being responsible for notification activities.\r\n\r\nSo, GeoSGB now is a continuous development platform, with focus in increase quality in delivered data to customers.\r\n\r\nThe future perspectives involve the transformation itself into research line in geotechnologies and high-performance IT services. It shoud envolve plug-in development for data management, processing and visualization including use of artificial intelligence. In operational terms, adoption of OGC APIs, data internationalization and harmonization, associated with adoption of OGC specific standards, such as GeoSciML and WaterML contributes to become SGB a global supplier of geoscientific data.",
+    "start_datetime": "2024-12-06T19:00:00Z",
+    "end_datetime": "2024-12-06T19:30:00Z",
+    "talk:code": "3MTN3L",
+    "talk:guid": "7fe81c27-6d3f-5dbc-bff9-e1ce77d6daba",
+    "talk:event": "foss4g-2024",
+    "talk:track": "Transition to FOSS4G",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room I",
+    "talk:room_capacity": 100,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "BZLYD8",
+        "name": "Carlos Eduardo Mota",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/BZLYD8/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-06T19:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/3MTN3L/",
+      "title": "OpenGeoSGB: State of the art of Transition to an Open Source, semi-automated, FAIR-ready Geological Spatial Data Infrastructure of the Geological Survey of Brazil"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/3MTN3L/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/BZLYD8/",
+      "title": "Carlos Eduardo Mota"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/3MTN3L/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "apresentacao-presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024/submissions/3MTN3L/resources/FOSS4G2024-OpenGeoSGB_bx0l1uA.pdf",
+      "type": "application/pdf",
+      "title": "Apresenta\u00e7\u00e3o - Presentation",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

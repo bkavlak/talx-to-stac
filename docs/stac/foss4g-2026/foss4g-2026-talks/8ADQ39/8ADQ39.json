@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "8ADQ39",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Project Update (GeoNode-k8s)",
+    "description": "The geonode-k8s chart is production-grade, community-driven solution for deploying GeoNode 4.x and 5. This talk presents a status update on the project\u2019s progress, highlighting e.g. the upgrade to GeoNode 5 and the improvements on start up time of GeoNode.\n\ngeonode-k8s is a maintained, production-ready Helm chart for deploying GeoNode on Kubernetes, serving as the de facto standard for scalable, reliable, and reproducible GeoNode deployments in research, government environments. Designed from the ground up for modern cloud-native infrastructure, geonode-k8s provides a complete, modular, and automated solution for running GeoNode 4.x and GeoNode 5.0, ensuring compatibility with the latest features and security updates.\r\nBuilt on Helm 3, the chart abstracts the complexity of orchestrating GeoNode\u2019s multi-component architecture\u2014comprising the GeoNode application, PostgreSQL, Redis, Celery, NGINX, and GeoServer \u2014into a single, version-controlled deployment. \r\n\r\nWhat sets geonode-k8s apart is its active development and growing community adoption. With regular updates, bug fixes, and feature enhancements, the project responds quickly to user feedback and evolving requirements. \r\n\r\nInterest in geonode-k8s continues to rise, with increasing usage across research institutions, national data infrastructures, and open science initiatives. Its role in enabling scalable, FAIR-compliant research data management platforms\u2014especially in domains like agriculture, environmental monitoring, and urban planning\u2014has solidified its importance in the GeoNode ecosystem.\r\n\r\nGitHub: https://github.com/GeoNodeUserGroup-DE/geonode-k8s\r\nHelm Repository: https://geonode-usergroup-de.github.io/geonode-k8s-helm/",
+    "start_datetime": "2026-09-01T04:05:00Z",
+    "end_datetime": "2026-09-01T04:10:00Z",
+    "talk:code": "8ADQ39",
+    "talk:guid": "f7816e43-aae1-5204-a405-3938532075fe",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Lightning Talk",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Ran1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "VN39PS",
+        "name": "Marcel Wallschl\u00e4ger",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/VN39PS/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T04:07:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/8ADQ39/",
+      "title": "Project Update (GeoNode-k8s)"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/8ADQ39/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/VN39PS/",
+      "title": "Marcel Wallschl\u00e4ger"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/GeoNodeUserGroup-DE/geonode-k8s",
+      "title": "github.com/GeoNodeUserGroup-DE/geonode-k8s"
+    },
+    {
+      "rel": "related",
+      "href": "https://geonode-usergroup-de.github.io/geonode-k8s-helm/",
+      "title": "geonode-usergroup-de.github.io/geonode-k8s-helm"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/8ADQ39/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

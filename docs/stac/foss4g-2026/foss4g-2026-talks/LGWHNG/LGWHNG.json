@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "LGWHNG",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Geographic Visualization of the Kaii-Yokai Folklore Database Using Open-Source GIS and NLP",
+    "description": "The Kaii-Yokai Densho Database, maintained by the International Research Center for Japanese Studies (Nichibunken), a\r\n  Japanese national research institute for Japanese studies, is one of the largest structured archives of Japanese yokai\r\n  folklore. Each record contains a yokai or phenomenon name, a prefecture field, source metadata, and a short textual\r\n  summary. These fields make the archive searchable by name or region, but they do not directly support geographic\r\n  interpretation. Folklore records often refer to place in ways that are difficult to reduce to a single coordinate. A\r\n  summary may contain a formal place name, but it may also describe a riverbank, road, house, grave, pass, shrine,\r\n  village edge, or boundary without giving a mappable toponym. This creates a methodological problem for geographic\r\n  analysis: treating every record as a point can hide the uncertainty and evidence structure that make the record\r\n  spatially interpretable.\r\n\r\n  This study proposes a Folklore Geospatial Support Model for representing vague folklore place descriptions in the\r\n  Kaii-Yokai Densho Database. The model shifts the analytical unit from an asserted event coordinate to the set of\r\n  evidence channels that support spatial interpretation. These channels include prefecture or municipality support,\r\n  formal place mentions, place-description terms, coordinate-derived terrain evidence, text-derived terrain cues, human-\r\n  condition terms, boundary-interface types, source metadata, resolution level, and confidence reason. In this\r\n  representation, a coordinate remains useful for display and spatial computation, but it is not treated as the whole\r\n  geographic meaning of the record. The model keeps administrative metadata, gazetteer-resolvable place names, vague\r\n  place descriptions, and GIS-derived polygon context separate so that each record can be inspected according to the\r\n  evidence it actually supplies.\r\n\r\n  The workflow transforms 33,378 records from the Kaii-Yokai Densho Database into resolution-aware geospatial features.\r\n  First, all records receive prefecture-level support from the structured prefecture field. This creates complete\r\n  national coverage and provides a baseline for later refinement. Second, Japanese named entity recognition and rule-\r\n  based extraction are applied to the summary field. Formal place mentions are stored separately from terrain and place-\r\n  description terms because many folklore summaries describe settings without naming a municipality or landmark. Third,\r\n  a conservative local GADM level 2 gazetteer refinement searches for municipality-like names within each record\u2019s\r\n  prefecture. A record is upgraded only when exactly one local municipality candidate is found. Fourth, GIS enrichment\r\n  adds coastline, lake, and river context using GADM, Natural Earth, and National Land Numerical Information River Data\r\n  (W05). The workflow also computes coordinate-only and text-aware terrain labels separately, so that GIS thresholds and\r\n  summary-derived terrain cues are not merged into a single evidential category.\r\n\r\n  The resulting coverage shows why folklore geography cannot rely only on formal toponym resolution. All 33,378 records\r\n  receive prefecture-polygon support. Formal place mentions occur in 9,361 records, or 28.1% of the archive. Place-\r\n  description terms occur in 25,023 records, or 75.0%. Terrain terms occur in 20,242 records, human-condition terms in\r\n  16,066 records, and strict boundary-interface terms in 9,047 records. Local GADM admin2 refinement upgrades 1,231\r\n  records, or 3.7% of the archive, to municipality-level representative points. Although this subset is small, it is\r\n  analytically useful because it provides a diagnostic set for measuring how much prefecture-centroid representation\r\n  changes environmental interpretation.\r\n\r\n  The admin2 subset reduces support area by a median 96.4% relative to prefecture support. It also shows that coarser\r\n  coordinates can change coordinate-derived terrain interpretation. Among the 1,231 locally refined records, 528\r\n  records, or 42.9%, change coordinate-only terrain class when the record is represented by an admin2 representative\r\n  point rather than by the prefecture centroid. The most common changes are coastal to inland-water, coastal to plain,\r\n  plain to inland-water, valley to inland-water, and plain to coastal. This result is not an archive-wide accuracy\r\n  estimate, because the refined subset is produced by successful local name matching. Its value is diagnostic: it\r\n  demonstrates that prefecture-centroid maps can change the environmental reading of records that contain enough\r\n  information for municipality-level support.\r\n\r\n  The study also evaluates place-function vocabulary under a prefecture-stratified permutation model. Category labels\r\n  are shuffled within prefectures, preserving regional composition while breaking category-specific association with\r\n  extracted place-function terms. This tests whether category labels are associated with particular kinds of setting\r\n  descriptions beyond prefectural background composition. The strongest associations include Kappa, or water spirits,\r\n  with water-setting vocabulary; Yurei, or ghosts, with death-ritual vocabulary; and Snake/Dragon, or serpentine beings,\r\n  with boundary-interface evidence. Observed-to-expected ratios provide interpretable effect summaries: Yurei/death-\r\n  Dragon/water-setting vocabulary at 2.23 times, and Snake/Dragon/boundary-interface vocabulary at 1.47 times. These\r\n  results describe archive language and evidence structure rather than verified physical event locations.\r\n\r\n  0.371 km. A prefecture-stratified category-shuffle null with 10,000 permutations expects a median of 0.295 km. The\r\n  observed median is larger than the shuffle expectation, so the Kappa result is treated as summary evidence rather than\r\n  a demonstrated physical water-proximity effect. This separation is central to the model: text-derived place-function\r\n  associations and GIS-derived proximity measurements are related but distinct forms of evidence.\r\n\r\n  Robustness diagnostics further test whether the strongest associations depend on category-name leakage or dictionary\r\n  design. Category-specific surface forms such as kappa, tengu, kitsune, yurei, and snake/dragon terms are masked from\r\n  summaries before extraction. Dictionary sensitivity is tested by randomly removing 10%, 20%, and 30% of terms from\r\n  each dictionary group across seeded trials. Boundary-interface definitions are also varied across broad, strict, and\r\n  conservative versions. The focal associations remain positive across these diagnostics, although their magnitudes\r\n  change. This supports the use of place-function and boundary-interface channels as inspectable evidence fields within\r\n  the archive representation.\r\n\r\n  The main contribution is a resolution-aware GIS representation for vague folklore places. The model preserves\r\n  uncertainty instead of forcing all records into single asserted coordinates. It also shows that coarse spatial support\r\n  is not only imprecise; in the locally refined subset, it can alter coordinate-derived environmental interpretation. By\r\n  separating formal toponyms, place-description vocabulary, coordinate-derived terrain, text-derived terrain, and\r\n  boundary-interface evidence, the workflow makes the geographic structure of a large folklore archive inspectable while\r\n  keeping the evidential basis of each record visible.",
+    "start_datetime": "2026-09-02T07:00:00Z",
+    "end_datetime": "2026-09-02T07:30:00Z",
+    "talk:code": "LGWHNG",
+    "talk:guid": "3c3a80f7-5a1d-5d74-87d2-0bb20b2e8676",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos2",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "UZHLMD",
+        "name": "Kosuke Shimizu",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/UZHLMD/"
+      },
+      {
+        "code": "8TMSQE",
+        "name": "Hiroki Ichikura",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/8TMSQE/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T07:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/LGWHNG/",
+      "title": "Geographic Visualization of the Kaii-Yokai Folklore Database Using Open-Source GIS and NLP"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/LGWHNG/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/UZHLMD/",
+      "title": "Kosuke Shimizu"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/8TMSQE/",
+      "title": "Hiroki Ichikura"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/LGWHNG/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

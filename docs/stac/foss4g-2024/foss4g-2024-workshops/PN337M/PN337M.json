@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "PN337M",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Publishing maps on the web with QGIS Server",
+    "description": "This workshop will fully utilize QGIS + QGIS Server to create web map-based applications. We will use QGIS, QGIS Server, and PostgreSQL.\r\n\r\nProjects will be stored on PostgreSQL, on the server side. A database trigger will extract all the necessary information from the project (using PyQGIS) to produce a wonderful web map application. Project layers will be served by QGIS Server. Participants will be able to create QGIS projects and all the same information and customizations will be reflected in the web app.\n\nEverybody needs to publish geographic information on the web. There are many platforms already available to support this. Even if we use available commercial on self-hosted platforms, understanding how all the workflows work is important for those aiming to create web map-based applications.\r\n\r\nThis workshop will fully utilize QGIS + QGIS Server to create web map-based applications. We will use QGIS, QGIS Server, and PostgreSQL.\r\n\r\nProjects will be stored on PostgreSQL, on the server side. A database trigger will extract all the necessary information from the project (using PyQGIS) to produce a wonderful web map application. Project layers will be served by QGIS Server. Participants will be able to create QGIS projects and all the same information and customizations will be reflected in the web app.\r\n\r\nTo have a similar customization on the web, we will go throughout the project to check all layers, all columns properties, all relations, etc to make sure the user will see the same contents on the browser. We will see how QGIS layouts can be used and how users can even add custom content to the printed layouts. Atlas layouts will be used also, to print selected items or search results, for example.\r\n\r\nThe workshop will use a prepared docker composition with all required software to make it easier for starters. \r\n\r\nAll the concepts and configurations will be reviewed and explained. Participants will take full advantage of this workshop if:\r\n- are familiar with QGIS\r\n- have basic Python knowledge (we will use PyQGIS, primarily on the QGIS console, and also outside QGIS console)\r\n- are familiar with docker usage\r\n- able to navigate in a PostgreSQL client, like pgAdmin or DBeaver\r\n- have a basic understanding of how the web works",
+    "start_datetime": "2024-12-03T12:00:00Z",
+    "end_datetime": "2024-12-03T16:00:00Z",
+    "talk:code": "PN337M",
+    "talk:guid": "c8cb456f-f5b7-5e61-8443-e9374d29b3e7",
+    "talk:event": "foss4g-2024-workshop",
+    "talk:type": "Workshop",
+    "talk:language": "en",
+    "talk:room": "Room C\u00edrio de Nazar\u00e9 (C Block)",
+    "talk:room_capacity": 35,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "WFCD8R",
+        "name": "Jorge Gustavo Rocha",
+        "url": "https://talks.osgeo.org/foss4g-2024-workshop/speaker/WFCD8R/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-03T14:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/talk/PN337M/",
+      "title": "Publishing maps on the web with QGIS Server"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/talk/PN337M/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/speaker/WFCD8R/",
+      "title": "Jorge Gustavo Rocha"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/talk/PN337M/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-workshops"
+}

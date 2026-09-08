@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "QBHQNW",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "geoserverx - a new CLI and library to interact with GeoServer",
+    "description": "geoserverx is a modern Python package that provides an efficient and scalable way to interact with Geoserver REST APIs. It leverages the asynchronous capabilities of Python to offer a high-performance and reliable solution for managing Geoserver data and services.\r\nWith geoserverx, users can easily access and modify data in Geoserver, such as uploading and deleting shapefiles, publishing layers, creating workspaces, styles, etc. . The package supports asynchronous requests along with synchronous method to the Geoserver REST API, which enables users to perform multiple tasks simultaneously, improving performance and reducing wait times.\r\nApart from being implemented in Python Projects, geoserverx also provides CLI support for all of it's operations. Which makes it useful for people who want to avoid Python all-together. \r\nIn this talk we discover for the very first time about how geoserverx work and underlying code ideology. Along with that we'll also spread some light on upcoming modules to be integrated in geoserverx",
+    "start_datetime": "2023-06-28T09:00:00Z",
+    "end_datetime": "2023-06-28T09:30:00Z",
+    "talk:code": "QBHQNW",
+    "talk:guid": "be55b56c-1dbf-5708-a3ee-6695201d0bad",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Transition to FOSS4G",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT F / N212 - Floor 3",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "YBLBW9",
+        "name": "Francesco Bartoli",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/YBLBW9/"
+      },
+      {
+        "code": "J7Z7F8",
+        "name": "krishna lodha",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/J7Z7F8/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T09:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/QBHQNW/",
+      "title": "geoserverx - a new CLI and library to interact with GeoServer"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/QBHQNW/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/YBLBW9/",
+      "title": "Francesco Bartoli"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/J7Z7F8/",
+      "title": "krishna lodha"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.youtube.com/c/krishnalodha",
+      "title": "www.youtube.com/c/krishnalodha"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/QBHQNW/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/44PhKGAMWHGT65ZmWCgDSD",
+      "type": "text/html",
+      "title": "2023 | geoserverx - a new CLI and library to interact with GeoServer - Krishna Lodha",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=Eo3cpiyueyg",
+      "type": "text/html",
+      "title": "2023 | geoserverx - a new CLI and library to interact with GeoServer - Krishna Lodha",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

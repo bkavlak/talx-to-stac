@@ -1,0 +1,118 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "SKX7GX",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Multimodal (2D/3D) change detection for natural disaster response",
+    "description": "This tutorial will highlight the capabilities of multimodal satellite imagery in addressing some of nowadays most impacting societal challenges using open source tools from CNES (French space agency).\n\nIn anticipation of the future CO3D mission, the French space agency (CNES) is currently developing open source tools for large-scale 3D data processing. With the arrival of 3D data on a more frequent basis, new use-cases for such data sources are emerging and enabling its applicability to pressing challenges such as improved crisis management in the aftermath of natural disasters. Change detection methodologies and their application to natural disaster response constitute a long-standing field within the remote sensing community, with initiatives like The International Charter Space and Major Disasters, open data programs of commercial satellite providers or annotated datasets like xview2 enabling a growing number of researchers and practitioners to continuously improve existing solutions. However, until now, the availability of post-event imagery, and thus related algorithms, have mainly been limited to monoscopic acquisitions, whereas with this type of constellations, a growing number of 3D data should also cover areas impacted by climate-related hazards.\r\n\r\nIn this context, CNES is currently working on the hybridization of 2D and 3D data for multimodal change detection. The proposed tutorial will present and teach some of this work being carried out by CNES through a pipeline that can be used for rapid mapping and longer-term risk and recovery management in order to help improving and enriching common existing approaches.\r\n\r\nDuring this tutorial, you will discover how to:\r\n- generate Digital Surface Models from sets of stereo satellite images using the CARS 3D reconstruction library : https://github.com/CNES/cars\r\n- extract the Digital Terrain Models from Digital Surface Models through the Bulldozer library and derive a final Digital Height Model based on the obtained results : https://github.com/cnes/bulldozer\r\n- extract semantic information from the 2D imagery by using classification models and spectral indices \r\n- combine 2D and 3D change indicators in order to quantify and localize the potentially changed areas on a map\r\n- visualize, filter and extract information on these changes using the uncertainties provided by the tools",
+    "start_datetime": "2024-07-02T13:00:00Z",
+    "end_datetime": "2024-07-02T15:00:00Z",
+    "talk:code": "SKX7GX",
+    "talk:guid": "bb0d1491-f0d1-513f-8dea-54ab20b8a742",
+    "talk:event": "foss4g-europe-2024-workshops",
+    "talk:type": "workshop 2h",
+    "talk:language": "en",
+    "talk:room": "Room 335",
+    "talk:room_capacity": 15,
+    "talk:duration_minutes": 120,
+    "talk:speakers": [
+      {
+        "code": "839QJE",
+        "name": "David Youssefi",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024-workshops/speaker/839QJE/"
+      },
+      {
+        "code": "HZLMLS",
+        "name": "Dimitri Lallement",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024-workshops/speaker/HZLMLS/"
+      },
+      {
+        "code": "RRMLTH",
+        "name": "Christian H\u00fcmmer",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024-workshops/speaker/RRMLTH/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-02T14:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024-workshops/talk/SKX7GX/",
+      "title": "Multimodal (2D/3D) change detection for natural disaster response"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024-workshops/talk/SKX7GX/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024-workshops/speaker/839QJE/",
+      "title": "David Youssefi"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024-workshops/speaker/HZLMLS/",
+      "title": "Dimitri Lallement"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024-workshops/speaker/RRMLTH/",
+      "title": "Christian H\u00fcmmer"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/CNES/cars",
+      "title": "github.com/CNES/cars"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/cnes/bulldozer",
+      "title": "github.com/cnes/bulldozer"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024-workshops/talk/SKX7GX/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-workshops"
+}

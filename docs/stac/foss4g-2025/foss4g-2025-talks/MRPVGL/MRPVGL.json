@@ -1,0 +1,159 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "MRPVGL",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Accelerating GeoTIFF readers with Rust",
+    "description": "Reading a Cloud-optimized GeoTIFF involves several steps, from fetching compressed bytes over a network/disk, decompressing those bytes, to finally parsing of TIFF tag metadata. Can we speed up the decoding using asynchronous methods, or even GPU-accelerated libraries? Let's see how we can program this in Rust!\n\nHow can we compose together a modern library to decode Cloud-optimized GeoTIFFs (COGs) efficiently? By using a programming language called Rust, with bindings to Python, WebAssembly and more, our goal is to enable applications that demand high-performance reads, such as web-based COG tilers or machine learning workflows leveraging Graphical Processing Units (GPUs). For CPU workflows, we delegate the network/disk transfer handling to the [`object_store`](https://crates.io/crates/object_store) crate, use various Rust-based algorithms for decompressing raw bytes, and let the [`async-tiff`](https://crates.io/crates/async-tiff) crate do the actual TIFF tag metadata and pixel data parsing. For GPU workflows, we swap the decompression library for [`nvCOMP`](https://developer.nvidia.com/nvcomp), and do the TIFF parsing using [`nvTIFF`](https://developer.nvidia.com/nvtiff), with the resulting pixel data decoded directly into CUDA device memory. Come and see how these asynchronous and GPU-accelerated GeoTIFF readers compare against GDAL's [`libertiff`](https://gdal.org/en/release-3.11/drivers/raster/libertiff.html) driver, and find out how we're making these performant low-level Rust-based readers more accessible by integrating with the [xarray](https://xarray.dev) ecosystem and beyond!",
+    "start_datetime": "2025-11-20T03:30:00Z",
+    "end_datetime": "2025-11-20T03:55:00Z",
+    "talk:code": "MRPVGL",
+    "talk:guid": "846905b9-4f8f-5513-a077-9b9c553b0736",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Tools, Libraries & Visualisation",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG308 TE IRINGA",
+    "talk:room_capacity": 180,
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "RTEKLC",
+        "name": "Wei Ji Leong",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/RTEKLC/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-20T03:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/MRPVGL/",
+      "title": "Accelerating GeoTIFF readers with Rust"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/MRPVGL/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/RTEKLC/",
+      "title": "Wei Ji Leong"
+    },
+    {
+      "rel": "related",
+      "href": "https://crates.io/crates/object_store",
+      "title": "`object_store`"
+    },
+    {
+      "rel": "related",
+      "href": "https://crates.io/crates/async-tiff",
+      "title": "`async-tiff`"
+    },
+    {
+      "rel": "related",
+      "href": "https://developer.nvidia.com/nvcomp",
+      "title": "`nvCOMP`"
+    },
+    {
+      "rel": "related",
+      "href": "https://developer.nvidia.com/nvtiff",
+      "title": "`nvTIFF`"
+    },
+    {
+      "rel": "related",
+      "href": "https://gdal.org/en/release-3.11/drivers/raster/libertiff.html",
+      "title": "`libertiff`"
+    },
+    {
+      "rel": "related",
+      "href": "https://xarray.dev",
+      "title": "xarray"
+    },
+    {
+      "rel": "related",
+      "href": "https://developmentseed.org/team/weiji-leong",
+      "title": "Machine Learning Engineer"
+    },
+    {
+      "rel": "related",
+      "href": "https://developmentseed.org",
+      "title": "Development Seed"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.pygmt.org",
+      "title": "PyGMT"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/pangeo-data/pangeo-docker-images",
+      "title": "pangeo-docker-images"
+    },
+    {
+      "rel": "related",
+      "href": "https://crates.io/crates/cog3pio",
+      "title": "cog3pio"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/weiji14",
+      "title": "GitHub"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/MRPVGL/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=iNNxXrvfHes",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Accelerating GeoTIFF readers with Rust",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

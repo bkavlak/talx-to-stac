@@ -1,0 +1,87 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "GSREMZ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "Writing spatial data utilities with GeoTools and JTS",
+    "description": "This workshop will introduce the GeoTools and JTS Java libraries to developers who are looking to create portable scripts for cleaning, transforming and  analyzing spatial data. GeoTools is a powerful geospatial library that allows you to read and write a wide range of vector and raster data formats. It wraps the JTS library to make features out of geometry objects from the JTS library by adding attributes, it also provides OGC compliant styling of those features and rasters (as seen in the GeoServer web maps server).\n\nAre you feed up with trying to make all of your software work with the same version of GDAL while staying with the latest versions? Do you wish that you didn't need to start QGIS up every week to carry out the same task on a fresh dataset?\r\nIf you do then this is the workshop for you. This workshop will be driven by the attendee's requests (as far as possible) these could include:\r\n+ using the GeoTools library to abstract away the different data formats that plague your days,\r\n+ selecting features (from a geopackage, postgis database or csv file) based on some predicate,\r\n+ how to test geospatial relationships and modify geometries with JTS, \r\n+ how to calculate new rasters using other rasters.\r\n+ how to display your data on screen for a quick look\r\n+ how to generate an automatically classify and style a dataset",
+    "start_datetime": "2026-07-03T11:00:00Z",
+    "end_datetime": "2026-07-03T15:00:00Z",
+    "talk:code": "GSREMZ",
+    "talk:guid": "d618a0c5-5ca1-580d-95b9-4c9d870b08af",
+    "talk:event": "foss4g-europe-2026-workshops",
+    "talk:type": "workshop",
+    "talk:language": "en",
+    "talk:room": "104",
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "FX8FR7",
+        "name": "Ian Turton",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026-workshops/speaker/FX8FR7/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-07-03T13:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/talk/GSREMZ/",
+      "title": "Writing spatial data utilities with GeoTools and JTS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/talk/GSREMZ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/speaker/FX8FR7/",
+      "title": "Ian Turton"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/talk/GSREMZ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-workshops"
+}

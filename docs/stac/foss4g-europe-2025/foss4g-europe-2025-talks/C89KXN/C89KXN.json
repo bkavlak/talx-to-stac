@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "C89KXN",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "State of GRASS",
+    "description": "Join us for a lively overview of the current state of the GRASS project, where community meets cutting-edge geospatial technology. Whether you're a longtime power user or a newcomer curious about GRASS, this talk will highlight the major strides the project has made in the past year \u2013 from revitalized governance and community growth to technical breakthroughs \u2013 and offer a glimpse into what's next.\r\n\r\nDuring the talk, we will address how GRASS has strengthened its governance and support structure by bringing in new members to bolster sustainable leadership and new fiscal sponsorship with NumFOCUS. We will also review GRASS community-building initiatives, such as the NSF-backed efforts that allowed GRASS to establish a mentoring program for new contributors, support our Student Grant program, and hold the GRASS Developer Summit 2025 in Raleigh, NC. We will highlight this past summer's Google Summer of Code project, which demonstrates how community mentoring feeds innovation.\r\n\r\nThe talk will also address GRASS's new logo and branding initiative over the past year, aiming to give the project a modern look while keeping its iconic elements. Notably, \"GRASS GIS\" is now officially just GRASS \u2013 a simpler name that the community has used colloquially for years. To celebrate, the team launched an online swag shop with GRASS-themed apparel, stickers, and more. We will also look at recent strides in community outreach and learning resources, such as a new tutorial website and the modernization of GRASS's documentation platform.\r\n\r\nOn the development side, we will show off what the GRASS development team has been hard at work delivering in terms of new features, improved performance, and better integration as part of GRASS 8.5. Under the hood, the team made significant code quality and security improvements, fixing issues flagged by automated linters and code scanners. These efforts pave the way for stricter continuous integration checks and a more robust codebase. The build system is also being modernized: GRASS is transitioning to CMake for easier compilation and maintenance, and an official Conda package is on the way, simplifying installation for Python/R data scientists and lowering entry barriers.\r\n\r\nAs we celebrate these achievements, we're also looking ahead. The GRASS roadmap outlines ambitious goals for the next few years. We plan to maintain annual releases (GRASS 8.6 is already on the horizon for 2026) and continue improving distribution and integration \u2013 think one-click installs via Conda, tighter bridges to QGIS and R, and refined Python and R APIs for smooth scripting. Sustainability remains a core focus: the project actively pursues new grants, sponsors, and community donations to ensure long-term development while spreading infrastructure knowledge and lowering maintenance overhead to avoid burnout.\r\n\r\nIn short, the state of GRASS is strong and dynamic. This talk will offer an informative yet exciting tour of the project's recent milestones across community and technology. We invite everyone \u2013 from newbies to veteran developers \u2013 to see how far GRASS has come and to get inspired about where it's heading. Learn about the latest capabilities, meet the people behind the project, and discover how you can be part of the next chapter of GRASS!",
+    "start_datetime": "2025-07-17T10:00:00Z",
+    "end_datetime": "2025-07-17T10:30:00Z",
+    "talk:code": "C89KXN",
+    "talk:guid": "47e31a3d-0b06-5342-9b09-de5b6285ec78",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "SA01",
+    "talk:room_capacity": 130,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "EYZCPK",
+        "name": "Alen Mangafi\u0107",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/EYZCPK/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-17T10:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/C89KXN/",
+      "title": "State of GRASS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/C89KXN/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/EYZCPK/",
+      "title": "Alen Mangafi\u0107"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/C89KXN/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/C89KXN/resources/state_of_mostar_7qkjo7D.pdf",
+      "type": "application/pdf",
+      "title": "presentation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/4XkgeXW3gEDCZf8cSePzwq",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | State of GRASS",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=U33d3HSOu1M",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | State of GRASS",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

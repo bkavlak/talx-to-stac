@@ -1,0 +1,155 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "QDFYKL",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Topology for Spatial Distribution Networks",
+    "description": "The proposal consists of the presentation of the benefits that can be obtained by the implementation of a Topology for Spatial Distribution Networks. The concepts of Topology, the steps necessary for its implementation and the benefits for an organization are presented. Finally, the project is presented where, from a Plugin developed in Python in QGIS, the implemented resources and the results obtained are demonstrated. The full content of the Project can be viewed in these two articles:\r\n\r\n\u2022\thttps://www.linkedin.com/pulse/topologia-de-rede-espacializada-rodrigo-paschoal-do-valle-wx7hf/?trackingId=gNxyrwDYR1ahkTMHJEN%2FzA%3D%3D\r\n\r\n\u2022\thttps://www.linkedin.com/pulse/topologia-rede-de-saneamento-rodrigo-paschoal-do-valle-uxblf/?trackingId=1UOrKCOaQcmffR9BqAnqcQ%3D%3D\r\n\r\nInitially, the concepts and steps necessary for the elaboration of Topology will be presented in a simple and objective way. A Water Distribution Network (Sanitation) will be used as an example, as its elements are easy to see. Three main elements will be addressed:\r\n\r\n\u2022\tSegments: representing the distribution network.\r\n\u2022\tValves: representing the point at which the flow can be interrupted.\r\n\u2022\tReservoir: representing the starting point of the network (start of supply).\r\n\r\nFor each element, its characteristics (SYNTAX) and behaviors (SEMANTICS) will be presented. The analysis focuses on simplifying the model, meeting what is necessary for the development of the resources that will be explored in Topology.\r\n\r\nAfter the contextualization of the Topology, some challenges faced during its implementation will be presented. Emphasizing the eventual necessary adjustment in the registered elements, as examples:\r\n\r\n\u2022\tUnconnected segments: adequacy of the initial and final vertices to establish the connection.\r\n\u2022\tValves superimposed on segments: division of the segment and insertion of valve between them.\r\n\u2022\tUnconnected reservoirs: adequacy of the segment vertex to establish the connection.\r\n\r\nThe benefits obtained and the ability to increase the maturity of an organization are addressed, as static records are transformed into active elements, enabling maneuvers, validations and behavior analysis. Thus, we have the development of Network Intelligence. These and other benefits will be addressed in preparation for the presentation of the results developed in the Project.\r\n\r\nThe project had two stages: In the first, a Natural Gas Distribution Network was used on which the Network Isolation mechanism was implemented; in the second, a Water Distribution Network was used and new resources were implemented: Network Analysis, Network Status and Opening and Closing of Valves. The presentation will focus on the advantages obtained by the implemented resources, demonstrating the characteristics and applications of each one.\r\n\r\nFor the presentation of the implemented resources, images and videos will be used, as well as made in the published articles.\r\n\r\n<u>Step 1: Contextualization of the Gas Distribution case</u>\r\n\u2022\t<b>Network Isolation:</b> need to isolate the section in an Emergency situation (Leak)\r\nPresentation of the results and concepts involved: Selected Segment, Isolated Section, Affected Section and Valves to be closed.\r\n\r\nEmphasis also on future benefits related to isolation:\r\n\u2022\tIdentification of Customers Affected in the maneuvers performed.\r\n\u2022\tIdentification of Critical Regions in which a one-off isolation affects a vast region.\r\n\u2022\tAnalysis of existing resources in a Graph structure: (1) identification of critical paths, (2) analysis of points without supply redundancy, (3) automatic assignment of the status of segments from the manipulation of valves.\r\n\u2022\tAssistance in Supply Continuity Strategies, identifying Critical Customers (such as Hospitals) that are in vulnerable regions.\r\n\r\n<u>Step 2: Contextualization of the Sanitation case and implemented resources</u>\r\n\u2022\t<b>Network Analysis: </b>an analysis is made on the imported elements to identify inconsistencies, thus validating the model. The following situations were analyzed: (1) Valves connected to only one Segment, (2) Valves connected to more than two Segments, (3) Segments isolated from the Network, (4) Segments not connected to Reservoirs, and (5) Isolated Valves and Reservoirs. This analysis can be expanded, according to the elements and rules used by Topology, and can also help in estimating the effort required in adjusting records.\r\n\r\n\u2022\t<b>Network Status: </b>from the connections between Reservoirs, Segments and Registers (open and closed) the points of the Network that are Supplied and Not Supplied are presented. With this functionality, the status of a certain stretch is automatically defined, thus not requiring the intervention of an operator to update the Network. The feature has the same behavior for Gas Networks, respecting the elements of Topology.\r\n\r\n\u2022\t<b>Opening and Closing of Valves: </b>after analyzing the Network, it is possible to select the Valves and open/close them, automatically updating the network. This feature is especially important for situations where we need to analyze the impact on the Network of maneuvers performed. This feature can be used in conjunction with Network Isolation to study the behavior of the distribution fabric.\r\n\r\n<b>Next steps</b>\r\n\u2022\tInclude the list of Affected Customers in the resources already developed.\r\n\u2022\tExplore opportunities for new resources, some with room to be used by any Distribution Network, others that make sense only for certain contexts;\r\n\u2022\tUse of the model (BDGD) \u2013 Geographic Database of the Distributor, required by ANEEL (National Electric Energy Agency) for the delivery of data from the concessionaires, including an Electric Energy Distribution Network to the project;\r\n\u2022\tProspect any use case related to Telecommunications Networks.\r\n\r\n<b>Conclusion</b>\r\nIn this second example, the Water Distribution Concessionaire urgently needed to resupply Hospitals in a certain region of Porto Alegre. As alternatives were implemented, a number of houses and buildings also had their supply normalized. In this situation, only critical points should be supplied, directing the scarce resource only to emergency points. Network Topology enables this maneuver and the creation of strategies for network segmentation.",
+    "start_datetime": "2024-12-05T18:00:00Z",
+    "end_datetime": "2024-12-05T18:30:00Z",
+    "talk:code": "QDFYKL",
+    "talk:guid": "b7968597-bb01-5414-9643-e941172c1b0f",
+    "talk:event": "foss4g-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room IV",
+    "talk:room_capacity": 100,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "7KEL83",
+        "name": "Rodrigo Valle",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/7KEL83/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-05T18:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/QDFYKL/",
+      "title": "Topology for Spatial Distribution Networks"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/QDFYKL/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/7KEL83/",
+      "title": "Rodrigo Valle"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.linkedin.com/pulse/topologia-de-rede-espacializada-rodrigo-paschoal-do-valle-wx7hf/?trackingId=gNxyrwDYR1ahkTMHJEN%2FzA%3D%3D",
+      "title": "www.linkedin.com/pulse/topologia-de-rede-espacializada-rodrigo-paschoal-do-valle-wx7hf"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.linkedin.com/pulse/topologia-rede-de-saneamento-rodrigo-paschoal-do-valle-uxblf/?trackingId=1UOrKCOaQcmffR9BqAnqcQ%3D%3D",
+      "title": "www.linkedin.com/pulse/topologia-rede-de-saneamento-rodrigo-paschoal-do-valle-uxblf"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/QDFYKL/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024/submissions/QDFYKL/resources/Presentation_Rodrigo_Valle_eYqPsaY.pdf",
+      "type": "application/pdf",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "manobras-sobre-registros-de-uma-rede-de-saneamento": {
+      "href": "https://www.linkedin.com/posts/rodrigopvalle_manobras-sobre-registros-de-uma-rede-de-saneamento-activity-7203902725774827520-dBhS?utm_source=combined_share_message&utm_medium=member_desktop",
+      "title": "Manobras sobre Registros de uma Rede de Saneamento",
+      "roles": [
+        "data"
+      ]
+    },
+    "status-de-uma-rede-de-saneamento": {
+      "href": "https://www.linkedin.com/posts/rodrigopvalle_status-de-uma-rede-de-saneamento-activity-7203902430579712000-GIbn?utm_source=combined_share_message&utm_medium=member_desktop",
+      "title": "Status de uma Rede de Saneamento",
+      "roles": [
+        "data"
+      ]
+    },
+    "analise-sobre-uma-rede-de-saneamento": {
+      "href": "https://www.linkedin.com/posts/rodrigopvalle_an%C3%A1lise-sobre-uma-rede-de-saneamento-activity-7203902133077712896-BVWN?utm_source=combined_share_message&utm_medium=member_desktop",
+      "title": "An\u00e1lise sobre uma Rede de Saneamento",
+      "roles": [
+        "data"
+      ]
+    },
+    "manobra-de-isolamento-de-rede-de-gas": {
+      "href": "https://www.linkedin.com/posts/rodrigopvalle_resultado-de-uma-manobra-de-isolamento-de-activity-7165766005539958784-ueLa?utm_source=combined_share_message&utm_medium=member_desktop",
+      "title": "Manobra de Isolamento de Rede de G\u00e1s",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/w9m7hsvVU4XRBdEDsenw1H",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | Topology for Spatial Distribution Networks",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=fC0JLA6mIPM",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | Topology for Spatial Distribution Networks",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

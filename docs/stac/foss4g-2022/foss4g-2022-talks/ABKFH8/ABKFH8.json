@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "ABKFH8",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Development of a disaster information collection system using smartphones and cloud computing",
+    "description": "When natural disasters such as floods and earthquakes occur, much work is required for recovery and reconstruction. Depending on the scale of the disaster, it is often not enough for the government and local governments to do the work alone. Disaster relief through volunteer activities by many individuals and organizations is also necessary.\r\n\r\nIn this kind of work with diverse participants, it is very important to collect and analyze information, plan the work, and divide the work among the various members.\r\n\r\nIt would be very beneficial to have computer technology available to survey disaster situations and collect, consolidate, and share data\r\n\r\nIt would be useful to be able to use the smartphones that many people own for information gathering and sharing mechanisms.\r\n\r\nJapan's Coordinating Organization for Volunteer Organizations in Disasters\r\n(Japan Voluntary Organizations Active in Disaster) and its component organization, the IT Disaster Assistance and Response Team, developed a smartphone-based disaster information collection system in 2019 that has been used to collect and use information at many flood sites.\r\n\r\nThis system transmits disaster information collected by smartphones and consolidates it into a Google Spread Sheet.\r\n\r\nAn API has also been created to distribute information collected from Google Spread Sheet in GeoJSON format.Using this API, it is also possible to use disaster information on web maps and QGIS.\r\n\r\nIn this presentation, I will describe the status of the creation and use of this system.",
+    "start_datetime": "2022-08-26T07:00:00Z",
+    "end_datetime": "2022-08-26T07:30:00Z",
+    "talk:code": "ABKFH8",
+    "talk:guid": "d98b5bcd-62de-5a8d-9adf-6da583c1afa4",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "General online",
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "SNYWCY",
+        "name": "Yoichi Kayama",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/SNYWCY/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T07:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/ABKFH8/",
+      "title": "Development of a disaster information collection system using smartphones and cloud computing"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/ABKFH8/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/SNYWCY/",
+      "title": "Yoichi Kayama"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/ABKFH8/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

@@ -1,0 +1,113 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "XKFCXZ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Development of open-source digital twins for automated analysis of flood risk",
+    "description": "Digital Twins address the fundamental challenges created by large volumes of geospatial data by enabling automated, near-real time processing and analysis, reducing the gap between data and the insights needed for decision-making. Here we present our open-source digital twin software framework, demonstrated through automated flood risk assessment.\n\nDigital Twins are dynamic virtual representations of physical systems, with automated data exchange and analytics being key attributes; they are enabling the development of smart cities and may also represent the natural environment. For example, over the next several years the EU's \u201cDestination Earth\u201d system is being developed as a Digital Twin for climate services, to facilitate access to weather and climate models which can be used for impact studies. Our research is developing scalable open-source environmental Digital Twin technology, applicable to diverse geospatial applications. We have applied this to address the complex geospatial analysis required for compound flood risk assessment (fluvial, pluvial and coastal). \r\nOur system enables automated scenarios for mitigation and adaptation, particularly those for natural flood management, while accounting for climate change; once complete, our system will be able to ingest weather and climate model data from the Destination Earth system, further enabling scalability. Through our close engagement with our indigenous partners, we are ensuring that m\u0101tauranga M\u0101ori (indigenous knowledge) is embedded within the system and scenarios developed. This will help to ensure that flood mitigation measures developed recognise M\u0101ori values and practices, as needed under the United Nations\u2019 Declaration on the Rights of Indigenous Peoples. \r\nHere, we present our fully open-source Digital Twin software framework including the core Environmental Digital Data Intelligence Engine (EDDIE), a data management system which is generically applicable to multiple use cases, and a module which interfaces with this for flood risk assessment, the Flood Resilience Digital Twin (FReDT). This framework provides the generic base for data ingestion, model configuration, and data visualisation that can be applied to many distinct use cases through extensions. \r\nIn the implementation presented here, FReDT interacts with EDDIE to automatically produce, run, ingest, analyse and visualise outputs from flood model simulations. Users can interact with FReDT by using a 3D geospatial web application based on the open-source geospatial library TerriaJS for control and visualisation. Alternatively, users can interact using an API via Open Geospatial Consortium standards such as WPS for starting models and WFS or WMS for retrieving data to use with existing tooling such as GIS software.\r\nTo begin processing a flood model scenario, users of FReDT must specify an area of interest and provide configuration parameters for the flood model, such as choosing the projected year for a climate scenario. Once the backend receives a processing request, it begins a Python Celery worker task to model the flood extents and depths and assess impact. Open data sources such as LiDAR terrain datasets, sea level rise predictions, river network shapes and statistics, and more are downloaded, processed and saved to database. If the same data is later required for another scenario run, then can be retrieved from the database, or it can be flagged for update and new data will be retrieved when required. Dynamic model forcing data (rainfall, river flows, tide levels) are currently produced statistically from open-data sources, and the system will be extended to include live observations and forecasts, predicted streamflow from a hydrological model, as well as user-provided scenarios.\r\nOnce the data is retrieved and processed it is passed through to the flood inundation numerical modelling software BG-Flood. Outputs from BG-Flood are passed through to the user and are also passed through to post-modelling analysis stages such as cross-referencing with building footprint polygon datasets to predict which buildings may be inundated for the scenario assessed. These data are presented to the users of the web application as geospatial layers on a 3D map, with a time slider to explore the depth of flooding over the course of the event, a comparison slider for viewing multiple scenarios side-by-side, and the ability to query the features such as individual buildings and the depth of a location to see a plot of depth over time.\r\nThe software system uses multiple containers to provide backend, frontend, and database services. The processing chains required for running flood models in new areas can take hours or more, especially for large domains. Currently work is under development to allow running the digital twin software on AWS cloud Elastic Container Services, which will allow for processing nodes to expand resources during periods of high demand and reduce outside of those times.\r\nPhysics-based Digital Twins such as FReDT will revolutionise access to and use of numerical model predictions, through a \u201cdigital twin web\u201d powered by rapidly growing data and distributed cloud computing. Yet individual components need to be built and tested to ensure they are fit-for-purpose, democratic and adaptive to society\u2019s needs. Our research is enabling this, initially in Aotearoa New Zealand but with global applicability. Building on the existing FReDT codebase, our current research is adding a hydrological model to allow upper river catchment changes to be accounted for in downstream flood risk and enable land management scenarios such as reforestation. Our aim is to facilitate rapid, low-cost risk assessments with on-demand scenario analytics, and effective ways to visualise and communicate this risk and its associated uncertainties, with communities placed at the centre by enabling them to participate in the design of solutions for flood mitigation and adaptation.\r\nGitHub repository: https://github.com/GeospatialResearch/Digital-Twins",
+    "start_datetime": "2025-11-18T23:00:00Z",
+    "end_datetime": "2025-11-18T23:25:00Z",
+    "talk:code": "XKFCXZ",
+    "talk:guid": "1d8ed0d9-9bd4-5e07-be26-5b0a108fab5f",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Academic",
+    "talk:type": "Academic Paper",
+    "talk:language": "en",
+    "talk:room": "WG404",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "7G79AY",
+        "name": "Matthew Wilson",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/7G79AY/"
+      },
+      {
+        "code": "8FMRTS",
+        "name": "Luke Parkinson",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/8FMRTS/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-18T23:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/XKFCXZ/",
+      "title": "Development of open-source digital twins for automated analysis of flood risk"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/XKFCXZ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/7G79AY/",
+      "title": "Matthew Wilson"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/8FMRTS/",
+      "title": "Luke Parkinson"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/GeospatialResearch/Digital-Twins",
+      "title": "github.com/GeospatialResearch/Digital-Twins"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/XKFCXZ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=KYzEOmrbgHU",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Development of open-source digital twins for automated analysis of flood risk",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

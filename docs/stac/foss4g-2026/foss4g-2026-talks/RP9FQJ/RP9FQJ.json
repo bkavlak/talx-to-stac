@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "RP9FQJ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "From CityGML to Game Engine: A Reproducible Open-Source Pipeline for Interactive 3D Urban Environments Using PLATEAU, Blender, and Godot",
+    "description": "Problem Statement\r\nOpen 3D city model datasets are becoming increasingly available worldwide through standards such as CityGML. In Japan, the Ministry of Land, Infrastructure, Transport and Tourism (MLIT) has released Project PLATEAU, one of the largest national open 3D city model initiatives, covering over 200 municipalities with building, terrain, vegetation, and infrastructure data at multiple Levels of Detail. However, while PLATEAU provides official SDKs for proprietary game engines (Unity, Unreal Engine), no documented workflow exists for integrating PLATEAU data into open-source interactive environments. More broadly, the geospatial community lacks a fully documented, reproducible pipeline for transforming CityGML data into lightweight, interactive 3D applications suitable for deployment on low-specification hardware typically found in schools or community centres where participatory planning workshops take place.\r\n\r\nThis paper presents and evaluates a complete open-source pipeline from CityGML acquisition to interactive real-time 3D environment, using exclusively free and open-source software: Blender for geospatial data processing and 3D optimisation, and the Godot Engine for real-time rendering and interaction. We validate this pipeline through deployment in a participatory urban design workshop with elementary school students in Yokohama, Japan.\r\n\r\nPipeline Architecture\r\nThe pipeline comprises four stages.\r\nStage 1: Data Acquisition. CityGML data for the target site (Takashima Central Park, Minato Mirai, Yokohama; approximately 113 m x 159 m) was downloaded from PLATEAU's open data portal, including buildings, terrain, vegetation, and infrastructure at LOD1 and LOD2. The LOD selection involves a critical trade-off: LOD2 provides roof shapes and facade detail but substantially increases polygon count. A selective strategy was adopted, retaining LOD2 for buildings within the workshop perimeter and simplified representations for surrounding context.\r\n\r\nStage 2: Conversion and Optimisation in Blender. CityGML data was converted to Blender-compatible formats (FBX, glTF). This stage involved coordinate reference system alignment, geometric cleaning (degenerate faces, inverted normals, non-manifold geometries), mesh simplification balancing fidelity with rendering performance, semantic layer structuring (terrain, buildings, vegetation, public space), and removal of elements beyond the perimeter. The processed model was exported in glTF to preserve coordinate alignment with the Godot engine.\r\n\r\nStage 3: Integration in Godot. The optimised model was imported into the Godot Engine (version 4.x). A critical step at this stage was the automatic generation of collision shapes for all CityGML-derived meshes (buildings, terrain, infrastructure), a requirement absent from GIS workflows but essential for game engine navigation: without collision data, the first-person character controller would pass through walls and terrain. A custom plugin system was then developed, comprising: a drag-and-drop asset placement interface sourcing 94 curated 3D objects from the Kenney asset library (CC0 licence) across six functional categories; a first-person character controller for pedestrian-scale navigation over the collision-enabled environment; and an embedded GDScript-based logging system that records every placed asset's identifier, category, position (X, Z), and bounding-box volume as CSV files suitable for post-hoc geospatial analysis.\r\n\r\nStage 4: Deployment. The environment was packaged as a standalone Godot project deployable on standard educational PCs without dedicated graphics hardware, requiring stable frame rates and responsive interaction under classroom conditions.\r\n\r\nTechnical Challenges\r\nThe CityGML-to-game-engine conversion raises several challenges that deserve documentation for reproducibility.\r\nCRS handling. PLATEAU metric coordinates produce models offset by large values from the scene origin when imported directly. A re-centring step in Blender was necessary to preserve internal metric distances while ensuring that coordinates extracted from Godot remain mappable to real-world positions.\r\nConversion artefacts. CityGML-to-FBX/glTF conversion introduced flipped normals, Z-fighting on coplanar surfaces, and disconnected mesh fragments, requiring manual inspection and correction. Documenting these artefacts and solutions reduces the barrier to entry for future pipeline users.\r\nLOD and performance. Full LOD2 for all buildings exceeded classroom-grade PC rendering capacity. The selective LOD strategy maintained interactive frame rates while preserving spatial realism sufficient for participants to recognise the site. Quantitative performance characterisation (polygon counts, frame rates, memory usage) will be reported in the full paper.\r\nNo official Godot SDK for PLATEAU. Unlike Unity and Unreal, Godot lacks a PLATEAU SDK. Blender proved essential as simultaneous format converter, geometry optimiser, and semantic structurer, positioning it as the key bridge component in any open-source CityGML-to-game-engine pipeline.\r\nCollision generation. CityGML meshes are designed for visualisation and spatial analysis, not for physics-based interaction. Game engine navigation requires collision shapes that prevent characters from passing through geometry. Automatic collision generation from imported meshes proved effective for terrain and building shells but required verification for complex or thin geometries where collision approximations could produce unintended barriers or gaps.\r\n\r\nValidation\r\nThe pipeline was validated through a participatory workshop conducted on 17 December 2025 at an elementary school in Yokohama, with approximately 50 sixth-grade students (aged 11-12) working in 12 groups on six classroom PCs. Over two 45-minute sessions, participants placed 1,192 assets without system failures, demonstrating the pipeline's robustness under real deployment constraints with non-expert users. The embedded logging system successfully generated coordinate-stamped data for all groups, confirming that Godot's scripting capabilities can serve as a lightweight geospatial data collection layer. Detailed evaluation of pedagogical and spatial outcomes is reported in companion publications.\r\n\r\nContribution\r\nThis work makes three contributions to the open-source geospatial community. First, it provides the first documented end-to-end workflow for integrating CityGML/PLATEAU data into the Godot Engine via Blender, filling the gap left by the absence of an official SDK. Second, it demonstrates that a fully open-source stack (PLATEAU + Blender + Godot + Python) can deliver interactive 3D urban environments on low-specification hardware, removing both licensing and infrastructure barriers. Third, it shows that GDScript can serve as an embedded geospatial data collection tool, producing coordinate-stamped logs amenable to standard GIS analysis.\r\nThe pipeline is fully reproducible: all software is free and open-source, the PLATEAU data is publicly accessible, and the asset library is CC0-licensed. The methodology is transferable to any context where CityGML data is available, including European national mapping agencies and the emerging OGC CityGML 3.0 ecosystem.\r\nFuture work will focus on automating the Blender processing steps through scripted add-ons, benchmarking the pipeline across different PLATEAU municipalities and LOD configurations, and developing a standardised Godot plugin for direct CityGML import.",
+    "start_datetime": "2026-09-01T04:00:00Z",
+    "end_datetime": "2026-09-01T04:30:00Z",
+    "talk:code": "RP9FQJ",
+    "talk:guid": "b5a18928-59b6-5e08-ba26-f8050b571b1b",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos1",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "GUVYJ7",
+        "name": "L\u00e9o Martial",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/GUVYJ7/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T04:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/RP9FQJ/",
+      "title": "From CityGML to Game Engine: A Reproducible Open-Source Pipeline for Interactive 3D Urban Environments Using PLATEAU, Blender, and Godot"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/RP9FQJ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/GUVYJ7/",
+      "title": "L\u00e9o Martial"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/RP9FQJ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Q3FKPQ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Waystones: Bridging the Deployment Gap for Authoritative OGC API Services",
+    "description": "Waystones is an open-source tool for designing geospatial data models and deploying production-ready OGC APIs. By automating the configuration of pygeoapi and QGIS Server, it enables organizations to meet High-Value Dataset (HVD) requirements and share standards-compliant data directly to the cloud.\n\nPublic sector organizations are currently facing a \"deployment complexity gap.\" While regulations like the EU High-Value Datasets (HVD) Implementing Regulation mandate API access to geospatial data, the technical reality of publishing a compliant OGC API stack is daunting. It requires coordinating spatial databases, feature API servers (pygeoapi), map rendering engines (QGIS Server), and transformation scripts\u2014each with unique configuration hurdles.\r\n\r\nWaystones is a browser-based application designed to democratize this infrastructure. It provides a visual, end-to-end workflow from model design to live service deployment:\r\n\r\nVisual Model & Style Editor: Users define layers, field constraints, and spatial relationships through an intuitive UI. Waystones automatically generates the necessary QGIS project files and SLD styles, removing the need for desktop GIS expertise during the publishing phase.\r\n\r\nStandards-First Deployment: Waystones targets modern OGC API standards (Features, Maps) by auto-generating a Docker Compose deployment kit, compatible with any container hosting environment including Fly.io, with a cloud-native architecture built on Parquet and FlatGeobuf served from object storage via DuckDB \u2014 enabling fast cold starts without persistent volumes. It bridges the gap between raw data (GeoPackage/PostGIS) and a live, standards-compliant service in minutes.\r\n\r\nSTAC Catalog Generation: Waystones automatically generates STAC-compliant catalogs alongside deployed services, exposing GeoPackage, FlatGeobuf, and Parquet endpoints \u2014 making datasets discoverable to both human users and automated harvesters.\r\n\r\nAI-Assisted Discovery: The platform leverages optional LLM integration to automate the \"metadata chore,\" generating field descriptions and abstracts to ensure services are not just live, but discoverable and well-documented.\r\n\r\nWaystones ensures that foundational geospatial infrastructure remains open, interoperable, and accessible to organizations of all sizes. This session will include a live demonstration of transforming a raw GeoPackage into a production-ready OGC API endpoint.",
+    "start_datetime": "2026-09-03T04:30:00Z",
+    "end_datetime": "2026-09-03T05:00:00Z",
+    "talk:code": "Q3FKPQ",
+    "talk:guid": "f3310e77-2055-55cb-b4d1-677f0e4b4248",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room2",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "MGTYMR",
+        "name": "Henrik Gulliksen Sch\u00fcller",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/MGTYMR/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-03T04:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/Q3FKPQ/",
+      "title": "Waystones: Bridging the Deployment Gap for Authoritative OGC API Services"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/Q3FKPQ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/MGTYMR/",
+      "title": "Henrik Gulliksen Sch\u00fcller"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/Q3FKPQ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

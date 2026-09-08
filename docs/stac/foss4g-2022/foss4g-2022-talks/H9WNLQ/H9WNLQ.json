@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "H9WNLQ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "FunctionalScope - Interactive real-time simulation tool for neighborhood planning",
+    "description": "The FunctionalScope software builds on the concept of the CityScope, developed by the MIT Media Lab City Science Group. The FunctionalScope supports urban planners in the functional planning phase of new neighborhoods, the phase in which a competition design proposal is refined in preparation for creating a binding land use plan (Bebauungsplan).\u00a0\r\n\r\nThe tool offers a 3D view of the new urban design, vector(ized) data of the architectural  designs, embedded into a MapLibre based application in the browser. Several near-to-realtime APIs offer the opportunity to evaluate a neighborhood\u2019s design performance in terms of pedestrian flows, wind-comfort and traffic noise. Each simulation allows the user to set custom scenario criteria to enable to, for example, assess different policy and design strategies for the neighborhood such as pedestrian access to private land, speed limits on city streets, or simulate wind-comfort in for various wind conditions.\r\nIn addition to the web-interface for detailed planning stages, we have developed a tangible table, which allows users to iteratively generate new spatial configurations using 3D-printed buildings. Simulations are run for the designs created on the table, too.\r\n\r\nThe entire stack is built on open-source software.\r\n\r\nWe have used this tool in cooperation with the City of Hamburg (HafenCity GmbH) during the planning process of a new waterfront-neighborhood, Grasbrook. The FunctionalScope is designed to in a generic manner and twill be used in the planning of at least one new neighborhood-scale urban development project in Hamburg.\r\n\r\nThis talk will present the tech stack behind the tool: starting from the translation of architectural into geospatial data (geojson), covering the 3D neighborhood visualization in MapLibre and presenting our open-source near-to-realtime simulation APIs. Moreover, the technology behind the tangible planning table, based on an infrared camera, ArUco markers and Unity will be explained.\r\nThe talk concludes with lessons learned when developing and applying such an innovative tool to support a new neighborhood-scale development project.",
+    "start_datetime": "2022-08-25T08:15:00Z",
+    "end_datetime": "2022-08-25T08:20:00Z",
+    "talk:code": "H9WNLQ",
+    "talk:guid": "6fa751f3-2c46-5bed-9914-b41001c6c4d8",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Room 9",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "EQUFCH",
+        "name": "Andre Landwehr",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/EQUFCH/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T08:17:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/H9WNLQ/",
+      "title": "FunctionalScope - Interactive real-time simulation tool for neighborhood planning"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/H9WNLQ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/EQUFCH/",
+      "title": "Andre Landwehr"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/H9WNLQ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=iCRgn_D3oYg",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | FunctionalScope - Interactive real-time simulation tool for neighborhood planning",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

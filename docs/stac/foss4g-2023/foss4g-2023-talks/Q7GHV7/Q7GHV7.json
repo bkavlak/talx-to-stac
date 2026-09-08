@@ -1,0 +1,129 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Q7GHV7",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "View Server - EO Data Visualization in a Cloud Native Way",
+    "description": "The View Server (VS) is MIT licensed, Docker based, cloud-native, scalable software stack providing external services for searching, viewing, and downloading Earth Observation (EO) data. Services implementations are following OGC Web services standards STAC, OpenSearch, WMS, WMTS, WCS.\r\n\r\nHaving EOxServer and MapCache as core components, enables EO Data publication in a modular and configurable way. The process starts with data harvesting, preprocessing and metadata ingestion and ends with serving pre-cached and on demand rendered images through an attached Web client based on OpenLayers and EOxC libraries or on individual service endpoints.\r\n\r\nEOxServer allows dynamic generation of visual images from multi-spectral data. In this way, specific bands or channels of the original images can be selected as the grey or red, green, and blue output colour channels. It also supports flexible rendering based on previously extracted image statistics, pansharpening on the fly, filtering the long time periods of products intersecting with the query in CQL syntax utilizing metadata parameters and more.\r\n\r\nVS provides both S3, OpenStack Swift, HTTP and local files support when considering data storage and can be deployed in Docker Swarm environment via docker-compose templates or in Kubernetes environment as a set of Helm charts.\r\nThe software stack was and is used by EOX in a quite a number of operational deployments for ESA, like the VirES projects, Copernicus Space Component Data Access system (CSCDA), or more recently Earth Observation Exploitation Platform Common Architecture.\r\n\r\nLinks:\r\nhttps://eox.at/2021/09/eoxserver-1-0/\r\nhttps://eoxserver.org/\r\nhttps://github.com/EOxServer/eoxserver/\r\nhttps://gitlab.eox.at/vs/vs",
+    "start_datetime": "2023-06-29T14:30:00Z",
+    "end_datetime": "2023-06-29T15:00:00Z",
+    "talk:code": "Q7GHV7",
+    "talk:guid": "281c5906-da79-54be-ae9b-970401260419",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Open source geospatial \u2018Made in Europe\u2019",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT C / N109 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "KG9PZL",
+        "name": "Lubomir Dolezal",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/KG9PZL/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-29T14:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/Q7GHV7/",
+      "title": "View Server - EO Data Visualization in a Cloud Native Way"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/Q7GHV7/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/KG9PZL/",
+      "title": "Lubomir Dolezal"
+    },
+    {
+      "rel": "related",
+      "href": "https://eox.at/2021/09/eoxserver-1-0/",
+      "title": "eox.at/2021/09/eoxserver-1-0"
+    },
+    {
+      "rel": "related",
+      "href": "https://eoxserver.org/",
+      "title": "eoxserver.org"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/EOxServer/eoxserver/",
+      "title": "github.com/EOxServer/eoxserver"
+    },
+    {
+      "rel": "related",
+      "href": "https://gitlab.eox.at/vs/vs",
+      "title": "gitlab.eox.at/vs/vs"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/Q7GHV7/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/iaCabUkMAAsMwsWzM4BwTM",
+      "type": "text/html",
+      "title": "2023 | View Server - EO Data Visualization in a Cloud Native Way - Lubomir Dolezal",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=CWgiuZmgisE",
+      "type": "text/html",
+      "title": "2023 | View Server - EO Data Visualization in a Cloud Native Way - Lubomir Dolezal",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

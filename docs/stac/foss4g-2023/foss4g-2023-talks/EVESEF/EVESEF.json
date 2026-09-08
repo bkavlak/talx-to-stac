@@ -1,0 +1,127 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "EVESEF",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Site Calibration with PROJ and WKT2",
+    "description": "In many surveying projects in construction, civil engineering, mining, surveying, etc. it is common to work on coordinates referenced to a local coordinate reference system (CRS) that is established ad hoc for the project site. These CRSs are necessary for applications with requirements that cannot be fulfilled by more common and affordable GNSS surveying techniques, for example millimetre accuracy, controlled distortion, etc. In these systems, assigning coordinates to an on-site location with the highest accuracy or solely relying on the control points that define the system is a laborious process that requires specialised and expensive tools and skills (for example, knowing how to perform a point triangulation using a total station, a device commonly used in land surveying).\r\n\r\nOn the other hand, in the execution of a project not all tasks involving geolocation have such strict requirements. In many cases, geolocation can be performed by less skilled staff by means of a GNSS receiver with real time kinematics (RTK) or post processing kinematics (PPK) reducing costs and work time. Geolocation can be done even without real time or post processing kinematics if the provided accuracy is enough, requiring much cheaper equipment. However, coordinates still need to be referenced to the site local system used in the project. In georeferencing terms, the local system is completely arbitrary and disconnected from any well known CRS. A site calibration (or site localization) is the process of finding a bijection between coordinates in a well known CRS and a site local system with a minimal error in the area of interest. The problem is normally formulated as a least squares optimization of the transformation between two sets of points. This transformation allows the geolocation of new positions with cm accuracy at a fraction of the cost of other high-accuracy surveying methods.\r\n\r\nMany surveying devices provide a site calibration feature, but the algorithms are proprietary and the computed solution can only be exported to and used by software that is compatible with the closed proprietary formats involved. This effectively ties the user to the vendor ecosystem or requires to perform a new and potentially different calibration for every incompatible software tool used in the project. In this paper we present an complete and interoperable solution that can be implemented purely in terms of open source software and standards. While the mathematical formulation is a well known and solved problem, to the best of our knowledge, the novelty of our approach resides in its complete openness.\r\n\r\nOur main contribution is the precise description of the workflow involved in obtaining the mathematical solution of the site calibration problem and its representation as a self-contained coordinate reference system. The mathematical problem can be solved using any linear algebra tool box, but we show how it can be implemented using functionality present in the open source library Eigen. As for the representation, our method relies on the OGC 18-010r7 open standard representation format [1], commonly known as WKT version 2. In this context, self-contained means that the final description of a site calibration embeds a well known CRS definition and the transformation method and parameters to transform coordinates from this system to the site local system. We have tested these coordinate transformations using several possible representations in the open source programming library PROJ version 9.2.0 [2]. The combination of WKT2 and PROJ allow for off-the-shelf interoperability for any application using them in an open and standard manner. The usage of WKT2 as a representation format is particularly convenient because it is a text-based representation that is very easy to store, transmit and process and on top of that, it is human readable. Part of the work carried out in this research has been contributed to PROJ 9.2.0 source code, as previous versions lacked required functionality or suffered from implementation issues.\r\n\r\nA site calibration can be solved in different ways ([3], [4]). Another important contribution of this paper is the comparison and accuracy analysis of two mathematical methods that result in two different WKT2 representations. Following the terminology presented in the third version of ISO 19111 standard [5], the first and simpler method produces a derived projected system by solving a 3D problem and relying on a PROJ-specific 3D transformation. The second one splits the problem into its horizontal and vertical components. The output is a compound coordinate reference system made of a derived projected horizontal system and vertical system with a vertical and slope derivation. This other method relies only on well known transformations registered in the EPSG Geodetic Parameter Dataset. We discuss the merits and disadvantages of each approach in terms of self-explainability of the solution and sensitivity to different types of measuring errors, in particular in the vertical axis, where GNSS receivers are known to have less accuracy.",
+    "start_datetime": "2023-06-28T08:30:00Z",
+    "end_datetime": "2023-06-28T09:00:00Z",
+    "talk:code": "EVESEF",
+    "talk:guid": "6f3e05c9-e338-52fd-8498-3205c6e292e4",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Academic Track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT E / N209 - Floor 3",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "P9YTT3",
+        "name": "Javier Jimenez Shaw",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/P9YTT3/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T08:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/EVESEF/",
+      "title": "Site Calibration with PROJ and WKT2"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/EVESEF/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/P9YTT3/",
+      "title": "Javier Jimenez Shaw"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/jjimenezshaw/",
+      "title": "github.com/jjimenezshaw"
+    },
+    {
+      "rel": "related",
+      "href": "https://orcid.org/0000-0002-7227-9173",
+      "title": "orcid.org/0000-0002-7227-9173"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/EVESEF/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-2023/submissions/EVESEF/resources/Site_Calibration_with_PROJ_and_WKT2_cSF0Urt.pdf",
+      "type": "application/pdf",
+      "title": "Slides",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/9jJLQK15NWjYZxq8j9gpEf",
+      "type": "text/html",
+      "title": "2023 | Site Calibration with PROJ and WKT2 - Javier Jimenez Shaw",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=dvHB-oFR0kQ",
+      "type": "text/html",
+      "title": "2023 | Site Calibration with PROJ and WKT2 - Javier Jimenez Shaw",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

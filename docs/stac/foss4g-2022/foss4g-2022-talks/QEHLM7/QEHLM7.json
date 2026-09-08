@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "QEHLM7",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Manipulating text with PostgreSQL - lesser known PG jewels",
+    "description": "PostgreSQL is the most advanced opensource RDBMS. As GIS folks, you most probably use it in combination with PostGIS, its Geospatial plugin.\r\n\r\nWhen dealing with Geospatial data, we usually focus on geometries. But most of feature attributes are text data. Of course, filtering on these text data with standard SQL capabilities is a day-to-day operation for database users.\r\n\r\nBut PostgreSQL provides much more capabilities when it comes down to text data management. In this presentation, we will go through a few of them.\r\n\r\nAfter a quick look at standard text functions in PostgreSQL, we will discover the lesser known fuzzy matching modules : \r\n- `pg_trgm` extension allows for string searches using trigraphs to determine a similarity rank between text items\r\n- `fuzzystrmatch` extension provides fuzzy matching functions like soundex, Levenshtein, metaphone\r\n\r\nThen, we will explore **Full Text Search ( FTS )** PostgreSQL capabilities.\r\n\r\nLast but not least, we will peek inside PostgreSQL collation concept, which has nothing to do with your lunch. Collations are a powerful feature in PostgreSQL allowing to adapt the way you deal with text data according to the localization. Like trying to answer this - apparently - obvious question : is '12' before or after '2' ?\r\n\r\nAnd, because we can, display all of this on a map :-)",
+    "start_datetime": "2022-08-25T09:30:00Z",
+    "end_datetime": "2022-08-25T10:00:00Z",
+    "talk:code": "QEHLM7",
+    "talk:guid": "ca70b60c-0f86-5ea6-8df5-175a8d6e05e0",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Limonaia",
+    "talk:room_capacity": 110,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "HYERQZ",
+        "name": "Vincent Picavet",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/HYERQZ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/QEHLM7/",
+      "title": "Manipulating text with PostgreSQL - lesser known PG jewels"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/QEHLM7/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/HYERQZ/",
+      "title": "Vincent Picavet"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/QEHLM7/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/n94BGDM9N6UURd7EbBnQHS",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Manipulating text with PostgreSQL - lesser known PG jewels",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=Kl1TOkJ3rOE",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Manipulating text with PostgreSQL - lesser known PG jewels",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

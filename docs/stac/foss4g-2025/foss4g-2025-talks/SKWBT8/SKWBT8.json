@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "SKWBT8",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Digital Earth Machine Learning Operations",
+    "description": "Digital Earth is implementing a Machine Learning Operations proof of concept for an automated system designed to support development, training, and release of complex ML models for satellite imagery such as artificial surface detection. Talk will share architecture and learnings, focusing on integration of open-source components with cloud services.\n\nDigital Earth (DE) is implementing a Machine Learning Operations proof-of-concept for an automated system designed to support the end-to-end development, training, and release of complex machine learning workflows and models for satellite imagery, such as artificial surface detection used in Land Cover. The PoC focuses on the discoverability of open-source machine learning models, streamlining data versioning, feature transformation, containerised model training, hyperparameter tuning, governance, model, and artefact management. The lightening talk will share our architecture and learnings, with a focus on the integration of various open-source components and specifications with cloud-services.",
+    "start_datetime": "2025-11-19T21:20:00Z",
+    "end_datetime": "2025-11-19T21:25:00Z",
+    "talk:code": "SKWBT8",
+    "talk:guid": "f81a7f7f-5404-5e95-a0cb-d8c334721279",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Lightning talk",
+    "talk:type": "Lightning Talk",
+    "talk:language": "en",
+    "talk:room": "WG403",
+    "talk:room_capacity": 386,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "D7TTUL",
+        "name": "James Miller",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/D7TTUL/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-19T21:22:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/SKWBT8/",
+      "title": "Digital Earth Machine Learning Operations"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/SKWBT8/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/D7TTUL/",
+      "title": "James Miller"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/SKWBT8/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=zPchjfo3PeA",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Digital Earth Machine Learning Operations",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

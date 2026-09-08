@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "33NJYP",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Geo Engine: Exploratory data analysis with spatio-temporal workflow processing",
+    "description": "Geo Engine is a cloud-ready geospatial analysis platform that provides intuitive and low-threshold access to geospatial data, its processing, interfaces, and visualization. Users can access the engine in a browser-based user interface as well as with Jupyter notebooks in Python. An important element is the homogenized \"Datacube\"-like view of heterogeneous data, which allows research groups and companies easy access and low-threshold analyses. At the same time, it is a framework for the creation and operation of geodata portals.\r\n\r\nThe development is based on research results from the field of spatio-temporal data processing from the database systems group at the University of Marburg, Germany. It is currently used in scientific projects focused on environmental and biodiversity monitoring, where it provides native time series processing, the combination of raster and vector data, and a user interface that enables linked views between maps, tables, and plots. In addition, it is used for the provision of customized apps, for example for web-based remote-sensing learning and project portals.\r\n\r\nThe presentation gives an overview of the system and its features. The processing backend will be discussed, which allows tile-based (for raster data) or chunk-based (for vector data) processing, taking into account the time semantics of the data. In addition, we show a use case demonstration where we exemplify the seamless transition from Geo Engine\u2019s UI to Python notebooks and also the step back. Finally, we give an overview of future development goals.",
+    "start_datetime": "2022-08-26T10:30:00Z",
+    "end_datetime": "2022-08-26T11:00:00Z",
+    "talk:code": "33NJYP",
+    "talk:guid": "25711e83-5549-53b7-abe1-4043560b7578",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "General online",
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "JAJEGB",
+        "name": "Dr. Christian Beilschmidt",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/JAJEGB/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T10:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/33NJYP/",
+      "title": "Geo Engine: Exploratory data analysis with spatio-temporal workflow processing"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/33NJYP/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/JAJEGB/",
+      "title": "Dr. Christian Beilschmidt"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/33NJYP/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

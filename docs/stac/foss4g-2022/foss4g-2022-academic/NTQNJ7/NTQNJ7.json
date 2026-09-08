@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "NTQNJ7",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Tourism, natural protected areas and Open Source Geospatial technologies",
+    "description": "The Covid-19 outbreak has greatly impacted society behaviours fostering proximity tourism and valorising the social role of peri-urban natural protected areas as key locations for outdoor activities [1]. This shift in habits calls for an adaptation in the next years of the offerings and management of these areas to respond to users' expectations of positive experience opportunities in near-by locations [2]. In the context of digital transformation and peri-urban protected areas, this research investigates the contribution that open geospatial technologies can provide in the creation of new economic, social and cultural values to propose solutions and identify gaps or open issues.\r\nThe adopted methodology is the \u201ccase study approach\u201d, in which real cases are used to design, develop, implement, collect and analyse data to extrapolate information that contributes to a deeper knowledge of the matter. This research is framed in the context of the Interreg INSUBRI.PARKS (www.insubriparksturismo.eu) and among the project\u2019s parks the selected case studies for technological testing are the Parco Gole della Breggia and the Collina del Penz. While being two natural protected areas closely located in the southern part of Switzerland, in the Canton Ticino, they greatly differ for in-place management structure, available offers and users\u2019 type and therefore represents different needs. From the discussion with local tourism organisations and park administrators we have identified three specific aspects that are of particular concern: (a) the creation of 3D digital products, (b) the monitoring of touristic fluxes and (c) the conduction of parks management activities. This work presents the intermediate results of the development and testing of different selected solutions which describes the approach, the issues and the potential of explored solutions with respect to the open source software.\r\n\r\n3D digital products - In addition to a more traditional use for conservation scopes and activity planning [3], 3D models can be used to offer positive experiences thanks to an enhanced understanding of specific intangible aspects [4]. For example, in the case study of the Parco Gole della Breggia, it might be difficult for a tourist to fully realise the extent of the anthropic impacts on nature. The area is geologically relevant for the visible calcareous formation hundreds of millions of years old. From 1961 to 2003 the Breggia shores hosted a large cement plant that strongly modified the territory. Today, only a small part of the plant is still in place as a testimonial of the anthropic impacts and element of industrial archeology. To support the perception of the real antropic impact we decide to implement three digital models representing the territory at three key epochs: before the cement plant construction, at the maximum expansion of the plant and at the present state. The present state model can be created by means of laser scanning and photogrammetric surveys while the other two can be realised by digitising historical maps,  technical plans and historical pictures. The investigation identified a workflow based on the evaluation of CloudCompare, Riegl RiSCAN Pro and Cyclone 3DR for 3D survey, Regard 3D; GRASS, QGIS and ESRI ArcGIS Pro for spatial data collection and management; Blender, AutoCAD 3D, Rhinoceros and Sketchup for vector modelling of spatial elements; Nubigon and Potree for a better graphical representation and further web dissemination of the results.\r\n\r\nMonitoring of tourtistic fluxes - The monitoring of touristic flux is important for the correct management of the natural protected areas to assure the Tourism Carrying Capacity (TCC) of trails is not exceeded, to assure adequate economic resources are allocated to maintain the assets, to understand the tourist behaviours and consequently develop strategies and plans to maximise the touristic value of the park [5]. While different solutions were proposed to this scope (accelerometers on iron plates and proximity radar sensors) it is important to capture specific tourist characteristics, like for example the presence of animals, the direction and the use of bicycles or cars. To this aim, Machine Learning models can help to automate the collection of such information by image analyses and object detection [6]. The present paper presents a fully open prototype to implement and deploy a real-time tourist monitoring system composed of: sensing device, data communication, data management and data visualisation platform. The system includes the usage of the YOLO open source solutions for image recognition, the OGC SoS open standard and the istSOS implementation for data management and sharing and the open source Grafana software for data visualisation and analysis. The results from the testing of the prototype in two locations for a period of 6 months is presented supplemented with field validation data.\r\n\r\nDigital Management of Protected areas - Protected areas are currently managed using different tools that are very often scarcely digitised. This approach does not exploit the potentiality of digitalization and does not foster the capacity to extract insights from data. While different open source project management software exists, none is specifically designed to address natural area management processes. For this reason a novel application, based on an open source platform has been developed and implemented. The cloud solution named Park Asset Management (PAM) is based on the usage of PostgreSQL/PostGIS and OpenLayers in conjunction with KeyCloak authorization platform, the Hasura GraphQL Engine integrated in the Vue.js framework. The containerized application offers the following features: park asset management and information sharing, working task management and execution, rentals management, notification management, offering a map interface and a more classic calendar and table views. This platform enables insights extraction like maintenance cost of itineraries, income from location rental by months and by years, cost and time required to replace items and the frequency of occurrence of events.",
+    "start_datetime": "2022-08-25T13:15:00Z",
+    "end_datetime": "2022-08-25T13:45:00Z",
+    "talk:code": "NTQNJ7",
+    "talk:guid": "fa2b1bd0-462d-527a-8ad8-0f48933b3b9e",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room Modulo 3",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "LPFDM8",
+        "name": "Massimiliano Cannata",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/LPFDM8/"
+      },
+      {
+        "code": "HKPM9F",
+        "name": "Massimiliano Cannata",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/HKPM9F/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T13:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/NTQNJ7/",
+      "title": "Tourism, natural protected areas and Open Source Geospatial technologies"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/NTQNJ7/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/LPFDM8/",
+      "title": "Massimiliano Cannata"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/HKPM9F/",
+      "title": "Massimiliano Cannata"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/NTQNJ7/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

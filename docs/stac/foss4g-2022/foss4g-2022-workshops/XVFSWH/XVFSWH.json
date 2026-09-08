@@ -1,0 +1,146 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "XVFSWH",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Setting up a Spatial Data Infrastructure (SDI) with Open Source Software using OSGeoLive",
+    "description": "This workshop provides a practical, overview of key software used within a Spatial Data Infrastructure SDI.\r\n\r\nIn the workshop we will use OSGeoLive and the Open Source software and sample data shipped with it to get to know the components of an SDI.\n\nWe will get our hands dirty using some of the leading applications, and will introduce the other applications on OSGeoLive and when they are used.\r\n\r\nA Spatial Data Infrastructure SDI is a data infrastructure that provides geographic data and metadata, which is accessible for several users and incorporates a variety of tools to accomplish different processes. It helps make data accessible, maintainable and findable throughout your organization. We will start with different types of geographic data and learn about how to store data in a PostgreSQL PostGIS database.\r\n\r\nAs second step, we will have a look at a service based infrastructure and you will learn about OGC services like OGC Web Map Service and OGC Web Feature Service.\r\n\r\nYou will learn how to create these services with software like QGIS Server, MapServer or GeoServer. We will practice with QGIS server. A client is needed to view and analyse data from services. We will learn about Desktop GIS and WebGIS and load Services in QGIS and publish data to the web using OpenLayers, GeoNode and Mapbender.\r\n\r\nWe will learn about metadata and how to make data traceable in a metadata system like GeoNetwork or pycsw. We will practice with pycsw and GeoNode. And you will learn how you can control the access to your data and setup a user management.\r\n\r\nAfter the journey through all the components you will be familiar with the concept and the advantages of a Spatial Data Infrastructure, and will know where to look for deeper insights into the more powerful features of the various tools.\r\n\r\nFind Workshop information and material: https://trac.osgeo.org/osgeolive/wiki/Live_GIS_Workshop_Install\r\n\r\nWorkshop will use OSGeoLive Version 15.0",
+    "start_datetime": "2022-08-23T12:00:00Z",
+    "end_datetime": "2022-08-23T16:00:00Z",
+    "talk:code": "XVFSWH",
+    "talk:guid": "1ddd97b8-83cb-5d33-afe3-665a23625447",
+    "talk:event": "foss4g-2022-workshops",
+    "talk:type": "Long Workshop",
+    "talk:language": "en",
+    "talk:room": "211",
+    "talk:room_capacity": 80,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "MF7PYA",
+        "name": "Astrid Emde",
+        "url": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/MF7PYA/"
+      },
+      {
+        "code": "DUUVVD",
+        "name": "Vicky Vergara",
+        "url": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/DUUVVD/"
+      },
+      {
+        "code": "BS3TXT",
+        "name": "Angelos Tzotsos",
+        "url": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/BS3TXT/"
+      },
+      {
+        "code": "JS3JBJ",
+        "name": "Nicolas Roelandt",
+        "url": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/JS3JBJ/"
+      },
+      {
+        "code": "DB33VU",
+        "name": "Enock Seth Nyamador",
+        "url": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/DB33VU/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-23T14:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/talk/XVFSWH/",
+      "title": "Setting up a Spatial Data Infrastructure (SDI) with Open Source Software using OSGeoLive"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/talk/XVFSWH/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/MF7PYA/",
+      "title": "Astrid Emde"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/DUUVVD/",
+      "title": "Vicky Vergara"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/BS3TXT/",
+      "title": "Angelos Tzotsos"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/JS3JBJ/",
+      "title": "Nicolas Roelandt"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/DB33VU/",
+      "title": "Enock Seth Nyamador"
+    },
+    {
+      "rel": "related",
+      "href": "https://trac.osgeo.org/osgeolive/wiki/Live_GIS_Workshop_Install",
+      "title": "trac.osgeo.org/osgeolive/wiki/Live_GIS_Workshop_Install"
+    },
+    {
+      "rel": "related",
+      "href": "https://ame.univ-gustave-eiffel.fr/",
+      "title": "Gustave Eiffel University"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/talk/XVFSWH/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "workshop-material-pdf-2-1-mb": {
+      "href": "https://talks.osgeo.org/media/foss4g-2022-workshops/submissions/XVFSWH/resources/foss4g-2022-workshop-sdi-with-open-so_M9ot3P5.pdf",
+      "type": "application/pdf",
+      "title": "workshop material (.pdf) 2.1 MB",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-workshops"
+}

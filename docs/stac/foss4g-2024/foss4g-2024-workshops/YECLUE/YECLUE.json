@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "YECLUE",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Creating a GraphQL API with Postgis",
+    "description": "The goal of this workshop is to explain on a hands-on demo what GraphQL is all about using a spatial database. While showing GraphQL features (including spatial features) we\u2019ll demonstrate how they can be perfectly implemented on top of an existing PostgreSQL/PostGIS spatial database. We\u2019ll discuss pros and cons of this technology over REST, highlighting a few important points in which they differ.\r\n\r\nDuring the workshop we will:\r\n\r\n- Learn how to use, create and manage a fully spatial GraphQL API using PostGraphile and a common, existing PostgreSQL/PostGIS spatial database;\r\n- Publish spatial and non-spatial data;\r\n- Create processing/analysis endpoints that rely on PostgreSQL/PostGIS functions;\r\n- Secure the data with Row-Level Security (RLS) set at the database level and transpose those credentials to the API in a straightforward way. Users can then make use of JWT tokens to authenticate.\r\n- Extend the GraphQL API using plugins that can be used to create complex endpoints that need to be created at the server level with NodeJs and Javascript or Typescript.\n\nThis workshop will be publicly hosted in GitHub. Using guided steps, we\u2019ll start by exploring the basics of GraphQL. Then, we'll create and configure one existing spatial database using PostGIS. From that point onwards we will slowly increase the complexity and learn step by step how to create and configure a GraphQL API.\r\n\r\nThe workshop will take 4 hours and requires no previous knowledge of GraphQL. However, It is advisable to have basic knowledge in PostgreSQL and PostGIS.",
+    "start_datetime": "2024-12-03T12:00:00Z",
+    "end_datetime": "2024-12-03T16:00:00Z",
+    "talk:code": "YECLUE",
+    "talk:guid": "b300655f-5e38-5cd9-b549-708c689238cc",
+    "talk:event": "foss4g-2024-workshop",
+    "talk:type": "Workshop",
+    "talk:language": "en",
+    "talk:room": "Room A\u00e7a\u00ed (C Block)",
+    "talk:room_capacity": 35,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "ZKPZPF",
+        "name": "Luis Calisto",
+        "url": "https://talks.osgeo.org/foss4g-2024-workshop/speaker/ZKPZPF/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-03T14:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/talk/YECLUE/",
+      "title": "Creating a GraphQL API with Postgis"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/talk/YECLUE/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/speaker/ZKPZPF/",
+      "title": "Luis Calisto"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/talk/YECLUE/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-workshops"
+}

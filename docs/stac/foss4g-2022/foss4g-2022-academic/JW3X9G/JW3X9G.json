@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "JW3X9G",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Design and implementation of an Open-Source Web-GIS to manage the public works of Abruzzo Region: an example towards the digitalization of the management process of Public Administrations",
+    "description": "According to the goals of the European Communications \"2030 Digital Compass: the European way for the Digital Decade\" and \u201cOpen Source Software Strategy 2020 \u2013 2023\u201d regarding the digitalization and the use of the Open-Source solution inside the Public Administrations, this paper presents the approach followed for the realization of an Open-Source Web-GIS to transfer all the information assets related to the public works, that must be judged by the Regional Technical Administrative Committee (C.R.T.A). The developed Web-GIS consists of a platform to support the \u201cCivil Engineering\u201d authority of the Abruzzo Region in the management of the public works during their whole administrative process.  \r\nIn particular, the main aims of the Web-GIS are:\r\n-\tto manage in a unique shared geospatial database the public works, that must be judged by the C.R.T.A. of the Abruzzo Region; \r\n-\tto monitor the activities and the life-cycle of the public works;\r\n-\tto share information related to the public works both with other regional authority offices and with citizens. \r\nIn general, the creation of a WebGIS starts from a project created on the client side which, in a subsequent phase, will be loaded on a server to allow the visualization, interaction and distribution of the information among multiple users at the same time. \r\nIn this case, the creation of GIS project for the management of geo-referenced territorial and alphanumeric information for their description required a careful study of the needs of the  \u201cCivil Engineering\u201d authority of the Abruzzo Region and a definition of the contents of the GIS platform, passing through the documentation and the archives to consult and implement in the GIS. Finally, the choice of the output to be presented was made, also in relation to the type of end-users that will have to manage (regional authority employees) and view (citizens) the published information. \r\nIn order to properly design the requested Web-GIS application, as a first step the structure of the geodatabase has been designed locally into the Qgis software, one of the most famous open-source GIS software. Among the main geodatabase formats, the geopackage, an open, OGC (Open Geospatial Consortium) standards-based, platform-independent, portable, self-describing, compact format for transferring geospatial information, has been selected. The GeoPackage standard describes a set of conventions for storing it within a SQLite database. The geopackage format has been selected considering the geometric entities of the public works that must be stored within the database, together with their attributes, that consist of points, multi-lines, and multi-polygons elements. In fact, the public works that must be judged by the C.R.T.A. of the Abruzzo Region can be buildings (strategic or scholar buildings or healthcare constructions), road works, hydraulic works, or land defense. These public works, as required by the Abruzzo Region, do not have an exact type of geometry but, depending on its type and the type of project can be represented in the most appropriate way to understand the intervention itself. The geopackage format allows storing all the information related to the public work in a single file, simplifying their management. \r\nThe use of QGIS solution was made keeping in mind the idea of using LizMap software to publish directly the contents of the geodatabase designed locally in a simple way. Lizmap is an open source software designed by 3Liz, a service company revolving around QGIS software, which facilitates the publishing of web mapping applications from QGIS Desktop using QGIS Server as Map Server. Another important aspect for this choice consists in the fact that QGIS environment is well-known among the public authorities employees and this simplified the interaction during the design phase of the database. This allows verifying if the structure of the designed database satisfies all the requirements of the \u201cCivil Engineering\u201d authority of the Abruzzo Region. In addition, in the future, the \u201cCivil Engineering\u201d authority of the Abruzzo Region will be able to modify or update autonomously the public works that will be subject to the judgment of the Regional Technical Administrative Committee (C.R.T.A), directly in QGIS Desktop. \r\nAfter the realization of the project in Qgis Desktop, in order to share the map online, the Lizmap plugin inside Qgis Desktop was used to configure the publishing options, i.e. scales, base layers, metadata, etc. . Once the file configuration is compiled, it is possible to synchronize the working folder with the Qgis Server. When synchronisation is complete, the QGIS project can also be accessed on the Internet, through the Lizmap Web Client application using a web browser. Lizmap Web Client is installed on QGIS Server in order to insert projects and it allows to configure the project and the displayed web page. All this step can be performed locally, (intranet network) and finally, the project and the created settings files have to be transferred to the region geoportal of Abruzzo Region. In conclusion, the use of Lizmap to transfer Qgis Desktop projects on the web represents a good solution to move Public Administration towards the use of Open-source solutions and towards the digitalization procedures required by the European Commission. In addition, this tool had the purpose of ensuring maximum transparency to citizens who, although not insiders, can access the geoportal to see how the funds allocated by the Region, the Italian Nation, and the European Community are distributed and spent.",
+    "start_datetime": "2022-08-24T15:25:00Z",
+    "end_datetime": "2022-08-24T15:30:00Z",
+    "talk:code": "JW3X9G",
+    "talk:guid": "56b5b35f-6441-5eb5-b1cd-30d8ddac5d9b",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "Room Hall 3A",
+    "talk:room_capacity": 85,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "RTBWZ9",
+        "name": "Alicandro Maria",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/RTBWZ9/"
+      },
+      {
+        "code": "T9P8AE",
+        "name": "Sara Zollini",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/T9P8AE/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T15:27:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/JW3X9G/",
+      "title": "Design and implementation of an Open-Source Web-GIS to manage the public works of Abruzzo Region: an example towards the digitalization of the management process of Public Administrations"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/JW3X9G/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/RTBWZ9/",
+      "title": "Alicandro Maria"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/T9P8AE/",
+      "title": "Sara Zollini"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/JW3X9G/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

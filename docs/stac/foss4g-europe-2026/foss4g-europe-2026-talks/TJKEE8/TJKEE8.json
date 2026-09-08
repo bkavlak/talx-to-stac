@@ -1,0 +1,97 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "TJKEE8",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "VC Map Panorama: High Resolution Panoramic Images",
+    "description": "Panoramic images are a great way for users to explore a location without \r\nhaving to be there in person. They give a detailed view of the surroundings and can be used for various purposes such as site inspections and urban planning. \r\n\r\nBy leveraging the GIS capabilities of the free and open-source VC Map framework and the 3D visualization power of CesiumJS, we can create an open-source tool that goes beyond simply viewing panoramic images. Our goal is to provide a seamless experience for users to explore, analyze and navigate their 3D, 2D and panoramic data within a single application.  \r\n\r\nPart of this work included developing a tiled data specification with the goal of minimizing the need for file transfers and boosting performance. This specification is built on cloud-ready OGC standards - Cloud Optimized GeoTIFF (COG) and FlatGeobuf, allowing an easy creation using GDAL. \r\n\r\nThe images are rendered directly into the 3D scene, which allows to blend in visualizations of GIS data from the 3D scene. To enable analytical tools, such as measurements, we use additional depth information. \r\n\r\nWith this development we aim to demonstrate the power of using and developing open source tools with open data standards.",
+    "start_datetime": "2026-06-30T12:00:00Z",
+    "end_datetime": "2026-06-30T12:30:00Z",
+    "talk:code": "TJKEE8",
+    "talk:guid": "54710023-3f6b-5ab6-ba70-b2521b37ebc0",
+    "talk:event": "foss4g-europe-2026",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "A11",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "7LGZZN",
+        "name": "Ben Kuster",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/7LGZZN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-06-30T12:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/TJKEE8/",
+      "title": "VC Map Panorama: High Resolution Panoramic Images"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/TJKEE8/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/7LGZZN/",
+      "title": "Ben Kuster"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/TJKEE8/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2026/submissions/TJKEE8/resources/FOSS4G_EU_2026_g37DLXd.pdf",
+      "type": "application/pdf",
+      "title": "Slides",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

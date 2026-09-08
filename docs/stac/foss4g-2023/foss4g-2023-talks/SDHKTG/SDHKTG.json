@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "SDHKTG",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "A free and open-access GIS for the documentation and monitoring of urban transformations in the area of the Expo 2015 exhibition in Milan",
+    "description": "This work is based on the design and development of a system aimed at monitoring the urban transformations of the area used for the Expo 2015 exhibition in Milano, exploiting the potential offered by the storage and management of geographic data in a GIS environment (Burrough, 1986). The system is designed to collect and analyze data showing the changes of the urban landscape going through pre-Expo, to Expo and post-Expo transformations (Gaeta & Di Vita, 2021).\r\n\r\nOne of the reasons behind this work is the fact that a complete digital database documenting the urban transformations in the Expo 2015 area is not yet available. In fact, all the data which were needed to implement the GIS were originally represented by maps (in paper or in digital non georeferenced format) of development projects and by cartographic work attached to city plans. After checking the compatibility of the process with the original licenses, the maps had been made openly accessible to the public after being scanned, so they had to be geo-referenced and vectorized in order to be able to insert the data in the GIS database.\r\n\r\nThe implementation and use of GIS technology implied (i) the definition of the database conceptual and logical model; (ii) the acquisition of a large number of geographic data layers, which were structured according to the design of a relational database. Layers which were acquired included data on: cadastral parcels; buildings; players involved in the urban transformations; land regulations; open spaces; land cover; functional lots; public transport stops; roads and underground utility lines.\r\n\r\nThe structure of the DB has been designed based on a relational model (Codd, 1970) by following the standard methodology defined in 1975 by the ANSI - SPARC Committee, going through successive phases and originating the external, conceptual and logical models. Following this strategy, the external model was defined on what were assumed to be the future users\u2019 needs in terms of data storage, consultation and queries on the data. Aiming at documenting also the timeline of the urban transformations of the area, the Entity Relationship Diagram (ERD) was designed integrating in a unique conceptual scheme the temporal dimension of the transformations, going from the pre-Expo, to the Expo which took place in Milano from May to October 2015 and finally the post-Expo layout of the area. Subsequently, the logical model of the database was also designed.\r\n\r\nThe data acquisition required to research a large number of sources, which were mainly represented by images of maps available online on the websites of the different stakeholders, ranging from public administration channels and OpenStreetMap crowdsourced geodata to official Expo 2015 communication platforms. They were then geo-referenced in order to acquire spatial elements in vector format which were afterwards stored in the spatial database of the GIS, becoming easily manageable and upgradeable in an interactive way. Notably, the topological models of the streets and of the underground network of the district heating were implemented, in the latter case also connecting each building with the corresponding segment of the network (Cazzaniga et al., 2013). Finally, the topological consistency and coherence of such network and its components was validated.\r\n\r\nThe application of GIS technologies to monitor the transformations of the entire site allowed to understand and analyze the different phases of the evolution of the urban territory, identifying critical issues and strengths of the development projects. Indeed, in the GIS environment it is now possible to perform reproducible elaborations and analysis useful to understand how the area changed in time, especially from an urban planning point of view. This approach can provide insights on the surface covered by buildings in the different periods and on the change of destination or decommissioning of exhibition pavilions in the post-EXPO environment. Moreover, the database model allows users to query the data in order to identify underground services as well as buildings that may be affected by future works on roads or structures located in the area of interest. Such functionalities and retrieved information could be crucial especially considering the recent construction of a critical structure like the new Galeazzi hospital, which has been operative since 2022. Finally, the possibility to present the project, the data and its related metadata and to communicate them also to a wider audience of non-technical users was envisaged through the publication of a WebGIS-on the Internet, which was tested with a demo. In future, by implementing further improvements, this prototype could lead to a decision support system, to be used as a tool to understand the area for the benefit of all actors involved with different expertise and background in the urban transformations. In particular, the choice of the web platform was driven by the possibility to make the project as accessible as possible also through expandable tools in support of geo-narratives and storytelling as well as easy-to-understand dashboards for visualizing quantitative analysis results.\r\n\r\nThe whole project has been developed by using free and open-source technologies, namely MySQL Workbench for the development of the database model, QGIS for the implementation of the system and GeoNode for the testing of the publication of the System on the Internet. The choice to use free and open-source technologies is both an economical and ethical solution aimed at knowledge sharing and at making the DB flexible and easily expandable, facilitating the integration of new data, their updating and the implementation of future functionalities, paying attention also to the technical accessibility even by non-expert users.",
+    "start_datetime": "2023-06-29T13:10:00Z",
+    "end_datetime": "2023-06-29T13:15:00Z",
+    "talk:code": "SDHKTG",
+    "talk:guid": "deaac0f8-ca8a-54c3-98cb-d039ed3e9a9c",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Academic Track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "UBT E / N209 - Floor 3",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "CFAZ9L",
+        "name": "Federica Gaspari",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/CFAZ9L/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-29T13:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/SDHKTG/",
+      "title": "A free and open-access GIS for the documentation and monitoring of urban transformations in the area of the Expo 2015 exhibition in Milan"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/SDHKTG/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/CFAZ9L/",
+      "title": "Federica Gaspari"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/SDHKTG/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "D3JVMA",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "What is the optimal resolution of a DGGS for forest cover mapping and monitoring?",
+    "description": "With the focus on 10-year cycle data collections by the Spanish National Forest Inventory (NFI), remote sensing-based biophysical indicators such as leaf area index are integrated in a Discrete Global Grid System (DGGS) as a complementary tool for forest monitoring in Catalonia.\n\nThe main objective of this study is to explore the optimal DGGS resolution to represent forest cover polygons delineated by stand type.  In addition, the selected DGGS resolution is assessed if it is acceptable to monitor additional forest stand functions such as leaf area index (LAI).  \r\n\r\nGeospatial analysis and visualisation are demonstrated in the following workflow.  \r\n- With Vgrid DGGS tools in QGIS, sensitivity analysis determines the optimal resolution level by changing spatial resolutions and analysing discrepancies in represented forest cover polygons.   \r\n- Sentinel-2 based LAIs are collected and categorised in a DGGS to be assessed at the resolution level selected for forest cover mapping.   The calculated LAIs are sourced from Open Earth Monitor Biodiversity and openEO BIOPAR.",
+    "start_datetime": "2026-09-01T04:45:00Z",
+    "end_datetime": "2026-09-01T04:50:00Z",
+    "talk:code": "D3JVMA",
+    "talk:guid": "0101fbe6-908f-59b6-ae36-557b16f161cf",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Lightning Talk",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Ran1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "XMV8HK",
+        "name": "Kaori Otsu",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/XMV8HK/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T04:47:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/D3JVMA/",
+      "title": "What is the optimal resolution of a DGGS for forest cover mapping and monitoring?"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/D3JVMA/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/XMV8HK/",
+      "title": "Kaori Otsu"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/D3JVMA/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

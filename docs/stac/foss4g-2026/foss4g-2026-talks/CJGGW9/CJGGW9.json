@@ -1,0 +1,108 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "CJGGW9",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Efficient Search and Set Operations for Spatial IDs",
+    "description": "This presentation introduces an efficient algorithm using \"Extended Spatial ID\" and \"V-Bit\" encoding to solve computational explosions in 3D overlap detection. By mapping 3D geometries to 1D keys, our method enables fast, scalable spatial set operations. This approach will play a key role in drone 3D airspace management.\n\n\"Spatial ID\" is a geospatial standard that recursively divides the Earth into 3D voxels. By reducing 3D overlap detection to simple set operations, it has strong potential for use in 3D drone airspace management. To safely manage dense drone traffic and identify available airspace, executing fast spatial set operations (e.g., union, intersection, and difference) across a large number of 3D regions is critical. However, practical deployment faces significant computational challenges. \r\n\r\nFirst, representing irregular 3D shapes leads to substantial data bloating. Second, performing set operations across datasets with different resolutions (zoom levels) results in exponential growth in computational complexity.\r\n\r\nIn this presentation, we propose a novel algorithm to overcome these bottlenecks.\r\n\r\nFirst, we introduce the \u201cExtended Spatial ID.\u201d Unlike standard Spatial IDs, which use a uniform zoom level across all dimensions, our approach assigns independent zoom levels to the X, Y, and Z axes.  This significantly compresses the data structure. Based on this design, we developed efficient one-to-one spatial operations. For example, when computing the difference between two regions, our algorithm minimizes the number of resulting voxels. This effectively resolves both data expansion and computational overhead in one-to-one operations. \r\n\r\nSecond, we introduce \"V-Bit\" encoding to address the O(N) linear scan bottleneck when detecting overlapping regions in vast datasets. This method encodes the binary tree structure of Spatial IDs into a compact 2-bit array, enabling direct mapping of complex 3D geometries to a 1D ordered index. This encoding facilitates the efficient retrieval of relevant spatial regions using simple prefix range queries in a standard key\u2013Value Store (KVS). \r\n\r\nBy combining efficient one-to-one spatial operations with fast 1D KVS-based search, our method achieves highly scalable 3D spatial computation for future drone infrastructure.",
+    "start_datetime": "2026-09-02T06:30:00Z",
+    "end_datetime": "2026-09-02T07:00:00Z",
+    "talk:code": "CJGGW9",
+    "talk:guid": "113cbb28-282b-53e9-89df-5e3f0023a802",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Ran2",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "XJR8J3",
+        "name": "Suzu Shimokawa",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/XJR8J3/"
+      },
+      {
+        "code": "NBNQ9Y",
+        "name": "Tomoro Saito",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/NBNQ9Y/"
+      },
+      {
+        "code": "UV9M8U",
+        "name": "Yugo Kano",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/UV9M8U/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T06:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/CJGGW9/",
+      "title": "Efficient Search and Set Operations for Spatial IDs"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/CJGGW9/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/XJR8J3/",
+      "title": "Suzu Shimokawa"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/NBNQ9Y/",
+      "title": "Tomoro Saito"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/UV9M8U/",
+      "title": "Yugo Kano"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/CJGGW9/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "KS97DK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Tool Selection for Detailed Accessibility Analysis Using GTFS Data: The Case of the Yamagata Urban Area",
+    "description": "This study calculated the travel times to medical institutions in a regional city in Japan using GTFS (General Transit Feed Specification) data to enable a more precise geographic accessibility assessment. It focuses on comparing and validating tools that utilize open data and FOSS4G (Free and Open Source Software for Geospatial). This study reviews previous studies and evaluates GTFS-based route search services, including FOSS4G tools. Based on this review, we developed a QGIS plugin to facilitate participation not only by researchers, but also by practitioners and policymakers.\r\n\r\nAccording to Park (2021), the emergence of sophisticated transportation databases, such as GTFS, enables the estimation of travel times across different transportation modes (e.g., public transit and private automobiles), as well as dynamic travel times under time-variant traffic conditions. The increased availability of dynamic mobility data has therefore facilitated the implementation of time-sensitive accessibility measures.\r\n\r\nIn Japan, Tanimoto (2020) pointed out that discussions on the selection of analytical methods for accessibility analysis remain insufficient in two respects. First, there has been insufficient discussion on method selection that considers the difficulty and cost of acquiring, preparing, and manipulating data for analysis. Second, there has been insufficient discussion on the effectiveness of the tools in relation to the subject of analysis. Sekine (2018) also highlighted the difficulty of creating geospatial data for intermodal travel chains, although this study was published before the emergence of GTFS data.\r\n\r\nWithin Japanese geography, the only previous study utilizing GTFS data is Kasahara et al. (2021), who analyzed the spatiotemporal patterns of delay times using Sendai City Bus timetable data. Given the absence of GTFS-based accessibility studies in Japanese geography,. Furthermore, while attempts have been made to compare tools enabling GTFS-based route search services (e.g., Higgins et al., 2021), these studies primarily verified correlations between numerical outputs across tools, rather than validating results in terms of shortest routes or route correctness. In this study, we evaluated the tools in terms of runtime, agreement in travel time estimates, and route validity (e.g., rule violations in GTFS).\r\n\r\nWe compared and evaluated three tools, ArcGIS, OpenTripPlanner (OTP), and R5, capable of measuring the shortest paths using GTFS. OTP and R5 are FOSS4G tools, whereas ArcGIS is a proprietary software. To examine accessibility challenges in regional cities in Japan, we selected the area around Yamagata City as a case study. Although the study area has an intricate network of railway and bus routes, automobile dependence remains high; therefore, improving public transport services is an important local challenge. Using each tool, we measured the shortest path travel times to medical institutions and compared and validated the results.\r\n\r\nIn our evaluation, approximately one million origin\u2013destination (OD) pairs were generated and analyzed using each tool in the same computing environment. ArcGIS required approximately 10 min to calculate one million OD pairs, OTP required over 60 min, and R5 required approximately 5 seconds. These figures are broadly similar to those reported by Higgins et al. (2021), confirming R5\u2019s substantial speed advantage.\r\n\r\nFor R5 and OTP, the distribution of travel times per OD pair was nearly identical, with 93.2% falling within a 5-minute difference. By contrast, ArcGIS had a match rate of less than 50%. Furthermore, the cases in which only ArcGIS derived the shortest path were limited to paths that violated operational rules, such as boarding at a GTFS-registered stop designated for drop-off. R5 and OTP search for the shortest path at each departure time, whereas ArcGIS first determines the single shortest path and then checks whether a journey exists at that departure time along that path. Consequently, ArcGIS has difficulty in producing accurate results for OD pairs with multiple feasible routes or stops.\r\n\r\nOTP and R5 travel time estimates matched those from a popular Japanese route search service in approximately 70% of cases, calculated shorter travel times in approximately 25% of cases, and produced longer travel times for the remaining 5%. Most discrepancies were due to different definitions of walking distance to stops, and the differences were within an acceptable margin (often within \u00b13 minutes).\r\n\r\nAlthough OTP and R5 produced accurate results in most cases, travel times differed by more than five minutes in 6.8% of cases. Most of these discrepancies were resolved by shifting the analysis time by a few minutes. R5 calculated the shortest time in most cases; however, when boarding or alighting at stops more than 300 m from the origin or destination, OTP identified the shortest paths. This appears to be due to R5 prioritizing stops within 300 m and searching further if no route is found.\r\n\r\nOverall, OTP and R5 are suitable tools for measuring shortest-path travel times using GTFS. OTP can calculate the highest number of shortest paths. However, because OTP is substantially slower than R5, testing many scenarios using R5 may be more practical for exploring improvements in accessibility. Accordingly, when R5 cannot calculate the shortest identifiable pathh.\r\n\r\nThese results enable the calculation of reachable populations based on arrival times at each medical institution, for example, using R5\u2019s high-speed and precise travel time estimation. As a result, we provided a QGIS plugin utilizing R5. The plugin constructs OD tables through graphical user interface (GUI) operations, eliminating the need for commands and adding statistical values such as travel times to the QGIS as GIS data.",
+    "start_datetime": "2026-09-01T08:30:00Z",
+    "end_datetime": "2026-09-01T09:00:00Z",
+    "talk:code": "KS97DK",
+    "talk:guid": "5a4e4eec-46a5-503c-96e6-2eefc413a513",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos2",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "UAEWKB",
+        "name": "Shota Yamamoto",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/UAEWKB/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T08:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/KS97DK/",
+      "title": "Tool Selection for Detailed Accessibility Analysis Using GTFS Data: The Case of the Yamagata Urban Area"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/KS97DK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/UAEWKB/",
+      "title": "Shota Yamamoto"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/KS97DK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

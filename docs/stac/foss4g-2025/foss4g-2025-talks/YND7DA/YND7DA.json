@@ -1,0 +1,114 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "YND7DA",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Raster processing on HPC without coding? Sure!",
+    "description": "In this presentation I demonstrate how to use the LUMASS visual modelling environment to develop high-performance parallel raster processing models without writing a single line of code. LUMASS models are scalable and run on laptops as well as distributed memory systems. https://manaakiwhenua.github.io/LUMASS\n\nWrangling large and/or many raster datasets on a laptop or small workstation is no fun! Unfortunately, parallelising models or workflows to run on distributed memory compute clusters requires more than entry level coding skills. In this presentation I introduce the parallel extension to LUMASS' high-level visual raster processing framework. It enables the development of complex models and workflows without writing a single line of code! Check out this short playlist for getting a better idea: https://youtube.com/playlist?list=PL_CsDVZ4IPO-D87TgO0awddJGl2gUYIaD&si=siH6lT_3pwdN3Q-W \r\nLUMASS provides a range of processing components, including map algebra, zonal summaries, terrain attributes, and more. It uses GDAL for 2D raster I/O and NetCDF for data cubes. It supports SQLite-based raster attribute tables alongside any supported raster format.  Furthermore, it enables the integration of any external command line program or script to be included into the pipeline to extend processing capabilities. Programmers find a Python interface for writing \u2018moving window\u2019 functions without having to worry about multi-threading or streaming, which comes out of the box! LUMASS is free and open-source software ( https://github.com/manaakiwhenua/LUMASS ).",
+    "start_datetime": "2025-11-20T03:30:00Z",
+    "end_datetime": "2025-11-20T03:55:00Z",
+    "talk:code": "YND7DA",
+    "talk:guid": "7ae220bf-42d8-580d-b4d2-598c447b5087",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Use Cases and Applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG126",
+    "talk:room_capacity": 140,
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "MMGUCL",
+        "name": "Alex Herzig",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/MMGUCL/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-20T03:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/YND7DA/",
+      "title": "Raster processing on HPC without coding? Sure!"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/YND7DA/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/MMGUCL/",
+      "title": "Alex Herzig"
+    },
+    {
+      "rel": "related",
+      "href": "https://manaakiwhenua.github.io/LUMASS",
+      "title": "manaakiwhenua.github.io/LUMASS"
+    },
+    {
+      "rel": "related",
+      "href": "https://youtube.com/playlist?list=PL_CsDVZ4IPO-D87TgO0awddJGl2gUYIaD&si=siH6lT_3pwdN3Q-W",
+      "title": "youtube.com/playlist"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/manaakiwhenua/LUMASS",
+      "title": "github.com/manaakiwhenua/LUMASS"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/YND7DA/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=KlQWSFEenys",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Raster processing on HPC without coding? Sure!",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

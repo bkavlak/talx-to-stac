@@ -1,0 +1,136 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "BBBU3X",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Free and Open-Source Software Solutions in the GeoRond\u00f4nia Project: Efficiency in Georeferencing of Rural Settlements with QGIS and GeoINCRA plugin",
+    "description": "The National Institute of Colonization and Agrarian Reform (INCRA) is a body of the Brazilian federal government, linked to the Ministry of Agriculture, Livestock and Supply (MAPA). Its main mission is to execute national agrarian policy, promoting agrarian reform and land planning in Brazil. INCRA works on several fronts to guarantee territorial regularization, sustainable development and social justice in the countryside.\r\n\r\nThe Amazon is a strategic region for INCRA due to its unique characteristics and specific challenges. The body works on land regularization to guarantee the legal security of squatters and combat land grabbing, thus contributing to environmental preservation, and thus, favors the control and monitoring of rural properties, helping to combat illegal deforestation and environmental degradation.\r\n\r\nFor regularization to become a reality, INCRA has signed Decentralized Execution Terms in several Brazilian states. In Rond\u00f4nia, the partnership was established with the Federal Institute of Education, Science and Technology of Rond\u00f4nia (IFRO), through TED 20/2021/INCRA-SEDE/IFRO, called GeoRond\u00f4nia Project. The project aims to serve and document more than 25,000 families and rural properties. To achieve this, the necessary steps are the georeferencing of properties, rural environmental registration and occupational supervision.\r\n\r\nThe georeferencing of rural properties is a complex process that requires knowledge in surveying, legal aspects, precision and efficiency. With the growing demand for land regularization in Brazil, especially in large areas such as the Amazon, it is essential to seek solutions that reduce costs, automate tasks and ensure data quality. This article presents the productivity gains achieved by the GeoRond\u00f4nia project, which uses QGIS and the GeoINCRA plugin to automate tasks. The methodology developed involves data validation and quality control, with automation implemented in Python, ensuring accuracy in property certification and the large-scale generation of .ODS spreadsheets (certification document).\r\n\r\nThis is an innovative methodology, unavailable in any other Geographic Information System, open or private, whose steps were developed to meet the highest technical quality standards for georeferencing projects with large volumes of data, such as in GeoRond\u00f4nia, which has worked in settlements that have more than 2,000 properties.\r\n\r\nInitially, all georeferenced data processing dynamics were carried out manually. In this way, the Space Research Group (GREES/IFRO), together with other collaborators from the Para\u00edba Institute (IFPB), has supported the project's actions for the development of innovative technology, in order to optimize actions involving certification of rural properties, using free tools.\r\n\r\nThe biggest challenge of the project is time and qualified labor, therefore, aiming to increase productivity, the Free and Open Source Software Solution was developed, called FOSSS GeoRond\u00f4nia, which integrates features from QGis and, mainly, the GeoINCRA Plugin . This set of functions enabled temporal gains, professional qualification of employees and finances, as it is completely free, and can -be replicated to any other large data volume project involving georeferencing.\r\n\r\nTo optimize demands, the main steps of FOSSS GeoRond\u00f4nia, after adjusting the observations tracked in the field to meet INCRA's positional accuracies, are: a) elimination of topological errors in the geometries of the settlement database; b) elimination of errors when filling in vertices and limits in the settlement database; c) elimination of errors in the name of the property and .ODS spreadsheet; d) generation of .ODS spreadsheets in an automated way and launch in INCRA's Land Management System (SIGEF).\r\n\r\nThe results obtained with FOSSS GeoRond\u00f4nia are notable: Process Automation with the assembly of the database with greater security, precision and practicality; Automation in product generation, where ODS spreadsheets that were previously done manually are now generated automatically; Reduction of spreadsheet preparation time by around 70%; Elimination of topological and writing errors, ensuring accurate and consistent data; Cost savings using QGIS and the GeoINCRA plugin, eliminating the need for expensive licenses, allowing for a more efficient allocation of public resources.\r\n\r\nCurrently, the GeoRond\u00f4nia Project has already organized the databases for 8 Settlement Projects, which make up around 1,500 properties. A very productive result was the field collection, processing and launch of 3 new Settlements (574 properties) in the state of Rond\u00f4nia in record time, for launch by the Federal Government, all carried out between April and May 2024.\r\n\r\nThe processing of georeferenced data on a very high scale, using FOSSS GeoRond\u00f4nia, allowed the generation of products with precision and the consequent launch in SIGEF with reliability, which can be replicated for any project in Brazil. This has promoted greater efficiency in the services performed, and helped INCRA in meeting the large volume of Agrarian Reform demands, to transform rural settlements into true agents of sustainability and productivity.\r\n\r\nBased on this, we are interested in presenting this new functionality to the national and international public present at FOSS4G, and who are looking for free solutions for different demands, in order to promote the dissemination and replication of the use of FOSSS GeoRond\u00f4nia.",
+    "start_datetime": "2024-12-04T18:00:00Z",
+    "end_datetime": "2024-12-04T18:30:00Z",
+    "talk:code": "BBBU3X",
+    "talk:guid": "d55bc3db-0a60-5fa1-9fae-eae031a02bb6",
+    "talk:event": "foss4g-2024-academic-track",
+    "talk:track": "Academic Track",
+    "talk:type": "Oral Presentation 2",
+    "talk:language": "en",
+    "talk:room": "Room I",
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "ZQFQQK",
+        "name": "Leandro Fran\u00e7a",
+        "url": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/ZQFQQK/"
+      },
+      {
+        "code": "WRC8PV",
+        "name": "Dra. Ranieli dos Anjos de Souza",
+        "url": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/WRC8PV/"
+      },
+      {
+        "code": "PUEEXY",
+        "name": "Valdir Moura",
+        "url": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/PUEEXY/"
+      },
+      {
+        "code": "D3NUQD",
+        "name": "Marcelo Vinicius Assis de Brito",
+        "url": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/D3NUQD/"
+      },
+      {
+        "code": "7QYJXB",
+        "name": "B\u00e1rbara Laura Tavares",
+        "url": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/7QYJXB/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-04T18:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/talk/BBBU3X/",
+      "title": "Free and Open-Source Software Solutions in the GeoRond\u00f4nia Project: Efficiency in Georeferencing of Rural Settlements with QGIS and GeoINCRA plugin"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/talk/BBBU3X/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/ZQFQQK/",
+      "title": "Leandro Fran\u00e7a"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/WRC8PV/",
+      "title": "Dra. Ranieli dos Anjos de Souza"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/PUEEXY/",
+      "title": "Valdir Moura"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/D3NUQD/",
+      "title": "Marcelo Vinicius Assis de Brito"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/7QYJXB/",
+      "title": "B\u00e1rbara Laura Tavares"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/talk/BBBU3X/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024-academic-track/submissions/BBBU3X/resources/Presentation_GeoINCRA_MowE0PY.pdf",
+      "type": "application/pdf",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-academic"
+}

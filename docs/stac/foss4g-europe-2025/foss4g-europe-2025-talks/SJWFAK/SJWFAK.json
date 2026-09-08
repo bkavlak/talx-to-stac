@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "SJWFAK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "GeoNetwork 5 Status Report",
+    "description": "GeoNetwork is the most successful catalog application in Europe, used by more national governments than any other solution. With such a cornerstone technology it is important to ensure it remains sustainable, secure, and available. \r\n\r\nGeoNetwork 5 is a bold reimagining of the project, providing a \"store\" of components that can be configured for use. This approach takes advantage of the Spring Boot \"App\" architecture for a fresh start targeting the Java 21 environment.  There is also a new user interface approach to share, making use of TypeScript Angular components.\r\n\r\nTogether these choices open up some exciting opportunities, allowing creativity in catalog design and presentation, and scaling services independently.  This flexibility is also important strategically allowing GeoNetwork 5 to migrate modules one at a time, while delegating to GeoNetwork 4 implementation during development. We can also look at new developments taking place within this architecture, with progress on OGCAPI-Records, and DCAT2.\r\n\r\nThis work is ongoing and we will look at how the project is supported by organizations around the world, and opportunities to look forward to as the project progresses.",
+    "start_datetime": "2025-07-16T12:00:00Z",
+    "end_datetime": "2025-07-16T12:30:00Z",
+    "talk:code": "SJWFAK",
+    "talk:guid": "8bda5c56-b59c-5f8b-a0bf-f66d24b795b3",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "FOSS4G \u2018Made in Europe\u2019",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "CA01 (TomTom)",
+    "talk:room_capacity": 130,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "BQBVFC",
+        "name": "Jody Garnett",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/BQBVFC/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-16T12:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/SJWFAK/",
+      "title": "GeoNetwork 5 Status Report"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/SJWFAK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/BQBVFC/",
+      "title": "Jody Garnett"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/SJWFAK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "geonetwork-5-status-report": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/SJWFAK/resources/GeoNetwork_5_Status_Report_eewRaGM.pdf",
+      "type": "application/pdf",
+      "title": "GeoNetwork 5 Status Report",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "slides": {
+      "href": "https://docs.google.com/presentation/d/1JYckZwhqrEQAVd5AxAWX32CxWAS9b-AVcn2hpdnISZU/edit?usp=sharing",
+      "title": "Slides",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/txZRgktbcttNFjvtk9V9mb",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | GeoNetwork 5 Status Report",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=cspLQ15rqUY",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | GeoNetwork 5 Status Report",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

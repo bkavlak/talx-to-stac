@@ -1,0 +1,123 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "GZQMLY",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "The GeoStyler Project - Status Report",
+    "description": "After 2019 and 2021 we also want to give a status report of the GeoStyler [1] project on this years FOSS4G. GeoStyler is an OSGeo community project [2] and received a lot of new features and changes in the past months.\r\n\r\nGeoStyler  provides a set of parser libraries that allow the conversion between different styling formats. On top of the core functionality GeoStyler provides an user interface library that helps to integrate GeoStyler into your own web application. Using these components, GeoStyler can be used for example to create a WYSIWYG style editor. The project also maintains a GeoServer-plugin [3], which includes styling UI-components into GeoServer. \r\nTwo more tools from the GeoStyler universe should be mentioned: A commandline interface (CLI) and a REST interface. The CLI provides a tool for server-side style conversion for an arbitrary number of style files \u2013 completely automated. The REST interface can be used to create web services which do the conversion between formats. With these tools, it is possible to convert a huge amount of QGIS styles to SLD, or Mapfile or any other supported file based styling format and vice versa.\r\nGeoStyler is based on a plugin concept, so the UI works with any of the supported parsers and can thereby be used for projects that use SLD, OpenLayers, QML, etc. Currently, GeoStyler supports the styling formats OGC SLD, OpenLayers Styles, Mapfiles, QML, Mapbox and also \u2013 for assistence when styling by attributes \u2013 the geodata formats GeoJSON, OGC WFS and Shapefile. Common Query Language (CQL) for filtering is understood as well as filter encoding (OGC FE).\r\nThere are a number of new features such as a card layout, enhanced support of expressions, filter UI enhancements as well as various documentation updates and translations planned for this year and we expect all or most to be realized when FOSS4G 2022 takes place.\r\nWith this talk, we want to present the current project status and show how GeoStyler evolved since the last talk. In order to show a real-life example, we will present the results of a project, where the task was to convert UMN Mapserver based styles to QGIS using GeoStyler. \r\n\r\n[1] https://geostyler.org/\r\n[2] https://www.osgeo.org/projects/geostyler/ \r\n[3] https://docs.geoserver.org/latest/en/user/community/geostyler/index.html",
+    "start_datetime": "2022-08-25T12:45:00Z",
+    "end_datetime": "2022-08-25T13:15:00Z",
+    "talk:code": "GZQMLY",
+    "talk:guid": "62aab1f7-1ff9-54c3-82b9-d49fdc45aca3",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "General online",
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "JDMKWU",
+        "name": "Till Adams",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/JDMKWU/"
+      },
+      {
+        "code": "FLAV3G",
+        "name": "Daniel Koch",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/FLAV3G/"
+      },
+      {
+        "code": "JBDJV8",
+        "name": "Jan Suleiman",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/JBDJV8/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T13:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/GZQMLY/",
+      "title": "The GeoStyler Project - Status Report"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/GZQMLY/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/JDMKWU/",
+      "title": "Till Adams"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/FLAV3G/",
+      "title": "Daniel Koch"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/JBDJV8/",
+      "title": "Jan Suleiman"
+    },
+    {
+      "rel": "related",
+      "href": "https://geostyler.org/",
+      "title": "geostyler.org"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.osgeo.org/projects/geostyler/",
+      "title": "www.osgeo.org/projects/geostyler"
+    },
+    {
+      "rel": "related",
+      "href": "https://docs.geoserver.org/latest/en/user/community/geostyler/index.html",
+      "title": "docs.geoserver.org/latest/en/user/community/geostyler/index.html"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/GZQMLY/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "WM9VFD",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "FOSS4G for policy support in Europe, a case study on water monitoring",
+    "description": "The Joint Research Centre (JRC) of the European Commission provides independent, evidence-based science and knowledge that supports European Union policies. To facilitate this, the JRC has developed the Big Data Analytics Platform (BDAP), a data platform that is entirely based on free and open-source software (FOSS). It allows data scientists from the JRC to easily access, analyze, view, and reuse scientific data at a petabyte scale. The majority of the hosted data are geospatial data from various domains including Earth observation imagery from the Copernicus Sentinel missions. Data are automatically downloaded from the Copernicus Data Space Ecosystem, processed and stored in an open source distributed filesystem (eos). These individual steps are implemented as microservices using docker compose. To facilitate data access, an application programming interface (API) was implemented following the Spatio Temporal Asset Catalog (STAC) specification. It exposes collections of spatial temporal data in a standardized way, which has given rise to an ecosystem of FOSS tools, including pystac and odc-stac. Based on simple queries through REST APIs, collections and their individual data items can be queried based on geographic location and acquisition time. In addition, the JRC has developed a suite of libraries for geospatial data processing (pyjeo) and create data science dashboards (Vois) that were released as FOSS. In this talk, these libraries will be introduced, while presenting real case studies that illustrate how these libraries were instrumental in providing policy support using reproducible workflows. In particular, a case study on monitoring water in the European continent will be presented. It uses Sentinel-2 satellite imagery to create time series of water masks based on machine learning techniques. A monitoring system is set up by comparing the extent of water for a defined set of water reservoirs over time.",
+    "start_datetime": "2024-07-04T13:00:00Z",
+    "end_datetime": "2024-07-04T13:30:00Z",
+    "talk:code": "WM9VFD",
+    "talk:guid": "7486bfc7-5c04-5ea5-9b4a-ea8d4cb3d361",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "FOSS4G \u2018Made in Europe\u2019",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Destination Earth (Van46 ring)",
+    "talk:room_capacity": 400,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "8WBKWJ",
+        "name": "Pieter Kempeneers",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/8WBKWJ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-04T13:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/WM9VFD/",
+      "title": "FOSS4G for policy support in Europe, a case study on water monitoring"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/WM9VFD/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/8WBKWJ/",
+      "title": "Pieter Kempeneers"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/WM9VFD/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/WM9VFD/resources/foss4g_2024_kempeneers_UDN79c3.pptx",
+      "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "title": "presentation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/ozSBfsemWTjDQja6azYj1F",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | FOSS4G for policy support in Europe, a case study on water monitoring",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=uWCUBE7t9Us",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | FOSS4G for policy support in Europe, a case study on water monitoring",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

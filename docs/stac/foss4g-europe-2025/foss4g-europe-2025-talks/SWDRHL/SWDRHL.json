@@ -1,0 +1,127 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "SWDRHL",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "Deploying GeoNode with Kubernetes: Introducing GeoNode-K8s",
+    "description": "In the realm of geospatial data management, GeoNode stands out as a robust open-source platform [1]. However, deploying and scaling GeoNode can present challenges, especially in dynamic environments. To address these challenges, the German GeoNode User Group has developed and maintains GeoNode-K8s, a Kubernetes Helm chart tailored for GeoNode deployments [2]. This tool streamlines the deployment process, offering scalability and resilience through Kubernetes orchestration. In this lightning talk, we will:\r\nIntroducing GeoNode-K8s and its core features.\r\nDemonstrate the deployment process using the Helm chart.\r\nDiscuss the advantages of leveraging Kubernetes for GeoNode, including improved scalability and simplified management.\r\nAttendees will gain insights into how GeoNode-K8s can enhance their geospatial data infrastructure, making deployments more efficient and adaptable to varying workloads.\r\nThis talk is designed for geospatial professionals and developers interested in modernizing their GeoNode deployments using container orchestration technologies.\r\n\r\nReferences:\r\n[1] https://github.com/geonode/geonode - GeoNode Official Repository\r\n[2] https://github.com/GeoNodeUserGroup-DE/geonode-k8s - GeoNode-K8s GitHub Repository",
+    "start_datetime": "2025-07-17T13:20:00Z",
+    "end_datetime": "2025-07-17T13:25:00Z",
+    "talk:code": "SWDRHL",
+    "talk:guid": "484f149a-b9ae-5bbd-8b2c-4b3c61383500",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "SA01",
+    "talk:room_capacity": 130,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "VN39PS",
+        "name": "Marcel Wallschl\u00e4ger",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/VN39PS/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-17T13:22:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/SWDRHL/",
+      "title": "Deploying GeoNode with Kubernetes: Introducing GeoNode-K8s"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/SWDRHL/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/VN39PS/",
+      "title": "Marcel Wallschl\u00e4ger"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/geonode/geonode",
+      "title": "github.com/geonode/geonode"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/GeoNodeUserGroup-DE/geonode-k8s",
+      "title": "github.com/GeoNodeUserGroup-DE/geonode-k8s"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/SWDRHL/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "geonode-k8s-foss4g-europe-2025": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/SWDRHL/resources/GeoNode_K8sFOSS4G_Europe_2025_cfua5r8.pdf",
+      "type": "application/pdf",
+      "title": "GeoNode K8s(FOSS4G Europe 2025)",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/gsmhu8Q8YcAUYP2UhQrs4y",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Deploying GeoNode with Kubernetes: Introducing GeoNode-K8s",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=hnupbED88vc",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Deploying GeoNode with Kubernetes: Introducing GeoNode-K8s",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

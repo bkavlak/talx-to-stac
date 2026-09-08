@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "TKCHPY",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Bulldozer, a free open source scalable software for DTM extraction",
+    "description": "This paper introduces a scalable software for extracting Digital Terrain Models (DTM) from Digital Surface Models (DSM), called Bulldozer. DTMs are useful for many application domains such as remote sensing, topography, hydrography, bathymetry, land cover maps, 3D urban reconstruction (LOD), military needs, etc. Currant  and incoming LiDAR and spatial Earth Observation missions will provide a massive quantity of 3D data. The spatial mission CO3D will deliver very high resolution DSMs at large scale over emerging landscapes. The IGN LiDAR HD mission is currently delivering high density point clouds of French national territory. This trend motivated the French spatial agency (CNES) to focus on the development of tools to process 3D data at large scale. In this context, we have developed a free open-source software, called Bulldozer, to extract a DTM from a DSM at large scale without any exogenous data while being robust to noisy and no-data values. Bulldozer is a pipeline of modular standalone functions that can be chained together to compute a DTM. A pre-processing step contains specific functions to clean the input DSM and prepare it for a future DTM extraction such as disturbed area detection, hole filling and outer/inner nodata management. Then the extraction of the DTM  is based on the original Drape Cloth principle, which consists of an inversion of the Digital Surface Model, followed by a multiscale representation of the inverted DSM on which an iterative drape cloth computation is applied to derive the DTM. Finally a post-processing step is achieved to obtain the final DTM.\r\n\r\nWe have addressed a number of limitations that this type of algorithm may encounter. Indeed, when we do 3D stereoscopic satellite reconstruction, we can observe areas of residual noise in the DSM. They mainly come from uniform areas (shadows, water), or occlusions. These outliers disturb the drape cloth: it sticks to the edges of those disturbed areas and no longer fits the relief. This results in an underestimation of the DTM and generates pits in these noisy areas. To solve this problem, we have implemented a series of pre-processing steps to detect and remove these outliers. Once these areas are removed, we use a filling function that is more elegant than a basic interpolation method (e.g. rasterio fill nodata function). In addition, after the DTM extraction, we detect and remove potential residual sinks in the generated DTM. In order to keep track of the areas that we have interpolated or filled in, Bulldozer also provides a pixel-wise quality mask indicating whether it was detected as disturbed (and therefore removed and filled in) or as interpolated following a pit detection.\r\n\r\nCurrent stereo and LiDAR DSMs have a centimetric spatial resolution. However, the need to have such a high spatial resolution for DTM is not always relevant for numerous downstream applications. The multi-scale approach in Bulldozer allows to produce a coarser DTM by just stopping the process earlier in the pyramid. A final resampling of the DTM is done to fulfill the user-specific resolution. One main advantage of this feature is the potentially short execution time to produce a high-quality DTM depending on the DTM coarseness.\r\n\r\nAnother main contribution of our work is the adaptation of the original Drap Cloth algorithm to process DSMs of arbitrary size and from arbitrary sources. As explained in our previous paper, we introduce the concept of a stability margin in order to use a tiling strategy while ensuring identical results to those obtained if the DSM were processed entirely in memory. This tiling strategy allows a memory-aware extraction of the DTM in a parallel environment. This scalable execution is heavily based on the concept of shared memory introduced in Python 3.8 and the multi-processing paradigm.  \r\n\r\nSince our previous version we have been working on the accessibility of Bulldozer. Bulldozer can handle any input DSM as long as it is in a raster format. We have set up several interfaces to allow users of different levels to use it. A QGIS plugin was developed in order to allow novice users to use Bulldozer. For more advanced users, there is a Command Line Interface (CLI) to launch the tool from a terminal. And finally, for developers, they can use the Python API to launch the complete pipeline or call the standalone functions from the pipeline.\r\n\r\nThe efforts to improve the algorithmic performances allow the management of large DSMs while guaranteeing stability in the results, memory usage, and runtime. Currently, we achieve to extract a DTM from a 40000*70000px input DSM in less than 10 minutes on a 16 core/64-GB RAM node. We believe that its ability to adapt to several kinds of sensors (high and low resolution optical satellites, LiDAR), its simplicity of use, and the quality of the produced DTMs may interest the FOSS4G community. We plan to present the tool during a workshop dedicated to CNES 3D tools, but we think that the method and the algorithmic optimizations could also interest the FOSS4G Academic Track audience through an academic paper. \r\n\r\nThe project is available on github (https://github.com/CNES/bulldozer), and we are currently trying to provide access to LiDAR and satellite test images in order to allow the community to reproduce the results.",
+    "start_datetime": "2023-06-28T09:30:00Z",
+    "end_datetime": "2023-06-28T10:00:00Z",
+    "talk:code": "TKCHPY",
+    "talk:guid": "84c1e672-efe5-5fe9-8f72-c46253f4dbbf",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Academic Track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT E / N209 - Floor 3",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "HZLMLS",
+        "name": "Dimitri Lallement",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/HZLMLS/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/TKCHPY/",
+      "title": "Bulldozer, a free open source scalable software for DTM extraction"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/TKCHPY/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/HZLMLS/",
+      "title": "Dimitri Lallement"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/TKCHPY/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/jbT2gE8mJFXDz9wAvunAtm",
+      "type": "text/html",
+      "title": "2023 | Bulldozer, a free open source scalable software for DTM extraction - Dimitri Lallement",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=IvNU2fp_Q7w",
+      "type": "text/html",
+      "title": "2023 | Bulldozer, a free open source scalable software for DTM extraction - Dimitri Lallement",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

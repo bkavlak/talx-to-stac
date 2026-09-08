@@ -1,0 +1,104 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "DDYZRH",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Creating Large-Scale Very High Resolution Satellite Mosaics with High Spatial and Spectral Accuracy",
+    "description": "Very High Resolution satellite imagery (eg WorldView3) provides insights into Earth surface processes, but suffers from limited spatial/spectral accuracy. While tools exist to correct these errors, there is currently no robust pipeline. Vhrharmonize is a Python library, command-line interface, and QGIS plugin that automates preprocessing and mosaic generation.\n\nEfficient processing of Very High Resolution (VHR) satellite imagery (such as that from WorldView-3 and Planet Labs constellations) enables large-scale analysis of detailed Earth surface processes, yet remains challenging due to limited tools for handling large data volumes and inherent inconsistencies in these datasets. Satellite imagery is affected by spectral errors due to atmospheric and surface effects and spatial errors due to geometric distortion. In VHR imagery, these issues inhibit analyses that depend on high spatial and spectral fidelity, particularly in multi-image and multi-sensor workflows such as mosaic generation and data fusion.\r\n\r\nThere is currently no end-to-end open-source pipeline to preprocess WorldView-3 imagery and correct these errors. To streamline the creation of region-scale mosaics, we developed vhrharmonize as an open-source Python library, command-line interface, and QGIS plugin. The toolkit integrates established open-source tools with newly developed methods into a unified, modular pipeline that transforms raw imagery into analysis-ready products through radiometric calibration, atmospheric correction, orthorectification, pansharpening, cloud and shadow masking, co-registration, seamline generation, and relative radiometric normalization. By consolidating these steps into a single pipeline, the system enables efficient, reproducible, and idempotent processing, supporting rapid iteration at both the individual step level and across full mosaic generation workflows.\r\n\r\nThis tool is designed for applications that rely on high-resolution satellite imagery but require strong cross-image consistency, including ecosystem and biodiversity monitoring, land cover and land use classification, change detection and time-series analysis, machine learning and computer vision workflows, disaster response and environmental assessment, and precision agriculture and resource management. By reducing both spectral and spatial inconsistencies, vhrharmonize facilitates more reliable downstream analysis across heterogeneous VHR datasets.",
+    "start_datetime": "2026-09-01T04:50:00Z",
+    "end_datetime": "2026-09-01T04:55:00Z",
+    "talk:code": "DDYZRH",
+    "talk:guid": "3b05f490-c145-55ab-9042-4cf426b73f57",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Lightning Talk",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Ran1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "37VPNQ",
+        "name": "Iosefa Percival",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/37VPNQ/"
+      },
+      {
+        "code": "CXCHGX",
+        "name": "Kanoa Lindiwe",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/CXCHGX/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T04:52:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/DDYZRH/",
+      "title": "Creating Large-Scale Very High Resolution Satellite Mosaics with High Spatial and Spectral Accuracy"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/DDYZRH/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/37VPNQ/",
+      "title": "Iosefa Percival"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/CXCHGX/",
+      "title": "Kanoa Lindiwe"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/cankanoa",
+      "title": "github.com/cankanoa"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/DDYZRH/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

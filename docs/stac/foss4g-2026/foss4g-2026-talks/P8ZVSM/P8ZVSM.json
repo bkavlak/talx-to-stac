@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "P8ZVSM",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "A cultural database for down to earth users: open source maps, media, and design in Indigenous Australia",
+    "description": "This talk explores the co design process and technology stack behind a visual cultural database for Indigenous organisations in Australia, using open source geospatial tools and rapid field based software prototyping to make maps and media more accessible for non GIS users\n\nThis presentation will focus on the co design process behind a visual cultural database for Indigenous organisations in Australia, built using open source geospatial technologies. Rather than concentrating only on the final platform, the talk will reflect on the practical realities of designing spatial systems in close collaboration with users in remote and regional settings.\r\n\r\nA key part of the process has involved travelling to ranger bases and community locations, working side by side with Traditional Owners and ranger teams to gather requirements, discuss workflows, and sketch interface ideas in real time. With a mobile off grid 4WD truck set up as a travelling office, including Starlink connectivity and onboard power, this has made it possible to spend days on Country doing design conversations and UI mockups, then rapidly prototype ideas at night while still in the field.\r\n\r\nThe talk will also reflect honestly on the strengths and limits of this approach. Rapid prototyping with large language models made it possible to test and communicate interface ideas very quickly, but it also led at times to shortcuts and rework when early prototypes were pushed too far without enough consolidation. Part of the story is therefore not just about speed, but about learning when fast iteration helps and when systems need to be rebuilt more carefully.\r\n\r\nAlongside this process, the presentation will touch on the open source tools that supported the work, including MapLibre, React, and Django, and how they have been used to build a map and media focused platform that is visually engaging and accessible for non GIS users. The session will be relevant to people interested in open source GIS, participatory and co design methods, field based requirements gathering, user experience, and building spatial systems for audiences beyond professional GIS specialists.",
+    "start_datetime": "2026-09-02T08:00:00Z",
+    "end_datetime": "2026-09-02T08:30:00Z",
+    "talk:code": "P8ZVSM",
+    "talk:guid": "35f378ca-30c7-5a5f-8151-e50b76d96309",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room4",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "EY3WQ8",
+        "name": "Staf Smith",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/EY3WQ8/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T08:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/P8ZVSM/",
+      "title": "A cultural database for down to earth users: open source maps, media, and design in Indigenous Australia"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/P8ZVSM/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/EY3WQ8/",
+      "title": "Staf Smith"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/P8ZVSM/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

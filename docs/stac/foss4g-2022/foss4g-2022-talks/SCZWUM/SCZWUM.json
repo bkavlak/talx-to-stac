@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "SCZWUM",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "SensorThings API in practice: the AIR-BREAK project in Ferrara",
+    "description": "In the city of Ferrara (Italy) Dedagroup Public Services and other partners are involved in AIR-BREAK project (https://airbreakferrara.net/) to implement a set of geo-ICT tools for supporting an improved identification and monitoring of urban air quality.\r\nDifferent datasets from heterogeneous sources have been already interconnected and integrated in the Spatial Data Infrastructure of the Municipality of Ferrara, based on (geo)standard protocols for data interchange sourced by:\r\n\u2022\t173 authoritative AQ monitoring stations from 3 regional environmental agencies, ARPAE Emilia-Romagna (52), ARPA Veneto (33) and ARPA Lombardia (88), for their own whole regional areas;\r\n\u2022\t2 private AQ monitoring stations managed by private companies located in Ferrara;\r\n\u2022\t14 new AQ monitoring stations installed by Lab Service Analytica (project partner) in the territory of Ferrara \r\nFor integrating and sharing dynamic hourly data about air quality and other themes, we adopted the OGC Sensor Things APIs (STA) as the reference standard protocol [1].\r\nSTA is based on the OGC/ISO 19156:2011 [2] and provides an open and unified framework to interconnect IoT sensing devices, data, and applications over the Web. It is an open standard addressing the syntactic interoperability and semantic interoperability of the Internet of Things. It complements the existing IoT networking protocols such CoAP, MQTT, HTTP, 6LowPAN. While the above-mentioned IoT networking protocols are addressing the ability for different IoT systems to exchange information, STA is addressing the ability for different IoT systems to use and understand the exchanged information. \r\nIn AIR-BREAK project, FROST solution (FRaunhofer Opensource SensorThings-Server) [3] has been deployed in the GIS server farm of the Municipality of Ferrara to complement Geoserver and other technologies already providing services for viewing/accessing data based on OGC standards.\r\nIndeed, among the final objectives of the project, the implementation of a standard-based Air Quality Data Infrastructure focuses on:\r\n1.\tcreating a bi-lateral and cooperative communication systems between authorities and citizens about air quality and its perception;\r\n2.\tdefining and implementing a multi-stakeholder Data Infrastructure on Air Quality to integrate existing/heterogeneous/dynamic data from both authoritative sources and crowdsourced by citizens (Rete di Monitoraggio Ambientale Partecipativo [4]);\r\n3.\tproviding such dynamic air quality data to local authorities involved monitoring (i.e. Municipality of Ferrara, ARPAE, Regione Emilia-Romagna) and to citizens, through standard APIs (STA) and with open licenses through the upcoming open data portal of Ferrara (June 2022);\r\n4.\ttesting and validating innovative solutions for air quality monitoring using in-situ IoT sensors and satellite remote sensing (e.g. Copernicus)\r\n\r\nReferences:\r\n[1] https://en.wikipedia.org/wiki/SensorThings_API\r\n[2] https://www.iso.org/standard/32574.html \r\n[3] https://github.com/FraunhoferIOSB/FROST-Server \r\n[4] https://rmap.cc/",
+    "start_datetime": "2022-08-26T12:45:00Z",
+    "end_datetime": "2022-08-26T13:15:00Z",
+    "talk:code": "SCZWUM",
+    "talk:guid": "fad6b2ce-ed0c-5a0d-bbc3-b47903717dcc",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Limonaia",
+    "talk:room_capacity": 110,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "ZYHEHV",
+        "name": "Piergiorgio Cipriano",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/ZYHEHV/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T13:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/SCZWUM/",
+      "title": "SensorThings API in practice: the AIR-BREAK project in Ferrara"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/SCZWUM/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/ZYHEHV/",
+      "title": "Piergiorgio Cipriano"
+    },
+    {
+      "rel": "related",
+      "href": "https://en.wikipedia.org/wiki/SensorThings_API",
+      "title": "en.wikipedia.org/wiki/SensorThings_API"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.iso.org/standard/32574.html",
+      "title": "www.iso.org/standard/32574.html"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/FraunhoferIOSB/FROST-Server",
+      "title": "github.com/FraunhoferIOSB/FROST-Server"
+    },
+    {
+      "rel": "related",
+      "href": "https://rmap.cc/",
+      "title": "rmap.cc"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/SCZWUM/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=XNvfDH-6eYk",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | SensorThings API in practice: the AIR-BREAK project in Ferrara",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "HTLEJN",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Cloudferro's open source QGIS plugin for discovery of Copernicus data",
+    "description": "Cloudferro\u2019s repository contains nearly 67 Pb of EO data. So far, there wasn\u2019t any service providing\r\neasy access to data basing on OGC standards. For the past year, there was put work on creating a\r\nWebMapService (WMS), specifically for European satellite missions - Sentinel -2 and Sentinel-1. In\r\nresult, company developed a vast OGC services, based on analysis ready original Sentinel data stored\r\nin Cloudferro\u2019s repository, which serves as a official ESA storage. Although the services are here, there\r\nis also a need for a tool enabling users to use those services.\r\nThis paper presents the tool, which uses those services and works as a framework for potential users\r\nin form of a QGIS plugin. Although web services are based on OGC standards and this allows majority\r\nof GIS software establish connection with them, it\u2019s still unintuitive to build and use raw URL request.\r\nQGIS plugin provides a simple GUI to construct all necessary requests in a simple and fast way. Thanks\r\nto that, users can start work with EO data in a simple and comfortable manner. This plugin not only\r\nserves as a display tool, but also provide functions for analysis and download of Sentinel-1 and\r\nSentinel-2 images thanks to WebCoverageService (WCS). On the other hand, thanks to usage of\r\nVirtual Rasters (VRT), displayed data can be analysed on demand i.e.: mask all clouds in Sentinel-2\r\ntrue colour images.\r\nThe biggest advantage of this solution is an easy access to original, not processed Sentinel data,\r\nwhich are obtained every day. Since plugin can provide both display and download capabilities, this\r\ntool seems perfect for small processing tasks done by students on vast universities. By this, those\r\nstudents could easily get in touch with Sentinel data and enlarge European EO community.",
+    "start_datetime": "2024-07-04T12:00:00Z",
+    "end_datetime": "2024-07-04T12:05:00Z",
+    "talk:code": "HTLEJN",
+    "talk:guid": "945bbc8a-2669-5139-8e18-6086a8e8dd3b",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "GEOCAT (301)",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "Y7LYAN",
+        "name": "Micha\u0142 Bojko",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/Y7LYAN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-04T12:02:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/HTLEJN/",
+      "title": "Cloudferro's open source QGIS plugin for discovery of Copernicus data"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/HTLEJN/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/Y7LYAN/",
+      "title": "Micha\u0142 Bojko"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/HTLEJN/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-pdf": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/HTLEJN/resources/foss4g_tartu_qgis_OZWUfF6.pdf",
+      "type": "application/pdf",
+      "title": "Presentation PDF",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/nhUFWcyMscJAqLsVUKbv21",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Cloudferro's open source QGIS plugin for discovery of Copernicus data",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=6aOgXcghhmM",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Cloudferro's open source QGIS plugin for discovery of Copernicus data",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

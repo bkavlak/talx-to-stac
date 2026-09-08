@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "LQLAPC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Introduction to STAC API plugin in QGIS",
+    "description": "STAC or SpatialTemporal Asset Catalog is now a popular option for providers wishing to create accessible catalogs of spatiotemporal asset data for end users. STAC aims to create a standardized and performant way for providers to expose their spatiotemporal asset data, and for users to ingest that data.\r\nA 'spatiotemporal asset' is any file that represents information about the earth captured in a certain space and time.\r\nSince the development of STAC started in 2007, the STAC ecosystem was not able to use the STAC data in desktop softwares. Recently through collaboration between Kartoza and Microsoft, a QGIS (a desktop GIS application) plugin called \u201cSTAC API Browser\u201d was developed to bridge the gap between QGIS users and STAC data.\r\nNow using \u201cSTAC API Browser\u201d users can access, download, analyze and use a vast amount of imagery data offered by various STAC specification providers, such as Microsoft Planetary Computer.\r\nThe aim of this talk is to introduce the \u201cSTAC API Browser\u201d plugin, give a guide on how to use the plugin inside QGIS, showcase cool things that the plugin supports and how users/developers can collaborate on the plugin project. On top of all, we will also look at how to use the QGIS temporal controller feature with the added STAC data from the plugin.",
+    "start_datetime": "2022-08-24T14:45:00Z",
+    "end_datetime": "2022-08-24T15:15:00Z",
+    "talk:code": "LQLAPC",
+    "talk:guid": "5ddd644c-a99c-5962-ada6-29a438044b94",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Onice",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "JR78YV",
+        "name": "Samweli Mwakisambwe",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/JR78YV/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T15:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/LQLAPC/",
+      "title": "Introduction to STAC API plugin in QGIS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/LQLAPC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/JR78YV/",
+      "title": "Samweli Mwakisambwe"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/LQLAPC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/2JYhPiSsyA9LBkPwM5ffFN",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Introduction to STAC API plugin in QGIS",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=J3rOps6IiJ4",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Introduction to STAC API plugin in QGIS",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

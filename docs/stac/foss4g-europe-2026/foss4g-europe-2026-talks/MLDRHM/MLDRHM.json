@@ -1,0 +1,106 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "MLDRHM",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "Scaling GeoServer: From Vanilla Architecture to Cloud Performance Optimization",
+    "description": "For any geospatial platform, the ability to serve imagery at scale is the ultimate \"stress test.\" When our team at UP42 began building a production-grade WMTS service, we quickly realized that moving from a functional setup to a high-performance one requires more than just adding more hardware. This talk shares our iterative journey of migrating from a \"Vanilla\" GeoServer architecture to a microservices-based GeoServer Cloud environment, and the systematic load testing that guided every decision along the way.\r\n\r\nWe will walk through our \"detective-style\" approach to performance tuning. Using Apache JMeter to simulate heavy production loads, we treated our infrastructure as a series of integration points where bottlenecks could hide. Rather than a smooth transition, the move to a cloud-native architecture revealed a new landscape of challenges that required us to look deeper into the system than we had ever anticipated.\r\n\r\nThroughout our testing phases, we uncovered a variety of hidden performance killers, including:\r\n- Storage Hurdles: How standard cloud-mount solutions struggled with tile-writing workloads and why native cloud storage plugins became essential.\r\n- Concurrency Caps: The realization that default configurations for thread limits and traffic control are often too conservative for modern cloud environments.\r\n- The Proxy Trap: How internal communication between services can become a bottleneck even when individual components are performing well.\r\n- Resource Optimization: The relationship between CPU/Memory allocation and the ability to handle parallel tasks like simultaneous seeding and streaming.\r\n\r\nThis presentation is a practical guide for anyone looking to push GeoServer beyond its default limits. We will share our \"battle map\" for isolating bottlenecks, bypassing load balancers for diagnostic testing, and the critical importance of keeping load testing continuous as your architecture evolves.\r\n\r\nKey Takeaways\r\n- The Migration Reality: GeoServer Cloud offers the foundation for horizontal scaling, but it requires a specialized tuning strategy compared to standalone instances.\r\n- Systematic Isolation: Learn how to test individual microservices (GWC, Gateway, etc.) in isolation to pinpoint exactly where latency is introduced.\r\n- Visibility Matters: The importance of combining log analysis, thread dumps, and performance metrics to solve \"silent\" performance issues.\r\n- End-to-End Testing: Why you must test the full integration path early to find bottlenecks that only appear under high concurrency.",
+    "start_datetime": "2026-06-30T12:00:00Z",
+    "end_datetime": "2026-06-30T12:30:00Z",
+    "talk:code": "MLDRHM",
+    "talk:guid": "a02271d0-730e-5b57-8127-691d0286346e",
+    "talk:event": "foss4g-europe-2026",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "A12",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RHS8KC",
+        "name": "Jan Christian",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/RHS8KC/"
+      },
+      {
+        "code": "JVZQZW",
+        "name": "Matheus Pinheiro dos Santos",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/JVZQZW/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-06-30T12:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/MLDRHM/",
+      "title": "Scaling GeoServer: From Vanilla Architecture to Cloud Performance Optimization"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/MLDRHM/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/RHS8KC/",
+      "title": "Jan Christian"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/JVZQZW/",
+      "title": "Matheus Pinheiro dos Santos"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/MLDRHM/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2026/submissions/MLDRHM/resources/FOSS4G_Scaling_GeoServer___FcWPbB1.pdf",
+      "type": "application/pdf",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

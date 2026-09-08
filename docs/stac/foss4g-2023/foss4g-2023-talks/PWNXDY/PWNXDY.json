@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "PWNXDY",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Agroforestry in the Alas Mertajati of Bali, Indonesia. A case study in applying AI and GIS to sustainable small-scale farming practices.",
+    "description": "Small scale food production has in the past not been a priority for AI supported analysis of satellite imagery, mostly due to the limited availability of satellite imagery with sufficient spatial and spectral resolution. Additinally, small scale food producers might find it challenging to articulate their needs and might not recognize any added benefit in new analysis approaches.\r\n\r\nOur case study, situated in the geographically and politically complex Alas Mertajati in the highlands of Bali, demonstrates the opportunities of applying satellite assets and machine learning supported classification to the detection of one particular small-scale farming practice, agroforestry. To this end, we are collaborating with the non-governmental organization WISNU as well as BRASTI, a local organization representing the interests of the indigenous Tamblingan.\r\n\r\nThe practice of agroforestry is widespread across Southeast Asia [5]. Agroforestry plots are 3-dimensional food sources with a variety of species of trees, shrubs, and plants combined into a compact spatial unit. Agroforestry plots are typically small, ranging from fractions of a hectare to a few hectares, and they are often owned by local residents and farmers. Agroforestry plots are tended to manually due to the low cost of manual labor, the small sizes of the plots, the lack of appropriate farm automation systems, as well as a desire to maintain traditional, time-tested land use practices. Small-scale agroforestry can produce a continuous and stable source of valuable and essential foods. The assemblage of vegetation with varying root depth also assists in reducing landslides, an increasingly common event during extreme rainfall in the highlands of the Alas Mertajati. As such, agroforestry is a robust hedge against some forms of climate change than monoculture farm plots [4]. \r\n\r\nIn Bali, agroforestry sites typically contain several major cash crops including clove, coffee, and banana together with a variety of additional trees such as palms, as well as plants and shrubs such as mango, papaya, and taro. Because of the small plot sizes and the diversity of plants contained in agroforestry sites, detection of agroforestry in satellite imagery with statistical approaches is difficult [2].\r\n\r\nWhile other researchers see in the explosion of remote sensing systems an opportunity for the exploration of new algorithms [1], our contribution focuses on the under-valued process of ground truth data, both to improve landcover classification as well as to engage with a local community that will profit from the process.\r\n\r\nThe latest generation of Planet Labs satellite imagery (Superdove) offers additional spectral information (Coastal Blue (431-452 nm), Blue (465-515 nm), Green I (513-549 nm), Green (547-583 nm), Yellow (600-620 nm), Red (650-680 nm), Red Edge (697-713 nm), Near-infrared (845-885 nm)) at the same spatial resolution (3.7/m) as the earlier Dove constellation [3]. These new spectral sources offer a new window onto the presence of plants associated with agroforestry practices in the Alas Mertajati (Figure 1). After collecting a first set of reference data, we selected several popular machine learning algorithms (Random Forest, SVM, Neural Networks) to produce classifiers that are able to capture the distribution of agroforestry in the study area to varying degrees. These maps are the first representations of agroforestry in Bali Indonesia (Figures 2, 3).\r\n\r\nWe shared these first-generation maps with members of the Tamblingan (through our project partners) who have long-standing claims to the Alas Mertajati as ancestral lands. Their observations found some of the areas identified as agroforestry to be false, capturing errors and slippages our research team was not aware of.\r\n\r\nTogether with a local guide, we collected additional ground truth examples in the field. We re-trained the classification systems on the augmented data set to produce updated agroforestry representations. The improvements are twofold. First, as a GIS product. The new map (Figure 4) show a different distribution of agroforestry sites than the previous results. \r\nAgroforestry seems more widely established within the dominant clove gardens. The previous result had a kappa index of 0.714815, and the new result generates a kappa index of 0.734687, and we expect this result to further improve as we fine-tune our classification process.\r\n\r\nSecond, as a science communication project. In our discussion with our partners, it became clear that the first maps were visually difficult to understand. The \u201cnatural\u201d coloration of water, forest, and settlements made it difficult for some non-GIS schooled members to read the information. Consequently, we created a new visualization approach that limited the content to a single category. We projected this information onto an infrared image \u2013 from the same satellite asset that delivered the data \u2013 to an \u2018unnatural\u2019 image with lower barriers to readability (Figures 5, 6). \r\n\r\nWe used the same approach to visualize the hydrology of the Alas Mertajati (Figure 7). The hydrology data sourced from the Indonesian Government's Badan Informasi Geospatial is superimposed on the same infrared image for visual clarity. However, the data is over 20 years old (Figure 8). There is no updated hydrology map. As such, the image depicts a water rich region that has more recently been identified as water poor due to a rapid rise in water use by the changes in weather patterns and an expanding tourism industry. In fact, a first round of data collected in the field during the rain season of 2023 found multiple dry river beds (Figure 9). As a consequence, the Tamblingan though BRASTI are establishing this water poor ground truth by verifying water flow (or lack thereof) in river beds (Figure 10).\r\n\r\nFinally, the project demonstrates the usefulness of our software repository COCKTAIL. Built upon GDAL, ORFEO and QGIS modules, COCKTAIL allows us to invoke popular GIS land cover classification algorithms to classify Planet Lab and Sentinel2 imagery. Moreover, COCKTAIL collects all settings used to create a classification and saves them, so the products can be easily reproduced. COCKTAIL works with remote storage providers to stash large files on low-cost servers. This is of particular interest when working in resource constrained environments.",
+    "start_datetime": "2023-06-30T09:30:00Z",
+    "end_datetime": "2023-06-30T10:00:00Z",
+    "talk:code": "PWNXDY",
+    "talk:guid": "5afac5b6-f700-5ff6-b8dd-0d0cfe32ad31",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Academic Track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT E / N209 - Floor 3",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "MP98AQ",
+        "name": "marc b\u00f6hlen",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/MP98AQ/"
+      },
+      {
+        "code": "SXSFVN",
+        "name": "Rajif Iryadi",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/SXSFVN/"
+      },
+      {
+        "code": "N9A3GH",
+        "name": "Jianqiao Liu",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/N9A3GH/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-30T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/PWNXDY/",
+      "title": "Agroforestry in the Alas Mertajati of Bali, Indonesia. A case study in applying AI and GIS to sustainable small-scale farming practices."
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/PWNXDY/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/MP98AQ/",
+      "title": "marc b\u00f6hlen"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/SXSFVN/",
+      "title": "Rajif Iryadi"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/N9A3GH/",
+      "title": "Jianqiao Liu"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/PWNXDY/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

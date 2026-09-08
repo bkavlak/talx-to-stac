@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "QSFUVY",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "The State of OGC SensorThings API",
+    "description": "An update on the OGC SensorThings API from the OGC standards working group: what's new in v2.0 (to be published in 2026), the open source servers and clients available today, real-world geospatial IoT use cases across sectors, and what's coming next.\n\nThe OGC SensorThings API (STA) is an OGC standard for managing and sharing observations and tasking capabilities over the Web. Built on OGC Observations, Measurements and Samples (OMS / ISO 19156), STA provides a common data model and API for interconnecting IoT devices, monitoring platforms, and data applications -- whether you are running real-time sensor networks or exposing legacy observation databases.\r\n\r\n**What's New in v2.0.** We will walk through the key changes in the latest version of the standard: tighter alignment with OMS, a more flexible core data model with standardized extension points, new OData bindings, and enhanced query capabilities. We will explain what has changed since v1.1 and what it means for anyone building -- or planning to build -- scalable geospatial IoT applications with open source software.\r\n\r\n**Open Source Ecosystem.** SensorThings has a growing landscape of open source implementations. We will present the available servers and client libraries across multiple languages. Whether you need to stand up a standards-compliant sensor data endpoint or build applications that consume observation data, we will point you to the tools and show you where to get started -- including a live demo of standing up an IoT application in minutes.\r\n\r\n**Deployments Around the World.** From national environmental monitoring networks to smart city platforms, digital twins, and scientific research infrastructure, SensorThings is deployed across diverse sectors and geographies. We will highlight use cases that go well beyond traditional IoT -- including field inspection and repair, methane reduction operations, and integration layers over legacy databases -- showing the breadth of what the standard supports in practice.\r\n\r\n**Roadmap.** Finally, we will share what the SensorThings Standards Working Group is working on next: upcoming extensions, community priorities, and how you can get involved.\r\n\r\nWhether you already run SensorThings or are evaluating it for your data infrastructure, this talk will bring you current on the standard, the tools, and the community.",
+    "start_datetime": "2026-09-01T08:30:00Z",
+    "end_datetime": "2026-09-01T09:00:00Z",
+    "talk:code": "QSFUVY",
+    "talk:guid": "8ab90bb7-3513-5b07-ac2c-282efbac6cdc",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Ran1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "AMVYRK",
+        "name": "Steve Liang",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/AMVYRK/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T08:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/QSFUVY/",
+      "title": "The State of OGC SensorThings API"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/QSFUVY/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/AMVYRK/",
+      "title": "Steve Liang"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/QSFUVY/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

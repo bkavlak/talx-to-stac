@@ -1,0 +1,97 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "RXU77L",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "Unifying open data of buildings through building a translator of taxonomies based on OpenStreetMap tagging format.",
+    "description": "Geospatial data is essential for urban planning, disaster risk assessment, and infrastructure management. However, the independent nature of various taxonomies - such as the Global Earthquake Model (GEM), OASIS disaster risk framework, Building Stock Observatory (BSO), 3DCityDB for urban modeling, and Industry Foundation Classes (IFC) for BIM applications - creates barriers to interoperability. While these taxonomies provide structured, detailed datasets within their respective domains, their lack of standardization across platforms limits their usability in broader geospatial applications. OpenStreetMap (OSM), as a globally recognized open mapping platform, presents an opportunity to act as a baseline for integrating these diverse datasets. By aligning different taxonomies within an OSM-compatible framework, it becomes possible to enhance the comparability of structured geospatial datasets, ensuring that OSM data can be enriched and cross-referenced with external sources.  \r\n\r\nThis work proposes an ontology-based approach to structuring and integrating multi-taxonomy building information within the OSM ecosystem. By defining mappings between attributes used in different taxonomies and translating them into standardized OSM tagging schemes, this approach allows for the seamless conversion of structured geospatial datasets into OSM-compatible formats. To integrate structured geospatial data into OSM, this work employs a multi-step methodology focusing on schema mapping, conversion pipelines, and tagging standardization. The first step in the process involves establishing correspondences between attributes across different taxonomies. Attributes such as building material, height, structural system, and occupancy classifications are identified in OSM and mapped to their equivalent definitions in GEM, OASIS, BSO, IFC, and 3DCityDB. For instance, a building tagged as `building:material=brick` in OSM corresponds to `wall_type=brick` in GEM, `Construction Material: Brick` in BSO, and `IfcMaterialDefinition=Brick` in IFC. This mapping ensures that structured datasets can be consistently translated into OSM-compatible key-value pairs, preserving the meaning of the original attributes.\r\n\r\nOnce these relationships are established, a structured conversion process is implemented to transform data into OSM\u2019s key-value format. A transformation pipeline extracts structured geospatial attributes from external taxonomies, applies pre-defined mapping rules, and outputs the resulting dataset in an OSM-compatible tagging format. This step also involves data validation, where inconsistencies in classification are detected and adjusted to maintain uniformity. While there are cases of one-to-one transformation, there are also cases when that is not possible. For example, take the tag `MCF` which stands for material masonry, reinforcement confined. In these cases the nested information is transformed into two tags: `material=masonry;material:reinforcement=confined`. In case of later merging datasources, later there can be checked conflicting information, and priority in case of conflict is allowed. By employing a structured pipeline, batch processing of large datasets is possible, ensuring that structured geospatial information from various sources can be efficiently imported into OSM without requiring manual reclassification.\r\n\r\nThe integration of structured taxonomies into OSM is reinforced through the development of tagging presets for OSM editors. By generating JOSM XML and iD Editor JSON presets, contributors can apply predefined tags corresponding to structured taxonomies, reducing inconsistencies and improving data quality. These presets guide users in applying standardized geospatial attributes, ensuring that contributions align with structured datasets used in risk assessment, urban planning, and infrastructure monitoring.   \r\n\r\nThe development of a multi-taxonomy integration model can have several advantages in structured geospatial data translation. By ensuring consistent mapping between GEM, OASIS, BSO, IFC, and 3DCityDB, the system enables conversion of structured data into OSM-compatible tagging formats. This enhances the accuracy of OSM mapping by aligning its tags with established geospatial standards. Furthermore, humanitarian organizations can directly leverage structured tagging presets to improve the consistency and reliability of OSM contributions. The use of structured presets reduces tagging inconsistencies and allows for direct comparisons between OSM-mapped infrastructure and standardized exposure models. The integration of structured datasets into OSM improves the platform\u2019s usability for disaster resilience planning, enabling geospatial analysts to incorporate OSM data into machine-learning-based risk assessment models and structured exposure frameworks like GEM and OASIS.  \r\n\r\nThe broader implications of this work extend to multiple fields. In disaster risk and exposure modeling, OSM can serve as a structured baseline for risk analysis in earthquake, flood, and climate resilience applications. In urban infrastructure monitoring, standardized tagging allows for better integration of OSM data with smart city models and BIM applications. Humanitarian mapping efforts can also benefit from this integration, as structured tagging ensures that OSM contributions align with professional risk assessment frameworks. The development of conversion pipelines and tagging presets ensures that structured datasets can be integrated into OSM without requiring manual intervention, significantly improving data comparability across platforms.  \r\n\r\nFuture research will focus on expanding ontology coverage to additional geospatial datasets, including cadastral data and ISO standards. Further work will also explore the development of analytical tools to compare structured datasets with OSM data, enabling geospatial professionals to assess the completeness and accuracy of OSM-mapped building data. This initiative aligns with efforts to improve the interoperability of open geospatial data, making OSM an essential tool for humanitarian response, urban resilience, and infrastructure planning.",
+    "start_datetime": "2025-07-16T12:00:00Z",
+    "end_datetime": "2025-07-16T12:30:00Z",
+    "talk:code": "RXU77L",
+    "talk:guid": "1774cc2c-2964-5016-bc69-488d29849c8e",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Open Data",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "SA02",
+    "talk:room_capacity": 108,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "NFG8VH",
+        "name": "Doren Calliku",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/NFG8VH/"
+      }
+    ],
+    "talk:do_not_record": true,
+    "datetime": "2025-07-16T12:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/RXU77L/",
+      "title": "Unifying open data of buildings through building a translator of taxonomies based on OpenStreetMap tagging format."
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/RXU77L/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/NFG8VH/",
+      "title": "Doren Calliku"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/RXU77L/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/RXU77L/resources/GFZ_presentation_FOSS4GE_HQQEy24.pdf",
+      "type": "application/pdf",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

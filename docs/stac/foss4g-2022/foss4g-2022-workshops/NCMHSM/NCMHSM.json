@@ -1,0 +1,116 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "NCMHSM",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "GRASS GIS for remote sensing data processing and analysis",
+    "description": "We will present and exemplify a subset of GRASS GIS toolsets for satellite imagery data processing and analysis in combination with other core modules and Add-ons in a workflow going from data download to supervised classification of different scenes and visualization of results.\n\nGRASS GIS is a general purpose Free and Open Source geographic information system (GIS) that offers raster, 3D raster and vector data processing support. Since early times, GRASS has also provided numerous tools to process and analyze satellite imagery. There are modules to download, import and pre-process data from MODIS, Landsat, Sentinel, etc. Furthermore, GRASS offers tools for atmospheric and topographic corrections, quality assessment, cloud and shadow masking, pansharpening, estimation of spectral indices, object based image analysis (OBIA), clustering and classification algorithms, among others.\r\nWith the latest stable release, GRASS brings a new raster) metadata class called semantic labels. Examples of semantic labels are satellite bands (blue, green, red, nir, etc), dataset names in remote sensing products (ndvi, evi, lst, etc), or any custom names. This new feature has a series of advantages to enhance workflows using satellite imagery. For example, all raster classification modules now generate signature files with embedded semantic labels which allows us to apply a signature file from one imagery scene to any number of other scenes as long as they consist of the same bands. Support for semantic labels has also been added to raster time series which allows to handle imagery time series altogether, by the creation of image collections.\r\nIn this hands-on session we will present and exemplify a subset of the imagery toolsets in combination with other GRASS GIS core modules and Addons in a workflow starting from data download to the supervised classification of different scenes and visualization of results. We will specifically go through filtering and downloading data, importing, adding semantic labels, pre-processing, estimation of indices, and image classification. Eventually, the resulting maps will be exported to Cloud Optimized GeoTIFF (COG) files for further usage in QGIS, GeoServer, or elsewhere.",
+    "start_datetime": "2022-08-23T12:00:00Z",
+    "end_datetime": "2022-08-23T16:00:00Z",
+    "talk:code": "NCMHSM",
+    "talk:guid": "cee009be-39b4-5c22-8822-1f3f0ed1941a",
+    "talk:event": "foss4g-2022-workshops",
+    "talk:type": "Long Workshop",
+    "talk:language": "en",
+    "talk:room": "201",
+    "talk:room_capacity": 73,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "RBWLUU",
+        "name": "Veronica Andreo",
+        "url": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/RBWLUU/"
+      },
+      {
+        "code": "JB8MU3",
+        "name": "Markus Neteler",
+        "url": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/JB8MU3/"
+      },
+      {
+        "code": "CDXVZF",
+        "name": "M\u0101ris Narti\u0161s",
+        "url": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/CDXVZF/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-23T14:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/talk/NCMHSM/",
+      "title": "GRASS GIS for remote sensing data processing and analysis"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/talk/NCMHSM/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/RBWLUU/",
+      "title": "Veronica Andreo"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/JB8MU3/",
+      "title": "Markus Neteler"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/CDXVZF/",
+      "title": "M\u0101ris Narti\u0161s"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/talk/NCMHSM/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "satellite-imagery-classification-using-semantic-labels": {
+      "href": "https://talks.osgeo.org/media/foss4g-2022-workshops/submissions/NCMHSM/resources/band_references_scheme_with_logo_dtSEoKG.png",
+      "type": "image/png",
+      "title": "Satellite imagery classification using semantic labels",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-workshops"
+}

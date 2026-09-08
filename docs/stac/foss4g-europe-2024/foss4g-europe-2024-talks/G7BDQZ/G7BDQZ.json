@@ -1,0 +1,123 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "G7BDQZ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Managing airport data with Open Source Software",
+    "description": "Airport is a very demanding environment to build, maintain and operate. Busy airports are operated 24/7 every day. Safety and security of the passengers, crew and aircrafts are crucial for airport operators. Almost all activities in airports are also regulated by international and national officials. Nowadays the importance of geospatial data is growing for airport operators to efficiently manage airports inside and outside. In this presentation, we will show how FOSS4G software is used today to manage geospatial airport data and what are near-future challenges.\r\n\r\nFirst impression of smooth air travelling will start with when a passenger arrives at the airport: how to arrive with public transport or where I can park my car? Before entering the aircraft, passengers like to easily check-in, pass security checks and then use various services, like restaurants, shopping, restrooms and other services. Airport outdoor and indoor maps are key tools for passengers to travel from outside the airport to the gate of the aircraft. We will show how to maintain a PostGIS database with QGIS, how to share necessary information with Geoserver and how maps are delivered to passengers to different devices.\r\n\r\nAirport operators are mandated to collect, maintain and deliver aeronautical data of the airport. Aeronautical data is a key part of the creation of aeronautical information products which include both digital data sets and a standardised presentation in paper and electronic media. We will show how airport operator will collect and maintain aeronautical data in PostGIS database with QGIS.\r\n\r\nAirports are constantly developing and airport data management is under constant development. New regulations are coming and airport operators need to manage their operations cost effectively. We will discuss possible future development projects, like Foreign Object Debris (FOD), aerodrome mapping database (AMDB) and Obstacle management.",
+    "start_datetime": "2024-07-05T09:00:00Z",
+    "end_datetime": "2024-07-05T09:30:00Z",
+    "talk:code": "G7BDQZ",
+    "talk:guid": "b93f9e1c-21b7-5538-b79c-4c0736be9513",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "GEOCAT (301)",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "LXPN8Q",
+        "name": "Pekka Sarkola",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/LXPN8Q/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-05T09:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/G7BDQZ/",
+      "title": "Managing airport data with Open Source Software"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/G7BDQZ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/LXPN8Q/",
+      "title": "Pekka Sarkola"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/G7BDQZ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "google-slides": {
+      "href": "https://docs.google.com/presentation/d/19SwCQoUMM0pOdOtHekjaSynfC0uvY720lDmoxveWrBw/edit?usp=sharing",
+      "title": "Google slides",
+      "roles": [
+        "data"
+      ]
+    },
+    "video-about-airport-map": {
+      "href": "https://drive.google.com/file/d/1QlvyA58ecwpsE3J_vR0m4kC-XIsBjRqw/view?usp=sharing",
+      "title": "Video about airport map",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/jxsd81iqhG4fALytnW1gav",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Managing airport data with Open Source Software",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=mr6aEe8_5V4",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Managing airport data with Open Source Software",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

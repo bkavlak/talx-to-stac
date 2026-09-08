@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "G8MZKL",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Utilizing R for Open-Source GIS in Brazilian Governmental Institutions: Enhancing Public Policy Through Detailed Mapping",
+    "description": "Geographic Information Systems (GIS) have become indispensable tools in public administration, providing essential insights for decision-making. My talk will showcase the application of R, a free software environment for statistical computing and graphics, in creating detailed maps that reveal critical socio-economic and environmental patterns across Brazil. Our work primarily focuses on public health, education, environmental issues, and economic development, demonstrating the transformative power of open-source GIS in governmental institutions.\r\n\r\nThe data sources for our analysis are primarily open data repositories provided by the government, NGOs, and private institutions. We integrate various datasets, including public expenditure, municipal influence, population, and hospital locations. Statistical tools such as clustering, centrality measures, correlation, chi-square tests, and distribution measures are employed to identify patterns and produce significant graphical elements. We utilize R packages like {geobr} and {spdata} for accessing thematic shapefiles, including states, municipalities, municipal seats, and biomes. Our mapping projects often stem from requests by institutions such as the National Treasury Secretariat and the Vice-Presidency of the Republic, as well as spontaneous contributions to the data science ecosystem.\r\n\r\nOne of our key findings relates to healthcare access. Cities with low management capacity and influence are typically associated with significant travel distances for hospital care. In the realm of education and human development, public education policies have reshaped the municipal HDI map of Brazil between 1991 and 2010, particularly in the Northeast. In Cear\u00e1, education improvements were pivotal in enhancing HDI from 1991 to 2010. The impact of COVID-19 has also been a critical area of focus. By the first anniversary of the epidemic, numerous Brazilian municipalities reported death tolls nearing the total deaths observed from 2014 to 2018.\r\n\r\nClimate change exacerbates natural disaster issues in Brazil, notably floods and droughts in Rio Grande do Sul and the Amazon region. Despite most Brazilian homes having at least one bathroom, maps reveal that the North region and Maranh\u00e3o still have many municipalities with low proportions of homes with bathrooms. Conversely, the South and Southeast regions, especially S\u00e3o Paulo, show high proportions of residences with access to central water supply networks. When considering environmental pressure, many Global South countries see their HDI positions improve, while the Global North, notably Canada, experiences a significant decline.\r\n\r\nEconomic analysis reveals that in Brazil, five clusters of municipalities are formed based on municipal GDP components. Maps highlight patterns associated with agricultural strength in the West, wealth in S\u00e3o Paulo, and significant economic deprivation in the Northeast and northern Minas Gerais. On a broader scale, Brazil stands out with the largest GDP growth in South America from 1960 to 2023, while Argentina and Venezuela have seen their shares plummet, and Chile remains stable.\r\n\r\nThe maps generated serve multiple purposes. They are integral to storytelling, dashboards, and publications on platforms like Medium. Some maps are intended solely for internal use by the requesting institutions. Many projects have their codes available on GitHub or Gist, promoting transparency and collaboration within the data science community.\r\n\r\nOur work demonstrates the profound impact of using open-source GIS tools in governmental institutions. The ability to visualize and analyze complex data sets in a spatial context has enabled more informed decision-making and public policy development. By sharing our methods and findings, we aim to inspire other governmental bodies to adopt similar practices, ultimately fostering greater transparency and efficiency in public administration.",
+    "start_datetime": "2024-12-06T13:45:00Z",
+    "end_datetime": "2024-12-06T14:15:00Z",
+    "talk:code": "G8MZKL",
+    "talk:guid": "ec8c1cbf-9042-54b3-8fd2-fd2eddc30475",
+    "talk:event": "foss4g-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room III",
+    "talk:room_capacity": 400,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "9KBYSL",
+        "name": "Fernando Almeida Barbalho",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/9KBYSL/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-06T14:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/G8MZKL/",
+      "title": "Utilizing R for Open-Source GIS in Brazilian Governmental Institutions: Enhancing Public Policy Through Detailed Mapping"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/G8MZKL/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/9KBYSL/",
+      "title": "Fernando Almeida Barbalho"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/G8MZKL/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-used-in-my-talk": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024/submissions/G8MZKL/resources/apresenta%C3%A7%C3%A3o_foss4g_fernando_barbalho_4J9Vx3L.pdf",
+      "type": "application/pdf",
+      "title": "Presentation used in my talk",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/bextYCBMn4nbsRUgaWarZY",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | Utilizing R for Open-Source GIS in Brazilian Governmental Institutions",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=aR8C9uyDUXU",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | Utilizing R for Open-Source GIS in Brazilian Governmental Institutions",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

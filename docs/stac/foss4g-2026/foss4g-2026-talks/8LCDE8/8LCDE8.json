@@ -1,0 +1,114 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "8LCDE8",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Porting JTS Interior Point Algorithm to TypeScript and Rust/WASM",
+    "description": "Computing a representative point that is guaranteed to lie inside a geometry is essential for labeling, geocoding, and spatial indexing.\r\nThis talk introduces \"interior-point\", an open-source project that ports the JTS (Java\r\n Topology Suite) InteriorPoint algorithm to both TypeScript and Rust/WASM.\n\n**Background**\r\nThe \"interior point\" (or \"representative point\") problem - finding a point guaranteed to lie inside a given geometry - is a fundamental operation in GIS. It is used for polygon labeling, address geocoding, and spatial indexing. In Japan, the Digital Agency's mojxml2geojson tool uses GEOS's PointOnSurface function (via Python GDAL bindings) to compute representative points for cadastral parcel polygons. These representative points are published as part of the national Address Base Registry master data.\r\n\r\n**Motivation**\r\nWhile JTS and GEOS provide a robust solution, there is growing demand for performing such geospatial computations directly in the browser - for interactive web mapping, etc. The presenter previously gave a talk at FOSS4G Asia 2023 on GEOS-WASM (\"[GEOS runs on web browsers - WebAssembly power for geospatial analysis](https://www.docswell.com/s/sanak/Z1JEL3-2023-11-30-100118)\"), exploring the feasibility of running GEOS in the browser via WebAssembly. Building on that experience, this project takes a different approach: rather than compiling a large C++ library to WASM, port the specific algorithm we need - JTS's scanline-based InteriorPoint - directly to TypeScript and Rust.\r\n\r\n**The Project Status & Future Work**\r\nThe project was just started and still needs enough tests with various data.\r\n* WebSite: https://sanak.github.io/interior-point/\r\n* GitHub: https://github.com/sanak/interior-point\r\n\r\nI am planning a browser-based benchmark suite comparing accuracy and performance of multiple interior point / point-on-surface implementations:\r\n- JSTS (JavaScript port of JTS)\r\n- wasmts (JTS compiled to WASM)\r\n- geos-wasm (GEOS compiled to WASM, GEOSPointOnSurface)\r\n- georust/geo (interior_point - a different implementation in Rust)\r\n- Turf.js (pointOnFeature)\r\n\r\nThis comparison will help the community understand the trade-offs between pure-JS, WASM-compiled, and algorithm-specific approaches for browser-based geospatial computing.",
+    "start_datetime": "2026-09-01T04:10:00Z",
+    "end_datetime": "2026-09-01T04:15:00Z",
+    "talk:code": "8LCDE8",
+    "talk:guid": "c7469b2b-060c-5a3f-b3b4-b4fa6426a53d",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Lightning Talk",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Ran1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "PMXXQK",
+        "name": "Ko Nagase",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/PMXXQK/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T04:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/8LCDE8/",
+      "title": "Porting JTS Interior Point Algorithm to TypeScript and Rust/WASM"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/8LCDE8/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/PMXXQK/",
+      "title": "Ko Nagase"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.docswell.com/s/sanak/Z1JEL3-2023-11-30-100118",
+      "title": "GEOS runs on web browsers - WebAssembly power for geospatial analysis"
+    },
+    {
+      "rel": "related",
+      "href": "https://sanak.github.io/interior-point/",
+      "title": "sanak.github.io/interior-point"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/sanak/interior-point",
+      "title": "github.com/sanak/interior-point"
+    },
+    {
+      "rel": "related",
+      "href": "https://geolonia.com",
+      "title": "Geolonia, Inc."
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/sanak",
+      "title": "github.com/sanak"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/8LCDE8/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

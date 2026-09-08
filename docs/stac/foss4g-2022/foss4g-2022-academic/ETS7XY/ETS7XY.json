@@ -1,0 +1,113 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "ETS7XY",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Mapping Mt. Ushba \u2013 How to create a high-quality topographic map from open data using free software",
+    "description": "Mt. Ushba is situated in the Greater Caucasus in Georgia, next to the Russian border. With its nearly symmetrical double peak appearance, it is iconic and a symbol of the historic Svaneti region in Georgia, famous for its mountains, botany, and century-old defense towers. Svaneti is becoming an increasingly popular tourist destination in summer and winter. Therefore, the German Alpine Club is interested in providing a new map for this region, which will be produced by the Institute of Cartography of the TU Dresden. In the age of open data, it is consequential that OpenStreetMap will be an essential source of the new map. It should make the project more sustainable and inspire people to use free and open-source software for map production.\r\n\r\nOne basis of each topographic or touristic map is fieldwork, which means organized mapping and editing with OpenStreetMap aiming to verify and to complement map content and coverage[1], carried out by the Institute of Cartography in Mestia (Georgia) in the summer of 2021. Preparing for this work, a comparison with older maps was conducted to identify possible shortcomings and errors in the data. A draft was created using OpenStreetMap and the SRTM elevation model, preparing for the fieldwork. It helped to evaluate the current state of the data, gave a first impression of the mapping area, and was an ostensive basis for data capturing in field. A field book was produced for each participant, containing the map draft as an atlas and information on which data should be collected and which the specific attributes were required. Finally, the data was contributed to OpenStreetMap, and from there, the draft was updated again.\r\n\r\nIn the case of land cover, creating an own classification seemed beneficial in distinguishing between typical vegetation classes in a high mountain area. Showing the vegetation in detail is a feature of Alpine Club map, but using OpenStreetMap data would not detailed enough. In addition, a land cover classification based on remote sensing data is more reliable and ensures better consistent results compared to individual contributions from users with different previous knowledge. Open remote sensing data from the Landsat and Sentinel programs offer good sources for such a task and are also used to monitor the glaciers in this area[II]. R is used as an analysis platform. It is possible to classify rock, glaciers, and specific vegetation types such as alpine rose or open birch stands. For identifying the vegetation, representative examples were collected during the fieldwork by entering them in the atlas and taking sample photographs.\r\n\r\nAnother essential part of a topographic map for a high mountain area map is a good terrain visualization. The SRTM model is beneficial but not detailed enough to create rock depictions, which will be automatically derived by the Piotr tool[iii]. Planet Labs Inc provided high-resolution Rapid Eye and their Dove satellites imagery, suitable for creating a digital elevation model with a spatial resolution of approximately ten meters by applying stereo photogrammetry methods using the AMES Stereo Pipeline[iv]. The result enables a much more precise and understandable representation of the terrain. The terrain points were recorded with special standard GPS devices, the Garmin GPSMAP 66sr, which stores the raw observations for two frequencies. Accuracies in the range of around 0.1 meters[v] can be achieved using professional GNSS software. \r\n\r\nIn order to produce the final topographic map, it is necessary to combine all data components to represent the area around Mt. Ushba. In a first step, the updated OpenStreetMap data is imported into a PostgreSQL database with PostGIS extension. In a second step, an automated generalization is carried out for the selected target scale of 1:33,000, particularly schema transformation, aggregation, and simplification. For the visualization, QGIS is utilized: one project containing all layers with their visualizations served as WMS. It enables team members to view the current map and access all the data without storing it individually locally on their computer. Additional web mapping services were set up to provide georeferenced scans of other available maps of the region to enable a comparison and evaluation of the new derived topographic map product.\r\n\r\nBecause of the wide range of tasks, the work is split into several work packages and ongoing subprojects. Students' master theses within the International Cartography Master program \u2013 a cooperate offer of TU Dresden, TU M\u00fcnchen, TU Wien, and University Twente contributed significantly to the project by implementing and evaluating selected methods required for the map derivation. \r\n\r\n\r\n[i] Grinberger, A. Yair, Moritz Schott, Martin Raifer, and Alexander Zipf. \u201cAn Analysis of the Spatial and Temporal Distribution of Large\u2010scale Data Production Events in OpenStreetMap.\u201d Transactions in GIS 25, no. 2 (April 2021): 622\u201341. https://doi.org/10.1111/tgis.12746. \r\n\r\n[ii] Holob\u00e2c\u0103, Iulian-Horia, Levan G. Tielidze, Kinga Ivan, Mariam Elizbarashvili, Mircea Alexe, Daniel Germain, Sorin Hadrian Petrescu, Olimpiu Traian Pop, and George Gaprindashvili. \u201cMulti-Sensor Remote Sensing to Map Glacier Debris Cover in the Greater Caucasus, Georgia.\u201d Journal of Glaciology 67, no. 264 (August 2021): 685\u201396. https://doi.org/10.1017/jog.2021.47. \r\n\r\n[iii] Geisth\u00f6vel, Roman, and Lorenz Hurni. \u201cAutomated Swiss-Style Relief Shading and Rock Hachuring.\u201d The Cartographic Journal 55, no. 4 (October 2, 2018): 341\u201361. https://doi.org/10.1080/00087041.2018.1551955. \r\n\r\n[iv] Shean, David E., Oleg Alexandrov, Zachary M. Moratto, Benjamin E. Smith, Ian R. Joughin, Claire Porter, and Paul Morin. \u201cAn Automated, Open-Source Pipeline for Mass Production of Digital Elevation Models (DEMs) from Very-High-Resolution Commercial Stereo Satellite Imagery.\u201d ISPRS Journal of Photogrammetry and Remote Sensing 116 (June 2016): 101\u201317. https://doi.org/10.1016/j.isprsjprs.2016.03.012. \r\n\r\n[v] Lachapelle, G\u00e9rard, Paul Gratton, Jamie Horrelt, Erica Lemieux, and Ali Broumandan. \u201cEvaluation of a Low Cost Hand Held Unit with GNSS Raw Data Capability and Comparison with an Android Smartphone.\u201d Sensors 18, no. 12 (November 29, 2018): 4185. https://doi.org/10.3390/s18124185.",
+    "start_datetime": "2022-08-24T15:15:00Z",
+    "end_datetime": "2022-08-24T15:20:00Z",
+    "talk:code": "ETS7XY",
+    "talk:guid": "56320dd7-0b14-5534-a220-9d9afaf801f2",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "Room Hall 3A",
+    "talk:room_capacity": 85,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "SSJGCN",
+        "name": "Mathias Gr\u00f6be",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/SSJGCN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T15:17:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/ETS7XY/",
+      "title": "Mapping Mt. Ushba \u2013 How to create a high-quality topographic map from open data using free software"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/ETS7XY/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/SSJGCN/",
+      "title": "Mathias Gr\u00f6be"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.1111/tgis.12746",
+      "title": "doi.org/10.1111/tgis.12746"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.1017/jog.2021.47",
+      "title": "doi.org/10.1017/jog.2021.47"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.1080/00087041.2018.1551955",
+      "title": "doi.org/10.1080/00087041.2018.1551955"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.1016/j.isprsjprs.2016.03.012",
+      "title": "doi.org/10.1016/j.isprsjprs.2016.03.012"
+    },
+    {
+      "rel": "related",
+      "href": "https://doi.org/10.3390/s18124185",
+      "title": "doi.org/10.3390/s18124185"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/ETS7XY/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

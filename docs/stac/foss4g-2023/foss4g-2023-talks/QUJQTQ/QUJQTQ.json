@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "QUJQTQ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "JAXA EARTH OBSERVATOIN DASHBOARD WITH COG AND WMS/WMTS",
+    "description": "In May 2020, NASA, ESA, and JAXA initiated a collaborative effort aiming at the establishment of the COVID-19 Earth Observation Dashboard and later in March 2021, extended its scope to global environmental change. Noting the increasing use of the joint Dashboard and the continuous users' requests for more information, NASA, ESA, and JAXA will continue through June 2024 to advance their joint work in the global understanding of the changing environment with human activities. This decision continues the collaboration on the analysis of three agencies' datasets and open sharing of data, indicators, analytical tools, and stories sustained by our scientific knowledge and expertise, to provide a precise, objective, and comprehensive view of our planet as an easy-to-use resource for the public, scientists, decision-makers, and people around the world. The dashboard provides an easy-to-use resource for all kinds of the public from the scientist to the decision-maker, including people not familiar with satellites. Based on accurate remote sensing observations, it showcases examples of global environmental changes on 7 themes: Atmosphere, Oceans, Biomass, Cryosphere, Agriculture, Covid-19, and Economy. The dashboard offers a precise, objective, and factual view without any artifacts of our planet. You can explore countries and regions around the world to see how the indicators in specific locations changed over time.\r\n\r\nESA, JAXA, and NASA will continue to enhance this dashboard as new data becomes available. This session explores this EO dashboard architecture, function, examples of thematic content through storytelling, and its utility amongst the broader EO and Data Science community. \r\n\r\nTo monitor COVID-19 environmental and economic impacts from space through provision of related indicators to the general public and decision makers, JAXA has developed and implemented earth observation (EO) dashboard jointly with ESA and NASA. In parallel, jointly developed EO dashboard, to provide climate change and earth science information to world wide users, JAXA also develops and operates one stop shopping portal site named \u201cEarth-graphy\u201d as JAXA's website for all news, articles, images related to JAXA's Earth Observation activities. Recently, to enhance JAXA\u2019s \u201cEarth-graphy\u201d with interconnect with EO Dashboard through API, JAXA has developed the \u201cJAXA Earth API\u201d service to provide a wide variety of JAXA Earth observation satellite image data in an easy-to-use format and to promote the efficient and effective use of satellite data. \r\n\r\nFor earth observation satellite data provision, JAXA develops and operates G-Portal which is a portal system allowing users to search (satellite/sensor/physical quantity), and download products acquired by JAXA's Earth observation satellite including ALOS-2 ScanSAR data. With G-Portal standard product dissemination system, JAXA provides value added product services including Global Satellite Mapping of Precipitation (GSMaP), Himawari Monitor, JASMES, etc. For example, GSMaP provides a global hourly rain rate with a 0.1 x 0.1 degree resolution. JASMES provides the information on the current status and seasonal/interannual variability of climate forming physical quantities including solar radiation reaching the earth\u2019s surface (photosynthetically available radiation), cloudiness, snow and sea ice cover, dryness of vegetation (water stress trend), soil moisture, wildfire, precipitation, land and sea surface, etc. (https://kuroshio.eorc.jaxa.jp/JASMES/index.html)\r\n\r\nTo provide easy access of JAXA\u2019s earth observation data and information, JAXA developed JAXA Earth-graphy with API. The JAXA Earth API service consists of three main components shown in Figure 1: an API (Python language version, popular in fields such as data science, and a JavaScript language version (under development) for browser applications), a database, and a web application. First one is \u201cJAXA Earth Data Explorer\u201d which is a browser application that allows you to check various satellite data stored in a database. Second one is \u201cJAXA Earth API for Python\u201d allows users to acquire and use satellite data for any area, without being aware of differences in satellite, sensor type, resolution, etc. efficiently, effectively, and freely The API also has an IF function with the free GIS software QGIS, allowing for immediate acquisition and display of data. Final one is \u201cJAXA Earth Database\u201d which contains 74 types of data including elevation, surface temperature, vegetation index, precipitation, and land cover classification maps. The database contains data by cloud optimized GeoTIFF (COG) format and metadata by STAC format named \u201cCEOS Analysis Ready Data for Land (CARD4L)\u201d.  And also, JAXA implement prototyping system of OGC WMS/WMTS system as a frontend system of JASMES and Earth-graphy to provide data and information to Trilateral cooperation EO dashboard since 2022. \r\n\r\nThrough this WMS/WMTS and JAXA Earth API, JAXA\u2019s EO dashboard is linked with jointly developed EO dashboard. Thus, worldwide users can access JAXA\u2019s data and information through joint developed EO dashboard. Furthermore, JAXA also started to develop Japanese language version of UI for joint developed EO dashboard with increasing products and information. This paper describes overview of JAXA\u2019s EO dashboard system development. Especially Japanese Advanced Land Observing Satellite-2 (ALOS-2) L-band SAR data for forest monitoring.",
+    "start_datetime": "2023-06-28T13:15:00Z",
+    "end_datetime": "2023-06-28T13:20:00Z",
+    "talk:code": "QUJQTQ",
+    "talk:guid": "7ca56888-3c69-5797-bdff-49a55359a6f4",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Academic Track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "UBT E / N209 - Floor 3",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "8SPD8N",
+        "name": "Shinichi Sobue",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/8SPD8N/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T13:17:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/QUJQTQ/",
+      "title": "JAXA EARTH OBSERVATOIN DASHBOARD WITH COG AND WMS/WMTS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/QUJQTQ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/8SPD8N/",
+      "title": "Shinichi Sobue"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/QUJQTQ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

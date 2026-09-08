@@ -1,0 +1,106 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "TLCCXY",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Seeing Through the Crowd\u2019s Eyes: AI-Powered Urban Insights from Street Imagery",
+    "description": "This talk presents applications of GeoAI using street-level imagery and spatial analytics: detecting and mapping traffic signs, prioritising urban heat mitigation for active travel, assessing liveable streets through social-spatial configurations, and comparing perceived versus measured built environments. Together, they demonstrate scalable, data-driven approaches to inform urban planning.\n\nSeeing Through the Crowd\u2019s Eyes: AI-Powered Urban Insights from Street Imagery\r\n\r\nIntroduction\r\n\r\nCities are dynamic systems shaped by the interplay between built form and human experience. Traditional approaches to urban informatics often rely on top-down spatial data, such as remote sensing and census statistics, which are limited in capturing how people perceive and interact with urban space. The emergence of human-centred GeoAI offers an alternative approach by integrating street-level imagery with spatial analytics to understand cities from the perspective of their inhabitants.\r\n\r\nStreet view imagery (SVI) from platforms such as Google Street View and Mapillary provides immersive, ground-level visual data that mirrors the pedestrian experience of the city. Combined with advances in computer vision, machine learning, and geographic information systems (GIS), these data enable fine-grained assessments of urban conditions, ranging from infrastructure quality and visual aesthetics to safety and comfort. This paper presents four implementation case studies that apply object detection, semantic segmentation, and perceptual modelling to address pressing issues in urban infrastructure, climate resilience, street livability, and urban form perception.\r\n\r\nBackground: Human-Centred GeoAI and Street-Level Imagery\r\n\r\nHuman-centred GeoAI refers to the integration of artificial intelligence techniques with spatial data to model, interpret, and support human experiences in the built environment. It draws from computer vision, geospatial science, and human geography to create tools and insights that are sensitive to both objective spatial metrics and subjective perceptions.\r\n\r\nStreet-level imagery is particularly well-suited for human-centred GeoAI. Unlike satellite or aerial imagery, SVI captures the visual field as experienced by pedestrians, enabling assessments of visual enclosure, greenery, safety cues, signage, and cleanliness. Combined with deep learning techniques, these images can be analysed to detect objects, classify urban scenes, or infer human perceptions at scale.\r\n\r\nMethods\r\n\r\nAcross all four case studies, we employed deep learning techniques, including object detection and semantic segmentation, applied to SVI. Outputs were integrated with spatial data in GIS to produce interpretable urban metrics and policy-relevant insights.\r\n\r\nObject Detection: In the first study, we used the DNN object detection framework to identify Stop and Give Way signs from Google Street View images. These bounding boxes were geo-located using photogrammetric triangulation and integrated into GIS for validation and spatial pattern analysis.\r\n\r\nSemantic Segmentation for Environmental Features: For climate-sensitive urban assessment, we developed a convolutional neural network model to segment tree canopy, buildings, and sky from SVI. The percentage of each class was calculated for each street segment and analysed in conjunction with land surface temperature and social vulnerability indices.\r\n\r\nSpace Syntax and Visual Composition: In the third study, segmented streetscape compositions (sky, tree, and building percentages) were mapped and compared with space syntax metrics such as integration and connectivity. These spatial-social variables were analysed to determine the alignment between physical form and social interaction potential.\r\n\r\nSemantic-Based Human-Labelled Perceptions: Human perception was measured using Mapillary SVI and the MIT Places Pulse 2.0 dataset through semantic segmentation performed with deep residual networks (ResNet50), pre-trained on the ADE20K dataset. The Places Pulse dataset includes over 100,000 SVIs across 56 cities, including Melbourne, rated by participants on six perceptual indicators: Beautiful, Wealthy, Livable, Safe, Boring, and Depressing.\r\n\r\nTo infer perceptual scores from SVIs, we trained six Radial Basis Function (RBF) kernel Support Vector Machine (SVM) models on the Places Pulse dataset. Semantic segmentation translated the visual content of each image into categorical features, which were then used as input for the SVM models. Five-fold cross-validation ensured robustness across varying parameter settings. These models were subsequently applied to the Mapillary SVI dataset in Melbourne, generating spatial surfaces of perceived urban quality.\r\n\r\nCase Studies\r\n\r\nTraffic Sign Detection and Spatial Registration\r\n\r\nLocal governments require accurate records of street signage for safety and regulatory compliance. Our object detection pipeline achieved 95.63% detection accuracy and 97.82% classification accuracy for Stop and Give Way signs in selected areas of Melbourne. The derived locations were mapped in GIS and compared against council asset layers. This open-source workflow enables cost-effective monitoring and maintenance of road infrastructure, and is transferable to other signage types and cities.\r\n\r\nHeat-Resilient Streetscape Planning for Active Travel\r\n\r\nWe identified microclimatic disparities in Bendigo's active travel corridors using street-level segmentation of tree cover and sky openness. Combining these results with satellite LST and census-derived vulnerability indices revealed areas where thermally uncomfortable walking environments overlapped with high pedestrian exposure and low greening. This informed a prioritised plan for tree planting and shading infrastructure. The method provides a scalable, equity-focused tool for urban heat adaptation.\r\n\r\nAssessing Streetscape and Social Integration Using Space Syntax\r\n\r\nFocusing on Greater Bendigo, we examined whether visually well-designed streetscapes aligned with high social interaction potential. Integration and connectivity scores from space syntax were correlated with visual segmentation outputs. Results showed that areas with high space syntax scores did not always align with aesthetically rich environments. This suggests the need for integrated design and network planning to promote livability. Demographic overlays showed older populations gravitating to highly connected areas, highlighting the social implications of spatial configuration.\r\n\r\nPerceived vs. Measured Urban Form\r\n\r\nIn metropolitan Melbourne, we compared the Places Pulse-based perceptual scores derived from ResNet + SVM models with objective spatial metrics for the 5D dimensions of urban design: Density, Diversity, Design, Distance to Transit, and Destination Accessibility. Our analysis confirmed that areas with moderate density, high walkability, and green space were perceived as livable and safe. However, in very high-density zones, perceptions shifted negatively, with terms like \"Depressing\" and \"Boring\" appearing more frequently. These mismatches point to the need for planners to consider not just what is built, but how it is experienced.\r\n\r\nDiscussion\r\n\r\nThese case studies collectively demonstrate the potential of human-centred GeoAI to bridge the gap between technical urban analytics and lived urban experience. By leveraging crowd-sourced imagery and advanced computer vision models, planners and policymakers can generate fine-scale, scalable insights into infrastructure, climate vulnerability, social inclusion, and perceptual quality.\r\n\r\nThe combination of image analysis and spatial reasoning opens new avenues for participatory planning and targeted intervention. For example, the ability to spatially map perceptions of safety or beauty enables a deeper understanding of place attachment and mental well-being. Similarly, detecting infrastructure assets and environmental features at scale supports more equitable service delivery.\r\n\r\nConclusion and Future Work\r\n\r\nHuman-centred GeoAI grounded in street-level imagery offers a promising path for more inclusive, responsive, and perceptive urban analytics. Future work will extend these methods to other cities across Australia and globally, refine perception models with more culturally specific training data, and develop interactive tools for real-time urban planning and public engagement.\r\n\r\nBy embedding human perception into spatial modelling and leveraging scalable, open-source tools, we move closer to cities that are not only functionally efficient but also emotionally resonant and equitable for all.",
+    "start_datetime": "2025-11-19T01:00:00Z",
+    "end_datetime": "2025-11-19T01:25:00Z",
+    "talk:code": "TLCCXY",
+    "talk:guid": "23933355-c53a-5b99-9fe1-2e6337eb4558",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Academic",
+    "talk:type": "Academic Paper",
+    "talk:language": "en",
+    "talk:room": "WG802",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "778BEK",
+        "name": "Qian (Chayn) Sun",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/778BEK/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-19T01:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/TLCCXY/",
+      "title": "Seeing Through the Crowd\u2019s Eyes: AI-Powered Urban Insights from Street Imagery"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/TLCCXY/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/778BEK/",
+      "title": "Qian (Chayn) Sun"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/TLCCXY/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "gisail": {
+      "href": "https://talks.osgeo.org/media/foss4g-2025/submissions/TLCCXY/resources/GISail_logo_simple_RMIT_ekSj5aE.PNG",
+      "type": "image/png",
+      "title": "GISail",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=7zxGaE8MMOs",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Seeing Through the Crowd\u2019s Eyes: AI-Powered Urban Insights from Street Imagery",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

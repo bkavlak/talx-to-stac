@@ -1,0 +1,103 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "9QET9V",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "A gentle introduction to actinia: geoprocessing in the cloud",
+    "description": "This workshop will give a short introduction to REST and cloud processing concepts, followed by an introduction to actinia and hands-on to explore the API. We will look at existing client implementations and finish with own exercises. This workshop is geared towards those with basic experience in geospatial analysis.\n\nActinia (https://actinia.mundialis.de/) is an open source REST API for scalable, distributed, high performance processing of geographical data that mainly uses GRASS GIS for computational tasks. Core functionality includes the processing of satellite imagery (both single scenes and time series), as well as the processing of raster and vector data, even from external sources. The existing big Earth observation open data pools (Landsat, Sentinel, etc.) are growing day by day along with a plethora of other sources. Actinia is designed to follow the paradigm of bringing algorithms to the data, saving users from locally downloading and processing huge amounts of data. Actinia is an OSGeo Community Project since 2019. It can be deployed with docker-swarm on a workstation, and also in OpenShift and kubernetes.\r\n\r\nIn this workshop we will give a short introduction to REST API concepts and some cloud processing background. This is followed by an introduction to actinia processing along with hands-on to explore the API. We will look at existing client implementations and finish with own exercises. This workshop is geared towards those with basic experience in geospatial analysis. And we are looking forward to enlarge the actinia community!",
+    "start_datetime": "2022-08-23T07:05:00Z",
+    "end_datetime": "2022-08-23T11:05:00Z",
+    "talk:code": "9QET9V",
+    "talk:guid": "cd74e7dc-aa74-541a-9f2e-bd3e336fa904",
+    "talk:event": "foss4g-2022-workshops",
+    "talk:type": "Long Workshop",
+    "talk:language": "en",
+    "talk:room": "201",
+    "talk:room_capacity": 73,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "JB8MU3",
+        "name": "Markus Neteler",
+        "url": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/JB8MU3/"
+      },
+      {
+        "code": "CGRC9L",
+        "name": "Carmen Tawalika",
+        "url": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/CGRC9L/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-23T09:05:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/talk/9QET9V/",
+      "title": "A gentle introduction to actinia: geoprocessing in the cloud"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/talk/9QET9V/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/JB8MU3/",
+      "title": "Markus Neteler"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/CGRC9L/",
+      "title": "Carmen Tawalika"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.osgeo.org/member/tawalika",
+      "title": "Carmen"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/talk/9QET9V/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-workshops"
+}

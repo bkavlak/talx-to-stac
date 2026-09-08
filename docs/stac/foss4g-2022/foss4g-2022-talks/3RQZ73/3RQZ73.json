@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "3RQZ73",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Deploying and operating GeoServer: a DevOps perspective",
+    "description": "Cloud computing is revolutionizing the way companies develop, deploy and operate software and GeoSpatial software is no exception. With benefits of cloud based deployments range from cost savings to simplified management, flexibility, lower downtime and scalability of dynamic environments it is easy to understand why more and more companies are migrating their on premise systems to the cloud but cloud based setups have their own set of hurdles and challenges.\r\nThe migration of the series itself can be challenging. Monitoring, debugging and scaling of applications are very much different than what you are used to.\r\n\r\nIn this presentation we will share with you the lessons we have learned at GeoSolutions to tackle these problems and share some common patterns for the migration of on premise GeoServer clusters to the cloud. We'll share with you tips on:\r\n- best practices to migrate your existing GeoServer cluster to the cloud\r\n- insights on your geoserver cluster using centralized logging and Monitor plugin\r\n- avoid common bottlenecks to best set up a distributed scalable GeoServer cluster \r\n- work containers and container orchestrators like Kubernetes",
+    "start_datetime": "2022-08-26T10:30:00Z",
+    "end_datetime": "2022-08-26T11:00:00Z",
+    "talk:code": "3RQZ73",
+    "talk:guid": "04d977b8-4f76-5a3f-bb4d-12f7f51538c5",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Verde",
+    "talk:room_capacity": 230,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "XCVPMB",
+        "name": "Alessandro Parma",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/XCVPMB/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T10:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/3RQZ73/",
+      "title": "Deploying and operating GeoServer: a DevOps perspective"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/3RQZ73/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/XCVPMB/",
+      "title": "Alessandro Parma"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/3RQZ73/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=LA7cShApaKo",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Deploying and operating GeoServer: a DevOps perspective",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

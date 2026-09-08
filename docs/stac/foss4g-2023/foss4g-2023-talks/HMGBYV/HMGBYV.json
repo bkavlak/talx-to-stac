@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "HMGBYV",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Look, how we build geospatial CMS without using GeoServer and EAV!",
+    "description": "Using generic or standard content management system (CMS) like Wordpress or Strapi for managing geospatial data isn't an optimal solution. Since object geometry isn't just one of many data fields, it requires special handling for setting the data (e.g., on the map), storing data, transforming data for various needs (geometry output format, CRS etc.) and using them for spatial analysis.\r\n\r\nWhen talking about a geospatial CMS, one would think that using GeoServer should be a must. How else would you vizualize a non-trivial amount of data on the map, right? Although Geoserver might be a good answer, that's not the only one. We, at our company, have developed our custom geospatial CMS using the OpenLayers mapping library on the frontend and PostgreSQL (with PostGIS, of course) on the backend, using PHP Laravel and GeoJSON as middle man between the data store and the frontend.\r\n\r\nCMS platforms frequently have one specific feature. Different objects may have various attributes. Using the EAV (entity-attribute-value) model is one of the methods that is frequently utilized, although this choice usually comes with a number of issues, such as querying and storing the data. We used the possibility to swap out the EAV model for a straightforward json field in our CMS.\r\n\r\nThis talk will present what choices we had to make to build solution in such way and what some of our challenges were.",
+    "start_datetime": "2023-06-29T09:00:00Z",
+    "end_datetime": "2023-06-29T09:30:00Z",
+    "talk:code": "HMGBYV",
+    "talk:guid": "5f015014-2031-5c1d-a45f-cade7d42b1c0",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT D / N115 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "9VYK7H",
+        "name": "Edgars Ko\u0161ovojs",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/9VYK7H/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-29T09:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/HMGBYV/",
+      "title": "Look, how we build geospatial CMS without using GeoServer and EAV!"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/HMGBYV/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/9VYK7H/",
+      "title": "Edgars Ko\u0161ovojs"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/HMGBYV/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/xvBp1KysdMmaZGvaYAa67P",
+      "type": "text/html",
+      "title": "2023 | Look, how we build geospatial CMS without using GeoServer and EAV! - Edgars Ko\u0161ovojs",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=CQs6_pA80pQ",
+      "type": "text/html",
+      "title": "2023 | Look, how we build geospatial CMS without using GeoServer and EAV! - Edgars Ko\u0161ovojs",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

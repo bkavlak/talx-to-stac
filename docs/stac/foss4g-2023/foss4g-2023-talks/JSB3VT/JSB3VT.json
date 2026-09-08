@@ -1,0 +1,114 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "JSB3VT",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "The Survey of Vectortile techniques: Static vs Dynamic",
+    "description": "Vectortile ecosystem have made big changes in Web Mapping, especially in terms of Client-side map rendering. Thesedays, costs of producing and streaming tiles have been dramatically reduced by some techniques - tippecanoe, PMTiles\u2026 and so on. However we have the problem important but unsolved yet: Dynamic tiles. Techniques which are matured and widely used are for Static tiles. Static tiles are not good at streaming data frequently updated but we sometimes need to dynamically serve such data. In this talk, I\u2019ll survey techniques for Dynamic tiles which already exist and propose the solution for this.",
+    "start_datetime": "2023-06-30T12:30:00Z",
+    "end_datetime": "2023-06-30T13:00:00Z",
+    "talk:code": "JSB3VT",
+    "talk:guid": "99b2c29f-c402-539c-8498-00dd5e2511be",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Mirusha",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "ADUCNJ",
+        "name": "Kanahiro Iguchi",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/ADUCNJ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-30T12:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/JSB3VT/",
+      "title": "The Survey of Vectortile techniques: Static vs Dynamic"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/JSB3VT/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/ADUCNJ/",
+      "title": "Kanahiro Iguchi"
+    },
+    {
+      "rel": "related",
+      "href": "https://kanahiro.notion.site/About-me-1b71ad71c3594e19bec35159519da722",
+      "title": "kanahiro.notion.site/About-me-1b71ad71c3594e19bec35159519da722"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/JSB3VT/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/xtA8TqfC25Yam5K6hgEPvw",
+      "type": "text/html",
+      "title": "2023 | The Survey of Vectortile techniques: Static vs Dynamic - Iguchi Kanahiro",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=ZBj77BRx-XE",
+      "type": "text/html",
+      "title": "2023 | The Survey of Vectortile techniques: Static vs Dynamic - Iguchi Kanahiro",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "8CCEVH",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "State of GeoWebCache",
+    "description": "GeoWebCache is a popular open source tile cache server written in Java. GeoWebCache that can be used stand alone, working off a remote WMS or local tile layers, such as MBTiles. However, it's also integrated inside GeoServer, allowing simple and quick configuration, as well as transparent caching of WMS requests that happen to match a cached tile.  This presentation will provide information on the latest development for the project, including:\r\n\r\n* Performance and scalability improvements\r\n* OGC TileMatrixSet built-in definitions\r\n* Storage of tiles in more blob stores (Swift)\r\n* MBTiles support\r\n* Integration of tile caching in OGC API - Tiles (with GeoServer integration)\r\n* Serving vector tiles and integration with the Mapbox ecosystem (e.g., style editing with Maputnik)\r\n* Continued codebase QA efforts (code clean up, dependency upgrades and the like)\r\n\r\nAttend this talk for a cheerful update on what is happening with this project, whether you are an expert user, a developer, or simply curious what it can do for you.",
+    "start_datetime": "2022-08-24T14:15:00Z",
+    "end_datetime": "2022-08-24T14:45:00Z",
+    "talk:code": "8CCEVH",
+    "talk:guid": "19ae1a37-6a25-5eab-8883-c3d894b49983",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Verde",
+    "talk:room_capacity": 230,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RBSH8T",
+        "name": "Andrea Aime",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/RBSH8T/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T14:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/8CCEVH/",
+      "title": "State of GeoWebCache"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/8CCEVH/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/RBSH8T/",
+      "title": "Andrea Aime"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/8CCEVH/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/bZoZBUuh9g1bLiV6wmEMVs",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | State of GeoWebCache",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=X4cggUIaKFg",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | State of GeoWebCache",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

@@ -1,0 +1,112 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "8S3CMH",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Use of Open Source Software in the ESA Planetary Science Archive",
+    "description": "The European Space Agency (ESA) has adopted a variety of open-source software tools to manage, visualize, and distribute planetary data, with a particular emphasis on Mars. These tools are essential for both internal operations and for providing crucial data access to the global scientific community. Below, we detail the use of these technologies, collaboration on open-source projects, and the underlying GIS architecture developed by the Planetary Science Archive (PSA). [Link](https://psa.esa.int/psa)\r\n\r\n## Tools Used\r\n\r\n1. **OpenLayers**:\r\n   - **Functionality**: A JavaScript library for creating interactive maps in web browsers.\r\n   - **Application**: Used to build web user interfaces that allow scientists to visualize geospatial data of Mars and other planets, offering an intuitive and accessible platform for the exploration and analysis of planetary data.\r\n\r\n2. **GeoServer**:\r\n   - **Functionality**: An open-source map server that enables the sharing and editing of geospatial data.\r\n   - **Application**: Used to serve spatial data via standard protocols like WMS (Web Map Service). This facilitates the visualization of footprints with different base maps.\r\n\r\n3. **Three.js**:\r\n   - **Functionality**: A JavaScript library for creating 3D graphics in web browsers.\r\n   - **Application**: It is employed to generate three-dimensional visualizations of the Rosetta comet.\r\n\r\n4. **PostgreSQL and PostGIS**:\r\n   - **Functionality**: PostgreSQL is an open-source relational database management system, and PostGIS is an extension that adds support for geographic objects.\r\n   - **Application**: Are used to store and manage complex geospatial data. PostGIS allows for advanced spatial queries, facilitating the analysis of large volumes of geospatial data and its integration with other GIS tools like GeoServer.\r\n\r\n## Collaborative Projects and Data Access\r\n\r\n1. **Astroquery**:\r\n   - **Description**: A Python library that facilitates access to online astronomical databases.\r\n   - **Collaboration**: ESA contributes to Astroquery to ensure that planetary data is easily accessible to researchers. This includes data from planetary exploration missions and astronomical observations, integrating these data into scientific analyses efficiently.\r\n\r\n2. **Antimeridian**:\r\n   - **Description**: Tool for processing spatial data crossing the antimeridian (the 180\u00b0 line of longitude)..\r\n   - **Collaboration**: Open Source project, and the PSA plans to collaborate with the project by contributing code. This tool is crucial for planetary data where coordinates can be extended beyond the traditional range of 0\u00b0 to 180\u00b0 longitude, allowing for continuous and accurate representation of planetary maps..\r\n\r\n## New Interface and GIS Architecture\r\n\r\nESA has developed a new interface for the Planetary Science Archive, integrating the aforementioned tools into a cohesive and user-friendly platform. This interface allows scientists to:\r\n- **Explore Interactive Data**: Navigate through interactive maps of Mars, Phobos and other planets, applying filters and visualizing different layers of geospatial data. Users can overlay geological, topographical, and spectral data layers to gain a more comprehensive view of the terrain and use the different functionalities, such as changing the projection (polar, equirectangular), extracting information by region of interest.\r\n- **3D Visualization**: Thanks to Three.js, users can explore the the 67P(Churyumov-Gerasimenko) comet in 3D for the Rosetta mission, rotate, and zoom into features for more detailed analysis. Ultimately, we use Three.js to represent irregular bodies such as comets, asteroids, and asteroids.\r\n- **Real-Time Data Access**: Researchers can access the latest information and perform real-time queries to obtain specific data according to their needs.\r\n- **Data Download**: Scientists can download datasets directly from the interface for use in their own analyses and studies, selecting and downloading specific subsets of data based on defined search criteria.\r\n\r\n## GIS Architecture\r\n\r\nThe GIS architecture behind this new interface relies on a robust combination of open-source technologies:\r\n- **GeoServer Base Maps**: Acts as the distributor of base maps of Mars, Phobos, Cassis. They are cached using GWC to optimize access in all available projections.\r\n- **Frontend with OpenLayers and Three.js**: Provides 2D and 3D visualization capabilities, offering a rich and interactive user experience. OpenLayers is used for 2D interactive map visualization, while Three.js is employed to generate three-dimensional visualizations of planetary surfaces.\r\n- **Database with PostgreSQL and PostGIS**: Used to store and manage complex geospatial data. PostgreSQL and PostGIS enable advanced spatial queries, facilitating the analysis of large volumes of geospatial data and its integration with other GIS tools.\r\n- **Integration with Data Access Tools**: Projects like Astroquery and Antimeridian are integrated to facilitate the access and manipulation of specific data, solving complex issues like the management of data crossing the antimeridian. This integration allows scientists to access and analyze planetary data more efficiently and accurately.\r\n\r\n## Benefits for the Scientific Community\r\n\r\nThe use of advanced technologies and a robust GIS architecture developed by ESA offers several significant benefits for planetary research:\r\n- **Open and Transparent Access**: Although the code is not public, ESA uses open-source tools that ensure data and resources are available to the entire scientific community. This promotes collaboration and knowledge sharing, allowing researchers to access information without restrictions and work together more efficiently. Another benefit for the scientific community is to be able to cross different instruments/missions in a single interface, e.g., give me all the CaSSIS and HRSC data of this particular crater. For more information about ESA projects, you can visit their [GitHub repository](https://github.com/esa).\r\n- **Solutions to Specific Problems**: Tools like Antimeridian [Antimeridian GitHub](https://github.com/gadomski/antimeridian) address unique technical challenges, ensuring precise and continuous representation of planetary data. This facilitates the analysis and interpretation of geospatial data, ensuring that visualizations and maps are accurate and reliable.\r\n\r\n## Conclusion\r\n\r\nThe adoption of open-source software and the development of an advanced GIS architecture enable ESA to offer a powerful and accessible platform for planetary research. This benefits not only its own scientists but also the global scientific community, promoting knowledge sharing and collaboration in the exploration of the Solar System. Tools such as OpenLayers, GeoServer, Three.js, PostgreSQL, and PostGIS, along with collaborative projects like Astroquery and Antimeridian, are fundamental for the efficient management and precise visualization of planetary data.\r\n\r\nWith all this, the summary of the talk is to show how free software is used in the PSA for planetary data and more specifically in Mars data.",
+    "start_datetime": "2024-12-05T13:45:00Z",
+    "end_datetime": "2024-12-05T14:15:00Z",
+    "talk:code": "8S3CMH",
+    "talk:guid": "1539742e-2b27-5fee-9379-c9e2bedd34d4",
+    "talk:event": "foss4g-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room V",
+    "talk:room_capacity": 80,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "EMSNNM",
+        "name": "Fran Raga",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/EMSNNM/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-05T14:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/8S3CMH/",
+      "title": "Use of Open Source Software in the ESA Planetary Science Archive"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/8S3CMH/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/EMSNNM/",
+      "title": "Fran Raga"
+    },
+    {
+      "rel": "related",
+      "href": "https://psa.esa.int/psa",
+      "title": "Link"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/esa",
+      "title": "GitHub repository"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/gadomski/antimeridian",
+      "title": "Antimeridian GitHub"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/8S3CMH/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024/submissions/8S3CMH/resources/FOSS4G_2024_Fran_Raga_vVz6OsE.pdf",
+      "type": "application/pdf",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

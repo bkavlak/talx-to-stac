@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "RAAYEE",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Effortless Aerial Data Management and Sharing: The DroneDB Ecosystem",
+    "description": "DroneDB is free and open source software for geospatial data storage. It provides a novel approach to store point clouds, textured models, aerial images, orthophotos and elevation models via a dynamic filesystem index. In this talk we will present DroneDB's storage approach and how you can start using it right away. We will discuss the project's architecture and roadmap. We will also perform a showcase of the project and demonstrate its most effective use cases. \r\n\r\nWe will cover how DroneDB's dynamic index can be published on the web using Registry, a cross-platform open source application which provides both a friendly user interface and a RESTful API. This enables users and GIS developers alike to access and manage the underlying data. We will showcase the ddb client, a command-line interface that enables power users to manage the index and can be used to sync, share and download remote datasets in a manner inspired by git workflows.\r\n\r\nWe will show how WebODM and Registry can integrate together to create a powerful and versatile workflow for 3D reconstruction using a full opensource stack.",
+    "start_datetime": "2022-08-25T12:45:00Z",
+    "end_datetime": "2022-08-25T13:15:00Z",
+    "talk:code": "RAAYEE",
+    "talk:guid": "35f52108-e651-5c49-be91-6c9599fb5643",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Verde",
+    "talk:room_capacity": 230,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RPTSKL",
+        "name": "Piero Toffanin",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/RPTSKL/"
+      },
+      {
+        "code": "JM8PLZ",
+        "name": "Luca Di Leo",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/JM8PLZ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T13:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/RAAYEE/",
+      "title": "Effortless Aerial Data Management and Sharing: The DroneDB Ecosystem"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/RAAYEE/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/RPTSKL/",
+      "title": "Piero Toffanin"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/JM8PLZ/",
+      "title": "Luca Di Leo"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/RAAYEE/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/psNnnRJRqTasbtGD3Dvhwk",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Effortless Aerial Data Management and Sharing: The DroneDB Ecosystem",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=CImRENYQ_R0",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Effortless Aerial Data Management and Sharing: The DroneDB Ecosystem",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

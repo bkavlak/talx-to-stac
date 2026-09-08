@@ -1,0 +1,115 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "ENLRK9",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "How to survive in a rapidly changing world or how to protect your data from the \"captivity\" of proprietary software",
+    "description": "We are a group of companies:\r\n1.\t\"Geomatics Solutions\", Ltd., created in 2002 by a group of specialists in the field of Geomatics. For 24 years, the company has been well proven in production and in delivery of services related to the creation, processing, and use of geospatial data.\r\nhttps://geosol.com.ua/about_en.html\r\n2.\tNow managing the results of \"Intelligence Systems GEO, Ltd.\" (ISGeo). ISGeo created in 1996 by the group of experts from the V.M. Glushkov Institute of Cybernetics and was the leading Ukrainian company in the sphere of geoinformation systems (GIS) and spatial database development. \r\nhttps://isgeo.com.ua/about\r\n\r\nOur companies have faced several crisis situations throughout their history. We'll share our experiences, both successful ones and those where we lost a significant portion of our developments and resulting data. We'll explain why and how we came to the OSGeo/FOSS4G ecosystem. Using our own examples, we'll highlight some of the challenges we encountered when working with proprietary software. We'll demonstrate the benefits of using OSGeo tools and projects. We'll also discuss how the latest developments from the Open GIS community helped us make decisions and keep our stack up to date with the help of annual FOSS4G conferences.\r\nWe have experienced the following directions and their stages:\r\n1)\tTechnological development:\r\na)\tTransition from paper maps to digital ones. The results of this work include CDs/DVDs, atlas books, and map brochures. We primarily worked with proprietary software.\r\nb)\tTransition from desktop applications to web-based alternatives. This resulted in static websites, Tile-Servers, and other server solutions. Partial transition to an open-source stack. We began implementing products such as GeoServer and Leaflet. 2012\u20132015.\r\nc)\tTransition from static Web 1.0 to dynamic Web 2.0 between 2010 and 2018. Adding interactivity and strong user engagement when using products. Also, a complete shift in the core stack in favor of open-source OSGeo products.\r\nd)\tTransition from an interactive web resource to the provision of services as a service starting in 2018.\r\n2)\tGlobal instability:\r\na)\tCovid-19. The transition to online. This facilitated the full use of server technologies. Products such as GeoServer and QGIS Server were very helpful. Period 2020\u20132022.\r\nb)\tGeopolitical instability. The situation in the country since 2014 and globally since 2022. Loss of access to servers, transition to cloud environments. Mobile workstations are being built. Licensing and access to licensed servers have become a pressing issue. Caching and desktop solutions are being used to address unstable internet access. QGIS, GDAL/OGR, and PROJ have proven effective. For data, use GeoPackage, GeoTIFF, PostgreSQL+Postgis and SpatialLite.\r\nAt each stage, we used different technology stacks. We began using proprietary software that positioned itself as stable, secure, and supported. We were among the first official partners/distributors of such global monopolistic companies of the time as Pitney Bowes MapInfo Corporation, Avenza Inc. (Canada), Infotech Europe (Great Britain), and PCI Geomatics Inc. (Canada).\r\nBut, with the very first change, we experienced difficulties in transferring already collected data to new stack solutions. The main problem was the proprietary software. The result of this work\u2014a multitude of written add-ons/modules/extensions, a multitude of resulting data\u2014was all \"captive\" to the proprietary software monopolies. We realized we didn't control the system and didn't own our own data. We were under the influence of mega-corporations. It was their speed of response to global trends and other global/local changes, especially local ones. American companies, which dominated our stacks, didn't quite understand or respond appropriately to our local challenges.\r\nThe support systems turned out to be very slow and underperforming. Simple fixes for identified bugs took months, which impacted product release schedules. This negatively impacted the company's overall \"respect.\" This also led to problems with understanding, as the mentality, culture, and values \"across the ocean\" differ greatly from those of Western and Central Europe.\r\nAfter 10-15 years of work, we made a difficult, but ultimately correct, decision. We completely rethought our entire approach to running our IT business. We rewrote all our existing developments. We partially migrated what we could to a new technology stack. This stack became the OSGeo/FOSS4G product suite. The main requirement was open-source code for the development product, as well as open data formats. No binary formats that limit performance, such as DLLs, Flash, and so on. The goal was to ensure that all modules and plugins could be maintained independently even if support for certain software ceased. All data was now stored exclusively in open formats. This set of open formats, those that can be opened using several open-source products, was key when selecting the software.\r\nOpen source won't eliminate the problem of crisis situations or save us from something beyond our control. However, due to openness, we have complete control over the entire technology stack, all the results of years of development. And this is key for an IT company.\r\nInitially, when choosing, we were faced with a huge abundance of frameworks and libraries. This was confusing. We needed to avoid getting bogged down in a multitude of different solutions. Finding truly high-quality software with a strong, supportive community became a pressing issue. Initially, we looked at stars, forks, the dates and frequency of commits and project versions, and the number of contributors on GitHub.\r\nBut due to the lack of funding, donations became scarce, and even good solutions disappeared from the market. We had to find alternatives or take on full support ourselves.\r\nUltimately, we found a strong community sponsored by OSGeo/FOSS4G products. We enjoyed stable sponsorship, a huge community, and frequent and highly informative FOSS4G conferences. We learned a lot of best practices from these conferences.\r\nOSGeo/FOSS4G minimizes the risk of product discontinuation, provides stable support, and operates within a unified community. All OSGeo/FOSS4G products provide confidence and guarantee stability and long-term product support.",
+    "start_datetime": "2026-07-01T11:30:00Z",
+    "end_datetime": "2026-07-01T12:00:00Z",
+    "talk:code": "ENLRK9",
+    "talk:guid": "4ec4aa6c-e67b-5fa0-98f9-0bdeaa32c870",
+    "talk:event": "foss4g-europe-2026",
+    "talk:track": "Building a business with FOSS4G",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "A12",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "VLYDNH",
+        "name": "Vasyl Yasko",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/VLYDNH/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-07-01T11:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/ENLRK9/",
+      "title": "How to survive in a rapidly changing world or how to protect your data from the \"captivity\" of proprietary software"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/ENLRK9/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/VLYDNH/",
+      "title": "Vasyl Yasko"
+    },
+    {
+      "rel": "related",
+      "href": "https://geosol.com.ua/about_en.html",
+      "title": "geosol.com.ua/about_en.html"
+    },
+    {
+      "rel": "related",
+      "href": "https://isgeo.com.ua/about",
+      "title": "isgeo.com.ua/about"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/ENLRK9/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "conf-foss4g-2026-baz2-ch-eng-v07-pptx": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2026/submissions/ENLRK9/resources/Conf_FOSS4G_2026_baz2.ch_en_I519EG6.pptx",
+      "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "title": "Conf_FOSS4G_2026_baz2.ch_eng_v07.pptx",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "conf-foss4g-2026-baz2-ch-eng-v07-pdf": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2026/submissions/ENLRK9/resources/Conf_FOSS4G_2026_baz2.ch_eng_EsI7lx8.pdf",
+      "type": "application/pdf",
+      "title": "Conf_FOSS4G_2026_baz2.ch_eng_v07.pdf",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

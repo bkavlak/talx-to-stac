@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "WHBNCN",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Serving Map Tiles from a Raspberry Pi: A Portable Tile Server Workshop",
+    "description": "Learn how to build a self-contained, offline-capable map tile server using a Raspberry Pi. This hands-on workshop covers vector tile generation, serving with Martin, and visualization with MapLibre GL JS \u2014 skills applicable to humanitarian fieldwork and disconnected environments.\n\nThis workshop introduces participants to the full pipeline of serving \r\nweb map tiles in an offline or intranet environment, using a Raspberry \r\nPi as a portable tile server.\r\n\r\nEach participant will be provided with a pre-configured Raspberry Pi \r\nfor the duration of the workshop, running Martin, a lightweight \r\nRust-based tile server. Through SSH access and hands-on command-line \r\ninteraction, participants will get direct exposure to Linux server \r\noperations \u2014 and if you are not yet comfortable with the command line, \r\nthis might be a great lesson to start with.",
+    "start_datetime": "2026-08-30T05:00:00Z",
+    "end_datetime": "2026-08-30T08:00:00Z",
+    "talk:code": "WHBNCN",
+    "talk:guid": "d8621d99-0083-59fc-9e99-bfdcd4918325",
+    "talk:event": "foss4g-2026-workshop",
+    "talk:type": "Workshop",
+    "talk:language": "en",
+    "talk:room": "610",
+    "talk:room_capacity": 54,
+    "talk:duration_minutes": 180,
+    "talk:speakers": [
+      {
+        "code": "9K89VC",
+        "name": "Satoshi Alex Tanaka",
+        "url": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/9K89VC/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-08-30T06:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/WHBNCN/",
+      "title": "Serving Map Tiles from a Raspberry Pi: A Portable Tile Server Workshop"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/WHBNCN/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/9K89VC/",
+      "title": "Satoshi Alex Tanaka"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/WHBNCN/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-workshops"
+}

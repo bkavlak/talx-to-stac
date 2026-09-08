@@ -1,0 +1,137 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "QBSFRX",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Routing for Golf-Carts and other Low-Speed Vehicles using Valhalla",
+    "description": "From Bolt scooters to golf carts, the future of short distance travel is full of interesting surprises! In this talk, we\u2019ll discuss how the Valhalla routing engine can be used for low-speed vehicle routing. As a motivating example, we\u2019ll discuss a real problem faced by two municipal governments in the US who needed to offer safe routing for golf carts, how this led to the development of a low-speed vehicle profile for Valhalla, and the challenges we faced along the way.",
+    "start_datetime": "2024-07-05T08:00:00Z",
+    "end_datetime": "2024-07-05T08:30:00Z",
+    "talk:code": "QBSFRX",
+    "talk:guid": "b6350205-544d-564f-8453-e92f1937d316",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "GEOCAT (301)",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "8JAUZV",
+        "name": "Luke Seelenbinder",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/8JAUZV/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-05T08:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/QBSFRX/",
+      "title": "Routing for Golf-Carts and other Low-Speed Vehicles using Valhalla"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/QBSFRX/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/8JAUZV/",
+      "title": "Luke Seelenbinder"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/QBSFRX/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "talk-slides": {
+      "href": "https://drive.google.com/file/d/1Md4TgTixuYd63sNl38bNLlT4a544Qz18/view?usp=share_link",
+      "title": "Talk Slides",
+      "roles": [
+        "data"
+      ]
+    },
+    "stadia-maps": {
+      "href": "https://stadiamaps.com",
+      "title": "Stadia Maps",
+      "roles": [
+        "data"
+      ]
+    },
+    "valhalla": {
+      "href": "http://github.com/valhalla/valhalla",
+      "title": "Valhalla",
+      "roles": [
+        "data"
+      ]
+    },
+    "ferrostar": {
+      "href": "http://docs.stadiamaps.com/sdks/ferrostar/",
+      "title": "Ferrostar",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/eKnf6M7kyFB7KwqvXsMnSW",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Routing for Golf-Carts and other Low-Speed Vehicles using Valhalla",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=F1Mk8eU8Bfw",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Routing for Golf-Carts and other Low-Speed Vehicles using Valhalla",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

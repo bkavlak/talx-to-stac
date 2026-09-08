@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "9C3ZAG",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Scaling FOSS4G for National Environmental Monitoring: Inteligeo and Brasil MAIS",
+    "description": "This talk explores how the Brazilian Federal Police leverages FOSS4G to integrate and visualize data from Brasil MAIS, a multi-million dollar environmental monitoring program, using our custom-built Inteligeo platform.\r\n\r\nBrasil MAIS monitors over 2.9 million km\u00b2 weekly - about 34% of Brazil's vast 8.5 million km\u00b2 territory. To manage the resulting massive amounts of satellite imagery and environmental change alerts, we developed Inteligeo, a GeoNode-based solution currently in production at the Federal Police and in various stages of adoption across multiple government agencies.\r\n\r\nWe'll discuss:\r\n1. Building Inteligeo on FOSS4G principles (GeoNode, PostGIS, GDAL, GeoServer, FastAPI) to enable seamless data integration across government agencies.\r\n2. Implementing user-friendly tools for non-specialists and integrating with Gov.br authentication.\r\n3. Using FastAPI for complex integrations, such as streamlining access to the XYZ data provider for Brasil Mais.\r\n4. Technical challenges in scaling Brasil MAIS to handle 46 million monthly tile views and serve 500+ public institutions and 100,000+ users.\r\n5. The crucial sponsorship of the Ministry of Management and Innovation in Public Services (MGI) in developing Inteligeo 5 since 2021, and their plans for its independent use.\r\n\r\nBrasil MAIS has already demonstrated significant impact, contributing to over R$16 billion ($2.8 billion USD) in environmental crime-related fines and asset freezes. While Inteligeo is still ramping up adoption, it aims to compound this impact by enhancing the efficiency of data utilization. We anticipate measuring Inteligeo-specific results in the coming year, showcasing how FOSS4G solutions can amplify the effectiveness of large-scale environmental monitoring programs.\r\n\r\nWe'll conclude by examining how this integration serves as a model for similar global initiatives in environmental management and welcome input from the FOSS4G community on further improvements.",
+    "start_datetime": "2024-12-06T15:30:00Z",
+    "end_datetime": "2024-12-06T16:00:00Z",
+    "talk:code": "9C3ZAG",
+    "talk:guid": "46e280ce-b1a0-5a69-99e1-7e4541e0244b",
+    "talk:event": "foss4g-2024",
+    "talk:track": "Transition to FOSS4G",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room III",
+    "talk:room_capacity": 400,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "HKTHWA",
+        "name": "Daniel Ara\u00fajo Miranda",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/HKTHWA/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-06T15:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/9C3ZAG/",
+      "title": "Scaling FOSS4G for National Environmental Monitoring: Inteligeo and Brasil MAIS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/9C3ZAG/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/HKTHWA/",
+      "title": "Daniel Ara\u00fajo Miranda"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/9C3ZAG/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-file": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024/submissions/9C3ZAG/resources/9C3ZAG_-_Scaling_FOSS4G_for_National_Environmen_bosOhq4.pdf",
+      "type": "application/pdf",
+      "title": "Presentation file",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/h4sZZavuUPkFJFNG6sawwz",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | Scaling FOSS4G for National Environmental Monitoring: Inteligeo and Brasil MAIS",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=PvHKAzk4G3Q",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | Scaling FOSS4G for National Environmental Monitoring: Inteligeo and Brasil MAIS",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

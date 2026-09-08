@@ -1,0 +1,116 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "DRUBLN",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "i.hyper: processing hyperspectral imagery in GRASS",
+    "description": "We present i.hyper, a comprehensive hyperspectral processing addon for GRASS. It includes modules for import, metadata handling, atmospheric correction, preprocessing, spectral resampling, indices, albedo, visualization, exploration, export, and more, covering the workflow from raw satellite products to analysis-ready data.\n\nHyperspectral remote sensing provides rich spectral information for applications such as soil monitoring, geochemistry, vegetation analysis, environmental assessment, and coastal studies. With operational missions such as EnMAP, PRISMA, and Tanager, and upcoming missions such as FLEX and CHIME, the amount and diversity of hyperspectral data are rapidly increasing. However, open-source spatial workflows still lack unified tools for handling these products, which differ in structure, spectral sampling, radiometric units, and metadata organization.\r\n\r\nWe present i.hyper, a multimodular addon for GRASS that supports reproducible hyperspectral workflows within a single spatial environment. Its core is a 3D raster data cube in which the spectral axis forms the third dimension, combined with a redesigned structured metadata model that stores spectral band attributes, acquisition geometry, processing history, and extensible user-defined fields. This improves traceability and makes the system easier to extend.\r\n\r\nThe addon includes i.hyper.import for unified import of hyperspectral products, i.hyper.metadata for metadata inspection and editing, i.hyper.atcorr for atmospheric correction (based on the 6SV2.1 radiative transfer model), i.hyper.preproc for spectral preprocessing and dimensionality reduction, i.hyper.specresamp for spectral resampling, i.hyper.indices for wavelength-based spectral indices, i.hyper.albedo for broadband albedo estimation, i.hyper.composite for false-color composites, i.hyper.explore for interactive spectral exploration, and i.hyper.export for export to external formats. Together, these modules cover the workflow from raw satellite products to analysis-ready data while preserving spatial and metadata consistency throughout processing.\r\n\r\ni.hyper is available in the official GRASS Addons repository. Combined with GRASS from conda-forge and the broader Python ecosystem, it provides a particularly powerful environment for hyperspectral workflows.",
+    "start_datetime": "2026-09-02T08:30:00Z",
+    "end_datetime": "2026-09-02T09:00:00Z",
+    "talk:code": "DRUBLN",
+    "talk:guid": "112f81a9-dc13-517c-ae3b-e41d660f451c",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Ran2",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "EYZCPK",
+        "name": "Alen Mangafi\u0107",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/EYZCPK/"
+      },
+      {
+        "code": "LVRBRN",
+        "name": "Toma\u017e \u017dagar",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/LVRBRN/"
+      },
+      {
+        "code": "KCJKVH",
+        "name": "Yann Chemin",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/KCJKVH/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T08:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/DRUBLN/",
+      "title": "i.hyper: processing hyperspectral imagery in GRASS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/DRUBLN/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/EYZCPK/",
+      "title": "Alen Mangafi\u0107"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/LVRBRN/",
+      "title": "Toma\u017e \u017dagar"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/KCJKVH/",
+      "title": "Yann Chemin"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/DRUBLN/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-of-i-hyper": {
+      "href": "https://talks.osgeo.org/media/foss4g-2026/submissions/DRUBLN/resources/i.hyper_-_foss4g_hiroshima_EuVda3z.pptx",
+      "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "title": "presentation of i.hyper",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

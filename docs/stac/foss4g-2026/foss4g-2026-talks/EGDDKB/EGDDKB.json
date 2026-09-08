@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "EGDDKB",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Accelerating Climate Action: Building GIS Dashboards with openEO and titiler",
+    "description": "By using openEO and titiler, geospatial analysts can reduce data preparation time for Sentinel-2 datasets, enabling rapid, actionable insights for accelerating climate action. This cloud-native workflow delivers insightful GIS dashboards, empowering decision-makers with timely analytics on forest health.\n\nGeospatial analysts often spend the majority of their time on laborious data discovery and pre-processing tasks. In the critical context of accelerating climate change, we need rapid, actionable analytics to support domain experts, policy-makers, and non-technical users in making impactful decisions, such as prioritizing forest protection, biodiversity conservation, or monitoring forest health. \r\n\r\nThis talk introduces a cloud-native workflow utilizing openEO and titiler to cut down data preparation time and focus squarely on delivering high-impact analytics. The talk will demonstrate how to leverage openEO to process Sentinel-2 datasets in the cloud, automatically handling data discovery and pre-processing (like mosaicking and atmospheric correction). This clean, analysis-ready data is then streamlined to the dashboard. By integrating this output with titiler, we can efficiently serve dynamic, tiled maps for a product-ready, GIS-based web dashboard.\r\n\r\nThe platform also integrates a conversational AI chatbot interface to empower non-coder and non-technical users to interact with the complex geospatial data and drive their own insights through natural language commands.\r\n\r\nThe output is an analytical product capable of generating critical indices (e.g., burn and vegetation indices). Combining them with contextual information such as natural disturbance analytics, the dashboard could give insights on forest health and prompt non-technical users to make actions. Learn how this unified approach allows geospatial professionals to move beyond manual data wrangling and empower non-technical decision-makers with the timely insights needed to drive effective climate action.",
+    "start_datetime": "2026-09-02T05:30:00Z",
+    "end_datetime": "2026-09-02T06:00:00Z",
+    "talk:code": "EGDDKB",
+    "talk:guid": "f2d3915c-87f2-55ff-876f-a8f7e3e7bdce",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room3",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "DTQFG3",
+        "name": "Firza",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/DTQFG3/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T05:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/EGDDKB/",
+      "title": "Accelerating Climate Action: Building GIS Dashboards with openEO and titiler"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/EGDDKB/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/DTQFG3/",
+      "title": "Firza"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/EGDDKB/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

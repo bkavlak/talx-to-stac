@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "9FN7PW",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Standardizing Geospatial Time Series Access with OGC API EDR and RDF Linked Data Standards",
+    "description": "OGC API Environmental Data Retrieval is a powerful new API standard for accessing time series data about geospatial areas. This session will explain how EDR standardizes time series data access and how it can be integrated with RDF vocabularies and JSON-LD to standardize cross-organizational terminology.\n\nOGC API Environmental Data Retrieval (EDR) allows for a convenient access pattern of time series data within a geospatial region. EDR standardizes many common array based data storage formats like Zarr, GeoParquet, and NetCDF into a common web-accessible OGC API. However, until now, one of the historical challenges with standardizing data with common APIs is that semantically equivalent parameters may be named differently in different data sources. For instance, \u201cTopographic height\u201d and \u201cElevation above Sea Level\u201d may refer to the same information, but have poor UX when combining together in the same API due to disparate parameter names. This talk will reference how W3C Linked Data Resource Description Framework (RDF) standards and vocabularies like SKOS can be used to solve this semantic access issue. We will reference how you can use a semantic resolution service in your OGC API servers to map parameters to a canonical term and in doing so, improve the UX of your data integrations. For instance, instead of referencing the raw string \u201cElevation above Sea Level\u201d a client can provide the standardized schema.org RDF vocabulary term \u201cschema:elevation\u201d and abstract away the intricacies of each data source while preserving data provenance. This talk will reference water data hubs created for the United States Bureau of Reclamation and Arizona State University that use such tools and methodology.",
+    "start_datetime": "2026-09-02T02:00:00Z",
+    "end_datetime": "2026-09-02T02:30:00Z",
+    "talk:code": "9FN7PW",
+    "talk:guid": "26d0eaed-6bd1-5043-b345-896b972c6cad",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room2",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "A8VTL7",
+        "name": "Benjamin Webb",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/A8VTL7/"
+      },
+      {
+        "code": "U3KYYC",
+        "name": "Colton Loftus",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/U3KYYC/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T02:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/9FN7PW/",
+      "title": "Standardizing Geospatial Time Series Access with OGC API EDR and RDF Linked Data Standards"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/9FN7PW/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/A8VTL7/",
+      "title": "Benjamin Webb"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/U3KYYC/",
+      "title": "Colton Loftus"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/9FN7PW/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

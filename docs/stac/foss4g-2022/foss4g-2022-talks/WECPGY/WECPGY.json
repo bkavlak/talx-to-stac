@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "WECPGY",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Datahub: the confluence of open data and geo data",
+    "description": "Open data movement has been very active and trendy lately. Many solutions brought fresh air in the metadata ecosystem. Nevertheless, no one really pushed forward the confluence of the open data world and the geo metadata world (often powered by ISO or INSPIRE standards). \r\n\r\nActually, many organizations still use both systems, which leads to confusion for the end users: datas are duplicated, metadatas are harvested in both directions, many websites aim to serve the same goal. Overall, this split does not help to easily find your data.\r\nIt can also give headache to platform administrators, developers and architects who try hard to keep all catalogs synchronized.\r\n\r\nBased on this analysis, we are convinced that an ultimate solution could take the advantages of both ecosystems. Complex ISO standards, INSPIRE rules and opendata light schemas can co-exist in the same catalog. All new great ideas like quick data visualization or dataviz widgets can be supplied for any kind of data. The datahub literally came out from the need to centralize any kind of public dataset within the same platform.\r\n\r\nThought as a backend API agnostic solution, the datahub first implementation has started based on the GeoNetwork 4 api, with an ElasticSearch backend.\r\nThe search is fast, accurate, multilingual and customizable. The solution has been designed from use cases: how do you want to help the end users to find, use and value their datas. It brings a new experience to old fashion INSPIRE catalogs and aims to embrace modern challenges like the community, vote, favorites, publishers, usages of the datasets, dataviz and so on.\r\n\r\nLeveraging technical challenges to merge open data and metadata, the datahub emphases on a pure, intuitive and fluent user experience.",
+    "start_datetime": "2022-08-26T07:30:00Z",
+    "end_datetime": "2022-08-26T08:00:00Z",
+    "talk:code": "WECPGY",
+    "talk:guid": "b7358d6a-51ab-5875-85f1-3dddf5f27294",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Open Data",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room 9",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "MKHVLE",
+        "name": "Olivia Guyot",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/MKHVLE/"
+      },
+      {
+        "code": "9JWZHX",
+        "name": "Florent Gravin",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/9JWZHX/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T07:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/WECPGY/",
+      "title": "Datahub: the confluence of open data and geo data"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/WECPGY/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/MKHVLE/",
+      "title": "Olivia Guyot"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/9JWZHX/",
+      "title": "Florent Gravin"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/WECPGY/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=Mn484xuJzW8",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Datahub: the confluence of open data and geo data",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

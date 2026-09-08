@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "FUGKHZ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "It's not broken... but fix it anyway. Customizing FOSS4G Tools for Government: The Inteligeo Case Study",
+    "description": "This talk presents a case study of Inteligeo, an adaptation of GeoNode for Brazilian government agencies. We'll share our journey in taming a 170TB raster dataset and other adventures in customizing open-source geospatial tools. We outline the experience of four agencies: The National Water Agency (ANA), the Center for the Surveillance of the Amazon (CENSIPAM), the Chico Mendes Institute for Biodiversity Conservation (ICMBIO), and the Federal Police (PF).\r\n\r\nThe project, which began in 2009 using proprietary software, transitioned to open-source in 2017. To address limitations and support multiple agencies, we ported Inteligeo version 4 functionality to GeoNode, creating Inteligeo 5 in 2022. Each agency has a unique perspective: PF was involved from the start, CENSIPAM deployed for internal use, ANA for external use, and ICMBIO is integrating it into their processes.\r\n\r\nWhy customize at all? Why not just use the software as it is? Why not develop it from scratch? There are several reasons why one should (and shouldn't) customize, and then there are several ways how to do it right once you commit to it. We share our experiences: the good and the bad, and the lessons learned, when customizing GeoNode for the Brazilian government.\r\n\r\nWhy customize?\r\n- Get shiny new functionality!\r\n- Jump-start development\r\n- Optimize processes with tailored deployments and workflows\r\n- Integrate with existing systems and infrastructure (authentication, 170TB raster storage, Brasil Mais imagery)\r\n- Comply with internal and government standards\r\n\r\nChallenges:\r\n- Non-standard deployment\r\n- Training and documentation\r\n- Balancing customization with community support\r\n- Syncing with upstream changes\r\n- Managing a huge codebase with extra stuff that you don't need\r\n\r\nHow to do it right (aspirational):\r\n- Seek sponsorships (SGD/MGI, JICA, FINEP, INTERPOL)\r\n- Selfless and selfish reasons to contribute back to the community\r\n- Have a clear strategy for upstream syncing\r\n- Keep it simple. Minimize customization to essential features\r\n- Design independent, standalone components\r\n- Engage upstream developers when possible\r\n\r\nOur experience is particularly relevant to the Amazon region, as the tool directly supports the Federal Police surveillance and conservation efforts in the area and is being integrated by the agencies of the other speakers.\r\n\r\nWe welcome feedback and collaboration ideas from the FOSS4G community during the Q&A session!",
+    "start_datetime": "2024-12-05T20:00:00Z",
+    "end_datetime": "2024-12-05T20:30:00Z",
+    "talk:code": "FUGKHZ",
+    "talk:guid": "8d8333d2-b17d-5fb9-bb37-6cc60e22f82e",
+    "talk:event": "foss4g-2024",
+    "talk:track": "Transition to FOSS4G",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room I",
+    "talk:room_capacity": 100,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "HKTHWA",
+        "name": "Daniel Ara\u00fajo Miranda",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/HKTHWA/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-05T20:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/FUGKHZ/",
+      "title": "It's not broken... but fix it anyway. Customizing FOSS4G Tools for Government: The Inteligeo Case Study"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/FUGKHZ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/HKTHWA/",
+      "title": "Daniel Ara\u00fajo Miranda"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/FUGKHZ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-file": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024/submissions/FUGKHZ/resources/FUGKHZ_-_Its_not_broken_but_fix_it_anyway_xXhqDE7.pdf",
+      "type": "application/pdf",
+      "title": "Presentation file",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/fQH59PBy4yNgTzY1rKdR93",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | It's not broken... but fix it anyway. Customizing FOSS4G Tools for Government",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=znKJs8td-9Y",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | It's not broken... but fix it anyway. Customizing FOSS4G Tools for Government",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

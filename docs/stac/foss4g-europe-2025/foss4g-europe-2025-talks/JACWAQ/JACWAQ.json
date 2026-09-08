@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "JACWAQ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "Unearthing Proprietary Software into Open-Source: Lessons learned from TopoChronia, a QGIS Plugin for Reconstructing Digital Elevation Models of the Last 500 Million Years",
+    "description": "Reconstructing past topographies of the Earth is essential for understanding long-term interactions between the Earth\u2019s interior, its surface and its atmosphere. We developed TopoChronia, an open-source QGIS plugin (https://github.com/florianfranz/topo_chronia) that generates Digital Elevation Models (DEMs) of the Earth's past (palaeo-DEMs), using plate tectonic reconstructions from the PANALESIS model. This represents a major transition from an outdated VBNET ArcGIS extension, which was developed in 2013 and is no longer functional due to software obsolescence.\r\nThe transition to open-source required a complete rewriting of the tool, involving both a platform shift from ArcGIS to QGIS and a language shift from VBNET to Python. One of the main challenges was ensuring the reproducibility of past results, as the old software could no longer be run, and documentation on the computational methodology was incomplete. This necessitated a careful reassessment of key processing steps, including the interpolation method used to construct DEMs from scattered elevation points. The previous tool relied on ArcGIS\u2019s Natural Neighbor interpolation, which does not have a direct and reliable open-source equivalent. Through an in-depth comparative analysis, we determined that the Triangulated Irregular Network (TIN) interpolation in QGIS provided equivalent (and slightly improved) results in reconstructing topography and estimating sea level.\r\nBeyond technical challenges, this transition also underscored broader issues in scientific reproducibility. Many methodological choices in past palaeogeographic reconstructions were undocumented or depended on expert knowledge not explicitly recorded in research papers. This lack of transparency complicated the validation of new results and highlighted the need for open software, clear documentation, and reproducible workflows in geospatial research.\r\nIn addition to software accessibility, data accessibility remains a critical issue. Until now, the standard practice for sharing the PANALESIS-derived palaeo-DEM datasets has relied on informal, manual distribution\u2014researchers would need to request files by email. To address this limitation, we are developing a GeoServer-based solution to openly distribute palaeo-DEMs, aligning with FAIR (Findable, Accessible, Interoperable, and Reusable) principles. By making both the software and the data openly available, we aim to expand the use of deep-time palaeotopography in Earth system modeling and interdisciplinary research.\r\nThe development of TopoChronia demonstrates both the challenges and benefits of transitioning legacy geospatial tools to open-source frameworks. While the process required overcoming software obsolescence, re-evaluating computational methods, and addressing gaps in documentation, the result is a fully open, community-accessible, and sustainable tool that can be used and improved by researchers worldwide. By embracing open science principles, TopoChronia lays the foundation for more transparent and collaborative palaeogeographic research, ensuring that future studies can build upon reproducible and well-documented methodologies.",
+    "start_datetime": "2025-07-16T10:00:00Z",
+    "end_datetime": "2025-07-16T10:30:00Z",
+    "talk:code": "JACWAQ",
+    "talk:guid": "d9d64359-01b9-52f4-945a-8cbd8bd15a2b",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Transition to FOSS4G",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "SA02",
+    "talk:room_capacity": 108,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "F7SCRX",
+        "name": "Florian Franziskakis",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/F7SCRX/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-16T10:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/JACWAQ/",
+      "title": "Unearthing Proprietary Software into Open-Source: Lessons learned from TopoChronia, a QGIS Plugin for Reconstructing Digital Elevation Models of the Last 500 Million Years"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/JACWAQ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/F7SCRX/",
+      "title": "Florian Franziskakis"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/JACWAQ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/JACWAQ/resources/Franziskakis_FOSS4G_2025_GP_KB1vaNm.pdf",
+      "type": "application/pdf",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/u3i42Ys7vz3NNSb1adB5ae",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Unearthing Proprietary Software into Open-Source: Lessons learned from ...",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=IE8-Anr4LjY",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Unearthing Proprietary Software into Open-Source: Lessons learned from ...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

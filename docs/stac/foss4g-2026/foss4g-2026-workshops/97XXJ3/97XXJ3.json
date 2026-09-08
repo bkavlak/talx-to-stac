@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "97XXJ3",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Web MAPPing with XYZ Codespaces",
+    "description": "Configure and deploy geospatial datasets, API, and web mapping interfaces in the cloud for free using GEOLYTIX XYZ/MAPP.\r\nSpatial data will be stored in a neon.tech cloud database.\r\nThe service will be deployed to serverless function via Vercel.\r\nThe configuration can is managed via Github Codespaces.\n\nThis hands-on workshop will guide participants through the configuration of an XYZ/MAPP application as an interface for spatial data which will be hosted in a PostGIS database.\r\n\r\nThe configuration of the web mapping application can be completed with GitHub Codespaces in the browser - no installs on the developer machine are required!\r\n\r\nThe finished application will allow users to digitise locations in the browser and upload images stored in Cloudinary.\r\n\r\nThe location geometries and properties will be stored in a cloud hosted Neon PostGIS database.\r\n\r\nThe application will deployed from Codespaces as serverless function to Vercel.",
+    "start_datetime": "2026-08-31T05:00:00Z",
+    "end_datetime": "2026-08-31T08:00:00Z",
+    "talk:code": "97XXJ3",
+    "talk:guid": "68ea7fd3-f799-5939-8afc-ff96da9ff9b8",
+    "talk:event": "foss4g-2026-workshop",
+    "talk:type": "Workshop",
+    "talk:language": "en",
+    "talk:room": "603",
+    "talk:room_capacity": 30,
+    "talk:duration_minutes": 180,
+    "talk:speakers": [
+      {
+        "code": "QZ9CGP",
+        "name": "Dennis Bauszus",
+        "url": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/QZ9CGP/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-08-31T06:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/97XXJ3/",
+      "title": "Web MAPPing with XYZ Codespaces"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/97XXJ3/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/QZ9CGP/",
+      "title": "Dennis Bauszus"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/97XXJ3/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-workshops"
+}

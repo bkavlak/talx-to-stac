@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "XR8WAT",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Implementing OGC API - Processes with prefect and pygeoapi",
+    "description": "The Open Geospatial Consortium API family of standards (OGC API) are being developed to make it easy for anyone to provide geospatial data to the web, and are the next generation of geospatial web API standards designed with resource-oriented architecture, RESTful principles and OpenAPI. In addition, OGC APIs are being built for cloud capability and agility.\r\n\r\nThe OGC API - Processes standard supports the wrapping of computational tasks into executable processes that can be offered by a server through a Web API and be invoked by a client application. The standard specifies a processing interface to communicate over a RESTful protocol using JavaScript Object Notation (JSON) encodings. Typically, these processes execute well-defined algorithms that ingest or process vector and/or coverage data to produce new datasets or analyses.\r\n\r\npygeoapi is an open source Python server implementation of the OGC API suite of standards. The project emerged as one of the most effective reference implementations that provides the capability for organizations to deploy OGC API endpoints using OpenAPI, GeoJSON, and HTML. pygeoapi is built on an extensible plugin framework in support of clean, adaptive data integration and easy customization.\r\n\r\nPrefect is an open source data workflow orchestration platform developed in Python. It provides robust orchestration of workflows and offers a large set of features that range from monitoring to supporting cloud storage, to periodic execution, etc. It is a robust and very capable workflow engine, which is a perfect fit for managing execution of OGC API \u2013 Processes requests in pygeoapi.\r\n\r\nThis presentation will provide an overview of the prefect process manager plugin for pygeoapi and will demonstrate:\r\n\r\n- How to use pygeoapi for handling OGC API - Processes use cases\r\n- How the pygeoapi prefect plugin is a good match for managing the execution of processes and what are its main strengths as a geospatial data processing platform",
+    "start_datetime": "2023-06-30T12:00:00Z",
+    "end_datetime": "2023-06-30T12:30:00Z",
+    "talk:code": "XR8WAT",
+    "talk:guid": "2ff5f132-2c65-5940-a46b-83fd80fbd81e",
+    "talk:event": "foss4g-2023",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT C / N109 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "YBLBW9",
+        "name": "Francesco Bartoli",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/YBLBW9/"
+      },
+      {
+        "code": "ZHUBE3",
+        "name": "Ricardo Garcia Silva",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/ZHUBE3/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-30T12:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/XR8WAT/",
+      "title": "Implementing OGC API - Processes with prefect and pygeoapi"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/XR8WAT/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/YBLBW9/",
+      "title": "Francesco Bartoli"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/ZHUBE3/",
+      "title": "Ricardo Garcia Silva"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/XR8WAT/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/dTd1zBSxUvSVC4EyCdiwX1",
+      "type": "text/html",
+      "title": "2023 | Implementing OGC API - Processes with prefect and pygeoapi  - Ricardo Garcia Silva",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=w-KRCe4Mguc",
+      "type": "text/html",
+      "title": "2023 | Implementing OGC API - Processes with prefect and pygeoapi  - Ricardo Garcia Silva",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

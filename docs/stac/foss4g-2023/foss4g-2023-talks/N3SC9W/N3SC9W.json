@@ -1,0 +1,104 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "N3SC9W",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "ST_LUCAS reference data for online automated land cover mapping",
+    "description": "ST_LUCAS is an open-source system designed for providing harmonized space-time aggregated LUCAS data. LUCAS (Land Use and Coverage Area frame Survey) is an activity managed by Eurostat that performs in-situ surveys (points in 2x2km grid) over Europe every three years since 2006. For each LUCAS point, the land cover and land use classes are examined, five photos taken, and various agro-environmental attributes collected. Eurostat is providing data in plain CSV files. LUCAS nomenclature is changing each survey year, some attributes were removed, added or renamed.\r\n\r\nST_LUCAS was created with the goal to provide harmonized (each LUCAS survey is translated into common nomenclature) and space-time aggregated (for each LUCAS point, a single location and set of harmonized attributes for each survey year are provided) data. The ST_LUCAS system offers analysis-ready data through the Python API and QGIS plugin (\u201cST_LUCAS Download Manager\u201d), which minimizes obstacles to use the data by the wider audience. Users may easily access land cover/use information about 1 350 847 points covering 28 EU countries measured from 2006 till 2018 by Eurostat. LUCAS points are retrieved from the ST_LUCAS system based on specified spatial, temporal, attribute, and thematic filters. The Python API and QGIS plugin also allow retrieving photos (one facing photo and four landscape photos in the cardinal compass directions) for each LUCAS point. Additionally, two analytical functions are available: user-defined LUCAS land cover classes aggregation and the possibility to translate LUCAS nomenclature into other nomenclatures.\r\n\r\nSee ST_LUCAS website https://geoforall.fsv.cvut.cz/st_lucas/ for detailed information.",
+    "start_datetime": "2023-06-30T09:00:00Z",
+    "end_datetime": "2023-06-30T09:30:00Z",
+    "talk:code": "N3SC9W",
+    "talk:guid": "03eb0298-8960-513a-af6a-55360e675e05",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Open Data",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT C / N111 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "AJGKPK",
+        "name": "Martin Landa",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/AJGKPK/"
+      },
+      {
+        "code": "LDLAFY",
+        "name": "Ond\u0159ej Pe\u0161ek",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/LDLAFY/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-30T09:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/N3SC9W/",
+      "title": "ST_LUCAS reference data for online automated land cover mapping"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/N3SC9W/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/AJGKPK/",
+      "title": "Martin Landa"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/LDLAFY/",
+      "title": "Ond\u0159ej Pe\u0161ek"
+    },
+    {
+      "rel": "related",
+      "href": "https://geoforall.fsv.cvut.cz/st_lucas/",
+      "title": "geoforall.fsv.cvut.cz/st_lucas"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/N3SC9W/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

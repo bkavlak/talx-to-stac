@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "WMUGYQ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "The use of open source software for monitoring bee diversity in natural systems: the BEEMS project",
+    "description": "This work wants to highlight the results obtained during the BEEMS (Monitoring Bee Diversity in Natural System) project, which the main goal was to answer the following question: Which biotic and abiotic indicators of floral and nesting resources best reflect the diversity of bee species and community composition in the Israeli natural environment? To this end, the research was oriented towards the cost-effectiveness analysis of new aerial geomatics techniques and classical ground-based methods for collecting the indicators described above, based only on open-source software for data analysis.\r\nThe study involved the Israeli and Italian teams, focusing the attention on two complementary study systems in central Israel, the Alexander Stream National Park, an area undergoing an ecological restoration project in a sandy ecosystem, and the Judean foothills area, to the South of Tel Aviv. In each study system, different surveys of bees, flowers, nesting substrates and soil, using classical field measurement methods have been conducted. Simultaneously, an integrated aerophotogrammetric survey, acquiring different spectral responses of the land surface by means of Uncrewed Aerial Vehicle (UAV) imaging systems have been performed. The multispectral sensors have provided surface spectral response out of the visible spectrum, while the photogrammetric reconstruction has provided three-dimensional information. Thanks to Artificial Intelligence (AI) algorithms and the richness of the data acquired, a methodology for Land Cover Classification has been developed. The results obtained by ground surveys and advanced geomatics tools have been compared and overlapped. The results are promising and show a good fit between the two approaches, and high performance of the geomatics tools in providing valuable ecological data.  \r\nThe acquisition of the indicators identified in the planning phase took place through several measurement campaigns conducted in the period between February 2020 and April 2020 located in two areas of interest in the Israeli territory. A total of 934 and 543 wild bees were collected in the two systems under study, respectively. From a geomatics point of view, 8 flights were carried out in the Alexander Stream National Park on 24 February 2020, acquiring approximately 65 GB of 8-bit multi-band images in tiff format. In the Judean foothills area, 11 flights were carried out on 26 February 2020, obtaining approximately 77 GB of tiff images. In addition, in order to obtain a correctly geo-referenced 3D model, a total of 54 Ground Control Points (GCPs) were acquired, of which 27 in Alexander Stream National Park and 27 in the Judean foothills, with a multi-frequency, multi-constellation GNSS geodetic receiver in RTK mode.\r\nOn the basis of the technical requirements necessary to carry out this project, very high-resolution digital maps (orthophotos, digital terrain models - DTM) were produced through the application and optimisation of photogrammetric and structure from motion (SfM) processes performed on data from different imaging sensors (RGB, multispectral), considering only open-source software. Therefore, considering all the previously defined aspects, in order to plan the data acquisition, the research group defined the flight parameters and instruments, both in terms of aircraft and sensors to be installed onboard, necessary to achieve the project objectives. All the digital cartography generated has been defined in the Israeli reference system, i.e. in WGS84 with UTM 36N cartographic projection. The results are shown in Tables 2 and 3 for the Alexander Stream National Park and the Judean foothills, respectively.\r\nThe production of very high scale digital cartography allowed the extraction of the necessary data for training the proposed Artificial Intelligence model. These data were applied to two different approaches for automatic land cover classification. The first approach was based on unsupervised classification at the pixel level, while the second approach is based on object classification, i.e. vector polygons describing the boundaries of a real object. The algorithms operate differently on these two types of data, in fact in the pixel-based approach they are applied at the level of the single pixel, while in the object-oriented approach they are applied to groups of homogenous pixels for a given feature. The implementation of all the training and validation phases of the proposed models was based on Python programming language using open libraries for data management (shapely, raster) and learning (sk-learn). The segmentation of the input data is fundamental in the approach in order to define the objects to be classified, therefore the Orpheo Toolbox library was applied. The object-oriented approach was applied for the Alexander Stream National Park site while the pixel-based approach was applied on the Judean Foothills area.\r\nFor pixel-based classification, a clusterization algorithm, KMeans, was used in an unsupervised manner. The KMeans algorithm clusters the data by attempting to separate the samples into n groups of equal variances, minimising a criterion known as within-cluster sum-of-squares. The algorithm was optimised through a trial-and-error procedure that led to the identification of initialisation parameters. For the object-oriented classification, we proceeded to apply automatic segmentation algorithms based on the analysis of multi-band spectral variability. In particular, the algorithm used is the Large-Scale Mean-Shift segmentation algorithm, which produces a clustered image in which the pixels around a target pixel that present similar behaviour from both the spatial and spectral points of view are grouped together. Then, the procedure vectorizes these clusters and the operator associates a label to each of them for the generation of the dataset. After subdividing the data into training and testing elements, the Random Forest algorithm was used for both approaches and proved to be the most effective in performing the assigned task. The classification results were carried out using different validation metrics such as Precision, Recall, F1 score, etc. that will be presented.",
+    "start_datetime": "2022-08-24T09:00:00Z",
+    "end_datetime": "2022-08-24T09:30:00Z",
+    "talk:code": "WMUGYQ",
+    "talk:guid": "e5d4b504-f23a-5601-90fa-a2ceb34268eb",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room Hall 3A",
+    "talk:room_capacity": 85,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "GHLPCN",
+        "name": "Paolo Dabove",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/GHLPCN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T09:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/WMUGYQ/",
+      "title": "The use of open source software for monitoring bee diversity in natural systems: the BEEMS project"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/WMUGYQ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/GHLPCN/",
+      "title": "Paolo Dabove"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/WMUGYQ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

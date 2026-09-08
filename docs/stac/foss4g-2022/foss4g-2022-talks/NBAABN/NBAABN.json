@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "NBAABN",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Geo-Infographics created dynamically from PostGIS using ST_AsSVG",
+    "description": "## The Problem\r\nLet's assume you have an attribute-focused table, but you would still like to see a thumbnail of the associated geometry. Or more generally: How to dynamically render polygon geometries in a HTML page without any mapping library. **Enter ST_AsSVG (PostGIS function)!**\r\n\r\n## Context\r\nLast year [I showed how we display geo data in our webapps using vector tiles (ST_AsMVT)](https://www.youtube.com/watch?v=s_dWBOiuFiY&t=139s). This year I will explain how we apply ST_AsSVG of PostGIS on database records to **create beautiful geo-infographics** in pure HTML. The result is a geo-visualization similar to this one: [Comparison maps of Australian Cities (Size, Population)](https://imgur.com/OQClpbc). The trickiest part will be the sizing of the SVG objects ([viewport vs. viewBox](https://webdesign.tutsplus.com/tutorials/svg-viewport-and-viewbox-for-beginners--cms-30844)).\r\n\r\n## Content\r\nThe talk will contain some theory on SVG. It will then show basic setups for FastAPI, SQLModel, Jinja2 and, of course, PostGIS. All code will be made available via GitHub. \r\n\r\n## Aim\r\nAfter the talk you will master sizing of SVG and be capable of creating your own dynamic geo-infographics directly from data stored in your PostGIS database.",
+    "start_datetime": "2022-08-25T08:05:00Z",
+    "end_datetime": "2022-08-25T08:10:00Z",
+    "talk:code": "NBAABN",
+    "talk:guid": "ff5cdc90-8099-5012-99cf-14d4f7c1ff3f",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Room 9",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "UX7C3S",
+        "name": "Stefan Brand",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/UX7C3S/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T08:07:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/NBAABN/",
+      "title": "Geo-Infographics created dynamically from PostGIS using ST_AsSVG"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/NBAABN/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/UX7C3S/",
+      "title": "Stefan Brand"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.youtube.com/watch?v=s_dWBOiuFiY&t=139s",
+      "title": "I showed how we display geo data in our webapps using vector tiles (ST_AsMVT)"
+    },
+    {
+      "rel": "related",
+      "href": "https://imgur.com/OQClpbc",
+      "title": "Comparison maps of Australian Cities (Size, Population)"
+    },
+    {
+      "rel": "related",
+      "href": "https://webdesign.tutsplus.com/tutorials/svg-viewport-and-viewbox-for-beginners--cms-30844",
+      "title": "viewport vs. viewBox"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/NBAABN/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/abvhQuvXcmG8tBDaSuRH7R",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Geo-Infographics created dynamically from PostGIS using ST_AsSVG",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=hrM_UEBXczU",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Geo-Infographics created dynamically from PostGIS using ST_AsSVG",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

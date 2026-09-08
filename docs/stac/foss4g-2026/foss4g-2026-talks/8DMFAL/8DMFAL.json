@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "8DMFAL",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "A Comprehensive Disaster Risk Analysis Model with GeoAI",
+    "description": "Natural and technological disasters pose significant threats to communities, infrastructure, and the environment worldwide. Effective disaster risk management requires robust analytical frameworks capable of systematically assessing hazard, vulnerability, and exposure components across multiple disaster types, recognizing the complex and cascading nature of modern risks (Pescaroli & Alexander, 2018). This paper presents a comprehensive disaster risk analysis model that integrates Geographic Information Systems (GIS), machine learning algorithms, and Artificial Intelligence (AI) driven interpretation tools (GeoAI) to support multi-hazard risk assessment, urban resilience planning, and citizen-oriented risk communication.\r\n\r\nThe proposed model is designed to be generalizable across a wide range of disaster types, including floods, wildfires, earthquakes, landslides, droughts, and urban heat island events. Rather than developing isolated models for each hazard category, the framework adopts a unified, modular architecture in which the core analytical pipeline is consistently applied regardless of the disaster type under investigation. This design philosophy ensures scalability and reproducibility, addressing the critical need for understanding social vulnerability to environmental hazards (Cutter, Boruff & Shirley, 2006). This framework integrates geospatial analysis with supervised machine-learning classification models. Hazard and vulnerability layers are constructed using multi-source spatial datasets, including topographic, land-use and land-cover maps, hydrological networks, soil-type and lithology data, historical disaster records, population-density grids, and socioeconomic indicators. These spatial layers are processed and analyzed in QGIS, building on established approaches that employ geoprocessing to evaluate regional risks of major urban hazards and improve public safety (Zhao & Liu, 2017; Contini et al., 2000).\r\n\r\nOnce the geospatial feature matrices are assembled, machine learning classification algorithms are employed to derive hazard and vulnerability maps. The study evaluates and compares several state-of-the-art ensemble learning algorithms, with particular emphasis on Random Forest (RF) and Extreme Gradient Boosting (XGBoost). The integration of hybrid models and bivariate statistics has been shown to significantly enhance the accuracy of hazard mapping in GIS-based comparative assessments (Ali et al., 2020). Python-based machine learning libraries are used to implement, train, validate, and tune these models rigorously. Cross-validation strategies and hyperparameter optimization techniques are applied to ensure robust and generalizable model performance. Accuracy metrics such as the Area Under the Receiver Operating Characteristic Curve (AUC-ROC), F1-score, precision, recall, and Cohen's Kappa coefficient are used to evaluate model outputs.\r\n\r\nThe exposure component of the risk model quantifies the number and nature of elements at risk within identified hazard zones, including population counts, building footprints, and critical infrastructure. To accurately reflect structural vulnerabilities, the model framework allows for the integration of fragility curves, a method widely used for generating damage probability estimates for structural typologies like reinforced concrete buildings under seismic loads (Akkar & Yakut, 2005; Ramamoorthy, 2006). Spatial overlay operations between hazard maps and exposure layers yield exposure matrices that inform prioritization in disaster preparedness.\r\n\r\nA particularly novel contribution of this work is the integration of AI agent architectures based on Large Language Models (LLMs) and the Model Context Protocol (MCP) into the risk assessment pipeline. The MCP serves as a standardized communication interface enabling LLM-based AI agents to dynamically query, retrieve, and reason over geospatial risk data stored in structured databases and spatial APIs. These AI agents are capable of performing automated, context-aware interpretation of multi-hazard risk maps and statistical outputs, generating region-specific risk narratives that translate complex quantitative results into clear, actionable insights. By leveraging the natural language generation capabilities of LLMs, the system can produce detailed risk assessment reports tailored to specific administrative units, districts, or neighborhoods, significantly reducing the analytical burden on planners and decision-makers. The MCP-based architecture also enables seamless integration with external data sources and third-party geospatial services, enhancing the model's capacity for real-time or near-real-time risk monitoring.\r\n\r\nAll data inputs to the model are sourced from open and freely accessible repositories, including OpenStreetMap for infrastructure and land use data, Copernicus Land Monitoring Service and USGS Earth Explorer for remote sensing products, NASA EARTHDATA for climatological and hydrological datasets, and national/regional open government portals for administrative and socioeconomic statistics. This open data philosophy not only ensures cost efficiency but also enables transparency, reproducibility, and independent verification of results by the broader scientific community and policy stakeholders.\r\n\r\nThe outputs of the model are made accessible through a web-based geospatial platform that allows real-time visualization of hazard susceptibility maps, vulnerability indices, exposure layers, and composite risk scores across multiple administrative levels. The platform is designed with usability in mind, targeting both technical users such as urban planners, civil protection agencies, and researchers, and non-technical users including local government officials and ordinary citizens. Interactive map layers, filtering tools, and downloadable reports are provided to support diverse user needs. A key feature of the platform is an integrated AI-powered chatbot, developed using LLM technology and connected to the underlying risk database via the MCP interface. Citizens and decision-makers can query the chatbot using natural language to obtain plain-language explanations of the risk status for their area, receive guidance on risk-reducing behaviors, and access information about emergency preparedness resources. This conversational interface significantly lowers the barrier to understanding complex risk information and fosters greater public awareness and engagement.\r\n\r\nThe model was developed and piloted in the Marmara Region of T\u00fcrkiye, encompassing 11 provinces: Istanbul, Bursa, Kocaeli, Sakarya, Tekirda\u011f, Edirne, K\u0131rklareli, Bal\u0131kesir, \u00c7anakkale, Yalova, and Bilecik. The Marmara Region has outstanding strategic importance due to its high population density, industrial concentration, seismic activity, and exposure to multiple natural hazards. This geographically and socioeconomically diverse study area provided an ideal testbed for evaluating the model across varying physical and demographic conditions, allowing for a comprehensive evaluation of its cross-hazard applicability and cross-regional transferability. Pilot results demonstrated strong classification accuracy for hazard susceptibility mapping across all tested disaster types, with XGBoost consistently achieving higher AUC scores compared to baseline models. The LLM-based risk interpretation layer produced coherent, factually grounded, and contextually relevant narratives that were positively evaluated by domain expert reviewers.\r\n\r\nIn conclusion, the GeoAI-based disaster risk analysis model presented in this paper offers a scalable, open, and interoperable framework that bridges advanced spatial analytics, machine learning, and generative AI to support evidence-based disaster risk reduction. By making risk information accessible through web platforms and conversational AI tools, the model contributes directly to the development of sustainable, smart, and resilient cities aligned with the Sendai Framework for Disaster Risk Reduction 2015\u20132030 and the United Nations Sustainable Development Goals (UNDRR, 2015). Future research directions include the incorporation of real-time sensor data and Internet of Things (IoT) technologies to support global initiatives for dynamic multi-hazard early warning systems (UNDRR, 2024).",
+    "start_datetime": "2026-09-02T02:30:00Z",
+    "end_datetime": "2026-09-02T03:00:00Z",
+    "talk:code": "8DMFAL",
+    "talk:guid": "56cd00a2-9ee5-5671-8538-ebdf6beedec1",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos2",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "STSXSN",
+        "name": "Muhammed Oguzhan Mete",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/STSXSN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T02:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/8DMFAL/",
+      "title": "A Comprehensive Disaster Risk Analysis Model with GeoAI"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/8DMFAL/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/STSXSN/",
+      "title": "Muhammed Oguzhan Mete"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/8DMFAL/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

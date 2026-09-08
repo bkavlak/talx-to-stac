@@ -1,0 +1,131 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "KNBMGH",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "DuckDB with Geodata",
+    "description": "DuckDB has established itself in the data science community as a lightweight tool for data analysis of all kinds. It now has an official extension that can work with geospatial data. In this talk we will introduce the basic features.\r\n\r\nDuckDB can read data from various sources, such as files (CSV, JSON, ...), the Internet or other databases. The imported data can be combined and processed using SQL. The \"spatial\" extension of DuckDB now also supports spatial data types such as points, lines or polygons. In addition, the GEOS library integrated in the background provides geographic analysis functions such as area calculation, intersection or buffer calculation. GDAL is also integrated in the background and allows reading and writing of many other formats from the geographic world.",
+    "start_datetime": "2024-07-05T08:30:00Z",
+    "end_datetime": "2024-07-05T09:00:00Z",
+    "talk:code": "KNBMGH",
+    "talk:guid": "87f3b002-e539-5919-bf7b-4ee188c9f175",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Omicum",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "8M8VHY",
+        "name": "Jakob Miksch",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/8M8VHY/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-05T08:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/KNBMGH/",
+      "title": "DuckDB with Geodata"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/KNBMGH/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/8M8VHY/",
+      "title": "Jakob Miksch"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/KNBMGH/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/KNBMGH/resources/2024-06-05_duck_db_mMHgRYO.pdf",
+      "type": "application/pdf",
+      "title": "slides",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "duckdb-source-code": {
+      "href": "https://github.com/duckdb/duckdb",
+      "title": "DuckDB Source Code",
+      "roles": [
+        "data"
+      ]
+    },
+    "duckdb-spatial-source-code": {
+      "href": "https://github.com/duckdb/duckdb_spatial",
+      "title": "DuckDB Spatial Source Code",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/gZMs6z77BUS4qisXttSFGo",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | DuckDB with Geodata",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=I-g89utYpkY",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | DuckDB with Geodata",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

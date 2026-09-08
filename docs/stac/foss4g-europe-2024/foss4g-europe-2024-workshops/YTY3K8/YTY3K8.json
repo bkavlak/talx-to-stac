@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "YTY3K8",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Harnessing Earth's Data: Mastering Earth System Data Cubes",
+    "description": "In an era where access to Earth system data is expanding at an unprecedented rate, effectively managing this highly-dimensional and voluminous influx poses significant challenges. The rise of Earth System Data Cubes (ESDCs) represents a revolutionary stride in efficiently handling, analysing, and visualising these complex datasets. ESDCs, with their multidimensional array structure, offer an organised, intuitive framework for robust data analysis. They encapsulate Earth system data in an analysis-ready form, defined by spatial, temporal, and variable dimensions. The integration of novel cloud technologies and cloud-ready formats, including SpatioTemporal Asset Catalogs (STAC) and Cloud Optimised GeoTIFFs (COG), has further streamlined the construction of ESDCs.\r\n\r\nOur workshop is a comprehensive, interactive session designed to equip participants with the skills to construct and manage ESDCs using open-source Python tools.\r\n\r\nThe workshop is divided into five engaging segments:\r\n\r\n1. **Introduction to Earth System Data Cubes (15 min)**: This segment presents the concept of ESDCs, contrasting them with other data systems (such as image collections and information-preserving data cubes), and exposes their unique properties and construction rules.\r\n2. **ESDC Playground (15 min)**: Participants will engage with a global-scale ESDC (see [Mahecha et al., 2020](https://doi.org/10.5194/esd-11-201-2020\r\n)) using Python libraries such as xarray, zarr, dask, and matplotlib, demonstrating data access, exploration, analysis, and visualisation.\r\n3. **Constructing ESDCs from Scratch (30 min)**: Leveraging cloud technologies and open-source software, this segment guides through the creation of ESDCs from STAC catalogues and Google Earth Engine, incorporating diverse data sources like Earth Observation resources (e.g. Sentinel and Landsat missions), climate data (e.g. ERA5) and other products (e.g. Land cover and elevation products).\r\n4. **Interactive Visualisation of ESDCs (30 min)**: Focuses on the dynamic visual representation of ESDCs using Lexcube (see Lexcube.org) within Jupyter Notebooks, enhancing understanding through interactive widgets and coding.\r\n5. **Collaborative Outro (30 min)**: The workshop culminates in a brainstorming session aimed at unifying ESDC concepts, discussing standards, open-source tools, and potential applications. This collective discussion will be gathered into a white paper, aspiring for publication.\r\n\r\nThis workshop invites participants from all skill levels, from beginners to experts, with a foundational requirement of basic Python proficiency. Participants are expected to have a pre-installed Python environment to fully engage in the workshop's hands-on segments. Join us in this journey to harness the power of open-source software for exploring and understanding our planet in unprecedented detail.\n\n\"Harnessing Earth's Data: Mastering Earth System Data Cubes in Open-Source Software\" is an interactive, comprehensive workshop designed to equip participants with the necessary skills to effectively construct, manage, and visualise Earth System Data Cubes (ESDCs) using open-source tools. This workshop is tailored to a diverse audience, ranging from beginners to experts in Earth system science, and emphasises the practical application of Python in managing complex, highly-dimensional Earth system data. Attendees will engage in a series of hands-on segments, each focusing on different aspects of ESDCs, from their conceptual understanding to practical construction and dynamic visualisation. The workshop aims to foster a deeper understanding of ESDCs and inspire innovative approaches to Earth system data analysis and visualisation.",
+    "start_datetime": "2024-07-01T08:00:00Z",
+    "end_datetime": "2024-07-01T10:00:00Z",
+    "talk:code": "YTY3K8",
+    "talk:guid": "a9c8a4fe-fbed-513a-a3e8-e8ab447e7298",
+    "talk:event": "foss4g-europe-2024-workshops",
+    "talk:type": "workshop 2h",
+    "talk:language": "en",
+    "talk:room": "Room 301",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 120,
+    "talk:speakers": [
+      {
+        "code": "GXMXGL",
+        "name": "David Montero Loaiza",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024-workshops/speaker/GXMXGL/"
+      },
+      {
+        "code": "P7EMBD",
+        "name": "Maximilian S\u00f6chting",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024-workshops/speaker/P7EMBD/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-01T09:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024-workshops/talk/YTY3K8/",
+      "title": "Harnessing Earth's Data: Mastering Earth System Data Cubes"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024-workshops/talk/YTY3K8/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024-workshops/speaker/GXMXGL/",
+      "title": "David Montero Loaiza"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024-workshops/speaker/P7EMBD/",
+      "title": "Maximilian S\u00f6chting"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024-workshops/talk/YTY3K8/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-workshops"
+}

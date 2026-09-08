@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "DDRB3Z",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Visualizing Geospatial Data with Apache Superset",
+    "description": "Apache Superset is one of the most used no-code platforms for business intelligence. It allows for the exploration and visualization of data, from simple line charts to highly detailed geospatial charts, without the need for programming skills. These charts can be published on interactive dashboards to provide users with meaningful and up-to-date information. Currently, a plug-in for visualizing cartodiagrams is in development which is based on the OSGeo projects OpenLayers and GeoStyler. This plug-in gives users the ability to use any visualization of Superset within a geospatial context, so that e.g. simple pie charts or even complex location based timeseries can be displayed on a map. Thereby, Superset becomes a powerful tool for visualizing geospatial data.\r\n\r\nThis talk gives a brief overview of Superset and possible use cases while focussing on geospatial data.",
+    "start_datetime": "2023-06-29T12:30:00Z",
+    "end_datetime": "2023-06-29T13:00:00Z",
+    "talk:code": "DDRB3Z",
+    "talk:guid": "6e360459-d66f-5efe-ab91-a86ac9efb0ab",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Mirusha",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "JBDJV8",
+        "name": "Jan Suleiman",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/JBDJV8/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-29T12:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/DDRB3Z/",
+      "title": "Visualizing Geospatial Data with Apache Superset"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/DDRB3Z/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/JBDJV8/",
+      "title": "Jan Suleiman"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/DDRB3Z/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/6AnTxTDC6YKkQxfvop9y4y",
+      "type": "text/html",
+      "title": "2023 | Visualizing Geospatial Data with Apache Superset - Jan Suleiman",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=fwWJvbFTwGc",
+      "type": "text/html",
+      "title": "2023 | Visualizing Geospatial Data with Apache Superset - Jan Suleiman",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

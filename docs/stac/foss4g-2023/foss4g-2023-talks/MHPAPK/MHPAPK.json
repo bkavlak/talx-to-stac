@@ -1,0 +1,94 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "MHPAPK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Digitizing and improving GIS for Global Health: from data collection to geospatial data management for a measles vaccination campaign in Cameroon",
+    "description": "In Cameroon, the planning and monitoring of a measles vaccination campaign is implemented in an open source software called Iaso built on a Python based backend combining Django and Postgres/Postgis ; the frontend is React based. Iaso aims to provide a number of core functionalities to support ongoing geospatial data management: a mobile application, a web dashboard, a mapping function to merge various data sources, a user-friendly API for data science and scripting, and a seamless bi-directional integration with DHIS2 (standard health information system in low- and middle-income countries).\r\n\r\nIaso is articulated around three essential components : a central georegistry interface, a mobile data collection tool and a micro planning interface. Those tools are integrated seamlessly with each other to provide a powerful platform to manage, update, merge and validate multiple data sources and structured information collected. Geospatial data from GPS collection to the management of multiple reference lists of organization units (Health, Administrative or School pyramid) are Iaso's foundation. Those features allow interconnecting collected data to existing hierarchical features coupled with planification and collection of survey campaigns in the field through the mobile application and the web platform.\r\n\r\nIaso exposes a full API providing various endpoints allowing data scientists to integrate data analysis pipeline through external analytic platform. As a geospatial data management platform, it provides versioning of every dataset and is designed to keep a full history of all the changes on the data of interest from the forms to the geometry or metadata of the organization units. It also features seamless integration with QGIS and other desktop applications through a templated Geopackage format.\r\n\r\nIn this presentation, the tool is explained and described from the planning of the vaccination campaign in Cameroon to the near real-time monitoring of the campaign (eg. stock and team planning management).\r\n\r\nSource : https://github.com/BLSQ/iaso",
+    "start_datetime": "2023-06-28T14:00:00Z",
+    "end_datetime": "2023-06-28T14:30:00Z",
+    "talk:code": "MHPAPK",
+    "talk:guid": "2a1aae13-d9bc-5c1f-bd59-b0892e61903f",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT C / N109 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "UGKSKA",
+        "name": "C\u00e9line Bassine",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/UGKSKA/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T14:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/MHPAPK/",
+      "title": "Digitizing and improving GIS for Global Health: from data collection to geospatial data management for a measles vaccination campaign in Cameroon"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/MHPAPK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/UGKSKA/",
+      "title": "C\u00e9line Bassine"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/BLSQ/iaso",
+      "title": "github.com/BLSQ/iaso"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/MHPAPK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

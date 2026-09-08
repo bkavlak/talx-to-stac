@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "9CNP7Q",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "BSEQ: A new approach to draught managing",
+    "description": "BSEQ originates from the need to provide the local government with a simple visualization tool to monitor water consumption per inhabitant across different drought scenarios.\r\nDuring times of water scarcity, it is more crucial than ever to have a GIS system that displays an inventory of network assets, enables hydraulic balance calculations, identifies leaks, and simulates consumption scenarios. In addition to these basic functions, GIS combined with PostGIS facilitates large-scale data processing, aiding decision-making in real-world situations. Based on QGIS, with its Giswater extension and PostgreSQL integration, we already have a specialized GIS for managing potable water supply and sewage networks. Therefore, analysing drought-related parameters is a logical progression toward improving water cycle management\u2014an increasingly urgent issue in Spain, particularly in Andalusia and Catalonia. In these regions, we are actively collaborating with local administrations to mitigate the effects of this unprecedented drought. Unfortunately, the information provided by GIS does not always reach government teams clearly, as processing the data requires significant time and technical expertise.\r\nThis is precisely why we developed BSEQ\u2014an automated solution designed to address this challenge, recognizing that local administrations often lack the human resources to carry out such data analysis. By cross-referencing cadastral records, municipal registers, and individual water consumption data\u2014including details such as the square meters of gardens and swimming pools on each property\u2014BSEQ makes it easier to identify areas with high water usage potential. As a secondary benefit, this data integration also helps detect second homes, irregularities in the municipal register, and possible unauthorized occupations.\r\nBSEQ features a reporting system powered by the open-source technology Apache Superset, which allows for quick and intuitive graphical analysis of results. This enhances decision-making while also providing the option to export data for further processing with other applications. The platform's web-based environment ensures easy access and transparency, as it can be viewed from any browser with an internet connection.\r\nOur philosophy is built on three core principles: simplicity, speed, and affordability. Implementing BSEQ in a corporate environment requires only the aforementioned data, which all municipalities should have easy access to. Within a maximum of two weeks, the system can process this data and be fully operational.",
+    "start_datetime": "2025-07-17T12:00:00Z",
+    "end_datetime": "2025-07-17T12:30:00Z",
+    "talk:code": "9CNP7Q",
+    "talk:guid": "0113e369-4193-52b6-a757-a5f0854da1dc",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "SA02",
+    "talk:room_capacity": 108,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "N7TT3J",
+        "name": "Edgar",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/N7TT3J/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-17T12:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/9CNP7Q/",
+      "title": "BSEQ: A new approach to draught managing"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/9CNP7Q/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/N7TT3J/",
+      "title": "Edgar"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/9CNP7Q/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-bseq": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/9CNP7Q/resources/BSEQ_Presentation_ejferw9.pdf",
+      "type": "application/pdf",
+      "title": "Presentation_BSEQ",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/uGbqsLvDsobu9XvtonfdZc",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | BSEQ: A new approach to draught managing",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=ViG5MzJDA0s",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | BSEQ: A new approach to draught managing",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

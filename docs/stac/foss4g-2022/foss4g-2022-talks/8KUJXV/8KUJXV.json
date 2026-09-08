@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "8KUJXV",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Fast rendering from vector tiles in deck.gl",
+    "description": "The shift to using vector rendering has enabled maps to take a leap forward compared to using raster data. It is now possible to offer a much richer experience by performing styling, processing and filtering directly in the client. Coupled with tiled rendering, it is now feasible to work with huge datasets directly in the web browser.\r\n\r\nThis presentation will look at how applications can be built using the open source deck.gl library, with a focus on displaying vector tilesets, styling and filtering data on the client, with acceleration provided by the GPU. We will look at how deck.gl elegantly works with vector tiles and show how maps and visualisations can be styled using a few lines of code. We will also explore tools provided by the CARTO platform, which bring these features to those without programming experience, via a web-app.\r\n\r\nA brand new feature of deck.gl will be presented: the MaskExtension is a powerful tool that allows one dataset to act as a geospatial mask for another. For example this can be used to let the user select features on a map using a lasso tool, or to select map features based on a geospatial bound. All at 60fps on the client.",
+    "start_datetime": "2022-08-25T09:30:00Z",
+    "end_datetime": "2022-08-25T10:00:00Z",
+    "talk:code": "8KUJXV",
+    "talk:guid": "12287f03-20ce-5c02-8442-a0bd86267a83",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Modulo 0",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "TRXAEX",
+        "name": "Felix Palmer",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/TRXAEX/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/8KUJXV/",
+      "title": "Fast rendering from vector tiles in deck.gl"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/8KUJXV/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/TRXAEX/",
+      "title": "Felix Palmer"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/8KUJXV/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=iMXkNXVGsh8",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Fast rendering from vector tiles in deck.gl",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

@@ -1,0 +1,106 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "NCJR9L",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "Lessons from Running GeoServer at Scale",
+    "description": "Setting up GeoServer can be deceptively simple. Bringing it into production\u2014stable, performant, and capable of handling real-world traffic\u2014is a different challenge. This talk distills hands-on lessons from enterprise GeoServer deployments into a practical playbook, covering the full journey from initial setup to a production-ready service, including modern cloud-native approaches such as GeoServer Cloud.\r\n\r\nWe explore the configuration decisions that matter most in production: selecting output formats to avoid network bottlenecks, preparing vector and raster data for the multi-resolution demands of web GIS, and tuning SLD styling to balance visual quality with rendering performance. We then move to caching strategies, demonstrating how to configure GeoWebCache effectively for background layers, and how to identify scenarios where caching can be counterproductive.\r\n\r\nService limits, the control-flow extension, and the monitoring extension are presented as key operational tools for maintaining stability under real user load\u2014helping identify slow requests, resource-intensive clients, and the services and layers that require closer attention. JVM sizing and container configuration are addressed at a practical level, focusing on actionable guidance rather than theory, with notes on how these considerations evolve in containerized and cloud-based deployments.\r\n\r\nThe session concludes with real-world examples from enterprise deployments carried out by the speaker and colleagues at GeoSolutions, spanning government SDIs, environmental monitoring platforms, and large-scale humanitarian mapping systems. For each scenario, we highlight the configuration choices and tuning strategies that made a measurable difference: which caching approaches were adopted and why, how service limits were aligned with actual client behavior, and how load testing validated each improvement prior to go-live. Attendees will leave with concrete patterns they can immediately apply to their own installations.",
+    "start_datetime": "2026-06-30T11:30:00Z",
+    "end_datetime": "2026-06-30T12:00:00Z",
+    "talk:code": "NCJR9L",
+    "talk:guid": "f6316109-9d04-57fb-a60b-fdbdf5e73a45",
+    "talk:event": "foss4g-europe-2026",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "A12",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RBSH8T",
+        "name": "Andrea Aime",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/RBSH8T/"
+      },
+      {
+        "code": "NMVVQN",
+        "name": "Simone Giannecchini",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/NMVVQN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-06-30T11:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/NCJR9L/",
+      "title": "Lessons from Running GeoServer at Scale"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/NCJR9L/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/RBSH8T/",
+      "title": "Andrea Aime"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/NMVVQN/",
+      "title": "Simone Giannecchini"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/NCJR9L/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "lessons-from-running-geoserver-at-scale": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2026/submissions/NCJR9L/resources/Lessons_from_Running_GeoServ_9WvwooY.pdf",
+      "type": "application/pdf",
+      "title": "Lessons from Running GeoServer at Scale",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

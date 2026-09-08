@@ -1,0 +1,134 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "7E8KE7",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Adding static type hints to fiona",
+    "description": "Static type hints according to [PEP 484](https://peps.python.org/pep-0484/) (and its extensions) have been a part of Python since version 3.5, which came out in 2015. [Research from 2021](https://lp.jetbrains.com/python-developers-survey-2021/#stacked-chart-863) shows that 3 out of 4 Python developers already use optional type hinting at least sometimes in their projects. Time is ripe for static type hints to enter the FOSS4G Python world!\r\n\r\nA [GitHub issue on `fiona`'s issue tracker to add static type hints to the library](https://github.com/Toblerity/Fiona/issues/1125) recently gained some traction. Currently, it is [envisioned](https://github.com/Toblerity/Fiona/issues/1125#issuecomment-1424553816) to create type stubs for `fiona` 1.9 and possibly move the type hints into core `fiona` with the future 2.0 version.\r\n\r\nThis talk will give an overview on the current status of the effort to add type hints to `fiona`. Furthermore it will briefly discuss considerations and the reasoning behind design decisions taken up until then. Contributions to the effort are very much welcome \u2013 just take part in the [discussion on GitHub](https://github.com/Toblerity/Fiona/issues/1125).",
+    "start_datetime": "2023-06-28T13:10:00Z",
+    "end_datetime": "2023-06-28T13:15:00Z",
+    "talk:code": "7E8KE7",
+    "talk:guid": "3b4be85a-52ea-54b2-91bb-e31a71f4a094",
+    "talk:event": "foss4g-2023",
+    "talk:track": "State of software",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "UBT C / N110 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "UX7C3S",
+        "name": "Stefan Brand",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/UX7C3S/"
+      },
+      {
+        "code": "PR8SFJ",
+        "name": "Fabian Schindler-Strauss",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/PR8SFJ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T13:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/7E8KE7/",
+      "title": "Adding static type hints to fiona"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/7E8KE7/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/UX7C3S/",
+      "title": "Stefan Brand"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/PR8SFJ/",
+      "title": "Fabian Schindler-Strauss"
+    },
+    {
+      "rel": "related",
+      "href": "https://peps.python.org/pep-0484/",
+      "title": "PEP 484"
+    },
+    {
+      "rel": "related",
+      "href": "https://lp.jetbrains.com/python-developers-survey-2021/#stacked-chart-863",
+      "title": "Research from 2021"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/Toblerity/Fiona/issues/1125",
+      "title": "GitHub issue on `fiona`'s issue tracker to add static type hints to the library"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/7E8KE7/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/baJWTUPaybfRDfbH6QGQxz",
+      "type": "text/html",
+      "title": "2023 | Adding static type hints to fiona - Stefan Brand",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=WYRfwQNEirw",
+      "type": "text/html",
+      "title": "2023 | Adding static type hints to fiona - Stefan Brand",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

@@ -1,0 +1,116 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "9LCAJL",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Shortbread - the new OpenStreetMap vector tile schema",
+    "description": "[Shortbread](https://shortbread-tiles.org/) is an open schema for OSM vector tiles. It is intended to be a basic, lean, general-purpose vector tile schema for OpenStreetMap data.\r\n\r\nFor creating and extending OSM vector tiles, workflows using [Tilemaker](https://tilemaker.org/), [Planetiler](https://github.com/onthegomap/planetiler) and [osm2pgsql Themepark](https://osm2pgsql.org/themepark/) are compared.\r\n\r\nSince vector tiles are styled in the browser, the styling can be changed at runtime. This talk shows the tooling for customizing styles, but also goes into extending vector tile content with additional data for special interests.",
+    "start_datetime": "2024-12-04T19:15:00Z",
+    "end_datetime": "2024-12-04T19:45:00Z",
+    "talk:code": "9LCAJL",
+    "talk:guid": "2fbc8306-e045-56b7-9ec6-7a962e60c3dc",
+    "talk:event": "foss4g-2024",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room IV",
+    "talk:room_capacity": 100,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "HRNGH3",
+        "name": "Pirmin Kalberer",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/HRNGH3/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-04T19:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/9LCAJL/",
+      "title": "Shortbread - the new OpenStreetMap vector tile schema"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/9LCAJL/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/HRNGH3/",
+      "title": "Pirmin Kalberer"
+    },
+    {
+      "rel": "related",
+      "href": "https://shortbread-tiles.org/",
+      "title": "Shortbread"
+    },
+    {
+      "rel": "related",
+      "href": "https://tilemaker.org/",
+      "title": "Tilemaker"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/onthegomap/planetiler",
+      "title": "Planetiler"
+    },
+    {
+      "rel": "related",
+      "href": "https://osm2pgsql.org/themepark/",
+      "title": "osm2pgsql Themepark"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/9LCAJL/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://pka.github.io/customizing-shortbread-vector-tiles/",
+      "title": "Slides",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

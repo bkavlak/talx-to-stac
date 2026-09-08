@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "YLAYNZ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Maintaining a small research tool: Experiences from the R package seg",
+    "description": "This presentation introduces the R package seg developed nearly fifteen years ago. I would like to share the difficulties encountered while developing and maintaining a small academic package, especially as job changes and passions shift.\n\nApproximately fifteen years ago, I developed the R package seg as part of my doctoral research. The package implemented a set of spatial segregation measures used in geography and sociology. Although it remained on CRAN for many years, it received few updates, as I started a job and my interests changed to other areas. With the transition in R spatial infrastructure from sp to sf, the package became incompatible with newer versions and was eventually archived. At the time, I regarded its removal as inconsequential, assuming its utility had lapsed. However, after its removal from CRAN, I started receiving a few inquiries from users requesting an update. Motivated by these requests, I undertook the task of updating seg. While technically straightforward, the process was prolonged by the challenges of revisiting old code and producing adequate documentation. This presentation is about that experience: the reasons behind the package's long period of neglect, the effort required to restore it, and the difficulties I experienced in maintaining small-scale academic software projects.",
+    "start_datetime": "2026-09-01T05:35:00Z",
+    "end_datetime": "2026-09-01T05:40:00Z",
+    "talk:code": "YLAYNZ",
+    "talk:guid": "aadd7805-011e-5154-8b14-91072e9437c4",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Lightning Talk",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Ran1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "MAGESZ",
+        "name": "Seong-Yun Hong",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/MAGESZ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T05:37:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/YLAYNZ/",
+      "title": "Maintaining a small research tool: Experiences from the R package seg"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/YLAYNZ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/MAGESZ/",
+      "title": "Seong-Yun Hong"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/YLAYNZ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

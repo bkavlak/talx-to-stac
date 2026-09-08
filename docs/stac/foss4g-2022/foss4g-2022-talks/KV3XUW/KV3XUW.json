@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "KV3XUW",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Gleo: Reinventing WebGL maps",
+    "description": "WebGL has enabled fast rendering of maps on the web (including MapLibreGL and OpenLayers renderers), but from the software development point of view, is a notoriously cumbersome technology to work with. \r\n\r\nThis session introduces Gleo, a JavaScript+WebGL map display library aiming to cover similar use cases than Leaflet, OpenLayers, MapZen and MapLibreGL.\r\n\r\nA few architectural features of Gleo will be outlined, including:\r\n- \"One GL shader per type of cartographic symbol\" rendering & framebuffer compositing approach\r\n- Object-oriented design: symbols as instances; allocation/deallocation of GPU resources for each symbol\r\n- ES6 javascript features: classes, modules, private fields; symbol as DOM EventTarget; deprecation of mouse/touch events in favour of pointer events\r\n- Sliding window algorithm in a wrapped WebGL texture for tile caching\r\n- On-the-fly reprojection enabled by updating just one WebGL data structure\r\n- On-the-fly CRS offsetting to prevent floating-point precision artifacts\r\n- Coordinate wrapping and display tessellation to avoid antimeridian artifacts",
+    "start_datetime": "2022-08-25T12:45:00Z",
+    "end_datetime": "2022-08-25T13:15:00Z",
+    "talk:code": "KV3XUW",
+    "talk:guid": "81aa9f46-b5ce-5bf8-b940-aeed6e2807d3",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Limonaia",
+    "talk:room_capacity": 110,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "LVHALQ",
+        "name": "Iv\u00e1n S\u00e1nchez Ortega",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/LVHALQ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T13:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/KV3XUW/",
+      "title": "Gleo: Reinventing WebGL maps"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/KV3XUW/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/LVHALQ/",
+      "title": "Iv\u00e1n S\u00e1nchez Ortega"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/KV3XUW/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=hp2sJyrb7FU",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Gleo: Reinventing WebGL maps",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

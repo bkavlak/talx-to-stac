@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "3BWBFN",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Upgrade your Postgres and PostGIS will thank you",
+    "description": "Every year, there's a new Postgres major release that improves on performance in certain areas and could provide new hooks for extensions like PostGIS to take advantage from them. If not planned well, upgrading your production databases can become a pain. Sooner than you think you'll be running on EOL (End-of-Life) versions because the upgrade has been postponed too many times. Don't!\r\n\r\nDid you know Postgres upgrades can be greatly automatized these days with downtimes of only a few seconds? This talk will show you how and will also present some essential features from recent Postgres and PostGIS versions to get you excited for the new upgrade.",
+    "start_datetime": "2023-06-28T14:30:00Z",
+    "end_datetime": "2023-06-28T15:00:00Z",
+    "talk:code": "3BWBFN",
+    "talk:guid": "0e210946-c2f4-5a7a-ac53-bd5af68521f4",
+    "talk:event": "foss4g-2023",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Outdoor Stage",
+    "talk:room_capacity": 600,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "HHC7K8",
+        "name": "Felix Kunde",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/HHC7K8/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T14:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/3BWBFN/",
+      "title": "Upgrade your Postgres and PostGIS will thank you"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/3BWBFN/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/HHC7K8/",
+      "title": "Felix Kunde"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/3BWBFN/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/mJE7pDirdktknzAPN5KjB6",
+      "type": "text/html",
+      "title": "2023 | Upgrade your Postgres and PostGIS will thank you - Felix Kunde",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=hieitzI43G8",
+      "type": "text/html",
+      "title": "2023 | Upgrade your Postgres and PostGIS will thank you - Felix Kunde",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

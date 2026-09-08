@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "WAXYEY",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Rectangular vs Hexagonal Grid Tessellation for Spatial Analysis of Invasive Species: A Case Study of Aromia bungii in Saitama, Japan.",
+    "description": "Biological invasions represent one of the most significant threats to global biodiversity and agricultural systems, causing substantial ecological and economic damage worldwide. Among emerging invasive pests in East Asia, Aromia bungii, commonly known as the red-necked longhorn beetle, has become a serious threat in Japan. The species attacks several Prunus species, including ornamental cherry trees (Cerasus spp.), peach (Prunus persica), and plum (Prunus salicina). Because cherry trees play an important ecological and cultural role in Japan, the spread of this invasive beetle has raised growing concerns for landscape management and biodiversity conservation.\r\nSince its first detection in Aichi Prefecture in 2012, A. bungii has expanded rapidly across urban and peri-urban areas. Understanding its spatial pattern is therefore essential for effective monitoring and early intervention. Spatial analysis can be applied to these processes. However, such analyses fundamentally depend on how spatial data are defined, including the geometry of the spatial grid, which can influence the results.\r\nThus, to examine how grid shape influences spatial analysis results, this study evaluates spatial autocorrelation measures using different tessellations of invasive species occurrence data. Specifically, we compared rectangular and hexagonal grids for analysing spatial patterns in A. bungii occurrence records and density of rivers in Saitama Prefecture, Japan.\r\n\r\nVolunteer-based occurrence data for A. bungii were compiled from field surveys across Saitama Prefecture from 2017 to 2024, yielding 2,349 confirmed presence records. Records were classified as confirmed presences if either adult beetle observations (Adult-yes = 1) or evidence of tree damage (Tree_damage = 1) was recorded. All records were georeferenced using latitude\u2013longitude coordinates (WGS84) and then reprojected to UTM Zone 54N (EPSG:32654) to ensure metric accuracy in spatial calculations. We assembled the occurrence data into predefined grid cells to explore spatial patterns across the study area and to enable consistent spatial aggregation and neighbourhood-based analyses.\r\n\r\nTwo grid tessellation schemes were constructed over the study area. The rectangular grid consisted of 4,013 cells at a 1 km \u00d7 1 km resolution. Each rectangular cell overlaid with the occurence point of location Aromia bungii presence in Saitama. This configuration corresponds to rook contiguity, where only four directly adjacent neighbours are considered. To evaluate the effect of diagonal bias, the same rectangular grid was also analysed using queen contiguity, which includes eight neighbouring cells by incorporating both direct and diagonal neighbours. The hexagonal grid was generated using Shapely and Geopandas with hierarchical spatial indexing system, producing hexagonal cells with an almost equivalent spatial resolution to the rectangular grid. To keep the overall grid coverage comparable to the rectangular representation, 4,007 hexagonal cells were generated to cover the study area. The rectangular grid had a side length of 1.0 km, whereas the hexagonal grid had a slightly larger side length of 1.074 km. Each hexagonal cell has a circumradius of 620m and a cell area 0.999km square approximately equivalent to 1km square rectangular grid ensuring comparable spatial resolution between two tessellations. From these two tessellation we set four spatial weight configurations which are; Rook, standard Queen, Distance-Weighted Queen and Hexagonal KNN-6 and then calculated the spatial autocorrelation.\r\n\r\nWe found Global spatial autocorrelation analysis confirmed significant and positive clustering of A. bungii occurrences across all configurations Moran's I = 0.4525--0.5380, Geary's C = 0.5527--0.5970, Getis-Ord G all p-value = 0.001, demonstrating that the spatial agglomeration characteristic is robust to the choice of tessellation geometry and neighbourhood definition. Local spatial autocorrelation analyses consistently identified two primary hotspot zones at the northern (Kazo--Gyoda) and the southeastern (Soka) parts of Saitama Prefecture across all configurations, providing spatially explicit evidence of persistent infestation core that may serve as priority zones for targeted surveillance and countermeasure deployment.\u3000Across all configurations hotspot areas were consistent, however coldspot delineation was found to be unstable with certain configurations inconsistent coldspot that undermine the accurate identification of management priority zones.\r\n\r\nHexagonal tessellation produced higher counts of similar cells associated with hotspot clusters compared to rectangular configurations due to six- neighbourhood structure equidistant by design, ensuring the spatial relationships are evaluated uniformly in all directions thereby reducing directional bias. In contrast, rectangular configurations evaluate neighbours at unequal distances, introducing directional bias that result in fragmented cluster boundaries and lower hotspot cell counts. The inconsistency of coldspot indicating the spatial clustering outcomes are sensitive to tessellation choice. Practitioners should therefore consider the tessellation configuration carefully when interpreting spatial cluster results for management planning, as different configurations may lead to different prioritisation of monitoring and eradication efforts, specifically at cold spot areas. \r\n\r\nThe limitation of different geometry structure should be acknowledged. Although, the comparable spatial resolution were used, the exact areal equivalence  between rectangular and hexagonal tessellation could not be perfectly achieved due to their difference geometric structure.\n\nDifference tessellation comparison in calculating spatial autocorrelation.",
+    "start_datetime": "2026-09-02T05:00:00Z",
+    "end_datetime": "2026-09-02T05:30:00Z",
+    "talk:code": "WAXYEY",
+    "talk:guid": "df5b3db8-c59b-544b-926a-8ce096b9049c",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos1",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "QHD7C8",
+        "name": "Narumasa Tsutsumida",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/QHD7C8/"
+      },
+      {
+        "code": "MEKYLZ",
+        "name": "Irhamillah",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/MEKYLZ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T05:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/WAXYEY/",
+      "title": "Rectangular vs Hexagonal Grid Tessellation for Spatial Analysis of Invasive Species: A Case Study of Aromia bungii in Saitama, Japan."
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/WAXYEY/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/QHD7C8/",
+      "title": "Narumasa Tsutsumida"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/MEKYLZ/",
+      "title": "Irhamillah"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/WAXYEY/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

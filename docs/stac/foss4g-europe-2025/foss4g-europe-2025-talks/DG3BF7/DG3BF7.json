@@ -1,0 +1,127 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "DG3BF7",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "NTRIP Reference Systems: Is there a solution to the lack of data?",
+    "description": "NTRIP (Networked Transport of RTCM via Internet Protocol) is a protocol to get the RTK corrections in your GPS device which is frequently used nowadays.\r\n\r\nNeither RTCM3 messages (as of version 3.3 of the standard), nor the NTRIP handshake include any clarification about the coordinate reference system (CRS) that applies to the corrected coordinates.\r\n\r\n\"NTRIP-catalog\" is an open-source open-data project to create a database that will allow any application to get a good understanding of the CRS that should be used with each provider.\r\n\r\nThis talk will explain the initial problem, how it is a nightmare for many users, and how we try to fix it with this project that is open to NTRIP providers and consumers.",
+    "start_datetime": "2025-07-18T09:00:00Z",
+    "end_datetime": "2025-07-18T09:30:00Z",
+    "talk:code": "DG3BF7",
+    "talk:guid": "917c0477-a76c-5f59-96b8-1fac68edafbf",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Open Data",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "SA01",
+    "talk:room_capacity": 130,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "P9YTT3",
+        "name": "Javier Jimenez Shaw",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/P9YTT3/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-18T09:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/DG3BF7/",
+      "title": "NTRIP Reference Systems: Is there a solution to the lack of data?"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/DG3BF7/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/P9YTT3/",
+      "title": "Javier Jimenez Shaw"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/jjimenezshaw/",
+      "title": "github.com/jjimenezshaw"
+    },
+    {
+      "rel": "related",
+      "href": "https://orcid.org/0000-0002-7227-9173",
+      "title": "orcid.org/0000-0002-7227-9173"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/DG3BF7/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/DG3BF7/resources/NTRIP_Reference_Systems__Is_there_a_solu_1lO2aLb.pdf",
+      "type": "application/pdf",
+      "title": "Slides",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/3FinKHq3rauWkmWSZtmnM3",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | NTRIP Reference Systems: Is there a solution to the lack of data?",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=QFH5PTgu-bw",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | NTRIP Reference Systems: Is there a solution to the lack of data?",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

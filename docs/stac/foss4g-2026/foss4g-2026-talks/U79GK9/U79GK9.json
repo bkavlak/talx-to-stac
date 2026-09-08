@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "U79GK9",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Styles-Data Co-Optimisation for Better Performance",
+    "description": "Jointly optimizing map styles and underlying data can significantly improve vector map performance. This talk shows how data- and style-driven techniques reduce tile size, speed up loading, and improve client rendering\u2014without compromising visual quality - based on results from real-world datasets and styles.\n\nThis talk explores how map styles and underlying data can be automatically optimized together to improve performance and resource efficiency. Using practical examples, it demonstrates how data- and style-driven techniques can reduce tile sizes, shorten loading times, and make client-side rendering more efficient.\r\n\r\nWith the introduction of the OpenStreetMap Foundation\u2019s vector tiles, the barrier to using high-resolution, client-rendered vector maps has never been lower. However, these maps often struggle with performance compared to server-rendered alternatives.\r\n\r\nHow can we close this gap?\r\n\r\nOne overlooked opportunity is the joint optimization of visual styles and underlying data. Existing systems - and even much of the research - treat these separately, leading to unnecessary data transfer, higher server load, and reduced client performance.\r\n\r\nIn this talk, I present my master\u2019s thesis, which approaches data- and style-driven optimization of client-rendered vector maps as a spatial query problem using database techniques. The result: reduced data size and complexity, and improved performance - without compromising visual quality, but at the cost of worse debuggability and flexibility.\r\n\r\nThe talk focuses on the real-world impact of these optimizations on network usage, rendering performance, and energy consumption across actual map styles and datasets.",
+    "start_datetime": "2026-09-01T06:35:00Z",
+    "end_datetime": "2026-09-01T06:40:00Z",
+    "talk:code": "U79GK9",
+    "talk:guid": "1c8111f5-83bb-598e-8056-9a0c5b88430f",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Lightning Talk",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Ran1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "BLGQDB",
+        "name": "Frank Elsinga",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/BLGQDB/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T06:37:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/U79GK9/",
+      "title": "Styles-Data Co-Optimisation for Better Performance"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/U79GK9/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/BLGQDB/",
+      "title": "Frank Elsinga"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/U79GK9/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

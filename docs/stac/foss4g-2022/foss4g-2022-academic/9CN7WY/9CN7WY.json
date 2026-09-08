@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "9CN7WY",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Development of Multi-dimensional Array Database Based Massive Satellite Information Processing and Analysis System: KIWI-Sat",
+    "description": "Information and communication technology (ICT) is mainly applied to finance, telecommunications, and public sectors. However, since the early 2010s, there have been efforts to apply ICT to various fields such as aerospace, life science, energy, and automobiles. Recently, artificial intelligence and big data technologies have also been applied in the aerospace field, among others. In the field of aerospace, earth observation attracts the most interest. \r\n\r\nRecently, the number of satellites for earth observation is increasing every year. As small satellites can be manufactured at low cost, the number of small satellite constellation for temporal and spatial resolution is increasing. urban change detection, disaster monitoring, and traffic analysis are typical applications. These applications will be increasing more.\r\n\r\nWhen performing earth observation using satellite images, it must process a large amount of satellite information in real time and analyze satellite images with artificial intelligence. These studies are being conducted in a variety of ways, and especially, the area of interest in this study is processing technology for storing and retrieving massive satellite images.\r\n\r\nAs a technology for handling massive satellite information, a multi-dimensional array database plays an important role. Representative examples based on open source software are Rasdaman and SciDB.\r\n\r\nIn 2018, we started developing KIWI-Sat, a system for processing and analyzing massive satellite information for especially supporting Korean satellite images such as KOMPSAT-2, KOMPSAT-3, KOMPSAT-5 etc.\r\n\r\nKIWI-Sat supports GeoTiff, HDF 5, and JP2 which are main data types of representative satellite images. It is mainly being developed to support Korean satellite images KOMPSAT-2, KOMPSAT-3, KOMPSAT-3A, KOMPSAT-5, GOCI, etc. also, overseas satellite images such as Sentinel 1A, Sentinel 1B, Sentinel 2B, SPOT, and PlanetScope also be supported. Because KIWI-Sat supports main data type\u2019s satellite images, Other satellite images can be easily supported.\r\n\r\nKIWI-Sat is being developed using a number of open source software such as Rasdaman, Pytorch, Django, Mapbox etc. First, it uses Rasdaman to process massive Raster-based satellite information, Pytorch to process AI inference module, and Django and Mapbox for visualizing Satellite images and overlay etc. KIWI-Sat is mainly composed of five subsystems: 1) 'K-SDA(KIWI-Sat Data Access)', which processes satellite information based on Rasdaman, an array database, 2) 'K-SAA(KIWI-Sat AI Analysis)', which is in charge of AI-based satellite image analysis, 3) 'K-SVI(KIWI-Sat Visualization)' that visualizes satellite image based on map, 4) 'K-SUT(KIWI-Sat Utility)' that provides utility functions such as system resource monitoring and upload/download of original satellite image, 5) OpenAPI for satellite information access There is a 'K-SOA(KIWI-Sat OpenApi)' in charge.\r\n\r\nIn this paper, KIWI-Sat will be mainly explained focusing on 'K-SDA', which processes massive satellite images, and 'K-SAA', which analyzes satellite images with artificial intelligence.\r\n\r\nFirst, K-SDA was developed using Rasdaman. In the early of development K-SDA, SciDB was used as database system, but as SciDB finished its open source policy. We adopted Rasdaman, a representative open source, as alternative database for processing satellite images. For this, function and performance comparison was performed, and Rasdaman has a good performance in the uploading original satellite to storing in Database. The search performance for the selected area was excellent in SciDB. Considering the real-time performance of recent satellite image analysis, it was confirmed that Rasdaman has an advantage. In processing satellite images, the multidimensional array database can handle storage and retrieval of array units with theSQL standard, and has many advantages as it supports massive raster data.\r\n\r\nSecond, it is 'K-SAA' that is linked to the satellite image-based AI module. KIWI-Sat has a structure that can be easily linked with the inference code and parameters of the previously developed artificial intelligence module. It works with the 'K-SVI' stage by receiving the satellite image obtained from 'K-SDA' and transmitting the obtained result to the DJango web framework by executing the inference code.\r\n\r\nWe installed a demo system at KARI to test and improve Kiwi-sat. KIWI-Sat was installed in Ubunt 20.04 LTS, and it stores KOMPSAT-2, KOMPSAT-3, KOMPSAT-3A, KOMPSAT-5, Planetscope satellite images to search for ROI for optical images and SAR images, AI interlocking, etc. Several tests are being carried out.\r\n\r\nIn this paper, we demonstrate the result of interworking of the KIWI-Sat and two AI technologies. First, for the KOMPSAT-3 satellite image, which is an optical image, the object detection result was compared to the object detection result to which the satellite image super-resolution technology was not applied and the object detection result to which the super-resolution technology was applied. This result shows that it is confirmed that the super-resolution technology can improve the object detection performance of satellite images. The test satellite image is KOMPSAT-3, and the area is Hong Kong.\r\n\r\nThe second shows the results of detecting the water system in the KOMPSAT-5 satellite image, which is a SAR satellite image.\r\n\r\nSo far, we have looked at KIWI-Sat, a large-capacity satellite image processing and analysis system. KIWI-Sat is currently under development. It plans to develop technologies for searching between multiple satellite images and extending satellite images to multiple nodes.",
+    "start_datetime": "2022-08-24T10:20:00Z",
+    "end_datetime": "2022-08-24T10:25:00Z",
+    "talk:code": "9CN7WY",
+    "talk:guid": "5ab0ffee-1837-5308-827d-f0eb20803d75",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "Room Hall 3A",
+    "talk:room_capacity": 85,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "HLPGBK",
+        "name": "HAN SANG HYUCK",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/HLPGBK/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T10:22:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/9CN7WY/",
+      "title": "Development of Multi-dimensional Array Database Based Massive Satellite Information Processing and Analysis System: KIWI-Sat"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/9CN7WY/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/HLPGBK/",
+      "title": "HAN SANG HYUCK"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/9CN7WY/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

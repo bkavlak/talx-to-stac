@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Q3VRNT",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "GeoServer-cloud: Cloud Native GeoServer in production environments",
+    "description": "In this presentation, we show how GeoServer-Cloud has matured into a production ready, cloud-native micro-services application. It has already been successfully deployed in production for three major organizations in their respective kubernetes environments.\r\n\r\nGeoServer-Cloud is a spring-boot/spring-cloud based micro services application built on top of GeoServer. The main goal of this implementation is to have an effective and easy way to scale the different services horizontally, splitting GeoServer geospatial services and API offerings into individually deployable components.\r\n\r\nAll the services communicate with each other via a messaging queue. There\u2019s no wait-time between configuration changes and their reflection across all services in the cluster, nor the need to reload the applications.\r\n\r\nThe last year has not only been spent hardening the code, but also a lot of emphasis has been put on the deployment procedures. In this presentation we will explain how to deploy GeoServer-Cloud in a kubernetes environment. We will showcase the official helm chart that can be used to install it everywhere.\r\n\r\nGeoServer-Cloud allows per-service auto scaling and server resource dimensioning, hence optimizing each service based on its performance characteristics. We will discuss how to achieve good load balancing based on service metrics.",
+    "start_datetime": "2022-08-26T09:30:00Z",
+    "end_datetime": "2022-08-26T10:00:00Z",
+    "talk:code": "Q3VRNT",
+    "talk:guid": "87a5c02e-9af6-52e8-8d4f-245047281685",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Verde",
+    "talk:room_capacity": 230,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "98DT9Z",
+        "name": "Andrea Borghi",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/98DT9Z/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/Q3VRNT/",
+      "title": "GeoServer-cloud: Cloud Native GeoServer in production environments"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/Q3VRNT/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/98DT9Z/",
+      "title": "Andrea Borghi"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/Q3VRNT/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=IB9uU8ndLxk",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | GeoServer-cloud: Cloud Native GeoServer in production environments",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "9CSGBM",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Orfeo ToolBox : roadmap to a more modular and pythonic OTB",
+    "description": "Orfeo ToolBox is now a mature software with more than 100 applications dedicated to remote sensing and data extraction.  \r\nIt is used both in academic works, in operational processing chains.\r\nOTB now needs to be more modular (\"core\", \"machine learning\", \"SAR\", \"feature extraction\") and also easier to use through Python. \r\nWe will present the recent developments and our roadmap.",
+    "start_datetime": "2023-06-30T12:00:00Z",
+    "end_datetime": "2023-06-30T12:30:00Z",
+    "talk:code": "9CSGBM",
+    "talk:guid": "6849e2b6-0931-5ea1-b487-93cf7bd1bc97",
+    "talk:event": "foss4g-2023",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Outdoor Stage",
+    "talk:room_capacity": 600,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "KDGWKX",
+        "name": "Yannick TANGUY",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/KDGWKX/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-30T12:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/9CSGBM/",
+      "title": "Orfeo ToolBox : roadmap to a more modular and pythonic OTB"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/9CSGBM/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/KDGWKX/",
+      "title": "Yannick TANGUY"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/9CSGBM/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/oQQKiVdb9q5Up9C4kv3nS2",
+      "type": "text/html",
+      "title": "2023 |  Orfeo ToolBox : roadmap to a more modular and pythonic OTB - Yannick TANGUY",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=ob4TqPyikuA",
+      "type": "text/html",
+      "title": "2023 |  Orfeo ToolBox : roadmap to a more modular and pythonic OTB - Yannick TANGUY",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

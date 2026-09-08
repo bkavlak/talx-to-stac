@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "GRFEHG",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Implementation of the Chinese Postman Problem in the Valhalla Routing Engine",
+    "description": "The Routing Engine Valhalla has been extended with a solution of the Chinese Postman Problem (CPP). This means that the most efficient route to travel all roads and paths in the area can now be calculated within a defined polygon.\r\nThe CPP is a well-known problem from graph theory, where the goal is to visit every edge in a graph while minimizing the distance traveled. In theory, a graph can be either directed, undirected, or mixed.\r\n In this implementation, the CPP has been implemented for directed graphs, as this corresponds to the representation of graphs in Valhalla and the data structure of OpenStreetMap (OSM). The latter forms the data basis for the calculation of the CPP route.\r\nThe CPP is solved using the following set of algorithms: the Floyd-Warshall algorithm, the Hungarian method, and the Hierholzer method. After successfully implementing the theoretical code base of the CPP, the main challenge was to make the route calculation executable using real-world road networks (OSM).\r\nA key problem with the implementation of the theoretical CPP is that in real-world graphs, not every edge is always reachable by all other edges. Therefore, various extensions had to be made to allow the computation of a CPP route using OSM data. For example, within a larger area, rarely all road segments are accessible exclusively via the roads located in the area. It is often necessary to leave the area to access these otherwise inaccessible parts of the road network.\r\nEventually, we were able to create a working prototype of the CPP in Valhalla. In addition to the function of freely selecting the area to be traveled, restricted zones, so called no-go areas,  can also be defined. After selecting the vehicle type (car, bicycle, pedestrian, etc.), the CPP route can be calculated, which also includes turn-by-turn navigation.",
+    "start_datetime": "2022-08-26T09:30:00Z",
+    "end_datetime": "2022-08-26T10:00:00Z",
+    "talk:code": "GRFEHG",
+    "talk:guid": "929be33b-e5c2-55ed-8dd6-aa2a5bc6525c",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Modulo 0",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "BDPNZK",
+        "name": "Andreas Jobst",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/BDPNZK/"
+      },
+      {
+        "code": "QX8FMS",
+        "name": "Ismail Sunni",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/QX8FMS/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/GRFEHG/",
+      "title": "Implementation of the Chinese Postman Problem in the Valhalla Routing Engine"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/GRFEHG/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/BDPNZK/",
+      "title": "Andreas Jobst"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/QX8FMS/",
+      "title": "Ismail Sunni"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/GRFEHG/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/6eD8buoZh7fUKXC239yRNE",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Implementation of the Chinese Postman Problem in the Valhalla Routing Engine",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=RHJwMYLz02M",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Implementation of the Chinese Postman Problem in the Valhalla Routing Engine",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

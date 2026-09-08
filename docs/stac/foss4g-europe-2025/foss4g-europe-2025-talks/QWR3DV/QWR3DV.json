@@ -1,0 +1,130 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "QWR3DV",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "Humanitarian data collection in browser-based Postgres",
+    "description": "In a humanitarian context, data collection can be divided into two main categories: proactive collection of data that may be useful for disaster response and recovery; reactive collection that is required to assess the situation on the ground during an event.\r\n\r\nThe Humanitarian OpenStreetMap Team has supported both types of mapping through the Tasking Manager platform. Going forward we will also be able to collect drone imagery collaboratively and add collected field-data to complement and match to the remote data, with the Drone TM and Field Mapping TM (FMTM) respectively.\r\n\r\nThere are often major hurdles for field-based data collection:\r\n1. How to effectively collaborate with multiple data collectors at the same time.\r\n2. How to work when there is poor connectivity in an area.\r\n\r\nWeb applications may be an acceptable choice to solve the first issue, but typically perform poorly when subjected to the second.\r\n\r\nWith a new paradigm in web development, local-first applications, this may no longer be an issue.\r\n\r\nWe can develop web-based applications that allow for both:\r\n- Real-time update for users undertaking collaborative data collection campaigns.\r\n- Fully offline data collection capability, with syncing and conflict resolution once connectivity is restored.\r\n\r\nThese capabilities have been achieved through some major landmarks over time:\r\n- Addition of WASM to the browser in 2017.\r\n- Implementation of databases in the web-browser (SQLite, Postgres), using WASM.\r\n- Introduction of smart data reconciliation mechanisms such as CRDTs.\r\n- Continual improved access to mobile phones globally, particularly in the introduction of high-performance smart phones.\r\n\r\nThis talk explores our journey implementing a local-first field mapping flow, with an example and demo to demonstrate its efficacy.",
+    "start_datetime": "2025-07-18T09:30:00Z",
+    "end_datetime": "2025-07-18T10:00:00Z",
+    "talk:code": "QWR3DV",
+    "talk:guid": "0284d576-6fd9-5799-a6a5-60233e7b44cb",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "CA01 (TomTom)",
+    "talk:room_capacity": 130,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "MM3EMS",
+        "name": "Sam Woodcock",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/MM3EMS/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-18T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/QWR3DV/",
+      "title": "Humanitarian data collection in browser-based Postgres"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/QWR3DV/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/MM3EMS/",
+      "title": "Sam Woodcock"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/QWR3DV/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-html": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/QWR3DV/resources/browser-postgres_bMUirnT.html",
+      "title": "Presentation (HTML)",
+      "roles": [
+        "data"
+      ]
+    },
+    "link-to-repo": {
+      "href": "https://gitlab.com/spwoodcock/presentations/-/tree/main/2025/foss4g-browser-postgres?ref_type=heads",
+      "title": "Link to repo",
+      "roles": [
+        "data"
+      ]
+    },
+    "presentation-ssh": {
+      "href": "https://foss@37.27.192.139",
+      "title": "Presentation (SSH)",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/63KyFYevcCRiwNggRYdCqX",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Humanitarian data collection in browser-based Postgres",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=WVkJ1R_YSKs",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Humanitarian data collection in browser-based Postgres",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "M3P3RH",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "From Data to Insights: Decision-Support tool application with the Goa Agriculture Department",
+    "description": "Decision-makers invest in innovations and programs to create positive social and environmental outcomes. However, there is no consistent or standardized method to evaluate the process or impact of these decisions. A decision support tool provides access to machine learning (ML) features, generating insights revealing core predictors behind key outcomes.\n\nThe decision-making process in impact investing often relies on heuristics and subjective assumptions, unable to address the complexity of the variables involved. This challenge affects approximately USD 1.57 trillion in impact investments (Hand et al., 2024) and roughly 46 percent of fund flows in the food and agriculture sectors in the Asia-Pacific region (CLIC, 2025). The need for dynamic information systems driven by feedback loops becomes increasingly crucial in these sectors, given the changes in climate, evolving crop calendars, and unpredictable extreme weather events. Tools leveraging free and open-source solutions (Python, FastAPI), data stacking with ML insights, and the use of GIS unlock insights driven by field data and infuse existing systems with greater transparency.\r\n\r\nThe decision-making landscape in agriculture is impacted by various input variables. From seed to soil conditions, land management practices to final crop yields \u2013 there are numerous variables impacting productivity. ML tools can identify the primary drivers of yield, leading to more targeted implementation of schemes and improved advisories for farmers. The Directorate of Agriculture of the Goa government collects crop data annually, yet continues to ask: What is driving rice productivity in the state? They seek insights without the burden of costly software or tools that require extensive technical training. Additionally, seek ways to investigate the impact of extreme weather events and the factors that help mitigate crop loss or maintain yields.\r\n\r\nGRANULENS addresses this challenge by offering an online tool that moves directly from data to insight. Through a concise three-step process, it distills complex datasets into clear, visualized insights that highlight the factors driving defined measures of success or risk. Its central aim is to deliver predictive analytics and actionable insights intuitively.\r\n\r\nBased on insights generated on rice yield models (n= 9445 over 3 Kharif cycles), the core drivers or predictors of rice yield were identified, and additions to the existing data collection system of the Department of Agriculture were made. This created a data framework that can investigate or reveal the core predictors of rice yield using the Kharif 2025 season's data, across its 11 administrative zones. \r\n\r\nThe state of Goa saw unprecedented rain close to the harvest season last year. The tool offers insights where farmers who harvested earlier (than the median harvest date range in a specific region/zone) mitigate crop loss due to the untimely rains. Additionally, in a smaller subset of the sample, the sowing date relative to the median of the region also played a role in driving yield. The tool can run any permutation combination of the success criteria (yield in this example) and set of input indicators to investigate the core drivers. It identifies the top 8-10 core predictors from over 70 indicators in the existing use case example using government data at the farmer field level. \r\n\r\nThe ML feature of the tool has been tested using datasets from agricultural research conducted at the International Maize and Wheat Improvement Center (CIMMYT) and Environmental Defense Fund.",
+    "start_datetime": "2026-09-03T02:30:00Z",
+    "end_datetime": "2026-09-03T03:00:00Z",
+    "talk:code": "M3P3RH",
+    "talk:guid": "296a6497-0bbc-5f1a-83f9-2d2fb2c390a5",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Ran2",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "LQZMEF",
+        "name": "Rishika Jerath",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/LQZMEF/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-03T02:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/M3P3RH/",
+      "title": "From Data to Insights: Decision-Support tool application with the Goa Agriculture Department"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/M3P3RH/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/LQZMEF/",
+      "title": "Rishika Jerath"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/M3P3RH/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

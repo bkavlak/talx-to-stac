@@ -1,0 +1,104 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "GQLTEA",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Cloud-based Remote Sensing with QGIS and Google Earth Engine Workshop",
+    "description": "This workshop will give you hands-on experience using new [Google Earth Engine Plugin for QGIS](https://github.com/gee-community/qgis-earthengine-plugin) to combine their desktop-based geospatial workflows with cloud-based datasets.\n\nGoogle Earth Engine is a cloud-based platform that enables working with large-scale earth observation datasets effectively. The new [Google Earth Engine Plugin for QGIS](https://github.com/gee-community/qgis-earthengine-plugin) brings this power to the desktop and enables QGIS users to combine their geospatial workflows with cloud-based datasets. The workshop will cover the following topics\r\n\r\n* Installing and setting up the Google Earth Engine Plugin for QGIS\r\n* Exploring the Google Earth Engine data catalog\r\n* Downloading images from GEE\r\n* Creating a Processing Model to use data from GEE Data Catalog.\r\n\r\nPre-requisites:\r\n\r\n* Install the Google Earth Engine Plugin for QGIS: This workshops requires the Google Earth Engine Plugin for QGIS.The plugin can be installed by the Plugin Manager from the official QGIS plugin repository and involves a few extra steps to authenticate with your Google Earth Engine account and set the Google Cloud project. Visit the [QGIS Earth Engine Plugin Installation Guide](https://gee-community.github.io/qgis-earthengine-plugin/installation/) for step-by-step instructions.",
+    "start_datetime": "2025-11-17T20:00:00Z",
+    "end_datetime": "2025-11-17T23:00:00Z",
+    "talk:code": "GQLTEA",
+    "talk:guid": "0dd29f51-c653-5349-9c5d-5f95f2f69402",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Workshop - Intermediate Level",
+    "talk:type": "Workshop",
+    "talk:language": "en",
+    "talk:room": "WF603",
+    "talk:room_capacity": 30,
+    "talk:duration_minutes": 180,
+    "talk:speakers": [
+      {
+        "code": "ATDGPE",
+        "name": "Ujaval Gandhi",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/ATDGPE/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-17T21:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/GQLTEA/",
+      "title": "Cloud-based Remote Sensing with QGIS and Google Earth Engine Workshop"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/GQLTEA/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/ATDGPE/",
+      "title": "Ujaval Gandhi"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/gee-community/qgis-earthengine-plugin",
+      "title": "Google Earth Engine Plugin for QGIS"
+    },
+    {
+      "rel": "related",
+      "href": "https://gee-community.github.io/qgis-earthengine-plugin/installation/",
+      "title": "QGIS Earth Engine Plugin Installation Guide"
+    },
+    {
+      "rel": "related",
+      "href": "https://spatialthoughts.com/",
+      "title": "Spatial Thoughts"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/GQLTEA/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

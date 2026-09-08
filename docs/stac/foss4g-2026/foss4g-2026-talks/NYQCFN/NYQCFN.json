@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "NYQCFN",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Wave-like Propagation Heatmap from Discrete Data Using Geospatial Indexing Methods",
+    "description": "To transform discrete geospatial data into an insightful heatmap, this proposal focuses on the selection of geospatial indexing methods with traversal functionality, and the propagation of data like waves through space. This approach is implemented using open source libraries and applied to two real-world phenomena in Japan.\n\n# Overview\r\nTransforming discrete geospatial data into an insightful heatmap is a challenge in geospatial visualization. To address this, my approach relies on geospatial indexing methods that support traversal functionality, enabling values to propagate across neighboring indexed cells like a wave across space. Designing a propagation from discrete data comes down to two key questions.\r\n1. Is the propagation value distance-based or area-based?\r\n2. Is the propagation front directional or concentric?\r\n\r\nThese frameworks are applied to two real-world phenomena in Japan, with WebGIS applications built to visualize the results.\r\n1. Cherry blossom bloom propagation using H3\r\n2. Railroad accessibility propagation using A5\r\n\r\nThe backend is built on PySpark and Apache Sedona for nationwide parallel distributed processing, with the frontend WebGIS built on React and Deck.gl. The backend outputs JSON files optimized for rendering performance from the frontend. The entire stack, including H3 and A5 as spatial index libraries, is implemented with open source libraries.\r\n\r\n# Cherry Blossom Bloom Propagation\r\nCherry blossom blooming propagates as a directional wave, advancing from blooming to non-blooming areas. This phenomenon is modeled by H3 with distance-based indexing and isotropic cell structure.\r\nThe dataset is open data from the Japan Meteorological Agency, covering bloom start and full bloom dates at stations nationwide.\r\nEach observation location is mapped to an H3 cell and sorted by date. Propagation is computed between adjacent observation cells in the date order. For each cell, surrounding H3 cells within grid distance are enumerated using gridDisk. A dot product calculation determines whether a candidate cell lies in the forward direction of the bloom front, and qualifying cells are assigned linearly interpolated bloom dates. Missing values are filled using the well-known characteristic that cherry blossoms take roughly seven days from bloom start to full bloom, and another seven days to bloom end.\r\n\r\n# Railroad Accessibility Propagation\r\nRailroad accessibility represents passenger population density around stations, and propagates concentrically. This phenomenon is modeled by A5 with area-based indexing and equal-area cell structure.\r\nThe dataset is open data from the Ministry of Land, Infrastructure, Transport and Tourism, covering annual passenger volume per station. \r\nEach station is mapped to an A5 cell, and passenger volume propagates outward using gridDisk up to k=3 rings. The A5 cell resolution and k=3 are both derived from a usable distance of 3,500 meters, where each ring covers roughly 500 meters. Passenger volume decays geometrically by 0.7 per ring, with contributions from all stations aggregated per cell.\r\n\r\n# Conclusion\r\nThis proposal demonstrated that translating discrete phenomena into geometric properties simultaneously determines the choice of spatial index and the design of the propagation algorithm. Cherry blossom bloom propagation, directional and distance-based, leads to H3. Railroad accessibility propagation, concentric and area-based, leads to A5. These two questions, whether propagation is distance-based or area-based, and whether it is directional or concentric, serve as a practical framework for designing propagation heatmaps from discrete data using open source libraries.",
+    "start_datetime": "2026-09-02T04:00:00Z",
+    "end_datetime": "2026-09-02T04:30:00Z",
+    "talk:code": "NYQCFN",
+    "talk:guid": "e0f06271-f106-5c76-af49-9209c01090d4",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room2",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "EY3WSN",
+        "name": "Takashi Nojima",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/EY3WSN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T04:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/NYQCFN/",
+      "title": "Wave-like Propagation Heatmap from Discrete Data Using Geospatial Indexing Methods"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/NYQCFN/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/EY3WSN/",
+      "title": "Takashi Nojima"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.linkedin.com/in/takashi-nojima-76279028a/",
+      "title": "www.linkedin.com/in/takashi-nojima-76279028a"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/NYQCFN/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "cherry-blossom-bloom-propagation-webgis": {
+      "href": "https://staging.d18tv0ljtex9ab.amplifyapp.com/",
+      "title": "Cherry Blossom Bloom Propagation WebGIS",
+      "roles": [
+        "data"
+      ]
+    },
+    "railroad-accessibility-propagation-webgis": {
+      "href": "https://staging.d2dp0reueiqjmv.amplifyapp.com/",
+      "title": "Railroad Accessibility Propagation WebGIS",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

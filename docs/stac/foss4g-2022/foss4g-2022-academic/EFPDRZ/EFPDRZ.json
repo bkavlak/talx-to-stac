@@ -1,0 +1,93 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "EFPDRZ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "InforSAT: an online Sentinel-2 multi-temporal analysis toolset using R CRAN",
+    "description": "Remote sensing via orbiting satellite sensors is today a common tool to monitor numerous aspects related to the Earth surface and the atmosphere. The amount of data from imagery have increased tremendously since the past years, due to the increase in space missions and public and private agencies involved in this activity. A lot of these data are open-data, and academics and stakeholders in general can freely download and use it for any type of application. The bottle-neck is often not data availability anymore, but the processing resources and tools to analyse it. In particular multi-temporal analysis requires stacks of images thus digital space for storage and processing workflows that are tested and validated. Processing image by image is often not a viable approach anymore. Several solutions have been created to support centralized and automated processing of multiple images. Software as a service (SaaS) is becoming more common among users. The most popular to this day is probably Google Earth Engine (GEE), which gives users Petabytes of data at their fingertips, access to processing resources and an interface that provides a large number of tools for data processing via Javascript or Python programming environments (Gorelick et al., 2017). What took before days if not months can now be run in a few minutes or hours. GEE is available and free for academics as of today, but it must be noted that it is not to be taken for granted in the future. Other initiatives such as Copernicus RUS project that has closed at the end of 2021 also provided access to data (Copernicus data) and computing resources, to promote uptake of Copernicus data via educational and research activities. \r\n\r\nMoving towards SaaS solutions usually requires a provider that puts software on the cloud and a channel, usually a web portal, for accessing data and tools. The R CRAN programming environment has all the \u201cingredients\u201d that are needed to create such SaaS in a local machine or on a server. We propose and discuss here a solution, called InforSAT, that was created ad hoc for centralizing satellite imagery processing, taking advantage of a remote server with multiple processors and thus also parallel processing solutions. The R Shiny package was used for connecting online widgets for user interaction with R tools for specific processing of imagery that is done via other specific packages. To this date only Sentinel-2 Level 2C data are considered, but the system is scalable to other sensors and processing levels. The tools that are available to this day are focused on multi-temporal analysis, to support the academic community involved in particular in vegetation analysis, whose phenology has notable changes inter- and intra-annually. The tools are available via a web portal to reach research teams that are not so familiar to satellite image analysis, to allow simplified extraction of multi-temporal data from Sentinel-2 images. Figure 1 shows the interface and figure 2 the result of extracting a boxplot of vegetation index values over a specific time window. \r\n\r\nAll image data are stored in a user-defined folder on the server, and a script checks weekly (or at other user-defined intervals) for new Sentinel-2 images and automatically downloads them and stores metadata in an R list structure. The metadata stores image paths, bands and also histograms of values for each band, to use for defining color-stretching parameters during image rendering on the browser. Regarding visualization, users can render real-color and false-color composites defining their own band combinations, and can also create and raster layer with the values of common vegetation indices or define their own index by providing an equation on the interface (see Figure 1). The images to be rendered on the user browser are processed on-the-fly from the original JPEG2000 format, also for calculating the index raster and the color-composites. Each index raster is calculated every time the user re-draws actively the raster, by sampling the original image with points that correspond to the screen pixels, reprojected from screen coordinates to image coordinates. Depending on the screen size and on the area, these are around one million points, that are then converted to an image and rendered on screen with a fixed scale that depends on the expected minimum and maximum values of the index (e.g. for the normalized vegetation index that would be between -1 and 1) or a scale that automatically stretches between the 10th and 90th percentile of the frequency distribution of the real values. The color-composites are automatically drawn at any scale using the intrinsic overviews for each Sentinel-2 band that are present from the JPEG2000 format. Regarding multi-temporal analysis, users can define one ore more polygons over the area and for each polygon extract single pixel values (digital numbers \u2013 DN) and aggregated zonal statistics for each and all available images in a few seconds, with or without using parallel processing mode. Users can download the multi-temporal data, i.e. the DN values, in table format for further analysis. The table is in long format and has a column with a timestamp, one with polygon ID and one column for each band with values. In both visualization and multi-temporal analysis, users can decide a threshold for masking according to cloud and snow probability, which are available products from the sen2cor processing of Sentinel-2 to level 2C. In the near future this solution will be integrated in an R package, allowing users to easily download, install and replicate their own portal locally or in their own server.  Code is available on Github at https://github.com/fpirotti/inforsat",
+    "start_datetime": "2022-08-24T12:15:00Z",
+    "end_datetime": "2022-08-24T12:45:00Z",
+    "talk:code": "EFPDRZ",
+    "talk:guid": "eab10312-b3d1-51b4-878b-2cea14bc56db",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room Modulo 3",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "MHBAJK",
+        "name": "Francesco Pirotti",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/MHBAJK/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T12:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/EFPDRZ/",
+      "title": "InforSAT: an online Sentinel-2 multi-temporal analysis toolset using R CRAN"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/EFPDRZ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/MHBAJK/",
+      "title": "Francesco Pirotti"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/fpirotti/inforsat",
+      "title": "github.com/fpirotti/inforsat"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/EFPDRZ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

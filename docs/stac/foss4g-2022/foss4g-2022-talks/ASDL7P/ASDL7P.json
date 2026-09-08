@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "ASDL7P",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "WebAssembly4G: Where we are, and where we're heading",
+    "description": "WebAssembly's adoption is gaining traction and still, its potential is not yet fully utilized, especially for the processing and visualization of geo data in and outside of browsers. In this session I will give a technical introduction to WebAssembly. I will show its current state and adaptation in FOSS4G projects and will talk about the ongoing advancements of the technology and possible future scenarios.\r\n\r\nThis will also be a hands-on session, where after showing how to get up and running, I will share my experience, tips and tricks collected while porting the latest versions of GEOS, PROJ, GDAL, SpatiaLite and osgEarth to the web platform. \r\n\r\nThe composition of existing OSGeo/FOSS C/C++ libraries in a portable and sandboxed form also brings many advantages outside of browsers. The talk will close with some demos about how WebAssembly enables us to build for the web, as well as for any other platform.",
+    "start_datetime": "2022-08-26T12:45:00Z",
+    "end_datetime": "2022-08-26T13:15:00Z",
+    "talk:code": "ASDL7P",
+    "talk:guid": "dcdb7826-7934-5351-88a8-1e89f9dd5c30",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "General online",
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "CBERLW",
+        "name": "Michael Schmuki",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/CBERLW/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T13:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/ASDL7P/",
+      "title": "WebAssembly4G: Where we are, and where we're heading"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/ASDL7P/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/CBERLW/",
+      "title": "Michael Schmuki"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/ASDL7P/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

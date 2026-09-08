@@ -1,0 +1,108 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "8JTAXF",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "State of DGGAL (Discrete Global Grid Abstraction Library)",
+    "description": "Update on the FOSS Discrete Global Grid Abstraction Library (DGGAL), focusing on support for new Discrete Global Grid Reference Systems (DGGRSs), use of the library in the OGC AI-DGGS Pilot for Disaster Management, and new high-level DGGAL \"High Vibes\" tools https://dggal.org https://github.com/ecere/dggal\n\nThis session will provide an update on latest developments related to the Discrete Global Grid Abstraction Library (DGGAL), focusing on:\r\n- Support for new Discrete Global Grid Reference Systems (DGGRSs),\r\n- Use of DGGAL as a foundational library for the OGC AI-DGGS Pilot for Disaster Management (https://aidggs-pilot.hartis.org/) by organizations participating in that project,\r\n- DGGAL \"High Vibes\", a set of high-level vibe-coded Python tools to import/export data into DGGS-quantized data stores and serve it through OGC API - DGGS\r\n\r\nDGGAL presents a common interface to perform operations on DGGRSs, facilitating the implementation of Discrete Global Grid Systems (DGGS), including implementing Web APIs based on the OGC API - DGGS Standard (https://docs.ogc.org/is/21-038r1/21-038r1.html).\r\n\r\nDGGAL for Python can be installed with `pip install dggal` (https://pypi.org/project/dggal/), and High Vibes tools with `pip install dgg-vibes`.\r\n\r\nDGGAL supports all nine DGGRS from OGC API - DGGS Annex B (https://docs.ogc.org/is/21-038r1/21-038r1.html#annex-dggrs-def), plus additional DGGRSs.\r\n\r\nThe library is written in the eC programming language (https://ec-lang.org) for optimal native performance, with object-oriented bindings for C, C++ Python, Rust, Java and JavaScript available (example bindings usage: https://github.com/ecere/dggal/tree/main/bindings_examples).\r\n\r\nThe `dgg` command-line tool allows performing various operations including generating grids at different refinement levels, querying a particular zone identifier, identifying the zone at geospatial coordinates, listing zones within a bounding box, resolving sub-zone indices and converting DGGS-JSON to GeoJSON.\r\n\r\nThe DGGAL \"High Vibes\" tools for working with UBJSON DGGS Data Stores include:\r\n\r\n- `dgg-import`: Import from a raster (e.g., GeoTIFF) or vector (GeoJSON), quantizing to a specific DGGRS (e.g., `dgg-import gebco.tiff --dggrs IVEA4R --fields Elevation`)\r\n- `dgg-fetch`: Fetch (acting as a client) from an OGC API - DGGS deployment (e.g., `dgg-fetch https://example.com/collections/gebco/dggs/IVEA4R`)\r\n- `dgg-export`: Export a GeoTIFF or GeoJSON (e.g., `dgg-export data out.tif --collection gebco --level 10`)\r\n- `dgg-serve`: Deploy a server implementing OGC API - DGGS to provide access to DGGS-quantized collections (e.g., `python dgg-serve.py --data-root data --port 8080`)\r\n- `dgg-fg`: Utility implementing support for DGGS-JSON-FG (an extension of OGC Features and Geometry JSON, itself an extension of GeoJSON, quantizing points of vector geometry to a DGGRS without rasterizing) including tiling to DGGS-JSON-FG and converting one file or a set of tiles to GeoJSON (generalization of vector tiles to arbitrary shapes, such as \"HexVecTiles\")\r\n\r\nThe implementation of a Vision Transformer (ViT) / Masked Auto Encoder (MAE) model trained on a DGGAL High Vibes DGGS-UBJSON Data Store will also be presented.\r\n\r\nAcknowledgement\r\nFinancial support provided by GeoConnections, a national collaborative initiative led by Natural Resources Canada. GeoConnections supports the modernization of the Canadian Geospatial Data Infrastructure (CGDI). The CGDI is the collection of geospatial data, standards, policies, applications, and governance that facilitate its access, use, integration, and preservation.",
+    "start_datetime": "2026-09-01T07:30:00Z",
+    "end_datetime": "2026-09-01T08:00:00Z",
+    "talk:code": "8JTAXF",
+    "talk:guid": "7d80a91f-b229-5f2b-947f-56eb8aa16487",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room4",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "KNRWPK",
+        "name": "Jerome St-Louis",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/KNRWPK/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T07:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/8JTAXF/",
+      "title": "State of DGGAL (Discrete Global Grid Abstraction Library)"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/8JTAXF/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/KNRWPK/",
+      "title": "Jerome St-Louis"
+    },
+    {
+      "rel": "related",
+      "href": "https://dggal.org",
+      "title": "dggal.org"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/ecere/dggal",
+      "title": "github.com/ecere/dggal"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/ecere/dggal/tree/main/bindings_examples",
+      "title": "github.com/ecere/dggal/tree/main/bindings_examples"
+    },
+    {
+      "rel": "related",
+      "href": "https://example.com/collections/gebco/dggs/IVEA4R`",
+      "title": "example.com/collections/gebco/dggs/IVEA4R`"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/8JTAXF/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

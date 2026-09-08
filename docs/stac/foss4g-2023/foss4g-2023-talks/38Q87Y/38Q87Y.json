@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "38Q87Y",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "State of GeoRasterLayer (for Leaflet)",
+    "description": "We will discuss the state of [GeoRasterLayer](https://github.com/geotiff/georaster-layer-for-leaflet), a JavaScript library that renders GeoTIFFs directly on a LeafletJS map without a server.  This will include an introduction of new features, including the following:\r\n- shifting warping off the main thread to a pool of web workers\r\n- improved support for extent calculations by increasing vertex density of polygon representations of bounding boxes\r\n- high-resolution support by using [geowarp](https://github.com/danieljdufour/geowarp)\r\n\r\nWe will also look to the future and discuss the following:\r\n- support for raster types other than GeoTIFF/COG\r\n- geozarr support\r\n- similar integrations into other web mapping libraries\r\n\r\nAudience feedback and ideas will be most welcome!",
+    "start_datetime": "2023-06-28T13:00:00Z",
+    "end_datetime": "2023-06-28T13:30:00Z",
+    "talk:code": "38Q87Y",
+    "talk:guid": "3665a1d5-e537-5eb6-a752-9216e6a53bd4",
+    "talk:event": "foss4g-2023",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Lumbardhi",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "SGXLDH",
+        "name": "Daniel J. Dufour",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/SGXLDH/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T13:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/38Q87Y/",
+      "title": "State of GeoRasterLayer (for Leaflet)"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/38Q87Y/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/SGXLDH/",
+      "title": "Daniel J. Dufour"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/geotiff/georaster-layer-for-leaflet",
+      "title": "GeoRasterLayer"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/danieljdufour/geowarp",
+      "title": "geowarp"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/38Q87Y/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/aa4wBZkCruR3JJ1vubwRb6",
+      "type": "text/html",
+      "title": "2023 | State of GeoRasterLayer (for Leaflet) - Daniel J  Dufour",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=4UdMme4_Xks",
+      "type": "text/html",
+      "title": "2023 | State of GeoRasterLayer (for Leaflet) - Daniel J  Dufour",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

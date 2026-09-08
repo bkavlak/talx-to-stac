@@ -1,0 +1,139 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "ELA8HN",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Towards open and accessible weather forecast data",
+    "description": "The European Centre for Medium-Range Weather Forecasts (ECMWF) is an independent intergovernmental organisation which is producing and disseminating numerical weather and environmental predictions to its users in national meteorological services as well as commercial customers. As of recently, ECMWF started the move towards serving data to users beyond operational forecasters in Member states and commercial customers for a charge, by adopting an open data policy which will be implemented in phases from 2020 to 2025. The first phase included opening hundreds of [web forecast charts](https://apps.ecmwf.int/webapps/opencharts) and making archived data available under a Creative Commons (CC BY 4.0) open licence in 2020. The next step was in January 2022 when the production of [open subset of real time medium range forecast](https://www.ecmwf.int/en/forecasts/datasets/open-data) began. \r\n\r\nThis phased move towards free and open data aims to support creativity and innovation in the field of scientific research as well as weather applications. It also represents a step towards more reproducible open science. However this can not be achieved by only opening the real time data. The users need to be able to find and easily use the data and integrate it into their own research work or application workflows. Reliable access to the data is achieved by making it available both through ECMWF https service and via the Microsoft Azure cloud, where the archived data is kept as well.\r\n\r\nIn order for the data to be more FAIR (Findable, Accessible, Interoperable and Reusable), additional development work is being done. This work includes the design of an [API](https://github.com/ecmwf/ecmwf-opendata) to easily download the geospatial data, and the development of open source Python libraries to [process](https://github.com/ecmwf/ecmwf-data) and [visualise](https://github.com/ecmwf/magpye) it. These open source libraries make use of open geospatial software, such as proj to deal with different projections. To present these new tools and help users understand how to retrieve and process ECMWF data, [a set of Jupyter notebooks](https://github.com/ecmwf/notebook-examples/tree/master/opencharts) was created, each of them reproducing one open weather forecast chart from the downloading the data to the visualisation. \r\n\r\nThis talk will give a short overview of which data is available in the open data set, and will then focus on the software and Jupyter notebooks development.",
+    "start_datetime": "2022-08-25T15:15:00Z",
+    "end_datetime": "2022-08-25T15:45:00Z",
+    "talk:code": "ELA8HN",
+    "talk:guid": "a484e214-6599-5a1f-985a-1361fbaab8c4",
+    "talk:event": "foss4g-2022",
+    "talk:track": "A European approach to geospatial open source",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Auditorium",
+    "talk:room_capacity": 1000,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "NJYHVC",
+        "name": "Milana Vuckovic",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/NJYHVC/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T15:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/ELA8HN/",
+      "title": "Towards open and accessible weather forecast data"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/ELA8HN/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/NJYHVC/",
+      "title": "Milana Vuckovic"
+    },
+    {
+      "rel": "related",
+      "href": "https://apps.ecmwf.int/webapps/opencharts",
+      "title": "web forecast charts"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.ecmwf.int/en/forecasts/datasets/open-data",
+      "title": "open subset of real time medium range forecast"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/ecmwf/ecmwf-opendata",
+      "title": "API"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/ecmwf/ecmwf-data",
+      "title": "process"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/ecmwf/magpye",
+      "title": "visualise"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/ecmwf/notebook-examples/tree/master/opencharts",
+      "title": "a set of Jupyter notebooks"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/ELA8HN/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/8QswmWErZvuwKKN34K595m",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Towards open and accessible weather forecast data",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=Qh9LMHAFNJQ",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Towards open and accessible weather forecast data",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

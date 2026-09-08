@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "9FVHFA",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Assessment of Display Performance and Comparative Evaluation of Web Map Libraries for Extensive 3D Geospatial Data",
+    "description": "This study compares CesiumJS and MapLibre GL JS performance for displaying large-scale 3D geospatial data from Japan's PLATEAU and VIRTUAL SHIZUOKA projects, finding CesiumJS excels with 3D Tiles while MapLibre GL JS performs better with lightweight vector data.\n\nIn recent years, Japan has experienced significant advancements in the development of large-scale three-dimensional urban models, exemplified by initiatives such as Project PLATEAU, spearheaded by the Ministry of Land, Infrastructure, Transport and Tourism, and VIRTUAL SHIZUOKA, undertaken by Shizuoka Prefecture. As of March 2025, Project PLATEAU offers open data for 3D models (LOD1) encompassing over 23 million buildings across 260 cities. Concurrently, VIRTUAL SHIZUOKA has generated 30 terabytes of 3D point cloud data, covering the entire prefecture (7,200 km\u00b2), which is utilized as a digital twin at a 1:1 scale. The efficient visualization of these extensive datasets within web map environments has emerged as a critical technical challenge in the construction of digital social infrastructure.\r\n\r\nIn this study, we focused on Numazu City in Shizuoka Prefecture (population approximately 180,000; area 186.85 km\u00b2), which contains both datasets. We converted the 3D point cloud data (LAS format) from VIRTUAL SHIZUOKA and the PLATEAU building models (CityGML format) into a unified data format to evaluate web map display performance. During the data conversion process, we employed open-source tools such as \u201cPDAL\u201d and \u201cPLATEAU GIS Converter\u201d to convert the data to the 3D Tiles 1.1 specification\u2014endorsed as an OGC standard in 2023\u2014and the MVT (Mapbox Vector Tiles) format. The 3D Tiles 1.1 specification marks a substantial advancement from the previous 1.0 version, incorporating technological innovations such as optimized hierarchical level of detail (HLOD), implicit tiling, support for multigranular semantic metadata, and direct integration with glTF 2.0, which have significantly enhanced the streaming performance of large-scale geospatial data.\r\n\r\nA comparative analysis was undertaken to evaluate the display performance of two prominent WebGL-based web mapping libraries: CesiumJS and MapLibre GL JS, the latter integrated with deck.gl and loaders.gl. CesiumJS is widely regarded as the de facto standard for global-scale 3D visualization, noted for its efficient streaming of large datasets and hierarchical level of detail (HLOD) management, which is enabled by its optimized rendering pipeline and native support for 3D Tiles. In contrast, MapLibre GL JS is architecturally designed for vector tile delivery and, through its integration with deck.gl, offers high-performance 3D rendering capabilities. These libraries are based on distinct design philosophies and optimization algorithms, necessitating a detailed comparison of their performance characteristics tailored to specific use cases.\r\n\r\nPerformance was evaluated using Google Chrome's Lighthouse mode, which conducted a quantitative assessment based on five core web vital metrics: First Contentful Paint, Largest Contentful Paint, Speed Index, Total Blocking Time, and Cumulative Layout Shift. These metrics specifically examine five critical elements: the duration required for the initial content to become visible, the time until the largest element on the page (such as an image or heading) is rendered, the speed at which the overall loading process is perceived visually, the total duration during which the page is unresponsive, and the visual stability of the layout of the page. Notably, the introduction of Interaction to Next Paint (INP) in March 2024 facilitated a more precise measurement of user interaction responsiveness in 3D applications than the previous method. For the evaluation, two scales were established: a broad 10 km-square grid (second-level mesh) and a narrow 1 km-square grid (third-level mesh), which are the standard data preparation ranges in Japan. This approach enabled a systematic analysis of the influence of data volume on display performance.\r\n\r\nThe evaluation indicated that CesiumJS demonstrates superior performance in loading 3D Tiles, particularly during the initial rendering of extensive point cloud data (secondary meshes). Conversely, MapLibre GL JS exhibited remarkable speed in rendering lightweight MVT data, achieving significant results in initial content display (FCP) and layout stability (CLS). In comparing data formats, 3D Tiles were found to be more memory efficient due to their incremental loading capabilities for large datasets, whereas the MVT format offered enhanced responsiveness owing to its lightweight nature. Notably, the hierarchical level-of-detail functionality of 3D Tiles became apparent when transitioning from tertiary to secondary meshes, effectively mitigating performance degradation in wide-area displays. These quantitative assessments have elucidated optimal library selection guidelines based on specific use cases and the technical constraints associated with distributing large-scale three-dimensional data on the web.\r\n\r\nThe technical significance of this study is underscored by its comprehensive performance evaluation utilizing practical-scale datasets amidst a period of technological innovation characterized by the increasing adoption of WebGPU and the standardization of the OGC 3D Tiles 1.1 specification. Specifically, the study offers technical insights into large-scale datasets generated by Japan\u2019s 3D geospatial data development projects and elucidates implementation guidelines for web-based 3D GIS applications. Additionally, a two-screen comparison viewer was developed, facilitating the simultaneous comparison of different datasets and visualization methods, thereby enabling an intuitive understanding of the data differences. Looking ahead, it is imperative to consider compatibility with next-generation technologies, such as data development using CityGML 3.0 and integration with WebXR.\r\n\r\nCo-Authors: Yohei SHIWAKU\uff08Geolonia Inc.\uff09, Takayuki MIYAUCHI (Geolonia Inc.), Daisuke YOSHIDA (Osaka Metropolitan University) and Yuichiro NISHIMURA (Nara Women's University)",
+    "start_datetime": "2025-11-18T22:00:00Z",
+    "end_datetime": "2025-11-18T22:25:00Z",
+    "talk:code": "9FVHFA",
+    "talk:guid": "ee210db2-12a1-5bcf-b7bb-01b55000ae35",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Academic",
+    "talk:type": "Academic Paper",
+    "talk:language": "en",
+    "talk:room": "WG404",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "RDUYKQ",
+        "name": "Toshikazu Seto",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/RDUYKQ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-18T22:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/9FVHFA/",
+      "title": "Assessment of Display Performance and Comparative Evaluation of Web Map Libraries for Extensive 3D Geospatial Data"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/9FVHFA/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/RDUYKQ/",
+      "title": "Toshikazu Seto"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/9FVHFA/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=sClR2qP3658",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Assessment of Display Performance and Comparative Evaluation of Web Map Libraries",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

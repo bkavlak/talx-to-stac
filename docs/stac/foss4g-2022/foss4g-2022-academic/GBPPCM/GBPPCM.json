@@ -1,0 +1,103 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "GBPPCM",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "OGC API State of Play - A practical testbed for the National Spatial Data Infrastructure in Switzerland",
+    "description": "# Context and purpose\r\nOGC standards shape a backbone within the OSGeo community in defining a pathway to software implementation toward the standardization of geospatial information and related services ensuring interoperability between FOSS4G software. Since 2016, the OGC has initiated the specification of a new generation of standards based on the OpenAPI so as to facilitate integration in modern web applications and systems.\r\n\r\nUnderpinning the OGC API roadmap, the development of all these standards represents a significant amount of activities carried out by various OGC working groups, testbeds and pilots from the OGC Innovation Program. Some standards have been approved, many are still under development and it is therefore not always easy to follow the progress. Indeed, while some geodata infrastructures involving national entities are already deploying this new generation (e.g. Canada MSC GeoMet), some initiatives run a phase of experimentation (e.g. Geonovum Testbed Platform for the Dutch geoportal).\r\n\r\nFrom a practical perspective, how can organizations and institutions anticipate to leverage this new generation of standards to deploy a geospatial data infrastructure? This issue is what this article is about, introducing a project that seeks to address it by running an OGC API testbed platform with a special focus to the Swiss context. This project is embedded in the Resources for the NSDI Program (related to the Swiss Geoinformation Strategy) with the purpose to contribute to the upcoming revision of e-government standards regarding geoinformation (e.g. eCH-0056 Geoservices application profile). The project is about a study jointly carried out by swisstopo and complementary academic partners (HEIG-VD, SUPSI, UNIGE).\r\n\r\n# Approach\r\nAs a result of the above mentioned complexity and overlapping of existing standards, the project team has applied a benchmark study approach, where different standards are tested in experimental cases and evaluated in comparison of other existing solutions. The outcomes include both quantitative and qualitative results that will be condensed in practical recommendations for implementation and adoption of the OGC API family.\r\n\r\nThis research aims at evaluating a selection of different OGC specifications as well as different server and client implementations in order to define e-government recommendations to promote collaboration between authorities, companies and individuals.\r\n\r\nThe selected mainstream topic for the experimental cases is about climate change. While not yet connected in a complex pilot study, each case represents one of the required components: from sensing (remote/in-situ) to data visualization and exploration, through data offering and elaboration. The study is organized in three parts:\r\n\r\n* The hydro-meteorological monitoring network of the Canton Ticino, which is currently managed using the SOS standard, has been selected as representative of a practical implementation of basic data required for the climate change impact assessment pipeline. The network, which has a 40 years long time-series, is currently composed of 60 stations and 140 sensors observing precipitation, air temperature and humidity, water temperature, river height. Collected information is operationally used by the local administration to design and actuate water resources protection and allocation to guarantee a sustainable management of the resource and the natural environment while protecting from the impacts of extreme events like floods and droughts. The Sensor Things API operational applicability is evaluated by testing this standard to fulfil all the major in place daily practical operations like for example data quality management, data sharing with third parties, data collection from vendor specific sensors and data analyses and visualization.\r\n\r\n* Switzerland was the second country in the World after Australia to have an operational satellite Earth Observations (EO) Data Cube. The Swiss Data Cube (SDC) is a tera-scale analytical cloud-computing platform allowing users the access, analysis and visualize up to 38 years (1984-2022) of consistent calibrated and spatially co-registered optical and radar Analysis Ready Data. The SDC leverages the information power of Big Earth Data for monitoring the environment by minimizing time and knowledge required for analysing large volumes of raster data. The derived analytical products provide an effective means to build socially robust, replicable, and reusable knowledge, to generate ready-to-use products supporting evidence-based decisions. Currently, all the data products and their related description (i.e. metadata) are accessible through \u201ctraditional\u201d OGC services such as WMS, WCS, CSW. For example, the Normalized Difference Water Index (NDWI) time-series can be used to estimate and monitor the evolution of vegetation water content over the entire country. The aim of the experimental case will be to use a set of new OGC APIs implemented on top of the Swiss Data Cube to track the evolution of NDWI. To reach this objective we will implement the OGC API Coverages, Processes, EDR, Records, STAC APIs to access NDWI raster data time-series and compute zonal statistics using different administrative units/levels (e.g. national, canton).\r\n\r\n* Given past activities of the team project related to portrayal interoperability with OGC standards like WMS, WMTS, SLD/SE, this part aims to challenge a set of specifications of the OGC API, especially Features, Tiles, Maps, Styles and to provide insights about OGC SymCore. At one side, the experimental case will consider outputs from running Geoclimate, an open source geospatial toolbox to compute a set of urban climate related parameters describing a given area of study using OpenStreetMap data as a base. The intent is to make these indicators discoverable and to serve them as data and maps through the OGC API. At the other side, the aim is to address national needs for geodata visualization using the Minimum Geodata Models (MGDM) in conjunction with their styling models, testing how the symbol description may be encoded in a standard way with modern formats and techniques to build styles and symbology (i.e. from SLD/SE to GeoCSS with or without cascading, etc).\r\n\r\nFor all these experimental cases, FOSS4G are deployed, especially at the server level with FROST, pygeoapi, Geoserver, QGIS Server. The results are useful for developers, government agencies and organizations who want to implement and use the new family of OGC standards.",
+    "start_datetime": "2022-08-25T07:00:00Z",
+    "end_datetime": "2022-08-25T07:30:00Z",
+    "talk:code": "GBPPCM",
+    "talk:guid": "adfd23f5-91dc-5a5d-bd3f-8c802d9a2c26",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room Modulo 3",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "HQNHQL",
+        "name": "Ertz Olivier",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/HQNHQL/"
+      },
+      {
+        "code": "BDGSG9",
+        "name": "Collombin Maxime",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/BDGSG9/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T07:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/GBPPCM/",
+      "title": "OGC API State of Play - A practical testbed for the National Spatial Data Infrastructure in Switzerland"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/GBPPCM/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/HQNHQL/",
+      "title": "Ertz Olivier"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/BDGSG9/",
+      "title": "Collombin Maxime"
+    },
+    {
+      "rel": "related",
+      "href": "https://people.hes-so.ch/fr/profile/olivier.ertz",
+      "title": "See my HES-SO profile"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/GBPPCM/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

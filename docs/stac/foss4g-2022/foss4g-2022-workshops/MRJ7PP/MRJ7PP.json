@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "MRJ7PP",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "A renderers cheatsheet for QGIS: everything you need to know about renderers to make your cartography unforgettable.",
+    "description": "Join in on a walkthrough of the wide range of layer styling renderers available in QGIS 3.24 for vector data (points, lines and polygons) and raster data (images). Learn what each renderer does and how to use them to make effective, efficient and beautiful cartography.\n\nYou will be introduced to the range of renderers available in QGIS. You will gain access to a cheatsheet-style QGIS project containing examples of each renderer for vector and raster data.\u00a0\r\n\r\nWe begin with an overview of the renderers common to all vector geometries:\u00a0\r\n1.\tSingle symbol\r\n2.\tNo Symbols\r\n3.\tCategorized\r\n4.\tGraduated\r\n5.\tRule-based\r\n6.\tEmbedded symbols\r\n\r\nEach renderer has different symbol layer types to symbolise data. Each symbol layer type, including simple markers, geometry generator, SVG and Raster fill options and combinations will be demonstrated.\r\n\r\nSymbol layer types:\r\n1.\tSimple (markers, line and fill)\r\n2.\tGeometry generator\r\n3.\tEllipse marker\r\n4.\tFont marker\r\n5.\tFilled marker\r\n6.\tMask\r\n7.\tRaster image\r\n8.\tSVG image\r\n9.\tVector field marker\r\n10.\tArrows\r\n11.\tHashed line\r\n12.\tInterpolated line\r\n13.\tMarker line\r\n14.\tCentroid fill\r\n15.\tGradient fill\r\n16.\tLine pattern fill\r\n17.\tPoint pattern fill\r\n18.\tRandom marker fill\r\n19.\tShapeburst fill\r\n20.\tOutline\r\n\r\nOnce  the difference between the symbol layer types and the renderers is established, We will explore the unique renderers for different geometries.\r\n\r\nPoint renderers:\r\n1.\tPoint Displacement\u00a0\r\n2.\tPoint Cluster\r\n3.\tHeatmap\u00a0\r\n\r\nLine renderers:\r\n1.\tMerged lines\r\n\r\nPolygon renderers:\r\n1.\tMerged polygon\r\n2.\tInverted Polygon\u00a0\r\n3.\t2.5D\r\n\r\nThe session will then focus on the raster renderers including:\r\n1.\tSingleband Gray\r\n2.\tSingleband Pseudocolour\r\n3.\tHillshade, Contours\r\n4.\tPaletted with uniques values\r\n5.\tMultiband color\u00a0\r\n\r\nThroughout the session, useful and eye-pleasing combinations of the renderers, symbol types and color options will be explored, to make effects such as deepening water, sketched maps and 3D-looking symbols.\u00a0Finally, because all good things are built on the shoulders of giants, we will work-through the QGIS resource sharing plugin and styles repository.",
+    "start_datetime": "2022-08-23T12:00:00Z",
+    "end_datetime": "2022-08-23T14:00:00Z",
+    "talk:code": "MRJ7PP",
+    "talk:guid": "6520c916-d5a5-58ad-898a-1b37fe48bc88",
+    "talk:event": "foss4g-2022-workshops",
+    "talk:type": "Short Workshop",
+    "talk:language": "en",
+    "talk:room": "209",
+    "talk:room_capacity": 65,
+    "talk:duration_minutes": 120,
+    "talk:speakers": [
+      {
+        "code": "XGSCPX",
+        "name": "Amy Burness",
+        "url": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/XGSCPX/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-23T13:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/talk/MRJ7PP/",
+      "title": "A renderers cheatsheet for QGIS: everything you need to know about renderers to make your cartography unforgettable."
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/talk/MRJ7PP/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/XGSCPX/",
+      "title": "Amy Burness"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/talk/MRJ7PP/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-workshops"
+}

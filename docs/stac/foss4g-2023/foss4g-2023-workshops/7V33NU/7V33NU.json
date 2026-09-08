@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "7V33NU",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Orfeo ToolBox guided tour : develop Python tools with OTB",
+    "description": "We will present you Orfeo ToolBox and you will learn how to access and launch applications to build a small but realistic processing chain in Python, mixing OTB with other Python libraries. We will also talk about code / memory optimization.\n\nWe will first introduce Orfeo ToolBox and present the purpose of the processing chain (build water masks to count islands, using a satellite image time series) : \r\n- open images\r\n- compute & extract features from these images\r\n- compute a water mask, combine water masks\r\n\r\nYou will either work on your own laptop or use a python notebook. \r\n\r\nWe will take a closer look at memory/cpu optimization in order to build a scalable processing chain.",
+    "start_datetime": "2023-06-26T12:00:00Z",
+    "end_datetime": "2023-06-26T16:00:00Z",
+    "talk:code": "7V33NU",
+    "talk:guid": "a146282f-d1e2-5912-858f-8c4630a602ea",
+    "talk:event": "foss4g-2023-workshop",
+    "talk:type": "Long Workshop",
+    "talk:language": "en",
+    "talk:room": "UBT C / N110 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "KDGWKX",
+        "name": "Yannick TANGUY",
+        "url": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/KDGWKX/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-26T14:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/7V33NU/",
+      "title": "Orfeo ToolBox guided tour : develop Python tools with OTB"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/7V33NU/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/KDGWKX/",
+      "title": "Yannick TANGUY"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/7V33NU/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-workshops"
+}

@@ -1,0 +1,108 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "TSHBPR",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "End-to-End Deep Learning Analysis Pipeline for Early-Season Crop Mapping using Sentinel Data and Continuous Wavelet Transforms",
+    "description": "This talk details an end-to-end analysis pipeline for early-season crop mapping. We demonstrate how to process multi-sensor Sentinel data , automate CWT scalogram generation , and deploy optimized PyTorch CNN models. This workflow enables rapid, scalable geospatial inferencing by minimizing data sequence requirements.\n\nTransitioning from localized scripts to robust geospatial machine learning pipelines requires a strong foundation in Free and Open Source Software (FOSS). This session details the technical engineering of a deep learning pipeline designed to automate crop classification and early Start of Season (SOS) estimation. Development focuses on the programmatic ingestion and preprocessing of high-resolution multi-sensor data from Sentinel-1 (SAR) and Sentinel-2 (optical) constellations. To mitigate irregular observation gaps and cloud cover, the open-source pipeline computes vegetation indices and constructs 3D NumPy data cubes formatted for deep learning ingestion. The preprocessing module applies a 3rd-order Butterworth filter to interpolate missing values and smooth the signal into consistent weekly intervals, preventing false peaks from data anomalies. The core feature engineering component leverages Continuous Wavelet Transforms (CWT) to project 1D temporal signals into 2D time-frequency scalograms. This transformation isolates distinct phenological wave properties, generating highly separable spatial feature maps.We will explore the PyTorch implementation of this pipeline, comparing the data flow and tensor operations in CNN2D based deep learning model architecture. A key technical highlight is the custom automated incremental analysis module, which programmatically detects the mathematical knee point of validation accuracy curves to dynamically identify the minimum temporal data sequence required for reliable inferencing. By automating this threshold discovery, the PyTorch-based CNN2D architecture successfully processes CWT scalograms to achieve mapping process utilizing only a 6- to 7-month data sequence. Geared toward GIS developers and machine learning engineers, this talk provides actionable patterns for structuring complex spatial data cubes, integrating advanced signal processing into automated workflows, and deploying optimized deep learning models using a fully open-source stack.",
+    "start_datetime": "2026-09-02T02:30:00Z",
+    "end_datetime": "2026-09-02T03:00:00Z",
+    "talk:code": "TSHBPR",
+    "talk:guid": "67e75ee2-343e-58a9-963c-93bf0cffc5b4",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Cosmos1",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "E8MGCU",
+        "name": "Sarawut Ninsawat",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/E8MGCU/"
+      },
+      {
+        "code": "YCDYPQ",
+        "name": "Thantham Khamyai",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/YCDYPQ/"
+      },
+      {
+        "code": "J9K9KE",
+        "name": "sittichai choosumrong",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/J9K9KE/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T02:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/TSHBPR/",
+      "title": "End-to-End Deep Learning Analysis Pipeline for Early-Season Crop Mapping using Sentinel Data and Continuous Wavelet Transforms"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/TSHBPR/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/E8MGCU/",
+      "title": "Sarawut Ninsawat"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/YCDYPQ/",
+      "title": "Thantham Khamyai"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/J9K9KE/",
+      "title": "sittichai choosumrong"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/TSHBPR/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

@@ -1,0 +1,116 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "TEZQNV",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "SDI maintenance DevOps style",
+    "description": "At ISRIC - World Soil Information we increasingly maintain our data services through CI-CD pipelines configured via GIT. Both from the service as well as content perspective. The starting point are metadata records of our datasets being stored on GIT. With every change of a record, the relevant catalogues (pycsw) get updated and any relevant web services (mapserver) are updated. \r\n\r\nThese pipelines are reproducable and there are never inconsistencies between catalogue content and the services. On top of that our users can directly report issues (or even improvement suggestions) through git.\r\n\r\nThe stack is build on proven OSGeo components. A tool pyGeoDataCrawler brings the power of GDAL and pygeometa to CI-CD scripting. It crawls files on a folder and extracts relevant metadata, then prepares a mapserver configuration for that folder, while updating the metadata with the relevant service url's.\r\n\r\nTypical use cases for this stack are; a search interface to any file based data repository or a participatory data catalogue for a project. At the conference we hope to hear from you if any of these components could be relevant to your cases or if there are similar initiatives we can contribute to or benefit from.\r\n\r\nWhat's next? At ISRIC we receive and ingest a lot of soil data from partners. To harmonize this data is a huge effort. Via automated pipelines and interaction with the submitters via git comments, we hope to improve also this aspect of the data management cycle.",
+    "start_datetime": "2024-07-03T13:30:00Z",
+    "end_datetime": "2024-07-03T14:00:00Z",
+    "talk:code": "TEZQNV",
+    "talk:guid": "a140841d-b432-59b4-9eb1-313955feadde",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "QFieldCloud (246)",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "YSAX3Y",
+        "name": "Paul van Genuchten",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/YSAX3Y/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-03T13:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/TEZQNV/",
+      "title": "SDI maintenance DevOps style"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/TEZQNV/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/YSAX3Y/",
+      "title": "Paul van Genuchten"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/TEZQNV/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://pvgenuchten.github.io/slides/slides/tartu-devops-sdi.html#/title-slide",
+      "title": "Slides",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/omdMc5bhWSPXcAUsH1kMkE",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | SDI maintenance DevOps style",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=LZe1K9uO8yc",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | SDI maintenance DevOps style",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

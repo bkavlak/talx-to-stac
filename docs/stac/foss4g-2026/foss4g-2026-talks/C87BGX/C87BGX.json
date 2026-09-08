@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "C87BGX",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Operationalizing Impact-Based Flood Forecasting Using Open Geospatial Pipelines in Resource-Limited Contexts",
+    "description": "Impact-based flood forecasting asks not \"how intense?\" but \"who gets hit, and how badly?\" \r\n\r\nThis talk documents a open-source pipeline \u2014 Python, PostgreSQL, and QGIS \u2014 that translates rainfall forecasts and hazard layers into impact assessments for critical facilities, with honest discussion of what works, what doesn't, and why.\n\nImpact-based flood forecasting reframes the core question of disaster risk from \"how intense is this hazard?\" to \"who and what will be affected, and how badly?\" Despite growing policy momentum behind this shift, operational implementations using fully open geospatial stacks remain scarce in the literature \u2014 particularly in areas where exposure data is fragmented, hazard layers arrive in inconsistent formats and resolutions, and institutional capacity constrains both tooling choices and maintenance overhead.\r\nThis talk presents a reproducible, production-oriented pipeline for automated impact-based flood forecasting built on three open tools: Python for orchestration and operational logic, PostgreSQL for data management, and QGIS for precalculating facility exposure to high-resolution probabilistic hazard layers. The workflow applies configurable thresholds derived from river basin warning levels to produce categorized impact assessments for schools and critical infrastructure at both facility and administrative unit levels.\r\nWe discuss the key engineering and institutional decisions that dominate real deployments but rarely appear in conceptual frameworks \u2014 including performance tradeoffs driven by high-resolution hazard data, and how to embed automated workflows within government operations in ways that build local ownership. We are honest about where the pipeline succeeds, where it struggles, and what we would do differently. Attendees working on climate risk, disaster preparedness, or humanitarian response will leave with a transferable framework and a realistic picture of what open geospatial tools can deliver in heterogeneous data environments.",
+    "start_datetime": "2026-09-02T05:00:00Z",
+    "end_datetime": "2026-09-02T05:30:00Z",
+    "talk:code": "C87BGX",
+    "talk:guid": "4d65724f-ac11-5741-86a7-5941655a159e",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Himawari",
+    "talk:room_capacity": 300,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "FMDKVX",
+        "name": "Feye Andal",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/FMDKVX/"
+      },
+      {
+        "code": "XVAWXJ",
+        "name": "FRITZ DARIEL ANDAL",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/XVAWXJ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T05:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/C87BGX/",
+      "title": "Operationalizing Impact-Based Flood Forecasting Using Open Geospatial Pipelines in Resource-Limited Contexts"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/C87BGX/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/FMDKVX/",
+      "title": "Feye Andal"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/XVAWXJ/",
+      "title": "FRITZ DARIEL ANDAL"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/C87BGX/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

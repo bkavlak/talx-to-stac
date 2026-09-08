@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "8V7VAF",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "Building and Consuming Urban Digital Models with Open-Source Tools",
+    "description": "The workshop describes processes and tools used by the author and his team to build and consume digital models for urban environments. Participants will gain exclusive insights into the development of digital models in 3D Tiles format to consume them within MapStore WebGIS framework\n\nThis workshop covers processes and tools used to build and consume digital models for urban environments. Leveraging open-source geospatial technology, we guide attendees through transforming vector data and point clouds into 3D models to consume within the MapStore WebGIS framework (via CesiumJS) and the GeoNode platform. This hands-on session focuses on pipelines and 3D visualization techniques directly applicable to real-world urban contexts.\r\n\r\nParticipants will gain insights into 3D model development based on our team's urban reconstruction projects. The workshop showcases how these digital replicas serve as essential tools for urban planning, facilitating analysis, scenario planning, and public engagement.\r\n\r\nAttendees will use sample data from a selected city to convert and visualize data on the web using the 3D Tiles format within MapStore, underscoring the importance of interoperability and accessibility.\r\n\r\nThrough this workshop, participants will:\r\n- Learn to convert vector (shapefiles) and point cloud (las) data into 3DTiles compatible with MapStore and CesiumJS.\r\n- Explore MapStore for enhanced 3D visualization and GIS capabilities.\r\n- Access a Docker artifact containing the presented tools and sample data to replicate the process.\r\n- Engage in hands-on exercises illustrating 3D digital model creation, visualization, and analysis.\r\n\r\nThis session is ideal for GIS professionals, urban planners, researchers, and anyone interested in the forefront of geospatial technology and urban development. Discover how combining MapStore, GeoNode, and 3D data processing builds smarter, sustainable urban environments.\r\n\r\n#### Pre-requirements for attendees\r\n\r\nBasic knowledge of Python/JavaScript is helpful, though a dedicated UI handles most interactions. The workshop's material is available online at the following links:\r\n\r\n- digital-twin-toolbox repository https://github.com/geosolutions-it/digital-twin-toolbox\r\n- Documentation  https://github.com/geosolutions-it/digital-twin-toolbox/wiki\r\n\r\nNeeded tools:\r\n- Git - see git guides for installation instructions https://github.com/git-guides/install-git\r\n- Docker desktop - https://docs.docker.com/desktop/setup/install/windows-install/\r\n- Docker engine - (Alternative to docker desktop) https://docs.docker.com/engine/install/\r\n- Code editor (e.g. VS Code https://code.visualstudio.com/)\r\n\r\nFor those that want to follow hands on, the digital-twin-toolbox provides a Docker setup. The Setup and usage page (https://github.com/geosolutions-it/digital-twin-toolbox/wiki/Setup-and-usage) of the wiki describes how to set up the application. The command docker compose up will take some minutes to download the dependencies so we suggest to prepare it beforehand.",
+    "start_datetime": "2026-07-02T06:00:00Z",
+    "end_datetime": "2026-07-02T08:00:00Z",
+    "talk:code": "8V7VAF",
+    "talk:guid": "998d526b-47a1-5e0d-ad61-5fea016d400a",
+    "talk:event": "foss4g-europe-2026-workshops",
+    "talk:type": "Lightning workshop",
+    "talk:language": "en",
+    "talk:room": "005",
+    "talk:duration_minutes": 120,
+    "talk:speakers": [
+      {
+        "code": "BEYNQB",
+        "name": "Stefano Bovio",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026-workshops/speaker/BEYNQB/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-07-02T07:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/talk/8V7VAF/",
+      "title": "Building and Consuming Urban Digital Models with Open-Source Tools"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/talk/8V7VAF/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/speaker/BEYNQB/",
+      "title": "Stefano Bovio"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/geosolutions-it/digital-twin-toolbox",
+      "title": "github.com/geosolutions-it/digital-twin-toolbox"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/geosolutions-it/digital-twin-toolbox/wiki",
+      "title": "github.com/geosolutions-it/digital-twin-toolbox/wiki"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/git-guides/install-git",
+      "title": "github.com/git-guides/install-git"
+    },
+    {
+      "rel": "related",
+      "href": "https://docs.docker.com/desktop/setup/install/windows-install/",
+      "title": "docs.docker.com/desktop/setup/install/windows-install"
+    },
+    {
+      "rel": "related",
+      "href": "https://docs.docker.com/engine/install/",
+      "title": "docs.docker.com/engine/install"
+    },
+    {
+      "rel": "related",
+      "href": "https://code.visualstudio.com/",
+      "title": "code.visualstudio.com"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026-workshops/talk/8V7VAF/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-workshops"
+}

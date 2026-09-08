@@ -1,0 +1,123 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "CS9HJ3",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Developing a privacy-aware map-based cross-platform social media dashboard for municipal decision-making",
+    "description": "# Developing a privacy-aware map-based cross-platform social media  dashboard for municipal decision-making\r\n\r\n## Introduction\r\n\r\nUsers of location-based social media networks (LBSN), such as Instagram,\r\nFlickr, or Twitter, have produced an unprecedented base of data over the\r\npast decade. According to ILIEVA & MCPHEARSON (2018: 553), \"the\r\nenormous scale and timely observation are unique advantages of [social\r\nmedia data]\" and therefore hold enormous potential for various\r\napplication purposes such as urban planning, among others.\r\n\r\nMost notably for Instagram, as one of the largest LBSN, encouraging the\r\nsharing of locations when creating content, offers completely new and\r\npromising application purposes, through the combination of the spatial\r\ncomponent with timestamps and the actual content (image & text).\r\n\r\nPublic social media (SM) data have shown their potential examining the\r\nincreasingly relevant social problems of Spatial (In-) Justice, spatial\r\n(in-) equality and spatial (in-) equity (Cf. SOJA 2013: 47). However,\r\nfew research attempts were made to make these results available broader\r\nin practice and accessible to laypersons in an understandable way.\r\n\r\nLBSN data could contribute significantly to creating a better\r\ninformation base for municipal decision-making processes, reaching\r\nespecially younger target groups. Until now, specifically these groups\r\nwere difficult to reach in common participation processes (Cf. SELLE\r\n2004), while bearing consequences of municipal policies for the longest\r\nperiod of time.\r\n\r\nOur stated research goal is therefore to provide citizens, laypersons\r\nand municipal decision-makers with an unprecedented LBSN Dashboard, as a\r\nsimple open-source platform for spatial multi-purpose LBSN analysis.\r\n\r\n## Problem Statement\r\n\r\nSuch an undertaking raises certain ethical and legal questions, since\r\nthe user data belong to the users themselves, including the right to\r\nself-determination over their data, on the one hand, and the right to\r\nprivacy on the other. The far too short-sighted (but frequently used)\r\nargument that posts have been deliberately published, with all the\r\nconsequences of their public nature in mind (e.g., BURTON et al. 2012:\r\n2), is simply not sufficient for an in-depth discussion of privacy. This\r\nfurther violates the most important aspects of privacy (Cf. BOYD &\r\nCRAWFORD 2012: 672). In fact, most users are not or only partially aware\r\nof what can actually be inferred from what they share or disclose about\r\nthemselves (KESSLER & MCKENZIE 2018: 6f).\r\n\r\nYet, privacy is rarely addressed in LBSN research and, worse, often\r\nnegligently ignored. In this context, many negative examples can be\r\nfound where data was analyzed and high-resolution results were\r\npublished, clearly violating users' privacy, for example, in scientific\r\npublications (Cf. KOUNADI & LEITNER 2014: 140).\r\n\r\n## Research Interest\r\n\r\nGiven the increasing socio-spatial inequality, the rapid growth of SM,\r\nand the growing interest of municipalities in SM knowledge, we see a\r\nsignificant need for such a privacy-aware LBSN dashboard, which is\r\nentirely new to the geospatial community.\r\n\r\nWe develop a privacy-aware LBSN dashboard prototype and propose a data\r\nprocessing pipeline based on the HyperLogLog (HLL) algorithm by FLAJOLET\r\net al. (2007). The dashboard is geared towards easy information\r\nretrieval and making use of the data richness of LBSN -- without\r\ncompromising user privacy and the need for extensive data retention.\r\nInstead, we provide a unique, customizable, GDPR-compliant privacy\r\napproach. The combination of different open-source tools for structuring\r\nmulti-platform LBSN data, leveraging the capabilities of HyperLogLog and\r\nsimple Python integration ensure easy reproducibility and active\r\ncommunity development (Cf. DUNKEL et al. 2021; DUNKEL & L\u00d6CHNER 2021a &\r\nb).\r\n\r\nThe dashboard prototype is tailored for use in municipalities and its\r\ncitizens, but offers high scalability for other purposes or other\r\nspatial levels. A limited interactive demo and its GitHub repository are\r\npermanently publicly available as a result of a Master's thesis and an\r\nIoT Design Thinking Workshop (Cf. WECKM\u00dcLLER 2021; BUNDESSTADT BONN\r\n2022).\r\n\r\nWe plan on finishing and automatizing the data processing pipeline,\r\nenabling more sophisticated queries and adding further visualization\r\nmethods. In the long run, the dashboard is thought to serve as a\r\nparticipation and open data hub for all citizens and for any city in the\r\nworld. So far, the city of Bonn and Chemnitz (Germany) are pilot\r\npartners of this research project.\r\n\r\n## References\r\n\r\n### Literature\r\n\r\nBOYD, D., & CRAWFORD, K. (2012). CRITICAL QUESTIONS FOR BIG DATA.\r\nInformation, Communication & Society, 15(5), 662--679.\r\n\r\nBURTON, S. H., TANNER, K. W., GIRAUD-CARRIER, C.G., WEST,J. H., &\r\nBARNES, M. D. (2012). \"Right Time, Right Place\" Health Communication\r\non Twitter: Value and Accuracy of Location Information. Journal of\r\nmedical Internet research, 14(6), e156.\r\n\r\nFISCHER, F. (2008). Location Based Social Media -- Considering the\r\nImpact of Sharing Geographic Information on Individual Spatial\r\nExperience. In A. Car, G. Griesebner, & J. Strobl (Eds.) Geospatial\r\nCrossroads @ GI_Forum '08. Proceedings of the Geoinformatics Forum\r\nSalzburg (pp. 1-7). Wichmann.\r\n\r\nFLAJOLET, P., FUSY, \u00c9., GANDOUET, O., & MEUNIER, F. (2007). Hyperloglog:\r\nthe analysis of a nearoptimal cardinality estimation algorithm. Analysis\r\nof Algorithms 2007 (AofA07), 127--146.\r\n\r\nILIEVA, R. T., & MCPHEARSON, T. (2018). Social-media data for urban\r\nsustainability. Nature Sustainability, 1(10), 553-565.\r\n\r\nKESSLER, C., & McKenzie, G. (2018). A geoprivacy manifesto. Transactions\r\nin GIS, 22(1), 3-19.\r\n\r\nKOUNADI, O., & LEITNER, M. (2014). Why does geoprivacy matter? The\r\nscientific publication of confidential data presented on maps. Journal\r\nof Empirical Research on Human Research Ethics, 9(4), 34-45.\r\n\r\nSelle, K. (2004). Kommunikation in der Kritik? In: M\u00fcller B., L\u00f6b S.,\r\nZimmermann K. (Ed.) Steuerung und Planung im Wandel, VS Verlag f\u00fcr\r\nSozialwissenschaften.\r\n\r\nSOJA, E. W. (2013). Seeking spatial justice (Vol. 16). University of\r\nMinnesota Press.\r\n\r\n### List of Web References\r\n\r\nAll links last accessed on February 20, 2022.\r\n\r\nBUNDESSTADT BONN (2022). Studierende entwickeln neue Ideen f\u00fcr die\r\ndigitale Stadt von morgen.\r\n<https://www.bonn.de/pressemitteilungen/januar-2022/studierende-entwickeln-neue-ideen-fuer-die-digitale-stadt-von-morgen.php>\r\n\r\nDUNKEL, A., L\u00d6CHNER, M., KRUMPE, F. & Contributors (2021). LBSN\r\nStructure. <https://lbsn.vgiscience.org/>.\r\n\r\nDUNKEL, A. & L\u00d6CHNER M. (2021a). LBSN HLL Database - Docker Container.\r\n\r\n<https://gitlab.vgiscience.de/lbsn/databases/hlldb/>\r\n\r\nDUNKEL, A. & L\u00d6CHNER M. (2021b). Lbsntransform.\r\n<https://lbsn.vgiscience.org/lbsntransform/docs/>.\r\n\r\nWECKM\u00dcLLER, D. (2021). LBSN-Dashboard Prototype for Bonn.\r\n<https://geo.rocks/lbsndashboard/>",
+    "start_datetime": "2022-08-24T14:15:00Z",
+    "end_datetime": "2022-08-24T14:45:00Z",
+    "talk:code": "CS9HJ3",
+    "talk:guid": "86687d7e-e7be-59fa-93ad-164e0dd3fe7e",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room Hall 3A",
+    "talk:room_capacity": 85,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "ACLUGV",
+        "name": "Dominik Weckm\u00fcller",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/ACLUGV/"
+      },
+      {
+        "code": "FN9DTX",
+        "name": "Dr.-Ing. Alexander Dunkel",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/FN9DTX/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T14:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/CS9HJ3/",
+      "title": "Developing a privacy-aware map-based cross-platform social media dashboard for municipal decision-making"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/CS9HJ3/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/ACLUGV/",
+      "title": "Dominik Weckm\u00fcller"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/FN9DTX/",
+      "title": "Dr.-Ing. Alexander Dunkel"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.bonn.de/pressemitteilungen/januar-2022/studierende-entwickeln-neue-ideen-fuer-die-digitale-stadt-von-morgen.php",
+      "title": "www.bonn.de/pressemitteilungen/januar-2022/studierende-entwickeln-neue-ideen-fuer-die-digitale-stadt-von-morgen.php"
+    },
+    {
+      "rel": "related",
+      "href": "https://lbsn.vgiscience.org/",
+      "title": "lbsn.vgiscience.org"
+    },
+    {
+      "rel": "related",
+      "href": "https://gitlab.vgiscience.de/lbsn/databases/hlldb/",
+      "title": "gitlab.vgiscience.de/lbsn/databases/hlldb"
+    },
+    {
+      "rel": "related",
+      "href": "https://lbsn.vgiscience.org/lbsntransform/docs/",
+      "title": "lbsn.vgiscience.org/lbsntransform/docs"
+    },
+    {
+      "rel": "related",
+      "href": "https://geo.rocks/lbsndashboard/",
+      "title": "geo.rocks/lbsndashboard"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/CS9HJ3/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "LSFNSA",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Serving earth observation data with GeoServer: COG, STAC, OpenSearch and more...",
+    "description": "Never before have we had such a rich collection of satellite imagery available to both companies and the general public. Between missions such as Landsat 8 and Sentinels and the explosion of cubesats, as well as the free availability of worldwide data from the European Copernicus program and from Drones, a veritable flood of data is made available for everyday usage.\r\nManaging, locating and displaying such a large volume of satellite images can be challenging. Join this presentation to learn how GeoServer can help with with that job, with real world examples, including:\r\n\r\n* Indexing and locating images using The OpenSearch for EO and STAC protocols\r\n* Managing large volumes of satellite images, in an efficient and cost effective way, using Cloud Optimized GeoTIFFs.\r\n* Visualize mosaics of images, creating composite with the right set of views (filtering), in the desired stacking order (color on top, most recent on top, less cloudy on top, your choice)\r\n* Perform both small and large extractions of imagery using the WCS and WPS protocols\r\n* Generate and view time based animations of the above mosaics, in a period of interest\r\n* Perform band algebra operations using Jiffle\r\n\r\nAttend this talk to get a good update on the latest GeoServer capabilities in the Earth Observation field.",
+    "start_datetime": "2023-06-30T09:00:00Z",
+    "end_datetime": "2023-06-30T09:30:00Z",
+    "talk:code": "LSFNSA",
+    "talk:guid": "70f89c5d-367a-5b17-96d3-ff0e129ffa41",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT F / N212 - Floor 3",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RBSH8T",
+        "name": "Andrea Aime",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/RBSH8T/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-30T09:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/LSFNSA/",
+      "title": "Serving earth observation data with GeoServer: COG, STAC, OpenSearch and more..."
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/LSFNSA/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/RBSH8T/",
+      "title": "Andrea Aime"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/LSFNSA/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/8XWEPqzXHoD8CrqP3HVui6",
+      "type": "text/html",
+      "title": "2023 |  Serving earth observation data with GeoServer: COG, STAC, OpenSearch and more - Andrea Aime",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=r3OtnO50pJY",
+      "type": "text/html",
+      "title": "2023 |  Serving earth observation data with GeoServer: COG, STAC, OpenSearch and more - Andrea Aime",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

@@ -1,0 +1,108 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "Y7TFHR",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "GraphQL meets PostGIS: a spatial API workshop",
+    "description": "This hands-on workshop teaches participants how to build a spatial GraphQL API on top of PostgreSQL/PostGIS using PostGraphile. We will publish vector and raster data, apply spatial filters, create processing endpoints, secure the API with Row-Level Security, and extend it with server-side plugins.\n\nThis workshop will be publicly hosted on GitHub. Using guided steps, we will start by exploring the basics of GraphQL. Then, we will set up and configure a spatial database using PostGIS with real-world data. From that point, we will gradually increase the complexity, learning step by step how to create, configure and extend a GraphQL API.\r\n\r\nDuring the workshop, participants will:\r\n\r\n- Learn how to use, create and manage a fully spatial GraphQL API using PostGraphile on top of a PostgreSQL/PostGIS database with real-world data;\r\n- Publish spatial and non-spatial data, including vector and raster datasets;\r\n- Query data using pagination and spatial filtering with GeoJSON;\r\n- Create processing and analysis endpoints that rely on PostgreSQL/PostGIS functions;\r\n- Secure the API with Row-Level Security (RLS) at the database level and use JWT tokens for authentication;\r\n- Extend the GraphQL API using server-side plugins written in JavaScript or TypeScript.\r\n- We will also discuss the pros and cons of GraphQL compared to REST and highlight the key differences between them.\r\n\r\nThe workshop requires no previous knowledge of GraphQL. However, basic knowledge of PostgreSQL and PostGIS is advisable.",
+    "start_datetime": "2026-08-31T01:00:00Z",
+    "end_datetime": "2026-08-31T04:00:00Z",
+    "talk:code": "Y7TFHR",
+    "talk:guid": "4580b793-a94f-52e9-ae0e-bf45e13467b9",
+    "talk:event": "foss4g-2026-workshop",
+    "talk:type": "Workshop",
+    "talk:language": "en",
+    "talk:room": "701",
+    "talk:room_capacity": 90,
+    "talk:duration_minutes": 180,
+    "talk:speakers": [
+      {
+        "code": "ZKPZPF",
+        "name": "Luis Calisto",
+        "url": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/ZKPZPF/"
+      },
+      {
+        "code": "AFKYLF",
+        "name": "Kateryna Konieva",
+        "url": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/AFKYLF/"
+      },
+      {
+        "code": "GDVTCB",
+        "name": "Jorge S. Mendes de Jesus",
+        "url": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/GDVTCB/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-08-31T02:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/Y7TFHR/",
+      "title": "GraphQL meets PostGIS: a spatial API workshop"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/Y7TFHR/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/ZKPZPF/",
+      "title": "Luis Calisto"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/AFKYLF/",
+      "title": "Kateryna Konieva"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/speaker/GDVTCB/",
+      "title": "Jorge S. Mendes de Jesus"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026-workshop/talk/Y7TFHR/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-workshops"
+}

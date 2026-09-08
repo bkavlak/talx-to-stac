@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "DF3KEG",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Time series raster data in PostgreSQL with the TimescaleDB and postgis_raster",
+    "description": "Raster data is a type of digital image data that is stored and processed as a grid of cells, each of which represents a specific area or location in the image. This grid is known as a raster or pixel grid, and each cell contains a value that represents a characteristic of the corresponding area or location in the image, such as color, elevation, temperature, or other attributes. Depending upon the resolution of the data these raster file sizes can vary from a few MBs to few GBs. Hence reading data from a large set of raster dataset which has time dimension associated with it is challenging.\r\n\r\nPostgreSQL can be used to store time series raster datasets, which are raster datasets that have a time dimension associated with them. This can be useful for storing and analyzing raster data that changes over time, such as satellite images, climate data, or land cover change data.\r\n\r\nTo store time series raster datasets in PostgreSQL, we will use the postgis_raster extension, which provides support for storing and manipulating raster data in the database, and the TimescaleDB extension to add time series functionality to PostgreSQL, allowing us to store and query raster data with a time dimension.\r\n\r\nUsing the TimeScaleDb extension we will partition the raster table by converting it to hypertable which is what TimescaleDB uses to optimally store and process time series data. This can help us to optimize query time.  \r\nFor aggregated values from raster data over time and space, we will use the Continuous aggregate feature of TimescaleDB which is a form of materialized view to pre-compute and store raster data over time.\r\nMoreover, TimescaleDB allows compression of data which can be very helpful in cases where the data is huge which is usually the case with raster datasets in postgres saving us space in the Database and optimizing some queries. \r\n\r\nThe proposed presentation will be of interest to developers, data scientists, and geospatial analysts who work with Raster datasets. It will provide a practical guide to querying the raster datasets in PostgreSQL with TimescaleDB and postgis_raster extension.",
+    "start_datetime": "2023-06-29T14:30:00Z",
+    "end_datetime": "2023-06-29T15:00:00Z",
+    "talk:code": "DF3KEG",
+    "talk:guid": "91e83818-1d0b-55fe-8dd3-1b1acc8a039f",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT C / N110 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "8MGXWG",
+        "name": "json singh",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/8MGXWG/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-29T14:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/DF3KEG/",
+      "title": "Time series raster data in PostgreSQL with the TimescaleDB and postgis_raster"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/DF3KEG/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/8MGXWG/",
+      "title": "json singh"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/DF3KEG/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/o5tdNdUShw3xup6BbWPb8N",
+      "type": "text/html",
+      "title": "2023 | Time series raster data in PostgreSQL with the TimescaleDB and postgis_raster",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=Rmj3tOpnI1E",
+      "type": "text/html",
+      "title": "2023 | Time series raster data in PostgreSQL with the TimescaleDB and postgis_raster",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

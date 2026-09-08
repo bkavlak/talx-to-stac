@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "ATUYMC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "A Practical Workflow for Reusing Proprietary Stormwater Model Data in Open-Source GIS Using CSV and SWMM Formats with Giswater",
+    "description": "This presentation introduces a practical workflow for converting proprietary stormwater model data into open formats using CSV and SWMM inputs, enabling reuse and visualization in QGIS and Giswater environments.\n\nMany municipalities and practitioners rely on proprietary stormwater management software to maintain and operate drainage network models. While these models represent valuable public assets, their reuse in open-source environments is often limited by vendor-specific data formats and licensing constraints. This study presents a proof-of-concept workflow that enables the reuse of such existing assets in open-source GIS platforms through a simple and transparent data conversion process, with application in Giswater.\r\n\r\nThe proposed workflow assumes that core network data\u2014nodes, links, coordinates, and basic attributes\u2014are exported from proprietary stormwater models as CSV files using standard export functions. These CSV datasets are then mapped to the EPA SWMM input format (SWMM .inp) using lightweight Python scripts based on straightforward table-to-table mappings. The resulting .inp files are subsequently visualized and inspected in QGIS, allowing users to verify network structure and attributes without requiring access to proprietary software.\r\n\r\nThis workflow is intended for municipalities, consultants, and researchers who manage stormwater networks in closed-source systems but wish to incrementally integrate open-source tools into their workflows. By treating CSV files as a clearly defined boundary format and SWMM .inp as a common open schema, the approach minimizes vendor dependency while preserving existing data investments. The converted datasets can also serve as inputs for downstream open-source platforms, specifically Giswater. This opens the possibility for more advanced data management and analysis within the Giswater environment.\r\n\r\nThe presentation shares the conversion concept, data assumptions, and implementation considerations, providing a practical reference for organizations seeking to unlock proprietary stormwater model data for open-source GIS use.",
+    "start_datetime": "2026-09-01T04:00:00Z",
+    "end_datetime": "2026-09-01T04:30:00Z",
+    "talk:code": "ATUYMC",
+    "talk:guid": "cb788bc0-6f5c-59f0-ad29-eb5eaef95854",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room6",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "R9GLMA",
+        "name": "Albert Bofill",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/R9GLMA/"
+      },
+      {
+        "code": "YFVGQK",
+        "name": "Yoshihiro Shibuo",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/YFVGQK/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T04:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/ATUYMC/",
+      "title": "A Practical Workflow for Reusing Proprietary Stormwater Model Data in Open-Source GIS Using CSV and SWMM Formats with Giswater"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/ATUYMC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/R9GLMA/",
+      "title": "Albert Bofill"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/YFVGQK/",
+      "title": "Yoshihiro Shibuo"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/ATUYMC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

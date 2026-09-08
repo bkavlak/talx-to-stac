@@ -1,0 +1,118 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "8HX9KE",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Rekichizu: Designing Modern-Style Historical Maps to Preserve Cultural Memory",
+    "description": "Rekichizu is a web service for exploring historical maps of Japan in a modern digital map style. Through data creation with QGIS and collaborative open data production with CODH, it makes historical landscapes accessible to everyone, preserving cultural memory through open-source technology.\n\nHistorical maps are invaluable records of how landscapes, cities, and communities have evolved over time. However, traditional Japanese historical maps present significant barriers for non-specialists: place names written in cursive script (kuzushiji), distorted landforms compressed to fit the page, and orientation conventions that differ from modern maps. Rekichizu (rekichizu.jp) addresses these challenges by reconstructing historical maps in the familiar visual style of contemporary digital maps, making them intuitively understandable to anyone.\r\n\r\nThe project began in 2019 when a social media post showing a modern-styled Edo-period map generated enormous response, revealing strong public demand for accessible historical cartography. Since then, Rekichizu has grown into a full-featured web map application covering multiple historical periods, built entirely with open-source tools and open data.\r\n\r\nA key aspect of the project is its collaborative approach to open data creation. In partnership with the Center for Open Data in the Humanities (CODH) at the National Institute of Informatics, we have jointly produced and published new geospatial datasets \u2014 including approximately 7,700 km of major Edo-period road networks and townhouse area polygons extracted from all 29 historical Edo kiriezu maps. These datasets are freely available in GIS formats. Rekichizu also integrates CODH's dataset of over 80,000 historical place names and the Edo Maps place name dataset, evolving beyond a map visualization into a platform for historical geographic information infrastructure.\r\n\r\nMap data creation and processing is handled with QGIS. The frontend is built with MapLibre GL JS, serving vector tiles for smooth, interactive map exploration. Map style design is done using Maputnik. The tile data and map styles are also published under a Creative Commons license, enabling reuse by other projects.\r\n\r\nThis talk will cover the design philosophy and production process behind Rekichizu, as well as the collaborative effort with CODH to build a historical geographic information infrastructure through open data creation. As Hiroshima embodies the importance of preserving memory, we believe this project resonates deeply with the conference theme of bridging technology and humanity.",
+    "start_datetime": "2026-09-03T05:00:00Z",
+    "end_datetime": "2026-09-03T05:30:00Z",
+    "talk:code": "8HX9KE",
+    "talk:guid": "555c52e2-0475-5d1c-9076-c9c252ee360f",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Ran1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "CL3VPF",
+        "name": "Hajime Kato",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/CL3VPF/"
+      },
+      {
+        "code": "9BA8A3",
+        "name": "Asanobu Kitamoto",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/9BA8A3/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-03T05:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/8HX9KE/",
+      "title": "Rekichizu: Designing Modern-Style Historical Maps to Preserve Cultural Memory"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/8HX9KE/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/CL3VPF/",
+      "title": "Hajime Kato"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/9BA8A3/",
+      "title": "Asanobu Kitamoto"
+    },
+    {
+      "rel": "related",
+      "href": "https://researchmap.jp/kitamoto/",
+      "title": "researchmap.jp/kitamoto"
+    },
+    {
+      "rel": "related",
+      "href": "https://codh.rois.ac.jp/",
+      "title": "codh.rois.ac.jp"
+    },
+    {
+      "rel": "related",
+      "href": "https://geoshape.ex.nii.ac.jp/",
+      "title": "geoshape.ex.nii.ac.jp"
+    },
+    {
+      "rel": "related",
+      "href": "https://x.com/kitamotoasanobu",
+      "title": "x.com/kitamotoasanobu"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/8HX9KE/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "REYQCT",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "From Raw to Ready: Rapid Sentinel-2 Index Workflows for Time-Sensitive Use Cases",
+    "description": "When critical Sentinel-2 index data went missing before a deadline, we rapidly rebuilt coverage using Sentinel-2 UTM Tiling Grid (ESA), filtered cloud and shadow pixels, and inserted clean values into the database. This talk shares practical steps, code, and lessons learned from urgent environmental monitoring under time constraints.\n\nThis presentation explores the urgent recovery of missing Sentinel-2 index data using the ESA UTM tiling grid. It details the preprocessing pipeline, including cloud and shadow masking, null-value extraction, and optimized insertion into geospatial databases. Emphasis is placed on a real-world agriculture use case\u2014monitoring crop health during a narrow seasonal window\u2014where fast, accurate index data is critical for timely decision-making. Attendees will gain insights into handling remote sensing data under pressure, including code examples and workflow strategies tailored for rendering the recovered index data as CovJSON, enabling efficient visualization and analysis within agricultural decision-support systems.",
+    "start_datetime": "2025-11-20T01:00:00Z",
+    "end_datetime": "2025-11-20T01:25:00Z",
+    "talk:code": "REYQCT",
+    "talk:guid": "42998864-a268-5c95-b2be-ebc98580d782",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Cloud, APIs & Data Infrastructure",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WA220",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "SP3G73",
+        "name": "Siriwat Suttipanyo",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/SP3G73/"
+      },
+      {
+        "code": "XAGQYY",
+        "name": "Natpakal Maneerat",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/XAGQYY/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-20T01:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/REYQCT/",
+      "title": "From Raw to Ready: Rapid Sentinel-2 Index Workflows for Time-Sensitive Use Cases"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/REYQCT/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/SP3G73/",
+      "title": "Siriwat Suttipanyo"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/XAGQYY/",
+      "title": "Natpakal Maneerat"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/REYQCT/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

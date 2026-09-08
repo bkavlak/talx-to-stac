@@ -1,0 +1,103 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "WSHGDN",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Geoinformation Production Management System - A QGIS based open-source solution to nationwide geospatial data production management",
+    "description": "In the past seven years, the Brazilian Army Geographic Service has been putting effort into migrating the entire geospatial production chain into open-source. The first step was the use of PostgreSQL + PostGIS as the primary data storage solution, then the use of open standards such as OGC WMS and WFS for data sharing, then the use of QGIS as the main software for data acquisition, and finally, the development of DSGTools, QGIS plugin with several tools for data quality control and cartographic finishing.\r\n\r\nThe Geoinformation Production Management System (GPMS) comes as the latest addition to our open-source stack. It has two main goals: to manage the distribution of jobs between the staff automatically; and standardize workflows, layers, styles, tools, processes and parameters of each job. \r\n\r\nFor the first goal, the manager can create a profile for each team member, setting which parts of the workflow they are qualified to execute. When the user asks for a job, the system matches his qualifications with the available jobs on the current project and gives him the highest priority job. This, combined with the visualization of the live production status on QGIS, helps the manager improve resource allocation's decision management.\r\n\r\nFor the second goal, the manager can configure in detail each workflow, setting which database the job will be executed on, which layers the user needs to access, which styles are available for each layer, which QGIS Processes the user should run with pre-set parameters, which resources the user has access to, such as imagery and DEMs. GPMS also does the permission control in the PostgreSQL database based on the job the user currently is executing and allows spatial filtering, so the user only can work in a spatially defined subset of the data. In this way, when a user receives a job, he has everything he needs to complete it.\r\n\r\nAll the jobs information, such as user, start timestamp, end timestamp, and job parameters, are stored in the system, allowing the automatic generation of metadata compatible with Brazilian Standards and visualizations of the project's current state.\r\n\r\nAs the Brazilian Army Geographic Service has 5 Centers of Geoinformation, the use of a production management system helped with the standardization of procedures, since a standard configuration can be defined and replicated between centers to use the same consistent workflow, with the same database schema, same layers per job, same QGIS Styles, processes, parameters and so on.\r\n\r\nThe GPMS is available on Github on https://github.com/1cgeo/sap as a Node web service and requires a QGIS plugin for the client (https://github.com/1cgeo/Ferramentas_Producao) and a QGIS plugin for the manager (https://github.com/1cgeo/Ferramentas_Gerencia).",
+    "start_datetime": "2022-08-24T10:00:00Z",
+    "end_datetime": "2022-08-24T10:30:00Z",
+    "talk:code": "WSHGDN",
+    "talk:guid": "5ee202f2-3d8f-5392-87ff-96755de7c80c",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "General online",
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "Q7C9LJ",
+        "name": "Felipe de Carvalho Diniz",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/Q7C9LJ/"
+      },
+      {
+        "code": "TDPHD3",
+        "name": "Philipe Borba",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/TDPHD3/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T10:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/WSHGDN/",
+      "title": "Geoinformation Production Management System - A QGIS based open-source solution to nationwide geospatial data production management"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/WSHGDN/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/Q7C9LJ/",
+      "title": "Felipe de Carvalho Diniz"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/TDPHD3/",
+      "title": "Philipe Borba"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/1cgeo/sap",
+      "title": "github.com/1cgeo/sap"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/WSHGDN/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

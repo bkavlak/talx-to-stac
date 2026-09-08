@@ -1,0 +1,108 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "7WESPL",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Browser-based raster reprojection with GPU-accelerated pixel resampling",
+    "description": "For years, browser-based raster visualization has depended on backend services to preprocess, reproject, and tile imagery.\r\n\r\nWe built something different: a way to stream unmodified [COG](https://cogeo.org/) data directly from object storage, reprojecting the imagery _in the browser_ \u2014 without a server in the middle.\n\nVisualizing analytic raster data in the browser still typically depends on backend services that render pre-computed raster tiles (e.g. PNG/JPEG) and frontend layers that are reliant on those services. That approach works \u2014 but it adds infrastructure, security overhead, and limits how people can change rendering on demand.\r\n\r\nWith our work on [deck.gl-raster](https://github.com/developmentseed/deck.gl-raster), we\u2019re bringing high-performance, extensible raster rendering to the [deck.gl](https://deck.gl/) geospatial visualization library. This adds to our [existing work](https://github.com/geoarrow/deck.gl-layers) speeding up visualization of large geospatial vector data \u2014 with the goal of making it realistic to render both massive vectors and analytic rasters in the same interactive view.\r\n\r\nThis talk dives into the technical bits of why client-side raster visualization is challenging and explains our implementation. In the process, we\u2019ll learn about raster reprojection, how GPUs render image data, and how our reprojection implementation leverages mesh-based rendering for efficient and accurate reprojection.\r\n\r\nThis talk will be decently technical, but endeavors to be accessible to anyone familiar with raster data like Cloud-Optimized GeoTIFFs.",
+    "start_datetime": "2026-09-01T04:00:00Z",
+    "end_datetime": "2026-09-01T04:30:00Z",
+    "talk:code": "7WESPL",
+    "talk:guid": "b7d3dadd-d844-59d8-828c-06362d80a0ce",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room2",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "LYUBSM",
+        "name": "Kyle Barron",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/LYUBSM/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T04:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/7WESPL/",
+      "title": "Browser-based raster reprojection with GPU-accelerated pixel resampling"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/7WESPL/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/LYUBSM/",
+      "title": "Kyle Barron"
+    },
+    {
+      "rel": "related",
+      "href": "https://cogeo.org/",
+      "title": "COG"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/developmentseed/deck.gl-raster",
+      "title": "deck.gl-raster"
+    },
+    {
+      "rel": "related",
+      "href": "https://deck.gl/",
+      "title": "deck.gl"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/geoarrow/deck.gl-layers",
+      "title": "existing work"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/7WESPL/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "WD3DHU",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "End-to-End Satellite Data Pipeline: Airflow Orchestration, Zarr Storage, and LandTrendr Analysis",
+    "description": "Apache Airflow manages tasks in a data pipeline from data ingestion and preprocessing to storage in ZARR format for multidimensional satellite imagery. ZARR supports efficient management of large-scale datasets and parallel processing, while Airflow automates and monitors workflow tasks.\n\nAt present, satellite imagery data is widely used to monitor and analyze spatial changes in various domains, such as land use change detection, natural resource monitoring, and environmental surveillance. However, satellite data typically exists as time-series data with large volumes and multidimensional structures. As a result, the storage, processing, and management of such data remain significant challenges in terms of data infrastructure and geospatial data processing.\r\nApache Airflow is used as a tool to control and manage the sequence of tasks in the data processing workflow (workflow orchestration), covering stages from data ingestion, data preprocessing, to data storage in Zarr (ZARR) format, which is a storage format suitable for satellite imagery and multidimensional geospatial data. The use of the Zarr storage format improves data accessibility, facilitates the management of large-scale datasets, and supports parallel data processing efficiently. In addition, Airflow enables automated workflow management, allowing monitoring of processing status and systematic control of task dependencies within the data pipeline. This makes it well suited for managing large-scale satellite datasets that require multi-stage processing.\r\nSatellite imagery data stored in Zarr format can further be used as input for analyzing forest change using the LandTrendr method. LandTrendr is a time-series analysis technique designed to detect trends and long-term changes in land cover using satellite imagery data. Since satellite datasets are typically large and multidimensional, the use of Airflow for managing the data pipeline ensures that data preparation and storage processes are well organized. This enables the data to be efficiently utilized for LandTrendr analysis.\r\nOverall, the implementation of a data pipeline using Apache Airflow for satellite data management\u2014from data ingestion and processing to storage in Zarr format\u2014enhances the efficiency of handling large-scale satellite datasets. It also enables automated data processing workflows with systematic monitoring capabilities, while supporting the application of the data for forest change analysis using the LandTrendr method.",
+    "start_datetime": "2026-09-01T07:00:00Z",
+    "end_datetime": "2026-09-01T07:30:00Z",
+    "talk:code": "WD3DHU",
+    "talk:guid": "2e36bbfd-5dbc-529d-9ddd-418541af4f0a",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room3",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "ECUSTW",
+        "name": "Tanaporn Songprayad",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/ECUSTW/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T07:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/WD3DHU/",
+      "title": "End-to-End Satellite Data Pipeline: Airflow Orchestration, Zarr Storage, and LandTrendr Analysis"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/WD3DHU/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/ECUSTW/",
+      "title": "Tanaporn Songprayad"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/WD3DHU/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "T8USYQ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "An open early-warning system prototype to help in management and study algal blooms on Lake Lugano",
+    "description": "The effects of climate change, together with human activities, are stressing many natural resources. Such effects are altering distribution patterns, such as precipitation, and known dynamics in all natural spheres (Hydrosphere, Biosphere, Lithosphere, and Atmosphere). The monitoring of environmental parameters is becoming of primary importance to better understand the changes that we need to address. Satellite images, laboratory analysis of samples, and high-end real-time monitoring systems offer solutions to this problem. However, often such solutions require proprietary tools to better exploit data and interact with them. The open science paradigm fosters accessibility to data, scientific results, and tools at all levels of society. Hence, in this project, we aimed to apply such an approach to aid in managing a new phenomenon affecting Lake Lugano, primarily caused by the increase in water temperatures and the high load of nutrients from human activities. In fact, over the past years and particularly in 2023, distributed Harmful Algal Blooms (HABs) appeared on the lake, raising awareness of this phenomenon that can be dangerous for human and animal health. Since HABs are distributed on the water lake surface, an open source cost-effective solution based on open hardware, software and standards can potentially increase the spatial resolution to collect more dense measurements. The excessive algae growth could be composed by Cyanobacteria which can produce a wide range of toxic metabolities, including microcystins (MCs). These cyanotoxins, whose negative effect can be both acute at high concentrations and at low doses (Chen et al., 2009; Li et al., 2011), are produced by common species in Lake Lugano. Among these, the most problematic is Microcystis, as it can give rise to blooms during the summer period that accumulate along the shores due to wind and currents. In these areas, the risk of exposure to people and animals is higher, especially in bathing areas. Considering the potential risks to human and animal health, in this project an open early warning monitoring system has been designed and built upon previous experiences in water lake monitoring (Strigaro et al., 2022) by leveraging the benefits derived from the application of open science principles. \r\nMost monitoring plans use microscopic counts of cyanobacteria as an indicator of toxicity risk. However, these analyses are time-consuming, therefore, in addition to or as an alternative to classical methods, sensors capable of measuring algal pigments are increasingly being used. In particular, phycocyanin (PC), characteristic of cyanobacteria, can be used as an indicator of cyanobacterial biomass, thus estimating the potential exceedance of critical levels of microcystins. Based on previous studies, this project aimed to develop a high-frequency sensor-based early warning system for real-time detection of phycocyanin in surface waters for bathing use. In particular, the study aimed to i) develop a pilot system for real-time phycocyanin surveillance, using a high-frequency fluorimeter positioned below the surface near a bathing beach; ii) develop a data management software that automatically notifies the exceeding of predicted phycocyanin risk thresholds; iii) test the system during cyanobacterial blooms, comparing the measured phycocyanin values with microcystin concentrations.\r\nThe hardware solution consists of a Raspberry Pi connected to a Trilux fluorimeter by Chelsea Technologies, which allows the measurement of three algal pigments (Chlorophyll-a, Phycocyanin, and Phycoerythrin), along with a module for transmitting data using NB-IoT. On the node, leveraging the concept of edge computing, the istSOS software has been installed. istSOS is an open-source Python implementation of the Sensor Observation Service of the Open Geospatial Consortium, fostering data sharing and interoperability. Raw data are retrieved from the sensor every minute and then stored in the local instance of istSOS. Simultaneously, a simple on-the-fly quality control is activated to flag each value with a quality index. The data are then aggregated every 10 minutes and transmitted every 15 minutes to the data warehouse. On the server side, another instance of istSOS is hosted to provide data for reports, post-processing validation, and the early warning system. Additionally, the open-source software Grafana has been explored to set up alerts based on three different thresholds. Each threshold has been developed including a hypothetical bathing water management plan, and they are expressed as follows:\r\n\r\n    1. Monitoring - PC threshold of 3.4 Chl-a eq \u00b5g/L, corresponding to a value of 5 \u03bcg/L of MCs (with PC greater than Chl-a). This threshold defines abundant phytoplankton growth with dominance of cyanobacteria. Upon exceeding this threshold, frequent monitoring of the situation and identification of the dominant genus is recommended to predict its potential toxicity.\r\n\r\n    2. Alert - PC threshold of 6.7 Chl-a eq \u00b5g/L, corresponding to a value of 10 \u03bcg/L of MCs. This threshold defines abundant cyanobacterial growth and the potential onset of a bloom. Upon exceeding this threshold, site inspection, identification of the dominant genus, and cyanotoxin analysis are recommended.\r\n\r\n    3. Prohibition - PC threshold of 13.4 Chl-a eq \u00b5g/L, corresponding to a value of 20 \u03bcg/L of MCs. This threshold defines an ongoing cyanobacterial bloom. Upon exceeding this threshold, the toxic risk is at its maximum, as we are approaching the maximum limits imposed for the bathing prohibition. Therefore, temporary bathing prohibition is recommended until confirmation of bloom toxicity with verification of any exceeding of the World Health Organization limit of 25 \u03bcg/L of MCs.\r\n\r\nThe adoption of open hardware, software, and standards allows the implementation of a toolchain that can be easily replicated. The promising results and openness of the solution will permit further expansion of the network to help decision makers and researcher to better manage and study this phenomena using sensor data. The solution can also effectively increase citizen awareness by implementing kits that local stakeholders can use to monitor the status of the lake water, providing additional data.",
+    "start_datetime": "2024-07-03T08:30:00Z",
+    "end_datetime": "2024-07-03T09:00:00Z",
+    "talk:code": "T8USYQ",
+    "talk:guid": "7d51f000-aa1d-5ac7-9d0a-53a3ed2f2af0",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Academic track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Omicum",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "SMMFEV",
+        "name": "Daniele Strigaro",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/SMMFEV/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-03T08:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/T8USYQ/",
+      "title": "An open early-warning system prototype to help in management and study algal blooms on Lake Lugano"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/T8USYQ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/SMMFEV/",
+      "title": "Daniele Strigaro"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/T8USYQ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/T8USYQ/resources/strigaro_foss4g_2024tartu-2_Y9ZVO9D.pdf",
+      "type": "application/pdf",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/1LkkE3LLFiAGQrKHaJcLGf",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | An open early-warning system prototype to help in management and study algal ...",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=zr1jZ-DJ27A",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | An open early-warning system prototype to help in management and study algal ...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

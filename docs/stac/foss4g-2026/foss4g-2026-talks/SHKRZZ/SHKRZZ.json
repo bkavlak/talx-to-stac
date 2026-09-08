@@ -1,0 +1,100 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "SHKRZZ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Terra Draw - bring drawing feature to all map applications",
+    "description": "Terra Draw is a drawing library having unified interfaces for most of mapping libraries. This talk updates the state of TerraDraw and maplibre-gl-terradraw this year.\n\nDrawing on web map application can be a fundamental and critical feature, however bringing a drawing feature to a map is surprisingly complex, especially handling diverse different mapping libraries. Terra Draw was created by [James Milner](https://github.com/JamesLMilner) four years ago to bring simplified and standardized drawing functionality across major mapping libraries such as Leaflet, OpenLayers, Google Maps, Mapbox GL JS, and Maplibre GL JS.\r\n\r\nThis talk will introduce the major functionalities of Tarra Draw and update the latest development since last year's FOSS4G. This talk will give you some insight how you can develop drawing features (basic drawing mode like point, line and polygon, as well as advanced functionalities such as snapping, rotation, etc) working across different mapping platforms easily.\r\n\r\nFurthermore, the speaker is also maintaining a maplibre plugin for TerraDraw library - maplibre-gl-terradraw. This talk will also introduce how you can bring advanced drawing functionality easily to your maplibre application.",
+    "start_datetime": "2026-09-03T05:30:00Z",
+    "end_datetime": "2026-09-03T06:00:00Z",
+    "talk:code": "SHKRZZ",
+    "talk:guid": "430011fb-64e8-5c29-b058-d8a7cc20ff79",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Ran1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "QN9QGN",
+        "name": "Jin Igarashi",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/QN9QGN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-03T05:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/SHKRZZ/",
+      "title": "Terra Draw - bring drawing feature to all map applications"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/SHKRZZ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/QN9QGN/",
+      "title": "Jin Igarashi"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/JamesLMilner",
+      "title": "James Milner"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/SHKRZZ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://workshops.terradraw.water-gis.com/presentations/foss4g-2026-slides_slide",
+      "title": "Slides",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

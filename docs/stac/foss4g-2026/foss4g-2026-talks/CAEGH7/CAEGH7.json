@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "CAEGH7",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Beyond the Pixels: A PM\u2019s Perspective on \"Data Transition\" \u2013 Transforming Satellite Imagery into Actionable Disaster Solutions",
+    "description": "This presentation introduces the \"Data Transition\" framework, using FOSS4G pipelines to transform satellite imagery into actionable disaster solutions. By bridging technical capability and human necessity, it provides real-time situational awareness, strategic urban planning, and predictive intelligence, empowering vulnerable communities to save lives and protect livelihoods through informed decision-making.\n\nIn the era of Cloud-Native technology and the rapid growth of FOSS4G, processing satellite imagery via platforms like Open Data Cube or QGIS has become increasingly accessible. However, a critical question remains for Project Managers: \"Are we merely generating data, or are we solving real-world problems?\" The true challenge lies beyond technical execution; it is about the strategic design of Data Pipelines that transform raw pixels into life-changing solutions for vulnerable communities.\r\nThis presentation introduces the \"Data Transition\" framework\u2014a strategic workflow that repurposes satellite data into multi-dimensional outputs tailored to each stage of the disaster management cycle:\r\nReal-time Situational Awareness: Leveraging automated processing pipelines to extract flood extents and deliver them via OGC Web Services. This serves as \"actionable intelligence,\" enabling citizens to make precise evacuation decisions and allowing first responders to prioritize rescue missions and safe routes effectively.\r\nStrategic Blueprint: Utilizing open-source software to process monthly historical data and identify \"Flood Frequency Zones.\" These outputs act as evidence-based tools for dialogue between governments and communities, facilitating a shift from rigid engineering (e.g., dams) toward sustainable \"Sponge City\" designs and risk-based urban zoning.\r\nPredictive Intelligence: Integrating real-time flood data with the HEC-RAS model to generate probabilistic forecasts. This grants humanity\u2019s most precious asset during a crisis: Time. It allows families to protect their livelihoods and enables industries to implement Business Continuity Planning (BCP), preventing global supply chain disruptions and mitigating massive economic losses.\r\nThe Project Manager serves as the essential bridge between \"Technical Capability\" and \"Human Necessity.\" By utilizing an entirely open-source stack, we move beyond static mapping toward dynamic decision support. Ultimately, the goal of geospatial technology is not just the delivery of data (Output), but the realization of an Outcome: empowering humanity to face uncertainty with knowledge, choices, and the dignity to protect their own lives.",
+    "start_datetime": "2026-09-02T05:30:00Z",
+    "end_datetime": "2026-09-02T06:00:00Z",
+    "talk:code": "CAEGH7",
+    "talk:guid": "1c71b3d4-d2b1-53d3-83fe-473560d31e3d",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room2",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "TT9MEE",
+        "name": "Raksina Maneechan",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/TT9MEE/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T05:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/CAEGH7/",
+      "title": "Beyond the Pixels: A PM\u2019s Perspective on \"Data Transition\" \u2013 Transforming Satellite Imagery into Actionable Disaster Solutions"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/CAEGH7/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/TT9MEE/",
+      "title": "Raksina Maneechan"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/CAEGH7/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

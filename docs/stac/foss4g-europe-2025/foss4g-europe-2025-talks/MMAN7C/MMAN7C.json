@@ -1,0 +1,149 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "MMAN7C",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "Visualizing Queries: A User-Friendly CQL2 Filter Builder for Geospatial Data",
+    "description": "CQL2 (Common Query Language2 - https://www.ogc.org/publications/standard/cql2/) unlocks powerful filtering for geospatial data, but writing queries by hand can be daunting. This talk presents a TypeScript-based CQL2 parser and a visual filter builder that make query creation intuitive and developer-friendly. We\u2019ll explore how the parser enables transformation, serialization and validation of CQL2, and how the UI simplifies query building with real-time previews and a no-code approach.\r\n\r\nI'll show how this combination improves both developer workflows and user experience, making CQL2 more accessible for everyone. Whether you're coding queries or crafting filters visually, this session will help you get the most out of CQL2.\r\n\r\nCQL2 filters parser repository - https://github.com/NoamRa/ogc-cql2-filters\r\nPlayground - https://noamra.github.io/ogc-cql2-filters/",
+    "start_datetime": "2025-07-16T13:00:00Z",
+    "end_datetime": "2025-07-16T13:30:00Z",
+    "talk:code": "MMAN7C",
+    "talk:guid": "d2c0d556-0377-504e-afb1-ef11f2b853cf",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Open standards and interoperability for geospatial",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "CA01 (TomTom)",
+    "talk:room_capacity": 130,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "AFGWYG",
+        "name": "Noam Raby",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/AFGWYG/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-16T13:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/MMAN7C/",
+      "title": "Visualizing Queries: A User-Friendly CQL2 Filter Builder for Geospatial Data"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/MMAN7C/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/AFGWYG/",
+      "title": "Noam Raby"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.ogc.org/publications/standard/cql2/",
+      "title": "www.ogc.org/publications/standard/cql2"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/NoamRa/ogc-cql2-filters",
+      "title": "github.com/NoamRa/ogc-cql2-filters"
+    },
+    {
+      "rel": "related",
+      "href": "https://noamra.github.io/ogc-cql2-filters/",
+      "title": "noamra.github.io/ogc-cql2-filters"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/NoamRa",
+      "title": "github.com/NoamRa"
+    },
+    {
+      "rel": "related",
+      "href": "https://linkedin.com/in/noamraby",
+      "title": "linkedin.com/in/noamraby"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/MMAN7C/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/MMAN7C/resources/Visualizing_Queries_-_CQL2_filters_hLlXkFw.pdf",
+      "type": "application/pdf",
+      "title": "Slides",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "google-slides": {
+      "href": "https://docs.google.com/presentation/d/1FXNUePuv46aIFogE5BQz3hkjb9DONmIHm0QngP_MTuo/edit",
+      "title": "Google slides",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/eUdRNP5eEvmTfq3PnhCYSX",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Visualizing Queries: A User-Friendly CQL2 Filter Builder for Geospatial Data",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=DYSGBWScEtE",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Visualizing Queries: A User-Friendly CQL2 Filter Builder for Geospatial Data",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

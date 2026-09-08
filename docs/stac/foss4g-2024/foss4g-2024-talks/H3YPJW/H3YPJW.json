@@ -1,0 +1,124 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "H3YPJW",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "GeoHealthCheck - QoS Monitor for Geospatial Web Services",
+    "description": "Keeping (OGC) Geospatial Web Services up-and-running is best accommodated by continuous monitoring: not only downtime needs to be guarded, \r\nbut also whether the services are functioning correctly and do not suffer from performance and/or other Quality of Service (QoS) issues.\r\nGeoHealthCheck (GHC) is an Open Source Python application for monitoring uptime and availability of OGC Web Services.\r\nIn this talk we will explain GHC basics, how it works, how you can use and even extend GHC (plugins).\r\n\r\nThere is an abundance of standard (HTTP) monitoring tools that may guard for general status and uptime of web services. \r\nBut OGC web services often have their own error, \"Exception\", reporting not caught by generic HTTP uptime\r\ncheckers. For example, an OGC Web Mapping Service (WMS) may provide an Exception as a valid XML response or\r\nin a error message written \"in-image\", or an error may render a blank image. \r\nA generic uptime checker may assume the service is functioning as from those requests and an HTTP status \"200\" is returned.\r\n\r\nOther OGC services may have specific QoS issues not directly obvious. A successful and valid \"OWS GetCapabilities\" response may not \r\nguarantee that individual services are functioning correctly. For example an OGC Web Feature Service (WFS) based on a dynamic database may \r\nreturn zero Features on a GetFeature response caused by issues in an underlying database. Even standard HTTP checkers supporting \"keywords\" \r\nmay not detect all failure cases. Many OGC services will have multiple \"layers\" or feature types, \r\nhow to check them all?\r\n\r\nWhat is needed is a form of semantic checking and reporting specific to OGC services!\r\n\r\nGeoHealthCheck (GHC) is an Open Source (MIT) web-based framework through which OGC-based web services can be monitored. GHC is written in \r\nPython (with Flask) under the umbrella of the GeoPython GitHub Organization. It is currently an OSGeo Community Project. \r\n\r\nGHC consists of a web-UI through which OGC service endpoint URLs and their checks can be managed, \r\nand monitoring-results can be inspected, plus a monitoring engine that executes scheduled \"health-checks\" on OGC service endpoints. \r\nA database stores results, allowing for various forms of reporting.\r\n\r\nGHC is extensible: a plugin-system is available for \"Probes\" to support an expanding number of \r\ncases for OGC specific requests and -checks. Work is in progress to provide a GHC API for various integrations.\r\n\r\nInfo, sources, demo: https://geohealthcheck.org",
+    "start_datetime": "2024-12-05T15:15:00Z",
+    "end_datetime": "2024-12-05T15:45:00Z",
+    "talk:code": "H3YPJW",
+    "talk:guid": "7edf71f2-bac9-53b7-ac85-6fdfd3602dac",
+    "talk:event": "foss4g-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room II",
+    "talk:room_capacity": 200,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "H8LVLX",
+        "name": "Tom Kralidis",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/H8LVLX/"
+      },
+      {
+        "code": "WH7RLL",
+        "name": "Just van den Broecke",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/WH7RLL/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-05T15:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/H3YPJW/",
+      "title": "GeoHealthCheck - QoS Monitor for Geospatial Web Services"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/H3YPJW/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/H8LVLX/",
+      "title": "Tom Kralidis"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/WH7RLL/",
+      "title": "Just van den Broecke"
+    },
+    {
+      "rel": "related",
+      "href": "https://geohealthcheck.org",
+      "title": "geohealthcheck.org"
+    },
+    {
+      "rel": "related",
+      "href": "https://justobjects.nl",
+      "title": "justobjects.nl"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/H3YPJW/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "geohealthcheck-qos-monitor-for-geospatial-web-services-pdf": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024/submissions/H3YPJW/resources/GeoHealthCheck-foss4g2024_Id8ZDXz.pdf",
+      "type": "application/pdf",
+      "title": "GeoHealthCheck - QoS Monitor for Geospatial Web Services (PDF)",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "geohealthcheck-qos-monitor-for-geospatial-web-services-onlin": {
+      "href": "https://geohealthcheck.org/presentation/index.html",
+      "title": "GeoHealthCheck - QoS Monitor for Geospatial Web Services (online)",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

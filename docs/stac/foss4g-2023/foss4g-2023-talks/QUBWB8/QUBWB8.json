@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "QUBWB8",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "OpenDataCube Fast Deploy using Docker (Fast Cubing)",
+    "description": "Geospatial information from satellites is increasingly being used by decision-makers and scientists alike. However, there are two fundamental issues with this kind of data and related handling technologies. Firstly, data processing typically requires long time and a-priori expert knowledge compared to traditional data sources. Second, integrating satellite data into processing pipelines can be expensive in terms of software and application development efforts. The OpenDataCube (ODC) was created to help users solve these issues. Although ODC offers an alternative to being used as a data management application, its deployment is typically challenging for inexperienced users. Therefore, the primary purpose of this work is to provide potential ODC users with a ready-to-use, portable instance of this software.\r\nThe software is produced and published in a Docker container. In comparison to the traditional installation and configuration of the ODC, the tool proposed here provides an environment where the ODC database is already set up. It helps to avoid occasional conflicts that are common in SQL and Python installations. Even though other ODC implementations are available as a Docker container, the proposed solution has some advantages. Specifically, Python geospatial libraries are integrated in the container to support data manipulation. While available ODC instances are designed to process satellite images only (mainly Sentinel and Landsat data), the tool contains scripts to automatically adapt and ingest non-satellite data (e.g. raw ground-sensor network data, land cover/soil maps, etc.) by creating also metadata files when they are missing. The proposed solution makes available processing pipelines to re-grid, georeference and import datasets into the ODC. Both scripts and pipelines can be used through Jupyter notebook interfaces, which allow users also to perform exploratory analyses on the ingested data.\r\nThe source code is available at (https://github.com/gisgeolab/LCZ-ODC) and is released under a MIT license. The software is being developed within the LCZ-ODC project (agreement n. 2022-30-HH.0) funded by the Italian Space Agency (ASI) and aimed to identify Local Climate Zones within the Metropolitan City of Milan. Given the nature of the datacube development, this tool promotes Open Geospatial Consortium (OGC) compliant data sharing. Ongoing work focuses on the development and integration of additional pre-processing scripts with the aim of supporting the ingestion of additional types of data as well as providing new ready-to-use embedded processing functionalities.",
+    "start_datetime": "2023-06-28T13:10:00Z",
+    "end_datetime": "2023-06-28T13:15:00Z",
+    "talk:code": "QUBWB8",
+    "talk:guid": "5308df26-a463-5fe2-92f1-4cae380c7b69",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "UBT D / N113 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "J3RLNZ",
+        "name": "J. R. Cedeno Jimenez",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/J3RLNZ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T13:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/QUBWB8/",
+      "title": "OpenDataCube Fast Deploy using Docker (Fast Cubing)"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/QUBWB8/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/J3RLNZ/",
+      "title": "J. R. Cedeno Jimenez"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/QUBWB8/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/6BRyrQE7c2cWBDU7RyYJaZ",
+      "type": "text/html",
+      "title": "2023 | OpenDataCube Fast Deploy using Docker (Fast Cubing) -J. R. Cedeno Jimenez",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=omOblTqszvA",
+      "type": "text/html",
+      "title": "2023 | OpenDataCube Fast Deploy using Docker (Fast Cubing) -J. R. Cedeno Jimenez",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

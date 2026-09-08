@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "QGSJLX",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Photogrammetric processing and fruition of products in open-source environment applied to the case study of the Archaeological Park of Pompeii",
+    "description": "The geomatic strategy for the survey campaign, data processing and product fruition in an archaeological context is presented and discussed. The case study is the Domus V situated in the Archaeological Park of Pompeii (Regio VII, Insula 14), which was surveyed in September 2020 by the Geomatics Laboratory of Genoa University in collaboration with the archaeologist group of the same University, under the ministerial concession DG 553 Class 34.31.07/246.7 of 26 January 2016 and its renewal on 9 April 2019 (34.31.07/3.4.7/2018). \r\nThe survey campaign involved the following integrated geomatic techniques:\r\n- UAV photogrammetry, performed with DJI Mavic 2 Pro. The shooting geometry was nadiral with two different altitudes of 40 m and 15 m. An additional survey with a tilting angle of 45\u00b0 at a flight altitude of 15 m was performed along concentric paths around the site. The UAV dataset is composed of 1400 images. The photogrammetric surveys are framed thanks to temporary Ground Control Points (GCPs), surveyed with GNSS in Network Real Time Kinematic (NRTK) positioning strategy. \r\n- Terrestrial photogrammetry, 7000 images of the internal vertical walls were taken with a Canon Eos 40D camera at a shooting distance of about 2 m following a bottom-to-top trajectory. \r\n- Terrestrial laser scanning, using the Z+F 5006h phase difference instrument.\r\n\r\nThe integrated survey allowed to move from a general view of the entire site to an increasingly detailed one, mainly aimed at the vertical walls, thanks to the global framing provided by the UAV survey.\r\nThe UAV and terrestrial photogrammetry campaigns were processed through the open-source software MicMac [1] to create the dense point clouds, and CloudCompare [2] to align the different blocks. \r\nMicMac was chosen for its open-sourceness and its rigorousness in the photogrammetric processing, both related to the estimation of the external/internal orientation parameters and the dense matching to obtain the 3D point clouds from the images, that is based on a multi-scale, multi-resolution pyramidal approach that minimizes the outliers and the noise. \r\nDue to the not linear computational time in respect of the number of images, the MicMac processing was split in blocks of 500 images each (about 24 hours of processing time), with 100 overlapping images between two consecutive blocks, to align them through a point-to-point strategy. The obtained 3D point cloud was oriented and scaled using 15 natural points found on the terrestrial laser scanner point cloud, obtaining deviations on points positions ranging between 1 and 2 cm. The quality of the alignment was tested computing the distance between the laser scanner and the photogrammetric point clouds using CloudCompare M3C2 algorithm [3] on a representative area of 1.60 m \u00d7 2.25 m of the fresco on the central wall of the surveyed room, obtaining distances of \u00b1 5 mm orthogonally to the wall.\r\nMoreover, the software MAGO [4], developed in C++ environment within the Geomatics Laboratory, was used to produce high-resolution orthophotos of vertical walls. MAGO exploits a step-by-step self-adaptive mesh that fits the dense point clouds considering a triangular plane area, where the image pixel is projected at its original resolution via the collinearity equations. The needed inputs are the image(s) to be orthorectified, the external and internal orientation parameters, the user-defined orthophoto plane and the output orthophoto resolution. MAGO was recently updated to generate orthophotos of non-coplanar adjacent walls, i.e., forming an edge between them, through a rotation so that the two walls are in a continuous common plane.\r\nThe orthophotos were made accessible and viewable via a QGIS [5] project built so to manage two different reference frames, i.e, the traditional planimetric plane (X,Y) and the vertical plane of the walls (X-Y,Z), where the X-Y represent the planimetric coordinates along the wall direction. This allows to introduce the third dimension in the typical GIS representation, thus realizing a 3D GIS environment. The QGIS project is organized with a \u201cmaster-slave\u201d architecture, where the master project is dedicated to the (X,Y) plane and reports the vectorial geometries (lines) representing the perimeter of the walls, whereas a different slave project is dedicated to each specific wall with the corresponding orthophoto in a (X-Y,Z) plane. Each slave project is connected to the master thanks to a QGIS action that opens it when clicking on the corresponding wall in the master project. In each sub-project, the orthophoto of the wall is displayed together with three default shapefiles: point, line and polygon shapefile, respectively. The attribute tables of the three shapefiles are set to automatically be updated with the following information once the user introduces a new geometry:\r\n- point shapefile: the image coordinates (x, y) in pixel units and in the corresponding object coordinates (E, N, Z), where E and N represent the east and north coordinates in ETRF2000-2008.0/UTM33N reference frame and Z is the height of the point on the wall;\r\n- line shapefile: length of the drawn line in meters;\r\n- polygon shapefile: length of the perimeter and polygon surface, in meters and square meters, respectively.\r\n\r\nAn additional feature of the QGIS project is the possibility of performing the orthophoto classification based on the state of conservation of the wall, i.e., crumbling, degraded, good conditions, preserved, through user-defined training areas, from which the spectral signatures to be used in the supervised classification are computed.\r\nThanks to this \"nested GIS\" environment, the ensemble of the produced orthophotos can be viewed and linked to the corresponding geometry, forming a catalogue for an overall analysis of the entire archaeological site, taking advantage of an increasingly detailed and precise zooming in the areas of interest. This environment can also be used by non-expert geomatics users, making the survey products available for analysis in different specific disciplines.",
+    "start_datetime": "2022-08-26T13:15:00Z",
+    "end_datetime": "2022-08-26T13:45:00Z",
+    "talk:code": "QGSJLX",
+    "talk:guid": "48220bde-07d3-549d-8529-acbc11d234dc",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room Modulo 3",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "PWNNZS",
+        "name": "Ilaria Ferrando",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/PWNNZS/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T13:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/QGSJLX/",
+      "title": "Photogrammetric processing and fruition of products in open-source environment applied to the case study of the Archaeological Park of Pompeii"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/QGSJLX/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/PWNNZS/",
+      "title": "Ilaria Ferrando"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/QGSJLX/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

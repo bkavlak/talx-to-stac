@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "3FH8AK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Filling the Gaps: Mapping Marine Habitats with Divers, Aerial Imagery, and Algorithms",
+    "description": "ORA Reefs aims to restore degraded rocky reef ecosystems across T\u012bkapa Moana by removing large-scale kina barrens. To support marine habitat identification and monitoring, we are developing a classification pipeline in Python and QGIS. Using the Depth-Invariant Index to isolate seabed reflectance from water column reflectance.\n\nORA Reefs is a new initiative developed by Ocean Regeneration Aotearoa (ORA) Trust to actively restore degraded rocky reef and benthic ecosystems across T\u012bkapa Moana/the Hauraki Gulf, New Zealand. Sea urchin barrens are a dominant stressor on rocky reef ecosystems worldwide due to the overfishing of key predators. Evidence shows that releasing barren rocky reefs from kina (Evechinus chloroticus) grazing pressure in the Hauraki Gulf through large-scale removal enables biodiversity regeneration within 2 years. ORA Reefs\u2019 initial focus is to pilot large-scale kina barren removal alongside the development of artificial reefs on degraded benthic ecosystems. If successful, these interventions, alongside the development of Blue Nature Credits, may offer a way to unlock capital for ecosystems that have historically lacked funding. \r\n\r\nWhile dive surveys can provide high-resolution data including species composition and physical characteristics of the subtidal environment, they are expensive, require specialised scientific divers, and only cover small areas. Geospatial classification techniques could better support broad-scale habitat identification and monitoring over a significantly larger area at relatively little cost. However, at present it is difficult to accurately depict biodiversity and physical traits of subtidal marine habitats. Here, we aim to combine aerial imagery with diver surveys using machine learning and deep learning algorithms to classify near-shore broad-scale marine habitat.\r\n\r\nWe have begun developing a pipeline using Python and QGIS to classify these marine habitats, mitigating the issue of water column reflectance contribution to seabed reflectance by applying the Depth-Invariant Index (DII). The initial use-case trialled feeding DII layers through a Random Forest model with drone imagery that captured Blue, Green, Red, Red Edge, and Near Infrared (NIR) bands at ~5 cm resolution. Validation accuracy scores are promising and justify continual pipeline development to enhance marine habitat identification at different locations and times.",
+    "start_datetime": "2025-11-20T02:45:00Z",
+    "end_datetime": "2025-11-20T02:50:00Z",
+    "talk:code": "3FH8AK",
+    "talk:guid": "5e79d313-759e-5a07-996c-08b7951cd9e4",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Lightning talk",
+    "talk:type": "Lightning Talk",
+    "talk:language": "en",
+    "talk:room": "WG403",
+    "talk:room_capacity": 386,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "AYQJM8",
+        "name": "Laura Read",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/AYQJM8/"
+      },
+      {
+        "code": "MZAKTD",
+        "name": "Thomas Dowling",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/MZAKTD/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-20T02:47:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/3FH8AK/",
+      "title": "Filling the Gaps: Mapping Marine Habitats with Divers, Aerial Imagery, and Algorithms"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/3FH8AK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/AYQJM8/",
+      "title": "Laura Read"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/MZAKTD/",
+      "title": "Thomas Dowling"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/3FH8AK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=uTVPWxww870",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Filling the Gaps: Mapping Marine Habitats with Divers, Aerial Imagery, and Algorithms",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

@@ -1,0 +1,169 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "XJH7JE",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "EOReader - Remote-sensing opensource python library for optical and SAR sensors",
+    "description": "**EOReader** is a remote-sensing opensource python library reading optical\r\nand SAR constellations, loading and stacking bands, clouds, DEM and spectral indices in a sensor-agnostic way.\r\n\r\n| **Optical**                                                                                                                                                                                                                                                                                                   | **SAR**                                                                                                                                                                          |\r\n|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|\r\n| `Sentinel-2` and `Sentinel-2 Theia`<br>`Sentinel-3 OLCI` and `SLSTR`<br>`Landsat` 1 to 9<br>`Harmonized Landsat-Sentinel`<br>`PlanetScope`, `SkySat` and `RapidEye`<br>`Pleiades` and `Pleiades-Neo`<br>`SPOT-6/7`<br>`SPOT-4/5`<br>`Vision-1`<br>`Maxar`<br>`SuperView-1`<br>`GEOSAT-2` | `Sentinel-1`<br>`COSMO-Skymed`<br>`TerraSAR-X`, `TanDEM-X` and `PAZ SAR`<br>`RADARSAT-2` and `RADARSAT-Constellation`<br>`ICEYE`<br>`SAOCOM`<br>`Capella` |\r\n\r\nIt also implements **sensor-agnostic** features, such as `load` and `stack` many bands:\r\n- satellite bands (optical or SAR)\r\n- spectral indices\r\n- clouds\r\n- DEM\r\n\r\n## Context\r\n\r\nAs one of the [Copernicus Emergency Management Service](https://emergency.copernicus.eu/) Rapid Mapping and Risk and Recovery Mapping operators, \r\n[SERTIT](https://sertit.unistra.fr/) needs to deliver geoinformation (such as flood or fire delineation, landslides mapping, etc.) based on multiple EO constellations.\r\n\r\nIn rapid mapping, it is important to have access to various sensor types, resolutions, and satellites. Indeed, SAR sensors are able to detect through clouds and during nighttime while optical sensors benefit from of multi spectral bands to better analyze and classify the crisis information.\r\n\r\nThis is why SERTIT decided to decouple the sensor handling from the extraction algorithms: the latter should be able to ingest semantic bands without worrying about how to load the specific sensor band or in what unit it is.  \r\nThe assumption was made that all the spectral bands from optical sensors could be [mapped bands]( https://eoreader.readthedocs.io/en/latest/optical_band_mapping.html) between each other, in addition to the natural mapping between SAR bands.\r\n\r\n## Examples\r\n- [Why EOReader?](https://eoreader.readthedocs.io/en/latest/notebooks/why_eoreader.html)\r\n- [Basic tutorial](https://eoreader.readthedocs.io/en/latest/notebooks/base.html)\r\n- [Optical data](https://eoreader.readthedocs.io/en/latest/notebooks/optical.html)\r\n- [SAR data](https://eoreader.readthedocs.io/en/latest/notebooks/SAR.html)\r\n- [VHR data](https://eoreader.readthedocs.io/en/latest/notebooks/VHR.html)\r\n- [Water detection on multiple products](https://eoreader.readthedocs.io/en/latest/notebooks/water_detection.html)\r\n- [STAC](https://eoreader.readthedocs.io/en/latest/notebooks/stac.html)\n\n[EOReader](https://github.com/sertit/eoreader) is a remote-sensing opensource python library reading optical and SAR sensors, loading and stacking bands, clouds, DEM and index in a sensor-agnostic way.\r\n\r\nThe main goal of EOReader is to simplify the access to a numerous offer of remote sensing data, providing easy to understand and sensor-agnostic functions to read, load and stack multiple bands and indices (and even DEM or cloud bands).\r\n\r\nFor example, one important feature of EOReader is the mapping of optical bands in order to access them sensor-agnostically (i.e. with RED band, you can access the band number 4 of Sentinel-2, 8 of SENTINEL-3 OLCI, 1 of Pleiades, see [here](https://eoreader.readthedocs.io/en/latest/optical_band_mapping.html) for more information)\r\n\r\nWe wanted also to eliminate tricky steps such as orthorectification or geocoding for SAR and Sentinel-3 data. By automating it, we allow more users to develop applications with remote-sensing data.\r\n\r\nLast but not least, we want to provide an opensource library using cutting-edge technology, this is why we are using xarrays and support dask.\r\n\r\nThe Github repo can be found [here](https://github.com/sertit/eoreader). The API documentation can be found [here](https://eoreader.readthedocs.io/en/latest/).",
+    "start_datetime": "2023-06-29T14:00:00Z",
+    "end_datetime": "2023-06-29T14:30:00Z",
+    "talk:code": "XJH7JE",
+    "talk:guid": "7898dfac-c72f-5712-a676-5fc71c268944",
+    "talk:event": "foss4g-2023",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Lumbardhi",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "R7WYBD",
+        "name": "BRAUN R\u00e9mi",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/R7WYBD/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-29T14:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/XJH7JE/",
+      "title": "EOReader - Remote-sensing opensource python library for optical and SAR sensors"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/XJH7JE/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/R7WYBD/",
+      "title": "BRAUN R\u00e9mi"
+    },
+    {
+      "rel": "related",
+      "href": "https://emergency.copernicus.eu/",
+      "title": "Copernicus Emergency Management Service"
+    },
+    {
+      "rel": "related",
+      "href": "https://sertit.unistra.fr/",
+      "title": "SERTIT"
+    },
+    {
+      "rel": "related",
+      "href": "https://eoreader.readthedocs.io/en/latest/notebooks/why_eoreader.html",
+      "title": "Why EOReader?"
+    },
+    {
+      "rel": "related",
+      "href": "https://eoreader.readthedocs.io/en/latest/notebooks/base.html",
+      "title": "Basic tutorial"
+    },
+    {
+      "rel": "related",
+      "href": "https://eoreader.readthedocs.io/en/latest/notebooks/optical.html",
+      "title": "Optical data"
+    },
+    {
+      "rel": "related",
+      "href": "https://eoreader.readthedocs.io/en/latest/notebooks/SAR.html",
+      "title": "SAR data"
+    },
+    {
+      "rel": "related",
+      "href": "https://eoreader.readthedocs.io/en/latest/notebooks/VHR.html",
+      "title": "VHR data"
+    },
+    {
+      "rel": "related",
+      "href": "https://eoreader.readthedocs.io/en/latest/notebooks/water_detection.html",
+      "title": "Water detection on multiple products"
+    },
+    {
+      "rel": "related",
+      "href": "https://eoreader.readthedocs.io/en/latest/notebooks/stac.html",
+      "title": "STAC"
+    },
+    {
+      "rel": "related",
+      "href": "https://eoreader.readthedocs.io/en/latest/optical_band_mapping.html",
+      "title": "eoreader.readthedocs.io/en/latest/optical_band_mapping.html"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/sertit/eoreader",
+      "title": "EOReader"
+    },
+    {
+      "rel": "related",
+      "href": "https://eoreader.readthedocs.io/en/latest/",
+      "title": "here"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/XJH7JE/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/xv4nkojyndBm2J6Pm5hN7p",
+      "type": "text/html",
+      "title": "2023 | EOReader - Remote-sensing opensource python library for optical and SAR sensors - Braun R\u00e9mi",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=3ZfPQrTypmQ",
+      "type": "text/html",
+      "title": "2023 | EOReader - Remote-sensing opensource python library for optical and SAR sensors - Braun R\u00e9mi",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

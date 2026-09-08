@@ -1,0 +1,132 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "NSPYGB",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Cloud-Native Asset Model with STAC",
+    "description": "STAC is a well-known and acknowledged spatiotemporal metadata standard within the community. There are many applications with open-source data; however, there are few adoptions by premium satellite imagery providers. At UP42, we adopted STAC as the core metadata system within our applications that defines how we store data. Last year, we presented how we designed a standard data management system with STAC:\r\nhttps://www.youtube.com/watch?v=WVE5VZzoOqM&t=1s\r\n\r\nAs of last year's talk, we developed another catchy concept to standardize data access and processing. We designed a Cloud-Native Asset Model combining existing concepts such as STAC and COG, where we transform all files delivered by providers into a somewhat standard-ish format using GDAL extensively. We want to continue updating the community about our experience and share the takeaways.\r\n\r\nMore information:\r\n- https://up42.com/data-management\r\n- https://up42.com/blog/introducing-a-cloud-native-asset-model",
+    "start_datetime": "2024-07-05T09:15:00Z",
+    "end_datetime": "2024-07-05T09:20:00Z",
+    "talk:code": "NSPYGB",
+    "talk:guid": "278955cb-3bd9-53de-9a8a-d5197d0f3a10",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "LAStools (327)",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "YGD9WA",
+        "name": "Batuhan Kavlak",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/YGD9WA/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-05T09:17:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/NSPYGB/",
+      "title": "Cloud-Native Asset Model with STAC"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/NSPYGB/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/YGD9WA/",
+      "title": "Batuhan Kavlak"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.youtube.com/watch?v=WVE5VZzoOqM&t=1s",
+      "title": "www.youtube.com/watch"
+    },
+    {
+      "rel": "related",
+      "href": "https://up42.com/data-management",
+      "title": "up42.com/data-management"
+    },
+    {
+      "rel": "related",
+      "href": "https://up42.com/blog/introducing-a-cloud-native-asset-model",
+      "title": "up42.com/blog/introducing-a-cloud-native-asset-model"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/NSPYGB/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "cnam-pdf": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/NSPYGB/resources/FOSS4G_Europe_-_CNAM_psfdB2U.pdf",
+      "type": "application/pdf",
+      "title": "cnam_pdf",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/oDUvr8739fhs5znQx9my2o",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Cloud-Native Asset Model with STAC",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=crjgKKV-a_k",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Cloud-Native Asset Model with STAC",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

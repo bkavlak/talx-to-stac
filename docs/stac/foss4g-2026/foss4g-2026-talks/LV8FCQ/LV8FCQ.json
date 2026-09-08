@@ -1,0 +1,108 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "LV8FCQ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "City2Graph: Open Source Python Library for GeoAI with Graph Neural Networks",
+    "description": "**[City2Graph](https://github.com/c2g-dev/city2graph)** is an open-source Python library bridging GIS, network science, and geospatial artificial intelligence (GeoAI) with Graph Neural Networks (GNNs). It offers a unified pipeline to construct, analyse, and visualise graphs from diverse data sources, with conversion between GeoPandas, NetworkX, and PyTorch Geometric.\n\nUrban systems are inherently complex, composed of interacting entities such as street networks, transit systems, and human mobility flows. GNNs have recently gained significant attention as a promising direction for GeoAI, providing a powerful framework to model these interactions. Yet their practical application is hindered by a fragmented software ecosystem. Researchers and spatial data scientists often face technical barriers when constructing reproducible graphs that represent multiple types of urban elements simultaneously, lacking a unified pipeline to convert geospatial objects into the tensor formats required for GNNs.\r\n\r\nThis work presents City2Graph, an open-source Python library that bridges GIS, network science, and GeoAI. It standardises graph construction from diverse data sources and formats, including OpenStreetMap/Overture Maps data, GTFS schedules, and mobility flows as origin\u2013destination matrices. The library facilitates seamless bidirectional conversion between GeoPandas, NetworkX, and PyTorch Geometric, preserving geometries for interpretation and visualisation. City2Graph also enables users to analyse complex connections across different network layers as 'metapaths' (e.g. multimodal accessibility between areas via streets and bus transit), together with utilities such as plotting network structures and generating multimodal isochrones.\r\n\r\nCity2Graph is available under a BSD 3-Clause License, hosted on **[GitHub](https://github.com/c2g-dev/city2graph) (1.9k Stars, as of August 25th)**. Documents are hosted on **https://city2graph.net**. \r\n\r\nAny contrubution from FOSS4G community is always welcomed, such as supporting new data formats (e.g., GBFS, GTFS Realtime, PyTorch Geometric Temporal, etc.), graph database (e.g., Cypher-based solution like Neo4j), and expanding scheme (e.g., spatial knowledge graph, GraphRAG on LLM, etc.).\r\n\r\n[Sato, Y., Pietrostefani, E., Mahabir, R., & Arribas-Bel, D. (2026). City2Graph: A Python library for Heterogeneous Graph Neural Networks and spatial analysis in urban systems. Computers, Environment and Urban Systems, 130, 102492.](https://www.sciencedirect.com/science/article/pii/S0198971526000943)",
+    "start_datetime": "2026-09-01T07:00:00Z",
+    "end_datetime": "2026-09-01T07:30:00Z",
+    "talk:code": "LV8FCQ",
+    "talk:guid": "e54f5739-229b-5134-8021-fe879535ed41",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room4",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "DHHLWM",
+        "name": "Yuta Sato",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/DHHLWM/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T07:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/LV8FCQ/",
+      "title": "City2Graph: Open Source Python Library for GeoAI with Graph Neural Networks"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/LV8FCQ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/DHHLWM/",
+      "title": "Yuta Sato"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/c2g-dev/city2graph",
+      "title": "City2Graph"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.sciencedirect.com/science/article/pii/S0198971526000943",
+      "title": "Sato, Y., Pietrostefani, E., Mahabir, R., & Arribas-Bel, D. (2026). City2Graph: A Python library for Heterogeneous Graph Neural Networks and spatial analysis in urban systems. Computers, Environment and Urban Systems, 130, 102492."
+    },
+    {
+      "rel": "related",
+      "href": "https://city2graph.net**",
+      "title": "city2graph.net**"
+    },
+    {
+      "rel": "related",
+      "href": "https://city2graph.net/",
+      "title": "City2Graph"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/LV8FCQ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

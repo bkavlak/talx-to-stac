@@ -1,0 +1,105 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "VS7EX9",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "Tracking Urban Heat Island Dynamics Using Open Source Tools and Free Data",
+    "description": "Urban Heat Islands (UHI) represent an increasing challenge in cities worldwide, including smaller urban centres such as Vara\u017edin, Croatia. This study analyses UHI dynamics over a Vara\u017edin city during a ten-year period (2014\u20132024) using exclusively Free and Open-Source Software (FOSS) and publicly available Earth Observation (EO) data. Landsat 8 thermal imagery was used to calculate Land Surface Temperature (LST), and to analyse its relationship with vegetation cover through the Normalized Difference Vegetation Index (NDVI) and the Proportion of Vegetation (PV). Urban expansion was examined using the Normalized Difference Built-up Index (NDBI). All indices were derived from multispectral and thermal bands using QGIS 3.24 and Python 3.12 libraries including GDAL, rasterio, NumPy, and Matplotlib. The results show a measurable increase in surface temperature, with the average LST rising by +4.41\u202f\u00b0C, accompanied by a loss of 3,230 pixels in the dense vegetation class (NDVI > 0.4). Simultaneously, NDBI values indicate expansion of built-up areas across the southern and eastern parts of the city. These changes confirm the spatial transformation towards the urbanization and reduced vegetation cover as main cause of local thermal intensification. This study gives a standardized, open-sourced, transparent and reproducible analysis applicable to other medium-sized cities. The study also explores the potential integration of additional EO sources (Sentinel-3, MODIS, VIIRS) and supporting geospatial data (OpenStreetMap) for enhanced spatiotemporal resolution. The findings highlight the value of FOSS tools and open data in supporting evidence-based urban climate planning and advocate for scalable, cost-effective approaches to UHI mitigation through green infrastructure and adaptive design.",
+    "start_datetime": "2025-07-18T10:20:00Z",
+    "end_datetime": "2025-07-18T10:25:00Z",
+    "talk:code": "VS7EX9",
+    "talk:guid": "7b39805e-26db-5d99-ab1d-93acd92384f5",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Academic track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "PA01 (Quarticle)",
+    "talk:room_capacity": 95,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "EF7XZV",
+        "name": "Sanja \u0160amanovi\u0107",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/EF7XZV/"
+      }
+    ],
+    "talk:do_not_record": true,
+    "datetime": "2025-07-18T10:22:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/VS7EX9/",
+      "title": "Tracking Urban Heat Island Dynamics Using Open Source Tools and Free Data"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/VS7EX9/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/EF7XZV/",
+      "title": "Sanja \u0160amanovi\u0107"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/VS7EX9/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "manuscipt-tracking-urban-heat-island-dynamics-using-open-sou": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/VS7EX9/resources/Tracking_Urban_Heat_Island_Dynamics_Usin_hBRUt0n.pdf",
+      "type": "application/pdf",
+      "title": "Manuscipt: Tracking Urban Heat Island Dynamics Using Open Source Tools and Free Data",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "pdf-tracking-urban-heat-island-dynamics-using-open-source-to": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/VS7EX9/resources/Tracking_Urban_Heat_Island_Dynamics_Usin_p9xzLAy.pdf",
+      "type": "application/pdf",
+      "title": "PDF: Tracking Urban Heat Island Dynamics Using Open Source Tools and Free Data",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

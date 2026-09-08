@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "7PBL8Z",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Open source solutions for managing crowdsourced geospatial data",
+    "description": "Collecting geospatial data through crowdsourcing offers a rapid, cost-effective, and dynamic alternative to traditional methods. Despite facing challenges and limitations, integrating crowdsourced data with other available sources using open-source solutions effectively fills gaps in data sources. Southwest Finland\u2019s regional open data platform, Lounaistieto, integrates crowdsourcing into the collection and management of open regional information. Lounaistieto maintains two key crowdsourced open geospatial datasets: Service Point data and Recreational Data (Virma data). \r\n\r\nThe knowledge of locations various services is vital for regional planning. Yet, no single data source in Finland openly provides information about both the public and private sector services. To overcome this deficiency, Lounaistieto has created an automated data pipeline that combines service points from two distinct sources into one database. Public sector data is sourced from the Finnish Service Catalogue, encompassing location and attribute information related to administration, rescue services, education, transportation, and well-being services. Private sector data is derived from OpenStreetMap, including information about tourism and cultural services. Daily automatic updates to the service point database through OGC web services ensure that the information remain up to date. The combined data is shared as an open API and visualized on a web map, enabling users to check attribute information and follow links to OSM for additional details. \r\n\r\nAnother dataset, Virma recreation data is focused on recreational and nature tourism routes in southwest Finland, along with associated public services. Maintained through crowdsourcing using the Virma Maintenance tool, this process offers entrepreneurs, outdoors societies, and other bodies taking care of recreational infrastructure access to the digital information about the recreational routes. Building on this data, Lounaistieto has published an open-source Oskari-based mobile web map application, Virma Map (kartta.virma.fi), which offers mobile route planning tools for outdoor activities. The platform emphasizes smartphone usability, dynamically visualizing routes and service points on the map, enriched with details such as route length, service locations and real time location. The Virma data is also published in the national open data portal freely utilizable for other service providers. \r\n\r\nOpen-source solutions not only offer cost-effective alternatives but also foster collaborative efforts, transparency, and innovation in managing and enhancing geospatial datasets.",
+    "start_datetime": "2024-07-03T07:30:00Z",
+    "end_datetime": "2024-07-03T08:00:00Z",
+    "talk:code": "7PBL8Z",
+    "talk:guid": "46e9db4d-84c9-5f03-92d5-9f6d8dfdbbf0",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "QFieldCloud (246)",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "9KWQFH",
+        "name": "Natalia R\u00e4ikk\u00f6nen",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/9KWQFH/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-03T07:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/7PBL8Z/",
+      "title": "Open source solutions for managing crowdsourced geospatial data"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/7PBL8Z/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/9KWQFH/",
+      "title": "Natalia R\u00e4ikk\u00f6nen"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/7PBL8Z/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "pp-presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/7PBL8Z/resources/R%C3%A4ikk%C3%B6nenNatalia_FOSS4G_2024_dac22pP.pptx",
+      "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "title": "PP presentation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/j2UVt2UbaU7P66pfyWEG1s",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Open source solutions for managing crowdsourced geospatial data",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=EusjbVQWzV8",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Open source solutions for managing crowdsourced geospatial data",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

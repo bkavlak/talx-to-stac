@@ -1,0 +1,96 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "79DYEL",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "Pushing the boundaries: Automated Geometry Alignment with 'brdr' and \u2018brdrQ\u2019",
+    "description": "Maintaining spatial consistency between different thematic geographic datasets and reference layers (such as cadastral parcels or base maps) is a persistent challenge in GIS workflows. Manually snapping boundaries to match updated reference data is not only time-consuming and prone to human error but also difficult to reproduce. To address this, Athumi (The Flemish Data Utility Company) & Flanders Heritage Agency developed brdr, an open-source Python library, and its companion QGIS plugin, brdrQ, designed to automate and streamline the alignment of geometries to reference borders. \r\n\r\nBy decoupling the alignment logic (brdr) from the user interface (brdrQ), the project offers flexibility for both developers and GIS analysts. Developers can integrate the alignment engine into automated data pipelines, while analysts can leverage the QGIS plugin for visual validation and manual fine-tuning. Both ways of working ensure a significant reduction in workload to obtain higher-quality data. \r\n\r\nIn this presentation, we will demonstrate the underlying algorithm, showcase the QGIS integration, and discuss real-world use cases where these tools have improved the efficiency of spatial data management at the Flanders Heritage Agency. \r\n\r\n### Python library: brdr \r\n\r\nAt its core, brdr is a Python library built to detect and resolve geometric discrepancies through a series of deterministic spatial calculations. Unlike simple snapping tools, the brdr-algorithm evaluates candidate reference geometries by calculating relevant intersections and differences. It uses these metrics to generate alignment predictions: the library calculates the most likely intended geometry based on geometric stability. This predictive approach allows for a high degree of confidence in automated workflows, as \u2018brdr\u2019 can distinguish between a deliberate gap and a registration error, maintaining the overall structural integrity of the original dataset. \r\n\r\n### QGIS plugin: brdrQ \r\n\r\nbrdrQ integrates the 'brdr'-library into a user-friendly QGIS-plugin, making the 'brdr' logic more accessible through visual GIS-workflows. brdrQ offers several tools, including: \r\n\r\n- Feature Aligner: An interactive tool for record-by-record inspection, allowing users to compare \"predictions\" (suggested alignments) before committing changes. \r\n- AutoCorrectBorders: A processing algorithm for bulk alignment of datasets.",
+    "start_datetime": "2026-07-01T08:30:00Z",
+    "end_datetime": "2026-07-01T09:00:00Z",
+    "talk:code": "79DYEL",
+    "talk:guid": "09cae6b2-0f1e-5a5c-8a80-adfda41fb78b",
+    "talk:event": "foss4g-europe-2026",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "AM",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "KYNQML",
+        "name": "Yanko Godaert",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/KYNQML/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-07-01T08:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/79DYEL/",
+      "title": "Pushing the boundaries: Automated Geometry Alignment with 'brdr' and \u2018brdrQ\u2019"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/79DYEL/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/KYNQML/",
+      "title": "Yanko Godaert"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/79DYEL/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "brdr-foss4ge2026-pptx": {
+      "href": "https://geosquare-my.sharepoint.com/:p:/g/personal/yanko_godaert_geosquare_be/IQAoouIIvfxqQbTrmg-qKb9wAdt7GzG-rShkwJx89aDueeA",
+      "title": "brdr_foss4ge2026.pptx",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

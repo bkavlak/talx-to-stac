@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "GJEVKW",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Citizen-Driven War Memory Mapping: Enabling Non-Experts to Build Geospatial Archives with Re:Earth CMS and Visualizer",
+    "description": "In Nagaoka, Japan, 23 citizens aged 11\u201370+ with no GIS experience mapped the 1945 air raid using Re:Earth, an open-source WebGIS platform. This talk explores how no-code CMS architecture enabled real-time \"input-to-visualization\" workflows, transforming community members into active contributors to geospatial heritage preservation.\n\nEighty years after the Nagaoka Air Raid of August 1, 1945, the city is renovating its War Memorial Museum. As part of this initiative, TISSUE inc. and Eukarya Inc. collaborated to create a citizen-participatory digital archive\u2014a map that visualizes survivor testimonies, historical photographs, and evacuation routes on period maps.\r\n\r\n**The Challenge**\r\nTraditional GIS workflows require technical expertise that excludes most community members from contributing. Our goal was to design a system where non-experts\u2014from 11-year-old students to museum volunteers in their 70s\u2014could directly input geospatial data without accounts, training, or coding.\r\n\r\n**Technical Approach**\r\nWe leveraged Re:Earth CMS and Visualizer with two key design principles:\r\n\r\n*Instant Input-to-Visualization Workflow*: Data entered in Re:Earth CMS is immediately reflected in the Visualizer map. Participants could see their contributions appear in real-time, providing immediate feedback and motivation.\r\n\r\n*No-Code Geospatial Data Entry*: We designed CMS schemas that allow users to select coordinates by clicking on a georeferenced historical map overlay, attach photographs from a pre-uploaded asset library, and add textual annotations\u2014all without writing code or understanding coordinate systems.\r\n\r\n**Workshop Design**\r\nWorkshop 1 (January 25): Participants examined wartime photographs, identified locations through group discussion with museum experts, and registered them in CMS with coordinates and contextual notes.\r\n\r\nWorkshop 2 (February 23): Participants read survivor testimonies, extracted movement sequences, and mapped evacuation routes as polyline data in CMS.\r\n\r\n**Results**\r\nTwenty-three participants across diverse demographics (ages 11\u201370+, including students and teachers) successfully contributed geospatial data. The output will be integrated into the museum's permanent exhibition opening in May 2026.\r\n\r\nParticipant feedback revealed the educational and social impact of this approach. One participant noted: \"Converting text into a map felt like re-experiencing someone's memory during the air raid. I found deep meaning in archiving the memories of ordinary people, not just famous historical figures.\" Another shared: \"Compared to traditional peace education where you just listen to stories, actually working with my hands and tracing the paths made the war experiences feel much closer to me.\"\r\n\r\n**Key Takeaways for the FOSS4G Community**\r\nThis project demonstrates practical patterns for enabling community participation in geospatial projects:\r\n\r\n- No-code CMS design patterns that abstract coordinate complexity into simple click-to-locate interactions\r\n- Real-time feedback loops as a motivational tool for non-expert contributors\r\n- Intergenerational workshop formats combining local knowledge with digital tools\r\n\r\nI will share our CMS schema designs, workshop facilitation methods, and lessons learned for community-driven geospatial heritage projects.",
+    "start_datetime": "2026-09-02T05:30:00Z",
+    "end_datetime": "2026-09-02T06:00:00Z",
+    "talk:code": "GJEVKW",
+    "talk:guid": "3141709d-9ca7-5409-991b-614570da375d",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Phoenix Hall",
+    "talk:room_capacity": 1150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "EMRFMN",
+        "name": "Haruka Yasuda",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/EMRFMN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T05:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/GJEVKW/",
+      "title": "Citizen-Driven War Memory Mapping: Enabling Non-Experts to Build Geospatial Archives with Re:Earth CMS and Visualizer"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/GJEVKW/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/EMRFMN/",
+      "title": "Haruka Yasuda"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/GJEVKW/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

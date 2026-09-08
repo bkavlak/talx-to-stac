@@ -1,0 +1,105 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "ZMECUX",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "pygeometa project status",
+    "description": "pygeometa project status presentation.  Come and find out the latest news on the project as well as future plans, and how to get involved!\n\npygeometa provides a lightweight and Pythonic approach for users to easily create geospatial metadata in standards-based formats using simple configuration files (affectionately called metadata control files [MCF]). Leveraging the simple but powerful YAML format, pygeometa can generate metadata in numerous standards. Users can also create their own custom metadata formats which can be plugged into pygeometa for custom metadata format output.\r\n\r\nFor developers, pygeometa provides a Pythonic API that allows developers to tightly couple metadata generation within their systems and integrate nicely into metadata production pipelines.\r\n\r\nThe project supports various metadata formats out of the box including ISO 19115, the WMO Core Metadata Profile, and the WIGOS Metadata Standard.\r\n\r\npygeometa has minimal dependencies (install is less than 50 kB), and provides a flexible extension mechanism leveraging the Jinja2 templating system.\r\n\r\nThis presentation will provide an update on recent enhancements, use in high profile projects as well as future plans and roadmap.",
+    "start_datetime": "2025-11-20T02:30:00Z",
+    "end_datetime": "2025-11-20T02:55:00Z",
+    "talk:code": "ZMECUX",
+    "talk:guid": "76c7596a-15d9-58da-9b12-776c87e9d3b5",
+    "talk:event": "foss4g-2025",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG404",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "H8LVLX",
+        "name": "Tom Kralidis",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/H8LVLX/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-20T02:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/ZMECUX/",
+      "title": "pygeometa project status"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/ZMECUX/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/H8LVLX/",
+      "title": "Tom Kralidis"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/ZMECUX/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "pygeometa-project-status": {
+      "href": "https://pvgenuchten.github.io/slides/slides/2025-foss4g-pygeometa-project-update.html",
+      "title": "pygeometa project status",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=a_Zwv4tl-OU",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | pygeometa project status",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

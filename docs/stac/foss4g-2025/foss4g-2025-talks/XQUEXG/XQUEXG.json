@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "XQUEXG",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Creating 3D Printed Landscape Models with FOSS",
+    "description": "A behind the scenes look at how a kiwi cartographer uses QGIS, Blender, and Cura Slicer to turn elevation data into 3D printed landscape models.\n\nThis talk explores the workflow behind crafting detailed 3D printed landscape models using free and open-source software. From raw elevation data to tangible terrain, attendees will get an inside look at how QGIS is used to scope and prepare elevation datasets, how geometry nodes and modifiers are used to dynamically create 3D geometry in Blender, and how Cura Slicer is used to prepare the digital 3D model for printing.\r\n\r\nThis presentation draws from real-world projects by a New Zealand based cartographer working at the intersection of geospatial data and physical modelling. It will discuss challenges like terrain generalization, tile-based printing, and design for both aesthetic and functional outcomes. Whether you're into 3D printing, terrain visualisation, or just love seeing geospatial data come to life, this session offers practical insight and inspiration for mappers and makers alike.",
+    "start_datetime": "2025-11-19T00:30:00Z",
+    "end_datetime": "2025-11-19T00:55:00Z",
+    "talk:code": "XQUEXG",
+    "talk:guid": "f97802f9-0c65-5009-b876-f7bb4d5157a0",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Use Cases and Applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG308 TE IRINGA",
+    "talk:room_capacity": 180,
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "7GUW8S",
+        "name": "James Ford",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/7GUW8S/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-19T00:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/XQUEXG/",
+      "title": "Creating 3D Printed Landscape Models with FOSS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/XQUEXG/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/7GUW8S/",
+      "title": "James Ford"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/XQUEXG/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=EigAXH-RBbw",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Creating 3D Printed Landscape Models with FOSS",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

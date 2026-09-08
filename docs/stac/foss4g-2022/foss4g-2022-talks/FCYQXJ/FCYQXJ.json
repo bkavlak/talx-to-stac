@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "FCYQXJ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "QGIS Temporal Controller with WMS-T layers",
+    "description": "QGIS is a freely downloadable open source GIS software suite that contains a desktop option, mobile, and web component. QGIS is free to download and use, it is released with a GPL v3 license which is a non commercial license allowing users to download and use it without concerns compared to other commercial GIS software.\r\nUp to QGIS version 3.12 there was no core support for temporal data, users were required to install a plugin called TimeManager in order to visualize temporal data inside QGIS. Through a collaboration between the Canadadian Government, Kartoza and North Road, efforts were made to add core support for temporal data inside QGIS.\r\nAs a result the QGIS version 3.14 was released with a Temporal Controller feature which was now responsible for handling all the temporal layers inside QGIS. The initial role out of the Temporal Controller contained support for raster, vector and WMS-T layer providers.\r\nThis session will explore how to use the QGIS Temporal Controller to do animation and visualization of the WMS-T layers, this will include how to setup a standard WMS server that will be serving time based layers. \r\nIn the session we will also learn about the Temporal Controller API, how to use it through QGIS python bindings and create a simple QGIS plugin that will show the API in action.",
+    "start_datetime": "2022-08-25T12:45:00Z",
+    "end_datetime": "2022-08-25T13:15:00Z",
+    "talk:code": "FCYQXJ",
+    "talk:guid": "c0d97b55-27a5-50db-b911-de891cbcc755",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room 4",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "JR78YV",
+        "name": "Samweli Mwakisambwe",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/JR78YV/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T13:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/FCYQXJ/",
+      "title": "QGIS Temporal Controller with WMS-T layers"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/FCYQXJ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/JR78YV/",
+      "title": "Samweli Mwakisambwe"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/FCYQXJ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/xoXUa3QF7gxVG5sRQTAmEF",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | QGIS Temporal Controller with WMS-T layers",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=0je0bIwGNl4",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | QGIS Temporal Controller with WMS-T layers",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

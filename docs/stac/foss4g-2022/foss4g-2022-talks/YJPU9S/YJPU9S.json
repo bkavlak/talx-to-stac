@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "YJPU9S",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Spatio-temporal Database - Creating a high availability easily scalable Spatio-temporal database cluster with Postgres, PostGIS, and timescaleDB!",
+    "description": "I am working as the Technical Lead at Blue Sky Analytics, a climate-tech startup empowering the world\u2019s decision-makers with accurate, real-time, and standardized climate data. \r\n\r\nAll datasets that we are building here at Blue Sky Analytics, technically have one similarity - they all have a space and time component. We tried to build solutions like filling empty values in inconsistent temporal data, and dividing the data in specified time period chunks for faster queries, while these worked as POC, they were not easy to scale up. Working with structured data was much easier to understand, working on postgres with the addition of timescale and PostGIS gave us exactly what was needed. Building the solution at the database level with the existing open-source technologies has been an exhilarating experience. \r\n\r\nImagine a dataset with hourly frequency going back years on a global level, with frequent inconsistencies, that not only you have to efficiently store but that should also be highly accessible in combination with other such datasets. If not for the open-source, we would not have been able to answer questions like:\r\n - How much have the lakes shrunk between the years 2010-2020 on a yearly basis?\r\n- Finding GHG emissions from biomass burning of \"*all US states, for the last 10 years on a monthly, weekly, daily basis***\".**\r\nLeveraging other open source solutions like h3-pg indexing also helped us to reduce the query time by an exponential factor for global level queries! \r\n\r\nWhile the database sounds pretty amazing, another challenge was putting it all together and deploying it on the cloud, which was a whole another challenge. The most intuitive solution was to deploy a bunch of Postgres instances. While it was not so hard to implement the basics, it became almost impossible to scale up or down, install rolling updates, account for failures. \r\n\r\nKeeping up with the tech, Kubernetes seemed like a great solution for building a high availability cluster service, and finding the postgres-operator (PGO) by crunchydata was exactly what we needed. It combined all the right tools like pgBouncer, pgBackRest, and monitoring solution using grafana and Prometheus all in one packaged easily to deploy service. While the learning curve with Kubernetes was a little steep, it lead to building a highly scalable and resilient database cluster.\r\n\r\nThe PostgreSQL + PostGIS + Timescale + H3 stack helped us simulate the temporal and spatial nature of the world at the database level and gave a universal approach to store and query all our datasets. It can handle textual data like fires with time (recorded time) and spatial information (lat -long) or shapes of counties, water bodies, etc., and combine them with each other using few joins giving us a very powerful geospatial-temporal query engine. \r\n\r\nWithout FOSS it would have been impossible to even imagine any of this but as of now, we are quantifying climate change!",
+    "start_datetime": "2022-08-25T10:30:00Z",
+    "end_datetime": "2022-08-25T11:00:00Z",
+    "talk:code": "YJPU9S",
+    "talk:guid": "303f56b7-667d-5a21-b326-b223ea77d53f",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Limonaia",
+    "talk:room_capacity": 110,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "7UJ9GM",
+        "name": "Jashanpreet Singh",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/7UJ9GM/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T10:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/YJPU9S/",
+      "title": "Spatio-temporal Database - Creating a high availability easily scalable Spatio-temporal database cluster with Postgres, PostGIS, and timescaleDB!"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/YJPU9S/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/7UJ9GM/",
+      "title": "Jashanpreet Singh"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/YJPU9S/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=ZabWATcYPoo",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Spatio-temporal Database - Creating a high availability easily scalable Spatio-\u2026",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

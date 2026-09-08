@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "SBKPUQ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Exploring OGCAPI with GeoServer and GeoNetwork",
+    "description": "The development community is really excited about having modern (REST and JSON) protocols for geospatial data infrastructure. While we love the traditional WMS and WFS protocols, the heavy use of XML is a barrier to today\u2019s developers and tool chains.\r\n\r\nGeoServer is enthusiastically pursuing these standards thanks to the efforts of Andrea Aime and other volunteers at the joint OSGeo / OGC code sprints. The GeoNetwork team has also attended these events to work on record management.\r\n\r\n* This presentation looks at the approach used by the OGCAPI family of protocols.\r\n* We also look at how OGCAPI Features works in more detail, as one of the first standards to be finalized.\r\n* We check in with OGCAPI Records and the progress made by the GeoNetwork team\r\n* We look at the OGCAPI standardization process, and what features we are looking forward to being finalized\r\n* Looking ahead to what is needed for OGCAPI support in GeoServer to be successful\r\n\r\nJody and Gabe are enthusiastic GeoServer developers really using this presentation as an excuse to work on these new protocols.\r\n\r\nAttend this talk to learn about the transition to OGCAPI Protocols and help your organisation plan for the future.",
+    "start_datetime": "2024-12-04T20:15:00Z",
+    "end_datetime": "2024-12-04T20:45:00Z",
+    "talk:code": "SBKPUQ",
+    "talk:guid": "9bb4d596-5f89-5951-acdf-264bf28c7a40",
+    "talk:event": "foss4g-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room III",
+    "talk:room_capacity": 400,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "BQBVFC",
+        "name": "Jody Garnett",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/BQBVFC/"
+      },
+      {
+        "code": "RR3FVS",
+        "name": "Gabriel Roldan",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/RR3FVS/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-04T20:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/SBKPUQ/",
+      "title": "Exploring OGCAPI with GeoServer and GeoNetwork"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/SBKPUQ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/BQBVFC/",
+      "title": "Jody Garnett"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/RR3FVS/",
+      "title": "Gabriel Roldan"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/SBKPUQ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "exploring-ogcapi": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024/submissions/SBKPUQ/resources/Exploring_OGCAPI_MrtWRIX.pdf",
+      "type": "application/pdf",
+      "title": "Exploring OGCAPI",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

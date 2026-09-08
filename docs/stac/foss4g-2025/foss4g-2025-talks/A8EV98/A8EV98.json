@@ -1,0 +1,114 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "A8EV98",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Building Spatial APIs in PostgreSQL with PostgREST",
+    "description": "Learn how to turn your PostgreSQL database into a powerful RESTful API using PostgREST. This talk focuses on exposing geospatial data and leveraging PostGIS functions to build scalable, efficient spatial APIs\u2014all without writing a single line of backend code.\n\nIn this talk, we\u2019ll explore how you can create powerful, production-ready spatial APIs directly from your PostgreSQL database using PostgREST. PostgREST is an open-source tool that automatically generates a RESTful API from your database schema, eliminating the need for custom backend code. By integrating PostGIS, the geospatial extension for PostgreSQL, we\u2019ll see how spatial data like points, polygons, and raster layers can be exposed through clean, performant REST endpoints.\r\nWe'll walk through the setup process, including enabling PostGIS, configuring PostgREST, and writing SQL views or functions to expose spatial operations. You'll learn how to use PostGIS functions\u2014like distance calculations, spatial joins, and bounding box filters\u2014directly through the API. We\u2019ll also discuss how to secure, paginate, and filter spatial data, making your API both powerful and user-friendly.\r\nWhether you're a GIS developer, a backend engineer, or just curious about spatial data, this session will give you practical tools to build and scale spatial APIs using only SQL. By the end, you'll have a clear roadmap to go from a PostgreSQL database to a fully-featured geospatial API ready for frontend integration or data sharing.",
+    "start_datetime": "2025-11-20T20:30:00Z",
+    "end_datetime": "2025-11-20T20:55:00Z",
+    "talk:code": "A8EV98",
+    "talk:guid": "957b40b2-27a1-5454-9bbf-5df5db3fc986",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Tools, Libraries & Visualisation",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG308 TE IRINGA",
+    "talk:room_capacity": 180,
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "J7Z7F8",
+        "name": "krishna lodha",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/J7Z7F8/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-20T20:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/A8EV98/",
+      "title": "Building Spatial APIs in PostgreSQL with PostgREST"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/A8EV98/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/J7Z7F8/",
+      "title": "krishna lodha"
+    },
+    {
+      "rel": "related",
+      "href": "https://rottengrapes.tech/",
+      "title": "Rotten Grapes Private Limited"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.youtube.com/@krishnaglodha",
+      "title": "YouTube tutorials"
+    },
+    {
+      "rel": "related",
+      "href": "https://medium.com/rotten-grapes",
+      "title": "technical blogs"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/A8EV98/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=qXwloJAdArA",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Building Spatial APIs in PostgreSQL with PostgREST",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

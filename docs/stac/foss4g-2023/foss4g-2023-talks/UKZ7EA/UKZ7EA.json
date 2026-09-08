@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "UKZ7EA",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Interfacing QGIS processing algorithms from R",
+    "description": "R is well-known for its unsurpassed provision of well documented statistical functions and packages in the default installation. Less well-known is its excellent support for spatial data through packages such as sf, terra, and stars. A thriving ecosystem of diverse and often topic-specific packages build on these foundations, making R a powerful command-line GIS (Geographic Information System) for reproducible research. However, dedicated GIS software (e.g. QGIS) offers specific processing algorithms that are either not available in R, or may achieve a higher level of performance than their equivalents in R. This presentation describes how it is now possible to combine the strengths of R and QGIS through R packages that interface processing algorithms provided by QGIS. These packages (qgisprocess, qgis) allow users to create data processing pipelines that combine R and QGIS algorithms almost seamlessly. We discuss the current state of these R packages and demonstrate the usage of their most important functions by example. Finally, we shed light on future development directions and seek feedback from the community.",
+    "start_datetime": "2023-06-30T12:00:00Z",
+    "end_datetime": "2023-06-30T12:30:00Z",
+    "talk:code": "UKZ7EA",
+    "talk:guid": "b084beb5-bb18-5803-a26e-407b182fb49d",
+    "talk:event": "foss4g-2023",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Lumbardhi",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "LVMLCG",
+        "name": "Floris Vanderhaeghe",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/LVMLCG/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-30T12:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/UKZ7EA/",
+      "title": "Interfacing QGIS processing algorithms from R"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/UKZ7EA/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/LVMLCG/",
+      "title": "Floris Vanderhaeghe"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/UKZ7EA/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/uZ6FbogtSwSFWp4rmQDTxs",
+      "type": "text/html",
+      "title": "2023 |Interfacing QGIS processing algorithms from R - Floris Vanderhaeghe",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=Qt5DzWThWqI",
+      "type": "text/html",
+      "title": "2023 |Interfacing QGIS processing algorithms from R - Floris Vanderhaeghe",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

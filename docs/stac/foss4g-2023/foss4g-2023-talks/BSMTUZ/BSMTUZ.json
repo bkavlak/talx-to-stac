@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "BSMTUZ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Standardizing Satellite Tasking for Consumers",
+    "description": "One decade ago, we saw the launch of the first earth observation cubesats by Planet Labs. In the years since we have seen hundreds of satellites launched, and dozens of startup companies launching taskable satellites. While this has led to incredible opportunities to leverage multiple sensors and sensor modalities, the massive increase of data has also created challenges in data management, discovery, and usage. The community driven SpatioTemporal Asset Catalog (STAC) specification was an important step forward in exposing data to users in a standard way that enables cloud-native workflows and has been successful across government and industry.\r\n\r\nThe process of actually tasking satellites, however, is still very much non-standard; each data provider exposes a unique API, if at all. Some data aggregators have created a single tasking API that proxies and translates to multiple data provider APIs, but this is still non-standard, and proprietary. \r\n\r\nElement 84 has been leading an effort to create a community standard API around how users order future data and how providers respond to those requests. Working with government groups, commercial satellite operators, and data integrators, we have hosted working sprints to develop a specification and open-source tooling demonstrating the power of a tasking API specification.\r\n\r\nThis talk will cover the current status of the community tasking API specification, future plans, and a demonstration of how to use the API to order data.",
+    "start_datetime": "2023-06-28T12:30:00Z",
+    "end_datetime": "2023-06-28T13:00:00Z",
+    "talk:code": "BSMTUZ",
+    "talk:guid": "4289d1e6-889d-5bc5-8f55-c81d1aa6629f",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Open Standard",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT D / N112 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "W8MQ89",
+        "name": "Matthew Hanson",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/W8MQ89/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T12:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/BSMTUZ/",
+      "title": "Standardizing Satellite Tasking for Consumers"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/BSMTUZ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/W8MQ89/",
+      "title": "Matthew Hanson"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/BSMTUZ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/cN8cSwQX7CvMH4XtAcVeQF",
+      "type": "text/html",
+      "title": "2023 |  Standardizing Satellite Tasking for Consumers - Matthew Hanson",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=qlmV6_AsWjU",
+      "type": "text/html",
+      "title": "2023 |  Standardizing Satellite Tasking for Consumers - Matthew Hanson",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

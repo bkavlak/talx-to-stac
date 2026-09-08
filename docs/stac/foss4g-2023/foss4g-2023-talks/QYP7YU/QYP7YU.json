@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "QYP7YU",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "An application-oriented implementation of hexagonal on-the-fly binning metrics for city-scale georeferenced social media data",
+    "description": "### Introduction\r\nThe analysis of georeferenced social media (SM) data holds broad potential for informing municipal policy-making. Local adaptation to climate change and disaster resilience, transforming city centers, gentrification, and demographic change are significant challenges for municipalities. \r\nIn light of these pressing topics, a growing awareness for data-driven decision making has fostered geospatial interfaces that allow practitioners to interactively explore data source. \r\nParticularly SM offers the potential of a live feed and continuous reflection of events at scale. Although many studies have an urgent need for a purpose-driven, customized visualization of spatial data, little emphasis has been put on how to display these data.\r\nMany studies on map-based visualization in SM use traditional cartographic methods, such as pins or choropleth maps, with varying color scales or heatmaps to represent absolute or relative values. However, SM data presents challenges that require more sophisticated statistical metrics and flexible visualization techniques. We assess the signed chi metric, specifically designed for mapping via binning, and expand its use in a Bonn case study using an on-the-fly hexagonal binning method for frontend applications like dashboards. We then evaluate the advantages and disadvantages of the various proposed metrics and visualizations in terms of their practical applications.\r\n\r\n### Problem Statement\r\nAs the overview by (Teles da Mota & Pickering 2020) has shown, research involving geo-SM from different platforms has become increasingly popular but bears specific problems inherent to the characteristics of volunteered geographic information (VGI) \u2013 volume, veracity, velocity, variety are just broad categories used to characterize these.\r\n\r\nFirstly, Access to SM databases, such as Meta or Twitter, is usually limited to capital intensive partner companies. Instagram's public-facing API is largely undocumented and opaque to end-users, causing uncertainty about data selection criteria (Dunkel 2023). Hence, the lack of knowledge about data context and possible biases can affect the representativeness of the data subset. \r\n\r\nSecond, \"super users\" sharing repeated content may create noise and skew analysis outcomes if absolute values are solely considered.\r\n\r\nThird, as Teles da Mota & Pickering (2020) point out, research has been conducted mainly for large areas ranging from national parks to entire countries or seldomly even the whole world (cf. Dunkel et al. 2023). Studies working with data on the municipal level where individual locations and differences of only a few meters play a significant role, are usually not focusing on methodological cartographic issues or appropriate metrics but rather on effectively communicating core research results. Due to this lack of reference material for the municipal level, a research gap of proper visualization methods is identified.\r\n\r\nLastly, VGI, as practiced by Instagram, poses a unique problem for researchers. Users are allowed to create public \"Instagram Locations\" and tag their posts with a coordinate of their choice, which can then be referenced by other users as well. However, the user is not obligated to provide a clear definition of what exactly is meant by the location they choose, creating ambiguity. For instance, the [\"Bonn\" location](https://www.instagram.com/explore/locations/107481562)'s coordinates (50.7333, 7.1) are situated in the city's center. What it actually refers to is entirely subject to the interpretion of the user. It could refer to different extents of the city center, the official administrative boundaries of Bonn or anything loosely associated with Bonn, including cultural references or events. This ambiguity which Meta is aware of (Delvi et al. 2014) can be observed on different zoom levels such as city districts, cities, countries or continents throughout Instagram data and poses an enormous challenge to researchers working with city-scale areas of interest.\r\n\r\n### Research Interest\r\nIn order to deal with these challenges, a thorough data cleaning is insufficient. We propose an application-oriented system of metrics for data processing and visualization depending on the user\u2019s needs, by comparing possible application scenarios as well as limitations based on a case study for the city of Bonn with Instagram data from 2010 - 2022:\r\n1. Absolute values \u2013 absolute number of observed posts per location or bin\r\n2. Relative values \u2013 relation between observed and expected posts per location or bin\r\n3. Signed chi \u2013 statistic value indicating significance and direction per location or bin\r\n\r\nThe *observed* value usually refers to a quantity found at a specific bin, using a specific query such as a thematic filter. In contrast, the *expected* value often refers to an average quantity of a generic query, such as the average of all SM posts in Bonn, and it is used to identify over- or underrepresented spatial patterns at local bins (Visvalingam 1978). However, what is considered as the observed value for normalization is up to the analyst (Wood et al. 2007). One could also compare average thematic posts in all German cities (the expected value) to those found in Bonn, as a means to concentrate on the difference of the subject under analysts (posts in the city of Bonn). Or, another option could be to use discrete periods of historical time intervals as the expected value, and compare to the recent posts quantities to identify recent and unusual spatial posting behavior trends. \r\n\r\nWe evaluate these metrics through a hexagonal on-the-fly binning approach with different color scaling and propose easily customizable scripts for the [leaflet-d3 plugin](https://github.com/bluehalo/leaflet-d3). We provide all our scripts for reproduction with explanations and usage recommendations as well as a demo dashboard in a public GitHub repository.\r\n\r\nOur findings suggest that all of the investigated metrics can offer insight into data, but their appropriate use highly depends on the research question at hand. When using the dashboard frontend, outliers should be highlighted, non-significant values reduced in opacity, or intra-dataset validations being carried out through automatic comparisons across metrics and filters. Overall, the absolute metric is to be used sparingly. The relative metric generates only a very narrow gain in knowledge whereas the signed chi metric yields the best overall results and deals very well with the above issues.",
+    "start_datetime": "2023-06-30T12:30:00Z",
+    "end_datetime": "2023-06-30T13:00:00Z",
+    "talk:code": "QYP7YU",
+    "talk:guid": "7eab6d2b-a6be-55f3-b906-16583236f31e",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Academic Track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT E / N209 - Floor 3",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "ACLUGV",
+        "name": "Dominik Weckm\u00fcller",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/ACLUGV/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-30T12:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/QYP7YU/",
+      "title": "An application-oriented implementation of hexagonal on-the-fly binning metrics for city-scale georeferenced social media data"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/QYP7YU/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/ACLUGV/",
+      "title": "Dominik Weckm\u00fcller"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.instagram.com/explore/locations/107481562",
+      "title": "\"Bonn\" location"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/bluehalo/leaflet-d3",
+      "title": "leaflet-d3 plugin"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/QYP7YU/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

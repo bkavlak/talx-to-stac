@@ -1,0 +1,108 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "ZBGHFH",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Creating a land use/land cover dictionary  based on multiple pairs of OSM and reference datasets",
+    "description": "1. Background\r\nOpenStreetMap (OSM) can supply useful information to improve land use/land cover (LULC) mapping (Arsanjani, 2013; Schultz, 2017; Zhou, 2019). A dictionary is needed to convert each OSM tag into an LULC class. However, such a dictionary was mostly created subjectively or with only one pair of OSM and reference datasets. As a result, the existing dictionaries may not be applicable to other study areas. This study designed four measures: sample count, average area percentage, sample ratio and average maximum percentage; and used multiple pair of OSM and reference datasets to create a dictionary. 50 pan-European metropolitans were involved for testing and 1409 different OSM tags were found. We further found that: 1) Only a small proportion of OSM tags play a decisive role for LULC mapping. 2) An OSM tag may correspond to multiple different LULC classes, but the issue that which and how different LULC classes correspond to each OSM tag can be determined. Moreover, not only the proposed dictionary is useful for various applications, e.g., producing LULC maps, obtaining training and/or validation samples, assessing the quality of an OSM dataset, but also the approach to creating this dictionary can be applicable to different study areas and/or LULC datasets.\r\n\r\n2. Data\r\nOSM datasets of the 50 metropolitans were acquired for free from http://download.geofabrik.de/index.html in June 2020.   Corresponding reference datasets (called urban atlas or UA) were available from https://land.copernicus.eu/local/urban-atlas/urban-atlas-2012/# in June 2020 freely.\r\n\r\n3. Methodology\r\nThe tenet of our approach is to use multiple pairs of OSM and reference datasets for creating an OSM-LULC dictionary. In each pair of datasets, an OSM tag may correspond to different LULC classes, it is therefore necessary to determine which is the most appropriate LULC class for each OSM tag. we assumed that most OSM tags have been tagged by volunteers   correctly (Zhou et al. 2019). Following this assumption, the way to determine the most appropriate LULC class for each OSM tag includes two steps. Firstly, all objects of an OSM tag are intersected with those of different LULC classes, respectively. After that, the   LULC class with the maximum intersecting area is viewed as the most appropriate one for this OSM tag. Four attributes and four measures are designed to describe an OSM- LULC dictionary. They are: Tag ID, Tag Name, Class ID and Class Name in terms of attributes; and Sample Count, Average Area Percentage, Sample Ratio and Average Maximum Percentage in terms of measures. They are introduced as follows: 1. Tag ID denotes the ID of an OSM tag, 2. Tag Name denotes the name of an OSM tag. 3. Class ID denotes the ID of an LULC class. 4. Class Name denotes the ID of an LULC class.5. Sample Count (SC) denotes how frequent an OSM tag is appeared in different study areas or datasets. 6. Average Area Percentage (AAP) denotes the average of the area percentages of an OSM tag in multiple different OSM datasets. 7. Sample Ratio (SR) denotes the percentage of study areas or datasets that an OSM tag corresponds to an LULC class. 8. Average Maximum Percentage (AMP) denotes the average of all the maximum percentage in different study areas or datasets.\r\n\r\n4. Conclusion and application\r\nThis study proposed an approach to creating an OSM-LULC dictionary. The tenet of this approach was to involve multiple pairs of OSM and reference datasets for the analysis. First of all, each pair of OSM and reference datasets were intersected and the most appropriate LULC class for each OSM tag was determined. Then, the four measures, i.e., sample count (SC), average area percentage (AAP), sample ratio (SR) and average maximum percentage (AMP), were designed and calculated based on multiple pairs of OSM and reference datasets.  More precisely, a total of 50 pairs of OSM and reference datasets in pan-European metropolitans were chosen as study areas for creating an OSM-LULC dictionary. Finally, a number of 1409 different OSM tags were found and they were reclassified into five and 14 different LULC classes, respectively. Moreover, this dictionary was also analyzed with the four proposed measures. Results showed that: \r\nFirstly, most OSM tags (\uff1e 1,000) were only found in less than five study areas (SC \uff1c 5). Moreover, only 37 of the 1409 OSM tags had a percentage of average area (AAP) larger than 0.1%. This indicates that a small proportion of OSM tags can play a decisive role. \r\nSecondly, an OSM tag may correspond to multiple different LULC classes within a pair of OSM and reference datasets; The most appropriate LULC class for each OSM tag may also vary among different pairs of datasets. Thus Both the SR and AMP may also vary in different pairs of OSM tag and LULC class. \r\nWith the proposed dictionary, it is possible to understand the differences of different OSM tags and different pairs of OSM tag and LULC class. This is essential not only for producing LULC maps, but also for picking up training and/or validation data from an OSM dataset and also for detecting incorrect tags in an OSM dataset. Therefore, we concluded that it has benefits for creating an OSM-LULC dictionary based on multiple pairs of OSM and reference datasets.",
+    "start_datetime": "2022-08-25T10:40:00Z",
+    "end_datetime": "2022-08-25T10:45:00Z",
+    "talk:code": "ZBGHFH",
+    "talk:guid": "c022caad-6f4c-53f8-84d1-58379c82f1e6",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "Room Hall 3A",
+    "talk:room_capacity": 85,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "YPJNZP",
+        "name": "ShuZhuWang",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/YPJNZP/"
+      },
+      {
+        "code": "LWZMJU",
+        "name": "YaoMing Liu",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/LWZMJU/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T10:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/ZBGHFH/",
+      "title": "Creating a land use/land cover dictionary  based on multiple pairs of OSM and reference datasets"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/ZBGHFH/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/YPJNZP/",
+      "title": "ShuZhuWang"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/LWZMJU/",
+      "title": "YaoMing Liu"
+    },
+    {
+      "rel": "related",
+      "href": "http://download.geofabrik.de/index.html",
+      "title": "download.geofabrik.de/index.html"
+    },
+    {
+      "rel": "related",
+      "href": "https://land.copernicus.eu/local/urban-atlas/urban-atlas-2012/#",
+      "title": "land.copernicus.eu/local/urban-atlas/urban-atlas-2012"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/ZBGHFH/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

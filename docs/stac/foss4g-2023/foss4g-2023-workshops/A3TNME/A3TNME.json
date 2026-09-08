@@ -1,0 +1,116 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "A3TNME",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Development of UNVT Portable, a map server with OpenStreetMap pre-installed using a RaspberryPi on a local network in offline situations during disasters.",
+    "description": "UNVT Portable is a package for RaspberryPi that allows users to access a map hosting server via a web browser within a local network, primarily for offline use during disasters. It is designed to aid disaster response by combining aerial drone imagery with OpenStreetMap and open data tile datasets.\n\n\"UNVT Portable\" is a map server that allows you to freely use web maps from devices such as smartphones even in an offline environment. It is mainly designed to work in an offline environment in the event of a major disaster, and various open data tiles are prepared in advance, such as drone aerial images taken after a disaster, OpenStreetMap, and satellite images released for free by JAXA\uff08Japan Aerospace Exploration Agency\uff09, etc. Combine sets to create the maps you need in times of disaster. We envision a use case for municipalities, etc. to understand the situation after a disaster and to respond to disasters. It is built using open source software such as Apache and MapLibre and Raspberry Pi, and is completely open source. Unlike tools such as Google Maps, which are difficult to use for secondary purposes, it is being developed as open source so that it can be released in a form that can be easily used by anyone, including local governments, international organisations and private companies.",
+    "start_datetime": "2023-06-27T12:00:00Z",
+    "end_datetime": "2023-06-27T14:00:00Z",
+    "talk:code": "A3TNME",
+    "talk:guid": "f07f6215-ddf2-5178-8cf9-0e83c1e9705e",
+    "talk:event": "foss4g-2023-workshop",
+    "talk:type": "Short Workshop",
+    "talk:language": "en",
+    "talk:room": "UBT D / N112 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 120,
+    "talk:speakers": [
+      {
+        "code": "SSNAHM",
+        "name": "ShogoHirasawa",
+        "url": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/SSNAHM/"
+      },
+      {
+        "code": "WFYVSX",
+        "name": "Hidenori Fujimura",
+        "url": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/WFYVSX/"
+      },
+      {
+        "code": "KZQBHV",
+        "name": "Taichi Furuhashi",
+        "url": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/KZQBHV/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-27T13:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/A3TNME/",
+      "title": "Development of UNVT Portable, a map server with OpenStreetMap pre-installed using a RaspberryPi on a local network in offline situations during disasters."
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/A3TNME/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/SSNAHM/",
+      "title": "ShogoHirasawa"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/WFYVSX/",
+      "title": "Hidenori Fujimura"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/speaker/KZQBHV/",
+      "title": "Taichi Furuhashi"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023-workshop/talk/A3TNME/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "poster": {
+      "href": "https://talks.osgeo.org/media/foss4g-2023-workshop/submissions/A3TNME/resources/UNVTPortable_Workshop_BbrJ6D4.png",
+      "type": "image/png",
+      "title": "poster",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-workshops"
+}

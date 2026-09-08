@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "JVYYMX",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "From Cloud to GPU: Inside the Modern Vector Tile Rendering Pipeline",
+    "description": "Ever wondered how geospatial data travels from cloud storage to your browser's GPU? This talk walks through the full pipeline: accessing cloud-optimized formats like PMTiles, decoding vector tile formats like MVT and MLT, and rendering on the GPU. We also peek at future directions like WebGPU and WebAssembly.\n\nEver wondered how modern web maps actually work under the hood\u2014from cloud-native storage all the way to pixels on your screen? This talk takes you on a deep dive through the full vector tile rendering pipeline.\r\n\r\nWe\u2019ll start at the source, exploring how geospatial data is stored and accessed efficiently using cloud-optimized formats like PMTiles. From there, we\u2019ll unpack how data is encoded into vector tile formats such as Mapbox Vector Tiles (MVT) and emerging approaches like MapLibre Tile (MLT)\u2014what they contain, how they are structured, and the design decisions behind them.\r\n\r\nNext, we move into the browser to examine how tiles are decoded and rendered on the GPU using map renderers like MapLibre GL JS, and how they transform raw tile data into interactive maps via WebGL.\r\n\r\nFinally, the talk closes with an outlook on the evolving hardware landscape and how technologies like WebGPU and WebAssembly SIMD are opening new possibilities for high-performance browser-based map rendering.",
+    "start_datetime": "2026-09-02T08:30:00Z",
+    "end_datetime": "2026-09-02T09:00:00Z",
+    "talk:code": "JVYYMX",
+    "talk:guid": "1cead64b-64ae-5961-b082-4f6ad4c939a4",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "J38ZLN",
+        "name": "Markus Tremmel",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/J38ZLN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T08:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/JVYYMX/",
+      "title": "From Cloud to GPU: Inside the Modern Vector Tile Rendering Pipeline"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/JVYYMX/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/J38ZLN/",
+      "title": "Markus Tremmel"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/JVYYMX/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

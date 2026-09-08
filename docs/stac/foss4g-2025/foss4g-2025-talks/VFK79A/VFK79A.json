@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "VFK79A",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Is Zarr the new COG?",
+    "description": "Zarr is gaining traction in geospatial workflows\u2014but is it replacing COG, complementing it, or something else entirely? We\u2019ll unpack the formats\u2019 shared foundations, explore their tradeoffs, and offer a path toward better community guidance, tooling, and support.\n\nCloud-Optimized GeoTIFF (COG) and Zarr have each earned their place in modern geospatial workflows. While often framed in opposition\u2014raster vs. analysis, imagery vs. data cube\u2014they are in fact deeply complementary. In this talk, we\u2019ll unpack how they address similar challenges from different angles, and why they should be considered parts of a shared toolkit rather than competing paradigms.\r\n\r\nWe\u2019ll highlight where Zarr and COG overlap, where they differ, and how decisions around chunking, compression, tiling strategies, and metadata design affect both formats. We'll discuss implementation pitfalls, emerging best practices, and the still-unanswered questions that data producers and tool builders face.\r\n\r\nMore than a comparison, this talk is a call to action: the community lacks clear guidance and consistent support for practitioners working to produce data in either format. We\u2019ll highlight concrete gaps in the tooling landscape, share ideas from our own work on how to improve decision-making and best practices, and invite others to collaborate on building a healthier, more cooperative open geospatial data ecosystem.",
+    "start_datetime": "2025-11-18T23:00:00Z",
+    "end_datetime": "2025-11-18T23:25:00Z",
+    "talk:code": "VFK79A",
+    "talk:guid": "e09060c0-e87d-5a3f-97a9-1d040199c0a6",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Cloud, APIs & Data Infrastructure",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG403",
+    "talk:room_capacity": 386,
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "8TAMEN",
+        "name": "Jarrett Keifer",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/8TAMEN/"
+      },
+      {
+        "code": "BQ8JEN",
+        "name": "Julia Signell",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/BQ8JEN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-18T23:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/VFK79A/",
+      "title": "Is Zarr the new COG?"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/VFK79A/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/8TAMEN/",
+      "title": "Jarrett Keifer"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/BQ8JEN/",
+      "title": "Julia Signell"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/VFK79A/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=qF6ZFomRZb4",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Is Zarr the new COG?",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

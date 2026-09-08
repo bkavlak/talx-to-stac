@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "MZCRNJ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Road condition assessment and inspection using deep learning",
+    "description": "Road Surface Inspector is a system developed by IT34 with the purpose of speeding up the process of road damage registration by using deep learning. The time consuming process of inspection and registration of road damage is reduced significantly by using our Road Scanner Inspector app that can be placed in the windshield of any vehicle. The app records a video and gps coordinates, which are later processed in order to find different types of damage - potholes, cracks, damaged markings using deep learning.\r\n\r\nThe system can also detect other types of assets such as traffic signs, traffic lights, manholes and others that can be used in fx digitalization tasks.\r\n\r\nThe results of the image analysis are presented on a webgis portal as heatmaps presenting the condition of the road in the areas that were inspected using the app. The heatmaps are further used by the decision makers in order to prioritize the road maintenance work. \r\n\r\nWhile using the app, Gps logs are built in realtime based on the positions sent by the phone while driving. These are further used for street inspection documentation.\r\n\r\nOpen source components.\r\nPostgres + Postgis for storing the data and for geometry based analysis\r\nPyTorch and Yolo7 for deep learning\r\nOpenLayers for visualizing the images/detection results as rasters in webgis\r\nGeoserver for publishing data as WMS/WFS\r\nQGis as an external visualization tool for the data",
+    "start_datetime": "2023-06-29T09:30:00Z",
+    "end_datetime": "2023-06-29T10:00:00Z",
+    "talk:code": "MZCRNJ",
+    "talk:guid": "8235f769-6c7d-5e48-b329-75e2664b1431",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT D / N113 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "FGLYFD",
+        "name": "Bogdan Negrea",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/FGLYFD/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-29T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/MZCRNJ/",
+      "title": "Road condition assessment and inspection using deep learning"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/MZCRNJ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/FGLYFD/",
+      "title": "Bogdan Negrea"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/MZCRNJ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/dB3YcE54KuCWDvKsYhqaSv",
+      "type": "text/html",
+      "title": "2023 | Road condition assessment and inspection using deep learning  - Bogdan Negrea",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=yG4Tn3RdFsI",
+      "type": "text/html",
+      "title": "2023 | Road condition assessment and inspection using deep learning  - Bogdan Negrea",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

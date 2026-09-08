@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "TJSB9P",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Scaling GeoNetwork 4.4.x in Kubernetes: Production Deployment Strategies and Performance Analysis",
+    "description": "Walk through of Helm charts and horizontal scaling approaches for GeoNetwork in Kubernetes, covering volume pitfalls like wro4j cache configurations, plus Locust benchmark techniques for user access testing\n\nGeoNetwork, a widely adopted open-source metadata catalog, faces significant challenges when deployed in modern containerized environments requiring high availability and scalability. This presentation examines current capabilities and limitations for scaling GeoNetwork 4.4.x deployments in Kubernetes environments.\r\n\r\nWe present a comprehensive Helm chart implementation that enables both vertical and horizontal scaling strategies for GeoNetwork instances. Our analysis reveals that while vertical scaling (CPU/memory increases) provides straightforward performance improvements, horizontal scaling presents complex challenges due to GeoNetwork's architecture, particularly around session management, database connections, and Elasticsearch cluster coordination.\r\n\r\nKey deployment pitfalls identified include persistent volume configuration issues and  inter-pod file sharing. Ingress load balancer configurations that maintain catalog consistency across multiple instances.\r\n\r\nPerformance benchmarking using Locust load testing platform on a catalog containing 7,000 metadata records reveals critical capacity thresholds for single GeoNetwork instances. Our tests simulate realistic user behavior including HTML page loading for metadata record viewing, providing concrete metrics for infrastructure planning and resource allocation decisions.\r\n\r\nGeoCat provides products to its customers that need to be fast, reliable and scalable. Moving the GeoCat Live product to a Kubernetes environment contributes to this goal.\r\n\r\nThe presentation concludes with recommendations for organizations implementing scalable GeoNetwork infrastructure, including when to choose vertical versus horizontal scaling approaches, and operational monitoring strategies essential for production deployments.",
+    "start_datetime": "2025-11-18T22:30:00Z",
+    "end_datetime": "2025-11-18T22:55:00Z",
+    "talk:code": "TJSB9P",
+    "talk:guid": "1319b74f-e0e6-5ec9-8a42-2049c281510e",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Cloud, APIs & Data Infrastructure",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG802",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "GDVTCB",
+        "name": "Jorge S. Mendes de Jesus",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/GDVTCB/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-18T22:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/TJSB9P/",
+      "title": "Scaling GeoNetwork 4.4.x in Kubernetes: Production Deployment Strategies and Performance Analysis"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/TJSB9P/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/GDVTCB/",
+      "title": "Jorge S. Mendes de Jesus"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/TJSB9P/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

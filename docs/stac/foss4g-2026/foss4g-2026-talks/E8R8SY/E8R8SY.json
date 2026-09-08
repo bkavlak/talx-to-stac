@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "E8R8SY",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Building Modern GIS Applications on Cloud Native Infrastructure",
+    "description": "Eliminate idle costs with a scale-to-zero, cloud-native GIS architecture. This session explores high-performance analytics using DuckDB and serverless mapping with PMTiles to remove dedicated servers. Learn to build sustainable, fast GIS applications across any cloud provider while paying only for active usage.\n\nWhy should we settle for exorbitant server costs while our systems sit idle, doing nothing yet still draining the budget? As user demand fluctuates, the ability to scale seamlessly while maintaining cost-efficiency becomes critical to delivering a premium user experience.\r\n\r\nIn this session, I will unveil the architecture of a Modern GIS Application specifically designed to solve these challenges. Built on a Cloud Native foundation on Google Cloud Platform (GCP), this system guarantees a true Scale-to-Zero state, where billable container time drops to absolute zero during inactivity. Leveraging Next.js 16 on Cloud Run, we maintain a rapid Cold Start of 1.5s\u20132.5s, ensuring a seamless transition from idle to active.\r\n\r\nWe will dive deep into a dual-engine strategy that redefines serverless performance. First, we explore an analytics engine powered by DuckDB and Python that queries Hive-partitioned Parquet files directly on GCS, achieving a sub-second average response time of 959ms for complex aggregations of Ecoplant forecasting data. Second, we showcase a serverless mapping layer using MapLibre GL JS and PMTiles, which eliminates dedicated tile servers by fetching data via HTTP Byte-Range requests.\r\n\r\nThe conclusion of this session goes beyond mere cost reduction; it demonstrates that high-performance GIS doesn't require a massive price tag. Attendees will discover how to embrace Cloud Native principles to push GIS applications beyond traditional boundaries and into a more sustainable, scalable future.",
+    "start_datetime": "2026-09-03T05:30:00Z",
+    "end_datetime": "2026-09-03T06:00:00Z",
+    "talk:code": "E8R8SY",
+    "talk:guid": "1c1310e0-9226-5061-93b0-c82a16d3071f",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room4",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "SP3G73",
+        "name": "Siriwat Suttipanyo",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/SP3G73/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-03T05:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/E8R8SY/",
+      "title": "Building Modern GIS Applications on Cloud Native Infrastructure"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/E8R8SY/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/SP3G73/",
+      "title": "Siriwat Suttipanyo"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/E8R8SY/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

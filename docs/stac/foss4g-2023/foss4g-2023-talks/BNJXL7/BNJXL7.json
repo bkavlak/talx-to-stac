@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "BNJXL7",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Editable topologies in pgRouting",
+    "description": "pgRouting, a PostGIS extension containing algorithms and tools for working with graph data, has become a highly flexible member of the FOSS routing engine family. In this talk, I want to demonstrate just how flexible it can be by showing how routable networks (called 'topologies' in pgRouting) can be made editable.\r\n\r\nI will take the audience from theoretical conception of editable topologies (how can edits, insertions and deletions be handled in PostGIS?) through its implementation. Finally, I will end with a demonstration of a fully editable topology in a web mapping application based on a real world example using OpenStreetMap data.",
+    "start_datetime": "2023-06-29T12:30:00Z",
+    "end_datetime": "2023-06-29T13:00:00Z",
+    "talk:code": "BNJXL7",
+    "talk:guid": "0a94da3b-1d5b-56f7-8895-75428726ba36",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT D / N115 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "8MUTTJ",
+        "name": "Christian Beiwinkel",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/8MUTTJ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-29T12:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/BNJXL7/",
+      "title": "Editable topologies in pgRouting"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/BNJXL7/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/8MUTTJ/",
+      "title": "Christian Beiwinkel"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/BNJXL7/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/e7y3Usnn2iqA1NwbT1UKrF",
+      "type": "text/html",
+      "title": "2023 | Editable topologies in pgRouting  - Christian Beiwinkel",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=6ZFjSXAOkss",
+      "type": "text/html",
+      "title": "2023 | Editable topologies in pgRouting  - Christian Beiwinkel",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

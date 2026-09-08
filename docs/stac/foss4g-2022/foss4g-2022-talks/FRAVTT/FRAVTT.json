@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "FRAVTT",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "A tool for mapping fire burn severity and extent in watersheds for flood risk assessment",
+    "description": "As climate change progresses, we are experiencing an increase in the frequency and severity of extreme weather events in many parts of the world. Climate models predict the frequency and severity of these weather events to continue to increase in the future as surface air temperatures rise.\r\n \r\nIn 2021, the Canadian province of British Columbia (BC) experienced one of the most severe fire seasons on record which destroyed communities and ecosystems across the province. In the same year, an \u201catmospheric river\u201d precipitation event led to widespread flooding causing severe damage to roads and communities across BC. There is a correlation between severe wildfires and increased runoff following precipitation events in some regions.\r\n \r\nThere is a need for better prediction, monitoring, and management of fire and flood events to mitigate the damages caused by post-wildfire flooding. Remote sensing data and analysis techniques play a key role in monitoring climate-related natural disasters and helping understand and mitigate risks to communities, ecosystems, and infrastructure in areas that may be exposed to flooding. Free remote sensing datasets along with free and open source software can greatly reduce the costs and increase availability of this monitoring capability, increasing stakeholder access to geospatial intelligence.\r\n\r\nThis talk presents a tool developed at Sparkgeo for automated mapping of burn severity and extent within watersheds of interest. The tool uses multi-source public remote sensing data in a cloud-based workflow, taking advantage of recent open source initiatives including the SpatioTemporal Asset Catalog (STAC). The tool can help assess flood risk from significant rainfall events and may offer essential flood mitigation and risk management knowledge. We present the tool\u2019s deployment to map 2021 wildfires in several British Columbia watersheds.",
+    "start_datetime": "2022-08-26T08:05:00Z",
+    "end_datetime": "2022-08-26T08:10:00Z",
+    "talk:code": "FRAVTT",
+    "talk:guid": "788b4bf8-ebed-5e2f-a4a3-1e0f6f010f5f",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Room Limonaia",
+    "talk:room_capacity": 110,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "C3UATR",
+        "name": "Gordon Logie",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/C3UATR/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T08:07:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/FRAVTT/",
+      "title": "A tool for mapping fire burn severity and extent in watersheds for flood risk assessment"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/FRAVTT/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/C3UATR/",
+      "title": "Gordon Logie"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/FRAVTT/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=PFWfFYNgOs4",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | A tool for mapping fire burn severity and extent in watersheds for flood risk\u2026",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

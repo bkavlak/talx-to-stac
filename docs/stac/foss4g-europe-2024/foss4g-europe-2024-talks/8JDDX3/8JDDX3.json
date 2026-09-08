@@ -1,0 +1,127 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "8JDDX3",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Q-MOKA: A QGIS-Based Application for Managing and Analyzing Traffic Accidents",
+    "description": "The presentation will discuss Q-MOKA, a GIS application developed in collaboration with the Hellenic Ministry of Infrastructure and Transportation to manage and analyze traffic accidents along the Greek Primary and Transeuropean Road Network. Q-MOKA addresses the challenges of the existing Traffic Accident Registry, which lacked geospatial referencing and robust data validation. Built around QGIS and Postgres/PostGIS, Q-MOKA offers several key functionalities:\r\n\r\n\u2022\t Network Model: Supports multiple linear referencing systems for accurate accident location representation.\r\n\r\n\u2022\t Dual-Carriageway Management: Ensures consistent linear referencing even during network realignments.\r\n\r\n\u2022\t Flexible Accident Location: Records accidents by X,Y coordinates or route/offset, maintaining synchronization between the two methods.\r\n\r\n\u2022\t Linear and Point Data Management: Allows creation and editing of additional linear and point event data relevant to the Agency (e.g., number of lanes, speed limits).\r\n\r\n\u2022\t Geographic Mapping: Provides route-level accident mapping based on the recording service.\r\n\r\n\u2022\t Custom QGIS Forms: Facilitates data entry and management through user-friendly forms.\r\n\r\nThe presentation will delve into the technical aspects of Q-MOKA, including its database structure, configuration options, and potential future enhancements. By offering a robust and user-friendly platform for traffic accident management and analysis, Q-MOKA contributes to improved road safety and informed decision-making in Greece.\r\n\r\nKeywords: Traffic accident, GIS, QGIS, PostgreSQL, PostGIS, linear referencing",
+    "start_datetime": "2024-07-04T12:20:00Z",
+    "end_datetime": "2024-07-04T12:25:00Z",
+    "talk:code": "8JDDX3",
+    "talk:guid": "fa83ae6a-3a7a-5685-8e0f-26cdf271990f",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lighting talk",
+    "talk:language": "en",
+    "talk:room": "GEOCAT (301)",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "UADM7P",
+        "name": "Stathis Petridis",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/UADM7P/"
+      },
+      {
+        "code": "ZDMADJ",
+        "name": "ANTONIOS FEKAS",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/ZDMADJ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-04T12:22:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/8JDDX3/",
+      "title": "Q-MOKA: A QGIS-Based Application for Managing and Analyzing Traffic Accidents"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/8JDDX3/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/UADM7P/",
+      "title": "Stathis Petridis"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/ZDMADJ/",
+      "title": "ANTONIOS FEKAS"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/8JDDX3/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "the-presentation-of-our-talk-about-the-application-q-moka": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/8JDDX3/resources/Q-Moka-FOSS4GE_2024_2_V3wjBPT.pptx",
+      "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "title": "The presentation of our talk about the application Q-MOKA",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/vUQNhhq3LXsX1vWV6TXSih",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Q-MOKA: A QGIS-Based Application for Managing and Analyzing Traffic Accidents",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=9mhoPXfJRkc",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Q-MOKA: A QGIS-Based Application for Managing and Analyzing Traffic Accidents",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "LPYMXZ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Leveraging the Power of Uber H3 Indexing Library in Postgres for Geospatial Data Processing",
+    "description": "The Uber H3 library is a powerful geospatial indexing system that offers a versatile and efficient way to index and query geospatial data. It provides a hierarchical indexing scheme that allows for fast and accurate calculations of geospatial distances, as well as easy partitioning of data into regions. In this proposal, we suggest using the Uber H3 indexing library in Postgres for geospatial data processing.\r\n\r\nPostgres is an open-source relational database management system that provides robust support for geospatial data processing through the PostGIS extension. PostGIS enables the storage, indexing, and querying of geospatial data in Postgres, and it offers a range of geospatial functions to manipulate and analyze geospatial data.\r\n\r\nHowever, the performance of PostGIS can be limited when dealing with large datasets or complex queries. This is where the Uber H3 library can be of great use. By integrating Uber H3 indexing with Postgres, we can improve the performance of PostGIS, especially for operations that involve partitioning of data and distance calculations.\r\n\r\nWe propose to demonstrate the use of Uber H3 indexing library in Postgres for geospatial data processing through a series of examples and benchmarks. The proposed presentation will showcase the benefits of using Uber H3 indexing for geospatial data processing in Postgres, such as improved query performance and better partitioning of data. We will also discuss the potential use cases and applications of this integration, such as location-based services, transportation, and urban planning.\r\n\r\nThe proposed presentation will be of interest to developers, data scientists, and geospatial analysts who work with geospatial data in Postgres. It will provide a practical guide to integrating Uber H3 indexing with Postgres, and offer insights into the performance gains and applications of this integration.",
+    "start_datetime": "2023-06-29T13:00:00Z",
+    "end_datetime": "2023-06-29T13:30:00Z",
+    "talk:code": "LPYMXZ",
+    "talk:guid": "911c836d-d3d2-51ef-8930-ea5947b5136b",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT C / N110 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "8MGXWG",
+        "name": "json singh",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/8MGXWG/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-29T13:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/LPYMXZ/",
+      "title": "Leveraging the Power of Uber H3 Indexing Library in Postgres for Geospatial Data Processing"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/LPYMXZ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/8MGXWG/",
+      "title": "json singh"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/LPYMXZ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/2hR7svoGrowB1xELe7Xcq4",
+      "type": "text/html",
+      "title": "2023 | Leveraging the Power of Uber H3 Indexing Library in Postgres for Geospatial Data Processing",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=M3o3KIJuyaw",
+      "type": "text/html",
+      "title": "2023 | Leveraging the Power of Uber H3 Indexing Library in Postgres for Geospatial Data Processing",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

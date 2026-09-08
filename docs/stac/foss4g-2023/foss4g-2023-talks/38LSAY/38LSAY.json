@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "38LSAY",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "State of GDAL (versions 3.6 and 3.7)",
+    "description": "We will give a status report on the GDAL software, focusing on recent developments and achievements in the 3.6 and 3.7 GDAL versions released during the last year, but also on the general health of the project.\r\nThe discussed topics will be as various as the scope of GDAL is, covering the new single CMake build system, the full open source write vector support for the Esri FileGeodatabase format, a Arrow-based columnar oriented read API for vector layers implement in the Arrow, (Geo)Parquet, GeoPackage and FlatGeoBuf drivers, new vector layer API for table relationsihp management, new raster drivers for the JPEG-XL, KTX2, BASISU, NSIDCbin formats, multi-threaded read capabilities in the GeoTIFF driver, multiple performance improvements in the GeoPackage driver, advanced API to read raster compressed data, a new vector driver for the General Transit Feed Specification (GTFS),  support for the new Seek Optimized ZIP (SOZip) specification, etc.",
+    "start_datetime": "2023-06-28T09:30:00Z",
+    "end_datetime": "2023-06-28T10:00:00Z",
+    "talk:code": "38LSAY",
+    "talk:guid": "39e6e28a-4f0c-57fd-ad03-8526f8ce8f4f",
+    "talk:event": "foss4g-2023",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Outdoor Stage",
+    "talk:room_capacity": 600,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RSWKM3",
+        "name": "Even Rouault",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/RSWKM3/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/38LSAY/",
+      "title": "State of GDAL (versions 3.6 and 3.7)"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/38LSAY/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/RSWKM3/",
+      "title": "Even Rouault"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/38LSAY/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/ozWASJEyhsG6wYx6ShBm4Q",
+      "type": "text/html",
+      "title": "2023 |  State of GDAL (versions 3.6 and 3.7) - Even Rouault",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=oK7QxhAWPTc",
+      "type": "text/html",
+      "title": "2023 |  State of GDAL (versions 3.6 and 3.7) - Even Rouault",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

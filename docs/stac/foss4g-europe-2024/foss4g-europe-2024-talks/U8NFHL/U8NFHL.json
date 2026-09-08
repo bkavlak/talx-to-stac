@@ -1,0 +1,132 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "U8NFHL",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Geometrically guided and confidence-based denoising",
+    "description": "#### Introduction\r\nAs part of the CO3D mission (Lebegue et al., 2020), carried out in partnership with Airbus, CNES is developing the image processing chain including the open source photogrammetry pipeline [CARS](https://github.com/cnes/cars) (Youssefi et al., 2020). By acquiring land areas within two years, providing 4 bands (Blue, Green, Red, Near Infra Red) at 50 cm, the objective is to produce a global Digital Surface Model (DSM) with 1 m relative altimetric error (CE90) at 1 m ground sampling distance (GSD) as target accuracy. The worldwide production of this 3D information will notably make a real contribution to the creation of digital twins (Brunet et al., 2022). Satellite imagery provides global coverage, which unlocks the possibility to update the 3D model of any location on Earth within a rapid time frame. However, due to the smaller number of images or lower resolution than drone or aerial photography, a denoising step is necessary to extract relevant 3D information from satellite images. This step smooths out features while retaining their edges that are sometimes barely recognizable relative to the sensor resolution, such as the edges of small houses or the narrow gaps between them as our results show.\r\n\r\n#### Geometrically guided and confidence-based point cloud denoising\r\n\r\nPoint cloud denoising is a topic widely studied in 3D reconstruction: several methods, ranging from classical to deep learning-based have been designed over the past decades. In this article, we propose a new method derived from bilateral filtering (Digne and de Franchis, 2017) integrating new constraints. Our aim is to show how a priori knowledge can be used to guide denoising and, above all, to produce a denoised point cloud that is more consistent with the acquisition conditions or metrics obtained during correlation. \r\n\r\nThis new method takes into account two important constraints. The first is a geometric constraint. The input to the denoising step is a point cloud from photogrammetry resulting from matched points on the sensor images. Our pipeline CARS derives lines of sight from theses matched points and, the intersection of these lines give the target 3d positions. In our method, when we denoise this point cloud, the points are constrained to stay on their initial line of sight. This has two main advantages: the associated color will remain consistent with the new position and points won't accumulate in certain spaces and create dataless areas.\r\n\r\nThe second constraint comes from the correlator [PANDORA](https://github.com/cnes/pandora). The article (Sarrazin et al., 2021) describes a confidence metric, named ambiguity integral metric, to assess the quality of the produced disparity map. This measurement determines the level of confidence associated with each of the points. Each point is moved along the line of sight according to its confidence: the less confident the correlator, the more the point is moved while respecting the geometric constraint mentioned earlier.  Appart from these two added major constraints, our method still uses usual denoising parameters, such as initial color and position of each considered point regarding its neighborhood. Normal smoothing is included to compensate correlation inaccuracy.\r\n\r\n#### Evaluation and applications\r\n\r\nEarly results are extremely promising. A visual comparison of the mesh obtained before and after our proposed denoising step in a dense urban area will be provided in the final article (Figure 1). This illustration shows that the regularization preserves fine elements and sharp edges and smooths out the flat features (roofs, facades). Even if we cannot yet guarantee that denoising will improve the accuracy of the 3D point cloud (or the DSM compared to the airborne LiDAR), this verification will be the subject of future work which will be described in the full paper, we can already affirm that the proposed denoising filter significantly improves rendering and realism. In fact, this denoising makes it possible to enhance roof sections that are barely visible in the denoised point cloud, thus facilitating the building reconstruction stage for the generation of 3D city models (CityGML). In order to evaluate the quality of the 3D reconstruction on a larger scale, we plan to use [Lidar HD\u00ae](https://geoservices.ign.fr/lidarhd). This freely distributed data contains 10 points per m\u00b2 and includes a semantic label for each point, allowing for a class-specific quality assessment according to building, vegetation or ground. We are currently benchmarking state of the art solutions according to metrics that reflect how fine elements are missed in the absence of geometric and confidence constraints.\r\n\r\n#### Perspectives\r\n\r\nIn future work, we would like to see the potential of adding the constraints proposed in the paper to other denoising methods, find out whether it is possible to do this using deep learning techniques.  In addition to comparisons with ground truth, we would also like to prove that denoising makes it easier to reconstruct 3D city models, for example by showing that we can increase the level of detail even with very high resolution satellites such as Pleiades HR. Finally, with a view to using 3D as a digital twin, this denoising could be a tool for simplifying 3D models according to specific simulations. We would therefore like to begin a parameterisation study to quantify the trade-off between simplicity and quality.",
+    "start_datetime": "2024-07-04T11:00:00Z",
+    "end_datetime": "2024-07-04T11:30:00Z",
+    "talk:code": "U8NFHL",
+    "talk:guid": "bf1b0749-3e5c-5f65-8eec-064f3085bdc9",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Academic track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Omicum",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "839QJE",
+        "name": "David Youssefi",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/839QJE/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-04T11:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/U8NFHL/",
+      "title": "Geometrically guided and confidence-based denoising"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/U8NFHL/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/839QJE/",
+      "title": "David Youssefi"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/cnes/cars",
+      "title": "CARS"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/cnes/pandora",
+      "title": "PANDORA"
+    },
+    {
+      "rel": "related",
+      "href": "https://geoservices.ign.fr/lidarhd",
+      "title": "Lidar HD\u00ae"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/U8NFHL/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2024/submissions/U8NFHL/resources/FOSS4GE_Talk_2024_qRX10MM.pdf",
+      "type": "application/pdf",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/qJXhUdS8u6EhxwESJxkQka",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Geometrically guided and confidence-based denoising",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=9JXGVTRz0Go",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Geometrically guided and confidence-based denoising",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

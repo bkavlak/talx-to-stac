@@ -1,0 +1,114 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "ZNHXX8",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Cartographic Transition: From Map Library to Geoprocessing - Exploring the Codes Behind the Project. A Model for Public Agencies",
+    "description": "In 2015, the City of S\u00e3o Paulo launched GeoSampa, a platform providing access to a variety of cadastral data, maps, satellite images, and information on zoning, land use, urban infrastructure, land subdivision, and public areas for both municipal technicians and the general public. GeoSampa serves as a data repository, allowing different departments to share their information and keep it updated on the platform. A notable example is the Licensing Department, which in 2015 presented a geographic database solution using open-source software, with Linux, Postgres, PostGIS, Python, and QGIS, for land subdivision processes. These initiatives solved major problems and streamlined work processes, highlighting the importance of a data-sharing culture among public agencies for urban development.\r\nThe work developed by the Licensing Department was summarized in the experience cataloged by CEBRAP in a program called COPI-COLA, whose content can be seen in full on the CEBRAP website  https://cebrap.org.br/wp-content/uploads/2023/09/Guia_5.pdf. This program adopted an innovative approach by using open-source software to develop and maintain the system, significantly reducing implementation costs and making team work more efficient and integrated. Other areas also benefited from the organized and available information on GeoSampa, serving as an example for public agencies across the country.\r\nThis work specifically aims to show two technical examples of codes used in the Geographic Database mentioned above, which I developed, highlighting the practical benefits of collaboration and technological innovation in the public sector using open-source software.\r\nExample 1\r\nAccording to Ordinance No. 957/GC3 of 2015, issued by the Brazilian Aeronautics Command (COMAER), guidelines are established for the creation and management of Airport Protection Zones (ZPA). The objective is to ensure the safety and efficiency of air operations by preventing obstacles and activities that could interfere with air navigation. The ordinance details the competencies of municipalities and other bodies in monitoring and controlling these areas, as well as defining specific restrictions for land use near airports.\r\nDue to the large volume of licensing requests, if all enterprises were subject to DECEA's evaluation, there would be a need to increase DECEA's team, resulting in approval delays. To mitigate this problem, the implementation of a geographic system, to be used by the City of S\u00e3o Paulo, could select only cases in regions where DECEA's action was necessary.\r\nA system using Linux, Postgres, PostGIS, and QGIS was developed by the department's technicians with validation from DECEA's technicians. This optimized processes, reducing DECEA's workload and shortening approval times. Our objective is to briefly present how this system was developed and its impact on time savings and information security.\r\nExample 2\r\nThe work consisted of creating an algorithm to comply with Article 131 of Law No. 16.402/2016. \"The use of properties, for the purposes of land subdivision, use, and occupation discipline, is classified as permitted or not permitted and as compliant or non-compliant. \u00a7 2\u00ba Use not permitted in the location is that which cannot be implemented or installed on the property due to the zone and the street width.\" Street width is defined as the distance between property alignments, including the carriageway and public walkway.\r\nWe used the cartographic bases of the City of S\u00e3o Paulo, surveyed in 2004, for geoprocessing. The tool used was the QGIS software (Geographic Information System - GIS), the official project of the Open Source Geospatial Foundation (OSGeo). The Licensing and Urban Development Department's (SMUL) database on street widths at the time (2018) covered between 35% and 40% of the city's streets. The database had low reliability, as measurements were taken randomly at three different points on the street segment, making it visually impossible to pinpoint where the width is smallest, thus preventing proper application of the above law. Measurements not included in this database would be taken in loco by subprefecture technicians and sent to the Licensing Department's Cadastre Division for completion. This database gathered measurements taken over time and was not available to the public.\r\nThe work presented here was developed using scripts in PyQGIS, which combines the Python programming language with QGIS APIs, allowing for automated geometry tracing. The created code used all street segments and traced all elevations from the nodes created in the block layers, choosing the minimum elevation. This work does not eliminate the need for in loco measurements, but like in Example 1, selects the necessary cases, significantly reducing the number of visits and increasing reliability for proper law enforcement.\r\nConclusion\r\nThe success of GeoSampa and associated projects reveals that using open-source tools promotes transparency and accessibility of geographic information, strengthening citizen participation and facilitating urban planning, making cities smarter and more sustainable.\r\nAs a developer of this project, I feel immense pride in having contributed to this digital and technological transformation in public administration. Seeing the positive impact of our work is extremely gratifying.\r\nUltimately, S\u00e3o Paulo's example can inspire other cities to adopt similar practices, contributing to a future where technology and innovation serve efficient and inclusive urban development. Thus, the cartographic transition from map library to geoprocessing marks a new era in public administration, where geographic information is a valuable resource for decision-making and improving quality of life in cities.",
+    "start_datetime": "2024-12-06T19:30:00Z",
+    "end_datetime": "2024-12-06T20:00:00Z",
+    "talk:code": "ZNHXX8",
+    "talk:guid": "3e8e89f5-37b0-5c6b-aebb-9b272c55bdcf",
+    "talk:event": "foss4g-2024",
+    "talk:track": "Transition to FOSS4G",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room III",
+    "talk:room_capacity": 400,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "TU33BU",
+        "name": "Sylvia Regina Rodrigues Damiao",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/TU33BU/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-06T19:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/ZNHXX8/",
+      "title": "Cartographic Transition: From Map Library to Geoprocessing - Exploring the Codes Behind the Project. A Model for Public Agencies"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/ZNHXX8/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/TU33BU/",
+      "title": "Sylvia Regina Rodrigues Damiao"
+    },
+    {
+      "rel": "related",
+      "href": "https://cebrap.org.br/wp-content/uploads/2023/09/Guia_5.pdf",
+      "title": "cebrap.org.br/wp-content/uploads/2023/09/Guia_5.pdf"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/ZNHXX8/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/3BDzmQwgUqPVpTEuCV3vrn",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | Cartographic Transition: From Map Library to Geoprocessing",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=Too-c76XtZg",
+      "type": "text/html",
+      "title": "FOSS4G 2024 | Cartographic Transition: From Map Library to Geoprocessing",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

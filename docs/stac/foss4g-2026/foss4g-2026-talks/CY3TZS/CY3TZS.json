@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "CY3TZS",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Machine Learning for Terrain Traversability Mapping: Accuracy, Uncertainty, and Data Limitations",
+    "description": "Terrain traversability mapping is an important geospatial task in off-road mobility assessment, route planning, environmental analysis, and spatial decision support. In recent years, AI and machine learning methods have increasingly been used to estimate terrain-related indicators from heterogeneous spatial inputs, offering a scalable alternative to purely rule-based GIS procedures. However, model performance in this domain is often summarized through aggregate regression metrics alone, while the spatial structure of prediction error and the influence of incomplete geospatial reference data remain underexplored. This paper addresses that gap by focusing not only on predictive accuracy, but also on uncertainty in AI-based terrain traversability modelling. Rather than asking only whether a model predicts well on average, we ask where it fails, why those failures occur, and how limitations of source geodata propagate into mapped analytical outputs.\r\n\r\nThe study investigates the estimation of a terrain passability coefficient (IOP), expressed as a continuous value in the range from 0 to 1 and interpreted as the difficulty of traversing a given terrain unit. The modelling workflow is built around regular 100 m \u00d7 100 m grid cells, which serve as primary spatial units for analysis. Within each cell, vector-based topographic and thematic data are transformed into a structured set of quantitative attributes describing surface features, linear features, point objects, and terrain morphology. This conversion from a discrete vector data model to a continuous feature space enables the use of machine learning methods for prediction of terrain passability. The final dataset contains 236,617 records and 115 non-empty explanatory variables selected from a larger attribute structure affected by missing values. A compact artificial neural network is used for regression-based estimation of IOP, with 20% of the observations reserved for model testing.\r\n\r\nThe architecture of the model is intentionally simple. It consists of an input layer, one hidden layer with 57 neurons, and a single-neuron output layer. The hidden layer uses the ReLU activation function and L2 regularization, while model training is guided by mean absolute error as the loss function and a decreasing learning rate. This design choice is deliberate: the goal of the study is not to claim novelty through increasingly complex network architectures, but to examine how geospatial data quality constrains the reliability of AI-based prediction. In this sense, the model is treated as an analytical instrument for exposing data-driven uncertainty rather than as an end in itself.\r\n\r\nAt the aggregate level, the model achieves good performance. On the test set, the results reach BIAS = 0.0024, MAE = 0.0097, and RMSE = 0.015, with training and validation behaviour suggesting neither severe overfitting nor underfitting. These values indicate that machine learning can successfully approximate the terrain passability coefficient from structured geospatial attributes. Yet the study shows that such global statistics do not fully capture model behaviour in space. The distribution of errors is not random, and the most important discrepancies emerge in value ranges and terrain contexts that are weakly represented or incompletely encoded in the source data. In particular, low IOP values tend to be underestimated, while the upper extreme of the coefficient range is also less stable. This means that the model may overestimate traversability in some difficult areas and underestimate it in highly passable terrain, despite apparently good overall metrics.\r\n\r\nThe most significant contribution of the paper lies in the spatial interpretation of these discrepancies. Local analysis reveals that some of the strongest deviations are not primarily caused by the neural model itself, but by incompleteness in the geospatial reference base used to construct training and validation labels. Two examples are especially illustrative. A very large discrepancy was identified over a mining area, where the lack of sufficiently detailed source information caused the feature representation of the terrain cell to differ substantially from actual conditions. Another important discrepancy appeared in wetland terrain, where missing swamp-related information in VMAP led to a clear mismatch between predicted and reference passability. These cases show that a model may appear statistically robust while still producing spatially misleading outputs in areas where key terrain categories are absent, weakly represented, or overly simplified in the underlying geodata. From the perspective of GeoAI, uncertainty is therefore not only an algorithmic issue; it is also inherited from the thematic completeness and semantic fidelity of the input spatial database.\r\n\r\nA second major source of uncertainty concerns representativeness. The training data originate from a specific study area and do not include explicit temporal labels, even though terrain traversability is inherently sensitive to seasonal and environmental variability. A model that performs well in one region may not preserve the same level of accuracy when transferred to another region or to similar terrain observed under different weather or seasonal conditions. This issue is particularly important for traversability analysis, where the same land cover or soil-related feature may behave differently across time due to moisture, freeze-thaw effects, vegetation changes, or local environmental context. The paper therefore argues that evaluation of geospatial machine learning models should explicitly consider both thematic incompleteness and spatiotemporal representativeness, rather than treating prediction error as a purely technical property of model architecture.\r\n\r\nThe contribution of the paper is threefold. First, it presents a practical AI-based workflow for terrain traversability prediction from structured geospatial attributes derived from open spatial analysis procedures. Second, it demonstrates that spatially explicit error analysis provides insights that remain invisible in global regression statistics alone. Third, it frames incomplete and unevenly representative geospatial reference data as a primary source of uncertainty in traversability prediction. By shifting attention from model novelty to data-driven reliability, the paper contributes a realistic and methodologically transparent perspective to GeoAI research in the open geospatial domain. The broader implication is that future work on terrain traversability prediction should invest not only in better models, but also in richer, more complete, and more temporally explicit geospatial reference datasets.",
+    "start_datetime": "2026-09-03T06:00:00Z",
+    "end_datetime": "2026-09-03T06:30:00Z",
+    "talk:code": "CY3TZS",
+    "talk:guid": "345f84c8-59d9-534e-ac14-0e30b5e52efa",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos2",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "GWMUZA",
+        "name": "Marek Wyszy\u0144ski",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/GWMUZA/"
+      },
+      {
+        "code": "XGNK8E",
+        "name": "Krzysztof Pokonieczny",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/XGNK8E/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-03T06:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/CY3TZS/",
+      "title": "Machine Learning for Terrain Traversability Mapping: Accuracy, Uncertainty, and Data Limitations"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/CY3TZS/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/GWMUZA/",
+      "title": "Marek Wyszy\u0144ski"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/XGNK8E/",
+      "title": "Krzysztof Pokonieczny"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/CY3TZS/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

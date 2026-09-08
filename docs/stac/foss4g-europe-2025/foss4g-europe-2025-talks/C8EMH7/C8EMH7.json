@@ -1,0 +1,130 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "C8EMH7",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "Adapting Legacy Code with Boost.Geometry: A Hydrographic Perspective",
+    "description": "QPS maintains a substantial legacy codebase of approximately 5.5 million lines of code, developed over the past 35 years to collect, process, analyze, and deliver hydrographic spatial data. Updating this codebase to incorporate new libraries often requires significant refactoring to accommodate new data types.\r\n\r\nRecently, we successfully transitioned from an in-house solution to `Boost.Geometry` for spatial indexing. This transition required far less refactoring than anticipated, primarily due to `Boost.Geometry`'s ability to adapt to our existing geometry types.\r\n\r\n`Boost.Geometry`'s geometry types are concrete implementations of \"concepts,\" which facilitate the adaptation of user-defined geometry types to seamlessly integrate with its algorithms and spatial indexing features.\r\n\r\nIn this presentation, I will:\r\n\r\n* Provide an overview of the unique spatial data we handle in hydrography.\r\n* Share our success story of transitioning to `Boost.Geometry`.\r\n* Discuss how `Boost.Geometry` enabled us to generalize our spatial indexing.\r\n* Demonstrate, through a brief code example, how to use concepts to adapt existing types for use with `Boost.Geometry`.\r\n\r\nJoin me to learn how `Boost.Geometry` can streamline your transition to modern spatial indexing solutions while minimizing codebase disruption.",
+    "start_datetime": "2025-07-17T13:00:00Z",
+    "end_datetime": "2025-07-17T13:30:00Z",
+    "talk:code": "C8EMH7",
+    "talk:guid": "f3d72a9d-fd01-5771-91fe-f60a9524c197",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Transition to FOSS4G",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "SA02",
+    "talk:room_capacity": 108,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "J9VHDB",
+        "name": "Weston Renoud",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/J9VHDB/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-17T13:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/C8EMH7/",
+      "title": "Adapting Legacy Code with Boost.Geometry: A Hydrographic Perspective"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/C8EMH7/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/J9VHDB/",
+      "title": "Weston Renoud"
+    },
+    {
+      "rel": "related",
+      "href": "https://orcid.org/0000-0003-2088-8353",
+      "title": "orcid.org/0000-0003-2088-8353"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/C8EMH7/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation-slides-pptx": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/C8EMH7/resources/FOSS4G__Adapting_Legacy_Code_with_Boost_IKIyAIg.pptx",
+      "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "title": "Presentation Slides (pptx)",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "presentation-slides-pdf": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/C8EMH7/resources/FOSS4G__Adapting_Legacy_Code_with_Boost._Z4otLWL.pdf",
+      "type": "application/pdf",
+      "title": "Presentation Slides (pdf)",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/5Vn4JmFEnmAqWX5S6PBBsH",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Adapting Legacy Code with Boost.Geometry: A Hydrographic Perspective",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=tDZJ2ewJ-J8",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Adapting Legacy Code with Boost.Geometry: A Hydrographic Perspective",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

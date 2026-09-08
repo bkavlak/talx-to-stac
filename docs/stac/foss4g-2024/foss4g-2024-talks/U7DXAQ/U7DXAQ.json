@@ -1,0 +1,107 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "U7DXAQ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Convolutional Neural Network-Based Detection of Erosion Rills on Aerial Imagery Combined with Hydrological Model SMODERP Outputs",
+    "description": "Extreme precipitation events lead to rapid surface runoff, causing sheet erosion and the formation of rills, increasing the risk of flash floods. This combination of processes pose a threat to agricultural and rural areas and the sediment-laden water can infect even the urban zones or cause damage to infrastructure. Detecting and predicting the formation of erosive rills on agricultural land is, therefore, crucial for effective land management and disaster prevention in rural areas.  \r\n\r\n  \r\n\r\nThe contribution presents a research on the utilisation of convolutional neural networks (CNN) to detect enhanced erosion using remote sensing data combined with the SMODERP hydrological and erosion model.   \r\n\r\n  \r\n\r\nWhile most tools for semantic segmentation (such as random forests) work only with single-pixel values, CNNs consider also the relationship with its surroundings and between the bands. As the erosion rill patterns are visible especially when compared to the surrounding soil, it is a valuable feature for their detection.   \r\n\r\n  \r\n\r\nHowever, if we also have the digital elevation model, we can use geospatial tools and algorithms to enhance the imagery input to the neural networks with knowledge-based indices. In this case, it is the SMODERP model.  \r\n\r\n  \r\n\r\nSMODERP is a hydrological model designed to simulate surface runoff and erosion processes. It considers various factors such as soil type, land cover, slope, and rainfall intensity to predict the movement of water and sediments throughout the landscape. The model calculates the critical height of sheet runoff as a rill formation threshold, which is essential to understand where erosion is likely to occur. The SMODERP is developed as a GIS tool, available through GRASS GIS and QGIS. More details about model on smoderp.fsv.cvut.cz or on GitHub.  \r\n\r\n  \r\n\r\nThe methodology begins with data collection and preparation, utilising high-resolution orthophoto aerial images of spatial resolutions of only a few centimetres. Additionally, hydrological data from the SMODERP model are incorporated to the CNN's input to capture erosion dynamics. The talk will discuss the effect of the SMODERP's output inclusion on the CNN's accuracy in rill detection.",
+    "start_datetime": "2024-12-06T15:00:00Z",
+    "end_datetime": "2024-12-06T15:30:00Z",
+    "talk:code": "U7DXAQ",
+    "talk:guid": "f07e9a43-7534-5255-8a05-f7653f520b5b",
+    "talk:event": "foss4g-2024",
+    "talk:track": "AI4EO Challenges & Opportunities",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room II",
+    "talk:room_capacity": 200,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "LDLAFY",
+        "name": "Ond\u0159ej Pe\u0161ek",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/LDLAFY/"
+      },
+      {
+        "code": "XBETJA",
+        "name": "Petr Kavka",
+        "url": "https://talks.osgeo.org/foss4g-2024/speaker/XBETJA/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-06T15:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/U7DXAQ/",
+      "title": "Convolutional Neural Network-Based Detection of Erosion Rills on Aerial Imagery Combined with Hydrological Model SMODERP Outputs"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/U7DXAQ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/LDLAFY/",
+      "title": "Ond\u0159ej Pe\u0161ek"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024/speaker/XBETJA/",
+      "title": "Petr Kavka"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024/talk/U7DXAQ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024/submissions/U7DXAQ/resources/FOSS4G_04_FvIjL1M.pdf",
+      "type": "application/pdf",
+      "title": "Presentation",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-talks"
+}

@@ -1,0 +1,99 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "KFSC9R",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Staying on Track: How we built turn-by-turn navigation for bus drivers with FOSS and Open Data",
+    "description": "Learn how AnyTrip built a turn-by-turn navigation and real-time tracking app for bus drivers using GTFS, OSM, Valhalla, OSRM, and other open-source tools - tailored for the unique needs of public transport and deployed in the real world on low-cost mobile devices.\n\nPublic transport operators have long struggled to provide bus drivers with accurate navigation. While commercial navigation systems are optimised for general motorists, they fail to take into account bus-specific requirements like bus stops and bus specific routing. Many operators continue to provide drivers with primitive paper navigation guidance which is hard to interpret whilst driving.\r\n\r\nAt AnyTrip, we've built a turn-by-turn navigation and real-time bus tracking app tailored specifically for bus operators and bus drivers. Powered using open data, open source tools and free & open source software, the solution integrates:\r\n\r\n\u2022 GTFS data from operators describing services, stops and pathing\r\n\u2022 OpenStreetMap as the base map and routing graph\r\n\u2022 Valhalla and OSRM for routing and maneuver generation\r\n\u2022 MapLibre Native and Protomaps for custom vector basemaps\r\n\u2022 React Native for cross-platform mobile development\r\n\r\nThis talk will cover the architecture and design of the app, including:\r\n\r\n\u2022 How we transform GTFS static schedule data into navigable paths\r\n\u2022 Choosing between Valhalla and OSRM for different routing needs\r\n\u2022 Handling tricky edge cases like loops, u-turns and busways\r\n\u2022 Deployment on consumer-grade mobile devices for low-cost and ease of deployment\r\n\u2022 Dealing with connectivity constraints and supporting offline use\r\n\r\nWe'll also share some lessons learned from real-world deployments.\r\n\r\nThis is a practical, field-tested example of how open source geospatial tools can be used to solve real world transport problems. If you\u2019re interested in GTFS, routing, or building geospatial apps for public good, this talk is for you.",
+    "start_datetime": "2025-11-20T02:30:00Z",
+    "end_datetime": "2025-11-20T02:55:00Z",
+    "talk:code": "KFSC9R",
+    "talk:guid": "a00e2565-e36a-5a4c-99cd-2c0cdeff0162",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Use Cases and Applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG126",
+    "talk:room_capacity": 140,
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "GJSPAM",
+        "name": "Ken Tsang",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/GJSPAM/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-20T02:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/KFSC9R/",
+      "title": "Staying on Track: How we built turn-by-turn navigation for bus drivers with FOSS and Open Data"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/KFSC9R/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/GJSPAM/",
+      "title": "Ken Tsang"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/KFSC9R/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=t4sKcjpCo_s",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Staying on Track: How we built turn-by-turn navigation for bus drivers with FOSS...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

@@ -1,0 +1,116 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "E37APS",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      26.729,
+      58.378
+    ]
+  },
+  "bbox": [
+    26.729,
+    58.378,
+    26.729,
+    58.378
+  ],
+  "properties": {
+    "title": "Creating Interoperable Tiled Maps",
+    "description": "Tiled maps are the backbone of most web applications that show geospatial information. Before OGC API - Tiles was approved, last year, there was not really an interoperable way of creating these maps using a resource oriented architecture and JSON encodings.\r\nOGC API - Tiles puts some formality to what people have been doing for years, with \u2018xyz\u2019 tilesets, but it also enables the clients to create a better user experience, by providing metadata, such as title, description or available zoom levels.\r\nIn this talk we\u2019ll provide an overview of this standard, and discuss its advantages, when compared to other standards/specifications, like WMTS or TileJSON. We\u2019ll illustrate the benefits of interoperability, with an example that uses FOSS4G software implementing OGC API - Tiles.\r\nFinally, we\u2019ll point out some resources, available to anyone who wishes to develop and validate an OGC API - Tiles implementation.",
+    "start_datetime": "2024-07-04T07:30:00Z",
+    "end_datetime": "2024-07-04T08:00:00Z",
+    "talk:code": "E37APS",
+    "talk:guid": "f2a945fc-6b83-55ad-9133-363c75491f22",
+    "talk:event": "foss4g-europe-2024",
+    "talk:track": "Open standards and interoperability for geospatial",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "LAStools (327)",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "FNYKAD",
+        "name": "Joana Simoes",
+        "url": "https://talks.osgeo.org/foss4g-europe-2024/speaker/FNYKAD/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-07-04T07:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/E37APS/",
+      "title": "Creating Interoperable Tiled Maps"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/E37APS/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/speaker/FNYKAD/",
+      "title": "Joana Simoes"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2024/talk/E37APS/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "presentation": {
+      "href": "https://docs.google.com/presentation/d/14Vikxlc4XttPGiWAXiHpgcGjy9jxeEFxL-6q_OHKxmc/edit?usp=sharing",
+      "title": "Presentation",
+      "roles": [
+        "data"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/7pnabMCbopbR7q5wYRZ5ah",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Creating Interoperable Tiled Maps",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=Cq6M4lUzMOU",
+      "type": "text/html",
+      "title": "FOSS4GE 2024 | Creating Interoperable Tiled Maps",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2024-talks"
+}

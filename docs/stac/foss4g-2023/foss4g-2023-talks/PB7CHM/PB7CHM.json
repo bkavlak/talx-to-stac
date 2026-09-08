@@ -1,0 +1,122 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "PB7CHM",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "How to improve OpenStreetMap for the production of a hiking map",
+    "description": "In preparation for a new Alpine Club map by the Institute of Cartography of the TU Dresden around Mt. Ushba in Georgia in the Great Caucasus, the decision was made to use OpenStreetMap as the primary data source for the map. As a result, the fieldwork in place contributed to OpenStreetMap to use gained information for map production by using OpenStreetMap. In the past, data import and organized mapping had already happened, leaving gaps only fillable by fieldwork.\r\n\r\nMapping campaigns took place in 2021 and 2022. In preparation, it was necessary to identify missing or uncertain information. The catalogue of objects which should be mapped was derived from existing Alpine Club maps and the feature tags of OpenStreetMap. Several trails currently missing in OpenStreetMap were identified by collecting and comparing openly available GPS tracks, hiking guides, and old maps. The comprehensive information collection summarized the knowledge of all the sources. It became central for planning the office work on the data and organizing the extensive on-site mapping.\r\n\r\nBased on the collected information, the routes were planned in advance and during the fieldwork assigned to the mapping teams. On tour, new data was collected, which could not be obtained from aerial images such as small paths, hiking routes, guideposts, and POIs.  \r\n\r\nThe collection of geographical names worked similar to the collection of missing paths. After reviewing and selecting various sources, an updated set of names has been compiled. Old maps play an important role because they sometimes contain names that need to be added or allow updates for more recent documents. Combined with background literature on the region, uncertainties in assigning geographical features can frequently be solved. Asking locals helped in finding the ideal spelling. The result is a much more consistent toponym base both in the OpenStreetMap database and in the derived produced map.\r\n\r\nThe presentation will share the knowledge on preparing and organizing the fieldwork for such a project. Significant aspects are how to identify missing ways and to collect geographic names.",
+    "start_datetime": "2023-06-30T12:00:00Z",
+    "end_datetime": "2023-06-30T12:30:00Z",
+    "talk:code": "PB7CHM",
+    "talk:guid": "9adc4cf7-3f53-5c63-8378-292333b410f9",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Open Data",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT C / N110 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "MTJ3WC",
+        "name": "Mathias Gr\u00f6be",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/MTJ3WC/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-30T12:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/PB7CHM/",
+      "title": "How to improve OpenStreetMap for the production of a hiking map"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/PB7CHM/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/MTJ3WC/",
+      "title": "Mathias Gr\u00f6be"
+    },
+    {
+      "rel": "related",
+      "href": "https://wheregroup.com/",
+      "title": "WhereGroup"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/PB7CHM/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-2023/submissions/PB7CHM/resources/2023-06-17-MappingMtUshba_FOSS4G_39i6yVc.pdf",
+      "type": "application/pdf",
+      "title": "Slides",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/3uPu1DkVL5Kp2MxAyp9sbi",
+      "type": "text/html",
+      "title": "2023 |  How to improve OpenStreetMap for the production of a hiking map - Mathias Gr\u00f6be",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=SRpla9SGtG4",
+      "type": "text/html",
+      "title": "2023 |  How to improve OpenStreetMap for the production of a hiking map - Mathias Gr\u00f6be",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

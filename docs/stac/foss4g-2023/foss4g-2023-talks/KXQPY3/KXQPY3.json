@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "KXQPY3",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "The state of OpenStreetMap buildings: completeness assessment using remote sensing data",
+    "description": "OpenStreetMap (OSM) is the largest crowd-sourced mapping effort to date, with an infrastructure network that is considered near-complete. The mapping activities started as any crowd-sourced information platform: the community expanded OSM anywhere there was a collective interest. Initial efforts were found around universities or hometowns of mappers. Events, such as natural disasters can also trigger a major update. The recent earthquakes in Turkey and Syria lead to a massive contribution by the Humanitarian OSM Team (HOT) of more than 1.7 million buildings in the region in less than a month after the event1. This type of activities result in a map that is of non-uniform completeness, with some areas having all building footprints in, while other areas remain incomplete or even untouched. Currently, with 550 million footprints, OSM identifies between a quarter and half of the total building footprints in the world, if we estimate that there are around 1-2 billion buildings in the world.\r\n\r\nA global view on the local completeness of buildings in OSM did not yet exist. Unlike other efforts, that only look at a subset of OSM building data (Biljecki & Ang 2020; Orden et al., 2020; Zhou et al., 2020), we have used the Global Human Settlement Layer (GHSL) to estimate completeness of the entire dataset. The remote sensing dataset is distributed onto a grid of approximately 100x100 meter tiles. In each tile of the grid, the built area of GHSL is compared to the total area of OSM building footprints. The computed ratio is measured against a completeness threshold that is calibrated using areas that were manually assessed. \r\n\r\nUsing information derived from remote sensing datasets can be problematic: GHSL does not only measure building footprints: it includes any human-built structures, including infrastructure and industrial areas. Next to that, due to sub-optimal input data or failing algorithms, the dataset is not of the same quality as the crowd-sourced data in OSM in areas that are complete. Even with these limitations, a comprehensive global completeness assessment is created. The assessment should not be used as ground truth, but rather as reflection on the OSM building dataset as is and as a guideline for priorities for the future. Statistics on regional completeness can be created and the quality of GHSL could be assessed on countries that are considered to be complete, such as France or the Netherlands.",
+    "start_datetime": "2023-06-30T12:30:00Z",
+    "end_datetime": "2023-06-30T13:00:00Z",
+    "talk:code": "KXQPY3",
+    "talk:guid": "e1faee35-d6a7-54d1-bd3b-c1e163630b7e",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Community & Foundation",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT C / N110 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "LLPQZQ",
+        "name": "Laurens Oostwegel",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/LLPQZQ/"
+      },
+      {
+        "code": "XMNDD9",
+        "name": "Danijel Schorlemmer",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/XMNDD9/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-30T12:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/KXQPY3/",
+      "title": "The state of OpenStreetMap buildings: completeness assessment using remote sensing data"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/KXQPY3/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/LLPQZQ/",
+      "title": "Laurens Oostwegel"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/XMNDD9/",
+      "title": "Danijel Schorlemmer"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/KXQPY3/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/tgXzK6Mc63CAyLi27d86RR",
+      "type": "text/html",
+      "title": "2023 | The state of OpenStreetMap buildings: completeness assessment using remote sensing data",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=fWm9_1JRoK0",
+      "type": "text/html",
+      "title": "2023 | The state of OpenStreetMap buildings: completeness assessment using remote sensing data",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

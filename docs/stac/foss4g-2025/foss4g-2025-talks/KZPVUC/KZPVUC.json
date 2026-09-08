@@ -1,0 +1,123 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "KZPVUC",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Icechunk 2.0",
+    "description": "[Icechunk 2.0](https://icechunk.io/) is a transactional, cloud-native storage engine for [Zarr](https://zarr.dev/). This talk introduces powerful new features for transactionally managing massive geospatial arrays, including efficient appends/inserts.\n\n[Icechunk](https://icechunk.io/) is an open-source, cloud-native transactional storage engine for multi-dimensional arrays, designed to manage massive geospatial datasets. Building upon the foundational features of data versioning and schema evolution presented in its first iteration, Icechunk 2.0 introduces a more stable and performant on-disk format that unlocks powerful new capabilities for managing large-scale array data. This presentation will introduce the new features of Icechunk 2.0 and demonstrate their application to common challenges in geospatial data analysis.\r\n\r\nManaging petabyte-scale geospatial data, such as satellite imagery time-series, gridded weather forecasts, and climate model outputs, requires tools that can handle evolving data and complex operational pipelines efficiently. Icechunk 2.0 directly addresses these needs with several key innovations:\r\n\r\n- **Efficient Array Manipulation:** A new indexing capability allows for cheap appends, prepends, and inserts into an array without rewriting existing data chunks. This is transformative for managing growing time-series datasets.\r\n- **Flexible Data Organization:** Users can now rename or move arrays and groups within the [Zarr](https://zarr.dev/) hierarchy without costly data duplication, simplifying the curation and organization of large data repositories.\r\n- **Enhanced Data Governance:** The introduction of an amendable commit option simplifies the version history, while a comprehensive operation log and support for repository-level metadata provide crucial data provenance.\r\n- **Improved Performance and Stability:** The new format enables significantly faster and safer garbage collection and more efficient queries of a repository\u2019s history.\r\n\r\nWe will demonstrate how Icechunk 2.0 integrates seamlessly into the Scientific Python ecosystem ([Xarray](https://xarray.dev/), [Dask](https://www.dask.org/)) via its Zarr store interface and how we have built Icechunk support into the managed [Earthmover platform](https://earthmover.io/platform). Through real-world examples, we will showcase how these new features can be used to build robust, high-performance data pipelines for cloud-based geospatial analytics and machine learning.",
+    "start_datetime": "2025-11-19T22:30:00Z",
+    "end_datetime": "2025-11-19T22:55:00Z",
+    "talk:code": "KZPVUC",
+    "talk:guid": "537a7206-c4fe-5377-92b2-5f6025cb3f1c",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Tools, Libraries & Visualisation",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG404",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "GRTNAP",
+        "name": "Joe Hamman",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/GRTNAP/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-19T22:42:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/KZPVUC/",
+      "title": "Icechunk 2.0"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/KZPVUC/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/GRTNAP/",
+      "title": "Joe Hamman"
+    },
+    {
+      "rel": "related",
+      "href": "https://icechunk.io/",
+      "title": "Icechunk 2.0"
+    },
+    {
+      "rel": "related",
+      "href": "https://zarr.dev/",
+      "title": "Zarr"
+    },
+    {
+      "rel": "related",
+      "href": "https://xarray.dev/",
+      "title": "Xarray"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.dask.org/",
+      "title": "Dask"
+    },
+    {
+      "rel": "related",
+      "href": "https://earthmover.io/platform",
+      "title": "Earthmover platform"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/KZPVUC/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=d6_z4CRl7qw",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Icechunk 2.0",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

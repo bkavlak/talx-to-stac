@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "YVHNTL",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Routing Machine, state and side-effects",
+    "description": "The routing machine is about the route track a user can take from one point to the other with directions after reaching each point. For paid services such as Google maps, this already exists, and Google has applied a centralized model of usage. In this talk, we will talk about the type of libraries and already existing implementations that are almost deprecated but we can keep alive, since for the open source community, the ability to customize and change, they are essential. There are no active Open Source or community versions of the routing machine for maps. We need to change that. We can do that by improving a couple of things that already exist.  Having more wrappers for different types of implementations, say Vue, or React, and finally Svelte. The routes should be updated and the selection of the type of route, car, bike, or walking should reflect the data received from maps. And define a safer business model. Open Source is more active and strong than paid and centralized services. We need to make sure that what we are offering and implementing as services to our clients can reflect a similar dedication the first have.",
+    "start_datetime": "2023-06-29T14:00:00Z",
+    "end_datetime": "2023-06-29T14:30:00Z",
+    "talk:code": "YVHNTL",
+    "talk:guid": "6b346284-a340-5f6c-b6e4-0c341bb4698a",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Open source geospatial \u2018Made in Europe\u2019",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT C / N109 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "WV8L7M",
+        "name": "Marin Nikolli",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/WV8L7M/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-29T14:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/YVHNTL/",
+      "title": "Routing Machine, state and side-effects"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/YVHNTL/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/WV8L7M/",
+      "title": "Marin Nikolli"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/YVHNTL/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/tC4Z4hkpncYZGYdqAa61Vy",
+      "type": "text/html",
+      "title": "2023 | Routing Machine, state and side-effects - Marin Nikolli",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=Xg6BGisdtBA",
+      "type": "text/html",
+      "title": "2023 | Routing Machine, state and side-effects - Marin Nikolli",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

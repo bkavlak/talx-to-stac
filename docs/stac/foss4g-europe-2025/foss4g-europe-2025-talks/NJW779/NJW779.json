@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "NJW779",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8064,
+      43.3389
+    ]
+  },
+  "bbox": [
+    17.8064,
+    43.3389,
+    17.8064,
+    43.3389
+  ],
+  "properties": {
+    "title": "Creating Web-Ready QGIS Plugins: Insights from Giswater for Effective QWC2 Compatibility",
+    "description": "In the ever-evolving realm of geospatial technology, developing QGIS plugins that are both reliable and adaptable for web environments is essential. This talk will provide practical insights into creating QGIS plugins that perform well across both QGIS desktop and QGIS Web Client (QWC2).\r\n\r\nKey areas of focus include:\r\n\r\nDatabase-Driven Design: Explore how a database-driven approach can enhance both the functionality and user interface of QGIS plugins. This method simplifies development by allowing dynamic configuration and management of plugin features and UI elements based on backend data, ensuring seamless integration with various data sources and use cases.\r\n\r\nQt Forms as a Service: Where forms are dynamically generated and customized according to backend configurations. This approach facilitates the creation of adaptable and maintainable user interfaces that respond efficiently to different data inputs and user needs.\r\n\r\nThrough the Giswater plugin case study, this talk will showcase these concepts with examples.",
+    "start_datetime": "2025-07-17T09:30:00Z",
+    "end_datetime": "2025-07-17T10:00:00Z",
+    "talk:code": "NJW779",
+    "talk:guid": "d487be28-c903-50cc-9829-035de8d3bbc5",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "CA01 (TomTom)",
+    "talk:room_capacity": 130,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "WZA3PC",
+        "name": "Jordi Blanch",
+        "url": "https://talks.osgeo.org/foss4g-europe-2025/speaker/WZA3PC/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-07-17T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/NJW779/",
+      "title": "Creating Web-Ready QGIS Plugins: Insights from Giswater for Effective QWC2 Compatibility"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/NJW779/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/speaker/WZA3PC/",
+      "title": "Jordi Blanch"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/NJW779/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/79nyvZQfRLMw8vGAdDPMUX",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Creating Web-Ready QGIS Plugins: Insights from Giswater for Effective QWC2 ...",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=RWa2G94MY38",
+      "type": "text/html",
+      "title": "FOSS4GE 2025 | Creating Web-Ready QGIS Plugins: Insights from Giswater for Effective QWC2 ...",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

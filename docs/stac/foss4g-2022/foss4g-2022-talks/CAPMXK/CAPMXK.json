@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "CAPMXK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "An introduction to deck.gl for data visualization",
+    "description": "deck.gl is one of the most advanced open-source libraries for data visualization. In this session we will discuss how its WebGL-powered engine can be used to perform visual exploratory data analysis of large datasets. This library is quickly becoming one of the most used in the FOSS4G world due to its open governance model and compatibility with other mapping libraries like MapLibre GL JS. \r\n\r\nWe will learn how a deck.gl visualization is structured and what the main concepts are: views, layers and accessors. We will discuss its reactive architecture and how it can be used to build simple scripting prototypes and complex applications with modern JavaScript frameworks like React, Angular or Vue.js. \r\n\r\nWe will present different examples ranging from simple layer visualizations to thematic and choropleth maps to advanced interactive 3D visualizations including animations.\r\n\r\nFinally we will focus on specific use cases for large data visualization, from datasets with hundreds of thousands of features with data formats like GeoJSON to datasets with billions of features using advanced tiling schemes.",
+    "start_datetime": "2022-08-24T13:15:00Z",
+    "end_datetime": "2022-08-24T13:45:00Z",
+    "talk:code": "CAPMXK",
+    "talk:guid": "75270faa-b78c-5607-909b-12fab1c3bb2f",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Limonaia",
+    "talk:room_capacity": 110,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "Q7DQYK",
+        "name": "Borja Mu\u00f1oz",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/Q7DQYK/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T13:30:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/CAPMXK/",
+      "title": "An introduction to deck.gl for data visualization"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/CAPMXK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/Q7DQYK/",
+      "title": "Borja Mu\u00f1oz"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/CAPMXK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/oC99o792hM6xwkE7nVMneM",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | An introduction to deck.gl for data visualization",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=D4nKR0jItec",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | An introduction to deck.gl for data visualization",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

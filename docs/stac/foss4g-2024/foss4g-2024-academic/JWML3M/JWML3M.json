@@ -1,0 +1,106 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "JWML3M",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Photogrammetry and 3D Modelling Applied to the Creation of Virtual Reality in Realistic Environments: Analysis of Free Software for Image Processing",
+    "description": "3D modeling involves the three-dimensional representation of characters or scenes, providing a greater visualization of details for the object being represented, creating the concept of depth. This concept also opens up a vast array of applications that a simple 2D drawing would be unable to present. This type of representation is widely used in various fields, such as the entertainment industry (e.g., films and games), automotive engineering, architecture/engineering, etc., having diverse purposes and applications. 3D modeling can be achieved through different methodologies, with the primary distinction between them being the intended use of the modeled object. Notable methodologies include Box Modeling, Digital Sculpting, and Poly-by-Poly modeling.\r\nTraditionally, Photogrammetry was defined as the 'science and art of obtaining reliable measurements through photographs' (American Society of Photogrammetry). Although it is a powerful technique for environmental detail formation, there is inherent complexity in its equipment, including both hardware and software, with a significant cost associated with its acquisition and the necessity for specialized knowledge for effective use by its operators. However, with technological advancements, the availability of higher processing capacity equipment at lower costs and more user-friendly software has facilitated wider dissemination and use among a larger number of users. Among these technologies, the introduction of drones into the technical and professional market, with new forms of application and use of photography, has spurred new growth in the use of photogrammetry across various professional sectors and the development of techniques for processing small-format images.\r\nThus, 3D modeling through photogrammetry allows for the acquisition of large-scale data, enabling detailed studies, sometimes at centimeter or even millimeter scales, with a level of detail that would previously have been impossible or impractical. This contributes positively to feasibility studies, risk analysis, project presentation, among other applications in various fields such as Civil Engineering, Architecture, and Surveying. The combination of these technologies not only enhances project visualization but also amplifies the collection of geospatial data, promoting a more comprehensive and precise approach.\r\nVirtual Reality (VR) is a technology that creates a simulated environment through electronic devices, thereby providing users with a new way of visualization, whether applied to video games or integrated with other fields. The combination of this technology with models obtained from photogrammetry provides realistic environments with impressive detail richness.\r\nThis study will address 3D modeling through the close-range technique, using terrestrial photographs. The research is divided into four stages. The first three stages involve processing these images using various types of hardware and software. For the hardware, both processing power and image capture quality are considered, aiming to demonstrate the best possible results at a low cost. Regarding software, the use of open-source programs from various developers was explored, with the intention of making comparisons and achieving the best results among them.\r\nIn the fourth and final stage of the research, a market evaluation will be conducted to understand the needs of professionals in the field concerning this technology. To carry out the work, photographs were initially taken with a Canon EOS 200D of the building housing the Graduate Program in Modeling (PPGM) at the State University of Feira de Santana (UEFS). Subsequently, additional images were obtained using other capture equipment, such as mobile phones, following the same research line. A total of 100 photos were collected and processed using three open-source software programs: Meshroom, Colmap, and Regard3D, which are noted for their prominence and positive recommendations among free software options.\r\nThe goal was to calibrate parameters to achieve the best possible model, considering software and hardware limitations. With the obtained results, a comparison was made to determine which software offered the best outcome, combining modeling quality, ease of post-processing, and compatibility with the graphics engine (Engine) that will be used for creating the realistic environment. This engine is called Unreal Engine, developed by Epic Games, widely used in video game development but with significant potential for application in fields such as Civil Engineering, Architecture, and Surveying.\r\nThus, the research could delve into the combination of modeling obtained from photogrammetry with virtual reality. One of the software programs used, which demonstrated good performance, was Regard3D, designed for creating 3D models from two-dimensional images. A machine with low processing hardware was used specifically to compare these results with those from more modern computers. The configuration used is as follows:\r\n\u2022\tProcessor: Intel Pentium G620\r\n\u2022\tMotherboard: DXH61Z M2 Duex\r\n\u2022\tGraphics Card: RX580 8GB MingZhou\r\n\u2022\tRAM: 16GB\r\nParameter selection was carried out iteratively in successive stages to improve processing quality. It was observed that processing times were high, particularly in specific stages such as mesh computation. During this process, the software analyzes the provided images to find correspondences, known as interest points, which are distinct and uniquely characterized points in the images. For the various software programs, the most commonly used algorithms for point detection are SIFT (Scale-Invariant Feature Transform) (Lowe, 1999) and ORB (Oriented FAST and Rotated BRIEF) (Ethan Rublee et al., 2011), describing them as characteristic vectors for finding common points between images. After detection, filtering is performed to discard points that are misaligned relative to others.\r\nAdditionally, significant time was observed in the densification process, which involves increasing the number of points in a 3D model to add more interest points for better image quality. Various techniques are used in this process, with interpolation being particularly noteworthy, as it uses the characteristics of nearby points to estimate geometry and generate additional points.\r\nUsing minimal parameters, the model generation time was extended on this computer configuration, with high RAM usage. Significant storage was required, as the models increased in size at each processing stage, reaching approximately 20GB in the final stage. However, the results were satisfactory compared to the available paid software on the market. Therefore, the use of photogrammetry-generated models, combined with virtual reality to create realistic virtual environments, can be considered positive, with low cost and using free open-source software.",
+    "start_datetime": "2024-12-04T17:30:00Z",
+    "end_datetime": "2024-12-04T18:00:00Z",
+    "talk:code": "JWML3M",
+    "talk:guid": "c534f6e5-4124-56bf-a0be-855229f544c0",
+    "talk:event": "foss4g-2024-academic-track",
+    "talk:track": "Academic Track",
+    "talk:type": "Oral Presentation 5",
+    "talk:language": "en",
+    "talk:room": "Room III",
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "JPBLF7",
+        "name": "Felipe Oliveira Silva",
+        "url": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/JPBLF7/"
+      },
+      {
+        "code": "QQBYA9",
+        "name": "Rosangela Leal",
+        "url": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/QQBYA9/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-04T17:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/talk/JWML3M/",
+      "title": "Photogrammetry and 3D Modelling Applied to the Creation of Virtual Reality in Realistic Environments: Analysis of Free Software for Image Processing"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/talk/JWML3M/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/JPBLF7/",
+      "title": "Felipe Oliveira Silva"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/speaker/QQBYA9/",
+      "title": "Rosangela Leal"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024-academic-track/talk/JWML3M/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "research-presentation-slide-for-the-event": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024-academic-track/submissions/JWML3M/resources/Slide_Presentation_FelipeS_FOSS4_MBJqqIq.pdf",
+      "type": "application/pdf",
+      "title": "Research presentation slide for the event",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-academic"
+}

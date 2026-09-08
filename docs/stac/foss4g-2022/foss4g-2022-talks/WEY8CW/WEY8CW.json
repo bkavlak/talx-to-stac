@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "WEY8CW",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Pedological Information System of Piedmont Region in Italy",
+    "description": "Over the last 35 years, the IPLA has collected data on soils, both soil samples and cartographic data, to create a database (physical and digital) that represents knowledge for all stakeholders, public and private, of the composition and state of soils. Piedmontese.\r\nin the last 25 years the SIP (Pedological Information System) has been changed several times, to meet the new needs in terms of data collection but above all to update it to the new FOSS technologies.\r\nin fact, in the last 5 years we have gone from non-connected proprietary systems (DB FoxPro and Esri geoDB personal) to a single integrated system with FOSS tools: PostgreSQL / PostGIS and QGIS.\r\nAn information system has therefore been created that allows technicians on the one hand to be able to collect the field data by inserting them, with a web interface in the database, and to be able to see in real time, the cartographic themes in QGIS, based on the data.just inserted and taking advantage of the geographical component of the database.\r\nAlso the implementation of the survey points can be done, using in this case internal functions of the DB, both in alphanumeric way and in QGIS in a geographic way, with real-time modification of the points based on the coordinates entered by one of the two tools.\r\nAnd new implementations for field survey (QFiled) are under development, for the survey of the points and their visualization on the DB in real time.\r\nThe pedological observations are characterized by different levels of information among which more than 5000 soil profiles are the basic and fundamental data, subdivided into field data (descriptions and photos) and analytical data (physical-chemical determinations in laboratory). The elaboration of these data provides the main structure of the Pedological Information System, that is the description of more than 1200 Soil Types, used to build up the characterization of 7000 Geographical Units.",
+    "start_datetime": "2022-08-24T14:45:00Z",
+    "end_datetime": "2022-08-24T15:15:00Z",
+    "talk:code": "WEY8CW",
+    "talk:guid": "930691ed-a266-546b-81c8-826139ffaa8f",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Transition to FOSS4G",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room 9",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "SAYATP",
+        "name": "Federico Mensio",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/SAYATP/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T15:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/WEY8CW/",
+      "title": "Pedological Information System of Piedmont Region in Italy"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/WEY8CW/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/SAYATP/",
+      "title": "Federico Mensio"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/WEY8CW/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/jqT6u4JKXiWDXr12h2zXRe",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Pedological Information System of Piedmont Region in Italy",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=u56StPwf-J4",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Pedological Information System of Piedmont Region in Italy",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

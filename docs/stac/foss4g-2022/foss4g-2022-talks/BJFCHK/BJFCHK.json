@@ -1,0 +1,129 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "BJFCHK",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Creating GIS Rest APIS using Geodjango under 30 minutes",
+    "description": "We're living in the world of APIs. CRUD operations are base of lot of operations. Many smart frameworks such as Django, Flask, Laravel provides out of the box solutions to filter the data, which covers almost all needs to separate data based on column values. \r\nWhen it comes to Geospatial data, we expect to filter data based on their location property instead of metadata. This is where things get complicated, if you are using framework that doesn't have package, library built to handle such use cases, you are likely to be dependent on either database or any external package to handle it.\r\n\r\nFortunately Geodjango[https://docs.djangoproject.com/en/4.0/ref/contrib/gis/] (Django's extension) allows us to create databases which understands geometry and can process it[https://docs.djangoproject.com/en/4.0/ref/contrib/gis/geoquerysets/#gis-queryset-api-reference]. It also provides support to write APIs using Rest Framework extension [https://pypi.org/project/djangorestframework-gis/] which takes this to next level allowing user to output the data in various formats, creating paginations inside geojson, create TMSTileFilters, etc.\r\n\r\nIn this talk we'll scratch the surface of this python package and see how to build basic CRUD APIs to push, pull GIS data along with filtering it to the PostgreSQL database",
+    "start_datetime": "2022-08-25T14:45:00Z",
+    "end_datetime": "2022-08-25T15:15:00Z",
+    "talk:code": "BJFCHK",
+    "talk:guid": "9e6e7a60-ae97-5e07-a799-cf31b2aa5535",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room 4",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "J7Z7F8",
+        "name": "krishna lodha",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/J7Z7F8/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T15:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/BJFCHK/",
+      "title": "Creating GIS Rest APIS using Geodjango under 30 minutes"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/BJFCHK/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/J7Z7F8/",
+      "title": "krishna lodha"
+    },
+    {
+      "rel": "related",
+      "href": "https://docs.djangoproject.com/en/4.0/ref/contrib/gis/",
+      "title": "docs.djangoproject.com/en/4.0/ref/contrib/gis"
+    },
+    {
+      "rel": "related",
+      "href": "https://docs.djangoproject.com/en/4.0/ref/contrib/gis/geoquerysets/#gis-queryset-api-reference",
+      "title": "docs.djangoproject.com/en/4.0/ref/contrib/gis/geoquerysets"
+    },
+    {
+      "rel": "related",
+      "href": "https://pypi.org/project/djangorestframework-gis/",
+      "title": "pypi.org/project/djangorestframework-gis"
+    },
+    {
+      "rel": "related",
+      "href": "https://www.youtube.com/c/krishnalodha",
+      "title": "www.youtube.com/c/krishnalodha"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/BJFCHK/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/sLr4vkptMzt5UE9WNzDeDM",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Creating GIS Rest APIS using Geodjango under 30 minutes",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=Dd9-Tz27Ruc",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Creating GIS Rest APIS using Geodjango under 30 minutes",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

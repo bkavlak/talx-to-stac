@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "E8BXZJ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Modeling of forest landscape evolution at regional level: a FOSS4G approach",
+    "description": "In the last decades the European mountain landscape, and in particular the Alpine landscape, has dramatically changed due to social and economic factors (Tattoni et al. 2017).\r\nThe most visible impact has been the reduction of the population for mid and high altitude villages and the shrinking of part of the land used for agriculture and grazing. The result is a progressive reduction of pastures and meadows and the expansion of the forested areas. Forest plots become also more compact, with the loss of ecotones.\r\nThe study of this phenomenon is important not only to assess its current impact on the ecological functionality of forest ecosystems including biodiversity and natural hazards, but also to build future scenarios, taking into account also the climate change issues. The limit of the mountain treeline is gradually shifting upwards and the monitoring and modeling of these changes will be crucial to plan future interventions and try to implement effective mitigation plans.\r\nFor these reasons, a dataset describing the forest, meadows and pasture coverage for the Trentino region, in the eastern Italian Alps, has been created.\r\nA set of heterogeneous sources has been selected so that maps and images cover  the longest possible time span on the whole Trentino region  with the same quality, providing the necessary  information to create a LULC (Land Use/Land Cover) map at least for the forest, meadows and pasture classes.\r\nThe dataset covers a time span of more than 160 years, with automatic or semi-automatic digitization of historical maps and the LULC classification from aerial images.\r\nThe first set of maps includes historical maps from 1859 to 1936, with an additional map from 1992 which was not available in digital format and has been digitized for this project: Austrian Cadastral (1859, 13297 sheets, scale 1:1440), Cesare Battisti\u2019s map of forest density published in his atlas \u201dIl Trentino. Economic Statistical Illustration\u201d (1915, single sheet, 1: 500 000), Italian Kingdom Forest Map (IKMF) (1936, 47, 1:100 000) and Map of the potential forest area and treeline (1992, 98, 1:50 000). A new procedure has been developed to automatically extract LULC classes from these maps, combining GRASS and R for the segmentation, classification and filtering with the Object Based Image Analysis (OBIA) approach. Two new GRASS modules used in this procedure have been created and made available as add-ons on the official repository (Gobbi et al., 2019)..\r\nThe second set of maps are aerial images, covering the time span  from 1954 to 2015. The four sets which differ for mean scale, number of bands, resolution and datum: \"Volo GAI\" (1954, 130 images, mean scale 1:35 000, B/W, resolution 2m, Rome40 datum), \"Volo Italia\" (1994, 230, 1:10 000, B/W, 1m, Rome40), \"Volo TerraItaly\" (2006, 250, 1:5 000, RGB+IR, 0.5m, Rome40) and \"Volo AGEA\" (2015, 850, 1:5 000, RGB+IR, 0.2m, ETRS89). The \"Volo GAI\" imagery set has been ortho-rectified using GRASS, images in the other sets were already ortho photos.\r\nThe aerial images were classified with OBIA to create LULC maps, with particular focus on forest, meadows and pasture classes. The same training segments were used across the 4 sets and the custom classification procedure has been scripted. The number of training segments ranges from 1831 for the 2015 dataset and 2572 for the 1954 imagery set.\r\nThe evaluation of the results of the classification for all the maps and images has been carried out with a proportional stratified random sampling approach. A procedure has been scripted in GRASS to select 750 sampling points, distributed in each stratum (LULC class) proportionally to the area of the class. The resulting points have been manually labeled and used to assess the classification and filtering (where present) accuracy.[c]\r\nFor the historical maps, the application of the custom filtering procedure has increased the accuracy from a minimum value of 67% (for the IMF map) to 93% (for the same map), with a maximum of 98% for the cadaster map.\r\nFor the imagery datasets the accuracy (percentage of points correctly classified) was between 93% and 94%, with the latter value corresponding to the higher resolution 2015 imagery dataset. Higher accuracy, up to 95% was obtained for the forest class, which is the main focus of the study.\r\nThe analysis of selected landscape metrics provided preliminary results about the forest distribution and pattern of recolonization during the last 180 years.\r\nA comparison between the capabilities of FOSS4G available systems for  landscape metrics was performed  to evaluate the best analysis  tools (Zatelli et al. 2019).\r\nFinally, these time series of LULC coverage were used to create future scenarios for the forest evolution in a test area of Trentino in the next 85 years, using both the Markov chain and the Agent Based Modeling approaches with GAMA (Taillandier et al. 2018).\r\nGiven the large number of maps involved, the great flexibility provided by FOSS for spatial analysis, such as GRASS, R, QGIS and GAMA and the possibility of scripting all the operations have played a pivotal role in the success both in the creation of the dataset and in the extraction and modeling of land use changes.\r\nThe development of new GRASS add-on modules, based on the scripts created during this study, is planned.",
+    "start_datetime": "2022-08-24T10:00:00Z",
+    "end_datetime": "2022-08-24T10:30:00Z",
+    "talk:code": "E8BXZJ",
+    "talk:guid": "aa880589-a399-5a5f-809e-115a4feae7ff",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room Modulo 3",
+    "talk:room_capacity": 150,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RR9F3U",
+        "name": "Paolo Zatelli",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/RR9F3U/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T10:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/E8BXZJ/",
+      "title": "Modeling of forest landscape evolution at regional level: a FOSS4G approach"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/E8BXZJ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/RR9F3U/",
+      "title": "Paolo Zatelli"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/E8BXZJ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

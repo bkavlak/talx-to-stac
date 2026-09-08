@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "X3NCBZ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Adding Quality Assurance to open source projects: experiences from GeoTools, GeoWebCache an GeoServer",
+    "description": "Working in large open source projects, with several people contributing to the code, can be challenging, especially trying to keep everyone on the same page, and generating code that has enough similarities to allow shared maintenance.\r\n\r\nThe advent of platforms like GitHub also made it easier for one time contributors to donate small and large bits of code to the platform, generating in the process a fair amout of \u201creview stress\u201d in the project maintainers.\r\n\r\nThe presentation covers how pull request checks, formatting and static analysis tools have been used to streamline basic checks in the code:\r\n\r\n* Testing the code on a variety of operating systems, Java versions and integrations with data sources before the code can be contributed to the project\r\n* Enforcing common formatting\r\n* Adding basic checks with CheckStyle\r\n* Locating obvious errors, leftover code, basic optimization issues using the Java compiler linting, ErrorProne, PMD and SpotBugs\r\n* Improving readability of the code as well as enforcing best practices and common approaches with the same tools.\r\n* Effects on the dynamics of code reviews\r\n\r\nThe presentation will cover all those aspects, with examples from the author\u2019s experience with the GeoTools, GeoWebCache and GeoServer projects.",
+    "start_datetime": "2023-06-28T09:30:00Z",
+    "end_datetime": "2023-06-28T10:00:00Z",
+    "talk:code": "X3NCBZ",
+    "talk:guid": "609dd08e-292e-502c-b256-50195596318d",
+    "talk:event": "foss4g-2023",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT D / N113 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "RBSH8T",
+        "name": "Andrea Aime",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/RBSH8T/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T09:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/X3NCBZ/",
+      "title": "Adding Quality Assurance to open source projects: experiences from GeoTools, GeoWebCache an GeoServer"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/X3NCBZ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/RBSH8T/",
+      "title": "Andrea Aime"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/X3NCBZ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

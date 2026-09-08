@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "PWVX3G",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Packaging Geospatial Software for Debian and Ubuntu Linux",
+    "description": "This presentation will delve into the intricacies of packaging geospatial software for Debian Linux and its derivatives, including Ubuntu, OSGeoLive, and others.\r\n\r\nIt will begin by contrasting the differences between packaging for an operating system and application-level package managers. The presentation will then provide an introduction to the Debian GIS Team and their established practices for packaging, including resources for finding information. The focus will then shift to the crucial steps involved in preparing the software for distribution, such as creating metadata and dependencies, building the package, testing its functionality, and ultimately making it available to end-users for easy installation and use.",
+    "start_datetime": "2023-06-28T09:00:00Z",
+    "end_datetime": "2023-06-28T09:30:00Z",
+    "talk:code": "PWVX3G",
+    "talk:guid": "d9adf8cf-cc46-5b3f-8e4e-aa4c33054d5e",
+    "talk:event": "foss4g-2023",
+    "talk:track": "State of software",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT D / N113 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "M8VETT",
+        "name": "Felix Delattre",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/M8VETT/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T09:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/PWVX3G/",
+      "title": "Packaging Geospatial Software for Debian and Ubuntu Linux"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/PWVX3G/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/M8VETT/",
+      "title": "Felix Delattre"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/PWVX3G/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/9Xcmh4rwfdXqnmzjrMK4SN",
+      "type": "text/html",
+      "title": "2023 | Packaging Geospatial Software for Debian and Ubuntu Linux - Felix Delattre",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=ydQ4d2QAt2M",
+      "type": "text/html",
+      "title": "2023 | Packaging Geospatial Software for Debian and Ubuntu Linux - Felix Delattre",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

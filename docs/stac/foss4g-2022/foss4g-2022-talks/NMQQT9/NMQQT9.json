@@ -1,0 +1,117 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "NMQQT9",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Using Terraform to manage HOTOSM's infrastructure as code",
+    "description": "Humanitarian Openstreetmap Team (HOT) administers several free-software applications with varied deployment architectures on multiple cloud platforms. As an organization that values openness and transparency, we actively seek out open source tools that help us enact our principles of open participation and collaboration. In that vein, we chose Terraform as the tool for managing infrastructure at HOT.\r\n\r\nUsing HOT's experience managing OSM Galaxy infrastructure using Terraform, this talk describes our use of Terraform to manage infrastructure at scale in order to improve DevOps processes with  infrastructure reproducibility, security, cost and change management. \r\n\r\nWe will present these advantages in the context of our own team's experiences and the challenges we faced trying to build a scaling technology stack and compare Terraform with popular Infrastructure as Code (IaC) alternatives.\r\n\r\nThe talk will use OSM Galaxy API (galaxy.hotosm.org) as a case study to describe the process of porting infrastructure to Terraform in order to manage infrastructure continuously at enterprise scale - which is particularly relevant for non-profits and organizations that develop compute-intensive technology.",
+    "start_datetime": "2022-08-26T13:15:00Z",
+    "end_datetime": "2022-08-26T13:20:00Z",
+    "talk:code": "NMQQT9",
+    "talk:guid": "e4c1398e-b408-5a40-acef-0efee44f8a88",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Modulo 0",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "YNV8TV",
+        "name": "DK Benjamin",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/YNV8TV/"
+      },
+      {
+        "code": "PDSALR",
+        "name": "Yogesh Girikumar",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/PDSALR/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T13:17:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/NMQQT9/",
+      "title": "Using Terraform to manage HOTOSM's infrastructure as code"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/NMQQT9/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/YNV8TV/",
+      "title": "DK Benjamin"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/PDSALR/",
+      "title": "Yogesh Girikumar"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/NMQQT9/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-2022/submissions/NMQQT9/resources/220815_dk_foss4g-presentation-terraform_h8yTsRM.pdf",
+      "type": "application/pdf",
+      "title": "Slides",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=QRURTe6H1OU",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Using Terraform to manage HOTOSM's infrastructure as code",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

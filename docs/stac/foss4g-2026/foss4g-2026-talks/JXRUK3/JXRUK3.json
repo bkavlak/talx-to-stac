@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "JXRUK3",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "spCF: an R package for coarse-to-fine spatial modeling",
+    "description": "This study develops an R package \"spCF\" that provides functions for coarse-to-fine spatial modeling, enabling scalable spatial prediction, regression, and multi-scale analysis for large samples.\n\nCoarse-to-fine spatial modeling (CFSM) is a recently developed framework for spatial statistical modeling that offers scalability in both computational efficiency and predictive accuracy for large samples, and is implemented in the spCF package. Currently, this package supports relatively simple spatial models for continuous, count, and binary data. Ongoing developments aim to extend its capabilities to spatiotemporal modeling, spatially varying coefficients, downscaling, and other advanced tasks. In this talk, after explaining the latest development status, we will demonstrate its use through several empirical applications.",
+    "start_datetime": "2026-09-02T05:00:00Z",
+    "end_datetime": "2026-09-02T05:30:00Z",
+    "talk:code": "JXRUK3",
+    "talk:guid": "d2f1da7f-233f-56bd-8ce0-df12a90e0686",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room5",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "DCEY3Z",
+        "name": "Daisuke Murakami",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/DCEY3Z/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T05:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/JXRUK3/",
+      "title": "spCF: an R package for coarse-to-fine spatial modeling"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/JXRUK3/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/DCEY3Z/",
+      "title": "Daisuke Murakami"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/JXRUK3/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

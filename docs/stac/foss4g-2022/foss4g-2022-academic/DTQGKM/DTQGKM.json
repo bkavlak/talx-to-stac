@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "DTQGKM",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Laying the foundation for an artificial neural network for photogrammetric riverine bathymetry",
+    "description": "The submerged topography of rivers is a crucial variable in fluvial processes and hydrodynamics models. Fluvial bathymetry is traditionally realised through echo sounders embedded on vessels or total stations and GNSS receivers whether the surveyed riverbeds are small streams or dry. Besides being time-consuming and often spatially limited, traditional riverine bathymetry is strongly constrained by currents and deep waters. In such a scenario, remote sensing techniques have progressively complemented traditional bathymetry providing high-resolution information. To date, the peak of innovation for bathymetry has been reached with the use of optical sensors on uncrewed aerial vehicles (UAV) systems, along with green lidars (V\u00e9lez-Nicol\u00e1s et al., 2021). The main obstacle in optical-derived bathymetry is the refraction of the light passing the atmosphere-water interface. The refraction distorts the photogrammetric scene reconstruction, causing in-water measures to be underestimated (i.e., shallower than reality). To correct these distortions, radiometric-based methods are frequently applied. They are focused on the spectral response of the means crossed by the light and are typically built on the theory that the total radiative energy reflected by the water column is function of the water depth (Makboul et al., 2017). The primary goal of the research on submerged topography is to understand the relationship between the water column reflectance and the water depth using statistical and trigonometrical models. The spread of artificial intelligence has given a new light of interest on spectral-based bathymetry by investigating the non-linear and very complex relationship between variables (Mandlburger et al., 2021). To train artificial intelligence models, large amounts of data are usually necessary; therefore, participatory approach and data sharing are required to build statistically-relevant datasets. In this scenario, FOSS tools and distributed resources are mandatory to manage the dataset and allow the replicability of the methodology.  \r\nThis work aims to test the effectiveness of artificial intelligence to correct water refraction in shallow inland water using very high-resolution images collected by Unmanned Aerial Vehicles (UAV) and processed through a total FOSS workflow. The tests focus on using synthetic information extracted from the visible component of the electromagnetic spectrum. An artificial neural network is created with the data from three different case studies placed in west-north Italy, and geologically and morphologically similar.\r\nThe data for the analysis were collected in 2020. Each data collection was realised using a UAV commercial solution (DJI Phantom 4 Pro), and the following datasets were generated: i) RGB georeferenced orthomosaic of the riverbed and banks obtained from photogrammetric process, ii) georeferenced Digital Elevation Model (DEM) of the riverbed obtained from photogrammetric process, iii) GNSS measures of the riverbed and the riverbanks.\r\nThe UAV-collected frames were elaborated through a standard structure from motion (SfM) procedure. Visual SfM was employed to align images and the 3D point cloud computation. The digital surface model (DSM) and the orthomosaic production were generated starting from the point cloud in Cloud Compare software. By applying the so-called direct-photogrammetry, the point clouds were directly georeferenced in the WGS84-UTM32 coordinate system thanks to the positioning information retrieved from the embedded GNSS dual-frequency receiver (Chiabrando, Lingua and Piras, 2013). Using the information regarding the camera position and the local height model provided by the national military Geographic Institute (IGM), the ellipsoidal heights were translated into orthometric heights. The GNSS measures had 3 cm accuracy on the vertical component and 1.5cm on the horizontal components. \r\nThe RGB information, DSM and seven radiometric indices (i.e., Normalised Difference Turbidity Index; Red and Green Ratio; Red and Blue Ratio; Green and Red Ratio; Green and Blue Ratio; Blue and Red Ratio; Blue and Green Ratio) were calculated and stacked in an 11-bands raster (input raster). The Up component of the bathymetry cross-sections constituted the so-called \"Z_GNSS\" dataset and is the dependent variable of the regression. The position (Easting, Northing, Up) of each Z-GNSS observation was used to extract the pixel values of each band of the input photogrammetric dataset, including the photogrammetric DEM. The dataset was then normalised and divided into test (20% observations) and training (80% observations) datasets.\r\nIn this work, a 5-layer multilayer perceptron (MLP) networks model with three hidden layers was built in Python using the deep learning library Keras with TensorFlow backend (Abadi et al., 2016). The ReLu activation function was added to the ANN layers to bring non-linear properties in the network. The dimension of the input layer is 11, and the weights are initialised to small Gaussian random values (kernel initialiser 'Normal') despite usually skewed or bimodal. A kernel regulizer, L1, was added to reduce the overfitting. The applied optimiser to update weights in the network is the Adaptive Moment Estimation (Adam) search technique, and the loss function, which evaluates the model used by the optimiser to navigate the weights, is the mean absolute error between the predicted output and the target output.\r\nThe network was trained on the normalised dataset. The r-squared score, the Mean squared error and the Mean absolute error were computed. Finally, the permutation importance was measured using the eli5 python library. \r\nThe neural network regressor performed over 0.80 of r-squared score on the test dataset. As expected, the permutation importance analysis reveals the high impact of the DEM and visible bands, and low importance scores are reported for ratios bands. \r\nThe results are satisfying and quite relevant, although the model is the first step through a more complex and deeper neural network to correct water distortions in rivers. It has been trained on a relatively small dataset, but we intend to follow up with the research, add more data, and develop a free and open tool for the scientific community.  The present work, provide a good insight about the high reliability and accuracy of artificial intelligence approaches in optical-derived bathymetry.",
+    "start_datetime": "2022-08-26T07:30:00Z",
+    "end_datetime": "2022-08-26T08:00:00Z",
+    "talk:code": "DTQGKM",
+    "talk:guid": "3283cbdd-b2ab-5d82-8eea-383a642fd990",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room Hall 3A",
+    "talk:room_capacity": 85,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "3VLHAA",
+        "name": "Elena Belcore",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/3VLHAA/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T07:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/DTQGKM/",
+      "title": "Laying the foundation for an artificial neural network for photogrammetric riverine bathymetry"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/DTQGKM/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/3VLHAA/",
+      "title": "Elena Belcore"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/DTQGKM/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

@@ -1,0 +1,154 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "WBBRH8",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Geo enabling your APIs with the location building blocks",
+    "description": "The need to integrate geospatial data into products and services has resulted in a proliferation of Free and Open Source web APIs which often do not adopt any standards, thus requiring more development time and a lack of interoperability between solutions. For instance a bounding box has been written in multiple ways, depending on whether developers use the coordinates of the four corners, only upper left and lower right, latitude or longitude first, or some other variation.\r\n\r\nThe good news is that the Open Geospatial Consortium, a neutral, consensus-based organization, has been developing open standards for geospatial information. These standards are [developed as building blocks](https://blocks.ogc.org/), which means they could be easily incorporated into existing applications in order to enable a piece of geospatial functionality. The [location building blocks](https://blocks.ogc.org/register.html) are freely available to anyone to download and use.\r\n\r\nIn this presentation, we describe the conceptual model for the existing building blocks, which uses semantic annotations to define the different components. We also describe a practical example of how a building block could be integrated into an application and provide some resources for developers who want to build applications with the location building blocks.",
+    "start_datetime": "2023-06-28T11:30:00Z",
+    "end_datetime": "2023-06-28T12:00:00Z",
+    "talk:code": "WBBRH8",
+    "talk:guid": "d82acccb-3e7a-51fd-8201-90546e1ee5d5",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Community & Foundation",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT D / N112 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "FNYKAD",
+        "name": "Joana Simoes",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/FNYKAD/"
+      },
+      {
+        "code": "W8KMNU",
+        "name": "Alejandro Villar",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/W8KMNU/"
+      },
+      {
+        "code": "LX7WQJ",
+        "name": "Rob Atkinson",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/LX7WQJ/"
+      },
+      {
+        "code": "VMLBS3",
+        "name": "Piotr Zaborowski",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/VMLBS3/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T11:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/WBBRH8/",
+      "title": "Geo enabling your APIs with the location building blocks"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/WBBRH8/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/FNYKAD/",
+      "title": "Joana Simoes"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/W8KMNU/",
+      "title": "Alejandro Villar"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/LX7WQJ/",
+      "title": "Rob Atkinson"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/VMLBS3/",
+      "title": "Piotr Zaborowski"
+    },
+    {
+      "rel": "related",
+      "href": "https://blocks.ogc.org/",
+      "title": "developed as building blocks"
+    },
+    {
+      "rel": "related",
+      "href": "https://blocks.ogc.org/register.html",
+      "title": "location building blocks"
+    },
+    {
+      "rel": "related",
+      "href": "https://orcid.org/0000-0002-7180-3367",
+      "title": "orcid.org/0000-0002-7180-3367"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/WBBRH8/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/j2e4i3Aax2NkJAB8Y8FnXR",
+      "type": "text/html",
+      "title": "2023 | Geo enabling your APIs with the location building blocks - Rob Atkinson",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=ViK6rwWzE9Q",
+      "type": "text/html",
+      "title": "2023 | Geo enabling your APIs with the location building blocks - Rob Atkinson",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

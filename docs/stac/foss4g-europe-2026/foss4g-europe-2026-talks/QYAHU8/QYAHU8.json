@@ -1,0 +1,110 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "QYAHU8",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "Automated Riverine Waste Detection Using Random Forest and Multispectral Satellite Imagery",
+    "description": "## Motivation\r\n\r\nThe proliferation of waste-contaminated areas poses a significant challenge to global ecosystems, harming wildlife and posing serious risks to human health. Riverine systems are particularly vulnerable, as floodplains act as temporary storage for mismanaged plastic and debris. During high-water events, accumulated waste is transported downstream, further contaminating aquatic environments.\r\nGovernmental and non-governmental organizations work extensively to remediate these areas, but identifying illegal dumpsites along long riverbanks is resource-intensive and often requires field surveys by vehicle or boat. Efficient, large-scale monitoring tools are therefore essential. Recent advances in remote sensing and machine learning offer promising solutions. This research aims to develop an automated system for detecting plastic waste along riverbanks and water surfaces using multispectral satellite imagery.\r\n\r\n\r\n## Key Related Works\r\n\r\nThe field of satellite-based waste detection is rapidly evolving. Previous efforts by *Magyar et al. (2023)* laid the foundation for this study by employing a Random Forest (RF) model on PlanetScope and Sentinel-2 imagery.\r\n\r\nOther researchers have utilized different sensors and algorithms; for instance, *Sakti et al. (2023)* introduced the \"Adjusted Plastic Index\" to reduce noise from vegetation and buildings in Sentinel-2 data, achieving 88% accuracy on vegetation but facing challenges with spectral similarities between buildings and debris.\r\n*Lanorte et al. (2017)* demonstrated the effectiveness of Support Vector Machines (SVM) for agricultural plastic waste detection using Landsat 8 imagery, achieving overall accuracy up to 94%.\r\nDeep learning approaches have also been explored. *Sun et al. (2023)* utilized high-resolution satellite imagery (0.3m\u20131m) to achieve a 98% detection rate for various waste types, significantly reducing the time required for expert manual review. *Torres and Fraternali (2021)* employed a Convolutional Neural Network (CNN) based on the ResNet50 architecture to identify illegal landfills in 20cm resolution orthophotos with an F-score of 88.2%.\r\nWhile these high-resolution studies show great accuracy, our research focuses on the operational utility of more frequently available multispectral data like PlanetScope to monitor dynamic river environments.\r\n\r\n\r\n## Methodology\r\n\r\n### Data Acquisition and Feature Engineering\r\nThe study utilizes PlanetScope multispectral imagery, which provides four spectral bands (RGB + NIR). To enhance the model's ability to distinguish waste from natural surfaces, the following spectral indices were calculated:\r\n - **Plastic Index (PI)**: Leverages the higher reflectance of plastic compared to water in the NIR spectrum.\r\n - **Normalized Difference Water Index (NDWI)**: Used to delineate water features.\r\n - **Normalized Difference Vegetation Index (NDVI)** and **Reversed NDVI (RNDVI)**: Used to identify and mask healthy vegetation.\r\n - **Simple Ratio (SR)**: Further assists in vegetation classification.\r\n\r\n### Training Dataset\r\nA comprehensive training dataset was compiled, consisting of 27 million pixels. This dataset includes 29 landfills in Romania \u2014 identified via local registries \u2014 and the Kisk\u00f6re reservoir in Hungary, which is a known site for floating waste accumulation. Every pixel was manually annotated into five categories: *Waste*, *Water*, *Pasture/Forest*, *Bare land*, and *Unknown* (including buildings and roads). To improve accuracy, high-resolution aerial imagery was used to differentiate between plastic waste and construction debris.\r\n\r\n### Model Development and Optimization\r\nA Random Forest classifier was implemented using the Scikit-Learn library. To manage the large dataset, the model was optimized by limiting tree depth to 20, reducing the model size from 14GB to a more manageable 2GB without significantly increasing the false positive rate. Furthermore, because waste pixels are vastly outnumbered by other classes, class weights were applied to mitigate the high false-negative rates caused by data imbalance.\r\n\r\n### Advanced Processing Techniques\r\nSeveral techniques were explored to refine performance:\r\n - **Principal Component Analysis (PCA)**: Applied to reduce parameter dimensions and suppress noise. It was found that three principal components retained 90% of the variance.\r\n - **Seasonal Separation**: Separate models were trained for *summer* (March\u2013October) and *winter* (November\u2013February) to account for variations in vegetation cover and atmospheric conditions.\r\n - **Water Masking**: An algorithm was implemented to mask areas distant from the river course, thereby eliminating irrelevant false alarms in urban or agricultural areas.\r\n\r\n### Interactive Web Application\r\nThe results of our research are integrated into an interactive web application that provides a platform for viewing detected waste locations. The application automatically downloads and classifies the latest satellite imagery for monitored areas. The implementation is open-source and is available on GitHub:\r\nhttps://github.com/GISLab-ELTE/WasteDetection/\r\n\r\n## Results and Discussion\r\n\r\nThe model was validated using test data from the Drina River, a site not included in the training set, featuring both land-based dumpsites and floating waste islands. The primary RF model achieved a Match Rate (True Positive) of 29.32% and a Commission Rate (False Positive) of 28.13%. While the Omission Rate (False Negative) was high (70.67%) \u2014 largely because the model only classified the core of waste islands \u2014 this was considered acceptable for operational purposes where avoiding false leads for clean-up crews is a priority. The model detects the core regions of waste accumulations while maintaining low false positives, which is critical for operational deployment.\r\n\r\nPCA integration notably improved noise suppression on water surfaces. The PCA-trained model increased the Match Rate to 34.99%, though at the cost of a higher Commission Rate (39.01%). The summer-specific model showed a slight improvement in reliability for summer imagery, reducing the commission rate to 26.1%. Conversely, winter detection remains a challenge due to shadows and poor weather conditions, which hinder spectral accuracy.\r\n\r\nOur study contributes (i) a large annotated dataset, (ii) an operational RF-based detection pipeline, and (iii) an evaluation of trade-offs between accuracy and usability in riverine waste monitoring.",
+    "start_datetime": "2026-06-30T12:30:00Z",
+    "end_datetime": "2026-06-30T13:00:00Z",
+    "talk:code": "QYAHU8",
+    "talk:guid": "c0889665-f35e-520d-894f-cd34b8aee286",
+    "talk:event": "foss4g-europe-2026",
+    "talk:track": "Academic track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "A01",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "WFLHZU",
+        "name": "M\u00e1t\u00e9 Cser\u00e9p",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/WFLHZU/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-06-30T12:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/QYAHU8/",
+      "title": "Automated Riverine Waste Detection Using Random Forest and Multispectral Satellite Imagery"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/QYAHU8/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/WFLHZU/",
+      "title": "M\u00e1t\u00e9 Cser\u00e9p"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/GISLab-ELTE/WasteDetection/",
+      "title": "github.com/GISLab-ELTE/WasteDetection"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/QYAHU8/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "public-presentation": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2026/submissions/QYAHU8/resources/foss4ge_2026__U06uDzr_xhEc5Pf.pdf",
+      "type": "application/pdf",
+      "title": "Public presentation",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "presentation-pptx": {
+      "href": "https://mcserep.web.elte.hu/data/research/foss4ge_2026_cserep_mate.pptx",
+      "type": "application/vnd.openxmlformats-officedocument.presentationml.presentation",
+      "title": "Presentation (PPTX)",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "XV87XB",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Write once, run anywhere: safe and reusable analytic modules for WebAssembly, Javascript, or more!",
+    "description": "The proliferation of client-side analytics and on-going vulnerabilities with shared code libraries have fueled the need for better safety standards for running executables from potentially unknown sources. WebAssembly (WASM), a compilation target that allows lower-level languages like Rust, C, and Go to run in the browser or server-side at near-native speeds. Much like Docker changed the way we run virtualized workflows, WASM runtimes create safe virtual environments where access to the host system is limited. \r\n\r\nIn combination with a new free and open source full-stack geospatial platform, Matico, efforts are underway to enable portability across workflows and applications to more easily use WASM modules. WASM implementations of GDAL are in the works, and powerful open source Rust geospatial libraries are easily packaged for web usage through Wasm-Pack. Additional geo WASM libraries like jsgeoda provide spatial indices, binning, and autocorrelation functions. Shareable code can be a recipe for security vulnerabilities and attack vectors, potentially exposing personal or critical information, particularly if there is the opportunity to run code server-side. WASM implementation alleviates this by requiring access from the Virtual Machine (VM) to be limited and explicit, and for Javascript developers the lightweight AssemblyScript language is relatively familiar. \r\n\r\nAn upcoming Javascript feature called ShadowRealms may enable even simpler and more familiar implementations to safely run Javascript code shared between module authors. These developments lay the groundwork for a hybrid front- and backend geospatial ecosystem of shareable code snippets and analytic functions, much like have emerged in the UI component Javascript ecosystem. The combination of emerging features positions web geospatial analytics and This talk explores the implementation and performance of running geospatial analytic modules through a WebAssembly virtual machine and through the upcoming Javascript ShadowRealm specification.",
+    "start_datetime": "2022-08-25T14:45:00Z",
+    "end_datetime": "2022-08-25T15:15:00Z",
+    "talk:code": "XV87XB",
+    "talk:guid": "f0ccaebb-b137-5386-bbd9-7f1048e3319d",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Use cases & applications",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Limonaia",
+    "talk:room_capacity": 110,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "WRYEWK",
+        "name": "Stuart Lynn",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/WRYEWK/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T15:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/XV87XB/",
+      "title": "Write once, run anywhere: safe and reusable analytic modules for WebAssembly, Javascript, or more!"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/XV87XB/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/WRYEWK/",
+      "title": "Stuart Lynn"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/XV87XB/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/qpkfgWMgJ2F6H8mcYdYtPb",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Write once, run anywhere: safe and reusable analytic modules for WebAssembly,\u2026",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=RTRyYgOEiU8",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Write once, run anywhere: safe and reusable analytic modules for WebAssembly,\u2026",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

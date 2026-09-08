@@ -1,0 +1,103 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "REQLGD",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Earth Observation DataCubes Multi-visualization Toolbox",
+    "description": "Context\r\n\r\nIt is said that data visualization is as important as the data itself. As the amount of data generated from Earth observation (EO) satellites \u2013 i.e. Copernicus program (Jutz and Milagro-P\u00e9rez, 2020) \u2013 is getting bigger and bigger, we need more ef\ufb01cient tools to deal with this onslaught of data. To help data scientists better extract relevant information from datacubes, we noticed that an under-exploited computer graphics tools could bring new perspectives to specialists. Datacubes are known to be the reference format to handle EO data; several techniques such as Web WorldWind developed by NASA exist to process and interact with them. Recent works have shown focus on the preparation of largescale geospatial data (Mazroob Semnani et al., 2020), a highly technical subject, could bene\ufb01t from optimizations. QGIS is another tool frequently used in the field, that can be enhanced by plugins and can retrieve data from Web platforms. A modern approach to process efficiency is the use of GPUs. Still, when reviewing the use of GPUs to process geospatial data, the emphasis is often put on the parallel processing of geospatial datasets rather than focusing on their visualization (Saupi Teri et al., 2022).\r\n\r\nObjectives\r\n\r\nOne of the main contributions of this paper is to consider geospatial data using GPU resources for intermediate computation and visualization. Considering the increasing interest to interact with this data directly using Web pages or Notebooks, this article presents tools allowing a program to run on the GPU and display the desired datacubes using the WebGL API. This can result in high performances thanks to its low-level control and possibility to use GPGPU algorithms. WebGL running natively on most web browsers, another bene\ufb01t will be the end-user ease of use. The end goal is to display even large (i.e. 1024^3) datacubes rendered on the \ufb02y in real time on a PC, still well-equipped.\r\n\r\nMethodology\r\n\r\nTo keep our applied research efforts focused, we have set up an independent international expert advisory group. Indeed, we wanted above all to provide something useful and concrete for the actors in the field. The represented institutes are ESA (EC), EURAC (Italy), GISAT (Czech Republic), Terrasigna (Romany), TU Wien (Austria), VITO (Belgium), and even a former NASA (USA) analyst. They have been regularly interviewed to get constant feedback on the suitability of our developed application, the \ufb01nal goal of our project being to build a toolbox of models to ef\ufb01ciently visualize different EO datacubes formats.\r\n\r\nModels\r\n\r\nThis paper presents three main models applicable to datacubes from an EO context, some relatively standard and others innovative, still all revisited via the GPGPU architecture.\r\nImplicit curves model \u2013 This model has two main approaches: discrete and math-based sub-models. Especially adequate to process (x, y) or (x, y, t) datacubes in a 2D or 3D visualization we developed and compared both sub-models with their dependencies. Sets of given iso and \u03b4 values are extracted from the data and stored as sets of curves. They can be displayed in a 2D environment or in 3D with additional information such as: (1) the simulation of the data as a 3D surface; (2) different colormaps for the surface representing yet other external data; (3) surface render in steps to emphasize the given iso and \u03b4 values; (4) user customizable colormaps; and (5), a water level simulation rendering.\r\n\r\nDerivative 3D rendering model \u2013 This model is specialized in analyzing (x, y, t) datacubes as a volume where the time t is part of the visualization. Indeed, the aim is to visualize the evolution in time of a geographical area by highlighting the temporal differences within a volume. After selecting the (x, y) region of interest the user selects a reference layer representing the state of an area at a de\ufb01ned time t and a time interval \u0394t. The cumulated differences between the two are visible in a colored sub-volume de\ufb01ned by the time interval. In order to add more contextual information in the visualized geographical area, we have added the possibility to display an additional map (such as topographic data) at the reference layer level within the volume. \r\n\r\nJupyter Notebook massive rendering model \u2013 To make the toolset even easier to use, we have developed a visualization model deployable in Jupyter. This model allows rendering of (x,y,z) and (x,y,z,t) data volumes. Two rendering algorithms are already available: (1) the implicit surface simulation for any iso intensity -- but only via the discrete approach -- and (2), an XRay-cast simulation.\r\n\r\nDiscussion\r\n\r\nResults show our models can process large amounts of data and render them in real-time. Where large 3D datasets would normally become problematic to handle for any GPU, we developed specialized tools to overcome software and hardware limitations. For instance, a 3D datacube can be sorted into a 2D texture to be directly loaded into GPU memory, thus improving performance. When the textures become too big to work with WebGL, their information can be split in the RGBA channels of standard 2D textures for a four-fold decrease in memory use. Furthermore, when displaying our rendering models, and in the case of machines without sufficiently powerful graphics cards, we propose to display only the fraction of the data that interests the user. All of these highly ef\ufb01cient rendering models are assembled together in a toolbox dedicated to datacube visualization.\r\n\r\nConclusion\r\n\r\nIn this paper we demonstrate an example of application retrieving raw data from a server, formatting it for local use with GPGPU, and rendering it with several innovative models. We developed these tools for a Web application and Jupyter Notebooks to better fit with the needs of data scientists. To better understand the scope of the possibilities of this work, several illustrations are available here: https://bit.ly/3th8JBF. Finally, we would also like to point out that this work has been granted by national funds, therefore our development is open and does not have any external software dependencies.",
+    "start_datetime": "2022-08-25T07:30:00Z",
+    "end_datetime": "2022-08-25T08:00:00Z",
+    "talk:code": "REQLGD",
+    "talk:guid": "08b40fdf-f4a1-582e-9fe0-ea05f20272c5",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room Hall 3A",
+    "talk:room_capacity": 85,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "38VTGH",
+        "name": "Christophe Muller",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/38VTGH/"
+      },
+      {
+        "code": "BWD9KJ",
+        "name": "St\u00e9phane Gobron",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/BWD9KJ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T07:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/REQLGD/",
+      "title": "Earth Observation DataCubes Multi-visualization Toolbox"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/REQLGD/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/38VTGH/",
+      "title": "Christophe Muller"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/BWD9KJ/",
+      "title": "St\u00e9phane Gobron"
+    },
+    {
+      "rel": "related",
+      "href": "https://bit.ly/3th8JBF",
+      "title": "bit.ly/3th8JBF"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/REQLGD/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

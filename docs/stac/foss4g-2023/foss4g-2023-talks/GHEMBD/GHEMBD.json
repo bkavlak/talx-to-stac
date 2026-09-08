@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "GHEMBD",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Lake bottom DEMs from open data with GDAL and GMT",
+    "description": "Finland is reputed to be the Land of a Thousand Lakes, but a more precise estimate is that Finland has 57000 lakes which are larger than one hectare. The precise shorelines of all the lakes have been available as open data since 2012 but the situation with the bathymetric data is not as good. Depth contours are available for about 80% of the total lake area, but oldest soundings are from the end of the 19th century. Bathymetric data of the lakes has not been considered particularly important and the old measurements have not been systematically updated and verified. Therefore, the most common acquisition method in the existing bathymetric data is still manual measurement with a plumb line through the ice. Because the depth points are frequently 75-100 meters apart, such data are only usable for creating rather approximate depth contours.\r\n\r\nHowever, since mid 1980s the Finnish Environment Agency, the Finnish Transport and Communications Agency Traficom, and their predecessors, have been mapping lake bathymetry with sonar sounding. In recent years these agencies have published their depth point data as open data under the CC-BY 4.0 license. These new datasets are essentially XYZ point clouds. Thanks to open source GIS programs anybody can take these datasets and create digital elevation models (DEM) of the lake bottoms, colored hillshade visualizations, 3D-models, and even traditional depth contours.\r\n\r\nThis presentation will dig into the nature of the data that is collected with sonar soundings and how it affects the selection of the interpolation method. A complete open source workflow that is using GDAL and Generic Mapping Tools (GMT) will be presented. The workflow begins from raw point measurements and lake shoreline vectors, and yields a DEM, hillshade visualization with a color table, and depth contours. Results for more than 1800 Finnish lakes will be available online, but the main outcome is the workflow itself. Because only command line tools which can be scripted and parameterized are used, it is simple to tune the process so that the output will suit different needs.",
+    "start_datetime": "2023-06-30T12:00:00Z",
+    "end_datetime": "2023-06-30T12:30:00Z",
+    "talk:code": "GHEMBD",
+    "talk:guid": "ad7c74e0-3928-54ef-a85b-84f0b7bdf36f",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Open Data",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT D / N112 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "MNER83",
+        "name": "Jukka Rahkonen",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/MNER83/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-30T12:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/GHEMBD/",
+      "title": "Lake bottom DEMs from open data with GDAL and GMT"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/GHEMBD/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/MNER83/",
+      "title": "Jukka Rahkonen"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/GHEMBD/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/7Mtr8mtBjziU9TkuBtomQ6",
+      "type": "text/html",
+      "title": "2023 |  Lake bottom DEMs from open data with GDAL and GMT - Jukka Rahkonen",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=_3rrDsYmvkg",
+      "type": "text/html",
+      "title": "2023 |  Lake bottom DEMs from open data with GDAL and GMT - Jukka Rahkonen",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

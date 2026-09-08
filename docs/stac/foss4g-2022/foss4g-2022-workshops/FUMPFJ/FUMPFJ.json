@@ -1,0 +1,103 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "FUMPFJ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Publish your QGIS project (layers, forms, print layout...) on the internet using Lizmap",
+    "description": "Lizmap is an opensource server application to publish QGIS project (layers, symbology, PDF layouts, forms and dataviz) on the web without any coding skills needed.\r\nIt's using QGIS Server in the backend so users have the same rendering between their\r\nQGIS Desktop and the web version of their project.\n\nLizmap is an opensource server application to publish QGIS project on the web without any coding skills needed.\r\n\r\nIt's using QGIS Server in the backend so users have the same rendering between their\r\nQGIS Desktop and the web version of their project.\r\n\r\nQGIS Server and Lizmap are reading QGIS project to publish layers with their legend, forms, print layout, layer relationships... Some additional Lizmap configuration can be added to have dataviz capabilities, decide or not to publish the attribute table or to configure the feature filter form. No coding skills are required, all the configuration is done using QGIS Desktop user interface.\r\n\r\nFor this workshop, we will provide you the online instance of Lizmap. You only need to have QGIS 3.22 (LTR version highly recommended) and an FTP Client. More detail will be provided later how the workshop will work.\r\n\r\nWe will create a web mapping application from scratch, with layers, editing capabilities with a form. We will display some plots and enable exporting the map as PDF with a custom layout/logo.\r\n\r\nThe project is hosted on GitHub https://github.com/3liz/lizmap-web-client/",
+    "start_datetime": "2022-08-22T07:00:00Z",
+    "end_datetime": "2022-08-22T11:00:00Z",
+    "talk:code": "FUMPFJ",
+    "talk:guid": "e10039ce-625b-5a5d-ae96-5c23b54d1965",
+    "talk:event": "foss4g-2022-workshops",
+    "talk:type": "Long Workshop",
+    "talk:language": "en",
+    "talk:room": "209",
+    "talk:room_capacity": 65,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "AZETG9",
+        "name": "Boisteault Nicolas",
+        "url": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/AZETG9/"
+      },
+      {
+        "code": "LXVPF8",
+        "name": "Etienne TRIMAILLE",
+        "url": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/LXVPF8/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-22T09:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/talk/FUMPFJ/",
+      "title": "Publish your QGIS project (layers, forms, print layout...) on the internet using Lizmap"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/talk/FUMPFJ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/AZETG9/",
+      "title": "Boisteault Nicolas"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/speaker/LXVPF8/",
+      "title": "Etienne TRIMAILLE"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/3liz/lizmap-web-client/",
+      "title": "github.com/3liz/lizmap-web-client"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-workshops/talk/FUMPFJ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-workshops"
+}

@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "DNNRNG",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Building an MCP Server Ecosystem on Japan's National-Scale Geospatial Open Data Platform",
+    "description": "This presentation describes how we connected Japan's national open geospatial data platform to AI agents using the Model Context Protocol \u2014 covering architecture, real-world use cases including infrastructure maintenance, and our vision for AI-ready open spatial infrastructure.\n\nJapan's Ministry of Land, Infrastructure, Transport and Tourism (MLIT) operates the MLIT Data Platform (\u56fd\u571f\u4ea4\u901a\u30c7\u30fc\u30bf\u30d7\u30e9\u30c3\u30c8\u30d5\u30a9\u30fc\u30e0) \u2014 a national-scale open geospatial data platform that aggregates and provides access to hundreds of datasets spanning infrastructure, transportation, land use, facility inventories, BIM/CIM models, and disaster risk information. While the platform has made significant progress in open data accessibility, a new question is taking shape: how do we make this rich spatial dataset ecosystem truly usable by AI agents and large language models?\r\n\r\nThis presentation describes our work designing and implementing an MCP (Model Context Protocol) server ecosystem on top of the MLIT DPF.  MCP, an open standard for connecting AI assistants to data sources and tools, provides a natural bridge between large language models and structured geospatial datasets.  Key datasets exposed as MCP tools include national facility inventories, road and infrastructure asset data, and disaster risk layers.\r\n\r\nKey topics covered include:\r\n- Why MCP for geospatial open data: The motivation behind connecting DPF to AI agents via the Model Context Protocol\r\n- Architecture and design: How DPF's APIs and data catalogue were structured as MCP tool definitions\r\n- Use cases: AI-assisted facility search, infrastructure maintenance support, and cross-dataset summarization\r\n- AI-ready open geospatial ecosystem: Lessons and outlook for national spatial data infrastructures\r\n\r\nOpen geospatial platforms have mastered data access. The next frontier is AI-readiness. This presentation shares what we have built, what we have learned, and what we think comes next.",
+    "start_datetime": "2026-09-02T08:00:00Z",
+    "end_datetime": "2026-09-02T08:30:00Z",
+    "talk:code": "DNNRNG",
+    "talk:guid": "6b94f15d-87af-5d63-a732-d94115c6672f",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room2",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "M8QPL7",
+        "name": "Mami Enomoto",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/M8QPL7/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T08:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/DNNRNG/",
+      "title": "Building an MCP Server Ecosystem on Japan's National-Scale Geospatial Open Data Platform"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/DNNRNG/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/M8QPL7/",
+      "title": "Mami Enomoto"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/DNNRNG/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

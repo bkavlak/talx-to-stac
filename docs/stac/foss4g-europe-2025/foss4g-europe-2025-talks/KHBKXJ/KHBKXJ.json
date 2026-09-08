@@ -1,0 +1,92 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "KHBKXJ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      17.8117,
+      43.3436
+    ]
+  },
+  "bbox": [
+    17.8117,
+    43.3436,
+    17.8117,
+    43.3436
+  ],
+  "properties": {
+    "title": "Closing Ceremony",
+    "description": "Concluding remarks on the conference by the Mostar LOC",
+    "start_datetime": "2025-07-18T15:30:00Z",
+    "end_datetime": "2025-07-18T16:00:00Z",
+    "talk:code": "KHBKXJ",
+    "talk:guid": "34441800-ec9e-5fb6-9575-af99863611d0",
+    "talk:event": "foss4g-europe-2025",
+    "talk:track": "Plenary",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "KOS",
+    "talk:room_capacity": 724,
+    "talk:duration_minutes": 30,
+    "talk:do_not_record": false,
+    "datetime": "2025-07-18T15:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/KHBKXJ/",
+      "title": "Closing Ceremony"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/KHBKXJ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2025/talk/KHBKXJ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "closing-ceremony": {
+      "href": "https://talks.osgeo.org/media/foss4g-europe-2025/submissions/KHBKXJ/resources/FOSS4G2025_closing_ceremony_r4GrY7G.pdf",
+      "type": "application/pdf",
+      "title": "Closing Ceremony",
+      "roles": [
+        "presentation"
+      ]
+    },
+    "slides": {
+      "href": "https://docs.google.com/presentation/d/1EWx4k-gHkJgtvzJ26vxRcX56fKtaFbA08OqdMKIZiwo",
+      "title": "slides",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2025-talks"
+}

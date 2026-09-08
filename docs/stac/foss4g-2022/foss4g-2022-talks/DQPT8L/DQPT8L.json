@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "DQPT8L",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Take-Home Messages from Adding Code Quality Measures to GRASS GIS",
+    "description": "The message is not surprising: You should quality check your code, too, even if you are writing a small script for your own needs! However, maybe you wondered if all the warning messages are relevant to you or got discouraged after getting a flood of messages from tools like Pylint. Perhaps you were even annoyed by it. This talk will help you get motivated and get started and how to automate that with continuous integration tools such as GitHub Actions.\r\n\r\nIn this talk, I will share my experience with adding various code and non-code checks to GRASS GIS which is primarily written in C, C++, and Python. Checking a mixed code base with over 30 years of development is not easy, but not impossible. The talk will cover code quality measures in GRASS GIS such as tests, Pylint, Black, GCC, CodeQL, and Super-Linter and how this compares to my experience with new and small organizational repositories.",
+    "start_datetime": "2022-08-25T08:00:00Z",
+    "end_datetime": "2022-08-25T08:30:00Z",
+    "talk:code": "DQPT8L",
+    "talk:guid": "8399f79c-c694-52ed-a4fc-a3d6c939b3e1",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room Verde",
+    "talk:room_capacity": 230,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "ALRNGU",
+        "name": "Vaclav Petras",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/ALRNGU/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-25T08:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/DQPT8L/",
+      "title": "Take-Home Messages from Adding Code Quality Measures to GRASS GIS"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/DQPT8L/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/ALRNGU/",
+      "title": "Vaclav Petras"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/DQPT8L/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/2C6rNZYJPq5EWzrvp5WaE8",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Take-Home Messages from Adding Code Quality Measures to GRASS GIS",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=9iKcVrqu_zo",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Take-Home Messages from Adding Code Quality Measures to GRASS GIS",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

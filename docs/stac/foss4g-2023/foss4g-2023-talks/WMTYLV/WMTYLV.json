@@ -1,0 +1,119 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "WMTYLV",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "Creating Global Edge-Matched Subnational Boundaries",
+    "description": "FieldMaps.io is a personal initiative originally created to develop offline interactive reference maps for humanitarian actors. However, in short time, it transitioned to helping develop common operational datasets that form the foundation for humanitarian response planning. Over the past 2 years, enormous effort has gone into releasing a high-resolution composite dataset able to be updated daily from multiple sources. This talk will cover 3 aspects of the project.\r\n\r\nAlgorithm\r\n\r\nEdge-matching resolves gaps and overlaps between hundreds of separate national data sources, requiring an algorithm that can perform at global scale. The resulting methodology uses something akin to a euclidean allocation raster applied to vector space, free of the compromises other approaches like generalization and snapping make. If you've ever been challenged by topology or data cleaning, you might find some insights into solving your own problems with the ideas contained here.\r\n\r\nPipeline\r\n\r\nThe edge-matching algorithm involves multiple complex and computationally intensive steps. Although Geopandas and GDAL usually come to mind when building multi-step geoprocessing scripts, PostGIS ended up being the fastest and best scaling tool for transforming gigabytes of vector data. I'll challenge your assumptions of how it can be used to create pipelines on both desktops and in the cloud, and make a case for why you should include it in your next project.\r\n\r\nSources\r\n\r\nA composite dataset is only as good as the foundations it builds upon, and great care was taken in selecting which sources were used in this project. For international boundaries, I'll go into detail about how I used only public domain sources to create an ISO 3166 compliant dataset. At the subnational level, I'll highlight two projects that each curate updated administrative boundaries: one by the United Nations, another by an academic institution.\r\n\r\nWhether you're a remote sensing specialist in search of the best topologically valid boundaries to run zonal statistics with, a Python developer frustrated by your pipelines constantly running into memory limits, or just want to run this tool on your own boundaries, I hope you come away from this talk with a valuable concept you can apply to your own work.\r\n\r\nData: https://fieldmaps.io/data\r\n\r\nTool: https://github.com/fieldmaps/edge-extender",
+    "start_datetime": "2023-06-28T14:00:00Z",
+    "end_datetime": "2023-06-28T14:30:00Z",
+    "talk:code": "WMTYLV",
+    "talk:guid": "25eb3dc2-8686-520f-9591-d687cfc277e3",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Use cases & applications",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT C / N111 - Second Floor",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "3XR7BX",
+        "name": "Maxym Malynowsky",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/3XR7BX/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-28T14:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/WMTYLV/",
+      "title": "Creating Global Edge-Matched Subnational Boundaries"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/WMTYLV/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/3XR7BX/",
+      "title": "Maxym Malynowsky"
+    },
+    {
+      "rel": "related",
+      "href": "https://fieldmaps.io/data",
+      "title": "fieldmaps.io/data"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/fieldmaps/edge-extender",
+      "title": "github.com/fieldmaps/edge-extender"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/WMTYLV/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/t9MaMb6XUd93QkVWo4fQEV",
+      "type": "text/html",
+      "title": "2023 | Creating Global Edge-Matched Subnational Boundaries  - Maxym Malynowsky",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=ILHwdCCD4b4",
+      "type": "text/html",
+      "title": "2023 | Creating Global Edge-Matched Subnational Boundaries  - Maxym Malynowsky",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

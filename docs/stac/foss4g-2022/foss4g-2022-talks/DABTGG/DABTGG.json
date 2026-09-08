@@ -1,0 +1,114 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "DABTGG",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Pangeo Forge: Crowdsourcing Open Data in the Cloud",
+    "description": "Geospatial datacubes--large, complex, interrelated multidimensional arrays with rich metadata--arise in analysis-ready geopspatial imagery, level 3/4 satellite products, and especially in ocean / weather / climate simulations and [re]analyses, where they can reach Petabytes in size. The scientific python community has developed a powerful stack for flexible, high-performance analytics of databcubes in the cloud. Xarray provides a core data model and API for analysis of such multidimensional array data. Combined with Zarr or TileDB for efficient storage in object stores (e.g. S3) and Dask for scaling out compute, these tools allow organizations to deploy analytics and machine learning solutions for both exploratory research and production in any cloud platform. Within the geosciences, the Pangeo open science community has advanced this architecture as the \u201cPangeo platform\u201d (http://pangeo.io/).\r\n\r\nHowever, there is a major barrier preventing the community from easily transitioning to this cloud-native way of working: the difficulty of bringing existing data into the cloud in analysis-ready, cloud-optimized (ARCO) format. Typical workflows for moving data to the cloud currently consist of either bulk transfers of files into object storage (with a major performance penalty on subsequent analytics) or bespoke, case-by-case conversions to cloud optimized formats such as TileDB or Zarr. The high cost of this toil is preventing the scientific community from realizing the full benefits of cloud computing. More generally, the outputs of the toil of preparing scientific data for efficient analysis are rarely shared in an open, collaborative way.\r\n\r\nTo address these challenges, we are building Pangeo Forge ( https://pangeo-forge.org/), the first open-source cloud-native ETL (extract / transform / load) platform focused on multidimensional scientific data. Pangeo Forge consists of two main elements. An open-source python package--pangeo_forge_recipes--makes it simple for users to define \u201crecipes\u201d for extracting many individual files, combining them along arbitrary dimensions, and depositing ARCO datasets into object storage. These recipes can be \u201ccompiled\u201d to run on many different distributed execution engines, including Dask, Prefect, and Apache Beam. The second element of Pangeo Forge is an orchestration backend which integrates tightly with GitHub as a continuous-integration-style service.\r\n\r\nWe are using Pangeo Forge to populate a multi-petabyte-scale shared library of open-access, analysis-ready, cloud-optimized ocean, weather, and climate data spread across a global federation of public cloud storage\u2013not a \u201cdata lake\u201d but a \u201cdata ocean\u201d. Inspired directly by the success of Conda Forge, we aim to leverage the enthusiasm of the open science community to turn data preparation and cleaning from a private chore into a shared, collaborative activity. By only creating ARCO datasets via version-controlled recipe feedstocks (GitHub repos), we also maintain perfect provenance tracking for all data in the library.\r\n\r\nYou will leave this talk with a clear understanding of how to access this data library, craft your own Pangeo Forge recipe, and become a contributor to our growing collection of community-sourced recipes.",
+    "start_datetime": "2022-08-26T08:00:00Z",
+    "end_datetime": "2022-08-26T08:30:00Z",
+    "talk:code": "DABTGG",
+    "talk:guid": "997f5b9b-d20a-5638-818b-1bcf8f381de4",
+    "talk:event": "foss4g-2022",
+    "talk:track": "Open Data",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Room 9",
+    "talk:room_capacity": 50,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "3VB9ZB",
+        "name": "Ryan Abernathey",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/3VB9ZB/"
+      },
+      {
+        "code": "FRH8WZ",
+        "name": "Charles Stern",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/FRH8WZ/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T08:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/DABTGG/",
+      "title": "Pangeo Forge: Crowdsourcing Open Data in the Cloud"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/DABTGG/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/3VB9ZB/",
+      "title": "Ryan Abernathey"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/FRH8WZ/",
+      "title": "Charles Stern"
+    },
+    {
+      "rel": "related",
+      "href": "https://pangeo-forge.org/",
+      "title": "pangeo-forge.org"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/DABTGG/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=jtRFqh8DVgw",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Pangeo Forge: Crowdsourcing Open Data in the Cloud",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

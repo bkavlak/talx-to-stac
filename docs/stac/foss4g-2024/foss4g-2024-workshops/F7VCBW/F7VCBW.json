@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "F7VCBW",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Collaborative mapping of public transportation routes from scratch",
+    "description": "This workshop is designed to teach participants how to digitize public transportation routes using a collaborative approach and open-source tools. Attendees will learn how to organize a mapping event, capture field data using **OSM Tracker**, review and clean the data with **QGIS** and **JOSM**, publish it on OpenStreetMaps, and finally generate a GTFS file. This workshop is aimed at beginners, although basic knowledge of QGIS and an OpenStreetMaps account is recommended.\n\nThe workshop will cover the complete workflow for digitizing public transportation routes:\r\n\r\n**Mapping Organization:** Introduction to the importance of collaborative mapping, strategies for organizing a mapping event, and preparation of the necessary tools and materials.\r\n\r\n**Field Mapping:** Custom configuration and use of OSM Tracker to capture public transportation route data and other relevant information, with a focus on best practices for data collection in the field.\r\n\r\nNote: It's possible to use alternatives to OSM Tracker, but we'll demonstrate this specific app. Any app that creates GPX can be used.\r\n\r\n**Data Review and Cleaning:** Importing and reviewing captured data in QGIS, followed by a data cleaning and standardization process using JOSM.\r\n\r\n**GTFS Generation:** Creation of a GTFS (General Transit Feed Specification) file from the standardized data, ready to be used in transportation planning applications.\r\n\r\nThis workshop will enable participants to acquire practical skills and essential tools to contribute to collaborative mapping projects and improve the quality of public transportation data in their community.\r\n\r\n## Requirements\r\n\r\nThis workshop requires participants to have the mentioned tools installed:\r\n- OSM account\r\n- OSM Tracker (Android)\r\n- JOSM",
+    "start_datetime": "2024-12-02T12:00:00Z",
+    "end_datetime": "2024-12-02T16:00:00Z",
+    "talk:code": "F7VCBW",
+    "talk:guid": "1071762f-6fba-51e5-b67f-73b09a96cada",
+    "talk:event": "foss4g-2024-workshop",
+    "talk:type": "Workshop",
+    "talk:language": "en",
+    "talk:room": "Room Guajar\u00e1 (C Block)",
+    "talk:room_capacity": 35,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "KWKECR",
+        "name": "Oscar Hernandez",
+        "url": "https://talks.osgeo.org/foss4g-2024-workshop/speaker/KWKECR/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-02T14:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/talk/F7VCBW/",
+      "title": "Collaborative mapping of public transportation routes from scratch"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/talk/F7VCBW/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/speaker/KWKECR/",
+      "title": "Oscar Hernandez"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/talk/F7VCBW/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-workshops"
+}

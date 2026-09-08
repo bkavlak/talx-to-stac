@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "XWZYTY",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Towards Automated Map JSON Style  from Spatial Vector Data Using MCP",
+    "description": "Geographic Information System (GIS) data is inherently multidimensional, encompassing spatial extent, temporal dynamics, and diverse attributes. Understanding and presenting this complex data through cartographic visualization requires both comprehensive geospatial knowledge and sophisticated map design skills. However, a significant portion of geographic platform users\u2014including web developers, data analysts, and professionals without formal cartography training\u2014frequently encounter substantial challenges throughout the map visualization workflow. These difficulties span from initial data interpretation and selection of appropriate visualization methods to the configuration of critical cartographic elements such as color schemes, symbol sizes, opacity levels, and overall compositional layout.\r\n\r\nIn contemporary web mapping systems, data visualization is predominantly controlled through Map Style JSON, a structured format that governs data rendering in mapping libraries such as MapLibre GL JS, which operates according to the MapLibre Style Specification standard. While this specification is open and highly flexible, creating appropriate styles from actual datasets remains a task demanding both technical expertise and design experience. Consequently, many users invest considerable time manually experimenting with style adjustments, often through trial and error, which can be both frustrating and inefficient.\r\n\r\nThis presentation proposes an innovative approach to simplifying the map design process through the development of a Model Context Protocol (MCP) for automated Map Style JSON generation from users' spatial vector data. This data can be sourced through database connections or API service integrations. The fundamental concept underlying MCP is the creation of a \"context layer\" that enables language models to systematically understand the structure and semantic meaning of GIS data before applying this understanding to map style generation.\r\n\r\nThe proposed architecture integrates MCP with open-source Large Language Models (LLMs) capable of operating locally through Ollama. The system analyzes users' spatial data characteristics, including geometry types, attribute structure, and data distribution patterns. Subsequently, it automatically generates MapLibre-compliant Map Style JSON that can be immediately deployed in web mapping applications. This local processing capability addresses both performance and data privacy concerns that often arise with cloud-based solutions.\r\n\r\nThe distinctive advantage of this approach lies in how MCP extends beyond merely ensuring structurally correct JSON generation. The protocol fundamentally incorporates cartographic design principles based on the \"Perceptual Properties of Linear and Spatial Systems\" into the decision-making process. This integration manifests in several critical ways: the selection of color schemes aligned with data semantics, the assignment of appropriate symbols corresponding to geometry types, and the strategic application of color tones and opacity levels to enhance user perception and readability. The system also accommodates datasets with multiple classification classes and leverages modern color palettes to ensure that spatial data visualization achieves both clarity and accessibility.\r\n\r\nThe technical implementation combines several key components working in concert. First, the MCP server acts as an intermediary layer that processes incoming spatial data, extracting relevant metadata and structural information. This includes analyzing coordinate reference systems, identifying attribute data types, detecting statistical distributions, and recognizing spatial patterns that inform styling decisions.\r\n\r\nThe language model component, running locally through Ollama, receives this contextualized information and applies learned cartographic principles to generate appropriate styling rules. The model has been trained to understand the relationships between data characteristics and visual representation best practices. For instance, when encountering categorical data with distinct classes, the system automatically selects qualitatively different colors that maximize perceptual distinction. For continuous numerical data, it applies sequential or diverging color schemes appropriate to the data's semantic meaning.\r\n\r\nThe generated Map Style JSON adheres strictly to MapLibre specifications, ensuring immediate compatibility with MapLibre GL JS and other compliant rendering engines. The output includes properly structured layers, sources, paint properties, and layout configurations that reflect both the data's inherent characteristics and established cartographic conventions.\r\n\r\nA critical innovation of this approach involves embedding cartographic design expertise directly into the generation process. Traditional automated styling systems often produce technically correct but cartographically naive outputs. This MCP-based system incorporates several levels of design intelligence:\r\n\r\nPerceptual hierarchy: The system understands which data elements should be visually prominent and adjusts styling properties accordingly, considering factors such as feature importance, scale-dependent visibility, and visual contrast.\r\n\r\nColor theory application: Beyond simple color assignment, the system applies principles of color harmony, considers color blindness accessibility, and ensures adequate contrast ratios for legibility across different display conditions.\r\n\r\nSymbolic representation : The selection of point symbols, line patterns, and fill styles reflects both the semantic meaning of the data and established cartographic conventions, making maps intuitively interpretable even for non-expert users.\r\n\r\nScale responsiveness: Generated styles include appropriate zoom-level dependencies, ensuring that map elements appear at suitable scales and with appropriate levels of detail.\r\n\r\nThe objectives of this presentation extend beyond merely demonstrating automated Map Style JSON generation. Fundamentally, this approach democratizes quality map production, enabling individuals without GIS backgrounds to create professional-quality cartographic visualizations. This democratization has significant implications for data journalism, civic participation, educational applications, and small organizations that lack dedicated GIS expertise.\r\n\r\nFurthermore, the utilization of open-source models and architecture capable of local execution through Ollama aligns perfectly with the principles of the Open Geospatial Ecosystem. This approach ensures data sovereignty, eliminates dependency on proprietary cloud services, and facilitates integration with other open-source tools prevalent in the geospatial community. The system can be extended and customized by users, fostering innovation and adaptation to specific domain requirements.\r\n\r\nThe protocol-based architecture also enables future enhancements and integrations. As language models continue to evolve, the MCP layer provides a stable interface that can leverage improved capabilities without requiring fundamental system redesign. Additionally, the approach can be extended to incorporate user feedback, learning from styling preferences and iteratively improving recommendations.\r\n\r\nIn this presentation, our goal is not only to automatically generate Map Style JSON from your data but, more importantly, to empower individuals without GIS expertise to create high-quality map visualizations with ease. Additionally, by utilizing an open model and architecture that can operate on users' devices via Ollama, we align with the principles of an open geospatial ecosystem and enable integration with other open-source tools within the community.",
+    "start_datetime": "2026-09-02T02:00:00Z",
+    "end_datetime": "2026-09-02T02:30:00Z",
+    "talk:code": "XWZYTY",
+    "talk:guid": "95a23204-7da4-5488-8672-7735458248df",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos2",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "FTERWY",
+        "name": "Arissara Sompita",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/FTERWY/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T02:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/XWZYTY/",
+      "title": "Towards Automated Map JSON Style  from Spatial Vector Data Using MCP"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/XWZYTY/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/FTERWY/",
+      "title": "Arissara Sompita"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/XWZYTY/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

@@ -1,0 +1,106 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "TNYSY9",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      -48.5039,
+      -1.4558
+    ]
+  },
+  "bbox": [
+    -48.5039,
+    -1.4558,
+    -48.5039,
+    -1.4558
+  ],
+  "properties": {
+    "title": "Deep Dive into Cloud-Native Geospatial Raster Formats",
+    "description": "Ever wonder what GDAL is doing under the hood when you read a GeoTIFF file? Doubly so when the file is a Cloud-optimized GeoTIFF (COG) on a remote server somewhere? Have you been wondering what this new GeoZarr thing is all about and how it actually works? Then there's the whole Kerchunk/VirtualiZarr indexing to get cloud-native access for non-cloud-native data formats, what's that about?\r\n\r\nCloud-native geospatial is all the rage these days, and for good reason. As file sizes grow, layer counts increase, and analytical methods become more complex, the traditional download-to-the-desktop approach is quickly becoming untenable for many applications. It's no surprise then that users are turning to cloud-based tools such as Dask to scale out their analyses, or that traditional tooling is adopting new ways of finding and accessing data from cloud-based sources. But as we transition away from opening whole files to now grabbing ranges of bytes off remote servers it seems all the more important to understand exactly how cloud native data formats actually store data and what tools are doing to access it.\r\n\r\nThis workshop aims to dig into how cloud-native geospatial data formats are enabling new operational paradigms, with a particular focus on raster data formats. We'll start on the surface by surveying the current cloud-native geospatial landscape to gain an understanding of why cloud native is important and how it is being used, including:\r\n\r\n* the core tenets of cloud-native geospatial formats\r\n* cloud-native data formats for both raster and non-raster geospatial data\r\n* SpatioTemporal Asset Catalogs (STAC) and how STAC is used for raster data discovery and access\r\n* high-level tooling like odc-stac that can leverage STAC and Dask to scale processing of cloud-native data\r\n\r\nThen we'll get hands-on and go deep to build up an in-depth understanding of how cloud native raster formats work. We'll examine the COG format and read a COG from a cloud source by hand using just Python, selectively extracting data from the image without any geospatial dependencies. We'll repeat the same exercise for geospatial data in Zarr format to see how that compares to our experience with COGs. Lastly we'll turn our attention to Kerchunk/VirtualiZarr to see how these technologies might allow us to optimize data access for non-cloud-native formats.\n\nThis workshop will be presented via a combination of lecture and hands-on code notebooks.\r\n\r\n[Slides can be accessed here](https://docs.google.com/presentation/d/1qFckA0prY604I4dMkQlF1ZM-QSKS2ou4-YttgGQHzOU/). Notebooks and environment setup instructions can be found in the GitHub repo [jkeifer/cng-raster-formats](https://github.com/jkeifer/cng-raster-formats).\r\n\r\nAll participants please try to get an environment running and ready to go prior to the workshop so we can have more time for content. There's a lot to cover in a relatively short time. Thank you!",
+    "start_datetime": "2024-12-03T12:00:00Z",
+    "end_datetime": "2024-12-03T16:00:00Z",
+    "talk:code": "TNYSY9",
+    "talk:guid": "7b51d0f8-ddef-5ac6-8354-c338aeccf345",
+    "talk:event": "foss4g-2024-workshop",
+    "talk:type": "Workshop",
+    "talk:language": "en",
+    "talk:room": "Room Ilha de Maraj\u00f3 (E Block)",
+    "talk:room_capacity": 35,
+    "talk:duration_minutes": 240,
+    "talk:speakers": [
+      {
+        "code": "8TAMEN",
+        "name": "Jarrett Keifer",
+        "url": "https://talks.osgeo.org/foss4g-2024-workshop/speaker/8TAMEN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2024-12-03T14:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/talk/TNYSY9/",
+      "title": "Deep Dive into Cloud-Native Geospatial Raster Formats"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/talk/TNYSY9/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/speaker/8TAMEN/",
+      "title": "Jarrett Keifer"
+    },
+    {
+      "rel": "related",
+      "href": "https://docs.google.com/presentation/d/1qFckA0prY604I4dMkQlF1ZM-QSKS2ou4-YttgGQHzOU/",
+      "title": "Slides can be accessed here"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/jkeifer/cng-raster-formats",
+      "title": "jkeifer/cng-raster-formats"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Workshops"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2024-workshop/talk/TNYSY9/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "slides": {
+      "href": "https://talks.osgeo.org/media/foss4g-2024-workshop/submissions/TNYSY9/resources/FOSS4G_2024_-_Deep_Dive_into_Cloud-Nat_3VLHJsS.pdf",
+      "type": "application/pdf",
+      "title": "Slides",
+      "roles": [
+        "presentation"
+      ]
+    }
+  },
+  "collection": "foss4g-2024-workshops"
+}

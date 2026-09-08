@@ -1,0 +1,93 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "L3TESQ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Exploring jittering and routing options for converting origin-destination data into route networks: towards accurate estimates of movement at the street level",
+    "description": "Introduction\r\n\r\nOrigin-destination (OD) datasets provide information on aggregate travel patterns between zones and geographic entities. OD datasets are \u2018implicitly geographic\u2019, containing identification codes of the geographic objects from which trips start and end. A common approach to converting OD datasets to geographic entities, for example represented using the simple features standard (Open Geospatial Consortium Inc 2011) and saved in file formats such as GeoPackage and GeoJSON, is to represent each OD record as a straight line between zone centroids. This approach to representing OD datasets on the map has been since at least the 1950s (Boyce and Williams 2015) and is still in use today (e.g. Rae 2009).\r\n\r\nBeyond simply visualising aggregate travel patterns, centroid-based geographic desire lines are also used as the basis of many transport modelling processes. The following steps can be used to convert OD datasets into route networks, in a process that can generate nationally scalable results (Morgan and Lovelace 2020):\r\n\r\n    OD data converted into centroid-based geographic desire lines\r\n    Calculation of routes for each desire line, with start and end points at zone centroids\r\n    Aggregation of routes into route networks, with values on each segment representing the total amount of travel (\u2018flow\u2019) on that part of the network, using functions such as overline() in the open source R package stplanr (Lovelace and Ellison 2018)\r\n\r\nThis approach is tried and tested. The OD -> desire line -> route -> route network processing pipeline forms the basis of the route network results in the Propensity to Cycle Tool, an open source and publicly available map-based web application for informing strategic cycle network investment, \u2018visioning\u2019 and prioritisation (Lovelace et al. 2017; Goodman et al. 2019). However, the approach has some key limitations:\r\n\r\n    Flows are concentrated on transport network segments leading to zone centroids, creating distortions in the results and preventing the simulation of the diffuse networks that are particularly important for walking and cycling\r\n    The results are highly dependent on the size and shape of geographic zones used to define OD data\r\n    The approach is inflexible, providing few options to people who want to use valuable OD datasets in different ways\r\n\r\nTo overcome these limitations we developed a \u2018jittering\u2019 approach to conversion of OD datasets to desire lines that randomly samples points within each zone (Lovelace, F\u00e9lix, and Carlino Under Review). While that paper discussed the conceptual development of the approach, it omitted key details on its implementation in open source software.\r\n\r\nIn this paper we outline the implementation of jittering and demonstrate how a single Rust crate can provide the basis of implementations in other languages. Furthermore, we demonstrate how jittering can be used to create more diffuse and accurate estimates of movement at the level of segments (\u2018flows\u2019) on transport network, in reproducible code-driven workflows and with minimal computational overheads compared with the computationally intensive process of route calculation (\u2018routing\u2019) or processing large GPS datasets. The overall aim is to describe the jittering approach in technical terms and its implementation in open source software.\r\n\r\nBefore describing the approach, some definitions are in order:\r\n\r\n    Origins: locations of trip departure, typically stored as ID codes linking to zones\r\n    Destinations: trip destinations, also stored as ID codes linking to zones\r\n    Attributes: the number of trips made between each \u2018OD pair\u2019 and additional attributes such as route distance between each OD pair\r\n    Jittering: The combined process of \u2018splitting\u2019 OD pairs representing many trips into multiple \u2018sub OD\u2019 pairs (disaggregation) and assigning origins and destinations to multiple unique points within each zone\r\n\r\nApproach\r\n\r\nJittering represents a comparatively simple \u2014 compared with \u2018connector\u2019 based methods (Jafari et al. 2015) \u2014 approach is to OD data preprocessing. For each OD pair, the jittering approach consists of the following steps for each OD pair (provided it has required inputs of a disaggregation threshold, a single number greater than one, and sub-points from which origin and destination points are located):\r\n\r\n    Checks if the number of trips (for a given \u2018disaggregation key\u2019, e.g. \u2018walking\u2019) is greater than the disaggregation threshold.\r\n    If so, the OD pair is disaggregated. This means being divided into as many pieces (\u2018sub-OD pairs\u2019) as is needed, with trip counts divided by the number of sub-OD pairs, for the total to be below the disaggregation threshold.\r\n    For each sub-OD pair (or each original OD pair if no disaggregation took place) origin and destination locations are randomly sampled from sub-points which optionally have weights representing relative probability of trips starting and ending there.\r\n\r\nThis approach has been implemented efficiently in the Rust crate odjitter, the source code of which can be found at https://github.com/dabreegster/odjitter.\r\nResults\r\n\r\nWe have found that jittering leads to more spatially diffuse representations of OD datasets than the common approach to desire lines that go from and to zone centroids. We have used the approach to add value to numerous OD datasets for projects based in Ireland, Norway, Portugal, New Zealand and beyond. Although useful for visualising the complex and spatially diffuse reality of travel patterns, we found that the most valuable use of jittering is as a pre-processing stage before routing and route network generation. Route networks generated from jittered desire lines are more diffuse, and potentially more realistic, that centroid-based desire lines.\r\n\r\nWe also found that the approach, implemented in Rust and with bindings to R and Python (in progress), is fast. Benchmarks show that the approach can \u2018jitter\u2019 desire lines representing millions of trips in a major city in less than a minute on consumer hardware.\r\n\r\nWe also found that the results of jittering depend on the geographic input datasets representing start points and trip attractors, and the use of weights. This highlights the importance of exploring the parameter space for optimal jittered desire line creation.\r\nNext steps\r\n\r\nWe plan to create/improve R/Python interfaces to the odjitter and enable others to benefit from it.\r\n\r\nWe plan to improve the package\u2019s documentation and to test its results, supporting reproducible sustainable transport research worldwide.",
+    "start_datetime": "2022-08-26T08:00:00Z",
+    "end_datetime": "2022-08-26T08:30:00Z",
+    "talk:code": "L3TESQ",
+    "talk:guid": "9227c9ee-d7b6-5243-977d-4982efcaa60b",
+    "talk:event": "foss4g-2022-academic-track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "Room Hall 3A",
+    "talk:room_capacity": 85,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "VXANX9",
+        "name": "Robin Lovelace",
+        "url": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/VXANX9/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-26T08:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/L3TESQ/",
+      "title": "Exploring jittering and routing options for converting origin-destination data into route networks: towards accurate estimates of movement at the street level"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/L3TESQ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/speaker/VXANX9/",
+      "title": "Robin Lovelace"
+    },
+    {
+      "rel": "related",
+      "href": "https://github.com/dabreegster/odjitter",
+      "title": "github.com/dabreegster/odjitter"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Academic"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022-academic-track/talk/L3TESQ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-academic"
+}

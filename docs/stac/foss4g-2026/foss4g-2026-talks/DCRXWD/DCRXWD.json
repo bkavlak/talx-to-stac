@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "DCRXWD",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "An Open Geospatial Framework for Proximity-Based Community Planning:\u2028Integrating Mobility-Based Community Detection, Multimodal Accessibility, and Facility Allocation Optimization",
+    "description": "Proximity-based community planning has emerged as an important approach for improving urban livability by ensuring that essential services are accessible within short travel distances. Rather than relying solely on administrative boundaries, this planning approach focuses on the spatial organization of everyday urban activities and the accessibility of key services such as healthcare, education, retail, and public facilities. \r\n\r\nHowever, operationalizing proximity-based planning requires analytical frameworks capable of integrating large-scale mobility data, accessibility modelling, and spatial optimization. In many cities, these analytical components remain fragmented across different tools and datasets, making it difficult to develop reproducible and scalable workflows for urban analysis. At the same time, recent advances in open geospatial technologies provide new opportunities to build transparent, interoperable, and reproducible analytical systems that support data-driven planning practices.\r\n\r\nThis research proposes an open geospatial analytical framework for proximity-based community planning that integrates mobility data, open-source geospatial software, and spatial optimization techniques into a unified and reproducible analytical workflow. The framework is designed to support two key planning tasks: \r\n\r\nthe identification of functional urban communities based on observed mobility patterns, and the evaluation of spatial strategies for improving equitable access to essential urban services. \r\n\r\nBy combining multiple open geospatial technologies, the proposed framework aims to provide a flexible analytical approach that can be applied across different urban contexts while maintaining transparency and reproducibility.\r\n\r\nThe analytical framework consists of three core components that correspond to different stages of proximity-based planning analysis.\r\n\r\nThe first component focuses on the delineation of functional urban communities using mobility-based community detection. Large-scale telecom mobility data are used to construct origin\u2013destination interaction networks between spatial units, represented as a grid-based spatial system. These mobility networks capture aggregated daily travel patterns between locations and provide a behavioral representation of urban spatial structure. Community detection algorithms from network science are applied to these networks in order to identify clusters of spatial interaction that represent functional communities emerging from mobility patterns. Unlike traditional planning units that rely on administrative boundaries, these mobility-derived communities reflect actual patterns of urban activity and interaction. As a result, the framework allows planners to identify spatial units that function as integrated communities in terms of daily mobility and service access.\r\n\r\nThe second component performs multimodal accessibility analysis at a high spatial resolution using open geospatial routing tools. Accessibility is calculated on a 250 m grid by combining telecom-derived origin\u2013destination mobility flows with network-based travel times. Road-based accessibility is estimated using open routing engines such as OSRM, which compute travel distances and travel times along road networks derived from open geospatial data sources. In addition, public transport accessibility is computed using the R5 routing engine through the r5py Python interface. The R5 engine enables multimodal routing that integrates pedestrian networks, road networks, and public transport schedules derived from GTFS data. This approach allows the framework to calculate multimodal travel times across different transport modes, including walking, road-based transport, and public transit. The use of R5 and r5py also supports efficient computation of accessibility metrics for large-scale urban datasets, enabling the evaluation of accessibility patterns at a fine spatial resolution. By integrating multiple travel modes, the framework provides a more realistic representation of accessibility conditions in dense urban environments where public transport plays a significant role in daily mobility.\r\n\r\nThe third component incorporates facility allocation models based on linear programming in order to optimize the spatial distribution of urban services. The optimization model uses accessibility indicators derived from the multimodal analysis to evaluate potential service locations and allocation strategies. The objective function simultaneously considers equity and economic efficiency in service provision, allowing the model to identify spatial configurations that improve service accessibility while minimizing spatial inequality and redundant infrastructure investment. The allocation model can therefore support planning decisions related to the placement of public facilities, community services, and other urban amenities that are critical for proximity-based community planning.\r\n\r\nA key contribution of this study lies in the integration of multiple open geospatial tools into a unified analytical workflow. Rather than introducing a single standalone software package, the framework combines several existing open-source geospatial technologies, including Python-based network analysis libraries, open routing engines, and geospatial data processing tools. This integration demonstrates how different open geospatial components can be combined to support complex urban analytics tasks. Furthermore, the computational workflow is designed to support reproducible research practices by documenting analytical steps and enabling the release of scripts, models, and computational procedures under open-source principles. Such reproducibility is essential for ensuring transparency and enabling other researchers and practitioners to replicate and extend the analytical framework.\r\n\r\nThe framework is demonstrated through an empirical case study in Busan, South Korea, where telecom mobility data are used to analyze community structures and evaluate alternative service distribution scenarios. The case study illustrates how mobility-derived communities differ significantly from conventional administrative planning units and provide a more realistic representation of urban spatial interaction. The integration of multimodal accessibility analysis and spatial optimization further allows planners to examine how alternative facility configurations influence accessibility outcomes across the urban population. These results highlight the potential of combining open geospatial technologies with mobility data to support evidence-based urban planning.\r\n\r\nThis study contributes to the open geospatial research community in several ways. \r\n\r\nFirst, it demonstrates how open geospatial technologies can support integrated urban analytics workflows for community-level planning. \r\n\r\nSecond, it connects methods from network science, multimodal accessibility modelling, and spatial optimization within a reproducible open-source analytical framework. \r\n\r\nThird, it highlights how open geospatial ecosystems enable transparent and collaborative approaches to urban analysis and planning. \r\n\r\nBy presenting a reproducible analytical framework for proximity-based community planning built on open geospatial technologies, this research contributes to ongoing efforts within the FOSS4G community to advance open, scalable, and collaborative geospatial solutions for sustainable urban development.",
+    "start_datetime": "2026-09-01T05:30:00Z",
+    "end_datetime": "2026-09-01T06:00:00Z",
+    "talk:code": "DCRXWD",
+    "talk:guid": "cdb32d0c-9f43-551b-b13b-3d1c8f458808",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Academic Track",
+    "talk:type": "Academic",
+    "talk:language": "en",
+    "talk:room": "Cosmos1",
+    "talk:room_capacity": 75,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "788KCX",
+        "name": "Junyoung CHOI",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/788KCX/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-01T05:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/DCRXWD/",
+      "title": "An Open Geospatial Framework for Proximity-Based Community Planning:\u2028Integrating Mobility-Based Community Detection, Multimodal Accessibility, and Facility Allocation Optimization"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/DCRXWD/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/788KCX/",
+      "title": "Junyoung CHOI"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/DCRXWD/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

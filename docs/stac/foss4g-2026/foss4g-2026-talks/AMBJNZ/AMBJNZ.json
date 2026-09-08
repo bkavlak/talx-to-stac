@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "AMBJNZ",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Tokyo Last Train Map: Visualizing \"When You Can't Get Home\" with Open Data from 17 Rail Operators",
+    "description": "An interactive web application that visualizes Tokyo's last train network fading away over time in a firework-like radial display. It combines public transit open data (ODPT) from 17 rail operators to show when and where you can no longer catch the last train home.\n\nTokyo's rail network is among the most dense and complex in the world, yet it shuts down every night. The \"last train\" is a daily constraint for anyone living in Tokyo, but figuring out the exact moment you can no longer get home \u2014 considering transfers across multiple operators and lines \u2014 is far from straightforward.\r\n\r\nThe Tokyo Last Train Map visualizes this phenomenon through an interactive web application where the last train network gradually disappears over time, rendered in a firework-like radial display. The project originated in 2018 as a static infographic that went viral on social media, and was rebuilt in 2025 as a fully interactive version.\r\n\r\nThe data source is GTFS-format open data provided by the Public Transportation Open Data Center (ODPT). It integrates timetable data from 17 rail operators in the Tokyo metropolitan area, including cross-operator transfer routing. The frontend is built entirely with SVG and JavaScript \u2014 no external mapping libraries \u2014 as a custom interactive visualization.\r\n\r\nThe project received a Judges' Special Award at the Public Transportation Open Data Challenge organized by ODPT.\r\n\r\nThis lightning talk will introduce the uniquely Japanese urban transit culture of the \"last train\" while demonstrating how combining open data from multiple sources can produce both practical and visually compelling results.",
+    "start_datetime": "2026-09-02T04:20:00Z",
+    "end_datetime": "2026-09-02T04:25:00Z",
+    "talk:code": "AMBJNZ",
+    "talk:guid": "003344f3-96d5-589b-9653-4863c77528bd",
+    "talk:event": "foss4g-2026",
+    "talk:track": "Lightning Talk",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Ran1",
+    "talk:room_capacity": 60,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "CL3VPF",
+        "name": "Hajime Kato",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/CL3VPF/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T04:22:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/AMBJNZ/",
+      "title": "Tokyo Last Train Map: Visualizing \"When You Can't Get Home\" with Open Data from 17 Rail Operators"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/AMBJNZ/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/CL3VPF/",
+      "title": "Hajime Kato"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/AMBJNZ/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

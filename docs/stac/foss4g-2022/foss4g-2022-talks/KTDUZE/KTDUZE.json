@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "KTDUZE",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      11.2558,
+      43.7696
+    ]
+  },
+  "bbox": [
+    11.2558,
+    43.7696,
+    11.2558,
+    43.7696
+  ],
+  "properties": {
+    "title": "Realtime multi-user mapping with MUDraw",
+    "description": "Mapping is a private operations. It is done with several different local tools and usually by one person at a time. Yet we are used to have realtime multiuser editing of spreadsheets, documents and presentations. MUDraw tries to define a protocol to enable multiuser editing of features on a map and make it available as a library for both Leaflet as well as Maplibre (and enabling cross-library data editing) in order to make map editing a group activity. It relies on the client(s) and a server part written in Python/FastAPI that can be used independently from the infrastructure in which the communication is used and can set up a persistence layer taht is connected directly to github or other storage facilities.The idea of this tool is to be able to integrate it into UMap in order to make it  a more fun to use tool, but also in a longer perspective, part of the Public History Toolkit OpenHistoryMap is developing.",
+    "start_datetime": "2022-08-24T15:30:00Z",
+    "end_datetime": "2022-08-24T15:35:00Z",
+    "talk:code": "KTDUZE",
+    "talk:guid": "1c4f8db7-d688-586f-b435-ba61c0eafee0",
+    "talk:event": "foss4g-2022",
+    "talk:track": "State of software",
+    "talk:type": "Lightning talk",
+    "talk:language": "en",
+    "talk:room": "Room Limonaia",
+    "talk:room_capacity": 110,
+    "talk:duration_minutes": 5,
+    "talk:speakers": [
+      {
+        "code": "UVUZLD",
+        "name": "Marco Montanari",
+        "url": "https://talks.osgeo.org/foss4g-2022/speaker/UVUZLD/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2022-08-24T15:32:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/KTDUZE/",
+      "title": "Realtime multi-user mapping with MUDraw"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/KTDUZE/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2022/speaker/UVUZLD/",
+      "title": "Marco Montanari"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2022/talk/KTDUZE/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/qD3JsyTrvP8Ktpu8J1TDSe",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Realtime multi-user mapping with MUDraw",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=I0G8OdTqxKY",
+      "type": "text/html",
+      "title": "FOSS4G 2022 | Realtime multi-user mapping with MUDraw",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2022-talks"
+}

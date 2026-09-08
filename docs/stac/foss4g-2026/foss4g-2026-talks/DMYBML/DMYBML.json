@@ -1,0 +1,88 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "DMYBML",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      132.4553,
+      34.3853
+    ]
+  },
+  "bbox": [
+    132.4553,
+    34.3853,
+    132.4553,
+    34.3853
+  ],
+  "properties": {
+    "title": "Maplibreum: like Folium - but based on Maplibre",
+    "description": "Maplibreum: framework that makes the creation of web maps quite easy in a Python environment, making it well suited for interactive tools. Similar to Folium, but using the ever-growing MapLibre instead of Leaflet. I will present my motivations and the development of this new contribution to the FOSS4G community!\n\nAs a cartographer, I began my career already in the digital era, and I have always been fascinated by beautiful web maps and their power to reveal data insights that go far beyond traditional paper-based cartography. Naturally, I became interested in creating my own.\r\n\r\nMy first attempt was with the qgis2web plugin, which introduced me to Leaflet and OpenLayers. I quickly realized that if I truly wanted to go beyond templates, I would need to learn how to code it. Although I had some programming experience, I considered myself \u2014 and still consider  \u2014 an average developer. JavaScript felt intimidating at the time (this was the pre-AI era, when Stack Overflow was the primary lifeline).\r\n\r\nDuring that period, Jupyter Notebooks and Google Colab were becoming very popular, and that\u2019s when I discovered Folium. It was love at first sight. With just three lines of Python code, I could generate a full-fledged HTML file containing all the JavaScript, CSS, and markup that previously felt so foreign to me.\r\n\r\nFrom there, I started exploring the colorful world of interactive features: clickable tooltips with charts, hover highlighting, search bars \u2014 the full package. I built my first prototype for a project called OpenSidewalkMap, which focused on sidewalk geometries. I began with a small dataset \u2014 just eight street blocks \u2014 and it looked absolutely beautiful.\r\n\r\nBut who wants only eight blocks when you could map an entire city?\r\n\r\nThat\u2019s when I learned about scaling. To handle large datasets efficiently, you need tiles \u2014 vector tiles, specifically. And that\u2019s when the tiling nightmare began. Leaflet is fantastic, but vector tiles are not exactly its strongest feature. I experimented with several adaptations, none of them fully satisfying.\r\n\r\nBy that point, I had already heard about MapLibre and its highly optimized rendering engine. I also discovered the relatively new PMTiles format, which fit perfectly with many of my projects and integrates seamlessly with MapLibre. So I migrated.\r\n\r\nToday, I write MapLibre code \"directly\". But what about the \u201cold Kaue,\u201d who just wanted to create a web map with three lines of Python?\r\n\r\nThat question led to MapLibreum.\r\n\r\nWell \u2014 not exactly me alone. If you look at the official Folium repository, you\u2019ll see more than 160 contributors. Building something similar as a solo developer would be unrealistic. So I took a different path: I used AI agents to help me do the work.\r\n\r\nWhat started as pure curiosity \u2014 a side project I would never otherwise have had time to pursue \u2014 evolved into an important laboratory for learning how to effectively use AI agents in large, real-world projects.\r\n\r\nAnd in our presentation, I\u2019ll tell you all about it.",
+    "start_datetime": "2026-09-02T07:00:00Z",
+    "end_datetime": "2026-09-02T07:30:00Z",
+    "talk:code": "DMYBML",
+    "talk:guid": "26d14e3d-5269-564c-88fb-d9a951dd1f67",
+    "talk:event": "foss4g-2026",
+    "talk:type": "General session talk",
+    "talk:language": "en",
+    "talk:room": "Dahlia1",
+    "talk:room_capacity": 140,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "LA3NZT",
+        "name": "Kau\u00ea de Moraes Vestena",
+        "url": "https://talks.osgeo.org/foss4g-2026/speaker/LA3NZT/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-09-02T07:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/DMYBML/",
+      "title": "Maplibreum: like Folium - but based on Maplibre"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/DMYBML/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2026/speaker/LA3NZT/",
+      "title": "Kau\u00ea de Moraes Vestena"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2026/talk/DMYBML/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2026-talks"
+}

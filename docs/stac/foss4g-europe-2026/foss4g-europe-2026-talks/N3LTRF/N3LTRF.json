@@ -1,0 +1,95 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "N3LTRF",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      21.2087,
+      45.7489
+    ]
+  },
+  "bbox": [
+    21.2087,
+    45.7489,
+    21.2087,
+    45.7489
+  ],
+  "properties": {
+    "title": "Design and Implementation of a Metropolitan Spatial Data Infrastructure: The TML Case Study",
+    "description": "Transportes Metropolitanos de Lisboa (TML) coordinates public transport across 18 municipalities in the Lisbon Metropolitan Area, operating within a complex multi-level governance framework. While municipalities retain significant responsibilities in land use planning and urban management, mobility planning requires strong metropolitan coordination. Over time, geospatial data related to transport networks, land use, infrastructure, and mobility services became fragmented across institutions, stored in heterogeneous formats, and managed with limited interoperability.\r\nThis fragmentation created operational inefficiencies, limited strategic planning capacity, and constrained data-driven decision-making at the metropolitan scale. The absence of a structured and interoperable Spatial Data Infrastructure (SDI) became a critical barrier to effective governance.\r\n\r\nTo address this challenge, TML designed and implemented a fully open-source SDI aimed at harmonising datasets, ensuring institutional interoperability, and supporting long-term metropolitan mobility governance.\r\n\r\nThe infrastructure is built around PostgreSQL/PostGIS as the central geodatabase, providing a scalable and structured environment for spatial data modelling. QGIS is used as the primary platform for data management, validation, and cartographic production, enabling controlled access and collaborative workflows. A role-based permission architecture was implemented to support multi-entity collaboration while ensuring data integrity and governance control.\r\n\r\nInteroperability is ensured through REST-based services, allowing integration with municipal systems and metropolitan urban management platforms. The data model aligns with national standards, including the Portuguese National Catalogue of Data Models (CNMD), ensuring consistency, harmonisation, and future extensibility.\r\n\r\nThis presentation will explore:\r\nThe methodological framework adopted for SDI conception;\r\nThe spatial data modelling strategy within PostgreSQL/PostGIS;\r\nData harmonisation across 18 municipalities;\r\nGovernance and permission models in a multi-institutional environment;\r\nInteroperability mechanisms and API-based integration;\r\nOrganisational and technical challenges encountered during implementation;\r\nLessons learned regarding scalability, sustainability, and institutional alignment.\r\n\r\nParticular emphasis will be placed on how open-source technologies enabled flexibility, transparency, and long-term sustainability without vendor lock-in, while fostering cooperation between metropolitan and municipal actors.\r\n\r\nThe TML case demonstrates how a metropolitan transport authority can establish a robust, interoperable, and scalable SDI using exclusively open-source technologies. Beyond the technical architecture, the project illustrates how geospatial infrastructure can become a strategic governance tool, reinforcing institutional collaboration and enabling evidence-based territorial and mobility planning at the metropolitan scale.",
+    "start_datetime": "2026-07-01T12:30:00Z",
+    "end_datetime": "2026-07-01T13:00:00Z",
+    "talk:code": "N3LTRF",
+    "talk:guid": "9ffe8e18-280b-51d3-81f8-dfa36763e51f",
+    "talk:event": "foss4g-europe-2026",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "A13",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "BRW88Q",
+        "name": "Emanuel de Medeiros",
+        "url": "https://talks.osgeo.org/foss4g-europe-2026/speaker/BRW88Q/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2026-07-01T12:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/N3LTRF/",
+      "title": "Design and Implementation of a Metropolitan Spatial Data Infrastructure: The TML Case Study"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/N3LTRF/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/speaker/BRW88Q/",
+      "title": "Emanuel de Medeiros"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-europe-2026/talk/N3LTRF/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "apresentation-emanuel-de-medeiros-tml": {
+      "href": "https://otlis.sharepoint.com/:p:/s/AMLGESDOC/IQCgRVzXZYpFQYUuKVwFZ08MASixSLMVRST-Qs07gwRaQAY?e=qvPPqP",
+      "title": "apresentation Emanuel de Medeiros - TML",
+      "roles": [
+        "data"
+      ]
+    }
+  },
+  "collection": "foss4g-europe-2026-talks"
+}

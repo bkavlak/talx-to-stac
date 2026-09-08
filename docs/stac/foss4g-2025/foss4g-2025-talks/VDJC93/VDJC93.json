@@ -1,0 +1,98 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "VDJC93",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      174.7633,
+      -36.8485
+    ]
+  },
+  "bbox": [
+    174.7633,
+    -36.8485,
+    174.7633,
+    -36.8485
+  ],
+  "properties": {
+    "title": "Moving from Science to Product: Making Open GIS Software Work for Us",
+    "description": "How CTrees wrote open source code to complete zonal stats in order to move from science results (rasters) to interactive mapping apps.\n\nAt CTrees, we create machine learning models that integrate multiple data sources to produce high-resolution, time-series datasets on forest carbon and activity. Our outputs\u2014 estimates of carbon stocks, emissions, removals, and forest change\u2014support projects ranging from jurisdictional analysis to deforestation monitoring. However, scaling from research-driven models to a production-ready platform required solving two major challenges: (1) data management and (2) enabling fast, on-demand analysis that serves both internal researchers and external users.\r\nOn the data side, we faced the all-too-familiar chaos of manual and ad-hoc dataset versioning (v2, v2_final, v2_final_final), inconsistent folder structures where important data dates could be recorded in the filename or prefix, and directories packed with thousands of tiny GeoTIFFs meant to be mosaicked together. Instead of chasing S3 paths and manually stitching ad-hoc datacube files, we adopted Icechunk (open source) by Earthmover, which leverages Zarr and Icechunk to enable structured, versioned cloud-native datacube access. As a bonus, Arraylake (built on icechunk) makes it easy to view the data via a WMS service, streamlining the visualization process for both internal users and external stakeholders.\r\nThe second challenge was transitioning from scientific scripts\u2014often written in R or relying on heavy GDAL operations\u2014to a streamlined, scalable approach. To enable on-demand analysis, we refactored these scripts into ctreeskit (https://github.com/ctrees-products/ctreeskit) , our open-source Python package that consolidates spatial processing and zonal statistics using Xarray. Currently in its pre-release (beta) version, ctreeskit is designed for flexibility, it supports researchers across CTrees in papers, reports, and internal workflows. More broadly, ctreeskit is available to anyone performing similar calculations. By standardizing these processes and ensuring transparency, we enhance reproducibility, efficiency, and accessibility, allowing both internal teams and external users to understand and verify our methodologies.\r\nWith ctreeskit and Arraylake, we now have three key things: (1) a reliable way to save and access data, (2) a simple way to slice and dice high-dimensional data in the time and spatial domains, and (3) lightweight tools for running reproducible calculations. Moving from raw GeoTIFFs to an array-based Zarr model gives us fast, structured access to data without the complexity of STAC catalogs. By shifting from scattered S3 paths and heavyweight processing to a structured, cloud-native approach, we\u2019ve made geospatial data easier to access, faster to analyze, and more transparent\u2014helping both internal teams and external users work more efficiently.",
+    "start_datetime": "2025-11-19T01:00:00Z",
+    "end_datetime": "2025-11-19T01:25:00Z",
+    "talk:code": "VDJC93",
+    "talk:guid": "82d5ad0f-67bf-5db7-af83-c61020a828c5",
+    "talk:event": "foss4g-2025",
+    "talk:track": "Community, Collaboration & Impact",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "WG404",
+    "talk:duration_minutes": 25,
+    "talk:speakers": [
+      {
+        "code": "B8UZTB",
+        "name": "Naomi Provost",
+        "url": "https://talks.osgeo.org/foss4g-2025/speaker/B8UZTB/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2025-11-19T01:12:30Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/VDJC93/",
+      "title": "Moving from Science to Product: Making Open GIS Software Work for Us"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/VDJC93/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2025/speaker/B8UZTB/",
+      "title": "Naomi Provost"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2025/talk/VDJC93/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=8AdNEuXy3rs",
+      "type": "text/html",
+      "title": "FOSS4G 2025 | Moving from Science to Product: Making Open GIS Software Work for Us",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2025-talks"
+}

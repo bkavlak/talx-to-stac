@@ -1,0 +1,89 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "PBV3F7",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "COMPARING DIFFERENT MACHINE LEARNING OPTIONS TO MAP BARK BEETLE INFESTATIONS IN REPUBLIC OF CROATIA",
+    "description": "This paper presents different approaches to map bark beetle infested forests in Croatia. Bark beetle infestation presents threat to forest ecosystems and due to large unapproachable area presents difficulties in mapping infested areas. This paper will analyse available machine learning options in open-source software such as QGIS and SAGA GIS. All options will be performed on Copernicus data, Sentinel 2 satellite imagery. Machine learning and classification options that will be explored are maximum likelihood classifier, minimum distance, artificial neural network, decision tree, K Nearest Neighbour, random forest, support vector machine, spectral angle mapper and Normal Bayes. Maximum likelihood algorithm is considered the most accurate classification scheme with high precision and accuracy, and because of that it is widely used for classifying remotely sensed data. \r\nMaximum likelihood classification is method for determining a known class of distributions as the maximum for a given statistic. An assumption of normality is made for the training samples. During classifications all unclassified pixels are assigned to each class based on relative probability (likelihood) of that pixel occurring within each category\u2019s probability density function. \r\nMinimum distance classification is probably the oldest and simplest approach to pattern recognition, namely template matching. In a template matching we choose class or pattern to be recognized, such as healthy vegetation. Unknown pattern is then classified into the pattern class whose template fits best the unknown pattern. Unknown distribution is classified into the class whose distribution function is nearest (minimum distance) to the unknown distribution in terms of some predetermined distance measure.\r\nA decision tree is a decision support tool that uses a decision tree model and its possible consequences, including the outcomes of random events, resource costs, and benefits. It's a way of representing an algorithm that contains only conditional control statements. Decision trees are commonly used in operations research, particularly in decision analysis to identify the strategy most likely to achieve a goal, but they are also a popular tool in machine learning.\r\nK Nearest Neighbour is a simple algorithm that stores all the available cases and classifies the new data or case based on a similarity measure. It is mostly used to classifies a data point based on how its neighbours are classified.\r\nRandom forests or random decision forests is an ensemble learning method for classification, regression and other tasks that operates by constructing a multitude of decision trees at training time. For classification tasks, the output of the random forest is the class selected by most trees. For regression tasks, the mean or average prediction of the individual trees is returned. \r\nSupport vector machines (SVM) are supervised learning models with associated learning algorithms that analyse data for classification and regression analysis. SVMs are one of the most robust prediction methods, being based on statistical learning frameworks. Given a set of training examples, each marked as belonging to one of two categories, a SVM training algorithm builds a model that assigns new examples to one category or the other, making it a non-probabilistic binary linear classifier.\r\nSpectral image mapper is a spectral classifier that can determine spectral similarity between image spectra and reference spectra by calculating the angle between the spectra, treating them as vectors in a space with dimensionality equal to the number of bands used each time. Small angles between the two spectrums indicate high similarity, and high angles indicate low similarity.\r\nBayesian networks (normal Bayes) are a type of probabilistic graphical model that uses Bayesian inference to calculate probability. Bayesian networks aim to model condition dependence by representing conditional dependence by edges in directed graph. Bayesian networks are designed for taking an event that occurred and predicting the likelihood that any one of possible known causes was a factor.\r\nCopernicus, also known as Global Monitoring for Environment and Security (GMES) is a European program for the establishment of European capacity for Earth observation. European Space Agency is developing satellite missions called Sentinels where every mission is based on constellation of two satellites. Main objective of Sentinel-2 mission is land monitoring and it is performed using multispectral instrument. Sentinel-2 mission is active since 2015. Sentinel-2 mission carries multispectral imager (MSI) covering 13 spectral bands. Sentinel 2 mission produces two main products, level-1C and level-2A. Level-1C products are tiles with radiometric and geometric correction applied. Geometric correction includes orthorectification. Level-1C products are projected combining UTM projection and WGS84 ellipsoid. Level-2A products are considered as the mission Analysis Ready Data.\r\nEach method is evaluated with error matrix and each method is compared to each other. A confusion matrix, also known as an error matrix, is a specific table layout that allows visualization of the performance of an algorithm, typically a supervised learning one (in unsupervised learning it is usually called a matching matrix). Each row of the matrix represents the instances in an actual class while each column represents the instances in a predicted class, or vice versa \u2013 both variants are found in the literature. The name stems from the fact that it makes it easy to see whether the system is confusing two classes. Each error matrix contains Kappa value. Kappa coefficient is a statistic that is used to measure inter-rater reliability for qualitative (categorical) items. It is generally thought to be a more robust measure than simple percent agreement calculation, as \u03ba considers the possibility of the agreement occurring by chance.\r\nAll analyses are performed on data located in Republic of Croatia, Primorsko-goranska county.",
+    "start_datetime": "2023-06-30T10:00:00Z",
+    "end_datetime": "2023-06-30T10:30:00Z",
+    "talk:code": "PBV3F7",
+    "talk:guid": "4607a453-00e5-5a29-89c0-bd0ef1ca38ae",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Academic Track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT E / N209 - Floor 3",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "TG9YJ3",
+        "name": "Nikola Kranj\u010di\u0107",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/TG9YJ3/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-30T10:15:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/PBV3F7/",
+      "title": "COMPARING DIFFERENT MACHINE LEARNING OPTIONS TO MAP BARK BEETLE INFESTATIONS IN REPUBLIC OF CROATIA"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/PBV3F7/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/TG9YJ3/",
+      "title": "Nikola Kranj\u010di\u0107"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/PBV3F7/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}

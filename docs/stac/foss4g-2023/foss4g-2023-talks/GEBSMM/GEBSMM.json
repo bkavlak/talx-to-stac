@@ -1,0 +1,109 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [],
+  "id": "GEBSMM",
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      20.7397,
+      42.2139
+    ]
+  },
+  "bbox": [
+    20.7397,
+    42.2139,
+    20.7397,
+    42.2139
+  ],
+  "properties": {
+    "title": "GEOSPATIAL BIG DATA ANALYTICS FOR SUSTAINABLE SMART CITIES",
+    "description": "Growing urbanization cause environmental problems such as vast amount of carbon emissions and pollution all over the world.\r\nSmart Infrastructure and Smart Environment are two significant components of the smart city paradigm that can create opportunities for ensuring energy conservation, preventing ecological degradation, and using renewable energy sources. United Nations Sustainable Development Goals (SDGs) such as \u201cSustainable Cities and Communities\u201d, \u201cAccessible and Clean Energy\u201d, \u201cIndustry, Innovation and Infrastructure\u201d, and \u201cClimate Action\u201d can be achieved by implementing the smart city concept efficiently. Since a great portion of the data contains location information, geospatial intelligence is a key technology for sustainable smart cities. We need a holistic framework for the smart governance of cities by utilizing key technological drivers such as big data, Geographic Information Systems (GIS), cloud computing, Internet of Things (IoT). Geospatial Big Data applications offer predictive data science tools such as grid computing and parallel computing for efficient and fast processing to build a sustainable smart city ecosystem.\r\n\r\nHandling geospatial big data for sustainable smart cities is crucial since smart city services rely heavily on location-based data. Effective management of big data in storage, visualization, analytics, and analysis stages can foster green building, green energy, and net zero targets of countries. Geospatial data science ecosystem has many powerful open source software tools. According to the vision of PANGEO, a community of scientists and software developers working on big data software tools and customized environments, parallel computing systems have the ability to scale up analysis on geospatial big data platforms which is key for ocean, atmosphere, land, and climate applications. Those systems allow users to deploy clusters of compute nodes for big data processing. In the application phase of this study, Pandas, GeoPandas, Dask, Dask-GeoPandas, and Apache Sedona libraries are used in Python Jupyter Notebook environment. In this context, we carried out a performance comparison of two cluster computing systems: Dask-GeoPandas and Apache Sedona. We also investigated the performance of the novel geospatial data format GeoParquet together with other well-known formats.\r\n\r\nThere is a common vision, policy recommendations, and industry-wide actions to achieve the 2050 net zero carbon emission scenario in the United Kingdom. The energy efficiency of the English housing stock has continued to increase over the last decade. However, there is a need for systematic action plans in parcel scale to deliver on targets. In the study, open data sources are used such as Energy Performance Certificates (EPC) data of England and Wales, Ordnance Survey (OS) Open Unique Property Reference Number (UPRN), and OS Building (OS Open Map) for analysing energy efficiency level of domestic buildings. Firstly, EPC data is downloaded from Department for Levelling Up, Housing & Communities data service in Comma Separated Value (CSV), UPRN data from OS Open Hub in GeoPackage (GPKG), and buildings data from OS in GPKG formats. After saving each file in GeoParquet format, EPC data and UPRN point vector data are joined based on the unique UPRN id. Then each UPRN data attribute is appended to the relative building polygon by conducting spatial join operation. Read, write, and spatial join operations are both conducted on Dask-GeoPandas and Apache Sedona in order to compare the performances of the two big spatial data frameworks.\r\n\r\nCluster computing system enables much faster data handling when compared with the traditional approaches. Comparing performances of the frameworks, local computing hardware (11th Gen Intel Core i7-11800H 2.30 GHz CPU, 64 GB 3200 MHz DDR4 RAM) is used. According to the results, Dask-GeoPandas and Apache Sedona prevailed GeoPandas in read, write, and spatial join operations. Apache Sedona performed better during the performance tests. On the other hand, GeoParquet file format was much faster and smaller in size when compared with the GPKG data format. After spatial join operation, energy performance attributes are included in building data. In order to reveal regional energy efficiency patterns, SQL statements are used for filtering the data according to the energy rates. The query result is visualized using Datashader which provides highly optimized rendering with distributed systems.\r\n\r\nThis study answers the question \u201cCan geospatial big data analytics tools foster sustainable smart cities?\u201d. Volume, value, variety, velocity, and veracity of big data require different approaches than traditional data handling procedures in order to reveal patterns, trends, and relationships. Using spatial cluster computing systems for large-scale data enables effective urban management in the context of smart cities. On the other hand, energy policies and action plans such as decarbonization, and net zero targets can be achieved by sustainable smart cities supported by geospatial big data instruments. The study aims to reveal the potential of big data analytics in the establishment of smart infrastructure and smart buildings using large-scale geospatial datasets on state-of-the-art cluster computing systems. In future studies, larger spatial datasets like Planet OSM can be used on cloud-native platforms to test the capabilities of the geospatial big data tools.",
+    "start_datetime": "2023-06-29T08:30:00Z",
+    "end_datetime": "2023-06-29T09:00:00Z",
+    "talk:code": "GEBSMM",
+    "talk:guid": "a07956df-e709-5ed2-852c-a0e12f755e9b",
+    "talk:event": "foss4g-2023",
+    "talk:track": "Academic Track",
+    "talk:type": "Talk",
+    "talk:language": "en",
+    "talk:room": "UBT E / N209 - Floor 3",
+    "talk:room_capacity": 120,
+    "talk:duration_minutes": 30,
+    "talk:speakers": [
+      {
+        "code": "STSXSN",
+        "name": "Muhammed Oguzhan Mete",
+        "url": "https://talks.osgeo.org/foss4g-2023/speaker/STSXSN/"
+      }
+    ],
+    "talk:do_not_record": false,
+    "datetime": "2023-06-29T08:45:00Z"
+  },
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/GEBSMM/",
+      "title": "GEOSPATIAL BIG DATA ANALYTICS FOR SUSTAINABLE SMART CITIES"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/GEBSMM/feedback/",
+      "title": "Feedback"
+    },
+    {
+      "rel": "related",
+      "href": "https://talks.osgeo.org/foss4g-2023/speaker/STSXSN/",
+      "title": "Muhammed Oguzhan Mete"
+    },
+    {
+      "rel": "root",
+      "href": "../../../catalog.json",
+      "type": "application/json",
+      "title": "FOSS4G conferences"
+    },
+    {
+      "rel": "collection",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    },
+    {
+      "rel": "parent",
+      "href": "../collection.json",
+      "type": "application/json",
+      "title": "Talks"
+    }
+  ],
+  "assets": {
+    "schedule": {
+      "href": "https://talks.osgeo.org/foss4g-2023/talk/GEBSMM/",
+      "type": "text/html",
+      "title": "Talk page",
+      "roles": [
+        "metadata"
+      ]
+    },
+    "recording-peertube": {
+      "href": "https://video.osgeo.org/videos/watch/fqSLMiCbj56jpwgQDPfUE3",
+      "type": "text/html",
+      "title": "2023 |  Geospatial big data analytics for sustainable smart cities -    Muhammed Oguzhan Mete",
+      "roles": [
+        "data",
+        "video",
+        "peertube"
+      ]
+    },
+    "recording-youtube": {
+      "href": "https://www.youtube.com/watch?v=dOV8FoW55Dg",
+      "type": "text/html",
+      "title": "2023 |  Geospatial big data analytics for sustainable smart cities -    Muhammed Oguzhan Mete",
+      "roles": [
+        "data",
+        "video",
+        "youtube"
+      ]
+    }
+  },
+  "collection": "foss4g-2023-talks"
+}
