@@ -43,6 +43,8 @@ repos:
       - id: codespell
         # "accreting" is correct English; codespell reads it as "accrediting".
         args: [--ignore-words-list=accreting]
+        # Review labels quote real talk and video titles, typos included.
+        exclude: ^tools/review/labels\.json$
 
   - repo: https://github.com/astral-sh/uv-pre-commit
     rev: 0.9.9

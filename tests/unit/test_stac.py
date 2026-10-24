@@ -12,7 +12,7 @@ class Fixed:
     def __init__(self, *references: Reference) -> None:
         self._references = references
 
-    def references_for(self, session):
+    def references_for(self, session, schedule):
         return self._references
 
 

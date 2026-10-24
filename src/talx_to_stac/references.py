@@ -21,7 +21,7 @@ from urllib.parse import urlsplit, urlunsplit
 if TYPE_CHECKING:
     from collections.abc import Iterable, Sequence
 
-    from talx_to_stac.schedule import Session
+    from talx_to_stac.schedule import Schedule, Session
 
 _LOG = logging.getLogger(__name__)
 
@@ -88,8 +88,13 @@ class Reference:
 class ReferenceSource(Protocol):
     """Something that finds URLs belonging to a session."""
 
-    def references_for(self, session: Session) -> Iterable[Reference]:
-        """Return the references this source can find for one session."""
+    def references_for(self, session: Session, schedule: Schedule) -> Iterable[Reference]:
+        """Return the references this source can find for one session of ``schedule``.
+
+        Most sources need only the session. The schedule is there for those
+        that must tell sessions apart, such as a video catalogue deciding which
+        of two similar titles a recording belongs to.
+        """
         ...
 
 
@@ -99,7 +104,7 @@ class SubmissionReferences:
     This is exactly the "Resources" section of the pretalx talk page.
     """
 
-    def references_for(self, session: Session) -> Iterable[Reference]:
+    def references_for(self, session: Session, schedule: Schedule) -> Iterable[Reference]:
         """Return one resource reference per attachment or link."""
         return [Reference(url=r.url, title=r.title, kind=Kind.RESOURCE) for r in session.resources]
 
@@ -111,7 +116,7 @@ class AbstractReferences:
     resources form, but routinely paste links into their text.
     """
 
-    def references_for(self, session: Session) -> Iterable[Reference]:
+    def references_for(self, session: Session, schedule: Schedule) -> Iterable[Reference]:
         """Return one mention per URL found in the session's prose."""
         return _mentions(session.abstract, session.description)
 
@@ -119,7 +124,7 @@ class AbstractReferences:
 class BiographyReferences:
     """URLs a speaker wrote into their biography."""
 
-    def references_for(self, session: Session) -> Iterable[Reference]:
+    def references_for(self, session: Session, schedule: Schedule) -> Iterable[Reference]:
         """Return one mention per URL found in any speaker biography."""
         return _mentions(*(p.biography for p in session.persons))
 
@@ -151,19 +156,21 @@ def media_type_of(url: str) -> str | None:
 class _Combined:
     sources: Sequence[ReferenceSource]
 
-    def references_for(self, session: Session) -> Iterable[Reference]:
+    def references_for(self, session: Session, schedule: Schedule) -> Iterable[Reference]:
         best: dict[str, Reference] = {}
         for source in self.sources:
-            for reference in self._safely(source, session):
+            for reference in self._safely(source, session, schedule):
                 key = _canonical(reference.url)
                 current = best.get(key)
                 if current is None or _PRECEDENCE[reference.kind] > _PRECEDENCE[current.kind]:
                     best[key] = reference
         return list(best.values())
 
-    def _safely(self, source: ReferenceSource, session: Session) -> Iterable[Reference]:
+    def _safely(
+        self, source: ReferenceSource, session: Session, schedule: Schedule
+    ) -> Iterable[Reference]:
         try:
-            return list(source.references_for(session))
+            return list(source.references_for(session, schedule))
         except Exception:
             _LOG.warning(
                 "%s found no references for %s", type(source).__name__, session.code, exc_info=True

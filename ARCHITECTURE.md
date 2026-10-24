@@ -39,6 +39,10 @@ are one conference. Only `schedule` and `recordings` (shaded) touch the network.
   and out of every downstream consumer.
 - **A failing reference source cannot fail the transform.** `combine` isolates
   each one; a network source that is down costs recordings, not the Collection.
+- **A source sees a session within its schedule.** `references_for(session,
+  schedule)`: most sources read only the session, but matching a recording is
+  an assignment across the programme, and a video titled exactly as one session
+  must not be taken by another that merely resembles it.
 - **`Reference.kind` alone decides placement.** `stac.py` maps
   `RECORDING`/`RESOURCE` to assets and `MENTION` to `rel=related` links. A new
   source picks a kind and is done — it never learns that STAC exists.
@@ -68,6 +72,10 @@ are one conference. Only `schedule` and `recordings` (shaded) touch the network.
 | One `Reference` with a `kind` | `AssetSource` + `LinkSource` | Two extension points, two compositions and two failure policies for one concept. |
 | One `Recordings` over a `VideoCatalogue` | A class per platform | video.osgeo.org and YouTube title their videos identically. A class each would duplicate the matching rule and make every fix a two-file change. |
 | A title matches when one continues the other at a word boundary | Exact match, plus a rule for truncation | One symmetric rule replaced two and covers what the data actually does: FOSS4G 2023 appends `- Speaker Name`, PeerTube truncates near 100 characters. It raised that conference from 29 to 202 matched recordings out of 296. |
+| Ranked evidence: identical, then continues, then *close* in rarity-weighted words; only the strongest kind counts, and a weaker kind must be unique | Character similarity (`difflib`) above a threshold | Titles are also abbreviated (`R.S.`, `EO`) and reworded. Character similarity pairs `pygeoapi project status` with `pygeometa project status` and `Closing` with `Opening ceremony` even at 0.89, because the one word that differs is the one that matters. Weighting words by how rare they are in the catalogue fixes exactly that. Checked against 140 hand-reviewed cases: 115 of 117 confirmed videos found, every rejection held; orphaned videos fell from 316 to 131. |
+| A video titled exactly as some session belongs to it alone | Thresholds tight enough to keep look-alikes apart | `GeoNetwork Orientation and Demo` scores higher against the GeoServer video than several real rewordings do, so no threshold separates them; the schedule does, because the GeoServer session has that exact title. The same rule stops workshops and encores borrowing their talk's recording, and let the close threshold drop to catch rewordings. |
+| Set the speaker suffix aside only when it names one of the session's speakers | Strip any trailing ` - …` | Talk titles contain dashes of their own (`QField Plugins to the rescue - Natural catastrophe …`). Without a dash (`… Climate Change Erin Stein & Kaushik Mohan`) it takes two name words. |
+| A video holding the session's whole title counts as a continuation, and one that is exactly its heading before the colon as close, whatever its length | Applying the 24-character floor everywhere | The floor protects against a short *video* title that prefixes many talks. A video that adds words around the complete session title (`FOSS4G 2023 Closing session`) or names it by its heading (`OpenGeoSGB` for `OpenGeoSGB: State of the art …`) is a deliberate title, not a fragment. A heading can be shared (`UN Open GIS Initiative` and `UN Open GIS Initiative: Geopaparazzi …`), so it never outranks a truncated full title. |
 | `event=` filters, and defaults to no filter | Defaulting to the session's year | The tag exists because a *channel* holds every year of a series. A playlist is already one conference and needs none, and inventing a year filter for it was a heuristic nobody asked for. |
 | yt-dlp for YouTube listings | Scraping `ytInitialData`, or requiring an API key | The RSS feed stops at 15 of 140 entries; the page markup has already moved from `playlistVideoRenderer` to `lockupViewModel` and needs InnerTube continuation past 100. yt-dlp exists to absorb that churn. It is an optional extra, so nobody installs it for the OSGeo path. |
 | Sources return plain `Reference` | Sources return `pystac.Asset` | Otherwise every source, including third-party ones, imports pystac and re-decides roles and media types. |
@@ -97,7 +105,13 @@ Discovered against live data, and the reason `schedule.py` is defensive:
 - A session can genuinely have several recordings (one FOSS4G Europe 2025 slot
   was filmed five times, on each platform).
 - Video titles are not one format. `FOSS4G 2022 | Title`, `2023 | Title - Speaker`,
-  `2023 Keynote | Title - Speaker`, and occasionally no bar at all.
+  `2023 Keynote | Title - Speaker`, `FOSS4G 2024 -Title`, `FOSS4G 2024  Title`.
+  Long titles are shortened by hand, not only truncated: `&` for `and`, `OS` for
+  `Open Source`, `...` in the middle, a clause dropped or reworded.
+- A playlist can hold the same talk twice, so ambiguity is counted over distinct
+  titles, not uploads.
+- pretalx speaker names are not always spelt as the video spells them
+  (`ShogoHirasawa`), so speakers are compared with spaces removed.
 - FOSS4G 2025 published its whole programme as one pretalx event: its workshops
   and academic papers are Items in the talks collection, told apart by `talk:type`.
 
@@ -109,6 +123,11 @@ live-network version of it is marked `network` and deselected by default.
 
 Everything else is unit tests against one module's public interface. No test
 reaches into internals.
+
+Recording matching is also scored against `tools/review/labels.json`: reviewed
+facts of the form "this video is, or is not, this talk's recording", written by
+`tools/review_matches.py` and checked by its `--score`. They are not a pytest
+suite because they need every schedule and playlist, which is a network fetch.
 
 ## Tooling
 

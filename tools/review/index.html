@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Recording Match Review</title>
+<style>
+/* Layout: a summary band, then a review bay -- the queue on the left, the case under review on the right. */
+:root {
+  --bg:#fbfbf9; --panel:#ffffff; --fg:#16211c; --mut:#5d6b64; --line:#dfe3e0; --acc:#2f7d4f; --acc-soft:#e3f0e8;
+  --ok:#2f7d4f; --warn:#a86a12; --bad:#b4423a; --info:#356a99;
+  --ok-soft:#e3f0e8; --warn-soft:#f6ecd9; --bad-soft:#f6e1df; --info-soft:#e1ebf4; --ins:#d6ecdc; --del:#f3d9d6;
+  --sans:ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif; --mono:ui-monospace,SFMono-Regular,Menlo,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark) { :root {
+  --bg:#121714; --panel:#18201b; --fg:#e6ece8; --mut:#9aa8a0; --line:#2a352f; --acc:#6fbf8b; --acc-soft:#1f3328;
+  --ok:#6fbf8b; --warn:#e0a74e; --bad:#e3847b; --info:#82b2dc;
+  --ok-soft:#1f3328; --warn-soft:#352a17; --bad-soft:#3a2220; --info-soft:#1c2a37; --ins:#24442f; --del:#4a2723; color-scheme:dark } }
+* { box-sizing:border-box }
+body { margin:0; background:var(--bg); color:var(--fg); font:14px/1.5 var(--sans); padding:20px 16px 48px }
+.wrap { max-width:1280px; margin:0 auto; display:grid; gap:20px }
+h1 { font-size:1.45rem; letter-spacing:-.015em; margin:0 }
+h2 { font-size:.78rem; text-transform:uppercase; letter-spacing:.08em; color:var(--mut); margin:0 0 8px; font-weight:600 }
+.lead { color:var(--mut); margin:4px 0 0; max-width:75ch }
+.mono, code { font-family:var(--mono) }
+a { color:var(--acc) }
+button, select, input, textarea { font:inherit; color:inherit }
+:focus-visible { outline:2px solid var(--acc); outline-offset:2px }
+.card { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:16px; min-width:0 }
+.kpis { display:flex; flex-wrap:wrap; gap:12px 32px }
+.kpi b { display:block; font-size:1.35rem; font-variant-numeric:tabular-nums }
+.kpi span { font-size:.76rem; color:var(--mut) }
+.bay { display:grid; grid-template-columns:minmax(0,380px) minmax(0,1fr); gap:20px; align-items:start }
+@media (max-width:900px){ .bay { grid-template-columns:1fr } }
+.filters { display:grid; grid-template-columns:1fr 1fr; gap:8px; margin-bottom:10px }
+.filters label { display:grid; gap:2px; font-size:.74rem; color:var(--mut) }
+.filters select, .filters input { padding:6px 8px; border:1px solid var(--line); border-radius:6px; background:var(--bg); width:100%; min-width:0 }
+.filters .full { grid-column:1 / -1 }
+.queue { list-style:none; margin:0; padding:0; max-height:70vh; overflow-y:auto; border-top:1px solid var(--line) }
+.queue li { border-bottom:1px solid var(--line) }
+.queue button { all:unset; box-sizing:border-box; display:grid; grid-template-columns:4px minmax(0,1fr) auto; gap:10px; width:100%; padding:8px 8px 8px 0; cursor:pointer }
+.queue button[aria-current="true"] { background:var(--acc-soft) }
+.queue .t { overflow:hidden; text-overflow:ellipsis; white-space:nowrap; font-size:.86rem }
+.queue .m { font-size:.72rem; color:var(--mut); overflow:hidden; text-overflow:ellipsis; white-space:nowrap }
+.queue .v { font-size:.72rem; align-self:center }
+.stripe { border-radius:2px; background:var(--line) }
+.s-near-miss,.s-orphan-video { background:var(--warn) } .s-shared-video { background:var(--bad) }
+.s-matched { background:var(--info) } .s-matched-exact { background:var(--ok) }
+.count { font-size:.78rem; color:var(--mut); margin:6px 0 }
+.pill { display:inline-block; font-size:.72rem; padding:1px 8px; border-radius:999px; font-weight:500; white-space:nowrap }
+.p-ok { background:var(--ok-soft); color:var(--ok) } .p-warn { background:var(--warn-soft); color:var(--warn) }
+.p-bad { background:var(--bad-soft); color:var(--bad) } .p-info { background:var(--info-soft); color:var(--info) } .p-mut { background:var(--line); color:var(--mut) }
+.detail { display:grid; gap:16px }
+.detail h3 { font-size:1.15rem; margin:0; line-height:1.35 }
+.meta { color:var(--mut); font-size:.82rem; display:flex; flex-wrap:wrap; gap:4px 14px }
+.explain { font-size:.86rem; color:var(--mut); margin:0 }
+.cand { border:1px solid var(--line); border-radius:8px; padding:12px; display:grid; gap:8px; background:var(--bg) }
+.cand .row { display:flex; flex-wrap:wrap; gap:6px 12px; justify-content:space-between }
+.diff { font-family:var(--mono); font-size:.8rem; line-height:1.7; word-break:break-word }
+.diff ins { background:var(--ins); text-decoration:none; padding:0 2px } .diff del { background:var(--del); text-decoration:none; padding:0 2px }
+.score { font-family:var(--mono); font-size:.76rem; color:var(--mut) }
+.actions, .tags { display:flex; flex-wrap:wrap; gap:8px }
+.btn { padding:6px 12px; border-radius:6px; border:1px solid var(--line); background:var(--panel); cursor:pointer }
+.btn kbd { font-family:var(--mono); font-size:.7rem; color:var(--mut); margin-right:6px }
+.btn.on { background:var(--acc); color:var(--bg); border-color:var(--acc) } .btn.on kbd { color:var(--bg) }
+.tag { padding:3px 10px; border-radius:999px; border:1px solid var(--line); background:transparent; cursor:pointer; font-size:.78rem }
+.tag[aria-pressed="true"] { background:var(--info-soft); border-color:var(--info); color:var(--info) }
+textarea { width:100%; min-height:60px; border:1px solid var(--line); border-radius:6px; padding:8px; background:var(--bg) }
+.help { font-size:.76rem; color:var(--mut) }
+.toast { position:fixed; right:16px; bottom:16px; background:var(--fg); color:var(--bg); padding:8px 14px; border-radius:6px; opacity:0; transition:opacity .2s }
+.toast.show { opacity:1 }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Recording match review</h1>
+    <p class="lead">Every talk, the video the matcher gave it or the closest ones it did not, and every video no talk claimed.
+    Each verdict is saved to <code>tools/review/labels.json</code> as a fact about one talk and one video; commit that file to contribute it.
+    Then <code>uv run python tools/review_matches.py --score</code> tells any change to the matcher how it does.</p>
+  </header>
+  <section class="card kpis">
+    <div class="kpi"><b id="kCases">–</b><span>cases</span></div>
+    <div class="kpi"><b id="kLabels">–</b><span>labels in the file</span></div>
+    <div class="kpi"><b id="kOrphans">–</b><span>videos no talk claimed</span></div>
+    <div class="kpi"><b id="kNear">–</b><span>likely misses</span></div>
+  </section>
+  <section class="bay">
+    <div class="card">
+      <div class="filters">
+        <label>Case type<select id="fKind"></select></label>
+        <label>Status<select id="fStatus"><option value="open">Not reviewed</option><option value="all">All</option><option value="done">Reviewed</option></select></label>
+        <label>Programme<select id="fProg"></select></label>
+        <label>Platform<select id="fPlat"><option value="">All</option></select></label>
+        <label class="full">Search titles<input id="fQ" type="search" placeholder="e.g. State of, keynote"></label>
+      </div>
+      <div class="count" id="count"></div>
+      <ul class="queue" id="queue"></ul>
+      <button class="btn" id="more" hidden style="margin-top:8px;width:100%">Show more</button>
+    </div>
+    <div class="card detail" id="detail"><p class="help">Loading cases…</p></div>
+  </section>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script>
+const KINDS = {
+  "near-miss":     {label:"Likely miss",  pill:"p-warn", why:"Nothing was attached, but a video nobody claimed reads very like this talk. Is it?"},
+  "orphan-video":  {label:"Orphan video", pill:"p-warn", why:"No talk claimed this video. Which talk is it, if any?"},
+  "shared-video":  {label:"Shared video", pill:"p-bad",  why:"This video is attached to more than one talk. Is it right for this one?"},
+  "matched":       {label:"Inexact match",pill:"p-info", why:"Attached although the titles differ. Check it is the same talk."},
+  "unmatched":     {label:"No recording", pill:"p-mut",  why:"Nothing attached and nothing close. Is one of these the recording after all?"},
+  "matched-exact": {label:"Exact match",  pill:"p-ok",   why:"The titles agree. Spot-check a few."},
+};
+const ORDER = Object.keys(KINDS);
+const REASONS = [["speaker-suffix","Speaker name appended"],["truncated","Title truncated"],["reworded","Words changed or shortened"],
+  ["typo","Typo"],["prefix-format","Odd event prefix"],["duplicate-upload","Uploaded twice"],
+  ["session-variant","Workshop / encore variant"],["different-talk","Different talk, similar words"],["not-a-talk","Not a talk"],["other","Other"]];
+const PAGE = 80;
+let CASES = [], LABELS = new Map(), view = [], shown = PAGE, cur = null;
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const norm = s => String(s||"").normalize("NFKD").replace(/[̀-ͯ]/g,"").toLowerCase().replace(/&/g," and ").replace(/[^0-9a-z]+/g," ").trim();
+const core = t => t.includes("|") ? t.split("|").slice(1).join("|") : t;
+const key = (p,pl,s,v) => [p,pl,s,v].join("\u0000");
+function toast(m){ const t=$("#toast"); t.textContent=m; t.classList.add("show"); clearTimeout(toast.h); toast.h=setTimeout(()=>t.classList.remove("show"),1500); }
+
+function diff(a, b){
+  const A=norm(a).split(" ").filter(Boolean), B=norm(b).split(" ").filter(Boolean), n=A.length, m=B.length;
+  const L=Array.from({length:n+1},()=>new Int16Array(m+1));
+  for(let i=n-1;i>=0;i--) for(let j=m-1;j>=0;j--) L[i][j]=A[i]===B[j]?L[i+1][j+1]+1:Math.max(L[i+1][j],L[i][j+1]);
+  const out=[]; let i=0,j=0;
+  while(i<n&&j<m){ if(A[i]===B[j]){out.push(esc(A[i]));i++;j++} else if(L[i+1][j]>=L[i][j+1]) out.push(`<del>${esc(A[i++])}</del>`); else out.push(`<ins>${esc(B[j++])}</ins>`); }
+  while(i<n) out.push(`<del>${esc(A[i++])}</del>`); while(j<m) out.push(`<ins>${esc(B[j++])}</ins>`);
+  return out.join(" ");
+}
+
+/* Every case speaks about (talk, video) pairs; a verdict is a fact about each pair. */
+function pairs(c){
+  return c.kind==="orphan-video"
+    ? c.candidates.map(s=>({session:s.code, session_title:s.title, video:c.video.url, video_title:c.video.title}))
+    : c.candidates.map(v=>({session:c.session.code, session_title:c.session.title, video:v.url, video_title:v.title}));
+}
+const isMatch = c => c.kind.startsWith("matched") || c.kind==="shared-video";
+function options(c){
+  if(isMatch(c)) return [{k:"yes",l:"Correct"},{k:"no",l:"Wrong video"},{k:"unsure",l:"Unsure"}];
+  const word = c.kind==="orphan-video" ? "Belongs to" : "Is";
+  return [...c.candidates.map((_,i)=>({k:"pick:"+i,l:`${word} #${i+1}`})), {k:"no",l:"None of these"}, {k:"unsure",l:"Unsure"}];
+}
+function labelsOf(c){ return pairs(c).map(p=>LABELS.get(key(c.programme,c.platform,p.session,p.video))); }
+function verdict(c){
+  const ls=labelsOf(c);
+  if(ls.every(l=>!l)) return null;
+  if(isMatch(c)) return ls.some(l=>l&&!l.same) ? "no" : "yes";
+  const i=ls.findIndex(l=>l&&l.same);
+  return i>=0 ? "pick:"+i : "no";
+}
+function extras(c){ const l=labelsOf(c).find(Boolean); return {reasons:l?.reasons||[], note:l?.note||""}; }
+
+async function save(c, k, extra){
+  const ps=pairs(c), remove=ps.map(p=>[c.programme,c.platform,p.session,p.video]);
+  let add=[];
+  if(k==="yes") add=ps.map(p=>({...p,same:true}));
+  else if(k==="no") add=ps.map(p=>({...p,same:false}));
+  else if(k.startsWith("pick:")) add=[{...ps[+k.slice(5)],same:true}];
+  add=add.map(p=>({programme:c.programme, platform:c.platform, ...p, ...extra}));
+  const res=await fetch("/labels",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({remove,add})});
+  if(!res.ok){ toast("Not saved: is review_matches.py still running?"); return; }
+  for(const r of remove) LABELS.delete(r.join("\u0000"));
+  for(const a of add) LABELS.set(key(a.programme,a.platform,a.session,a.video),a);
+  toast(add.length?"Saved":"Cleared"); renderKpis(); renderQueue(); renderDetail();
+}
+
+function renderKpis(){
+  $("#kCases").textContent=CASES.length; $("#kLabels").textContent=LABELS.size;
+  $("#kOrphans").textContent=CASES.filter(c=>c.kind==="orphan-video").length;
+  $("#kNear").textContent=CASES.filter(c=>c.kind==="near-miss").length;
+}
+function filter(){
+  const k=$("#fKind").value, st=$("#fStatus").value, p=$("#fProg").value, pl=$("#fPlat").value, q=norm($("#fQ").value);
+  view=CASES.filter(c=>(!k||c.kind===k)&&(!p||c.programme===p)&&(!pl||c.platform===pl)
+    &&(st==="all"||(st==="open")===!verdict(c))&&(!q||c._hay.includes(q)));
+  shown=PAGE; renderQueue();
+}
+function title(c){ return c.kind==="orphan-video"?c.video.title:c.session.title; }
+function renderQueue(){
+  $("#count").textContent=`${view.length} case${view.length===1?"":"s"}`;
+  $("#queue").innerHTML=view.slice(0,shown).map((c,i)=>{ const v=verdict(c);
+    return `<li><button data-i="${i}" aria-current="${c===cur}"><span class="stripe s-${c.kind}"></span>
+    <span style="min-width:0"><div class="t">${esc(title(c))}</div><div class="m">${KINDS[c.kind].label} · ${esc(c.programme)} · ${esc(c.platform)}</div></span>
+    <span class="v">${v?`<span class="pill p-ok">reviewed</span>`:""}</span></button></li>`; }).join("");
+  $("#more").hidden=view.length<=shown;
+}
+function renderDetail(){
+  const c=cur, el=$("#detail");
+  if(!c){ el.innerHTML=`<p class="help">Nothing matches these filters.</p>`; return; }
+  const K=KINDS[c.kind], v=verdict(c), x=extras(c), opts=options(c);
+  const head=c.kind==="orphan-video"
+    ? `<h3><a href="${esc(c.video.url)}" target="_blank" rel="noopener">${esc(c.video.title)}</a></h3><div class="meta"><span>${esc(c.programme)}</span><span>${esc(c.platform)}</span></div>`
+    : `<h3><a href="${esc(c.session.url)}" target="_blank" rel="noopener">${esc(c.session.title)}</a></h3>
+       <div class="meta"><span class="mono">${esc(c.session.code)}</span><span>${esc(c.session.type||"")}</span><span>${esc(c.session.speakers.join(", "))}</span>
+       ${c.session.do_not_record?`<span class="pill p-bad">do not record</span>`:""}<span>${esc(c.platform)}</span></div>`;
+  const cands=c.candidates.map((x,i)=>{
+    const [a,b]=c.kind==="orphan-video"?[x.title,core(c.video.title)]:[c.session.title,core(x.title)];
+    const flags=c.kind==="orphan-video"?(x.matched?" · has a recording":""):(x.attached?" · attached":x.claimed_by.length?` · attached to ${x.claimed_by.join(", ")}`:"");
+    return `<div class="cand"><div class="row"><b>#${i+1} <a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a></b>
+      <span class="score">similarity ${x.score.toFixed(2)}${esc(flags)}</span></div><div class="diff">${diff(a,b)}</div></div>`;}).join("");
+  el.innerHTML=`<div><span class="pill ${K.pill}">${K.label}</span></div><div>${head}</div><p class="explain">${K.why}</p>
+    <div style="display:grid;gap:10px">${cands||`<p class="help">No candidates.</p>`}</div>
+    <div><h2>Verdict</h2><div class="actions">${opts.map((o,i)=>`<button class="btn${v===o.k?" on":""}" data-k="${o.k}"><kbd>${i+1}</kbd>${esc(o.l)}</button>`).join("")}</div></div>
+    <div><h2>Why the titles differ</h2><div class="tags">${REASONS.map(([k,l])=>`<button class="tag" data-r="${k}" aria-pressed="${x.reasons.includes(k)}">${l}</button>`).join("")}</div></div>
+    <div><label class="help" for="note">Note (optional)</label><textarea id="note">${esc(x.note)}</textarea></div>
+    <p class="help">Keys: <span class="mono">1–${opts.length}</span> verdict · <span class="mono">j / k</span> next / previous. Pick a verdict before tagging reasons.</p>`;
+}
+function select(i){ cur=view[i]||null; renderDetail(); document.querySelectorAll("#queue button").forEach(b=>b.setAttribute("aria-current",String(view[+b.dataset.i]===cur))); }
+function step(d){ if(!view.length) return; let i=Math.max(0,Math.min(view.length-1,view.indexOf(cur)+d)); if(i>=shown){shown=i+PAGE;renderQueue();} select(i);
+  document.querySelector(`#queue button[data-i="${i}"]`)?.scrollIntoView({block:"nearest"}); }
+function choose(k){ if(!cur) return; const x=extras(cur); save(cur, k==="unsure"||verdict(cur)===k ? "unsure" : k, x); }
+
+document.addEventListener("click",e=>{
+  const q=e.target.closest("#queue button"); if(q) return select(+q.dataset.i);
+  const b=e.target.closest("[data-k]"); if(b) return choose(b.dataset.k);
+  const r=e.target.closest("[data-r]"); if(r&&cur){ const v=verdict(cur); if(!v){ toast("Pick a verdict first"); return; }
+    const x=extras(cur), s=new Set(x.reasons); s.has(r.dataset.r)?s.delete(r.dataset.r):s.add(r.dataset.r); save(cur,v,{...x,reasons:[...s]}); }
+});
+document.addEventListener("change",e=>{ if(e.target.id==="note"&&cur){ const v=verdict(cur); if(v) save(cur,v,{...extras(cur),note:e.target.value.trim()}); } });
+document.addEventListener("keydown",e=>{ if(e.target.matches("input,textarea,select")||e.metaKey||e.ctrlKey) return;
+  if(e.key==="j") step(1); else if(e.key==="k") step(-1);
+  else if(/^[1-9]$/.test(e.key)&&cur){ const o=options(cur)[+e.key-1]; if(o) choose(o.k); } });
+["#fKind","#fStatus","#fProg","#fPlat"].forEach(s=>$(s).addEventListener("change",()=>{filter();select(0);}));
+$("#fQ").addEventListener("input",()=>{clearTimeout(filter.h);filter.h=setTimeout(()=>{filter();select(0);},200);});
+$("#more").addEventListener("click",()=>{shown+=PAGE;renderQueue();});
+
+(async()=>{
+  const [cases, labels] = await Promise.all([fetch("/cases.json").then(r=>r.json()), fetch("/labels.json").then(r=>r.ok?r.json():[])]);
+  for(const l of labels) LABELS.set(key(l.programme,l.platform,l.session,l.video),l);
+  CASES=cases.sort((a,b)=>ORDER.indexOf(a.kind)-ORDER.indexOf(b.kind)||(b.candidates[0]?.score||0)-(a.candidates[0]?.score||0));
+  for(const c of CASES) c._hay=norm(title(c)+" "+c.candidates.map(x=>x.title).join(" "));
+  const n={}; CASES.forEach(c=>n[c.kind]=(n[c.kind]||0)+1);
+  $("#fKind").innerHTML=`<option value="">All types</option>`+ORDER.map(k=>`<option value="${k}">${KINDS[k].label} (${n[k]||0})</option>`).join("");
+  $("#fKind").value="near-miss";
+  $("#fProg").innerHTML=`<option value="">All</option>`+[...new Set(CASES.map(c=>c.programme))].map(p=>`<option>${esc(p)}</option>`).join("");
+  $("#fPlat").innerHTML=`<option value="">All</option>`+[...new Set(CASES.map(c=>c.platform))].map(p=>`<option>${esc(p)}</option>`).join("");
+  renderKpis(); filter(); select(0);
+})().catch(()=>{ $("#detail").innerHTML=`<p class="help">Could not load the cases. Start the page with <code>uv run python tools/review_matches.py</code>.</p>`; });
+</script>
+</body>
+</html>

@@ -9,9 +9,13 @@ of one series sharing a collection. So the matching rule lives once, in
 from __future__ import annotations
 
 import logging
+import math
+import os
 import re
 import unicodedata
+from collections import Counter
 from dataclasses import dataclass
+from enum import IntEnum
 from typing import TYPE_CHECKING, Any, ClassVar, Protocol, cast
 
 import httpx
@@ -19,16 +23,26 @@ import httpx
 from talx_to_stac.references import Kind, Reference
 
 if TYPE_CHECKING:
-    from collections.abc import Iterable, Iterator
+    from collections.abc import Callable, Iterable, Iterator, Mapping, Sequence
 
-    from talx_to_stac.schedule import Session
+    from talx_to_stac.schedule import Schedule, Session
 
 _LOG = logging.getLogger(__name__)
 _PEERTUBE_ID = re.compile(r"/w/p/([A-Za-z0-9]+)")
 _PAGE = 100
 _LIMIT = 5000
 _MIN_PREFIX = 24
-"""Shortest overlap trusted when one title merely continues the other."""
+"""Shortest title trusted when it merely resembles another."""
+_NAME = 3
+"""Shortest word taken for part of a speaker's name when no dash announces one."""
+_CLOSE = 0.65
+"""Share of a video title's word weight its session must contain to be close."""
+_COVERED = 0.4
+"""Share of the session title's word weight the video must keep to be close."""
+_EVENT_PREFIX = re.compile(
+    r"^\s*(?:foss4g\w*\s+)?(?:19|20)\d\d\b(?:\s+keynote)?\s*[:\-\u2013\u2014]?\s*", re.I
+)
+_SPEAKER_SUFFIX = re.compile(r"\s*[-\u2013\u2014]\s*([^-\u2013\u2014]+)$")
 
 VIDEO_OSGEO = "https://video.osgeo.org"
 
@@ -76,7 +90,21 @@ class Recordings:
         """
         self._catalogue = catalogue
         self._event = event
-        self._videos: tuple[Video, ...] | None = None
+        self._eligible: _Eligible | None = None
+        self._owned: tuple[Schedule, Mapping[str, frozenset[str]]] | None = None
+
+    @property
+    def source(self) -> str:
+        """The platform these recordings come from, e.g. ``peertube``."""
+        return self._catalogue.source
+
+    @property
+    def videos(self) -> tuple[Video, ...]:
+        """Every video this source may match: the catalogue, less other events.
+
+        Read once and remembered; empty if the catalogue cannot be read.
+        """
+        return self._catalogued().videos
 
     @classmethod
     def peertube_channel(
@@ -143,30 +171,44 @@ class Recordings:
         """
         return cls(_YouTubePlaylist(playlist), event=event)
 
-    def references_for(self, session: Session) -> Iterable[Reference]:
-        """Return the session's recordings, or nothing if none can be matched."""
-        tag = _normalise(self._event or "")
-        wanted = _normalise(session.title)
-        if not wanted:
+    def references_for(self, session: Session, schedule: Schedule) -> Iterable[Reference]:
+        """Return the session's recordings, or nothing if none can be matched.
+
+        Evidence is ranked: an identical title beats one that continues or
+        contains the other, which beats one that shares the title's distinctive
+        words. Only the strongest kind found counts. Several identical titles
+        are several recordings of one session and all belong to it; weaker
+        evidence must point at one title, since several only mean the titles
+        were too alike to tell apart. The same title uploaded twice is still
+        one title.
+
+        A video titled exactly as another session of ``schedule`` belongs to
+        that session, so no weaker evidence can take it. That is what keeps
+        ``GeoNetwork Orientation and Demo`` off the GeoServer recording.
+        """
+        talk = _Talk.of(session)
+        if not talk.title:
             return []
+        catalogue = self._catalogued()
+        owners = self._owners(schedule)
 
-        exact: list[Video] = []
-        partial: list[Video] = []
-        for video in self._catalogued():
-            if tag and tag not in _normalise(video.title):
+        best: list[Video] = []
+        strongest = _Evidence.NONE
+        for video in catalogue.videos:
+            owner = owners.get(video.url)
+            if owner and session.code not in owner:
                 continue
-            for candidate in _titles_of(video.title):
-                if candidate == wanted:
-                    exact.append(video)
-                    break
-                if _continues(candidate, wanted):
-                    partial.append(video)
-                    break
+            evidence = max(
+                (_evidence(c, talk, catalogue.weight) for c in _titles_of(video.title, talk)),
+                default=_Evidence.NONE,
+            )
+            if evidence > strongest:
+                best, strongest = [video], evidence
+            elif evidence is strongest and evidence is not _Evidence.NONE:
+                best.append(video)
 
-        # Several exact matches are several recordings of one session and all
-        # belong to it. Several inexact ones only mean the titles were too alike
-        # to tell apart, which is not evidence of anything.
-        found = exact if exact else (partial if len(partial) == 1 else [])
+        distinct = {_normalise(v.title) for v in best}
+        found = best if strongest is _Evidence.SAME or len(distinct) == 1 else []
         return [
             Reference(
                 url=v.url,
@@ -178,15 +220,87 @@ class Recordings:
             for v in sorted(found, key=lambda v: v.url)
         ]
 
-    def _catalogued(self) -> tuple[Video, ...]:
-        """The catalogue's videos, fetched once and remembered, empty if unreachable."""
-        if self._videos is None:
+    def _owners(self, schedule: Schedule) -> Mapping[str, frozenset[str]]:
+        """The sessions each video is titled exactly as, by video URL.
+
+        Worked out once per schedule: every session asks the same question.
+        """
+        if self._owned is None or self._owned[0] is not schedule:
+            videos = self._catalogued().videos
+            owned: dict[str, set[str]] = {}
+            for session in schedule.sessions:
+                talk = _Talk.of(session)
+                for video in videos:
+                    if talk.title and talk.title in _titles_of(video.title, talk):
+                        owned.setdefault(video.url, set()).add(session.code)
+            self._owned = (schedule, {url: frozenset(codes) for url, codes in owned.items()})
+        return self._owned[1]
+
+    def _catalogued(self) -> _Eligible:
+        """The videos this source may match, read once, empty if unreachable."""
+        if self._eligible is None:
             try:
-                self._videos = tuple(self._catalogue.videos())
+                videos = tuple(self._catalogue.videos())
             except Exception:
                 _LOG.warning("could not read %s; no recordings", self._catalogue, exc_info=True)
-                self._videos = ()
-        return self._videos
+                videos = ()
+            tag = _normalise(self._event or "")
+            self._eligible = _Eligible.of(v for v in videos if tag in _normalise(v.title))
+        return self._eligible
+
+
+class _Evidence(IntEnum):
+    """How strongly a video's title says it is a given session."""
+
+    NONE = 0
+    CLOSE = 1
+    """The same distinctive words, give or take an abbreviation or a rewording,
+    or exactly the session's heading -- which another talk may share."""
+    CONTINUES = 2
+    """One title carries on where the other stops, or holds it whole."""
+    SAME = 3
+
+
+@dataclass(frozen=True, slots=True)
+class _Talk:
+    """What matching needs to know about a session, normalised once."""
+
+    title: str
+    heading: str
+    """The title up to its first colon, which some videos use on its own; empty if none."""
+    speakers: str
+    """Every speaker's name run together, so ``ShogoHirasawa`` and ``Shogo Hirasawa`` agree."""
+
+    @classmethod
+    def of(cls, session: Session) -> _Talk:
+        title = _normalise(session.title)
+        heading = _normalise(session.title.split(":", 1)[0]) if ":" in session.title else ""
+        names = _normalise(" ".join(p.name for p in session.persons)).replace(" ", "")
+        return cls(title, "" if heading == title else heading, names)
+
+
+@dataclass(frozen=True, slots=True)
+class _Eligible:
+    """A catalogue's videos, with how much each word distinguishes one from another.
+
+    A word that appears in many titles -- ``state``, ``of``, ``project`` -- says
+    little about which talk a video is; a project name says nearly everything.
+    Weighting words by rarity is what stops ``State of PDAL`` matching
+    ``State of deegree`` while still letting ``R.S.`` stand in for ``Remote
+    Sensing``.
+    """
+
+    videos: tuple[Video, ...]
+    frequency: Mapping[str, int]
+
+    @classmethod
+    def of(cls, videos: Iterable[Video]) -> _Eligible:
+        kept = tuple(videos)
+        frequency = Counter(w for v in kept for w in set(_titles_of(v.title)[0].split()))
+        return cls(kept, frequency)
+
+    def weight(self, word: str) -> float:
+        return math.log((len(self.videos) + 1) / (self.frequency.get(word, 0) + 0.5))
 
 
 @dataclass(frozen=True, slots=True)
@@ -320,34 +434,90 @@ def _playlist_url(playlist: str) -> str:
     return f"https://www.youtube.com/playlist?list={playlist}"
 
 
-def _titles_of(name: str) -> tuple[str, ...]:
-    """The normalised titles a video name might be.
+def _titles_of(name: str, talk: _Talk | None = None) -> tuple[str, ...]:
+    """The normalised titles a video name might be, most likely first.
 
-    Entries are usually ``EVENT | Talk title``, so the part after the first bar
-    is the better candidate -- but a talk title may itself contain a bar, so the
-    whole name stays a candidate too.
+    Entries are usually ``EVENT | Talk title``, but some drop the bar
+    (``FOSS4G 2024 -Talk``) and some append the speaker (``Talk - Jane Doe``),
+    which is removed only when it names the ``talk``'s speakers. A talk title
+    may itself contain a bar, so the whole name stays a candidate too.
     """
-    whole = _normalise(name)
-    if "|" not in name:
-        return (whole,)
-    return (_normalise(name.split("|", 1)[1]), whole)
+    title = name.split("|", 1)[1] if "|" in name else _EVENT_PREFIX.sub("", name, count=1)
+    if talk and talk.speakers:
+        title = _without_speakers(title, talk.speakers)
+    return (_normalise(title), _normalise(name))
 
 
-def _continues(one: str, other: str) -> bool:
-    """Whether one title carries on where the other stops, at a word boundary.
+def _without_speakers(title: str, speakers: str) -> str:
+    """The title with any trailing speaker names removed, normalised.
 
-    Collections truncate long titles and some append the speaker's name, so a
-    real match often has one title extending the other rather than equalling it.
-    Normalisation has already reduced both to words separated by single spaces,
-    which is what makes the boundary check a plain prefix test.
+    After a dash one name is enough (``Talk - Jane Doe``). Without one, as in
+    ``Talk Jane Doe & John Roe``, it takes two words of names, so a title that
+    merely ends in a word some speaker's name contains is left alone.
     """
-    if min(len(one), len(other)) < _MIN_PREFIX:
-        return False
-    return one.startswith(f"{other} ") or other.startswith(f"{one} ")
+    suffix = _SPEAKER_SUFFIX.search(title)
+    if suffix:
+        named = set(_normalise(suffix.group(1)).split()) - {"and"}
+        if named and all(word in speakers for word in named):
+            return _normalise(title[: suffix.start()])
+    words = _normalise(title).split()
+    kept = len(words)
+    while kept and (words[kept - 1] == "and" or words[kept - 1] in speakers):
+        kept -= 1
+    names = [w for w in words[kept:] if w != "and" and len(w) >= _NAME]
+    return " ".join(words[:kept]) if len(names) >= 2 else " ".join(words)
+
+
+def _evidence(video: str, talk: _Talk, weight: Callable[[str], float]) -> _Evidence:
+    """How strongly a normalised video title says it is ``talk``.
+
+    Collections truncate long titles, wrap them in event names, shorten them
+    to their heading, abbreviate words and occasionally reword them, so a real
+    match often only resembles its session. A video title shorter than
+    ``_MIN_PREFIX`` characters says too little to be trusted on resemblance;
+    one that holds the session's whole title, or exactly its heading, is a
+    deliberate choice and needs no such floor -- though a heading can be shared,
+    so it counts only as close.
+    """
+    if not video:
+        return _Evidence.NONE
+    if video == talk.title:
+        return _Evidence.SAME
+    if video == talk.heading:
+        return _Evidence.CLOSE
+    if " " in talk.title and f" {talk.title} " in f" {video} ":
+        return _Evidence.CONTINUES
+    if min(len(video), len(talk.title)) < _MIN_PREFIX:
+        return _Evidence.NONE
+    if talk.title.startswith(f"{video} "):
+        return _Evidence.CONTINUES
+    a, b = video.split(), talk.title.split()
+    if _shared(a, b, weight) >= _CLOSE and _shared(b, a, weight) >= _COVERED:
+        return _Evidence.CLOSE
+    return _Evidence.NONE
+
+
+def _shared(words: Sequence[str], others: Sequence[str], weight: Callable[[str], float]) -> float:
+    """The share of ``words``, by weight, that ``others`` also contains."""
+    total = sum(weight(w) for w in words)
+    found = sum(weight(w) for w in words if any(_alike(w, o) for o in others))
+    return found / total if total else 0.0
+
+
+def _alike(one: str, other: str) -> bool:
+    """Whether two words are one word, abbreviated or inflected.
+
+    ``prod`` for ``production``, ``introducing`` for ``introduction``.
+    """
+    if one == other:
+        return True
+    if min(len(one), len(other)) >= 4 and (one.startswith(other) or other.startswith(one)):
+        return True
+    return len(os.path.commonprefix([one, other])) >= 6
 
 
 def _normalise(text: str) -> str:
     """Fold case, accents and punctuation so two spellings of a title compare equal."""
     folded = unicodedata.normalize("NFKD", text)
-    stripped = "".join(c for c in folded if not unicodedata.combining(c))
+    stripped = "".join(c for c in folded if not unicodedata.combining(c)).replace("&", " and ")
     return " ".join(re.sub(r"[^0-9a-z]+", " ", stripped.lower()).split())
