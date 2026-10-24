@@ -10,7 +10,7 @@ from talx_to_stac.references import (
     SubmissionReferences,
     combine,
 )
-from talx_to_stac.schedule import Person, Resource, Session
+from talx_to_stac.schedule import Event, Person, Resource, Schedule, Session
 
 START = dt.datetime(2025, 7, 16, 9, tzinfo=dt.UTC)
 
@@ -28,10 +28,20 @@ def session(**overrides) -> Session:
     )
 
 
+def within(session: Session) -> Schedule:
+    event = Event(acronym="e", title="E", schedule_url="https://x.org/e/schedule/")
+    return Schedule(event=event, rooms=(), sessions=(session,))
+
+
+def references(source, session: Session):
+    return source.references_for(session, within(session))
+
+
 def test_submission_resources_become_resource_references():
     found = list(
-        SubmissionReferences().references_for(
-            session(resources=(Resource(title="Slides", url="https://x.org/s.pdf"),))
+        references(
+            SubmissionReferences(),
+            session(resources=(Resource(title="Slides", url="https://x.org/s.pdf"),)),
         )
     )
     assert found == [
@@ -54,18 +64,19 @@ def test_submission_resources_become_resource_references():
     ],
 )
 def test_links_are_found_in_markdown_html_and_bare_prose(prose, url, title):
-    found = list(AbstractReferences().references_for(session(abstract=prose)))
+    found = list(references(AbstractReferences(), session(abstract=prose)))
     assert [(r.url, r.title, r.kind) for r in found] == [(url, title, Kind.MENTION)]
 
 
 def test_prose_without_links_yields_nothing():
-    assert list(AbstractReferences().references_for(session(abstract="no links here"))) == []
+    assert list(references(AbstractReferences(), session(abstract="no links here"))) == []
 
 
 def test_the_same_url_in_abstract_and_description_is_one_mention():
     found = list(
-        AbstractReferences().references_for(
-            session(abstract="[a](https://x.org/a)", description="[a again](https://x.org/a)")
+        references(
+            AbstractReferences(),
+            session(abstract="[a](https://x.org/a)", description="[a again](https://x.org/a)"),
         )
     )
     assert len(found) == 1
@@ -73,18 +84,19 @@ def test_the_same_url_in_abstract_and_description_is_one_mention():
 
 def test_speaker_biographies_are_mined_too():
     speaker = Person(code="p", name="P", biography="I work at [ACME](https://acme.example)")
-    found = list(BiographyReferences().references_for(session(persons=(speaker,))))
+    found = list(references(BiographyReferences(), session(persons=(speaker,))))
     assert [r.url for r in found] == ["https://acme.example"]
 
 
 def test_a_url_named_in_prose_and_attached_as_a_resource_collapses_to_the_resource():
     combined = combine(SubmissionReferences(), AbstractReferences())
     found = list(
-        combined.references_for(
+        references(
+            combined,
             session(
                 resources=(Resource(title="Slides", url="https://x.org/s.pdf"),),
                 abstract="my slides are at https://x.org/s.pdf#page=1",
-            )
+            ),
         )
     )
     assert [(r.title, r.kind) for r in found] == [("Slides", Kind.RESOURCE)]
@@ -92,12 +104,13 @@ def test_a_url_named_in_prose_and_attached_as_a_resource_collapses_to_the_resour
 
 def test_a_source_that_raises_is_isolated():
     class Broken:
-        def references_for(self, session):
+        def references_for(self, session, schedule):
             raise RuntimeError("upstream is down")
 
     found = list(
-        combine(Broken(), SubmissionReferences()).references_for(
-            session(resources=(Resource(title="Slides", url="https://x.org/s.pdf"),))
+        references(
+            combine(Broken(), SubmissionReferences()),
+            session(resources=(Resource(title="Slides", url="https://x.org/s.pdf"),)),
         )
     )
     assert [r.title for r in found] == ["Slides"]

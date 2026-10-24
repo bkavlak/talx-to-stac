@@ -1,5 +1,12 @@
 # talx-to-stac
 
+> [!WARNING]
+> **This is a vibe-coded repository.** Most of the code, tests and docs were
+> written by an AI assistant under human direction, and reviewed only as far
+> as the tests and the checks in `pre-commit` reach. It works for the FOSS4G
+> catalog it publishes, but read it before you depend on it, and expect rough
+> edges. Issues and pull requests are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md).
+
 **[Browse the published catalog](https://browser.moregeo.it/external/https://bkavlak.github.io/talx-to-stac/stac/catalog.json)**
 — 2209 talks from eight FOSS4G conferences, at
 `https://bkavlak.github.io/talx-to-stac/stac/catalog.json`.
@@ -15,7 +22,7 @@ collection = to_stac(
     "https://talks.osgeo.org/foss4g-europe-2025/schedule/",
     venue="examples/foss4g-europe-2025.venue.yaml",
     references=[
-        Recordings.video_osgeo("foss4geurope", event="FOSS4GE 2025"),
+        Recordings.peertube_channel("foss4geurope", event="FOSS4GE 2025"),
         Recordings.youtube("PLqa06jy1NEM0Ss-CMTP4LrOw0f5aeVHdk", event="FOSS4GE 2025"),
     ],
 )
@@ -56,6 +63,22 @@ inside it is relative -- so it reads the same locally, from Pages, or from any
 STAC Browser pointed at its URL.
 
 See [ARCHITECTURE.md](ARCHITECTURE.md) for the design and its reasoning.
+
+## Review the recording matches
+
+Pretalx does not know where a talk's video ended up, so recordings are matched
+to talks by title, and titles on video platforms are truncated, reworded and
+decorated with speaker names. To see every decision the matcher makes and say
+which are wrong:
+
+```sh
+uv sync --extra dev --extra youtube
+uv run python tools/review_matches.py          # opens the review page
+uv run python tools/review_matches.py --score  # the matcher against every review so far
+```
+
+Verdicts land in `tools/review/labels.json`. [CONTRIBUTING.md](CONTRIBUTING.md)
+says how to turn them into a pull request.
 
 ## Try it locally
 

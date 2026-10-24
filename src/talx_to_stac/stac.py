@@ -121,7 +121,7 @@ def _item(
     )
     item.properties = {k: v for k, v in item.properties.items() if v not in (None, "", [])}
 
-    found = list(references.references_for(session))
+    found = list(references.references_for(session, schedule))
     _add_assets(item, session, found)
     _add_links(item, session, found)
     return item
