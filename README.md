@@ -69,6 +69,33 @@ See [ARCHITECTURE.md](ARCHITECTURE.md) for the design and its reasoning.
 How much of each conference the published catalog fills in.
 
 <!-- coverage -->
+Written by `examples/foss4g.py` from the catalog it publishes; edits here are lost.
+
+**Recordings.** Sessions with a recording, and how many of each platform's videos
+were matched to a session. The rest are reviewable with `tools/review_matches.py`.
+
+| Programme | Sessions | Filmed | PeerTube matched | YouTube matched |
+| --- | ---: | ---: | ---: | ---: |
+| FOSS4G 2022 Firenze, talks | 328 | 285 | 170 of 194 | 285 of 355 |
+| FOSS4G 2023 Prizren, talks | 296 | 267 | 275 of 279 | 275 of 279 |
+| FOSS4G Europe 2024 Tartu, talks | 169 | 162 | 162 of 162 | 162 of 162 |
+| FOSS4G 2024 Belem, talks | 131 | 74 | 74 of 88 | 74 of 88 |
+| FOSS4G Europe 2025 Mostar, talks | 153 | 136 | 140 of 140 | 139 of 139 |
+| FOSS4G 2025 Auckland, talks | 287 | 186 | - | 186 of 187 |
+
+**Locations.** Rooms placed by a reviewer, and the share of sessions held in them.
+Every other room sits on its city centre; `tools/review_venues.py` places them.
+
+| Conference | Rooms placed | Sessions placed |
+| --- | ---: | ---: |
+| FOSS4G 2022 Firenze | 0 of 24 | 0% of 447 |
+| FOSS4G 2023 Prizren | 0 of 14 | 0% of 337 |
+| FOSS4G Europe 2024 Tartu | 0 of 10 | 0% of 193 |
+| FOSS4G 2024 Belem | 0 of 16 | 0% of 181 |
+| FOSS4G Europe 2025 Mostar | 6 of 13 | 85% of 180 |
+| FOSS4G 2025 Auckland | 0 of 25 | 0% of 287 |
+| FOSS4G Europe 2026 Timisoara | 0 of 10 | 0% of 155 |
+| FOSS4G 2026 Hiroshima | 0 of 33 | 0% of 429 |
 <!-- /coverage -->
 
 ## Review the recording matches
