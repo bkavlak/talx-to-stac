@@ -81,6 +81,7 @@ are one conference. Only `schedule` and `recordings` (shaded) touch the network.
 | Sources return plain `Reference` | Sources return `pystac.Asset` | Otherwise every source, including third-party ones, imports pystac and re-decides roles and media types. |
 | Prose links are `rel=related` links | Prose links are assets | Asset keys would drown in sponsor URLs and personal homepages, and nothing would distinguish a slide deck from a passing mention. |
 | Caller-supplied room coordinates | Geocoding room names | Non-deterministic, network-bound, and "Phoenix Hall" does not geocode. |
+| Room coordinates are reviewed into the venue file itself | A separate label file, like recording reviews | A recording label is a fact the matcher is tested against; a placement *is* the data, with nothing to infer from it. `tools/review_venues.py` writes the file `Venue` already reads, and `--check` guards what a person can get wrong: swapped axes, a point far from the city, a room name no schedule has. |
 | Recordings opt-in | Recordings resolved inline | Keeps the default transform offline after the fetch, and mocks out of every mapper test. |
 | One Collection per event URL | One Collection for a whole conference series | Workshops and the main track have different dates, rooms and licences. A parent Catalog composes trivially. |
 

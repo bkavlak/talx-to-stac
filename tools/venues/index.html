@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Room Placement Review</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+/* Layout: the room list on the left, the map on the right; placing happens under the map. */
+:root {
+  --bg:#fbfbf9; --panel:#ffffff; --fg:#16211c; --mut:#5d6b64; --line:#dfe3e0; --acc:#2f7d4f; --acc-soft:#e3f0e8;
+  --warn:#a86a12; --warn-soft:#f6ecd9;
+  --sans:ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif; --mono:ui-monospace,SFMono-Regular,Menlo,monospace;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark) { :root {
+  --bg:#121714; --panel:#18201b; --fg:#e6ece8; --mut:#9aa8a0; --line:#2a352f; --acc:#6fbf8b; --acc-soft:#1f3328;
+  --warn:#e0a74e; --warn-soft:#352a17; color-scheme:dark } }
+* { box-sizing:border-box }
+body { margin:0; background:var(--bg); color:var(--fg); font:14px/1.5 var(--sans); padding:20px 16px 40px }
+.wrap { max-width:1400px; margin:0 auto; display:grid; gap:16px }
+h1 { font-size:1.45rem; margin:0 }
+h2 { font-size:.78rem; text-transform:uppercase; letter-spacing:.08em; color:var(--mut); margin:0 0 8px; font-weight:600 }
+.lead { color:var(--mut); margin:4px 0 0; max-width:80ch }
+code, .mono { font-family:var(--mono) }
+button, select, input { font:inherit; color:inherit }
+.card { background:var(--panel); border:1px solid var(--line); border-radius:8px; padding:14px; min-width:0 }
+.bay { display:grid; grid-template-columns:minmax(0,400px) minmax(0,1fr); gap:16px; align-items:start }
+@media (max-width:900px){ .bay { grid-template-columns:1fr } }
+select, input[type=search], input[type=text] { padding:6px 8px; border:1px solid var(--line); border-radius:6px; background:var(--bg); width:100% }
+.stat { color:var(--mut); font-size:.82rem; margin:8px 0 }
+.bar { height:8px; border-radius:2px; background:var(--line); overflow:hidden; margin-top:4px }
+.bar span { display:block; height:100%; background:var(--acc) }
+.rooms { list-style:none; margin:8px 0 0; padding:0; max-height:58vh; overflow-y:auto; border-top:1px solid var(--line) }
+.rooms li { display:grid; grid-template-columns:auto minmax(0,1fr) auto; gap:8px; align-items:center; padding:7px 4px; border-bottom:1px solid var(--line); cursor:pointer }
+.rooms li.sel { background:var(--acc-soft) }
+.rooms .n { overflow:hidden; text-overflow:ellipsis; white-space:nowrap }
+.rooms .m { font-size:.72rem; color:var(--mut) }
+.pill { font-size:.7rem; padding:1px 8px; border-radius:999px; white-space:nowrap }
+.p-ok { background:var(--acc-soft); color:var(--acc) } .p-warn { background:var(--warn-soft); color:var(--warn) }
+.row { display:flex; flex-wrap:wrap; gap:8px; align-items:center }
+.btn { padding:6px 12px; border-radius:6px; border:1px solid var(--line); background:var(--panel); cursor:pointer }
+.btn.primary { background:var(--acc); border-color:var(--acc); color:var(--bg) }
+.btn[disabled] { opacity:.5; cursor:not-allowed }
+#map { height:62vh; border-radius:8px; border:1px solid var(--line) }
+.results { list-style:none; margin:6px 0 0; padding:0; font-size:.82rem }
+.results li { padding:4px 0; cursor:pointer; color:var(--acc) }
+.help { font-size:.78rem; color:var(--mut) }
+.detail { font-size:.84rem; color:var(--mut); margin:8px 0 0 }
+.toast { position:fixed; right:16px; bottom:16px; background:var(--fg); color:var(--bg); padding:8px 14px; border-radius:6px; opacity:0; transition:opacity .2s; z-index:1000 }
+.toast.show { opacity:1 }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Room placement review</h1>
+    <p class="lead">Pretalx knows room names, not where rooms are. Each room below is a STAC geometry for every session held in it;
+    until someone places it, it sits on the city centre. Select rooms, click where they are on the map, and place them:
+    the conference's <code>examples/&lt;conference&gt;.venue.yaml</code> is rewritten at once. Commit it to contribute,
+    and <code>uv run python tools/review_venues.py --check</code> says what still looks wrong.</p>
+  </header>
+  <section class="bay">
+    <div class="card">
+      <label class="help" for="conf">Conference</label>
+      <select id="conf"></select>
+      <div class="stat" id="stat"></div>
+      <input id="filter" type="search" placeholder="Filter rooms, e.g. UBT C">
+      <div class="row" style="margin-top:8px">
+        <button class="btn" id="all">Select all shown</button>
+        <button class="btn" id="none">Clear selection</button>
+      </div>
+      <ul class="rooms" id="rooms"></ul>
+    </div>
+    <div class="card" style="display:grid;gap:12px">
+      <div id="map"></div>
+      <div>
+        <h2>Place <span id="selcount">0 rooms</span></h2>
+        <div class="row">
+          <input id="place" type="text" placeholder="What is there, e.g. Faculty of Economics, 2nd floor" style="flex:1;min-width:220px">
+          <button class="btn primary" id="save" disabled>Place here</button>
+          <button class="btn" id="reset" disabled>Back to city centre</button>
+        </div>
+        <p class="help" id="hint">Select rooms on the left, then click the map where they are. Drag the pin to adjust.</p>
+        <div class="detail" id="detail"></div>
+      </div>
+      <div>
+        <h2>Find a building</h2>
+        <div class="row"><input id="q" type="search" placeholder="Search OpenStreetMap, e.g. UBT Prizren" style="flex:1"><button class="btn" id="go">Search</button></div>
+        <ul class="results" id="results"></ul>
+      </div>
+    </div>
+  </section>
+</div>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const text = html => { const d=document.createElement("div"); d.innerHTML=html||""; return d.textContent.trim(); };
+function toast(m){ const t=$("#toast"); t.textContent=m; t.classList.add("show"); clearTimeout(toast.h); toast.h=setTimeout(()=>t.classList.remove("show"),1600); }
+
+let CONFS = [], conf = null, selected = new Set(), pending = null;
+const map = L.map("map").setView([0,0], 2);
+L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {maxZoom:19, attribution:"&copy; OpenStreetMap contributors"}).addTo(map);
+const layer = L.layerGroup().addTo(map);
+const dot = (color, r) => ({radius:r, color, weight:2, fillColor:color, fillOpacity:.6});
+
+function render(){
+  const shown = visible(), total = conf.rooms.reduce((a,r)=>a+r.sessions,0);
+  const placed = conf.rooms.filter(r=>r.placed), held = placed.reduce((a,r)=>a+r.sessions,0);
+  $("#stat").innerHTML = `${placed.length} of ${conf.rooms.length} rooms placed, holding ${Math.round(100*held/(total||1))}% of ${total} sessions · <code>${esc(conf.file)}</code>
+    <div class="bar"><span style="width:${(100*held/(total||1)).toFixed(1)}%"></span></div>`;
+  $("#rooms").innerHTML = shown.map(r=>`<li data-n="${esc(r.name)}" class="${selected.has(r.name)?"sel":""}">
+    <input type="checkbox" ${selected.has(r.name)?"checked":""} aria-label="Select ${esc(r.name)}">
+    <div style="min-width:0"><div class="n">${esc(r.name)}</div><div class="m">${r.sessions} sessions · ${esc(r.programmes.join(", "))}${r.place?" · "+esc(r.place):""}</div></div>
+    <span class="pill ${r.placed?"p-ok":"p-warn"}">${r.placed?"placed":"city centre"}</span></li>`).join("");
+  const n = selected.size;
+  $("#selcount").textContent = `${n} room${n===1?"":"s"}`;
+  $("#save").disabled = !(n && pending); $("#reset").disabled = !n;
+  const one = n===1 ? conf.rooms.find(r=>selected.has(r.name)) : null;
+  $("#detail").innerHTML = one ? `<b>${esc(one.name)}</b>${one.capacity?` · seats ${one.capacity}`:""}${one.description?` · pretalx says: ${esc(text(one.description))}`:""}` : "";
+  drawMap();
+}
+function visible(){ const q=$("#filter").value.trim().toLowerCase(); return conf.rooms.filter(r=>!q||r.name.toLowerCase().includes(q)); }
+function drawMap(){
+  layer.clearLayers();
+  L.circleMarker(conf.default, dot("#888", 6)).bindTooltip("City centre: rooms not yet placed").addTo(layer);
+  const groups = {};
+  for(const r of conf.rooms.filter(r=>r.placed)) (groups[r.point.join()] ||= {point:r.point, rooms:[]}).rooms.push(r);
+  for(const g of Object.values(groups)){
+    const sel = g.rooms.some(r=>selected.has(r.name));
+    L.circleMarker(g.point, dot(sel?"#2f7d4f":"#356a99", sel?9:7)).bindTooltip(g.rooms.map(r=>esc(r.name)).join("<br>")).addTo(layer)
+      .on("click", e => { L.DomEvent.stopPropagation(e); g.rooms.forEach(r=>selected.add(r.name)); setPending(g.point, false); render(); });
+  }
+  if(pending){
+    L.marker(pending, {draggable:true}).addTo(layer).on("dragend", e => { const p=e.target.getLatLng(); pending=[p.lat,p.lng]; });
+  }
+}
+function setPending(p, pan){ pending = p; if(pan) map.setView(p, Math.max(map.getZoom(), 17)); drawMap(); render(); }
+function choose(id){
+  conf = CONFS.find(c=>c.id===id); selected.clear(); pending = null; $("#place").value = "";
+  const pts = conf.rooms.filter(r=>r.placed).map(r=>r.point);
+  if(pts.length) map.fitBounds(L.latLngBounds([...pts, conf.default]).pad(0.3), {maxZoom:17}); else map.setView(conf.default, 14);
+  try { localStorage.setItem("venue-conf", id); } catch {}
+  render();
+}
+async function post(rooms, point, place){
+  const res = await fetch("/place", {method:"POST", headers:{"Content-Type":"application/json"}, body:JSON.stringify({conference:conf.id, rooms, point, place})});
+  if(!res.ok){ toast("Not saved: is review_venues.py still running?"); return; }
+  const fresh = await res.json(); CONFS[CONFS.indexOf(conf)] = fresh; conf = fresh;
+  $("#conf").selectedOptions[0].textContent = `${fresh.title} (${fresh.rooms.filter(r=>r.placed).length}/${fresh.rooms.length} placed)`;
+  toast(point ? `Placed ${rooms.length} room${rooms.length===1?"":"s"}` : "Back on the city centre");
+  pending = null; render();
+}
+
+map.on("click", e => { if(!selected.size){ toast("Select rooms first"); return; } setPending([e.latlng.lat, e.latlng.lng], false); });
+$("#rooms").addEventListener("click", e => {
+  const li = e.target.closest("li"); if(!li) return; const n = li.dataset.n;
+  if(e.target.matches("input") || e.metaKey || e.ctrlKey || e.shiftKey) selected.has(n) ? selected.delete(n) : selected.add(n);
+  else { selected.clear(); selected.add(n); }
+  const r = conf.rooms.find(r=>r.name===n);
+  if(selected.size===1 && r.placed){ pending = r.point; map.setView(r.point, Math.max(map.getZoom(), 16)); $("#place").value = r.place; }
+  render();
+});
+$("#filter").addEventListener("input", render);
+$("#all").addEventListener("click", () => { visible().forEach(r=>selected.add(r.name)); render(); });
+$("#none").addEventListener("click", () => { selected.clear(); pending=null; render(); });
+$("#conf").addEventListener("change", e => choose(e.target.value));
+$("#save").addEventListener("click", () => post([...selected], pending, $("#place").value.trim()));
+$("#reset").addEventListener("click", () => post([...selected], null, ""));
+async function search(){
+  const q = $("#q").value.trim(); if(!q) return;
+  $("#results").innerHTML = `<li class="help">Searching…</li>`;
+  try {
+    const url = `https://nominatim.openstreetmap.org/search?format=jsonv2&limit=6&q=${encodeURIComponent(q)}`;
+    const hits = await (await fetch(url, {headers:{"Accept-Language":"en"}})).json();
+    $("#results").innerHTML = hits.length ? hits.map((h,i)=>`<li data-i="${i}">${esc(h.display_name)}</li>`).join("") : `<li class="help">Nothing found.</li>`;
+    $("#results").onclick = e => { const h = hits[+e.target.closest("li")?.dataset.i]; if(h){ map.setView([+h.lat,+h.lon], 18); if(selected.size) setPending([+h.lat,+h.lon], false); } };
+  } catch { $("#results").innerHTML = `<li class="help">Search is unavailable; pan the map instead.</li>`; }
+}
+$("#go").addEventListener("click", search);
+$("#q").addEventListener("keydown", e => { if(e.key==="Enter") search(); });
+
+fetch("/conferences.json").then(r=>r.json()).then(cs => {
+  CONFS = cs;
+  $("#conf").innerHTML = cs.map(c=>{ const p=c.rooms.filter(r=>r.placed).length; return `<option value="${esc(c.id)}">${esc(c.title)} (${p}/${c.rooms.length} placed)</option>`; }).join("");
+  let last = null; try { last = localStorage.getItem("venue-conf"); } catch {}
+  const first = cs.find(c=>c.id===last) || cs[0]; $("#conf").value = first.id; choose(first.id);
+}).catch(() => { $("#stat").textContent = "Could not load the rooms. Start this page with uv run python tools/review_venues.py."; });
+</script>
+</body>
+</html>

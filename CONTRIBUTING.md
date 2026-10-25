@@ -33,6 +33,28 @@ people to look.
 Labels describe the talks and videos, not a version of the matcher, so they
 stay true however the matching changes. That is what makes them a test.
 
+## Placing rooms
+
+Every talk is a STAC Item placed at its room, but pretalx does not know where
+rooms are. A conference's rooms come from `examples/<conference>.venue.yaml`;
+until someone writes one, every room sits on the city centre.
+
+1. Run `uv run python tools/review_venues.py`. It shows one conference's rooms
+   on a map, with how many sessions each holds and what pretalx says about it --
+   often the building and floor.
+2. Select rooms, click where they are (the building search helps), say what is
+   there, and place them. Rooms in one building can be placed together. The
+   venue file is rewritten as you go.
+3. Run `uv run python tools/review_venues.py --check`. It reports how many
+   sessions each conference has placed, and flags a room far from its city
+   (latitude and longitude swapped, usually) or a file entry no schedule names
+   (usually a misspelling, which leaves that room on the city centre).
+4. Commit the venue files and open a pull request. `examples/foss4g.py` reads
+   them, so the next catalog build moves those talks.
+
+Place a room as precisely as you can tell: the building is enough, the room is
+better. Leave a room you cannot find on the city centre rather than guessing.
+
 ## Improving the matcher
 
 1. Run `uv run python tools/review_matches.py --score` and note the result. It
