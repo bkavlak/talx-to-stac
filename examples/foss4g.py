@@ -6,8 +6,9 @@ The pretalx slugs below were discovered, not guessed: the workshop suffix is
 ``-workshop`` for some conferences and ``-workshops`` for others, and the
 academic programme is ``-academic-track`` where it exists at all.
 
-Room coordinates are city centres except for FOSS4G Europe 2025, which has a
-room-level venue file. They place a conference on the map; they are not surveyed.
+Room coordinates come from ``<conference>.venue.yaml`` beside this file where
+one exists, and are the city centre otherwise. They place a conference on the
+map; they are not surveyed.
 
 Output goes to ``docs/stac``, which GitHub Pages publishes. The catalog is
 self-contained -- every link inside it is relative -- so it reads correctly from
@@ -40,8 +41,19 @@ def event(slug: str) -> str:
     return f"{PRETALX}/{slug}/schedule/"
 
 
-def city(latitude: float, longitude: float) -> Venue:
-    """A venue known only to city level."""
+def venue_file(conference: str) -> Path:
+    """Where a conference's room coordinates are kept, once someone has placed them."""
+    return HERE / f"{conference}.venue.yaml"
+
+
+def venue(conference: str, latitude: float, longitude: float) -> Venue:
+    """The conference's venue file if there is one, else every room at the city centre.
+
+    ``tools/review_venues.py`` writes these files; see CONTRIBUTING.md.
+    """
+    path = venue_file(conference)
+    if path.exists():
+        return Venue.from_file(path)
     return Venue.from_mapping({}, default=(latitude, longitude))
 
 
@@ -59,7 +71,7 @@ CONFERENCES = [
     Conference(
         id="foss4g-2022",
         title="FOSS4G 2022 Firenze",
-        venue=city(43.7696, 11.2558),
+        venue=venue("foss4g-2022", 43.7696, 11.2558),
         programmes=[
             Programme(
                 "talks",
@@ -73,7 +85,7 @@ CONFERENCES = [
     Conference(
         id="foss4g-2023",
         title="FOSS4G 2023 Prizren",
-        venue=city(42.2139, 20.7397),
+        venue=venue("foss4g-2023", 42.2139, 20.7397),
         programmes=[
             Programme(
                 "talks",
@@ -86,7 +98,7 @@ CONFERENCES = [
     Conference(
         id="foss4g-europe-2024",
         title="FOSS4G Europe 2024 Tartu",
-        venue=city(58.3780, 26.7290),
+        venue=venue("foss4g-europe-2024", 58.3780, 26.7290),
         programmes=[
             Programme(
                 "talks",
@@ -99,7 +111,7 @@ CONFERENCES = [
     Conference(
         id="foss4g-2024",
         title="FOSS4G 2024 Belem",
-        venue=city(-1.4558, -48.5039),
+        venue=venue("foss4g-2024", -1.4558, -48.5039),
         programmes=[
             Programme(
                 "talks",
@@ -113,7 +125,7 @@ CONFERENCES = [
     Conference(
         id="foss4g-europe-2025",
         title="FOSS4G Europe 2025 Mostar",
-        venue=Venue.from_file(HERE / "foss4g-europe-2025.venue.yaml"),
+        venue=venue("foss4g-europe-2025", 43.3416, 17.8094),
         programmes=[
             Programme(
                 "talks",
@@ -126,7 +138,7 @@ CONFERENCES = [
     Conference(
         id="foss4g-2025",
         title="FOSS4G 2025 Auckland",
-        venue=city(-36.8485, 174.7633),
+        venue=venue("foss4g-2025", -36.8485, 174.7633),
         description=(
             "FOSS4G 2025 Auckland: one pretalx event for the whole programme. "
             "Its workshops and academic papers are Items here too, told apart "
@@ -143,7 +155,7 @@ CONFERENCES = [
     Conference(
         id="foss4g-europe-2026",
         title="FOSS4G Europe 2026 Timisoara",
-        venue=city(45.7489, 21.2087),
+        venue=venue("foss4g-europe-2026", 45.7489, 21.2087),
         programmes=[
             Programme("talks", event("foss4g-europe-2026")),
             Programme("workshops", event("foss4g-europe-2026-workshops")),
@@ -152,7 +164,7 @@ CONFERENCES = [
     Conference(
         id="foss4g-2026",
         title="FOSS4G 2026 Hiroshima",
-        venue=city(34.3853, 132.4553),
+        venue=venue("foss4g-2026", 34.3853, 132.4553),
         programmes=[
             Programme("talks", event("foss4g-2026")),
             Programme("workshops", event("foss4g-2026-workshop")),

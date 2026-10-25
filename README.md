@@ -77,8 +77,12 @@ uv run python tools/review_matches.py          # opens the review page
 uv run python tools/review_matches.py --score  # the matcher against every review so far
 ```
 
-Verdicts land in `tools/review/labels.json`. [CONTRIBUTING.md](CONTRIBUTING.md)
-says how to turn them into a pull request.
+Verdicts land in `tools/review/labels.json`.
+
+Room coordinates are reviewed the same way: `tools/review_venues.py` places each
+conference's rooms on a map and writes `examples/<conference>.venue.yaml`, and
+`--check` reports coverage and suspicious points.
+[CONTRIBUTING.md](CONTRIBUTING.md) says how to turn either into a pull request.
 
 ## Try it locally
 
