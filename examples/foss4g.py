@@ -251,8 +251,23 @@ def _child(parent: pystac.Catalog, ident: str) -> pystac.Catalog:
 def write_coverage(report: list[ConferenceCoverage], path: Path) -> None:
     """Rewrite the README's coverage section, between its two markers, from the report."""
     platforms = sorted({p for c in report for g in c.programmes for p in g.videos})
+    filmed = [g for c in report for g in c.programmes if g.videos]
+    talks, recorded = sum(g.sessions for g in filmed), sum(g.filmed for g in filmed)
+    listed = sum(n for g in filmed for _, n in g.videos.values())
+    matched = sum(m for g in filmed for m, _ in g.videos.values())
+    sessions = sum(c.sessions for c in report)
+    rooms, placed = sum(c.rooms for c in report), sum(c.placed for c in report)
+    held = sum(c.sessions_placed for c in report)
     lines = [
         "Written by `examples/foss4g.py` from the catalog it publishes; edits here are lost.",
+        "",
+        f"**At a glance.** {sessions:,} sessions from {len(report)} conferences.",
+        f"{recorded:,} of the {talks:,} talks in the {len(filmed)} programmes that published",
+        f"recordings have one attached ({_share(recorded, talks)}), and {matched:,} of the",
+        f"{listed:,} videos those platforms list are matched to a talk"
+        f" ({_share(matched, listed)}).",
+        f"{placed} of {rooms} rooms are placed, holding {_share(held, sessions)} of all sessions;",
+        "the rest sit on their conference's city centre.",
         "",
         "**Recordings.** Sessions with a recording, and how many of each platform's videos",
         "were matched to a session. The rest are reviewable with `tools/review_matches.py`.",
@@ -287,6 +302,10 @@ def write_coverage(report: list[ConferenceCoverage], path: Path) -> None:
         lambda m: f"{m.group(1)}\n" + "\n".join(lines) + f"\n{m.group(2)}", text
     )
     path.write_text(section, encoding="utf-8")
+
+
+def _share(part: int, whole: int) -> str:
+    return f"{part / whole:.0%}" if whole else "0%"
 
 
 def write_index(report: list[ConferenceCoverage], path: Path) -> None:

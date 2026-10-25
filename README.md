@@ -8,12 +8,22 @@
 > edges. Issues and pull requests are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 **[Browse the published catalog](https://browser.moregeo.it/external/https://bkavlak.github.io/talx-to-stac/stac/catalog.json)**
-— 2209 talks from eight FOSS4G conferences, at
+— every FOSS4G conference on talks.osgeo.org, at
 `https://bkavlak.github.io/talx-to-stac/stac/catalog.json`.
+[Coverage](#coverage) says how much of it is filled in.
 
 Map a [pretalx](https://pretalx.com) conference schedule to a
 [STAC](https://stacspec.org) Collection: one Collection per event, one Item per
 scheduled session, placed at the room it happens in and spanning the time it runs.
+
+- **Sessions become Items.** Talks, workshops, keynotes and breaks, with their
+  speakers, track, room and time, straight from the pretalx export.
+- **Recordings are found and attached.** PeerTube and YouTube playlists are
+  matched to talks by title, through truncations, rewordings and speaker names.
+- **Rooms are placed.** A venue file gives each room a point; without one, a
+  conference sits on its city centre.
+- **People check both.** Two local review tools show every recording match and
+  every room on a map, and turn what reviewers say into data the next build uses.
 
 ```python
 from talx_to_stac import Recordings, to_stac
@@ -57,7 +67,7 @@ catalog = to_catalog(
 
 giving `Catalog -> Collection per conference -> Collection per programme -> Item
 per session`. `examples/foss4g.py` builds every FOSS4G conference on
-talks.osgeo.org this way: 8 conferences, 17 programmes, 2209 talks. It writes
+talks.osgeo.org this way. It writes
 `docs/`, which GitHub Pages serves. The catalog is self-contained -- every link
 inside it is relative -- so it reads the same locally, from Pages, or from any
 STAC Browser pointed at its URL.
@@ -70,6 +80,13 @@ How much of each conference the published catalog fills in.
 
 <!-- coverage -->
 Written by `examples/foss4g.py` from the catalog it publishes; edits here are lost.
+
+**At a glance.** 2,209 sessions from 8 conferences.
+1,110 of the 1,364 talks in the 6 programmes that published
+recordings have one attached (81%), and 1,942 of the
+2,073 videos those platforms list are matched to a talk (94%).
+6 of 145 rooms are placed, holding 7% of all sessions;
+the rest sit on their conference's city centre.
 
 **Recordings.** Sessions with a recording, and how many of each platform's videos
 were matched to a session. The rest are reviewable with `tools/review_matches.py`.
