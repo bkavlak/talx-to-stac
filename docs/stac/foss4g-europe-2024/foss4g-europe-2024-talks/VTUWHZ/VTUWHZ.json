@@ -92,9 +92,9 @@
         "presentation"
       ]
     },
-    "map-example-natural-colors-rgb": {
-      "href": "https://teenus.maaamet.ee/ows/wms-satiladu?sensor=sentinel-2&filter=rgb&date=2024-06-28&mapbox=392172,6516895,448733,6543762",
-      "title": "Map example - natural colors (RGB)",
+    "map-example-winter-land-cover-filter-rnr": {
+      "href": "https://teenus.maaamet.ee/ows/wms-satiladu?sensor=sentinel-2&filter=msi&bands=1,4,1&curve=0&curver=-100&curveg=0&curveb=-100&lut1=0:0,31:16,63:34,95:53,127:74,159:99,191:127,223:165,255:255&lut2=0:0,31:31,63:63,95:95,127:127,159:159,191:191,223:223,255:255&lut3=0:0,31:16,63:34,95:53,127:74,159:99,191:127,223:165,255:255&date=2024-01-07&mapbox=392171,6516895,448734,6543762",
+      "title": "Map example - winter land cover filter (RNR)",
       "roles": [
         "data"
       ]
@@ -106,9 +106,9 @@
         "data"
       ]
     },
-    "map-example-winter-land-cover-filter-rnr": {
-      "href": "https://teenus.maaamet.ee/ows/wms-satiladu?sensor=sentinel-2&filter=msi&bands=1,4,1&curve=0&curver=-100&curveg=0&curveb=-100&lut1=0:0,31:16,63:34,95:53,127:74,159:99,191:127,223:165,255:255&lut2=0:0,31:31,63:63,95:95,127:127,159:159,191:191,223:223,255:255&lut3=0:0,31:16,63:34,95:53,127:74,159:99,191:127,223:165,255:255&date=2024-01-07&mapbox=392171,6516895,448734,6543762",
-      "title": "Map example - winter land cover filter (RNR)",
+    "map-example-natural-colors-rgb": {
+      "href": "https://teenus.maaamet.ee/ows/wms-satiladu?sensor=sentinel-2&filter=rgb&date=2024-06-28&mapbox=392172,6516895,448733,6543762",
+      "title": "Map example - natural colors (RGB)",
       "roles": [
         "data"
       ]
