@@ -20,8 +20,8 @@ scheduled session, placed at the room it happens in and spanning the time it run
   speakers, track, room and time, straight from the pretalx export.
 - **Recordings are found and attached.** PeerTube and YouTube playlists are
   matched to talks by title, through truncations, rewordings and speaker names.
-- **Rooms are placed.** A venue file gives each room a point; without one, a
-  conference sits on its city centre.
+- **Rooms are placed.** A venue file gives each room a point; a room it does not
+  list sits on its conference's city centre.
 - **People check both.** Two local review tools show every recording match and
   every room on a map, and turn what reviewers say into data the next build uses.
 
@@ -67,8 +67,7 @@ catalog = to_catalog(
 
 giving `Catalog -> Collection per conference -> Collection per programme -> Item
 per session`. `examples/foss4g.py` builds every FOSS4G conference on
-talks.osgeo.org this way. It writes
-`docs/`, which GitHub Pages serves. The catalog is self-contained -- every link
+talks.osgeo.org this way and writes `docs/`, which GitHub Pages serves. The catalog is self-contained -- every link
 inside it is relative -- so it reads the same locally, from Pages, or from any
 STAC Browser pointed at its URL.
 
@@ -115,32 +114,23 @@ Every other room sits on its city centre; `tools/review_venues.py` places them.
 | FOSS4G 2026 Hiroshima | 0 of 33 | 0% of 429 |
 <!-- /coverage -->
 
-## Review the recording matches
+## Review matches and rooms
 
-Pretalx does not know where a talk's video ended up, so recordings are matched
-to talks by title, and titles on video platforms are truncated, reworded and
-decorated with speaker names. To see every decision the matcher makes and say
-which are wrong:
-
-```sh
-uv sync --extra dev --extra youtube
-uv run python tools/review_matches.py          # opens the review page
-uv run python tools/review_matches.py --score  # the matcher against every review so far
-```
-
-Verdicts land in `tools/review/labels.json`.
-
-Room coordinates are reviewed the same way: `tools/review_venues.py` places each
-conference's rooms on a map and writes `examples/<conference>.venue.yaml`, and
-`--check` reports coverage and suspicious points.
-[CONTRIBUTING.md](CONTRIBUTING.md) says how to turn either into a pull request.
+Pretalx knows neither where a talk's video ended up nor where its room is, so
+recordings are matched by title and rooms are placed by hand. Both need people
+to check them: `tools/review_matches.py` and `tools/review_venues.py` each open
+a review page, and [CONTRIBUTING.md](CONTRIBUTING.md) walks through both.
 
 ## Try it locally
 
-The browser needs nothing installed -- `tools/browse.py` is standard library only,
-and the catalog is already built in `docs/stac`:
+The catalog is already built in `docs/stac`, and `tools/browse.py` is standard
+library only. It serves a [STAC Browser](https://github.com/radiantearth/stac-browser)
+5.0.0 at `/` and the catalog at `/stac`, from one origin, so nothing needs CORS.
+The browser app is not checked in; `tools/build_browser.sh` builds it once (node
+and git required).
 
 ```sh
+tools/build_browser.sh             # once
 python3 tools/browse.py            # http://localhost:8000
 ```
 
@@ -159,15 +149,7 @@ uv run python -m talx_to_stac https://talks.osgeo.org/foss4g-2026/schedule/ -o /
 python3 tools/browse.py --catalog /tmp/stac2026
 ```
 
-```
-usage: talx-to-stac [-h] [-o OUT] [--venue VENUE] [--osgeo-channel HANDLE]
-                    [--youtube-playlist ID_OR_URL] [--recordings-event TAG]
-                    event_url
-```
-
-`tools/browse.py` serves a bundled [STAC Browser](https://github.com/radiantearth/stac-browser)
-5.0.0 at `/` and the catalog at `/stac`, from one origin, so nothing needs CORS.
-`tools/build_browser.sh` rebuilds the bundled app from source.
+`python -m talx_to_stac --help` lists the options, recordings sources included.
 
 ## Development
 

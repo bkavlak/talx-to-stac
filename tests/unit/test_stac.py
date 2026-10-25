@@ -71,6 +71,13 @@ def test_a_room_without_coordinates_still_produces_a_geometry():
     assert item.geometry["coordinates"] == [0.0, 0.0]
 
 
+def test_a_schedule_with_no_sessions_still_has_a_valid_extent():
+    """An event can publish its schedule before it has any sessions."""
+    extent = collection().extent
+    assert extent.spatial.bboxes == [[-180.0, -90.0, 180.0, 90.0]]
+    assert extent.temporal.intervals == [[None, None]]
+
+
 def test_empty_properties_are_left_out_rather_than_written_as_null():
     assert "talk:subtitle" not in only_item(session()).properties
 

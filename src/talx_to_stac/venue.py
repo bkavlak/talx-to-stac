@@ -30,9 +30,8 @@ class VenueError(ValueError):
 class Venue:
     """A lookup from room name to a point on the Earth.
 
-    Room names are matched loosely: case, surrounding whitespace and the room
-    ``slug`` all resolve to the same entry, so a mapping written by hand does
-    not have to reproduce pretalx's exact spelling.
+    Room names are matched loosely -- case and spacing do not matter -- so a
+    mapping written by hand does not have to reproduce pretalx's exact spelling.
     """
 
     _points: Mapping[str, Coordinate]
@@ -48,7 +47,7 @@ class Venue:
         """Build a venue from room names to coordinates.
 
         Args:
-            rooms: Room name (or slug) to ``[latitude, longitude]``, or to a
+            rooms: Room name to ``[latitude, longitude]``, or to a
                 mapping with ``lat``/``lon`` keys.
             default: Coordinate for rooms not listed, in the same forms.
 
@@ -102,7 +101,7 @@ class Venue:
         """The GeoJSON Point for a room, always.
 
         Args:
-            room: The room name or slug.
+            room: The room name.
 
         Returns:
             A GeoJSON Point geometry. Unknown rooms get the venue default.

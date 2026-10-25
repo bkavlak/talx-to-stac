@@ -11,13 +11,13 @@ stated here as data, and this module turns it into the STAC tree:
 
 from __future__ import annotations
 
-import datetime as dt
 from dataclasses import dataclass, field
 from typing import TYPE_CHECKING, Any
 
 import pystac
 
 from talx_to_stac import to_stac
+from talx_to_stac.stac import LICENSE, extent_of
 
 if TYPE_CHECKING:
     from collections.abc import Iterable, Mapping, Sequence
@@ -25,8 +25,6 @@ if TYPE_CHECKING:
 
     from talx_to_stac.references import ReferenceSource
     from talx_to_stac.venue import Venue
-
-LICENSE = "other"
 
 
 @dataclass(frozen=True, slots=True)
@@ -40,7 +38,8 @@ class Programme:
 
     name: str
     event_url: str
-    recordings: Sequence[ReferenceSource] = ()
+    references: Sequence[ReferenceSource] = ()
+    """Sources beyond the offline defaults, such as its recordings."""
 
 
 @dataclass(frozen=True, slots=True)
@@ -90,7 +89,7 @@ def _conference(conference: Conference) -> pystac.Collection:
         id=conference.id,
         title=conference.title,
         description=conference.description or _describe(conference, children),
-        extent=_union(children),
+        extent=extent_of(item for child in children for item in child.get_items()),
         license=LICENSE,
     )
     for child in children:
@@ -104,7 +103,7 @@ def _programme(conference: Conference, programme: Programme) -> pystac.Collectio
     collection = to_stac(
         programme.event_url,
         venue=conference.venue,
-        references=list(programme.recordings),
+        references=programme.references,
         collection_id=f"{conference.id}-{programme.name}",
     )
     # Inside a conference, "FOSS4G 2024" beside "FOSS4G 2024 Belem" says
@@ -113,26 +112,6 @@ def _programme(conference: Conference, programme: Programme) -> pystac.Collectio
     collection.title = programme.name.capitalize()
     collection.extra_fields["talk:programme"] = programme.name
     return collection
-
-
-def _union(collections: Sequence[pystac.Collection]) -> pystac.Extent:
-    """Cover every child, because a conference has no extent of its own."""
-    boxes = [box for c in collections for box in c.extent.spatial.bboxes]
-    intervals = [i for c in collections for i in c.extent.temporal.intervals]
-    bbox = (
-        [
-            min(b[0] for b in boxes),
-            min(b[1] for b in boxes),
-            max(b[2] for b in boxes),
-            max(b[3] for b in boxes),
-        ]
-        if boxes
-        else [-180.0, -90.0, 180.0, 90.0]
-    )
-    starts = [i[0] for i in intervals if i[0]]
-    ends = [i[1] for i in intervals if i[1]]
-    span: list[dt.datetime | None] = [min(starts), max(ends)] if starts and ends else [None, None]
-    return pystac.Extent(pystac.SpatialExtent([bbox]), pystac.TemporalExtent([span]))
 
 
 def _describe(conference: Conference, children: Sequence[pystac.Collection]) -> str:

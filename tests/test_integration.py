@@ -4,14 +4,9 @@ from __future__ import annotations
 
 import pytest
 
-from talx_to_stac import Recordings, Schedule, to_stac
+from talx_to_stac import DEFAULT_SOURCES, Recordings, Schedule, to_stac
 from talx_to_stac.recordings import Video
-from talx_to_stac.references import (
-    AbstractReferences,
-    BiographyReferences,
-    SubmissionReferences,
-    combine,
-)
+from talx_to_stac.references import combine
 from talx_to_stac.stac import build_collection
 from talx_to_stac.venue import Venue
 from tests.conftest import stub_client
@@ -44,9 +39,7 @@ def collection(schedule_payload, video_payload):
         Schedule.from_payload(schedule_payload),
         Venue.from_mapping(VENUE, default=[43.3416, 17.8094]),
         combine(
-            SubmissionReferences(),
-            AbstractReferences(),
-            BiographyReferences(),
+            *DEFAULT_SOURCES,
             Recordings.peertube_channel("foss4geurope", event="FOSS4GE 2025", client=client),
             Recordings(FakePlaylist(video_payload), event="FOSS4GE 2025"),
         ),

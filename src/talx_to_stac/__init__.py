@@ -9,7 +9,6 @@ Example:
 from __future__ import annotations
 
 import logging
-from collections.abc import Sequence
 from pathlib import PurePath
 from typing import TYPE_CHECKING, Any
 
@@ -28,7 +27,7 @@ from talx_to_stac.stac import build_collection
 from talx_to_stac.venue import Venue, VenueError
 
 if TYPE_CHECKING:
-    from collections.abc import Mapping
+    from collections.abc import Iterable, Mapping
     from pathlib import Path
 
     import pystac
@@ -68,7 +67,7 @@ def to_stac(
     event_url: str,
     *,
     venue: Venue | Mapping[str, Any] | str | Path | None = None,
-    references: ReferenceSource | Sequence[ReferenceSource] | None = None,
+    references: Iterable[ReferenceSource] = (),
     collection_id: str | None = None,
 ) -> pystac.Collection:
     """Transform a pretalx event into a STAC Collection of its talks.
@@ -80,11 +79,11 @@ def to_stac(
             YAML or JSON file holding that mapping. Rooms it does not cover fall
             back to its default, and omitting it altogether places every talk at
             0/0 -- the transform still succeeds, and says which rooms are missing.
-        collection_id: Identifier for the Collection, defaulting to the pretalx
-            acronym. Override it where that acronym would collide.
         references: Extra reference sources, such as
             :class:`~talx_to_stac.recordings.Recordings`. These are added to
             :data:`DEFAULT_SOURCES`, not substituted for them.
+        collection_id: Identifier for the Collection, defaulting to the pretalx
+            acronym. Override it where that acronym would collide.
 
     Returns:
         A Collection with one Item per scheduled session. Writing it out is the
@@ -97,7 +96,7 @@ def to_stac(
     schedule = Schedule.from_url(event_url)
     place = _venue(venue)
     _warn_about_missing_rooms(schedule, place)
-    sources = combine(*DEFAULT_SOURCES, *_sources(references))
+    sources = combine(*DEFAULT_SOURCES, *references)
     return build_collection(schedule, place, sources, collection_id=collection_id)
 
 
@@ -109,16 +108,6 @@ def _venue(venue: Venue | Mapping[str, Any] | str | Path | None) -> Venue:
     if isinstance(venue, str | PurePath):
         return Venue.from_file(venue)
     return Venue.from_mapping(venue)
-
-
-def _sources(
-    references: ReferenceSource | Sequence[ReferenceSource] | None,
-) -> tuple[ReferenceSource, ...]:
-    if references is None:
-        return ()
-    if isinstance(references, Sequence):
-        return tuple(references)
-    return (references,)
 
 
 def _warn_about_missing_rooms(schedule: Schedule, venue: Venue) -> None:

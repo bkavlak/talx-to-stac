@@ -2,7 +2,7 @@
 
 Pretalx knows room names, not where rooms are, so every talk's geometry comes
 from a venue file -- ``examples/<conference>.venue.yaml`` -- that a person wrote.
-Where there is none, every room of a conference sits on its city centre. This
+A room the file does not list sits on its ``default``, the city centre. This
 tool shows each conference's rooms on a map, with how many sessions each one
 holds and what pretalx says about it, and writes a reviewer's placements
 straight into that conference's venue file. The file is the record: it is what
@@ -76,10 +76,8 @@ class Conference:
     rooms: tuple[Room, ...]
 
     def venue(self) -> Venue:
-        """The venue as the catalog will see it: the file if any, else the city centre."""
-        if self.file.exists():
-            return Venue.from_file(self.file)
-        return Venue.from_mapping({}, default=self.default)
+        """The venue as the catalog will see it."""
+        return Venue.from_file(self.file)
 
     def as_json(self) -> dict[str, Any]:
         """The conference as the review page shows it."""
@@ -116,9 +114,8 @@ class Conference:
 
 def conferences(*, refresh: bool) -> list[Conference]:
     """Every conference of ``examples/foss4g.py``, its schedules cached on disk."""
-    example = _example()
     found = []
-    for conference in example.CONFERENCES:
+    for conference in _example().CONFERENCES:
         sessions: Counter[str] = Counter()
         programmes: dict[str, list[str]] = {}
         rooms: dict[str, Any] = {}
@@ -130,15 +127,13 @@ def conferences(*, refresh: bool) -> list[Conference]:
                     programmes[session.room].append(programme.name)
             for room in schedule.rooms:
                 rooms.setdefault(room.name, room)
-        default = _latlon(conference.venue, "\0 no such room")
-        if (file := example.venue_file(conference.id)).exists():
-            default = _default_of(file) or default
+        file = Path(conference.venue)
         found.append(
             Conference(
                 id=conference.id,
                 title=conference.title,
                 file=file,
-                default=default,
+                default=_default_of(file),
                 rooms=tuple(
                     Room(
                         name=name,
@@ -268,8 +263,6 @@ Entry = tuple[str, tuple[float, float], str]
 
 def _read(file: Path) -> dict[str, Entry]:
     """The rooms a venue file places, by matching key, keeping each line's comment."""
-    if not file.exists():
-        return {}
     loaded = yaml.safe_load(file.read_text(encoding="utf-8")) or {}
     places = _places(file)
     return {
@@ -281,8 +274,6 @@ def _read(file: Path) -> dict[str, Entry]:
 
 def _places(file: Path) -> dict[str, str]:
     """The comment on each room's line, which says what the place is."""
-    if not file.exists():
-        return {}
     found = {}
     for line in file.read_text(encoding="utf-8").splitlines():
         if match := _LINE.match(line.strip()):
@@ -292,10 +283,10 @@ def _places(file: Path) -> dict[str, str]:
     return found
 
 
-def _default_of(file: Path) -> tuple[float, float] | None:
-    loaded = yaml.safe_load(file.read_text(encoding="utf-8")) or {}
-    value = loaded.get("default")
-    return (float(value[0]), float(value[1])) if value else None
+def _default_of(file: Path) -> tuple[float, float]:
+    """The city centre a venue file places unlisted rooms at."""
+    value = yaml.safe_load(file.read_text(encoding="utf-8"))["default"]
+    return (float(value[0]), float(value[1]))
 
 
 def _write(file: Path, title: str, default: tuple[float, float], rooms: Iterable[Entry]) -> None:
@@ -304,11 +295,12 @@ def _write(file: Path, title: str, default: tuple[float, float], rooms: Iterable
         f"# Room coordinates for {title}, kept with tools/review_venues.py.",
         "# Latitude then longitude, placed by reviewers from a map: not surveyed.",
         f"default: [{default[0]}, {default[1]}]  # city centre, for rooms not listed",
-        "",
     ]
     for name, (lat, lon), place in sorted(rooms, key=lambda e: e[0].casefold()):
         note = f"  # {' '.join(place.split())}" if place.strip() else ""
         lines.append(f"{_yaml_key(name)}: [{lat}, {lon}]{note}")
+    if len(lines) > 3:
+        lines.insert(3, "")
     file.write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 

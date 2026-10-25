@@ -6,9 +6,9 @@ The pretalx slugs below were discovered, not guessed: the workshop suffix is
 ``-workshop`` for some conferences and ``-workshops`` for others, and the
 academic programme is ``-academic-track`` where it exists at all.
 
-Room coordinates come from ``<conference>.venue.yaml`` beside this file where
-one exists, and are the city centre otherwise. They place a conference on the
-map; they are not surveyed.
+Room coordinates come from ``<conference>.venue.yaml`` beside this file, which
+places every room it does not list on the city centre. They place a conference
+on the map; they are not surveyed.
 
 Output goes to ``docs/stac``, which GitHub Pages publishes, and what it covers to
 the README's coverage section. The catalog is
@@ -47,20 +47,9 @@ def event(slug: str) -> str:
     return f"{PRETALX}/{slug}/schedule/"
 
 
-def venue_file(conference: str) -> Path:
-    """Where a conference's room coordinates are kept, once someone has placed them."""
+def venue(conference: str) -> Path:
+    """A conference's room coordinates, kept with ``tools/review_venues.py``."""
     return HERE / f"{conference}.venue.yaml"
-
-
-def venue(conference: str, latitude: float, longitude: float) -> Venue:
-    """The conference's venue file if there is one, else every room at the city centre.
-
-    ``tools/review_venues.py`` writes these files; see CONTRIBUTING.md.
-    """
-    path = venue_file(conference)
-    if path.exists():
-        return Venue.from_file(path)
-    return Venue.from_mapping({}, default=(latitude, longitude))
 
 
 def videos(peertube: str = "", youtube: str = "") -> list[Recordings]:
@@ -77,7 +66,7 @@ CONFERENCES = [
     Conference(
         id="foss4g-2022",
         title="FOSS4G 2022 Firenze",
-        venue=venue("foss4g-2022", 43.7696, 11.2558),
+        venue=venue("foss4g-2022"),
         programmes=[
             Programme(
                 "talks",
@@ -91,7 +80,7 @@ CONFERENCES = [
     Conference(
         id="foss4g-2023",
         title="FOSS4G 2023 Prizren",
-        venue=venue("foss4g-2023", 42.2139, 20.7397),
+        venue=venue("foss4g-2023"),
         programmes=[
             Programme(
                 "talks",
@@ -104,7 +93,7 @@ CONFERENCES = [
     Conference(
         id="foss4g-europe-2024",
         title="FOSS4G Europe 2024 Tartu",
-        venue=venue("foss4g-europe-2024", 58.3780, 26.7290),
+        venue=venue("foss4g-europe-2024"),
         programmes=[
             Programme(
                 "talks",
@@ -117,7 +106,7 @@ CONFERENCES = [
     Conference(
         id="foss4g-2024",
         title="FOSS4G 2024 Belem",
-        venue=venue("foss4g-2024", -1.4558, -48.5039),
+        venue=venue("foss4g-2024"),
         programmes=[
             Programme(
                 "talks",
@@ -131,7 +120,7 @@ CONFERENCES = [
     Conference(
         id="foss4g-europe-2025",
         title="FOSS4G Europe 2025 Mostar",
-        venue=venue("foss4g-europe-2025", 43.3416, 17.8094),
+        venue=venue("foss4g-europe-2025"),
         programmes=[
             Programme(
                 "talks",
@@ -144,7 +133,7 @@ CONFERENCES = [
     Conference(
         id="foss4g-2025",
         title="FOSS4G 2025 Auckland",
-        venue=venue("foss4g-2025", -36.8485, 174.7633),
+        venue=venue("foss4g-2025"),
         description=(
             "FOSS4G 2025 Auckland: one pretalx event for the whole programme. "
             "Its workshops and academic papers are Items here too, told apart "
@@ -161,7 +150,7 @@ CONFERENCES = [
     Conference(
         id="foss4g-europe-2026",
         title="FOSS4G Europe 2026 Timisoara",
-        venue=venue("foss4g-europe-2026", 45.7489, 21.2087),
+        venue=venue("foss4g-europe-2026"),
         programmes=[
             Programme("talks", event("foss4g-europe-2026")),
             Programme("workshops", event("foss4g-europe-2026-workshops")),
@@ -170,7 +159,7 @@ CONFERENCES = [
     Conference(
         id="foss4g-2026",
         title="FOSS4G 2026 Hiroshima",
-        venue=venue("foss4g-2026", 34.3853, 132.4553),
+        venue=venue("foss4g-2026"),
         programmes=[
             Programme("talks", event("foss4g-2026")),
             Programme("workshops", event("foss4g-2026-workshop")),
@@ -208,8 +197,7 @@ def coverage(catalog: pystac.Catalog) -> list[ConferenceCoverage]:
     """What the built catalog holds, measured against what its sources offered."""
     report = []
     for conference in CONFERENCES:
-        venue = conference.venue
-        knows = venue.knows if isinstance(venue, Venue) else lambda room: False
+        knows = Venue.from_file(venue(conference.id)).knows
         built = _child(catalog, conference.id)
         rooms: Counter[str] = Counter()
         programmes = []
@@ -221,7 +209,7 @@ def coverage(catalog: pystac.Catalog) -> list[ConferenceCoverage]:
                 a.href for i in items for k, a in i.assets.items() if k.startswith("recording")
             }
             videos = {}
-            for source in programme.recordings:
+            for source in programme.references:
                 if isinstance(source, Recordings):
                     listed = {v.url for v in source.videos}
                     videos[source.source] = (len(listed & attached), len(listed))

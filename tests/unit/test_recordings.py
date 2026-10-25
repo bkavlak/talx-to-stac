@@ -139,10 +139,17 @@ def test_the_catalogue_is_read_once_however_many_sessions_ask():
         ),
     ],
 )
-def test_a_playlist_is_named_by_id_or_by_any_url_carrying_one(given, expected):
-    from talx_to_stac.recordings import _playlist_url
+def test_a_youtube_playlist_is_named_by_id_or_by_any_url_carrying_one(given, expected, monkeypatch):
+    yt_dlp = pytest.importorskip("yt_dlp")
+    asked = []
 
-    assert _playlist_url(given) == expected
+    def extract_info(self, url, download):
+        asked.append(url)
+        return {"entries": [{"id": "abc", "title": "FOSS4GE 2025 | Talk 1"}]}
+
+    monkeypatch.setattr(yt_dlp.YoutubeDL, "extract_info", extract_info)
+    assert urls(Recordings.youtube(given), "Talk 1") == ["https://www.youtube.com/watch?v=abc"]
+    assert asked == [expected]
 
 
 def test_a_recording_names_the_platform_it_came_from():
@@ -152,10 +159,9 @@ def test_a_recording_names_the_platform_it_came_from():
 
 
 def test_the_shipped_catalogues_name_their_platforms():
-    from talx_to_stac.recordings import _PeerTubeChannel, _YouTubePlaylist
-
-    assert _PeerTubeChannel.source == "peertube"
-    assert _YouTubePlaylist.source == "youtube"
+    assert Recordings.peertube_channel("chan").source == "peertube"
+    assert Recordings.peertube_playlist("abc123").source == "peertube"
+    assert Recordings.youtube("PL123").source == "youtube"
 
 
 def test_the_peertube_playlist_unwraps_each_entry():
@@ -167,12 +173,12 @@ def test_the_peertube_playlist_unwraps_each_entry():
     assert urls(src, "Talk 1") == ["https://video.osgeo.org/videos/watch/id1"]
 
 
-def test_a_playlist_url_and_a_bare_id_name_the_same_playlist():
-    from talx_to_stac.recordings import _PEERTUBE_ID
-
-    found = _PEERTUBE_ID.search("https://video.osgeo.org/w/p/abc123?x=1")
-    assert found is not None and found.group(1) == "abc123"
-    assert _PEERTUBE_ID.search("abc123") is None
+@pytest.mark.parametrize("playlist", ["abc123", "https://video.osgeo.org/w/p/abc123?x=1"])
+def test_a_peertube_playlist_is_named_by_id_or_by_its_url(playlist):
+    data = [{"video": {"name": "FOSS4GE 2025 | Talk 1", "shortUUID": "id1"}}]
+    client = stub_client({"video-playlists/abc123/": {"total": 1, "data": data}})
+    src = Recordings.peertube_playlist(playlist, client=client)
+    assert urls(src, "Talk 1") == ["https://video.osgeo.org/videos/watch/id1"]
 
 
 def test_the_peertube_channel_pages_through_the_api():

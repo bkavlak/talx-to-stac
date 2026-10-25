@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-# Rebuild examples/browser/ from source. Needs node and git; takes a few minutes.
-# The checked-in build was made exactly this way.
+# Build examples/browser/ from source. Needs node and git; takes a few minutes.
+# The build is gitignored, so run this once after cloning.
 set -euo pipefail
 
 VERSION="v5.0.0"

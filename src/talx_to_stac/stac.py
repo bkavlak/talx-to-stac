@@ -64,7 +64,7 @@ def build_collection(
         id=collection_id or schedule.event.acronym,
         title=schedule.event.title,
         description=_describe(schedule),
-        extent=_extent(items, schedule),
+        extent=extent_of(items),
         license=LICENSE,
         keywords=list(schedule.event.tracks),
         providers=_providers(schedule.event),
@@ -173,29 +173,20 @@ def _add_links(item: pystac.Item, session: Session, references: Iterable[Referen
             item.add_link(pystac.Link(rel="related", target=reference.url, title=reference.title))
 
 
-def _extent(items: Sequence[pystac.Item], schedule: Schedule) -> pystac.Extent:
-    """Derive both extents from the Items, never from what the caller claimed."""
-    boxes = [item.bbox for item in items if item.bbox]
-    bbox = (
-        [
-            min(b[0] for b in boxes),
-            min(b[1] for b in boxes),
-            max(b[2] for b in boxes),
-            max(b[3] for b in boxes),
-        ]
-        if boxes
-        else [-180.0, -90.0, 180.0, 90.0]
-    )
-    moments = [s.start for s in schedule.sessions]
-    interval: list[dt.datetime | None] = (
-        [_utc(min(moments)), _utc(max(s.end for s in schedule.sessions))]
-        if moments
-        else [None, None]
-    )
-    return pystac.Extent(
-        spatial=pystac.SpatialExtent([bbox]),
-        temporal=pystac.TemporalExtent([interval]),
-    )
+def extent_of(items: Iterable[pystac.Item]) -> pystac.Extent:
+    """Cover every Item in space and time: the one extent rule, for any level of the tree.
+
+    With no Items there is nothing to cover, so the extent is the whole Earth and
+    all time, which is valid STAC where pystac's own empty extent is not.
+    """
+    found = list(items)
+    if not found:
+        always: list[dt.datetime | None] = [None, None]
+        return pystac.Extent(
+            pystac.SpatialExtent([[-180.0, -90.0, 180.0, 90.0]]),
+            pystac.TemporalExtent([always]),
+        )
+    return pystac.Extent.from_items(found)
 
 
 def _summaries(items: Sequence[pystac.Item]) -> pystac.Summaries:
