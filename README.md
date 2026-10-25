@@ -64,6 +64,13 @@ STAC Browser pointed at its URL.
 
 See [ARCHITECTURE.md](ARCHITECTURE.md) for the design and its reasoning.
 
+## Coverage
+
+How much of each conference the published catalog fills in.
+
+<!-- coverage -->
+<!-- /coverage -->
+
 ## Review the recording matches
 
 Pretalx does not know where a talk's video ended up, so recordings are matched

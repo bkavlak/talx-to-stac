@@ -10,12 +10,16 @@ Room coordinates come from ``<conference>.venue.yaml`` beside this file where
 one exists, and are the city centre otherwise. They place a conference on the
 map; they are not surveyed.
 
-Output goes to ``docs/stac``, which GitHub Pages publishes. The catalog is
+Output goes to ``docs/stac``, which GitHub Pages publishes, and what it covers to
+the README's coverage section. The catalog is
 self-contained -- every link inside it is relative -- so it reads correctly from
 a local server, from Pages, or from anywhere else it is copied.
 """
 
 import html
+import re
+from collections import Counter
+from dataclasses import dataclass
 from pathlib import Path
 
 import pystac
@@ -28,6 +32,8 @@ from talx_to_stac.venue import Venue
 HERE = Path(__file__).parent
 DOCS = HERE.parent / "docs"
 PUBLISHED = DOCS / "stac"
+README = HERE.parent / "README.md"
+PLATFORMS = {"peertube": "PeerTube", "youtube": "YouTube"}
 PRETALX = "https://talks.osgeo.org"
 CATALOG_URL = "https://bkavlak.github.io/talx-to-stac/stac/catalog.json"
 BROWSERS = {
@@ -173,39 +179,138 @@ CONFERENCES = [
 ]
 
 
-def counted(catalog: pystac.Catalog) -> list[tuple[str, list[tuple[str, int, int]]]]:
-    """Each conference with, per programme, how many sessions and how many are filmed."""
-    rows = []
-    for conference in catalog.get_children():
+@dataclass(frozen=True, slots=True)
+class ProgrammeCoverage:
+    """How much of one programme the catalog could fill in."""
+
+    name: str
+    sessions: int
+    filmed: int
+    """Sessions with at least one recording."""
+    videos: dict[str, tuple[int, int]]
+    """Per platform: videos attached to a session, and videos the platform lists."""
+
+
+@dataclass(frozen=True, slots=True)
+class ConferenceCoverage:
+    """How much of one conference the catalog could fill in."""
+
+    title: str
+    rooms: int
+    placed: int
+    """Rooms the venue file places; the others sit on the city centre."""
+    sessions: int
+    sessions_placed: int
+    programmes: list[ProgrammeCoverage]
+
+
+def coverage(catalog: pystac.Catalog) -> list[ConferenceCoverage]:
+    """What the built catalog holds, measured against what its sources offered."""
+    report = []
+    for conference in CONFERENCES:
+        venue = conference.venue
+        knows = venue.knows if isinstance(venue, Venue) else lambda room: False
+        built = _child(catalog, conference.id)
+        rooms: Counter[str] = Counter()
         programmes = []
-        for programme in conference.get_children():
-            items = list(programme.get_items())
-            recorded = sum(any(k.startswith("recording") for k in i.assets) for i in items)
-            programmes.append((str(programme.title), len(items), recorded))
-        rows.append((str(conference.title), programmes))
-    return rows
+        for programme in conference.programmes:
+            child = _child(built, f"{conference.id}-{programme.name}")
+            items = list(child.get_items())
+            rooms.update(str(i.properties.get("talk:room")) for i in items)
+            attached = {
+                a.href for i in items for k, a in i.assets.items() if k.startswith("recording")
+            }
+            videos = {}
+            for source in programme.recordings:
+                if isinstance(source, Recordings):
+                    listed = {v.url for v in source.videos}
+                    videos[source.source] = (len(listed & attached), len(listed))
+            filmed = sum(any(k.startswith("recording") for k in i.assets) for i in items)
+            programmes.append(ProgrammeCoverage(programme.name, len(items), filmed, videos))
+        placed = [room for room in rooms if knows(room)]
+        report.append(
+            ConferenceCoverage(
+                title=conference.title,
+                rooms=len(rooms),
+                placed=len(placed),
+                sessions=sum(rooms.values()),
+                sessions_placed=sum(rooms[r] for r in placed),
+                programmes=programmes,
+            )
+        )
+    return report
 
 
-def write_index(rows: list[tuple[str, list[tuple[str, int, int]]]], path: Path) -> None:
+def _child(parent: pystac.Catalog, ident: str) -> pystac.Catalog:
+    child = parent.get_child(ident)
+    if child is None:
+        raise LookupError(f"{ident} is missing from the catalog")
+    return child
+
+
+def write_coverage(report: list[ConferenceCoverage], path: Path) -> None:
+    """Rewrite the README's coverage section, between its two markers, from the report."""
+    platforms = sorted({p for c in report for g in c.programmes for p in g.videos})
+    lines = [
+        "Written by `examples/foss4g.py` from the catalog it publishes; edits here are lost.",
+        "",
+        "**Recordings.** Sessions with a recording, and how many of each platform's videos",
+        "were matched to a session. The rest are reviewable with `tools/review_matches.py`.",
+        "",
+        "| Programme | Sessions | Filmed | "
+        + " | ".join(f"{PLATFORMS.get(p, p)} matched" for p in platforms)
+        + " |",
+        "| --- | ---: | ---: | " + " | ".join("---:" for _ in platforms) + " |",
+    ]
+    for c in report:
+        for g in c.programmes:
+            if not g.videos:
+                continue
+            cells = [
+                f"{g.videos[p][0]} of {g.videos[p][1]}" if p in g.videos else "-" for p in platforms
+            ]
+            row = [f"{c.title}, {g.name}", str(g.sessions), str(g.filmed), *cells]
+            lines.append("| " + " | ".join(row) + " |")
+    lines += [
+        "",
+        "**Locations.** Rooms placed by a reviewer, and the share of sessions held in them.",
+        "Every other room sits on its city centre; `tools/review_venues.py` places them.",
+        "",
+        "| Conference | Rooms placed | Sessions placed |",
+        "| --- | ---: | ---: |",
+    ]
+    for c in report:
+        share = c.sessions_placed / c.sessions if c.sessions else 0.0
+        lines.append(f"| {c.title} | {c.placed} of {c.rooms} | {share:.0%} of {c.sessions} |")
+    text = path.read_text(encoding="utf-8")
+    section = _COVERAGE.sub(
+        lambda m: f"{m.group(1)}\n" + "\n".join(lines) + f"\n{m.group(2)}", text
+    )
+    path.write_text(section, encoding="utf-8")
+
+
+def write_index(report: list[ConferenceCoverage], path: Path) -> None:
     """Write the landing page GitHub Pages serves, with counts taken from the catalog."""
-    total = sum(n for _, ps in rows for _, n, _ in ps)
+    total = sum(g.sessions for c in report for g in c.programmes)
     body = "\n".join(
         "<tr><th>{}</th><td>{}</td></tr>".format(
-            html.escape(conference),
+            html.escape(c.title),
             " ".join(
-                f'<span class="p">{html.escape(name)} <b>{n}</b>'
-                + (f" <i>{rec} filmed</i>" if rec else "")
+                f'<span class="p">{html.escape(g.name.capitalize())} <b>{g.sessions}</b>'
+                + (f" <i>{g.filmed} filmed</i>" if g.filmed else "")
                 + "</span>"
-                for name, n, rec in programmes
+                for g in c.programmes
             ),
         )
-        for conference, programmes in rows
+        for c in report
     )
     links = " ".join(
         f'<a class="b" href="{url}">Open in {html.escape(n)}</a>' for n, url in BROWSERS.items()
     )
     path.write_text(_PAGE.format(total=total, catalog=CATALOG_URL, links=links, rows=body), "utf-8")
 
+
+_COVERAGE = re.compile(r"(<!-- coverage -->)\n(?:.*?\n)?(<!-- /coverage -->)", re.S)
 
 _PAGE = """<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
@@ -262,12 +367,13 @@ def main() -> None:
     )
     catalog.normalize_and_save(str(PUBLISHED), catalog_type=CatalogType.SELF_CONTAINED)
 
-    rows = counted(catalog)
-    write_index(rows, DOCS / "index.html")
-    for conference, programmes in rows:
-        print(conference)
-        for name, n, recorded in programmes:
-            print(f"  {name:12} {n:4d} items  {recorded:4d} recorded")
+    report = coverage(catalog)
+    write_index(report, DOCS / "index.html")
+    write_coverage(report, README)
+    for c in report:
+        print(f"{c.title}: {c.placed} of {c.rooms} rooms placed")
+        for g in c.programmes:
+            print(f"  {g.name:12} {g.sessions:4d} items  {g.filmed:4d} recorded  {g.videos}")
 
 
 if __name__ == "__main__":
