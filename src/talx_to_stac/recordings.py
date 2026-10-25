@@ -30,6 +30,7 @@ if TYPE_CHECKING:
 _LOG = logging.getLogger(__name__)
 _PEERTUBE_ID = re.compile(r"/w/p/([A-Za-z0-9]+)")
 _PAGE = 100
+_TIMEOUT = 30.0
 _LIMIT = 5000
 _MIN_PREFIX = 24
 """Shortest title trusted when it merely resembles another."""
@@ -73,7 +74,7 @@ class Recordings:
 
     Example:
         >>> to_stac(url, references=[
-        ...     Recordings.video_osgeo("foss4geurope", event="FOSS4GE 2025"),
+        ...     Recordings.peertube_channel("foss4geurope", event="FOSS4GE 2025"),
         ...     Recordings.youtube("PLqa06jy1NEM0Ss-CMTP4LrOw0f5aeVHdk", event="FOSS4GE 2025"),
         ... ])
     """
@@ -114,7 +115,6 @@ class Recordings:
         event: str | None = None,
         host: str = VIDEO_OSGEO,
         client: httpx.Client | None = None,
-        timeout: float = 30.0,
     ) -> Recordings:
         """Recordings from a PeerTube channel.
 
@@ -125,12 +125,11 @@ class Recordings:
             event: The tag the video titles carry.
             host: The PeerTube instance, video.osgeo.org by default.
             client: An httpx client to reuse.
-            timeout: Request timeout in seconds when creating a client.
 
         Returns:
             The configured source.
         """
-        return cls(_PeerTubeChannel(channel, host.rstrip("/"), client, timeout), event=event)
+        return cls(_PeerTube(host.rstrip("/"), f"video-channels/{channel}", client), event=event)
 
     @classmethod
     def peertube_playlist(
@@ -140,7 +139,6 @@ class Recordings:
         event: str | None = None,
         host: str = VIDEO_OSGEO,
         client: httpx.Client | None = None,
-        timeout: float = 30.0,
     ) -> Recordings:
         """Recordings from a PeerTube playlist.
 
@@ -149,14 +147,14 @@ class Recordings:
             event: Rarely needed; a playlist is already one conference.
             host: The PeerTube instance, video.osgeo.org by default.
             client: An httpx client to reuse.
-            timeout: Request timeout in seconds when creating a client.
 
         Returns:
             The configured source.
         """
         found = _PEERTUBE_ID.search(playlist)
         identifier = found.group(1) if found else playlist
-        return cls(_PeerTubePlaylist(identifier, host.rstrip("/"), client, timeout), event=event)
+        listing = f"video-playlists/{identifier}"
+        return cls(_PeerTube(host.rstrip("/"), listing, client), event=event)
 
     @classmethod
     def youtube(cls, playlist: str, *, event: str | None = None) -> Recordings:
@@ -304,73 +302,47 @@ class _Eligible:
 
 
 @dataclass(frozen=True, slots=True)
-class _PeerTubeChannel:
-    """Every video a PeerTube channel holds."""
+class _PeerTube:
+    """A PeerTube listing: a channel's videos or a playlist's entries."""
 
-    channel: str
     host: str
+    listing: str
+    """The API path below ``/api/v1``, e.g. ``video-channels/foss4geurope``."""
     client: httpx.Client | None
-    timeout: float
 
     source: ClassVar[str] = "peertube"
 
     def videos(self) -> Iterator[Video]:
-        """List the channel."""
-        url = f"{self.host}/api/v1/video-channels/{self.channel}/videos"
-        for item in _peertube_items(url, self.client, self.timeout):
-            yield _peertube_video(item, self.host)
+        """Page through the listing until every entry has been seen.
+
+        A playlist wraps each entry around its video, which is null once the
+        video is deleted; a channel lists videos bare.
+        """
+        url = f"{self.host}/api/v1/{self.listing}/videos"
+        client = self.client or httpx.Client(timeout=_TIMEOUT, follow_redirects=True)
+        try:
+            start = 0
+            while start < _LIMIT:
+                params = {"count": _PAGE, "start": start}
+                page: dict[str, Any] = client.get(url, params=params).raise_for_status().json()
+                items = page.get("data") or []
+                for item in items:
+                    video = item.get("video", item) or {}
+                    identifier = video.get("shortUUID") or video.get("uuid") or ""
+                    yield Video(
+                        title=str(video.get("name") or ""),
+                        url=f"{self.host}/videos/watch/{identifier}",
+                    )
+                start += len(items)
+                if not items or start >= int(page.get("total", 0)):
+                    return
+        finally:
+            if self.client is None:
+                client.close()
 
     def __str__(self) -> str:
-        """Name the channel, for the warning when it cannot be read."""
-        return f"{self.host} channel {self.channel!r}"
-
-
-@dataclass(frozen=True, slots=True)
-class _PeerTubePlaylist:
-    """A PeerTube playlist, which wraps each entry around its video."""
-
-    playlist: str
-    host: str
-    client: httpx.Client | None
-    timeout: float
-
-    source: ClassVar[str] = "peertube"
-
-    def videos(self) -> Iterator[Video]:
-        """List the playlist."""
-        url = f"{self.host}/api/v1/video-playlists/{self.playlist}/videos"
-        for item in _peertube_items(url, self.client, self.timeout):
-            yield _peertube_video(item.get("video") or {}, self.host)
-
-    def __str__(self) -> str:
-        """Name the playlist, for the warning when it cannot be read."""
-        return f"{self.host} playlist {self.playlist!r}"
-
-
-def _peertube_items(
-    url: str, client: httpx.Client | None, timeout: float
-) -> Iterator[dict[str, Any]]:
-    """Page through a PeerTube listing until every entry has been seen."""
-    owned = client or httpx.Client(timeout=timeout, follow_redirects=True)
-    try:
-        start = 0
-        while start < _LIMIT:
-            page: dict[str, Any] = (
-                owned.get(url, params={"count": _PAGE, "start": start}).raise_for_status().json()
-            )
-            items = page.get("data") or []
-            yield from items
-            start += len(items)
-            if not items or start >= int(page.get("total", 0)):
-                return
-    finally:
-        if client is None:
-            owned.close()
-
-
-def _peertube_video(raw: dict[str, Any], host: str) -> Video:
-    identifier = raw.get("shortUUID") or raw.get("uuid") or ""
-    return Video(title=str(raw.get("name") or ""), url=f"{host}/videos/watch/{identifier}")
+        """Name the listing, for the warning when it cannot be read."""
+        return f"{self.host} {self.listing}"
 
 
 @dataclass(frozen=True, slots=True)

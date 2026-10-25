@@ -50,7 +50,6 @@ class Room:
     """A physical room, without coordinates -- pretalx does not have them."""
 
     name: str
-    slug: str | None = None
     capacity: int | None = None
     description: str | None = None
 
@@ -123,14 +122,12 @@ class Schedule:
         event_url: str,
         *,
         client: httpx.Client | None = None,
-        timeout: float = 30.0,
     ) -> Schedule:
         """Fetch and parse the schedule for a pretalx event.
 
         Args:
             event_url: Any URL inside the event, such as its schedule page.
             client: An httpx client to reuse. One is created and closed if omitted.
-            timeout: Request timeout in seconds, used only when creating a client.
 
         Returns:
             The parsed schedule.
@@ -141,7 +138,7 @@ class Schedule:
         url = export_url(event_url)
         try:
             if client is None:
-                with httpx.Client(timeout=timeout, follow_redirects=True) as owned:
+                with httpx.Client(timeout=30.0, follow_redirects=True) as owned:
                     payload = owned.get(url).raise_for_status().json()
             else:
                 payload = client.get(url).raise_for_status().json()
@@ -283,7 +280,6 @@ def _rooms(raw: Sequence[Mapping[str, Any]], sessions: Sequence[Session]) -> tup
     declared = {
         str(r["name"]): Room(
             name=str(r["name"]),
-            slug=_text(r.get("slug")),
             capacity=int(r["capacity"]) if r.get("capacity") is not None else None,
             description=_text(r.get("description")),
         )

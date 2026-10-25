@@ -37,7 +37,7 @@ stay true however the matching changes. That is what makes them a test.
 
 Every talk is a STAC Item placed at its room, but pretalx does not know where
 rooms are. A conference's rooms come from `examples/<conference>.venue.yaml`;
-until someone writes one, every room sits on the city centre.
+a room the file does not list sits on its `default`, the city centre.
 
 1. Run `uv run python tools/review_venues.py`. It shows one conference's rooms
    on a map, with how many sessions each holds and what pretalx says about it --

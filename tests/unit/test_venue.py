@@ -13,11 +13,6 @@ def test_room_names_match_loosely(spelling):
     assert Venue.from_mapping({"Hall": [1.0, 2.0]}).point_for(spelling)["coordinates"] == [2.0, 1.0]
 
 
-def test_a_room_may_be_keyed_by_its_slug():
-    venue = Venue.from_mapping({"245-el11": [1.0, 2.0]})
-    assert venue.knows("245-EL11")
-
-
 def test_an_unknown_room_falls_back_to_the_default_rather_than_failing():
     venue = Venue.from_mapping({"Hall": [1.0, 2.0]}, default=[9.0, 8.0])
     assert venue.point_for("Nowhere")["coordinates"] == [8.0, 9.0]

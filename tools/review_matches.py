@@ -81,12 +81,12 @@ def programmes(*, refresh: bool) -> list[Programme]:
     found = []
     for conference in _example().CONFERENCES:
         for programme in conference.programmes:
-            if not programme.recordings:
+            if not programme.references:
                 continue
             ident = f"{conference.id}-{programme.name}"
             cached = CACHE / f"{ident}.json"
             if refresh or not cached.exists():
-                _capture(cached, programme.event_url, programme.recordings)
+                _capture(cached, programme.event_url, programme.references)
             raw = json.loads(cached.read_text(encoding="utf-8"))
             found.append(
                 Programme(
@@ -269,13 +269,13 @@ def main() -> None:
         server.serve_forever()
 
 
-def _capture(path: Path, event_url: str, recordings: Sequence[Any]) -> None:
+def _capture(path: Path, event_url: str, references: Sequence[Any]) -> None:
     """Fetch one programme's schedule and every video its sources list."""
     print(f"fetching {event_url}", flush=True)
     schedule = httpx.get(export_url(event_url), follow_redirects=True, timeout=60)
     playlists = {
         r.source: [{"title": v.title, "url": v.url} for v in r.videos]
-        for r in recordings
+        for r in references
         if isinstance(r, Recordings)
     }
     path.parent.mkdir(parents=True, exist_ok=True)
