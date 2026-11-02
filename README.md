@@ -120,6 +120,7 @@ Pretalx knows neither where a talk's video ended up nor where its room is, so
 recordings are matched by title and rooms are placed by hand. Both need people
 to check them: `tools/review_matches.py` and `tools/review_venues.py` each open
 a review page, and [CONTRIBUTING.md](CONTRIBUTING.md) walks through both.
+[LAYA.md](LAYA.md) describes how the Laya decision engine helped with matching.
 
 ## Try it locally
 
